@@ -1,5 +1,7 @@
 # albcourse
 
+-----------------THIS IS EXPLORATORY AND NOT FINAL OR A FINISHED PRODUCT----------------------------
+
 A spaced-repetition Albanian course built the way a kanji course is built: around
 **roots and word families** rather than around characters.
 
