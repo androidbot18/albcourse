@@ -6,7 +6,7 @@
 
 import { GRADES, review, stage, STAGE_NAMES, summarise, buildQueue, newItem } from './srs.js';
 import { createStore, exportProgress, importProgress } from './store.js';
-import { loadIndex, loadLevel, groupByFamily, sensesOf, firstExample } from './course.js';
+import { loadIndex, loadLevel, groupByFamily, sensesOf, firstExample, displayPosLabels } from './course.js';
 
 const store = createStore(typeof localStorage !== 'undefined' ? localStorage : null);
 
@@ -83,7 +83,10 @@ function viewMap(root) {
     const b = el('button', 'level-chip');
     b.type = 'button';
     b.append(el('span', 'lvl-num', String(l.level)));
-    b.append(el('span', 'lvl-meta', l.families + ' fam'));
+    // The root IS the level's identity, so it leads the chip; the word count
+    // is secondary. "të, e, në +1" is meaningful, "3 fam" is not.
+    b.append(el('span', 'lvl-root', l.title || String(l.level)));
+    b.append(el('span', 'lvl-meta', l.word_count + 'w'));
     b.addEventListener('click', () => openLevel(l.level));
     grid.append(b);
   }
@@ -115,7 +118,11 @@ function viewLevel(root) {
   back.addEventListener('click', () => { state.view = 'map'; render(); });
   head.append(back);
   head.append(el('h1', null, data.title || 'Level ' + data.level));
-  head.append(el('p', 'sub', data.word_count + ' words · ' + data.families.length + ' families'));
+  const bits = [data.word_count + ' words',
+              data.families.length + ' famil' + (data.families.length === 1 ? 'y' : 'ies')];
+  if (data.root && data.root_gloss) bits.push('root ' + data.root + ' \u2014 ' + data.root_gloss);
+  if (data.parts > 1) bits.push('part ' + data.part + ' of ' + data.parts);
+  head.append(el('p', 'sub', bits.join(' \u00b7 ')));
   root.append(head);
 
   for (const [family, words] of groupByFamily(data.words)) {
@@ -130,7 +137,7 @@ function wordRow(w) {
   const row = el('div', 'word');
   const top = el('div', 'word-top');
   top.append(el('span', 'sq', w.sq));
-  top.append(el('span', 'pos', (w.pos_labels || w.pos || []).slice(0, 2).join(', ')));
+  top.append(el('span', 'pos', displayPosLabels(w, 2).join(', ')));
   row.append(top);
   row.append(el('div', 'en', w.en));
 

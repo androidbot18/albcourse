@@ -15,13 +15,29 @@ built on it, then the descendants.
 | | |
 |---|---|
 | Words | 3,731 |
-| Levels | 184 |
+| Levels | 1,103 |
 | Word families | 3,278 |
 | Families with more than one member | 245 |
 | Words containing ë / ç | 1,535 |
 
 Levels are ordered by corpus frequency, so level 1 is genuinely the first thing
-you should learn. Within a level, related words sit together.
+you should learn.
+
+A level is a **session of whole word families**, not a frequency slice:
+
+* A family is never split apart by the level boundaries. A root and its
+  derivations unlock together, so a level teaches a word group rather than an
+  arbitrary slice of the frequency list.
+* A level holds at most 3 roots and at most 9 words, which is the
+  ~9-items-per-level rhythm of a real course.
+* Roots unlock in frequency order: a family starts when its own root is common
+  enough to be worth teaching, not when one of its rare derivatives surfaces.
+* Three families are larger than a single session (`marr`, `bashkë`, `krye`).
+  Those split into `1/2` and `2/2` levels, and a continuation always gets a
+  level to itself so the label is never misleading.
+
+Levels are titled after the root they teach, the way a Wanikani level is named
+after the radical it unlocks.
 
 ## Running it
 
@@ -53,7 +69,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        184 level descriptors, loaded first
+      index.json        1,103 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -70,6 +86,34 @@ The 65 MB of raw upstream downloads is not committed. Fetch it with:
 
 build_course.py decides which sense of a word becomes its headline gloss, which
 is the part worth reading before changing anything there.
+
+## Anki export
+
+The whole course also ships as an Anki deck. The structure is preserved
+rather than flattened, because the structure is the point: **one deck per
+level, named for the root that level teaches**, and every note carries its
+root, family, family size, level and frequency rank as separate fields you can
+search and sort on.
+
+    pip3 install -r tools/requirements.txt
+    python3 tools/export_anki.py
+
+That writes dist/albanian-roots-families.apkg (1,103 decks, 3,731 notes). It is
+gitignored because it is a build artifact; regenerate it any time.
+
+Import it in Anki with File > Import, and pick the single .apkg file. Notes
+carry a deterministic guid, so re-importing after a data rebuild updates the
+existing notes in place instead of duplicating them.
+
+To check an export without opening Anki:
+
+    python3 tools/verify_anki.py
+
+It unzips the package, opens the collection database, and counts decks, notes
+and level tags, then confirms the card templates only reference fields that
+actually exist. The test runner also runs a negative control, which corrupts
+the deck ids and asserts the verifier fails - a check that cannot fail is not
+a check.
 
 ## The scheduler
 

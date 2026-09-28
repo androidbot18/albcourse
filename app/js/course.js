@@ -1,14 +1,31 @@
 /* course.js - loads the generated course data.
  *
  * The level files are fetched lazily: index.json first for the map, then one
- * level at a time as the learner reaches it. 184 levels in one bundle would be
+ * level at a time as the learner reaches it. Every level in one bundle would be
  * several megabytes of JSON the user downloads before the first card.
  */
 
 const DATA_BASE = '../data';
 
+/* Filename padding is chosen by the BUILD, not hardcoded here. The generator
+ * sizes the zero-pad to the level count, so a hardcoded width silently 404s
+ * the moment the course crosses 10, 100 or 1000 levels -- which it just did:
+ * padStart(3) broke every level from 1000 upward. The width is now set from the
+ * level count reported in the course data, and a test asserts that the app's
+ * width matches the width actually used on disk. */
+let padWidth = 4;
+
+export function setLevelWidth(w) {
+  if (Number.isInteger(w) && w >= 1) padWidth = w;
+  return padWidth;
+}
+
+export function getLevelWidth() {
+  return padWidth;
+}
+
 export function levelPath(n) {
-  return `${DATA_BASE}/levels/level_${String(n).padStart(3, '0')}.json`;
+  return `${DATA_BASE}/levels/level_${String(n).padStart(padWidth, '0')}.json`;
 }
 
 export async function fetchJSON(url) {
@@ -17,12 +34,35 @@ export async function fetchJSON(url) {
   return res.json();
 }
 
+/* The index is the first thing the app loads and it already lists every
+ * level, so the highest level number tells us exactly how wide the build
+ * zero-padded its filenames. Deriving the width here means a course that
+ * grows past 999 levels keeps working with no change to the app. */
 export function loadIndex(base = DATA_BASE) {
-  return fetchJSON(`${base}/index.json`);
+  return fetchJSON(`${base}/index.json`).then((idx) => {
+    const max = idx.reduce((m, l) => Math.max(m, l.level || 0), 0);
+    if (max > 0) setLevelWidth(String(max).length);
+    return idx;
+  });
 }
 
 export function loadLevel(n, base = DATA_BASE) {
-  return fetchJSON(`${base}/levels/level_${String(n).padStart(3, '0')}.json`);
+  return fetchJSON(`${base}/levels/level_${String(n).padStart(padWidth, '0')}.json`);
+}
+
+/* The level files keep pos and pos_labels INDEX-ALIGNED with glosses, so a
+ * repeat there is real data: 'e' really does have two distinct conjunctive
+ * senses. Displaying that array verbatim renders "conjunction, conjunction".
+ * Showing a card's POS therefore means the first n DISTINCT labels, not the
+ * first n senses. The full aligned arrays stay in the data untouched. */
+export function displayPosLabels(word, n = 2) {
+  const src = (word && (word.pos_labels || word.pos)) || [];
+  const out = [];
+  for (const lbl of src) {
+    if (lbl && out.indexOf(lbl) === -1) out.push(lbl);
+    if (out.length === n) break;
+  }
+  return out;
 }
 
 /* Group a level's words by family so the lesson view can show a root with the

@@ -6,13 +6,13 @@
  * as a card whose text never gets attached to the DOM.
  */
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 import { newItem, review, GRADES, isDue, stage, STAGE_NAMES, summarise, buildQueue } from '../app/js/srs.js';
 import { createStore, normalise, exportProgress, importProgress, STORAGE_KEY } from '../app/js/store.js';
-import { groupByFamily, sensesOf, isReverseFriendly, firstExample, levelPath } from '../app/js/course.js';
+import { groupByFamily, sensesOf, isReverseFriendly, firstExample, levelPath, setLevelWidth, getLevelWidth } from '../app/js/course.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, '..');
@@ -31,7 +31,7 @@ console.log('app integration tests');
 {
   const idx = JSON.parse(readFileSync(join(ROOT, 'data', 'index.json'), 'utf8'));
   const words = JSON.parse(readFileSync(join(ROOT, 'data', 'words.json'), 'utf8'));
-  const levels = readFileSync(join(ROOT, 'data', 'levels', 'level_010.json'), 'utf8');
+  const levels = readFileSync(join(ROOT, 'data', 'levels', readdirSync(join(ROOT, 'data', 'levels')).find((f) => f.endsWith('1.json') && f.startsWith('level_'))), 'utf8');
 
   eq(Array.isArray(idx), true, 'index.json is an array of level descriptors');
   ok(idx.length > 0, 'index has levels');
@@ -156,18 +156,39 @@ console.log('app integration tests');
 
 // ---------------------------------------------------- level path convention
 {
-  eq(levelPath(1), '../data/levels/level_001.json', 'level 1 path is zero-padded to three digits');
-  eq(levelPath(10), '../data/levels/level_010.json', 'level 10 path is zero-padded');
-  eq(levelPath(184), '../data/levels/level_184.json', 'level 184 path is zero-padded');
-  // the file on disk must match the path the app will request
+  // The width is chosen by the build, so the test must learn it from the data
+  // rather than assume a digit count. It used to assert a literal 3, which is
+  // exactly the assumption that broke the app the day the course passed 1000.
   const idx = JSON.parse(readFileSync(join(ROOT, 'data', 'index.json'), 'utf8'));
+  const maxLevel = idx.reduce((m, l) => Math.max(m, l.level), 0);
+  const width = String(maxLevel).length;
+
+  setLevelWidth(width);
+  eq(getLevelWidth(), width, `level width is learned from the data (${width} digits)`);
+
+  const pad = (n) => String(n).padStart(width, '0');
+  eq(levelPath(1), '../data/levels/level_' + pad(1) + '.json', 'level 1 is zero-padded to the build width');
+  eq(levelPath(maxLevel), '../data/levels/level_' + pad(maxLevel) + '.json', 'the last level is padded the same way');
+
+  // A wrong width must produce a path that does not exist, proving the pad is
+  // load-bearing and not decorative.
+  setLevelWidth(width + 1);
+  const wrong = levelPath(1).replace('../', '');
+  let wrongExists = true;
+  try { readFileSync(join(ROOT, wrong), 'utf8'); } catch { wrongExists = false; }
+  eq(wrongExists, false, 'a wrong pad width yields a file that is genuinely missing');
+  setLevelWidth(width);
+
+  // The real check: every level the app can request must exist on disk.
   let mismatches = 0;
+  const missing = [];
   for (const l of idx) {
     const rel = levelPath(l.level).replace('../', '');
     try { readFileSync(join(ROOT, rel), 'utf8'); }
-    catch { mismatches += 1; }
+    catch { mismatches += 1; if (missing.length < 3) missing.push(l.level); }
   }
-  eq(mismatches, 0, 'every level the app can request exists on disk');
+  eq(mismatches, 0, 'every level the app can request exists on disk'
+     + (missing.length ? ' (missing: ' + missing.join(', ') + ')' : ''));
 }
 
 console.log('');

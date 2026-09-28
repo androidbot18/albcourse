@@ -17,6 +17,22 @@ DATA = ROOT / "data"
 LEVELS = DATA / "levels"
 
 
+def dedup_labels(word):
+    """POS labels for a card, deduped but order-preserving.
+
+    Prefers the human-readable pos_labels and falls back to the short pos
+    codes, so a card never ships a repeated label like
+    ["conjunction", "conjunction"].
+    """
+    labels = word.get("pos_labels") or word.get("pos") or []
+    seen, out = set(), []
+    for label in labels:
+        if label not in seen:
+            seen.add(label)
+            out.append(label)
+    return out
+
+
 def first_example(word):
     for sense in word.get("sense_detail") or []:
         for ex in sense.get("examples") or []:
@@ -50,7 +66,12 @@ def main():
                     "rank": w.get("rank"),
                     "family": w.get("family", w["id"]),
                     "is_root": bool(w.get("is_root")),
-                    "pos": (w.get("pos_labels") or w.get("pos") or [])[:2],
+                    # Distinct labels only: pos_labels is aligned with
+                    # glosses, so a homograph whose first two senses share a
+                    # POS ("e" = conj + conj) would otherwise ship as
+                    # ["conjunction", "conjunction"] and the card would
+                    # render the label twice. Dedup, then cap at 2.
+                    "pos": dedup_labels(w)[:2],
                     "etymology_class": w.get("etymology_class"),
                     "ex": first_example(w),
                 }

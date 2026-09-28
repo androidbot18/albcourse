@@ -55,10 +55,13 @@ function wordRow(w) {
 const levels = readFileSync(join(ROOT, 'data', 'index.json'), 'utf8');
 const idx = JSON.parse(levels);
 
+// The build decides the filename width; learn it from the data instead of
+// assuming a digit count, which is what silently broke this test at 1000.
+const width = String(idx.reduce((m, l) => Math.max(m, l.level), 0)).length;
 let rendered = 0, wordsSeen = 0, badSq = 0, badEn = 0, badPos = 0, badEx = 0;
 
 for (const meta of idx) {
-  const n = String(meta.level).padStart(3, '0');
+  const n = String(meta.level).padStart(width, '0');
   const lvl = JSON.parse(readFileSync(join(ROOT, 'data', 'levels', `level_${n}.json`), 'utf8'));
 
   if (lvl.level !== meta.level) { badSq += 1; continue; }
