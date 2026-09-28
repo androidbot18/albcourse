@@ -242,6 +242,73 @@ def entry_senses(entry):
 
 # -------------------------------------------------------------- etymology
 
+# --------------------------------------------------- derivation evidence
+
+# Wiktionary's structured fields cannot be trusted as a derivation graph:
+#
+#   * "parents" is extracted from the etymology text by parse_etymology(), so
+#     it picks up ENGLISH gloss words. nuk gets parents ["one", "not"],
+#     where that "not" is the English word inside 'compare Latin non ("not")'.
+#   * "derived" is a loose co-occurrence list. zbres ("descend") lists
+#     falas/falem/fale/falje/faltore; bri ("rib") lists bori, an Ottoman loan
+#     meaning "bugle".
+#
+# Both produced visible defects: nuk (the negator, "not, don't") was filed
+# under not (the noun, "swim, swimming"), and bori under the inherited bri.
+#
+# So a family edge is accepted only when the ETYMOLOGY TEXT states a
+# compositional derivation, which in Wiktionary's convention always has the
+# form "<base> (“gloss”) + <affix>":
+#
+#     From marr + -es.          marr (take) + -em.        From gjithe + ca.
+#     From ate (“father”) + dhe (“land”).
+#
+# The base is the last content token to the LEFT of the first "+", after
+# stripping reconstruction stars, parentheticals and quoted glosses. Requiring
+# a "+" is what separates derivation from mere mention: a cognate ("a cognate
+# to Proto-Slavic *mora") or a comparison names no affix and yields no edge.
+#
+# Spelling similarity is not a substitute for this evidence: marre ("shame")
+# and marrte ("twilight") are homographs of marr with unrelated meanings, and
+# tmerr ("terror") is a cognate rather than a derivative.
+
+_DERIV_LEAD_RE = re.compile(
+    r"^\s*(?:from|of|compound\s+of|compound\s+formation\s+of|"
+    r"derivation\s+from|continuing)\s+",
+    re.IGNORECASE)
+_DERIV_WORD_RE = re.compile(r"[\w\u00C0-\u024F'\u2019-]+", re.UNICODE)
+
+
+def derivations_from_text(text):
+    """Base words this entry's etymology text says it is built FROM.
+
+    Returns at most one base: a word's immediate ancestor is what makes it a
+    family member, and a transitive chain is recovered by root_of() instead.
+    """
+    if not text:
+        return []
+    # Only the first sentence states the derivation; later sentences are
+    # commentary ("possibly related to merzit", "compare Latin non").
+    head = re.split(r"(?<=[.;])\s", text.strip())[0]
+    if "+" not in head:
+        return []
+
+    left = head.split("+")[0]
+    left = _DERIV_LEAD_RE.sub("", left)
+    left = left.replace("*", "")            # proto-form reconstruction stars
+    left = re.sub(r"\([^)]*\)", " ", left)       # (gloss) / (note)
+    left = re.sub(r'“[^”]*”', " ", left)  # curly-quoted gloss
+    left = re.sub(r'"[^"]*"', " ", left)  # straight-quoted gloss
+
+    toks = _DERIV_WORD_RE.findall(left)
+    if not toks:
+        return []
+    base = toks[-1].rstrip("-")             # "di- + si" -> di
+    if not base:
+        return []
+    return [base]
+
+
 def parse_etymology(entry):
     """text / cls / parents[] / source_lang, from a raw Kaikki entry."""
     text = (entry.get("etymology_text") or "").strip()
@@ -443,24 +510,35 @@ def load_dict(path, freq):
 # ---------------------------------------------------------- word families
 
 def build_families(cards):
-    """Link words into families using etymology 'derived from' edges.
+    """Link words into families using explicit derivation evidence ONLY.
 
-    Two real edge sources:
-      * a card's etymology naming another listed word ('from <word>')
-      * a card's 'derived' list naming words built from it
+    A word joins the family of a base word only when its etymology text states
+    the derivation compositionally ("From marr + -es"). Two sources that
+    looked like evidence but are not are deliberately unused:
+
+      * "parents" - extracted from etymology text by parse_etymology(), so it
+        contains English gloss words (nuk -> [one, not]). A family edge built
+        on it links unrelated words whenever the English word happens to also
+        be an Albanian word.
+      * "derived" - Wiktionary's loose co-occurrence list. bri ("rib") lists
+        bori ("bugle"); zbres ("descend") lists falas, falem, fale.
+
+    Both produced real, visible defects: nuk (the negator "not, don't") was
+    filed under not (the noun "swim, swimming"), and the loan bori under the
+    inherited bri. Spelling similarity is not a substitute for evidence either
+    -- marre ("shame") and marrtë ("twilight") are homographs of marr with
+    unrelated meanings, while tmerr ("terror") is a cognate, not a derivative.
     """
     words = {c["word"] for c in cards}
+    by_word = {c["word"]: c for c in cards}
     parent = {}
 
     for c in cards:
         w = c["word"]
-        for p in c["parents"]:
-            if p in words and p != w:
-                parent.setdefault(w, p)
+        for base in derivations_from_text(c.get("etymology", "")):
+            if base in words and base != w:
+                parent.setdefault(w, base)
                 break
-        for d in c["derived"]:
-            if d in words and d != w:
-                parent.setdefault(d, w)
 
     def root_of(word):
         seen = {word}

@@ -1,141 +1,43 @@
 {
  "level": 260,
- "title": "luftëtar, plazh, bari +1",
+ "title": "thyej, rrallë, yll +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "bari",
-  "luftëtar",
-  "plazh"
+  "rrallë",
+  "thyej",
+  "yll"
  ],
  "pos_mix": {
+  "verb": 1,
+  "adj": 4,
+  "adv": 1,
   "noun": 4
  },
  "words": [
   {
-   "id": "luftëtar",
-   "sq": "luftëtar",
-   "en": "warrior, fighter, combatant",
+   "id": "thyej",
+   "sq": "thyej",
+   "en": "to break",
    "glosses": [
-    "warrior, fighter, combatant",
-    "ruff"
+    "to break"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "warrior, fighter, combatant",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to break",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "warrior",
-      "fighter",
-      "combatant"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ruff",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Zoology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 88"
-      },
-      {
-       "name": "Albanian terms suffixed with -tar",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 79"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "zoology",
-      "ruff"
-     ]
-    }
-   ],
-   "rank": 2526,
-   "count": 329,
-   "family": "luftëtar",
-   "is_root": true,
-   "etymology": "From luftë + -tar, or possibly borrowed through Vulgar Latin from Latin luctator, luctatōrem. Compare Romanian luptător.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "derived": [],
-   "related": [
-    "luftarak",
-    "luftëdashës",
-    "luftënxitës",
-    "luftëtari(a)",
-    "luftim"
-   ],
-   "forms": [
-    {
-     "form": "luftëtarë",
-     "tag": "plural"
-    },
-    {
-     "form": "luftëtari",
-     "tag": "definite"
-    },
-    {
-     "form": "luftar",
-     "tag": "alternative"
-    }
-   ]
-  },
-  {
-   "id": "plazh",
-   "sq": "plazh",
-   "en": "beach",
-   "glosses": [
-    "beach"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "beach",
-     "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -159,49 +61,77 @@
      ],
      "examples": [],
      "links": [
-      "beach"
+      "break"
      ]
     }
    ],
-   "rank": 2528,
-   "count": 329,
-   "family": "plazh",
+   "rank": 2512,
+   "count": 331,
+   "family": "thyej",
    "is_root": true,
-   "etymology": "Borrowed from French plage (compare Turkish plaj).",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *tsā(i)nja, from Proto-Indo-European *ḱeh₃i- (“sharpen”) (compare English hone, Persian سان (sân, “whetstone”)).",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "sharpen",
+    "whetstone"
+   ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "plazhe",
-     "tag": "plural"
-    },
-    {
-     "form": "plazhi",
-     "tag": "definite"
-    }
-   ]
+   "forms": []
   },
   {
-   "id": "bari",
-   "sq": "bari",
-   "en": "shepherd",
+   "id": "rrallë",
+   "sq": "rrallë",
+   "en": "sparse",
    "glosses": [
-    "shepherd"
+    "sparse",
+    "infrequent",
+    "rare",
+    "outstanding",
+    "seldom, rarely"
    ],
    "pos": [
-    "noun"
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shepherd",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sparse",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sparse"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "infrequent",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "infrequent"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "rare",
      "tags": [],
      "cats": [
       {
@@ -209,33 +139,205 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "64 10 26"
+       "_dis": "36 5 50 5 4"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 0 59 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 81 0 0"
       }
      ],
      "examples": [],
      "links": [
-      "shepherd"
+      "rare"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "outstanding",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "outstanding"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "seldom, rarely",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "seldom",
+      "rarely"
      ]
     }
    ],
-   "rank": 2532,
-   "count": 328,
-   "family": "bari",
+   "rank": 2516,
+   "count": 330,
+   "family": "rrallë",
    "is_root": true,
-   "etymology": "Back-formation from plural barinjë, from earlier *bar, from Proto-Albanian *bara, from Proto-Indo-European *bʰer- (“to carry”). Compare Old High German baro (“man, husband”). A connection with ari (“bear”) has also been proposed, though ari was originally arth prior to the loss of the -th ending by mistake.",
-   "etymology_class": "derived",
+   "etymology": "Borrowed through Vulgar Latin from Latin rārus.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "barinj",
+     "form": "rrallëe",
+     "tag": "feminine"
+    }
+   ]
+  },
+  {
+   "id": "yll",
+   "sq": "yll",
+   "en": "star",
+   "glosses": [
+    "star",
+    "fate, luck",
+    "luminary",
+    "reputation"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "star",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Astronomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Astronomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 48 6 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "astronomy",
+      "star"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fate, luck",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 48 6 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fate",
+      "luck"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "luminary",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "luminary"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reputation",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "reputation"
+     ]
+    }
+   ],
+   "rank": 2521,
+   "count": 330,
+   "family": "yll",
+   "is_root": true,
+   "etymology": "From Old Albanian ȳll (/yːɫ/), from Proto-Albanian *usla, from either\n* Proto-Indo-European *h₁us-los (“the burning one”) (compare Old English ysle (“hot ashes”)), from *h₁ews- (“to burn”) (compare Latin ūrere, Ancient Greek εὕω (heúō, “to singe”)); or\n* from Proto-Indo-European *h₂us-los (“the glowing one”) (compare Sanskrit उ॒स्र (usrá, “reddish, ruddy; bright; matutinal”)), from *h₂ews- (“to dawn”) (compare English Easter, Latin aurōra, and Lithuanian aušrà).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "derived": [
+    "yej",
+    "yjësi",
+    "yjkë",
+    "yjor",
+    "yllak",
+    "ylle",
+    "yllës",
+    "yllëz"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "yje",
      "tag": "plural"
     },
     {
-     "form": "bariu",
+     "form": "ylli",
      "tag": "definite"
+    },
+    {
+     "form": "hyll",
+     "tag": "alternative"
     }
    ]
   }

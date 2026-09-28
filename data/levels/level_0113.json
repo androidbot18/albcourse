@@ -1,27 +1,119 @@
 {
  "level": 113,
- "title": "pije, përveç",
+ "title": "iki, shkak, ec +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "pije",
-  "përveç"
+  "ec",
+  "iki",
+  "shkak"
  ],
  "pos_mix": {
-  "noun": 4,
-  "prep": 1
+  "verb": 5,
+  "noun": 2
  },
  "words": [
   {
-   "id": "pije",
-   "sq": "pije",
-   "en": "drink",
+   "id": "iki",
+   "sq": "iki",
+   "en": "to go",
    "glosses": [
-    "drink",
-    "alcohol"
+    "to go",
+    "to leave",
+    "to escape"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to go",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 26 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "go"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to escape",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "escape"
+     ]
+    }
+   ],
+   "rank": 613,
+   "count": 1672,
+   "family": "iki",
+   "is_root": true,
+   "etymology": "From dialectal ik, from Proto-Albanian *eika, from Proto-Indo-European *h₁ey- (“to go”) (compare Latin ire, Lithuanian ei̇̃k (“go!”), Serbo-Croatian ići).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ika",
+     "tag": "aorist"
+    },
+    {
+     "form": "ikur",
+     "tag": "participle"
+    },
+    {
+     "form": "ik",
+     "tag": "alternative"
+    },
+    {
+     "form": "ikëj",
+     "tag": "alternative"
+    }
+   ]
+  },
+  {
+   "id": "shkak",
+   "sq": "shkak",
+   "en": "reason, cause",
+   "glosses": [
+    "reason, cause",
+    "noose, snare, trap"
    ],
    "pos": [
     "noun",
@@ -35,37 +127,65 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "drink",
+     "gloss": "reason, cause",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "45 55"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "52 48"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "nga shkaku",
+       "en": "because of",
+       "offsets": [
+        [
+         4,
+         10
+        ]
+       ]
+      },
+      {
+       "sq": "për shkak të",
+       "en": "owing to",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
      "links": [
-      "drink"
+      "reason",
+      "cause"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "alcohol",
+     "gloss": "noose, snare, trap",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -73,67 +193,84 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "45 55"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
       }
      ],
      "examples": [],
      "links": [
-      "alcohol"
+      "noose",
+      "snare",
+      "trap"
      ]
     }
    ],
-   "rank": 682,
-   "count": 1489,
-   "family": "pije",
+   "rank": 614,
+   "count": 1671,
+   "family": "shkak",
    "is_root": true,
-   "etymology": "From pi + -je.",
-   "etymology_class": "affix",
+   "etymology": "From Proto-Albanian *skaka, from Proto-Indo-European *skek- (“to jump, be agile”). Cognate to Old Norse skaga (“to protrude”), Proto-Slavic *skokъ (“jump”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "derived": [
-    "pijesinë",
-    "pijeshitës",
-    "pijetore"
+    "për shkak të",
+    "shkakësor",
+    "shkakësi",
+    "shkakor",
+    "shkaktar",
+    "shkaktim",
+    "shkaktoj",
+    "shkaktohem"
    ],
-   "related": [],
+   "related": [
+    "shkas",
+    "shkathët"
+   ],
    "forms": [
     {
-     "form": "pije",
+     "form": "shkaqe",
      "tag": "plural"
     },
     {
-     "form": "pija",
+     "form": "shkaku",
      "tag": "definite"
     }
    ]
   },
   {
-   "id": "përveç",
-   "sq": "përveç",
-   "en": "except; apart from; besides",
+   "id": "ec",
+   "sq": "ec",
+   "en": "walk",
    "glosses": [
-    "except; apart from; besides"
+    "walk"
    ],
    "pos": [
-    "prep"
+    "verb"
    ],
    "pos_labels": [
-    "preposition"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "except; apart from; besides",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "walk",
      "tags": [
-      "with-ablative"
+      "impersonal"
      ],
      "cats": [
       {
@@ -143,13 +280,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian prepositions",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian prepositions governing the ablative",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -157,15 +294,13 @@
      ],
      "examples": [],
      "links": [
-      "except",
-      "apart from",
-      "besides"
+      "walk"
      ]
     }
    ],
-   "rank": 686,
-   "count": 1475,
-   "family": "përveç",
+   "rank": 615,
+   "count": 1666,
+   "family": "ec",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -176,112 +311,72 @@
    "forms": []
   },
   {
-   "id": "pijetore",
-   "sq": "pijetore",
-   "en": "a meyhane",
+   "id": "shkaktoj",
+   "sq": "shkaktoj",
+   "en": "to cause",
    "glosses": [
-    "a meyhane",
-    "a pub"
+    "to cause"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a meyhane",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cause",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "95 5"
+       "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -tore",
+       "name": "Albanian terms suffixed with -toj",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "56 44"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 21"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "meyhane"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a pub",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -tore",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "56 44"
-      },
-      {
-       "name": "Bars",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Bars",
-       "langcode": "sq",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "pub"
+      "cause"
      ]
     }
    ],
-   "rank": 40689,
-   "count": 9,
-   "family": "pije",
+   "rank": 12294,
+   "count": 50,
+   "family": "shkak",
    "is_root": false,
-   "etymology": "From pije (“drinking”) + -tore.",
+   "etymology": "From shkak (“cause”) + -toj.",
    "etymology_class": "affix",
    "source_lang": null,
    "parents": [
-    "drinking"
+    "cause"
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pijetore",
-     "tag": "plural"
+     "form": "shkaktova",
+     "tag": "aorist"
     },
     {
-     "form": "pijetorja",
-     "tag": "definite"
-    },
-    {
-     "form": "pietore",
-     "tag": "alternative"
+     "form": "shkaktuar",
+     "tag": "participle"
     }
    ]
   }

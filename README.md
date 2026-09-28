@@ -15,9 +15,9 @@ built on it, then the descendants.
 | | |
 |---|---|
 | Words | 3,731 |
-| Levels | 1,103 |
-| Word families | 3,278 |
-| Families with more than one member | 245 |
+| Levels | 1,045 |
+| Word families | 3,082 |
+| Families with more than one member | 381 |
 | Words containing ë / ç | 1,535 |
 
 Levels are ordered by corpus frequency, so level 1 is genuinely the first thing
@@ -32,12 +32,45 @@ A level is a **session of whole word families**, not a frequency slice:
   ~9-items-per-level rhythm of a real course.
 * Roots unlock in frequency order: a family starts when its own root is common
   enough to be worth teaching, not when one of its rare derivatives surfaces.
-* Three families are larger than a single session (`marr`, `bashkë`, `krye`).
-  Those split into `1/2` and `2/2` levels, and a continuation always gets a
-  level to itself so the label is never misleading.
+* 4 families are larger than a single session. The biggest is `për`, a
+  productive prefix with 56 attested derivatives, which spans 7 levels
+  (`1/7`..`7/7`). The others are `pa` (16), `bashkë` (12) and `me` (11), each
+  split in two. A continuation always gets a level to itself, so a part label
+  is never misleading.
 
 Levels are titled after the root they teach, the way a Wanikani level is named
 after the radical it unlocks.
+
+### How a word joins a family
+
+Family membership requires **an explicit derivation in the etymology text**,
+never a spelling resemblance or a Wiktionary link alone. The rule is that the
+first sentence states a composition, which in Wiktionary's convention always
+puts a `+` between base and affix:
+
+    From marr + -ës.              marr (take) + -em.        From gjithë + çka.
+    From atë (“father”) + dhe (“land”).
+
+The base is the last content token to the left of that `+`, after stripping
+reconstruction stars, parentheticals and quoted glosses. Requiring the `+` is
+what separates a derivation from a mere mention.
+
+This is stricter than it sounds, and deliberately so. Wiktionary's structured
+fields cannot be trusted as a derivation graph:
+
+* `parents` is extracted from the etymology text, so it picks up **English**
+  gloss words. `nuk` has parents `["one", "not"]`, where that `not` is the
+  English word inside *compare Latin nōn ("not")*. The old build linked on it,
+  so the negator *not, don't* sat in the same family as the noun *swim,
+  swimming*.
+* `derived` is a **co-occurrence** list, not a derivation graph. `bri` ("rib")
+  lists `bori`, an Ottoman loan meaning *bugle*; `zbres` ("descend") lists
+  `falas`, `falem`, `fale`, `falje`, `faltore`.
+
+Cognates and homographs are excluded for the same reason: `tmerr` ("terror") is
+*a cognate* of `marr`, not a derivative, and `marre` ("shame") and `marrtë`
+("twilight") are homographs of `marr` with unrelated meanings. `tools/
+test_derivations.py` pins all of these cases, in both directions.
 
 ## Running it
 
@@ -69,12 +102,17 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        1,103 level descriptors, loaded first
+      index.json        1,045 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
     tools/              build and test scripts (python3 + node, no deps)
     run_tests.sh        runs all of it
+
+The end-to-end check drives a real browser. It runs against the deployed site
+by default, or a local one so a change can be verified before it is pushed:
+
+    python3 tools/e2e_live.py --url http://127.0.0.1:8000/app/
 
 ## Rebuilding the data
 
@@ -98,7 +136,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (1,103 decks, 3,731 notes). It is
+That writes dist/albanian-roots-families.apkg (1,045 decks, 3,731 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

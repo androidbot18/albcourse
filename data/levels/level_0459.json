@@ -1,40 +1,42 @@
 {
  "level": 459,
- "title": "teatër, dhjetor, krahasim +1",
+ "title": "shpall, ngjaj, vëzhgoj +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "dhjetor",
-  "krahasim",
-  "teatër"
+  "ngjaj",
+  "shpall",
+  "vëzhgoj"
  ],
  "pos_mix": {
-  "noun": 3
+  "verb": 6,
+  "adj": 2,
+  "noun": 2
  },
  "words": [
   {
-   "id": "teatër",
-   "sq": "teatër",
-   "en": "theatre",
+   "id": "shpall",
+   "sq": "shpall",
+   "en": "to announce, to declare",
    "glosses": [
-    "theatre"
+    "to announce, to declare"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "theatre",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to announce, to declare",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -58,49 +60,54 @@
      ],
      "examples": [],
      "links": [
-      "theatre"
+      "announce",
+      "declare"
      ]
     }
    ],
-   "rank": 6828,
-   "count": 103,
-   "family": "teatër",
+   "rank": 7119,
+   "count": 99,
+   "family": "shpall",
    "is_root": true,
-   "etymology": "Ultimately from Ancient Greek θέατρον (théatron).",
-   "etymology_class": "derived",
+   "etymology": "Albanian formation with the prefix sh- + pall.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "teatro",
-     "tag": "plural"
+     "form": "shpalla",
+     "tag": "aorist"
     },
     {
-     "form": "teatri",
-     "tag": "definite"
+     "form": "shpallur",
+     "tag": "participle"
+    },
+    {
+     "form": "çpall",
+     "tag": "alternative"
     }
    ]
   },
   {
-   "id": "dhjetor",
-   "sq": "dhjetor",
-   "en": "December",
+   "id": "ngjashëm",
+   "sq": "ngjashëm",
+   "en": "similar",
    "glosses": [
-    "December"
+    "similar"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "December",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "similar",
      "tags": [],
      "cats": [
       {
@@ -110,7 +117,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -or (month)",
+       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -122,37 +129,46 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Gjuha e tyre është e ngjashme me Spanjishte.",
+       "en": "Their language is similar to Spanish.",
+       "offsets": [
+        [
+         19,
+         29
+        ]
+       ]
+      }
+     ],
      "links": [
-      "December"
+      "similar"
      ]
     }
    ],
-   "rank": 6835,
-   "count": 103,
-   "family": "dhjetor",
-   "is_root": true,
-   "etymology": "Calque of Latin December, from dhjetë (“ten”) + -or.",
+   "rank": 7142,
+   "count": 98,
+   "family": "ngjaj",
+   "is_root": false,
+   "etymology": "From ngjaj (“to resemble, be alike”) + -shëm.",
    "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "ten"
-   ],
+   "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhjetori",
-     "tag": "definite"
+     "form": "ngjajshëm",
+     "tag": "alternative"
     }
    ]
   },
   {
-   "id": "krahasim",
-   "sq": "krahasim",
-   "en": "comparison",
+   "id": "vëzhgim",
+   "sq": "vëzhgim",
+   "en": "observation",
    "glosses": [
-    "comparison"
+    "observation"
    ],
    "pos": [
     "noun"
@@ -164,7 +180,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "comparison",
+     "gloss": "observation",
      "tags": [
       "masculine"
      ],
@@ -190,15 +206,113 @@
      ],
      "examples": [],
      "links": [
-      "comparison"
+      "observation"
      ]
     }
    ],
-   "rank": 6839,
-   "count": 103,
-   "family": "krahasim",
-   "is_root": true,
-   "etymology": "From krahasoj + -im.",
+   "rank": 7149,
+   "count": 98,
+   "family": "vëzhgoj",
+   "is_root": false,
+   "etymology": "From vëzhgoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "vëzhgues",
+   "sq": "vëzhgues",
+   "en": "observer",
+   "glosses": [
+    "observer",
+    "observant"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "observer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "observer"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "observant",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "observant"
+     ]
+    }
+   ],
+   "rank": 9529,
+   "count": 69,
+   "family": "vëzhgoj",
+   "is_root": false,
+   "etymology": "From vëzhgoj + -ues (agent suffix).",
    "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
@@ -206,12 +320,259 @@
    "related": [],
    "forms": [
     {
-     "form": "krahasime",
-     "tag": "plural"
+     "form": "vëzhguese",
+     "tag": "feminine"
+    }
+   ]
+  },
+  {
+   "id": "vëzhgoj",
+   "sq": "vëzhgoj",
+   "en": "to monitor, observe, survey",
+   "glosses": [
+    "to monitor, observe, survey"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to monitor, observe, survey",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "monitor",
+      "observe",
+      "survey"
+     ]
+    }
+   ],
+   "rank": 12655,
+   "count": 48,
+   "family": "vëzhgoj",
+   "is_root": true,
+   "etymology": "Borrowed from Latin vestīgō.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vëzhguar",
+     "tag": "participle"
+    }
+   ]
+  },
+  {
+   "id": "ngjaj",
+   "sq": "ngjaj",
+   "en": "to resemble, be alike",
+   "glosses": [
+    "to resemble, be alike",
+    "to suit; to become;",
+    "to seem",
+    "to happen"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to resemble, be alike",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 25 24 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 25 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 23 27 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "resemble",
+      "be",
+      "alike"
+     ]
     },
     {
-     "form": "krahasimi",
-     "tag": "definite"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to suit; to become;",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 25 24 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 25 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 23 27 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "suit",
+      "become"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to seem",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 25 24 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 25 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 23 27 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "seem"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to happen",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 25 24 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 25 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 23 27 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "happen"
+     ]
+    }
+   ],
+   "rank": 13456,
+   "count": 45,
+   "family": "ngjaj",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *en-ga-lab-nja, a denominative verb based on *lab. Cognate to Lithuanian lãbas (“good”), Latvian labs (“id”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "derived": [
+    "ngjarje",
+    "ngjashëm"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngjajta",
+     "tag": "aorist"
+    },
+    {
+     "form": "ngjarë",
+     "tag": "participle"
+    },
+    {
+     "form": "gjaj",
+     "tag": "alternative"
     }
    ]
   }

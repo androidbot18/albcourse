@@ -1,249 +1,253 @@
 {
  "level": 15,
- "title": "nëse, ku, kur +1",
+ "title": "jo, ka",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "ku",
-  "kur",
-  "nëse"
+  "jo",
+  "ka"
  ],
  "pos_mix": {
-  "conj": 1,
-  "intj": 1,
-  "adv": 6,
-  "pron": 1
+  "det": 1,
+  "prep": 2,
+  "noun": 2,
+  "adv": 2,
+  "verb": 2,
+  "adj": 1
  },
  "words": [
   {
-   "id": "nëse",
-   "sq": "nëse",
-   "en": "whether, if",
+   "id": "jo",
+   "sq": "jo",
+   "en": "negates non-verbal phrases: no, not",
    "glosses": [
-    "whether, if",
-    "whether, if"
+    "negates non-verbal phrases: no, not"
    ],
    "pos": [
-    "conj",
-    "intj"
+    "det"
    ],
    "pos_labels": [
-    "conjunction",
-    "interjection"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "whether, if",
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "negates non-verbal phrases: no, not",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 48 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "whether",
-      "if"
-     ]
-    },
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "whether, if",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "whether",
-      "if"
+      "no",
+      "not"
      ]
     }
    ],
-   "rank": 51,
-   "count": 32758,
-   "family": "nëse",
+   "rank": 19,
+   "count": 82999,
+   "family": "jo",
    "is_root": true,
-   "etymology": "From në + se.",
-   "etymology_class": "compound",
+   "etymology": "Likely a babble word, compare Turkish yok (“no”), and its derivates in other Balkanic languages such as Romanian ioc, Macedonian јок (jok). Comparison with German ja (“yes”) is semantically hard to explain.",
+   "etymology_class": null,
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "no"
+   ],
    "derived": [],
    "related": [],
    "forms": []
   },
   {
-   "id": "ku",
-   "sq": "ku",
-   "en": "where (asking about a place, where or towards which direction)",
+   "id": "ka",
+   "sq": "ka",
+   "en": "from, out, out of, to",
    "glosses": [
-    "where (asking about a place, where or towards which direction)",
-    "where ... at",
-    "whither, whereto",
-    "whence, where from",
-    "how (to/that)",
-    "where, whither; there, thither (used to connect repetitive verbs; indicating location, direction)"
+    "from, out, out of, to",
+    "who, whom",
+    "ox",
+    "steer"
    ],
    "pos": [
-    "adv",
-    "adv",
-    "adv",
-    "adv",
-    "adv",
+    "prep",
+    "prep",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "preposition",
+    "preposition",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "from, out, out of, to",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Jo, unë nuk jam ka Shqipëria.",
+       "en": "No, I am not from Albania.",
+       "offsets": [
+        [
+         16,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "from",
+      "out",
+      "to"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "who, whom",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "who",
+      "whom"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ox",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ox"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "steer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Cattle",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Cattle",
+       "langcode": "sq",
+       "_dis": "0 56 1 1 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "steer"
+     ]
+    }
+   ],
+   "rank": 20,
+   "count": 82929,
+   "family": "ka",
+   "is_root": true,
+   "etymology": "From older kah, from *kah ~ ngah (compare Tosk Albanian nga), from Proto-Albanian *en kaxa, from Proto-Indo-European *en kʷod so (“wherein, wherefrom”), literally ‘in which this’. Cognate with Old Church Slavonic къ (kŭ, “to”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qe",
+     "tag": "plural"
+    },
+    {
+     "form": "kau",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "kaq",
+   "sq": "kaq",
+   "en": "this much",
+   "glosses": [
+    "this much"
+   ],
+   "pos": [
     "adv"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb",
     "adverb"
    ],
    "sense_detail": [
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "where (asking about a place, where or towards which direction)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ku po shkon?",
-       "en": "Where are you going?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "where"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "where ... at",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ku je?",
-       "en": "Where (are) you at?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "where",
-      "at"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "whither, whereto",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "whither",
-      "whereto"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "whence, where from",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "whence",
-      "where",
-      "from"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "how (to/that)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "(qysh (Gheg))",
-       "en": "",
-       "offsets": []
-      },
-      {
-       "sq": "Ku e din ai?",
-       "en": "How does he (want to) know that?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "how",
-      "to",
-      "that"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "where, whither; there, thither (used to connect repetitive verbs; indicating location, direction)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "where",
-      "whither",
-      "there"
-     ]
-    }
-   ],
-   "rank": 52,
-   "count": 31866,
-   "family": "ku",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ku, from Proto-Indo-European *kú (“where?”). Cognate to Proto-Baltic *kur (“where”), Lithuanian kur̃ (“where”) & kur (“where”), Latvian kur, Proto-Slavic *kъde (“where”), Old Church Slavonic къде (kŭde, “where”), Russian где (gde) and Sanskrit कुह (kúha, “where”), Sanskrit कू (kū́, “where”), Avestan 𐬐𐬎𐬛𐬁 (kudā), 𐬐𐬏 (kū).\nSee also Albanian kur (“when”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "derived": [],
-   "related": [],
-   "forms": []
-  },
-  {
-   "id": "kur",
-   "sq": "kur",
-   "en": "when",
-   "glosses": [
-    "when"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "when",
+     "gloss": "this much",
      "tags": [],
      "cats": [
       {
@@ -253,13 +257,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 20 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -267,21 +271,241 @@
      ],
      "examples": [],
      "links": [
-      "when"
+      "this",
+      "much"
      ]
     }
    ],
-   "rank": 53,
-   "count": 28832,
-   "family": "kur",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kur, from Proto-Indo-European *kʷur; cognate to Lithuanian kur̃ (“where”), Old Armenian ուր (ur, “id”), etc. See also Albanian ku (“where”).\nLess likely from Latin quā hōrā.",
-   "etymology_class": "derived",
+   "rank": 148,
+   "count": 8558,
+   "family": "ka",
+   "is_root": false,
+   "etymology": "From ka + aq.",
+   "etymology_class": null,
    "source_lang": null,
-   "parents": [
-    "where",
-    "id"
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "kapërcej",
+   "sq": "kapërcej",
+   "en": "to cross, jump over, leap over",
+   "glosses": [
+    "to cross, jump over, leap over",
+    "to gulp down, swallow"
    ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cross, jump over, leap over",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cross",
+      "jump",
+      "over"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gulp down, swallow",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 63"
+      },
+      {
+       "name": "Albanian terms prefixed with ka-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 67"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "gulp",
+      "down",
+      "swallow"
+     ]
+    }
+   ],
+   "rank": 23579,
+   "count": 21,
+   "family": "ka",
+   "is_root": false,
+   "etymology": "Either a variant of kapërthej, or a compound of ka- + për + ecëj, based on eci.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [
+    "eci",
+    "mbërthej",
+    "zbërthej"
+   ],
+   "forms": [
+    {
+     "form": "kapërceva",
+     "tag": "aorist"
+    },
+    {
+     "form": "kapërcyer",
+     "tag": "participle"
+    },
+    {
+     "form": "kapërthej",
+     "tag": "alternative"
+    },
+    {
+     "form": "kapërtoj",
+     "tag": "alternative"
+    },
+    {
+     "form": "kaptoj",
+     "tag": "alternative"
+    }
+   ]
+  },
+  {
+   "id": "jozyrtar",
+   "sq": "jozyrtar",
+   "en": "unofficial",
+   "glosses": [
+    "unofficial"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "unofficial",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with jo-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unofficial"
+     ]
+    }
+   ],
+   "rank": 34071,
+   "count": 12,
+   "family": "jo",
+   "is_root": false,
+   "etymology": "From jo- + zyrtar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "jozyrtare",
+     "tag": "feminine"
+    }
+   ]
+  },
+  {
+   "id": "jozyrtarisht",
+   "sq": "jozyrtarisht",
+   "en": "unofficially",
+   "glosses": [
+    "unofficially"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "unofficially",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with jo-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unofficially"
+     ]
+    }
+   ],
+   "rank": 49248,
+   "count": 7,
+   "family": "jo",
+   "is_root": false,
+   "etymology": "From jo- + zyrtarisht.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
    "derived": [],
    "related": [],
    "forms": []

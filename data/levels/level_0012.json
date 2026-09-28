@@ -1,131 +1,209 @@
 {
  "level": 12,
- "title": "di, këtu, atë +1",
- "root": "",
- "root_gloss": "",
+ "title": "me 1/2",
+ "root": "me",
+ "root_gloss": "with (accompanied by)",
  "part": 1,
- "parts": 1,
- "word_count": 3,
+ "parts": 2,
+ "word_count": 9,
  "families": [
-  "atë",
-  "di",
-  "këtu"
+  "me"
  ],
  "pos_mix": {
-  "verb": 2,
-  "adv": 1,
-  "pron": 1,
-  "noun": 1
+  "prep": 3,
+  "adj": 2,
+  "adv": 5,
+  "conj": 5
  },
  "words": [
   {
-   "id": "di",
-   "sq": "di",
-   "en": "to know",
+   "id": "me",
+   "sq": "me",
+   "en": "with (accompanied by)",
    "glosses": [
-    "to know",
-    "to dawn (daylight)"
+    "with (accompanied by)",
+    "with (possessing)",
+    "with (by means of)",
+    "insufficient, scanty, not full"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "prep",
+    "prep",
+    "prep",
+    "adj"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "preposition",
+    "preposition",
+    "preposition",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to know",
-     "tags": [],
-     "cats": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "with (accompanied by)",
+     "tags": [
+      "with-accusative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 34 33"
+      },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 33 31"
+      }
+     ],
      "examples": [
       {
-       "sq": "Nuk e di.",
-       "en": "I don't know.",
+       "sq": "Shkoj me tim vëlla.",
+       "en": "I'm going with my brother.",
        "offsets": [
         [
          6,
          8
         ]
        ]
+      }
+     ],
+     "links": [
+      "with"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "with (possessing)",
+     "tags": [
+      "with-accusative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 34 33"
       },
       {
-       "sq": "Do të doja të dija më shumë rreth teje.",
-       "en": "I'd like to know more about you.",
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 33 31"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "E sheh djalin me sytë e kaltër?",
+       "en": "Do you see the guy with blue eyes?",
        "offsets": [
         [
-         11,
-         18
+         14,
+         16
         ]
        ]
       }
      ],
      "links": [
-      "know"
+      "with"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dawn (daylight)",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "with (by means of)",
      "tags": [
-      "Tosk"
+      "with-accusative"
      ],
      "cats": [
       {
-       "name": "Tosk Albanian",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "33 34 33"
       },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 33 31"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Preferoj të shkruaj me penë.",
+       "en": "I prefer to write with a pen.",
+       "offsets": [
+        [
+         20,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "with"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "insufficient, scanty, not full",
+     "tags": [],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "30 70"
+       "_dis": "41 17 18 24"
       }
      ],
      "examples": [],
      "links": [
-      "dawn"
+      "insufficient",
+      "scanty",
+      "not"
      ]
     }
    ],
-   "rank": 37,
-   "count": 48929,
-   "family": "di",
+   "rank": 14,
+   "count": 140379,
+   "family": "me",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dī̆ya (as well as in Pre-Proto-Albanian), from Proto-Indo-European *dʰ(e)yHe/o- (“to consider, think”) or Proto-Indo-European *diHyé/ó- (“to consider, think”).",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *me(t). Cognate to Ancient Greek μετά (metá, “after, beyond; in the middle, between”), Gothic miþ (“with”), Old Norse með.",
+   "etymology_class": "derived",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "thin",
+    "small"
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "diu",
-     "tag": "aorist"
-    },
-    {
-     "form": "dirë",
-     "tag": "participle"
-    },
-    {
-     "form": "dihet",
-     "tag": "alternative"
+     "form": "mee",
+     "tag": "feminine"
     }
    ]
   },
   {
-   "id": "këtu",
-   "sq": "këtu",
-   "en": "here, on this side",
+   "id": "mjaft",
+   "sq": "mjaft",
+   "en": "enough, sufficiently",
    "glosses": [
-    "here, on this side"
+    "enough, sufficiently"
    ],
    "pos": [
     "adv"
@@ -137,7 +215,7 @@
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "here, on this side",
+     "gloss": "enough, sufficiently",
      "tags": [],
      "cats": [
       {
@@ -147,7 +225,199 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with kë-",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Kjo shtëpi është mjaft e madhe për familjen tonë.",
+       "en": "This house is big enough for our family.",
+       "offsets": [
+        [
+         17,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "enough",
+      "sufficiently"
+     ]
+    }
+   ],
+   "rank": 211,
+   "count": 5921,
+   "family": "me",
+   "is_root": false,
+   "etymology": "From an earlier mejaft, from me + aft.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mëjaft",
+     "tag": "alternative"
+    },
+    {
+     "form": "miaft",
+     "tag": "alternative"
+    }
+   ]
+  },
+  {
+   "id": "menjëherë",
+   "sq": "menjëherë",
+   "en": "immediately",
+   "glosses": [
+    "immediately",
+    "instantly",
+    "at once"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "immediately",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 81"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 0 49"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Kontaktoni menjëherë mjekun tuaj.",
+       "en": "Contact your doctor immediately.",
+       "offsets": [
+        [
+         11,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "immediately"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "instantly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "instantly"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at once",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 0 93"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 81"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 0 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "at once"
+     ]
+    }
+   ],
+   "rank": 359,
+   "count": 2914,
+   "family": "me",
+   "is_root": false,
+   "etymology": "From me + një + herë, literally 'with/at one moment'.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "meqë",
+   "sq": "meqë",
+   "en": "since",
+   "glosses": [
+    "since"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "since",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian univerbations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -161,18 +431,203 @@
      ],
      "examples": [],
      "links": [
-      "here",
-      "on",
-      "this"
+      "since"
      ]
     }
    ],
-   "rank": 38,
-   "count": 48617,
-   "family": "këtu",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ka tu, from Proto-Indo-European *kʷo- (“relative pronoun”) + a component *tu possibly related to Sanskrit तु (tú, “now, but”). By surface analysis, kë- + tu.",
-   "etymology_class": "inherited",
+   "rank": 926,
+   "count": 1030,
+   "family": "me",
+   "is_root": false,
+   "etymology": "Univerbation of me + që.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "meqenëse",
+     "tag": "alternative"
+    }
+   ]
+  },
+  {
+   "id": "mezi",
+   "sq": "mezi",
+   "en": "hardly, scarcely",
+   "glosses": [
+    "hardly, scarcely"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "hardly, scarcely",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hardly",
+      "scarcely"
+     ]
+    }
+   ],
+   "rank": 1188,
+   "count": 776,
+   "family": "me",
+   "is_root": false,
+   "etymology": "From me + zi, from an earlier expression me të zi. Alternatively from memzi, from mem, a participal form of mej.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mëzi",
+     "tag": "alternative"
+    },
+    {
+     "form": "memzi",
+     "tag": "alternative"
+    }
+   ]
+  },
+  {
+   "id": "megjithatë",
+   "sq": "megjithatë",
+   "en": "however",
+   "glosses": [
+    "however",
+    "nevertheless"
+   ],
+   "pos": [
+    "conj",
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "however",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "however"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "nevertheless",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "nevertheless"
+     ]
+    }
+   ],
+   "rank": 1494,
+   "count": 593,
+   "family": "me",
+   "is_root": false,
+   "etymology": "Probably a compound of me (“with”) + gjithë (“everything”) + atë (“that, it”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [
+    "with",
+    "everything"
+   ],
+   "derived": [],
+   "related": [
+    "megjithëse",
+    "ndonëse"
+   ],
+   "forms": []
+  },
+  {
+   "id": "mjaftë",
+   "sq": "mjaftë",
+   "en": "sufficient",
+   "glosses": [
+    "sufficient"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sufficient",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ë (adjective)",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sufficient"
+     ]
+    }
+   ],
+   "rank": 3227,
+   "count": 250,
+   "family": "me",
+   "is_root": false,
+   "etymology": "From mjaft + -ë.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "derived": [],
@@ -180,111 +635,125 @@
    "forms": []
   },
   {
-   "id": "atë",
-   "sq": "atë",
-   "en": "it, that, him, her (accusative)",
+   "id": "megjithëse",
+   "sq": "megjithëse",
+   "en": "although, though",
    "glosses": [
-    "it, that, him, her (accusative)",
-    "father"
+    "although, though"
    ],
    "pos": [
-    "pron",
-    "noun"
+    "conj"
    ],
    "pos_labels": [
-    "pronoun",
-    "noun"
+    "conjunction"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "it, that, him, her (accusative)",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "although, though",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 78"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "it",
-      "that",
-      "him"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "father",
-     "tags": [
-      "masculine"
-     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "73 27"
+       "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "father"
+      "although",
+      "though"
      ]
     }
    ],
-   "rank": 41,
-   "count": 43784,
-   "family": "atë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ata, from Proto-Indo-European *átta, whence also Hittite 𒀜𒋫𒀸 (attas), Ancient Greek ἄττα (átta), Latin atta, Proto-Slavic *otьcь, and similar Lallwörter.",
-   "etymology_class": "inherited",
+   "rank": 3649,
+   "count": 216,
+   "family": "me",
+   "is_root": false,
+   "etymology": "A compound of me (“with”) + gjithë (“everything”) + se (“that, than, as”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "with",
+    "everything"
+   ],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "meqenëse",
+   "sq": "meqenëse",
+   "en": "since",
+   "glosses": [
+    "since"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "since",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian univerbations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "since"
+     ]
+    }
+   ],
+   "rank": 7529,
+   "count": 92,
+   "family": "me",
+   "is_root": false,
+   "etymology": "Univerbation of me + qenë + se.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "etër",
-     "tag": "plural"
-    },
-    {
-     "form": "ati",
-     "tag": "definite"
+     "form": "meqë",
+     "tag": "alternative"
     }
    ]
   }

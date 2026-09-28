@@ -1,26 +1,146 @@
 {
  "level": 560,
- "title": "librari, ankesë, val +1",
+ "title": "kapelë, theks, latë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "ankesë",
-  "librari",
-  "val"
+  "kapelë",
+  "latë",
+  "theks"
  ],
  "pos_mix": {
-  "noun": 7
+  "noun": 5
  },
  "words": [
   {
-   "id": "librari",
-   "sq": "librari",
-   "en": "library, bookshop, bookstore",
+   "id": "kapelë",
+   "sq": "kapelë",
+   "en": "hat",
    "glosses": [
-    "library, bookshop, bookstore"
+    "hat",
+    "hat-like object",
+    "chapel"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hat",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Headwear",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Headwear",
+       "langcode": "sq",
+       "_dis": "44 3 52"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Më pëlqen kapela jote.",
+       "en": "I like your hat.",
+       "offsets": [
+        [
+         10,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hat-like object",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hat",
+      "-like"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chapel",
+     "tags": [
+      "dated"
+     ],
+     "cats": [
+      {
+       "name": "Christianity",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Christianity",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 9 81"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 10 79"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Christianity",
+      "chapel"
+     ]
+    }
+   ],
+   "rank": 10689,
+   "count": 60,
+   "family": "kapelë",
+   "is_root": true,
+   "etymology": "Either from Latin cappellus (“hat”) or its derivative Italian cappello (via the feminine cappella).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "hat",
+    "chapel"
+   ],
+   "derived": [
+    "kapelabërë",
+    "kapelapunues"
+   ],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "theks",
+   "sq": "theks",
+   "en": "accent, sign, tone",
+   "glosses": [
+    "accent, sign, tone"
    ],
    "pos": [
     "noun"
@@ -32,9 +152,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "library, bookshop, bookstore",
+     "gloss": "accent, sign, tone",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -44,7 +164,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,17 +178,17 @@
      ],
      "examples": [],
      "links": [
-      "library",
-      "bookshop",
-      "bookstore"
+      "accent",
+      "sign",
+      "tone"
      ]
     }
    ],
-   "rank": 10017,
-   "count": 65,
-   "family": "librari",
+   "rank": 10704,
+   "count": 60,
+   "family": "theks",
    "is_root": true,
-   "etymology": "From libër.",
+   "etymology": "Derivative of thek.",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -76,21 +196,21 @@
    "related": [],
    "forms": [
     {
-     "form": "librari",
+     "form": "theksa",
      "tag": "plural"
     },
     {
-     "form": "libraria",
+     "form": "theksi",
      "tag": "definite"
     }
    ]
   },
   {
-   "id": "ankesë",
-   "sq": "ankesë",
-   "en": "complaint, appeal, grievance",
+   "id": "latë",
+   "sq": "latë",
+   "en": "hatchet, axe, chopper",
    "glosses": [
-    "complaint, appeal, grievance"
+    "hatchet, axe, chopper"
    ],
    "pos": [
     "noun"
@@ -102,7 +222,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "complaint, appeal, grievance",
+     "gloss": "hatchet, axe, chopper",
      "tags": [
       "feminine"
      ],
@@ -114,7 +234,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -esë",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -128,182 +248,30 @@
      ],
      "examples": [],
      "links": [
-      "complaint",
-      "appeal",
-      "grievance"
+      "hatchet",
+      "axe",
+      "chopper"
      ]
     }
    ],
-   "rank": 10038,
-   "count": 65,
-   "family": "ankesë",
+   "rank": 10705,
+   "count": 60,
+   "family": "latë",
    "is_root": true,
-   "etymology": "From ankoj + -esë.",
-   "etymology_class": "affix",
+   "etymology": "From Proto-Albanian *laptā, from Proto-Indo-European *leh₂p- (“to be flat, even; shovel”). Cognate to Lithuanian lopetà (“shovel”) and Old Prussian lopto (“spade”).",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
-   "forms": []
-  },
-  {
-   "id": "val",
-   "sq": "val",
-   "en": "valley",
-   "glosses": [
-    "valley",
-    "scree",
-    "mountain pass",
-    "summer pasture, shieling",
-    "courtyard"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "valley",
-     "tags": [
-      "masculine",
-      "regional",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "valley"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "scree",
-     "tags": [
-      "masculine",
-      "regional",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 43 3 12 3 36"
-      },
-      {
-       "name": "Apulian Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 32 11 11 11 25"
-      },
-      {
-       "name": "Calabrian Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 38 10 10 10 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "scree"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mountain pass",
-     "tags": [
-      "masculine",
-      "regional",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mountain pass"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "summer pasture, shieling",
-     "tags": [
-      "masculine",
-      "regional",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 43 3 12 3 36"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "summer",
-      "pasture",
-      "shieling"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "courtyard",
-     "tags": [
-      "masculine",
-      "regional",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "courtyard"
-     ]
-    }
-   ],
-   "rank": 10042,
-   "count": 65,
-   "family": "val",
-   "is_root": true,
-   "etymology": "Likely borrowed from Latin vallis. The term may be an example of an ancient borrowing that later fell out of use. Its presence is minimal but scattered both in Southern and Northern Albanian toponyms.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "derived": [
-    "i pasun mal e val"
-   ],
-   "related": [],
    "forms": [
     {
-     "form": "vale",
+     "form": "latë",
      "tag": "plural"
     },
     {
-     "form": "vali",
+     "form": "lata",
      "tag": "definite"
-    },
-    {
-     "form": "baj",
-     "tag": "alternative"
     }
    ]
   }

@@ -10,6 +10,13 @@ echo "== data validation =="
 python3 tools/validate.py
 
 echo
+echo "== derivation parser =="
+# Family membership requires an explicit etymological derivation. This pins the
+# rule that stopped nuk (the negator) being filed under not (the noun
+# "swim, swimming") and the Ottoman loan bori under the inherited bri.
+python3 tools/test_derivations.py
+
+echo
 echo "== srs =="
 node tools/test_srs.mjs
 

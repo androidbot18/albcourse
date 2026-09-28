@@ -1,57 +1,98 @@
 {
  "level": 800,
- "title": "artileri, dhjes, bjeshkë +1",
+ "title": "kall, ngjall, koll +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "artileri",
-  "bjeshkë",
-  "dhjes"
+  "kall",
+  "koll",
+  "ngjall"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 1
+  "verb": 3,
+  "noun": 2
  },
  "words": [
   {
-   "id": "artileri",
-   "sq": "artileri",
-   "en": "artillery",
+   "id": "kall",
+   "sq": "kall",
+   "en": "to stick (on, into), put (up), thrust, instigate",
    "glosses": [
-    "artillery"
+    "to stick (on, into), put (up), thrust, instigate",
+    "to burn",
+    "straw, chaff"
    ],
    "pos": [
+    "verb",
+    "verb",
     "noun"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "artillery",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to stick (on, into), put (up), thrust, instigate",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "stick",
+      "put",
+      "thrust"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to burn",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 4 86"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 7 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "2 2 24 1 1 2 13 26 2 1 1 2 1 5 1 1 1 1 8 1 2 1 1 1 2 1"
       },
       {
        "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 1 35 0 0 1 9 21 1 1 1 1 1 8 1 0 0 1 10 0 1 0 1 0 1 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "burn"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "straw, chaff",
+     "tags": [
+      "Arbëresh",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Arbëresh Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,28 +100,38 @@
      ],
      "examples": [],
      "links": [
-      "artillery"
+      "straw",
+      "chaff"
      ]
     }
    ],
-   "rank": 21717,
-   "count": 23,
-   "family": "artileri",
+   "rank": 23802,
+   "count": 20,
+   "family": "kall",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *kalei-, from Proto-Indo-European *kelH- (“to prick, jab (into); thrust (into)”). Cognate to Lithuanian kálti (“to strike, forge”) and Russian коло́ть (kolótʹ, “to prick, jab, hoe, hack”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
-   "forms": []
+   "forms": [
+    {
+     "form": "kalla",
+     "tag": "aorist"
+    },
+    {
+     "form": "kallur",
+     "tag": "participle"
+    }
+   ]
   },
   {
-   "id": "dhjes",
-   "sq": "dhjes",
-   "en": "to shit, to fuck up",
+   "id": "ngjall",
+   "sq": "ngjall",
+   "en": "to heal, revive",
    "glosses": [
-    "to shit, to fuck up"
+    "to heal, revive"
    ],
    "pos": [
     "verb"
@@ -92,9 +143,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to shit, to fuck up",
+     "gloss": "to heal, revive",
      "tags": [
-      "vulgar"
+      "transitive"
      ],
      "cats": [
       {
@@ -118,16 +169,16 @@
      ],
      "examples": [],
      "links": [
-      "shit",
-      "fuck up"
+      "heal",
+      "revive"
      ]
     }
    ],
-   "rank": 21731,
-   "count": 23,
-   "family": "dhjes",
+   "rank": 23808,
+   "count": 20,
+   "family": "ngjall",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dzetša, from earlier *dzedtja, from Proto-Indo-European *ǵʰed-i̯e/o-, from *ǵʰed- (“to defecate”). Compare Ancient Greek χέζω (khézō), Sanskrit हदति (hadati). Alternatively, Matzinger reconstructs *ȷ́edi̯ō.",
+   "etymology": "From Proto-Albanian *śal(u)-, from Proto-Indo-European *solh₂- (“safe and sound, unhurt, whole”). Related to gjallë.",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
@@ -135,165 +186,71 @@
    "related": [],
    "forms": [
     {
-     "form": "dhjeva",
-     "tag": "aorist"
-    },
-    {
-     "form": "dhjerë",
+     "form": "ngjallur",
      "tag": "participle"
     }
    ]
   },
   {
-   "id": "bjeshkë",
-   "sq": "bjeshkë",
-   "en": "high mountain with summer pasture",
+   "id": "koll",
+   "sq": "koll",
+   "en": "starch (laundry stiffener)",
    "glosses": [
-    "high mountain with summer pasture",
-    "mountain pasture, upland pasture",
-    "rocky, infertile land in rugged country"
+    "starch (laundry stiffener)"
    ],
    "pos": [
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "high mountain with summer pasture",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 39 27"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 33 38"
-      },
-      {
-       "name": "Landforms",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Landforms",
-       "langcode": "sq",
-       "_dis": "28 37 35"
-      }
+     "gloss": "starch (laundry stiffener)",
+     "tags": [
+      "masculine"
      ],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mountain pasture, upland pasture",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 39 27"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 33 38"
-      },
-      {
-       "name": "Landforms",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Landforms",
-       "langcode": "sq",
-       "_dis": "28 37 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mountain",
-      "pasture",
-      "upland"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rocky, infertile land in rugged country",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 28 50"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 39 27"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 33 38"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": []
+     "links": [
+      "starch"
+     ]
     }
    ],
-   "rank": 21752,
-   "count": 23,
-   "family": "bjeshkë",
+   "rank": 23809,
+   "count": 20,
+   "family": "koll",
    "is_root": true,
-   "etymology": "First attested in 1510 by Muzaka, as well as in 1685 by Bogdani, already with the meaning of \"mountain\". Hypothesized to be derived from Latin *pastica, from pastus, or from *bjershkë, a derivative of bie (“to fall”) (see pjeshkë < *pjershkë < Latin persica). The term could be the source or related to the oronym Beskidy.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "mountain"
-   ],
-   "derived": [
-    "bjeshkali",
-    "bjeshkatar",
-    "bjeshkësi",
-    "bjeshkëz",
-    "bjeshki",
-    "bjeshkim",
-    "bjeshkohem",
-    "bjeshkoj"
-   ],
+   "etymology": "From Ottoman Turkish قولا (“id.”), from Italian colla.",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "parents": [],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "bjeshkë",
-     "tag": "plural"
-    },
-    {
-     "form": "bjeshka",
+     "form": "kolli",
      "tag": "definite"
     }
    ]

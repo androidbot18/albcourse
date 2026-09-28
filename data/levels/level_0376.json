@@ -1,41 +1,110 @@
 {
  "level": 376,
- "title": "fyt, lerë, vepër +1",
+ "title": "njof, ndërpres, shpellë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "fyt",
-  "lerë",
-  "vepër"
+  "ndërpres",
+  "njof",
+  "shpellë"
  ],
  "pos_mix": {
-  "noun": 4
+  "verb": 3,
+  "noun": 2
  },
  "words": [
   {
-   "id": "fyt",
-   "sq": "fyt",
-   "en": "throat",
+   "id": "njoftoj",
+   "sq": "njoftoj",
+   "en": "to announce, to inform, to notify",
    "glosses": [
-    "throat"
+    "to announce, to inform, to notify"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "throat",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to announce, to inform, to notify",
      "tags": [
-      "masculine"
+      "transitive"
      ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "announce",
+      "inform",
+      "notify"
+     ]
+    }
+   ],
+   "rank": 4869,
+   "count": 156,
+   "family": "njof",
+   "is_root": false,
+   "etymology": "From njof (a variant of njoh) + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "njoftova",
+     "tag": "aorist"
+    },
+    {
+     "form": "njoftuar",
+     "tag": "participle"
+    }
+   ]
+  },
+  {
+   "id": "ndërpres",
+   "sq": "ndërpres",
+   "en": "to cease",
+   "glosses": [
+    "to cease"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cease",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -58,15 +127,196 @@
      ],
      "examples": [],
      "links": [
-      "throat"
+      "cease"
      ]
     }
    ],
-   "rank": 4804,
-   "count": 158,
-   "family": "fyt",
+   "rank": 4873,
+   "count": 156,
+   "family": "ndërpres",
    "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *spūta, from Proto-Indo-European *(s)pytew- (“to spit”). Compare Latin spuere, Greek πτύω (ptýo), Lithuanian spjáuti.",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ndërpreva",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndërprerë",
+     "tag": "participle"
+    }
+   ]
+  },
+  {
+   "id": "shpellë",
+   "sq": "shpellë",
+   "en": "cave",
+   "glosses": [
+    "cave",
+    "boulder"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cave",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Askush s'ka hyrë në këtë shpellë më parë.",
+       "en": "Nobody has entered this cave before.",
+       "offsets": [
+        [
+         25,
+         32
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "cave"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "boulder",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 92"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 82"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Hipi mbi një shpellë.",
+       "en": "He/she climbed onto a boulder.",
+       "offsets": [
+        [
+         13,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "boulder"
+     ]
+    }
+   ],
+   "rank": 4885,
+   "count": 155,
+   "family": "shpellë",
+   "is_root": true,
+   "etymology": "From Ancient Greek σπήλαιον (spḗlaion, “cave”).",
+   "etymology_class": "derived",
+   "source_lang": "el",
+   "parents": [
+    "cave"
+   ],
+   "derived": [
+    "shpellar",
+    "shpellinë",
+    "shpelloj",
+    "shpellor",
+    "shpellanik"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpella",
+     "tag": "plural"
+    }
+   ]
+  },
+  {
+   "id": "njof",
+   "sq": "njof",
+   "en": "to know; recognize; be familiar with",
+   "glosses": [
+    "to know; recognize; be familiar with"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to know; recognize; be familiar with",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "know",
+      "recognize",
+      "familiar"
+     ]
+    }
+   ],
+   "rank": 23149,
+   "count": 21,
+   "family": "njof",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *gnāska, from Proto-Indo-European *ǵneh₃-sḱe/o-, from *ǵneh₃- (compare English know, Serbo-Croatian znati, Latin (g)nōscō).",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
@@ -74,190 +324,16 @@
    "related": [],
    "forms": [
     {
-     "form": "fyte",
-     "tag": "plural"
+     "form": "njofa",
+     "tag": "aorist"
     },
     {
-     "form": "fyti",
-     "tag": "definite"
-    }
-   ]
-  },
-  {
-   "id": "lerë",
-   "sq": "lerë",
-   "en": "thin mud, slush",
-   "glosses": [
-    "thin mud, slush",
-    "slip (of rocks), boulder"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thin mud, slush",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thin",
-      "mud",
-      "slush"
-     ]
+     "form": "njofur",
+     "tag": "participle"
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "slip (of rocks), boulder",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
-      },
-      {
-       "name": "Geography",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Geography",
-       "langcode": "sq",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "slip",
-      "boulder"
-     ]
-    }
-   ],
-   "rank": 4808,
-   "count": 158,
-   "family": "lerë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *laurā, from Proto-Indo-European *leu, etymologically identical with Lithuanian laure (“dirty person”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "stone"
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "lera",
-     "tag": "plural"
-    }
-   ]
-  },
-  {
-   "id": "vepër",
-   "sq": "vepër",
-   "en": "piece (artistic), deed, creation",
-   "glosses": [
-    "piece (artistic), deed, creation"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "piece (artistic), deed, creation",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "piece",
-      "deed",
-      "creation"
-     ]
-    }
-   ],
-   "rank": 4815,
-   "count": 158,
-   "family": "vepër",
-   "is_root": true,
-   "etymology": "Borrowed from Latin opera (“id”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "id"
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vepra",
-     "tag": "plural"
+     "form": "njoh",
+     "tag": "alternative"
     }
    ]
   }

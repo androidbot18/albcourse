@@ -1,26 +1,29 @@
 {
  "level": 382,
- "title": "gazetë, qasje, kukull +1",
+ "title": "biçikletë, rezervuar, vrap +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "gazetë",
-  "kukull",
-  "qasje"
+  "biçikletë",
+  "rezervuar",
+  "vrap"
  ],
  "pos_mix": {
-  "noun": 3
+  "noun": 6,
+  "adj": 2,
+  "adv": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "gazetë",
-   "sq": "gazetë",
-   "en": "newspaper",
+   "id": "biçikletë",
+   "sq": "biçikletë",
+   "en": "bicycle",
    "glosses": [
-    "newspaper"
+    "bicycle"
    ],
    "pos": [
     "noun"
@@ -32,7 +35,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "newspaper",
+     "gloss": "bicycle",
      "tags": [
       "feminine"
      ],
@@ -58,80 +61,16 @@
      ],
      "examples": [],
      "links": [
-      "newspaper"
+      "bicycle"
      ]
     }
    ],
-   "rank": 4949,
-   "count": 153,
-   "family": "gazetë",
+   "rank": 5027,
+   "count": 150,
+   "family": "biçikletë",
    "is_root": true,
-   "etymology": "From Italian gazzetta. Compare Romanian gazetă.",
+   "etymology": "Borrowed from Italian bicicletta.",
    "etymology_class": "borrowed",
-   "source_lang": "it",
-   "parents": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gazeta",
-     "tag": "plural"
-    }
-   ]
-  },
-  {
-   "id": "qasje",
-   "sq": "qasje",
-   "en": "approach",
-   "glosses": [
-    "approach"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "approach",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "approach"
-     ]
-    }
-   ],
-   "rank": 4953,
-   "count": 152,
-   "family": "qasje",
-   "is_root": true,
-   "etymology": "From qas + -je.",
-   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "derived": [],
@@ -139,11 +78,332 @@
    "forms": []
   },
   {
-   "id": "kukull",
-   "sq": "kukull",
-   "en": "doll, puppet",
+   "id": "rezervuar",
+   "sq": "rezervuar",
+   "en": "reservoir, large container (artificial)",
    "glosses": [
-    "doll, puppet"
+    "reservoir, large container (artificial)",
+    "natural reservoir, large pond, lake",
+    "reservoir, source (of anything)",
+    "reserved, taciturn, shy",
+    "reserved, claimed, occupied, spoken for"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reservoir, large container (artificial)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 26 34 17 16 1"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "reservoir",
+      "container"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "natural reservoir, large pond, lake",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "rezervuar natyror",
+       "en": "natural reservoir",
+       "offsets": [
+        [
+         0,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "reservoir",
+      "pond",
+      "lake"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reservoir, source (of anything)",
+     "tags": [
+      "figuratively",
+      "literary",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "një rezervuar të madh dijesh",
+       "en": "a great reservoir of knowledge",
+       "offsets": [
+        [
+         4,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "reservoir",
+      "source"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "reserved, taciturn, shy",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "reserved",
+      "taciturn",
+      "shy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "reserved, claimed, occupied, spoken for",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "reserved",
+      "claimed",
+      "occupied"
+     ]
+    }
+   ],
+   "rank": 5029,
+   "count": 150,
+   "family": "rezervuar",
+   "is_root": true,
+   "etymology": "Borrowed from French réservoir.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [
+    "rezervë"
+   ],
+   "forms": [
+    {
+     "form": "rezervuarë",
+     "tag": "plural"
+    },
+    {
+     "form": "rezervuari",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "vrap",
+   "sq": "vrap",
+   "en": "quickly, fast, fastly",
+   "glosses": [
+    "quickly, fast, fastly",
+    "running, race"
+   ],
+   "pos": [
+    "adv",
+    "noun"
+   ],
+   "pos_labels": [
+    "adverb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "quickly, fast, fastly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "quickly",
+      "fast",
+      "fastly"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "running, race",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 89"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "running",
+      "race"
+     ]
+    }
+   ],
+   "rank": 5033,
+   "count": 149,
+   "family": "vrap",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *awa-rapa, derivative of *repa (“to strip off, tear off”) (modern rrjep). For sense development, compare Ancient Greek ἔδρᾱν (édrān, “ran away”), from δέρω (dérō, “skin, flay”). More at rrjep. Alternatively from Proto-Indo-European *werb- (“to turn, wind”). Compare Ancient Greek ῥάπτω (rháptō), Latin repens (“sudden”), Czech vráp (“wrinkle”), Lithuanian verpiù (“to spin”), Middle English wrappen (“to wind”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vrape",
+     "tag": "plural"
+    },
+    {
+     "form": "vrapi",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "vrapoj",
+   "sq": "vrapoj",
+   "en": "to run",
+   "glosses": [
+    "to run"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to run",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "run"
+     ]
+    }
+   ],
+   "rank": 5616,
+   "count": 131,
+   "family": "vrap",
+   "is_root": false,
+   "etymology": "From vrap + -oj (deverbative suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vrapova",
+     "tag": "aorist"
+    },
+    {
+     "form": "vrapuar",
+     "tag": "participle"
+    }
+   ]
+  },
+  {
+   "id": "vrapim",
+   "sq": "vrapim",
+   "en": "running, run",
+   "glosses": [
+    "running, run"
    ],
    "pos": [
     "noun"
@@ -155,11 +415,19 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "doll, puppet",
-     "tags": [],
+     "gloss": "running, run",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -169,35 +437,33 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "doll",
-      "puppet"
+      "running",
+      "run"
      ]
     }
    ],
-   "rank": 4954,
-   "count": 152,
-   "family": "kukull",
-   "is_root": true,
-   "etymology": "From Proto-Indo-European *kuH-l-.\nCompare Latin cucūllus, Greek κουκούλα (koukoúla, “doll”). Doublet of kukule \"silkworm cocoon\".",
-   "etymology_class": "derived",
+   "rank": 12875,
+   "count": 47,
+   "family": "vrap",
+   "is_root": false,
+   "etymology": "Gerund of vrapoj: vrapoj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "kukulla",
+     "form": "vrapime",
      "tag": "plural"
+    },
+    {
+     "form": "vrapimi",
+     "tag": "definite"
     }
    ]
   }

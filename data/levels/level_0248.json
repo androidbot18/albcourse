@@ -1,36 +1,51 @@
 {
  "level": 248,
- "title": "fushë, kamion, panjohur +1",
+ "title": "gotë, vërdallë, hajdut +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "fushë",
-  "kamion",
-  "panjohur"
+  "gotë",
+  "hajdut",
+  "vërdallë"
  ],
  "pos_mix": {
-  "noun": 5,
-  "adj": 1
+  "noun": 11,
+  "adv": 1
  },
  "words": [
   {
-   "id": "fushë",
-   "sq": "fushë",
-   "en": "field",
+   "id": "gotë",
+   "sq": "gotë",
+   "en": "glass (for drinking)",
    "glosses": [
-    "field",
-    "plain, flatland",
-    "area of activity or interest"
+    "glass (for drinking)",
+    "shot glass (for strong alcohol)",
+    "glassful, glass (of liquid)",
+    "cup (for cupping), cupping glass",
+    "lamp (electric)",
+    "vice of alcoholism",
+    "liquor, brandy, strong alcohol",
+    "Goths (Germanic tribe)"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun",
     "noun"
@@ -39,125 +54,283 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "field",
+     "gloss": "glass (for drinking)",
      "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Geography",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Geography",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 47 4"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 47 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "geography",
-      "field"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plain, flatland",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Geography",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Geography",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 47 4"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 47 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "geography",
-      "plain",
-      "flatland"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "area of activity or interest",
-     "tags": [
-      "broadly",
       "feminine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "area",
-      "activity",
-      "interest"
+      "glass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "shot glass (for strong alcohol)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "shot glass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "glassful, glass (of liquid)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "glassful",
+      "glass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cup (for cupping), cupping glass",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Medicine",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Medicine",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "medicine",
+      "cup",
+      "cupping glass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lamp (electric)",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lamp"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vice of alcoholism",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vice",
+      "alcoholism"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "liquor, brandy, strong alcohol",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "liquor",
+      "brandy",
+      "alcohol"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Goths (Germanic tribe)",
+     "tags": [
+      "historical",
+      "masculine",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 1 20 5 1 6 22 41"
+      },
+      {
+       "name": "Albanian pluralia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 3 19 6 3 6 20 38"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 1 28 3 1 4 11 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Goth"
      ]
     }
    ],
-   "rank": 2362,
-   "count": 355,
-   "family": "fushë",
+   "rank": 2341,
+   "count": 358,
+   "family": "gotë",
    "is_root": true,
-   "etymology": "Orel claims it is borrowed through Vulgar Latin from Latin fossa (“ditch, moat”). However, Çabej identifies it as an inherited word from Proto-Albanian *pl̥thu̯iām. Matasović claims it has no known etymology. Possibly from Arabic فُسْحَة (fusḥa, “wide, spatious place”).",
+   "etymology": "Borrowed from Venetan goto.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
-   "derived": [
-    "fushujë",
-    "fushnajë",
-    "fushëpamje",
-    "fushëtar"
-   ],
-   "related": [
-    "fushatë"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "fusha",
+     "form": "gota",
      "tag": "plural"
     }
    ]
   },
   {
-   "id": "kamion",
-   "sq": "kamion",
-   "en": "truck (vehicle for cargo)",
+   "id": "vërdallë",
+   "sq": "vërdallë",
+   "en": "around and around",
    "glosses": [
-    "truck (vehicle for cargo)"
+    "around and around",
+    "whirlwind",
+    "confused mess"
+   ],
+   "pos": [
+    "adv",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adverb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "around and around",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "88 6 6"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "95 2 4"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "95 2 4"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "i vjen vërdallë",
+       "en": "to go at it by a circuitous route, approach the matter indirectly; speak indirectly",
+       "offsets": [
+        [
+         7,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "around and around"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "whirlwind",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "whirlwind"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "confused mess",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "confused",
+      "mess"
+     ]
+    }
+   ],
+   "rank": 2347,
+   "count": 357,
+   "family": "vërdallë",
+   "is_root": true,
+   "etymology": "Kristoforidhi and Çabej descend it from South Slavic. Alternatively from Turkish vidalı (“threaded, screwed”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vërdallë",
+     "tag": "plural"
+    }
+   ]
+  },
+  {
+   "id": "hajdut",
+   "sq": "hajdut",
+   "en": "thief",
+   "glosses": [
+    "thief"
    ],
    "pos": [
     "noun"
@@ -169,7 +342,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "truck (vehicle for cargo)",
+     "gloss": "thief",
      "tags": [
       "masculine"
      ],
@@ -181,7 +354,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -195,138 +368,30 @@
      ],
      "examples": [],
      "links": [
-      "truck"
+      "thief"
      ]
     }
    ],
-   "rank": 2363,
-   "count": 355,
-   "family": "kamion",
+   "rank": 2349,
+   "count": 356,
+   "family": "hajdut",
    "is_root": true,
-   "etymology": "Ultimately borrowed from French camion. Possible intermediate source from Italian camion",
-   "etymology_class": "borrowed",
-   "source_lang": null,
+   "etymology": "From Ottoman Turkish حیدود (Turkish haydut), from Hungarian hajdúk.",
+   "etymology_class": "derived",
+   "source_lang": "tr",
    "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "kamionë",
+     "form": "hajdutë",
      "tag": "plural"
     },
     {
-     "form": "kamioni",
+     "form": "hajduti",
      "tag": "definite"
     }
    ]
-  },
-  {
-   "id": "panjohur",
-   "sq": "panjohur",
-   "en": "unknown",
-   "glosses": [
-    "unknown",
-    "unknown quantity"
-   ],
-   "pos": [
-    "adj",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "unknown",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms prefixed with pa-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "unknown"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "unknown quantity",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Mathematics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Mathematics",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 60"
-      },
-      {
-       "name": "Albanian terms prefixed with pa-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "ekuacione, barazime me dy të panjohura (x dhe y)",
-       "en": "equations with two unknowns (x and y)",
-       "offsets": [
-        [
-         26,
-         38
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "mathematics"
-     ]
-    }
-   ],
-   "rank": 2368,
-   "count": 354,
-   "family": "panjohur",
-   "is_root": true,
-   "etymology": "From pa- + njohur.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "derived": [],
-   "related": [],
-   "forms": []
   }
  ]
 }

@@ -6,7 +6,7 @@ import os
 import re
 import sys
 import unicodedata
-from collections import Counter
+from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -59,8 +59,8 @@ def main():
     # These guard the invariants assign_levels() is supposed to guarantee,
     # so a future change to the packer cannot quietly re-scatter families.
     struct = []
-    fam_levels = {}
-    cont_level = {}
+    fam_parts = defaultdict(list)   # family -> [(part, parts, level)]
+    last_part = {}   # family -> (last part seen, the level it was on)
     for i, fname in enumerate(files, 1):
         lvl = json.load(open(os.path.join(LEVELS_DIR, fname), encoding="utf-8"))
         nw, nfam = lvl["word_count"], len(lvl["families"])
@@ -83,20 +83,39 @@ def main():
             part, parts = lvl.get("part"), lvl.get("parts")
             if not isinstance(parts, int) or parts < 1 or not isinstance(part, int) or not 1 <= part <= parts:
                 struct.append("%s: bad part/part= %r/%r" % (fname, part, parts))
-            elif parts > 1 and part > 1 and cont_level.get(f) != i - 1:
-                struct.append("%s: continuation part %d/%d of %r is not the level right after its first part"
-                              % (fname, part, parts, f))
-            if parts > 1 and part == 1:
-                cont_level[f] = i
+            elif parts > 1 and part > 1 and last_part.get(f, (0, None))[1] != i - 1:
+                # A continuation must sit IMMEDIATELY after the PREVIOUS
+                # part, not merely somewhere after part 1. Comparing
+                # against part 1 was wrong: a 7-part family occupying
+                # levels 5..11 is perfectly consecutive and was reported
+                # as a violation.
+                prev_part, prev_lvl = last_part.get(f, (0, None))
+                struct.append("%s: continuation part %d/%d of %r follows part %d on level %s, not the level before it"
+                              % (fname, part, parts, f, prev_part, prev_lvl))
+            if parts > 1:
+                last_part[f] = (part, i)
         for w in lvl["words"]:
-            fam_levels.setdefault(w["family"], set()).add(i)
+            fam_parts.setdefault(w["family"], set()).add(
+                (lvl.get("part", 1), lvl.get("parts", 1), i))
 
-    # a family split across levels must do so as consecutive 1/n,2/n levels
-    for f, lv in fam_levels.items():
-        if len(lv) <= 1:
+    # A split family must be consecutive 1/n, 2/n, ... AND every one of its
+    # levels must agree on the total n. Checking each level on its own is not
+    # enough: a level claiming part 2 of 10 while its sibling claims part 1 of
+    # 7 is internally valid and slips straight through.
+    for f, seen in fam_parts.items():
+        totals = {tot for _, tot, _ in seen}
+        if len(totals) > 1:
+            struct.append("family %r disagrees on its part count: %s"
+                          % (f, sorted(totals)))
+        lvls = sorted(x[2] for x in seen)
+        if len(lvls) <= 1:
             continue
-        if sorted(lv) != list(range(min(lv), max(lv) + 1)):
-            struct.append("family %r spans non-consecutive levels %s" % (f, sorted(lv)))
+        if lvls != list(range(lvls[0], lvls[0] + len(lvls))):
+            struct.append("family %r spans non-consecutive levels %s" % (f, lvls))
+        ordered = [x[0] for x in sorted(seen, key=lambda x: x[2])]
+        if ordered != list(range(1, len(ordered) + 1)):
+            struct.append("family %r has parts %s, expected 1..%d"
+                          % (f, ordered, len(ordered)))
 
     check(not struct,
           "level structure violations:\n    " + "\n    ".join(struct[:20]))
