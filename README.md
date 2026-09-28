@@ -71,6 +71,34 @@ The 65 MB of raw upstream downloads is not committed. Fetch it with:
 build_course.py decides which sense of a word becomes its headline gloss, which
 is the part worth reading before changing anything there.
 
+## Anki export
+
+The whole course also ships as an Anki deck. The structure is preserved
+rather than flattened, because the structure is the point: **one deck per
+level, named for the root that level teaches**, and every note carries its
+root, family, family size, level and frequency rank as separate fields you can
+search and sort on.
+
+    pip3 install -r tools/requirements.txt
+    python3 tools/export_anki.py
+
+That writes dist/albanian-roots-families.apkg (184 decks, 3731 notes). It is
+gitignored because it is a build artifact; regenerate it any time.
+
+Import it in Anki with File > Import, and pick the single .apkg file. Notes
+carry a deterministic guid, so re-importing after a data rebuild updates the
+existing notes in place instead of duplicating them.
+
+To check an export without opening Anki:
+
+    python3 tools/verify_anki.py
+
+It unzips the package, opens the collection database, and counts decks, notes
+and level tags, then confirms the card templates only reference fields that
+actually exist. The test runner also runs a negative control, which corrupts
+the deck ids and asserts the verifier fails - a check that cannot fail is not
+a check.
+
 ## The scheduler
 
 A light SM-2 variant. Four grades (Again / Hard / Good / Easy), an ease factor
