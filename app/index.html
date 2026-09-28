@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Albanian Roots &amp; Families</title>
+<meta name="description" content="A spaced-repetition Albanian course built around roots and word families, the way kanji are grouped into radicals. Progress stays on your device.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="flag">sq</span>
+    <span class="title">Albanian Roots &amp; Families</span>
+  </div>
+  <div class="topmeta"><span id="seen-count">loading…</span></div>
+</header>
+
+<nav class="tabs" aria-label="Main">
+  <button class="tab" type="button" data-view="map">Levels</button>
+  <button class="tab" type="button" data-view="study">Review</button>
+  <button class="tab" type="button" data-view="stats">Progress</button>
+</nav>
+
+<div class="directionbar">
+  <label for="direction">Card direction</label>
+  <select id="direction">
+    <option value="sq2en">Albanian → English</option>
+    <option value="en2sq">English → Albanian</option>
+  </select>
+</div>
+
+<main id="view" class="view"><p class="sub">Loading the course…</p></main>
+
+<div id="flash" class="flash" role="status" aria-live="polite"></div>
+
+<footer class="foot">
+  <p>Words from English Wiktionary via Kaikki.org · frequency from OpenSubtitles 2018.</p>
+  <p>Everything you do is stored in this browser only. Export a backup to keep it.</p>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

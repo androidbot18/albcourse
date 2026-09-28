@@ -1,0 +1,15 @@
+# Raw upstream downloads - re-fetch with tools/fetch_sources.py
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets - never commit
+*.key
+*.pem
+id_rsa*
+.env
+
+# OS noise
+.DS_Store
