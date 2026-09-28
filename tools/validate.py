@@ -6,7 +6,7 @@ import os
 import re
 import sys
 import unicodedata
-from collections import Counter
+from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -54,6 +54,71 @@ def main():
           "level_count=%d but %d level files exist" % (course["level_count"], len(files)))
     check(len(files) == len(index),
           "index.json has %d entries, %d files on disk" % (len(index), len(files)))
+
+    # --- level structure: a level is a session of whole word families -----
+    # These guard the invariants assign_levels() is supposed to guarantee,
+    # so a future change to the packer cannot quietly re-scatter families.
+    struct = []
+    fam_parts = defaultdict(list)   # family -> [(part, parts, level)]
+    last_part = {}   # family -> (last part seen, the level it was on)
+    for i, fname in enumerate(files, 1):
+        lvl = json.load(open(os.path.join(LEVELS_DIR, fname), encoding="utf-8"))
+        nw, nfam = lvl["word_count"], len(lvl["families"])
+        if nw > 9:
+            struct.append("%s: %d words (>9, level must be session-sized)" % (fname, nw))
+        if nfam > 3:
+            struct.append("%s: %d families (>3 roots in one level)" % (fname, nfam))
+        if not lvl.get("title"):
+            struct.append("%s: missing title" % fname)
+        # every word in a level must belong to a family listed for that level
+        stray = {w["family"] for w in lvl["words"]} - set(lvl["families"])
+        if stray:
+            struct.append("%s: words reference unlisted families %s" % (fname, sorted(stray)))
+        # a single-family level must be exactly that family, and if that
+        # family is split the part metadata must be truthful and sequential
+        if nfam == 1:
+            f = lvl["families"][0]
+            if lvl.get("root") != f:
+                struct.append("%s: root=%r but families=[%r]" % (fname, lvl.get("root"), f))
+            part, parts = lvl.get("part"), lvl.get("parts")
+            if not isinstance(parts, int) or parts < 1 or not isinstance(part, int) or not 1 <= part <= parts:
+                struct.append("%s: bad part/part= %r/%r" % (fname, part, parts))
+            elif parts > 1 and part > 1 and last_part.get(f, (0, None))[1] != i - 1:
+                # A continuation must sit IMMEDIATELY after the PREVIOUS
+                # part, not merely somewhere after part 1. Comparing
+                # against part 1 was wrong: a 7-part family occupying
+                # levels 5..11 is perfectly consecutive and was reported
+                # as a violation.
+                prev_part, prev_lvl = last_part.get(f, (0, None))
+                struct.append("%s: continuation part %d/%d of %r follows part %d on level %s, not the level before it"
+                              % (fname, part, parts, f, prev_part, prev_lvl))
+            if parts > 1:
+                last_part[f] = (part, i)
+        for w in lvl["words"]:
+            fam_parts.setdefault(w["family"], set()).add(
+                (lvl.get("part", 1), lvl.get("parts", 1), i))
+
+    # A split family must be consecutive 1/n, 2/n, ... AND every one of its
+    # levels must agree on the total n. Checking each level on its own is not
+    # enough: a level claiming part 2 of 10 while its sibling claims part 1 of
+    # 7 is internally valid and slips straight through.
+    for f, seen in fam_parts.items():
+        totals = {tot for _, tot, _ in seen}
+        if len(totals) > 1:
+            struct.append("family %r disagrees on its part count: %s"
+                          % (f, sorted(totals)))
+        lvls = sorted(x[2] for x in seen)
+        if len(lvls) <= 1:
+            continue
+        if lvls != list(range(lvls[0], lvls[0] + len(lvls))):
+            struct.append("family %r spans non-consecutive levels %s" % (f, lvls))
+        ordered = [x[0] for x in sorted(seen, key=lambda x: x[2])]
+        if ordered != list(range(1, len(ordered) + 1)):
+            struct.append("family %r has parts %s, expected 1..%d"
+                          % (f, ordered, len(ordered)))
+
+    check(not struct,
+          "level structure violations:\n    " + "\n    ".join(struct[:20]))
 
     seen_ids = Counter()
     total = 0
@@ -122,6 +187,30 @@ def main():
     check(not leaked, "build-time fields leaked into output: %s" % leaked[:10])
     check(not missing_keys, "cards missing required keys: %s" % missing_keys[:10])
     check(not unsorted_levels, "levels not sorted by rank: %s" % unsorted_levels[:10])
+
+    # --- flat index (data/words.json) -------------------------------
+    # words.json is what the live site actually boots from, so it needs the
+    # same guarantees as the level files even though it is much smaller.
+    words_p = os.path.join(OUT, "words.json")
+    if os.path.exists(words_p):
+        flat = json.load(open(words_p, encoding="utf-8"))
+        fw = flat.get("words", [])
+        check(flat.get("count") == len(fw),
+              "words.json count=%s but %d words listed" % (flat.get("count"), len(fw)))
+        check(len(fw) == total,
+              "words.json has %d cards, level files have %d" % (len(fw), total))
+        check({w["id"] for w in fw} == set(seen_ids),
+              "words.json id set does not match the level files")
+        dup_pos = [w["id"] for w in fw if len(w.get("pos") or []) != len(set(w.get("pos") or []))]
+        check(not dup_pos,
+              "%d cards repeat a POS label (e.g. %s)" % (len(dup_pos), dup_pos[:5]))
+        # pos_labels is aligned with glosses in the level files and may
+        # legitimately repeat; the flattened index must not.
+        print()
+        print("flat index:            %d cards, %d with two POS labels"
+              % (len(fw), sum(1 for w in fw if len(w.get("pos") or []) == 2)))
+    else:
+        warn.append("data/words.json missing - run build_words_index.py")
 
     ndia = len(set(dia_words))
     if ndia < 200:

@@ -1,0 +1,10 @@
+# Only the Anki export needs a third-party package; everything else is
+# plain node and the python3 standard library.
+#
+#   pip3 install -r tools/requirements.txt
+#
+genanki==0.13.1
+
+# Optional: only for tools/e2e_live.py, which drives the deployed site in a
+# real browser. Not needed for the course build, the app, or the tests.
+# playwright

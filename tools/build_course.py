@@ -242,6 +242,73 @@ def entry_senses(entry):
 
 # -------------------------------------------------------------- etymology
 
+# --------------------------------------------------- derivation evidence
+
+# Wiktionary's structured fields cannot be trusted as a derivation graph:
+#
+#   * "parents" is extracted from the etymology text by parse_etymology(), so
+#     it picks up ENGLISH gloss words. nuk gets parents ["one", "not"],
+#     where that "not" is the English word inside 'compare Latin non ("not")'.
+#   * "derived" is a loose co-occurrence list. zbres ("descend") lists
+#     falas/falem/fale/falje/faltore; bri ("rib") lists bori, an Ottoman loan
+#     meaning "bugle".
+#
+# Both produced visible defects: nuk (the negator, "not, don't") was filed
+# under not (the noun, "swim, swimming"), and bori under the inherited bri.
+#
+# So a family edge is accepted only when the ETYMOLOGY TEXT states a
+# compositional derivation, which in Wiktionary's convention always has the
+# form "<base> (“gloss”) + <affix>":
+#
+#     From marr + -es.          marr (take) + -em.        From gjithe + ca.
+#     From ate (“father”) + dhe (“land”).
+#
+# The base is the last content token to the LEFT of the first "+", after
+# stripping reconstruction stars, parentheticals and quoted glosses. Requiring
+# a "+" is what separates derivation from mere mention: a cognate ("a cognate
+# to Proto-Slavic *mora") or a comparison names no affix and yields no edge.
+#
+# Spelling similarity is not a substitute for this evidence: marre ("shame")
+# and marrte ("twilight") are homographs of marr with unrelated meanings, and
+# tmerr ("terror") is a cognate rather than a derivative.
+
+_DERIV_LEAD_RE = re.compile(
+    r"^\s*(?:from|of|compound\s+of|compound\s+formation\s+of|"
+    r"derivation\s+from|continuing)\s+",
+    re.IGNORECASE)
+_DERIV_WORD_RE = re.compile(r"[\w\u00C0-\u024F'\u2019-]+", re.UNICODE)
+
+
+def derivations_from_text(text):
+    """Base words this entry's etymology text says it is built FROM.
+
+    Returns at most one base: a word's immediate ancestor is what makes it a
+    family member, and a transitive chain is recovered by root_of() instead.
+    """
+    if not text:
+        return []
+    # Only the first sentence states the derivation; later sentences are
+    # commentary ("possibly related to merzit", "compare Latin non").
+    head = re.split(r"(?<=[.;])\s", text.strip())[0]
+    if "+" not in head:
+        return []
+
+    left = head.split("+")[0]
+    left = _DERIV_LEAD_RE.sub("", left)
+    left = left.replace("*", "")            # proto-form reconstruction stars
+    left = re.sub(r"\([^)]*\)", " ", left)       # (gloss) / (note)
+    left = re.sub(r'“[^”]*”', " ", left)  # curly-quoted gloss
+    left = re.sub(r'"[^"]*"', " ", left)  # straight-quoted gloss
+
+    toks = _DERIV_WORD_RE.findall(left)
+    if not toks:
+        return []
+    base = toks[-1].rstrip("-")             # "di- + si" -> di
+    if not base:
+        return []
+    return [base]
+
+
 def parse_etymology(entry):
     """text / cls / parents[] / source_lang, from a raw Kaikki entry."""
     text = (entry.get("etymology_text") or "").strip()
@@ -443,24 +510,35 @@ def load_dict(path, freq):
 # ---------------------------------------------------------- word families
 
 def build_families(cards):
-    """Link words into families using etymology 'derived from' edges.
+    """Link words into families using explicit derivation evidence ONLY.
 
-    Two real edge sources:
-      * a card's etymology naming another listed word ('from <word>')
-      * a card's 'derived' list naming words built from it
+    A word joins the family of a base word only when its etymology text states
+    the derivation compositionally ("From marr + -es"). Two sources that
+    looked like evidence but are not are deliberately unused:
+
+      * "parents" - extracted from etymology text by parse_etymology(), so it
+        contains English gloss words (nuk -> [one, not]). A family edge built
+        on it links unrelated words whenever the English word happens to also
+        be an Albanian word.
+      * "derived" - Wiktionary's loose co-occurrence list. bri ("rib") lists
+        bori ("bugle"); zbres ("descend") lists falas, falem, fale.
+
+    Both produced real, visible defects: nuk (the negator "not, don't") was
+    filed under not (the noun "swim, swimming"), and the loan bori under the
+    inherited bri. Spelling similarity is not a substitute for evidence either
+    -- marre ("shame") and marrtë ("twilight") are homographs of marr with
+    unrelated meanings, while tmerr ("terror") is a cognate, not a derivative.
     """
     words = {c["word"] for c in cards}
+    by_word = {c["word"]: c for c in cards}
     parent = {}
 
     for c in cards:
         w = c["word"]
-        for p in c["parents"]:
-            if p in words and p != w:
-                parent.setdefault(w, p)
+        for base in derivations_from_text(c.get("etymology", "")):
+            if base in words and base != w:
+                parent.setdefault(w, base)
                 break
-        for d in c["derived"]:
-            if d in words and d != w:
-                parent.setdefault(d, w)
 
     def root_of(word):
         seen = {word}
@@ -480,11 +558,25 @@ def build_families(cards):
 
 # ----------------------------------------------------------------- levels
 
-def assign_levels(cards, families, per_level=20):
-    """Order families by their earliest (lowest-rank) member, then chunk.
+def assign_levels(cards, families, per_level=9, max_families=3):
+    """Levels are sessions of whole word families, in frequency order.
 
-    A family is placed at the level of its root, so related words unlock
-    together and derivations reinforce the root.
+    Two levels of coherence, Wanikani-style:
+
+      * Within a level, a family is never split. A root and its derivations
+        always unlock together, so studying the level teaches a word group
+        rather than an arbitrary frequency slice.
+      * A level is a session, not a single item: families are packed until
+        per_level words are reached (at most max_families of them), so the
+        course has the ~9-items-per-level rhythm of a real course instead of
+        3000 one-word levels.
+
+    Families too large for one session spill into continuation levels that
+    repeat the root ("krye 2/3") so a split family is still recognisably one
+    lesson rather than a pile of orphans.
+
+    Roots are ordered by their own rank, not by the earliest member -- a rare
+    derivation must not pull its root forward.
     """
     rank_of = {c["word"]: c["rank"] for c in cards}
 
@@ -495,16 +587,60 @@ def assign_levels(cards, families, per_level=20):
             score[root] = min(got)
     ordered = sorted(score, key=lambda r: (score[r], r))
 
-    levels, cur = [], []
+    # Split any family larger than a session, keeping root first.
+    units = []  # (root, members, part, nparts)
     for root in ordered:
         members = sorted(families[root], key=lambda w: (rank_of.get(w, 10 ** 9), w))
-        take = members[:per_level * 2]
-        cur.extend(take)
-        if len(cur) >= per_level:
-            levels.append(cur)
-            cur = []
-    if cur:
-        levels.append(cur)
+        nparts = max(1, -(-len(members) // per_level))
+        for i in range(0, len(members), per_level):
+            units.append((root, members[i:i + per_level], i // per_level, nparts))
+
+    # Pack consecutive units into session-sized levels.
+    #
+    # Rules, in priority order:
+    #   1. A continuation unit (part > 0) always gets a level to itself. It
+    #      belongs to a family that already unlocked in the previous level,
+    #      so sharing that level with unrelated roots would mislabel it
+    #      (a 2/2 part shown as 1/1) and re-scatter the family.
+    #   2. A family never contributes two parts to one level.
+    #   3. Otherwise pack whole families up to per_level words and
+    #      max_families roots, so a level is a session-sized group of
+    #      complete word families rather than an arbitrary frequency slice.
+    levels = []
+    cur_words, cur_roots, cur_part = [], [], {}
+
+    def flush():
+        nonlocal cur_words, cur_roots, cur_part
+        if not cur_words:
+            return
+        if len(cur_roots) == 1:
+            root = cur_roots[0]
+            part, nparts = cur_part[root][0] + 1, cur_part[root][1]
+        else:
+            root = ""
+            part, nparts = 1, 1
+        if nparts == 1:
+            title = root if root else ", ".join(cur_roots)
+        else:
+            title = "%s %d/%d" % (root, part, nparts)
+        if len(cur_roots) > 2:
+            title += " +%d" % (len(cur_roots) - 2)
+        levels.append((root, list(cur_words), title, len(cur_roots), part, nparts))
+        cur_words, cur_roots, cur_part = [], [], {}
+
+    for root, members, part, nparts in units:
+        new_family = root not in cur_part
+        if part > 0 or (cur_words and
+                        (len(cur_words) + len(members) > per_level
+                         or len(cur_roots) + (1 if new_family else 0) > max_families)):
+            flush()
+        if root not in cur_part:
+            cur_part[root] = (part, nparts)
+            cur_roots.append(root)
+        cur_words.extend(members)
+        if part > 0:
+            flush()
+    flush()
     return levels
 
 
@@ -555,7 +691,7 @@ def main():
     lvl_width = max(2, len(str(len(levels))))
 
     level_objs = []
-    for i, words in enumerate(levels, 1):
+    for i, (root, words, title, nfam, part, nparts) in enumerate(levels, 1):
         objs = []
         for w in words:
             c = by_word[w]
@@ -584,9 +720,19 @@ def main():
                 "forms": c["forms"],
             })
         objs.sort(key=lambda o: o["rank"])
+        # A single-family level is named after its root, the way a Wanikani
+        # level is named after the radical it unlocks; a split family keeps
+        # the root and gains a "2/3" marker. A multi-family level lists the
+        # roots it contains, capped at two plus a count.
+        root_gloss = (by_word[root]["senses"][0]["gloss"]
+                      if root and by_word[root]["senses"] else "")
         lvl = {
             "level": i,
-            "title": "Level %d" % i,
+            "title": title,
+            "root": root,
+            "root_gloss": root_gloss,
+            "part": part,
+            "parts": nparts,
             "word_count": len(objs),
             "families": sorted({o["family"] for o in objs}),
             "pos_mix": dict(Counter(p for o in objs for p in o["pos"])),
@@ -604,10 +750,19 @@ def main():
             "dictionary": "Kaikki.org (wiktextract of English Wiktionary)",
             "frequency": "hermitdave/FrequencyWords (OpenSubtitles2018, 2018 build)",
         },
+        # The app derives level-file names from this width, so publishing it
+        # here keeps the two in lockstep (a hardcoded padStart broke at 1000).
+        "level_file_width": lvl_width,
         "level_count": len(level_objs),
         "word_count": sum(l["word_count"] for l in level_objs),
+        # title/root/part/parts ride along so the level map can label each
+        # level with its root without loading all 184 level files.
         "levels": [{"level": l["level"], "word_count": l["word_count"],
-                    "families": len(l["families"])} for l in level_objs],
+                    "families": len(l["families"]),
+                    "title": l["title"], "root": l["root"],
+                    "root_gloss": l["root_gloss"],
+                    "part": l["part"], "parts": l["parts"]}
+                   for l in level_objs],
     }
     with open(os.path.join(OUT, "course.json"), "w", encoding="utf-8") as fh:
         json.dump(course, fh, ensure_ascii=False, indent=1)
@@ -639,6 +794,16 @@ def main():
 
     print("\nWrote data/course.json, data/index.json, data/report.json")
     print("Wrote data/levels/level_01..%0*d.json" % (lvl_width, len(level_objs)))
+    print("First 12 levels (root, gloss, words):")
+    for l in level_objs[:12]:
+        print("  %2d  %-12s %-34s %d words" % (l["level"], l["title"],
+                                                l["root_gloss"][:34], l["word_count"]))
+    split = [l for l in level_objs if l["parts"] > 1]
+    if split:
+        print("\n%d level(s) are a continuation of a large family:" % len(split))
+        for l in split:
+            print("  %s (%d/%d) %d words" % (l["root"], l["part"], l["parts"],
+                                              l["word_count"]))
     print("\nMost frequent words in the deck:")
     for s in report["sample_first_30"][:15]:
         print("  %-10s %-14s %s" % (s["sq"], s["pos"], s["en"][:44]))
