@@ -123,6 +123,30 @@ def main():
     check(not missing_keys, "cards missing required keys: %s" % missing_keys[:10])
     check(not unsorted_levels, "levels not sorted by rank: %s" % unsorted_levels[:10])
 
+    # --- flat index (data/words.json) -------------------------------
+    # words.json is what the live site actually boots from, so it needs the
+    # same guarantees as the level files even though it is much smaller.
+    words_p = os.path.join(OUT, "words.json")
+    if os.path.exists(words_p):
+        flat = json.load(open(words_p, encoding="utf-8"))
+        fw = flat.get("words", [])
+        check(flat.get("count") == len(fw),
+              "words.json count=%s but %d words listed" % (flat.get("count"), len(fw)))
+        check(len(fw) == total,
+              "words.json has %d cards, level files have %d" % (len(fw), total))
+        check({w["id"] for w in fw} == set(seen_ids),
+              "words.json id set does not match the level files")
+        dup_pos = [w["id"] for w in fw if len(w.get("pos") or []) != len(set(w.get("pos") or []))]
+        check(not dup_pos,
+              "%d cards repeat a POS label (e.g. %s)" % (len(dup_pos), dup_pos[:5]))
+        # pos_labels is aligned with glosses in the level files and may
+        # legitimately repeat; the flattened index must not.
+        print()
+        print("flat index:            %d cards, %d with two POS labels"
+              % (len(fw), sum(1 for w in fw if len(w.get("pos") or []) == 2)))
+    else:
+        warn.append("data/words.json missing - run build_words_index.py")
+
     ndia = len(set(dia_words))
     if ndia < 200:
         fail.append("only %d distinct diaeresis/cedilla words survived" % ndia)
