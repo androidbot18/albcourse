@@ -17,6 +17,13 @@ echo "== derivation parser =="
 python3 tools/test_derivations.py
 
 echo
+echo "== family completeness =="
+# The family rule is strict, so it can also UNDER-link: a real derivative left
+# alone would quietly weaken every level built on it. This asserts that no
+# derivable edge is dropped, with a negative control.
+python3 tools/test_family_completeness.py
+
+echo
 echo "== srs =="
 node tools/test_srs.mjs
 
