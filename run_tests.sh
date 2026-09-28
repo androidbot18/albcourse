@@ -26,6 +26,13 @@ echo "== level view =="
 node tools/test_level_view.mjs
 
 echo
+echo "== pos display (level view dedup) =="
+# The level files keep pos index-aligned with glosses, so the word row must
+# show the first n DISTINCT labels. Added after the live E2E caught "e"
+# rendering as "conjunction, conjunction". Includes a negative control.
+node tools/test_pos_display.mjs
+
+echo
 echo "== flat-index POS regression =="
 # Proves the validator's POS-duplication check can actually fail. A check that
 # never fails would report green forever.

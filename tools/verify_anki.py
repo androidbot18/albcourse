@@ -17,6 +17,13 @@ import zipfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APKG = os.path.join(ROOT, "dist", "albanian-roots-families.apkg")
 
+# Expected shape of the export, read from the course data so these
+# assertions cannot drift from what the generator actually produced.
+_course = json.load(open(os.path.join(ROOT, "data", "course.json"),
+                      encoding="utf-8"))
+EXPECT_LEVELS = _course["level_count"]
+EXPECT_WORDS = _course["word_count"]
+
 failures = []
 
 
@@ -54,9 +61,12 @@ def main():
     notes = cur.execute("SELECT COUNT(*) FROM notes").fetchone()[0]
     cards = cur.execute("SELECT COUNT(*) FROM cards").fetchone()[0]
     decks = cur.execute("SELECT COUNT(DISTINCT did) FROM cards").fetchone()[0]
-    check(notes == 3731, "all 3731 notes present (got %d)" % notes)
-    check(cards == 3731, "all 3731 cards present (got %d)" % cards)
-    check(decks == 184, "184 distinct decks, one per level (got %d)" % decks)
+    check(notes == EXPECT_WORDS,
+          "all %d notes present (got %d)" % (EXPECT_WORDS, notes))
+    check(cards == EXPECT_WORDS,
+          "all %d cards present (got %d)" % (EXPECT_WORDS, cards))
+    check(decks == EXPECT_LEVELS,
+          "%d distinct decks, one per level (got %d)" % (EXPECT_LEVELS, decks))
 
     # 2. The note payload must be real genanki JSON, not garbage.
     row = cur.execute("SELECT flds, tags FROM notes LIMIT 1").fetchone()
@@ -67,14 +77,28 @@ def main():
     check(any(f.strip() for f in fields), "fields carry text")
     check("albanian" in (tags or ""), "notes are tagged 'albanian'")
 
-    # 3. Every level tag must be present, all 184 of them.
+    # 3. Every level tag must be present, one per level.
     all_tags = [r[0] for r in cur.execute("SELECT tags FROM notes")]
     levels = set()
     for t in all_tags:
         for tag in (t or "").split():
             if tag.startswith("level"):
                 levels.add(tag)
-    check(len(levels) == 184, "all 184 level tags present (got %d)" % len(levels))
+    check(len(levels) == EXPECT_LEVELS,
+          "all %d level tags present (got %d)" % (EXPECT_LEVELS, len(levels)))
+    # Anki tags are compared as exact strings, so the expected set has to
+    # use the same zero-padding the exporter writes. Derive the width from
+    # the level count instead of assuming 2 -- the exporter pads to the
+    # level count for the same reason the filename padding does.
+    tag_width = len(str(EXPECT_LEVELS))
+    expected_tags = set("level%0*d" % (tag_width, i)
+                        for i in range(1, EXPECT_LEVELS + 1))
+    extra = levels - expected_tags
+    missing = expected_tags - levels
+    check(not extra, "no level tags outside the real range (extra: %s)"
+          % sorted(extra)[:5])
+    check(not missing, "no missing level tags (missing: %s)"
+          % sorted(missing)[:5])
 
     # 4. Albanian diacritics must survive the SQLite round trip.
     dia = cur.execute(

@@ -79,6 +79,11 @@ def main():
         print("no level files - run build_course.py first", file=sys.stderr)
         return 1
 
+    # Level tags are zero-padded to the level count. A fixed %02d worked
+    # while the course had 99 levels and started colliding at 100, which
+    # would have merged level tags and made per-level search wrong.
+    width = len(str(len(files)))
+
     model = genanki.Model(DECK_ID, ROOT_CARD["name"],
                           fields=[
                               {"name": "Albanian"},
@@ -154,7 +159,7 @@ def main():
                 # Deterministic guid so a re-export updates the same note
                 # instead of duplicating it on every rebuild.
                 guid=f"albcourse::{w['id']}",
-                tags=["albanian", "level%02d" % n, "root_%s" % root,
+                tags=["albanian", "level%0*d" % (width, n), "root_%s" % root,
                       "fam_%s" % family],
             )
             deck.add_note(note)

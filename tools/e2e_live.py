@@ -14,8 +14,20 @@ import sys
 from playwright.sync_api import sync_playwright
 
 FIREFOX = "/home/ubuntu/.cache/ms-playwright/firefox-1509/firefox/firefox"
-URL = "https://androidbot18.github.io/albcourse/app/"
+DEFAULT_URL = "https://androidbot18.github.io/albcourse/app/"
+URL = DEFAULT_URL
 STORAGE_KEY = "albcourse.progress.v1"
+
+# Read the level count from the built course rather than hardcoding it.
+# This script outlived a course rebuild that changed the level count from
+# 184 to 1103, and a stale literal would have reported a false failure.
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+EXPECT_LEVELS = 0
+try:
+    with open(os.path.join(_ROOT, "data", "course.json"), encoding="utf-8") as fh:
+        EXPECT_LEVELS = json.load(fh)["level_count"]
+except Exception:
+    pass
 
 failures = []
 
@@ -27,7 +39,9 @@ def check(cond, msg):
     return cond
 
 
-def main():
+def main(url=DEFAULT_URL):
+    global URL
+    URL = url
     console_errors = []
 
     with sync_playwright() as p:
@@ -42,7 +56,9 @@ def main():
         page.wait_for_selector(".level-chip", timeout=30000)
 
         chips = page.locator(".level-chip").count()
-        check(chips == 184, "level map renders all 184 levels (got %d)" % chips)
+        expected = EXPECT_LEVELS
+        check(chips == expected,
+              "level map renders all %d levels (got %d)" % (expected, chips))
         head = page.inner_text("#view")
         check("loading" not in head.lower(), "boot did not leave the loading placeholder")
 
@@ -122,5 +138,24 @@ def main():
     return 0
 
 
+def _cli():
+    """--url lets the same checks run against a local server, so the page
+    can be verified before a branch is pushed and Pages has rebuilt."""
+    url = DEFAULT_URL
+    argv = sys.argv[1:]
+    if "--url" in argv:
+        i = argv.index("--url")
+        if i + 1 >= len(argv):
+            print("--url needs a value", file=sys.stderr)
+            return 2
+        url = argv[i + 1]
+    if not EXPECT_LEVELS:
+        print("FAIL: could not read level_count from data/course.json",
+              file=sys.stderr)
+        return 2
+    print("E2E against %s (%d levels expected)" % (url, EXPECT_LEVELS))
+    return main(url)
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(_cli())
