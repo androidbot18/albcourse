@@ -1,84 +1,137 @@
 {
  "level": 770,
- "title": "arabisht, violinë, grep +1",
+ "title": "vashë, udhëzoj, stinë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "arabisht",
-  "grep",
-  "violinë"
+  "stinë",
+  "udhëzoj",
+  "vashë"
  ],
  "pos_mix": {
-  "adv": 1,
-  "noun": 2
+  "noun": 4,
+  "verb": 1
  },
  "words": [
   {
-   "id": "arabisht",
-   "sq": "arabisht",
-   "en": "in Arabic",
+   "id": "vashë",
+   "sq": "vashë",
+   "en": "young girl",
    "glosses": [
-    "in Arabic"
+    "young girl",
+    "synonym of vajzë"
    ],
    "pos": [
-    "adv"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "in Arabic",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "young girl",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Poetry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Poetry",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "72 28"
       }
      ],
+     "examples": [
+      {
+       "sq": "Vashë e bukur",
+       "en": "beautiful young girl",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Vashat e fshatit",
+       "en": "village young girls",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "poetry",
+      "young",
+      "girl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "synonym of vajzë",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "Arabic"
+      "vajzë"
      ]
     }
    ],
-   "rank": 21665,
-   "count": 23,
-   "family": "arabisht",
+   "rank": 22322,
+   "count": 22,
+   "family": "vashë",
    "is_root": true,
-   "etymology": "",
+   "etymology": "See vajzë.",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
-   "derived": [],
+   "derived": [
+    "vashëri",
+    "vashëror"
+   ],
    "related": [],
-   "forms": []
+   "forms": [
+    {
+     "form": "vasha",
+     "tag": "plural"
+    }
+   ]
   },
   {
-   "id": "violinë",
-   "sq": "violinë",
-   "en": "violin",
+   "id": "udhëzim",
+   "sq": "udhëzim",
+   "en": "instruction",
    "glosses": [
-    "violin"
+    "instruction"
    ],
    "pos": [
     "noun"
@@ -90,7 +143,75 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "violin",
+     "gloss": "instruction",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "instruction"
+     ]
+    }
+   ],
+   "rank": 22354,
+   "count": 22,
+   "family": "udhëzoj",
+   "is_root": false,
+   "etymology": "From udhëzoj + -im noun suffix.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëzime",
+     "tag": "plural"
+    },
+    {
+     "form": "udhëzimi",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "stinë",
+   "sq": "stinë",
+   "en": "season",
+   "glosses": [
+    "season"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "season",
      "tags": [
       "feminine"
      ],
@@ -114,49 +235,59 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Stinët e vitit",
+       "en": "Seasons of the year",
+       "offsets": []
+      }
+     ],
      "links": [
-      "violin"
+      "season"
      ]
     }
    ],
-   "rank": 21702,
-   "count": 23,
-   "family": "violinë",
+   "rank": 22355,
+   "count": 22,
+   "family": "stinë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Unclear. Maybe a late irregular borrowing from Latin stationem.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "violina",
+     "form": "stinë",
      "tag": "plural"
+    },
+    {
+     "form": "stina",
+     "tag": "definite"
     }
    ]
   },
   {
-   "id": "grep",
-   "sq": "grep",
-   "en": "hook, fishhook",
+   "id": "udhëzoj",
+   "sq": "udhëzoj",
+   "en": "to instruct",
    "glosses": [
-    "hook, fishhook"
+    "to instruct"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hook, fishhook",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to instruct",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -166,13 +297,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -180,34 +311,28 @@
      ],
      "examples": [],
      "links": [
-      "hook"
+      "instruct"
      ]
     }
    ],
-   "rank": 21713,
-   "count": 23,
-   "family": "grep",
+   "rank": 36752,
+   "count": 11,
+   "family": "udhëzoj",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *grep- (“hook”), from *gremb- (“crooked, uneven”), ultimately from *ger- (“to turn, bend, twist”) (cf. English grapple, Old French grape, grappe, crape (“hook”), Norwegian grep (“grasp”)). Alternatively a contraction of variant gërepë, from archaic and dialectal gërjepë, from Proto-Albanian *ga-repa, from *repa (“to peel, tear off”) (modern rrjep). More at rrjep.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
-   "parents": [
-    "hook"
-   ],
+   "parents": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "grap",
-     "tag": "alternative"
+     "form": "udhëzova",
+     "tag": "aorist"
     },
     {
-     "form": "gërepë",
-     "tag": "alternative"
-    },
-    {
-     "form": "gërjepë",
-     "tag": "alternative"
+     "form": "udhëzuar",
+     "tag": "participle"
     }
    ]
   }

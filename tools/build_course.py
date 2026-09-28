@@ -279,6 +279,28 @@ _DERIV_LEAD_RE = re.compile(
 _DERIV_WORD_RE = re.compile(r"[\w\u00C0-\u024F'\u2019-]+", re.UNICODE)
 
 
+# A comparison is not a derivation. nuk's etymology contains the aside
+# "typologically compare Latin non (\"not\"), noenum (\"(Old Latin) idem\")
+# (< ne + unus ~ unum)", where "ne + unus" describes LATIN, not Albanian. Scanning
+# every sentence would otherwise link nuk to ne. The real derivations put
+# the "+" in the sentence's main clause: esell reads "Interpretible as e- +
+# sille", vdekje reads "vdes + -je".
+_COMPARISON_RE = re.compile(
+    r"\b(?:typologically\s+)?compare(?:d)?\b|\bcognates?\s+(?:with|include)\b|"
+    r"\bcf\.\b|\bakin\s+to\b|\b(?:likewise|similarly)\b", re.IGNORECASE)
+
+_PAREN_RE = re.compile(r"\([^)]*\)")
+
+
+def _is_derivation_sentence(sent):
+    """True if this sentence states a composition rather than comparing."""
+    if _COMPARISON_RE.search(sent):
+        return False
+    # A "+" that lives entirely inside parentheses describes something else
+    # (usually a foreign language); one in the main clause is the derivation.
+    return "+" in _PAREN_RE.sub(" ", sent)
+
+
 def derivations_from_text(text):
     """Base words this entry's etymology text says it is built FROM.
 
@@ -287,10 +309,19 @@ def derivations_from_text(text):
     """
     if not text:
         return []
-    # Only the first sentence states the derivation; later sentences are
-    # commentary ("possibly related to merzit", "compare Latin non").
-    head = re.split(r"(?<=[.;])\s", text.strip())[0]
-    if "+" not in head:
+    # Every sentence is scanned, not just the first. Wiktionary often states
+    # the derivation after the reconstruction -- esell reads "...a privative e-
+    # + sille. Interpretible as e- + sille" -- so a first-sentence-only rule
+    # split genuine families apart (esell from its root e). Junk that survives
+    # the wider scan is filtered by requiring the base to be a real deck word,
+    # which is what build_families() already does.
+    sentences = re.split(r"(?<=[.;])\s", text.strip())
+    head = None
+    for sent in sentences:
+        if _is_derivation_sentence(sent):
+            head = sent
+            break
+    if head is None:
         return []
 
     left = head.split("+")[0]

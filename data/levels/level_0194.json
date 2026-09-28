@@ -1,28 +1,105 @@
 {
  "level": 194,
- "title": "shkurtër, qëlloj, përdorim +1",
+ "title": "libër, rrezikshëm, fitoj +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "përdorim",
-  "qëlloj",
-  "shkurtër"
+  "fitoj",
+  "libër",
+  "rrezikshëm"
  ],
  "pos_mix": {
-  "adj": 1,
-  "noun": 4,
-  "verb": 3
+  "noun": 5,
+  "adj": 2,
+  "verb": 5
  },
  "words": [
   {
-   "id": "shkurtër",
-   "sq": "shkurtër",
-   "en": "short, brief",
+   "id": "libër",
+   "sq": "libër",
+   "en": "book",
    "glosses": [
-    "short, brief"
+    "book"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "book",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ia dhashë librin e ri atij.",
+       "en": "I gave the new book to him.",
+       "offsets": [
+        [
+         10,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "book"
+     ]
+    }
+   ],
+   "rank": 1516,
+   "count": 584,
+   "family": "libër",
+   "is_root": true,
+   "etymology": "Borrowed through Late Vulgar Latin (or Old Italian) from Latin liber.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "libra",
+     "tag": "plural"
+    },
+    {
+     "form": "libri",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "rrezikshëm",
+   "sq": "rrezikshëm",
+   "en": "dangerous",
+   "glosses": [
+    "dangerous"
    ],
    "pos": [
     "adj"
@@ -34,7 +111,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "short, brief",
+     "gloss": "dangerous",
      "tags": [],
      "cats": [
       {
@@ -58,129 +135,243 @@
      ],
      "examples": [],
      "links": [
-      "short",
-      "brief"
+      "dangerous"
      ]
     }
    ],
-   "rank": 1542,
-   "count": 572,
-   "family": "shkurtër",
+   "rank": 1521,
+   "count": 582,
+   "family": "rrezikshëm",
    "is_root": true,
-   "etymology": "Enlargement of shkurt.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shkurtëre",
-     "tag": "feminine"
-    }
-   ]
+   "forms": []
   },
   {
-   "id": "qëllim",
-   "sq": "qëllim",
-   "en": "goal, aim",
+   "id": "fitoj",
+   "sq": "fitoj",
+   "en": "to profit, earn",
    "glosses": [
-    "goal, aim",
-    "intention"
+    "to profit, earn",
+    "to win",
+    "to gain",
+    "to win, get on one's side",
+    "to receive, take (something unpleasant)"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "goal, aim",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to profit, earn",
      "tags": [
-      "masculine"
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Fitoj pak nga dyqani.",
+       "en": "I earn a little from the store.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "profit",
+      "earn"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win",
+     "tags": [
+      "also",
+      "intransitive",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E fitova ndeshjen.",
+       "en": "I won the match.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "win"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gain",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E fitova lirinë.",
+       "en": "I gained freedom.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      },
+      {
+       "sq": "Fitoj besimin e shokëve.",
+       "en": "I gain the trust of friends.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "gain"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win, get on one's side",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian back-formations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 0 0 70 0"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 9 9 55 9"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 13 13 42 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "E fitova zemrën e Lindës.",
+       "en": "I won Linda's heart.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "win",
+      "side"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to receive, take (something unpleasant)",
+     "tags": [
+      "colloquial",
+      "transitive"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "goal",
-      "aim"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "intention",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 85"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "intention"
+      "receive",
+      "take"
      ]
     }
    ],
-   "rank": 1547,
-   "count": 570,
-   "family": "qëlloj",
-   "is_root": false,
-   "etymology": "From qëlloj + -im.",
+   "rank": 1528,
+   "count": 580,
+   "family": "fitoj",
+   "is_root": true,
+   "etymology": "Back-formation from përfitoj (“to profit”).",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
-   "derived": [],
+   "derived": [
+    "fit",
+    "fitim",
+    "fitore",
+    "fituar",
+    "fitues"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "qëllime",
-     "tag": "plural"
+     "form": "fitova",
+     "tag": "aorist"
     },
     {
-     "form": "qëllimi",
-     "tag": "definite"
+     "form": "fituar",
+     "tag": "participle"
     }
    ]
   },
   {
-   "id": "përdorim",
-   "sq": "përdorim",
-   "en": "use",
+   "id": "fitim",
+   "sq": "fitim",
+   "en": "pay, wages",
    "glosses": [
-    "use",
-    "usage"
+    "pay, wages",
+    "income",
+    "benefit, gain",
+    "victory"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -188,7 +379,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "use",
+     "gloss": "pay, wages",
      "tags": [
       "masculine"
      ],
@@ -198,212 +389,229 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "42 58"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "use"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "usage",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
+       "_dis": "16 15 27 19 23"
       },
       {
        "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "21 79"
+       "_dis": "14 28 15 20 24"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "41 59"
+       "_dis": "15 21 18 21 26"
       }
      ],
      "examples": [],
      "links": [
-      "usage"
+      "pay",
+      "wages"
      ]
-    }
-   ],
-   "rank": 1552,
-   "count": 569,
-   "family": "përdorim",
-   "is_root": true,
-   "etymology": "Gerund of përdor.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përdorime",
-     "tag": "plural"
     },
     {
-     "form": "përdorimi",
-     "tag": "definite"
-    }
-   ]
-  },
-  {
-   "id": "qëlloj",
-   "sq": "qëlloj",
-   "en": "to hit",
-   "glosses": [
-    "to hit",
-    "to beat",
-    "to gain, obtain"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hit",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "income",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Economics",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 35"
+       "source": "w",
+       "orig": "sq:Economics",
+       "langcode": "sq"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "34 34 32"
+       "_dis": "16 15 27 19 23"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
       }
      ],
      "examples": [],
      "links": [
-      "hit"
+      "economics",
+      "income"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to beat",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 32"
-      }
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "benefit, gain",
+     "tags": [
+      "masculine"
      ],
-     "examples": [],
-     "links": [
-      "beat"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to gain, obtain",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "30 30 39"
+       "_dis": "16 15 27 19 23"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 35"
+       "_dis": "15 21 18 21 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "benefit",
+      "gain"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "victory",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 15 27 19 23"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 21 18 21 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "victory"
+     ]
+    }
+   ],
+   "rank": 8020,
+   "count": 85,
+   "family": "fitoj",
+   "is_root": false,
+   "etymology": "From fitoj (“to profit, gain”) + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "derived": [
+    "fitimdhënës",
+    "i fitimët",
+    "fitimprurës",
+    "i fitimshëm",
+    "fitimtar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "fitime",
+     "tag": "plural"
+    },
+    {
+     "form": "fitimi",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "fitimprurës",
+   "sq": "fitimprurës",
+   "en": "profitable, fruitful",
+   "glosses": [
+    "profitable, fruitful"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "profitable, fruitful",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 32"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "gain",
-      "obtain"
+      "profitable",
+      "fruitful"
      ]
     }
    ],
-   "rank": 2109,
-   "count": 407,
-   "family": "qëlloj",
-   "is_root": true,
-   "etymology": "Internal development from sjell. Alternatively restored from an earlier *përqëlloj, from Latin percellāre (“to beat down”).",
-   "etymology_class": "borrowed",
+   "rank": 29292,
+   "count": 15,
+   "family": "fitoj",
+   "is_root": false,
+   "etymology": "From fitim (“profit”) + prurës (“bringer”).",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
-   "derived": [
-    "qëllim"
+   "parents": [
+    "profit",
+    "bringer"
    ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qëllova",
-     "tag": "aorist"
-    },
-    {
-     "form": "qëlluar",
-     "tag": "participle"
+     "form": "fitimprurëse",
+     "tag": "feminine"
     }
    ]
   }

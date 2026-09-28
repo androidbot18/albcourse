@@ -97,11 +97,41 @@ export function isReverseFriendly(word) {
   return true;
 }
 
-export function firstExample(word) {
-  for (const s of sensesOf(word)) {
-    for (const ex of s.examples || []) {
-      if (ex && typeof ex.en === 'string' && ex.en.trim()) return ex;
-    }
+/* The example must belong to the SAME sense as the gloss shown above it.
+ *
+ * Scanning every sense and taking the first example found attached the wrong
+ * one: 'e' headlines its conjunction sense ("and"), but the first example
+ * across all senses belongs to its preposition sense ("of, + dative"), so the
+ * lesson showed "and" over "The honor of an Albanian can not be sold or
+ * bought in a bazaar." The data was correct; the pairing was not.
+ *
+ * A card shows one gloss, so its example has to come from that sense. And if
+ * that sense has no example of its own, an example from a DIFFERENT part of
+ * speech is worse than none: 'e' headlines the conjunction "and", whose senses
+ * carry no examples, so the fallback reached the preposition sense "of, +
+ * dative" and illustrated "and" with a sentence that contains no and. Better
+ * to show the gloss alone. So the fallback stays within the same POS.
+ */
+export function exampleForSense(word, index = 0) {
+  const senses = sensesOf(word);
+  if (!senses.length) return null;
+  const home = Math.min(index, senses.length - 1);
+  const usable = (s) => (s.examples || []).filter(
+    (ex) => ex && typeof ex.en === 'string' && ex.en.trim());
+
+  const own = usable(senses[home]);
+  if (own.length) return own[0];
+
+  // Same part of speech, a different sense: still an honest illustration.
+  const pos = senses[home].pos;
+  for (let i = 0; i < senses.length; i += 1) {
+    if (i === home || senses[i].pos !== pos) continue;
+    const same = usable(senses[i]);
+    if (same.length) return same[0];
   }
   return null;
+}
+
+export function firstExample(word) {
+  return exampleForSense(word, 0);
 }

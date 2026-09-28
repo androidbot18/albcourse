@@ -74,6 +74,29 @@ eq(d("From marr + -ës. Compare Italian marrire."), ["marr"],
 eq(d("See marr (“I take”)."), [],
    "a cross-reference is not a derivation")
 
+# --- derivations stated in a LATER sentence must still be found -----------
+# esëll's etymology only names its base in the third sentence. A
+# first-sentence-only rule split it from its root e, which is a real family
+# broken by the strictness of the rule, not a deliberate exclusion.
+eq(d("From Proto-Albanian *a-tšilna, a compound equivalent to a privative e- + "
+     "sillë (“breakfast”). Interpretible as e- + sille (“breakfast”)."), ["e"],
+   "esëll: base named in a later sentence still counts")
+eq(d("From Old Albanian vdekëlë, derivative built from vdekur, past participle of "
+     "vdes; vdes + -je."), ["vdes"], "vdekje: after a semicolon")
+eq(d("Gerund of ushqej (“to feed”); ushqej + -im."), ["ushqej"],
+   "ushqim: a bare second sentence")
+
+# --- a comparison is NOT a derivation, however the + is placed ------------
+# This is the original nuk/not defect. The aside describes LATIN, not Albanian:
+#   "typologically compare Latin nōn (“not”), noenum (“idem”) (< ne + ūnus)"
+eq(d("From Proto-Albanian *ne uka (“not one”) with negator *ne (“not”); "
+     "typologically compare Latin nōn (“not”), noenum (“(Old Latin) idem”) "
+     "(< ne + ūnus ~ ūnum)."), [],
+   "nuk: a Latin comparison aside is not a derivation")
+eq(d("From Proto-Albanian *apsera, perhaps a contamination of *aps. "
+     "Cognates include Latin adsim, Greek ἄψ. Alternatively, from a + -fër."),
+   ["a"], "an explicit alternative derivation after a cognate list still counts")
+
 # --- the real defect, on the real data ----------------------------------
 card = {}
 for f in sorted(glob(os.path.join(ROOT, "data", "levels", "level_*.json")),

@@ -1,41 +1,40 @@
 {
  "level": 498,
- "title": "shkurtë, send, ortak +1",
+ "title": "jashtëm, kurs, ftesë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "ortak",
-  "send",
-  "shkurtë"
+  "ftesë",
+  "jashtëm",
+  "kurs"
  ],
  "pos_mix": {
-  "noun": 3
+  "adj": 1,
+  "noun": 6
  },
  "words": [
   {
-   "id": "shkurtë",
-   "sq": "shkurtë",
-   "en": "quail",
+   "id": "jashtëm",
+   "sq": "jashtëm",
+   "en": "external, exterior",
    "glosses": [
-    "quail"
+    "external, exterior"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "quail",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "external, exterior",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -58,45 +57,103 @@
      ],
      "examples": [],
      "links": [
-      "quail"
+      "external",
+      "exterior"
      ]
     }
    ],
-   "rank": 8311,
-   "count": 81,
-   "family": "shkurtë",
+   "rank": 8429,
+   "count": 80,
+   "family": "jashtëm",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Indo-European *h₁eǵʰstm̥mos.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shkurta",
-     "tag": "plural"
-    }
-   ]
+   "forms": []
   },
   {
-   "id": "send",
-   "sq": "send",
-   "en": "thing, object",
+   "id": "kurs",
+   "sq": "kurs",
+   "en": "course (education)",
    "glosses": [
-    "thing, object"
+    "course (education)",
+    "student body",
+    "exchange rate",
+    "course: orientation of movement in ship, airplane etc.",
+    "political orientation of a party"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "thing, object",
+     "gloss": "course (education)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "course"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "student body",
+     "tags": [
+      "collective",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "student body"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "exchange rate",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Finance",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Finance",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "finance",
+      "exchange rate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "course: orientation of movement in ship, airplane etc.",
      "tags": [
       "masculine"
      ],
@@ -105,100 +162,38 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 16 19 53 8"
       }
      ],
      "examples": [],
      "links": [
-      "thing",
-      "object"
+      "technical",
+      "course"
      ]
-    }
-   ],
-   "rank": 8347,
-   "count": 81,
-   "family": "send",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tsjam tam, from Proto-Indo-European *kiom tom, a sequence of two pronouns in neuter of which the first is related to 'se'. Alternatively from Proto-Albanian *tśe enta, literally 'this being', the first element from *kwe- (“how, what”), or *k̂(e) (“this”), while the second one being a gerundive or a participle of a disused verb, close to Latin -ēns (participal ending), Medieval Latin ens (“being”) (hence Italian ente (“entity, body, being”)), and Ancient Greek ὤν (ṓn) (present participle).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "se"
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "senë",
-     "tag": "alternative"
-    }
-   ]
-  },
-  {
-   "id": "ortak",
-   "sq": "ortak",
-   "en": "partner, associate",
-   "glosses": [
-    "partner, associate"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "partner, associate",
+     "gloss": "political orientation of a party",
      "tags": [
+      "figuratively",
       "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "partner",
-      "associate"
+      "political",
+      "orientation",
+      "party"
      ]
     }
    ],
-   "rank": 8366,
-   "count": 81,
-   "family": "ortak",
+   "rank": 8455,
+   "count": 80,
+   "family": "kurs",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish اورتاق (ortak, “partner, associate”).",
+   "etymology": "Borrowed from French course.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
@@ -206,14 +201,71 @@
    "related": [],
    "forms": [
     {
-     "form": "ortakë",
+     "form": "kurse",
      "tag": "plural"
     },
     {
-     "form": "ortaku",
+     "form": "kursi",
      "tag": "definite"
     }
    ]
+  },
+  {
+   "id": "ftesë",
+   "sq": "ftesë",
+   "en": "invitation",
+   "glosses": [
+    "invitation"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "invitation",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "invitation"
+     ]
+    }
+   ],
+   "rank": 8456,
+   "count": 80,
+   "family": "ftesë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "derived": [],
+   "related": [],
+   "forms": []
   }
  ]
 }

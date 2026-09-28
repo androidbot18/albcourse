@@ -47,6 +47,13 @@ echo "== pos display (level view dedup) =="
 node tools/test_pos_display.mjs
 
 echo
+echo "== example pairing =="
+# An example must illustrate the gloss above it. firstExample() used to take the
+# first example across ALL senses, so 'e' showed the conjunction "and" beside a
+# preposition sentence containing no "and". Includes a negative control.
+node tools/test_example_pairing.mjs
+
+echo
 echo "== flat-index POS regression =="
 # Proves the validator's POS-duplication check can actually fail. A check that
 # never fails would report green forever.

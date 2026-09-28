@@ -1,0 +1,41 @@
+Show the example that belongs to the gloss, and recover derivations stated late
+
+Two defects, both visible in the lesson view.
+
+## 1. An example illustrated the wrong sense
+
+The card for e shows the gloss and, as a word means several things, an example
+sentence. firstExample() scanned every sense and returned the first example it
+found, so the headline conjunction sense (and) was illustrated by a sentence
+belonging to a different, prepositional sense (of, + dative). The sentence
+contained no and at all, which made the card look broken rather than merely
+imprecise.
+
+The example now comes from the sense whose gloss is on screen, and the
+fallback to another sense is limited to the same part of speech. A conjunction
+gloss with no conjunction example is better shown without an example than
+illustrated by a preposition sentence. e now shows and and no example.
+
+tools/test_example_pairing.mjs covers it, including a check that no card anywhere
+in the deck shows a cross-POS example, and a negative control.
+
+## 2. esell was split from its real root
+
+esell (sober, on an empty stomach) really is built from e-, a privative prefix,
+plus sille. The build only read the first sentence of the etymology, and esell
+names its base in the third: Interpretible as e- + sille.
+
+Every sentence is now scanned, but a comparison is not a derivation. nuk holds
+the aside typologically compare Latin non (not) ... (< ne + unus ~ unum), which
+describes Latin. Sentences introduced as comparisons, cognate lists, or ones
+whose + sits entirely inside parentheses, are skipped. Without that guard the
+wider scan put nuk back under ne, the exact defect this rule was written to fix.
+
+105 genuine derivations recovered, including vdekje from vdes, takim from
+takoj, ushqim from ushqej, mendim from mendoj and esell from e. Result: 3,029
+families with 407 multi-member (was 3,082 and 381), 1,031 levels.
+
+Verified: 188 tests across ten suites, the derivation parser suite now pinning
+both directions of the late-sentence rule, family completeness with its
+negative control, and the level view in Firefox showing e as and with no
+example and esell in its own family.
