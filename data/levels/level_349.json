@@ -1,43 +1,45 @@
 {
  "level": 349,
- "title": "varrezë, urith, hudhër, ironi, hardhucë, plastikë +4",
+ "title": "shkund, pikturoj, ekonomi, vithe, lëmuar, frymëzim +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "hardhucë",
-  "hudhër",
-  "ironi",
-  "plastikë",
-  "urith",
-  "varrezë"
+  "ekonomi",
+  "frymëzim",
+  "lëmuar",
+  "pikturoj",
+  "shkund",
+  "vithe"
  ],
  "pos_mix": {
-  "noun": 7
+  "verb": 3,
+  "noun": 4,
+  "adj": 1
  },
  "words": [
   {
-   "id": "varrezë",
-   "sq": "varrezë",
-   "en": "cemetery, graveyard",
+   "id": "shkund",
+   "sq": "shkund",
+   "en": "to shake, swing",
    "glosses": [
-    "cemetery, graveyard"
+    "to shake, swing"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cemetery, graveyard",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shake, swing",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -61,37 +63,247 @@
      ],
      "examples": [],
      "links": [
-      "cemetery",
-      "graveyard"
+      "shake",
+      "swing"
      ]
     }
    ],
-   "rank": 17380,
+   "rank": 17150,
    "count": 32,
-   "family": "varrezë",
+   "family": "shkund",
    "is_root": true,
-   "etymology": "A formation from varr (“grave”).",
-   "etymology_class": null,
+   "etymology": "* From Proto-Albanian *skunta, either a nasal present of Proto-Indo-European *skeut- or from *sku(n)t-, *ku(n)t- (“to shake, rattle”).\n* Close to Latin excutere, Italian scuotere and Proto-Germanic *skundijaną (“to drive, push, compel, rush”) (compare English shunt).\n* Cognate to Middle Irish scothaid (“to cut off”), Lithuanian skutù (“to scrape”) and Latin scindō (“to tear into parts”).",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [
-    "grave"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vorrezë",
+     "form": "shkunda",
+     "tag": "aorist"
+    },
+    {
+     "form": "shkundur",
+     "tag": "participle"
+    },
+    {
+     "form": "shkun",
+     "tag": "alternative"
+    },
+    {
+     "form": "shkunn",
      "tag": "alternative"
     }
    ]
   },
   {
-   "id": "urith",
-   "sq": "urith",
-   "en": "mole (rodent)",
+   "id": "pikturoj",
+   "sq": "pikturoj",
+   "en": "to paint, make a painting",
    "glosses": [
-    "mole (rodent)"
+    "to paint, make a painting",
+    "to describe very well, depict"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to paint, make a painting",
+     "tags": [
+      "ambitransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "paint",
+      "painting"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to describe very well, depict",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 62"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "describe",
+      "depict"
+     ]
+    }
+   ],
+   "rank": 17156,
+   "count": 32,
+   "family": "pikturoj",
+   "is_root": true,
+   "etymology": "From pikturë + -oj, compare Italian pitturare.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pikturim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "pikturova",
+     "tag": "aorist"
+    },
+    {
+     "form": "pikturuar",
+     "tag": "participle"
+    }
+   ]
+  },
+  {
+   "id": "ekonomi",
+   "sq": "ekonomi",
+   "en": "economy",
+   "glosses": [
+    "economy",
+    "economics"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "economy",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "economy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "economics",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "economics"
+     ]
+    }
+   ],
+   "rank": 17172,
+   "count": 32,
+   "family": "ekonomi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ekonomik",
+    "ekonomist"
+   ],
+   "forms": [
+    {
+     "form": "ekonomi",
+     "tag": "plural"
+    },
+    {
+     "form": "ekonomia",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "vithe",
+   "sq": "vithe",
+   "en": "crupper, rump, buttock, haunch",
+   "glosses": [
+    "crupper, rump, buttock, haunch"
    ],
    "pos": [
     "noun"
@@ -103,7 +315,130 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mole (rodent)",
+     "gloss": "crupper, rump, buttock, haunch",
+     "tags": [
+      "feminine",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pluralia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -th",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "crupper",
+      "rump",
+      "buttock"
+     ]
+    }
+   ],
+   "rank": 17235,
+   "count": 32,
+   "family": "vithe",
+   "is_root": true,
+   "etymology": "A diminutive in -th, based on Proto-Albanian *wīja (“twisted, woven”), from *weh₁yos (“twisted”), ultimately from *weh₁y- (“to twist, to twine”). Cognate to Latin vīeō, Sanskrit व्ययति (vyáyati), Lithuanian výti, Proto-Slavic *viti.",
+   "etymology_class": "root",
+   "source_lang": null,
+   "parents": [
+    "twisted"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "lëmuar",
+   "sq": "lëmuar",
+   "en": "smooth",
+   "glosses": [
+    "smooth"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "smooth",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "smooth"
+     ]
+    }
+   ],
+   "rank": 17241,
+   "count": 32,
+   "family": "lëmuar",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "frymëzim",
+   "sq": "frymëzim",
+   "en": "inspiration",
+   "glosses": [
+    "inspiration"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "inspiration",
      "tags": [
       "masculine"
      ],
@@ -129,343 +464,13 @@
      ],
      "examples": [],
      "links": [
-      "mole"
+      "inspiration"
      ]
     }
    ],
-   "rank": 17388,
+   "rank": 17255,
    "count": 32,
-   "family": "urith",
-   "is_root": true,
-   "etymology": "Diminutive of variant uri, from archaic ur, from Proto-Albanian *wara, from Proto-Indo-European *wewer (“squirrel”) (compare Serbo-Croatian vjȅverica, Lithuanian voverė, Latin viverra (“ferret”)).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "squirrel",
-    "ferret"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "uri",
-     "tag": "alternative"
-    },
-    {
-     "form": "ur",
-     "tag": "alternative"
-    }
-   ]
-  },
-  {
-   "id": "hudhër",
-   "sq": "hudhër",
-   "en": "garlic",
-   "glosses": [
-    "garlic",
-    "bad person"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "garlic",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "garlic"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bad person",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 17389,
-   "count": 32,
-   "family": "hudhër",
-   "is_root": true,
-   "etymology": "Metathesis of archaic and dialectal hurdhë, from Proto-Albanian *skurdā, from a Mediterranean substrate word *skʰor(o)d- (compare Greek σκόρδο (skórdo), Armenian սխտոր (sxtor)).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hudhra",
-     "tag": "plural"
-    },
-    {
-     "form": "hudhrë",
-     "tag": "alternative"
-    },
-    {
-     "form": "hudër",
-     "tag": "alternative"
-    },
-    {
-     "form": "hurdhë",
-     "tag": "alternative"
-    }
-   ]
-  },
-  {
-   "id": "ironi",
-   "sq": "ironi",
-   "en": "irony",
-   "glosses": [
-    "irony"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "irony",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "irony"
-     ]
-    }
-   ],
-   "rank": 17406,
-   "count": 32,
-   "family": "ironi",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ironi",
-     "tag": "definite"
-    }
-   ]
-  },
-  {
-   "id": "hardhucë",
-   "sq": "hardhucë",
-   "en": "lizard",
-   "glosses": [
-    "lizard"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lizard",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ucë",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lizard"
-     ]
-    }
-   ],
-   "rank": 17478,
-   "count": 31,
-   "family": "hardhucë",
-   "is_root": true,
-   "etymology": "From hardhje + -ucë (diminutive suffix). More at hardhje and harr.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hardhuca",
-     "tag": "plural"
-    },
-    {
-     "form": "hardhicë",
-     "tag": "alternative"
-    },
-    {
-     "form": "hardhiçkë",
-     "tag": "alternative"
-    },
-    {
-     "form": "hardhël",
-     "tag": "alternative"
-    },
-    {
-     "form": "hardhëjë",
-     "tag": "alternative"
-    },
-    {
-     "form": "hardhje",
-     "tag": "alternative"
-    }
-   ]
-  },
-  {
-   "id": "plastikë",
-   "sq": "plastikë",
-   "en": "plastic",
-   "glosses": [
-    "plastic"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plastic",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "plastic"
-     ]
-    }
-   ],
-   "rank": 17484,
-   "count": 31,
-   "family": "plastikë",
+   "family": "frymëzim",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,

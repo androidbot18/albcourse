@@ -141,6 +141,41 @@ if card:
         if a in fam and b in fam:
             eq(fam[a] == fam[b], True, "%s and %s stay in one family" % (a, b))
 
+
+
+# --- components_of: a joiner is not a stem -------------------------------
+# gjëegjëzë is gjë + e + gjëzë, where e is the conjunctive "and" sitting
+# between two lexical elements. It is not a base the learner needs first,
+# so it must not become a stem. The two-part nëse = në + se keeps se,
+# because there se really is the word that has to be known first.
+W = {"gjë", "e", "gjëzë", "në", "se", "do", "mos", "me",
+     "thënë", "së", "mund", "pa", "besë", "sillë", "dritë"}
+
+for text, want_stem, why in [
+    ("From gjë + e + gjëzë.", None,
+     "e between two words in a compound is a joiner"),
+    ("From do + e + mos.", None,
+     "e between do and mos is a joiner"),
+    ("Univerbation of do + me + thënë.", None,
+     "me between do and thënë is a joiner"),
+    ("From në + se.", "se",
+     "two-part nëse keeps its real stem"),
+    ("e- + sillë", "sillë",
+     "the headline case esëll = e- + sillë keeps sillë"),
+    ("From së- + mund + -je.", "mund",
+     "a base before a hyphenated suffix is still the stem"),
+    ("From pa- + besë + -ë.", "besë",
+     "three-part pabesë keeps besë"),
+]:
+    got = bc.components_of(text, W)
+    stems = [w for w, role in got if role == "stem"]
+    eq(stems, [want_stem] if want_stem else [], why)
+
+# Negative control: the joiner rule must not be the reason the headline
+# case works, since esëll is two parts and never hits the rule.
+eq(bc.components_of("e- + sillë", W) != [], True,
+   "esëll still resolves components at all")
+
 print()
 if failures:
     print("FAILURES (%d):" % len(failures))
