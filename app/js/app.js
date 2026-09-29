@@ -218,7 +218,12 @@ function viewStudy(root) {
   if (state.revealed) {
     card.append(el('div', 'answer-label', forward ? 'English' : 'Albanian'));
     card.append(el('div', 'answer', forward ? w.en : w.sq));
-    if (w.ex) card.append(el('div', 'example', w.ex.en));
+    if (w.ex && w.ex.sq && w.ex.en) {
+      const ex = el('div', 'example');
+      ex.append(el('div', 'ex-sq', w.ex.sq));
+      ex.append(el('div', 'ex-en', w.ex.en));
+      card.append(ex);
+    }
   } else {
     const show = el('button', 'reveal', 'Show answer');
     show.type = 'button';

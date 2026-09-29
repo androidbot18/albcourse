@@ -54,6 +54,16 @@ echo "== pos display (level view dedup) =="
 node tools/test_pos_display.mjs
 
 echo
+echo
+echo "== study card example =="
+# The study card showed only the English half of an example, so "to love
+# someone." appeared under the gloss for "te" with no Albanian sentence to
+# show how the word is used. This extracts the REAL viewStudy() source and
+# runs it against the REAL words.json, because a hand-copied view passed
+# while the feature was broken. Includes a negative control.
+node tools/test_study_example.mjs
+
+echo
 echo "== example pairing =="
 # An example must illustrate the gloss above it. firstExample() used to take the
 # first example across ALL senses, so 'e' showed the conjunction "and" beside a
