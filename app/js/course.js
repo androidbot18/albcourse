@@ -146,6 +146,14 @@ export function examplePairForSense(word, index = 0) {
       };
     }
   }
+  // Last resort: a reference sentence mined from a human-translated parallel
+  // corpus. These carry no sense metadata, so they are only used when the
+  // card has NO Wiktionary example at all. Every one of them was checked at
+  // build time to render this word's intended sense.
+  const corpus = word && word.corpus_example;
+  if (corpus && corpus.sq && corpus.en) {
+    return { ex: { sq: corpus.sq, en: corpus.en }, fromSense: false, senseGloss: null };
+  }
   return null;
 }
 

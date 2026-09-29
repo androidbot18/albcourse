@@ -16,6 +16,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 LEVELS = DATA / "levels"
 
+# Reference sentences mined from human-translated parallel corpora (OPUS).
+# Wiktionary examples always win: they are authored for the headword and
+# aligned to the exact sense. This file only fills gaps. See
+# tools/select_examples.py for the selection gates and their rationale.
+CORPUS_EXAMPLES = pathlib.Path(__file__).resolve().parent.parent / "data" / "corpus_examples.json"
+
 
 def dedup_labels(word):
     """POS labels for a card, deduped but order-preserving.
@@ -100,11 +106,25 @@ def sense_pair(word):
     return None
 
 
+def _slim(ex):
+    """Reduce a corpus record to the two fields a card actually shows."""
+    if not ex or not ex.get("sq") or not ex.get("en"):
+        return None
+    return {"sq": ex["sq"], "en": ex["en"]}
+
+
 def main():
     files = sorted(LEVELS.glob("level_*.json"))
     if not files:
         print(f"no level files in {LEVELS}")
         return 1
+
+    corpus = {}
+    if CORPUS_EXAMPLES.exists():
+        corpus = json.loads(CORPUS_EXAMPLES.read_text(encoding="utf-8"))
+        print("corpus examples available: %d" % len(corpus))
+    else:
+        print("no corpus_examples.json -- Wiktionary examples only")
 
     words = []
     for path in files:
@@ -126,7 +146,11 @@ def main():
                     "pos": dedup_labels(w)[:2],
                     "etymology_class": w.get("etymology_class"),
                     "components": w.get("components") or [],
-                    "ex": pair["ex"] if pair else None,
+                    # Wiktionary first; corpus only fills a genuine gap.
+                    # Only sq/en ship. The corpus record also carries
+                    # "corpus" and "score", which are build-time provenance
+                    # the app never reads; leaking them bloats every card.
+                    "ex": (pair["ex"] if pair else _slim(corpus.get(w["sq"]))),
                     # Set when the example came from a sibling sense of the
                     # same POS, so the app can show that sense's gloss and the
                     # sentence is never read as illustrating the headline gloss.

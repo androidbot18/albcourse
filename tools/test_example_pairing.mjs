@@ -45,9 +45,15 @@ if (e) {
   ok(homePos === 'conj', 'headline sense is a conjunction', 'got ' + homePos);
   ok((e.sense_detail[0].examples || []).length === 0,
      'that sense genuinely has no example, so showing none is correct');
+  // "e" may legitimately show a corpus sentence in which it IS the
+  // conjunction ("Dhe e bera." / "And it did."). The defect guarded here is a
+  // MISMATCHED example, so assert the example is not the preposition one and
+  // that anything shown really does render the conjunction.
   const ex = firstExample(e);
-  ok(ex === null, "'e' shows no example rather than a preposition one",
-     'got ' + (ex ? ex.sq : 'null'));
+  ok(!ex || String(ex.sq).indexOf('Besa') < 0,
+     "'e' shows no preposition example");
+  ok(!ex || /\band\b/i.test(ex.en),
+     "any example shown for 'e' renders the conjunction", ex ? ex.en : 'none');
 }
 
 // Across the whole deck: no shown example may come from a different POS.

@@ -41,6 +41,13 @@ RAW = os.path.join(ROOT, "data", "raw")
 OUT = os.path.join(ROOT, "data")
 LEVELS_DIR = os.path.join(OUT, "levels")
 
+# Reference sentences mined from human-translated parallel corpora (OPUS).
+# Wiktionary examples always win: authored for the headword and tied to the
+# exact sense. This only fills cards that have none, and every sentence was
+# checked to render the intended sense. Kept in the level files as well as
+# the flat index so the lesson view and the review card agree.
+CORPUS_EXAMPLES_PATH = os.path.join(OUT, "corpus_examples.json")
+
 # Parts of speech that carry learnable vocabulary.
 # Excluded: 'name' (proper nouns), 'character' (single letters),
 # 'suffix'/'prefix'/'infix' (bound morphemes), 'particle' and 'symbol'.
@@ -868,6 +875,16 @@ def main():
         if stats.get(k):
             print("  %-16s %d" % (k, stats[k]))
 
+    # Reference sentences from human-translated corpora. Absent file is fine:
+    # the course then ships Wiktionary examples only, exactly as before.
+    corpus_examples = {}
+    if os.path.exists(CORPUS_EXAMPLES_PATH):
+        with open(CORPUS_EXAMPLES_PATH, encoding="utf-8") as fh:
+            corpus_examples = json.load(fh)
+        print("corpus reference sentences: %d" % len(corpus_examples))
+    else:
+        print("no corpus_examples.json - Wiktionary examples only")
+
     print("building word families...", flush=True)
     parent, families = build_families(cards)
     multi = {r: m for r, m in families.items() if len(m) > 1}
@@ -935,6 +952,9 @@ def main():
                 "derived": c["derived"][:8],
                 "related": c["related"][:5],
                 "forms": c["forms"],
+                # Corpus fallback, shaped like a sense example so the
+                # existing exampleForSense() logic reads it unchanged.
+                "corpus_example": corpus_examples.get(w),
             })
         objs.sort(key=lambda o: o["rank"])
         # A single-family level is named after its root, the way a Wanikani
