@@ -28,6 +28,7 @@ Design rules:
 """
 
 import json
+import form_senses
 from example_rank import rank_examples
 import os
 import re
@@ -52,6 +53,14 @@ CORPUS_EXAMPLES_PATH = os.path.join(OUT, "corpus_examples.json")
 # Excluded: 'name' (proper nouns), 'character' (single letters),
 # 'suffix'/'prefix'/'infix' (bound morphemes), 'particle' and 'symbol'.
 CORE_POS = {"noun", "verb", "adj", "adv", "pron", "num", "intj", "prep", "conj", "det"}
+
+# Frequency ceiling for admitting a card for an inflected form. The deck is
+# built to be a Joyo-shaped course of common vocabulary, so a form is added
+# only where a learner actually meets the inflected word rather than the
+# lemma. Measured with tools/measure_form_gap.py: rank <= 2000 admits 183
+# cards and covers every one of the 116 forms inside the top 500, while
+# rank <= 5000 would add 669 and pull in rare conjugations nobody meets yet.
+FORM_CARD_MAX_RANK = 2000
 
 # Order in which a multi-POS word should be presented.
 #
@@ -154,8 +163,117 @@ def sense_is_content(sense):
     return True
 
 
+def form_lemma_of(card):
+    """The lemma a form card points at, or None for an ordinary card."""
+    for s in card.get("senses") or []:
+        if s.get("is_form_of"):
+            return s["is_form_of"]
+    return None
+
+
+def add_form_cards(cards, path, freq, max_rank):
+    """Add cards for frequent inflected forms, filed under their lemma.
+
+    Returns the list of added words. A form is admitted only when the word has
+    no content sense of its own, is within the frequency cut, and its gloss
+    names a real grammatical slot and a lemma the deck already teaches. That
+    yields 183 cards at rank <= 2000, dominated by the copula and the auxiliaries
+    a learner meets in the very first sentences ('eshte' rank 6, 'jane' rank
+    54) rather than in a dictionary's inflection table.
+    """
+    known = {c["word"] for c in cards}
+    added = []
+    for j in read_entries(path):
+        if j.get("lang_code") != "sq":
+            continue
+        pos = j.get("pos")
+        if pos not in CORE_POS:
+            continue
+        w = (j.get("word") or "").strip()
+        if not w or not ALPHABET_RE.match(w) or w in known:
+            continue
+        f = freq.get(w)
+        if not f or f[0] > max_rank:
+            continue
+        s = form_sense_of(j, known)
+        if s is None:
+            continue
+        gl = str((s.get("glosses") or [""])[0]).strip()
+        lemma = form_senses.form_of_lemma(gl, s.get("tags"), words=known)
+        if not lemma:
+            continue
+        rank, count = f
+        ety = parse_etymology(j)
+        cards.append({
+            "word": w,
+            "rank": rank,
+            "count": count,
+            # One sense only. The gloss is a grammatical description, so the
+            # card is tagged as a form rather than presenting it as vocabulary
+            # in its own right; the lemma link is what makes it learnable.
+            "senses": [{
+                "pos": pos,
+                "pos_label": POS_LABEL.get(pos, pos),
+                "gloss": gl,
+                "tags": list(s.get("tags") or []),
+                "cats": (s.get("categories") or [])[:3],
+                "examples": [],
+                "_src": 0,
+                "is_form_of": lemma,
+            }],
+            "etymology": ety["text"],
+            "etymology_class": ety["cls"],
+            "parents": [],
+            "source_lang": ety["source_lang"],
+            "derived": [],
+            "related": [],
+            "forms": entry_forms(j),
+        })
+        known.add(w)
+        added.append(w)
+    return added
+
+
+def read_entries(path):
+    """Yield parsed Kaikki records, skipping unparseable lines."""
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                yield json.loads(line)
+            except Exception:
+                continue
+
+
 def content_senses(entry):
     return [s for s in (entry.get("senses") or []) if sense_is_content(s)]
+
+
+def form_sense_of(entry, known_words):
+    """The one form-of sense of 'entry' worth a card, or None.
+
+    A form-of sense earns a card only when the word has no content sense of its
+    own anywhere. Without that guard a minor sense of a word that is already a
+    major entry wins on frequency: 'dhe' is the conjunction 'and' at rank 12 and
+    the noun 'earth', and its aorist of 'jap' ('to give') would file it under a
+    verb lemma and teach the wrong thing.
+
+    form_senses.form_of_lemma decides which glosses qualify and returns the
+    lemma they point at. The frequency gate is applied by the caller, not here,
+    because the cut is a course decision rather than a property of the entry.
+    """
+    for s in entry.get("senses") or []:
+        if sense_is_content(s):
+            return None
+        g = (s.get("glosses") or [None])[0]
+        if not g:
+            continue
+        lemma = form_senses.form_of_lemma(g, s.get("tags"), words=known_words)
+        if lemma:
+            return s
+    return None
 
 
 def gloss_score(text, tags):
@@ -668,6 +786,14 @@ def build_families(cards):
 
     for c in cards:
         w = c["word"]
+        # An inflected form belongs to its lemma's family, so the two unlock
+        # together and the learner never meets a form before its base. This is
+        # a different kind of link from the etymological one below, which is
+        # evidence of derivation; this one is grammatical.
+        lemma = form_lemma_of(c)
+        if lemma and lemma in words and lemma != w:
+            parent.setdefault(w, lemma)
+            continue
         for base in derivations_from_text(c.get("etymology", "")):
             if base in words and base != w:
                 parent.setdefault(w, base)
@@ -874,6 +1000,14 @@ def main():
     for k in ("skipped_pos", "skipped_shape", "skipped_nogloss", "skipped_notfreq", "parse_error"):
         if stats.get(k):
             print("  %-16s %d" % (k, stats[k]))
+
+    # Inflected forms the deck would otherwise never teach. Runs after
+    # load_dict so the set of real lemmas is known, and before build_families
+    # so each form can join its lemma's family and unlock alongside it.
+    added = add_form_cards(cards, kaikki, freq, max_rank=FORM_CARD_MAX_RANK)
+    if added:
+        print("  +%d inflected-form cards (rank <= %d), now %d cards"
+              % (len(added), FORM_CARD_MAX_RANK, len(cards)))
 
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.

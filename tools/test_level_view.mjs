@@ -59,6 +59,7 @@ const idx = JSON.parse(levels);
 // assuming a digit count, which is what silently broke this test at 1000.
 const width = String(idx.reduce((m, l) => Math.max(m, l.level), 0)).length;
 let rendered = 0, wordsSeen = 0, badSq = 0, badEn = 0, badPos = 0, badEx = 0;
+const seenWords = new Set();
 
 for (const meta of idx) {
   const n = String(meta.level).padStart(width, '0');
@@ -77,6 +78,7 @@ for (const meta of idx) {
     for (const w of words) {
       const row = wordRow(w);
       wordsSeen += 1;
+      seenWords.add(w.id || w.sq);
       if (!row.children[0].children[0].textContent) badSq += 1;
       if (!row.children[1].textContent) badEn += 1;
       if (!row.children[0].children[1].textContent) badPos += 1;
@@ -89,7 +91,14 @@ for (const meta of idx) {
 }
 
 ok(rendered === idx.length, `all ${idx.length} levels render (${rendered})`);
-ok(wordsSeen === 3731, `every card appears exactly once across levels (${wordsSeen})`);
+// The count comes from the built data, not a literal. Hard-coding it meant
+// adding inflected-form cards failed this as if a card were duplicated. It is
+// read from the level files, since index.json holds only per-level metadata.
+const expected = idx.reduce((n, meta) => n + (meta.word_count || 0), 0);
+ok(wordsSeen === expected, `every card appears exactly once across levels (${wordsSeen}/${expected})`);
+// A count alone cannot tell a duplicate from a missing card, so track which
+// words were seen. This is the assertion that catches a real duplicate.
+ok(seenWords.size === wordsSeen, `no card is rendered in two levels (${seenWords.size} unique)`);
 ok(badSq === 0, 'every row shows Albanian text', `bad=${badSq}`);
 ok(badEn === 0, 'every row shows English text', `bad=${badEn}`);
 ok(badPos === 0, 'every row shows a part of speech and every family is named', `bad=${badPos}`);

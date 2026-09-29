@@ -1,109 +1,32 @@
 {
  "level": 232,
- "title": "fizik, frymëmarrje, pothuaj, këshilloj, ling, politik +4",
+ "title": "shpellë, pishinë, virgjër, rrah, cep, gazetë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "fizik",
-  "frymëmarrje",
-  "këshilloj",
-  "ling",
-  "politik",
-  "pothuaj"
+  "cep",
+  "gazetë",
+  "pishinë",
+  "rrah",
+  "shpellë",
+  "virgjër"
  ],
  "pos_mix": {
+  "noun": 12,
   "adj": 2,
-  "noun": 5,
-  "adv": 1,
-  "verb": 1
+  "verb": 2
  },
  "words": [
   {
-   "id": "fizik",
-   "sq": "fizik",
-   "en": "physical",
+   "id": "shpellë",
+   "sq": "shpellë",
+   "en": "cave",
    "glosses": [
-    "physical"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "physical",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "physical"
-     ]
-    }
-   ],
-   "rank": 7452,
-   "count": 93,
-   "family": "fizik",
-   "is_root": true,
-   "etymology": "Borrowed from French physique, from Latin physicus, from Ancient Greek φυσικός (phusikós, “natural”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "natural"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fizike",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "protect natural person.",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "mbrojtur personin fizik."
-   }
-  },
-  {
-   "id": "frymëmarrje",
-   "sq": "frymëmarrje",
-   "en": "breath",
-   "glosses": [
-    "breath",
-    "breathing"
+    "cave",
+    "boulder"
    ],
    "pos": [
     "noun",
@@ -117,73 +40,151 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "breath",
-     "tags": [],
-     "cats": [
+     "gloss": "cave",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "sq": "Askush s'ka hyrë në këtë shpellë më parë.",
+       "en": "Nobody has entered this cave before.",
+       "offsets": [
+        [
+         25,
+         32
+        ]
+       ]
       }
      ],
-     "examples": [],
      "links": [
-      "breath"
+      "cave"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "breathing",
-     "tags": [],
+     "gloss": "boulder",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "55 45"
+       "_dis": "8 92"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "18 82"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "9 91"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Hipi mbi një shpellë.",
+       "en": "He/she climbed onto a boulder.",
+       "offsets": [
+        [
+         13,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "boulder"
+     ]
+    }
+   ],
+   "rank": 4885,
+   "count": 155,
+   "family": "shpellë",
+   "is_root": true,
+   "etymology": "From Ancient Greek σπήλαιον (spḗlaion, “cave”).",
+   "etymology_class": "derived",
+   "source_lang": "el",
+   "parents": [
+    "cave"
+   ],
+   "components": [],
+   "derived": [
+    "shpellar",
+    "shpellinë",
+    "shpelloj",
+    "shpellor",
+    "shpellanik"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpella",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pishinë",
+   "sq": "pishinë",
+   "en": "swimming pool",
+   "glosses": [
+    "swimming pool"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "swimming pool",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "breathing"
+      "swimming pool"
      ]
     }
    ],
-   "rank": 7493,
-   "count": 93,
-   "family": "frymëmarrje",
+   "rank": 4886,
+   "count": 155,
+   "family": "pishinë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -195,227 +196,193 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Take a deep breath.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Bëj një frymëmarrje të thellë."
-   }
-  },
-  {
-   "id": "pothuaj",
-   "sq": "pothuaj",
-   "en": "nearly, almost",
-   "glosses": [
-    "nearly, almost"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "nearly, almost",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "nearly",
-      "almost"
-     ]
-    }
-   ],
-   "rank": 7542,
-   "count": 92,
-   "family": "pothuaj",
-   "is_root": true,
-   "etymology": "Univerbation of po and thuaj.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pothue",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I went there almost every day.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Shkoja atje pothuaj çdo ditë."
-   }
-  },
-  {
-   "id": "këshilloj",
-   "sq": "këshilloj",
-   "en": "to advise",
-   "glosses": [
-    "to advise"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to advise",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "advise"
-     ]
-    }
-   ],
-   "rank": 7544,
-   "count": 92,
-   "family": "këshilloj",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "këshilluar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I advise you.",
+    "en": "outdoor pool: 4.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Unë ju këshilloj."
+    "sq": "pishinë të hapur: 4."
    }
   },
   {
-   "id": "ling",
-   "sq": "ling",
-   "en": "quick gait, trot",
+   "id": "virgjër",
+   "sq": "virgjër",
+   "en": "virginal",
    "glosses": [
-    "quick gait, trot",
-    "hurry, haste, rush"
+    "virginal",
+    "chaste, pure"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "quick gait, trot",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "gait",
-      "trot"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hurry, haste, rush",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "virginal",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "38 62"
+       "_dis": "79 21"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
       }
      ],
      "examples": [],
      "links": [
-      "hurry",
-      "haste",
-      "rush"
+      "virginal"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "chaste, pure",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chaste",
+      "pure"
      ]
     }
    ],
-   "rank": 7548,
-   "count": 92,
-   "family": "ling",
+   "rank": 4892,
+   "count": 155,
+   "family": "virgjër",
    "is_root": true,
-   "etymology": "From Proto-Albanian *linga, from Proto-Indo-European *leig-. Compare English lark (“to frolic”), Lithuanian láigyti (“to run around wildly”), Ancient Greek ἐλελίζω (elelízō, “to whirl around”).",
+   "etymology": "From Latin virgo, virginem. Compare also Romanian vergură.",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "virgjëreshë",
+    "virgjëri",
+    "zhvirgjëroj",
+    "zhvirgjërohem",
+    "virgjëror"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "She was a virgin.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Ajo ishte e virgjër."
+   }
+  },
+  {
+   "id": "rrah",
+   "sq": "rrah",
+   "en": "to strike, beat",
+   "glosses": [
+    "to strike, beat",
+    "to punch (colloquial)",
+    "grubbed out land"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to strike, beat",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "strike",
+      "beat"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to punch (colloquial)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "punch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "grubbed out land",
+     "tags": [
+      "masculine",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 2 3 45"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 6 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "land"
+     ]
+    }
+   ],
+   "rank": 4929,
+   "count": 153,
+   "family": "rrah",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wragska, from Proto-Indo-European *wr̥h₁ǵ-sḱé-ti, from *wreh₁ǵ-.",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
@@ -424,41 +391,248 @@
    "related": [],
    "forms": [
     {
-     "form": "lingu",
+     "form": "rrahe",
+     "tag": "plural"
+    },
+    {
+     "form": "rrahu",
      "tag": "definite"
+    },
+    {
+     "form": "rraf",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Lou Ling had a big problem.",
+    "en": "He was beaten to death that evening.",
     "score": [
-     4,
+     2,
      7,
-     -3,
+     -5,
      10
     ],
-    "sq": "Lou Ling kishte një problem të madh."
+    "sq": "Ai u rrah për vdekje atë natë."
    }
   },
   {
-   "id": "politik",
-   "sq": "politik",
-   "en": "political",
+   "id": "cep",
+   "sq": "cep",
+   "en": "corner, angle, wedge",
    "glosses": [
-    "political"
+    "corner, angle, wedge",
+    "edge, tip; tip of the shoulder",
+    "external angle",
+    "cape",
+    "beak",
+    "peak, top (of mountain or rock)"
    ],
    "pos": [
-    "adj"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "political",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "corner, angle, wedge",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "corner",
+      "angle",
+      "wedge"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "edge, tip; tip of the shoulder",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge",
+      "tip"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "external angle",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Geometry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Geometry",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 7 30 31 2 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "geometry"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cape",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Geography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Geography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 7 30 31 2 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "geography",
+      "cape"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beak",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beak"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "peak, top (of mountain or rock)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 7 30 31 2 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "peak",
+      "top"
+     ]
+    }
+   ],
+   "rank": 4946,
+   "count": 153,
+   "family": "cep",
+   "is_root": true,
+   "etymology": "Doublet of thep, with affricated initial consonant. More at thep.\nPart of a rich phonolexical series represented by variants covering almost all vocalic grades (\"a\", \"e\", \"i\", \"o\", \"u\") and with consonantal variants with \"c\", \"ç\", \"q\", and \"sh\" (çak, cek, çek, qek, cik, çik, cok, çok, qok, cuk, quk, çuk, etc).\nSource of Romanian țeapă, or cognate to it from a common pre-Roman term of Balkan substratum. Possible co-source of Romanian țipilic (“peak, top”) and țăpălic (“id.”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "cepoj",
+    "cepatar",
+    "cepatare",
+    "cepore"
+   ],
+   "related": [
+    "thep"
+   ],
+   "forms": [
+    {
+     "form": "cepa",
+     "tag": "plural"
+    },
+    {
+     "form": "cepi",
+     "tag": "definite"
+    },
+    {
+     "form": "step",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You find byrek everywhere.",
+    "score": [
+     3,
+     5,
+     -2,
+     10
+    ],
+    "sq": "E gjeni në cdo cep."
+   }
+  },
+  {
+   "id": "gazetë",
+   "sq": "gazetë",
+   "en": "newspaper",
+   "glosses": [
+    "newspaper"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "newspaper",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -467,7 +641,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -481,45 +655,45 @@
      ],
      "examples": [],
      "links": [
-      "political"
+      "newspaper"
      ]
     }
    ],
-   "rank": 7569,
-   "count": 92,
-   "family": "politik",
+   "rank": 4949,
+   "count": 153,
+   "family": "gazetë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
+   "etymology": "From Italian gazzetta. Compare Romanian gazetă.",
+   "etymology_class": "borrowed",
+   "source_lang": "it",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "politike",
-     "tag": "feminine"
+     "form": "gazeta",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And perhaps, not only political one.",
+    "en": "And I went to the newspaper.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "Dhe ndoshta, jo vetëm politik."
+    "sq": "Dhe shkova në gazetë."
    }
   },
   {
-   "id": "këshillim",
-   "sq": "këshillim",
-   "en": "consultation",
+   "id": "virgjëreshë",
+   "sq": "virgjëreshë",
+   "en": "virgin, maiden",
    "glosses": [
-    "consultation"
+    "virgin, maiden"
    ],
    "pos": [
     "noun"
@@ -531,9 +705,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "consultation",
+     "gloss": "virgin, maiden",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -543,7 +717,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -eshë",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -557,37 +731,45 @@
      ],
      "examples": [],
      "links": [
-      "consultation"
+      "virgin",
+      "maiden"
      ]
     }
    ],
-   "rank": 34939,
-   "count": 12,
-   "family": "këshilloj",
+   "rank": 19592,
+   "count": 27,
+   "family": "virgjër",
    "is_root": false,
-   "etymology": "From këshilloj + -im.",
+   "etymology": "From virgjër (“virginal”) + -eshë (feminine suffix).",
    "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "virginal"
+   ],
    "components": [
     {
-     "word": "këshilloj",
+     "word": "virgjër",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "virgjëresha",
+     "tag": "plural"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Fa free counseling!",
+    "en": "She is not a virgin.",
     "score": [
-     1,
+     0,
      3,
-     -2,
+     -3,
      10
     ],
-    "sq": "fa falas këshillim!"
+    "sq": "Nuk është virgjëreshë."
    }
   }
  ]

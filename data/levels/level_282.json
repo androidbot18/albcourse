@@ -1,44 +1,43 @@
 {
  "level": 282,
- "title": "misër, arkitekt, vallëzoj, imagjinatë, kandidat, çekiç +4",
+ "title": "udhë, rende, raketë, xhuxh +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 9,
  "families": [
-  "arkitekt",
-  "imagjinatë",
-  "kandidat",
-  "misër",
-  "vallëzoj",
-  "çekiç"
+  "raketë",
+  "rende",
+  "udhë",
+  "xhuxh"
  ],
  "pos_mix": {
-  "noun": 8,
-  "verb": 1
+  "verb": 1,
+  "noun": 9,
+  "adj": 1
  },
  "words": [
   {
-   "id": "misër",
-   "sq": "misër",
-   "en": "maize",
+   "id": "udhëheq",
+   "sq": "udhëheq",
+   "en": "to lead, to guide",
    "glosses": [
-    "maize"
+    "to lead, to guide"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "maize",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to lead, to guide",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -62,49 +61,59 @@
      ],
      "examples": [],
      "links": [
-      "maize"
+      "lead",
+      "guide"
      ]
     }
    ],
-   "rank": 10778,
-   "count": 59,
-   "family": "misër",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish مصر (mısır), from Arabic مِصْر (miṣr).",
-   "etymology_class": "borrowed",
+   "rank": 3993,
+   "count": 195,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "From udhë + heq.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "udhë",
+     "role": "prefix"
+    },
+    {
+     "word": "heq",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "misra",
-     "tag": "plural"
+     "form": "udhëhoqa",
+     "tag": "aorist"
     },
     {
-     "form": "misri",
-     "tag": "definite"
+     "form": "udhëhequr",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then the cornfields.",
+    "en": "The dog is now in charge.",
     "score": [
-     2,
-     4,
+     1,
+     3,
      -2,
      10
     ],
-    "sq": "Pastaj fusha me misër."
+    "sq": "Tani, qeni udhëheq."
    }
   },
   {
-   "id": "arkitekt",
-   "sq": "arkitekt",
-   "en": "architect (a designer of buildings)",
+   "id": "udhëheqës",
+   "sq": "udhëheqës",
+   "en": "leader",
    "glosses": [
-    "architect (a designer of buildings)"
+    "leader"
    ],
    "pos": [
     "noun"
@@ -116,7 +125,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "architect (a designer of buildings)",
+     "gloss": "leader",
      "tags": [
       "masculine"
      ],
@@ -128,13 +137,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -142,52 +151,127 @@
      ],
      "examples": [],
      "links": [
-      "architect"
+      "leader"
      ]
     }
    ],
-   "rank": 10783,
-   "count": 59,
-   "family": "arkitekt",
+   "rank": 4941,
+   "count": 153,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "From udhëheq + -ës.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "udhëheq",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëheqës",
+     "tag": "plural"
+    },
+    {
+     "form": "udhëheqësi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Will you be a leader?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "A do të jeni udhëheqës?"
+   }
+  },
+  {
+   "id": "rende",
+   "sq": "rende",
+   "en": "grater",
+   "glosses": [
+    "grater"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "grater",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "grater"
+     ]
+    }
+   ],
+   "rank": 7593,
+   "count": 91,
+   "family": "rende",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish رنده (rende), from Classical Persian رنده (randa).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "rende",
+     "tag": "plural"
+    },
+    {
+     "form": "rendja",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "I am an architect.",
+    "corpus": "HPLT",
+    "en": "Rama makes serious mistakes even today!",
     "score": [
-     1,
-     3,
-     -2,
-     5
+     2,
+     5,
+     -3,
+     10
     ],
-    "sq": "Jam nje arkitekt."
+    "sq": "Rama gabon rende edhe sot!"
    }
   },
   {
-   "id": "vallëzoj",
-   "sq": "vallëzoj",
-   "en": "to dance, especially in ballroom style",
+   "id": "raketë",
+   "sq": "raketë",
+   "en": "missile",
    "glosses": [
-    "to dance, especially in ballroom style"
+    "missile"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dance, especially in ballroom style",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "missile",
      "tags": [],
      "cats": [
       {
@@ -211,40 +295,180 @@
      ],
      "examples": [],
      "links": [
-      "dance",
-      "ballroom"
+      "missile"
      ]
     }
    ],
-   "rank": 10785,
-   "count": 59,
-   "family": "vallëzoj",
+   "rank": 7617,
+   "count": 91,
+   "family": "raketë",
    "is_root": true,
-   "etymology": "Borrowed from Byzantine Greek βαλλίζω (ballízō, “to dance”).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "vallëzova",
-     "tag": "aorist"
-    },
-    {
-     "form": "vallëzuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "rocket to help him.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "raketë për të ndihmuar atë."
+   }
   },
   {
-   "id": "imagjinatë",
-   "sq": "imagjinatë",
-   "en": "imagination",
+   "id": "xhuxh",
+   "sq": "xhuxh",
+   "en": "dwarf, gnome",
    "glosses": [
-    "imagination"
+    "dwarf, gnome",
+    "short-legged person, midget, shorty",
+    "short (of height), short-legged"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dwarf, gnome",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Folklore",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Folklore",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "folklore",
+      "dwarf",
+      "gnome"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "short-legged person, midget, shorty",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 17 48"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 7 46"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 5 52"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "short-legged",
+      "midget",
+      "shorty"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "short (of height), short-legged",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 7 46"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 5 52"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "short",
+      "short-legged"
+     ]
+    }
+   ],
+   "rank": 7622,
+   "count": 91,
+   "family": "xhuxh",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish جوجه (cüce), from Classical Persian جوجه (jūja), altered either by contamination with xhuxhmaxhuxh (“dwarf”) or because it was loaned through Macedonian џуџе (džudže).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "dwarf"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "xhuxhe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Meet this dwarf planet!",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Njihuni me këtë planet xhuxh!"
+   }
+  },
+  {
+   "id": "udhëtar",
+   "sq": "udhëtar",
+   "en": "traveller",
+   "glosses": [
+    "traveller"
    ],
    "pos": [
     "noun"
@@ -256,7 +480,94 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "imagination",
+     "gloss": "traveller",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "traveller"
+     ]
+    }
+   ],
+   "rank": 11081,
+   "count": 57,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "From udhë + -tar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "udhë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëtarë",
+     "tag": "plural"
+    },
+    {
+     "form": "udhëtari",
+     "tag": "definite"
+    },
+    {
+     "form": "udhëtare",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Play dasa traveler.",
+    "score": [
+     2,
+     3,
+     -1,
+     10
+    ],
+    "sq": "Luajnë udhëtar Dasa."
+   }
+  },
+  {
+   "id": "udhë",
+   "sq": "udhë",
+   "en": "way, road",
+   "glosses": [
+    "way, road"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "way, road",
      "tags": [
       "feminine"
      ],
@@ -282,16 +593,17 @@
      ],
      "examples": [],
      "links": [
-      "imagination"
+      "way",
+      "road"
      ]
     }
    ],
-   "rank": 10794,
-   "count": 59,
-   "family": "imagjinatë",
+   "rank": 16562,
+   "count": 34,
+   "family": "udhë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Likely from Proto-Albanian *wadza, from Proto-Indo-European *woǵʰ-eh₂, from *weǵʰ- (“to bring, carry”), cognate with Proto-Germanic *wegaz (“way, path”). Alternatively:\n* from Proto-Albanian *wada with unexpected aspiration, from Proto-Indo-European *wodʰ-eh₂, from *wedʰ- (“to lead; to bring”) or *wedʰ- (“to beat, strike”);\n* or borrowed from Ancient Greek ὁδός (hodós, “way, road”).\nBy some identified as the source of Ancient Greek οὔθα (oútha, “dust; way, road”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -299,28 +611,36 @@
    "related": [],
    "forms": [
     {
-     "form": "imagjinata",
+     "form": "udhë",
+     "tag": "plural"
+    },
+    {
+     "form": "udha",
      "tag": "definite"
+    },
+    {
+     "form": "ullë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Not just in the imagination.",
+    "en": "The track is not picked.",
     "score": [
-     1,
+     0,
      4,
-     -3,
+     -4,
      10
     ],
-    "sq": "Jo vetëm në imagjinatë."
+    "sq": "Udhë nuk është zgjedhur."
    }
   },
   {
-   "id": "kandidat",
-   "sq": "kandidat",
-   "en": "candidate",
+   "id": "udhëheqje",
+   "sq": "udhëheqje",
+   "en": "leadership, guidance",
    "glosses": [
-    "candidate"
+    "leadership, guidance"
    ],
    "pos": [
     "noun"
@@ -332,7 +652,89 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "candidate",
+     "gloss": "leadership, guidance",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "leadership",
+      "guidance"
+     ]
+    }
+   ],
+   "rank": 21120,
+   "count": 24,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "Gerund of udhëheq; udhëheq + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "udhëheq",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëheqja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "This is courageous leadership.",
+    "score": [
+     2,
+     5,
+     -3,
+     8
+    ],
+    "sq": "Kjo është udhëheqje e guximshme."
+   }
+  },
+  {
+   "id": "udhëkryq",
+   "sq": "udhëkryq",
+   "en": "intersection",
+   "glosses": [
+    "intersection"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "intersection",
      "tags": [
       "masculine"
      ],
@@ -344,7 +746,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 8 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -358,184 +760,44 @@
      ],
      "examples": [],
      "links": [
-      "candidate"
+      "intersection"
      ]
     }
    ],
-   "rank": 10810,
-   "count": 59,
-   "family": "kandidat",
-   "is_root": true,
-   "etymology": "Learned borrowing from Latin candidatus.",
-   "etymology_class": null,
+   "rank": 34253,
+   "count": 12,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "From udhë (“road”) + kryq (“cross”).",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "road",
+    "cross"
+   ],
+   "components": [
+    {
+     "word": "udhë",
+     "role": "prefix"
+    },
+    {
+     "word": "kryq",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "kandidatë",
-     "tag": "plural"
-    },
-    {
-     "form": "kandidati",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I will be a candidate.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Unë do të jem kandidat."
-   }
-  },
-  {
-   "id": "çekiç",
-   "sq": "çekiç",
-   "en": "mallet, spalling mallet",
-   "glosses": [
-    "mallet, spalling mallet",
-    "machine hammer",
-    "malleus, hammer bone",
-    "object thrown in a hammer throw"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mallet, spalling mallet",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mallet"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "machine hammer",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "technical"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "malleus, hammer bone",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "malleus"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "object thrown in a hammer throw",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Sports",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Sports",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 28 7 49"
-      },
-      {
-       "name": "Pages with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 14 6 46 18 2 7"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sports",
-      "hammer throw"
-     ]
-    }
-   ],
-   "rank": 10814,
-   "count": 59,
-   "family": "çekiç",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish چكیچ (çekiç).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "çekiçë",
-     "tag": "plural"
-    },
-    {
-     "form": "çekiçi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "When I buy a hammer, I assume it will work.",
+    "corpus": "MaCoCu",
+    "en": "Kosovo is now at a crossroads.",
     "score": [
      2,
-     9,
-     -7,
-     10
+     5,
+     -3,
+     8
     ],
-    "sq": "Kur blej një çekiç, supozoj se do të funksionojë."
+    "sq": "Kosova tani është në udhëkryq."
    }
   }
  ]

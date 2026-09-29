@@ -1,45 +1,47 @@
 {
  "level": 2,
- "title": "ju, si, duhet, ne, kjo, kam +4",
- "root": "",
- "root_gloss": "",
+ "title": "jam 1/2",
+ "root": "jam",
+ "root_gloss": "to be",
  "part": 1,
- "parts": 1,
- "word_count": 7,
+ "parts": 2,
+ "word_count": 9,
  "families": [
-  "duhet",
-  "ju",
-  "kam",
-  "kjo",
-  "ne",
-  "si"
+  "jam"
  ],
  "pos_mix": {
-  "pron": 2,
-  "adv": 3,
-  "verb": 6,
-  "det": 1
+  "verb": 9
  },
  "words": [
   {
-   "id": "ju",
-   "sq": "ju",
-   "en": "you (plural or polite)",
+   "id": "është",
+   "sq": "është",
+   "en": "third-person singular present indicative of jam",
    "glosses": [
-    "you (plural or polite)"
+    "third-person singular present indicative of jam"
    ],
    "pos": [
-    "pron"
+    "verb"
    ],
    "pos_labels": [
-    "pronoun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "you (plural or polite)",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "third-person singular present indicative of jam",
+     "tags": [
+      "Arbëresh",
+      "Cham",
+      "Tosk",
+      "form-of",
+      "indicative",
+      "present",
+      "singular",
+      "standard",
+      "third-person"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -48,30 +50,28 @@
        "source": "w"
       },
       {
-       "name": "Albanian personal pronouns",
+       "name": "Arbëresh Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Cham Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "you"
-     ]
+     "is_form_of": "jam"
     }
    ],
-   "rank": 26,
-   "count": 64790,
-   "family": "ju",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ju(s) identical with Lithuanian jūs id., Gothic jūs id., English you. Ultimately derived from Proto-Indo-European *yúHs.",
-   "etymology_class": "derived",
+   "rank": 6,
+   "count": 196218,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "From Proto-Albanian *ensti Proto-Indo-European *h₁ésti (“to be”), from *h₁es-.\nPossibly reinforced by Latin est.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -79,190 +79,189 @@
    "related": [],
    "forms": [
     {
-     "form": "ju",
-     "tag": "accusative"
-    },
-    {
-     "form": "juve",
-     "tag": "dative"
-    },
-    {
-     "form": "jush",
-     "tag": "ablative"
+     "form": "o",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I can help you.",
+    "corpus": "MaCoCu",
+    "en": "Here he is!",
     "score": [
-     1,
-     5,
-     -4,
-     10
+     2,
+     3,
+     -1,
+     8
     ],
-    "sq": "Unë mund të ju ndihmojë."
+    "sq": "Ja ku është!"
    }
   },
   {
-   "id": "si",
-   "sq": "si",
-   "en": "how; in what way; in what state",
+   "id": "jam",
+   "sq": "jam",
+   "en": "to be",
    "glosses": [
-    "how; in what way; in what state",
-    "like, as"
+    "to be"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "how; in what way; in what state",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Si janë shokët e tu?",
-       "en": "How are your friends?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "how"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "like, as",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be",
      "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "Si e dini, nuk kemi filluar ende.",
-       "en": "As you know, we've not yet begun.",
+       "sq": "Është e bukur.",
+       "en": "She is beautiful.",
        "offsets": [
         [
          0,
-         2
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "S'është për ty.",
+       "en": "It is not for you.",
+       "offsets": [
+        [
+         2,
+         7
         ]
        ]
       }
      ],
      "links": [
-      "like",
-      "as"
+      "be"
      ]
     }
    ],
-   "rank": 27,
-   "count": 64570,
-   "family": "si",
+   "rank": 36,
+   "count": 49311,
+   "family": "jam",
    "is_root": true,
-   "etymology": "Varying reconstructions. Orel descends it from Proto-Albanian *tšei, Matzinger from Proto-Albanian *čī. Ultimately from instrumental Proto-Indo-European *kʷí-h₁. Compare Latin qui (“how, why”), Old English hwȳ, hwī (“why”). An interrogative and relative pronoun, especially in connection with a preposition.",
+   "etymology": "Inherited from Proto-Albanian *esmi, from Proto-Indo-European *h₁ésmi (“to be, exist”). The forms in qe- may derive from Proto-Indo-European *kʷel- (“to turn, revolve”), whence also Ancient Greek πέλω (pélō, “to be”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "cila",
-    "cili",
-    "disi",
-    "sesi",
-    "sido",
-    "sidoqoftë",
-    "sivjet"
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qeshë",
+     "tag": "aorist"
+    },
+    {
+     "form": "qenë",
+     "tag": "participle"
+    }
    ],
-   "related": [
-    "qysh"
-   ],
-   "forms": [],
    "corpus_example": null
   },
   {
-   "id": "duhet",
-   "sq": "duhet",
-   "en": "it must",
+   "id": "je",
+   "sq": "je",
+   "en": "second-person singular present indicative of jam",
    "glosses": [
-    "it must",
-    "it has to",
-    "it is needed, necessarily",
-    "to do with certainty; indicates that the speaker is certain that the subject will have executed the predicate"
+    "second-person singular present indicative of jam"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "it must",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "must"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it has to",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "has to"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it is needed, necessarily",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "needed",
-      "necessarily"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to do with certainty; indicates that the speaker is certain that the subject will have executed the predicate",
+     "gloss": "second-person singular present indicative of jam",
      "tags": [
-      "auxiliary",
-      "defective",
-      "modal"
+      "form-of",
+      "indicative",
+      "present",
+      "second-person",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 47 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 39,
+   "count": 47501,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "What type are you?",
+    "score": [
+     2,
+     3,
+     -1,
+     8
+    ],
+    "sq": "Çfarë tipi je?"
+   }
+  },
+  {
+   "id": "ishte",
+   "sq": "ishte",
+   "en": "third-person singular imperfect indicative of jam",
+   "glosses": [
+    "third-person singular imperfect indicative of jam"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "third-person singular imperfect indicative of jam",
+     "tags": [
+      "form-of",
+      "imperfect",
+      "indicative",
+      "singular",
+      "third-person"
      ],
      "cats": [
       {
@@ -270,36 +269,32 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "65 13 10 12"
+       "_dis": "45 45 10"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "66 13 10 10"
+       "_dis": "48 48 5"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "73 11 8 8"
+       "_dis": "48 48 4"
       }
      ],
      "examples": [],
-     "links": [
-      "certainty",
-      "certain",
-      "predicate"
-     ]
+     "is_form_of": "jam"
     }
    ],
-   "rank": 28,
-   "count": 64246,
-   "family": "duhet",
-   "is_root": true,
-   "etymology": "Mediopassive of dua.",
+   "rank": 47,
+   "count": 38449,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -309,216 +304,39 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You need this!",
+    "en": "The violence was extreme.",
     "score": [
-     0,
+     2,
      3,
-     -3,
+     -1,
      10
     ],
-    "sq": "Ju duhet kjo!"
+    "sq": "Dhuna ishte ekstreme."
    }
   },
   {
-   "id": "ne",
-   "sq": "ne",
-   "en": "we, us",
+   "id": "janë",
+   "sq": "janë",
+   "en": "third-person plural present indicative of jam",
    "glosses": [
-    "we, us"
+    "third-person plural present indicative of jam"
    ],
    "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "we, us",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "we",
-      "us"
-     ]
-    }
-   ],
-   "rank": 29,
-   "count": 59954,
-   "family": "ne",
-   "is_root": true,
-   "etymology": "The nominative-accusative is from accusative Proto-Albanian *nōs, stressed form of clitic Proto-Indo-European *nos, which is continued by the clitic na. Neve and nesh are innovated, but Gheg retains dative nahe (Old Albanian nae) from a genitive *nosōm.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ne",
-     "tag": "accusative"
-    },
-    {
-     "form": "neve",
-     "tag": "dative"
-    },
-    {
-     "form": "nesh",
-     "tag": "ablative"
-    },
-    {
-     "form": "në",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "We have to stop.",
-    "score": [
-     1,
-     4,
-     -3,
-     4
-    ],
-    "sq": "Ne duhet të ndalemi."
-   }
-  },
-  {
-   "id": "kjo",
-   "sq": "kjo",
-   "en": "this, used also for neuter",
-   "glosses": [
-    "this, used also for neuter"
-   ],
-   "pos": [
-    "det"
-   ],
-   "pos_labels": [
-    "determiner"
-   ],
-   "sense_detail": [
-    {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, used also for neuter",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian determiners",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "this"
-     ]
-    }
-   ],
-   "rank": 30,
-   "count": 59866,
-   "family": "kjo",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ka-jā, based on a pronominal element *ka and a demonstrative (see ajo).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is how!",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Kjo është se si!"
-   }
-  },
-  {
-   "id": "kam",
-   "sq": "kam",
-   "en": "to have",
-   "glosses": [
-    "to have",
-    "there is"
-   ],
-   "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to have",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "have"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "there is",
+     "gloss": "third-person plural present indicative of jam",
      "tags": [
-      "impersonal",
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
       "third-person"
      ],
      "cats": [
@@ -526,80 +344,10 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "there is"
-     ]
-    }
-   ],
-   "rank": 31,
-   "count": 57605,
-   "family": "kam",
-   "is_root": true,
-   "etymology": "Suppletive. The present, imperfect, and subjunctive are from Proto-Albanian *kapmi, from Proto-Indo-European *kap- (“to seize, to grasp”), cognate with Latin capiō (“take, seize”) and Proto-Germanic *habjaną (“to have, to hold”) (whence English have, German haben (“to have”), Gothic 𐌷𐌰𐌱𐌰𐌽 (haban, “to have”)). The other tenses and participle are from Proto-Albanian *pat(i)-, from Proto-Indo-European *pótis (“owner, master, host, husband”), cognate with Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "çka",
-    "kap"
-   ],
-   "forms": [
-    {
-     "form": "pata",
-     "tag": "aorist"
-    },
-    {
-     "form": "pasur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "I've got issues.",
-    "score": [
-     1,
-     3,
-     -2,
-     4
-    ],
-    "sq": "Unë kam probleme."
-   }
-  },
-  {
-   "id": "nes",
-   "sq": "nes",
-   "en": "after, next after",
-   "glosses": [
-    "after, next after"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "after, next after",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 27 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -612,38 +360,335 @@
       }
      ],
      "examples": [],
-     "links": [
-      "after"
-     ]
+     "is_form_of": "jam"
     }
    ],
-   "rank": 21624,
-   "count": 23,
-   "family": "ne",
+   "rank": 54,
+   "count": 28548,
+   "family": "jam",
    "is_root": false,
-   "etymology": "A compound *ne + *-s, from Proto-Indo-European *nō kwe. From Proto-Albanian *(e)nō ̊, from Proto-Indo-European *(h1)nē̆-, *(h1)nō̆- (“after, behind, next to/after”). Cognate to Ancient Greek ἔνη(ς) (énē(s)), ἔνας (énas, “the day after tomorrow”) and Gothic 𐌽𐌴𐍈 (nēƕ, “after”).",
-   "etymology_class": "compound",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
-   "components": [
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "They are not many!",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Nuk janë shumë!"
+   }
+  },
+  {
+   "id": "jemi",
+   "sq": "jemi",
+   "en": "first-person plural present indicative of jam",
+   "glosses": [
+    "first-person plural present indicative of jam"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
     {
-     "word": "ne",
-     "role": "prefix"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "first-person plural present indicative of jam",
+     "tags": [
+      "first-person",
+      "form-of",
+      "indicative",
+      "plural",
+      "present"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
     }
    ],
+   "rank": 74,
+   "count": 18283,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "To be present.",
+    "score": [
+     1,
+     4,
+     -3,
+     8
+    ],
+    "sq": "Të jemi të pranishëm."
+   }
+  },
+  {
+   "id": "jeni",
+   "sq": "jeni",
+   "en": "second-person plural present indicative of jam",
+   "glosses": [
+    "second-person plural present indicative of jam"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "second-person plural present indicative of jam",
+     "tags": [
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "second-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 45 9"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 46 9"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 48 5"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 98,
+   "count": 14491,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Are you hungry?",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Jeni të uritur?"
+   }
+  },
+  {
+   "id": "isha",
+   "sq": "isha",
+   "en": "first-person singular imperfect indicative of jam",
+   "glosses": [
+    "first-person singular imperfect indicative of jam"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "first-person singular imperfect indicative of jam",
+     "tags": [
+      "first-person",
+      "form-of",
+      "imperfect",
+      "indicative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 40 21"
+      },
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 29 15 25 1"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 31 14 24 1"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 154,
+   "count": 8158,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I was completely alone.",
+    "score": [
+     2,
+     3,
+     -1,
+     8
+    ],
+    "sq": "Isha plotësisht vetëm."
+   }
+  },
+  {
+   "id": "jesh",
+   "sq": "jesh",
+   "en": "second-person singular present subjunctive of jam",
+   "glosses": [
+    "second-person singular present subjunctive of jam"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "second-person singular present subjunctive of jam",
+     "tags": [
+      "form-of",
+      "present",
+      "second-person",
+      "singular",
+      "subjunctive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "84 16"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "91 9"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "92 8"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 228,
+   "count": 5493,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Situated very close to the centre of Nes.",
+    "en": "To be yourself.",
     "score": [
-     5,
-     7,
+     1,
+     3,
      -2,
      10
     ],
-    "sq": "Ndodhet shumë afër në qendër të Nes."
+    "sq": "Të jesh vetvetja."
    }
   }
  ]

@@ -1,30 +1,30 @@
 {
  "level": 446,
- "title": "varrë, denoncoj, kallam, rit, veshkë, sundoj +4",
+ "title": "katrahurë, përtyp, afishe, macë, pambuk, lakër +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "denoncoj",
-  "kallam",
-  "rit",
-  "sundoj",
-  "varrë",
-  "veshkë"
+  "afishe",
+  "katrahurë",
+  "lakër",
+  "macë",
+  "pambuk",
+  "përtyp"
  ],
  "pos_mix": {
-  "noun": 9,
-  "verb": 8
+  "noun": 7,
+  "verb": 1
  },
  "words": [
   {
-   "id": "varrë",
-   "sq": "varrë",
-   "en": "wound, tearing",
+   "id": "katrahurë",
+   "sq": "katrahurë",
+   "en": "chaos",
    "glosses": [
-    "wound, tearing"
+    "chaos"
    ],
    "pos": [
     "noun"
@@ -36,7 +36,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wound, tearing",
+     "gloss": "chaos",
      "tags": [
       "feminine"
      ],
@@ -62,17 +62,16 @@
      ],
      "examples": [],
      "links": [
-      "wound",
-      "tearing"
+      "chaos"
      ]
     }
    ],
-   "rank": 30412,
-   "count": 14,
-   "family": "varrë",
+   "rank": 22554,
+   "count": 22,
+   "family": "katrahurë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *uar(e)nā, from Proto-Indo-European *wer(H)- (“to cut (off), tear”). Cognate to Sanskrit व्रण (vraṇá, “wound, tearing”) and Avestan 𐬓𐬀𐬭𐬀 (xᵛara, “wound, hurt”).",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -80,18 +79,36 @@
    "related": [],
    "forms": [
     {
-     "form": "varra",
+     "form": "katrahurë",
      "tag": "plural"
+    },
+    {
+     "form": "katrahura",
+     "tag": "definite"
+    },
+    {
+     "form": "katraurë",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You are in for a hormonal rollercoaster ride.",
+    "score": [
+     4,
+     7,
+     -3,
+     10
+    ],
+    "sq": "Trupi juaj gjendet në një katrahurë hormonale."
+   }
   },
   {
-   "id": "denoncoj",
-   "sq": "denoncoj",
-   "en": "to denounce",
+   "id": "përtyp",
+   "sq": "përtyp",
+   "en": "to chew, masticate, gulp down",
    "glosses": [
-    "to denounce"
+    "to chew, masticate, gulp down"
    ],
    "pos": [
     "verb"
@@ -103,13 +120,17 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to denounce",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to chew, masticate, gulp down",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian onomatopoeias",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -119,26 +140,22 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "denounce"
+      "chew",
+      "masticate",
+      "gulp"
      ]
     }
    ],
-   "rank": 30438,
-   "count": 14,
-   "family": "denoncoj",
+   "rank": 22578,
+   "count": 22,
+   "family": "përtyp",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian * ̊tupi-, from Proto-Indo-European *(s)tewp- (“to push, beat”). Cognate to Ancient Greek τύππω (túppō, “to strike, beat”). A formation with the prefix për-. The root vowel has undergone umlaut. Alternatively from Proto-Indo-European *tewp- (“to get down, conceal oneself”). Compare Lithuanian tūpiù (“to get down, lay on one's knees”), Old Norse Þopta (“thwart”), Gothic 𐌸𐌹𐌿𐍆𐍃 (þiufs, “thief”). Or, simply onomatopoeic for chewing; cf. pështyj (“to spit”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -146,231 +163,58 @@
    "related": [],
    "forms": [
     {
-     "form": "denoncuar",
+     "form": "përtypa",
+     "tag": "aorist"
+    },
+    {
+     "form": "përtypur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I denounce the leak.",
+    "en": "not chew gum.",
     "score": [
-     1,
+     0,
      3,
-     -2,
+     -3,
      10
     ],
-    "sq": "Unë denoncoj rrjedhjen."
+    "sq": "nuk përtyp çamçakëz."
    }
   },
   {
-   "id": "kallam",
-   "sq": "kallam",
-   "en": "cane, reed (Arundo donax)",
+   "id": "afishe",
+   "sq": "afishe",
+   "en": "poster (advertisement)",
    "glosses": [
-    "cane, reed (Arundo donax)",
-    "rod, staff, pipe",
-    "stalk (of corn, other plants)",
-    "small wind instrument, fife",
-    "case of rifle bullet",
-    "shin"
+    "poster (advertisement)"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cane, reed (Arundo donax)",
+     "gloss": "poster (advertisement)",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 3 6 8 17 13"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 3 5 8 7 12"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "71 3 5 6 6 10"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cane",
-      "reed",
-      "Arundo donax"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rod, staff, pipe",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "rod",
-      "staff",
-      "pipe"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stalk (of corn, other plants)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "stalk"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "small wind instrument, fife",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "wind instrument",
-      "fife"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "case of rifle bullet",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "case",
-      "bullet"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shin",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shin"
-     ]
-    }
-   ],
-   "rank": 30443,
-   "count": 14,
-   "family": "kallam",
-   "is_root": true,
-   "etymology": "From Greek καλάμι (kalámi).",
-   "etymology_class": "derived",
-   "source_lang": "el",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "kallamboq",
-    "kallamsheqer",
-    "kallamishte"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "kallama",
-     "tag": "plural"
-    },
-    {
-     "form": "kallami",
-     "tag": "definite"
-    },
-    {
-     "form": "kallëm",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "A reed shaken with the wind?",
-    "score": [
-     1,
-     6,
-     -5,
-     8
-    ],
-    "sq": "Një kallam që e tund era?"
-   }
-  },
-  {
-   "id": "rit",
-   "sq": "rit",
-   "en": "rite",
-   "glosses": [
-    "rite"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rite",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 17 entries",
-       "kind": "other",
-       "parents": [],
        "source": "w"
       },
       {
@@ -382,16 +226,16 @@
      ],
      "examples": [],
      "links": [
-      "rite"
+      "poster"
      ]
     }
    ],
-   "rank": 30453,
-   "count": 14,
-   "family": "rit",
+   "rank": 22592,
+   "count": 22,
+   "family": "afishe",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from French affiche.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -400,22 +244,127 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I did the same ritual every day.",
+    "en": "Who creates these stickers?",
     "score": [
      2,
-     6,
-     -4,
+     5,
+     -3,
      10
     ],
-    "sq": "Të njëjtin rit bëja çdo ditë."
+    "sq": "Kush i krijon këto afishe?"
    }
   },
   {
-   "id": "veshkë",
-   "sq": "veshkë",
-   "en": "kidney",
+   "id": "macë",
+   "sq": "macë",
+   "en": "cat",
    "glosses": [
-    "kidney"
+    "cat",
+    "belligerent, wild woman"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cat",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "69 31"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "81 19"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "cat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "belligerent, wild woman",
+     "tags": [
+      "derogatory",
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "belligerent",
+      "wild"
+     ]
+    }
+   ],
+   "rank": 22596,
+   "count": 22,
+   "family": "macë",
+   "is_root": true,
+   "etymology": "From Proto-Slavic *maca. See Albanian mace (“cat”) for more.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "mackë"
+   ],
+   "related": [
+    "mace",
+    "maç",
+    "maçok"
+   ],
+   "forms": [
+    {
+     "form": "maca",
+     "tag": "plural"
+    },
+    {
+     "form": "mace",
+     "tag": "alternative"
+    },
+    {
+     "form": "mac",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pambuk",
+   "sq": "pambuk",
+   "en": "cotton",
+   "glosses": [
+    "cotton"
    ],
    "pos": [
     "noun"
@@ -427,7 +376,109 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "kidney",
+     "gloss": "cotton",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cotton"
+     ]
+    }
+   ],
+   "rank": 22617,
+   "count": 22,
+   "family": "pambuk",
+   "is_root": true,
+   "etymology": "Compare Turkish pamuk (Ottoman Turkish پاموق), Serbo-Croatian pàmuk, Romanian bumbac, Greek βαμβάκι (vamváki), Ancient Greek βάμβαξ (bámbax).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pambuku",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It contains a little more cotton.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Përmban pak më shumë pambuk."
+   }
+  },
+  {
+   "id": "lakër",
+   "sq": "lakër",
+   "en": "cabbage (Brassica oleracea)",
+   "glosses": [
+    "cabbage (Brassica oleracea)",
+    "leafy vegetable"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cabbage (Brassica oleracea)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Crucifers",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Crucifers",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cabbage",
+      "Brassica oleracea"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "leafy vegetable",
      "tags": [
       "feminine"
      ],
@@ -436,255 +487,62 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "kidney"
-     ]
-    }
-   ],
-   "rank": 30545,
-   "count": 14,
-   "family": "veshkë",
-   "is_root": true,
-   "etymology": "Altered with v- from veshje of variant eshkë, from Proto-Albanian *aiškā, from Proto-Indo-European *h₂oyd-sk-eh₂ (compare Old Church Slavonic исто (isto, “kidney”), Old Norse eista (“testicle”)), from *h₂eyd- (“to swell”), whence Ancient Greek οἰδέω (oidéō).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "kidney",
-    "testicle"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "veshka",
-     "tag": "plural"
-    },
-    {
-     "form": "eshkë",
-     "tag": "alternative"
-    },
-    {
-     "form": "eshke",
-     "tag": "alternative"
-    },
-    {
-     "form": "veshke",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Most people live normal, healthy lives with one kidney.",
-    "score": [
-     1,
-     8,
-     -7,
-     10
-    ],
-    "sq": "Por, mund të jetohet edhe më një veshkë."
-   }
-  },
-  {
-   "id": "sundoj",
-   "sq": "sundoj",
-   "en": "to reign",
-   "glosses": [
-    "to reign",
-    "to rule",
-    "to possess (land, wealth)",
-    "to be abundant",
-    "to be prominent",
-    "to exploit",
-    "to keep under control"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to reign",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "reign"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rule",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "rule"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to possess (land, wealth)",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "possess"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be abundant",
-     "tags": [
-      "third-person",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "abundant"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be prominent",
-     "tags": [
-      "third-person",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "prominent"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to exploit",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "exploit"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to keep under control",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
        "source": "w+disamb",
-       "_dis": "6 4 5 8 6 20 51"
+       "_dis": "28 72"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "6 4 5 4 5 6 70"
+       "_dis": "28 72"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 4 4 4 5 6 73"
+       "_dis": "27 73"
       }
      ],
      "examples": [],
      "links": [
-      "control"
+      "leafy",
+      "vegetable"
      ]
     }
    ],
-   "rank": 30633,
-   "count": 14,
-   "family": "sundoj",
+   "rank": 22628,
+   "count": 22,
+   "family": "lakër",
    "is_root": true,
-   "etymology": "From a regionally attested sund (“supervision, seizure, capture, reign, protection”). Borrowed from a South Slavic language, compare Old Church Slavonic сѫдъ (sǫdŭ) (\"trial, court\") and Serbo-Croatian suditi; ultimately from Proto-Slavic *sǫdi (“judge”). Doublet of sodit.",
-   "etymology_class": "derived",
+   "etymology": "From earlier lakënë, borrowed from Ancient Greek λάχανον (lákhanon, “garden herb, vegetables”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [
-    "sundim",
-    "sundimtar",
-    "sundi",
-    "sundues"
+    "lakërarme",
+    "lakërishtë",
+    "lakëroj"
    ],
    "related": [],
    "forms": [
     {
-     "form": "sunduar",
-     "tag": "participle"
-    },
-    {
-     "form": "sunnoj",
-     "tag": "alternative"
+     "form": "lakra",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I want to rule over all.",
+    "en": "Grow sprouts at home, school, work.",
     "score": [
-     1,
+     2,
      6,
-     -5,
+     -4,
      10
     ],
-    "sq": "Dua të sundoj mbi të gjithë."
+    "sq": "Rritni lakër në shtëpi, shkollë, punë."
    }
   }
  ]

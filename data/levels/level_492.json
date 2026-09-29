@@ -1,48 +1,247 @@
 {
  "level": 492,
- "title": "ekzekutues, ramazan, ashtë, erotik, boçe, digë +4",
+ "title": "hutoj, sillë, e, arkiv, jakë, shndrit +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "ashtë",
-  "boçe",
-  "digë",
-  "ekzekutues",
-  "erotik",
-  "ramazan"
+  "arkiv",
+  "e",
+  "hutoj",
+  "jakë",
+  "shndrit",
+  "sillë"
  ],
  "pos_mix": {
-  "noun": 5,
-  "adj": 1
+  "conj": 2,
+  "prep": 2,
+  "pron": 1,
+  "adv": 1,
+  "verb": 4,
+  "noun": 7,
+  "intj": 1
  },
  "words": [
   {
-   "id": "ekzekutues",
-   "sq": "ekzekutues",
-   "en": "executor",
+   "id": "e",
+   "sq": "e",
+   "en": "and",
    "glosses": [
-    "executor"
+    "and",
+    "also",
+    "of (+ dative)",
+    "masculine singular preposition, plural preposition",
+    "third-person singular accusative-case pronominal clitic (him, her, it) corresponding to pronouns ai and ajo (see there for declension tables)"
    ],
    "pos": [
-    "noun"
+    "conj",
+    "conj",
+    "prep",
+    "prep",
+    "pron"
    ],
    "pos_labels": [
-    "noun"
+    "conjunction",
+    "conjunction",
+    "preposition",
+    "preposition",
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "executor",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "and"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "also",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "also"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "of (+ dative)",
      "tags": [
-      "literary"
+      "feminine",
+      "plural"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Besa e shqiptarit nuk shitet pazarit.",
+       "en": "The honor of an Albanian can not be sold or bought in a bazaar.",
+       "offsets": [
+        [
+         1,
+         2
+        ],
+        [
+         5,
+         6
+        ],
+        [
+         26,
+         27
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "of"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "masculine singular preposition, plural preposition",
+     "tags": [
+      "feminine",
+      "plural"
      ],
      "cats": [
       {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 16 8 5 5 33 5 12"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "third-person singular accusative-case pronominal clitic (him, her, it) corresponding to pronouns ai and ajo (see there for declension tables)",
+     "tags": [
+      "feminine",
+      "masculine",
+      "neuter"
+     ],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 6 33 0 0 5 2 23"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "E di. / S'e di.",
+       "en": "I know it. / I don't know it.",
+       "offsets": [
+        [
+         0,
+         1
+        ],
+        [
+         10,
+         11
+        ]
+       ]
+      },
+      {
+       "sq": "E bleva.",
+       "en": "I bought it.",
+       "offsets": [
+        [
+         0,
+         1
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "ai",
+      "ajo"
+     ]
+    }
+   ],
+   "rank": 2,
+   "count": 454952,
+   "family": "e",
+   "is_root": true,
+   "etymology": "* Conjunction e (“and, also”): according to Orel from Proto-Albanian *ō(d), from Proto-Indo-European *ēd ~ *ōd (ablative sg. stem of Proto-Indo-European *ē- ~ *ō-).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "edhe",
+    "dhe",
+    "ende",
+    "andej",
+    "anë"
+   ],
+   "forms": [
+    {
+     "form": "edhe",
+     "tag": "alternative"
+    },
+    {
+     "form": "dhe",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It doesn't require much time and it's extremely inexpensive.",
+    "score": [
+     0,
+     9,
+     -9,
+     10
+    ],
+    "sq": "Nuk kërkon shumë kohë dhe është shumë e lirë."
+   }
+  },
+  {
+   "id": "esëll",
+   "sq": "esëll",
+   "en": "sober, on an empty stomach",
+   "glosses": [
+    "sober, on an empty stomach"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "sober, on an empty stomach",
+     "tags": [],
+     "cats": [
+      {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with e-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -52,134 +251,233 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "executor"
+      "sober"
      ]
     }
    ],
-   "rank": 40146,
-   "count": 9,
-   "family": "ekzekutues",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 9479,
+   "count": 70,
+   "family": "e",
+   "is_root": false,
+   "etymology": "From Proto-Albanian *a-tšilna or *a-čila-, a compound equivalent to a privative e- (from *a-, from Proto-Indo-European *n̥-) + sillë (“breakfast”). Interpretible as e- + sille (“breakfast”)\nA similar formation to egjëll.",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "breakfast"
+   ],
+   "components": [
+    {
+     "word": "e",
+     "role": "prefix"
+    },
+    {
+     "word": "sillë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "esull",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He replaced another executioner, Mostafa Pourmohammadi.",
+    "en": "If Miranda can stay sober, all the better.",
     "score": [
      3,
-     7,
-     -4,
+     9,
+     -6,
      10
     ],
-    "sq": "Ai zëvendësoi një ekzekutues tjetër, Mostafa Pourmohammadi."
+    "sq": "Nëse Miranda mund të qëndroni esëll, sa më mirë."
    }
   },
   {
-   "id": "ramazan",
-   "sq": "ramazan",
-   "en": "Ramadan",
+   "id": "hutoj",
+   "sq": "hutoj",
+   "en": "to daze, astonish",
    "glosses": [
-    "Ramadan"
+    "to daze, astonish",
+    "to distract",
+    "to confuse"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Ramadan",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to daze, astonish",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "38 31 31"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "39 30 30"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "65 18 18"
       }
      ],
      "examples": [],
      "links": [
-      "Ramadan"
+      "daze",
+      "astonish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to distract",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 31 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "distract"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to confuse",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 31 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "confuse"
      ]
     }
    ],
-   "rank": 40164,
-   "count": 9,
-   "family": "ramazan",
+   "rank": 30140,
+   "count": 14,
+   "family": "hutoj",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish رمضان (ramazân), from Classical Persian رمضان (ramazān), from Arabic رَمَضَان (ramaḍān).",
-   "etymology_class": "borrowed",
+   "etymology": "Derived from hut (“vulture, owl”) figuratively denoting fool, dolt.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "hutrrohem",
+    "hutrrojë",
+    "hutloj"
+   ],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "hutova",
+     "tag": "aorist"
+    },
+    {
+     "form": "hutuar",
+     "tag": "participle"
+    },
+    {
+     "form": "hutloj",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I wish you to be protected and blessed by Almighty Allah.",
+    "en": "Ah yes, I want to confound man in Love!",
     "score": [
-     1,
+     3,
      8,
-     -7,
+     -5,
      10
     ],
-    "sq": "Ju uroj Ramazan plot shpresë, gëzim dhe bekime!"
+    "sq": "Ah po, dua ta hutoj njeriun në Dashuri!"
    }
   },
   {
-   "id": "ashtë",
-   "sq": "ashtë",
-   "en": "beech grove",
+   "id": "sillë",
+   "sq": "sillë",
+   "en": "breakfast",
    "glosses": [
-    "beech grove"
+    "breakfast",
+    "food brought out in the morning to a farmer working in the field",
+    "lunch"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "beech grove",
+     "gloss": "breakfast",
      "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "breakfast"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "food brought out in the morning to a farmer working in the field",
+     "tags": [
+      "dated",
       "feminine"
      ],
      "cats": [
@@ -187,72 +485,89 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "13 85 3"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 88 2"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 89 2"
       }
      ],
      "examples": [],
      "links": [
-      "beech",
-      "grove"
+      "food"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lunch",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lunch"
      ]
     }
    ],
-   "rank": 40229,
-   "count": 9,
-   "family": "ashtë",
+   "rank": 30157,
+   "count": 14,
+   "family": "sillë",
    "is_root": true,
-   "etymology": "A derivative of ah (“beech”).",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *čīlā-, from Proto-Indo-European *kʷih₁-tl-éh₂, from *kʷyeh₁- (“to rest; rest, peace”). Compare English while, Latin tranquillus, Sanskrit चिर (cirá).",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [
-    "beech"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's a nightmare!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Ashtë një makth!"
-   }
+   "derived": [
+    "silloj",
+    "cilore"
+   ],
+   "related": [
+    "esëll"
+   ],
+   "forms": [
+    {
+     "form": "silla",
+     "tag": "plural"
+    },
+    {
+     "form": "cile",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "erotik",
-   "sq": "erotik",
-   "en": "erotic",
+   "id": "arkiv",
+   "sq": "arkiv",
+   "en": "archive",
    "glosses": [
-    "erotic"
+    "archive"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "erotic",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "archive",
      "tags": [],
      "cats": [
       {
@@ -274,163 +589,15 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Unë kam një libër të madh me shumë tregime erotike të mira.",
-       "en": "I have a big book with many good erotic stories.",
-       "offsets": [
-        [
-         43,
-         50
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "erotic"
-     ]
-    }
-   ],
-   "rank": 40269,
-   "count": 9,
-   "family": "erotik",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "erotike",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "boçe",
-   "sq": "boçe",
-   "en": "cone",
-   "glosses": [
-    "cone"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cone",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
      "examples": [],
      "links": [
-      "cone"
+      "archive"
      ]
     }
    ],
-   "rank": 40275,
-   "count": 9,
-   "family": "boçe",
-   "is_root": true,
-   "etymology": "From an earlier *bodse from Proto-Indo-European *budn- (“a type of vessel”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "boçe",
-     "tag": "plural"
-    },
-    {
-     "form": "boçja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "digë",
-   "sq": "digë",
-   "en": "dyke, dam",
-   "glosses": [
-    "dyke, dam"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "dyke, dam",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "dyke",
-      "dam"
-     ]
-    }
-   ],
-   "rank": 40314,
-   "count": 9,
-   "family": "digë",
+   "rank": 30158,
+   "count": 14,
+   "family": "arkiv",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -442,15 +609,246 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Russia has denied carrying out the attack on the dam.",
+    "en": "Do you have an archive?",
     "score": [
-     6,
-     8,
-     -2,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Rusia ka mohuar kryerjen e sulmit në digë."
+    "sq": "A keni një arkiv?"
    }
+  },
+  {
+   "id": "jakë",
+   "sq": "jakë",
+   "en": "come",
+   "glosses": [
+    "come",
+    "collar (of a shirt)",
+    "neck (band)",
+    "hood (of a jacket, coat)"
+   ],
+   "pos": [
+    "intj",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "interjection",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "come",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 5 5 0"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "78 11 11 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "94 3 3 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Jakë këtu!",
+       "en": "Come here!",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      },
+      {
+       "sq": "Jakëni këtu!",
+       "en": "Come here!",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "come"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "collar (of a shirt)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "collar"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "neck (band)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "neck"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hood (of a jacket, coat)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hood"
+     ]
+    }
+   ],
+   "rank": 30201,
+   "count": 14,
+   "family": "jakë",
+   "is_root": true,
+   "etymology": "From Ottoman Turkish یاقه (yaka).",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "jakatar",
+    "jakëmbëthyer",
+    "jakëzbërthyer",
+    "jakore",
+    "jakuce",
+    "jakuzë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "jaka",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "shndrit",
+   "sq": "shndrit",
+   "en": "to shine",
+   "glosses": [
+    "to shine"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shine",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Jarnane ti bota ime, vazhdo me shndritë, shndritë, shndritë, shndritë.",
+       "en": "Jarnane, you are my world, keep on shining, shining, shining, shining.",
+       "offsets": [
+        [
+         31,
+         69
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "shine"
+     ]
+    }
+   ],
+   "rank": 30215,
+   "count": 14,
+   "family": "shndrit",
+   "is_root": true,
+   "etymology": "Prefixed derivative in sh- + ndrit, from dritë (“light”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "light"
+   ],
+   "components": [
+    {
+     "word": "dritë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shndrita",
+     "tag": "aorist"
+    },
+    {
+     "form": "shndritur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }
