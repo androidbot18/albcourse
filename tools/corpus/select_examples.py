@@ -102,6 +102,17 @@ DASHGAP = re.compile('--| - ')
 # codes and bare dates. They survive every language gate while teaching
 # nothing: 'cpuinfo-fil' was offered for the word 'fil'.
 TECH = re.compile(r"/ ?proc ?/|/ ?dev ?/|/ ?usr ?/|/ ?etc ?/|/ ?var ?/|https?://|www\.|[A-Za-z]:\\\\|\w+\-\w+\\|\w+\.\w[a-z]{2,4}\b|/\w+\/|\d{2,}|CPU|MDR|SEBI|EPR|STEM|CTE|NICE|\b[A-Z]{2,}\b|\[\d{1,3}\]")
+# The user requires no acronyms or shouty capitals in any example. Albanian
+# orthography has no internal capitals, so a mid-sentence run of 2+ capitals is
+# jargon ('HTML5', 'DHUNEE', 'TRANSPLANTIMI'). Sentences written entirely in
+# capitals are shouting and are rejected too.
+ACRONYM = re.compile("(?<![.!?] )(?<![A-Za-z])[A-Z]{2,}")
+SHOUT = re.compile("[^a-z]{6,}")
+
+# HPLT is a wiki corpus, so it carries list bullets, bold/table markup and
+# format placeholders. Those are not reference sentences: 'Cilesi e larte.'
+# with a leading bullet, 'Gabim kur {0}.', and four exclamation marks.
+WIKI_JUNK = re.compile("{[^}]*}|[\\/]s*|\d/\d|!{2,}|\?{2,}|[\u2022\u25cf\u2605\u25a0\u25aa]|\*\*|::|\|\s")
 
 # Some transcript rows are not translated at all: the English column repeats
 # the Albanian, sometimes with stray Cyrillic. We saw 'Unл nuk shkoj.' in the
@@ -168,6 +179,12 @@ def sentence_ok(en, sq):
     if DASHGAP.search(sq) or DASHGAP.search(en):
         return False
     if TECH.search(sq) or TECH.search(en):
+        return False
+    if ACRONYM.search(sq) or ACRONYM.search(en):
+        return False
+    if SHOUT.search(sq) or SHOUT.search(en):
+        return False
+    if WIKI_JUNK.search(sq) or WIKI_JUNK.search(en):
         return False
     if CYRILLIC.search(en) or CYRILLIC.search(sq):
         return False

@@ -30,6 +30,13 @@ TECH = re.compile(
     r"|\b[A-Z]{2,}\b|\[\d{1,3}\]"
 )
 
+# The learner requires no acronyms in any example. Albanian orthography uses no
+# internal capitals, so a mid-sentence run of capitals is jargon (HTML5, DHUNE).
+ACRONYM = re.compile("(?<![.!?] )(?<![A-Za-z])[A-Z]{2,}")
+# Wiki list bullets, bold/table markup, format placeholders and shouting.
+WIKI_JUNK = re.compile("{[^}]*}|[\\/]s*|\d/\d|!{2,}|\?{2,}|[\u2022\u25cf\u2605\u25a0\u25aa]|\*\*|::|\|\s")
+# Wiki list bullets, bold/table markup, format placeholders and shouting.
+
 fails = []
 
 
@@ -74,6 +81,17 @@ def main():
     bad_tech = [(k, v) for k, v in corpus_rows
                 if TECH.search(v["sq"] + " " + v["en"])]
     ok(not bad_tech, "no corpus example carries a technical marker", str(len(bad_tech)))
+
+    bad_acr = [k for k, v in corpus_rows
+               if ACRONYM.search(v["sq"] + " " + v["en"])]
+    ok(not bad_acr, "no corpus example contains an acronym", str(len(bad_acr)))
+    for k in bad_acr[:6]:
+        print("       %-14s %s" % (k, corpus[k]["sq"][:52]))
+    bad_wiki = [k for k, v in corpus_rows
+                if WIKI_JUNK.search(v["sq"] + " " + v["en"])]
+    ok(not bad_wiki, "no corpus example contains wiki markup or shouting", str(len(bad_wiki)))
+    for k in bad_wiki[:6]:
+        print("       %-14s %s" % (k, corpus[k]["sq"][:52]))
     for k, v in bad_tech[:6]:
         print("       %-14s %-46s | %s" % (k, v["sq"][:44], v["en"][:30]))
 

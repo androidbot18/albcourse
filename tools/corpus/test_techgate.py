@@ -18,6 +18,9 @@ JUNK = [
     "[8] Ang.: Habitat for Humanity, organizata humanitare.",
     "P: Pse duhet te zgjedh NICE-CUT?",
     "KOHUZGJATJA: 7-8 ore udhetim vajtje-ardhje.",
+    "rrote cam me HTML5?",
+    "Jo me DHUNE!",
+    "CFARE EShte TRANSPLANTIMI I MELCISE?",
 ]
 GOOD = [
     "Kam nevoje per nje kompjutuer te ri.",
@@ -30,7 +33,7 @@ GOOD = [
 fails = 0
 print("should be REJECTED:")
 for t in JUNK:
-    hit = bool(SE.TECH.search(t))
+    hit = bool(SE.TECH.search(t)) or bool(SE.ACRONYM.search(t)) or bool(SE.SHOUT.search(t))
     if not hit:
         fails += 1
     print(("  ok  " if hit else "  MISS") + "  " + t[:56])
