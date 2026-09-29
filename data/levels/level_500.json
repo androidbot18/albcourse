@@ -1,40 +1,37 @@
 {
  "level": 500,
- "title": "rrebesh, tavë, avari, mekanikë, shul, llaf +4",
+ "title": "sindikatë, bisturi, kompetencë, kom, ëndërrimtar, ap +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "avari",
-  "llaf",
-  "mekanikë",
-  "rrebesh",
-  "shul",
-  "tavë"
+  "ap",
+  "bisturi",
+  "kom",
+  "kompetencë",
+  "sindikatë",
+  "ëndërrimtar"
  ],
  "pos_mix": {
-  "noun": 14,
-  "adv": 2
+  "noun": 8,
+  "verb": 1
  },
  "words": [
   {
-   "id": "rrebesh",
-   "sq": "rrebesh",
-   "en": "downpour, rainstorm, shower, torrent",
+   "id": "sindikatë",
+   "sq": "sindikatë",
+   "en": "trade union",
    "glosses": [
-    "downpour, rainstorm, shower, torrent",
-    "swarm, onrush",
-    "calamity, catastrophe, misfortune"
+    "trade union",
+    "cartel, syndicate"
    ],
    "pos": [
-    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun",
     "noun"
    ],
@@ -42,9 +39,33 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "downpour, rainstorm, shower, torrent",
+     "gloss": "trade union",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Sindikata e Bujqve të Kosovës",
+       "en": "Kosovo Farmers' Union",
+       "offsets": [
+        [
+         0,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "trade union"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cartel, syndicate",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -52,83 +73,54 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "52 38 10"
+       "_dis": "18 82"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "61 31 8"
+       "_dis": "21 79"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "83 13 4"
+       "_dis": "10 90"
       }
      ],
      "examples": [],
      "links": [
-      "downpour",
-      "rainstorm",
-      "shower"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "swarm, onrush",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "swarm",
-      "onrush"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "calamity, catastrophe, misfortune",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "calamity",
-      "catastrophe",
-      "misfortune"
+      "cartel",
+      "syndicate"
      ]
     }
    ],
-   "rank": 42217,
+   "rank": 41802,
    "count": 9,
-   "family": "rrebesh",
+   "family": "sindikatë",
    "is_root": true,
-   "etymology": "Related to rribë.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "rrebeshtë"
-   ],
+   "derived": [],
    "related": [],
-   "forms": []
+   "forms": [
+    {
+     "form": "sindikata",
+     "tag": "plural"
+    }
+   ]
   },
   {
-   "id": "tavë",
-   "sq": "tavë",
-   "en": "roasting pan",
+   "id": "bisturi",
+   "sq": "bisturi",
+   "en": "scalpel, lancet, bistoury",
    "glosses": [
-    "roasting pan"
+    "scalpel, lancet, bistoury"
    ],
    "pos": [
     "noun"
@@ -140,7 +132,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "roasting pan",
+     "gloss": "scalpel, lancet, bistoury",
      "tags": [
       "feminine"
      ],
@@ -152,6 +144,77 @@
        "source": "w"
       },
       {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "surgery",
+      "scalpel",
+      "lancet"
+     ]
+    }
+   ],
+   "rank": 41840,
+   "count": 9,
+   "family": "bisturi",
+   "is_root": true,
+   "etymology": "Borrowed from French bistouri, from archaic Italian pistorese or pistorino (“from Pistoia”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "bisturi",
+     "tag": "plural"
+    },
+    {
+     "form": "bisturia",
+     "tag": "definite"
+    }
+   ]
+  },
+  {
+   "id": "kompetencë",
+   "sq": "kompetencë",
+   "en": "competence, competency",
+   "glosses": [
+    "competence, competency"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "competence, competency",
+     "tags": [
+      "literary"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -166,17 +229,17 @@
      ],
      "examples": [],
      "links": [
-      "roasting",
-      "pan"
+      "competence",
+      "competency"
      ]
     }
    ],
-   "rank": 42222,
+   "rank": 41844,
    "count": 9,
-   "family": "tavë",
+   "family": "kompetencë",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish تاوه (tava).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -185,23 +248,183 @@
    "forms": []
   },
   {
-   "id": "avari",
-   "sq": "avari",
-   "en": "together",
+   "id": "kom",
+   "sq": "kom",
+   "en": "hair, fur (of a horse)",
    "glosses": [
-    "together"
+    "hair, fur (of a horse)",
+    "horse mane; horsetail",
+    "rope, fabric or cloth from goatskin"
    ],
    "pos": [
-    "adv"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "together",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hair, fur (of a horse)",
+     "tags": [
+      "masculine",
+      "singular"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "singular",
+      "hair",
+      "fur"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "horse mane; horsetail",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 55 30"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mane",
+      "horsetail"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rope, fabric or cloth from goatskin",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rope",
+      "fabric",
+      "cloth"
+     ]
+    }
+   ],
+   "rank": 41898,
+   "count": 9,
+   "family": "kom",
+   "is_root": true,
+   "etymology": "Borrowed from Latin coma (“hair”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "hair"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kome",
+     "tag": "plural"
+    },
+    {
+     "form": "komi",
+     "tag": "definite"
+    },
+    {
+     "form": "komë",
+     "tag": "alternative"
+    }
+   ]
+  },
+  {
+   "id": "ëndërrimtar",
+   "sq": "ëndërrimtar",
+   "en": "dreamer",
+   "glosses": [
+    "dreamer"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dreamer",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dreamer"
+     ]
+    }
+   ],
+   "rank": 41920,
+   "count": 9,
+   "family": "ëndërrimtar",
+   "is_root": true,
+   "etymology": "From ëndërrim + -tar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": []
+  },
+  {
+   "id": "ap",
+   "sq": "ap",
+   "en": "to give",
+   "glosses": [
+    "to give"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to give",
      "tags": [
       "Gheg"
      ],
@@ -219,7 +442,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 19 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -227,77 +450,16 @@
      ],
      "examples": [],
      "links": [
-      "together"
+      "give"
      ]
     }
    ],
-   "rank": 42266,
+   "rank": 41944,
    "count": 9,
-   "family": "avari",
+   "family": "ap",
    "is_root": true,
-   "etymology": "A Gheg dialect word. From a-var-i, where 'a' reflects the Albanian privative particle and var (“to hang, depend on”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": []
-  },
-  {
-   "id": "mekanikë",
-   "sq": "mekanikë",
-   "en": "mechanics",
-   "glosses": [
-    "mechanics"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mechanics",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "physics",
-      "mechanics"
-     ]
-    }
-   ],
-   "rank": 42418,
-   "count": 9,
-   "family": "mekanikë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *apa, from Proto-Indo-European *h₁op-eio/e-, from *h₁ep- (“to take”). The verb is suppletive with past dhashë and participle dhënë from Proto-Indo-European *deh₃-.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -305,328 +467,12 @@
    "related": [],
    "forms": [
     {
-     "form": "makanika",
-     "tag": "definite"
-    }
-   ]
-  },
-  {
-   "id": "shul",
-   "sq": "shul",
-   "en": "one-sided, crooked",
-   "glosses": [
-    "one-sided, crooked",
-    "wooden pole",
-    "gate bar, door bolt",
-    "gun bolt",
-    "roller bar (of loom)",
-    "boatmast",
-    "tie beam"
-   ],
-   "pos": [
-    "adv",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "adverb",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "one-sided, crooked",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms prefixed with sh-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 9 6 6 15 13 24"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "one-sided",
-      "crooked"
-     ]
+     "form": "dhashë",
+     "tag": "aorist"
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wooden pole",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pole"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "gate bar, door bolt",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bar",
-      "bolt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "gun bolt",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "roller bar (of loom)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms prefixed with sh-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 9 6 6 15 13 24"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "loom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "boatmast",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Nautical",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Nautical",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian terms prefixed with sh-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 9 6 6 15 13 24"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "nautical",
-      "mast"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tie beam",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Architecture",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Architecture",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 2 1 1 2 25 61"
-      },
-      {
-       "name": "Albanian terms prefixed with sh-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 9 6 6 15 13 24"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "architecture",
-      "tie beam"
-     ]
-    }
-   ],
-   "rank": 42479,
-   "count": 8,
-   "family": "shul",
-   "is_root": true,
-   "etymology": "Possibly from Proto-Albanian *kśul(V)n, from a regional Proto-Indo-European *kséw-lo-, based on comparison to Ancient Greek ξύλον (xúlon, “timber, beam”) and Proto-Slavic *šulo (“wooden post, pole”). Most support a\nProto-Albanian origin, whereas Orel, on the other hand, considers a South Slavic origin; compare Serbo-Croatian šȗlj (“block of wood”). Beekes considers these cognates, along with possibly Proto-Germanic *sūliz, *sauliz (“beam, post, pillar”), to be ultimately of substrate origin rather than an inherited Indo-European word.",
-   "etymology_class": "root",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "shilor"
-   ],
-   "forms": [
-    {
-     "form": "shule",
-     "tag": "plural"
-    },
-    {
-     "form": "shuli",
-     "tag": "definite"
-    }
-   ]
-  },
-  {
-   "id": "llaf",
-   "sq": "llaf",
-   "en": "word",
-   "glosses": [
-    "word",
-    "chat, conversation",
-    "gossip, hearsay, slander"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "word",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "word"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chat, conversation",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "chat",
-      "conversation"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "gossip, hearsay, slander",
-     "tags": [
-      "colloquial",
-      "in-plural",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 18 64"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "19 19 62"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 10 79"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "gossip",
-      "hearsay",
-      "slander"
-     ]
-    }
-   ],
-   "rank": 42505,
-   "count": 8,
-   "family": "llaf",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish لاف (lâf, “word; chat”), from Classical Persian لاف (lāf).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "llafator",
-    "llafemadh",
-    "llafepakë",
-    "llafeshumë",
-    "llafje",
-    "llafoj",
-    "llafos"
-   ],
-   "related": [
-    "llafazan"
-   ],
-   "forms": [
-    {
-     "form": "llafe",
-     "tag": "plural"
+     "form": "dhënë",
+     "tag": "participle"
     }
    ]
   }

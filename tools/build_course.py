@@ -340,6 +340,18 @@ def derivations_from_text(text):
     return [base]
 
 
+# Function words that appear as a JOINER in a three-part compound, where
+# they join two lexical elements rather than being a base. In a two-part
+# equation the same word is a legitimate stem (në + se -> nëse).
+_COMPOUND_JOINERS = {"e", "edhe", "dhe", "ose", "apo", "me"}
+
+
+def _part_is_word(chunk, words):
+    """True if this side of the equation names a real deck word."""
+    w = _side_word(chunk, words)
+    return bool(w) and w in words
+
+
 def components_of(text, words):
     """The deck words this entry says it is built FROM, with their role.
 
@@ -370,6 +382,16 @@ def components_of(text, words):
         # The stem side is read against the deck, so a trailing description
         # ("dritë, a brightening of ndriç") cannot displace the real base.
         stem = _side_word(sides[1], words) if len(sides) >= 2 else None
+
+        # A short function word sitting BETWEEN two lexical elements is a
+        # joiner, not a stem: gjëegjëzë is gjë + e + gjëzë, where e is
+        # the conjunctive "and" and no base has to be learned first.
+        # In a TWO-part equation the same word is a real stem, and a
+        # useful one -- nëse is në + se, and knowing se first helps. So
+        # the rule is deliberately narrow: three or more parts only.
+        if stem and len(sides) >= 3 and stem in _COMPOUND_JOINERS:
+            if _part_is_word(sides[-1], words) or _part_is_word(sides[1], words):
+                stem = None
 
         out = []
         if pre and pre in words:
