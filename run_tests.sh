@@ -64,6 +64,15 @@ echo "== study card example =="
 node tools/test_study_example.mjs
 
 echo
+echo
+echo "== flat index example parity =="
+# course.js and build_words_index.py each pick the example for a card, and
+# they had already drifted once: the lesson view applied the same-POS rule
+# while the index still scanned every sense, so the review card kept showing
+# the bug the lesson view had fixed. This pins them together on real data.
+node tools/test_example_parity.mjs
+
+echo
 echo "== example pairing =="
 # An example must illustrate the gloss above it. firstExample() used to take the
 # first example across ALL senses, so 'e' showed the conjunction "and" beside a
