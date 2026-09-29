@@ -30,8 +30,8 @@ for i in range(1, 16):
     except Exception as exc:
         n = "err %s" % exc
     print("poll %2d: build=%-10s live levels=%s" % (i, st, n), flush=True)
-    if st not in ("building", "queued") and n == 543:
-        print("\nDEPLOYED: 543 levels live")
+    if st not in ("building", "queued") and n == 544:
+        print("\nDEPLOYED: 544 levels live")
         sys.exit(0)
     time.sleep(20)
 

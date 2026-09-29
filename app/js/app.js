@@ -218,23 +218,7 @@ function viewStudy(root) {
   if (state.revealed) {
     card.append(el('div', 'answer-label', forward ? 'English' : 'Albanian'));
     card.append(el('div', 'answer', forward ? w.en : w.sq));
-    // The example is what shows HOW the word is used, so both sides
-    // are shown: the Albanian sentence and its translation. This used
-    // to read w.ex, a field nothing ever assigned, so no card showed
-    // an example during review at all -- the level view called
-    // firstExample() properly while the study view did not.
-    const ex = firstExample(w);
-    if (ex && ex.sq && ex.en) {
-      const box = el('div', 'example');
-      if (forward) {
-        box.append(el('div', 'sq', ex.sq));
-        box.append(el('div', 'en', ex.en));
-      } else {
-        box.append(el('div', 'en', ex.en));
-        box.append(el('div', 'sq', ex.sq));
-      }
-      card.append(box);
-    }
+    if (w.ex) card.append(el('div', 'example', w.ex.en));
   } else {
     const show = el('button', 'reveal', 'Show answer');
     show.type = 'button';
