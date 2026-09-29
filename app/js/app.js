@@ -133,6 +133,23 @@ function viewLevel(root) {
   }
 }
 
+/* The words a card is built from, rendered as e- + sille.
+   Only a real stem is worth teaching on, so a prefix-only card shows
+   the prefix alone. Returns null when the card has no components. */
+function componentsLine(w) {
+  const comps = (w && w.components) || [];
+  if (!comps.length) return null;
+  const line = el('div', 'components');
+  line.append(document.createTextNode('from '));
+  comps.forEach((c, i) => {
+    if (i) line.append(document.createTextNode(' + '));
+    const cls = c.role === 'stem' ? 'stem' : null;
+    const txt = c.role === 'stem' ? c.word : c.word + '-';
+    line.append(el('span', cls, txt));
+  });
+  return line;
+}
+
 function wordRow(w) {
   const row = el('div', 'word');
   const top = el('div', 'word-top');
@@ -140,6 +157,8 @@ function wordRow(w) {
   top.append(el('span', 'pos', displayPosLabels(w, 2).join(', ')));
   row.append(top);
   row.append(el('div', 'en', w.en));
+  const comps = componentsLine(w);
+  if (comps) row.append(comps);
 
   const ex = firstExample(w);
   if (ex) {
@@ -191,6 +210,10 @@ function viewStudy(root) {
   const card = el('div', 'card' + (forward ? '' : ' reverse'));
   card.append(el('div', 'prompt-label', forward ? 'Albanian' : 'English'));
   card.append(el('div', 'prompt', forward ? w.sq : w.en));
+  if (forward) {
+    const sc = componentsLine(w);
+    if (sc) card.append(sc);
+  }
 
   if (state.revealed) {
     card.append(el('div', 'answer-label', forward ? 'English' : 'Albanian'));

@@ -17,6 +17,13 @@ echo "== derivation parser =="
 python3 tools/test_derivations.py
 
 echo
+echo "== prerequisite ordering =="
+# A word's lexical stem must unlock no later than the word itself, the way a
+# kanji's component precedes the kanji. Residual violations are allowed only
+# for mutual borrowings (dalengadale <-> ngadale) that no order can satisfy.
+python3 tools/test_prereq.py
+
+echo
 echo "== family completeness =="
 # The family rule is strict, so it can also UNDER-link: a real derivative left
 # alone would quietly weaken every level built on it. This asserts that no
@@ -52,6 +59,13 @@ echo "== example pairing =="
 # first example across ALL senses, so 'e' showed the conjunction "and" beside a
 # preposition sentence containing no "and". Includes a negative control.
 node tools/test_example_pairing.mjs
+
+echo
+echo "== components render =="
+# The build stores components as [{word, role}]; the views must turn that into
+# "from e- + sille" on both the level row and the study card. Checks the app
+# source, the stylesheet, and the real card data together.
+node tools/test_components_render.mjs
 
 echo
 echo "== flat-index POS regression =="

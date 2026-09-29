@@ -31,6 +31,11 @@ def check(cond, msg):
     return cond
 
 
+# Session shape, kept in step with assign_levels() in build_course.py.
+PER_LEVEL = 9
+MAX_FAMILIES = 6
+
+
 def main():
     course_p = os.path.join(OUT, "course.json")
     index_p = os.path.join(OUT, "index.json")
@@ -64,10 +69,17 @@ def main():
     for i, fname in enumerate(files, 1):
         lvl = json.load(open(os.path.join(LEVELS_DIR, fname), encoding="utf-8"))
         nw, nfam = lvl["word_count"], len(lvl["families"])
-        if nw > 9:
-            struct.append("%s: %d words (>9, level must be session-sized)" % (fname, nw))
-        if nfam > 3:
-            struct.append("%s: %d families (>3 roots in one level)" % (fname, nfam))
+        # These mirror assign_levels()'s per_level / max_families. They were
+        # 9 and 3 when the course had ~3000 mostly-singleton families, which
+        # forced 1031 levels. The packer now groups up to 6 roots per level to
+        # reach the 600-level target, so the guard has to move with it --
+        # otherwise the validator just reports the new, intended shape as a bug.
+        if nw > PER_LEVEL:
+            struct.append("%s: %d words (>%d, level must be session-sized)"
+                          % (fname, nw, PER_LEVEL))
+        if nfam > MAX_FAMILIES:
+            struct.append("%s: %d families (>%d roots in one level)"
+                          % (fname, nfam, MAX_FAMILIES))
         if not lvl.get("title"):
             struct.append("%s: missing title" % fname)
         # every word in a level must belong to a family listed for that level
