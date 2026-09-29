@@ -94,6 +94,13 @@ echo "== shipped example gates =="
 # side genuinely says 'and'. These assert the SENTENCE, not the sense.
 python3 tools/test_shipped_examples.py
 
+echo "== learner-facing form glosses =="
+# Form cards used to read as dictionary grammar ('third-person singular present
+# indicative of jam'). These assert the rewrite is grammatical against real
+# Wiktionary slot strings, that it refuses rather than guesses, and that no
+# shipped card is left half-converted.
+python3 tools/test_form_gloss.py
+
 echo "== example selection guard =="
 # Two components disagreed on what counts as "this card has an example", so
 # words were skipped and shipped bare: 'mire' (adjective 'good') because its
