@@ -17,6 +17,7 @@ replaced; this tool only fills gaps.
 from __future__ import annotations
 
 import json
+import random
 import re
 import sys
 from pathlib import Path
@@ -24,14 +25,29 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CORPUS_DIR = ROOT / "src_raw" / "opus"
 WORDS_JSON = ROOT / "albcourse" / "data" / "words.json"
+LEVEL_DIR = ROOT / "albcourse" / "data" / "levels"
 
 # Human-translated only. WikiMatrix / wikimedia / Tanzil are MT-derived and are
 # deliberately excluded: a wrong sentence is worse than a missing one.
+# Human-translated only, in descending priority. WikiMatrix / wikimedia /
+# Tanzil are MT-derived and are deliberately excluded: a wrong sentence is
+# worse than a missing one.
+#
+# HPLT is the wiki translation corpus and is by far the largest (6.8M pairs);
+# it is what closed the last 160 missing words. MaCoCu is professionally
+# translated film/TV subtitles, bible-uedin is scripture. All three were added
+# after the first pass left 1,270 cards without an example.
 HUMAN = ["Tatoeba", "EUbookshop", "TildeMODEL", "GlobalVoices",
-         "TED2020", "QED", "GNOME", "SETIMES"]
+         "TED2020", "QED", "GNOME", "SETIMES",
+         "MaCoCu", "bible-uedin", "HPLT",
+         "ELRC-3052-wikipedia_health"]
 
 TOKEN_RE = re.compile(r"[a-zA-Z\u00eb\u00cb\u00e7\u00c7]+")
 MIN_WORDS, MAX_WORDS = 3, 9
+
+# Candidates retained per distinct token. The selector ranks on sense, level and
+# length, so a handful is enough and this bounds memory on very large corpora.
+MAX_CANDIDATES_PER_TOKEN = 400
 
 # Words whose surface form is ambiguous, so the English side must corroborate
 # the sense we are illustrating. Maps deck word -> required regex in the English.
@@ -82,6 +98,11 @@ TERMINAL = re.compile('[.!?][' + chr(34) + chr(39) + chr(0x201d) + ']?$')
 QUOTE_ANY = re.compile('[' + chr(34) + chr(0x201c) + chr(0x201d) + ']')
 DASHGAP = re.compile('--| - ')
 
+# HPLT is a wiki corpus and carries file paths, shell fragments, product
+# codes and bare dates. They survive every language gate while teaching
+# nothing: 'cpuinfo-fil' was offered for the word 'fil'.
+TECH = re.compile(r"/proc/|/dev/|/usr/|/etc/|/var/|https?://|www\.|[A-Za-z]:\\\\|\w+\-\w+\\|\w+\.\w[a-z]{2,4}\b|/ \w+\ /|\d{2,}|CPU|MDR|SEBI|EPR")
+
 # Some transcript rows are not translated at all: the English column repeats
 # the Albanian, sometimes with stray Cyrillic. We saw 'Unл nuk shkoj.' in the
 # audit, whose English side was identical to the Albanian. A pair that is not
@@ -91,21 +112,30 @@ ALBANIAN_LETTERS = re.compile('[ëËçÇ]')
 # (removed: a crude common-word test cost ~17k valid sentences for ~1k junk rows)
 
 
-def load_pairs():
-    pairs = []
+def iter_pairs():
+    """Yield (corpus, en, sq) over every human corpus, streaming.
+
+    HPLT alone is 1.8 GB / 6.8M pairs, so the corpora are read line by line and
+    never held in memory. The quality gates run first, so at most a fraction of
+    the pairs are ever indexed.
+    """
     for name in HUMAN:
         path = CORPUS_DIR / (name + ".txt")
         if not path.exists():
             print("WARN missing corpus: " + name, file=sys.stderr)
             continue
-        for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
-            if "\t" not in line:
-                continue
-            en, sq = line.split("\t", 1)
-            en, sq = en.strip(), sq.strip()
-            if en and sq:
-                pairs.append((name, en, sq))
-    return pairs
+        n = 0
+        with path.open(encoding="utf-8", errors="replace") as fh:
+            for line in fh:
+                if "\t" not in line:
+                    continue
+                en, sq = line.split("\t", 1)
+                en, sq = en.strip(), sq.strip()
+                if en and sq:
+                    n += 1
+                    if sentence_ok(en, sq) and alignment_ok(en, sq):
+                        yield name, en, sq
+        print("  %-32s %9d pairs scanned" % (name, n))
 
 
 def clean_en(text):
@@ -137,6 +167,8 @@ def sentence_ok(en, sq):
         return False
     if DASHGAP.search(sq) or DASHGAP.search(en):
         return False
+    if TECH.search(sq) or TECH.search(en):
+        return False
     if CYRILLIC.search(en) or CYRILLIC.search(sq):
         return False
     if en.strip().lower() == sq.strip().lower():
@@ -160,25 +192,57 @@ def alignment_ok(en, sq):
 
 
 def main():
-    deck_words = json.loads(WORDS_JSON.read_text())["words"]
+    # Read the LEVEL files, not data/words.json. The flat index has corpus
+    # examples merged into it by build_words_index.py, so using it here made
+    # the selector treat its own previous output as "already done" and skip
+    # 2,078 words. The level files carry only the dictionary's own examples.
+    deck_words = []
+    for lv in sorted(LEVEL_DIR.glob("level_*.json")):
+        payload = json.loads(lv.read_text(encoding="utf-8"))
+        for w in payload["words"]:
+            ex = None
+            for sense in w.get("sense_detail") or []:
+                for e2 in sense.get("examples") or []:
+                    if e2 and e2.get("sq") and e2.get("en"):
+                        ex = {"sq": e2["sq"], "en": e2["en"]}
+                        break
+                if ex:
+                    break
+            deck_words.append({
+                "sq": w["sq"],
+                "level": w.get("level") or payload.get("level"),
+                "wiktionary_example": ex,
+            })
+
     word_level = {w["sq"]: w["level"] for w in deck_words}
     deck_set = set(word_level)
-    have_example = {w["sq"] for w in deck_words if w.get("ex")}
+    have_example = {w["sq"] for w in deck_words if w.get("wiktionary_example")}
 
-    pairs = load_pairs()
-    print("human pairs loaded:", len(pairs))
-
-    # Index: token -> list of (corpus, en, sq)
+    # Index: token -> list of (corpus, en, sq). Only gated pairs are kept, and
+    # for a given token only the best few are worth holding: the selector only
+    # ever needs the top candidate, and an unbounded list would be 6.8M pairs
+    # of memory for HPLT alone.
+    # Per-token reservoir, so a word that only appears late (or only in the
+    # last corpus read) is not crowded out by common words seen earlier.
+    # seen[tok] counts occurrences; we keep MAX_CANDIDATES_PER_TOKEN of them,
+    # replacing a random existing entry with probability
+    # MAX / (seen + 1), which is textbook reservoir sampling.
     index = {}
+    seen = {}
+    rng = random.Random(20260929)
     kept = 0
-    for name, en, sq in pairs:
-        if not sentence_ok(en, sq):
-            continue
-        if not alignment_ok(en, sq):
-            continue
+    for name, en, sq in iter_pairs():
         kept += 1
         for tok in set(TOKEN_RE.findall(sq.lower())):
-            index.setdefault(tok, []).append((name, en, sq))
+            n = seen.get(tok, 0) + 1
+            seen[tok] = n
+            bucket = index.setdefault(tok, [])
+            if len(bucket) < MAX_CANDIDATES_PER_TOKEN:
+                bucket.append((name, en, sq))
+            else:
+                j = rng.randrange(n)
+                if j < MAX_CANDIDATES_PER_TOKEN:
+                    bucket[j] = (name, en, sq)
     print("after quality gates:", kept)
 
     targets = [w for w in deck_words if w["sq"] not in have_example]
@@ -197,6 +261,7 @@ def main():
             if guard and not re.search(guard, clean_en(en), re.I):
                 continue
             toks = TOKEN_RE.findall(sq.lower())
+            # Own token only: 'fil' must not match inside 'cpuinfo-fil'.
             if sq_word.lower() not in toks:
                 continue
             known = 0
