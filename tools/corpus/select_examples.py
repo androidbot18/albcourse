@@ -101,7 +101,7 @@ DASHGAP = re.compile('--| - ')
 # HPLT is a wiki corpus and carries file paths, shell fragments, product
 # codes and bare dates. They survive every language gate while teaching
 # nothing: 'cpuinfo-fil' was offered for the word 'fil'.
-TECH = re.compile(r"/proc/|/dev/|/usr/|/etc/|/var/|https?://|www\.|[A-Za-z]:\\\\|\w+\-\w+\\|\w+\.\w[a-z]{2,4}\b|/ \w+\ /|\d{2,}|CPU|MDR|SEBI|EPR")
+TECH = re.compile(r"/ ?proc ?/|/ ?dev ?/|/ ?usr ?/|/ ?etc ?/|/ ?var ?/|https?://|www\.|[A-Za-z]:\\\\|\w+\-\w+\\|\w+\.\w[a-z]{2,4}\b|/\w+\/|\d{2,}|CPU|MDR|SEBI|EPR|STEM|CTE|NICE|\b[A-Z]{2,}\b|\[\d{1,3}\]")
 
 # Some transcript rows are not translated at all: the English column repeats
 # the Albanian, sometimes with stray Cyrillic. We saw 'Unл nuk shkoj.' in the

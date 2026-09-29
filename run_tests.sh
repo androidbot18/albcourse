@@ -87,6 +87,13 @@ echo "== example coverage =="
 # example; this pins the floor so that cannot recur unnoticed.
 python3 tools/test_example_coverage.py
 
+echo "== shipped example gates =="
+# The live site served 'dhe' -> 'CTE dhe STEM.' while every local suite
+# passed. HPLT is a wiki corpus, so abbreviations and product codes survive
+# every language gate, and a sense guard cannot catch it because the English
+# side genuinely says 'and'. These assert the SENTENCE, not the sense.
+python3 tools/test_shipped_examples.py
+
 echo
 echo "== example pairing =="
 # An example must illustrate the gloss above it. firstExample() used to take the

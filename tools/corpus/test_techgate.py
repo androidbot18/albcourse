@@ -14,6 +14,10 @@ JUNK = [
     "Si te Uninstall Backdoor.Win32.ZAccess.ang Plotesisht?",
     "HI93501 perfshin teknologjine ekskluzive CAL Check.",
     "Eficenca e energjise SEBI 01 (birds and butterflies) EPR.",
+    "CTE dhe STEM.",
+    "[8] Ang.: Habitat for Humanity, organizata humanitare.",
+    "P: Pse duhet te zgjedh NICE-CUT?",
+    "KOHUZGJATJA: 7-8 ore udhetim vajtje-ardhje.",
 ]
 GOOD = [
     "Kam nevoje per nje kompjutuer te ri.",
