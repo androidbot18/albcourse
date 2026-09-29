@@ -26,8 +26,18 @@ function ok(cond, name, extra) {
 console.log('example pairing tests');
 
 // The reported case, exactly.
-const lvl1 = JSON.parse(readFileSync(join(LEVELS, 'level_0001.json'), 'utf8'));
-const e = lvl1.words.find((w) => w.id === 'e');
+// Level filenames are zero-padded to the width of the level count, so
+// 'level_0001.json' stops existing once the course drops under 1000
+// levels. Discover the first level file rather than hard-code padding.
+const firstLevel = readdirSync(LEVELS).filter((f) => /^level_\d+\.json$/.test(f)).sort()[0];
+// The card 'e' is not necessarily in level 1 any more: its family must
+// wait for the stem of esell, so prerequisite order can place it late.
+// Find the card wherever it landed instead of assuming a level.
+const allLevels = readdirSync(LEVELS)
+  .filter((f) => /^level_\d+\.json$/.test(f))
+  .sort()
+  .map((f) => JSON.parse(readFileSync(join(LEVELS, f), 'utf8')));
+const e = allLevels.flatMap((l) => l.words).find((w) => w.id === 'e');
 ok(!!e, 'the card e exists');
 if (e) {
   ok(e.en === 'and', "e's headline is the conjunction 'and'", 'got ' + e.en);

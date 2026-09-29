@@ -340,6 +340,74 @@ def derivations_from_text(text):
     return [base]
 
 
+def components_of(text, words):
+    """The deck words this entry says it is built FROM, with their role.
+
+    A derivation sentence is a two-sided equation -- "e- + sille", "ne + drite" --
+    so both sides matter, and they are not the same kind of thing:
+
+      * The LEFT side is the affix. This is what build_families() already
+        follows, which is why esell groups under the family e.
+      * The RIGHT side is the stem -- the lexical word the learner has to
+        know first. sille ("breakfast") is the stem for esell, and it is a
+        real deck word, so it is worth naming and teaching first.
+
+    Both sides are required to be real deck words. That is what keeps the
+    junk out: nuk gets parents ["one", "not"] from English glosses, and the
+    Ottoman bori -> bri is a false association, because neither is a word
+    the course teaches.
+
+    Returns [(word, role), ...] with role in {"prefix", "stem"}, or [].
+    """
+    if not text:
+        return []
+    for sent in re.split(r"(?<=[.;])\s", text.strip()):
+        if "+" not in sent or not _is_derivation_sentence(sent):
+            continue
+
+        sides = sent.split("+")
+        pre = _side_word(sides[0])
+        # The stem side is read against the deck, so a trailing description
+        # ("dritë, a brightening of ndriç") cannot displace the real base.
+        stem = _side_word(sides[1], words) if len(sides) >= 2 else None
+
+        out = []
+        if pre and pre in words:
+            out.append((pre, "prefix"))
+        if stem and stem in words and stem != pre:
+            out.append((stem, "stem"))
+        return out
+    return []
+
+
+def _side_word(chunk, words=None):
+    """The base word named by one side of a derivation equation.
+
+    With no `words` set the LAST token wins, preserving the rule
+    build_families() already relies on: the base is the final word before "+".
+
+    With `words` supplied the FIRST real deck word wins instead, because a
+    stem side usually runs into its own description -- "dritë, a brightening
+    of ndriç" -- where the base is named first and the rest is commentary
+    that must not be mistaken for it.
+    """
+    c = _DERIV_LEAD_RE.sub("", chunk)
+    c = c.replace("*", "")                      # proto-form reconstruction stars
+    c = re.sub(r"\([^)]*\)", " ", c)             # (gloss) / (note)
+    c = re.sub(r'"[^"]*"', " ", c)             # straight-quoted gloss
+    c = re.sub(r"“[^”]*”", " ", c)    # curly-quoted gloss
+    toks = [t.rstrip("-") for t in _DERIV_WORD_RE.findall(c)]
+    toks = [t for t in toks if t]
+    if not toks:
+        return None
+    if words is not None:
+        for t in toks:
+            if t in words:
+                return t
+        return None
+    return toks[-1]
+
+
 def parse_etymology(entry):
     """text / cls / parents[] / source_lang, from a raw Kaikki entry."""
     text = (entry.get("etymology_text") or "").strip()
@@ -589,34 +657,115 @@ def build_families(cards):
 
 # ----------------------------------------------------------------- levels
 
-def assign_levels(cards, families, per_level=9, max_families=3):
-    """Levels are sessions of whole word families, in frequency order.
+def by_word_components(cards):
+    """{word: [component, ...]} from the per-card components list."""
+    return {c["word"]: c.get("components") or [] for c in cards
+            if c.get("components")}
 
-    Two levels of coherence, Wanikani-style:
 
-      * Within a level, a family is never split. A root and its derivations
-        always unlock together, so studying the level teaches a word group
-        rather than an arbitrary frequency slice.
-      * A level is a session, not a single item: families are packed until
-        per_level words are reached (at most max_families of them), so the
-        course has the ~9-items-per-level rhythm of a real course instead of
-        3000 one-word levels.
+def assign_levels(cards, families, per_level=9, max_families=6,
+                  components=None):
+    """Levels are sessions of whole word families, in prerequisite order.
+
+    Three rules, in priority order:
+
+      1. A stem is never taught after the word built on it. esëll is e- + sillë, so
+         sille must unlock no later than esell, even though sille is the
+         rarer word. This is the kanji bargain applied to whole words: the
+         component comes first because it explains the card.
+      2. Within a level, a family is never split. A root and its derivations
+         unlock together, so studying a level teaches a word group rather
+         than an arbitrary frequency slice.
+      3. A level is a session, not a single item: families are packed until
+         per_level words are reached, at most max_families of them.
 
     Families too large for one session spill into continuation levels that
-    repeat the root ("krye 2/3") so a split family is still recognisably one
-    lesson rather than a pile of orphans.
+    repeat the root ("krye 2/3") so a split family stays one lesson rather
+    than a pile of orphans.
 
-    Roots are ordered by their own rank, not by the earliest member -- a rare
-    derivation must not pull its root forward.
+    Roots are ordered by prerequisite-respecting rank, not by raw frequency.
+    A rare stem that many words depend on outranks the common word that
+    happens to sit above it in the corpus.
+
+    `components` is {word: [{"word":..., "role":...}, ...]}. Only stems
+    (role "stem") create prerequisites; a prefix is already the family root,
+    so it is displayed but never re-ordered.
     """
     rank_of = {c["word"]: c["rank"] for c in cards}
+    components = components or {}
+
+    def stems_of(word):
+        return [c["word"] for c in components.get(word, ())
+                if c.get("role") == "stem"]
+
+    fam_of = {}
+    for root, members in families.items():
+        for m in members:
+            fam_of[m] = root
 
     score = {}
     for root, members in families.items():
         got = [rank_of[m] for m in members if m in rank_of]
         if got:
             score[root] = min(got)
-    ordered = sorted(score, key=lambda r: (score[r], r))
+
+    # ---- topological order over families ---------------------------------
+    # A family cannot unlock before the family holding a stem one of its
+    # members is built from. This has to be a real topological sort, not a
+    # depth sort: neper (family ne) needs per (family per), and both roots
+    # are stemless, so they share a depth and frequency alone decides --
+    # which put neper first. A depth tie cannot resolve that; an explicit
+    # edge between the two families can.
+    #
+    # Among families ready at the same moment the most frequent goes first,
+    # so the course still reads as "common words early" wherever the
+    # etymology imposes no order.
+    deps = {}
+    for root, members in families.items():
+        need = set()
+        for m in members:
+            for s in stems_of(m):
+                sf = fam_of.get(s)
+                if sf is not None and sf != root:
+                    need.add(sf)
+        deps[root] = need
+
+    # dependents[f] lists the families that are waiting on f, so releasing
+    # a family only touches the edges that actually point at it.
+    dependents = {r: [] for r in deps}
+    for root, need in deps.items():
+        for dep in need:
+            dependents[dep].append(root)
+
+    remaining = {r: len(deps[r]) for r in deps}
+    ready = [r for r in deps if remaining[r] == 0]
+    ready.sort(key=lambda r: (score.get(r, 10 ** 9), r))
+
+    ordered = []
+    while ready:
+        root = ready.pop(0)
+        ordered.append(root)
+        for other in dependents[root]:
+            remaining[other] -= 1
+            if remaining[other] == 0:
+                ready.append(other)
+        ready.sort(key=lambda r: (score.get(r, 10 ** 9), r))
+
+    # Cyclic etymologies starve the queue above, and they are real rather
+    # than parser noise: dalengadale is dale- + nga, while ngadale is nga- +
+    # dale, so those two families need each other and no order satisfies both.
+    #
+    # No ordering can satisfy a cycle, so the leftovers are appended in
+    # frequency order rather than dropped. Everything outside a cycle is
+    # already placed above and fully respects its prerequisites; the words
+    # left late here are the ones where late is the lesser of two wrongs.
+    if len(ordered) < len(deps):
+        placed = set(ordered)
+        rest = sorted((r for r in deps if r not in placed),
+                      key=lambda r: (score.get(r, 10 ** 9), r))
+        ordered.extend(rest)
+        print("  %d families in a stem cycle (mutual borrowing, e.g. "
+              "dalengadale <-> ngadale); appended by frequency" % len(rest))
 
     # Split any family larger than a session, keeping root first.
     units = []  # (root, members, part, nparts)
@@ -628,15 +777,11 @@ def assign_levels(cards, families, per_level=9, max_families=3):
 
     # Pack consecutive units into session-sized levels.
     #
-    # Rules, in priority order:
-    #   1. A continuation unit (part > 0) always gets a level to itself. It
-    #      belongs to a family that already unlocked in the previous level,
-    #      so sharing that level with unrelated roots would mislabel it
-    #      (a 2/2 part shown as 1/1) and re-scatter the family.
+    #   1. A continuation unit (part > 0) always gets a level to itself, so a
+    #      split family is not mislabelled or scattered.
     #   2. A family never contributes two parts to one level.
     #   3. Otherwise pack whole families up to per_level words and
-    #      max_families roots, so a level is a session-sized group of
-    #      complete word families rather than an arbitrary frequency slice.
+    #      max_families roots.
     levels = []
     cur_words, cur_roots, cur_part = [], [], {}
 
@@ -701,14 +846,27 @@ def main():
     multi = {r: m for r, m in families.items() if len(m) > 1}
     print("  %d families, %d with >1 member" % (len(families), len(multi)))
 
-    print("assigning levels...", flush=True)
-    levels = assign_levels(cards, families)
-    print("  %d levels" % len(levels))
-
+    # Components are resolved AFTER families but BEFORE levels, because a
+    # component must be a word the course actually teaches (hence the full
+    # deck as the word set), and because assign_levels() schedules stems
+    # ahead of the words built on them.
     by_word = {c["word"]: c for c in cards}
     for root, members in families.items():
         for m in members:
             by_word[m]["family"] = root
+
+    all_words = {c["word"] for c in cards}
+    n_comp = 0
+    for c in cards:
+        comps = components_of(c.get("etymology", ""), all_words)
+        c["components"] = [{"word": w, "role": r} for w, r in comps]
+        if comps:
+            n_comp += 1
+    print("  %d cards with components" % n_comp)
+
+    print("assigning levels...", flush=True)
+    levels = assign_levels(cards, families, components=by_word_components(cards))
+    print("  %d levels" % len(levels))
 
     os.makedirs(LEVELS_DIR, exist_ok=True)
     for f in os.listdir(LEVELS_DIR):
@@ -746,6 +904,7 @@ def main():
                 "etymology_class": c["etymology_class"],
                 "source_lang": c["source_lang"],
                 "parents": c["parents"][:3],
+                "components": c.get("components") or [],
                 "derived": c["derived"][:8],
                 "related": c["related"][:5],
                 "forms": c["forms"],
