@@ -44,7 +44,12 @@ def main():
         "coverage did not fall below the measured baseline",
         f"{len(with_ex)} < {BASELINE_WITH_EXAMPLE}",
     )
-    check(len(words) == 3731, "deck still holds every card", str(len(words)))
+    # Compared against the built level files rather than a literal: the card
+    # count moves whenever the deck grows (inflected-form cards added 356), and
+    # a hard-coded total reports that as a lost card.
+    idx = json.loads((ROOT / "data" / "index.json").read_text(encoding="utf-8"))
+    built = sum(lv.get("word_count") or 0 for lv in idx)
+    check(len(words) == built, "flat index matches the built deck", f"{len(words)} vs {built}")
 
     # The ranker must never drop an example it was handed.
     freq = {"te": (1, 10), "dhe": (2, 10), "unaz": (3, 10), "jam": (4, 10)}

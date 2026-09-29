@@ -72,7 +72,11 @@ for (const f of files) {
   }
 }
 ok('every card with components renders a non-empty line', true, '(' + withComps + ' cards)');
-ok('sanity: cards counted', cards === 3731, '(got ' + cards + ')');
+// Read from the built data, not a literal. The deck grows when inflected-form
+// cards are added, and a hard-coded total reports that as missing cards.
+const idxWords = JSON.parse(readFileSync(join(ROOT, 'data', 'index.json'), 'utf8'))
+  .reduce((n, lv) => n + (lv.word_count || 0), 0);
+ok('sanity: cards counted', cards === idxWords, '(got ' + cards + ', expected ' + idxWords + ')');
 
 // The headline case from the report.
 ok('esëll carries its components', !!esell);

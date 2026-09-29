@@ -94,6 +94,13 @@ echo "== shipped example gates =="
 # side genuinely says 'and'. These assert the SENTENCE, not the sense.
 python3 tools/test_shipped_examples.py
 
+echo "== example selection guard =="
+# Two components disagreed on what counts as "this card has an example", so
+# words were skipped and shipped bare: 'mire' (adjective 'good') because its
+# ADVERB sense had one, and 'e' because the article sense 'a whole' carries an
+# English 'and'. Both are asserted here against real corpus lines.
+python3 tools/corpus/test_select_guard.py
+
 echo
 echo "== example pairing =="
 # An example must illustrate the gloss above it. firstExample() used to take the

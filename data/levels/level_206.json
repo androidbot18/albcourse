@@ -1,37 +1,46 @@
 {
  "level": 206,
- "title": "rrahje, keqkuptim, mek, qij, pengesë, këmishë +4",
+ "title": "trim, qira, djeg, buzë, kuçkë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 9,
  "families": [
-  "keqkuptim",
-  "këmishë",
-  "mek",
-  "pengesë",
-  "qij",
-  "rrahje"
+  "buzë",
+  "djeg",
+  "kuçkë",
+  "qira",
+  "trim"
  ],
  "pos_mix": {
-  "noun": 7,
-  "verb": 4
+  "noun": 19,
+  "verb": 2,
+  "prep": 2
  },
  "words": [
   {
-   "id": "rrahje",
-   "sq": "rrahje",
-   "en": "fighting",
+   "id": "trim",
+   "sq": "trim",
+   "en": "man, manful",
    "glosses": [
-    "fighting",
-    "fight"
+    "man, manful",
+    "hero",
+    "courageous",
+    "valiant, valorous",
+    "brave, hardy"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -39,9 +48,49 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fighting",
+     "gloss": "man, manful",
      "tags": [
-      "feminine"
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "man",
+      "manful"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hero",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hero"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "courageous",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "courageous"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "valiant, valorous",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
@@ -49,207 +98,203 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "85 15"
+       "_dis": "6 4 7 68 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "valiant",
+      "valorous"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brave, hardy",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "brave",
+      "hardy"
+     ]
+    }
+   ],
+   "rank": 3803,
+   "count": 206,
+   "family": "trim",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *trim-, most likely from Proto-Indo-European *ter- (“soft, weak, young”). Cognate with Sanskrit तरुण (táruṇa, “young”) and Armenian թարմ (tʻarm, “young, fresh”). Alternatively from Proto-Indo-European *trem(s)- (“to thump; to tremble”). Compare Latin tremō (“tremble”), Lithuanian tri̇̀mti (“shake, tremble”), Tocharian A tröm (“in rage, fury”) and Tocharian B tremi (“rage, fury”). According to Stuart E. Mann, it is connected to Ancient Macedonian [script needed] (*Tyrimmas) if not somehow derived from Ancient Macedonian.",
+   "etymology_class": "root",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "trima",
+     "tag": "plural"
+    },
+    {
+     "form": "trimi",
+     "tag": "definite"
+    },
+    {
+     "form": "trajm",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This brave warrior.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ky luftëtar trim."
+   }
+  },
+  {
+   "id": "qira",
+   "sq": "qira",
+   "en": "rent",
+   "glosses": [
+    "rent"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rent",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymology trees",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rent"
+     ]
+    }
+   ],
+   "rank": 3808,
+   "count": 206,
+   "family": "qira",
+   "is_root": true,
+   "etymology": "Etymology tree\nArabic كِرَاء (kirāʔ)bor.\nOttoman Turkish كراbor.\nAlbanian qira\nBorrowed from Ottoman Turkish كرا (kira).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qira",
+     "tag": "plural"
+    },
+    {
+     "form": "qiraja",
+     "tag": "definite"
+    },
+    {
+     "form": "qera",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I live in a rented place.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Unë jetoj me qira."
+   }
+  },
+  {
+   "id": "djeg",
+   "sq": "djeg",
+   "en": "to burn",
+   "glosses": [
+    "to burn"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to burn",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fighting"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fight",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fight"
-     ]
-    }
-   ],
-   "rank": 6110,
-   "count": 118,
-   "family": "rrahje",
-   "is_root": true,
-   "etymology": "Gerund of rrah and rrihet.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "rrahje",
-     "tag": "plural"
-    },
-    {
-     "form": "rrahja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "There she blows!",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Atje ajo rrahje!"
-   }
-  },
-  {
-   "id": "keqkuptim",
-   "sq": "keqkuptim",
-   "en": "misunderstanding",
-   "glosses": [
-    "misunderstanding"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "misunderstanding",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "misunderstanding"
+      "burn"
      ]
     }
    ],
-   "rank": 6119,
-   "count": 118,
-   "family": "keqkuptim",
+   "rank": 3811,
+   "count": 205,
+   "family": "djeg",
    "is_root": true,
-   "etymology": "Gerund of keqkuptoj and keqkuptohem.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "keqkuptime",
-     "tag": "plural"
-    },
-    {
-     "form": "keqkuptimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is a misconception.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "Ky është një keqkuptim."
-   }
-  },
-  {
-   "id": "mek",
-   "sq": "mek",
-   "en": "to bleat, stammer",
-   "glosses": [
-    "to bleat, stammer",
-    "to wet"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to bleat, stammer",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bleat",
-      "stammer"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to wet",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "wet"
-     ]
-    }
-   ],
-   "rank": 6143,
-   "count": 117,
-   "family": "mek",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *mek-, from Proto-Indo-European *mek- (“to bleat”). Cognate to Lithuanian meknénti (“to bleat”). An onomatopoeic root.",
+   "etymology": "From Proto-Albanian *dega, Proto-Indo-European *dʰégʷʰeti.",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
@@ -258,172 +303,47 @@
    "related": [],
    "forms": [
     {
-     "form": "meka",
+     "form": "dogja",
      "tag": "aorist"
     },
     {
-     "form": "mekur",
+     "form": "djegur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I loved and admired President McKay.",
+    "en": "city before it burns completely.",
     "score": [
+     1,
      6,
-     9,
-     -3,
+     -5,
      10
     ],
-    "sq": "Unë e doja dhe e admiroja Presidentin Mek-Kei."
+    "sq": "qytet para se të djeg plotësisht."
    }
   },
   {
-   "id": "qij",
-   "sq": "qij",
-   "en": "to hew",
+   "id": "buzëqesh",
+   "sq": "buzëqesh",
+   "en": "to smile",
    "glosses": [
-    "to hew",
-    "to fuck"
+    "to smile"
    ],
    "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to hew",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "58 42"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hew"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to fuck",
+     "gloss": "to smile",
      "tags": [
-      "vulgar"
+      "intransitive"
      ],
-     "cats": [
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
-      },
-      {
-       "name": "Sex",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Sex",
-       "langcode": "sq",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fuck"
-     ]
-    }
-   ],
-   "rank": 6183,
-   "count": 116,
-   "family": "qij",
-   "is_root": true,
-   "etymology": "A variant of Albanian kij, with palatalized velar.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "qihem",
-    "qirë",
-    "qirje"
-   ],
-   "related": [
-    "bythëqirë",
-    "nënëqirë",
-    "robqirë",
-    "shkërdhej",
-    "shqyej"
-   ],
-   "forms": [
-    {
-     "form": "qirë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Fuck me, I'm drunk!",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Qij mua, unë jam i dehur!"
-   }
-  },
-  {
-   "id": "pengesë",
-   "sq": "pengesë",
-   "en": "hindrance, obstacle, hurdle, impediment, barrier, encumbrance, impasse",
-   "glosses": [
-    "hindrance, obstacle, hurdle, impediment, barrier, encumbrance, impasse"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hindrance, obstacle, hurdle, impediment, barrier, encumbrance, impasse",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -446,52 +366,68 @@
      ],
      "examples": [],
      "links": [
-      "hindrance",
-      "obstacle",
-      "hurdle"
+      "smile"
      ]
     }
    ],
-   "rank": 6186,
-   "count": 116,
-   "family": "pengesë",
-   "is_root": true,
-   "etymology": "Borrowed from a Vulgar Latin derivative of Latin pedica.",
-   "etymology_class": "borrowed",
+   "rank": 3813,
+   "count": 205,
+   "family": "buzë",
+   "is_root": false,
+   "etymology": "From buzë (“lip”) + qesh (“laugh”).",
+   "etymology_class": "compound",
    "source_lang": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "lip",
+    "laugh"
+   ],
+   "components": [
+    {
+     "word": "buzë",
+     "role": "prefix"
+    },
+    {
+     "word": "qesh",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "buzëqesha",
+     "tag": "aorist"
+    },
+    {
+     "form": "buzëqeshur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Distance is not a barrier!",
+    "corpus": "HPLT",
+    "en": "Smile for no reason.",
     "score": [
-     2,
-     4,
+     1,
+     3,
      -2,
-     8
+     10
     ],
-    "sq": "Distanca nuk është pengesë!"
+    "sq": "Buzëqesh pa arsye."
    }
   },
   {
-   "id": "këmishë",
-   "sq": "këmishë",
-   "en": "shirt",
+   "id": "kuçkë",
+   "sq": "kuçkë",
+   "en": "female dog, bitch",
    "glosses": [
-    "shirt",
-    "placenta",
-    "wrapping"
+    "female dog, bitch",
+    "slut, whore, bitch"
    ],
    "pos": [
-    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun",
     "noun"
    ],
@@ -499,34 +435,206 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "shirt",
+     "gloss": "female dog, bitch",
      "tags": [
       "feminine"
      ],
-     "cats": [],
-     "examples": [
+     "cats": [
       {
-       "sq": "Këmishën ta lashë në dollap.",
-       "en": "I left your shirt in the wardrobe.",
-       "offsets": [
-        [
-         0,
-         8
-        ]
-       ]
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 37"
       }
      ],
+     "examples": [],
      "links": [
-      "shirt"
+      "bitch"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "placenta",
+     "gloss": "slut, whore, bitch",
      "tags": [
+      "derogatory",
       "feminine"
      ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "slut",
+      "whore"
+     ]
+    }
+   ],
+   "rank": 3815,
+   "count": 205,
+   "family": "kuçkë",
+   "is_root": true,
+   "etymology": "From South Slavic; cf. Serbo-Croatian kȕčka, Bulgarian/Macedonian кучка (kučka).",
+   "etymology_class": null,
+   "source_lang": "sr",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "kuç",
+    "gucë"
+   ],
+   "forms": [
+    {
+     "form": "kuçka",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "buzë",
+   "sq": "buzë",
+   "en": "nigh, to/at the side of",
+   "glosses": [
+    "nigh, to/at the side of",
+    "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+    "lip",
+    "muzzle, snout",
+    "edge, rim, side",
+    "beginning (of an event/time)",
+    "cliff",
+    "rocky chasm, (rocky) cliffs; sharp rock(s), boulders"
+   ],
+   "pos": [
+    "prep",
+    "prep",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "preposition",
+    "preposition",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "nigh, to/at the side of",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      },
+      {
+       "name": "Albanian terms suffixed with -zë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 18 4 23 5 6 12 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nigh",
+      "to",
+      "at"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "on",
+      "to",
+      "onto"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lip",
+     "tags": [],
      "cats": [
       {
        "name": "Anatomy",
@@ -535,18 +643,359 @@
        "source": "w",
        "orig": "sq:Anatomy",
        "langcode": "sq"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
       }
      ],
      "examples": [],
      "links": [
       "anatomy",
-      "placenta"
+      "lip"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wrapping",
+     "gloss": "muzzle, snout",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Veterinary medicine",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Veterinary medicine",
+       "langcode": "sq"
+      },
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "veterinary medicine",
+      "muzzle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "edge, rim, side",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge",
+      "rim",
+      "side"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beginning (of an event/time)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beginning"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cliff",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cliff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rocky chasm, (rocky) cliffs; sharp rock(s), boulders",
+     "tags": [
+      "in-plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 25 2 8 3 37 5 13"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 19 2 6 2 35 3 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chasm",
+      "rock",
+      "boulders"
+     ]
+    }
+   ],
+   "rank": 5429,
+   "count": 137,
+   "family": "buzë",
+   "is_root": true,
+   "etymology": "From archaic and now chiefly dialectal (Arbëresh) budhë + -zë (collective suffix), from Proto-Albanian *budzā, from Proto-Indo-European *bʰudʰmḗn (“bottom”); compare Lithuanian budė̃ (“tree-fungus”), bùdė (“whetstone”), Sanskrit बुध्न (budhna), Ancient Greek πυθμήν (puthmḗn, “bottom”), Latin fundus (“bottom, piece of land, farm”). Possibly lent Romanian buză.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "bottom",
+    "whetstone"
+   ],
+   "components": [],
+   "derived": [
+    "buzaç",
+    "buzak",
+    "buzake",
+    "buzël",
+    "buzëqeshje",
+    "buzëz",
+    "buzinë",
+    "buzm"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Oceanfront Views!",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Pamje buzë oqeanit!"
+   }
+  },
+  {
+   "id": "trimëri",
+   "sq": "trimëri",
+   "en": "courage",
+   "glosses": [
+    "courage",
+    "brave deed"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "courage",
+     "tags": [
+      "feminine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Albanian terms suffixed with -ëri",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "courage"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brave deed",
+     "tags": [
+      "countable",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Albanian terms suffixed with -ëri",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "brave",
+      "deed"
+     ]
+    }
+   ],
+   "rank": 11395,
+   "count": 55,
+   "family": "trim",
+   "is_root": false,
+   "etymology": "From trim + -ëri.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "trim",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "trimëri",
+     "tag": "plural"
+    },
+    {
+     "form": "trimëria",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Counseling requires courage.",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Këshillimi kërkon trimëri."
+   }
+  },
+  {
+   "id": "trime",
+   "sq": "trime",
+   "en": "hero",
+   "glosses": [
+    "hero",
+    "heroine"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hero",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hero"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "heroine",
      "tags": [
       "feminine"
      ],
@@ -556,58 +1005,147 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 24 73"
+       "_dis": "24 24 52"
+      },
+      {
+       "name": "Albanian terms suffixed with -e",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "heroine"
+     ]
+    }
+   ],
+   "rank": 19485,
+   "count": 27,
+   "family": "trim",
+   "is_root": false,
+   "etymology": "From trim + -e.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "trim",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "trime",
+     "tag": "plural"
+    },
+    {
+     "form": "trimja",
+     "tag": "definite"
+    },
+    {
+     "form": "trajme",
+     "tag": "alternative"
+    },
+    {
+     "form": "trimneshë",
+     "tag": "alternative"
+    },
+    {
+     "form": "trajmneshë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "She was also a brave partisan.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Ka qenë edhe partizane trime."
+   }
+  },
+  {
+   "id": "djegje",
+   "sq": "djegje",
+   "en": "burn",
+   "glosses": [
+    "burn"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "burn",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 19 74"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 13 83"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "technical",
-      "wrapping"
+      "burn"
      ]
     }
    ],
-   "rank": 6187,
-   "count": 116,
-   "family": "këmishë",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin camisia (“shirt”).",
-   "etymology_class": "borrowed",
+   "rank": 28235,
+   "count": 16,
+   "family": "djeg",
+   "is_root": false,
+   "etymology": "From djeg + -je feminine noun suffix.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "shirt"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "parents": [],
+   "components": [
     {
-     "form": "këmishë",
-     "tag": "plural"
-    },
-    {
-     "form": "këmisha",
-     "tag": "definite"
-    },
-    {
-     "form": "kmishë",
-     "tag": "alternative"
+     "word": "djeg",
+     "role": "prefix"
     }
    ],
-   "corpus_example": null
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Looking for La Loma columbaries cremation services?",
+    "score": [
+     6,
+     8,
+     -2,
+     10
+    ],
+    "sq": "Duke kërkuar për La Loma columbaries shërbime djegje?"
+   }
   }
  ]
 }

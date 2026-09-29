@@ -22,10 +22,17 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+# ROOT is the repo root. These paths used to carry a spurious 'albcourse/'
+# segment, which resolved to a directory that does not exist, so the deck
+# loaded as zero words and the run divided by zero. It failed loudly only at
+# the coverage print; the real symptom was that nothing was ever selected.
+# ROOT is the REPO root. This file is tools/corpus/select_examples.py, so three
+# parents up is the repo, not two (which lands on tools/ and made every data
+# path below miss by a directory).
+ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS_DIR = ROOT / "src_raw" / "opus"
-WORDS_JSON = ROOT / "albcourse" / "data" / "words.json"
-LEVEL_DIR = ROOT / "albcourse" / "data" / "levels"
+WORDS_JSON = ROOT / "data" / "words.json"
+LEVEL_DIR = ROOT / "data" / "levels"
 
 # Human-translated only. WikiMatrix / wikimedia / Tanzil are MT-derived and are
 # deliberately excluded: a wrong sentence is worse than a missing one.
@@ -197,6 +204,33 @@ def sentence_ok(en, sq):
     return True
 
 
+# Words whose Albanian usage varies by sense, where a sentence can be fluent and
+# still not illustrate the gloss. 'e' is the clearest: in "një e tërë" it is the
+# ARTICLE, yet the English carries an "and" from the sentence's first word
+# ("Dhe kështu" = "And so"), so the English-side guard alone passes it. A card
+# glossed "and" then shows a sentence with no conjunction in it, which is the
+# defect this whole gate exists to prevent.
+#
+# The rule: for these words, require the SENSE MARKER to appear in the
+# Albanian too, and forbid the known misleading senses.
+SENSE_MARKER_SQ = {
+    # A conjunction 'e' is simply a standalone token; the misleading senses
+    # (article in 'një e tërë', preposition in 'e shtëpisë') are removed by
+    # SENSE_FORBID_SQ instead, which is a far more precise tool than trying to
+    # pattern-match every legitimate joining position.
+    "e": r"(?<![a-zA-ZëëçÇ])\be(?![a-zA-ZëëçÇ])",
+}
+
+# Usage that the gloss does NOT mean, so the sentence is rejected outright.
+SENSE_FORBID_SQ = {
+    # ONLY the article sense: 'një e tërë' = a whole, where 'e' sits between a
+    # numeral and the noun it governs. A broader "e + word" rule was tried and
+    # rejected: it also killed genuine conjunctions such as 'dhe e quajti' and
+    # 'tridhjetë e katër vjet', which are exactly the sentences we want.
+    "e": r"\bnjë\s+e\s+[a-zëç]+",
+}
+
+
 def alignment_ok(en, sq):
     """Reject known misalignments using symmetric conjunction markers."""
     e, s = en.lower(), sq.lower()
@@ -217,19 +251,43 @@ def main():
     for lv in sorted(LEVEL_DIR.glob("level_*.json")):
         payload = json.loads(lv.read_text(encoding="utf-8"))
         for w in payload["words"]:
+            # Mirror build_words_index.pick_example exactly. It used to count
+            # ANY sense's example, so a word whose headline sense has none but
+            # a sibling POS does (mirë "good" vs the adverb "well") was treated
+            # as already done and never targeted, and then shipped with no
+            # sentence at all. The two components must agree on this.
             ex = None
-            for sense in w.get("sense_detail") or []:
-                for e2 in sense.get("examples") or []:
-                    if e2 and e2.get("sq") and e2.get("en"):
-                        ex = {"sq": e2["sq"], "en": e2["en"]}
-                        break
-                if ex:
-                    break
+            senses = w.get("sense_detail") or []
+            if senses:
+                home = senses[0]
+                home_pos = home.get("pos")
+
+                def usable(sense):
+                    return [e2 for e2 in (sense.get("examples") or [])
+                            if isinstance(e2, dict) and e2.get("sq") and e2.get("en")]
+
+                if usable(home):
+                    ex = {"sq": usable(home)[0]["sq"], "en": usable(home)[0]["en"]}
+                else:
+                    for sense in senses[1:]:
+                        if sense.get("pos") != home_pos:
+                            continue
+                        same = usable(sense)
+                        if same:
+                            ex = {"sq": same[0]["sq"], "en": same[0]["en"]}
+                            break
             deck_words.append({
                 "sq": w["sq"],
                 "level": w.get("level") or payload.get("level"),
                 "wiktionary_example": ex,
             })
+
+    # Fail here, not at the coverage print. An empty deck once ran to the end
+    # and only surfaced as a ZeroDivisionError, which reads like a maths slip
+    # rather than a wrong path.
+    if not deck_words:
+        print("FATAL: no level files found under %s" % LEVEL_DIR, file=sys.stderr)
+        return 1
 
     word_level = {w["sq"]: w["level"] for w in deck_words}
     deck_set = set(word_level)
@@ -281,6 +339,14 @@ def main():
             # Own token only: 'fil' must not match inside 'cpuinfo-fil'.
             if sq_word.lower() not in toks:
                 continue
+            # Reject sentences where the word is present but used in a sense
+            # the gloss does not name (e.g. the article 'e' in 'një e tërë').
+            forbid = SENSE_FORBID_SQ.get(sq_word)
+            if forbid and re.search(forbid, sq.lower()):
+                continue
+            marker = SENSE_MARKER_SQ.get(sq_word)
+            if marker and not re.search(marker, sq.lower()):
+                continue
             known = 0
             unknown = 0
             for t in toks:
@@ -329,4 +395,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)

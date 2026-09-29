@@ -1,30 +1,137 @@
 {
  "level": 495,
- "title": "shtupë, baticë, lab, puçërr, korr, dang +4",
+ "title": "gështenjë, boronicë, garth, hut, seli, çupë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "baticë",
-  "dang",
-  "korr",
-  "lab",
-  "puçërr",
-  "shtupë"
+  "boronicë",
+  "garth",
+  "gështenjë",
+  "hut",
+  "seli",
+  "çupë"
  ],
  "pos_mix": {
-  "noun": 5,
-  "verb": 3
+  "noun": 9,
+  "adv": 3
  },
  "words": [
   {
-   "id": "shtupë",
-   "sq": "shtupë",
-   "en": "mop",
+   "id": "gështenjë",
+   "sq": "gështenjë",
+   "en": "sweet chestnut (Castanea sativa)",
    "glosses": [
-    "mop"
+    "sweet chestnut (Castanea sativa)",
+    "chestnut color"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sweet chestnut (Castanea sativa)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Beech family plants",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Beech family plants",
+       "langcode": "sq"
+      },
+      {
+       "name": "Nuts",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Nuts",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "94 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sweet chestnut",
+      "Castanea sativa"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chestnut color",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chestnut",
+      "color"
+     ]
+    }
+   ],
+   "rank": 30660,
+   "count": 14,
+   "family": "gështenjë",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin, from Latin castanea, from Ancient Greek καστάνεια (kastáneia). Compare Aromanian cãstãnji.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "gështenjapjekës",
+    "gështenjashitës",
+    "gështenjë deti",
+    "gështenjë kali",
+    "gështenjishtë",
+    "gështenjore",
+    "gështenjtë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "gështenja",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Adult specimens have a more brown-chestnut color.",
+    "score": [
+     2,
+     9,
+     -7,
+     10
+    ],
+    "sq": "Mostrat e rritur kanë një ngjyrë më kafe-gështenjë."
+   }
+  },
+  {
+   "id": "boronicë",
+   "sq": "boronicë",
+   "en": "blueberry (Vaccinium myrtillus)",
+   "glosses": [
+    "blueberry (Vaccinium myrtillus)"
    ],
    "pos": [
     "noun"
@@ -36,7 +143,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mop",
+     "gloss": "blueberry (Vaccinium myrtillus)",
      "tags": [
       "feminine"
      ],
@@ -62,16 +169,96 @@
      ],
      "examples": [],
      "links": [
-      "mop"
+      "botany",
+      "blueberry",
+      "Vaccinium myrtillus"
      ]
     }
    ],
-   "rank": 40586,
-   "count": 9,
-   "family": "shtupë",
+   "rank": 30707,
+   "count": 14,
+   "family": "boronicë",
    "is_root": true,
-   "etymology": "Probably borrowed from Latin stuppa, from Ancient Greek στύππη (stúppē). Compare Romanian stupă.",
+   "etymology": "Borrowed from Serbo-Croatian borovnica, with the regular -vn- > -n- change. Ultimately from Proto-Slavic *borovъka, a derivative of *borъ (“pine tree”), see Serbo-Croatian bor (“pine”). Compare Macedonian боровница (borovnica, “blueberry”) and боровинка (borovinka), as well as Polish borówka (“blueberry”).",
    "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "boronica",
+     "tag": "plural"
+    },
+    {
+     "form": "borovnicë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Cranberry pudding is served for dessert.",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Pudingu me boronicë shërbehet si ëmbëlsirë."
+   }
+  },
+  {
+   "id": "garth",
+   "sq": "garth",
+   "en": "village",
+   "glosses": [
+    "village"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "village",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "village"
+     ]
+    }
+   ],
+   "rank": 30718,
+   "count": 14,
+   "family": "garth",
+   "is_root": true,
+   "etymology": "Possibly from gardh.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -80,22 +267,175 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Clean them with a swab and alcohol.",
+    "en": "Garth Hi, I watched the video presentation.",
     "score": [
-     3,
-     7,
+     2,
+     6,
      -4,
      10
     ],
-    "sq": "Pastroni ato me një shtupë dhe alkoolit."
+    "sq": "Garth Hi, Unë pashë video prezentimi."
    }
   },
   {
-   "id": "baticë",
-   "sq": "baticë",
-   "en": "high tide",
+   "id": "hut",
+   "sq": "hut",
+   "en": "in vain, vainly",
    "glosses": [
-    "high tide"
+    "in vain, vainly",
+    "empty, idle",
+    "good, appropriate",
+    "owl",
+    "fool, dolt"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in vain, vainly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "in vain",
+      "vainly"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "empty, idle",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "empty",
+      "idle"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "good, appropriate",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "good",
+      "appropriate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "owl",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 0 0 75 15"
+      },
+      {
+       "name": "Birds",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Birds",
+       "langcode": "sq",
+       "_dis": "0 0 0 94 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "owl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fool, dolt",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fool",
+      "dolt"
+     ]
+    }
+   ],
+   "rank": 30745,
+   "count": 14,
+   "family": "hut",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *hut, from Proto-Indo-European *h₂ewt- (“downwards”). Cognate with Ancient Greek αὔτως (aútōs, “in vain”), Gothic 𐌰𐌿𐌸𐌴𐌹𐍃 (auþeis).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "downwards"
+   ],
+   "components": [],
+   "derived": [
+    "hutrrohem",
+    "hutrrojë",
+    "hutoj"
+   ],
+   "related": [
+    "hutabi",
+    "hutaq",
+    "hutel",
+    "hutesë",
+    "hutërrohem"
+   ],
+   "forms": [
+    {
+     "form": "huta",
+     "tag": "plural"
+    },
+    {
+     "form": "huti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Pizza Hut, now an internationally franchised chain, is a subsidiary of Yum!",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "Pizza Hut është një degë e Yum!"
+   }
+  },
+  {
+   "id": "seli",
+   "sq": "seli",
+   "en": "headquarters, seat, base",
+   "glosses": [
+    "headquarters, seat, base"
    ],
    "pos": [
     "noun"
@@ -107,11 +447,17 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "high tide",
+     "gloss": "headquarters, seat, base",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
+      {
+       "name": "Albanian back-formations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -119,13 +465,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Pages with 8 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -133,100 +473,17 @@
      ],
      "examples": [],
      "links": [
-      "high",
-      "tide"
+      "headquarters",
+      "seat",
+      "base"
      ]
     }
    ],
-   "rank": 40608,
-   "count": 9,
-   "family": "baticë",
+   "rank": 30760,
+   "count": 14,
+   "family": "seli",
    "is_root": true,
-   "etymology": "Borrowed from Venetan bataizza (“id.”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "batica",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And of course, only if it's high tide.",
-    "score": [
-     3,
-     8,
-     -5,
-     10
-    ],
-    "sq": "Dhe sigurisht, vetëm nëse është baticë e lartë."
-   }
-  },
-  {
-   "id": "lab",
-   "sq": "lab",
-   "en": "southern Albanian (male)",
-   "glosses": [
-    "southern Albanian (male)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "southern Albanian (male)",
-     "tags": [
-      "feminine",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 13 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "(male person from Labëri (“land of lab”), Labëria (“the land of lab”))",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "southern",
-      "Albanian"
-     ]
-    }
-   ],
-   "rank": 40675,
-   "count": 9,
-   "family": "lab",
-   "is_root": true,
-   "etymology": "* From lëpe, lëbozë. Historically the inhabitants of the Labëria (“the land of lab”) region. Compare Illyrian *Labeati.\n* Alternatively a back-formation based on Labëri (“Laberia”), borrowed from an unattested South Slavic *labanьja < *olbanьja, rendering the native pre-Albanian name of the country; Albania, Ἀλβανία (Albanía). However, this is doubtful.",
+   "etymology": "Back-formation from selit (“to install new settlers in a place”).",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -235,40 +492,47 @@
    "related": [],
    "forms": [
     {
-     "form": "labe",
-     "tag": "alternative"
+     "form": "seli",
+     "tag": "plural"
+    },
+    {
+     "form": "selia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to use a Lab Sonicator?",
+    "en": "They had their headquarter on Skansin.",
     "score": [
-     2,
-     6,
+     3,
+     7,
      -4,
      10
     ],
-    "sq": "Si të përdorni një Lab Sonicator?"
+    "sq": "Ata kishin seli e tyre në Skansin."
    }
   },
   {
-   "id": "puçërr",
-   "sq": "puçërr",
-   "en": "pimple",
+   "id": "çupë",
+   "sq": "çupë",
+   "en": "kid",
    "glosses": [
-    "pimple"
+    "kid",
+    "girl, maiden"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pimple",
+     "gloss": "kid",
      "tags": [
       "feminine"
      ],
@@ -277,32 +541,71 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "46 54"
       }
      ],
      "examples": [],
      "links": [
-      "pimple"
+      "kid"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "girl, maiden",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "girl",
+      "maiden"
      ]
     }
    ],
-   "rank": 40738,
-   "count": 9,
-   "family": "puçërr",
+   "rank": 30857,
+   "count": 14,
+   "family": "çupë",
    "is_root": true,
-   "etymology": "From an expressive variant in -rr of Proto-Albanian *putso, from Proto-Indo-European *puH- (“rotten, foul”); compare Sanskrit पूयति (pūyati, “stinks, rots”), Latin pus (“discharge from a sore”), Ancient Greek πύθω (púthō, “to rot”). Doublet of fëlliq.",
+   "etymology": "Possibly from Proto-Albanian *štšupā, from Proto-Indo-European *ḱuh₁-peh₂ (compare Sanskrit शिशु (śiśu), Old Irish cúan).",
    "etymology_class": "derived",
    "source_lang": null,
    "parents": [],
@@ -311,216 +614,20 @@
    "related": [],
    "forms": [
     {
-     "form": "puçrra",
+     "form": "çupa",
      "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to get rid of bad breath?",
+    "en": "The maid daily on the premises.",
     "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Si të shpëtoj nga një puçërr."
-   }
-  },
-  {
-   "id": "korr",
-   "sq": "korr",
-   "en": "to harvest, reap",
-   "glosses": [
-    "to harvest, reap",
-    "to kill en masse, to annihilate, to exterminate",
-    "to win (money), to secure victory, to achieve"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to harvest, reap",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 39 23 11"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Mbjell me lot, korr me gëzim.",
-       "en": "Sow with tears, reap with joy.",
-       "offsets": [
-        [
-         15,
-         19
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "harvest",
-      "reap"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to kill en masse, to annihilate, to exterminate",
-     "tags": [
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kill",
-      "en masse",
-      "annihilate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to win (money), to secure victory, to achieve",
-     "tags": [
-      "also",
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "win",
-      "secure",
-      "achieve"
-     ]
-    }
-   ],
-   "rank": 40771,
-   "count": 9,
-   "family": "korr",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kāra, from earlier *kasra, from Proto-Indo-European *kes- (compare Lithuanian kàsti (“to dig, scrape”), Latin raccogliere (“to harvest, reap”), Serbo-Croatian kòsa (“scythe”)).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "scythe"
-   ],
-   "components": [],
-   "derived": [
-    "korrë",
-    "korrik",
-    "korriqe"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "korra",
-     "tag": "aorist"
-    },
-    {
-     "form": "korrur",
-     "tag": "participle"
-    },
-    {
-     "form": "kuarr",
-     "tag": "alternative"
-    },
-    {
-     "form": "kuor",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "dang",
-   "sq": "dang",
-   "en": "bite, nip",
-   "glosses": [
-    "bite, nip"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bite, nip",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 15 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bite",
-      "nip"
-     ]
-    }
-   ],
-   "rank": 40809,
-   "count": 9,
-   "family": "dang",
-   "is_root": true,
-   "etymology": "A lengthening of danë, Gheg variant of darë. Compare Old High German zanga (“tongs”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Those discoveries range from the hysterical to the dang-right chilling.",
-    "score": [
-     7,
-     9,
+     3,
+     5,
      -2,
      10
     ],
-    "sq": "Këto zbulime variojnë nga histerike te ftohja dang-djathtas."
+    "sq": "Çupë e përditshme në lokalet."
    }
   }
  ]

@@ -1,45 +1,46 @@
 {
  "level": 266,
- "title": "temperaturë, rrufe, çamçakëz, mashtroj, fjali, mirësevjen +4",
+ "title": "poezi, lëmsh, vullnet, hell, pis, grek +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 9,
  "families": [
-  "fjali",
-  "mashtroj",
-  "mirësevjen",
-  "rrufe",
-  "temperaturë",
-  "çamçakëz"
+  "grek",
+  "hell",
+  "lëmsh",
+  "pis",
+  "poezi",
+  "vullnet"
  ],
  "pos_mix": {
-  "noun": 5,
-  "adj": 1,
-  "adv": 1,
-  "verb": 1,
-  "intj": 1
+  "noun": 18,
+  "adj": 5,
+  "adv": 1
  },
  "words": [
   {
-   "id": "temperaturë",
-   "sq": "temperaturë",
-   "en": "temperature",
+   "id": "poezi",
+   "sq": "poezi",
+   "en": "poetry (literature composed in verse)",
    "glosses": [
-    "temperature"
+    "poetry (literature composed in verse)",
+    "class of literature"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "temperature",
+     "gloss": "poetry (literature composed in verse)",
      "tags": [
       "feminine"
      ],
@@ -48,30 +49,47 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "76 24"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "70 30"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "87 13"
       }
      ],
      "examples": [],
      "links": [
-      "temperature"
+      "poetry"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "class of literature",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "class",
+      "literature"
      ]
     }
    ],
-   "rank": 9688,
-   "count": 68,
-   "family": "temperaturë",
+   "rank": 6627,
+   "count": 107,
+   "family": "poezi",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -80,46 +98,203 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "poezia",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "High temperature.",
+    "corpus": "MaCoCu",
+    "en": "Poetry and translations.",
     "score": [
-     0,
+     1,
      3,
-     -3,
-     10
+     -2,
+     8
     ],
-    "sq": "Temperaturë të lartë."
+    "sq": "Poezi dhe përkthime."
    }
   },
   {
-   "id": "rrufe",
-   "sq": "rrufe",
-   "en": "lightning, lightning bolt",
+   "id": "lëmsh",
+   "sq": "lëmsh",
+   "en": "ball (of wood, thread)",
    "glosses": [
-    "lightning, lightning bolt",
-    "great threat, curse",
-    "very fast, lightning-fast",
-    "very quickly, lightning-fast"
+    "ball (of wood, thread)",
+    "globe (of earth)",
+    "disorderly mess",
+    "(emotional) knot"
    ],
    "pos": [
     "noun",
     "noun",
-    "adj",
-    "adv"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
     "noun",
     "noun",
-    "adjective",
-    "adverb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "lightning, lightning bolt",
+     "gloss": "ball (of wood, thread)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ball"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "globe (of earth)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Astronomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Astronomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Geography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Geography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 62 15 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "astronomy",
+      "geography",
+      "globe"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "disorderly mess",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "disorderly",
+      "mess"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "(emotional) knot",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "knot"
+     ]
+    }
+   ],
+   "rank": 6641,
+   "count": 106,
+   "family": "lëmsh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *lemesja, from Proto-Indo-European *lemesi-o-, a derivative of Proto-Indo-European *lem- (“to break”). Cognate to Lithuanian lemesis (“sharp edge of the plough”), Proto-Slavic *lemešь (“ploughshare”). Orel claims the transition of '*broken lump of earth' > 'globe of earth' to be 'one of the oldest'. Related to lëmë.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "lëmë"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I imagine for yesterday, that the situation became a mess.",
+    "score": [
+     5,
+     8,
+     -3,
+     10
+    ],
+    "sq": "Imagino për dje, që u bë situata lëmsh."
+   }
+  },
+  {
+   "id": "vullnetar",
+   "sq": "vullnetar",
+   "en": "volunteer",
+   "glosses": [
+    "volunteer",
+    "voluntary",
+    "voluntaristic"
+   ],
+   "pos": [
+    "noun",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "volunteer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "volunteer"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "voluntary",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "voluntary"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "voluntaristic",
      "tags": [],
      "cats": [
       {
@@ -127,102 +302,682 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 20 34 26"
+       "_dis": "6 50 22 22"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 40 25 25"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 20 35 24"
+       "_dis": "3 77 10 10"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "voluntaristic"
+     ]
+    }
+   ],
+   "rank": 6645,
+   "count": 106,
+   "family": "vullnet",
+   "is_root": false,
+   "etymology": "From vullnet + -tar (agent noun suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vullnet",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vullnetare",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Vaccination is voluntary.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Vaksinimi është vullnetar."
+   }
+  },
+  {
+   "id": "hell",
+   "sq": "hell",
+   "en": "skewer",
+   "glosses": [
+    "skewer",
+    "spear",
+    "icicle",
+    "standing straight without moving"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "skewer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 7 7 40"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "skewer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spear",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "spear"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "icicle",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "icicle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "standing straight without moving",
+     "tags": [
+      "adverb",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 7 7 40"
+      }
+     ],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 6650,
+   "count": 106,
+   "family": "hell",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *skōla, from Proto-Indo-European *(s)kol- (“stake”); compare Lithuanian kuõlas, Polish kół, Ancient Greek σκύλος (skúlos).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "parents": [
+    "stake"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "heje",
+     "tag": "plural"
+    },
+    {
+     "form": "helli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Temporal overthrow is called Hell.—Ps.",
+    "score": [
+     3,
+     8,
+     -5,
+     10
+    ],
+    "sq": "Përmbysja e kësaj bote është quajtur Hell.-Ps."
+   }
+  },
+  {
+   "id": "pis",
+   "sq": "pis",
+   "en": "dirty, filthy",
+   "glosses": [
+    "dirty, filthy",
+    "dirty",
+    "filth, mess"
+   ],
+   "pos": [
+    "adj",
+    "adv",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adverb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "dirty, filthy",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 13 41"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dirty",
+      "filthy"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "dirty",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 13 41"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dirty"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "filth, mess",
+     "tags": [
+      "colloquial",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 13 41"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "filth",
+      "mess"
+     ]
+    }
+   ],
+   "rank": 6656,
+   "count": 106,
+   "family": "pis",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish پیس (pis, “dirty, filthy, foul”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pisë",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are dirty!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Janë bërë pis!"
+   }
+  },
+  {
+   "id": "greke",
+   "sq": "greke",
+   "en": "Greek; person from Greece",
+   "glosses": [
+    "Greek; person from Greece",
+    "Greek (of or pertaining to Greece, the Greeks or the Greek language)"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Greek; person from Greece",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -e",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 19 37 11"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 14 56 16"
+       "_dis": "33 19 37 11"
       }
      ],
      "examples": [],
      "links": [
-      "lightning",
-      "lightning bolt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "great threat, curse",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "threat",
-      "curse"
+      "Greek"
      ]
     },
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "very fast, lightning-fast",
-     "tags": [],
-     "cats": [],
-     "examples": [],
+     "gloss": "Greek (of or pertaining to Greece, the Greeks or the Greek language)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
+      },
+      {
+       "name": "Albanian terms suffixed with -e",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 19 37 11"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjuha greke",
+       "en": "the Greek language",
+       "offsets": [
+        [
+         6,
+         11
+        ]
+       ]
+      }
+     ],
      "links": [
-      "fast",
-      "lightning",
-      "fast"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "very quickly, lightning-fast",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "quickly",
-      "lightning",
-      "fast"
+      "Greek"
      ]
     }
    ],
-   "rank": 9695,
-   "count": 68,
-   "family": "rrufe",
-   "is_root": true,
-   "etymology": "Likely closely related to Thracian ῥομφαία (rhomphaía, “spear, javelin; sword”) and Bulgarian рофия (rofija, “lightning”).",
-   "etymology_class": null,
+   "rank": 6666,
+   "count": 106,
+   "family": "grek",
+   "is_root": false,
+   "etymology": "Feminine version of grek; grek + -e (feminine suffix). Ultimately forms a doublet of gërqinjë.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "lightning"
+   "parents": [],
+   "components": [
+    {
+     "word": "grek",
+     "role": "prefix"
+    }
    ],
-   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "grek",
+     "tag": "masculine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Strong, this sheet-lightning!",
+    "en": "His father is Greek.",
     "score": [
      1,
      5,
      -4,
      10
     ],
-    "sq": "E fortë, kjo fletë-rrufe!"
+    "sq": "Babai i tij është greke."
    }
   },
   {
-   "id": "çamçakëz",
-   "sq": "çamçakëz",
-   "en": "chewing gum",
+   "id": "grek",
+   "sq": "grek",
+   "en": "Greek; person from Greece",
    "glosses": [
-    "chewing gum"
+    "Greek; person from Greece",
+    "Greek (of or pertaining to Greece, the Greeks or the Greek culture)"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Greek; person from Greece",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Greek"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "Greek (of or pertaining to Greece, the Greeks or the Greek culture)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "një polic grek",
+       "en": "a Greek policeman",
+       "offsets": [
+        [
+         10,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "Greek"
+     ]
+    }
+   ],
+   "rank": 8426,
+   "count": 80,
+   "family": "grek",
+   "is_root": true,
+   "etymology": "From Latin graecus, from Ancient Greek Γραικός (Graikós). Ultimately forms a doublet of gërk.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "greke",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This was the game of Greek Discovery.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Kjo ishte lojë e Zbulimit Grek."
+   }
+  },
+  {
+   "id": "vullnet",
+   "sq": "vullnet",
+   "en": "will",
+   "glosses": [
+    "will",
+    "volition",
+    "willingness"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "will",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 29 13"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "68 17 15"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "83 9 8"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "will"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "volition",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "volition"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "willingness",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "willingness"
+     ]
+    }
+   ],
+   "rank": 11031,
+   "count": 58,
+   "family": "vullnet",
+   "is_root": true,
+   "etymology": "From Latin voluntātem.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "vullnesë",
+    "vullnetar",
+    "vullnetdobët",
+    "vullnetfortë",
+    "vullnetmirë",
+    "vullnetshëm",
+    "zhvullnetem"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "vullneti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Men and strong willed.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Burrat dhe vullnet të fortë."
+   }
+  },
+  {
+   "id": "pisllëk",
+   "sq": "pisllëk",
+   "en": "filth, uncleanliness",
+   "glosses": [
+    "filth, uncleanliness"
    ],
    "pos": [
     "noun"
@@ -234,8 +989,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chewing gum",
+     "gloss": "filth, uncleanliness",
      "tags": [
+      "colloquial",
       "masculine"
      ],
      "cats": [
@@ -246,81 +1002,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chewing gum"
-     ]
-    }
-   ],
-   "rank": 9697,
-   "count": 68,
-   "family": "çamçakëz",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "çamçakëzi",
-     "tag": "definite"
-    },
-    {
-     "form": "çumçakiz",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "not chew gum.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "nuk përtyp çamçakëz."
-   }
-  },
-  {
-   "id": "mashtroj",
-   "sq": "mashtroj",
-   "en": "to deceive, cheat, dupe",
-   "glosses": [
-    "to deceive, cheat, dupe"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to deceive, cheat, dupe",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -llëk",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -330,195 +1012,47 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "deceive",
-      "cheat",
-      "dupe"
+      "filth",
+      "uncleanliness"
      ]
     }
    ],
-   "rank": 9709,
-   "count": 68,
-   "family": "mashtroj",
-   "is_root": true,
-   "etymology": "Probably borrowed from a Vulgar Latin root *masteru-, from Latin magister (“master”).",
+   "rank": 30767,
+   "count": 14,
+   "family": "pis",
+   "is_root": false,
+   "etymology": "Borrowed from Ottoman Turkish پیسلك (pislik, “dirt, mess; dirtiness”). By surface analysis, pis (“dirty”) + -llëk.",
    "etymology_class": "borrowed",
    "source_lang": null,
-   "parents": [
-    "master"
+   "parents": [],
+   "components": [
+    {
+     "word": "pis",
+     "role": "prefix"
+    }
    ],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "mashtrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "mashtruar",
-     "tag": "participle"
+     "form": "pisllëqe",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But I don't want to fool you.",
+    "en": "Great dirt, even rats that moved at night.",
     "score": [
-     0,
-     6,
-     -6,
+     4,
+     9,
+     -5,
      10
     ],
-    "sq": "Por nuk dua të të mashtroj."
-   }
-  },
-  {
-   "id": "fjali",
-   "sq": "fjali",
-   "en": "sentence",
-   "glosses": [
-    "sentence"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sentence",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sentence"
-     ]
-    }
-   ],
-   "rank": 9725,
-   "count": 68,
-   "family": "fjali",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "She read one sentence.",
-    "score": [
-     2,
-     3,
-     -1,
-     5
-    ],
-    "sq": "Lexoi një fjali."
-   }
-  },
-  {
-   "id": "mirësevjen",
-   "sq": "mirësevjen",
-   "en": "welcome",
-   "glosses": [
-    "welcome"
-   ],
-   "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "welcome",
-     "tags": [
-      "informal"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian phrasebook",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "welcome"
-     ]
-    }
-   ],
-   "rank": 9740,
-   "count": 68,
-   "family": "mirësevjen",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Welcome, dear president!",
-    "score": [
-     3,
-     5,
-     -2,
-     8
-    ],
-    "sq": "Mirësevjen, presidenti jonë i nderuar!"
+    "sq": "Pisllëk i madh, deri edhe minj që lëviznin natën."
    }
   }
  ]
