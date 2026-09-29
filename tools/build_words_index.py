@@ -34,10 +34,45 @@ def dedup_labels(word):
 
 
 def first_example(word):
-    for sense in word.get("sense_detail") or []:
+    """The example for the sense a card actually headlines.
+
+    This MUST match exampleForSense() in app/js/course.js, which applies the
+    same rule to the lesson view. They drifted apart: this one scanned every
+    sense and returned the first example found, so the review card kept
+    showing the bug the lesson view had already fixed. For "e" - headline
+    "and", whose conjunction senses have no examples - it reached into the
+    preposition sense "of, + dative" and put "The honor of an Albanian can
+    not be sold or bought in a bazaar." under "and".
+
+    A card shows one gloss, so the example has to come from that sense. When
+    that sense has no example, a DIFFERENT part of speech is worse than none:
+    better to show the gloss alone than a sentence that does not illustrate
+    it. The fallback therefore stays inside the same POS.
+    """
+    senses = word.get("sense_detail") or []
+    if not senses:
+        return None
+
+    home = senses[0]
+
+    def usable(sense):
+        out = []
         for ex in sense.get("examples") or []:
             if isinstance(ex, dict) and isinstance(ex.get("en"), str) and ex["en"].strip():
-                return {"sq": ex.get("sq", ""), "en": ex["en"]}
+                out.append({"sq": ex.get("sq", ""), "en": ex["en"]})
+        return out
+
+    own = usable(home)
+    if own:
+        return own[0]
+
+    pos = home.get("pos")
+    for sense in senses[1:]:
+        if sense.get("pos") != pos:
+            continue
+        same = usable(sense)
+        if same:
+            return same[0]
     return None
 
 
