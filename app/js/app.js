@@ -222,6 +222,13 @@ function viewStudy(root) {
       const ex = el('div', 'example');
       ex.append(el('div', 'ex-sq', w.ex.sq));
       ex.append(el('div', 'ex-en', w.ex.en));
+      // When the example came from a sibling sense of the same part of speech
+      // rather than the sense this card headlines, say so. Otherwise the
+      // sentence reads as if it illustrates the headline meaning, which is the
+      // exact bug this pairing rule exists to prevent.
+      if (w.ex_from_sense && w.ex_gloss) {
+        ex.append(el('div', 'ex-note', 'another sense: ' + w.ex_gloss));
+      }
       card.append(ex);
     }
   } else {

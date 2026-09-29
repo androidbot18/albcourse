@@ -28,9 +28,11 @@ Design rules:
 """
 
 import json
+from example_rank import rank_examples
 import os
 import re
 import sys
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -186,7 +188,7 @@ def gloss_score(text, tags):
     return score
 
 
-def extract_examples(sense, limit=2):
+def extract_examples(sense, limit=2, headword=None, own_rank=10**9, freq=None):
     """Flatten a Kaikki sense's example dicts into small JSON-safe objects.
 
     Kaikki examples carry bilingual pairs plus Wiktionary bookkeeping fields
@@ -209,9 +211,11 @@ def extract_examples(sense, limit=2):
             # highlight it. Missing offsets simply mean no highlight.
             "offsets": e.get("bold_text_offsets") or [],
         })
-        if len(out) >= limit:
+        if len(out) >= 4:
             break
-    return out
+    # Rank before slicing: the learner asked for short sentences built
+    # from vocabulary met at or before this word. See example_rank.py.
+    return rank_examples(out, headword, own_rank, freq or {})[:limit]
 
 
 def entry_senses(entry):
@@ -546,7 +550,8 @@ def load_dict(path, freq):
                     "gloss": s["gloss"],
                     "tags": s["tags"],
                     "cats": s["cats"][:3],
-                    "examples": extract_examples(s["sense"]),
+                    "examples": extract_examples(
+                        s["sense"], headword=w, own_rank=rank, freq=freq),
                     "links": [x[0] for x in (s["sense"].get("links") or []) if x][:3],
                     "_score": s["score"],
                     # Position in the raw Kaikki file, across all POS entries for
