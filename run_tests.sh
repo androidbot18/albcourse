@@ -61,6 +61,14 @@ echo "== example pairing =="
 node tools/test_example_pairing.mjs
 
 echo
+echo "== study view =="
+# The review card must show the Albanian sentence, not just English glosses.
+# app.js read w.ex, a field nothing ever assigned, so NO card had ever shown an
+# example during review. The level view was fine, which is why every other
+# suite passed. Found by using the course: the first card, te, looked unusable.
+node tools/test_study_view.mjs
+
+echo
 echo "== components render =="
 # The build stores components as [{word, role}]; the views must turn that into
 # "from e- + sille" on both the level row and the study card. Checks the app
