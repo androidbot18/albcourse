@@ -93,6 +93,32 @@ def main():
                repr(a) + " vs " + repr(b))
             print("      shown: %s  /  %s" % (a, b))
 
+        # A borrowed sibling-sense example must be labelled, so the sentence
+        # is never read as illustrating the headline gloss. The queue is walked
+        # until a labelled card appears, because the first card may not be one.
+        # Order matters: reveal FIRST, then look for the label, then grade.
+        # Checking for .ex-note before revealing looks at the next card while
+        # its answer is still hidden, so the walk never sees a label.
+        seen_borrowed = False
+        for _ in range(40):
+            reveal2 = page.query_selector("button.reveal")
+            if reveal2:
+                reveal2.click()
+                page.wait_for_timeout(200)
+            note = page.query_selector(".ex-note")
+            if note is not None and note.inner_text().strip():
+                seen_borrowed = True
+                print("      borrowed label: %s" % note.inner_text().strip()[:70])
+                break
+            # The grade buttons are .grade.grade-<cls> inside .grades, not
+            # descendants - ".grade button" matches nothing.
+            nxt = page.query_selector(".grades .grade")
+            if nxt is None:
+                break
+            nxt.click()
+            page.wait_for_timeout(250)
+        ok(seen_borrowed, "a borrowed sibling-sense example shows its sense label")
+
         ok(not errors, "no console errors", "; ".join(errors[:3]))
         browser.close()
 

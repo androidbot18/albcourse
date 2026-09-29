@@ -50,10 +50,16 @@ if (e) {
   const homeHasExample = (home.examples || []).some(
     (x) => x && typeof x.en === 'string' && x.en.trim());
   ok(!homeHasExample, '"e" headline sense ("and") really has no example');
-  ok(exampleForSense(e) === null,
-     'lesson view: "e" shows no example for the conjunction gloss');
+  // The card may now show a corpus sentence where "e" really is the
+  // conjunction ("Dhe e bera." / "And it did."). What must never happen is the
+  // preposition example, so the rule under test is "no wrong-POS example",
+  // not "no example at all".
+  const shownE = exampleForSense(e);
+  ok(!shownE || String(shownE.sq).indexOf('Besa') < 0,
+     'lesson view: "e" shows no preposition example');
   const idx = byId['e'];
-  ok(idx && !idx.ex, 'flat index: "e" carries no example either',
+  ok(idx && (!idx.ex || String(idx.ex.sq).indexOf('Besa') < 0),
+     'flat index: "e" carries no preposition example',
      idx ? JSON.stringify(idx.ex) : 'missing');
   ok(!idx || !idx.ex || String(idx.ex.sq).indexOf('Besa') < 0,
      'the preposition sentence is gone from "e"');

@@ -28,9 +28,11 @@ Design rules:
 """
 
 import json
+from example_rank import rank_examples
 import os
 import re
 import sys
+sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -38,6 +40,13 @@ ROOT = os.path.dirname(HERE)
 RAW = os.path.join(ROOT, "data", "raw")
 OUT = os.path.join(ROOT, "data")
 LEVELS_DIR = os.path.join(OUT, "levels")
+
+# Reference sentences mined from human-translated parallel corpora (OPUS).
+# Wiktionary examples always win: authored for the headword and tied to the
+# exact sense. This only fills cards that have none, and every sentence was
+# checked to render the intended sense. Kept in the level files as well as
+# the flat index so the lesson view and the review card agree.
+CORPUS_EXAMPLES_PATH = os.path.join(OUT, "corpus_examples.json")
 
 # Parts of speech that carry learnable vocabulary.
 # Excluded: 'name' (proper nouns), 'character' (single letters),
@@ -186,7 +195,7 @@ def gloss_score(text, tags):
     return score
 
 
-def extract_examples(sense, limit=2):
+def extract_examples(sense, limit=2, headword=None, own_rank=10**9, freq=None):
     """Flatten a Kaikki sense's example dicts into small JSON-safe objects.
 
     Kaikki examples carry bilingual pairs plus Wiktionary bookkeeping fields
@@ -209,9 +218,11 @@ def extract_examples(sense, limit=2):
             # highlight it. Missing offsets simply mean no highlight.
             "offsets": e.get("bold_text_offsets") or [],
         })
-        if len(out) >= limit:
+        if len(out) >= 4:
             break
-    return out
+    # Rank before slicing: the learner asked for short sentences built
+    # from vocabulary met at or before this word. See example_rank.py.
+    return rank_examples(out, headword, own_rank, freq or {})[:limit]
 
 
 def entry_senses(entry):
@@ -546,7 +557,8 @@ def load_dict(path, freq):
                     "gloss": s["gloss"],
                     "tags": s["tags"],
                     "cats": s["cats"][:3],
-                    "examples": extract_examples(s["sense"]),
+                    "examples": extract_examples(
+                        s["sense"], headword=w, own_rank=rank, freq=freq),
                     "links": [x[0] for x in (s["sense"].get("links") or []) if x][:3],
                     "_score": s["score"],
                     # Position in the raw Kaikki file, across all POS entries for
@@ -863,6 +875,16 @@ def main():
         if stats.get(k):
             print("  %-16s %d" % (k, stats[k]))
 
+    # Reference sentences from human-translated corpora. Absent file is fine:
+    # the course then ships Wiktionary examples only, exactly as before.
+    corpus_examples = {}
+    if os.path.exists(CORPUS_EXAMPLES_PATH):
+        with open(CORPUS_EXAMPLES_PATH, encoding="utf-8") as fh:
+            corpus_examples = json.load(fh)
+        print("corpus reference sentences: %d" % len(corpus_examples))
+    else:
+        print("no corpus_examples.json - Wiktionary examples only")
+
     print("building word families...", flush=True)
     parent, families = build_families(cards)
     multi = {r: m for r, m in families.items() if len(m) > 1}
@@ -930,6 +952,9 @@ def main():
                 "derived": c["derived"][:8],
                 "related": c["related"][:5],
                 "forms": c["forms"],
+                # Corpus fallback, shaped like a sense example so the
+                # existing exampleForSense() logic reads it unchanged.
+                "corpus_example": corpus_examples.get(w),
             })
         objs.sort(key=lambda o: o["rank"])
         # A single-family level is named after its root, the way a Wanikani

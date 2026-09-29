@@ -73,6 +73,21 @@ echo "== flat index example parity =="
 node tools/test_example_parity.mjs
 
 echo
+echo "== example policy =="
+# The learner's rules: an example must use the word, be paired with a gloss it
+# really illustrates, never cross parts of speech, and a borrowed sibling-sense
+# sentence must say which sense it came from. Includes a negative control that
+# reproduces the original conjunction/preposition bug.
+node tools/test_example_policy.mjs
+
+echo
+echo "== example coverage =="
+# Ranking must improve a sentence, never delete one. A first attempt hard-
+# rejected non-matching examples and silently cost 149 cards their only
+# example; this pins the floor so that cannot recur unnoticed.
+python3 tools/test_example_coverage.py
+
+echo
 echo "== example pairing =="
 # An example must illustrate the gloss above it. firstExample() used to take the
 # first example across ALL senses, so 'e' showed the conjunction "and" beside a

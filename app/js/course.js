@@ -105,31 +105,61 @@ export function isReverseFriendly(word) {
  * lesson showed "and" over "The honor of an Albanian can not be sold or
  * bought in a bazaar." The data was correct; the pairing was not.
  *
- * A card shows one gloss, so its example has to come from that sense. And if
- * that sense has no example of its own, an example from a DIFFERENT part of
- * speech is worse than none: 'e' headlines the conjunction "and", whose senses
- * carry no examples, so the fallback reached the preposition sense "of, +
- * dative" and illustrated "and" with a sentence that contains no and. Better
- * to show the gloss alone. So the fallback stays within the same POS.
+ * A card shows one gloss, so its example has to come from that sense. An example
+ * from a DIFFERENT part of speech is worse than none: 'e' headlines the
+ * conjunction "and", whose senses carry no examples, so the fallback reached the
+ * preposition sense and illustrated "and" with a sentence containing no and.
+ * Better to show the gloss alone. So the fallback stays within the same POS.
+ *
+ * When the example does come from a sibling sense of the same POS, the returned
+ * pair carries that sense's own gloss so the caller can label the sentence
+ * instead of implying it illustrates the headline meaning.
+ *
+ * This MUST match sense_pair() in tools/build_words_index.py. The two drifted
+ * apart once, so tools/test_example_parity.mjs pins them together over every
+ * card in the deck.
  */
-export function exampleForSense(word, index = 0) {
+export function examplePairForSense(word, index = 0) {
   const senses = sensesOf(word);
   if (!senses.length) return null;
   const home = Math.min(index, senses.length - 1);
   const usable = (s) => (s.examples || []).filter(
-    (ex) => ex && typeof ex.en === 'string' && ex.en.trim());
+    (ex) => ex && typeof ex.sq === 'string' && ex.sq.trim()
+      && typeof ex.en === 'string' && ex.en.trim());
 
   const own = usable(senses[home]);
-  if (own.length) return own[0];
+  if (own.length) {
+    return { ex: own[0], fromSense: false, senseGloss: null };
+  }
 
-  // Same part of speech, a different sense: still an honest illustration.
+  // Same part of speech, a different sense: still an honest illustration, as
+  // long as it is labelled with the sense it actually came from.
   const pos = senses[home].pos;
   for (let i = 0; i < senses.length; i += 1) {
     if (i === home || senses[i].pos !== pos) continue;
     const same = usable(senses[i]);
-    if (same.length) return same[0];
+    if (same.length) {
+      return {
+        ex: same[0],
+        fromSense: true,
+        senseGloss: senses[i].gloss || null,
+      };
+    }
+  }
+  // Last resort: a reference sentence mined from a human-translated parallel
+  // corpus. These carry no sense metadata, so they are only used when the
+  // card has NO Wiktionary example at all. Every one of them was checked at
+  // build time to render this word's intended sense.
+  const corpus = word && word.corpus_example;
+  if (corpus && corpus.sq && corpus.en) {
+    return { ex: { sq: corpus.sq, en: corpus.en }, fromSense: false, senseGloss: null };
   }
   return null;
+}
+
+export function exampleForSense(word, index = 0) {
+  const pair = examplePairForSense(word, index);
+  return pair ? pair.ex : null;
 }
 
 export function firstExample(word) {

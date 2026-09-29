@@ -16,3 +16,8 @@ id_rsa*
 
 # Anki build output - regenerate with tools/export_anki.py
 dist/
+
+# Downloaded parallel corpora (OPUS en<->sq). 300+ MB, reproducible with
+# tools/corpus/fetch_opus.py, so never committed. corpus_examples.json (the
+# selected sentences) IS committed -- that is the build output we ship.
+src_raw/
