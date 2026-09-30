@@ -1,39 +1,215 @@
 {
  "level": 231,
- "title": "absolut, rehat",
+ "title": "leje, shenjtë, kushdo +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "absolut",
-  "rehat"
+  "kushdo",
+  "leje",
+  "shenjtë"
  ],
  "pos_mix": {
-  "adv": 5,
-  "noun": 2,
-  "adj": 2
+  "noun": 4,
+  "adj": 2,
+  "pron": 1
  },
  "words": [
   {
-   "id": "absolutisht",
-   "sq": "absolutisht",
-   "en": "absolutely",
+   "id": "leje",
+   "sq": "leje",
+   "en": "permission, allowance, authorization",
    "glosses": [
-    "absolutely"
+    "permission, allowance, authorization",
+    "leave"
    ],
    "pos": [
-    "adv"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "absolutely",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "permission, allowance, authorization",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "94 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "permission",
+      "allowance",
+      "authorization"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "leave",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave"
+     ]
+    }
+   ],
+   "rank": 1329,
+   "count": 673,
+   "family": "leje",
+   "is_root": true,
+   "etymology": "From lë, with -je feminizing suffix.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "lë",
+    "lejoj"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is not a permit.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Kjo nuk është leje."
+   }
+  },
+  {
+   "id": "shenjtë",
+   "sq": "shenjtë",
+   "en": "holy, sacred",
+   "glosses": [
+    "holy, sacred",
+    "saint"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "holy, sacred",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 21"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "holy",
+      "sacred"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "saint",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "saint"
+     ]
+    }
+   ],
+   "rank": 1334,
+   "count": 671,
+   "family": "shenjtë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin sānctus.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "rit i shenjtë",
+    "vend i shenjtë",
+    "shenjtëroj",
+    "shën"
+   ],
+   "related": [
+    "shëndërtat"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Children are sacred.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Fëmijët janë të shenjtë."
+   }
+  },
+  {
+   "id": "kushdo",
+   "sq": "kushdo",
+   "en": "whoever",
+   "glosses": [
+    "whoever"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "whoever",
      "tags": [],
      "cats": [
       {
@@ -43,7 +219,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -isht",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,350 +233,142 @@
      ],
      "examples": [],
      "links": [
-      "absolutely"
+      "whoever"
      ]
     }
    ],
-   "rank": 1372,
-   "count": 646,
-   "family": "absolut",
+   "rank": 1336,
+   "count": 669,
+   "family": "kushdo",
+   "is_root": true,
+   "etymology": "From kush (“who”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [
+    "who"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "këdo",
+     "tag": "accusative"
+    },
+    {
+     "form": "kujtdo",
+     "tag": "dative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It could be anyone.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Mund të jetë kushdo."
+   }
+  },
+  {
+   "id": "lejekalim",
+   "sq": "lejekalim",
+   "en": "passport (dated)",
+   "glosses": [
+    "passport (dated)",
+    "pass"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "passport (dated)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "78 22"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "89 11"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "passport"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pass",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pass"
+     ]
+    }
+   ],
+   "rank": 47693,
+   "count": 7,
+   "family": "leje",
    "is_root": false,
-   "etymology": "From absolut + -isht.",
-   "etymology_class": "affix",
+   "etymology": "From leje + kalim.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [
     {
-     "word": "absolut",
+     "word": "leje",
      "role": "prefix"
+    },
+    {
+     "word": "kalim",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "absolutely right.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "absolutisht të drejtë."
-   }
-  },
-  {
-   "id": "rehat",
-   "sq": "rehat",
-   "en": "calm, tranquility, rest, relaxation",
-   "glosses": [
-    "calm, tranquility, rest, relaxation",
-    "comfort, ease, affluence",
-    "calmly, quitely",
-    "still, without doing anything",
-    "comfortably, easy",
-    "well-off, in good conditions, comfortably",
-    "calm; comfortable"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "adv",
-    "adv",
-    "adv",
-    "adv",
-    "adj"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "calm, tranquility, rest, relaxation",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 1 1 1 26 22 3 17 2 3 1 16 3"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 2 2 0 42 41 8"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Mos më prish rehatin!",
-       "en": "Do not disturb my tranquility!",
-       "offsets": [
-        [
-         13,
-         20
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "calm",
-      "tranquility",
-      "rest"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "comfort, ease, affluence",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "comfort",
-      "ease",
-      "affluence"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "calmly, quitely",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "calmly",
-      "quitely"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "still, without doing anything",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Rri rehat!",
-       "en": "Stay still!",
-       "offsets": [
-        [
-         4,
-         9
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "still",
-      "do"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "comfortably, easy",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Fli rehat!",
-       "en": "Rest easy!",
-       "offsets": [
-        [
-         4,
-         9
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "comfortably",
-      "easy"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "well-off, in good conditions, comfortably",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 2 2 2 22 17 5 17 3 4 2 13 5"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 1 1 1 26 22 3 17 2 3 1 16 3"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "rroj rehat",
-       "en": "live comfortably",
-       "offsets": [
-        [
-         5,
-         10
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "well-off",
-      "condition",
-      "comfortably"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "calm; comfortable",
-     "tags": [
-      "archaic",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "calm",
-      "comfortable"
-     ]
-    }
-   ],
-   "rank": 1381,
-   "count": 640,
-   "family": "rehat",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish راحت (rahat).",
-   "etymology_class": "root",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "rehati",
-    "rehatoj",
-    "rehatshëm"
-   ],
-   "related": [],
    "forms": [
     {
-     "form": "rehati",
+     "form": "lejekalime",
      "tag": "plural"
+    },
+    {
+     "form": "lejekalimi",
+     "tag": "definite"
     }
    ],
    "corpus_example": null
-  },
-  {
-   "id": "absolut",
-   "sq": "absolut",
-   "en": "absolute",
-   "glosses": [
-    "absolute"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "absolute",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages using etymon with no ID",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "absolute"
-     ]
-    }
-   ],
-   "rank": 14030,
-   "count": 42,
-   "family": "absolut",
-   "is_root": true,
-   "etymology": "Learned borrowing from Latin absolūtus.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "absolute",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "God is absolute.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Perëndia është absolut."
-   }
   }
  ]
 }

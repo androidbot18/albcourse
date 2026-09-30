@@ -1,24 +1,25 @@
 {
  "level": 140,
- "title": "histori",
- "root": "histori",
- "root_gloss": "history",
+ "title": "burg",
+ "root": "burg",
+ "root_gloss": "jail, prison",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 3,
  "families": [
-  "histori"
+  "burg"
  ],
  "pos_mix": {
-  "noun": 4
+  "noun": 1,
+  "verb": 2
  },
  "words": [
   {
-   "id": "histori",
-   "sq": "histori",
-   "en": "history",
+   "id": "burg",
+   "sq": "burg",
+   "en": "jail, prison",
    "glosses": [
-    "history"
+    "jail, prison"
    ],
    "pos": [
     "noun"
@@ -30,8 +31,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "history",
-     "tags": [],
+     "gloss": "jail, prison",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -40,7 +43,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 12 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,66 +57,149 @@
      ],
      "examples": [],
      "links": [
-      "history"
+      "jail",
+      "prison"
      ]
     }
    ],
-   "rank": 651,
-   "count": 1573,
-   "family": "histori",
+   "rank": 622,
+   "count": 1652,
+   "family": "burg",
    "is_root": true,
-   "etymology": "Learned borrowing from Latin historia.",
-   "etymology_class": null,
+   "etymology": "Possibly borrowed from Late Latin burgus (“fortress, watchtower”), perhaps ultimately from Proto-Germanic *burgz (“fortress”), or possibly borrowed from Ancient Greek πύργος (púrgos, “watchtower, fortress”), although this is difficult given the initial b- in Albanian.",
+   "etymology_class": "root",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "fortress"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "histori",
+     "form": "burgje",
      "tag": "plural"
     },
     {
-     "form": "historia",
+     "form": "burgu",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "other stories.",
+    "en": "Five years in prison.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "histori të tjera."
+    "sq": "Pesë vjet burg."
    }
   },
   {
-   "id": "historinë",
-   "sq": "historinë",
-   "en": "the history, singular (from histori)",
+   "id": "burgos",
+   "sq": "burgos",
+   "en": "to imprison",
    "glosses": [
-    "the history, singular (from histori)"
+    "to imprison"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the history, singular (from histori)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to imprison",
      "tags": [
-      "accusative",
-      "definite",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -os",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "imprison"
+     ]
+    }
+   ],
+   "rank": 18231,
+   "count": 30,
+   "family": "burg",
+   "is_root": false,
+   "etymology": "From burg (“prision, jail”) + -os (1st pers. sg. personal suffix in active voice, indicative, present).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "burg",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "burgosur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Why was your father imprisoned?",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Përse u burgos babai juaj?"
+   }
+  },
+  {
+   "id": "burgosur",
+   "sq": "burgosur",
+   "en": "past participle of burgos (to imprison)",
+   "glosses": [
+    "past participle of burgos (to imprison)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of burgos (to imprison)",
+     "tags": [
       "form-of",
-      "singular"
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -136,84 +222,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "histori"
+     "is_form_of": "burgos"
     }
    ],
-   "rank": 1313,
-   "count": 684,
-   "family": "histori",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I am writing history!",
-    "score": [
-     1,
-     3,
-     -2,
-     8
-    ],
-    "sq": "Unë shkruaj historinë!"
-   }
-  },
-  {
-   "id": "historia",
-   "sq": "historia",
-   "en": "the history, singular (from histori)",
-   "glosses": [
-    "the history, singular (from histori)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the history, singular (from histori)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 18 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "histori"
-    }
-   ],
-   "rank": 1501,
-   "count": 590,
-   "family": "histori",
+   "rank": 1992,
+   "count": 435,
+   "family": "burg",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -225,88 +239,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "That's the story.",
+    "en": "Nobody was ever jailed.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Kjo është historia."
-   }
-  },
-  {
-   "id": "historian",
-   "sq": "historian",
-   "en": "historian",
-   "glosses": [
-    "historian"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "historian",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -an",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "historian"
-     ]
-    }
-   ],
-   "rank": 39671,
-   "count": 9,
-   "family": "histori",
-   "is_root": false,
-   "etymology": "From histori + -an.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "histori",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I am a historian and I know a lot about the sights.",
-    "score": [
-     3,
-     8,
-     -5,
-     10
-    ],
-    "sq": "Jam historian dhe i njoh shumë mirë pamjet."
+    "sq": "Nuk është burgosur asnjeri."
    }
   }
  ]

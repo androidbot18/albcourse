@@ -1,27 +1,165 @@
 {
  "level": 130,
- "title": "hap, dytë",
+ "title": "qytet, thjeshtë, ah, tashmë +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "dytë",
-  "hap"
+  "ah",
+  "qytet",
+  "tashmë",
+  "thjeshtë"
  ],
  "pos_mix": {
+  "noun": 6,
   "adj": 1,
-  "verb": 3,
-  "noun": 2
+  "adv": 1
  },
  "words": [
   {
-   "id": "dytë",
-   "sq": "dytë",
-   "en": "second",
+   "id": "qytet",
+   "sq": "qytet",
+   "en": "city, particularly (politics, historical) as a former administrative level",
    "glosses": [
-    "second"
+    "city, particularly (politics, historical) as a former administrative level",
+    "citizenry, the people of a city"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "city, particularly (politics, historical) as a former administrative level",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Politics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Politics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Administrative divisions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Administrative divisions",
+       "langcode": "sq",
+       "_dis": "88 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "city",
+      "particularly",
+      "politics"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "citizenry, the people of a city",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 92"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "citizenry",
+      "people",
+      "city"
+     ]
+    }
+   ],
+   "rank": 506,
+   "count": 2091,
+   "family": "qytet",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *k'iwytéti, from older *kiwitáti, which was borrowed through Vulgar Latin from Latin cīvitātem, with loss of the -v-. Compare Romanian cetate.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "qytet i përjetshëm",
+    "qytetar",
+    "qytetas",
+    "qytetëri",
+    "qytetërim",
+    "i qytetëruar",
+    "qytetëroj, qytetërohem",
+    "qytetës"
+   ],
+   "related": [
+    "qyteti i një mijë dritareve",
+    "bashki",
+    "fshat",
+    "katund",
+    "komunë"
+   ],
+   "forms": [
+    {
+     "form": "qytete",
+     "tag": "plural"
+    },
+    {
+     "form": "qyteti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A different city?",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Një qytet tjetër?"
+   }
+  },
+  {
+   "id": "thjeshtë",
+   "sq": "thjeshtë",
+   "en": "simple",
+   "glosses": [
+    "simple"
    ],
    "pos": [
     "adj"
@@ -33,7 +171,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "second",
+     "gloss": "simple",
      "tags": [],
      "cats": [
       {
@@ -43,7 +181,240 @@
        "source": "w"
       },
       {
-       "name": "Albanian ordinal numbers",
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Të jap një zgjidhje shumë të thjeshtë për problemin tënd.",
+       "en": "Let me give you a very simple solution to your problem.",
+       "offsets": [
+        [
+         26,
+         37
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "simple"
+     ]
+    }
+   ],
+   "rank": 510,
+   "count": 2079,
+   "family": "thjeshtë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tseksta, compound of *ts- (“not”) and *eksta (“outside, beyond”) (modern jashtë (“out, away”)), i.e. 'within reach, close by'. More at jashtë. For sense development, compare French aise (“ease”), from Latin adjacens (“nearby”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [
+    "not"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fjeshtë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ah",
+   "sq": "ah",
+   "en": "beech (Fagus sylvatica)",
+   "glosses": [
+    "beech (Fagus sylvatica)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beech (Fagus sylvatica)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 38 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "botany",
+      "beech",
+      "Fagus sylvatica"
+     ]
+    }
+   ],
+   "rank": 517,
+   "count": 2036,
+   "family": "ah",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *aksu-, from Proto-Indo-European *h₂ó/ásku- (“workable wood”), which came to mean \"red beech\" in Balkan IE, from *Heh₃s- (“ash”) (compare Greek οξιά (oxiá, “beech”), Armenian հածի (haci), English ash).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "ash",
+    "beech"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ahe",
+     "tag": "plural"
+    },
+    {
+     "form": "ahu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Right here, ah!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Të drejtë këtu, ah!"
+   }
+  },
+  {
+   "id": "tashmë",
+   "sq": "tashmë",
+   "en": "already",
+   "glosses": [
+    "already"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "already",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "already"
+     ]
+    }
+   ],
+   "rank": 522,
+   "count": 2017,
+   "family": "tashmë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It was already late.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Tashmë ishte vonë."
+   }
+  },
+  {
+   "id": "qytetar",
+   "sq": "qytetar",
+   "en": "citizen",
+   "glosses": [
+    "citizen"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "citizen",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,330 +428,152 @@
      ],
      "examples": [],
      "links": [
-      "second"
+      "citizen"
      ]
     }
    ],
-   "rank": 590,
-   "count": 1725,
-   "family": "dytë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 5732,
+   "count": 128,
+   "family": "qytet",
+   "is_root": false,
+   "etymology": "From qytet + -tar.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "qytet",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "qytetarë",
+     "tag": "plural"
+    },
+    {
+     "form": "qytetari",
+     "tag": "definite"
+    },
+    {
+     "form": "qytetare",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Second house?",
+    "en": "We are a civic state.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Shtëpi e dytë?"
+    "sq": "Jemi shtet qytetar."
    }
   },
   {
-   "id": "hap",
-   "sq": "hap",
-   "en": "to open",
+   "id": "qytezë",
+   "sq": "qytezë",
+   "en": "small town",
    "glosses": [
-    "to open",
-    "to rise (of the sun)"
+    "small town",
+    "residential center within a castle"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to open",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "small town",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "98 2"
+      },
+      {
+       "name": "Albanian terms suffixed with -zë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "99 1"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "town"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "residential center within a castle",
+     "tags": [
+      "feminine",
+      "historical"
+     ],
      "cats": [],
      "examples": [],
      "links": [
-      "open"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rise (of the sun)",
-     "tags": [
-      "Gheg",
-      "Southern"
-     ],
-     "cats": [
-      {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 85"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "U hap dilli.",
-       "en": "The sun rose up.",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "Kavajë",
-      "rise"
+      "center",
+      "castle"
      ]
     }
    ],
-   "rank": 634,
-   "count": 1615,
-   "family": "hap",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *skapa, from Proto-Indo-European *(s)kep- (“to cut, split, dig”). Compare English shape, German schaffen (“make, create”). Alternatively from Proto-Indo-European *upo (“up from under, over”). Compare Low German apen, Icelandic opna, Norwegian åpne (“to open”), English open.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "hapem",
-    "hapje",
-    "hapur",
-    "hep"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "hapa",
-     "tag": "aorist"
-    },
-    {
-     "form": "hapur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "hapje",
-   "sq": "hapje",
-   "en": "opening",
-   "glosses": [
-    "opening",
-    "vent"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "opening",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "75 25"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "opening"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "vent",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "vent"
-     ]
-    }
-   ],
-   "rank": 9046,
-   "count": 74,
-   "family": "hap",
+   "rank": 24568,
+   "count": 19,
+   "family": "qytet",
    "is_root": false,
-   "etymology": "Gerund of hap; hap + -je",
+   "etymology": "From qytet + -zë (diminutive suffix).",
    "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "components": [
     {
-     "word": "hap",
+     "word": "qytet",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [
-    "hap",
-    "hapem",
-    "hep"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "hapje",
+     "form": "qyteza",
      "tag": "plural"
-    },
-    {
-     "form": "hapja",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "These openings must not be blocked or covered.",
+    "corpus": "MaCoCu",
+    "en": "A town within the city!",
     "score": [
-     2,
-     9,
-     -7,
-     10
+     3,
+     5,
+     -2,
+     8
     ],
-    "sq": "Këto hapje nuk duhet të bllokohen ose të mbulohen."
-   }
-  },
-  {
-   "id": "hapur",
-   "sq": "hapur",
-   "en": "past participle of hap (to open)",
-   "glosses": [
-    "past participle of hap (to open)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "past participle of hap (to open)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "hap"
-    }
-   ],
-   "rank": 584,
-   "count": 1765,
-   "family": "hap",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "When are we open?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Kur jemi të hapur?"
+    "sq": "Një qytezë brenda një qyteti!"
    }
   }
  ]

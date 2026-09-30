@@ -1,30 +1,104 @@
 {
  "level": 276,
- "title": "be, gra, thikë, bosh, kërkim +3",
+ "title": "jo, avokat, thirr, komandant +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "be",
-  "bosh",
-  "gra",
-  "kërkim",
-  "thikë"
+  "avokat",
+  "jo",
+  "komandant",
+  "thirr"
  ],
  "pos_mix": {
-  "noun": 12,
-  "adj": 1
+  "det": 1,
+  "noun": 4,
+  "verb": 2,
+  "adj": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "be",
-   "sq": "be",
-   "en": "oath",
+   "id": "jo",
+   "sq": "jo",
+   "en": "negates non-verbal phrases: no, not",
    "glosses": [
-    "oath",
-    "vow, swearing"
+    "negates non-verbal phrases: no, not"
+   ],
+   "pos": [
+    "det"
+   ],
+   "pos_labels": [
+    "determiner"
+   ],
+   "sense_detail": [
+    {
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "negates non-verbal phrases: no, not",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 48 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "no",
+      "not"
+     ]
+    }
+   ],
+   "rank": 19,
+   "count": 82999,
+   "family": "jo",
+   "is_root": true,
+   "etymology": "Likely a babble word, compare Turkish yok (“no”), and its derivates in other Balkanic languages such as Romanian ioc, Macedonian јок (jok). Comparison with German ja (“yes”) is semantically hard to explain.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [
+    "no"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Easy, right?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Lehtë, apo jo?"
+   }
+  },
+  {
+   "id": "avokat",
+   "sq": "avokat",
+   "en": "lawyer",
+   "glosses": [
+    "lawyer",
+    "advocate (person who argues the case of another)"
    ],
    "pos": [
     "noun",
@@ -38,30 +112,22 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "oath",
+     "gloss": "lawyer",
      "tags": [
-      "feminine"
+      "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "oath"
+      "lawyer"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vow, swearing",
+     "gloss": "advocate (person who argues the case of another)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -69,61 +135,167 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "7 93"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 86"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
       }
      ],
      "examples": [],
      "links": [
-      "vow",
-      "swearing"
+      "advocate"
      ]
     }
    ],
-   "rank": 2029,
-   "count": 428,
-   "family": "be",
+   "rank": 1981,
+   "count": 436,
+   "family": "avokat",
    "is_root": true,
-   "etymology": "From Proto-Albanian *bẹ(ð)ə < *baidā-, from Proto-Indo-European *bʰoydʰ-eh₂ < *bʰeydʰ- (“to persuade”). Compare Old English bād (“pledge, expectation”), Proto-Slavic *bě̄dà, Ancient Greek πείθω (peíthō), Latin foedus.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from French avocat, from Latin advocātus.",
+   "etymology_class": "derived",
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "përbej",
-    "besë",
-    "betoj",
-    "betohem",
-    "bind"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "be",
+     "form": "avokatë",
      "tag": "plural"
     },
     {
-     "form": "beja",
+     "form": "avokati",
+     "tag": "definite"
+    },
+    {
+     "form": "avokate",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Repeat after me: lawyer.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Përsëriteni pas meje: avokat."
+   }
+  },
+  {
+   "id": "thirr",
+   "sq": "thirr",
+   "en": "called",
+   "glosses": [
+    "called",
+    "named",
+    "soot"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "called",
+     "tags": [
+      "participle"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "called"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "named",
+     "tags": [
+      "participle"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "named"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "soot",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "soot"
+     ]
+    }
+   ],
+   "rank": 1983,
+   "count": 436,
+   "family": "thirr",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tsirwa, from Proto-Indo-European *ḱer- (“dark color”), identical with Lithuanian šiřvas (“grey”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "grey"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "thirra",
+     "tag": "plural"
+    },
+    {
+     "form": "thirri",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Get Berard in other languages.",
+    "en": "Was someone uncircumcised when he was called?",
     "score": [
-     1,
+     3,
      7,
-     -6,
+     -4,
      10
     ],
-    "sq": "Marr Beñat në gjuhë të tjera."
+    "sq": "Dikush u thirr kur ishte i parrethprerë?"
    }
   },
   {
-   "id": "gra",
-   "sq": "gra",
-   "en": "women",
+   "id": "komandant",
+   "sq": "komandant",
+   "en": "commander",
    "glosses": [
-    "women"
+    "commander"
    ],
    "pos": [
     "noun"
@@ -135,8 +307,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "women",
-     "tags": [],
+     "gloss": "commander",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -145,7 +319,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 8 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -159,16 +333,16 @@
      ],
      "examples": [],
      "links": [
-      "women"
+      "commander"
      ]
     }
    ],
-   "rank": 2033,
-   "count": 426,
-   "family": "gra",
+   "rank": 1988,
+   "count": 435,
+   "family": "komandant",
    "is_root": true,
-   "etymology": "Plural of grua.",
-   "etymology_class": null,
+   "etymology": "Borrowed from French commandant.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -176,100 +350,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "We weren't just women.",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Nuk ishim vetëm gra."
-   }
-  },
-  {
-   "id": "thikë",
-   "sq": "thikë",
-   "en": "knife, dagger",
-   "glosses": [
-    "knife, dagger"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knife, dagger",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "knife",
-      "dagger"
-     ]
-    }
-   ],
-   "rank": 2035,
-   "count": 426,
-   "family": "thikë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tˢ́ika, from Pre-Proto-Albanian *ćīkā ~ *ćeykā, from Proto-Indo-European *ḱeh₃- (“to sharpen”). A PPA form *ćīkā supports a Proto-Indo-European *k̑iH-keh2- form, while *ćeykā supports a Proto-Indo-European *k̑éi̯H-keh2- form. The absence of an a-umlaut favors against a short -i- in *ćikā, which was posited by Orel.\nAlternatively, Meyer considers a borrowing from Latin sīca (“a poniard, curved dagger”), while other scholars believe instead the opposite.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "thika",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's like a knife.",
+    "en": "You are a military commander.",
     "score": [
      1,
-     4,
-     -3,
+     5,
+     -4,
      10
     ],
-    "sq": "Është si një thikë."
+    "sq": "Ju jeni një komandant ushtarak."
    }
   },
   {
-   "id": "bosh",
-   "sq": "bosh",
-   "en": "empty (devoid of content)",
+   "id": "jozyrtar",
+   "sq": "jozyrtar",
+   "en": "unofficial",
    "glosses": [
-    "empty (devoid of content)"
+    "unofficial"
    ],
    "pos": [
     "adj"
@@ -281,7 +378,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "empty (devoid of content)",
+     "gloss": "unofficial",
      "tags": [],
      "cats": [
       {
@@ -291,13 +388,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Albanian terms prefixed with jo-",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -305,375 +402,124 @@
      ],
      "examples": [],
      "links": [
-      "empty"
+      "unofficial"
      ]
     }
    ],
-   "rank": 2037,
-   "count": 426,
-   "family": "bosh",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بوش (boş).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "That is an empty promise.",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Ky është premtim bosh."
-   }
-  },
-  {
-   "id": "kërkim",
-   "sq": "kërkim",
-   "en": "search",
-   "glosses": [
-    "search",
-    "research"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "search",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "search"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "research",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "research"
-     ]
-    }
-   ],
-   "rank": 2043,
-   "count": 424,
-   "family": "kërkim",
-   "is_root": true,
-   "etymology": "From kërkój + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is going to take a bit of research.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Kjo do të marrë pak kërkim."
-   }
-  },
-  {
-   "id": "besë",
-   "sq": "besë",
-   "en": "pledge, oath, word of honor, promise, vow",
-   "glosses": [
-    "pledge, oath, word of honor, promise, vow",
-    "trust, belief (in someone)",
-    "religion, faith, creed",
-    "truce between two clans in a blood feud; truce period",
-    "protection when hosted as a guest, aegis",
-    "alliance, coalition, agreement"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pledge, oath, word of honor, promise, vow",
-     "tags": [
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -së",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 4 19 18 24 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "pledge",
-      "oath",
-      "word of honor"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "trust, belief (in someone)",
-     "tags": [
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "trust",
-      "belief"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "religion, faith, creed",
-     "tags": [
-      "colloquial",
-      "countable",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -së",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 4 19 18 24 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "religion",
-      "faith",
-      "creed"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "truce between two clans in a blood feud; truce period",
-     "tags": [
-      "archaic",
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 1 48 24 9 5"
-      },
-      {
-       "name": "Albanian terms suffixed with -së",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 4 19 18 24 13"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 1 62 22 5 4"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "truce",
-      "clan",
-      "blood feud"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "protection when hosted as a guest, aegis",
-     "tags": [
-      "archaic",
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -së",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 4 19 18 24 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "protection",
-      "aegis"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "alliance, coalition, agreement",
-     "tags": [
-      "archaic",
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -së",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 4 19 18 24 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "alliance",
-      "coalition",
-      "agreement"
-     ]
-    }
-   ],
-   "rank": 6200,
-   "count": 116,
-   "family": "be",
+   "rank": 34071,
+   "count": 12,
+   "family": "jo",
    "is_root": false,
-   "etymology": "From be (“oath”) + -së, a formation from Proto-Indo-European *bʰeydʰ- (“to trust”).",
+   "etymology": "From jo- + zyrtar.",
    "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "oath"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "be",
+     "word": "jo",
      "role": "prefix"
     },
     {
-     "word": "a",
+     "word": "zyrtar",
      "role": "stem"
     }
    ],
-   "derived": [
-    "besa",
-    "besa-besë",
-    "besarisht",
-    "besatar",
-    "besatohem",
-    "besëkeq",
-    "besëkotë",
-    "besëlidhës"
-   ],
-   "related": [
-    "be",
-    "bind",
-    "fe"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "besa",
-     "tag": "definite"
+     "form": "jozyrtare",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Yes, honestly!",
+    "en": "Now let's look at the option of an unofficial bodyshop.",
     "score": [
-     2,
-     3,
-     -1,
+     5,
+     9,
+     -4,
      10
     ],
-    "sq": "Po, për besë!"
+    "sq": "Tani le të shohim opsionin e një shërbimi jozyrtar."
+   }
+  },
+  {
+   "id": "jozyrtarisht",
+   "sq": "jozyrtarisht",
+   "en": "unofficially",
+   "glosses": [
+    "unofficially"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "unofficially",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with jo-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unofficially"
+     ]
+    }
+   ],
+   "rank": 49248,
+   "count": 7,
+   "family": "jo",
+   "is_root": false,
+   "etymology": "From jo- + zyrtarisht.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "jo",
+     "role": "prefix"
+    },
+    {
+     "word": "zyrtarisht",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How did Ambassador Sharac find out unofficially?",
+    "score": [
+     4,
+     7,
+     -3,
+     10
+    ],
+    "sq": "Si e mori vesh jozyrtarisht ambasadori Sharac?"
    }
   }
  ]

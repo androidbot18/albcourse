@@ -1,30 +1,31 @@
 {
  "level": 445,
- "title": "fuçi, karrem, çizme, arkivol, kushtoj, organizatë +4",
+ "title": "dalloj, portë, punonjës, ngut, guxoj, zëmër +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "arkivol",
-  "fuçi",
-  "karrem",
-  "kushtoj",
-  "organizatë",
-  "çizme"
+  "dalloj",
+  "guxoj",
+  "ngut",
+  "portë",
+  "punonjës",
+  "zëmër"
  ],
  "pos_mix": {
-  "noun": 5,
-  "verb": 2
+  "noun": 7,
+  "adj": 1,
+  "verb": 4
  },
  "words": [
   {
-   "id": "fuçi",
-   "sq": "fuçi",
-   "en": "barrel",
+   "id": "dallim",
+   "sq": "dallim",
+   "en": "difference (characteristic of something that makes it different from something else)",
    "glosses": [
-    "barrel"
+    "difference (characteristic of something that makes it different from something else)"
    ],
    "pos": [
     "noun"
@@ -36,23 +37,25 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "barrel",
-     "tags": [],
+     "gloss": "difference (characteristic of something that makes it different from something else)",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
-       "name": "Albanian entries with etymology texts",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian entries with etymology trees",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian entries with etymon",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,380 +63,85 @@
      ],
      "examples": [],
      "links": [
-      "barrel"
+      "difference"
      ]
     }
    ],
-   "rank": 8259,
-   "count": 82,
-   "family": "fuçi",
-   "is_root": true,
-   "etymology": "Etymology tree\nPre-Greekbor.?\nAncient Greek βοῦττῐς (boûttĭs)\nByzantine Greek βούττις (boúttis)bor.\nOttoman Turkish فوچی (fuçi, fıçı)bor.\nAlbanian fuçi\nBorrowed from Ottoman Turkish فوچی (fuçi, fıçı), borrowed from Byzantine Greek βούττις (boúttis, “barrel, cask”), from Ancient Greek βοῦττῐς (boûttĭs), possibly borrowed from Pre-Greek.",
-   "etymology_class": null,
+   "rank": 8014,
+   "count": 85,
+   "family": "dalloj",
+   "is_root": false,
+   "etymology": "From dalloj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "dalloj",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "dallime",
+     "tag": "plural"
+    },
+    {
+     "form": "dallimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "* Golden barrel cactus.",
+    "corpus": "MaCoCu",
+    "en": "Did it make a difference?",
     "score": [
      1,
      3,
      -2,
-     10
+     8
     ],
-    "sq": "* Kaktus Artë fuçi."
+    "sq": "A bën dallim?"
    }
   },
   {
-   "id": "karrem",
-   "sq": "karrem",
-   "en": "rainworm, bait (fishing)",
+   "id": "portë",
+   "sq": "portë",
+   "en": "gate",
    "glosses": [
-    "rainworm, bait (fishing)"
+    "gate",
+    "gateway",
+    "goal"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "rainworm, bait (fishing)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "rainworm",
-      "bait"
-     ]
-    }
-   ],
-   "rank": 8275,
-   "count": 82,
-   "family": "karrem",
-   "is_root": true,
-   "etymology": "Prefixal derivative in ka- of rrime.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "karremët",
-     "tag": "plural"
-    },
-    {
-     "form": "karremi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "çizme",
-   "sq": "çizme",
-   "en": "boot",
-   "glosses": [
-    "boot"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "boot",
+     "gloss": "gate",
      "tags": [
       "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "boot"
-     ]
-    }
-   ],
-   "rank": 8280,
-   "count": 82,
-   "family": "çizme",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish چیزمه (çizme).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "çizme",
-     "tag": "plural"
-    },
-    {
-     "form": "çizmja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "✕Hiking boots and sticks.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "✕Çizme dhe shkopinj shëtitjeje."
-   }
-  },
-  {
-   "id": "arkivol",
-   "sq": "arkivol",
-   "en": "coffin",
-   "glosses": [
-    "coffin"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coffin",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "coffin"
-     ]
-    }
-   ],
-   "rank": 8286,
-   "count": 82,
-   "family": "arkivol",
-   "is_root": true,
-   "etymology": "Borrowed from Italian archivolto (“archivolt”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "archivolt"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "arkivolë",
-     "tag": "plural"
-    },
-    {
-     "form": "arkivoli",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What is inside that coffin?",
-    "score": [
-     3,
-     5,
-     -2,
-     10
-    ],
-    "sq": "Ç'ka në atë arkivol?"
-   }
-  },
-  {
-   "id": "kushtoj",
-   "sq": "kushtoj",
-   "en": "to cost",
-   "glosses": [
-    "to cost",
-    "to dedicate"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cost",
-     "tags": [
-      "transitive"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "cost"
+      "gate"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dedicate",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 67"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "39 61"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 57"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "dedicate"
-     ]
-    }
-   ],
-   "rank": 8287,
-   "count": 82,
-   "family": "kushtoj",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin constāre.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kushtuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What else you need to pay attention!",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Çfarë tjetër ju duhet të i kushtoj vëmendje!"
-   }
-  },
-  {
-   "id": "organizatë",
-   "sq": "organizatë",
-   "en": "organization",
-   "glosses": [
-    "organization"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "organization",
+     "gloss": "gateway",
      "tags": [
       "feminine"
      ],
@@ -442,30 +150,144 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "5 90 5"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 70 15"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 85 8"
       }
      ],
      "examples": [],
      "links": [
-      "organization"
+      "gateway"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "goal",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "goal"
      ]
     }
    ],
-   "rank": 8293,
-   "count": 82,
-   "family": "organizatë",
+   "rank": 8035,
+   "count": 85,
+   "family": "portë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin porta.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "hyrje"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "clear the way to the gateway.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "qartë mënyrë për portë."
+   }
+  },
+  {
+   "id": "punonjës",
+   "sq": "punonjës",
+   "en": "employee",
+   "glosses": [
+    "employee",
+    "working"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "employee",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "employee"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "working",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "working"
+     ]
+    }
+   ],
+   "rank": 8036,
+   "count": 85,
+   "family": "punonjës",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -474,17 +296,399 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "punonjëse",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I highly recommend this organization.",
+    "en": "Employee is guilty?",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë rekomandoj shumë këtë organizatë."
+    "sq": "Punonjës është fajtor?"
+   }
+  },
+  {
+   "id": "ngut",
+   "sq": "ngut",
+   "en": "to urge, force, hurry up",
+   "glosses": [
+    "to urge, force, hurry up",
+    "pressure, haste"
+   ],
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to urge, force, hurry up",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "urge",
+      "force",
+      "hurry"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pressure, haste",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "62 38"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "62 38"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pressure",
+      "haste"
+     ]
+    }
+   ],
+   "rank": 8040,
+   "count": 85,
+   "family": "ngut",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *en-kutja, related to Lithuanian káuti (“to strike”), Latin cūdō (“to strike”), Old High German houwan (“to strike; to hew”) and Proto-Slavic *kovati (“to forge”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngutje",
+     "tag": "plural"
+    },
+    {
+     "form": "nguti",
+     "tag": "definite"
+    },
+    {
+     "form": "ngus",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Once again, do not hurry, You have time.",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "Edhe një herë, mos u ngut, ju keni kohë."
+   }
+  },
+  {
+   "id": "guxoj",
+   "sq": "guxoj",
+   "en": "to dare",
+   "glosses": [
+    "to dare"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to dare",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dare"
+     ]
+    }
+   ],
+   "rank": 8055,
+   "count": 85,
+   "family": "guxoj",
+   "is_root": true,
+   "etymology": "Borrowed from Latin cottizare, from Ancient Greek κοττίζω (kottízō).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "guxova",
+     "tag": "aorist"
+    },
+    {
+     "form": "guxuar",
+     "tag": "participle"
+    },
+    {
+     "form": "kuxoj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I don't dare to talk.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Nuk guxoj të flasë."
+   }
+  },
+  {
+   "id": "zëmër",
+   "sq": "zëmër",
+   "en": "late afternoon meal, tea-time",
+   "glosses": [
+    "late afternoon meal, tea-time"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "late afternoon meal, tea-time",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Times of day",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Times of day",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "late",
+      "afternoon",
+      "meal"
+     ]
+    }
+   ],
+   "rank": 8056,
+   "count": 85,
+   "family": "zëmër",
+   "is_root": true,
+   "etymology": "Either from zemër with the meaning of 'centre of the day', or from the same root of Greek ημέρα (iméra, “day”), although the initial anlaut z- remains unexplained. A borrowing from Greek διήμερον (diímeron, “period of twenty-four hours”) is not excluded.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "day"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zëmra",
+     "tag": "definite"
+    },
+    {
+     "form": "zamëra",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "dalloj",
+   "sq": "dalloj",
+   "en": "to discern, recognize",
+   "glosses": [
+    "to discern, recognize",
+    "to distinguish, tell apart"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discern, recognize",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "discern",
+      "recognize"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to distinguish, tell apart",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 92"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "distinguish"
+     ]
+    }
+   ],
+   "rank": 8887,
+   "count": 75,
+   "family": "dalloj",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *daulnānja, deadjectival of *daulna, from Proto-Indo-European *delh₁- (“to cut”) (compare Latvian dalīt (“to divide”), Latin dolāre (“to hew”), Old Norse telgja (“to carve”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "dallëndyshe"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "dallova",
+     "tag": "aorist"
+    },
+    {
+     "form": "dalluar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "How do I recognize my seat on the bus?",
+    "score": [
+     3,
+     7,
+     -4,
+     8
+    ],
+    "sq": "Si ta dalloj vendin tim në autobus?"
    }
   }
  ]

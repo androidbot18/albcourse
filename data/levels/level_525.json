@@ -1,38 +1,130 @@
 {
  "level": 525,
- "title": "kapitull, luks, qerre, term, qull, anormal +4",
+ "title": "mbresë, ang, çmos, legjendar, mbes, inteligjencë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "anormal",
-  "kapitull",
-  "luks",
-  "qerre",
-  "qull",
-  "term"
+  "ang",
+  "inteligjencë",
+  "legjendar",
+  "mbes",
+  "mbresë",
+  "çmos"
  ],
  "pos_mix": {
+  "adj": 2,
   "noun": 6,
-  "verb": 1,
-  "adj": 2
+  "pron": 1,
+  "adv": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "kapitull",
-   "sq": "kapitull",
-   "en": "chapter",
+   "id": "mbresëlënës",
+   "sq": "mbresëlënës",
+   "en": "impressive, remarkable",
    "glosses": [
-    "chapter",
-    "matter of discussion, case, issue"
+    "impressive, remarkable"
    ],
    "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "impressive, remarkable",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -s (agent)",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "impressive",
+      "remarkable"
+     ]
+    }
+   ],
+   "rank": 14125,
+   "count": 42,
+   "family": "mbresë",
+   "is_root": false,
+   "etymology": "From mbresë (“impression”) + lënë (“left”) + -s.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "impression",
+    "left"
+   ],
+   "components": [
+    {
+     "word": "mbresë",
+     "role": "prefix"
+    },
+    {
+     "word": "lënë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mbresëlënëse",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "An impressive number!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Një numër mbresëlënës!"
+   }
+  },
+  {
+   "id": "ang",
+   "sq": "ang",
+   "en": "nightmare",
+   "glosses": [
+    "nightmare",
+    "incubus",
+    "shapeless ghost who appears in dreams"
+   ],
+   "pos": [
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun"
    ],
@@ -40,7 +132,156 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chapter",
+     "gloss": "nightmare",
+     "tags": [
+      "dialectal",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "nightmare"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "incubus",
+     "tags": [
+      "dialectal",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "incubus"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "shapeless ghost who appears in dreams",
+     "tags": [
+      "dialectal",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mythology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 22 59"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-noun",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 27 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mythology"
+     ]
+    }
+   ],
+   "rank": 14129,
+   "count": 42,
+   "family": "ang",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *anga, from Proto-Indo-European *h₂énǵʰos, from *h₂enǵʰ- (“to constrict”).\nCognate to Latin angō (“to cramp (up), constrict”), German eng (“narrow”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "ankth",
+    "angësht",
+    "angërduf",
+    "angullin"
+   ],
+   "related": [
+    "eng"
+   ],
+   "forms": [
+    {
+     "form": "angje",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Atong Ang and President Duterte's friends.",
+    "score": [
+     4,
+     8,
+     -4,
+     10
+    ],
+    "sq": "Atong Ang dhe miqtë e presidentit Duterte-së."
+   }
+  },
+  {
+   "id": "çmos",
+   "sq": "çmos",
+   "en": "everything possible",
+   "glosses": [
+    "everything possible",
+    "by all means"
+   ],
+   "pos": [
+    "pron",
+    "adv"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "everything possible",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "bëri çmos ta kapte atë punë",
+       "en": "did everything possible to get that job",
+       "offsets": [
+        [
+         5,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "everything",
+      "possible"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "by all means",
      "tags": [],
      "cats": [
       {
@@ -48,86 +289,142 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "85 15"
+       "_dis": "66 34"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "75 25"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "82 18"
+       "_dis": "79 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "by all means"
+     ]
+    }
+   ],
+   "rank": 14142,
+   "count": 42,
+   "family": "çmos",
+   "is_root": true,
+   "etymology": "From ç' + mos similar to doemos, or an expansion of çmoj.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mos",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "legjendar",
+   "sq": "legjendar",
+   "en": "legendary",
+   "glosses": [
+    "legendary"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "legendary",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "chapter"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "matter of discussion, case, issue",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "matter",
-      "discussion",
-      "case"
+      "legendary"
      ]
     }
    ],
-   "rank": 14436,
-   "count": 40,
-   "family": "kapitull",
+   "rank": 14145,
+   "count": 42,
+   "family": "legjendar",
    "is_root": true,
-   "etymology": "Borrowed from Latin capitulum. Alternatively, borrowed from Italian capitolo, or even an older form of capitulo.",
-   "etymology_class": "borrowed",
+   "etymology": "From legjendë.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "legjendare",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "She wants a chapter of her own.",
+    "en": "It really is a legendary game.",
     "score": [
-     0,
-     6,
-     -6,
+     1,
+     8,
+     -7,
      10
     ],
-    "sq": "Ajo do një kapitull më vete."
+    "sq": "Kjo është me të vërtetë një lojë legjendar."
    }
   },
   {
-   "id": "luks",
-   "sq": "luks",
-   "en": "luxury, finery",
+   "id": "mbes",
+   "sq": "mbes",
+   "en": "to remain, stay, rest",
    "glosses": [
-    "luxury, finery"
+    "to remain, stay, rest"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "luxury, finery",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to remain, stay, rest",
      "tags": [
-      "masculine"
+      "intransitive"
      ],
      "cats": [
       {
@@ -137,7 +434,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -151,41 +448,49 @@
      ],
      "examples": [],
      "links": [
-      "luxury",
-      "finery"
+      "remain",
+      "stay",
+      "rest"
      ]
     }
    ],
-   "rank": 14445,
-   "count": 40,
-   "family": "luks",
+   "rank": 14153,
+   "count": 42,
+   "family": "mbes",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *amb(i)-etja, from jes (“to remain”), a denominative of jetë.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Convenience & Luxury!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Përshtatshmëri dhe luks!"
-   }
+   "forms": [
+    {
+     "form": "mbeta",
+     "tag": "aorist"
+    },
+    {
+     "form": "mbetur",
+     "tag": "participle"
+    },
+    {
+     "form": "mes",
+     "tag": "alternative"
+    },
+    {
+     "form": "mbetem",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "qerre",
-   "sq": "qerre",
-   "en": "oxcart, cart, carriage",
+   "id": "inteligjencë",
+   "sq": "inteligjencë",
+   "en": "intelligence",
    "glosses": [
-    "oxcart, cart, carriage"
+    "intelligence"
    ],
    "pos": [
     "noun"
@@ -197,7 +502,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "oxcart, cart, carriage",
+     "gloss": "intelligence",
      "tags": [
       "feminine"
      ],
@@ -223,330 +528,13 @@
      ],
      "examples": [],
      "links": [
-      "oxcart",
-      "cart",
-      "carriage"
+      "intelligence"
      ]
     }
    ],
-   "rank": 14487,
-   "count": 40,
-   "family": "qerre",
-   "is_root": true,
-   "etymology": "Singularized plural of *karr, borrowed through Vulgar Latin from Latin carrus. The win of the singularized plural is due to the fonetic similarity of *karr with kar (“dick”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qerre",
-     "tag": "plural"
-    },
-    {
-     "form": "qerrja",
-     "tag": "definite"
-    },
-    {
-     "form": "qerr",
-     "tag": "alternative"
-    },
-    {
-     "form": "kerr",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The items are added to the cart.",
-    "score": [
-     3,
-     5,
-     -2,
-     10
-    ],
-    "sq": "Artikujt janë shtuar në qerre."
-   }
-  },
-  {
-   "id": "term",
-   "sq": "term",
-   "en": "foundation, plot of land",
-   "glosses": [
-    "foundation, plot of land"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "foundation, plot of land",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 8 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "foundation",
-      "plot",
-      "of"
-     ]
-    }
-   ],
-   "rank": 14497,
-   "count": 40,
-   "family": "term",
-   "is_root": true,
-   "etymology": "From ter.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "terma",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What does this term mean?",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Çfarë do të thotë ky term?"
-   }
-  },
-  {
-   "id": "qull",
-   "sq": "qull",
-   "en": "to drench, to soak",
-   "glosses": [
-    "to drench, to soak",
-    "soggy",
-    "mash, mush, pap"
-   ],
-   "pos": [
-    "verb",
-    "adj",
-    "noun"
-   ],
-   "pos_labels": [
-    "verb",
-    "adjective",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to drench, to soak",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 50 41"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 25 52"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 48 40"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "drench",
-      "soak"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "soggy",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 48 40"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 35 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "soggy"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mash, mush, pap",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 50 41"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 48 40"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 35 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mash",
-      "mush",
-      "pap"
-     ]
-    }
-   ],
-   "rank": 14506,
-   "count": 40,
-   "family": "qull",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *klusla, from Proto-Indo-European *ḱleuH- (compare German lauter (“pure”), Lithuanian šlúoti (“to sweep”), Ancient Greek κλύζω (klúzō, “to wash”)).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "pure"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qulle",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It can be juice, water, tea, porridge.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Mund të jetë lëng, ujë, çaj, qull."
-   }
-  },
-  {
-   "id": "anormal",
-   "sq": "anormal",
-   "en": "abnormal",
-   "glosses": [
-    "abnormal"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "abnormal",
-     "tags": [
-      "literary"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 14 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "abnormal"
-     ]
-    }
-   ],
-   "rank": 14514,
-   "count": 40,
-   "family": "anormal",
+   "rank": 14163,
+   "count": 42,
+   "family": "inteligjencë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -555,22 +543,130 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "anormale",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We are in an abnormal place.",
+    "corpus": "MaCoCu",
+    "en": "The Lord gave me intelligence.",
     "score": [
      1,
      5,
      -4,
+     8
+    ],
+    "sq": "Zoti më dha mua inteligjencë."
+   }
+  },
+  {
+   "id": "mbresë",
+   "sq": "mbresë",
+   "en": "bruise, beat",
+   "glosses": [
+    "bruise, beat",
+    "impression"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bruise, beat",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bruise",
+      "beat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "impression",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 68"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "impression"
+     ]
+    }
+   ],
+   "rank": 36319,
+   "count": 11,
+   "family": "mbresë",
+   "is_root": true,
+   "etymology": "Deverbative of mbres.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "pres"
+   ],
+   "forms": [
+    {
+     "form": "mbresa",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Will there be a visible scar?",
+    "score": [
+     1,
+     8,
+     -7,
      10
     ],
-    "sq": "Jemi në një vend anormal."
+    "sq": "A do të ketë një mbresë të dukshme?"
    }
   }
  ]

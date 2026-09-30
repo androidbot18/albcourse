@@ -1,50 +1,52 @@
 {
  "level": 635,
- "title": "parzmore, apokalips, çelur, gëlltis, synet, veteriner +4",
+ "title": "lëkund, zhvishem, leopard, pip, piramidë, pot +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "apokalips",
-  "gëlltis",
-  "parzmore",
-  "synet",
-  "veteriner",
-  "çelur"
+  "leopard",
+  "lëkund",
+  "pip",
+  "piramidë",
+  "pot",
+  "zhvishem"
  ],
  "pos_mix": {
-  "noun": 4,
-  "adj": 2,
-  "verb": 2
+  "verb": 3,
+  "noun": 6
  },
  "words": [
   {
-   "id": "parzmore",
-   "sq": "parzmore",
-   "en": "breastplate",
+   "id": "lëkund",
+   "sq": "lëkund",
+   "en": "to rock, swing, sway, shake",
    "glosses": [
-    "breastplate"
+    "to rock, swing, sway, shake"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breastplate",
-     "tags": [
-      "feminine",
-      "historical"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rock, swing, sway, shake",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with lë-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,26 +56,22 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "breastplate"
+      "rock",
+      "swing",
+      "sway"
      ]
     }
    ],
-   "rank": 27870,
-   "count": 16,
-   "family": "parzmore",
+   "rank": 27176,
+   "count": 17,
+   "family": "lëkund",
    "is_root": true,
-   "etymology": "From parzmor (“chest-covering”).",
-   "etymology_class": null,
+   "etymology": "A lë- prefixed formation, from an unattested *kunda, from Proto-Albanian *kunda, related to Proto-Germanic *hutaną (“to swing”) (cf. Middle High German hutzen), and perhaps Lithuanian kuzdeti (“to tremble”), kùdulti (“to pull hair hair or beard”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -81,52 +79,48 @@
    "related": [],
    "forms": [
     {
-     "form": "parzmore",
-     "tag": "plural"
+     "form": "lëkunda",
+     "tag": "aorist"
     },
     {
-     "form": "parzmorja",
-     "tag": "definite"
+     "form": "lëkundur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Our musicians wear harnesses instead of costumes.",
+    "corpus": "MaCoCu",
+    "en": "Your grandfather is rolling over in his grave.",
     "score": [
      5,
-     8,
-     -3,
-     10
+     7,
+     -2,
+     8
     ],
-    "sq": "Muzikantët tanë veshin parzmore në vend të kostumeve."
+    "sq": "Po ia lëkund eshtrat gjyshit në varr."
    }
   },
   {
-   "id": "apokalips",
-   "sq": "apokalips",
-   "en": "apocalypse",
+   "id": "zhvishem",
+   "sq": "zhvishem",
+   "en": "to undress, to get undressed",
    "glosses": [
-    "apocalypse"
+    "to undress, to get undressed"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "apocalypse",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to undress, to get undressed",
+     "tags": [
+      "intransitive"
+     ],
      "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -134,7 +128,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Albanian terms suffixed with -hem",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -142,232 +142,51 @@
      ],
      "examples": [],
      "links": [
-      "apocalypse"
+      "undress",
+      "undressed"
      ]
     }
    ],
-   "rank": 27877,
-   "count": 16,
-   "family": "apokalips",
+   "rank": 27180,
+   "count": 17,
+   "family": "zhvishem",
    "is_root": true,
-   "etymology": "(This etymology is missing or incomplete. Please add to it, or discuss it at the Etymology scriptorium. )",
-   "etymology_class": null,
+   "etymology": "From zh + vesh + -hem.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "vesh",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "zhveshur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "apocalypse distance game.",
+    "en": "Slowly peel wax paper.",
     "score": [
-     1,
-     3,
+     2,
+     4,
      -2,
      10
     ],
-    "sq": "apokalips lojë distancë."
+    "sq": "Ngadalë zhvishem letër dylli."
    }
   },
   {
-   "id": "çelur",
-   "sq": "çelur",
-   "en": "light, bright (colour)",
+   "id": "leopard",
+   "sq": "leopard",
+   "en": "leopard",
    "glosses": [
-    "light, bright (colour)",
-    "opened, clear"
-   ],
-   "pos": [
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "light, bright (colour)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "light",
-      "bright"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "opened, clear",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "19 81"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "opened",
-      "clear"
-     ]
-    }
-   ],
-   "rank": 27882,
-   "count": 16,
-   "family": "çelur",
-   "is_root": true,
-   "etymology": "From the past participle of çel.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "çel"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "even before they are hatched.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "madje edhe para se ata janë çelur."
-   }
-  },
-  {
-   "id": "gëlltis",
-   "sq": "gëlltis",
-   "en": "to swallow, gulp, gobble, devour",
-   "glosses": [
-    "to swallow, gulp, gobble, devour",
-    "to engulf"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to swallow, gulp, gobble, devour",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "64 36"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "swallow",
-      "gulp",
-      "gobble"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to engulf",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "engulf"
-     ]
-    }
-   ],
-   "rank": 27884,
-   "count": 16,
-   "family": "gëlltis",
-   "is_root": true,
-   "etymology": "From Proto-Slavic *glъtiti. Compare Latin gluttiō.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gëlltititur",
-     "tag": "participle"
-    },
-    {
-     "form": "gëlltit",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "synet",
-   "sq": "synet",
-   "en": "circumcision (especially for observance of Islamic religious customs)",
-   "glosses": [
-    "circumcision (especially for observance of Islamic religious customs)"
+    "leopard"
    ],
    "pos": [
     "noun"
@@ -379,77 +198,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "circumcision (especially for observance of Islamic religious customs)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "circumcision"
-     ]
-    }
-   ],
-   "rank": 27900,
-   "count": 16,
-   "family": "synet",
-   "is_root": true,
-   "etymology": "From Ottoman Turkish سنت (sünnet), from Arabic سُنَّة (sunna).",
-   "etymology_class": "derived",
-   "source_lang": "tr",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "syneta",
-     "tag": "plural"
-    },
-    {
-     "form": "syneti",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "veteriner",
-   "sq": "veteriner",
-   "en": "vet",
-   "glosses": [
-    "vet"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "vet",
+     "gloss": "leopard",
      "tags": [],
      "cats": [
       {
@@ -459,7 +208,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 12 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -473,13 +222,13 @@
      ],
      "examples": [],
      "links": [
-      "vet"
+      "leopard"
      ]
     }
    ],
-   "rank": 27926,
-   "count": 16,
-   "family": "veteriner",
+   "rank": 27210,
+   "count": 17,
+   "family": "leopard",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -491,14 +240,292 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Play the game The veterinarian Lisa online.",
+    "en": "Play the game Leopard 2 online.",
     "score": [
      2,
-     5,
-     -3,
+     4,
+     -2,
      10
     ],
-    "sq": "Luajnë lojë Lisa veteriner online."
+    "sq": "Luajnë lojë Leopard 2 online."
+   }
+  },
+  {
+   "id": "pip",
+   "sq": "pip",
+   "en": "to peep, to chirp",
+   "glosses": [
+    "to peep, to chirp",
+    "sprout, shoot",
+    "pipe, tube"
+   ],
+   "pos": [
+    "verb",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to peep, to chirp",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 8 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "peep",
+      "chirp"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sprout, shoot",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 8 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sprout",
+      "shoot"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pipe, tube",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pipe",
+      "tube"
+     ]
+    }
+   ],
+   "rank": 27227,
+   "count": 17,
+   "family": "pip",
+   "is_root": true,
+   "etymology": "A descriptive term, similar to German piepen and Latin pipīre.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pipa",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What is a pip?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë është një pip?"
+   }
+  },
+  {
+   "id": "piramidë",
+   "sq": "piramidë",
+   "en": "pyramid",
+   "glosses": [
+    "pyramid"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pyramid",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "geometry",
+      "pyramid"
+     ]
+    }
+   ],
+   "rank": 27266,
+   "count": 17,
+   "family": "piramidë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How built a pyramid?",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Si për të ndërtuar një piramidë?"
+   }
+  },
+  {
+   "id": "pot",
+   "sq": "pot",
+   "en": "mill-hopper, flower-bin",
+   "glosses": [
+    "mill-hopper, flower-bin",
+    "little boy"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mill-hopper, flower-bin",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mill",
+      "hopper",
+      "flower-bin"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "little boy",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "little",
+      "boy"
+     ]
+    }
+   ],
+   "rank": 27289,
+   "count": 17,
+   "family": "pot",
+   "is_root": true,
+   "etymology": "From Romance *pottus (“pot”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "poç"
+   ],
+   "forms": [
+    {
+     "form": "pota",
+     "tag": "plural"
+    },
+    {
+     "form": "poti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Then I won the jack-pot of about 5 thousand Euros.",
+    "score": [
+     3,
+     8,
+     -5,
+     10
+    ],
+    "sq": "Atëherë fitova xhek-pot prej rreth 5 mijë eurosh."
    }
   }
  ]

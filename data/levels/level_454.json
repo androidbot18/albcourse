@@ -1,43 +1,46 @@
 {
  "level": 454,
- "title": "autograf, territor, negativ, barazim, ditar, adhurues +4",
+ "title": "admiroj, mjegull, derdh, breshkë, fasule, sotëm +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "adhurues",
-  "autograf",
-  "barazim",
-  "ditar",
-  "negativ",
-  "territor"
+  "admiroj",
+  "breshkë",
+  "derdh",
+  "fasule",
+  "mjegull",
+  "sotëm"
  ],
  "pos_mix": {
-  "noun": 5,
+  "verb": 5,
+  "noun": 8,
   "adj": 1
  },
  "words": [
   {
-   "id": "autograf",
-   "sq": "autograf",
-   "en": "autograph",
+   "id": "admiroj",
+   "sq": "admiroj",
+   "en": "to admire",
    "glosses": [
-    "autograph"
+    "to admire"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "autograph",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to admire",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 8 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,40 +63,447 @@
      ],
      "examples": [],
      "links": [
-      "autograph"
+      "admire"
      ]
     }
    ],
-   "rank": 8942,
-   "count": 75,
-   "family": "autograf",
+   "rank": 8600,
+   "count": 78,
+   "family": "admiroj",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Active form of mediopassive admirohem (“to be admired”). Learned borrowing from Latin admiror.",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "admirova",
+     "tag": "aorist"
+    },
+    {
+     "form": "admiruar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I signed an autograph.",
+    "en": "I truly admire these players.",
     "score": [
      2,
-     4,
-     -2,
+     6,
+     -4,
      10
     ],
-    "sq": "Kam nënshkruar një autograf."
+    "sq": "Unë i admiroj shumë këta lojtarë."
    }
   },
   {
-   "id": "territor",
-   "sq": "territor",
-   "en": "territory",
+   "id": "mjegull",
+   "sq": "mjegull",
+   "en": "fog",
    "glosses": [
-    "territory"
+    "fog",
+    "haze, mist"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fog",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fog"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "haze, mist",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 93"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 80"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 90"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "haze",
+      "mist"
+     ]
+    }
+   ],
+   "rank": 8611,
+   "count": 78,
+   "family": "mjegull",
+   "is_root": true,
+   "etymology": "Apocope of dialectal mjegullë, from Proto-Albanian *meg(u)lā, from Proto-Indo-European *h₃migʰ-leh₂ (“mist”) (compare Lithuanian miglà, Polish mgła, Greek ομίχλη (omíchli)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "mist"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "përmjerr"
+   ],
+   "forms": [
+    {
+     "form": "mjegulla",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I stand in the mist.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Unë qëndroj në mjegull."
+   }
+  },
+  {
+   "id": "derdh",
+   "sq": "derdh",
+   "en": "to pour out, spill",
+   "glosses": [
+    "to pour out, spill",
+    "to cast (metals)",
+    "to deposit (money), pay in, contribute",
+    "to spend lavishly"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pour out, spill",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pour out",
+      "spill"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cast (metals)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cast"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to deposit (money), pay in, contribute",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deposit"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to spend lavishly",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 10 8 59"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 8 7 66"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 7 6 72"
+      }
+     ],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 8624,
+   "count": 78,
+   "family": "derdh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *derdza, from Proto-Indo-European *dʰorǵʰ-éye-ti, causative-iterative of the root *dʰerǵʰ- (“turn”) (compare Old Armenian դարձաւ (darjaw, “he turned (around)”)). For the semantic shift, compare French verser (“pour (out)”) from Latin versāre (“to turn, twist”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "turn"
+   ],
+   "components": [],
+   "derived": [
+    "derdhazë",
+    "derdhje",
+    "derdhtore"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "derdha",
+     "tag": "aorist"
+    },
+    {
+     "form": "derdhur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Just come, play and cum!",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Eja, luaj dhe derdh!"
+   }
+  },
+  {
+   "id": "breshkë",
+   "sq": "breshkë",
+   "en": "turtle, tortoise",
+   "glosses": [
+    "turtle, tortoise",
+    "armored scale insect (Diaspididae), European fruit lecanium",
+    "swelling on an olive tree that may be broken off and planted as a sapling",
+    "hard nutshell"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "turtle, tortoise",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "turtle",
+      "tortoise"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "armored scale insect (Diaspididae), European fruit lecanium",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Entomology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Entomology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 54 29 4"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 58 30 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "entomology",
+      "Diaspididae"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "swelling on an olive tree that may be broken off and planted as a sapling",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Botany",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Botany",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "botany",
+      "olive tree",
+      "sapling"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hard nutshell",
+     "tags": [
+      "feminine",
+      "regional"
+     ],
+     "cats": [
+      {
+       "name": "Regional Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regional",
+      "nutshell"
+     ]
+    }
+   ],
+   "rank": 8629,
+   "count": 78,
+   "family": "breshkë",
+   "is_root": true,
+   "etymology": "Probably borrowed from a Vulgar Latin *brosca, or *broscus, broxae (“frog”) (compare Romanian broască, Old French bruesche, Milanese Lombard brosco), from Ionic Ancient Greek βρόθακος (bróthakos).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "frog"
+   ],
+   "components": [],
+   "derived": [
+    "breshkëz"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "breshka",
+     "tag": "plural"
+    },
+    {
+     "form": "breçkë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Be a tortoise, not a rabbit!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Bëhu breshkë, jo lepur!"
+   }
+  },
+  {
+   "id": "fasule",
+   "sq": "fasule",
+   "en": "common bean, haricot (Phaseolus vulgaris)",
+   "glosses": [
+    "common bean, haricot (Phaseolus vulgaris)"
    ],
    "pos": [
     "noun"
@@ -105,8 +515,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "territory",
-     "tags": [],
+     "gloss": "common bean, haricot (Phaseolus vulgaris)",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -115,54 +527,76 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "mish me fasule",
+       "en": "beans with meat",
+       "offsets": [
+        [
+         8,
+         14
+        ]
+       ]
+      },
+      {
+       "sq": "fasule të njoma",
+       "en": "kidney bean",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
      "links": [
-      "territory"
+      "common bean",
+      "haricot",
+      "Phaseolus vulgaris"
      ]
     }
    ],
-   "rank": 8951,
-   "count": 75,
-   "family": "territor",
+   "rank": 8639,
+   "count": 78,
+   "family": "fasule",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Ultimately from Greek φασόλι (fasóli).",
+   "etymology_class": "derived",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You must have a certain territory.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Duhet të kesh një territor të caktuar."
-   }
+   "forms": [
+    {
+     "form": "fasule",
+     "tag": "plural"
+    },
+    {
+     "form": "fasulja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "negativ",
-   "sq": "negativ",
-   "en": "negative",
+   "id": "sotëm",
+   "sq": "sotëm",
+   "en": "modern; present-day, contemporary",
    "glosses": [
-    "negative"
+    "modern; present-day, contemporary"
    ],
    "pos": [
     "adj"
@@ -174,7 +608,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "negative",
+     "gloss": "modern; present-day, contemporary",
      "tags": [],
      "cats": [
       {
@@ -184,7 +618,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -198,13 +632,15 @@
      ],
      "examples": [],
      "links": [
-      "negative"
+      "modern",
+      "present-day",
+      "contemporary"
      ]
     }
    ],
-   "rank": 8973,
-   "count": 75,
-   "family": "negativ",
+   "rank": 8654,
+   "count": 78,
+   "family": "sotëm",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -213,264 +649,103 @@
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Today's image is here.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Imazhi i sotëm është këtu."
+   }
+  },
+  {
+   "id": "admirues",
+   "sq": "admirues",
+   "en": "admirer, fan",
+   "glosses": [
+    "admirer, fan"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "admirer, fan",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -s (agent)",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "admirer",
+      "fan"
+     ]
+    }
+   ],
+   "rank": 18882,
+   "count": 28,
+   "family": "admiroj",
+   "is_root": false,
+   "etymology": "From admiroj (“to admire”) + -s.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "admiroj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "negative",
+     "form": "admirues",
+     "tag": "plural"
+    },
+    {
+     "form": "admiruese",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is negative liberalism?",
+    "en": "She had many admirers.",
     "score": [
      1,
      4,
      -3,
      10
     ],
-    "sq": "Çfarë është liberalizmi negativ?"
-   }
-  },
-  {
-   "id": "barazim",
-   "sq": "barazim",
-   "en": "identity",
-   "glosses": [
-    "identity"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "identity",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "barazim i gradës së dytë",
-       "en": "quadratics equation",
-       "offsets": [
-        [
-         0,
-         7
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "mathematics",
-      "identity"
-     ]
-    }
-   ],
-   "rank": 8978,
-   "count": 75,
-   "family": "barazim",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "barazimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "ditar",
-   "sq": "ditar",
-   "en": "diary",
-   "glosses": [
-    "diary"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "diary",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "diary"
-     ]
-    }
-   ],
-   "rank": 8992,
-   "count": 74,
-   "family": "ditar",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ditarë",
-     "tag": "plural"
-    },
-    {
-     "form": "ditari",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Maybe even a diary.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Mbase edhe ditar."
-   }
-  },
-  {
-   "id": "adhurues",
-   "sq": "adhurues",
-   "en": "admirer",
-   "glosses": [
-    "admirer"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "admirer",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "admirer"
-     ]
-    }
-   ],
-   "rank": 8999,
-   "count": 74,
-   "family": "adhurues",
-   "is_root": true,
-   "etymology": "From adhuroj.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "adhurues",
-     "tag": "plural"
-    },
-    {
-     "form": "adhuruesi",
-     "tag": "definite"
-    },
-    {
-     "form": "adhuruese",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are not Christians as many fans might think.",
-    "score": [
-     1,
-     9,
-     -8,
-     10
-    ],
-    "sq": "Ata nuk janë të krishterë siç mendojnë shumë adhurues."
+    "sq": "Ajo kishte shumë admirues."
    }
   }
  ]

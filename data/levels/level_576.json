@@ -1,85 +1,265 @@
 {
  "level": 576,
- "title": "jetësor, vidh, step, palcë, vulë, evropian +4",
- "root": "",
- "root_gloss": "",
+ "title": "fill",
+ "root": "fill",
+ "root_gloss": "at once, immediately, alone",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 3,
  "families": [
-  "evropian",
-  "jetësor",
-  "palcë",
-  "step",
-  "vidh",
-  "vulë"
+  "fill"
  ],
  "pos_mix": {
-  "adj": 4,
-  "noun": 13
+  "adv": 2,
+  "noun": 1,
+  "verb": 2
  },
  "words": [
   {
-   "id": "jetësor",
-   "sq": "jetësor",
-   "en": "of or pertaining to life",
+   "id": "fill",
+   "sq": "fill",
+   "en": "at once, immediately, alone",
    "glosses": [
-    "of or pertaining to life",
-    "vital, essential"
+    "at once, immediately, alone",
+    "instant",
+    "thread, yarn"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "adv",
+    "adv",
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "adverb",
+    "adverb",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "of or pertaining to life",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at once, immediately, alone",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "pertaining"
+      "immediately",
+      "alone"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "vital, essential",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "instant",
      "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "instant"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "thread, yarn",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "29 0 71"
       }
      ],
      "examples": [],
      "links": [
-      "vital",
-      "essential"
+      "thread",
+      "yarn"
      ]
     }
    ],
-   "rank": 19898,
-   "count": 26,
-   "family": "jetësor",
+   "rank": 12209,
+   "count": 50,
+   "family": "fill",
    "is_root": true,
+   "etymology": "Borrowed from Latin fīlum (“thread”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "thread"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fije",
+     "tag": "plural"
+    },
+    {
+     "form": "filli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And this is where our story begins.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Dhe këtu zë fill historia jonë."
+   }
+  },
+  {
+   "id": "filloj",
+   "sq": "filloj",
+   "en": "to start, to begin",
+   "glosses": [
+    "to start, to begin"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to start, to begin",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Unë fillova të lexoj librin tim dje.",
+       "en": "I started to read my book yesterday.",
+       "offsets": [
+        [
+         4,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "start",
+      "begin"
+     ]
+    }
+   ],
+   "rank": 1055,
+   "count": 894,
+   "family": "fill",
+   "is_root": false,
+   "etymology": "From fill (“thread”) + -oj, with sense development \"to take the thread\" > \"to begin\", as evidenced by the phrase zë filloj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "thread"
+   ],
+   "components": [
+    {
+     "word": "fill",
+     "role": "prefix"
+    },
+    {
+     "word": "as",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fillova",
+     "tag": "aorist"
+    },
+    {
+     "form": "filluar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "filluar",
+   "sq": "filluar",
+   "en": "past participle of filloj (to start)",
+   "glosses": [
+    "past participle of filloj (to start)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of filloj (to start)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "filloj"
+    }
+   ],
+   "rank": 679,
+   "count": 1492,
+   "family": "fill",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -87,683 +267,17 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "jetësore",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Such faith is vital.",
-    "score": [
-     1,
-     6,
-     -5,
-     8
-    ],
-    "sq": "Një besim i tillë është jetësor."
-   }
-  },
-  {
-   "id": "vidh",
-   "sq": "vidh",
-   "en": "English elm (Ulmus procera)",
-   "glosses": [
-    "English elm (Ulmus procera)",
-    "European nettle tree, hackberry (Celtis australis)"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "English elm (Ulmus procera)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "English elm"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "European nettle tree, hackberry (Celtis australis)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "European nettle tree",
-      "hackberry",
-      "Celtis australis"
-     ]
-    }
-   ],
-   "rank": 19919,
-   "count": 26,
-   "family": "vidh",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *wīdza, from Proto-Indo-European *winǵos (compare Lithuanian vi̇̀nkšna, Polish wiąz), variant of *wiǵo (compare English wych elm, Northern Kurdish bizî). Alternatively from Proto-Indo-European *widʰu-, in which case it could be linked with Old Dutch widu, Old Norse viðr (Danish and Swedish ved).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "vidhëz",
-    "vidhishtë",
-    "vidhore"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "vidha",
-     "tag": "plural"
-    },
-    {
-     "form": "vidhi",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Lie to lie and steal to steal!",
-    "score": [
-     4,
-     7,
-     -3,
-     10
-    ],
-    "sq": "Gënje të gënjejmë e vidh të vjedhim!"
-   }
-  },
-  {
-   "id": "step",
-   "sq": "step",
-   "en": "pointed tip",
-   "glosses": [
-    "pointed tip"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pointed tip",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "pointed",
-      "tip"
-     ]
-    }
-   ],
-   "rank": 19925,
-   "count": 26,
-   "family": "step",
-   "is_root": true,
-   "etymology": "From cep (“corner, angle, edge, tip”) via a metathesis.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "stepa",
-     "tag": "plural"
-    },
-    {
-     "form": "stepi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "The woman paused for a moment.",
-    "score": [
-     2,
-     6,
-     -4,
-     8
-    ],
-    "sq": "Për një moment, gruaja u step."
-   }
-  },
-  {
-   "id": "palcë",
-   "sq": "palcë",
-   "en": "bone marrow, inner part of tree",
-   "glosses": [
-    "bone marrow, inner part of tree",
-    "core, heart (of something)",
-    "unripe, soft"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "adj"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bone marrow, inner part of tree",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 39 20"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50 0"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "marrow",
-      "tree"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "core, heart (of something)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 39 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "core",
-      "heart"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "unripe, soft",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 39 20"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50 0"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "unripe",
-      "soft"
-     ]
-    }
-   ],
-   "rank": 19949,
-   "count": 26,
-   "family": "palcë",
-   "is_root": true,
-   "etymology": "From palë.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "palcëe",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They were soaked to the core.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Ishin lagur deri në palcë."
-   }
-  },
-  {
-   "id": "vulë",
-   "sq": "vulë",
-   "en": "stamp (printing tool), rubber stamp",
-   "glosses": [
-    "stamp (printing tool), rubber stamp",
-    "seal (mark)",
-    "brand (on cattle)",
-    "mark, sign",
-    "scar",
-    "stamp (on mail), postage stamp",
-    "stigma"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stamp (printing tool), rubber stamp",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 4 4 4 20 21 6"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "38 6 6 6 28 7 9"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 5 5 5 19 6 8"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "stamp",
-      "rubber stamp"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "seal (mark)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "seal"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "brand (on cattle)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "brand"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mark, sign",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mark",
-      "sign"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "scar",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "scar"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stamp (on mail), postage stamp",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "stamp",
-      "postage stamp"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stigma",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "stigma"
-     ]
-    }
-   ],
-   "rank": 19971,
-   "count": 26,
-   "family": "vulë",
-   "is_root": true,
-   "etymology": "Borrowed from Greek βούλα (voúla), from Latin bulla.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "vula-vula",
-    "vulëgdhëndës",
-    "vulëharruar",
-    "vulëhumbur",
-    "vulëmbajtës",
-    "vulëpunues",
-    "vulëzi",
-    "vuloj"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "vula",
-     "tag": "plural"
-    },
-    {
-     "form": "bulë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You quickly get a stamp.",
+    "en": "Just get started.",
     "score": [
      0,
-     6,
-     -6,
+     4,
+     -4,
      10
     ],
-    "sq": "Ju shpejt të marrë një vulë."
-   }
-  },
-  {
-   "id": "evropian",
-   "sq": "evropian",
-   "en": "European",
-   "glosses": [
-    "European",
-    "European"
-   ],
-   "pos": [
-    "adj",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "European",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -ian",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "European"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "European",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -ian",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "European"
-     ]
-    }
-   ],
-   "rank": 20035,
-   "count": 26,
-   "family": "evropian",
-   "is_root": true,
-   "etymology": "From Evropë + -ian, following French européen.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "evropianë",
-     "tag": "plural"
-    },
-    {
-     "form": "evropiani",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "European humanism demands action.",
-    "score": [
-     1,
-     4,
-     -3,
-     8
-    ],
-    "sq": "Humanizmi evropian kërkon veprim."
+    "sq": "Vetëm të marrë filluar."
    }
   }
  ]

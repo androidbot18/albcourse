@@ -1,24 +1,24 @@
 {
  "level": 81,
- "title": "jap",
- "root": "jap",
- "root_gloss": "to give",
+ "title": "gjej",
+ "root": "gjej",
+ "root_gloss": "to find",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 5,
  "families": [
-  "jap"
+  "gjej"
  ],
  "pos_mix": {
-  "verb": 7
+  "verb": 5
  },
  "words": [
   {
-   "id": "jap",
-   "sq": "jap",
-   "en": "to give",
+   "id": "gjej",
+   "sq": "gjej",
+   "en": "to find",
    "glosses": [
-    "to give"
+    "to find"
    ],
    "pos": [
     "verb"
@@ -30,10 +30,8 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to give",
-     "tags": [
-      "Tosk"
-     ],
+     "gloss": "to find",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -42,13 +40,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 11 entries",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -56,49 +54,51 @@
      ],
      "examples": [],
      "links": [
-      "give"
+      "find"
      ]
     }
    ],
-   "rank": 316,
-   "count": 3286,
-   "family": "jap",
+   "rank": 298,
+   "count": 3520,
+   "family": "gjej",
    "is_root": true,
-   "etymology": "Variant of dialectal ap, from Proto-Albanian *apa, from Proto-Indo-European *h₁op-eio/e-, from *h₁ep- (“to take”). The verb is suppletive with past dhashë and participle dhënë from Proto-Indo-European *deh₃-.",
-   "etymology_class": "inherited",
+   "etymology": "From dialectal Tosk gjenj, from Old Albanian gjãnj (Bogdani), from Proto-Albanian *gadnja, from *gʰédnje/o, from Proto-Indo-European *gʰed- (compare English get, Greek κτήση (ktísi, “possession”), Slovene gádati (“to guess”)). First attested in Buzuku's work Meshari as E ju të më lypëni e të mos më vgjani (And you to search for me and not find me).",
+   "etymology_class": null,
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "possession"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhashë",
+     "form": "gjeta",
      "tag": "aorist"
     },
     {
-     "form": "dhënë",
+     "form": "gjetur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "give you this chance.",
+    "en": "Find them today.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "ju jap këtë mundësi."
+    "sq": "Gjej të tyre sot."
    }
   },
   {
-   "id": "dha",
-   "sq": "dha",
-   "en": "he/she/it (once did) gave (from jap, to give)",
+   "id": "gjeta",
+   "sq": "gjeta",
+   "en": "I (once did) found (from gjej, to find)",
    "glosses": [
-    "he/she/it (once did) gave (from jap, to give)"
+    "I (once did) found (from gjej, to find)"
    ],
    "pos": [
     "verb"
@@ -110,13 +110,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "he/she/it (once did) gave (from jap, to give)",
+     "gloss": "I (once did) found (from gjej, to find)",
      "tags": [
       "aorist",
+      "first-person",
       "form-of",
       "indicative",
-      "singular",
-      "third-person"
+      "singular"
      ],
      "cats": [
       {
@@ -126,7 +126,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -139,12 +139,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "jap"
+     "is_form_of": "gjej"
     }
    ],
-   "rank": 729,
-   "count": 1388,
-   "family": "jap",
+   "rank": 558,
+   "count": 1853,
+   "family": "gjej",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -156,22 +156,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "She gave life.",
+    "en": "I found this.",
     "score": [
      1,
      4,
      -3,
      10
     ],
-    "sq": "Ajo i dha jetë."
+    "sq": "Unë e gjeta këtë."
    }
   },
   {
-   "id": "jepni",
-   "sq": "jepni",
-   "en": "you (pl) give (from jap, to give)",
+   "id": "gjeti",
+   "sq": "gjeti",
+   "en": "he/she/it (once did) found (from gjej, to find)",
    "glosses": [
-    "you (pl) give (from jap, to give)"
+    "he/she/it (once did) found (from gjej, to find)"
    ],
    "pos": [
     "verb"
@@ -183,46 +183,44 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (pl) give (from jap, to give)",
+     "gloss": "he/she/it (once did) found (from gjej, to find)",
      "tags": [
+      "aorist",
       "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "second-person"
+      "singular",
+      "third-person"
      ],
      "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "75 25"
+       "_dis": "5 95"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "90 10"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
+       "_dis": "7 93"
       }
      ],
      "examples": [],
-     "is_form_of": "jap"
+     "is_form_of": "gjej"
     }
    ],
-   "rank": 835,
-   "count": 1158,
-   "family": "jap",
+   "rank": 1484,
+   "count": 596,
+   "family": "gjej",
    "is_root": false,
-   "etymology": "",
+   "etymology": "Conjugation form of gjej (“to find”).",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -232,22 +230,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How much should you give?",
+    "en": "She found and did.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Sa duhet të jepni?"
+    "sq": "Ajo gjeti dhe bëri."
    }
   },
   {
-   "id": "japim",
-   "sq": "japim",
-   "en": "we give (from jap, to give)",
+   "id": "gjeja",
+   "sq": "gjeja",
+   "en": "I (used to) found (from gjej, to find)",
    "glosses": [
-    "we give (from jap, to give)"
+    "I (used to) found (from gjej, to find)"
    ],
    "pos": [
     "verb"
@@ -259,80 +257,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "we give (from jap, to give)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 1086,
-   "count": 866,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "That is how we have to give.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Kështu duhet të japim."
-   }
-  },
-  {
-   "id": "jepja",
-   "sq": "jepja",
-   "en": "I (used to) gave (from jap, to give)",
-   "glosses": [
-    "I (used to) gave (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) gave (from jap, to give)",
+     "gloss": "I (used to) found (from gjej, to find)",
      "tags": [
       "first-person",
       "form-of",
@@ -360,85 +285,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "jap"
+     "is_form_of": "gjej"
     }
    ],
-   "rank": 1429,
-   "count": 621,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Give your heart to God!",
-    "score": [
-     2,
-     3,
-     -1,
-     8
-    ],
-    "sq": "Jepja zemrën Zotit!"
-   }
-  },
-  {
-   "id": "japin",
-   "sq": "japin",
-   "en": "they give (from jap, to give)",
-   "glosses": [
-    "they give (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they give (from jap, to give)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 1475,
-   "count": 601,
-   "family": "jap",
+   "rank": 1509,
+   "count": 587,
+   "family": "gjej",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -450,91 +302,85 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They give us life.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ato na japin jetë."
-   }
-  },
-  {
-   "id": "dhashë",
-   "sq": "dhashë",
-   "en": "I (once did) gave (from jap, to give)",
-   "glosses": [
-    "I (once did) gave (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (once did) gave (from jap, to give)",
-     "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 1778,
-   "count": 491,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "Aorist form of jap. From Proto-Albanian *(e)ðaśa, from earlier *edasa, from Proto-Indo-European *deh₃- (“to give”). A suppletive verb, it occurs only in the non-present paradigm. dha and dhe come from Proto-Indo-European *h₁e-dh₃(e)s-s.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "dhata",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I gave you everything.",
+    "en": "I found the moment.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Ju dhashë gjithçka."
+    "sq": "Unë gjeja momentin."
+   }
+  },
+  {
+   "id": "gjetur",
+   "sq": "gjetur",
+   "en": "past participle of gjej (to find)",
+   "glosses": [
+    "past participle of gjej (to find)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of gjej (to find)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "gjej"
+    }
+   ],
+   "rank": 313,
+   "count": 3317,
+   "family": "gjej",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They're found!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ata janë gjetur!"
    }
   }
  ]

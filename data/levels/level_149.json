@@ -1,54 +1,121 @@
 {
  "level": 149,
- "title": "shkollë",
- "root": "shkollë",
- "root_gloss": "school",
+ "title": "zë",
+ "root": "zë",
+ "root_gloss": "to take, occupy",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "shkollë"
+  "zë"
  ],
  "pos_mix": {
-  "noun": 3
+  "verb": 5,
+  "noun": 9
  },
  "words": [
   {
-   "id": "shkollë",
-   "sq": "shkollë",
-   "en": "school",
+   "id": "zë",
+   "sq": "zë",
+   "en": "to take, occupy",
    "glosses": [
-    "school"
+    "to take, occupy",
+    "to do, make",
+    "to grab, snatch, seize",
+    "to catch",
+    "soul, mind",
+    "willpower",
+    "voice",
+    "characteristic sound of something",
+    "vote",
+    "item (of goods, on a list), entry (in a ledger or dictionary)",
+    "reputation"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to take, occupy",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "take",
+      "occupy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to do, make",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "do",
+      "make"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to grab, snatch, seize",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "grab",
+      "snatch",
+      "seize"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to catch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "catch"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "school",
+     "gloss": "soul, mind",
      "tags": [
-      "feminine"
+      "Arbëresh"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Arbëresh Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -56,63 +123,82 @@
      ],
      "examples": [],
      "links": [
-      "school"
+      "soul",
+      "mind"
      ]
-    }
-   ],
-   "rank": 695,
-   "count": 1450,
-   "family": "shkollë",
-   "is_root": true,
-   "etymology": "From an earlier skollë attested in Arbëresh, from Latin schola through Vulgar Latin, from Ancient Greek σχολή (skholḗ).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shkolla",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Back to school.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Sërish në shkollë."
-   }
-  },
-  {
-   "id": "shkolla",
-   "sq": "shkolla",
-   "en": "school, plural (from shkollë)",
-   "glosses": [
-    "school, plural (from shkollë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "school, plural (from shkollë)",
+     "gloss": "willpower",
      "tags": [
-      "accusative",
-      "form-of",
-      "indefinite",
-      "nominative",
-      "plural"
+      "Arbëresh"
+     ],
+     "cats": [
+      {
+       "name": "Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "willpower"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "voice",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "voice"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "characteristic sound of something",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 24 9 9 18 0 0 12 0 10 9"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vote",
+     "tags": [
+      "dated",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vote"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "item (of goods, on a list), entry (in a ledger or dictionary)",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
@@ -120,57 +206,90 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "59 41"
+       "_dis": "3 8 3 3 25 9 9 16 9 12 3"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "3 3 3 3 39 9 9 9 9 10 3"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "4 4 4 4 38 8 8 8 8 11 4"
       }
      ],
      "examples": [],
-     "is_form_of": "shkollë"
+     "links": [
+      "item",
+      "entry"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reputation",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "reputation"
+     ]
     }
    ],
-   "rank": 1374,
-   "count": 645,
-   "family": "shkollë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 934,
+   "count": 1025,
+   "family": "zë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *j́u̯anʉh, from Proto-Indo-European *ǵʰwonos. Compare Messapic den (“voice”) Serbo-Croatian zvono (“bell”), Armenian ձայն (jayn, “voice”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
+   "derived": [
+    "zënkë"
+   ],
+   "related": [
+    "i zënë",
+    "zihem",
+    "nxë",
+    "zeje"
+   ],
+   "forms": [
+    {
+     "form": "zura",
+     "tag": "aorist"
+    },
+    {
+     "form": "zënë",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then, even the school.",
+    "en": "I didn't make a sound.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Pastaj edhe shkolla."
+    "sq": "Nuk bëra zë."
    }
   },
   {
-   "id": "shkollës",
-   "sq": "shkollës",
-   "en": "the school, singular (from shkollë)",
+   "id": "zërin",
+   "sq": "zërin",
+   "en": "the to take, singular (from zë, to take)",
    "glosses": [
-    "the school, singular (from shkollë)"
+    "the to take, singular (from zë, to take)"
    ],
    "pos": [
     "noun"
@@ -182,13 +301,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the school, singular (from shkollë)",
+     "gloss": "the to take, singular (from zë, to take)",
      "tags": [
-      "ablative",
-      "dative",
+      "accusative",
       "definite",
       "form-of",
-      "genitive",
       "singular"
      ],
      "cats": [
@@ -212,12 +329,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkollë"
+     "is_form_of": "zë"
     }
    ],
-   "rank": 1751,
-   "count": 498,
-   "family": "shkollë",
+   "rank": 1698,
+   "count": 518,
+   "family": "zë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -229,14 +346,179 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Questions about school?",
+    "en": "You need to speak up.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Pyetje rreth shkollës?"
+    "sq": "Duhet të ngrini zërin."
+   }
+  },
+  {
+   "id": "zëvendës",
+   "sq": "zëvendës",
+   "en": "deputy, vice-",
+   "glosses": [
+    "deputy, vice-"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "deputy, vice-",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "politics",
+      "deputy",
+      "vice-"
+     ]
+    }
+   ],
+   "rank": 6237,
+   "count": 115,
+   "family": "zë",
+   "is_root": false,
+   "etymology": "zë (“take”) + vend (“place”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [
+    "take",
+    "place"
+   ],
+   "components": [
+    {
+     "word": "zë",
+     "role": "prefix"
+    },
+    {
+     "word": "vend",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zëvendës",
+     "tag": "plural"
+    },
+    {
+     "form": "zëvendësi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "His deputy was Squirrelflight.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Zëvendës i tij ishte Squirrelflight."
+   }
+  },
+  {
+   "id": "zënë",
+   "sq": "zënë",
+   "en": "past participle of zë (to take)",
+   "glosses": [
+    "past participle of zë (to take)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of zë (to take)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "zë"
+    }
+   ],
+   "rank": 680,
+   "count": 1492,
+   "family": "zë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You are busy.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Ju jeni të zënë."
    }
   }
  ]

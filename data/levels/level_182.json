@@ -1,24 +1,25 @@
 {
  "level": 182,
- "title": "paguaj",
- "root": "paguaj",
- "root_gloss": "to pay",
+ "title": "pranoj",
+ "root": "pranoj",
+ "root_gloss": "to accept",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 3,
  "families": [
-  "paguaj"
+  "pranoj"
  ],
  "pos_mix": {
-  "verb": 2
+  "verb": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "paguaj",
-   "sq": "paguaj",
-   "en": "to pay",
+   "id": "pranoj",
+   "sq": "pranoj",
+   "en": "to accept",
    "glosses": [
-    "to pay"
+    "to accept"
    ],
    "pos": [
     "verb"
@@ -30,8 +31,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to pay",
-     "tags": [],
+     "gloss": "to accept",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -54,49 +57,127 @@
      ],
      "examples": [],
      "links": [
-      "pay"
+      "accept"
      ]
     }
    ],
-   "rank": 973,
-   "count": 977,
-   "family": "paguaj",
+   "rank": 945,
+   "count": 1005,
+   "family": "pranoj",
    "is_root": true,
-   "etymology": "Ultimately from Latin pācāre. Source language is uncertain, as is the possibility of a direct borrowing. Possibly from Italian pagare or alternatively a derivative of pagë, also from Italian.",
-   "etymology_class": "derived",
+   "etymology": "Possibly from pranë (“close”).",
+   "etymology_class": null,
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "close"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pagova",
+     "form": "pranova",
      "tag": "aorist"
     },
     {
-     "form": "paguar",
+     "form": "pranuar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "How much do I need to pay?",
+    "corpus": "HPLT",
+    "en": "I accept orders.",
     "score": [
-     0,
-     4,
-     -4,
-     8
+     1,
+     3,
+     -2,
+     10
     ],
-    "sq": "Sa duhet të paguaj?"
+    "sq": "Unë pranoj urdhërat."
    }
   },
   {
-   "id": "paguar",
-   "sq": "paguar",
-   "en": "past participle of paguaj (to pay)",
+   "id": "pranim",
+   "sq": "pranim",
+   "en": "acceptance, approval, admission",
    "glosses": [
-    "past participle of paguaj (to pay)"
+    "acceptance, approval, admission"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "acceptance, approval, admission",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "acceptance",
+      "approval",
+      "admission"
+     ]
+    }
+   ],
+   "rank": 8285,
+   "count": 82,
+   "family": "pranoj",
+   "is_root": false,
+   "etymology": "From pranoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pranoj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is a look of recognition.",
+    "score": [
+     3,
+     5,
+     -2,
+     10
+    ],
+    "sq": "Është një vështrim për pranim."
+   }
+  },
+  {
+   "id": "pranuar",
+   "sq": "pranuar",
+   "en": "past participle of pranoj (to accept)",
+   "glosses": [
+    "past participle of pranoj (to accept)"
    ],
    "pos": [
     "verb"
@@ -108,7 +189,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "past participle of paguaj (to pay)",
+     "gloss": "past participle of pranoj (to accept)",
      "tags": [
       "form-of",
       "participle",
@@ -135,12 +216,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "paguaj"
+     "is_form_of": "pranoj"
     }
    ],
-   "rank": 1079,
-   "count": 873,
-   "family": "paguaj",
+   "rank": 1910,
+   "count": 453,
+   "family": "pranoj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -152,14 +233,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Paid killers.",
+    "en": "Not accepting patients.",
     "score": [
-     0,
+     1,
      3,
-     -3,
+     -2,
      10
     ],
-    "sq": "Vrasës të paguar."
+    "sq": "Mos pranuar pacientë."
    }
   }
  ]

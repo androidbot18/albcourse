@@ -1,38 +1,40 @@
 {
  "level": 710,
- "title": "llaç, molekulë, kalb, ajkë, lagë, ter +4",
+ "title": "rrebesh, tavë, avari, mekanikë, shul, llaf +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "ajkë",
-  "kalb",
-  "lagë",
-  "llaç",
-  "molekulë",
-  "ter"
+  "avari",
+  "llaf",
+  "mekanikë",
+  "rrebesh",
+  "shul",
+  "tavë"
  ],
  "pos_mix": {
-  "noun": 15,
-  "verb": 2,
-  "adj": 1
+  "noun": 14,
+  "adv": 2
  },
  "words": [
   {
-   "id": "llaç",
-   "sq": "llaç",
-   "en": "mortar",
+   "id": "rrebesh",
+   "sq": "rrebesh",
+   "en": "downpour, rainstorm, shower, torrent",
    "glosses": [
-    "mortar",
-    "mud, sludge"
+    "downpour, rainstorm, shower, torrent",
+    "swarm, onrush",
+    "calamity, catastrophe, misfortune"
    ],
    "pos": [
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun"
    ],
@@ -40,7 +42,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mortar",
+     "gloss": "downpour, rainstorm, shower, torrent",
      "tags": [
       "masculine"
      ],
@@ -50,68 +52,282 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "52 38 10"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 15 17 5 20 22"
+       "_dis": "61 31 8"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 15 17 5 20 23"
+       "_dis": "83 13 4"
       }
      ],
      "examples": [],
      "links": [
-      "mortar"
+      "downpour",
+      "rainstorm",
+      "shower"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mud, sludge",
+     "gloss": "swarm, onrush",
      "tags": [
+      "figuratively",
       "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "swarm",
+      "onrush"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "calamity, catastrophe, misfortune",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "calamity",
+      "catastrophe",
+      "misfortune"
+     ]
+    }
+   ],
+   "rank": 42217,
+   "count": 9,
+   "family": "rrebesh",
+   "is_root": true,
+   "etymology": "Related to rribë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "rrebeshtë"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Everything came like a downpour.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Gjithçka vinte si një rrebesh."
+   }
+  },
+  {
+   "id": "tavë",
+   "sq": "tavë",
+   "en": "roasting pan",
+   "glosses": [
+    "roasting pan"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "roasting pan",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
+       "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 15 17 5 20 22"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 15 17 5 20 23"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "mud",
-      "sludge"
+      "roasting",
+      "pan"
      ]
     }
    ],
-   "rank": 43099,
-   "count": 8,
-   "family": "llaç",
+   "rank": 42222,
+   "count": 9,
+   "family": "tavë",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish تاوه (tava).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Food category: casserole 1.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Kategoria e ushqimit: tavë 1."
+   }
+  },
+  {
+   "id": "avari",
+   "sq": "avari",
+   "en": "together",
+   "glosses": [
+    "together"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "together",
+     "tags": [
+      "Gheg"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "together"
+     ]
+    }
+   ],
+   "rank": 42266,
+   "count": 9,
+   "family": "avari",
+   "is_root": true,
+   "etymology": "A Gheg dialect word. From a-var-i, where 'a' reflects the Albanian privative particle and var (“to hang, depend on”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "cause defects in the product.",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "Kjo mund të shkaktojë avari të produktit."
+   }
+  },
+  {
+   "id": "mekanikë",
+   "sq": "mekanikë",
+   "en": "mechanics",
+   "glosses": [
+    "mechanics"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mechanics",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "physics",
+      "mechanics"
+     ]
+    }
+   ],
+   "rank": 42418,
+   "count": 9,
+   "family": "mekanikë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -122,61 +338,177 @@
    "related": [],
    "forms": [
     {
-     "form": "lloç",
-     "tag": "alternative"
+     "form": "makanika",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "One needed stones and mortar.",
+    "en": "Simple and fun mechanics.",
     "score": [
-     3,
+     0,
      5,
-     -2,
+     -5,
      10
     ],
-    "sq": "I duheshin gurë dhe llaç."
+    "sq": "Mekanikë të thjeshtë dhe argëtues."
    }
   },
   {
-   "id": "molekulë",
-   "sq": "molekulë",
-   "en": "molecule",
+   "id": "shul",
+   "sq": "shul",
+   "en": "one-sided, crooked",
    "glosses": [
-    "molecule",
-    "very small part"
+    "one-sided, crooked",
+    "wooden pole",
+    "gate bar, door bolt",
+    "gun bolt",
+    "roller bar (of loom)",
+    "boatmast",
+    "tie beam"
    ],
    "pos": [
+    "adv",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "adverb",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "one-sided, crooked",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 9 6 6 15 13 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "one-sided",
+      "crooked"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "molecule",
+     "gloss": "wooden pole",
      "tags": [
-      "feminine"
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pole"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gate bar, door bolt",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bar",
+      "bolt"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gun bolt",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "roller bar (of loom)",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Chemistry",
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 9 6 6 15 13 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "loom"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "boatmast",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Nautical",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Chemistry",
+       "orig": "sq:Nautical",
        "langcode": "sq"
       },
       {
-       "name": "Physics",
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 9 6 6 15 13 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nautical",
+      "mast"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tie beam",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Architecture",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Physics",
+       "orig": "sq:Architecture",
        "langcode": "sq"
       },
       {
@@ -184,171 +516,73 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "94 6"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "physics",
-      "chemistry",
-      "molecule"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "very small part",
-     "tags": [
-      "excessive",
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [
+       "_dis": "9 2 1 1 2 25 61"
+      },
       {
-       "name": "Albanian hyperboles",
+       "name": "Albanian terms prefixed with sh-",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "27 9 6 6 15 13 24"
       }
      ],
      "examples": [],
      "links": [
-      "part"
+      "architecture",
+      "tie beam"
      ]
     }
    ],
-   "rank": 43119,
+   "rank": 42479,
    "count": 8,
-   "family": "molekulë",
+   "family": "shul",
    "is_root": true,
-   "etymology": "Borrowed from French molécule.",
-   "etymology_class": "borrowed",
+   "etymology": "Possibly from Proto-Albanian *kśul(V)n, from a regional Proto-Indo-European *kséw-lo-, based on comparison to Ancient Greek ξύλον (xúlon, “timber, beam”) and Proto-Slavic *šulo (“wooden post, pole”). Most support a\nProto-Albanian origin, whereas Orel, on the other hand, considers a South Slavic origin; compare Serbo-Croatian šȗlj (“block of wood”). Beekes considers these cognates, along with possibly Proto-Germanic *sūliz, *sauliz (“beam, post, pillar”), to be ultimately of substrate origin rather than an inherited Indo-European word.",
+   "etymology_class": "root",
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "molekular"
+   "derived": [],
+   "related": [
+    "shilor"
    ],
-   "related": [],
    "forms": [
     {
-     "form": "molekula",
+     "form": "shule",
      "tag": "plural"
+    },
+    {
+     "form": "shuli",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is a small molecule drug?",
+    "en": "Contains fastener operators, operators, and slide fill operators.",
     "score": [
-     1,
+     5,
      8,
-     -7,
+     -3,
      10
     ],
-    "sq": "Çfarë është një ilaç me molekulë të vogël?"
+    "sq": "Përmban operatorët shul, operatorët, dhe rrëshqitje mbushur operatorët."
    }
   },
   {
-   "id": "kalb",
-   "sq": "kalb",
-   "en": "to rot, go bad",
+   "id": "llaf",
+   "sq": "llaf",
+   "en": "word",
    "glosses": [
-    "to rot, go bad"
+    "word",
+    "chat, conversation",
+    "gossip, hearsay, slander"
    ],
    "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rot, go bad",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "rot",
-      "go",
-      "bad"
-     ]
-    }
-   ],
-   "rank": 43222,
-   "count": 8,
-   "family": "kalb",
-   "is_root": true,
-   "etymology": "From Proto-Indo-European *golbʰ-, *gʷolbʰ- (“conglobate, swell”). Compare Latin globus (“a round body, ball, sphere, globe, heap, clump”), Old Norse kalfabōt (“hip area, hip joint of meat”), Old High German wazzarkalb (“swelling, tumescence through water”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kalba",
-     "tag": "aorist"
-    },
-    {
-     "form": "kalbur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Old furniture often have rust or dry rot.",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Mobilje të vjetra shpesh kanë ndryshk ose kalb thatë."
-   }
-  },
-  {
-   "id": "ajkë",
-   "sq": "ajkë",
-   "en": "cream",
-   "glosses": [
-    "cream",
-    "scum (of milk)",
-    "wool grease, hair grease",
-    "best part of something",
-    "clotted cream"
-   ],
-   "pos": [
-    "noun",
-    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun",
     "noun",
     "noun"
@@ -357,343 +591,39 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cream",
+     "gloss": "word",
      "tags": [
-      "feminine"
+      "colloquial",
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "cream"
+      "word"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "scum (of milk)",
+     "gloss": "chat, conversation",
      "tags": [
-      "feminine"
+      "colloquial",
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "scum"
+      "chat",
+      "conversation"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wool grease, hair grease",
+     "gloss": "gossip, hearsay, slander",
      "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "1 4 4 56 35"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "1 3 2 58 36"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "1 2 2 58 37"
-      }
-     ],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "best part of something",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "best",
-      "part"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "clotted cream",
-     "tags": [
-      "dialectal",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 43228,
-   "count": 8,
-   "family": "ajkë",
-   "is_root": true,
-   "etymology": "From older dialectal alkë, from Proto-Albanian *alkā, from Proto-Indo-European *h₁olHk-. Compare Lithuanian álkti (“to be hungry”), Slovene lákati (“to be hungry, greedy, starving”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ajka",
-     "tag": "plural"
-    },
-    {
-     "form": "alkë",
-     "tag": "alternative"
-    },
-    {
-     "form": "hakë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "lagë",
-   "sq": "lagë",
-   "en": "raindrop",
-   "glosses": [
-    "raindrop",
-    "moisture, dampness",
-    "part of the globe covered with water",
-    "In the game of lagaterë, the wet side of a rock.",
-    "small amount, bit (of liquid), drop"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "raindrop",
-     "tags": [
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "raindrop"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "moisture, dampness",
-     "tags": [
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "moisture",
-      "dampness"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "part of the globe covered with water",
-     "tags": [
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian requests for English equivalent term",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "globe",
-      "water"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "In the game of lagaterë, the wet side of a rock.",
-     "tags": [
-      "feminine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 13 20 40 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lagaterë",
-      "wet",
-      "rock"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "small amount, bit (of liquid), drop",
-     "tags": [
-      "feminine",
-      "figuratively",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 12 27 12 37"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 9 17 9 58"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "amount",
-      "bit",
-      "drop"
-     ]
-    }
-   ],
-   "rank": 43234,
-   "count": 8,
-   "family": "lagë",
-   "is_root": true,
-   "etymology": "Akin to lag (“to wet, moisten”), lëgatë (“marsh”) and possibly laç (“wetland”). Likely a formation from Proto-Indo-European *welg- (“wet, damp”), akin to Proto-Slavic *vòlga (“moisture”). Alternatively borrowed from South Slavic descendants of it, compare Serbo-Croatian vlȁga /вла̏га, Aromanian vlagã (“moisture”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [
-    "marsh",
-    "wetland"
-   ],
-   "components": [],
-   "derived": [
-    "lagcë",
-    "lagësirë",
-    "lagësoj",
-    "i lagësht",
-    "i lagët",
-    "lagush"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "ter",
-   "sq": "ter",
-   "en": "uncastrated",
-   "glosses": [
-    "uncastrated",
-    "to dry, dry off",
-    "bull"
-   ],
-   "pos": [
-    "adj",
-    "verb",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "verb",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "uncastrated",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "dem ter",
-       "en": "uncastrated bull",
-       "offsets": [
-        [
-         4,
-         7
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "uncastrated"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dry, dry off",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "dry",
-      "dry off"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bull",
-     "tags": [
+      "colloquial",
+      "in-plural",
       "masculine"
      ],
      "cats": [
@@ -702,57 +632,69 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "12 53 34"
+       "_dis": "18 18 64"
       },
       {
-       "name": "Cattle",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "orig": "sq:Cattle",
-       "langcode": "sq",
-       "_dis": "0 100 0"
+       "_dis": "19 19 62"
       },
       {
-       "name": "Male animals",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "orig": "sq:Male animals",
-       "langcode": "sq",
-       "_dis": "0 100 0"
+       "_dis": "10 10 79"
       }
      ],
      "examples": [],
      "links": [
-      "bull"
+      "gossip",
+      "hearsay",
+      "slander"
      ]
     }
    ],
-   "rank": 43240,
+   "rank": 42505,
    "count": 8,
-   "family": "ter",
+   "family": "llaf",
    "is_root": true,
-   "etymology": "From Proto-Albanian *taura, from Proto-Indo-European *táwros.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish لاف (lâf, “word; chat”), from Classical Persian لاف (lāf).",
+   "etymology_class": "borrowed",
    "source_lang": null,
-   "parents": [
-    "dry"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "llafator",
+    "llafemadh",
+    "llafepakë",
+    "llafeshumë",
+    "llafje",
+    "llafoj",
+    "llafos"
+   ],
+   "related": [
+    "llafazan"
+   ],
    "forms": [
     {
-     "form": "tera",
-     "tag": "aorist"
-    },
-    {
-     "form": "terur",
-     "tag": "participle"
+     "form": "llafe",
+     "tag": "plural"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They did not talk, did not say a word.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Ata nuk biseduan, nuk thanë një llaf."
+   }
   }
  ]
 }

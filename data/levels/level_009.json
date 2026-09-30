@@ -1,108 +1,137 @@
 {
  "level": 9,
- "title": "ky",
- "root": "ky",
- "root_gloss": "this",
+ "title": "kam 1/2",
+ "root": "kam",
+ "root_gloss": "to have",
  "part": 1,
- "parts": 1,
- "word_count": 7,
+ "parts": 2,
+ "word_count": 9,
  "families": [
-  "ky"
+  "kam"
  ],
  "pos_mix": {
-  "det": 7
+  "verb": 9,
+  "noun": 2
  },
  "words": [
   {
-   "id": "ky",
-   "sq": "ky",
-   "en": "this",
+   "id": "kam",
+   "sq": "kam",
+   "en": "to have",
    "glosses": [
-    "this"
+    "to have",
+    "there is"
    ],
    "pos": [
-    "det"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "determiner"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to have",
+     "tags": [],
      "cats": [
-      {
-       "name": "Albanian determiners",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "have"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "there is",
+     "tags": [
+      "impersonal",
+      "third-person"
+     ],
+     "cats": [
       {
-       "name": "Pages with 10 entries",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "45 55"
       }
      ],
-     "examples": [
-      {
-       "sq": "Ky është libri im. — Ky libër është i imi.",
-       "en": "This is my book. — This book is mine.",
-       "offsets": []
-      }
-     ],
+     "examples": [],
      "links": [
-      "this"
+      "there is"
      ]
     }
    ],
-   "rank": 72,
-   "count": 18648,
-   "family": "ky",
+   "rank": 31,
+   "count": 57605,
+   "family": "kam",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ka-ei, based on a pronominal element *ka and a demonstrative (see ai).",
+   "etymology": "Suppletive. The present, imperfect, and subjunctive are from Proto-Albanian *kapmi, from Proto-Indo-European *kap- (“to seize, to grasp”), cognate with Latin capiō (“take, seize”) and Proto-Germanic *habjaną (“to have, to hold”) (whence English have, German haben (“to have”), Gothic 𐌷𐌰𐌱𐌰𐌽 (haban, “to have”)). The other tenses and participle are from Proto-Albanian *pat(i)-, from Proto-Indo-European *pótis (“owner, master, host, husband”), cognate with Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti).",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
+   "related": [
+    "çka",
+    "kap"
+   ],
+   "forms": [
+    {
+     "form": "pata",
+     "tag": "aorist"
+    },
+    {
+     "form": "pasur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I have them.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Unë kam ato."
+   }
   },
   {
-   "id": "këtë",
-   "sq": "këtë",
-   "en": "accusative masculine/feminine singular of ky and kjo",
+   "id": "ke",
+   "sq": "ke",
+   "en": "you (sg) have (from kam, to have)",
    "glosses": [
-    "accusative masculine/feminine singular of ky and kjo"
+    "you (sg) have (from kam, to have)"
    ],
    "pos": [
-    "det"
+    "verb"
    ],
    "pos_labels": [
-    "determiner"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "accusative masculine/feminine singular of ky and kjo",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) have (from kam, to have)",
      "tags": [
-      "accusative",
-      "feminine",
       "form-of",
-      "masculine",
+      "indicative",
+      "present",
+      "second-person",
       "singular"
      ],
      "cats": [
@@ -113,7 +142,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 47 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -126,231 +155,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "ky"
+     "is_form_of": "kam"
     }
    ],
-   "rank": 32,
-   "count": 55649,
-   "family": "ky",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I got this one.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "I kam këtë."
-   }
-  },
-  {
-   "id": "këto",
-   "sq": "këto",
-   "en": "this, plural (from ky)",
-   "glosses": [
-    "this, plural (from ky)"
-   ],
-   "pos": [
-    "det"
-   ],
-   "pos_labels": [
-    "determiner"
-   ],
-   "sense_detail": [
-    {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, plural (from ky)",
-     "tags": [
-      "accusative",
-      "feminine",
-      "form-of",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "ky"
-    }
-   ],
-   "rank": 125,
-   "count": 10732,
-   "family": "ky",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "These include the 1. and 2.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Këto përfshijnë 1. dhe 2."
-   }
-  },
-  {
-   "id": "kësaj",
-   "sq": "kësaj",
-   "en": "this, singular (from ky)",
-   "glosses": [
-    "this, singular (from ky)"
-   ],
-   "pos": [
-    "det"
-   ],
-   "pos_labels": [
-    "determiner"
-   ],
-   "sense_detail": [
-    {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, singular (from ky)",
-     "tags": [
-      "ablative",
-      "dative",
-      "feminine",
-      "form-of",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "ky"
-    }
-   ],
-   "rank": 281,
-   "count": 4003,
-   "family": "ky",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And beyond that?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Dhe përtej kësaj?"
-   }
-  },
-  {
-   "id": "këta",
-   "sq": "këta",
-   "en": "this, plural (from ky)",
-   "glosses": [
-    "this, plural (from ky)"
-   ],
-   "pos": [
-    "det"
-   ],
-   "pos_labels": [
-    "determiner"
-   ],
-   "sense_detail": [
-    {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, plural (from ky)",
-     "tags": [
-      "accusative",
-      "form-of",
-      "masculine",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "ky"
-    }
-   ],
-   "rank": 300,
-   "count": 3508,
-   "family": "ky",
+   "rank": 40,
+   "count": 44567,
+   "family": "kam",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -362,39 +172,258 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "These are the politicians.",
+    "en": "You're right.",
     "score": [
      1,
      3,
      -2,
      8
     ],
-    "sq": "Këta janë politikanët."
+    "sq": "Ke të drejtë."
    }
   },
   {
-   "id": "këtij",
-   "sq": "këtij",
-   "en": "this, singular (from ky)",
+   "id": "kemi",
+   "sq": "kemi",
+   "en": "we have (from kam, to have)",
    "glosses": [
-    "this, singular (from ky)"
+    "we have (from kam, to have)"
    ],
    "pos": [
-    "det"
+    "verb"
    ],
    "pos_labels": [
-    "determiner"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, singular (from ky)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we have (from kam, to have)",
      "tags": [
-      "ablative",
-      "dative",
+      "first-person",
       "form-of",
-      "masculine",
+      "indicative",
+      "plural",
+      "present"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "kam"
+    }
+   ],
+   "rank": 60,
+   "count": 25320,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "We have global responsibilities.",
+    "score": [
+     2,
+     3,
+     -1,
+     8
+    ],
+    "sq": "Kemi përgjegjësi globale."
+   }
+  },
+  {
+   "id": "kanë",
+   "sq": "kanë",
+   "en": "they have (from kam, to have)",
+   "glosses": [
+    "they have (from kam, to have)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "they have (from kam, to have)",
+     "tags": [
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "kam"
+    }
+   ],
+   "rank": 99,
+   "count": 14218,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Always have been.",
+    "score": [
+     2,
+     3,
+     -1,
+     10
+    ],
+    "sq": "Gjithmonë kanë qenë."
+   }
+  },
+  {
+   "id": "keni",
+   "sq": "keni",
+   "en": "you (pl) have (from kam, to have)",
+   "glosses": [
+    "you (pl) have (from kam, to have)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (pl) have (from kam, to have)",
+     "tags": [
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "second-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 10 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "kam"
+    }
+   ],
+   "rank": 102,
+   "count": 14026,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You have no woman?",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Ju nuk keni grua?"
+   }
+  },
+  {
+   "id": "paske",
+   "sq": "paske",
+   "en": "you (sg) have (from kam, to have)",
+   "glosses": [
+    "you (sg) have (from kam, to have)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) have (from kam, to have)",
+     "tags": [
+      "admirative",
+      "form-of",
+      "present",
+      "second-person",
       "singular"
      ],
      "cats": [
@@ -405,7 +434,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -418,12 +447,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "ky"
+     "is_form_of": "kam"
     }
    ],
-   "rank": 672,
-   "count": 1525,
-   "family": "ky",
+   "rank": 1493,
+   "count": 594,
+   "family": "kam",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -435,41 +464,213 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "of this section.",
+    "en": "Because a big wound.",
+    "score": [
+     3,
+     5,
+     -2,
+     10
+    ],
+    "sq": "Paske një plagë të madhe."
+   }
+  },
+  {
+   "id": "pata",
+   "sq": "pata",
+   "en": "I (once did) had (from kam, to have)",
+   "glosses": [
+    "I (once did) had (from kam, to have)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (once did) had (from kam, to have)",
+     "tags": [
+      "aorist",
+      "first-person",
+      "form-of",
+      "indicative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 32 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "kam"
+    }
+   ],
+   "rank": 1573,
+   "count": 556,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "From Proto-Albanian *pat(i)-, derivative of Proto-Indo-European *pótis (“owner, master, host, husband”). Cognate to Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti). A suppletive verb, which occurs in the participle and the aorist, as well as in the tenses and moods derived from these stems.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I didn't have children.",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Nuk pata fëmijë."
+   }
+  },
+  {
+   "id": "pasuri",
+   "sq": "pasuri",
+   "en": "wealth",
+   "glosses": [
+    "wealth",
+    "fortune"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wealth",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wealth"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fortune",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 68"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fortune"
+     ]
+    }
+   ],
+   "rank": 3302,
+   "count": 243,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "From pasur (participle) + -i (noun suffix); pasur from pasë.\nCognate to Gheg Albanian pasoni (“wealth, fortune”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pasur",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "pasuria",
+    "pasurtë"
+   ],
+   "related": [
+    "pasuroj",
+    "pasurohem",
+    "pasuruar",
+    "pasur",
+    "patur"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Heritage is wealth.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "të këtij neni."
+    "sq": "Trashëgimia është pasuri."
    }
   },
   {
-   "id": "këtyre",
-   "sq": "këtyre",
-   "en": "this, plural (from ky)",
+   "id": "ketë",
+   "sq": "ketë",
+   "en": "he/she/it (subjunctive) have (from kam, to have)",
    "glosses": [
-    "this, plural (from ky)"
+    "he/she/it (subjunctive) have (from kam, to have)"
    ],
    "pos": [
-    "det"
+    "verb"
    ],
    "pos_labels": [
-    "determiner"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, plural (from ky)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (subjunctive) have (from kam, to have)",
      "tags": [
-      "ablative",
-      "dative",
-      "feminine",
       "form-of",
-      "masculine",
-      "plural"
+      "present",
+      "singular",
+      "subjunctive",
+      "third-person"
      ],
      "cats": [
       {
@@ -492,12 +693,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "ky"
+     "is_form_of": "kam"
     }
    ],
-   "rank": 946,
-   "count": 1005,
-   "family": "ky",
+   "rank": 245,
+   "count": 4862,
+   "family": "kam",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -509,14 +710,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Within the next two days.",
+    "en": "There may be.",
     "score": [
-     2,
+     0,
      3,
-     -1,
+     -3,
      10
     ],
-    "sq": "Brenda këtyre 2 ditëve."
+    "sq": "Mund të ketë."
    }
   }
  ]

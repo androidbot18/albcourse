@@ -1,44 +1,39 @@
 {
  "level": 108,
- "title": "grua, pasi, mëngjes +1",
- "root": "",
- "root_gloss": "",
+ "title": "njoh",
+ "root": "njoh",
+ "root_gloss": "to know; recognize; be familiar with",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 3,
  "families": [
-  "grua",
-  "mëngjes",
-  "pasi"
+  "njoh"
  ],
  "pos_mix": {
-  "noun": 6,
-  "conj": 4
+  "verb": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "gruaja",
-   "sq": "gruaja",
-   "en": "the woman, singular (from grua)",
+   "id": "njoh",
+   "sq": "njoh",
+   "en": "to know; recognize; be familiar with",
    "glosses": [
-    "the woman, singular (from grua)"
+    "to know; recognize; be familiar with"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the woman, singular (from grua)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to know; recognize; be familiar with",
      "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
+      "transitive"
      ],
      "cats": [
       {
@@ -61,464 +56,178 @@
       }
      ],
      "examples": [],
-     "is_form_of": "grua"
+     "links": [
+      "know",
+      "recognize",
+      "familiar"
+     ]
     }
    ],
-   "rank": 428,
-   "count": 2447,
-   "family": "grua",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 416,
+   "count": 2515,
+   "family": "njoh",
+   "is_root": true,
+   "etymology": "Perhaps from Proto-Albanian *gnāska, from Proto-Indo-European *ǵn̥h₃sḱéti, from *ǵneh₃- (compare English know, Serbo-Croatian znati, Latin (g)nōscō). According to Oryol, the full-grade was drawn from the aorist.",
+   "etymology_class": "root",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [
+    {
+     "form": "njoha",
+     "tag": "aorist"
+    },
+    {
+     "form": "njohur",
+     "tag": "participle"
+    },
+    {
+     "form": "njof",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I do not know you.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nuk të njoh."
+   }
+  },
+  {
+   "id": "njohuri",
+   "sq": "njohuri",
+   "en": "knowledge",
+   "glosses": [
+    "knowledge"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knowledge",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -i",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "knowledge"
+     ]
+    }
+   ],
+   "rank": 6103,
+   "count": 118,
+   "family": "njoh",
+   "is_root": false,
+   "etymology": "njohur + -i.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "njohur",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's my wife.",
+    "en": "I choose knowledge.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Është gruaja ime."
+    "sq": "Unë zgjedh njohuri."
    }
   },
   {
-   "id": "pasi",
-   "sq": "pasi",
-   "en": "after (then)",
+   "id": "njohur",
+   "sq": "njohur",
+   "en": "participle of njoh (to know)",
    "glosses": [
-    "after (then)",
-    "when, since",
-    "because",
-    "as, if"
+    "participle of njoh (to know)"
    ],
    "pos": [
-    "conj",
-    "conj",
-    "conj",
-    "conj"
+    "verb"
    ],
    "pos_labels": [
-    "conjunction",
-    "conjunction",
-    "conjunction",
-    "conjunction"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "after (then)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46 0 0"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Pasi erdhën të gjithë, filloi mbledhja.",
-       "en": "After everyone came, the meeting began",
-       "offsets": [
-        [
-         0,
-         4
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "after",
-      "then"
-     ]
-    },
-    {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "when, since",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46 0 0"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Pasi qenka puna kështu, unë po iki.",
-       "en": "Since this is (apparently) the case, then I'm leaving.",
-       "offsets": [
-        [
-         0,
-         4
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "when",
-      "since"
-     ]
-    },
-    {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "because",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "because"
-     ]
-    },
-    {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "as, if",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Pasi ajo nuk po vjen edhe unë do të rri.",
-       "en": "If she is not coming then I'll stay too.",
-       "offsets": [
-        [
-         0,
-         4
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "as",
-      "if"
-     ]
-    }
-   ],
-   "rank": 429,
-   "count": 2446,
-   "family": "pasi",
-   "is_root": true,
-   "etymology": "From pas (“after, behind, at, beyond”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "masi",
-    "mbasi",
-    "pas",
-    "pastaj"
-   ],
-   "forms": [
-    {
-     "form": "mbasi",
-     "tag": "alternative"
-    },
-    {
-     "form": "masi",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "mëngjes",
-   "sq": "mëngjes",
-   "en": "morning",
-   "glosses": [
-    "morning",
-    "breakfast"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "morning",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "participle of njoh (to know)",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "morning"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breakfast",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "breakfast"
-     ]
-    }
-   ],
-   "rank": 430,
-   "count": 2445,
-   "family": "mëngjes",
-   "is_root": true,
-   "etymology": "The initial mën- is either related to muaj (cf. gjithmonë) or Latin mane (“morning”), from Proto-Indo-European *meh₂- (“to ripern, to mature”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "mbrëmje"
-   ],
-   "forms": [
-    {
-     "form": "mëngjese",
-     "tag": "plural"
-    },
-    {
-     "form": "mëngjesi",
-     "tag": "definite"
-    },
-    {
-     "form": "mangjez",
-     "tag": "alternative"
-    },
-    {
-     "form": "mngjes",
-     "tag": "alternative"
-    },
-    {
-     "form": "mjes",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "and now 3 morning.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "dhe tani 3 mëngjes."
-   }
-  },
-  {
-   "id": "grua",
-   "sq": "grua",
-   "en": "woman (mature female human)",
-   "glosses": [
-    "woman (mature female human)",
-    "wife, spouse"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "woman (mature female human)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Family members",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Family members",
-       "langcode": "sq",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Female",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Female",
-       "langcode": "sq",
-       "_dis": "97 3"
-      },
-      {
-       "name": "Marriage",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Marriage",
-       "langcode": "sq",
-       "_dis": "60 40"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "grua e ve",
-       "en": "widowed woman",
-       "offsets": [
-        [
-         0,
-         4
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "woman"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wife, spouse",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 57"
-      },
-      {
-       "name": "Family members",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Family members",
-       "langcode": "sq",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "wife",
-      "spouse"
-     ]
-    }
-   ],
-   "rank": 440,
-   "count": 2404,
-   "family": "grua",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *grāwā, from the Proto-Indo-European root *ǵerh₂- (“old”). Compare Ancient Greek γραῦς (graûs, “old woman”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "old"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gruo",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "gratë",
-   "sq": "gratë",
-   "en": "the woman, plural (from grua)",
-   "glosses": [
-    "the woman, plural (from grua)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the woman, plural (from grua)",
-     "tags": [
-      "accusative",
-      "definite",
       "form-of",
-      "nominative",
-      "plural"
+      "participle"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
-     "is_form_of": "grua"
+     "is_form_of": "njoh"
     }
    ],
-   "rank": 1257,
-   "count": 718,
-   "family": "grua",
+   "rank": 569,
+   "count": 1799,
+   "family": "njoh",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -529,15 +238,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Where are the women?",
+    "corpus": "HPLT",
+    "en": "You are not familiar?",
     "score": [
      0,
-     3,
-     -3,
-     8
+     5,
+     -5,
+     10
     ],
-    "sq": "Ku janë gratë?"
+    "sq": "Ju nuk jeni të njohur."
    }
   }
  ]

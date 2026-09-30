@@ -1,43 +1,147 @@
 {
  "level": 533,
- "title": "vej, lahem, mbajtës, mbeturinë, zanore, verandë +4",
+ "title": "prajs, dembel, grabit, ekspeditë, shtresë, shkarkoj +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "lahem",
-  "mbajtës",
-  "mbeturinë",
-  "vej",
-  "verandë",
-  "zanore"
+  "dembel",
+  "ekspeditë",
+  "grabit",
+  "prajs",
+  "shkarkoj",
+  "shtresë"
  ],
  "pos_mix": {
-  "verb": 3,
-  "noun": 7,
-  "adj": 1
+  "noun": 4,
+  "adj": 2,
+  "verb": 7
  },
  "words": [
   {
-   "id": "vej",
-   "sq": "vej",
-   "en": "to weave",
+   "id": "prajs",
+   "sq": "prajs",
+   "en": "resting place for cattle during heat; shady spot for resting (see mriz)",
    "glosses": [
-    "to weave"
+    "resting place for cattle during heat; shady spot for resting (see mriz)",
+    "a short resting place, usually near a water source or spring",
+    "infectious, contagious"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to weave",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "resting place for cattle during heat; shady spot for resting (see mriz)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "resting place",
+      "shady spot",
+      "mriz"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a short resting place, usually near a water source or spring",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 31 41"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 29 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 27 61"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "resting",
+      "water source",
+      "spring"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "infectious, contagious",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "infectious",
+      "contagious"
+     ]
+    }
+   ],
+   "rank": 14935,
+   "count": 39,
+   "family": "prajs",
+   "is_root": true,
+   "etymology": "? Derived from praj",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "prajs",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "dembel",
+   "sq": "dembel",
+   "en": "lazy",
+   "glosses": [
+    "lazy"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "lazy",
      "tags": [],
      "cats": [
       {
@@ -47,7 +151,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,16 +165,16 @@
      ],
      "examples": [],
      "links": [
-      "weave"
+      "lazy"
      ]
     }
    ],
-   "rank": 15301,
-   "count": 37,
-   "family": "vej",
+   "rank": 14947,
+   "count": 39,
+   "family": "dembel",
    "is_root": true,
-   "etymology": "From Proto-Albanian *webnja, from Proto-Indo-European *webʰ- (“to weave”). Cognate with Sanskrit उनब्द्धि (unábddhi, “to bind, compress”), Old High German weban (“to weave”), Tocharian B wāp- (“to weave”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish تنبل (tembel, dembel), from Classical Persian تنبل (tanbal).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -78,39 +182,42 @@
    "related": [],
    "forms": [
     {
-     "form": "vejta",
-     "tag": "aorist"
+     "form": "dembele",
+     "tag": "feminine"
     },
     {
-     "form": "vejtur",
-     "tag": "participle"
+     "form": "demel",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Who has the courage to question tradition?",
+    "en": "Very cheap and lazy.",
     "score": [
+     1,
      5,
-     8,
-     -3,
+     -4,
      10
     ],
-    "sq": "Kush ka guximin të vej traditën në dyshim?"
+    "sq": "Shumë i lirë dhe dembel."
    }
   },
   {
-   "id": "lahem",
-   "sq": "lahem",
-   "en": "to bathe",
+   "id": "grabit",
+   "sq": "grabit",
+   "en": "to seize, rob, steal",
    "glosses": [
-    "to bathe",
-    "to wash oneself"
+    "to seize, rob, steal",
+    "to encroach, violate someone's rights",
+    "to attract"
    ],
    "pos": [
+    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
     "verb",
     "verb"
    ],
@@ -118,55 +225,162 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to bathe",
-     "tags": [
-      "intransitive"
-     ],
+     "gloss": "to seize, rob, steal",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "58 42"
-      },
-      {
-       "name": "Pages using invalid parameters when calling Template:sq-verb",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 35"
+       "_dis": "70 18 13"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "58 42"
+       "_dis": "53 25 22"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 11 9"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Me ta bashkë të jemi grabitunë.",
+       "en": "",
+       "offsets": [
+        [
+         21,
+         31
+        ]
+       ]
+      }
+     ],
      "links": [
-      "bathe"
+      "seize",
+      "rob",
+      "steal"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to wash oneself",
+     "gloss": "to encroach, violate someone's rights",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "encroach",
+      "violate",
+      "rights"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to attract",
      "tags": [
-      "intransitive"
+      "figuratively"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "wash"
+      "attract"
      ]
     }
    ],
-   "rank": 15313,
-   "count": 37,
-   "family": "lahem",
+   "rank": 14958,
+   "count": 39,
+   "family": "grabit",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, compare Old Church Slavonic грабити (grabiti), Serbo-Croatian grabiti (“to grab, to sieze”) and Bulgarian грабя (grabja, “to rob, to plunder”). Ultimately from Proto-Slavic *grabiti (“to grab, to sieze”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "grabitës",
+    "grabitqar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "grabita",
+     "tag": "aorist"
+    },
+    {
+     "form": "grabitur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is also the goal: rob and depopulate.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Ky është edhe qëllimi: grabit dhe shpopullo."
+   }
+  },
+  {
+   "id": "ekspeditë",
+   "sq": "ekspeditë",
+   "en": "expedition",
+   "glosses": [
+    "expedition"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "expedition",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "expedition"
+     ]
+    }
+   ],
+   "rank": 14968,
+   "count": 39,
+   "family": "ekspeditë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -174,173 +388,26 @@
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "laj"
-   ],
-   "forms": [
-    {
-     "form": "lava",
-     "tag": "aorist"
-    },
-    {
-     "form": "larë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I even started to reduce the number of showers I took.",
-    "score": [
-     2,
-     7,
-     -5,
-     8
-    ],
-    "sq": "Madje kam filluar të lahem më rrallë."
-   }
-  },
-  {
-   "id": "mbajtës",
-   "sq": "mbajtës",
-   "en": "flag-bearer",
-   "glosses": [
-    "flag-bearer",
-    "breadwinner",
-    "holer of objects"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flag-bearer",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -ës",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 13 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flag-bearer"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breadwinner",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -ës",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 13 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "breadwinner"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "holer of objects",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 14 51"
-      },
-      {
-       "name": "Albanian terms suffixed with -ës",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 13 46"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 17 60"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "holer"
-     ]
-    }
-   ],
-   "rank": 15332,
-   "count": 37,
-   "family": "mbajtës",
-   "is_root": true,
-   "etymology": "From mbajt + -ës, from mbaj.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "mbaj",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "mbajtësa",
-     "tag": "plural"
-    },
-    {
-     "form": "mbajtësi",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Holder of a New Zealand visa.",
+    "en": "Finally, Pershing ordered a stop expedition.",
     "score": [
      3,
-     7,
-     -4,
+     8,
+     -5,
      10
     ],
-    "sq": "Mbajtës i vizës së Zelandës së Re."
+    "sq": "Së fundi, Pershing urdhëroi një ekspeditë të ndaluar."
    }
   },
   {
-   "id": "mbeturinë",
-   "sq": "mbeturinë",
-   "en": "leftover, trash, garbage",
+   "id": "shtresë",
+   "sq": "shtresë",
+   "en": "layer",
    "glosses": [
-    "leftover, trash, garbage"
+    "layer"
    ],
    "pos": [
     "noun"
@@ -352,7 +419,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "leftover, trash, garbage",
+     "gloss": "layer",
      "tags": [
       "feminine"
      ],
@@ -378,17 +445,15 @@
      ],
      "examples": [],
      "links": [
-      "leftover",
-      "trash",
-      "garbage"
+      "layer"
      ]
     }
    ],
-   "rank": 15345,
-   "count": 37,
-   "family": "mbeturinë",
+   "rank": 14980,
+   "count": 38,
+   "family": "shtresë",
    "is_root": true,
-   "etymology": "A formation from the past participle of mbet (“to remain”), with the -inë feminine noun suffix.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -396,209 +461,156 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "layer of insulation.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "shtresë të izolimit."
+   }
   },
   {
-   "id": "zanore",
-   "sq": "zanore",
-   "en": "vowel",
+   "id": "shkarkoj",
+   "sq": "shkarkoj",
+   "en": "to discharge, emit, fire",
    "glosses": [
-    "vowel",
-    "like a mountain fairy: beautiful and powerful"
+    "to discharge, emit, fire",
+    "to emanate",
+    "to unload",
+    "to download"
    ],
    "pos": [
-    "noun",
-    "adj"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "adjective"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "vowel",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discharge, emit, fire",
+     "tags": [],
      "cats": [
-      {
-       "name": "Linguistics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Linguistics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "13 87"
-      },
-      {
-       "name": "Albanian nominalizations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb"
+       "_dis": "26 7 33 33"
       }
      ],
      "examples": [],
      "links": [
-      "linguistics",
-      "vowel"
+      "discharge",
+      "emit",
+      "fire"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "like a mountain fairy: beautiful and powerful",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 15352,
-   "count": 37,
-   "family": "zanore",
-   "is_root": true,
-   "etymology": "Feminine nominalization of zanor (“voiced”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "voiced"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "zanore",
-     "tag": "plural"
-    },
-    {
-     "form": "zanorja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Voice call 3.",
-    "score": [
-     1,
-     2,
-     -1,
-     10
-    ],
-    "sq": "Telefonatë zanore 3."
-   }
-  },
-  {
-   "id": "verandë",
-   "sq": "verandë",
-   "en": "verandah; big balcony used to leisure during the summer",
-   "glosses": [
-    "verandah; big balcony used to leisure during the summer",
-    "porch, entrance hall, foyer"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "verandah; big balcony used to leisure during the summer",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to emanate",
+     "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "verandah",
-      "balcony"
+      "emanate"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "porch, entrance hall, foyer",
-     "tags": [
-      "feminine",
-      "nonstandard"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unload",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 90"
-      },
+       "_dis": "26 7 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unload"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to download",
+     "tags": [],
+     "cats": [
       {
-       "name": "Albanian undefined derivations",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 90"
+       "_dis": "26 7 33 33"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 95"
+       "_dis": "22 22 24 31"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 13 17 56"
       }
      ],
      "examples": [],
      "links": [
-      "porch",
-      "entrance hall",
-      "foyer"
+      "download"
      ]
     }
    ],
-   "rank": 15371,
-   "count": 37,
-   "family": "verandë",
+   "rank": 15031,
+   "count": 38,
+   "family": "shkarkoj",
    "is_root": true,
-   "etymology": "From French véranda.",
-   "etymology_class": null,
-   "source_lang": "fr",
+   "etymology": "Borrowed through Vulgar Latin from Late Latin discarricō, from Latin carricō, from Latin carrus. Compare Romanian descărca, Aromanian discarcu.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "ngarkoj",
+    "lëshoj"
+   ],
    "forms": [
     {
-     "form": "veranda",
-     "tag": "plural"
-    },
-    {
-     "form": "verant",
-     "tag": "alternative"
+     "form": "shkarkuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "tools, you can fork out on the veranda.",
+    "en": "How many videos can I download?",
     "score": [
-     2,
-     7,
-     -5,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "mjete, ju mund të paguaj në verandë."
+    "sq": "Sa video mund të shkarkoj?"
    }
   }
  ]

@@ -1,149 +1,131 @@
 {
  "level": 350,
- "title": "rashë, bind, xheloz, larë, bum +3",
+ "title": "posa, flutur, meritoj, finale, litar, perandori +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "bind",
-  "bum",
-  "larë",
-  "rashë",
-  "xheloz"
+  "finale",
+  "flutur",
+  "litar",
+  "meritoj",
+  "perandori",
+  "posa"
  ],
  "pos_mix": {
-  "verb": 6,
-  "adj": 1,
-  "noun": 5
+  "adv": 2,
+  "verb": 7,
+  "noun": 6,
+  "adj": 2
  },
  "words": [
   {
-   "id": "rashë",
-   "sq": "rashë",
-   "en": "to have fallen (off)",
+   "id": "posa",
+   "sq": "posa",
+   "en": "just, hardly, scarcely",
    "glosses": [
-    "to have fallen (off)",
-    "to have tumbled, to have flopped",
-    "to have punched, to have struck"
+    "just, hardly, scarcely"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to have fallen (off)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Rashë në një gjumë të thellë.",
-       "en": "I fell into a deep sleep.",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "fall",
-      "off"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to have tumbled, to have flopped",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "just, hardly, scarcely",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 49 38"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 18 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 67 21"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 57 36"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "tumble",
-      "flop"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to have punched, to have struck",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "punch",
-      "struck"
+      "just",
+      "hardly",
+      "scarcely"
      ]
     }
    ],
-   "rank": 4244,
-   "count": 181,
-   "family": "rashë",
+   "rank": 4006,
+   "count": 194,
+   "family": "posa",
    "is_root": true,
-   "etymology": "Suppletive aorist of bie; from Proto-Albanian *rauša, from Proto-Indo-European *h₃rew-s-e-ti, from *h₃rew- (“run, hurry”) (compare Latin ruō (“to rush; collapse”), Ancient Greek ὀρούω (oroúō, “to hurry”), Czech ruch (“movement”)).",
-   "etymology_class": "inherited",
+   "etymology": "From po + sa.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "movement"
+   "parents": [],
+   "components": [
+    {
+     "word": "sa",
+     "role": "stem"
+    }
    ],
-   "components": [],
    "derived": [],
-   "related": [
-    "bie",
-    "ra",
-    "rëndë"
+   "related": [],
+   "forms": [
+    {
+     "form": "porsa",
+     "tag": "alternative"
+    }
    ],
-   "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Call as soon as you arrive.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Lajmërohu posa të arrinë."
+   }
   },
   {
-   "id": "bind",
-   "sq": "bind",
-   "en": "to convince, persuade",
+   "id": "fluturoj",
+   "sq": "fluturoj",
+   "en": "to fly",
    "glosses": [
-    "to convince, persuade",
-    "to amaze",
-    "to perform magic, cast a spell, wonder, dazzle"
+    "to fly",
+    "to throw out",
+    "to walk fast/hastily, rush",
+    "to pass around; to spread (words, news, etc.)",
+    "to be very happy, take everything lightly, easy",
+    "to fantasize"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb",
     "verb"
@@ -152,7 +134,20 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to convince, persuade",
+     "gloss": "to fly",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fly"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to throw out",
      "tags": [
       "transitive"
      ],
@@ -162,202 +157,225 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "30 37 33"
+       "_dis": "10 10 22 10 12 35"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 11 22 11 11 36"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 10 22 10 12 35"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "E fluturoi nga dritarja.",
+       "en": "He/she threw him/her out of the window.",
+       "offsets": [
+        [
+         2,
+         10
+        ]
+       ]
+      }
+     ],
      "links": [
-      "convince",
-      "persuade"
+      "throw",
+      "out"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to amaze",
+     "gloss": "to walk fast/hastily, rush",
      "tags": [
-      "colloquial"
+      "figuratively"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 37 33"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "amaze"
+      "walk",
+      "fast",
+      "hastily"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to perform magic, cast a spell, wonder, dazzle",
+     "gloss": "to pass around; to spread (words, news, etc.)",
      "tags": [
-      "archaic",
-      "dialectal"
+      "figuratively"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 37 33"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "magic",
-      "spell",
-      "wonder"
+      "pass",
+      "around",
+      "spread"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be very happy, take everything lightly, easy",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "very",
+      "happy",
+      "take"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fantasize",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fantasize"
      ]
     }
    ],
-   "rank": 4264,
-   "count": 181,
-   "family": "bind",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *bind-, from Proto-Indo-European *bʰeydʰ- (“to persuade, encourage; constrain”). Cognate to Ancient Greek πείθω (peíthō, “to persuade, convince”), Illyrian *Bindus (“Illyrian Neptune”) and Thracian Bithus (“theonym”). Doublet with be",
-   "etymology_class": "derived",
+   "rank": 4017,
+   "count": 193,
+   "family": "flutur",
+   "is_root": false,
+   "etymology": "From flutur (“wing”) + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "wing"
+   ],
+   "components": [
+    {
+     "word": "flutur",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [
-    "be",
-    "përbindësh"
+    "flutur",
+    "fluturuar",
+    "fluturor",
+    "fluturore",
+    "fluturim"
    ],
    "forms": [
     {
-     "form": "binda",
+     "form": "fluturova",
      "tag": "aorist"
     },
     {
-     "form": "bindur",
+     "form": "fluturuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But in the end, he obeyed and went.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Por në fund, u bind dhe shkoi."
-   }
+   "corpus_example": null
   },
   {
-   "id": "xheloz",
-   "sq": "xheloz",
-   "en": "jealous",
+   "id": "meritoj",
+   "sq": "meritoj",
+   "en": "to be worthy (of), to deserve",
    "glosses": [
-    "jealous",
-    "jealous person"
+    "to be worthy (of), to deserve"
    ],
    "pos": [
-    "adj",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "adjective",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "jealous",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be worthy (of), to deserve",
+     "tags": [
+      "intransitive",
+      "transitive"
      ],
-     "examples": [],
-     "links": [
-      "jealous"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "jealous person",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 64"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
+       "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "jealous"
+      "worthy",
+      "deserve"
      ]
     }
    ],
-   "rank": 4269,
-   "count": 180,
-   "family": "xheloz",
+   "rank": 4024,
+   "count": 193,
+   "family": "meritoj",
    "is_root": true,
-   "etymology": "Borrowed from Italian geloso.",
-   "etymology_class": "borrowed",
+   "etymology": "From meritë (“merit”) + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "merit"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "xhelozë",
-     "tag": "plural"
+     "form": "meritova",
+     "tag": "aorist"
+    },
+    {
+     "form": "merituar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'm so jealous.",
+    "en": "I deserve that.",
     "score": [
-     0,
+     1,
      4,
-     -4,
+     -3,
      10
     ],
-    "sq": "Unë jam shumë xheloz!"
+    "sq": "Unë e meritoj atë."
    }
   },
   {
-   "id": "larë",
-   "sq": "larë",
-   "en": "white spot; something which is spotted, dappled, motley, variegated, multi-colored, particolored",
+   "id": "finale",
+   "sq": "finale",
+   "en": "final",
    "glosses": [
-    "white spot; something which is spotted, dappled, motley, variegated, multi-colored, particolored"
+    "final"
    ],
    "pos": [
     "noun"
@@ -369,7 +387,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "white spot; something which is spotted, dappled, motley, variegated, multi-colored, particolored",
+     "gloss": "final",
      "tags": [
       "feminine"
      ],
@@ -378,38 +396,34 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 13 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "67 33"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "white",
-      "spot",
-      "spotted"
+      "sports",
+      "final"
      ]
     }
    ],
-   "rank": 4275,
-   "count": 180,
-   "family": "larë",
+   "rank": 4035,
+   "count": 193,
+   "family": "finale",
    "is_root": true,
-   "etymology": "From Proto-Albanian *laurā, based on laj.",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -417,40 +431,60 @@
    "related": [],
    "forms": [
     {
-     "form": "lara",
+     "form": "finale",
      "tag": "plural"
+    },
+    {
+     "form": "finalja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why are they not washed?",
+    "en": "Want final results?",
     "score": [
-     1,
-     5,
-     -4,
+     2,
+     3,
+     -1,
      10
     ],
-    "sq": "Fotini: Pse nuk janë larë?"
+    "sq": "Dëshironi rezultatet finale?"
    }
   },
   {
-   "id": "bum",
-   "sq": "bum",
-   "en": "boom",
+   "id": "litar",
+   "sq": "litar",
+   "en": "rope",
    "glosses": [
-    "boom"
+    "rope",
+    "a measurement unit of length equivalent to 10-12 meters"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "boom",
+     "gloss": "rope",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rope"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a measurement unit of length equivalent to 10-12 meters",
      "tags": [
       "masculine"
      ],
@@ -459,73 +493,216 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 16 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "13 87"
       }
      ],
      "examples": [],
      "links": [
-      "economics",
-      "boom"
+      "measurement",
+      "unit"
      ]
     }
    ],
-   "rank": 4278,
-   "count": 180,
-   "family": "bum",
+   "rank": 4042,
+   "count": 192,
+   "family": "litar",
    "is_root": true,
-   "etymology": "Borrowed from English boom with orthographic adaptation.",
+   "etymology": "From Greek λυτάρι (lytári).",
    "etymology_class": "borrowed",
-   "source_lang": null,
+   "source_lang": "el",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "litarë",
+     "tag": "plural"
+    },
+    {
+     "form": "litari",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "and then boom!",
+    "en": "It hangs on a rope.",
     "score": [
-     0,
+     2,
      3,
-     -3,
+     -1,
      10
     ],
-    "sq": "dhe pastaj bum!"
+    "sq": "Varet në litar."
    }
   },
   {
-   "id": "xhelozi",
-   "sq": "xhelozi",
-   "en": "jealousy (suspicion of betrayal)",
+   "id": "perandori",
+   "sq": "perandori",
+   "en": "empire",
    "glosses": [
-    "jealousy (suspicion of betrayal)",
-    "jealousy, protectiveness"
+    "empire"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "jealousy (suspicion of betrayal)",
+     "gloss": "empire",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 32 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "empire"
+     ]
+    }
+   ],
+   "rank": 4044,
+   "count": 192,
+   "family": "perandori",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "perandori",
+     "tag": "plural"
+    },
+    {
+     "form": "perandoria",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "When does an empire die?",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Kur vdes një perandori?"
+   }
+  },
+  {
+   "id": "flutur",
+   "sq": "flutur",
+   "en": "fast and agile",
+   "glosses": [
+    "fast and agile",
+    "moving lightly",
+    "quickly",
+    "butterfly, moth",
+    "liver fluke, sheep liver fluke (Fasciola hepatica)"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adv",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adverb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "fast and agile",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fast",
+      "and",
+      "agile"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "moving lightly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "moving",
+      "lightly"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "quickly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "quickly"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "butterfly, moth",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Butterflies",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Butterflies",
+       "langcode": "sq",
+       "_dis": "6 0 0 63 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "butterfly",
+      "moth"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "liver fluke, sheep liver fluke (Fasciola hepatica)",
      "tags": [
       "feminine"
      ],
@@ -535,76 +712,81 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "90 10"
+       "_dis": "14 1 0 2 83"
       },
       {
-       "name": "Albanian terms suffixed with -i",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "62 38"
+       "_dis": "2 0 0 2 64 4 28"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "92 8"
+       "_dis": "1 0 0 1 60 2 36"
       }
      ],
      "examples": [],
      "links": [
-      "jealousy"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "jealousy, protectiveness",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "E ruan me xhelozi.",
-       "en": "He guards it jealously.",
-       "offsets": [
-        [
-         10,
-         17
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "protectiveness"
+      "liver fluke",
+      "sheep liver fluke",
+      "Fasciola hepatica"
      ]
     }
    ],
-   "rank": 26573,
-   "count": 17,
-   "family": "xheloz",
-   "is_root": false,
-   "etymology": "Borrowed from Italian gelosia. By surface analysis, xheloz (“jealous”) + -i.",
+   "rank": 10396,
+   "count": 62,
+   "family": "flutur",
+   "is_root": true,
+   "etymology": "Orel proposes a back-formation from fluturoj (“to fly; go fast”), from a Vulgar Latin *fluctulāre, from Latin fluctuare.\nAlternatively, the word could come from Proto-Albanian *flugtur, forming a group of words together with fletë, flatër, flegër, flugë. The word may have been borrowed into Romanian as fluture.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
-   "components": [
-    {
-     "word": "xheloz",
-     "role": "prefix"
-    }
+   "components": [],
+   "derived": [
+    "fluturak",
+    "fluturushë",
+    "fluturake",
+    "fluturashkë",
+    "fluturore"
    ],
-   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "xhelozia",
-     "tag": "definite"
+     "form": "flutura",
+     "tag": "plural"
+    },
+    {
+     "form": "flutër",
+     "tag": "alternative"
+    },
+    {
+     "form": "fjutër",
+     "tag": "alternative"
+    },
+    {
+     "form": "fqutër",
+     "tag": "alternative"
+    },
+    {
+     "form": "qutër",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Butterfly costume ready.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Flutur kostum të gatshëm."
+   }
   }
  ]
 }

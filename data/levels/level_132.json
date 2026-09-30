@@ -1,42 +1,569 @@
 {
  "level": 132,
- "title": "derë, dakort",
+ "title": "dal, ej, budalla, kthyer +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 6,
  "families": [
-  "dakort",
-  "derë"
+  "budalla",
+  "dal",
+  "ej",
+  "kthyer"
  ],
  "pos_mix": {
-  "noun": 6,
-  "adj": 3
+  "verb": 5,
+  "intj": 2,
+  "noun": 4,
+  "adj": 7
  },
  "words": [
   {
-   "id": "derën",
-   "sq": "derën",
-   "en": "the door, singular (from derë)",
+   "id": "dal",
+   "sq": "dal",
+   "en": "to exit, go out",
    "glosses": [
-    "the door, singular (from derë)"
+    "to exit, go out",
+    "to leave",
+    "to come; to do come"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to exit, go out",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "exit",
+      "go",
+      "out"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to come; to do come",
+     "tags": [
+      "impersonal",
+      "passive",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 5 80"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "come",
+      "do",
+      "come"
+     ]
+    }
+   ],
+   "rank": 560,
+   "count": 1845,
+   "family": "dal",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *dala, from Proto-Indo-European *dʰelh₁- (“to spring forth, flourish”). Compare Ancient Greek θάλλω (thállō, “to grow, bloom, thrive”), Welsh deillio (“to emanate, derive”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dalë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How to get out?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Si të dal?"
+   }
+  },
+  {
+   "id": "ej",
+   "sq": "ej",
+   "en": "a call for attention. hey!, oi!",
+   "glosses": [
+    "a call for attention. hey!, oi!",
+    "yes"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "a call for attention. hey!, oi!",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ej ti, ku shkon?",
+       "en": "Hey you, where are you going?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hey",
+      "oi"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "yes",
+     "tags": [
+      "archaic"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "éei pǽr chíjr tǽ chríxtit Zótit tínæ",
+       "en": "Yes, for the grace of Christ our Lord.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "yes"
+     ]
+    }
+   ],
+   "rank": 561,
+   "count": 1839,
+   "family": "ej",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "budalla",
+   "sq": "budalla",
+   "en": "fool, crazy person",
+   "glosses": [
+    "fool, crazy person",
+    "someone who acts as a fool",
+    "fool, crazy person",
+    "foolish"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the door, singular (from derë)",
+     "gloss": "fool, crazy person",
      "tags": [
-      "accusative",
-      "definite",
+      "colloquial",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 7 33 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fool",
+      "crazy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "someone who acts as a fool",
+     "tags": [
+      "colloquial",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 7 33 26"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 24 0 51"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 0 73"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "act"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "fool, crazy person",
+     "tags": [
+      "colloquial",
+      "derogatory"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 7 33 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fool",
+      "crazy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "foolish",
+     "tags": [
+      "colloquial",
+      "derogatory"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "foolish"
+     ]
+    }
+   ],
+   "rank": 571,
+   "count": 1787,
+   "family": "budalla",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish بدلا (budala, “imbecile, fool”), from Arabic اَبْدَال pl (abdāl) of singular بديل (badīl).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "budallae",
+     "tag": "feminine"
+    },
+    {
+     "form": "budallar",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Now this is just silly.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Tani kjo është vetëm budalla."
+   }
+  },
+  {
+   "id": "kthyer",
+   "sq": "kthyer",
+   "en": "bent, curved",
+   "glosses": [
+    "bent, curved",
+    "ploughed, cultivated (of land)",
+    "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
+    "divorced (of a woman)",
+    "recovered, got better (from an illness)",
+    "bend, curve, turn (of a road, river, etc.)",
+    "hem, fold"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "bent, curved",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bent",
+      "curved"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "ploughed, cultivated (of land)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ploughed",
+      "cultivated"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "folded",
+      "hemmed",
+      "rolled up"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "divorced (of a woman)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "divorced"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "recovered, got better (from an illness)",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 6 28 3 40 1 18 1"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 35 2 50 0 8 1"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 1 31 2 45 0 18 1"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "recovered",
+      "got better"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bend, curve, turn (of a road, river, etc.)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bend",
+      "curve",
+      "turn"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hem, fold",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hem",
+      "fold"
+     ]
+    }
+   ],
+   "rank": 573,
+   "count": 1782,
+   "family": "kthyer",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "i pakthyer",
+    "i sqepkthyer"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kthyera",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And I came back.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Dhe jam kthyer."
+   }
+  },
+  {
+   "id": "dil",
+   "sq": "dil",
+   "en": "you (sg)! (imperative of dal, to exit)",
+   "glosses": [
+    "you (sg)! (imperative of dal, to exit)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg)! (imperative of dal, to exit)",
+     "tags": [
       "form-of",
+      "imperative",
+      "second-person",
       "singular"
      ],
      "cats": [
@@ -47,6 +574,78 @@
        "source": "w"
       },
       {
+       "name": "Pages with 22 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "dal"
+    }
+   ],
+   "rank": 576,
+   "count": 1775,
+   "family": "dal",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Get in and out whenever you want to.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Hyr dhe dil kur të duash."
+   }
+  },
+  {
+   "id": "dilni",
+   "sq": "dilni",
+   "en": "you (pl)! (imperative of dal, to exit)",
+   "glosses": [
+    "you (pl)! (imperative of dal, to exit)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (pl)! (imperative of dal, to exit)",
+     "tags": [
+      "form-of",
+      "imperative",
+      "plural",
+      "second-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -60,12 +659,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "derë"
+     "is_form_of": "dal"
     }
    ],
-   "rank": 597,
-   "count": 1711,
-   "family": "derë",
+   "rank": 967,
+   "count": 980,
+   "family": "dal",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -77,407 +676,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But I can only show you the door.",
+    "en": "How to log out?",
     "score": [
      0,
-     8,
-     -8,
+     4,
+     -4,
      10
     ],
-    "sq": "Por unë mund vetëm të të tregoj derën."
-   }
-  },
-  {
-   "id": "dakort",
-   "sq": "dakort",
-   "en": "in agreement",
-   "glosses": [
-    "in agreement"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "in agreement",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Jam dakort me ty.",
-       "en": "I agree with you.",
-       "offsets": [
-        [
-         4,
-         10
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "agreement"
-     ]
-    }
-   ],
-   "rank": 598,
-   "count": 1711,
-   "family": "dakort",
-   "is_root": true,
-   "etymology": "Borrowed from French d'accord.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "dakord",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "derë",
-   "sq": "derë",
-   "en": "door",
-   "glosses": [
-    "door",
-    "family, home, tribe",
-    "solution",
-    "bitter",
-    "difficult, toilsome, fatiguing"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "door",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "door"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "family, home, tribe",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "family",
-      "home",
-      "tribe"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "solution",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "solution"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "bitter",
-     "tags": [
-      "Tosk"
-     ],
-     "cats": [
-      {
-       "name": "Tosk Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bitter"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "difficult, toilsome, fatiguing",
-     "tags": [
-      "Tosk"
-     ],
-     "cats": [
-      {
-       "name": "Tosk Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 68 3 22 3"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 84 3 10 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "difficult"
-     ]
-    }
-   ],
-   "rank": 1462,
-   "count": 606,
-   "family": "derë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *dœrə < *dwōrā, from Proto-Indo-European *dʰwṓr (“door”). Compare Proto-Slavic *dvьrь, Sanskrit द्वारा (dvārā), Latin foris, English door.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "door",
-    "loss",
-    "misery"
-   ],
-   "components": [],
-   "derived": [
-    "deracak",
-    "deraç",
-    "derëbardhë",
-    "derëhapur",
-    "derëmëderës",
-    "derës",
-    "derësterrë",
-    "derëtor"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "dyer",
-     "tag": "plural"
-    },
-    {
-     "form": "dera",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "There is no door.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Nuk ka derë."
-   }
-  },
-  {
-   "id": "dyert",
-   "sq": "dyert",
-   "en": "the door, plural (from derë)",
-   "glosses": [
-    "the door, plural (from derë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the door, plural (from derë)",
-     "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "derë"
-    }
-   ],
-   "rank": 1984,
-   "count": 436,
-   "family": "derë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Yellow doors.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Dyert të verdha."
-   }
-  },
-  {
-   "id": "derës",
-   "sq": "derës",
-   "en": "guard, gatekeeper",
-   "glosses": [
-    "guard, gatekeeper"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "guard, gatekeeper",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ës",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "guard",
-      "gatekeeper"
-     ]
-    }
-   ],
-   "rank": 3494,
-   "count": 228,
-   "family": "derë",
-   "is_root": false,
-   "etymology": "From derë + -ës.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "derë",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "hold of the door.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "mbaj i derës."
+    "sq": "Si të dilni jashtë?"
    }
   }
  ]

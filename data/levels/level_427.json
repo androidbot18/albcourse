@@ -1,24 +1,30 @@
 {
  "level": 427,
- "title": "fjalë",
- "root": "fjalë",
- "root_gloss": "word",
+ "title": "rajon, batanije, grackë, rrip, zgjua, shurdhër +4",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "fjalë"
+  "batanije",
+  "grackë",
+  "rajon",
+  "rrip",
+  "shurdhër",
+  "zgjua"
  ],
  "pos_mix": {
-  "noun": 7
+  "noun": 6,
+  "adj": 3
  },
  "words": [
   {
-   "id": "fjalë",
-   "sq": "fjalë",
-   "en": "word",
+   "id": "rajon",
+   "sq": "rajon",
+   "en": "region",
    "glosses": [
-    "word"
+    "region"
    ],
    "pos": [
     "noun"
@@ -30,7 +36,87 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "word",
+     "gloss": "region",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 6 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "region"
+     ]
+    }
+   ],
+   "rank": 7280,
+   "count": 96,
+   "family": "rajon",
+   "is_root": true,
+   "etymology": "Borrowed from Latin regiō, regiōnem. Cf. Italian regione, Venetan rejon.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "rajone",
+     "tag": "plural"
+    },
+    {
+     "form": "rajoni",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "in the region!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "të mëdha në rajon."
+   }
+  },
+  {
+   "id": "batanije",
+   "sq": "batanije",
+   "en": "fluffy blanket (cotton or thin wool)",
+   "glosses": [
+    "fluffy blanket (cotton or thin wool)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fluffy blanket (cotton or thin wool)",
      "tags": [
       "feminine"
      ],
@@ -56,52 +142,62 @@
      ],
      "examples": [
       {
-       "sq": "Nuk e kuptoj këtë fjalë.",
-       "en": "I don't understand this word.",
+       "sq": "Hodhi mbi krahë një batanije dhe tasin ia vuri përpara këlyshit .",
+       "en": "",
        "offsets": [
         [
-         18,
-         23
+         20,
+         28
         ]
        ]
       }
      ],
      "links": [
-      "word"
+      "blanket"
      ]
     }
    ],
-   "rank": 373,
-   "count": 2811,
-   "family": "fjalë",
+   "rank": 7313,
+   "count": 95,
+   "family": "batanije",
    "is_root": true,
-   "etymology": "From Proto-Albanian *spelnā, from Proto-Indo-European *(s)pel- (“to say aloud, recite”); compare English spell, Armenian առասպել (aṙaspel, “myth; legend”), and possibly Ancient Greek ἀπειλή (apeilḗ, “threat”). Related to flas (“to speak”). Alternatively, possibly borrowed from Latin fābella.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish بطانیه (battaniye, “blanket”), itself from Arabic بَطَّانِيَّة (baṭṭāniyya, “blanket”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [
-    "threat"
+    "blanket"
    ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "fjalë",
+     "form": "batanije",
      "tag": "plural"
     },
     {
-     "form": "fjala",
+     "form": "batanija",
      "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I just love lovely blankets.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Unë vetëm dua batanije bukur."
+   }
   },
   {
-   "id": "fjalën",
-   "sq": "fjalën",
-   "en": "the word, singular (from fjalë)",
+   "id": "grackë",
+   "sq": "grackë",
+   "en": "trap",
    "glosses": [
-    "the word, singular (from fjalë)"
+    "trap"
    ],
    "pos": [
     "noun"
@@ -113,13 +209,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the word, singular (from fjalë)",
-     "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "singular"
-     ],
+     "gloss": "trap",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -141,14 +232,16 @@
       }
      ],
      "examples": [],
-     "is_form_of": "fjalë"
+     "links": [
+      "trap"
+     ]
     }
    ],
-   "rank": 586,
-   "count": 1756,
-   "family": "fjalë",
-   "is_root": false,
-   "etymology": "",
+   "rank": 7317,
+   "count": 95,
+   "family": "grackë",
+   "is_root": true,
+   "etymology": "From ngrac, dialectal form of ngec (“to get stuck”).",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -158,339 +251,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I mean it!",
+    "en": "[rule] Pitfalls and pointers.",
     "score": [
      1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "E kam fjalën!"
-   }
-  },
-  {
-   "id": "fjala",
-   "sq": "fjala",
-   "en": "the word, singular (from fjalë)",
-   "glosses": [
-    "the word, singular (from fjalë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the word, singular (from fjalë)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "fjalë"
-    }
-   ],
-   "rank": 850,
-   "count": 1130,
-   "family": "fjalë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Speech is a gift.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Fjala është dhuratë."
-   }
-  },
-  {
-   "id": "fjalët",
-   "sq": "fjalët",
-   "en": "the word, plural (from fjalë)",
-   "glosses": [
-    "the word, plural (from fjalë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the word, plural (from fjalë)",
-     "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "fjalë"
-    }
-   ],
-   "rank": 1203,
-   "count": 758,
-   "family": "fjalë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Not just the words.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Jo vetëm fjalët."
-   }
-  },
-  {
-   "id": "fjalor",
-   "sq": "fjalor",
-   "en": "dictionary, glossary, vocabulary",
-   "glosses": [
-    "dictionary, glossary, vocabulary"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "dictionary, glossary, vocabulary",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -or",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "fjalor shqip",
-       "en": "Albanian dictionary",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "dictionary",
-      "glossary",
-      "vocabulary"
-     ]
-    }
-   ],
-   "rank": 19516,
-   "count": 27,
-   "family": "fjalë",
-   "is_root": false,
-   "etymology": "From fjalë + -or.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "fjalë",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "fjalëkryq",
-   "sq": "fjalëkryq",
-   "en": "crossword",
-   "glosses": [
-    "crossword"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "crossword",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "games",
-      "crossword"
-     ]
-    }
-   ],
-   "rank": 30551,
-   "count": 14,
-   "family": "fjalë",
-   "is_root": false,
-   "etymology": "From fjalë (“word”) + kryq (“cross”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [
-    "word",
-    "cross"
-   ],
-   "components": [
-    {
-     "word": "fjalë",
-     "role": "prefix"
-    },
-    {
-     "word": "kryq",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fjalëkryqe",
-     "tag": "plural"
-    },
-    {
-     "form": "fjalëkryqi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Solve a crossword puzzle at least one week.",
-    "score": [
      4,
-     8,
-     -4,
+     -3,
      10
     ],
-    "sq": "Zgjidh një mister fjalëkryq të paktën një javë."
+    "sq": "[rregull] Grackë dhe pointers."
    }
   },
   {
-   "id": "fjalëkalim",
-   "sq": "fjalëkalim",
-   "en": "password",
+   "id": "rrip",
+   "sq": "rrip",
+   "en": "belt",
    "glosses": [
-    "password"
+    "belt"
    ],
    "pos": [
     "noun"
@@ -502,7 +278,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "password",
+     "gloss": "belt",
      "tags": [
       "masculine"
      ],
@@ -528,53 +304,261 @@
      ],
      "examples": [],
      "links": [
-      "password"
+      "belt"
      ]
     }
    ],
-   "rank": 36819,
-   "count": 11,
-   "family": "fjalë",
-   "is_root": false,
-   "etymology": "From fjalë (“word”) + kalim (“passage”)",
-   "etymology_class": null,
+   "rank": 7350,
+   "count": 95,
+   "family": "rrip",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wrīpa. Compare Ancient Greek ῥάπτω (rháptō, “to sew together, to stitch”), Lithuanian verpti (“to spin”). Alternatively from Proto-Albanian *reipa, to be connected with Proto-Germanic *raipaz (“rope”), in Old High German reif (“rope, cord”), Middle Low German rēp (“sling, rope”), Old Norse reipa (“to fasten with a rope”), and ultimately from Proto-Indo-European *roypnós. Also ultimately a doublet of repë through this theory.",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [
-    "word",
-    "passage"
-   ],
-   "components": [
-    {
-     "word": "fjalë",
-     "role": "prefix"
-    },
-    {
-     "word": "kalim",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "fjalëkalime",
+     "form": "rripa",
      "tag": "plural"
     },
     {
-     "form": "fjalëkalimi",
+     "form": "rripi",
      "tag": "definite"
+    },
+    {
+     "form": "rryp",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "by entering a password.",
+    "corpus": "HPLT",
+    "en": "Adjustable wrist strap included.",
     "score": [
      2,
      4,
      -2,
-     8
+     10
     ],
-    "sq": "duke vendosur një fjalëkalim."
+    "sq": "rrip Adjustable dore përfshira."
+   }
+  },
+  {
+   "id": "zgjua",
+   "sq": "zgjua",
+   "en": "beehive (box where bees live)",
+   "glosses": [
+    "beehive (box where bees live)",
+    "all the bees that live in such box"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beehive (box where bees live)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beehive"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "all the bees that live in such box",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 65"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bee"
+     ]
+    }
+   ],
+   "rank": 7365,
+   "count": 95,
+   "family": "zgjua",
+   "is_root": true,
+   "etymology": "Possibly from Latin iānua (“door, entrance”), prefixed with z-. Alternatively related to gëloj (“to burst out”). Çabej analyses a possible older form of Proto-Albanian *glon-.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zgjoje",
+     "tag": "plural"
+    },
+    {
+     "form": "zgjoi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And I awoke.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Dhe unë u zgjua."
+   }
+  },
+  {
+   "id": "shurdhër",
+   "sq": "shurdhër",
+   "en": "deaf",
+   "glosses": [
+    "deaf",
+    "indifferent",
+    "muffled"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "deaf",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 8 41"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 0 43"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "81 0 19"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "deaf"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "indifferent",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "indifferent"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "muffled",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "muffled"
+     ]
+    }
+   ],
+   "rank": 7378,
+   "count": 94,
+   "family": "shurdhër",
+   "is_root": true,
+   "etymology": "From Latin surdus with the native -ër/-ën suffix.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shurdhët",
+     "tag": "alternative"
+    },
+    {
+     "form": "shurdhën",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "is he deaf?",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "a është i shurdhër?"
    }
   }
  ]

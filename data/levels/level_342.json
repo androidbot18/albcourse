@@ -1,27 +1,122 @@
 {
  "level": 342,
- "title": "grumbull, përgjatë",
+ "title": "alarm, djathë, çati, drejtësi, pazar, moj +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "grumbull",
-  "përgjatë"
+  "alarm",
+  "djathë",
+  "drejtësi",
+  "moj",
+  "pazar",
+  "çati"
  ],
  "pos_mix": {
-  "noun": 1,
-  "prep": 1,
-  "verb": 1
+  "noun": 6,
+  "intj": 1
  },
  "words": [
   {
-   "id": "grumbull",
-   "sq": "grumbull",
-   "en": "heap, pile",
+   "id": "alarm",
+   "sq": "alarm",
+   "en": "alarm",
    "glosses": [
-    "heap, pile"
+    "alarm",
+    "anxiety"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "alarm",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Military",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Military",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "military",
+      "alarm"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "anxiety",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 72"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anxiety"
+     ]
+    }
+   ],
+   "rank": 3734,
+   "count": 210,
+   "family": "alarm",
+   "is_root": true,
+   "etymology": "From French alarme (“alarm”).",
+   "etymology_class": "derived",
+   "source_lang": "fr",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "alarmim",
+    "alarmohem",
+    "alarmoj",
+    "alarmonjës",
+    "alarmuar",
+    "alarmues",
+    "alarmuese"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is an alarm.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ky është alarm."
+   }
+  },
+  {
+   "id": "djathë",
+   "sq": "djathë",
+   "en": "cheese",
+   "glosses": [
+    "cheese"
    ],
    "pos": [
     "noun"
@@ -33,8 +128,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "heap, pile",
-     "tags": [],
+     "gloss": "cheese",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -43,7 +140,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ull",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -55,66 +152,78 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "djathë i marrë",
+       "en": "skim-milk cheese",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "djathë i bardhë",
+       "en": "white cheese",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
      "links": [
-      "heap",
-      "pile"
+      "cheese"
      ]
     }
    ],
-   "rank": 3827,
-   "count": 204,
-   "family": "grumbull",
+   "rank": 3737,
+   "count": 210,
+   "family": "djathë",
    "is_root": true,
-   "etymology": "A -ull lengthening of grumb, from Proto-Albanian *grumba, from Proto-Indo-European *gru(m)bʰ, derivative of Proto-Indo-European *grewb- (“to crumple, bend, crawl”). Identical with Latvian grumbulains (“uneven, rough”), and close to Old Church Slavonic grǫbь (grǫbĭ, “ignorant, uneducated”), Old Norse kryppa (“hump”). Otherwise inherited from Latin grumulus, diminutive of grūmus (“small heap”).",
-   "etymology_class": "derived",
+   "etymology": "From Proto-Albanian *dedi, from Proto-Indo-European *dʰédʰh₁i (“milk”). Compare Old Prussian dadan, Sanskrit दधि (dádhi, “sour milk”).",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "milk"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "grumbuj",
+     "form": "djathëra",
      "tag": "plural"
     },
     {
-     "form": "grumbulli",
+     "form": "djathi",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have a pile of them.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Unë kam një grumbull të tyre."
-   }
+   "corpus_example": null
   },
   {
-   "id": "përgjatë",
-   "sq": "përgjatë",
-   "en": "alongside",
+   "id": "çati",
+   "sq": "çati",
+   "en": "roof",
    "glosses": [
-    "alongside"
+    "roof"
    ],
    "pos": [
-    "prep"
+    "noun"
    ],
    "pos_labels": [
-    "preposition"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "alongside",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "roof",
      "tags": [
-      "with-ablative"
+      "feminine"
      ],
      "cats": [
       {
@@ -124,13 +233,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian prepositions",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian prepositions governing the ablative",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -138,13 +247,85 @@
      ],
      "examples": [],
      "links": [
-      "alongside"
+      "architecture",
+      "roof"
      ]
     }
    ],
-   "rank": 3842,
-   "count": 203,
-   "family": "përgjatë",
+   "rank": 3750,
+   "count": 209,
+   "family": "çati",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish چاتی (çatı, “framework, roof, truss”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Ventilator on the roof?",
+    "score": [
+     2,
+     3,
+     -1,
+     10
+    ],
+    "sq": "Ventilator në çati?"
+   }
+  },
+  {
+   "id": "drejtësi",
+   "sq": "drejtësi",
+   "en": "justice",
+   "glosses": [
+    "justice"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "justice",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "justice"
+     ]
+    }
+   ],
+   "rank": 3781,
+   "count": 207,
+   "family": "drejtësi",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -156,36 +337,36 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "counter along the way.",
+    "en": "But there has to be justice.",
     "score": [
-     2,
-     3,
-     -1,
+     0,
+     5,
+     -5,
      10
     ],
-    "sq": "kundërvënë përgjatë rrugës."
+    "sq": "Por duhet të ketë drejtësi."
    }
   },
   {
-   "id": "grumbulloj",
-   "sq": "grumbulloj",
-   "en": "to pile up, to gather up, to amass",
+   "id": "pazar",
+   "sq": "pazar",
+   "en": "bazaar",
    "glosses": [
-    "to pile up, to gather up, to amass"
+    "bazaar"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to pile up, to gather up, to amass",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bazaar",
      "tags": [
-      "transitive"
+      "masculine"
      ],
      "cats": [
       {
@@ -195,13 +376,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -209,39 +390,109 @@
      ],
      "examples": [],
      "links": [
-      "pile up",
-      "gather",
-      "amass"
+      "bazaar"
      ]
     }
    ],
-   "rank": 34102,
-   "count": 12,
-   "family": "grumbull",
-   "is_root": false,
-   "etymology": "From grumbull + -oj.",
-   "etymology_class": "affix",
+   "rank": 3785,
+   "count": 207,
+   "family": "pazar",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish پازار (pazar), from Classical Persian بازار (bāzār).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
-   "components": [
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How's the shopping?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Si është pazar?"
+   }
+  },
+  {
+   "id": "moj",
+   "sq": "moj",
+   "en": "vocative particle used in a call to a woman",
+   "glosses": [
+    "vocative particle used in a call to a woman"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
     {
-     "word": "grumbull",
-     "role": "prefix"
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "vocative particle used in a call to a woman",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 6 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": []
     }
    ],
+   "rank": 3786,
+   "count": 207,
+   "family": "moj",
+   "is_root": true,
+   "etymology": "See more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "grumbullova",
-     "tag": "aorist"
+     "form": "mojë",
+     "tag": "alternative"
     },
     {
-     "form": "grumbulluar",
-     "tag": "participle"
+     "form": "mori",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My lady, did Berisha do any analysis?",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Moj zonjë, Berisha bëri ndonjë analizë?"
+   }
   }
  ]
 }

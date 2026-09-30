@@ -1,100 +1,126 @@
 {
  "level": 556,
- "title": "zabel, shkumë, mushkëri, mitur, kartolinë, ritual +4",
+ "title": "ekonomi, vithe, lëmuar, frymëzim, borës, autopsi +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "kartolinë",
-  "mitur",
-  "mushkëri",
-  "ritual",
-  "shkumë",
-  "zabel"
+  "autopsi",
+  "borës",
+  "ekonomi",
+  "frymëzim",
+  "lëmuar",
+  "vithe"
  ],
  "pos_mix": {
-  "noun": 5,
+  "noun": 6,
   "adj": 1
  },
  "words": [
   {
-   "id": "zabel",
-   "sq": "zabel",
-   "en": "grove",
+   "id": "ekonomi",
+   "sq": "ekonomi",
+   "en": "economy",
    "glosses": [
-    "grove"
+    "economy",
+    "economics"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "grove",
+     "gloss": "economy",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "grove"
+      "economy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "economics",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "economics"
      ]
     }
    ],
-   "rank": 17655,
-   "count": 31,
-   "family": "zabel",
+   "rank": 17172,
+   "count": 32,
+   "family": "ekonomi",
    "is_root": true,
-   "etymology": "Borrowed from a South Slavic language, compare Old Church Slavonic забѣль (zabělĭ) (\"enclosed forest\"), and modern Serbo-Croatian zabijeliti (\"to whiten, to mark a tree by cutting its bark\"), used in Dušan's Code as (\"mark a tree by cutting its bark to show forbidden entrance\"). Ultimately from Proto-Slavic *bělъ (“white”).",
-   "etymology_class": "derived",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "ekonomik",
+    "ekonomist"
+   ],
    "forms": [
     {
-     "form": "zabele",
+     "form": "ekonomi",
      "tag": "plural"
     },
     {
-     "form": "zabeli",
+     "form": "ekonomia",
      "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "There is no economy.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Nuk ka ekonomi."
+   }
   },
   {
-   "id": "shkumë",
-   "sq": "shkumë",
-   "en": "foam, scum",
+   "id": "vithe",
+   "sq": "vithe",
+   "en": "crupper, rump, buttock, haunch",
    "glosses": [
-    "foam, scum"
+    "crupper, rump, buttock, haunch"
    ],
    "pos": [
     "noun"
@@ -106,8 +132,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "foam, scum",
-     "tags": [],
+     "gloss": "crupper, rump, buttock, haunch",
+     "tags": [
+      "feminine",
+      "plural"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -116,13 +145,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Albanian pluralia tantum",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -th",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -130,20 +159,21 @@
      ],
      "examples": [],
      "links": [
-      "foam",
-      "scum"
+      "crupper",
+      "rump",
+      "buttock"
      ]
     }
    ],
-   "rank": 17660,
-   "count": 31,
-   "family": "shkumë",
+   "rank": 17235,
+   "count": 32,
+   "family": "vithe",
    "is_root": true,
-   "etymology": "An old loanword from Gothic *skūm- (“foam, scum”) (compare German Schaum (“foam”), English scum) via Late Latin.",
-   "etymology_class": null,
+   "etymology": "A diminutive in -th, based on Proto-Albanian *wīja (“twisted, woven”), from *weh₁yos (“twisted”), ultimately from *weh₁y- (“to twist, to twine”). Cognate to Latin vīeō, Sanskrit व्ययति (vyáyati), Lithuanian výti, Proto-Slavic *viti.",
+   "etymology_class": "root",
    "source_lang": null,
    "parents": [
-    "foam"
+    "twisted"
    ],
    "components": [],
    "derived": [],
@@ -151,100 +181,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They sleep outside England foam.",
+    "en": "What treatment for cellulite on the buttocks to choose?",
     "score": [
-     2,
      5,
-     -3,
+     9,
+     -4,
      10
     ],
-    "sq": "Ata flenë jashtë Anglisë shkumë."
+    "sq": "Çfarë trajtimi për celulitin në vithe për të zgjedhur?"
    }
   },
   {
-   "id": "mushkëri",
-   "sq": "mushkëri",
-   "en": "lung",
+   "id": "lëmuar",
+   "sq": "lëmuar",
+   "en": "smooth",
    "glosses": [
-    "lung"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lung",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lung"
-     ]
-    }
-   ],
-   "rank": 17661,
-   "count": 31,
-   "family": "mushkëri",
-   "is_root": true,
-   "etymology": "Uncertain. Probably from Proto-Indo-European *múHs (“mouse; muscle”). Compare Sanskrit मुष्क (muṣká, “testicle, vulva”), Persian مشک (mošk, “lively, eager”), Ancient Greek μύσχον (múskhon, “genitals”), Latin mūsculus (“muscle”), Old Armenian մուկն (mukn, “muscle”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "mushkni",
-     "tag": "alternative"
-    },
-    {
-     "form": "mushkëni",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "and those that were on land had lungs.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "dhe ata që ishin në tokë kishin mushkëri."
-   }
-  },
-  {
-   "id": "mitur",
-   "sq": "mitur",
-   "en": "ward, underage",
-   "glosses": [
-    "ward, underage"
+    "smooth"
    ],
    "pos": [
     "adj"
@@ -256,7 +208,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "ward, underage",
+     "gloss": "smooth",
      "tags": [],
      "cats": [
       {
@@ -266,13 +218,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -280,46 +232,40 @@
      ],
      "examples": [],
      "links": [
-      "ward",
-      "underage"
+      "smooth"
      ]
     }
    ],
-   "rank": 17678,
-   "count": 31,
-   "family": "mitur",
+   "rank": 17241,
+   "count": 32,
+   "family": "lëmuar",
    "is_root": true,
-   "etymology": "From Proto-Albanian *mit-ono, from Proto-Indo-European *meH1i (“mild, soft”). Compare Latin mitis.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "miture",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do you have minor children?",
+    "corpus": "MaCoCu",
+    "en": "It was smooth and organic.",
     "score": [
-     0,
-     5,
-     -5,
-     10
+     1,
+     4,
+     -3,
+     8
     ],
-    "sq": "A keni fëmijë të mitur?"
+    "sq": "Shkoi lëmuar dhe organikisht."
    }
   },
   {
-   "id": "kartolinë",
-   "sq": "kartolinë",
-   "en": "postcard",
+   "id": "frymëzim",
+   "sq": "frymëzim",
+   "en": "inspiration",
    "glosses": [
-    "postcard"
+    "inspiration"
    ],
    "pos": [
     "noun"
@@ -331,9 +277,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "postcard",
+     "gloss": "inspiration",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -357,16 +303,16 @@
      ],
      "examples": [],
      "links": [
-      "postcard"
+      "inspiration"
      ]
     }
    ],
-   "rank": 17710,
-   "count": 31,
-   "family": "kartolinë",
+   "rank": 17255,
+   "count": 32,
+   "family": "frymëzim",
    "is_root": true,
-   "etymology": "Borrowed from Italian cartolina.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -375,22 +321,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Switzerland is a postcard.",
+    "en": "I have inspiration.",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
      10
     ],
-    "sq": "Zvicra është një kartolinë."
+    "sq": "Unë kam frymëzim."
    }
   },
   {
-   "id": "ritual",
-   "sq": "ritual",
-   "en": "ritual",
+   "id": "borës",
+   "sq": "borës",
+   "en": "chaffinch (Fringilla coelebs)",
    "glosses": [
-    "ritual"
+    "chaffinch (Fringilla coelebs)"
    ],
    "pos": [
     "noun"
@@ -402,7 +348,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ritual",
+     "gloss": "chaffinch (Fringilla coelebs)",
      "tags": [
       "masculine"
      ],
@@ -414,7 +360,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 13 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -428,13 +374,93 @@
      ],
      "examples": [],
      "links": [
-      "ritual"
+      "zoology",
+      "chaffinch",
+      "Fringilla coelebs"
      ]
     }
    ],
-   "rank": 17726,
-   "count": 31,
-   "family": "ritual",
+   "rank": 17266,
+   "count": 32,
+   "family": "borës",
+   "is_root": true,
+   "etymology": "Less common variant of bors.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "borës",
+     "tag": "plural"
+    },
+    {
+     "form": "borësi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do you know other curiosities of the snow?",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "A njihni kuriozitete të tjera të borës?"
+   }
+  },
+  {
+   "id": "autopsi",
+   "sq": "autopsi",
+   "en": "autopsy (a dissection performed on a cadaver)",
+   "glosses": [
+    "autopsy (a dissection performed on a cadaver)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "autopsy (a dissection performed on a cadaver)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "autopsy"
+     ]
+    }
+   ],
+   "rank": 17285,
+   "count": 32,
+   "family": "autopsi",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -446,14 +472,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Is it just a ritual?",
+    "en": "An autopsy confirmed that she was raped and murdered.",
     "score": [
-     0,
-     4,
-     -4,
+     2,
+     9,
+     -7,
      10
     ],
-    "sq": "Është vetëm një ritual?"
+    "sq": "Një autopsi konfirmoi se ajo ishte përdhunuar dhe vrarë."
    }
   }
  ]

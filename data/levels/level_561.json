@@ -1,37 +1,41 @@
 {
  "level": 561,
- "title": "rimë, rra, trondit, koshere, bretkosë, oxhak +4",
+ "title": "va, hetoj, bardhosh, call, quar, dell +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "bretkosë",
-  "koshere",
-  "oxhak",
-  "rimë",
-  "rra",
-  "trondit"
+  "bardhosh",
+  "call",
+  "dell",
+  "hetoj",
+  "quar",
+  "va"
  ],
  "pos_mix": {
-  "noun": 15,
-  "verb": 3
+  "noun": 9,
+  "verb": 1,
+  "adj": 4
  },
  "words": [
   {
-   "id": "rimë",
-   "sq": "rimë",
-   "en": "rhyme",
+   "id": "va",
+   "sq": "va",
+   "en": "ford",
    "glosses": [
-    "rhyme",
-    "poem"
+    "ford",
+    "forest passageway",
+    "way out"
    ],
    "pos": [
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun"
    ],
@@ -39,223 +43,151 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "rhyme",
+     "gloss": "ford",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [],
-     "examples": [
-      {
-       "sq": "Tërë këto të bëjnë të kuptosh hallin e poetit për rithëm e rimë.",
-       "en": "All of this makes you understand the poet's concern for rhythm and rhyme.",
-       "offsets": [
-        [
-         59,
-         63
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "rhyme"
+      "ford"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "poem",
+     "gloss": "forest passageway",
      "tags": [
-      "dialectal",
-      "feminine"
+      "masculine",
+      "regional"
      ],
      "cats": [
       {
-       "name": "Calabrian Arbëresh Albanian",
+       "name": "Regional Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regional",
+      "forest",
+      "passageway"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "way out",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
       {
-       "name": "Sicilian Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -më",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "46 37 5 12"
+       "_dis": "13 13 73"
       }
      ],
-     "examples": [
-      {
-       "sq": "Ktë rrim e bëri Strolaku; e arbreshve i thot: se me fljamur te dora u ngjal in Zot.",
-       "en": "Strolak composed this poem, and he tells the Arbëreshë: that our God arose with a flag in his hand.",
-       "offsets": [
-        [
-         4,
-         8
-        ]
-       ]
-      },
-      {
-       "sq": "E ghieghie Zogna e S. Mɐrij grazien e limoſɐnɐn ciɐ dua, pɐr chɐtɐ Rimm'?",
-       "en": "",
-       "offsets": [
-        [
-         67,
-         72
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "poem"
+      "way out"
      ]
     }
    ],
-   "rank": 18319,
-   "count": 29,
-   "family": "rimë",
+   "rank": 17754,
+   "count": 31,
+   "family": "va",
    "is_root": true,
-   "etymology": "Borrowed from Italian rima.",
-   "etymology_class": "borrowed",
+   "etymology": "Either from Proto-Albanian *wa(d), from Proto-Indo-European *weh₂dʰ- (“to go, walk”), or from Latin vadum; impossible to determine. Possibly forms a doublet of vete.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [
-    "rimar",
-    "rimon",
-    "rimor"
+    "vator"
    ],
    "related": [],
    "forms": [
     {
-     "form": "rima",
+     "form": "va",
      "tag": "plural"
+    },
+    {
+     "form": "vau",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But no, the va a straight no and no!",
+    "score": [
+     0,
+     9,
+     -9,
+     10
+    ],
+    "sq": "Por jo, va a jo të drejtë dhe jo!"
+   }
   },
   {
-   "id": "rra",
-   "sq": "rra",
-   "en": "threadworm (Enterobius vermicularis)",
+   "id": "hetoj",
+   "sq": "hetoj",
+   "en": "to investigate, inquire, observe",
    "glosses": [
-    "threadworm (Enterobius vermicularis)",
-    "mawworm (Ascaris lumbrioides)",
-    "rennet (Gheg)"
+    "to investigate, inquire, observe"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "threadworm (Enterobius vermicularis)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to investigate, inquire, observe",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 47 10"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 43 20"
+       "source": "w"
       },
       {
        "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 36 9 2 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "threadworm"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mawworm (Ascaris lumbrioides)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 47 10"
+       "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 43 20"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 36 9 2 23"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "mawworm"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rennet (Gheg)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 43 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "rennet"
+      "investigate",
+      "inquire",
+      "observe"
      ]
     }
    ],
-   "rank": 18331,
-   "count": 29,
-   "family": "rra",
+   "rank": 17765,
+   "count": 31,
+   "family": "hetoj",
    "is_root": true,
-   "etymology": "Plurale tantum; from Proto-Albanian *wragā, cognate to Old Irish frige (“vermin, flesh-worm”). Alternatively, borrowed from the same Proto-Celtic word",
+   "etymology": "From an unattested *het, from Proto-Albanian *skaita, close to Lithuanian skaitýti (“to read”). Alternatively from Latin ēdictāre (“to announce”).",
    "etymology_class": "derived",
    "source_lang": null,
    "parents": [],
@@ -264,50 +196,52 @@
    "related": [],
    "forms": [
     {
-     "form": "rrja",
-     "tag": "definite"
+     "form": "hetova",
+     "tag": "aorist"
     },
     {
-     "form": "rre",
-     "tag": "alternative"
+     "form": "hetuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "hello to Baby, Worm and Concrete.",
-    "score": [
-     3,
-     6,
-     -3,
-     10
-    ],
-    "sq": "përshëndetje për Baby, rra dhe betoni."
-   }
+   "corpus_example": null
   },
   {
-   "id": "trondit",
-   "sq": "trondit",
-   "en": "to shake vigorously",
+   "id": "bardhosh",
+   "sq": "bardhosh",
+   "en": "pallid, pale",
    "glosses": [
-    "to shake vigorously",
-    "to shock",
-    "to destroy"
+    "pallid, pale",
+    "gray-haired",
+    "whitish"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
+    "adj",
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
+    "adjective",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to shake vigorously",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "pallid, pale",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pallid",
+      "pale"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "gray-haired",
      "tags": [],
      "cats": [
       {
@@ -315,198 +249,245 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 33"
+       "_dis": "3 94 3"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 33"
+       "_dis": "0 100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 34 34"
+       "_dis": "0 100 0"
       }
      ],
      "examples": [],
      "links": [
-      "shake"
+      "gray-haired"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to shock",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 34 34"
-      }
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "whitish",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "shock"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to destroy",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 34 34"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "destroy"
+      "whitish"
      ]
     }
    ],
-   "rank": 18351,
-   "count": 29,
-   "family": "trondit",
+   "rank": 17799,
+   "count": 31,
+   "family": "bardhosh",
    "is_root": true,
-   "etymology": "An early borrowing from a South Slavic language (owing to the preservation of the nasal), ultimately derived from Proto-Slavic *trǫtiti. Compare Serbo-Croatian truditi.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "tronditje"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "trondita",
-     "tag": "aorist"
-    },
+     "form": "bardhoshe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "call",
+   "sq": "call",
+   "en": "inapt, unuseful, naive",
+   "glosses": [
+    "inapt, unuseful, naive"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
     {
-     "form": "tronditur",
-     "tag": "participle"
-    },
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "inapt, unuseful, naive",
+     "tags": [
+      "regional"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regional",
+      "inapt",
+      "unuseful"
+     ]
+    }
+   ],
+   "rank": 17868,
+   "count": 30,
+   "family": "call",
+   "is_root": true,
+   "etymology": "A truncation of callok.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
     {
-     "form": "trandit",
-     "tag": "alternative"
-    },
-    {
-     "form": "tërndit",
-     "tag": "alternative"
-    },
-    {
-     "form": "tronnit",
-     "tag": "alternative"
+     "form": "calle",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I was shaken by this information.",
+    "en": "What is Call+?",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë u trondit nga ky informacion."
+    "sq": "Çfarë është Call+?"
    }
   },
   {
-   "id": "koshere",
-   "sq": "koshere",
-   "en": "beehive",
+   "id": "quar",
+   "sq": "quar",
+   "en": "basement, cellar, stable (where animals are kept)",
    "glosses": [
-    "beehive"
+    "basement, cellar, stable (where animals are kept)",
+    "cellar, pantry, storage, larder (where food is stored)",
+    "housing, shelter, bed",
+    "bedroom"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "beehive",
+     "gloss": "basement, cellar, stable (where animals are kept)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "52 35 9 4"
       }
      ],
      "examples": [],
      "links": [
-      "beehive"
+      "basement",
+      "cellar",
+      "stable"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cellar, pantry, storage, larder (where food is stored)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cellar",
+      "pantry",
+      "storage"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "housing, shelter, bed",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "housing",
+      "shelter",
+      "bed"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bedroom",
+     "tags": [
+      "masculine",
+      "obsolete"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "egoditi cori / chi aytue fyetune gniay nate atȣ ꝑpara dereſe / chiorit, keiſc iɛoti tue fyetune",
+       "en": "it happened one night, while he was sleeping, in front of the door of the chamber where his master was sleeping",
+       "offsets": [
+        [
+         63,
+         70
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bedroom"
      ]
     }
    ],
-   "rank": 18368,
-   "count": 29,
-   "family": "koshere",
+   "rank": 17874,
+   "count": 30,
+   "family": "quar",
    "is_root": true,
-   "etymology": "Borrowed from Bulgarian кошер (košer) + -e.",
+   "etymology": "Borrowed from Late Latin cellārium (“cellar, pantry”). For the ending compare hamshor, fruer, etc. Doublet of qilar.\nDiscarded theories\nMeyer (1891) separately misidentifies Bardhi's chiuer a typographical mistake for qiler and hesitatingly compares qur with ahur. Jokl (1923) connects the word to descendants of Proto-Slavic *klětь (“barn, cellar”) and other descendants of Proto-Indo-European *ḱley- (“to shelter, cover”). Çabej SEFSH [1950s–1980] compares it to the descendants of Proto-Celtic *kladeti (“to dig, bury”). Orel (1998) tentatively compares it to qos (“to finish”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
@@ -515,29 +496,35 @@
    "related": [],
    "forms": [
     {
-     "form": "koshere",
+     "form": "quarë",
      "tag": "plural"
+    },
+    {
+     "form": "quari",
+     "tag": "definite"
+    },
+    {
+     "form": "quer",
+     "tag": "alternative"
+    },
+    {
+     "form": "qur",
+     "tag": "alternative"
+    },
+    {
+     "form": "çur",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We are a hive culture.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Ne jemi një kulturë koshere."
-   }
+   "corpus_example": null
   },
   {
-   "id": "bretkosë",
-   "sq": "bretkosë",
-   "en": "frog",
+   "id": "dell",
+   "sq": "dell",
+   "en": "tendon",
    "glosses": [
-    "frog",
-    "breaststroke"
+    "tendon",
+    "sinew"
    ],
    "pos": [
     "noun",
@@ -551,30 +538,17 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "frog",
+     "gloss": "tendon",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "frog"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breaststroke",
-     "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Swimming",
+       "name": "Anatomy",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Swimming",
+       "orig": "sq:Anatomy",
        "langcode": "sq"
       },
       {
@@ -582,254 +556,60 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "4 96"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 90"
+       "_dis": "67 33"
       }
      ],
      "examples": [],
      "links": [
-      "swimming",
-      "breaststroke"
+      "anatomy",
+      "tendon"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sinew",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sinew"
      ]
     }
    ],
-   "rank": 18375,
-   "count": 29,
-   "family": "bretkosë",
+   "rank": 17876,
+   "count": 30,
+   "family": "dell",
    "is_root": true,
-   "etymology": "Feminine enlargement of dialectal bretk (“male frog”), contraction of archaic bretëk, from (Ionic) Ancient Greek βρόταχος (brótakhos) (whence also Romanian broatec, brotac (“tree frog”), Aromanian broatic, and Sicilian vròtacu). See also breshkë.",
-   "etymology_class": null,
+   "etymology": "Inherited from Proto-Albanian *daislā, from Proto-Indo-European *gʷʰiH-slo (compare Latin fīlum, Lithuanian gýsla, Serbo-Croatian žȉla).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "fulterëz",
-    "zhabë"
-   ],
-   "forms": [
-    {
-     "form": "bretkosa",
-     "tag": "plural"
-    },
-    {
-     "form": "bretk",
-     "tag": "alternative"
-    },
-    {
-     "form": "bretkocë",
-     "tag": "alternative"
-    },
-    {
-     "form": "bretëk",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "oxhak",
-   "sq": "oxhak",
-   "en": "chimney",
-   "glosses": [
-    "chimney",
-    "fireplace, hearth, fireside",
-    "old family of high repute; rich family",
-    "long tube connecting the outside to the inside: shaft",
-    "seed furrow",
-    "kiln",
-    "family"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chimney",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "chimney"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fireplace, hearth, fireside",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fireplace",
-      "hearth",
-      "fireside"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "old family of high repute; rich family",
-     "tags": [
-      "historical",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "repute",
-      "rich"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "long tube connecting the outside to the inside: shaft",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 5 3 8 38 11 13"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 3 3 9 45 12 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 3 3 8 51 10 12"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tube",
-      "outside",
-      "inside"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "seed furrow",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "seed",
-      "furrow"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kiln",
-     "tags": [
-      "dated",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kiln"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "family",
-     "tags": [
-      "colloquial",
-      "dated",
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "family"
-     ]
-    }
-   ],
-   "rank": 18388,
-   "count": 29,
-   "family": "oxhak",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "oxhakëri",
-    "oxhakfshirës",
-    "oxhakpastrues",
-    "oxhaku le të jetë i shtrembër, tymi të shkojë përpjetë"
-   ],
    "related": [],
    "forms": [
     {
-     "form": "oxhakë",
+     "form": "dej",
      "tag": "plural"
     },
     {
-     "form": "oxhaku",
+     "form": "delli",
      "tag": "definite"
-    },
-    {
-     "form": "axhak",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There also may or may not be a chimney.",
+    "en": "Ambassador Dell: You are quite right.",
     "score": [
-     0,
-     7,
-     -7,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Mund të ketë ose jo një oxhak."
+    "sq": "Ambasadori Dell: Keni shumë të drejtë."
    }
   }
  ]

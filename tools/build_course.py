@@ -32,6 +32,7 @@ import form_gloss
 import form_senses
 import teaching_order
 import pack_shape
+import pos_balance
 from example_rank import rank_examples
 import os
 import re
@@ -947,6 +948,50 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         got = [rank_of[m] for m in members if m in rank_of]
         if got:
             score[root] = min(got)
+
+    # Item 4: pull pictureable nouns into the opening levels.
+    #
+    # The boost is expressed as a synthetic rank rather than as score=0.
+    # Setting score=0 sent all 50 promoted roots to the absolute front of the
+    # queue and produced an opening that was 88.8% nouns with `te` and `nuk`
+    # pushed to level 9 -- strictly worse than the 55%-verb problem it was
+    # meant to fix. A dry run missed that because it appended nouns to an
+    # existing mix, whereas a score of 0 displaces every other family.
+    #
+    # Instead each promoted noun is given a synthetic rank that places it at
+    # its target slot in the natural frequency order. Frequency ordering is
+    # preserved everywhere else, prerequisites still dominate (the topological
+    # sort below is unchanged), and the nouns are spread through the window
+    # rather than forming a wall at the front.
+    early_nouns = []
+    for root, members in families.items():
+        if len(members) != 1:
+            continue
+        card = by_word_card.get(members[0]) or {}
+        if pos_balance.promote(card, None, 1):
+            early_nouns.append((score.get(root, 10 ** 9), root))
+    early_nouns.sort()
+
+    if early_nouns:
+        # Natural order, and the nouns chosen to join it.
+        natural = sorted(families, key=lambda r: (score.get(r, 10 ** 9), r))
+        window = natural[:pos_balance.WINDOW_FAMILIES]
+        win_words = sum(len(families[r]) for r in window)
+        win_nouns = 0
+        for r in window:
+            for m in families[r]:
+                if pos_balance.headline_pos(by_word_card.get(m) or {}) == 'noun':
+                    win_nouns += 1
+        room = pos_balance.quota(win_words, win_nouns)
+        chosen = [r for _, r in early_nouns[:room]]
+        if chosen:
+            for r, new_rank in pos_balance.spread(chosen, natural).items():
+                score[r] = new_rank
+            print("  early window: %d words, %d nouns (%.0f%%); target %.0f%%; "
+                  "weaving in %d pictureable nouns"
+                  % (win_words, win_nouns,
+                     100.0 * win_nouns / max(1, win_words),
+                     100.0 * pos_balance.TARGET_NOUN_SHARE, len(chosen)))
 
     # ---- topological order over families ---------------------------------
     # A family cannot unlock before the family holding a stem one of its
