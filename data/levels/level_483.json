@@ -1,31 +1,31 @@
 {
  "level": 483,
- "title": "mesë, rreng, shpërfill, hallet, ay, farkëtar +4",
+ "title": "thellësi, pitër, këpus, tërmet, reputacion, kapelë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "ay",
-  "farkëtar",
-  "hallet",
-  "mesë",
-  "rreng",
-  "shpërfill"
+  "kapelë",
+  "këpus",
+  "pitër",
+  "reputacion",
+  "thellësi",
+  "tërmet"
  ],
  "pos_mix": {
   "noun": 6,
-  "verb": 1,
-  "pron": 1
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "mesë",
-   "sq": "mesë",
-   "en": "skin (of onion), milk-skin, film",
+   "id": "thellësi",
+   "sq": "thellësi",
+   "en": "depth",
    "glosses": [
-    "skin (of onion), milk-skin, film"
+    "depth"
    ],
    "pos": [
     "noun"
@@ -37,10 +37,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "skin (of onion), milk-skin, film",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "depth",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -63,55 +61,72 @@
      ],
      "examples": [],
      "links": [
-      "skin",
-      "milk",
-      "skin"
+      "depth"
      ]
     }
    ],
-   "rank": 28734,
-   "count": 15,
-   "family": "mesë",
+   "rank": 10578,
+   "count": 61,
+   "family": "thellësi",
    "is_root": true,
-   "etymology": "From Proto-Albanian *matšā, from Proto-Indo-European *mokʷi̯. Related to makë.",
-   "etymology_class": "inherited",
+   "etymology": "From thellë.",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "mesa",
+     "form": "thellësi",
      "tag": "plural"
+    },
+    {
+     "form": "thellësia",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This call expressive eyes and depth.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Kjo thirrje sy ekspresive dhe thellësi."
+   }
   },
   {
-   "id": "rreng",
-   "sq": "rreng",
-   "en": "a prank, cheat",
+   "id": "pitër",
+   "sq": "pitër",
+   "en": "frequent",
    "glosses": [
-    "a prank, cheat"
+    "frequent"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a prank, cheat",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "frequent",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -121,52 +136,52 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "a",
-      "prank",
-      "cheat"
+      "frequent"
      ]
     }
    ],
-   "rank": 28772,
-   "count": 15,
-   "family": "rreng",
+   "rank": 10615,
+   "count": 60,
+   "family": "pitër",
    "is_root": true,
-   "etymology": "From rrenë, with -g enlargement. Alternatively related to vrangull, literally 'to put in the middle of a circle', 'to be at the centre of everybody's scorn'. Similar sense development in Italian prendere in giro (\"to scorn, pull someone's leg\"), literally 'to take someone for a ride, spin around'.",
+   "etymology": "From Proto-Albanian *pi(m)ita, related to Old Irish éim (“quick, fast”), Old Norse fimr (“id”).",
    "etymology_class": null,
    "source_lang": null,
-   "parents": [],
+   "cognate": null,
+   "parents": [
+    "id"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "pitëre",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I said that now they would prepare some trick for me.",
+    "en": "Peter Murphy singing from a cage.",
     "score": [
-     2,
-     8,
-     -6,
+     4,
+     6,
+     -2,
      10
     ],
-    "sq": "Thashë që tani do më përgatisnin ndonjë rreng."
+    "sq": "Pitër Mërfi këndon nga prapa hekurave."
    }
   },
   {
-   "id": "shpërfill",
-   "sq": "shpërfill",
-   "en": "to disdain",
+   "id": "këpus",
+   "sq": "këpus",
+   "en": "to tear off, to pluck",
    "glosses": [
-    "to disdain"
+    "to tear off, to pluck"
    ],
    "pos": [
     "verb"
@@ -178,176 +193,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to disdain",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with sh-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "disdain"
-     ]
-    }
-   ],
-   "rank": 28775,
-   "count": 15,
-   "family": "shpërfill",
-   "is_root": true,
-   "etymology": "From sh- + përfill.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shpërfilla",
-     "tag": "aorist"
-    },
-    {
-     "form": "shpërfillur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "In that case, do not ignore your feelings!",
-    "score": [
-     3,
-     5,
-     -2,
-     8
-    ],
-    "sq": "Prandaj, mos i shpërfill ndjenjat!"
-   }
-  },
-  {
-   "id": "hallet",
-   "sq": "hallet",
-   "en": "tools",
-   "glosses": [
-    "tools",
-    "instruments"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tools",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tool"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "instruments",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "instrument"
-     ]
-    }
-   ],
-   "rank": 28791,
-   "count": 15,
-   "family": "hallet",
-   "is_root": true,
-   "etymology": "From Ottoman Turkish آلت (âlet) (Albanian alet), from Persian آلت (âlat), from Arabic آلَة (ʔāla).",
-   "etymology_class": "derived",
-   "source_lang": "tr",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hallat",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Despite the great troubles.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Pavarësisht nga hallet e mëdha."
-   }
-  },
-  {
-   "id": "ay",
-   "sq": "ay",
-   "en": "he",
-   "glosses": [
-    "he"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "he",
+     "gloss": "to tear off, to pluck",
      "tags": [],
      "cats": [
       {
@@ -357,13 +203,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 27 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -371,95 +217,74 @@
      ],
      "examples": [],
      "links": [
-      "he"
+      "tear",
+      "off",
+      "pluck"
      ]
     }
    ],
-   "rank": 28812,
-   "count": 15,
-   "family": "ay",
+   "rank": 10620,
+   "count": 60,
+   "family": "këpus",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From Proto-Albanian *karputja, a derivative verb from këputë (“sole”).",
    "etymology_class": null,
    "source_lang": null,
-   "parents": [],
+   "cognate": null,
+   "parents": [
+    "sole"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "ai",
+     "form": "këputa",
+     "tag": "aorist"
+    },
+    {
+     "form": "këputur",
+     "tag": "participle"
+    },
+    {
+     "form": "këput",
+     "tag": "alternative"
+    },
+    {
+     "form": "kërpuc",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Ay man, I'm about to order a Pizza.",
+    "en": "I will snap a branch.",
     "score": [
-     2,
-     9,
-     -7,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Ay njeri, unë jam gati të urdhërojë një pica."
+    "sq": "Do të këpus një degë."
    }
   },
   {
-   "id": "farkëtar",
-   "sq": "farkëtar",
-   "en": "smith",
+   "id": "tërmet",
+   "sq": "tërmet",
+   "en": "earthquake",
    "glosses": [
-    "smith",
-    "forger"
+    "earthquake"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "smith",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -tar",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "smith"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "forger",
+     "gloss": "earthquake",
      "tags": [
       "masculine"
      ],
@@ -468,51 +293,269 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 72"
-      },
-      {
-       "name": "Albanian terms suffixed with -tar",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Tremeκu ansctè gni Auuλè i trasce […]",
+       "en": "The earthquake is a dense vapour […]",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
      "links": [
-      "forger"
+      "earthquake"
      ]
     }
    ],
-   "rank": 28843,
-   "count": 15,
-   "family": "farkëtar",
+   "rank": 10651,
+   "count": 60,
+   "family": "tërmet",
    "is_root": true,
-   "etymology": "From farkë + -tar.",
-   "etymology_class": "affix",
+   "etymology": "From Old Albanian terëmet, borrowed from Latin terrae mōtus, an archaic borrowing considering the /oː/ → /e/ shift. Borrowed from Romance in its /o/ variants.",
+   "etymology_class": "borrowed",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "farkëtarë",
+     "form": "tërmete",
      "tag": "plural"
     },
     {
-     "form": "farkëtari",
+     "form": "tërmeti",
      "tag": "definite"
+    },
+    {
+     "form": "turmeq",
+     "tag": "alternative"
+    },
+    {
+     "form": "terëmot",
+     "tag": "alternative"
+    },
+    {
+     "form": "terremot",
+     "tag": "alternative"
+    },
+    {
+     "form": "terramot",
+     "tag": "alternative"
     }
    ],
+   "corpus_example": null
+  },
+  {
+   "id": "reputacion",
+   "sq": "reputacion",
+   "en": "reputation",
+   "glosses": [
+    "reputation"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reputation",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "reputation"
+     ]
+    }
+   ],
+   "rank": 10672,
+   "count": 60,
+   "family": "reputacion",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Good reputation in the market.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Reputacion të mirë në treg."
+   }
+  },
+  {
+   "id": "kapelë",
+   "sq": "kapelë",
+   "en": "hat",
+   "glosses": [
+    "hat",
+    "hat-like object",
+    "chapel"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hat",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Headwear",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Headwear",
+       "langcode": "sq",
+       "_dis": "44 3 52"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Më pëlqen kapela jote.",
+       "en": "I like your hat.",
+       "offsets": [
+        [
+         10,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hat-like object",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hat",
+      "-like"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chapel",
+     "tags": [
+      "dated"
+     ],
+     "cats": [
+      {
+       "name": "Christianity",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Christianity",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 9 81"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 10 79"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Christianity",
+      "chapel"
+     ]
+    }
+   ],
+   "rank": 10689,
+   "count": 60,
+   "family": "kapelë",
+   "is_root": true,
+   "etymology": "Either from Latin cappellus (“hat”) or its derivative Italian cappello (via the feminine cappella).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "hat",
+    "chapel"
+   ],
+   "components": [],
+   "derived": [
+    "kapelabërë",
+    "kapelapunues"
+   ],
+   "related": [],
+   "forms": [],
    "corpus_example": null
   }
  ]

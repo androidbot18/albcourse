@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+"""Teaching-order guards.
+
+Two things are checked here, both against the SHIPPED data:
+
+  1. Within a level, words are ordered by teaching tier then frequency, so a
+     verb family opens with its present tense rather than its rare perfect.
+  2. `jam` is the concrete case that motivated the change. It is asserted
+     explicitly by name, because a general invariant can hold while the
+     specific word the learner complained about stays wrong.
+
+The negative control re-sorts level 2 back by raw rank and confirms the
+checks fail. Without it these assertions could pass vacuously, which is how
+a no-op sort survived a full build earlier in this project.
+"""
+import json
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+ROOT = os.path.dirname(HERE)
+import teaching_order
+
+LEVELS = os.path.join(ROOT, "data", "levels")
+# The base form leads the session. This used to be pinned to a specific
+# word; it broke as soon as another change reordered the level for a
+# good reason. Assert the invariant, not the incidental word.
+
+fails = []
+
+
+def check(ok, msg):
+    print(("  ok   " if ok else "  FAIL ") + msg)
+    if not ok:
+        fails.append(msg)
+
+
+def load(n):
+    p = os.path.join(LEVELS, "level_%03d.json" % n)
+    return json.load(open(p, encoding="utf-8"))
+
+
+def key(w, root=""):
+    # Must mirror the builder exactly, root exemption included. A bare
+    # teaching_tier() disagrees for a level whose root is itself a rare form
+    # -- that is what made level 114 (`qetë`) look unsorted.
+    return teaching_order.level_key(
+        {"senses": [{"gloss": w["en"]}], "rank": w["rank"]},
+        is_root=(w["id"] == root))
+
+
+print("teaching order within levels")
+# Derive the level count from disk. It was hard-coded to 592, which meant
+# that when Option 2 raised the count to 751 this loop silently checked only
+# the first 592 levels and reported success on the rest.
+import glob
+NLEV = len(glob.glob(os.path.join(LEVELS, "level_*.json")))
+bad = []
+for n in range(1, NLEV + 1):
+    lvl = load(n)
+    words = lvl["words"]
+    ks = [key(w, lvl.get("root", "")) for w in words]
+    if ks != sorted(ks):
+        bad.append(n)
+check(not bad, "all %d levels in teaching order (bad: %s)" % (NLEV, bad[:6]))
+
+print("the jam family specifically")
+l2 = load(2)
+ids2 = [w["id"] for w in l2["words"]]
+check(l2["root"] == "jam", "level 2 is the jam family (root=%s)" % l2["root"])
+present_here = {"është", "jam", "je", "janë", "jemi", "jeni",
+                "qoftë", "qenka", "qenke"}
+check(ids2[0] in present_here,
+      "level 2 opens with a present-tense form (got %r)" % ids2[0])
+check("jam" in ids2, "level 2 keeps the base form jam")
+
+# The rare perfect/imperfect forms must have moved out of the opening session.
+late = {"qenë", "isha", "jesh", "ishe", "ishin", "jem", "jenë", "ishim",
+        "ishit", "qeshë"}
+present_late = sorted(late & set(ids2))
+check(not present_late,
+      "no subjunctive/imperfect form in level 2 (leaked: %s)" % present_late)
+
+# ...and the present tense must actually be there.
+check(len(present_here & set(ids2)) >= 7,
+      "level 2 leads with present-tense forms (%d of 9)"
+      % len(present_here & set(ids2)))
+
+print("NEGATIVE CONTROL: reorder a level that actually mixes tiers")
+# Level 2 is now all tier 0, so mis-ordering it is impossible and it proved
+# nothing. Level 3 is where the deferred `jam` forms landed, so it is the
+# level that can demonstrate the invariant catching a regression.
+l3 = load(3)
+ids_real = [w["id"] for w in l3["words"]]
+check(teaching_order.teaching_tier(
+          {"senses": [{"gloss": l3["words"][0]["en"]}]}) == 0,
+      "control: level 3 leads with a tier-0 form (%r)" % ids_real[0])
+
+# Now simulate the pre-fix order: a deferred form pulled to the front.
+rare = next(w for w in l3["words"] if w["id"] == "isha")
+broken = [rare] + [w for w in l3["words"] if w["id"] != "isha"]
+ks = [key(w) for w in broken]
+check([w["id"] for w in broken][0] == "isha",
+      "control: imperfect 'isha' forced to the front")
+check(ks != sorted(ks),
+      "control: that order violates the teaching invariant")
+
+# And the shipped file must still pass, so the control is not just asserting
+# that some ordering fails -- it is asserting THIS ordering holds.
+check([key(w) for w in l3["words"]] == sorted(key(w) for w in l3["words"]),
+      "control: the real level 3 still passes")
+
+if fails:
+    print("\n%d FAILURE(S)" % len(fails))
+    sys.exit(1)
+print("\nTEACHING ORDER VERIFIED")

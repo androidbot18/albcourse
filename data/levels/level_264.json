@@ -1,31 +1,32 @@
 {
  "level": 264,
- "title": "druaj, ekran, shënuar, ngrihem, sallë, zile +4",
+ "title": "prish, bisedë, hip, dore, errët, anglisht +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "druaj",
-  "ekran",
-  "ngrihem",
-  "sallë",
-  "shënuar",
-  "zile"
+  "anglisht",
+  "bisedë",
+  "dore",
+  "errët",
+  "hip",
+  "prish"
  ],
  "pos_mix": {
-  "verb": 3,
+  "verb": 5,
   "noun": 4,
-  "adj": 1
+  "adj": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "druaj",
-   "sq": "druaj",
-   "en": "to be afraid, to fear",
+   "id": "prish",
+   "sq": "prish",
+   "en": "to destroy",
    "glosses": [
-    "to be afraid, to fear"
+    "to destroy"
    ],
    "pos": [
     "verb"
@@ -37,7 +38,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to be afraid, to fear",
+     "gloss": "to destroy",
      "tags": [],
      "cats": [
       {
@@ -47,13 +48,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,118 +62,239 @@
      ],
      "examples": [],
      "links": [
-      "be",
-      "afraid",
-      "fear"
+      "destroy"
      ]
     }
    ],
-   "rank": 6589,
-   "count": 107,
-   "family": "druaj",
+   "rank": 1768,
+   "count": 493,
+   "family": "prish",
    "is_root": true,
-   "etymology": "From Proto-Albanian *drāunja, a derivative of droe.",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *priś, of disputed origin. Possibly from Proto-Indo-European *per- (“to strike, beat”) , maybe via an extension *pr-ey-s- whence also Ancient Greek πρῑ́ω (prī́ō, “to saw”). Alternatively from *pres- (“to press”) and cognate to Latin premō (“to press (on)”).",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "druajta",
+     "form": "prisha",
      "tag": "aorist"
     },
     {
-     "form": "druajtur",
+     "form": "prishur",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I broke down twice.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Unë u prish dy herë."
+   }
   },
   {
-   "id": "ekran",
-   "sq": "ekran",
-   "en": "screen (in a cinema or on a technological device)",
+   "id": "hip",
+   "sq": "hip",
+   "en": "to get on, ride, straddle",
    "glosses": [
-    "screen (in a cinema or on a technological device)"
+    "to get on, ride, straddle",
+    "to rise, go up, climb into"
    ],
    "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get on, ride, straddle",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "get",
+      "on",
+      "ride"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rise, go up, climb into",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rise",
+      "go",
+      "up"
+     ]
+    }
+   ],
+   "rank": 1788,
+   "count": 487,
+   "family": "hip",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *skūpa, from Proto-Indo-European *skewbʰ- (“to push”). Compare German schieben (“to push”), English shove, Lithuanian skùbti (“to hurry”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "humb"
+   ],
+   "forms": [
+    {
+     "form": "hipa",
+     "tag": "aorist"
+    },
+    {
+     "form": "hipur",
+     "tag": "participle"
+    },
+    {
+     "form": "hyp",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Don't get on the bus.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Mos hip në autobus."
+   }
+  },
+  {
+   "id": "dore",
+   "sq": "dore",
+   "en": "embroidered sleeve cuff",
+   "glosses": [
+    "embroidered sleeve cuff",
+    "handle of a knife or another tool"
+   ],
+   "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "screen (in a cinema or on a technological device)",
+     "gloss": "embroidered sleeve cuff",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
-      {
-       "name": "Albanian entries with etymology trees",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "81 19"
       }
      ],
-     "examples": [
-      {
-       "sq": "ekran telefoni",
-       "en": "phone screen",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "screen"
+      "embroidered",
+      "cuff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "handle of a knife or another tool",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "handle",
+      "knife",
+      "tool"
      ]
     }
    ],
-   "rank": 6591,
-   "count": 107,
-   "family": "ekran",
+   "rank": 1791,
+   "count": 486,
+   "family": "dore",
    "is_root": true,
-   "etymology": "Etymology tree\nProto-Indo-European *(s)ker-der.\nProto-Germanic *skirmiz\nProto-West Germanic *skirmi\nOld Dutch skirm\nMiddle Dutch schermbor.\nOld French escran\nMiddle French écran\nFrench écranbor.\nAlbanian ekran\nBorrowed from French écran. Ultimately from Proto-West Germanic *skirmi.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "ekrane",
+     "form": "dore",
      "tag": "plural"
+    },
+    {
+     "form": "dorja",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do I need to bring hand sanitiser?",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "A duhet të sjell pastrues dore?"
+   }
   },
   {
-   "id": "shënuar",
-   "sq": "shënuar",
-   "en": "special, distinguished",
+   "id": "errët",
+   "sq": "errët",
+   "en": "dark",
    "glosses": [
-    "special, distinguished"
+    "dark"
    ],
    "pos": [
     "adj"
@@ -184,7 +306,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "special, distinguished",
+     "gloss": "dark",
      "tags": [],
      "cats": [
       {
@@ -208,213 +330,90 @@
      ],
      "examples": [],
      "links": [
-      "special",
-      "distinguished"
+      "dark"
      ]
     }
    ],
-   "rank": 6595,
-   "count": 107,
-   "family": "shënuar",
+   "rank": 1797,
+   "count": 484,
+   "family": "errët",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From err (“darkness”).",
    "etymology_class": null,
    "source_lang": null,
-   "parents": [],
+   "cognate": null,
+   "parents": [
+    "darkness"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How much did you score?",
+    "en": "and dark is light.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Sa keni shënuar?"
+    "sq": "dhe të errët është dritë."
    }
   },
   {
-   "id": "ngrihem",
-   "sq": "ngrihem",
-   "en": "to rise; to stand up; to get up",
+   "id": "anglisht",
+   "sq": "anglisht",
+   "en": "in English",
    "glosses": [
-    "to rise; to stand up; to get up",
-    "to become erect"
+    "in English"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rise; to stand up; to get up",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "84 16"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "63 37"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "rise",
-      "stand up",
-      "get up"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to become erect",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Po më ngrihet kari.",
-       "en": "My dick is getting hard.",
-       "offsets": [
-        [
-         6,
-         13
-        ]
-       ]
-      }
-     ],
-     "links": []
-    }
-   ],
-   "rank": 6614,
-   "count": 107,
-   "family": "ngrihem",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ngritur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "sallë",
-   "sq": "sallë",
-   "en": "salon, large room",
-   "glosses": [
-    "salon, large room",
-    "hall, large meeting room, auditorium"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "salon, large room",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Rooms",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Rooms",
-       "langcode": "sq",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "salon",
-      "room"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hall, large meeting room, auditorium",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in English",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 71"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 71"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 87"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "hall",
-      "meeting room",
-      "auditorium"
+      "English"
      ]
     }
    ],
-   "rank": 6623,
-   "count": 107,
-   "family": "sallë",
+   "rank": 1801,
+   "count": 482,
+   "family": "anglisht",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -422,35 +421,160 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "We were in the hall.",
+    "en": "English = p 2.",
+    "score": [
+     1,
+     2,
+     -1,
+     10
+    ],
+    "sq": "Anglisht = p 2."
+   }
+  },
+  {
+   "id": "bisedë",
+   "sq": "bisedë",
+   "en": "conversation",
+   "glosses": [
+    "conversation",
+    "discussion"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "conversation",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "conversation"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "discussion",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discussion"
+     ]
+    }
+   ],
+   "rank": 2017,
+   "count": 430,
+   "family": "bisedë",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, ultimately from Proto-Slavic *besěda (“sitting outside, gathering, conversation”). Compare Old Church Slavonic бесѣда (besěda, “conversation, word”) Serbo-Croatian beseda (“word, speech”), Macedonian беседа (beseda).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "bisedoj",
+    "bisedues",
+    "bisedor",
+    "bisedar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "biseda",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "People in this conversation.",
     "score": [
      1,
      4,
      -3,
      10
     ],
-    "sq": "Ne ishim në sallë."
+    "sq": "Njerëzit në këtë bisedë."
    }
   },
   {
-   "id": "zile",
-   "sq": "zile",
-   "en": "bell",
+   "id": "bisedoj",
+   "sq": "bisedoj",
+   "en": "to talk, to converse",
    "glosses": [
-    "bell"
+    "to talk, to converse"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bell",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to talk, to converse",
+     "tags": [
+      "intransitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -459,7 +583,98 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "talk",
+      "converse"
+     ]
+    }
+   ],
+   "rank": 2690,
+   "count": 306,
+   "family": "bisedë",
+   "is_root": false,
+   "etymology": "From bisedë (“conversation”) + -oj (verb suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "conversation"
+   ],
+   "components": [
+    {
+     "word": "bisedë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "bisedova",
+     "tag": "aorist"
+    },
+    {
+     "form": "biseduar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How do you converse with strangers?",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "Si mund të bisedoj me të huajt?"
+   }
+  },
+  {
+   "id": "biseduar",
+   "sq": "biseduar",
+   "en": "past participle of bisedoj (to talk)",
+   "glosses": [
+    "past participle of bisedoj (to talk)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of bisedoj (to talk)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -472,42 +687,32 @@
       }
      ],
      "examples": [],
-     "links": [
-      "bell"
-     ]
+     "is_form_of": "bisedoj"
     }
    ],
-   "rank": 6625,
-   "count": 107,
-   "family": "zile",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish زیل (zil), زل (zil) (Turkish zil).",
-   "etymology_class": "borrowed",
+   "rank": 1782,
+   "count": 489,
+   "family": "bisedë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "zile",
-     "tag": "plural"
-    },
-    {
-     "form": "zilja",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How else to use the alarm clock?",
+    "en": "We talked, we agreed.",
     "score": [
-     4,
-     7,
-     -3,
+     0,
+     5,
+     -5,
      10
     ],
-    "sq": "Si tjetër ta përdor orën me zile?"
+    "sq": "Kemi biseduar, kemi rënë dakord."
    }
   }
  ]

@@ -1,45 +1,180 @@
 {
  "level": 179,
- "title": "kampion, aeroport, shpatë, marrëzi, hanë, qesharak +4",
+ "title": "fitoj, sëmurë, mijë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "aeroport",
-  "hanë",
-  "kampion",
-  "marrëzi",
-  "qesharak",
-  "shpatë"
+  "fitoj",
+  "mijë",
+  "sëmurë"
  ],
  "pos_mix": {
+  "adj": 2,
+  "adv": 1,
   "noun": 5,
-  "adj": 1,
-  "adv": 2
+  "num": 1,
+  "verb": 6
  },
  "words": [
   {
-   "id": "kampion",
-   "sq": "kampion",
-   "en": "champion",
+   "id": "sëmurë",
+   "sq": "sëmurë",
+   "en": "sick, ill, diseased, ailing",
    "glosses": [
-    "champion"
+    "sick, ill, diseased, ailing",
+    "in an ailing/sick/diseased condition",
+    "ailing/sick person; patient"
    ],
    "pos": [
+    "adj",
+    "adv",
     "noun"
    ],
    "pos_labels": [
+    "adjective",
+    "adverb",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "champion",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sick, ill, diseased, ailing",
      "tags": [],
      "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 34 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sick",
+      "ill",
+      "diseased"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in an ailing/sick/diseased condition",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 34 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ailing",
+      "sick",
+      "diseased"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ailing/sick person; patient",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 22 52"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 34 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 23 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ailing",
+      "sick",
+      "person"
+     ]
+    }
+   ],
+   "rank": 908,
+   "count": 1050,
+   "family": "sëmurë",
+   "is_root": true,
+   "etymology": "A contracted form of sëmundur, from mund.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "sëmundur",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Were they sick?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Mos ishin të sëmurë?"
+   }
+  },
+  {
+   "id": "mijë",
+   "sq": "mijë",
+   "en": "thousand",
+   "glosses": [
+    "thousand"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "thousand",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -51,27 +186,22 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "champion"
+      "thousand"
      ]
     }
    ],
-   "rank": 2617,
-   "count": 315,
-   "family": "kampion",
+   "rank": 913,
+   "count": 1046,
+   "family": "mijë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed through Vulgar Latin from Latin mīlia, plural of mīlle, evolving internally in Albanian through /ˈmiʎə/, still retained in some Albanian archaic varieties. Compare Romanian mie.",
+   "etymology_class": "borrowed",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -79,34 +209,248 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then I became the champion.",
+    "en": "Almost 4 thousand tests!",
     "score": [
-     0,
-     4,
-     -4,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Pastaj u bëra kampion."
+    "sq": "Gati 4 mijë testime!"
    }
   },
   {
-   "id": "aeroport",
-   "sq": "aeroport",
-   "en": "airport, aerodrome, airdrome, airfield",
+   "id": "fitoj",
+   "sq": "fitoj",
+   "en": "to profit, earn",
    "glosses": [
-    "airport, aerodrome, airdrome, airfield"
+    "to profit, earn",
+    "to win",
+    "to gain",
+    "to win, get on one's side",
+    "to receive, take (something unpleasant)"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to profit, earn",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Fitoj pak nga dyqani.",
+       "en": "I earn a little from the store.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "profit",
+      "earn"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win",
+     "tags": [
+      "also",
+      "intransitive",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E fitova ndeshjen.",
+       "en": "I won the match.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "win"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gain",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Fitoj besimin e shokëve.",
+       "en": "I gain the trust of friends.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Fitoj dashurinë e shokëve.",
+       "en": "I gain the love of friends.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "gain"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win, get on one's side",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian back-formations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 0 0 70 0"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 9 9 55 9"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 13 13 42 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "E fitova zemrën e Lindës.",
+       "en": "I won Linda's heart.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "win",
+      "side"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to receive, take (something unpleasant)",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "receive",
+      "take"
+     ]
+    }
+   ],
+   "rank": 1528,
+   "count": 580,
+   "family": "fitoj",
+   "is_root": true,
+   "etymology": "Back-formation from përfitoj (“to profit”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "fit",
+    "fitim",
+    "fitore",
+    "fituar",
+    "fitues"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "fitova",
+     "tag": "aorist"
+    },
+    {
+     "form": "fituar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "fitim",
+   "sq": "fitim",
+   "en": "pay, wages",
+   "glosses": [
+    "pay, wages",
+    "income",
+    "benefit, gain",
+    "victory"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "airport, aerodrome, airdrome, airfield",
+     "gloss": "pay, wages",
      "tags": [
       "masculine"
      ],
@@ -115,285 +459,191 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "16 15 27 19 23"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 21 18 21 26"
       }
      ],
      "examples": [],
      "links": [
-      "airport",
-      "aerodrome",
-      "airdrome"
+      "pay",
+      "wages"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "income",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Economics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Economics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 15 27 19 23"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "economics",
+      "income"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "benefit, gain",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 15 27 19 23"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 21 18 21 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "benefit",
+      "gain"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "victory",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 15 27 19 23"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 28 15 20 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 21 18 21 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "victory"
      ]
     }
    ],
-   "rank": 2620,
-   "count": 315,
-   "family": "aeroport",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 8020,
+   "count": 85,
+   "family": "fitoj",
+   "is_root": false,
+   "etymology": "From fitoj (“to profit, gain”) + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
+   "components": [
+    {
+     "word": "fitoj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "fitimdhënës",
+    "i fitimët",
+    "fitimprurës",
+    "i fitimshëm",
+    "fitimtar"
+   ],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "fitime",
+     "tag": "plural"
+    },
+    {
+     "form": "fitimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "When come to the airport?",
+    "en": "How will you make a profit?",
     "score": [
      1,
-     4,
-     -3,
+     6,
+     -5,
      10
     ],
-    "sq": "Kur vijnë në aeroport?"
+    "sq": "Si do të bëni një fitim?"
    }
   },
   {
-   "id": "shpatë",
-   "sq": "shpatë",
-   "en": "sword",
+   "id": "fitimprurës",
+   "sq": "fitimprurës",
+   "en": "profitable, fruitful",
    "glosses": [
-    "sword"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sword",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sword"
-     ]
-    }
-   ],
-   "rank": 2632,
-   "count": 312,
-   "family": "shpatë",
-   "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Latin spatha. Cognate with Greek σπαθί (spathí), Italian spada, Romanian spadă, spată.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shpata",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have not come to bring peace, but a sword.",
-    "score": [
-     0,
-     8,
-     -8,
-     10
-    ],
-    "sq": "Nuk kam ardhur të sjell paqe, por shpatë."
-   }
-  },
-  {
-   "id": "marrëzi",
-   "sq": "marrëzi",
-   "en": "madness, craziness",
-   "glosses": [
-    "madness, craziness"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "madness, craziness",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "madness",
-      "craziness"
-     ]
-    }
-   ],
-   "rank": 2633,
-   "count": 312,
-   "family": "marrëzi",
-   "is_root": true,
-   "etymology": "From marrë, possibly related to mërzit.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is stupid.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Kjo është marrëzi."
-   }
-  },
-  {
-   "id": "hanë",
-   "sq": "hanë",
-   "en": "moon",
-   "glosses": [
-    "moon"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "moon",
-     "tags": [
-      "Gheg"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "moon"
-     ]
-    }
-   ],
-   "rank": 2634,
-   "count": 312,
-   "family": "hanë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ksandā, from pre-Albanian *skandneh₂, from Proto-Indo-European *(s)kand- (“to shine”) (compare Welsh can (“white”), Latin candeō (“to shine, gleam”), Sanskrit चन्द्र (candrá, “shining; moon”)). One might also consider a connection to Ancient Greek ἕνος (hénos, “old”) and Latin annus (“year”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "white"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hënë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How often do they eat?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Sa shpesh ata hanë?"
-   }
-  },
-  {
-   "id": "qesharak",
-   "sq": "qesharak",
-   "en": "funny, amusing; laughable, ridiculous",
-   "glosses": [
-    "funny, amusing; laughable, ridiculous"
+    "profitable, fruitful"
    ],
    "pos": [
     "adj"
@@ -405,7 +655,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "funny, amusing; laughable, ridiculous",
+     "gloss": "profitable, fruitful",
      "tags": [],
      "cats": [
       {
@@ -429,140 +679,118 @@
      ],
      "examples": [],
      "links": [
-      "funny",
-      "amusing",
-      "laughable"
+      "profitable",
+      "fruitful"
      ]
     }
    ],
-   "rank": 2647,
-   "count": 311,
-   "family": "qesharak",
-   "is_root": true,
-   "etymology": "From qesh.",
-   "etymology_class": null,
+   "rank": 29292,
+   "count": 15,
+   "family": "fitoj",
+   "is_root": false,
+   "etymology": "From fitim (“profit”) + prurës (“bringer”).",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
-   "components": [],
+   "cognate": null,
+   "parents": [
+    "profit",
+    "bringer"
+   ],
+   "components": [
+    {
+     "word": "fitim",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qesharake",
+     "form": "fitimprurëse",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Of course and funny.",
+    "en": "They can't be profitable.",
     "score": [
-     1,
-     3,
-     -2,
+     0,
+     6,
+     -6,
      10
     ],
-    "sq": "Sigurisht dhe qesharak."
+    "sq": "Ata nuk mund të jenë fitimprurës."
    }
   },
   {
-   "id": "marrëzisht",
-   "sq": "marrëzisht",
-   "en": "madly, foolishly, ludicrously, idiotically",
+   "id": "fituar",
+   "sq": "fituar",
+   "en": "participle of fitoj (to profit)",
    "glosses": [
-    "madly, foolishly, ludicrously, idiotically",
-    "crazily, insanely, ridiculously"
+    "participle of fitoj (to profit)"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "madly, foolishly, ludicrously, idiotically",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "participle of fitoj (to profit)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Albanian terms suffixed with -sht",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "madly",
-      "foolishly",
-      "ludicrously"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "crazily, insanely, ridiculously",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "crazily",
-      "insanely",
-      "ridiculously"
-     ]
+     "is_form_of": "fitoj"
     }
    ],
-   "rank": 29920,
-   "count": 15,
-   "family": "marrëzi",
+   "rank": 906,
+   "count": 1051,
+   "family": "fitoj",
    "is_root": false,
-   "etymology": "From marrëzi (mad(ness)) + -sht (-ly).",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "marrëzi",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
-   "related": [
-    "marrë",
-    "marri",
-    "mërzit",
-    "marrëzishëm",
-    "marrëzishme"
-   ],
+   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Head over heels in love.",
+    "en": "It was not earned nor given.",
     "score": [
-     1,
-     3,
-     -2,
+     0,
+     8,
+     -8,
      10
     ],
-    "sq": "Marrëzisht në dashuri."
+    "sq": "Nuk është fituar dhe nuk të është dhënë."
    }
   }
  ]

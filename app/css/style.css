@@ -344,3 +344,13 @@ button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
   font-style: italic;
 }
 .components .stem { font-style: normal; font-weight: 600; }
+
+/* Cognate: the source-language form, e.g. shoke = Latin soca.
+   The historical counterpart to the component line -- shown with the answer
+   rather than the prompt, because it is a recall aid, not a clue. */
+.cognate {
+  margin-top: 6px;
+  font-size: 15px;
+  color: var(--muted, #6b7280);
+  font-style: italic;
+}

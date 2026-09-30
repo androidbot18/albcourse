@@ -1,38 +1,37 @@
 {
  "level": 50,
- "title": "përshëndetje, mami",
- "root": "",
- "root_gloss": "",
- "part": 1,
- "parts": 1,
+ "title": "vend 2/2",
+ "root": "vend",
+ "root_gloss": "place",
+ "part": 2,
+ "parts": 2,
  "word_count": 2,
  "families": [
-  "mami",
-  "përshëndetje"
+  "vend"
  ],
  "pos_mix": {
-  "intj": 1,
-  "noun": 2
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "përshëndetje",
-   "sq": "përshëndetje",
-   "en": "hello, greetings, goodbye",
+   "id": "vendor",
+   "sq": "vendor",
+   "en": "local",
    "glosses": [
-    "hello, greetings, goodbye"
+    "local"
    ],
    "pos": [
-    "intj"
+    "adj"
    ],
    "pos_labels": [
-    "interjection"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "hello, greetings, goodbye",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "local",
      "tags": [],
      "cats": [
       {
@@ -42,105 +41,120 @@
        "source": "w"
       },
       {
-       "name": "Albanian phrasebook",
+       "name": "Albanian terms suffixed with -or",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with për-",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "shërbim vendor",
+       "en": "",
+       "offsets": []
+      }
+     ],
      "links": [
-      "hello",
-      "greetings",
-      "goodbye"
+      "local"
      ]
     }
    ],
-   "rank": 277,
-   "count": 4059,
-   "family": "përshëndetje",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 30650,
+   "count": 14,
+   "family": "vend",
+   "is_root": false,
+   "etymology": "From vendos (“to decide, to place”) + -or (adjective-forming suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "vendos",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "vendore",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Greetings and thank you!",
+    "en": "Local Economic Development does not just happen.",
     "score": [
-     0,
      3,
+     6,
      -3,
      10
     ],
-    "sq": "Përshëndetje dhe faleminderit!"
+    "sq": "Zhvillimi ekonomik vendor nuk ndodh vetvetiu."
    }
   },
   {
-   "id": "mami",
-   "sq": "mami",
-   "en": "mom",
+   "id": "vendosur",
+   "sq": "vendosur",
+   "en": "past participle of vendos (to decide)",
    "glosses": [
-    "mom",
-    "midwife"
+    "past participle of vendos (to decide)"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mom",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "midwife",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of vendos (to decide)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 83"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "midwife"
-     ]
+     "is_form_of": "vendos"
     }
    ],
-   "rank": 279,
-   "count": 4033,
-   "family": "mami",
-   "is_root": true,
+   "rank": 703,
+   "count": 1437,
+   "family": "vend",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -148,14 +162,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I love you mom!",
+    "en": "We're very determined.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Të dua mami!"
+    "sq": "Jemi shumë të vendosur."
    }
   }
  ]

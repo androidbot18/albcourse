@@ -1,24 +1,29 @@
 {
  "level": 51,
- "title": "flas 1/2",
- "root": "flas",
- "root_gloss": "to speak",
+ "title": "le, thjesht, akoma, herë +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
- "parts": 2,
- "word_count": 9,
+ "parts": 1,
+ "word_count": 6,
  "families": [
-  "flas"
+  "akoma",
+  "herë",
+  "le",
+  "thjesht"
  ],
  "pos_mix": {
-  "verb": 9
+  "verb": 1,
+  "adv": 1,
+  "noun": 7
  },
  "words": [
   {
-   "id": "flas",
-   "sq": "flas",
-   "en": "to speak",
+   "id": "le",
+   "sq": "le",
+   "en": "to give birth, bear",
    "glosses": [
-    "to speak"
+    "to give birth, bear"
    ],
    "pos": [
     "verb"
@@ -30,7 +35,70 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to speak",
+     "gloss": "to give birth, bear",
+     "tags": [
+      "dialectal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 9 27 8 8 41"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "u le",
+       "en": "to be born",
+       "offsets": []
+      },
+      {
+       "sq": "lehet",
+       "en": "is born",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "give birth",
+      "bear"
+     ]
+    }
+   ],
+   "rank": 173,
+   "count": 7417,
+   "family": "le",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laida, an ostensibly o-grade thematic present from the root *leyd- (“to let go, release”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "thjesht",
+   "sq": "thjesht",
+   "en": "simply",
+   "glosses": [
+    "simply"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "simply",
      "tags": [],
      "cats": [
       {
@@ -40,13 +108,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,69 +122,173 @@
      ],
      "examples": [],
      "links": [
-      "speak"
+      "simply"
      ]
     }
    ],
-   "rank": 280,
-   "count": 4005,
-   "family": "flas",
+   "rank": 176,
+   "count": 7354,
+   "family": "thjesht",
    "is_root": true,
-   "etymology": "From Proto-Albanian *śp(e)latśi-, from Proto-Indo-European *(s)pel- (“to say aloud, recite”); compare English spell, Ancient Greek ἀπειλή (apeilḗ, “threat”). Related to fjalë (“word”), folje (“utterance, speaking”).",
-   "etymology_class": "derived",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
-   "parents": [
-    "threat"
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You are just there.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Thjesht jeni aty."
+   }
+  },
+  {
+   "id": "akoma",
+   "sq": "akoma",
+   "en": "still",
+   "glosses": [
+    "still"
    ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "still",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "still"
+     ]
+    }
+   ],
+   "rank": 178,
+   "count": 7235,
+   "family": "akoma",
+   "is_root": true,
+   "etymology": "Derives from Greek ακόμα (akóma).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "fola",
-     "tag": "aorist"
+     "form": "akoma",
+     "tag": "plural"
     },
     {
-     "form": "folur",
-     "tag": "participle"
+     "form": "akoman",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It says, 'I can't talk!",
+    "en": "…and yet I am not.",
     "score": [
      0,
-     6,
-     -6,
+     4,
+     -4,
      10
     ],
-    "sq": "Ajo thotë, 'Nuk mund të flas!"
+    "sq": "… Dhe akoma nuk jam."
    }
   },
   {
-   "id": "flet",
-   "sq": "flet",
-   "en": "you (sg) speak (from flas, to speak)",
+   "id": "herë",
+   "sq": "herë",
+   "en": "time",
    "glosses": [
-    "you (sg) speak (from flas, to speak)"
+    "time",
+    "an instant of time, instance",
+    "multiplied by, times",
+    "season"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) speak (from flas, to speak)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "time",
      "tags": [
-      "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "time"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "an instant of time, instance",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "instant",
+      "time",
+      "instance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "multiplied by, times",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -124,184 +296,110 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 307,
-   "count": 3461,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why is this talking?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Përse flet kjo?"
-   }
-  },
-  {
-   "id": "flasim",
-   "sq": "flasim",
-   "en": "we speak (from flas, to speak)",
-   "glosses": [
-    "we speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we speak (from flas, to speak)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "_dis": "4 32 60 4"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 12 80 4"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 11 82 4"
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 334,
-   "count": 3106,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We need to speak up!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Duhet të flasim!"
-   }
-  },
-  {
-   "id": "folur",
-   "sq": "folur",
-   "en": "past participle of flas (to speak)",
-   "glosses": [
-    "past participle of flas (to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
+     "links": [
+      "multiplied",
+      "times"
+     ]
+    },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "past participle of flas (to speak)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "season",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "archaic",
+      "feminine"
      ],
      "cats": [],
      "examples": [],
-     "is_form_of": "flas"
+     "links": [
+      "season"
+     ]
     }
    ],
-   "rank": 476,
-   "count": 2215,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 179,
+   "count": 7220,
+   "family": "herë",
+   "is_root": true,
+   "etymology": "Borrowed from Latin hōra (“hour, time, season”), through Vulgar Latin with unexplained preservation of h or more likely the coincidental reappearance by other means. Cognate with Romanian oară. Doublet of orë (“hour, clock, watch”), a recent borrowing.",
+   "etymology_class": "borrowed",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "herahershëm",
+    "herak",
+    "herë-herë",
+    "herëkeqe",
+    "herëpasherëshëm",
+    "herës",
+    "herët",
+    "hershëm"
+   ],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "herë",
+     "tag": "plural"
+    },
+    {
+     "form": "hera",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's time to talk.",
+    "en": "whenever they want.",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
      10
     ],
-    "sq": "Është koha për të folur."
+    "sq": "sa herë të duan."
    }
   },
   {
-   "id": "fol",
-   "sq": "fol",
-   "en": "you (sg)! (imperative of flas, to speak)",
+   "id": "here",
+   "sq": "here",
+   "en": "time, singular (from herë)",
    "glosses": [
-    "you (sg)! (imperative of flas, to speak)"
+    "time, singular (from herë)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (imperative of flas, to speak)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "time, singular (from herë)",
      "tags": [
+      "ablative",
+      "dative",
       "form-of",
-      "imperative",
-      "second-person",
+      "indefinite",
       "singular"
      ],
      "cats": [
@@ -312,7 +410,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 19 entries",
+       "name": "Pages with 13 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -325,16 +423,17 @@
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
+     "is_form_of": "herë"
     }
    ],
-   "rank": 713,
-   "count": 1426,
-   "family": "flas",
+   "rank": 783,
+   "count": 1263,
+   "family": "herë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -342,112 +441,39 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Start and speak.",
+    "en": "But these times, cordially.",
     "score": [
      1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Fillo dhe fol."
-   }
-  },
-  {
-   "id": "flasësh",
-   "sq": "flasësh",
-   "en": "you (sg) (subjunctive) speak (from flas, to speak)",
-   "glosses": [
-    "you (sg) (subjunctive) speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) (subjunctive) speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 959,
-   "count": 991,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why speak out now?",
-    "score": [
-     0,
      4,
-     -4,
+     -3,
      10
     ],
-    "sq": "Pse të flasësh tani?"
+    "sq": "Por këto here, përzemërsisht."
    }
   },
   {
-   "id": "flisni",
-   "sq": "flisni",
-   "en": "you (pl)! (imperative of flas, to speak)",
+   "id": "hera",
+   "sq": "hera",
+   "en": "the time, singular (from herë)",
    "glosses": [
-    "you (pl)! (imperative of flas, to speak)"
+    "the time, singular (from herë)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (imperative of flas, to speak)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the time, singular (from herë)",
      "tags": [
+      "definite",
       "form-of",
-      "imperative",
-      "plural",
-      "second-person"
+      "nominative",
+      "singular"
      ],
      "cats": [
       {
@@ -457,7 +483,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -470,162 +496,17 @@
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
+     "is_form_of": "herë"
     }
    ],
-   "rank": 1161,
-   "count": 799,
-   "family": "flas",
+   "rank": 911,
+   "count": 1049,
+   "family": "herë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Don't speak German?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Nuk flisni gjermanisht?"
-   }
-  },
-  {
-   "id": "flasin",
-   "sq": "flasin",
-   "en": "they speak (from flas, to speak)",
-   "glosses": [
-    "they speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1267,
-   "count": 710,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But people will talk.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Por njerëzit do të flasin."
-   }
-  },
-  {
-   "id": "flasë",
-   "sq": "flasë",
-   "en": "he/she/it (subjunctive) speak (from flas, to speak)",
-   "glosses": [
-    "he/she/it (subjunctive) speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it (subjunctive) speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1572,
-   "count": 556,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -633,14 +514,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "I don't dare to talk.",
+    "en": "It's not the first time.",
     "score": [
      1,
-     4,
-     -3,
+     5,
+     -4,
      8
     ],
-    "sq": "Nuk guxoj të flasë."
+    "sq": "Nuk është hera e parë."
    }
   }
  ]

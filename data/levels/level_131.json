@@ -1,81 +1,265 @@
 {
  "level": 131,
- "title": "kafshë, fuqi, turp, hotel +2",
+ "title": "ha, kem, zgjuar, saktë, intereson, zonjë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 9,
  "families": [
-  "fuqi",
-  "hotel",
-  "kafshë",
-  "turp"
+  "ha",
+  "intereson",
+  "kem",
+  "saktë",
+  "zgjuar",
+  "zonjë"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 1,
-  "verb": 3
+  "verb": 6,
+  "noun": 5,
+  "adj": 5
  },
  "words": [
   {
-   "id": "kafshë",
-   "sq": "kafshë",
-   "en": "animal",
+   "id": "ha",
+   "sq": "ha",
+   "en": "to eat",
    "glosses": [
-    "animal",
-    "idiot"
+    "to eat",
+    "to gnaw, consume, wear out",
+    "to capture"
    ],
    "pos": [
-    "noun",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to eat",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "I vuri këto ushqime Saulit dhe shërbëtorëve të tij, dhe ata i hëngrën; pastaj u ngritën dhe u nisën po atë natë.",
+       "en": "And she gave them to Saul and his servants, and they ate (them). They got up and departed that same night.",
+       "offsets": [
+        [
+         62,
+         69
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "eat"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gnaw, consume, wear out",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gnaw",
+      "consume",
+      "wear"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to capture",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 25 64"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chess",
+      "capture"
+     ]
+    }
+   ],
+   "rank": 528,
+   "count": 1978,
+   "family": "ha",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *eda, from Proto-Indo-European *h₁ed- (“to eat”), with the preservation of the laryngeal. Alternatively from Proto-Indo-European *h₂ew- (compare Ashkun au (“bread”), Sanskrit अवय (avaya, “to eat”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "hahem",
+    "haje",
+    "pi"
+   ],
+   "forms": [
+    {
+     "form": "hëngra",
+     "tag": "aorist"
+    },
+    {
+     "form": "ngrënë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kem",
+   "sq": "kem",
+   "en": "incense",
+   "glosses": [
+    "incense"
+   ],
+   "pos": [
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "animal",
+     "gloss": "incense",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
+      {
+       "name": "Pages with 17 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incense"
+     ]
+    }
+   ],
+   "rank": 529,
+   "count": 1958,
+   "family": "kem",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kapna, from Proto-Indo-European *kʷh₂wep- (“smoke, seethe”) (compare Ancient Greek καπνός (kapnós, “smoke”), Polish kopeć (“soot”)).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "smoke",
+    "soot"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qem",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How many accounts can I have?",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Sa llogari mund të kem?"
+   }
+  },
+  {
+   "id": "zgjuar",
+   "sq": "zgjuar",
+   "en": "awake",
+   "glosses": [
+    "awake",
+    "clever, witty, intelligent, smart"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "awake",
+     "tags": [],
+     "cats": [
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "34 8 29 29"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "38 4 29 29"
       }
      ],
      "examples": [],
      "links": [
-      "animal"
+      "awake"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "idiot",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "clever, witty, intelligent, smart",
      "tags": [
-      "feminine",
       "figuratively"
      ],
      "cats": [
@@ -84,212 +268,25 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "24 43 16 16"
       }
      ],
      "examples": [],
      "links": [
-      "idiot"
+      "clever",
+      "witty",
+      "intelligent"
      ]
     }
    ],
-   "rank": 1296,
-   "count": 695,
-   "family": "kafshë",
+   "rank": 540,
+   "count": 1921,
+   "family": "zgjuar",
    "is_root": true,
-   "etymology": "Borrowed from Dalmatian (compare Vegliot kawsa ‘thing’), from Latin causa. The word shifted from “thing” to “animal” possibly by influence of gjë (“thing; livestock, cattle”).",
-   "etymology_class": "borrowed",
+   "etymology": "From the participle of zgjoj, literally 'awaken, vivid'. Same sense development in Italian sveglio, meaning both 'awaken' and 'smart'.",
+   "etymology_class": null,
    "source_lang": null,
-   "parents": [
-    "thing"
-   ],
-   "components": [],
-   "derived": [
-    "gjysmëkafshë",
-    "kafshar",
-    "kafsharak",
-    "kafsheroj",
-    "kafshëror",
-    "kafshësi",
-    "kafshësor",
-    "kafshëz"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "kafshë",
-     "tag": "plural"
-    },
-    {
-     "form": "kafsha",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Which animals were they?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Cilat kafshë ishin?"
-   }
-  },
-  {
-   "id": "fuqi",
-   "sq": "fuqi",
-   "en": "strength, force, might",
-   "glosses": [
-    "strength, force, might"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "strength, force, might",
-     "tags": [
-      "physical"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages using invalid parameters when calling Template:R:sq:Meyer:1891",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "strength",
-      "force",
-      "might"
-     ]
-    }
-   ],
-   "rank": 1303,
-   "count": 689,
-   "family": "fuqi",
-   "is_root": true,
-   "etymology": "Uncertain; possibly from Proto-Albanian:\n*spukja, either cognate with Latvian spèks (“strength”), from Proto-Indo-European *speh₁- (“to succeed, prosper”) or Ancient Greek φῦσα (phûsa, “breath; bellows”), Old Armenian փուք (pʻukʻ, “breath”), Lithuanian pùsti (“to swell”), from Proto-Indo-European *(s)pew- (“to inflate”). Alternatively, from *fujqi, borrowed from Vulgar Latin *fulcius, from Latin fulcīō (“to prop up; to support; to make strong”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "strength",
-    "breath"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fuqi",
-     "tag": "plural"
-    },
-    {
-     "form": "fuqia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They have no power.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Nuk kanë fuqi."
-   }
-  },
-  {
-   "id": "turp",
-   "sq": "turp",
-   "en": "shame",
-   "glosses": [
-    "shame"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shame",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "shame"
-     ]
-    }
-   ],
-   "rank": 1311,
-   "count": 685,
-   "family": "turp",
-   "is_root": true,
-   "etymology": "From Latin turpis.",
-   "etymology_class": "derived",
-   "source_lang": "la",
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -297,178 +294,161 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is a shame.",
+    "en": "That's smart.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Ky është turp."
+    "sq": "Kjo është zgjuar."
    }
   },
   {
-   "id": "hotel",
-   "sq": "hotel",
-   "en": "hotel",
+   "id": "saktë",
+   "sq": "saktë",
+   "en": "flawless, perfect",
    "glosses": [
-    "hotel"
+    "flawless, perfect",
+    "exact, accurate",
+    "reliable, trustworthy"
    ],
    "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hotel",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 23 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hotel"
-     ]
-    }
-   ],
-   "rank": 1316,
-   "count": 680,
-   "family": "hotel",
-   "is_root": true,
-   "etymology": "Borrowed from French hôtel.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hotele",
-     "tag": "plural"
-    },
-    {
-     "form": "hoteli",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Awesome hotel!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Hotel i mrekullueshëm!"
-   }
-  },
-  {
-   "id": "fuqishëm",
-   "sq": "fuqishëm",
-   "en": "powerful, mighty, strong; vigorous",
-   "glosses": [
-    "powerful, mighty, strong; vigorous"
-   ],
-   "pos": [
+    "adj",
+    "adj",
     "adj"
    ],
    "pos_labels": [
+    "adjective",
+    "adjective",
     "adjective"
    ],
    "sense_detail": [
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "powerful, mighty, strong; vigorous",
+     "gloss": "flawless, perfect",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 45 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 35 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "flawless",
+      "perfect"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "exact, accurate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 45 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 35 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exact",
+      "accurate"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "reliable, trustworthy",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -shëm",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "23 25 53"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "42 45 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 35 31"
       }
      ],
      "examples": [],
      "links": [
-      "powerful",
-      "mighty",
-      "strong"
+      "reliable",
+      "trustworthy"
      ]
     }
    ],
-   "rank": 1583,
-   "count": 553,
-   "family": "fuqi",
-   "is_root": false,
-   "etymology": "From fuqi + -shëm.",
-   "etymology_class": "affix",
-   "source_lang": null,
+   "rank": 553,
+   "count": 1868,
+   "family": "saktë",
+   "is_root": true,
+   "etymology": "From Ottoman Turkish [script needed] (sahi, “really, truly”) + -të.",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "cognate": "from Turkish sahi (\"really, truly\")",
    "parents": [],
-   "components": [
-    {
-     "word": "fuqi",
-     "role": "prefix"
-    }
+   "components": [],
+   "derived": [
+    "pasaktë",
+    "saktas",
+    "saktësi",
+    "saktësoj"
    ],
-   "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They are powerful.",
+    "en": "but yea, your right.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Ata janë të fuqishëm."
+    "sq": "Ju jeni të saktë."
    }
   },
   {
-   "id": "kafshoj",
-   "sq": "kafshoj",
-   "en": "to bite",
+   "id": "intereson",
+   "sq": "intereson",
+   "en": "to attract attention",
    "glosses": [
-    "to bite"
+    "to attract attention"
    ],
    "pos": [
     "verb"
@@ -480,9 +460,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to bite",
+     "gloss": "to attract attention",
      "tags": [
-      "transitive"
+      "intransitive"
      ],
      "cats": [
       {
@@ -492,7 +472,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -506,150 +486,165 @@
      ],
      "examples": [],
      "links": [
-      "bite"
+      "attention"
      ]
     }
    ],
-   "rank": 8585,
-   "count": 78,
-   "family": "kafshë",
-   "is_root": false,
-   "etymology": "A derivative of kafshë + -oj. Alternatively (according to Meyer-Lübke) borrowed through Vulgar Latin from Late Latin captiō, from Latin captō. Other Latin proposals include Late Latin capsāre (Meyer) and most recently Late Latin capissere by Oryol. Given the two forms, dialectal ajsonj and Old Tosk najsonj, the older form of this word could have been *knavshonj.",
-   "etymology_class": "borrowed",
+   "rank": 557,
+   "count": 1853,
+   "family": "intereson",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "kafshë",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "kafshova",
-     "tag": "aorist"
-    },
-    {
-     "form": "kafshuar",
-     "tag": "participle"
-    },
-    {
-     "form": "ajsonj",
-     "tag": "alternative"
-    },
-    {
-     "form": "najsonj",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is not like a dog's bite.",
+    "corpus": "MaCoCu",
+    "en": ", And you don't care?!",
     "score": [
-     1,
-     8,
-     -7,
-     10
+     0,
+     4,
+     -4,
+     8
     ],
-    "sq": "Kjo nuk është si një qen të kafshoj."
+    "sq": ", Dhe nuk ju intereson?!"
    }
   },
   {
-   "id": "kafshim",
-   "sq": "kafshim",
-   "en": "bite",
+   "id": "zonjë",
+   "sq": "zonjë",
+   "en": "lady in a wealthy family with servants",
    "glosses": [
-    "bite"
+    "lady in a wealthy family with servants",
+    "Mrs., ma'am"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bite",
+     "gloss": "lady in a wealthy family with servants",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lady"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Mrs., ma'am",
+     "tags": [
+      "feminine",
+      "term-of-address"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 90"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 93"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
       }
      ],
      "examples": [],
      "links": [
-      "bite"
+      "Mrs.",
+      "ma'am"
      ]
     }
    ],
-   "rank": 12574,
-   "count": 49,
-   "family": "kafshë",
-   "is_root": false,
-   "etymology": "kafshoj + -im.",
-   "etymology_class": "affix",
+   "rank": 559,
+   "count": 1848,
+   "family": "zonjë",
+   "is_root": true,
+   "etymology": "From *džotnja, from Proto-Albanian *dzwāptnjā, from earlier *w(i)tspátnjā, from Proto-Indo-European *wiḱ-pót-nih₂ (“clan matriarch”), from *wiḱpótis (compare Lithuanian viešpatni (“lady”)), compound of *weyḱ- (“clan, kindred”) (compare Ancient Greek οἰκία (oikía, “house (clan)”), Avestan 𐬬𐬌𐬚 (viθ, “royal court”)) and *pótnih₂ (compare Ancient Greek πότνια (pótnia)), feminine of *pótis (“master”). More at zot.",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [],
-   "components": [
+   "cognate": null,
+   "parents": [
+    "lady",
+    "master"
+   ],
+   "components": [],
+   "derived": [
+    "zonjë e bukur",
+    "zonjë e bekuar",
+    "zonjë e mirë"
+   ],
+   "related": [],
+   "forms": [
     {
-     "word": "kafshoj",
-     "role": "prefix"
+     "form": "zonja",
+     "tag": "plural"
+    },
+    {
+     "form": "zoj",
+     "tag": "alternative"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Not even a bite.",
+    "en": "Who is this lady?",
     "score": [
-     2,
+     1,
      4,
-     -2,
+     -3,
      10
     ],
-    "sq": "As edhe një kafshim."
+    "sq": "Kush është kjo zonjë?"
    }
   },
   {
-   "id": "kafshatë",
-   "sq": "kafshatë",
-   "en": "bite",
+   "id": "hamendje",
+   "sq": "hamendje",
+   "en": "guess",
    "glosses": [
-    "bite"
+    "guess",
+    "hypothesis"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bite",
+     "gloss": "guess",
      "tags": [
       "feminine"
      ],
@@ -658,82 +653,104 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "67 33"
+      },
+      {
+       "name": "Albanian terms prefixed with ha-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "80 20"
       }
      ],
      "examples": [],
      "links": [
-      "bite"
+      "guess"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hypothesis",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hypothesis"
      ]
     }
    ],
-   "rank": 15308,
-   "count": 37,
-   "family": "kafshë",
+   "rank": 24907,
+   "count": 19,
+   "family": "ha",
    "is_root": false,
-   "etymology": "From kafshoj (“to bite”) + -atë.",
-   "etymology_class": null,
+   "etymology": "From ha- + mendje.",
+   "etymology_class": "affix",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "kafshoj",
+     "word": "ha",
      "role": "prefix"
+    },
+    {
+     "word": "mendje",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "kafshata",
+     "form": "hamendje",
      "tag": "plural"
+    },
+    {
+     "form": "hamendja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How's that for a mouthful?",
+    "en": "Many guesses can be made, as they have been made.",
     "score": [
-     2,
-     6,
-     -4,
+     1,
+     9,
+     -8,
      10
     ],
-    "sq": "Si është kjo për një kafshatë?"
+    "sq": "Hamendje mund të bëhen shumë, siç edhe janë bërë."
    }
   },
   {
-   "id": "turpëroj",
-   "sq": "turpëroj",
-   "en": "to humiliate, embarrass",
+   "id": "hamendësoj",
+   "sq": "hamendësoj",
+   "en": "to guess; speculate",
    "glosses": [
-    "to humiliate, embarrass",
-    "to mortify"
+    "to guess; speculate"
    ],
    "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to humiliate, embarrass",
+     "gloss": "to guess; speculate",
      "tags": [
       "transitive"
      ],
@@ -742,88 +759,142 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "71 29"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "humiliate",
-      "embarrass"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to mortify",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mortify"
+      "guess",
+      "speculate"
      ]
     }
    ],
-   "rank": 29114,
-   "count": 15,
-   "family": "turp",
+   "rank": 32764,
+   "count": 13,
+   "family": "ha",
    "is_root": false,
-   "etymology": "From turp (“shame”) + ër + oj (“I”).",
+   "etymology": "From hamendje + -oj (verb suffix).",
    "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "shame"
-   ],
+   "cognate": null,
+   "parents": [],
    "components": [
     {
-     "word": "turp",
+     "word": "hamendje",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [
-    "kori",
-    "marre",
-    "veprim"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "turpëruar",
+     "form": "hamendësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "hamendësuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "how i can guess about wining numbers?",
+    "score": [
+     3,
+     7,
+     -4,
+     10
+    ],
+    "sq": "si mund të hamendësoj për numrat fitues?"
+   }
+  },
+  {
+   "id": "ngrënë",
+   "sq": "ngrënë",
+   "en": "participle of ha (to eat)",
+   "glosses": [
+    "participle of ha (to eat)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "participle of ha (to eat)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "ha"
+    }
+   ],
+   "rank": 889,
+   "count": 1073,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "Standard Tosk form of Gheg hangër. From Proto-Albanian *engranti, from Proto-Indo-European *gʷerh₃- (“to swallow, devour, eat”).",
+   "etymology_class": "root",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngranë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It does not require much to eat.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Nuk kërkon shumë për të ngrënë."
+   }
   }
  ]
 }

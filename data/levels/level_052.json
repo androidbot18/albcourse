@@ -1,43 +1,161 @@
 {
  "level": 52,
- "title": "flas 2/2",
- "root": "flas",
- "root_gloss": "to speak",
- "part": 2,
- "parts": 2,
- "word_count": 2,
+ "title": "atë",
+ "root": "atë",
+ "root_gloss": "it, that, him, her (accusative)",
+ "part": 1,
+ "parts": 1,
+ "word_count": 4,
  "families": [
-  "flas"
+  "atë"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 2
+  "pron": 1,
+  "noun": 4,
+  "adv": 1
  },
  "words": [
   {
-   "id": "flisja",
-   "sq": "flisja",
-   "en": "I (used to) spoke (from flas, to speak)",
+   "id": "atë",
+   "sq": "atë",
+   "en": "it, that, him, her (accusative)",
    "glosses": [
-    "I (used to) spoke (from flas, to speak)"
+    "it, that, him, her (accusative)",
+    "father"
    ],
    "pos": [
-    "verb"
+    "pron",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) spoke (from flas, to speak)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "imperfect",
-      "singular"
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "it, that, him, her (accusative)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      }
      ],
+     "examples": [],
+     "links": [
+      "it",
+      "that",
+      "him"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "father",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "father"
+     ]
+    }
+   ],
+   "rank": 41,
+   "count": 43784,
+   "family": "atë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ata, from Proto-Indo-European *átta, whence also Hittite 𒀜𒋫𒀸 (attas), Ancient Greek ἄττα (átta), Latin atta, Proto-Slavic *otьcь, and similar Lallwörter.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "etër",
+     "tag": "plural"
+    },
+    {
+     "form": "ati",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It must be him!",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Ajo duhet të jetë atë!"
+   }
+  },
+  {
+   "id": "atëherë",
+   "sq": "atëherë",
+   "en": "then",
+   "glosses": [
+    "then"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "then",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -59,16 +177,104 @@
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
+     "links": [
+      "then"
+     ]
     }
    ],
-   "rank": 1848,
-   "count": 468,
-   "family": "flas",
+   "rank": 137,
+   "count": 9509,
+   "family": "atë",
+   "is_root": false,
+   "etymology": "From atë (“that”) + herë (“time”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "that",
+    "time"
+   ],
+   "components": [
+    {
+     "word": "atë",
+     "role": "prefix"
+    },
+    {
+     "word": "herë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Then why do they fight?",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Atëherë pse luftojnë?"
+   }
+  },
+  {
+   "id": "ati",
+   "sq": "ati",
+   "en": "the it, singular (from atë)",
+   "glosses": [
+    "the it, singular (from atë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the it, singular (from atë)",
+     "tags": [
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 28 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "atë"
+    }
+   ],
+   "rank": 1963,
+   "count": 441,
+   "family": "atë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -76,23 +282,23 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He wanted to talk to you.",
+    "en": "Where is the Father?",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Doja të flisja me ju."
+    "sq": "Ku është Ati?"
    }
   },
   {
-   "id": "folje",
-   "sq": "folje",
-   "en": "utterance, speaking, speech, talk",
+   "id": "atdhe",
+   "sq": "atdhe",
+   "en": "homeland, fatherland",
    "glosses": [
-    "utterance, speaking, speech, talk",
-    "verb"
+    "homeland, fatherland",
+    "cradle (place of origin)"
    ],
    "pos": [
     "noun",
@@ -106,100 +312,98 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "utterance, speaking, speech, talk",
+     "gloss": "homeland, fatherland",
      "tags": [
-      "feminine"
+      "uncountable"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "utterance",
-      "speaking",
-      "speech"
+      "homeland",
+      "fatherland"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "verb",
+     "gloss": "cradle (place of origin)",
      "tags": [
-      "feminine"
+      "figuratively",
+      "uncountable"
      ],
      "cats": [
-      {
-       "name": "Linguistics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Linguistics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 69"
+       "_dis": "8 92"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "41 59"
+       "_dis": "26 74"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 86"
       }
      ],
      "examples": [],
      "links": [
-      "linguistics",
-      "verb"
+      "cradle"
      ]
     }
    ],
-   "rank": 39206,
-   "count": 10,
-   "family": "flas",
+   "rank": 21103,
+   "count": 24,
+   "family": "atë",
    "is_root": false,
-   "etymology": "From fol (“speak”) + -je. Same sense as English speaking, from speak + -ing.",
+   "etymology": "From atë (“father”) + dhe (“land”). Coined by Albanian linguist Faik Konica.",
    "etymology_class": "affix",
    "source_lang": null,
+   "cognate": null,
    "parents": [
-    "speak"
+    "father",
+    "land"
    ],
    "components": [
     {
-     "word": "fol",
+     "word": "atë",
      "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [
-    "fjalë",
-    "fjalim",
-    "fjalor",
-    "flas",
-    "fol"
-   ],
-   "forms": [
-    {
-     "form": "folje",
-     "tag": "plural"
     },
     {
-     "form": "folja",
-     "tag": "definite"
+     "word": "dhe",
+     "role": "stem"
     }
    ],
+   "derived": [
+    "atdhedashës",
+    "atdhedashje",
+    "atdhedashuri",
+    "atdhemohues",
+    "atdhesi",
+    "atdhesor",
+    "i atdheshëm",
+    "atdheshitës"
+   ],
+   "related": [],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is used as a verb or a noun.",
+    "corpus": "MaCoCu",
+    "en": "Photography by Atdhe Mulla.",
     "score": [
-     2,
-     5,
-     -3,
-     10
+     3,
+     4,
+     -1,
+     8
     ],
-    "sq": "Përdoret si folje ose emër."
+    "sq": "Fotografitë nga Atdhe Mulla."
    }
   }
  ]

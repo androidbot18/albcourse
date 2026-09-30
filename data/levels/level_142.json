@@ -1,132 +1,1126 @@
 {
  "level": 142,
- "title": "qëlloj, ndërtoj, përdorim +1",
+ "title": "ndaj, pastaj, neve, gëzuar +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 9,
+ "word_count": 5,
  "families": [
-  "ndërtoj",
-  "përdorim",
-  "qëlloj"
+  "gëzuar",
+  "ndaj",
+  "neve",
+  "pastaj"
  ],
  "pos_mix": {
-  "noun": 7,
-  "verb": 6
+  "adv": 4,
+  "verb": 20,
+  "pron": 1,
+  "intj": 1
  },
  "words": [
   {
-   "id": "qëllim",
-   "sq": "qëllim",
-   "en": "goal, aim",
+   "id": "pastaj",
+   "sq": "pastaj",
+   "en": "afterwards, after that, then",
    "glosses": [
-    "goal, aim",
-    "intention"
+    "afterwards, after that, then",
+    "subsequently, afterwards (in space)",
+    "besides, moreover, also, furthermore",
+    "else, otherwise (in threats)"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "adv",
+    "adv",
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "goal, aim",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "afterwards, after that, then",
+     "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "goal",
-      "aim"
+      "afterwards",
+      "after",
+      "then"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "intention",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "subsequently, afterwards (in space)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "subsequently",
+      "afterwards"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "besides, moreover, also, furthermore",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "besides",
+      "moreover",
+      "also"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "else, otherwise (in threats)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "15 85"
+       "_dis": "12 0 5 83"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
+       "_dis": "6 0 0 94"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "9 91"
+       "_dis": "5 0 0 95"
       }
      ],
      "examples": [],
      "links": [
-      "intention"
+      "else",
+      "otherwise"
      ]
     }
    ],
-   "rank": 1547,
-   "count": 570,
-   "family": "qëlloj",
-   "is_root": false,
-   "etymology": "From qëlloj + -im.",
-   "etymology_class": null,
+   "rank": 174,
+   "count": 7384,
+   "family": "pastaj",
+   "is_root": true,
+   "etymology": "From pas, mbas (“after”) + ndaj (“towards”), without the n-.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
+   "cognate": null,
+   "parents": [
+    "after",
+    "towards"
+   ],
    "components": [
     {
-     "word": "qëlloj",
-     "role": "prefix"
+     "word": "ndaj",
+     "role": "stem"
     }
    ],
-   "derived": [],
+   "derived": [
+    "mëpastajshëm",
+    "pastajmë",
+    "pastajshëm"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "qëllime",
-     "tag": "plural"
+     "form": "mbasandaj",
+     "tag": "alternative"
     },
     {
-     "form": "qëllimi",
-     "tag": "definite"
+     "form": "pstaj",
+     "tag": "alternative"
+    },
+    {
+     "form": "psaj",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And I ask this purpose!",
+    "corpus": "MaCoCu",
+    "en": "Then the explosion happened.",
     "score": [
-     0,
-     5,
-     -5,
-     10
+     1,
+     3,
+     -2,
+     8
     ],
-    "sq": "Dhe unë pyes këtë qëllim!"
+    "sq": "Pastaj ndodhi shpërthimi."
    }
   },
   {
-   "id": "ndërtuar",
-   "sq": "ndërtuar",
-   "en": "past participle of ndërtoj (to build)",
+   "id": "ndaj",
+   "sq": "ndaj",
+   "en": "to divide, separate two or more things or people that are together or mixed",
    "glosses": [
-    "past participle of ndërtoj (to build)"
+    "to divide, separate two or more things or people that are together or mixed",
+    "to limit, separate, confine from something",
+    "to separate a person from their spouse, to cut off from someone",
+    "to break something into parts from a whole",
+    "to share, to divide something between multiple people giving a piece each",
+    "to put things into different places",
+    "to put aside or save for someone or something; to designate",
+    "to wean a baby from breast-feeding",
+    "it's far away for a specified time",
+    "to give continuously",
+    "to separate corn cobs",
+    "to share a happenstance or feeling with someone, relate a happy or sad story",
+    "to schedule, create deadline",
+    "to decide",
+    "to figure out, solve",
+    "to discern, make out, distinguish (usually in a negative sense)",
+    "to differentiate",
+    "to keep something separate, refusing to unite two or more things or people (usually in a negative sense)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to divide, separate two or more things or people that are together or mixed",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "i ndau dy veta që ziheshin",
+       "en": "he divided two people that were fighting",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "i ndau kecat nga dhitë",
+       "en": "he separated the kids from the goats",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "divide",
+      "separate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to limit, separate, confine from something",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndaj me mur",
+       "en": "I confine with a wall",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      },
+      {
+       "sq": "na ndau lumi",
+       "en": "the river separated us",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "limit",
+      "separate",
+      "confine"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to separate a person from their spouse, to cut off from someone",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e ndau gruan",
+       "en": "they separated the wive from her husband",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "separate",
+      "spouse",
+      "cut off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to break something into parts from a whole",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndaj përgjysmë",
+       "en": "I cut in two",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      },
+      {
+       "sq": "ndau bukën",
+       "en": "he cut the bread",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "break",
+      "whole"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to share, to divide something between multiple people giving a piece each",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndau të hollat",
+       "en": "he shared his money",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "share",
+      "piece"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put things into different places",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndaj dy nga dy",
+       "en": "to put two by two",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "put"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put aside or save for someone or something; to designate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      },
+      {
+       "name": "Albanian terms prefixed with n-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 5 5 4 6 5 5 10 5 6 5 4 4 10 8 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "kishte ndarë para mënjanë",
+       "en": "he had put money aside",
+       "offsets": [
+        [
+         0,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "put aside",
+      "save",
+      "designate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wean a baby from breast-feeding",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e ndau fëmijën prej gjirit",
+       "en": "she weaned her baby",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "wean"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it's far away for a specified time",
+     "tags": [
+      "third-person",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "edhe dy javë na ndajnë nga Viti i Ri",
+       "en": "two weeks until the New Year",
+       "offsets": [
+        [
+         16,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "far away"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to give continuously",
+     "tags": [
+      "negative",
+      "particle",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk ia ndan kujdesin",
+       "en": "they give care continuously",
+       "offsets": [
+        [
+         7,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "give",
+      "continuously"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to separate corn cobs",
+     "tags": [
+      "third-person",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndan kalli misri",
+       "en": "he cuts off corn cobs",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "separate",
+      "corn",
+      "cob"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to share a happenstance or feeling with someone, relate a happy or sad story",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndajmë së bashku të mirën dhe të keqen",
+       "en": "we share with each other the good and the bad",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "share",
+      "happenstance",
+      "feeling"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to schedule, create deadline",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndanë ditën e martesës",
+       "en": "they scheduled their wedding day",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "schedule",
+      "deadline"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to decide",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e kemi ndarë të shihemi sonte",
+       "en": "we have decided to meet up tonight",
+       "offsets": [
+        [
+         2,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "e ndau me mend",
+       "en": "he decided",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "decide"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to figure out, solve",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with n-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 5 5 4 6 5 5 10 5 6 5 4 4 10 8 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "këtë e ndan pushka",
+       "en": "this is solved by a gun",
+       "offsets": [
+        [
+         7,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "figure out",
+      "solve"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discern, make out, distinguish (usually in a negative sense)",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "s'e ndava dot kush qe",
+       "en": "I couldn't make out who it was",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "discern",
+      "make out",
+      "distinguish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to differentiate",
+     "tags": [
+      "colloquial",
+      "figuratively",
+      "intransitive",
+      "third-person",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk ndan nga i vëllai",
+       "en": "he's indistinguishable from his brother",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "differentiate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to keep something separate, refusing to unite two or more things or people (usually in a negative sense)",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk i ndan fjalët nga veprat",
+       "en": "he doesn't separate his words from his actions",
+       "offsets": [
+        [
+         0,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "keep",
+      "refusing",
+      "unite"
+     ]
+    }
+   ],
+   "rank": 631,
+   "count": 1627,
+   "family": "ndaj",
+   "is_root": true,
+   "etymology": "Intensive n- + daj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "ndahem"
+   ],
+   "related": [
+    "daj",
+    "përdaj",
+    "ditë"
+   ],
+   "forms": [
+    {
+     "form": "ndava",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndarë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "neve",
+   "sq": "neve",
+   "en": "us; dative of ne",
+   "glosses": [
+    "us; dative of ne"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "us; dative of ne",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 17 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "us",
+      "ne"
+     ]
+    }
+   ],
+   "rank": 644,
+   "count": 1583,
+   "family": "neve",
+   "is_root": true,
+   "etymology": "An innovation stemming from Early Proto-Albanian *nōhōn. Cognate to Proto-Slavic *nasъ (“our”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Woe to us where we are.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Mjerë neve ku jemi."
+   }
+  },
+  {
+   "id": "gëzuar",
+   "sq": "gëzuar",
+   "en": "cheers (a basic toast)",
+   "glosses": [
+    "cheers (a basic toast)",
+    "participle of gëzoj"
+   ],
+   "pos": [
+    "intj",
+    "verb"
+   ],
+   "pos_labels": [
+    "interjection",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "cheers (a basic toast)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 20 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 29 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 28 36"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cheers",
+      "toast"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "participle of gëzoj",
+     "tags": [
+      "participle"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 29 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 28 36"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "gëzoj",
+      "cheerful",
+      "glad"
+     ]
+    }
+   ],
+   "rank": 645,
+   "count": 1581,
+   "family": "gëzuar",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "gëzuar Krishtlindja!"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Cheers and thanks.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Gëzuar dhe faleminderit."
+   }
+  },
+  {
+   "id": "ndarë",
+   "sq": "ndarë",
+   "en": "past participle of ndaj (to divide)",
+   "glosses": [
+    "past participle of ndaj (to divide)"
    ],
    "pos": [
     "verb"
@@ -138,7 +1132,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "past participle of ndërtoj (to build)",
+     "gloss": "past participle of ndaj (to divide)",
      "tags": [
       "form-of",
       "participle",
@@ -165,16 +1159,17 @@
       }
      ],
      "examples": [],
-     "is_form_of": "ndërtoj"
+     "is_form_of": "ndaj"
     }
    ],
-   "rank": 1551,
-   "count": 569,
-   "family": "ndërtoj",
+   "rank": 1592,
+   "count": 550,
+   "family": "ndaj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
@@ -182,657 +1177,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This world is built like this.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kjo botë kështu është ndërtuar."
-   }
-  },
-  {
-   "id": "përdorim",
-   "sq": "përdorim",
-   "en": "use",
-   "glosses": [
-    "use",
-    "usage"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "use",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "use"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "usage",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 79"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "usage"
-     ]
-    }
-   ],
-   "rank": 1552,
-   "count": 569,
-   "family": "përdorim",
-   "is_root": true,
-   "etymology": "Gerund of përdor.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përdorime",
-     "tag": "plural"
-    },
-    {
-     "form": "përdorimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We use cookies.",
+    "en": "Families were divided.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Ne përdorim cookies."
-   }
-  },
-  {
-   "id": "qëlluar",
-   "sq": "qëlluar",
-   "en": "past participle of qëlloj (to hit)",
-   "glosses": [
-    "past participle of qëlloj (to hit)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "past participle of qëlloj (to hit)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "qëlloj"
-    }
-   ],
-   "rank": 1683,
-   "count": 523,
-   "family": "qëlloj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You do not want to be fired.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Ju nuk duan të jenë të qëlluar."
-   }
-  },
-  {
-   "id": "qëllimi",
-   "sq": "qëllimi",
-   "en": "the goal, singular (from qëllim)",
-   "glosses": [
-    "the goal, singular (from qëllim)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the goal, singular (from qëllim)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "52 48"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "qëllim"
-    }
-   ],
-   "rank": 1976,
-   "count": 437,
-   "family": "qëlloj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "What's the point?",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Cili është qëllimi?"
-   }
-  },
-  {
-   "id": "qëlloj",
-   "sq": "qëlloj",
-   "en": "to hit",
-   "glosses": [
-    "to hit",
-    "to beat",
-    "to gain, obtain"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hit",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hit"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to beat",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "beat"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to gain, obtain",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 30 39"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "gain",
-      "obtain"
-     ]
-    }
-   ],
-   "rank": 2109,
-   "count": 407,
-   "family": "qëlloj",
-   "is_root": true,
-   "etymology": "Internal development from sjell. Alternatively restored from an earlier *përqëlloj, from Latin percellāre (“to beat down”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "qëllim"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "qëllova",
-     "tag": "aorist"
-    },
-    {
-     "form": "qëlluar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Stop or I will shoot!",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Ndal ose unë do qëlloj!"
-   }
-  },
-  {
-   "id": "ndërtesë",
-   "sq": "ndërtesë",
-   "en": "building, facility",
-   "glosses": [
-    "building, facility"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "building, facility",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -esë",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "building",
-      "facility"
-     ]
-    }
-   ],
-   "rank": 2244,
-   "count": 380,
-   "family": "ndërtoj",
-   "is_root": false,
-   "etymology": "From ndërtoj + -esë (feminine suffix).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ndërtoj",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ndërtesa",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Built them just as grave building?",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Ndërtuar ata ashtu si ndërtesë të rëndë?"
-   }
-  },
-  {
-   "id": "ndërtoj",
-   "sq": "ndërtoj",
-   "en": "to build",
-   "glosses": [
-    "to build"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to build",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "build"
-     ]
-    }
-   ],
-   "rank": 6162,
-   "count": 117,
-   "family": "ndërtoj",
-   "is_root": true,
-   "etymology": "From archaic *ndërtokë (“underground”), the first part ndër- (“under”) from *(H)n̥dʰér and the second part tokë (“land, ground”), with an original meaning of \"to lay foundations\". Orel suggests a contraction of Romance *directare, but semantic problems and the prefix ndër- makes the theory unlikely. Matzinger claims it has no known etymology.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "underground",
-    "under"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ndërtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "ndërtuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Can i build targeted leads?",
-    "score": [
-     2,
-     7,
-     -5,
-     10
-    ],
-    "sq": "A mund të ndërtoj drejtues të synuar?"
-   }
-  },
-  {
-   "id": "ndërtim",
-   "sq": "ndërtim",
-   "en": "building",
-   "glosses": [
-    "building"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "building",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "building"
-     ]
-    }
-   ],
-   "rank": 13321,
-   "count": 45,
-   "family": "ndërtoj",
-   "is_root": false,
-   "etymology": "From ndërtoj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ndërtoj",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It is new construction.",
-    "score": [
-     1,
-     4,
-     -3,
-     8
-    ],
-    "sq": "Është ndërtim i ri."
+    "sq": "Familjet ishin ndarë."
    }
   }
  ]

@@ -1,45 +1,137 @@
 {
  "level": 342,
- "title": "harxhoj, kij, shami, përdhe, pus, asistent +4",
+ "title": "alarm, djathë, çati, drejtësi, pazar, moj +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "asistent",
-  "harxhoj",
-  "kij",
-  "pus",
-  "përdhe",
-  "shami"
+  "alarm",
+  "djathë",
+  "drejtësi",
+  "moj",
+  "pazar",
+  "çati"
  ],
  "pos_mix": {
-  "verb": 3,
-  "noun": 5,
-  "adv": 1
+  "noun": 6,
+  "intj": 1
  },
  "words": [
   {
-   "id": "harxhoj",
-   "sq": "harxhoj",
-   "en": "to spend, to expend",
+   "id": "alarm",
+   "sq": "alarm",
+   "en": "alarm",
    "glosses": [
-    "to spend, to expend"
+    "alarm",
+    "anxiety"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to spend, to expend",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "alarm",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Military",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Military",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "military",
+      "alarm"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "anxiety",
      "tags": [
-      "transitive"
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 72"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anxiety"
+     ]
+    }
+   ],
+   "rank": 3734,
+   "count": 210,
+   "family": "alarm",
+   "is_root": true,
+   "etymology": "From French alarme (“alarm”).",
+   "etymology_class": "derived",
+   "source_lang": "fr",
+   "cognate": "from French alarme",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "alarmim",
+    "alarmohem",
+    "alarmoj",
+    "alarmonjës",
+    "alarmuar",
+    "alarmues",
+    "alarmuese"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is an alarm.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ky është alarm."
+   }
+  },
+  {
+   "id": "djathë",
+   "sq": "djathë",
+   "en": "cheese",
+   "glosses": [
+    "cheese"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cheese",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
@@ -49,7 +141,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,196 +153,77 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "djathë i marrë",
+       "en": "skim-milk cheese",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "djathë i bardhë",
+       "en": "white cheese",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
      "links": [
-      "spend",
-      "expend"
+      "cheese"
      ]
     }
    ],
-   "rank": 12043,
-   "count": 51,
-   "family": "harxhoj",
+   "rank": 3737,
+   "count": 210,
+   "family": "djathë",
    "is_root": true,
-   "etymology": "From harxh + -oj.",
-   "etymology_class": "affix",
+   "etymology": "From Proto-Albanian *dedi, from Proto-Indo-European *dʰédʰh₁i (“milk”). Compare Old Prussian dadan, Sanskrit दधि (dádhi, “sour milk”).",
+   "etymology_class": "inherited",
    "source_lang": null,
-   "parents": [],
+   "cognate": null,
+   "parents": [
+    "milk"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "harxhova",
-     "tag": "aorist"
+     "form": "djathëra",
+     "tag": "plural"
     },
     {
-     "form": "harxhuar",
-     "tag": "participle"
+     "form": "djathi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "How much money do I spend on music each month?",
-    "score": [
-     4,
-     7,
-     -3,
-     8
-    ],
-    "sq": "Sa para harxhoj çdo muaj për muzikën?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "kij",
-   "sq": "kij",
-   "en": "to prune, trim",
+   "id": "çati",
+   "sq": "çati",
+   "en": "roof",
    "glosses": [
-    "to prune, trim",
-    "to cut, hew, weed"
+    "roof"
    ],
    "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to prune, trim",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "77 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "prune",
-      "trim"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cut, hew, weed",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "cut",
-      "hew",
-      "weed"
-     ]
-    }
-   ],
-   "rank": 12076,
-   "count": 51,
-   "family": "kij",
-   "is_root": true,
-   "etymology": "* According to Çabej and Orel, from *këinj < Proto-Albanian *kadinja, denominative verb from *kadā (whence kadhë). Source of kizë (“pruning-hook”).\n* From Proto-Albanian *kī̆-, from Proto-Indo-European *(s)keh₂y-, *(s)keyh₂- (“to beat, cuff, poke”). Cognate to Latin caiō (“to cut, hew”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "kizë",
-    "qij",
-    "qifsha",
-    "qirë",
-    "kajsha",
-    "kitë"
-   ],
-   "related": [
-    "qeth",
-    "kadhë",
-    "shqyej"
-   ],
-   "forms": [
-    {
-     "form": "kiva",
-     "tag": "aorist"
-    },
-    {
-     "form": "kirë",
-     "tag": "participle"
-    },
-    {
-     "form": "kiej",
-     "tag": "alternative"
-    },
-    {
-     "form": "qij",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Listen, doesn't be afraid.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "-Dëgjo, mos kij frikë."
-   }
-  },
-  {
-   "id": "shami",
-   "sq": "shami",
-   "en": "handkerchief",
-   "glosses": [
-    "handkerchief",
-    "headscarf, kerchief",
-    "neckerchief"
-   ],
-   "pos": [
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "handkerchief",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "In full: shami xhepi (literally “pocket kerchief”)",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "handkerchief"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "headscarf, kerchief",
+     "gloss": "roof",
      "tags": [
       "feminine"
      ],
@@ -259,100 +232,215 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 62 18"
+       "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 58 19"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 57 20"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "headscarf",
-      "kerchief"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "neckerchief",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "neckerchief"
+      "architecture",
+      "roof"
      ]
     }
    ],
-   "rank": 12105,
-   "count": 51,
-   "family": "shami",
+   "rank": 3750,
+   "count": 209,
+   "family": "çati",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish شامه (şame), see there for more.",
+   "etymology": "Borrowed from Ottoman Turkish چاتی (çatı, “framework, roof, truss”).",
    "etymology_class": "borrowed",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "shamibardhë",
-    "shamikuqe",
-    "shamiverdhë",
-    "shamizezë"
-   ],
+   "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shami",
-     "tag": "plural"
-    },
-    {
-     "form": "shamia",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then he wiped away his tears with a handkerchief.",
+    "en": "Ventilator on the roof?",
     "score": [
+     2,
      3,
-     6,
-     -3,
+     -1,
      10
     ],
-    "sq": "Pastaj fshiu lotët me një shami."
+    "sq": "Ventilator në çati?"
    }
   },
   {
-   "id": "përdhe",
-   "sq": "përdhe",
-   "en": "underfoot, down, downwards, underneath, beneath",
+   "id": "drejtësi",
+   "sq": "drejtësi",
+   "en": "justice",
    "glosses": [
-    "underfoot, down, downwards, underneath, beneath"
+    "justice"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "underfoot, down, downwards, underneath, beneath",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "justice",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "justice"
+     ]
+    }
+   ],
+   "rank": 3781,
+   "count": 207,
+   "family": "drejtësi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But there has to be justice.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Por duhet të ketë drejtësi."
+   }
+  },
+  {
+   "id": "pazar",
+   "sq": "pazar",
+   "en": "bazaar",
+   "glosses": [
+    "bazaar"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bazaar",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bazaar"
+     ]
+    }
+   ],
+   "rank": 3785,
+   "count": 207,
+   "family": "pazar",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish پازار (pazar), from Classical Persian بازار (bāzār).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How's the shopping?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Si është pazar?"
+   }
+  },
+  {
+   "id": "moj",
+   "sq": "moj",
+   "en": "vocative particle used in a call to a woman",
+   "glosses": [
+    "vocative particle used in a call to a woman"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "vocative particle used in a call to a woman",
      "tags": [],
      "cats": [
       {
@@ -362,7 +450,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 6 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -375,186 +463,41 @@
       }
      ],
      "examples": [],
-     "links": [
-      "underfoot",
-      "down",
-      "downwards"
-     ]
+     "links": []
     }
    ],
-   "rank": 12121,
-   "count": 51,
-   "family": "përdhe",
+   "rank": 3786,
+   "count": 207,
+   "family": "moj",
    "is_root": true,
-   "etymology": "From mbërdhe.",
+   "etymology": "See more.",
    "etymology_class": null,
    "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why are you lying on the ground like this?",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Përse ke rënë me fytyrë përdhe?"
-   }
-  },
-  {
-   "id": "pus",
-   "sq": "pus",
-   "en": "well (source of water)",
-   "glosses": [
-    "well (source of water)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "well (source of water)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 28 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "well"
-     ]
-    }
-   ],
-   "rank": 12150,
-   "count": 51,
-   "family": "pus",
-   "is_root": true,
-   "etymology": "Probably borrowed through Vulgar Latin from Latin puteum. Compare Romanian puț, Italian pozzo.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "puse",
-     "tag": "plural"
+     "form": "mojë",
+     "tag": "alternative"
     },
     {
-     "form": "pusi",
-     "tag": "definite"
+     "form": "mori",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then, create a well in the center.",
+    "en": "My lady, did Berisha do any analysis?",
     "score": [
-     2,
+     3,
      6,
-     -4,
+     -3,
      10
     ],
-    "sq": "Pastaj krijoni një pus në qendër."
-   }
-  },
-  {
-   "id": "asistent",
-   "sq": "asistent",
-   "en": "assistant",
-   "glosses": [
-    "assistant"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "assistant",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "assistant"
-     ]
-    }
-   ],
-   "rank": 12161,
-   "count": 51,
-   "family": "asistent",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You may need an assistant.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Ju mund të duhet një asistent."
+    "sq": "Moj zonjë, Berisha bëri ndonjë analizë?"
    }
   }
  ]

@@ -1,44 +1,40 @@
 {
  "level": 371,
- "title": "qëparë, endem, turk, oreks, shëroj, qiri +4",
- "root": "",
- "root_gloss": "",
+ "title": "komb",
+ "root": "komb",
+ "root_gloss": "nation, people, community, folk",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 2,
  "families": [
-  "endem",
-  "oreks",
-  "qiri",
-  "qëparë",
-  "shëroj",
-  "turk"
+  "komb"
  ],
  "pos_mix": {
-  "adv": 1,
-  "noun": 5,
-  "verb": 2
+  "noun": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "qëparë",
-   "sq": "qëparë",
-   "en": "before",
+   "id": "komb",
+   "sq": "komb",
+   "en": "nation, people, community, folk",
    "glosses": [
-    "before"
+    "nation, people, community, folk"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "before",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "nation, people, community, folk",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -61,58 +57,73 @@
      ],
      "examples": [],
      "links": [
-      "before"
+      "nation",
+      "people",
+      "community"
      ]
     }
    ],
-   "rank": 14591,
-   "count": 40,
-   "family": "qëparë",
+   "rank": 7393,
+   "count": 94,
+   "family": "komb",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Indo-European *tḱóymos (“village, home”), from Proto-Indo-European *tḱey- (“to settle, cultivate”). Compare Ancient Greek κεῖμαι (keîmai, “to lie down”), (perhaps) κώμη (kṓmē, “burg, unwalled village”), Irish caoimh (“dear”), Lithuanian kaimas (“village”), šeima (“family”), German Heim (“home”), Icelandic heimur (“abode, village, home, the world”).",
+   "etymology_class": "inherited",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qiparë",
+     "form": "kombe",
+     "tag": "plural"
+    },
+    {
+     "form": "kombi",
+     "tag": "definite"
+    },
+    {
+     "form": "komë",
      "tag": "alternative"
     },
     {
-     "form": "gjëparë",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjiparë",
+     "form": "kom",
      "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "High and mighty nation.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Të lartë dhe të fuqishëm komb."
+   }
   },
   {
-   "id": "endacak",
-   "sq": "endacak",
-   "en": "hobo, wanderer, homeless",
+   "id": "kombëtar",
+   "sq": "kombëtar",
+   "en": "national",
    "glosses": [
-    "hobo, wanderer, homeless"
+    "national"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hobo, wanderer, homeless",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "national",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -121,7 +132,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -cak",
+       "name": "Albanian terms suffixed with -tar",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -135,23 +146,24 @@
      ],
      "examples": [],
      "links": [
-      "hobo",
-      "wanderer",
-      "homeless"
+      "national"
      ]
     }
    ],
-   "rank": 14604,
-   "count": 40,
-   "family": "endem",
+   "rank": 4756,
+   "count": 160,
+   "family": "komb",
    "is_root": false,
-   "etymology": "From endem + -cak.",
+   "etymology": "From komb (“nation”) + -tar.",
    "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
+   "cognate": null,
+   "parents": [
+    "nation"
+   ],
    "components": [
     {
-     "word": "endem",
+     "word": "komb",
      "role": "prefix"
     }
    ],
@@ -159,440 +171,20 @@
    "related": [],
    "forms": [
     {
-     "form": "endacakë",
-     "tag": "plural"
-    },
-    {
-     "form": "endacaku",
-     "tag": "definite"
-    },
-    {
-     "form": "endacake",
+     "form": "kombëtare",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I have now become a wanderer in nature.",
+    "en": "For the national interest.",
     "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Tani jam bërë një endacak në natyrë."
-   }
-  },
-  {
-   "id": "turk",
-   "sq": "turk",
-   "en": "Turk",
-   "glosses": [
-    "Turk"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Turk",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Turk"
-     ]
-    }
-   ],
-   "rank": 14620,
-   "count": 40,
-   "family": "turk",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish ترك (Türk) (modern Turkish Türk).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "turq",
-     "tag": "plural"
-    },
-    {
-     "form": "turku",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I am a Turkish citizen.",
-    "score": [
-     0,
+     2,
      3,
-     -3,
+     -1,
      10
     ],
-    "sq": "Jam shtetas turk."
-   }
-  },
-  {
-   "id": "oreks",
-   "sq": "oreks",
-   "en": "appetite",
-   "glosses": [
-    "appetite",
-    "thirst, desire"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "appetite",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "84 16"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "71 29"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Oreksi vjen duke ngrënë.",
-       "en": "Appetite comes with eating.",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "appetite"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thirst, desire",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "thirst",
-      "desire"
-     ]
-    }
-   ],
-   "rank": 14644,
-   "count": 40,
-   "family": "oreks",
-   "is_root": true,
-   "etymology": "Borrowed from Greek όρεξη (órexi).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "oreksi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "shëroj",
-   "sq": "shëroj",
-   "en": "to cure, heal, remedy",
-   "glosses": [
-    "to cure, heal, remedy"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cure, heal, remedy",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cure",
-      "heal",
-      "remedy"
-     ]
-    }
-   ],
-   "rank": 14656,
-   "count": 40,
-   "family": "shëroj",
-   "is_root": true,
-   "etymology": "From Tosk, borrowed through Vulgar Latin from Latin sānō.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shëruar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How can I heal it?",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Si mund ta shëroj atë?"
-   }
-  },
-  {
-   "id": "qiri",
-   "sq": "qiri",
-   "en": "candle",
-   "glosses": [
-    "candle"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "candle",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Latin links with redundant target parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "candle"
-     ]
-    }
-   ],
-   "rank": 14692,
-   "count": 40,
-   "family": "qiri",
-   "is_root": true,
-   "etymology": "From a substrate language, cognate with Ancient Greek κηρός (kērós) and Latin cēra.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qirinj",
-     "tag": "plural"
-    },
-    {
-     "form": "qiriu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "A stamp.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Përgjigje: Një qiri."
-   }
-  },
-  {
-   "id": "endem",
-   "sq": "endem",
-   "en": "to gallivant (about a place), gad about, to wander",
-   "glosses": [
-    "to gallivant (about a place), gad about, to wander"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to gallivant (about a place), gad about, to wander",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "gallivant",
-      "gad",
-      "wander"
-     ]
-    }
-   ],
-   "rank": 26922,
-   "count": 17,
-   "family": "endem",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ende-, from Proto-Indo-European *h₁endʰ- (“way, to go”). Cognate to Ancient Greek ἐνθεῖν (entheîn, “to come”) and Sanskrit अध्वन् (ádhvan-, “way”). Possibly related to ἄνδινος περίπατος (andinos perípatos), a phrase attested in Greek, possibly of Illyrian origin. One might also consider a metaphorical derivation of end (“to weave”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "endur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I began to wander the empty streets of the city.",
-    "score": [
-     4,
-     8,
-     -4,
-     10
-    ],
-    "sq": "Fillova të endem rrugëve të zbrazura të qytetit."
+    "sq": "Për interesin kombëtar."
    }
   }
  ]

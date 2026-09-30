@@ -3,6 +3,7 @@
 
 import json
 import os
+import teaching_order
 import re
 import sys
 import unicodedata
@@ -152,8 +153,15 @@ def main():
         if not lvl["words"]:
             fail.append("%s: is empty" % fname)
             continue
-        ranks = [w["rank"] for w in lvl["words"]]
-        if ranks != sorted(ranks):
+        # Order within a level is teaching order: tense/register tier
+        # first, corpus frequency second. Sorting by rank alone is what
+        # the build used to do, and it put a verb's rare perfect forms
+        # ahead of its present tense, so the check has to follow the new
+        # rule or it would demand the behaviour we just removed.
+        keys = [teaching_order.level_key(
+                    {"senses": [{"gloss": w["en"]}], "rank": w["rank"]},
+                    is_root=(w["id"] == lvl["root"])) for w in lvl["words"]]
+        if keys != sorted(keys):
             unsorted_levels.append(fname)
         for w in lvl["words"]:
             total += 1
@@ -198,7 +206,8 @@ def main():
     check(not empty_gloss, "cards with no gloss: %s" % empty_gloss[:10])
     check(not leaked, "build-time fields leaked into output: %s" % leaked[:10])
     check(not missing_keys, "cards missing required keys: %s" % missing_keys[:10])
-    check(not unsorted_levels, "levels not sorted by rank: %s" % unsorted_levels[:10])
+    check(not unsorted_levels,
+          "levels not in teaching order: %s" % unsorted_levels[:10])
 
     # --- flat index (data/words.json) -------------------------------
     # words.json is what the live site actually boots from, so it needs the

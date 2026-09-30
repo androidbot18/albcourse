@@ -1,29 +1,30 @@
 {
  "level": 546,
- "title": "bambu, sindikatë, bisturi, kompetencë, kom, ëndërrimtar +4",
+ "title": "pirun, bel, vetvetiu, artiste, dhelpër, papagall +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "bambu",
-  "bisturi",
-  "kom",
-  "kompetencë",
-  "sindikatë",
-  "ëndërrimtar"
+  "artiste",
+  "bel",
+  "dhelpër",
+  "papagall",
+  "pirun",
+  "vetvetiu"
  ],
  "pos_mix": {
-  "noun": 9
+  "noun": 7,
+  "adv": 2
  },
  "words": [
   {
-   "id": "bambu",
-   "sq": "bambu",
-   "en": "bamboo",
+   "id": "pirun",
+   "sq": "pirun",
+   "en": "fork (eating utensil)",
    "glosses": [
-    "bamboo"
+    "fork (eating utensil)"
    ],
    "pos": [
     "noun"
@@ -35,9 +36,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bamboo",
+     "gloss": "fork (eating utensil)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -47,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 12 entries",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,46 +62,51 @@
      ],
      "examples": [],
      "links": [
-      "bamboo"
+      "fork"
      ]
     }
    ],
-   "rank": 41796,
-   "count": 9,
-   "family": "bambu",
+   "rank": 15929,
+   "count": 35,
+   "family": "pirun",
    "is_root": true,
-   "etymology": "From English bamboo, from Dutch bamboe, from Portuguese bambu, from Malay bambu, from Kannada ಬಮ್ಬು (bambu).",
+   "etymology": "Direct borrowing from Greek πιρούνι (piroúni).",
    "etymology_class": "borrowed",
-   "source_lang": "en",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "bambuja",
+     "form": "pirunë",
+     "tag": "plural"
+    },
+    {
+     "form": "piruni",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why Choose Bamboo?",
+    "en": "What is the fork?",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
      10
     ],
-    "sq": "Pse të zgjidhni bambu?"
+    "sq": "Çfarë është pirun?"
    }
   },
   {
-   "id": "sindikatë",
-   "sq": "sindikatë",
-   "en": "trade union",
+   "id": "bel",
+   "sq": "bel",
+   "en": "waist",
    "glosses": [
-    "trade union",
-    "cartel, syndicate"
+    "waist",
+    "spade"
    ],
    "pos": [
     "noun",
@@ -114,89 +120,168 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "trade union",
+     "gloss": "waist",
      "tags": [
-      "feminine"
+      "masculine"
      ],
-     "cats": [],
-     "examples": [
+     "cats": [
       {
-       "sq": "Sindikata e Bujqve të Kosovës",
-       "en": "Kosovo Farmers' Union",
-       "offsets": [
-        [
-         0,
-         9
-        ]
-       ]
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "62 38"
       }
      ],
+     "examples": [],
      "links": [
-      "trade union"
+      "anatomy",
+      "waist"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cartel, syndicate",
+     "gloss": "spade",
      "tags": [
-      "feminine"
+      "masculine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "spade"
+     ]
+    }
+   ],
+   "rank": 15953,
+   "count": 35,
+   "family": "bel",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish بل (bel, “waist; spade”) (Turkish bel).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "spade"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Is the vacuum, looped waist.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Është vakum, looped bel."
+   }
+  },
+  {
+   "id": "vetvetiu",
+   "sq": "vetvetiu",
+   "en": "by itself, by oneself",
+   "glosses": [
+    "by itself, by oneself",
+    "automatically"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "by itself, by oneself",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
+       "_dis": "100 0"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "21 79"
+       "_dis": "100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 90"
+       "_dis": "100 0"
       }
      ],
      "examples": [],
      "links": [
-      "cartel",
-      "syndicate"
+      "itself",
+      "oneself"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "automatically",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "automatically"
      ]
     }
    ],
-   "rank": 41802,
-   "count": 9,
-   "family": "sindikatë",
+   "rank": 15977,
+   "count": 35,
+   "family": "vetvetiu",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From vetvete.",
    "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "sindikata",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Local Economic Development does not just happen.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Zhvillimi ekonomik vendor nuk ndodh vetvetiu."
+   }
   },
   {
-   "id": "bisturi",
-   "sq": "bisturi",
-   "en": "scalpel, lancet, bistoury",
+   "id": "artiste",
+   "sq": "artiste",
+   "en": "artist (person who creates art)",
    "glosses": [
-    "scalpel, lancet, bistoury"
+    "artist (person who creates art)"
    ],
    "pos": [
     "noun"
@@ -208,7 +293,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "scalpel, lancet, bistoury",
+     "gloss": "artist (person who creates art)",
      "tags": [
       "feminine"
      ],
@@ -234,51 +319,41 @@
      ],
      "examples": [],
      "links": [
-      "surgery",
-      "scalpel",
-      "lancet"
+      "artist"
      ]
     }
    ],
-   "rank": 41840,
-   "count": 9,
-   "family": "bisturi",
+   "rank": 16008,
+   "count": 35,
+   "family": "artiste",
    "is_root": true,
-   "etymology": "Borrowed from French bistouri, from archaic Italian pistorese or pistorino (“from Pistoia”).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "bisturi",
-     "tag": "plural"
-    },
-    {
-     "form": "bisturia",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Kevin Waddel is a free lance writer.",
+    "en": "To me they were artists!",
     "score": [
-     3,
-     7,
+     1,
+     5,
      -4,
      10
     ],
-    "sq": "Kevin Waddel është një shkrimtar pa bisturi."
+    "sq": "Për mua ato ishin artiste!"
    }
   },
   {
-   "id": "kompetencë",
-   "sq": "kompetencë",
-   "en": "competence, competency",
+   "id": "dhelpër",
+   "sq": "dhelpër",
+   "en": "fox",
    "glosses": [
-    "competence, competency"
+    "fox"
    ],
    "pos": [
     "noun"
@@ -290,9 +365,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "competence, competency",
+     "gloss": "fox",
      "tags": [
-      "literary"
+      "feminine"
      ],
      "cats": [
       {
@@ -316,216 +391,162 @@
      ],
      "examples": [],
      "links": [
-      "competence",
-      "competency"
+      "fox"
      ]
     }
    ],
-   "rank": 41844,
-   "count": 9,
-   "family": "kompetencë",
+   "rank": 16024,
+   "count": 35,
+   "family": "dhelpër",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Unknown. Likely from Proto-Indo-European *h₂wl̥p-(e)i- (“fox”) (compare Italian volpe, Lithuanian lãpė, Greek αλεπού (alepoú), Armenian աղվես (aġves)), only possible with the assumption of contamination with another lexeme. Among the various suggestions are a compound with dhe (“earth”), or influence from dhele (“flattery”).\nIf regional Gheg dhelbunë is an archaism and -p- arose through final devoicing in dhelpë < *dhelp#, one can assume a formation from *ǵólh₂-ibʰo- \"reddish glowing animal\", from Proto-Indo-European *ǵelh₂- (“to shine, radiate”). If -p- is old, however, a contamination of *(h₂)u̯l̥p(e)i- \"fox\" and a lost adjective *ǵólh₂-i-u̯o-, or *ǵólh₂-i-no-, \"(reddish/yellowish) shining\" (> Pre-Proto-Albanian *j́áliu̯a- ~ *j́álina- > *ðełə ~ *ðelə) would be conceivable. Alternatively, a borrowing from Latin volpes (“fox”) can't be excluded.\nOrel derives it from an earlier *velpër, via /v/ > /ð/ backing, from *velpën, ultimately from PIE *h₂wl̥p-(e)i-, however no such variant has been attested.",
+   "etymology_class": "inherited",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Connection and competence, Aries.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Lidhje dhe kompetencë, Dash."
-   }
-  },
-  {
-   "id": "kom",
-   "sq": "kom",
-   "en": "hair, fur (of a horse)",
-   "glosses": [
-    "hair, fur (of a horse)",
-    "horse mane; horsetail",
-    "rope, fabric or cloth from goatskin"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hair, fur (of a horse)",
-     "tags": [
-      "masculine",
-      "singular"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "singular",
-      "hair",
-      "fur"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "horse mane; horsetail",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 55 30"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mane",
-      "horsetail"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rope, fabric or cloth from goatskin",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "rope",
-      "fabric",
-      "cloth"
-     ]
-    }
-   ],
-   "rank": 41898,
-   "count": 9,
-   "family": "kom",
-   "is_root": true,
-   "etymology": "Borrowed from Latin coma (“hair”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "hair"
-   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "kome",
+     "form": "dhelpra",
      "tag": "plural"
-    },
-    {
-     "form": "komi",
-     "tag": "definite"
-    },
-    {
-     "form": "komë",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "So I was close.",
+    "en": "There was a fox there and he snatched it.",
     "score": [
-     0,
-     5,
+     3,
+     8,
      -5,
      10
     ],
-    "sq": "Ashtu që kom qenë afër."
+    "sq": "Atje ndodhej një dhelpër dhe ia këputi atë."
    }
   },
   {
-   "id": "ëndërrimtar",
-   "sq": "ëndërrimtar",
-   "en": "dreamer",
+   "id": "papagall",
+   "sq": "papagall",
+   "en": "parrot",
    "glosses": [
-    "dreamer"
+    "parrot",
+    "someone who repeats other people's words without fully understanding them"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "dreamer",
-     "tags": [],
+     "gloss": "parrot",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Birds",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Birds",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "82 18"
+      }
+     ],
+     "examples": [
       {
-       "name": "Albanian terms suffixed with -tar",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
+       "sq": "papagall i kuq",
+       "en": "red parrot",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "parrot"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "someone who repeats other people's words without fully understanding them",
+     "tags": [
+      "derogatory",
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "mësoj si papagall",
+       "en": "to learn by heart, without understanding",
+       "offsets": [
+        [
+         9,
+         17
+        ]
+       ]
+      }
+     ],
      "links": [
-      "dreamer"
+      "derogatory",
+      "repeat",
+      "understand"
      ]
     }
    ],
-   "rank": 41920,
-   "count": 9,
-   "family": "ëndërrimtar",
+   "rank": 16047,
+   "count": 35,
+   "family": "papagall",
    "is_root": true,
-   "etymology": "From ëndërrim + -tar.",
-   "etymology_class": "affix",
+   "etymology": "Borrowed from Italian pappagallo.",
+   "etymology_class": "borrowed",
    "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "All my life I've been a daydreamer.",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Të gjithë jetën time unë kam qenë një ëndërrimtar."
-   }
+   "forms": [
+    {
+     "form": "papagaj",
+     "tag": "plural"
+    },
+    {
+     "form": "papagalli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

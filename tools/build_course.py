@@ -30,6 +30,10 @@ Design rules:
 import json
 import form_gloss
 import form_senses
+import teaching_order
+import pack_shape
+import pos_balance
+import cognates
 from example_rank import rank_examples
 import os
 import re
@@ -922,6 +926,13 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     so it is displayed but never re-ordered.
     """
     rank_of = {c["word"]: c["rank"] for c in cards}
+
+    # Teaching priority inside a family. `jam` has 21 members, and a
+    # frequency sort opens that family with `qenka`/`qenke` (a colloquial
+    # present) and buries the subjunctive and the perfect. Sorting by
+    # tense first puts the everyday present at the front of the lesson.
+    by_word_card = {c["word"]: c for c in cards}
+
     components = components or {}
 
     def stems_of(word):
@@ -938,6 +949,50 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         got = [rank_of[m] for m in members if m in rank_of]
         if got:
             score[root] = min(got)
+
+    # Item 4: pull pictureable nouns into the opening levels.
+    #
+    # The boost is expressed as a synthetic rank rather than as score=0.
+    # Setting score=0 sent all 50 promoted roots to the absolute front of the
+    # queue and produced an opening that was 88.8% nouns with `te` and `nuk`
+    # pushed to level 9 -- strictly worse than the 55%-verb problem it was
+    # meant to fix. A dry run missed that because it appended nouns to an
+    # existing mix, whereas a score of 0 displaces every other family.
+    #
+    # Instead each promoted noun is given a synthetic rank that places it at
+    # its target slot in the natural frequency order. Frequency ordering is
+    # preserved everywhere else, prerequisites still dominate (the topological
+    # sort below is unchanged), and the nouns are spread through the window
+    # rather than forming a wall at the front.
+    early_nouns = []
+    for root, members in families.items():
+        if len(members) != 1:
+            continue
+        card = by_word_card.get(members[0]) or {}
+        if pos_balance.promote(card, None, 1):
+            early_nouns.append((score.get(root, 10 ** 9), root))
+    early_nouns.sort()
+
+    if early_nouns:
+        # Natural order, and the nouns chosen to join it.
+        natural = sorted(families, key=lambda r: (score.get(r, 10 ** 9), r))
+        window = natural[:pos_balance.WINDOW_FAMILIES]
+        win_words = sum(len(families[r]) for r in window)
+        win_nouns = 0
+        for r in window:
+            for m in families[r]:
+                if pos_balance.headline_pos(by_word_card.get(m) or {}) == 'noun':
+                    win_nouns += 1
+        room = pos_balance.quota(win_words, win_nouns)
+        chosen = [r for _, r in early_nouns[:room]]
+        if chosen:
+            for r, new_rank in pos_balance.spread(chosen, natural).items():
+                score[r] = new_rank
+            print("  early window: %d words, %d nouns (%.0f%%); target %.0f%%; "
+                  "weaving in %d pictureable nouns"
+                  % (win_words, win_nouns,
+                     100.0 * win_nouns / max(1, win_words),
+                     100.0 * pos_balance.TARGET_NOUN_SHARE, len(chosen)))
 
     # ---- topological order over families ---------------------------------
     # A family cannot unlock before the family holding a stem one of its
@@ -1000,7 +1055,12 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     # Split any family larger than a session, keeping root first.
     units = []  # (root, members, part, nparts)
     for root in ordered:
-        members = sorted(families[root], key=lambda w: (rank_of.get(w, 10 ** 9), w))
+        members = sorted(
+            families[root],
+            key=lambda w: (teaching_order.level_key(
+                by_word_card.get(w) or {}, is_root=(w == root)),
+                rank_of.get(w, 10 ** 9), w),
+        )
         nparts = max(1, -(-len(members) // per_level))
         for i in range(0, len(members), per_level):
             units.append((root, members[i:i + per_level], i // per_level, nparts))
@@ -1036,9 +1096,16 @@ def assign_levels(cards, families, per_level=9, max_families=6,
 
     for root, members, part, nparts in units:
         new_family = root not in cur_part
-        if part > 0 or (cur_words and
-                        (len(cur_words) + len(members) > per_level
-                         or len(cur_roots) + (1 if new_family else 0) > max_families)):
+        # Option 2: a multi-member family teaches a root plus its
+        # derivations, so it holds the level alone. Singletons have no group
+        # lesson and pack up to the session target as before. A continuation
+        # part is always alone too, so a split family stays one lesson.
+        cur_counts = [len(families[r]) for r in cur_roots]
+        blocked = cur_words and (
+            part > 0
+            or not pack_shape.may_join(cur_counts, len(members))
+            or len(cur_words) + len(members) > per_level)
+        if blocked:
             flush()
         if root not in cur_part:
             cur_part[root] = (part, nparts)
@@ -1157,6 +1224,10 @@ def main():
                 "etymology": c["etymology"],
                 "etymology_class": c["etymology_class"],
                 "source_lang": c["source_lang"],
+                # Item 3: the source-language form, e.g. "from Latin soca".
+                # The deck already shows components this way ("from e- +
+                # sille"); a cognate is the historical equivalent.
+                "cognate": cognates.cognate_line(w, c["etymology"], c["source_lang"]),
                 "parents": c["parents"][:3],
                 "components": c.get("components") or [],
                 "derived": c["derived"][:8],
@@ -1165,8 +1236,18 @@ def main():
                 # Corpus fallback, shaped like a sense example so the
                 # existing exampleForSense() logic reads it unchanged.
                 "corpus_example": corpus_examples.get(w),
+                "_tier": teaching_order.level_key(c, is_root=(w == root))[0],
             })
-        objs.sort(key=lambda o: o["rank"])
+        # Order within a level is the teaching order assign_levels() chose
+        # (family members sorted by tense/register tier, then frequency).
+        # Re-sorting by raw rank here silently undid that work: the `jam`
+        # family came out byte-identical to the frequency order, which is
+        # how the tier sort was found to be a no-op in practice.
+        objs.sort(key=lambda o: (o["_tier"], o["rank"]))
+        # _tier exists only to drive that sort. The level-file contract is
+        # that no build-time field ships, so drop it before writing.
+        for o in objs:
+            del o["_tier"]
         # A single-family level is named after its root, the way a Wanikani
         # level is named after the radical it unlocks; a split family keeps
         # the root and gains a "2/3" marker. A multi-family level lists the
