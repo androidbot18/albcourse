@@ -29,6 +29,20 @@ try:
 except Exception:
     pass
 
+# Same reasoning for the cognate check below: the first level that holds a
+# card with a source-language hook is read from the build, not hardcoded.
+EXPECT_COGNATE_LEVEL = 0
+EXPECT_COGNATE_TEXT = ""
+try:
+    with open(os.path.join(_ROOT, "data", "words.json"), encoding="utf-8") as fh:
+        _hit = [w for w in json.load(fh)["words"] if w.get("cognate")]
+    if _hit:
+        _first = min(_hit, key=lambda w: w["level"])
+        EXPECT_COGNATE_LEVEL = _first["level"]
+        EXPECT_COGNATE_TEXT = _first["cognate"]
+except Exception:
+    pass
+
 failures = []
 
 
@@ -61,6 +75,36 @@ def main(url=DEFAULT_URL):
               "level map renders all %d levels (got %d)" % (expected, chips))
         head = page.inner_text("#view")
         check("loading" not in head.lower(), "boot did not leave the loading placeholder")
+
+        # Cognate hook. Runs BEFORE the level-1 click below, because opening
+        # a level replaces the grid: once any level is open there are zero
+        # .level-chip elements left, so a search for the cognate level can
+        # only match if it happens first. (The first version of this check
+        # ran afterwards and reported a false failure; the hook was live.)
+        if EXPECT_COGNATE_LEVEL:
+            chips = page.locator(".level-chip").all()
+            target = None
+            for ch in chips:
+                if ch.locator(".lvl-num").inner_text().strip() == str(EXPECT_COGNATE_LEVEL):
+                    target = ch
+                    break
+            check(target is not None,
+                  "found the cognate level chip (level %d of %d)"
+                  % (EXPECT_COGNATE_LEVEL, len(chips)))
+            if target is not None:
+                target.click()
+                try:
+                    page.wait_for_selector(".word .sq", timeout=20000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(400)
+                rendered = page.inner_text("#view")
+                check(EXPECT_COGNATE_TEXT in rendered,
+                      "cognate hook renders on the deployed page (expected %r)"
+                      % EXPECT_COGNATE_TEXT)
+                page.click("[data-view=map]")
+                page.wait_for_selector(".level-chip", timeout=20000)
+                page.wait_for_timeout(400)
 
         # open a level -> family lesson view
         page.locator(".level-chip").first.click()
