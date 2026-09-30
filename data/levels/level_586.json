@@ -1,110 +1,83 @@
 {
  "level": 586,
- "title": "për 8/8",
- "root": "për",
- "root_gloss": "for",
- "part": 8,
- "parts": 8,
- "word_count": 1,
+ "title": "me 2/2",
+ "root": "me",
+ "root_gloss": "with (accompanied by)",
+ "part": 2,
+ "parts": 2,
+ "word_count": 2,
  "families": [
-  "për"
+  "me"
  ],
  "pos_mix": {
-  "adv": 2
+  "adv": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "përnjëherësh",
-   "sq": "përnjëherësh",
-   "en": "at once",
+   "id": "medoemos",
+   "sq": "medoemos",
+   "en": "by all means, definitely, surely",
    "glosses": [
-    "at once",
-    "immediately"
+    "by all means, definitely, surely"
    ],
    "pos": [
-    "adv",
     "adv"
    ],
    "pos_labels": [
-    "adverb",
     "adverb"
    ],
    "sense_detail": [
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "at once",
+     "gloss": "by all means, definitely, surely",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "93 7"
-      },
-      {
-       "name": "Albanian terms suffixed with -sh",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "at once"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "immediately",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "immediately"
+      "by",
+      "all",
+      "means"
      ]
     }
    ],
-   "rank": 47983,
-   "count": 7,
-   "family": "për",
+   "rank": 22302,
+   "count": 22,
+   "family": "me",
    "is_root": false,
-   "etymology": "From për + një + herë + -sh (adverbial suffix), literally 'at one moment'.",
-   "etymology_class": "affix",
+   "etymology": "From me (“with”) + doemos (“by all means”).",
+   "etymology_class": "compound",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "with"
+   ],
    "components": [
     {
-     "word": "për",
+     "word": "me",
      "role": "prefix"
     },
     {
-     "word": "një",
+     "word": "doemos",
      "role": "stem"
     }
    ],
@@ -112,16 +85,93 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He drank it at once and got up.",
+    "corpus": "MaCoCu",
+    "en": "Does this automatically mean that you are a homosexual?",
     "score": [
-     2,
-     6,
-     -4,
-     10
+     0,
+     9,
+     -9,
+     8
     ],
-    "sq": "E piu përnjëherësh dhe u ngrit."
+    "sq": "A do të thotë kjo medoemos se je homoseksual?"
    }
+  },
+  {
+   "id": "mjaftoj",
+   "sq": "mjaftoj",
+   "en": "to be enough",
+   "glosses": [
+    "to be enough"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be enough",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "enough"
+     ]
+    }
+   ],
+   "rank": 42540,
+   "count": 8,
+   "family": "me",
+   "is_root": false,
+   "etymology": "From mjaft (“enough”) + -oj verb suffix.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [
+    "enough"
+   ],
+   "components": [
+    {
+     "word": "mjaft",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mjaftova",
+     "tag": "aorist"
+    },
+    {
+     "form": "mjaftuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

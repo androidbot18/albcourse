@@ -1,31 +1,42 @@
 {
  "level": 6,
- "title": "kam 1/2",
- "root": "kam",
- "root_gloss": "to have",
+ "title": "duhet, ne, kjo +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
- "parts": 2,
- "word_count": 9,
+ "parts": 1,
+ "word_count": 4,
  "families": [
-  "kam"
+  "duhet",
+  "kjo",
+  "ne"
  ],
  "pos_mix": {
-  "verb": 10
+  "verb": 4,
+  "pron": 1,
+  "det": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "kam",
-   "sq": "kam",
-   "en": "to have",
+   "id": "duhet",
+   "sq": "duhet",
+   "en": "it must",
    "glosses": [
-    "to have",
-    "there is"
+    "it must",
+    "it has to",
+    "it is needed, necessarily",
+    "to do with certainty; indicates that the speaker is certain that the subject will have executed the predicate"
    ],
    "pos": [
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
@@ -33,107 +44,216 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to have",
+     "gloss": "it must",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "must"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it has to",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "has to"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it is needed, necessarily",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "needed",
+      "necessarily"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to do with certainty; indicates that the speaker is certain that the subject will have executed the predicate",
+     "tags": [
+      "auxiliary",
+      "defective",
+      "modal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "65 13 10 12"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 13 10 10"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 11 8 8"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "certainty",
+      "certain",
+      "predicate"
+     ]
+    }
+   ],
+   "rank": 28,
+   "count": 64246,
+   "family": "duhet",
+   "is_root": true,
+   "etymology": "Mediopassive of dua.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This should be avoided.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Kjo duhet të shmanget."
+   }
+  },
+  {
+   "id": "ne",
+   "sq": "ne",
+   "en": "we, us",
+   "glosses": [
+    "we, us"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "we, us",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "have"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "there is",
-     "tags": [
-      "impersonal",
-      "third-person"
-     ],
-     "cats": [
+       "source": "w"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian personal pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "there is"
+      "we",
+      "us"
      ]
     }
    ],
-   "rank": 31,
-   "count": 57605,
-   "family": "kam",
+   "rank": 29,
+   "count": 59954,
+   "family": "ne",
    "is_root": true,
-   "etymology": "Suppletive. The present, imperfect, and subjunctive are from Proto-Albanian *kapmi, from Proto-Indo-European *kap- (“to seize, to grasp”), cognate with Latin capiō (“take, seize”) and Proto-Germanic *habjaną (“to have, to hold”) (whence English have, German haben (“to have”), Gothic 𐌷𐌰𐌱𐌰𐌽 (haban, “to have”)). The other tenses and participle are from Proto-Albanian *pat(i)-, from Proto-Indo-European *pótis (“owner, master, host, husband”), cognate with Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti).",
+   "etymology": "The nominative-accusative is from accusative Proto-Albanian *nōs, stressed form of clitic Proto-Indo-European *nos, which is continued by the clitic na. Neve and nesh are innovated, but Gheg retains dative nahe (Old Albanian nae) from a genitive *nosōm.",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "çka",
-    "kap"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "pata",
-     "tag": "aorist"
+     "form": "ne",
+     "tag": "accusative"
     },
     {
-     "form": "pasur",
-     "tag": "participle"
+     "form": "neve",
+     "tag": "dative"
+    },
+    {
+     "form": "nesh",
+     "tag": "ablative"
+    },
+    {
+     "form": "në",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I have them.",
+    "en": "We will.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Unë kam ato."
+    "sq": "ne do të."
    }
   },
   {
-   "id": "ke",
-   "sq": "ke",
-   "en": "you (sg) have (from kam, to have)",
+   "id": "kjo",
+   "sq": "kjo",
+   "en": "this, used also for neuter",
    "glosses": [
-    "you (sg) have (from kam, to have)"
+    "this, used also for neuter"
    ],
    "pos": [
-    "verb"
+    "det"
    ],
    "pos_labels": [
-    "verb"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) have (from kam, to have)",
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "this, used also for neuter",
      "tags": [
-      "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular"
+      "feminine"
      ],
      "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -141,28 +261,24 @@
        "source": "w"
       },
       {
-       "name": "Pages with 47 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "this"
+     ]
     }
    ],
-   "rank": 40,
-   "count": 44567,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 30,
+   "count": 59866,
+   "family": "kjo",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ka-jā, based on a pronominal element *ka and a demonstrative (see ajo).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -171,41 +287,35 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "You're right.",
+    "en": "This is normal.",
     "score": [
      1,
      3,
      -2,
      8
     ],
-    "sq": "Ke të drejtë."
+    "sq": "Kjo është normale."
    }
   },
   {
-   "id": "kemi",
-   "sq": "kemi",
-   "en": "we have (from kam, to have)",
+   "id": "nes",
+   "sq": "nes",
+   "en": "after, next after",
    "glosses": [
-    "we have (from kam, to have)"
+    "after, next after"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we have (from kam, to have)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "after, next after",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -214,7 +324,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 27 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -227,480 +337,38 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "after"
+     ]
     }
    ],
-   "rank": 60,
-   "count": 25320,
-   "family": "kam",
+   "rank": 21624,
+   "count": 23,
+   "family": "ne",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "We have global responsibilities.",
-    "score": [
-     2,
-     3,
-     -1,
-     8
-    ],
-    "sq": "Kemi përgjegjësi globale."
-   }
-  },
-  {
-   "id": "kanë",
-   "sq": "kanë",
-   "en": "they have (from kam, to have)",
-   "glosses": [
-    "they have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 99,
-   "count": 14218,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Always have been.",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "Gjithmonë kanë qenë."
-   }
-  },
-  {
-   "id": "keni",
-   "sq": "keni",
-   "en": "you (pl) have (from kam, to have)",
-   "glosses": [
-    "you (pl) have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl) have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "second-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 102,
-   "count": 14026,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You have no woman?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Ju nuk keni grua?"
-   }
-  },
-  {
-   "id": "ketë",
-   "sq": "ketë",
-   "en": "he/she/it (subjunctive) have (from kam, to have)",
-   "glosses": [
-    "he/she/it (subjunctive) have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it (subjunctive) have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 245,
-   "count": 4862,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "There may be.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Mund të ketë."
-   }
-  },
-  {
-   "id": "pasur",
-   "sq": "pasur",
-   "en": "participle of kam (present)",
-   "glosses": [
-    "participle of kam (present)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "participle of kam (present)",
-     "tags": [
-      "form-of",
-      "participle"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 264,
-   "count": 4416,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "Standard Albanian variant of alternative participles patur, pasë, pat. Compound of pasë + -ur (Tosk participle suffix). See pata (“I had”) (aorist form of kam (“I have”)) for more.",
-   "etymology_class": null,
+   "etymology": "A compound *ne + *-s, from Proto-Indo-European *nō kwe. From Proto-Albanian *(e)nō ̊, from Proto-Indo-European *(h1)nē̆-, *(h1)nō̆- (“after, behind, next to/after”). Cognate to Ancient Greek ἔνη(ς) (énē(s)), ἔνας (énas, “the day after tomorrow”) and Gothic 𐌽𐌴𐍈 (nēƕ, “after”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "parents": [],
    "components": [
     {
-     "word": "pasë",
+     "word": "ne",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "pasun",
-     "tag": "alternative"
-    },
-    {
-     "form": "patur",
-     "tag": "alternative"
-    },
-    {
-     "form": "pat",
-     "tag": "alternative"
-    },
-    {
-     "form": "pas",
-     "tag": "alternative"
-    },
-    {
-     "form": "pasë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I had no strategy.",
-    "score": [
-     1,
-     4,
-     -3,
-     8
-    ],
-    "sq": "Nuk kam pasur strategji."
-   }
-  },
-  {
-   "id": "kesh",
-   "sq": "kesh",
-   "en": "you (sg) (subjunctive) have (from kam, to have)",
-   "glosses": [
-    "you (sg) (subjunctive) have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) (subjunctive) have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 349,
-   "count": 2975,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You just have to be careful.",
+    "en": "Situated very close to the centre of Nes.",
     "score": [
-     1,
-     4,
-     -3,
+     5,
+     7,
+     -2,
      10
     ],
-    "sq": "Duhet të kesh kujdes."
-   }
-  },
-  {
-   "id": "ki",
-   "sq": "ki",
-   "en": "you (sg)! (imperative of kam, to have)",
-   "glosses": [
-    "you (sg)! (imperative of kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (imperative of kam, to have)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 57 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 869,
-   "count": 1107,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Just be careful.",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "Vetëm ki kujdes."
+    "sq": "Ndodhet shumë afër në qendër të Nes."
    }
   }
  ]

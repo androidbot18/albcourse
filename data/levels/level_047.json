@@ -1,41 +1,45 @@
 {
  "level": 47,
- "title": "kuptoj, fare, fëmijë +1",
+ "title": "vonë, tu, re, kujdes +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 9,
  "families": [
-  "fare",
-  "fëmijë",
-  "kuptoj"
+  "kujdes",
+  "re",
+  "tu",
+  "vonë"
  ],
  "pos_mix": {
-  "verb": 3,
-  "adv": 4,
-  "noun": 5,
+  "adv": 1,
+  "prep": 2,
+  "pron": 1,
+  "noun": 11,
+  "verb": 5,
+  "intj": 2,
   "adj": 1
  },
  "words": [
   {
-   "id": "kuptoj",
-   "sq": "kuptoj",
-   "en": "to understand",
+   "id": "vonë",
+   "sq": "vonë",
+   "en": "late",
    "glosses": [
-    "to understand"
+    "late"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to understand",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "late",
      "tags": [],
      "cats": [
       {
@@ -59,151 +63,157 @@
      ],
      "examples": [],
      "links": [
-      "understand"
+      "late"
      ]
     }
    ],
-   "rank": 262,
-   "count": 4476,
-   "family": "kuptoj",
+   "rank": 240,
+   "count": 4944,
+   "family": "vonë",
    "is_root": true,
-   "etymology": "Borrowed from Latin computō (“to compute, reckon”).",
-   "etymology_class": "borrowed",
+   "etymology": "Inherited from Proto-Albanian *wānti, a participle in *-nti, or from *wānā, in either case reflecting Proto-Indo-European *h₁weh₂- (“to lack, be empty; to strive, to wish for, to love”). Compare Ancient Greek εὖνις (eûnis, “stolen; looted, lack, be short of”), Armenian ունայն (unayn, “empty, bare, lacking”), Latin vanus (“bare, lacking, empty, void, vacant”), Old Norse vanr (“lacking”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "kuptova",
-     "tag": "aorist"
-    },
-    {
-     "form": "kuptuar",
-     "tag": "participle"
-    },
-    {
-     "form": "kupëtoj",
-     "tag": "alternative"
-    },
-    {
-     "form": "kupëtonj",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I do and I understand.",
+    "en": "Too, too late.",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë bëj dhe unë kuptoj."
+    "sq": "Shumë, shumë vonë."
    }
   },
   {
-   "id": "fare",
-   "sq": "fare",
-   "en": "totally, wholly, completely",
+   "id": "tu",
+   "sq": "tu",
+   "en": "indicates possession",
    "glosses": [
-    "totally, wholly, completely",
-    "barely, scarcely, not in the least",
-    "kind",
-    "at all"
+    "indicates possession",
+    "as far as",
+    "thy people (family, friends, people with a strong link to thee)",
+    "pant leg"
    ],
    "pos": [
-    "adv",
-    "adv",
-    "adv",
-    "adv"
+    "prep",
+    "prep",
+    "pron",
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb"
+    "preposition",
+    "preposition",
+    "pronoun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "totally, wholly, completely",
-     "tags": [],
-     "cats": [],
-     "examples": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "indicates possession",
+     "tags": [
+      "dialectal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 40 15 23"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "tu aj âsht",
+       "en": "he has (literally, “it is by him”)",
+       "offsets": []
+      }
+     ],
      "links": [
-      "totally",
-      "wholly",
-      "completely"
+      "possession"
      ]
     },
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "barely, scarcely, not in the least",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "as far as",
+     "tags": [
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "tu di unë",
+       "en": "as far as I know",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "as far as"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "thy people (family, friends, people with a strong link to thee)",
      "tags": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 73"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "people"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pant leg",
+     "tags": [
+      "Gheg",
+      "dialectal"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "1 99 0 0"
+       "_dis": "8 0 6 12 44 8 15 1 0 7"
       }
      ],
      "examples": [],
      "links": [
-      "barely",
-      "scarcely",
-      "not in the least"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "kind",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ç'farë? ~ Ç'fare?",
-       "en": "What kind? (~ What? How?)",
-       "offsets": [
-        [
-         2,
-         6
-        ],
-        [
-         12,
-         17
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "kind"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "at all",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "at all"
+      "pant leg"
      ]
     }
    ],
-   "rank": 267,
-   "count": 4386,
-   "family": "fare",
+   "rank": 247,
+   "count": 4818,
+   "family": "tu",
    "is_root": true,
-   "etymology": "From farë (“seed, semen, kind”).",
+   "etymology": "See the etymology of the corresponding lemma form.",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -212,25 +222,37 @@
    "related": [],
    "forms": [
     {
-     "form": "farë",
+     "form": "tuk",
      "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "fëmijë",
-   "sq": "fëmijë",
-   "en": "child, offspring, toddler",
+   "id": "re",
+   "sq": "re",
+   "en": "cloud",
    "glosses": [
-    "child, offspring, toddler",
-    "immature, inexperienced person; child"
+    "cloud",
+    "cloud, gloom, bad luck",
+    "second-person singular simple perfect indicative of bie",
+    "attention, care, consideration",
+    "young girl",
+    "daughter-in-law"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "verb",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "verb",
+    "noun",
     "noun",
     "noun"
    ],
@@ -238,11 +260,317 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "child, offspring, toddler",
+     "gloss": "cloud",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Weather",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Weather",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "qiell pa re",
+       "en": "cloudless sky",
+       "offsets": [
+        [
+         9,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "cloud"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cloud, gloom, bad luck",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "një re zogjsh",
+       "en": "a flock of birds",
+       "offsets": [
+        [
+         4,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "një re mushkonjash",
+       "en": "a swarm of mosquitos",
+       "offsets": [
+        [
+         4,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "cloud",
+      "gloom",
+      "bad luck"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "second-person singular simple perfect indicative of bie",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 3 25 4 3 24 39"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bie"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "attention, care, consideration",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attention",
+      "care",
+      "consideration"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "young girl",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "girl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "daughter-in-law",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "daughter-in-law"
+     ]
+    }
+   ],
+   "rank": 259,
+   "count": 4606,
+   "family": "re",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *rina, a noun derived from the Proto-Indo-European verb *h₃rinéHti whence Albanian rij (“to make humid”), from the root *h₃reyH- (“move, flow, boil”). It is likely morphologically identical with Illyrian ῥινός (rhinós, “mist”). Further related to Sanskrit रिणाति (riṇā́ti, “to make flow, to release, to pour”) and Proto-Slavic *rinǫti (“push, shove”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ren",
+    "rend",
+    "rij",
+    "ritë",
+    "vranësi"
+   ],
+   "forms": [
+    {
+     "form": "reja",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kujdes",
+   "sq": "kujdes",
+   "en": "regard",
+   "glosses": [
+    "regard",
+    "care",
+    "attention"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "regard",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "69 14 16"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "69 14 16"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "84 8 9"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regard"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "care",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "care"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "attention",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attention"
+     ]
+    }
+   ],
+   "rank": 261,
+   "count": 4493,
+   "family": "kujdes",
+   "is_root": true,
+   "etymology": "From older, attested kuljdes, akin to kujtesë (“memory”), although the -d- is unexpected. Ultimately from Latin cautus",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [
+    "memory"
+   ],
+   "components": [],
+   "derived": [
+    "kujdesem",
+    "kujdesi",
+    "kujdesshëm",
+    "kujdestar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kujdese",
+     "tag": "plural"
+    },
+    {
+     "form": "kujdesi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Today, be careful.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Sot, bëni kujdes."
+   }
+  },
+  {
+   "id": "kujdesem",
+   "sq": "kujdesem",
+   "en": "to take care of",
+   "glosses": [
+    "to take care of",
+    "to be cautious"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to take care of",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "92 8"
+      },
+      {
+       "name": "Albanian terms suffixed with -em",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
@@ -253,480 +581,162 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "54 46"
+       "_dis": "94 6"
       }
      ],
-     "examples": [
-      {
-       "sq": "Fëmija pa nënë është si nata pa hënë.",
-       "en": "A child without a mother is like a night without the moon.",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      },
-      {
-       "sq": "(in the plural) younger generation; youth",
-       "en": "",
-       "offsets": []
-      }
-     ],
+     "examples": [],
      "links": [
-      "child",
-      "offspring",
-      "toddler"
+      "take care of"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "immature, inexperienced person; child",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Mos u bëj si fëmijë!",
-       "en": "Don't be(come) like a child!",
-       "offsets": [
-        [
-         13,
-         19
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "immature",
-      "inexperienced",
-      "child"
-     ]
-    }
-   ],
-   "rank": 268,
-   "count": 4329,
-   "family": "fëmijë",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin familia (“family”). Compare also Romanian femeie, Aromanian fumealji, fumelj. Doublet of familje.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "family"
-   ],
-   "components": [],
-   "derived": [
-    "fëmijëri",
-    "fëmiror"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "fëmi",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "fëmijët",
-   "sq": "fëmijët",
-   "en": "the child, plural (from fëmijë)",
-   "glosses": [
-    "the child, plural (from fëmijë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the child, plural (from fëmijë)",
-     "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "fëmijë"
-    }
-   ],
-   "rank": 384,
-   "count": 2719,
-   "family": "fëmijë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do you like children?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Të pëlqejnë fëmijët?"
-   }
-  },
-  {
-   "id": "kuptova",
-   "sq": "kuptova",
-   "en": "I (once did) understanded (from kuptoj, to understand)",
-   "glosses": [
-    "I (once did) understanded (from kuptoj, to understand)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "I (once did) understanded (from kuptoj, to understand)",
-     "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "indicative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kuptoj"
-    }
-   ],
-   "rank": 527,
-   "count": 1989,
-   "family": "kuptoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Did I understand you correctly?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Ju kuptova mirë?"
-   }
-  },
-  {
-   "id": "kuptim",
-   "sq": "kuptim",
-   "en": "understanding",
-   "glosses": [
-    "understanding"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "understanding",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "gloss": "to be cautious",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "understanding"
+      "be",
+      "cautious"
      ]
     }
    ],
-   "rank": 865,
-   "count": 1112,
-   "family": "kuptoj",
+   "rank": 1069,
+   "count": 878,
+   "family": "kujdes",
    "is_root": false,
-   "etymology": "From kuptoj + -im.",
+   "etymology": "From kujdes + -em.",
    "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "components": [
     {
-     "word": "kuptoj",
+     "word": "kujdes",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [],
+   "related": [
+    "kujdes",
+    "kujdesshëm"
+   ],
    "forms": [
     {
-     "form": "kuptime",
-     "tag": "plural"
-    },
-    {
-     "form": "kuptimi",
-     "tag": "definite"
+     "form": "kujdesur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It makes a lot of sense.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Ka shumë kuptim."
-   }
-  },
-  {
-   "id": "kuptove",
-   "sq": "kuptove",
-   "en": "you (sg) (once did) understanded (from kuptoj, to understand)",
-   "glosses": [
-    "you (sg) (once did) understanded (from kuptoj, to understand)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) (once did) understanded (from kuptoj, to understand)",
-     "tags": [
-      "aorist",
-      "form-of",
-      "indicative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kuptoj"
-    }
-   ],
-   "rank": 930,
-   "count": 1027,
-   "family": "kuptoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You got it right!",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "E kuptove mirë!"
-   }
-  },
-  {
-   "id": "fëmija",
-   "sq": "fëmija",
-   "en": "the child, singular (from fëmijë)",
-   "glosses": [
-    "the child, singular (from fëmijë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the child, singular (from fëmijë)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "fëmijë"
-    }
-   ],
-   "rank": 1415,
-   "count": 629,
-   "family": "fëmijë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Have confidence, My child.",
+    "en": "Why should I care?",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Ki besim, fëmija im."
+    "sq": "Pse duhet të kujdesem?"
    }
   },
   {
-   "id": "kuptueshëm",
-   "sq": "kuptueshëm",
-   "en": "understandable",
+   "id": "tungjatjeta",
+   "sq": "tungjatjeta",
+   "en": "hello, hi",
    "glosses": [
-    "understandable"
+    "hello, hi",
+    "good bye"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "hello, hi",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian greetings",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hello",
+      "hi"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good bye",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Albanian greetings",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "good bye"
+     ]
+    }
+   ],
+   "rank": 1384,
+   "count": 639,
+   "family": "tu",
+   "is_root": false,
+   "etymology": "From an enclitic tu + (n)gjat(ë) + jeta, literal meaning 'may your life be prolonged'.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "tu",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "tung"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "kujdesshëm",
+   "sq": "kujdesshëm",
+   "en": "careful, cautious",
+   "glosses": [
+    "careful, cautious"
    ],
    "pos": [
     "adj"
@@ -738,7 +748,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "understandable",
+     "gloss": "careful, cautious",
      "tags": [],
      "cats": [
       {
@@ -762,21 +772,22 @@
      ],
      "examples": [],
      "links": [
-      "understandable"
+      "careful",
+      "cautious"
      ]
     }
    ],
-   "rank": 14566,
-   "count": 40,
-   "family": "kuptoj",
+   "rank": 2602,
+   "count": 318,
+   "family": "kujdes",
    "is_root": false,
-   "etymology": "From kuptoj + -shëm.",
+   "etymology": "From kujdes + -shëm.",
    "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "components": [
     {
-     "word": "kuptoj",
+     "word": "kujdes",
      "role": "prefix"
     }
    ],
@@ -785,15 +796,260 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Try to be understanding.",
+    "en": "Be very careful.",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
      10
     ],
-    "sq": "Mundohuni të jeni të kuptueshëm."
+    "sq": "Jenë shumë të kujdesshëm."
    }
+  },
+  {
+   "id": "kujdestar",
+   "sq": "kujdestar",
+   "en": "supervisor",
+   "glosses": [
+    "supervisor",
+    "legal guardian"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "supervisor",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "84 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "59 41"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "supervisor"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "legal guardian",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "59 41"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 60"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "legal",
+      "guardian"
+     ]
+    }
+   ],
+   "rank": 14358,
+   "count": 41,
+   "family": "kujdes",
+   "is_root": false,
+   "etymology": "From kujdes (“care”) + -tar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "care"
+   ],
+   "components": [
+    {
+     "word": "kujdes",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "kujdestari"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kujdestarë",
+     "tag": "plural"
+    },
+    {
+     "form": "kujdestari",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You can be the trustee.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Ju mund të jeni kujdestar."
+   }
+  },
+  {
+   "id": "vonoj",
+   "sq": "vonoj",
+   "en": "to delay (cause someone to be late)",
+   "glosses": [
+    "to delay (cause someone to be late)",
+    "to hinder"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to delay (cause someone to be late)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "delay"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hinder",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hinder"
+     ]
+    }
+   ],
+   "rank": 25007,
+   "count": 19,
+   "family": "vonë",
+   "is_root": false,
+   "etymology": "From vonë + -oj (verbative suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vonë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "vonë"
+   ],
+   "forms": [
+    {
+     "form": "vonova",
+     "tag": "aorist"
+    },
+    {
+     "form": "vonuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

@@ -1,13 +1,13 @@
 {
  "level": 96,
- "title": "gjesh, sipas, këmbë, lojë, pastër, gjeni +4",
+ "title": "gjak, gjesh, sipas, këmbë, lojë, pastër +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 8,
+ "word_count": 9,
  "families": [
-  "gjeni",
+  "gjak",
   "gjesh",
   "këmbë",
   "lojë",
@@ -15,12 +15,92 @@
   "sipas"
  ],
  "pos_mix": {
+  "noun": 8,
   "verb": 6,
   "prep": 2,
-  "noun": 7,
   "adj": 2
  },
  "words": [
+  {
+   "id": "gjak",
+   "sq": "gjak",
+   "en": "blood",
+   "glosses": [
+    "blood"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "blood",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Lithuanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "blood"
+     ]
+    }
+   ],
+   "rank": 702,
+   "count": 1438,
+   "family": "gjak",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ǵákə, from earlier Proto-Albanian *źaka, from Proto-Indo-European *sokʷos (“sap, resin”). Compare Lithuanian sakai̇̃ (“resin”), Ancient Greek ὀπός (opós, “sap”), Proto-Slavic *sokъ (“juice”). For the sense development from \"sap, juice\" > \"blood\", note the unrelated Tagalog dugo (“blood”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjakra",
+     "tag": "plural"
+    },
+    {
+     "form": "gjaku",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Even though we weren't blood, we were family.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Edhe pse nuk ishim gjak, ishim familje."
+   }
+  },
   {
    "id": "gjesh",
    "sq": "gjesh",
@@ -558,61 +638,6 @@
    }
   },
   {
-   "id": "gjeni",
-   "sq": "gjeni",
-   "en": "genius",
-   "glosses": [
-    "genius"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "genius",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "genius"
-     ]
-    }
-   ],
-   "rank": 739,
-   "count": 1357,
-   "family": "gjeni",
-   "is_root": true,
-   "etymology": "Probably a learned borrowing from Latin genius.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gjeniu",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "you can not find!",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "ju nuk mund të gjeni!"
-   }
-  },
-  {
    "id": "pastroj",
    "sq": "pastroj",
    "en": "to clean",
@@ -763,6 +788,82 @@
     {
      "form": "pastruar",
      "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "gjakpirës",
+   "sq": "gjakpirës",
+   "en": "leech (annelid)",
+   "glosses": [
+    "leech (annelid)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "leech (annelid)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "leech"
+     ]
+    }
+   ],
+   "rank": 23903,
+   "count": 20,
+   "family": "gjak",
+   "is_root": false,
+   "etymology": "From gjak (“blood”) + pirës (“drinker”) (from pi).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [
+    "blood",
+    "drinker"
+   ],
+   "components": [
+    {
+     "word": "gjak",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjakpirës",
+     "tag": "plural"
+    },
+    {
+     "form": "gjakpirësi",
+     "tag": "definite"
     }
    ],
    "corpus_example": null
