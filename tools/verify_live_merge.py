@@ -5,18 +5,26 @@ The local suite proves the data on disk. This checks the deployed site, which
 is the only place a stale CDN copy or a failed deploy would show up.
 """
 import json
+import pathlib
 import re
 import sys
 import urllib.request
 
 BASE = "https://androidbot18.github.io/albcourse"
 UA = {"User-Agent": "albcourse-verify/1.0"}
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
 def get(path):
     req = urllib.request.Request(BASE + path, headers=UA)
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.loads(r.read().decode("utf-8"))
+
+
+def local(path):
+    """The same artifact as built on disk. This is the source of every total."""
+    with open(ROOT / path, encoding="utf-8") as fh:
+        return json.load(fh)
 
 
 def main():
@@ -29,13 +37,30 @@ def main():
 
     print("live deployment check")
 
+    lidx = local("data/index.json")
+    lwords = local("data/words.json")["words"]
+    want_levels = len(lidx)
+    want_last = lidx[-1]["level"]
+    want_edia = sum(1 for w in lwords if re.search(r"[\u00eb\u00cb]", w["sq"]))
+    want_cced = sum(1 for w in lwords if re.search(r"[\u00e7\u00c7]", w["sq"]))
+    want_ex = sum(1 for w in lwords if w.get("ex"))
+
     idx = get("/data/index.json")
-    check(len(idx) == 594, "594 levels deployed", len(idx))
-    check(idx[-1]["level"] == 594, "last level is 594", idx[-1]["level"])
+    check(len(idx) == want_levels, "%d levels deployed" % want_levels, len(idx))
+    check(idx[-1]["level"] == want_last, "last level is %d" % want_last, idx[-1]["level"])
 
     words = get("/data/words.json")["words"]
     by = {w["sq"]: w for w in words}
-    check(len(words) == 4087, "4087 cards deployed", len(words))
+    check(len(words) == len(lwords), "%d cards deployed" % len(lwords), len(words))
+
+    # The decisive check: the deployed cards ARE the local cards. Counts alone
+    # would pass if a deploy dropped a gloss and gained a card elsewhere.
+    lby = {w["sq"]: w for w in lwords}
+    if len(lby) == len(lwords):
+        drift = [sq for sq, w in lby.items() if by.get(sq) != w]
+        check(not drift, "deployed cards match the local build", str(drift[:5]))
+    else:
+        check(False, "local build has no duplicate cards", str(len(lwords) - len(lby)))
 
     # The inflected forms that PR #11 added, with their lemma families.
     for w, fam in [("është", "jam"), ("janë", "jam"), ("ke", "kam"), ("këtë", "ky")]:
@@ -56,14 +81,16 @@ def main():
     check(not bad, "every deployed example has Albanian and English", str(bad[:5]))
 
     with_ex = [w for w in words if w.get("ex")]
-    print("  ..  %d/%d cards have an example (%.1f%%)"
-          % (len(with_ex), len(words), 100.0 * len(with_ex) / len(words)))
+    print("  ..  %d/%d cards have an example (%.1f%%); local build has %d"
+          % (len(with_ex), len(words), 100.0 * len(with_ex) / len(words), want_ex))
+    check(len(with_ex) == want_ex, "deployed example coverage matches the local build",
+          "%d vs %d" % (len(with_ex), want_ex))
 
-    # Diacritics must survive the pipeline.
+    # Diacritics must survive the pipeline - as many as the local build has.
     edia = sum(1 for w in words if re.search(r"[ëË]", w["sq"]))
     cced = sum(1 for w in words if re.search(r"[çÇ]", w["sq"]))
-    check(edia > 1500, "ë words deployed intact", edia)
-    check(cced > 50, "ç words deployed intact", cced)
+    check(edia == want_edia, "%d ë words deployed intact" % want_edia, edia)
+    check(cced == want_cced, "%d ç words deployed intact" % want_cced, cced)
 
     print()
     if fails:
