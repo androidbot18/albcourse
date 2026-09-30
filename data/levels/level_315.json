@@ -1,45 +1,44 @@
 {
  "level": 315,
- "title": "kuvertë, zënkë, argjend, kotele, funksion, picë +4",
+ "title": "mësohem, lezbike, gjynah, sëmur, ndreq, lej +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "argjend",
-  "funksion",
-  "kotele",
-  "kuvertë",
-  "picë",
-  "zënkë"
+  "gjynah",
+  "lej",
+  "lezbike",
+  "mësohem",
+  "ndreq",
+  "sëmur"
  ],
  "pos_mix": {
-  "noun": 8,
-  "adj": 1
+  "verb": 12,
+  "noun": 5,
+  "intj": 1
  },
  "words": [
   {
-   "id": "kuvertë",
-   "sq": "kuvertë",
-   "en": "quilt, comforter",
+   "id": "mësohem",
+   "sq": "mësohem",
+   "en": "to get used (\"to\" construed with the preposition 'me')",
    "glosses": [
-    "quilt, comforter"
+    "to get used (\"to\" construed with the preposition 'me')"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "quilt, comforter",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get used (\"to\" construed with the preposition 'me')",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -62,14 +61,13 @@
      ],
      "examples": [],
      "links": [
-      "quilt",
-      "comforter"
+      "me"
      ]
     }
    ],
-   "rank": 9755,
+   "rank": 9826,
    "count": 67,
-   "family": "kuvertë",
+   "family": "mësohem",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -78,25 +76,30 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "mësuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "4-deck 8-deck blackjack Strategy.",
+    "en": "I seem to be getting used to the prison climate.",
     "score": [
-     2,
-     4,
+     6,
+     8,
      -2,
      10
     ],
-    "sq": "4-kuvertë 8-kuvertë Strategjia Blackjack."
+    "sq": "Më duket po mësohem me klimën e burgut."
    }
   },
   {
-   "id": "zënkë",
-   "sq": "zënkë",
-   "en": "quarrel, fight",
+   "id": "lezbike",
+   "sq": "lezbike",
+   "en": "lesbian",
    "glosses": [
-    "quarrel, fight"
+    "lesbian"
    ],
    "pos": [
     "noun"
@@ -108,42 +111,46 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "quarrel, fight",
+     "gloss": "lesbian",
      "tags": [
       "feminine"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 36 64"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 39 61"
+      },
+      {
+       "name": "Sexuality",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Sexuality",
+       "langcode": "sq",
+       "_dis": "0 36 64"
       }
      ],
      "examples": [],
      "links": [
-      "quarrel",
-      "fight"
+      "lesbian"
      ]
     }
    ],
-   "rank": 9765,
+   "rank": 9834,
    "count": 67,
-   "family": "zënkë",
+   "family": "lezbike",
    "is_root": true,
-   "etymology": "From zë.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -152,269 +159,94 @@
    "related": [],
    "forms": [
     {
-     "form": "zënka",
+     "form": "lezbike",
      "tag": "plural"
+    },
+    {
+     "form": "lezbikja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "We had an argument and an accident happened.",
+    "en": "What are you, a lesbian?",
     "score": [
-     4,
-     8,
+     1,
+     5,
      -4,
      10
     ],
-    "sq": "Ne patëm një zënkë dhe ndodhi një aksident."
+    "sq": "Çfarë jeni ju, një lezbike?"
    }
   },
   {
-   "id": "argjend",
-   "sq": "argjend",
-   "en": "silver (metal)",
+   "id": "gjynah",
+   "sq": "gjynah",
+   "en": "Expresses sorrow or regret.",
    "glosses": [
-    "silver (metal)",
-    "silver thread, for embroidery",
-    "silver, silvery"
+    "Expresses sorrow or regret.",
+    "sin",
+    "fault, guilt",
+    "pity, compassion, sympathy",
+    "anything bad, wrong or unfortunate"
    ],
    "pos": [
+    "intj",
     "noun",
     "noun",
-    "adj"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
+    "interjection",
     "noun",
     "noun",
-    "adjective"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "Expresses sorrow or regret.",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sorrow",
+      "regret"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "silver (metal)",
+     "gloss": "sin",
      "tags": [
-      "masculine",
-      "uncountable"
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Chemical elements",
+       "name": "Islam",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Chemical elements",
+       "orig": "sq:Islam",
        "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 80 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 92 3"
       }
      ],
-     "examples": [
-      {
-       "sq": "e ћi iane teh beћate en ergandi: e arrih",
-       "en": "",
-       "offsets": [
-        [
-         24,
-         31
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "silver"
+      "sin"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "silver thread, for embroidery",
+     "gloss": "fault, guilt",
      "tags": [
-      "masculine",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "thread",
-      "embroidery"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "silver, silvery",
-     "tags": [
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "silver",
-      "silvery"
-     ]
-    }
-   ],
-   "rank": 9787,
-   "count": 67,
-   "family": "argjend",
-   "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Latin argentum (“silver”). The modern form is possibly borrowed from Italian argento (“silver”), whereas the older form rgjand was directly loaned from Latin. Considering the attested argjand, a prothetic a- (compare Buzuku's ergjand) or contamination from the Italian term cannot be excluded.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "silver"
-   ],
-   "components": [],
-   "derived": [
-    "argjendar",
-    "argjenddashës",
-    "argjende",
-    "i argjendë",
-    "argjendoj",
-    "argjendor",
-    "argjendpunues",
-    "i argjendtë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "ërgjand",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It is not silver.",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Nuk është argjend."
-   }
-  },
-  {
-   "id": "kotele",
-   "sq": "kotele",
-   "en": "kitten",
-   "glosses": [
-    "kitten"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kitten",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "kitten"
-     ]
-    }
-   ],
-   "rank": 9796,
-   "count": 67,
-   "family": "kotele",
-   "is_root": true,
-   "etymology": "Borrowed from Bulgarian ко́тел (kótel, “tomcat”), derivative of archaic кот (kot, “tomcat”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "tomcat"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kotele",
-     "tag": "plural"
-    },
-    {
-     "form": "kotelja",
-     "tag": "definite"
-    },
-    {
-     "form": "kotelë",
-     "tag": "alternative"
-    },
-    {
-     "form": "kotole",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Those who do not observe the fast eat noodles.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Ata që nuk agjërojnë hanë kotele."
-   }
-  },
-  {
-   "id": "funksion",
-   "sq": "funksion",
-   "en": "function",
-   "glosses": [
-    "function"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "function",
-     "tags": [
+      "colloquial",
       "masculine"
      ],
      "cats": [
@@ -422,6 +254,141 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 20 52 12 6"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 27 39 15 3"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 13 71 7 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fault",
+      "guilt"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pity, compassion, sympathy",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pity",
+      "compassion",
+      "sympathy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "anything bad, wrong or unfortunate",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "sa gjynah!",
+       "en": "what a pity!",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "është gjynah.",
+       "en": "it's a pity.",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bad",
+      "wrong",
+      "unfortunate"
+     ]
+    }
+   ],
+   "rank": 9836,
+   "count": 67,
+   "family": "gjynah",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish گناه (günah), ultimately from Classical Persian گناه (gunāh).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "gjynahqar"
+   ],
+   "forms": [
+    {
+     "form": "gjynahe",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's a pity my wife too.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Është gjynah edhe gruaja ime."
+   }
+  },
+  {
+   "id": "sëmur",
+   "sq": "sëmur",
+   "en": "to make someone sick",
+   "glosses": [
+    "to make someone sick"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make someone sick",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
        "source": "w"
       },
       {
@@ -439,13 +406,15 @@
      ],
      "examples": [],
      "links": [
-      "function"
+      "make",
+      "someone",
+      "sick"
      ]
     }
    ],
-   "rank": 9811,
+   "rank": 9837,
    "count": 67,
-   "family": "funksion",
+   "family": "sëmur",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -456,121 +425,341 @@
    "related": [],
    "forms": [
     {
-     "form": "funksione",
-     "tag": "plural"
-    },
-    {
-     "form": "funksioni",
-     "tag": "definite"
+     "form": "sëmurur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is Autodetect function?",
+    "en": "The question itself makes you sick.",
     "score": [
      1,
      4,
      -3,
      10
     ],
-    "sq": "Çfarë është Autodetect funksion?"
+    "sq": "Vetë pyetja të sëmur."
    }
   },
   {
-   "id": "picë",
-   "sq": "picë",
-   "en": "little girl",
+   "id": "ndreq",
+   "sq": "ndreq",
+   "en": "to repair, fix, arrange",
    "glosses": [
-    "little girl",
-    "pizza"
+    "to repair, fix, arrange",
+    "to put in order",
+    "to improve",
+    "to solve, find solution",
+    "to feed and give water",
+    "to cook food, add ingredients to improve food",
+    "to straighten up"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "little girl",
-     "tags": [
-      "feminine",
-      "nonstandard"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to repair, fix, arrange",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 16 9 11 9 19 23"
+      }
      ],
+     "examples": [],
+     "links": [
+      "repair",
+      "fix",
+      "arrange"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put in order",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 16 9 11 9 19 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "put in order"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to improve",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "improve"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to solve, find solution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 16 9 11 9 19 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "solve",
+      "solution"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to feed and give water",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "feed",
+      "water"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cook food, add ingredients to improve food",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "70 30"
+       "_dis": "14 17 7 13 7 24 18"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "84 16"
+       "_dis": "12 16 9 11 9 19 23"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "94 6"
+       "_dis": "14 16 4 14 4 28 20"
       }
      ],
      "examples": [],
      "links": [
-      "girl"
+      "cook",
+      "ingredients"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pizza",
-     "tags": [
-      "feminine"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to straighten up",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 16 9 11 9 19 23"
+      }
      ],
-     "cats": [],
      "examples": [],
      "links": [
-      "pizza"
+      "straighten",
+      "up"
      ]
     }
    ],
-   "rank": 9812,
+   "rank": 9857,
    "count": 67,
-   "family": "picë",
+   "family": "ndreq",
    "is_root": true,
-   "etymology": "Feminine of pic (“tip, top, end”).",
+   "etymology": "From an attested dialectal dreq, a phonetic variant of drejt. Alternatively from the adverb ndreq (“straight”).",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "ndreqje",
+    "ndreqës",
+    "pandrequr"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "pica",
-     "tag": "plural"
+     "form": "ndreqa",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndrequr",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Having a pizza.",
+    "corpus": "MaCoCu",
+    "en": "Compatibility with WordPress 5.3.",
     "score": [
-     2,
-     4,
+     3,
+     5,
      -2,
-     10
+     8
     ],
-    "sq": "Duke pasur një picë."
+    "sq": "U ndreq: Përputhshmëri me WordPress 5.3."
    }
+  },
+  {
+   "id": "lej",
+   "sq": "lej",
+   "en": "to give birth, bear (children)",
+   "glosses": [
+    "to give birth, bear (children)",
+    "to be born",
+    "to rise (of the sun)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to give birth, bear (children)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 32 21"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 6 5 17 17 6 7 16 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "give birth",
+      "bear"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be born",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "be born"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rise (of the sun)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Leu dielli.",
+       "en": "The sun rose up.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "rise"
+     ]
+    }
+   ],
+   "rank": 9858,
+   "count": 67,
+   "family": "lej",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laidnja, from an Proto-Indo-European o-grade verb from the root *leyd- (“to release”). Alternatively from an *éy-present from the root *h₂el- (“to grow, nourish”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "lenicë"
+   ],
+   "related": [
+    "lind",
+    "? vëlla"
+   ],
+   "forms": [
+    {
+     "form": "leva",
+     "tag": "aorist"
+    },
+    {
+     "form": "lerë",
+     "tag": "participle"
+    },
+    {
+     "form": "le",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

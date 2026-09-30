@@ -101,6 +101,12 @@ echo "== learner-facing form glosses =="
 # shipped card is left half-converted.
 python3 tools/test_form_gloss.py
 
+echo "== form gloss: person agreement and inferred lemmas =="
+# Two defects the merged rewrite still shipped: 'they (has done) are' is false
+# English, and nine main entries whose only gloss is form-of phrasing were
+# never converted. Also pins the two cards that must KEEP the raw gloss.
+python3 tools/test_form_gloss_person.py
+
 echo "== example selection guard =="
 # Two components disagreed on what counts as "this card has an example", so
 # words were skipped and shipped bare: 'mire' (adjective 'good') because its

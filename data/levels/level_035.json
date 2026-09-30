@@ -1,103 +1,123 @@
 {
  "level": 35,
- "title": "le, thjesht, akoma, herë +2",
- "root": "",
- "root_gloss": "",
- "part": 1,
- "parts": 1,
- "word_count": 6,
+ "title": "vend 2/2",
+ "root": "vend",
+ "root_gloss": "place",
+ "part": 2,
+ "parts": 2,
+ "word_count": 2,
  "families": [
-  "akoma",
-  "herë",
-  "le",
-  "thjesht"
+  "vend"
  ],
  "pos_mix": {
-  "verb": 1,
-  "adv": 1,
-  "noun": 7
+  "noun": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "le",
-   "sq": "le",
-   "en": "to give birth, bear",
+   "id": "vendore",
+   "sq": "vendore",
+   "en": "locative case",
    "glosses": [
-    "to give birth, bear"
+    "locative case"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to give birth, bear",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "locative case",
      "tags": [
-      "dialectal"
+      "feminine"
      ],
      "cats": [
+      {
+       "name": "Grammar",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Grammar",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 9 27 8 8 41"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "u le",
-       "en": "to be born",
-       "offsets": []
+       "_dis": "28 28 44"
       },
       {
-       "sq": "lehet",
-       "en": "is born",
-       "offsets": []
+       "name": "Albanian terms suffixed with -ore",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 36"
       }
      ],
+     "examples": [],
      "links": [
-      "give birth",
-      "bear"
+      "grammar",
+      "locative case"
      ]
     }
    ],
-   "rank": 173,
-   "count": 7417,
-   "family": "le",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *laida, an ostensibly o-grade thematic present from the root *leyd- (“to let go, release”).",
-   "etymology_class": "inherited",
+   "rank": 26988,
+   "count": 17,
+   "family": "vend",
+   "is_root": false,
+   "etymology": "From vendos (“to decide, to place”) + -ore (“forming adjectives”). As a grammatical noun, an elision of rasë vendore. It had been proposed to be part of the Albanian case system in the past.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "vendos",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": null
+   "forms": [
+    {
+     "form": "vendorja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Both local and international.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Vendore dhe ndërkombëtare."
+   }
   },
   {
-   "id": "thjesht",
-   "sq": "thjesht",
-   "en": "simply",
+   "id": "vendor",
+   "sq": "vendor",
+   "en": "local",
    "glosses": [
-    "simply"
+    "local"
    ],
    "pos": [
-    "adv"
+    "adj"
    ],
    "pos_labels": [
-    "adverb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "simply",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "local",
      "tags": [],
      "cats": [
       {
@@ -107,415 +127,62 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -or",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "shërbim vendor",
+       "en": "",
+       "offsets": []
+      }
+     ],
      "links": [
-      "simply"
+      "local"
      ]
     }
    ],
-   "rank": 176,
-   "count": 7354,
-   "family": "thjesht",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 30650,
+   "count": 14,
+   "family": "vend",
+   "is_root": false,
+   "etymology": "From vendos (“to decide, to place”) + -or (adjective-forming suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "vendos",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "vendore",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You are just there.",
+    "en": "Local Economic Development does not just happen.",
     "score": [
-     0,
      3,
+     6,
      -3,
      10
     ],
-    "sq": "Thjesht jeni aty."
-   }
-  },
-  {
-   "id": "akoma",
-   "sq": "akoma",
-   "en": "still",
-   "glosses": [
-    "still"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "still",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "still"
-     ]
-    }
-   ],
-   "rank": 178,
-   "count": 7235,
-   "family": "akoma",
-   "is_root": true,
-   "etymology": "Derives from Greek ακόμα (akóma).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "akoma",
-     "tag": "plural"
-    },
-    {
-     "form": "akoman",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "…and yet I am not.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "… Dhe akoma nuk jam."
-   }
-  },
-  {
-   "id": "herë",
-   "sq": "herë",
-   "en": "time",
-   "glosses": [
-    "time",
-    "an instant of time, instance",
-    "multiplied by, times",
-    "season"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "time",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "time"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "an instant of time, instance",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "instant",
-      "time",
-      "instance"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "multiplied by, times",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 32 60 4"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 12 80 4"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 11 82 4"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "multiplied",
-      "times"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "season",
-     "tags": [
-      "archaic",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "season"
-     ]
-    }
-   ],
-   "rank": 179,
-   "count": 7220,
-   "family": "herë",
-   "is_root": true,
-   "etymology": "Borrowed from Latin hōra (“hour, time, season”), through Vulgar Latin with unexplained preservation of h or more likely the coincidental reappearance by other means. Cognate with Romanian oară. Doublet of orë (“hour, clock, watch”), a recent borrowing.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "herahershëm",
-    "herak",
-    "herë-herë",
-    "herëkeqe",
-    "herëpasherëshëm",
-    "herës",
-    "herët",
-    "hershëm"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "herë",
-     "tag": "plural"
-    },
-    {
-     "form": "hera",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "whenever they want.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "sa herë të duan."
-   }
-  },
-  {
-   "id": "here",
-   "sq": "here",
-   "en": "time, singular (from herë)",
-   "glosses": [
-    "time, singular (from herë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "time, singular (from herë)",
-     "tags": [
-      "ablative",
-      "dative",
-      "form-of",
-      "indefinite",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 13 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "herë"
-    }
-   ],
-   "rank": 783,
-   "count": 1263,
-   "family": "herë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But these times, cordially.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Por këto here, përzemërsisht."
-   }
-  },
-  {
-   "id": "hera",
-   "sq": "hera",
-   "en": "the time, singular (from herë)",
-   "glosses": [
-    "the time, singular (from herë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the time, singular (from herë)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "herë"
-    }
-   ],
-   "rank": 911,
-   "count": 1049,
-   "family": "herë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It's not the first time.",
-    "score": [
-     1,
-     5,
-     -4,
-     8
-    ],
-    "sq": "Nuk është hera e parë."
+    "sq": "Zhvillimi ekonomik vendor nuk ndodh vetvetiu."
    }
   }
  ]

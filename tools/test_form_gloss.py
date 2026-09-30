@@ -84,9 +84,13 @@ CASES = [
      "I (used to) was (from jam, to be)"),
     ("first-person singular aorist indicative of them", "verb", "them",
      "I (once did) said (from them, to say)"),
-    # Albanian tenses with no single English word.
+    # Albanian tenses with no single English word. The perfect agrees with the
+    # person: 'they (has done) are' is false English, so only third-person
+    # singular takes 'has done' and the rest take 'have done'.
     ("third-person plural simple perfect indicative of jam", "verb", "jam",
-     "they (has done) are (from jam, to be)"),
+     "they (have done) are (from jam, to be)"),
+    ("third-person singular simple perfect indicative of jam", "verb", "jam",
+     "he/she/it (has done) is (from jam, to be)"),
     # A gloss that is nothing but the slot.
     ("participle of vdes", "verb", "vdes", "participle of vdes (to die)"),
     ("past participle of them", "verb", "them",

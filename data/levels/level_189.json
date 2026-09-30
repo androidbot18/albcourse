@@ -1,6 +1,6 @@
 {
  "level": 189,
- "title": "majmun, nis, shëtit, përgjigjem, dhanë, shkop +4",
+ "title": "nis, shëtit, përgjigjem, dhanë, shkop, kërce +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -8,88 +8,17 @@
  "word_count": 7,
  "families": [
   "dhanë",
-  "majmun",
+  "kërce",
   "nis",
   "përgjigjem",
   "shkop",
   "shëtit"
  ],
  "pos_mix": {
-  "noun": 12,
-  "verb": 8
+  "verb": 8,
+  "noun": 14
  },
  "words": [
-  {
-   "id": "majmun",
-   "sq": "majmun",
-   "en": "monkey (primate)",
-   "glosses": [
-    "monkey (primate)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "monkey (primate)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "monkey"
-     ]
-    }
-   ],
-   "rank": 3066,
-   "count": 265,
-   "family": "majmun",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish میمون (maymun), from Arabic مَيْمُون (maymūn).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It was like I was the monkey in Outbreak.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Ajo ishte si unë ishte majmun në shpërthim."
-   }
-  },
   {
    "id": "nis",
    "sq": "nis",
@@ -690,6 +619,147 @@
     }
    ],
    "corpus_example": null
+  },
+  {
+   "id": "kërce",
+   "sq": "kërce",
+   "en": "crust, hardened part of a material",
+   "glosses": [
+    "crust, hardened part of a material",
+    "cartilage, gristle",
+    "chondrin"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "crust, hardened part of a material",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "crust",
+      "material"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cartilage, gristle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "cartilage",
+      "gristle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chondrin",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Biology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Biology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 10 73"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 87"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "biology",
+      "chondrin"
+     ]
+    }
+   ],
+   "rank": 3099,
+   "count": 262,
+   "family": "kërce",
+   "is_root": true,
+   "etymology": "From kërc (“cartilage”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [
+    "cartilage"
+   ],
+   "components": [],
+   "derived": [
+    "kërcas",
+    "kërcënoj"
+   ],
+   "related": [
+    "krodhë",
+    "kothere"
+   ],
+   "forms": [
+    {
+     "form": "kërce",
+     "tag": "plural"
+    },
+    {
+     "form": "kërcja",
+     "tag": "definite"
+    },
+    {
+     "form": "kërcë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Next to dig further.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Kërce tek gërmoj më tej."
+   }
   },
   {
    "id": "shëtit",

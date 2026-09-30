@@ -1,31 +1,130 @@
 {
  "level": 311,
- "title": "dasmë, bujar, modest, furrë, tradhti, rekomandoj +4",
+ "title": "valle, hale, kalama, gjenetik, bij, laps +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "bujar",
-  "dasmë",
-  "furrë",
-  "modest",
-  "rekomandoj",
-  "tradhti"
+  "bij",
+  "gjenetik",
+  "hale",
+  "kalama",
+  "laps",
+  "valle"
  ],
  "pos_mix": {
-  "noun": 8,
-  "adj": 2,
-  "verb": 1
+  "noun": 7,
+  "adj": 1,
+  "verb": 3
  },
  "words": [
   {
-   "id": "dasmë",
-   "sq": "dasmë",
-   "en": "wedding",
+   "id": "valle",
+   "sq": "valle",
+   "en": "ring folkdance",
    "glosses": [
-    "wedding"
+    "ring folkdance",
+    "group (of objects or people sitting in circle for council, debating etc)",
+    "a difficult or annoying enterprise, risky business"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ring folkdance",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "folkdance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "group (of objects or people sitting in circle for council, debating etc)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 50 10"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "group"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a difficult or annoying enterprise, risky business",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "enterprise"
+     ]
+    }
+   ],
+   "rank": 9565,
+   "count": 69,
+   "family": "valle",
+   "is_root": true,
+   "etymology": "Derivative with plural -e from vallëzoj (“to dance”), borrowed from Byzantine Greek βαλλίζω (ballízō, “to dance”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "vallëzoj"
+   ],
+   "forms": [
+    {
+     "form": "valle",
+     "tag": "plural"
+    },
+    {
+     "form": "vallja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I can run and jump dance and sing!",
+    "score": [
+     0,
+     9,
+     -9,
+     10
+    ],
+    "sq": "Unë mund të luaj dhe kërcej valle dhe këndoj!"
+   }
+  },
+  {
+   "id": "hale",
+   "sq": "hale",
+   "en": "toilet, privy",
+   "glosses": [
+    "toilet, privy"
    ],
    "pos": [
     "noun"
@@ -37,8 +136,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wedding",
-     "tags": [],
+     "gloss": "toilet, privy",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,7 +149,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 20 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,16 +163,17 @@
      ],
      "examples": [],
      "links": [
-      "wedding"
+      "toilet",
+      "privy"
      ]
     }
    ],
-   "rank": 9490,
-   "count": 70,
-   "family": "dasmë",
+   "rank": 9584,
+   "count": 69,
+   "family": "hale",
    "is_root": true,
-   "etymology": "Goes back to Proto-Albanian *dartšimā, originally, \"wedding feast\", derived from darkë.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish خلا (halâ, helâ, “toilet, water closet”), from Arabic خَلَاء (ḵalāʔ).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -78,126 +181,151 @@
    "related": [],
    "forms": [
     {
-     "form": "darsëm",
-     "tag": "alternative"
+     "form": "hale",
+     "tag": "plural"
+    },
+    {
+     "form": "haleja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They did not have a wedding.",
+    "en": "my letter to Heather Hale.",
     "score": [
-     0,
-     3,
-     -3,
+     4,
+     5,
+     -1,
      10
     ],
-    "sq": "Nuk bënë dasmë."
+    "sq": "Letra ime drejtuar Heather Hale."
    }
   },
   {
-   "id": "bujar",
-   "sq": "bujar",
-   "en": "boyar, nobleman",
+   "id": "kalama",
+   "sq": "kalama",
+   "en": "child",
    "glosses": [
-    "boyar, nobleman",
-    "generous, honorable, ungrudging"
+    "child",
+    "childish person"
    ],
    "pos": [
     "noun",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
     "noun",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "boyar, nobleman",
+     "gloss": "child",
      "tags": [
       "masculine"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "boyar",
-      "nobleman"
+      "child"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "generous, honorable, ungrudging",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "childish person",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "95 5"
+       "_dis": "14 86"
       },
       {
-       "name": "Albanian terms suffixed with -ar",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "82 18"
+       "_dis": "50 50"
       },
       {
-       "name": "Pages using invalid parameters when calling Template:sq-adj",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "93 7"
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "generous",
-      "honorable",
-      "ungrudging"
+      "childish"
      ]
     }
    ],
-   "rank": 9496,
-   "count": 70,
-   "family": "bujar",
+   "rank": 9590,
+   "count": 69,
+   "family": "kalama",
    "is_root": true,
-   "etymology": "Borrowed from South Slavic language, compare Old Church Slavonic болꙗринъ (boljarinŭ, “boyar”), Serbo-Croatian boljar (“boyar”) and Bulgarian боляр (boljar, “boyar”). Ultimately from Bulgar. The adjective, a derivate of buj, was likely influenced by the Slavic word.",
-   "etymology_class": "borrowed",
+   "etymology": "Formation from prefix kala- plus -man, derivative of maj \"to fatten, to feed\".\nTopalli argues for a loan from Bulgarian калимана (kalimana, “godmother”), with a semantic shift godmother > godchild > child.",
+   "etymology_class": "derived",
    "source_lang": null,
-   "parents": [
-    "boyar"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "kalamanllëk"
+   ],
+   "related": [
+    "kalakiç",
+    "kalamend",
+    "kalaqafë",
+    "kalavesh"
+   ],
    "forms": [
     {
-     "form": "bujare",
-     "tag": "feminine"
+     "form": "kalamaj",
+     "tag": "plural"
+    },
+    {
+     "form": "kalamani",
+     "tag": "definite"
+    },
+    {
+     "form": "kalamo",
+     "tag": "alternative"
+    },
+    {
+     "form": "kalamon",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Will they be generous?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "A do të jetë bujar?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "modest",
-   "sq": "modest",
-   "en": "modest",
+   "id": "gjenetik",
+   "sq": "gjenetik",
+   "en": "genetic",
    "glosses": [
-    "modest"
+    "genetic"
    ],
    "pos": [
     "adj"
@@ -209,7 +337,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "modest",
+     "gloss": "genetic",
      "tags": [],
      "cats": [
       {
@@ -219,7 +347,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -233,13 +361,13 @@
      ],
      "examples": [],
      "links": [
-      "modest"
+      "genetic"
      ]
     }
    ],
-   "rank": 9498,
-   "count": 70,
-   "family": "modest",
+   "rank": 9595,
+   "count": 69,
+   "family": "gjenetik",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -250,256 +378,28 @@
    "related": [],
    "forms": [
     {
-     "form": "modeste",
+     "form": "gjenetike",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "David was modest.",
+    "en": "genetic variation within groups.",
     "score": [
-     1,
-     3,
+     2,
+     4,
      -2,
      10
     ],
-    "sq": "Davidi ishte modest."
+    "sq": "variacion gjenetik brenda grupeve."
    }
   },
   {
-   "id": "furrë",
-   "sq": "furrë",
-   "en": "oven",
+   "id": "bij",
+   "sq": "bij",
+   "en": "to sprout, grow out",
    "glosses": [
-    "oven",
-    "stove",
-    "kiln",
-    "bakery"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "oven",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 31 30 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 31 30 9"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 32 32 4"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "oven"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stove",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 31 30 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 31 30 9"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 32 32 4"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "stove"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kiln",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 31 30 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 31 30 9"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 32 32 4"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "kiln"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bakery",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bakery"
-     ]
-    }
-   ],
-   "rank": 9500,
-   "count": 70,
-   "family": "furrë",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin furnus.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And in the oven.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Dhe në furrë."
-   }
-  },
-  {
-   "id": "tradhti",
-   "sq": "tradhti",
-   "en": "treason, treachery",
-   "glosses": [
-    "treason, treachery"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "treason, treachery",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "treason",
-      "treachery"
-     ]
-    }
-   ],
-   "rank": 9508,
-   "count": 70,
-   "family": "tradhti",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "2 – Love and betrayal…!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "2 – Dashuri dhe tradhti…!"
-   }
-  },
-  {
-   "id": "rekomandoj",
-   "sq": "rekomandoj",
-   "en": "to recommend",
-   "glosses": [
-    "to recommend"
+    "to sprout, grow out"
    ],
    "pos": [
     "verb"
@@ -511,139 +411,173 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to recommend",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to sprout, grow out",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "21 79"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Pages with 7 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 42 39 0 3 4 0 0 0 3"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 44 40 0 1 2 0 0 0 1"
       }
      ],
      "examples": [],
      "links": [
-      "recommend"
+      "sprout",
+      "grow out"
      ]
     }
    ],
-   "rank": 9541,
+   "rank": 9597,
    "count": 69,
-   "family": "rekomandoj",
+   "family": "bij",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *būnja, from Proto-Indo-European *bʰuH- (“to grow”) (compare Ancient Greek φύω (phúō), Old Armenian բուսանիմ (busanim, “to plant, germinate”), Sanskrit भुवन (bhúvana, “existence”).",
+   "etymology_class": "derived",
    "source_lang": null,
-   "parents": [],
+   "parents": [
+    "existence"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "rekomanduar",
+     "form": "biva",
+     "tag": "aorist"
+    },
+    {
+     "form": "birë",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I highly recommend!",
+    "en": "All these were the sons of Benjamin.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Unë rekomandoj shumë!"
+    "sq": "Tërë këta ishin bij të Atselit."
    }
   },
   {
-   "id": "rekomandim",
-   "sq": "rekomandim",
-   "en": "recommendation",
+   "id": "laps",
+   "sq": "laps",
+   "en": "to wear out, tire",
    "glosses": [
-    "recommendation"
+    "to wear out, tire",
+    "to wish, want",
+    "pencil"
    ],
    "pos": [
+    "verb",
+    "verb",
     "noun"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "recommendation",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wear out, tire",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 61 31"
       }
      ],
      "examples": [],
      "links": [
-      "recommendation"
+      "wear",
+      "out",
+      "tire"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wish, want",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wish",
+      "want"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pencil",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pencil"
      ]
     }
    ],
-   "rank": 26195,
-   "count": 18,
-   "family": "rekomandoj",
-   "is_root": false,
-   "etymology": "From rekomandoj + -im.",
-   "etymology_class": "affix",
+   "rank": 9598,
+   "count": 69,
+   "family": "laps",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin lapis.",
+   "etymology_class": "borrowed",
    "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "rekomandoj",
-     "role": "prefix"
-    }
+   "parents": [
+    "weak"
    ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "lapsa",
+     "tag": "aorist"
+    },
+    {
+     "form": "lapsur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do you have any recommendations?",
+    "en": "Get a pencil and paper.",
     "score": [
      1,
      4,
      -3,
      10
     ],
-    "sq": "A keni ndonjë rekomandim?"
+    "sq": "Merr laps e letër."
    }
   }
  ]

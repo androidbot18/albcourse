@@ -254,6 +254,13 @@ def friendly_verb(prefix, lemma, lemma_en):
     note = ""
     for rx, txt in _MOOD_TENSE:
         if re.search(rx, prefix, re.I):
+            # 'has done' is third-person singular English. 'I/we/they ... has
+            # done' teaches a false sentence, so the perfect agrees with the
+            # person already resolved above. Only third-person singular takes
+            # 'has'; everything else takes 'have'.
+            if txt == " (has done)" and not (
+                    person.startswith("third") and number == "singular"):
+                txt = " (have done)"
             note = txt
             break
 

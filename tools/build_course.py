@@ -778,16 +778,53 @@ def friendly_form_glosses(cards):
     for c in cards:
         lookup[c["word"]] = {"glosses": [s["gloss"] for s in c.get("senses") or []]}
 
-    rewritten = kept = 0
+    rewritten = kept = inferred = 0
     for c in cards:
         senses = c.get("senses") or []
         for s in senses:
-            if not s.get("is_form_of"):
-                continue
+            lemma = s.get("is_form_of")
+            if not lemma:
+                # A word can be a MAIN entry whose only gloss is form-of
+                # phrasing: 'qen' is listed with the gloss 'third-person plural
+                # simple perfect indicative of jam' and nothing else, so
+                # add_form_cards never set is_form_of and this loop skipped it,
+                # leaving nine cards on raw dictionary phrasing.
+                #
+                # form_of_lemma is the gate, and it decides from the GLOSS, not
+                # from tags: 'qen' carries no form-of tag, so sense_is_content
+                # calls it a content sense and the word is skipped. What
+                # actually identifies these entries is that the gloss itself is
+                # grammatical ('... indicative of jam').
+                #
+                # Every sense must be form-of phrasing, so a word that also
+                # means something in its own right is left alone: 'qete' is
+                # also 'quiet', and its own meaning must keep the card.
+                lemmas = []
+                for x in senses:
+                    g = x.get("gloss")
+                    # A semicolon means the gloss states its own meaning and
+                    # then adds grammar: 'neve' is glossed 'us; dative of ne'.
+                    # Rewriting that drops the dative reading and replaces a
+                    # real meaning with the lemma's English ('we'), which
+                    # teaches something the card never said. Keep it as-is.
+                    if ";" in str(g or ""):
+                        lemmas = []
+                        break
+                    lem = form_senses.form_of_lemma(
+                        g, x.get("tags"), words=set(lookup))
+                    if not lem:
+                        lemmas = []
+                        break
+                    lemmas.append(lem)
+                if not lemmas:
+                    continue
+                lemma = lemmas[0]
+                inferred += 1
             new = form_gloss.friendly_gloss(
-                s["gloss"], s.get("pos"), s["is_form_of"], lookup)
+                s["gloss"], s.get("pos"), lemma, lookup)
             if new:
                 s["gloss"] = new
+                s["is_form_of"] = lemma
                 rewritten += 1
             else:
                 kept += 1

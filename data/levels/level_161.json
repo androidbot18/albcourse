@@ -1,23 +1,24 @@
 {
  "level": 161,
- "title": "gra, thikë, bosh, kërkim, kali, akull +4",
+ "title": "gra, thikë, bosh, kërkim, kalë, akull +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 9,
  "families": [
   "akull",
   "bosh",
   "gra",
-  "kali",
+  "kalë",
   "kërkim",
   "thikë"
  ],
  "pos_mix": {
-  "noun": 8,
+  "noun": 10,
   "adj": 3,
-  "adv": 1
+  "adv": 1,
+  "verb": 1
  },
  "words": [
   {
@@ -346,9 +347,9 @@
   {
    "id": "kali",
    "sq": "kali",
-   "en": "definite nominative singular and indefinite dative/ablative singular of kalë",
+   "en": "the horse, singular (from kalë)",
    "glosses": [
-    "definite nominative singular and indefinite dative/ablative singular of kalë"
+    "the horse, singular (from kalë)"
    ],
    "pos": [
     "noun"
@@ -360,7 +361,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "definite nominative singular and indefinite dative/ablative singular of kalë",
+     "gloss": "the horse, singular (from kalë)",
      "tags": [],
      "cats": [
       {
@@ -385,13 +386,14 @@
      "examples": [],
      "links": [
       "kalë"
-     ]
+     ],
+     "is_form_of": "kalë"
     }
    ],
    "rank": 2046,
    "count": 424,
-   "family": "kali",
-   "is_root": true,
+   "family": "kalë",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -574,6 +576,223 @@
     {
      "form": "akulle",
      "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kalë",
+   "sq": "kalë",
+   "en": "horse (Equus caballus)",
+   "glosses": [
+    "horse (Equus caballus)",
+    "knight"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "horse (Equus caballus)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Equids",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Equids",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "horse",
+      "Equus caballus"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knight",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chess",
+      "knight"
+     ]
+    }
+   ],
+   "rank": 2910,
+   "count": 280,
+   "family": "kalë",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin, from Late Latin caballus (“horse”). Topalli suggests Gheg plural kual borrowed from Italian descendant cavallo, with phonetic development *këval > *kval > kual, whereas Tosk and standard kuaj was influenced by buaj, plural of buall (“bull”). Compare Romanian cal, Aromanian cal, French cheval, Lombard càal.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "horse"
+   ],
+   "components": [],
+   "derived": [
+    "kalas",
+    "kalëroj",
+    "kalëshalë",
+    "kaliqafë",
+    "kalisem",
+    "kaloj",
+    "kalojë",
+    "kaloras"
+   ],
+   "related": [
+    "pelë",
+    "mëz",
+    "hamshor"
+   ],
+   "forms": [
+    {
+     "form": "kuaj",
+     "tag": "plural"
+    },
+    {
+     "form": "kali",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's like a cart horse.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Është si kalë karroce."
+   }
+  },
+  {
+   "id": "kalëroj",
+   "sq": "kalëroj",
+   "en": "to ride (horses)",
+   "glosses": [
+    "to ride (horses)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to ride (horses)",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ride"
+     ]
+    }
+   ],
+   "rank": 20491,
+   "count": 25,
+   "family": "kalë",
+   "is_root": false,
+   "etymology": "From kalë (“horse”) + -oj. Cf. also Romanian încălăra.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "horse"
+   ],
+   "components": [
+    {
+     "word": "kalë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kalërova",
+     "tag": "aorist"
+    },
+    {
+     "form": "kalëruar",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
