@@ -1,57 +1,151 @@
 {
  "level": 225,
- "title": "farë, çfarë, intervistë, mbyt, pakë, sajë +4",
- "root": "",
- "root_gloss": "",
+ "title": "ushtar",
+ "root": "ushtar",
+ "root_gloss": "soldier",
  "part": 1,
  "parts": 1,
- "word_count": 8,
+ "word_count": 4,
  "families": [
-  "farë",
-  "intervistë",
-  "mbyt",
-  "pakë",
-  "sajë",
-  "çfarë"
+  "ushtar"
  ],
  "pos_mix": {
-  "pron": 1,
-  "noun": 9,
-  "verb": 8
+  "noun": 6,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "çfarë",
-   "sq": "çfarë",
-   "en": "what",
+   "id": "ushtar",
+   "sq": "ushtar",
+   "en": "soldier",
    "glosses": [
-    "what"
+    "soldier",
+    "pawn"
    ],
    "pos": [
-    "pron"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "what",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "soldier",
      "tags": [],
      "cats": [
+      {
+       "name": "Occupations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Occupations",
+       "langcode": "sq",
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "soldier"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pawn",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "5 95"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "4 96"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chess",
+      "pawn"
+     ]
+    }
+   ],
+   "rank": 1322,
+   "count": 678,
+   "family": "ushtar",
+   "is_root": true,
+   "etymology": "From ushtë (“spear”), historically identical with usht (“ear (of grain)”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [
+    "spear"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ushtarak",
+    "ushtri"
+   ],
+   "forms": [
+    {
+     "form": "ushtarë",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I was a soldier here for two years.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Dy vjet kam qenë ushtar këtu."
+   }
+  },
+  {
+   "id": "ushtarak",
+   "sq": "ushtarak",
+   "en": "military (relating to army or war)",
+   "glosses": [
+    "military (relating to army or war)",
+    "serviceman (member of armed forces)"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "military (relating to army or war)",
+     "tags": [],
+     "cats": [
       {
        "name": "Albanian terms with collocations",
        "kind": "other",
@@ -61,424 +155,34 @@
      ],
      "examples": [
       {
-       "sq": "Çfarë doni të pini?",
-       "en": "What do you (plural/polite) want to drink?",
+       "sq": "shërbimi ushtarak",
+       "en": "military service",
        "offsets": [
         [
-         0,
-         5
+         9,
+         17
+        ]
+       ]
+      },
+      {
+       "sq": "Në qoftë sa fajtori […] dorëzon personin për një shërbim ushtarak përjashta Shteti, ndeshkimi asht me burgim të randë nga tre deri në tetë vjet dhe me gjobë të randë nga pesqint deri në tremijë fr. ari.",
+       "en": "If the guilty party […] sends the person for military service outside the State, the punishment is severe imprisonment from three to eight years and a severe fine from five hundred to three thousand gold francs.",
+       "offsets": [
+        [
+         57,
+         65
         ]
        ]
       }
      ],
      "links": [
-      "what"
-     ]
-    }
-   ],
-   "rank": 24,
-   "count": 71341,
-   "family": "çfarë",
-   "is_root": true,
-   "etymology": "From ç' + farë.",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "farë",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "çar",
-     "tag": "alternative"
-    },
-    {
-     "form": "çer",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "farë",
-   "sq": "farë",
-   "en": "seed",
-   "glosses": [
-    "seed",
-    "sperm, semen",
-    "descendants, lineage, progeny, offspring"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "seed",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "seed"
+      "military"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sperm, semen",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "sperm",
-      "semen"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "descendants, lineage, progeny, offspring",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 5 91"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 11 79"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 4 92"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "descendants",
-      "lineage",
-      "progeny"
-     ]
-    }
-   ],
-   "rank": 665,
-   "count": 1535,
-   "family": "farë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *farā-, from *pʰarā-, from EPA *pharā-, (via metathesis) from Pre-Proto-Albanian *hparā-, from *sparā-, from Proto-Indo-European *sporéh₂ < *sper- (“to spread out”). Compare Ancient Greek σπόρος (spóros, “seed”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "çfarë",
-    "fare",
-    "farës",
-    "faroj"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "fara",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What should I do?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Farë dua të bëj?"
-   }
-  },
-  {
-   "id": "intervistë",
-   "sq": "intervistë",
-   "en": "interview",
-   "glosses": [
-    "interview"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "interview",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "interview"
-     ]
-    }
-   ],
-   "rank": 4664,
-   "count": 163,
-   "family": "intervistë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian intervista.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "love this interview!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Dua këtë intervistë!"
-   }
-  },
-  {
-   "id": "mbyt",
-   "sq": "mbyt",
-   "en": "to strangle, suffocate, choke to death",
-   "glosses": [
-    "to strangle, suffocate, choke to death",
-    "to stifle",
-    "to kill (by striking)",
-    "to drown"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to strangle, suffocate, choke to death",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 20 20 25"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 21 21 25"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 21 21 25"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "strangle",
-      "suffocate",
-      "choke"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to stifle",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 21 21 25"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "stifle"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to kill (by striking)",
-     "tags": [
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 21 21 25"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "regional",
-      "kill"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to drown",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 21 21 25"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "U mbytsh në borxhe!",
-       "en": "May you drown in debt!",
-       "offsets": [
-        [
-         0,
-         8
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "drown"
-     ]
-    }
-   ],
-   "rank": 4670,
-   "count": 163,
-   "family": "mbyt",
-   "is_root": true,
-   "etymology": "From *(ë)m-byt, with the prefix identical to that in mbloj and inherited from Proto-Albanian *án(a)- (“on, upon”). The base *byt comes from *býti < Proto-Albanian *búti < *bútit < *búti̯it < *búti̯et < Pre-Proto-Albanian *búti̯ét < *bʰut-i̯é-ti, from Proto-Indo-European *bʰut-i̯é/ó- (“to strike”), from *bʰeu̯d- (“to strike”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "mbytas",
-    "mbytës",
-    "mbytje"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "mbyta",
-     "tag": "aorist"
-    },
-    {
-     "form": "mbytur",
-     "tag": "participle"
-    },
-    {
-     "form": "mbys",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "pakë",
-   "sq": "pakë",
-   "en": "side of ham, buttock",
-   "glosses": [
-    "side of ham, buttock"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "side of ham, buttock",
+     "gloss": "serviceman (member of armed forces)",
      "tags": [
       "masculine"
      ],
@@ -487,237 +191,248 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "20 80"
+      },
+      {
+       "name": "Albanian terms suffixed with -ak",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 76"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 85"
       }
      ],
      "examples": [],
      "links": [
-      "side",
-      "of",
-      "ham"
+      "serviceman"
      ]
     }
    ],
-   "rank": 4678,
-   "count": 162,
-   "family": "pakë",
-   "is_root": true,
-   "etymology": "From Proto-Germanic *bakkon (“ham, flitch”), possibly West-Germanic, compare Frankish *bako, Old High German bahho, from *bakan (“back”).",
-   "etymology_class": "derived",
+   "rank": 2523,
+   "count": 330,
+   "family": "ushtar",
+   "is_root": false,
+   "etymology": "From ushtar (“soldier”) + -ak.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [
-    "back"
+    "soldier"
    ],
-   "components": [],
+   "components": [
+    {
+     "word": "ushtar",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pakë",
+     "form": "ushtarakë",
      "tag": "plural"
     },
     {
-     "form": "paka",
+     "form": "ushtaraku",
      "tag": "definite"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "sajë",
-   "sq": "sajë",
-   "en": "sledge",
+   "id": "ushtrim",
+   "sq": "ushtrim",
+   "en": "military training",
    "glosses": [
-    "sledge"
+    "military training",
+    "exercise",
+    "practice"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sledge",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "military training",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 18 31"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "28 36 36"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "30 35 35"
       }
      ],
      "examples": [],
      "links": [
-      "sledge"
+      "military",
+      "training"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "exercise",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 46 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exercise"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "practice",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "practice"
      ]
     }
    ],
-   "rank": 4681,
-   "count": 162,
-   "family": "sajë",
-   "is_root": true,
-   "etymology": "From Proto-Slavic *sanь, compare Serbo-Croatian saoni.",
-   "etymology_class": "derived",
+   "rank": 8485,
+   "count": 79,
+   "family": "ushtar",
+   "is_root": false,
+   "etymology": "From ushtroj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "components": [
     {
-     "form": "saja",
-     "tag": "plural"
-    },
-    {
-     "form": "saj",
-     "tag": "alternative"
-    },
-    {
-     "form": "sanë",
-     "tag": "alternative"
-    },
-    {
-     "form": "sanjë",
-     "tag": "alternative"
+     "word": "ushtroj",
+     "role": "prefix"
     }
    ],
+   "derived": [
+    "kushtrim"
+   ],
+   "related": [],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "for free, thanks Dave.",
+    "en": "Do this exercise.",
     "score": [
-     2,
-     4,
-     -2,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "falas, në sajë Dave."
+    "sq": "Bëni këtë ushtrim."
    }
   },
   {
-   "id": "mbytem",
-   "sq": "mbytem",
-   "en": "to be strangled, suffocated, choked to death",
+   "id": "ushtroj",
+   "sq": "ushtroj",
+   "en": "to exercise (use, call upon)",
    "glosses": [
-    "to be strangled, suffocated, choked to death",
-    "to be stifled",
-    "to be drowning",
-    "to commit suicide, kill oneself"
+    "to exercise (use, call upon)"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to be strangled, suffocated, choked to death",
+     "gloss": "to exercise (use, call upon)",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 12 13 18"
+       "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -em",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 18 20 28"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 9 11 16"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "strangled",
-      "suffocated",
-      "choked"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be stifled",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -em",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 18 20 28"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "stifled"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be drowning",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -em",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 18 20 28"
+       "source": "w"
       }
      ],
      "examples": [
       {
-       "sq": "U mbyta në borxhe!",
-       "en": "I am drowning in debt!",
+       "sq": "Ushtron të drejtën e votës",
+       "en": "He exercises his right to vote",
        "offsets": [
         [
          0,
@@ -727,186 +442,37 @@
       }
      ],
      "links": [
-      "drowning"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to commit suicide, kill oneself",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -em",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 18 20 28"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "commit",
-      "suicide",
-      "kill"
+      "exercise"
      ]
     }
    ],
-   "rank": 15317,
-   "count": 37,
-   "family": "mbyt",
+   "rank": 14936,
+   "count": 39,
+   "family": "ushtar",
    "is_root": false,
-   "etymology": "Mediopassive form of mbyt (“to strangle”); mbyt (“suffocate(d)”) + -em (“to be”).",
+   "etymology": "From ushtar + -oj.",
    "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
    "components": [
     {
-     "word": "mbyt",
+     "word": "ushtar",
      "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [
-    "mbytas",
-    "mbytës",
-    "mbytje",
-    "mbytur"
-   ],
-   "forms": [
-    {
-     "form": "mbytur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "farefis",
-   "sq": "farefis",
-   "en": "kind and tribe",
-   "glosses": [
-    "kind and tribe",
-    "ancestry, origin, roots",
-    "relative"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kind and tribe",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 37 8"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "63 20 17"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 12 10"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "kind",
-      "tribe"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ancestry, origin, roots",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "ancestry",
-      "origin",
-      "roots"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "relative",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "relative"
-     ]
-    }
-   ],
-   "rank": 43449,
-   "count": 8,
-   "family": "farë",
-   "is_root": false,
-   "etymology": "From farë (“seed, semen”) + fis (“clan, tribe”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "farë",
-     "role": "prefix"
-    },
-    {
-     "word": "fis",
-     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "farefise",
-     "tag": "plural"
+     "form": "ushtrova",
+     "tag": "aorist"
     },
     {
-     "form": "farefisi",
-     "tag": "definite"
+     "form": "ushtruar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He was even related to the dictator Batista.",
-    "score": [
-     4,
-     6,
-     -2,
-     10
-    ],
-    "sq": "Madje ishte farefis, me diktatorin Batista."
-   }
+   "corpus_example": null
   }
  ]
 }

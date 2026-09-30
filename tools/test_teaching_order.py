@@ -39,19 +39,29 @@ def load(n):
     return json.load(open(p, encoding="utf-8"))
 
 
-def key(w):
-    return (teaching_order.teaching_tier({"senses": [{"gloss": w["en"]}]}),
-            w["rank"])
+def key(w, root=""):
+    # Must mirror the builder exactly, root exemption included. A bare
+    # teaching_tier() disagrees for a level whose root is itself a rare form
+    # -- that is what made level 114 (`qetë`) look unsorted.
+    return teaching_order.level_key(
+        {"senses": [{"gloss": w["en"]}], "rank": w["rank"]},
+        is_root=(w["id"] == root))
 
 
 print("teaching order within levels")
+# Derive the level count from disk. It was hard-coded to 592, which meant
+# that when Option 2 raised the count to 751 this loop silently checked only
+# the first 592 levels and reported success on the rest.
+import glob
+NLEV = len(glob.glob(os.path.join(LEVELS, "level_*.json")))
 bad = []
-for n in range(1, 593):
-    words = load(n)["words"]
-    ks = [key(w) for w in words]
+for n in range(1, NLEV + 1):
+    lvl = load(n)
+    words = lvl["words"]
+    ks = [key(w, lvl.get("root", "")) for w in words]
     if ks != sorted(ks):
         bad.append(n)
-check(not bad, "all 592 levels in teaching order (bad: %s)" % bad[:6])
+check(not bad, "all %d levels in teaching order (bad: %s)" % (NLEV, bad[:6]))
 
 print("the jam family specifically")
 l2 = load(2)

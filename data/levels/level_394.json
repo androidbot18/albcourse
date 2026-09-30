@@ -1,44 +1,44 @@
 {
  "level": 394,
- "title": "sup, shtazë, geto, komunist, pasagjer, llum +4",
+ "title": "zbraz, pallat, ngritje, gjigant, hak, madhështor +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "geto",
-  "komunist",
-  "llum",
-  "pasagjer",
-  "shtazë",
-  "sup"
+  "gjigant",
+  "hak",
+  "madhështor",
+  "ngritje",
+  "pallat",
+  "zbraz"
  ],
  "pos_mix": {
-  "noun": 6
+  "adj": 3,
+  "noun": 11,
+  "verb": 2
  },
  "words": [
   {
-   "id": "sup",
-   "sq": "sup",
-   "en": "shoulder",
+   "id": "zbrazët",
+   "sq": "zbrazët",
+   "en": "empty, void",
    "glosses": [
-    "shoulder"
+    "empty, void"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shoulder",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "empty, void",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,13 +47,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 15 entries",
+       "name": "Albanian terms suffixed with -ët",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,65 +61,538 @@
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "shoulder"
+      "empty",
+      "void"
      ]
     }
    ],
-   "rank": 16945,
-   "count": 33,
-   "family": "sup",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tsupa, from Proto-Indo-European *ḱupos (compare English hip, Ancient Greek κύβος (kúbos, “vertebra, hollow before the hip (in cattle)”)).",
-   "etymology_class": "inherited",
+   "rank": 6030,
+   "count": 120,
+   "family": "zbraz",
+   "is_root": false,
+   "etymology": "From zbraz (“to empty”) + -ët.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "zbraz",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "supe",
-     "tag": "plural"
-    },
-    {
-     "form": "supi",
-     "tag": "definite"
+     "form": "zbraztë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You can use it as a one-shoulder.",
+    "corpus": "MaCoCu",
+    "en": "The temples are empty!",
     "score": [
-     2,
-     8,
-     -6,
-     10
+     1,
+     4,
+     -3,
+     8
     ],
-    "sq": "Ju mund ta përdorni atë si një sup."
+    "sq": "Tempujt janë të zbrazët!"
    }
   },
   {
-   "id": "shtazë",
-   "sq": "shtazë",
-   "en": "animal",
+   "id": "pallat",
+   "sq": "pallat",
+   "en": "building",
    "glosses": [
-    "animal"
+    "building",
+    "palace"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "animal",
+     "gloss": "building",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "building"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "palace",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 82"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "palace"
+     ]
+    }
+   ],
+   "rank": 6035,
+   "count": 120,
+   "family": "pallat",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Then I went to the Palace.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Pastaj shkova në Pallat."
+   }
+  },
+  {
+   "id": "ngritje",
+   "sq": "ngritje",
+   "en": "raise (increase in salary)",
+   "glosses": [
+    "raise (increase in salary)",
+    "erection"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "raise (increase in salary)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "71 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "68 32"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Unë meritoj një ngritje!",
+       "en": "I deserve a raise!",
+       "offsets": [
+        [
+         16,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "raise"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "erection",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "erection"
+     ]
+    }
+   ],
+   "rank": 6036,
+   "count": 120,
+   "family": "ngritje",
+   "is_root": true,
+   "etymology": "Gerund of ngre (“to lift, raise”) using aorist stem ngrit-; ngrit + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ngre",
+    "ngritje-zbritje"
+   ],
+   "forms": [
+    {
+     "form": "ngritje",
+     "tag": "plural"
+    },
+    {
+     "form": "ngritja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "gjigant",
+   "sq": "gjigant",
+   "en": "giant",
+   "glosses": [
+    "giant",
+    "a giant person",
+    "a very influential and prominent person in a field of study",
+    "giant; very large"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "giant",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mythology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 41 9 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mythology",
+      "giant"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a giant person",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "giant",
+      "person"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a very influential and prominent person in a field of study",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 41 9 49"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 23 2 73"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 41 2 56"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "influential",
+      "prominent",
+      "field"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "giant; very large",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "giant",
+      "large"
+     ]
+    }
+   ],
+   "rank": 6039,
+   "count": 120,
+   "family": "gjigant",
+   "is_root": true,
+   "etymology": "Borrowed from Italian gigante (“giant”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "giant"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjigante",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A gigantic rabbit?",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "A lepuri gjigant?"
+   }
+  },
+  {
+   "id": "hak",
+   "sq": "hak",
+   "en": "revenge;",
+   "glosses": [
+    "revenge;",
+    "earnings, reward;",
+    "just deserts (deserved punishment);",
+    "right, justice"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "revenge;",
      "tags": [
       "feminine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "revenge"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "earnings, reward;",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "earnings",
+      "reward"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "just deserts (deserved punishment);",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 7 84 2"
+      },
+      {
+       "name": "Pages with 15 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 12 0 0 3 1 12 12 1 1 4 0 2 0 0 0 0 0 1 1 1 1 1 4 0 2 0 0 0 0 12 0 0 1 2 1 4 3 1 1 0 0 0 0 0 1 3 2 0 1"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 13 0 0 3 0 14 14 1 1 4 0 2 0 0 0 0 0 0 1 1 1 1 4 0 2 0 0 0 0 14 0 0 1 2 0 4 3 1 1 0 0 0 0 0 1 3 2 0 1"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "right, justice",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "right",
+      "justice"
+     ]
+    }
+   ],
+   "rank": 6059,
+   "count": 120,
+   "family": "hak",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish حق (hak, “the right, justice; a right; due, share; remuneration”), from Arabic حَقّ (ḥaqq, “truth”). The definition evolved from \"right, claim, remuneration\" > \"claim to remuneration or justice\" > \"retribution, revenge\".",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "truth"
+   ],
+   "components": [],
+   "derived": [
+    "hakmarrje"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "hakë",
+     "tag": "plural"
+    },
+    {
+     "form": "ah",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How would he take revenge?",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Si do ai të marrë hak?"
+   }
+  },
+  {
+   "id": "madhështor",
+   "sq": "madhështor",
+   "en": "majestic, magnificent",
+   "glosses": [
+    "majestic, magnificent"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "majestic, magnificent",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -142,175 +615,14 @@
      ],
      "examples": [],
      "links": [
-      "animal"
+      "majestic",
+      "magnificent"
      ]
     }
    ],
-   "rank": 16948,
-   "count": 33,
-   "family": "shtazë",
-   "is_root": true,
-   "etymology": "From Old Albanian shtanse, from *shtan + -zë, from Proto-Albanian *stana, from Proto-Indo-European *sth₂-nó-s (“standing”), participle of *steh₂- (“to stand”). Ultimately a doublet of stër-.\nAlternatively, from Dacian or Paleo-Balkan substrate, cognate to Romanian stână.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [
-    "standing"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shtazë",
-     "tag": "plural"
-    },
-    {
-     "form": "shtaza",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He was brute, beauty and brains.",
-    "score": [
-     3,
-     6,
-     -3,
-     10
-    ],
-    "sq": "Ai ishte shtazë, bukurinë dhe trurin."
-   }
-  },
-  {
-   "id": "geto",
-   "sq": "geto",
-   "en": "ghetto (racially segregated neighbourhood, especially of Jews)",
-   "glosses": [
-    "ghetto (racially segregated neighbourhood, especially of Jews)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ghetto (racially segregated neighbourhood, especially of Jews)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ghetto"
-     ]
-    }
-   ],
-   "rank": 16950,
-   "count": 33,
-   "family": "geto",
-   "is_root": true,
-   "etymology": "Borrowed from Italian ghetto.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "geto",
-     "tag": "plural"
-    },
-    {
-     "form": "getoja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Believing in justice is ghettoised here.",
-    "score": [
-     4,
-     8,
-     -4,
-     10
-    ],
-    "sq": "Besimi në drejtësi këtu ka hyrë në geto."
-   }
-  },
-  {
-   "id": "komunist",
-   "sq": "komunist",
-   "en": "communist",
-   "glosses": [
-    "communist"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "communist",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "communist"
-     ]
-    }
-   ],
-   "rank": 16975,
-   "count": 33,
-   "family": "komunist",
+   "rank": 6061,
+   "count": 119,
+   "family": "madhështor",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -321,179 +633,123 @@
    "related": [],
    "forms": [
     {
-     "form": "komunistë",
-     "tag": "plural"
-    },
-    {
-     "form": "komunisti",
-     "tag": "definite"
-    },
-    {
-     "form": "komuniste",
+     "form": "madhështore",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This country is a communist country.",
+    "en": "Your service will not be grand.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     7,
+     -6,
      10
     ],
-    "sq": "Ky vend është vend komunist."
+    "sq": "Shërbimi juaj nuk do të jetë madhështor."
    }
   },
   {
-   "id": "pasagjer",
-   "sq": "pasagjer",
-   "en": "passenger",
+   "id": "zbraz",
+   "sq": "zbraz",
+   "en": "to deplete, empty, void",
    "glosses": [
-    "passenger"
+    "to deplete, empty, void",
+    "to unload"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "passenger",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to deplete, empty, void",
      "tags": [
-      "masculine"
+      "Gheg"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deplete",
+      "empty",
+      "void"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unload",
+     "tags": [
+      "Gheg"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "35 65"
+      },
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 90"
       }
      ],
      "examples": [],
      "links": [
-      "passenger"
+      "unload"
      ]
     }
    ],
-   "rank": 17029,
-   "count": 32,
-   "family": "pasagjer",
+   "rank": 24199,
+   "count": 20,
+   "family": "zbraz",
    "is_root": true,
-   "etymology": "Borrowed from French passager.",
+   "etymology": "Borrowed from Serbo-Croatian prázan /пра́зан. See also mbraz (“empty, void”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "zbrazët"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "pasagjerë",
-     "tag": "plural"
+     "form": "zbraza",
+     "tag": "aorist"
     },
     {
-     "form": "pasagjere",
-     "tag": "feminine"
+     "form": "zbrazur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He had only six passengers.",
+    "en": "After it was completely emptied, he left.",
     "score": [
      2,
-     6,
-     -4,
+     7,
+     -5,
      10
     ],
-    "sq": "Ai ka pasur vetëm gjashtë pasagjer."
-   }
-  },
-  {
-   "id": "llum",
-   "sq": "llum",
-   "en": "mud",
-   "glosses": [
-    "mud"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mud",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mud"
-     ]
-    }
-   ],
-   "rank": 17065,
-   "count": 32,
-   "family": "llum",
-   "is_root": true,
-   "etymology": "A formation of lym with expressive anlaut, which in its turn has caused the velarization of the following vowel.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "into the scum, into the black sludge.",
-    "score": [
-     4,
-     6,
-     -2,
-     10
-    ],
-    "sq": "në llum, në llagëmin e zi."
+    "sq": "Pasi u zbraz plotësisht, ai u largua."
    }
   }
  ]

@@ -1,46 +1,50 @@
 {
  "level": 541,
- "title": "qukapik, shtupë, baticë, lab, puçërr, korr +4",
+ "title": "turi, altar, tap, erëza, trung, godinë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "baticë",
-  "korr",
-  "lab",
-  "puçërr",
-  "qukapik",
-  "shtupë"
+  "altar",
+  "erëza",
+  "godinë",
+  "tap",
+  "trung",
+  "turi"
  ],
  "pos_mix": {
-  "noun": 5,
-  "adj": 1,
-  "verb": 3
+  "noun": 9
  },
  "words": [
   {
-   "id": "qukapik",
-   "sq": "qukapik",
-   "en": "woodpecker",
+   "id": "turi",
+   "sq": "turi",
+   "en": "muzzle (of animals)",
    "glosses": [
-    "woodpecker",
-    "spotted, speckled"
+    "muzzle (of animals)",
+    "snout (of pigs); trunk (of elephants)",
+    "mug, face (of humans)",
+    "front, protruding part of a car"
    ],
    "pos": [
     "noun",
-    "adj"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
     "noun",
-    "adjective"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "woodpecker",
+     "gloss": "muzzle (of animals)",
      "tags": [
       "masculine"
      ],
@@ -50,88 +54,115 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "66 34"
-      },
-      {
-       "name": "Birds",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Birds",
-       "langcode": "sq",
-       "_dis": "50 50"
+       "_dis": "43 22 5 30"
       }
      ],
      "examples": [],
      "links": [
-      "woodpecker"
+      "muzzle"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "spotted, speckled",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "snout (of pigs); trunk (of elephants)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "snout",
+      "trunk"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mug, face (of humans)",
+     "tags": [
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "mug",
+      "face"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "front, protruding part of a car",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian requests for English equivalent term",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 34"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "spotted",
-      "speckled"
+      "front",
+      "protruding",
+      "car"
      ]
     }
    ],
-   "rank": 40572,
-   "count": 9,
-   "family": "qukapik",
+   "rank": 15894,
+   "count": 35,
+   "family": "turi",
    "is_root": true,
-   "etymology": "From quk + pikë.",
-   "etymology_class": "affix",
+   "etymology": "Uncertain. Possibilities include:\n# Borrowed from Vulgar Latin *utrīnum, a derivation from uter (“leathern bottle”).\n# A metathesised derivation from South Slavic, ultimately from Proto-Slavic *rъtъ (“beak; mouth”), whence also Romanian rât (“snout”).\n# A derivation from Proto-Indo-European *ter- (“tender, young”), hence akin to tru (“brain”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
-   "components": [
-    {
-     "word": "pikë",
-     "role": "stem"
-    }
+   "components": [],
+   "derived": [
+    "tureçkë",
+    "turibardhë",
+    "turibollë",
+    "turiderr",
+    "turigjatë",
+    "turikuq",
+    "turimace",
+    "turimajmun"
    ],
-   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qukapike",
-     "tag": "feminine"
+     "form": "turinj",
+     "tag": "plural"
+    },
+    {
+     "form": "turiri",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The tour lasts about 6 hours.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Turi zgjat rreth 6 orë."
+   }
   },
   {
-   "id": "shtupë",
-   "sq": "shtupë",
-   "en": "mop",
+   "id": "altar",
+   "sq": "altar",
+   "en": "altar (flat-topped structure used for religious rites)",
    "glosses": [
-    "mop"
+    "altar (flat-topped structure used for religious rites)"
    ],
    "pos": [
     "noun"
@@ -143,10 +174,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mop",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "altar (flat-topped structure used for religious rites)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -155,7 +184,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 21 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -169,16 +198,16 @@
      ],
      "examples": [],
      "links": [
-      "mop"
+      "altar"
      ]
     }
    ],
-   "rank": 40586,
-   "count": 9,
-   "family": "shtupë",
+   "rank": 15898,
+   "count": 35,
+   "family": "altar",
    "is_root": true,
-   "etymology": "Probably borrowed from Latin stuppa, from Ancient Greek στύππη (stúppē). Compare Romanian stupă.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -187,22 +216,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Clean them with a swab and alcohol.",
+    "en": "He erected an altar of peace in Rome.",
     "score": [
-     3,
-     7,
-     -4,
+     5,
+     8,
+     -3,
      10
     ],
-    "sq": "Pastroni ato me një shtupë dhe alkoolit."
+    "sq": "Ai ngriti një altar të paqes në Romë."
    }
   },
   {
-   "id": "baticë",
-   "sq": "baticë",
-   "en": "high tide",
+   "id": "tap",
+   "sq": "tap",
+   "en": "struck, hit",
    "glosses": [
-    "high tide"
+    "struck, hit"
    ],
    "pos": [
     "noun"
@@ -214,10 +243,78 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "high tide",
-     "tags": [
-      "masculine"
+     "gloss": "struck, hit",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian onomatopoeias",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 21 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
      ],
+     "examples": [],
+     "links": [
+      "struck",
+      "hit"
+     ]
+    }
+   ],
+   "rank": 15902,
+   "count": 35,
+   "family": "tap",
+   "is_root": true,
+   "etymology": "Onomatopoeic.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Tap a cell phone!",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Tap një telefon celular!"
+   }
+  },
+  {
+   "id": "erëza",
+   "sq": "erëza",
+   "en": "spices",
+   "glosses": [
+    "spices"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spices",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -240,46 +337,40 @@
      ],
      "examples": [],
      "links": [
-      "high",
-      "tide"
+      "spices"
      ]
     }
    ],
-   "rank": 40608,
-   "count": 9,
-   "family": "baticë",
+   "rank": 15915,
+   "count": 35,
+   "family": "erëza",
    "is_root": true,
-   "etymology": "Borrowed from Venetan bataizza (“id.”).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "batica",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And of course, only if it's high tide.",
+    "en": "The food is largely devoid of spices.",
     "score": [
-     2,
-     8,
-     -6,
+     0,
+     5,
+     -5,
      10
     ],
-    "sq": "Dhe sigurisht, vetëm nëse është baticë e lartë."
+    "sq": "Ushqimi është kryesisht pa erëza."
    }
   },
   {
-   "id": "lab",
-   "sq": "lab",
-   "en": "southern Albanian (male)",
+   "id": "trung",
+   "sq": "trung",
+   "en": "trunk (of a tree)",
    "glosses": [
-    "southern Albanian (male)"
+    "trunk (of a tree)"
    ],
    "pos": [
     "noun"
@@ -291,9 +382,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "southern Albanian (male)",
+     "gloss": "trunk (of a tree)",
      "tags": [
-      "feminine",
       "masculine"
      ],
      "cats": [
@@ -304,66 +394,63 @@
        "source": "w"
       },
       {
-       "name": "Pages with 13 entries",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "(male person from Labëri (“land of lab”), Labëria (“the land of lab”))",
-       "en": "",
-       "offsets": []
-      }
-     ],
+     "examples": [],
      "links": [
-      "southern",
-      "Albanian"
+      "trunk"
      ]
     }
    ],
-   "rank": 40675,
-   "count": 9,
-   "family": "lab",
+   "rank": 15925,
+   "count": 35,
+   "family": "trung",
    "is_root": true,
-   "etymology": "* From lëpe, lëbozë. Historically the inhabitants of the Labëria (“the land of lab”) region. Compare Illyrian *Labeati.\n* Alternatively a back-formation based on Labëri (“Laberia”), borrowed from an unattested South Slavic *labanьja < *olbanьja, rendering the native pre-Albanian name of the country; Albania, Ἀλβανία (Albanía). However, this is doubtful.",
+   "etymology": "From Latin truncus.",
    "etymology_class": null,
-   "source_lang": null,
+   "source_lang": "la",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "labe",
-     "tag": "alternative"
+     "form": "trungje",
+     "tag": "plural"
+    },
+    {
+     "form": "trungu",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to use a Lab Sonicator?",
+    "en": "You were in my life like a log.",
     "score": [
      2,
-     6,
-     -4,
+     8,
+     -6,
      10
     ],
-    "sq": "Si të përdorni një Lab Sonicator?"
+    "sq": "Ti ishe në jetën time si një trung."
    }
   },
   {
-   "id": "puçërr",
-   "sq": "puçërr",
-   "en": "pimple",
+   "id": "godinë",
+   "sq": "godinë",
+   "en": "building",
    "glosses": [
-    "pimple"
+    "building"
    ],
    "pos": [
     "noun"
@@ -375,7 +462,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pimple",
+     "gloss": "building",
      "tags": [
       "feminine"
      ],
@@ -401,162 +488,33 @@
      ],
      "examples": [],
      "links": [
-      "pimple"
+      "building"
      ]
     }
    ],
-   "rank": 40738,
-   "count": 9,
-   "family": "puçërr",
+   "rank": 15926,
+   "count": 35,
+   "family": "godinë",
    "is_root": true,
-   "etymology": "From an expressive variant in -rr of Proto-Albanian *putso, from Proto-Indo-European *puH- (“rotten, foul”); compare Sanskrit पूयति (pūyati, “stinks, rots”), Latin pus (“discharge from a sore”), Ancient Greek πύθω (púthō, “to rot”). Doublet of fëlliq.",
-   "etymology_class": "derived",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "puçrra",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How to get rid of bad breath?",
+    "corpus": "MaCoCu",
+    "en": "Home is sometimes just a building.",
     "score": [
-     1,
-     6,
+     0,
+     5,
      -5,
-     10
+     8
     ],
-    "sq": "Si të shpëtoj nga një puçërr."
+    "sq": "Shtëpia nganjëherë është vetëm godinë."
    }
-  },
-  {
-   "id": "korr",
-   "sq": "korr",
-   "en": "to harvest, reap",
-   "glosses": [
-    "to harvest, reap",
-    "to kill en masse, to annihilate, to exterminate",
-    "to win (money), to secure victory, to achieve"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to harvest, reap",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 39 23 11"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Mbjell me lot, korr me gëzim.",
-       "en": "Sow with tears, reap with joy.",
-       "offsets": [
-        [
-         15,
-         19
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "harvest",
-      "reap"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to kill en masse, to annihilate, to exterminate",
-     "tags": [
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kill",
-      "en masse",
-      "annihilate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to win (money), to secure victory, to achieve",
-     "tags": [
-      "also",
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "win",
-      "secure",
-      "achieve"
-     ]
-    }
-   ],
-   "rank": 40771,
-   "count": 9,
-   "family": "korr",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kāra, from earlier *kasra, from Proto-Indo-European *kes- (compare Lithuanian kàsti (“to dig, scrape”), Latin raccogliere (“to harvest, reap”), Serbo-Croatian kòsa (“scythe”)).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "scythe"
-   ],
-   "components": [],
-   "derived": [
-    "korrë",
-    "korrik",
-    "korriqe"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "korra",
-     "tag": "aorist"
-    },
-    {
-     "form": "korrur",
-     "tag": "participle"
-    },
-    {
-     "form": "kuarr",
-     "tag": "alternative"
-    },
-    {
-     "form": "kuor",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
   }
  ]
 }

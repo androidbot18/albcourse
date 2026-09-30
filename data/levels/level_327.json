@@ -1,31 +1,32 @@
 {
  "level": 327,
- "title": "theks, latë, strukturë, hallë, eng, ni +4",
+ "title": "mjek, not, ballë, pistë, lajmëroj, ani +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "eng",
-  "hallë",
-  "latë",
-  "ni",
-  "strukturë",
-  "theks"
+  "ani",
+  "ballë",
+  "lajmëroj",
+  "mjek",
+  "not",
+  "pistë"
  ],
  "pos_mix": {
-  "noun": 5,
-  "adj": 1,
-  "adv": 1
+  "noun": 11,
+  "verb": 1,
+  "adv": 2,
+  "adj": 1
  },
  "words": [
   {
-   "id": "theks",
-   "sq": "theks",
-   "en": "accent, sign, tone",
+   "id": "mjek",
+   "sq": "mjek",
+   "en": "doctor, medic",
    "glosses": [
-    "accent, sign, tone"
+    "doctor, medic"
    ],
    "pos": [
     "noun"
@@ -37,7 +38,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "accent, sign, tone",
+     "gloss": "doctor, medic",
      "tags": [
       "masculine"
      ],
@@ -63,18 +64,17 @@
      ],
      "examples": [],
      "links": [
-      "accent",
-      "sign",
-      "tone"
+      "doctor",
+      "medic"
      ]
     }
    ],
-   "rank": 10704,
-   "count": 60,
-   "family": "theks",
+   "rank": 3239,
+   "count": 249,
+   "family": "mjek",
    "is_root": true,
-   "etymology": "Derivative of thek.",
-   "etymology_class": null,
+   "etymology": "From an earlier mjēk, from Proto-Albanian *mʲeðək, borrowed through Vulgar Latin from Latin medicus (“doctor, physician, surgeon”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -82,114 +82,368 @@
    "related": [],
    "forms": [
     {
-     "form": "theksa",
+     "form": "mjekë",
      "tag": "plural"
     },
     {
-     "form": "theksi",
+     "form": "mjeku",
      "tag": "definite"
+    },
+    {
+     "form": "mjeke",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "it is an Australian accent.",
+    "en": "Which doctor should I go to?",
     "score": [
-     2,
-     5,
-     -3,
+     0,
+     6,
+     -6,
      10
     ],
-    "sq": "ajo është një theks Australian."
+    "sq": "Tek cili mjek duhet të shkoj?"
    }
   },
   {
-   "id": "latë",
-   "sq": "latë",
-   "en": "hatchet, axe, chopper",
+   "id": "not",
+   "sq": "not",
+   "en": "swim, swimming (act of swimming or ability to swim)",
    "glosses": [
-    "hatchet, axe, chopper"
+    "swim, swimming (act of swimming or ability to swim)",
+    "swimmer",
+    "southwest wind, libeccio"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "hatchet, axe, chopper",
+     "gloss": "swim, swimming (act of swimming or ability to swim)",
      "tags": [
-      "feminine"
+      "masculine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Swimming",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Swimming",
+       "langcode": "sq",
+       "_dis": "90 6 4"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "di not",
+       "en": "to know how to swim",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "ra not",
+       "en": "to swim",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "swim",
+      "swimming"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "swimmer",
+     "tags": [
+      "dialectal",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "swimmer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "southwest wind, libeccio",
+     "tags": [
+      "dialectal",
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "16 8 75"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Wind",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "orig": "sq:Wind",
+       "langcode": "sq",
+       "_dis": "6 1 93"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "southwest",
+      "wind",
+      "libeccio"
+     ]
+    }
+   ],
+   "rank": 3240,
+   "count": 248,
+   "family": "not",
+   "is_root": true,
+   "etymology": "From a deverbal of Latin natāre, *notāre, compare Italian nuoto. A direct verbal borrowing would have regularly yielded **nëtoj instead of attested notoj, which must be a secondary derivation from the noun. Earliest attestations start with /mn/, likely due rebracketing of expressions such as i bie m not, compare Romanian înota.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "mnotshëm",
+    "notar",
+    "notarak",
+    "notoj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "noti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ballë",
+   "sq": "ballë",
+   "en": "forehead",
+   "glosses": [
+    "forehead",
+    "front part of something",
+    "battle front",
+    "earthquake magnitude",
+    "magazine (chamber) of the gun",
+    "best part of something"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "forehead",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "forehead"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "front part of something",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "front"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "battle front",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "battle",
+      "front"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "earthquake magnitude",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
+     "examples": [
+      {
+       "sq": "tërmet shtatë ballë",
+       "en": "earthquake with a magnitude of seven",
+       "offsets": [
+        [
+         14,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "earthquake",
+      "magnitude"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "magazine (chamber) of the gun",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "hatchet",
-      "axe",
-      "chopper"
+      "magazine",
+      "gun"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "best part of something",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 2 2 70 15 2"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 2 87 6 2"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 2 87 5 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "best",
+      "part"
      ]
     }
    ],
-   "rank": 10705,
-   "count": 60,
-   "family": "latë",
+   "rank": 3252,
+   "count": 248,
+   "family": "ballë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *laptā, from Proto-Indo-European *leh₂p- (“to be flat, even; shovel”). Cognate to Lithuanian lopetà (“shovel”) and Old Prussian lopto (“spade”).",
-   "etymology_class": null,
+   "etymology": "Inherited from Proto-Albanian *balā, from Proto-Indo-European *bʰl̥h₁ós. Cognate to Old Prussian ballo (“forehead”) and Sanskrit भाल (bhāla).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "ballaballë",
+    "ballafaqe",
+    "ballafaqoj",
+    "ballanike",
+    "balle",
+    "ballësh",
+    "balltim",
+    "balltoj"
+   ],
+   "related": [
+    "balë",
+    "baltë"
+   ],
    "forms": [
     {
-     "form": "latë",
+     "form": "ballë",
      "tag": "plural"
     },
     {
-     "form": "lata",
+     "form": "balli",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why then have you left the man?",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Pse e latë këtë njeri?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "strukturë",
-   "sq": "strukturë",
-   "en": "structure",
+   "id": "pistë",
+   "sq": "pistë",
+   "en": "airstrip, runway",
    "glosses": [
-    "structure"
+    "airstrip, runway"
    ],
    "pos": [
     "noun"
@@ -201,7 +455,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "structure",
+     "gloss": "airstrip, runway",
      "tags": [
       "feminine"
      ],
@@ -227,13 +481,14 @@
      ],
      "examples": [],
      "links": [
-      "structure"
+      "airstrip",
+      "runway"
      ]
     }
    ],
-   "rank": 10706,
-   "count": 60,
-   "family": "strukturë",
+   "rank": 3263,
+   "count": 247,
+   "family": "pistë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -242,151 +497,184 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "struktura",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Ground+2 structure.",
+    "en": "aircraft approaching to the runway.",
     "score": [
-     1,
      2,
-     -1,
+     4,
+     -2,
      10
     ],
-    "sq": "Ground + 2 strukturë."
+    "sq": "avion afrohet në pistë."
    }
   },
   {
-   "id": "hallë",
-   "sq": "hallë",
-   "en": "paternal aunt",
+   "id": "lajmëroj",
+   "sq": "lajmëroj",
+   "en": "to announce, to notify, to inform",
    "glosses": [
-    "paternal aunt",
-    "armpit"
+    "to announce, to notify, to inform"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "paternal aunt",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to announce, to notify, to inform",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      },
-      {
-       "name": "Family members",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Family members",
-       "langcode": "sq",
-       "_dis": "49 51"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "paternal aunt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "armpit",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "39 61"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "armpit"
+      "announce",
+      "notify",
+      "inform"
      ]
     }
    ],
-   "rank": 10711,
-   "count": 60,
-   "family": "hallë",
+   "rank": 3265,
+   "count": 247,
+   "family": "lajmëroj",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish خاله (hala), from Arabic خَالَة (ḵāla, “maternal aunt”).",
-   "etymology_class": "borrowed",
+   "etymology": "From lajm.",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "dajë",
-    "emtë",
-    "teze",
-    "xhaxha"
+   "related": [],
+   "forms": [
+    {
+     "form": "lajmëruar",
+     "tag": "participle"
+    }
    ],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Girls like girls went and asked Aunt Mary.",
+    "en": "Commander Përmet warns all the troops to flee.",
     "score": [
-     3,
-     8,
-     -5,
+     6,
+     10,
+     -4,
      10
     ],
-    "sq": "Vajzat si vajzat shkuan dhe pyetën hallë Merin."
+    "sq": "Kumandar'i Përmetit lajmëroj të gjithë trupat për të ikur."
    }
   },
   {
-   "id": "eng",
-   "sq": "eng",
-   "en": "deaf and dumb",
+   "id": "ani",
+   "sq": "ani",
+   "en": "then, later; later (on)",
    "glosses": [
-    "deaf and dumb"
+    "then, later; later (on)",
+    "well, so, fine, now, OK"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "then, later; later (on)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "then",
+      "later",
+      "later"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "well, so, fine, now, OK",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ani, në rregull.",
+       "en": "Well, all right.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      },
+      {
+       "sq": "Ani de?",
+       "en": "So what?",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "well",
+      "so",
+      "fine"
+     ]
+    }
+   ],
+   "rank": 3268,
+   "count": 246,
+   "family": "ani",
+   "is_root": true,
+   "etymology": "Cognate to tani (“now, at present, then”), from Proto-Albanian *nū, from Proto-Indo-European *nū (“now”) (cognate to Sanskrit नू (nū, “now”)). Occurs in coordination with other particles, compare nani, nime.\nFurther related to Arvanitika Albanian αί (e, “yes”) and (Standard) Albanian a (“probably, whether; or, there”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "now"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "mjekësor",
+   "sq": "mjekësor",
+   "en": "medical",
+   "glosses": [
+    "medical"
    ],
    "pos": [
     "adj"
@@ -398,7 +686,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "deaf and dumb",
+     "gloss": "medical",
      "tags": [],
      "cats": [
       {
@@ -408,13 +696,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 21 entries",
+       "name": "Albanian terms suffixed with -ësor",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -422,115 +710,42 @@
      ],
      "examples": [],
      "links": [
-      "deaf",
-      "and",
-      "dumb"
+      "medical"
      ]
     }
    ],
-   "rank": 10725,
-   "count": 59,
-   "family": "eng",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *anga, related to Lithuanian angùs (“sluggish, lazy, idle”), éngti (“to strangle”), Latvian îgt (“to wear off, to languish”), and Gothic 𐌰𐌲𐌲𐍅𐌿𐍃 (aggwus, “narrow”).",
-   "etymology_class": "derived",
+   "rank": 6590,
+   "count": 107,
+   "family": "mjek",
+   "is_root": false,
+   "etymology": "From mjek + -ësor.",
+   "etymology_class": "affix",
    "source_lang": null,
-   "parents": [
-    "narrow"
+   "parents": [],
+   "components": [
+    {
+     "word": "mjek",
+     "role": "prefix"
+    }
    ],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "enge",
+     "form": "mjekësore",
      "tag": "feminine"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "ni",
-   "sq": "ni",
-   "en": "now",
-   "glosses": [
-    "now"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "now",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 103 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "now"
-     ]
-    }
-   ],
-   "rank": 10751,
-   "count": 59,
-   "family": "ni",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *nū, from Proto-Indo-European *nū (“now”). Cognate to Sanskrit नू (nū, “now”). Often occurs in coordination with other particles, compare tani, nani, nime.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "now"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "tani",
-     "tag": "alternative"
-    },
-    {
-     "form": "nani",
-     "tag": "alternative"
-    },
-    {
-     "form": "nime",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "One more detail.",
+    "en": "I have had excellent medical attention here.",
     "score": [
-     1,
-     4,
-     -3,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Edhe ni detaj tjetër."
+    "sq": "Këtu kam pasur kujdes të shkëlqyer mjekësor."
    }
   }
  ]

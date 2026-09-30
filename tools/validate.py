@@ -158,8 +158,9 @@ def main():
         # the build used to do, and it put a verb's rare perfect forms
         # ahead of its present tense, so the check has to follow the new
         # rule or it would demand the behaviour we just removed.
-        keys = [(teaching_order.teaching_tier({"senses": [{"gloss": w["en"]}]}),
-                 w["rank"]) for w in lvl["words"]]
+        keys = [teaching_order.level_key(
+                    {"senses": [{"gloss": w["en"]}], "rank": w["rank"]},
+                    is_root=(w["id"] == lvl["root"])) for w in lvl["words"]]
         if keys != sorted(keys):
             unsorted_levels.append(fname)
         for w in lvl["words"]:

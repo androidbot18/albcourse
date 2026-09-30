@@ -1,58 +1,115 @@
 {
  "level": 529,
- "title": "adhurim, interpretoj, barrikadë, ibrik, prime, trashëgim +4",
+ "title": "prajs, dembel, grabit, ekspeditë, shtresë, shkarkoj +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "adhurim",
-  "barrikadë",
-  "ibrik",
-  "interpretoj",
-  "prime",
-  "trashëgim"
+  "dembel",
+  "ekspeditë",
+  "grabit",
+  "prajs",
+  "shkarkoj",
+  "shtresë"
  ],
  "pos_mix": {
-  "noun": 5,
-  "verb": 1
+  "noun": 4,
+  "adj": 2,
+  "verb": 7
  },
  "words": [
   {
-   "id": "adhurim",
-   "sq": "adhurim",
-   "en": "adoration, worship",
+   "id": "prajs",
+   "sq": "prajs",
+   "en": "resting place for cattle during heat; shady spot for resting (see mriz)",
    "glosses": [
-    "adoration, worship"
+    "resting place for cattle during heat; shady spot for resting (see mriz)",
+    "a short resting place, usually near a water source or spring",
+    "infectious, contagious"
    ],
    "pos": [
-    "noun"
+    "noun",
+    "noun",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "noun",
+    "noun",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "adoration, worship",
+     "gloss": "resting place for cattle during heat; shady spot for resting (see mriz)",
      "tags": [
       "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "adoration",
-      "worship"
+      "resting place",
+      "shady spot",
+      "mriz"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a short resting place, usually near a water source or spring",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 31 41"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 29 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 27 61"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "resting",
+      "water source",
+      "spring"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "infectious, contagious",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "infectious",
+      "contagious"
      ]
     }
    ],
-   "rank": 38378,
-   "count": 10,
-   "family": "adhurim",
+   "rank": 14935,
+   "count": 39,
+   "family": "prajs",
    "is_root": true,
-   "etymology": "See adhuroj.",
+   "etymology": "? Derived from praj",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -61,48 +118,31 @@
    "related": [],
    "forms": [
     {
-     "form": "adhurime",
-     "tag": "plural"
-    },
-    {
-     "form": "adhurimi",
-     "tag": "definite"
+     "form": "prajs",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Because they scream worship.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Sepse ata bërtasin adhurim."
-   }
+   "corpus_example": null
   },
   {
-   "id": "interpretoj",
-   "sq": "interpretoj",
-   "en": "to interpret",
+   "id": "dembel",
+   "sq": "dembel",
+   "en": "lazy",
    "glosses": [
-    "to interpret"
+    "lazy"
    ],
    "pos": [
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to interpret",
-     "tags": [
-      "literary",
-      "transitive"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "lazy",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -125,16 +165,16 @@
      ],
      "examples": [],
      "links": [
-      "interpret"
+      "lazy"
      ]
     }
    ],
-   "rank": 38394,
-   "count": 10,
-   "family": "interpretoj",
+   "rank": 14947,
+   "count": 39,
+   "family": "dembel",
    "is_root": true,
-   "etymology": "Learned borrowing from Latin interpretor.",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish تنبل (tembel, dembel), from Classical Persian تنبل (tanbal).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
    "components": [],
@@ -142,18 +182,161 @@
    "related": [],
    "forms": [
     {
-     "form": "interpretuar",
+     "form": "dembele",
+     "tag": "feminine"
+    },
+    {
+     "form": "demel",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Very cheap and lazy.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Shumë i lirë dhe dembel."
+   }
+  },
+  {
+   "id": "grabit",
+   "sq": "grabit",
+   "en": "to seize, rob, steal",
+   "glosses": [
+    "to seize, rob, steal",
+    "to encroach, violate someone's rights",
+    "to attract"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to seize, rob, steal",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "70 18 13"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 25 22"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 11 9"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Me ta bashkë të jemi grabitunë.",
+       "en": "",
+       "offsets": [
+        [
+         21,
+         31
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "seize",
+      "rob",
+      "steal"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to encroach, violate someone's rights",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "encroach",
+      "violate",
+      "rights"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to attract",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attract"
+     ]
+    }
+   ],
+   "rank": 14958,
+   "count": 39,
+   "family": "grabit",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, compare Old Church Slavonic грабити (grabiti), Serbo-Croatian grabiti (“to grab, to sieze”) and Bulgarian грабя (grabja, “to rob, to plunder”). Ultimately from Proto-Slavic *grabiti (“to grab, to sieze”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "grabitës",
+    "grabitqar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "grabita",
+     "tag": "aorist"
+    },
+    {
+     "form": "grabitur",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is also the goal: rob and depopulate.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Ky është edhe qëllimi: grabit dhe shpopullo."
+   }
   },
   {
-   "id": "barrikadë",
-   "sq": "barrikadë",
-   "en": "barricade (a barrier constructed across a road, especially as a military defence)",
+   "id": "ekspeditë",
+   "sq": "ekspeditë",
+   "en": "expedition",
    "glosses": [
-    "barricade (a barrier constructed across a road, especially as a military defence)"
+    "expedition"
    ],
    "pos": [
     "noun"
@@ -165,7 +348,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "barricade (a barrier constructed across a road, especially as a military defence)",
+     "gloss": "expedition",
      "tags": [
       "feminine"
      ],
@@ -191,84 +374,15 @@
      ],
      "examples": [],
      "links": [
-      "barricade"
+      "expedition"
      ]
     }
    ],
-   "rank": 38400,
-   "count": 10,
-   "family": "barrikadë",
+   "rank": 14968,
+   "count": 39,
+   "family": "ekspeditë",
    "is_root": true,
-   "etymology": "From French barricade.",
-   "etymology_class": "derived",
-   "source_lang": "fr",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Repair your barricade after each day.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Riparimi barrikadë tuaj pas çdo ditë."
-   }
-  },
-  {
-   "id": "ibrik",
-   "sq": "ibrik",
-   "en": "teakettle",
-   "glosses": [
-    "teakettle"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "teakettle",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with etymology texts",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymology trees",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "teakettle"
-     ]
-    }
-   ],
-   "rank": 38438,
-   "count": 10,
-   "family": "ibrik",
-   "is_root": true,
-   "etymology": "Etymology tree\nMiddle Persian *ābrēkbor.?\nParthian *ābrēkbor.?\nClassical Syriac ܐܒܪܝܩܐ (ʾaḇrēqā)bor.?\nArabic إِبْرِيق (ʔibrīq)bor.\nOttoman Turkish ابریق (ibrik, ıbrık)bor.\nAlbanian ibrik\nBorrowed from Ottoman Turkish ابریق (ibrik, ıbrık).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -278,22 +392,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Coffee machine, toaster and kettle.",
+    "en": "Finally, Pershing ordered a stop expedition.",
     "score": [
-     2,
-     5,
-     -3,
+     3,
+     8,
+     -5,
      10
     ],
-    "sq": "Makinë kafeje, toster dhe ibrik."
+    "sq": "Së fundi, Pershing urdhëroi një ekspeditë të ndaluar."
    }
   },
   {
-   "id": "prime",
-   "sq": "prime",
-   "en": "remedies",
+   "id": "shtresë",
+   "sq": "shtresë",
+   "en": "layer",
    "glosses": [
-    "remedies"
+    "layer"
    ],
    "pos": [
     "noun"
@@ -305,89 +419,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "remedies",
+     "gloss": "layer",
      "tags": [
-      "feminine",
-      "plural"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pluralia tantum",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 12 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "remedies"
-     ]
-    }
-   ],
-   "rank": 38447,
-   "count": 10,
-   "family": "prime",
-   "is_root": true,
-   "etymology": "From proj (“to guard, defend”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Optimus Prime is gone.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Optimus Prime është zhdukur."
-   }
-  },
-  {
-   "id": "trashëgim",
-   "sq": "trashëgim",
-   "en": "inheritance, heredity",
-   "glosses": [
-    "inheritance, heredity"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "inheritance, heredity",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -397,46 +435,182 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "inheritance",
-      "heredity"
+      "layer"
      ]
     }
    ],
-   "rank": 38484,
-   "count": 10,
-   "family": "trashëgim",
+   "rank": 14980,
+   "count": 38,
+   "family": "shtresë",
    "is_root": true,
-   "etymology": "Gerund of trashëgoj; trashëgoj + -im.",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "layer of insulation.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "shtresë të izolimit."
+   }
+  },
+  {
+   "id": "shkarkoj",
+   "sq": "shkarkoj",
+   "en": "to discharge, emit, fire",
+   "glosses": [
+    "to discharge, emit, fire",
+    "to emanate",
+    "to unload",
+    "to download"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
     {
-     "form": "trashëgime",
-     "tag": "plural"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discharge, emit, fire",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 7 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discharge",
+      "emit",
+      "fire"
+     ]
     },
     {
-     "form": "trashëgimi",
-     "tag": "definite"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to emanate",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "emanate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unload",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 7 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unload"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to download",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 7 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 22 24 31"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 13 17 56"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "download"
+     ]
+    }
+   ],
+   "rank": 15031,
+   "count": 38,
+   "family": "shkarkoj",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Late Latin discarricō, from Latin carricō, from Latin carrus. Compare Romanian descărca, Aromanian discarcu.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ngarkoj",
+    "lëshoj"
+   ],
+   "forms": [
+    {
+     "form": "shkarkuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The word genetics does heredity.",
+    "en": "How many videos can I download?",
     "score": [
-     2,
-     4,
-     -2,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Fjala gjenetika ka trashëgim."
+    "sq": "Sa video mund të shkarkoj?"
    }
   }
  ]

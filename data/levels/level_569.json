@@ -1,29 +1,211 @@
 {
  "level": 569,
- "title": "tis, poligon, arsenik, ag, vegim, kënetë +4",
+ "title": "rruaj, hollësi, befas, afrikan, sos, ai +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "ag",
-  "arsenik",
-  "kënetë",
-  "poligon",
-  "tis",
-  "vegim"
+  "afrikan",
+  "ai",
+  "befas",
+  "hollësi",
+  "rruaj",
+  "sos"
  ],
  "pos_mix": {
-  "noun": 13
+  "pron": 2,
+  "verb": 8,
+  "noun": 2,
+  "adv": 1,
+  "intj": 1
  },
  "words": [
   {
-   "id": "vegim",
-   "sq": "vegim",
-   "en": "mirage, illusion, dream",
+   "id": "ai",
+   "sq": "ai",
+   "en": "he",
    "glosses": [
-    "mirage, illusion, dream"
+    "he",
+    "that"
+   ],
+   "pos": [
+    "pron",
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "he",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Albanian personal pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "he"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "that",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "that"
+     ]
+    }
+   ],
+   "rank": 35,
+   "count": 54793,
+   "family": "ai",
+   "is_root": true,
+   "etymology": "Continuing a Common Albanian compound *aý ~ *aí, from Proto-Albanian *ahýh ~ *aíh, from a Pre-Proto-Albanian *au̯- (\"away, from\") + *hýh ~ íh, continuing Proto-Indo-European *h₂au̯ (“away, from”) and Proto-Indo-European *sos (“that”). The second component, from Common Albanian *ý ~ *í, is identical to the Albanian postponed definite article -i, as well as -u, which changed due to contact with final k, g, or a vowel (e.g. djali, burri, qeni, qyteti, also bariu, ariu, barku), and which is ultimately from Proto-Indo-European *h₁e (“this, he”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [
+    "that"
+   ],
+   "components": [
+    {
+     "word": "sos",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ay",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He is a friend.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Ai është shok."
+   }
+  },
+  {
+   "id": "rruaj",
+   "sq": "rruaj",
+   "en": "to shave",
+   "glosses": [
+    "to shave"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shave",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "shave"
+     ]
+    }
+   ],
+   "rank": 19420,
+   "count": 27,
+   "family": "rruaj",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *wrāgnja, related to Ancient Greek ῥήγνυμι (rhḗgnumi, “to break, to tear”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "rrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "rruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do not forget to shave your face!",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Mos harroni të rruaj fytyrën tuaj!"
+   }
+  },
+  {
+   "id": "hollësi",
+   "sq": "hollësi",
+   "en": "detail",
+   "glosses": [
+    "detail"
    ],
    "pos": [
     "noun"
@@ -35,10 +217,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mirage, illusion, dream",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "detail",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,7 +227,75 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "detail"
+     ]
+    }
+   ],
+   "rank": 19423,
+   "count": 27,
+   "family": "hollësi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "hollësia",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Details below.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Hollësi më poshtë."
+   }
+  },
+  {
+   "id": "befas",
+   "sq": "befas",
+   "en": "suddenly, unexpectedly",
+   "glosses": [
+    "suddenly, unexpectedly"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "suddenly, unexpectedly",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,167 +305,24 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mirage",
-      "illusion",
-      "dream"
-     ]
-    }
-   ],
-   "rank": 21184,
-   "count": 24,
-   "family": "vegim",
-   "is_root": true,
-   "etymology": "From vegoj + -im, from ag.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ag",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vegime",
-     "tag": "plural"
-    },
-    {
-     "form": "vegimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "9 A vision appeared to Paul in the night.",
-    "score": [
-     2,
-     7,
-     -5,
-     10
-    ],
-    "sq": "9 Gjatë natës Palit iu shfaq një vegim."
-   }
-  },
-  {
-   "id": "tis",
-   "sq": "tis",
-   "en": "thin film, layer, or veil",
-   "glosses": [
-    "thin film, layer, or veil",
-    "thin membrane over the eye, cataract",
-    "thin layer covering something (e.g. steam, smoke, mist)",
-    "yew (Taxus baccata)"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thin film, layer, or veil",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 4 3 28 2 10"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "60 2 2 29 1 6"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "56 8 3 33"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "film",
-      "layer",
-      "veil"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thin membrane over the eye, cataract",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "medicine",
-      "cataract"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thin layer covering something (e.g. steam, smoke, mist)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "yew (Taxus baccata)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Botany",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Botany",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "botany",
-      "yew",
-      "Taxus baccata"
+      "suddenly",
+      "unexpectedly"
      ]
     }
    ],
-   "rank": 47616,
-   "count": 7,
-   "family": "tis",
+   "rank": 19424,
+   "count": 27,
+   "family": "befas",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -229,407 +334,289 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "'Tis is the way of nature.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "'Tis është mënyra e natyrës."
-   }
-  },
-  {
-   "id": "poligon",
-   "sq": "poligon",
-   "en": "butt",
-   "glosses": [
-    "butt"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "butt",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 8 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "butt"
-     ]
-    }
-   ],
-   "rank": 47699,
-   "count": 7,
-   "family": "poligon",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "arsenik",
-   "sq": "arsenik",
-   "en": "arsenic (chemical element)",
-   "glosses": [
-    "arsenic (chemical element)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "arsenic (chemical element)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 8 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "arsenic"
-     ]
-    }
-   ],
-   "rank": 47725,
-   "count": 7,
-   "family": "arsenik",
-   "is_root": true,
-   "etymology": "From English arsenic, from Latin arsenicum, from Ancient Greek ἀρσενικόν (arsenikón, “yellow arsenic”). Ultimately a doublet of rëzëgojë (originally *ërsingë), which seems to have been borrowed from Ancient Greek directly, as well as a doublet of klor (“chlorine“).",
-   "etymology_class": "borrowed",
-   "source_lang": "en",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "arseniku",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "ag",
-   "sq": "ag",
-   "en": "dawn, daybreak, predawn light",
-   "glosses": [
-    "dawn, daybreak, predawn light",
-    "semi-darkness, fog",
-    "shine",
-    "pupils"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "dawn, daybreak, predawn light",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "dawn",
-      "daybreak",
-      "predawn"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "semi-darkness, fog",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 44 2 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "semi-darkness",
-      "fog"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shine",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shine"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pupils",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 44 2 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "pupils"
-     ]
-    }
-   ],
-   "rank": 47748,
-   "count": 7,
-   "family": "ag",
-   "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *(h)aug-, from Proto-Indo-European *h₂ewg- (compare Ancient Greek αὐγή (augḗ, “daylight, splendor”), Serbo-Croatian jȕg (“south”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "south"
-   ],
-   "components": [],
-   "derived": [
-    "agmi",
-    "agon",
-    "agull",
-    "agullon",
-    "vagëlloj",
-    "vegim",
-    "vegoj"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "agje",
-     "tag": "plural"
-    },
-    {
-     "form": "agu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It comprises: Ag.",
+    "en": "It happened suddenly and she had no choice.",
     "score": [
      1,
-     3,
-     -2,
+     7,
+     -6,
      10
     ],
-    "sq": "Ajo përfshin: Ag."
+    "sq": "Ndodhi befas dhe nuk kishte zgjedhje tjetër."
    }
   },
   {
-   "id": "kënetë",
-   "sq": "kënetë",
-   "en": "swamp",
+   "id": "afrikan",
+   "sq": "afrikan",
+   "en": "African",
    "glosses": [
-    "swamp",
-    "stagnation"
+    "African"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "swamp",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Wetlands",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Wetlands",
-       "langcode": "sq",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Vendlindja jonë është plot me këneta.",
-       "en": "Our homeland is full of swamps.",
-       "offsets": [
-        [
-         30,
-         36
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "swamp"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stagnation",
+     "gloss": "African",
      "tags": [
-      "figuratively"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 70"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Ka rënë në kënetë.",
-       "en": "He/she has stagnated.",
-       "offsets": [
-        [
-         3,
-         17
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "stagnation"
+      "African"
      ]
     }
    ],
-   "rank": 47831,
-   "count": 7,
-   "family": "kënetë",
+   "rank": 19455,
+   "count": 27,
+   "family": "afrikan",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin cannētum (“reed field”). Tosk's rhotacism (-n- > -r-), impacting an intervocalic -n-, was prevented by Latin's double -nn-.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "kënetëzohet",
-    "kënetëzim"
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "African dust concentration.",
+    "score": [
+     3,
+     4,
+     -1,
+     10
+    ],
+    "sq": "Përqendrimi i pluhurit afrikan."
+   }
+  },
+  {
+   "id": "sos",
+   "sq": "sos",
+   "en": "indeed, really, in fact",
+   "glosses": [
+    "indeed, really, in fact",
+    "to finish off, to end",
+    "to suffice, to be enough",
+    "kill",
+    "exhaust",
+    "to accomplish, to succeed",
+    "save",
+    "to arrive somewhere"
    ],
+   "pos": [
+    "intj",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "interjection",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "indeed, really, in fact",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian negative polarity items",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "indeed",
+      "really",
+      "in fact"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to finish off, to end",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "finish off",
+      "end"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to suffice, to be enough",
+     "tags": [
+      "colloquial",
+      "third-person",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "suffice",
+      "enough"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "kill",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "kill"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "exhaust",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "exhaust"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to accomplish, to succeed",
+     "tags": [
+      "colloquial",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "accomplish",
+      "succeed"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "save",
+     "tags": [
+      "colloquial",
+      "obsolete"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "save"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arrive somewhere",
+     "tags": [
+      "Gheg",
+      "Southern",
+      "Tosk",
+      "colloquial",
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Tosk Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 10 5 6 31 5 5 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Elbasan",
+      "arrive"
+     ]
+    }
+   ],
+   "rank": 19473,
+   "count": 27,
+   "family": "sos",
+   "is_root": true,
+   "etymology": "From Ancient Greek ἐσώσα (esṓsa), aorist of Ancient Greek σῶς (sôs).",
+   "etymology_class": "borrowed",
+   "source_lang": "el",
+   "parents": [],
+   "components": [],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "këneta",
-     "tag": "plural"
+     "form": "sosa",
+     "tag": "aorist"
+    },
+    {
+     "form": "sosur",
+     "tag": "participle"
     }
    ],
    "corpus_example": null

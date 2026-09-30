@@ -31,6 +31,7 @@ import json
 import form_gloss
 import form_senses
 import teaching_order
+import pack_shape
 from example_rank import rank_examples
 import os
 import re
@@ -930,12 +931,6 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     # tense first puts the everyday present at the front of the lesson.
     by_word_card = {c["word"]: c for c in cards}
 
-    def tier_of(word):
-        # The family root names the level, so it always leads its own
-        # family even when its gloss reads as a rare or archaic form.
-        if word == root:
-            return -1
-        return teaching_order.teaching_tier(by_word_card.get(word) or {})
     components = components or {}
 
     def stems_of(word):
@@ -1016,7 +1011,9 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     for root in ordered:
         members = sorted(
             families[root],
-            key=lambda w: (tier_of(w), rank_of.get(w, 10 ** 9), w),
+            key=lambda w: (teaching_order.level_key(
+                by_word_card.get(w) or {}, is_root=(w == root)),
+                rank_of.get(w, 10 ** 9), w),
         )
         nparts = max(1, -(-len(members) // per_level))
         for i in range(0, len(members), per_level):
@@ -1053,9 +1050,16 @@ def assign_levels(cards, families, per_level=9, max_families=6,
 
     for root, members, part, nparts in units:
         new_family = root not in cur_part
-        if part > 0 or (cur_words and
-                        (len(cur_words) + len(members) > per_level
-                         or len(cur_roots) + (1 if new_family else 0) > max_families)):
+        # Option 2: a multi-member family teaches a root plus its
+        # derivations, so it holds the level alone. Singletons have no group
+        # lesson and pack up to the session target as before. A continuation
+        # part is always alone too, so a split family stays one lesson.
+        cur_counts = [len(families[r]) for r in cur_roots]
+        blocked = cur_words and (
+            part > 0
+            or not pack_shape.may_join(cur_counts, len(members))
+            or len(cur_words) + len(members) > per_level)
+        if blocked:
             flush()
         if root not in cur_part:
             cur_part[root] = (part, nparts)
@@ -1182,8 +1186,7 @@ def main():
                 # Corpus fallback, shaped like a sense example so the
                 # existing exampleForSense() logic reads it unchanged.
                 "corpus_example": corpus_examples.get(w),
-                "_tier": (0 if w == root else
-                          teaching_order.teaching_tier(c)),
+                "_tier": teaching_order.level_key(c, is_root=(w == root))[0],
             })
         # Order within a level is the teaching order assign_levels() chose
         # (family members sorted by tense/register tier, then frequency).

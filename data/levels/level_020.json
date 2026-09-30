@@ -1,43 +1,726 @@
 {
  "level": 20,
- "title": "vij 1/2",
- "root": "vij",
- "root_gloss": "to arrive",
+ "title": "jetë, qe, lutem +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
- "parts": 2,
+ "parts": 1,
  "word_count": 9,
  "families": [
-  "vij"
+  "jetë",
+  "lutem",
+  "qe"
  ],
  "pos_mix": {
-  "verb": 10
+  "noun": 16,
+  "intj": 2,
+  "verb": 9
  },
  "words": [
   {
-   "id": "vjen",
-   "sq": "vjen",
-   "en": "you (sg) or he/she/it arrive (from vij, to arrive)",
+   "id": "jetë",
+   "sq": "jetë",
+   "en": "life (condition of living organisms)",
    "glosses": [
-    "you (sg) or he/she/it arrive (from vij, to arrive)"
+    "life (condition of living organisms)",
+    "life, lifespan (the time one lives)",
+    "duration, lifespan, life (the time something lasts)",
+    "life, lifestyle (the manner one lives)",
+    "life, biography (totality of events occurred to someone)",
+    "life, reality (the hardships of life)",
+    "liveliness, movement, energy",
+    "life (a friend or loved one)",
+    "age, period",
+    "nature",
+    "century",
+    "world"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life (condition of living organisms)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "life"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life, lifespan (the time one lives)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ë (deverbal)",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 10 10 10 15 10 5 13 6 5 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjithë jetën",
+       "en": "for all one's life",
+       "offsets": [
+        [
+         7,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "CHeio anſte ieta e ameſuome",
+       "en": "this is aeternal life",
+       "offsets": [
+        [
+         12,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "life",
+      "lifespan"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "duration, lifespan, life (the time something lasts)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "duration",
+      "lifespan",
+      "life"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life, lifestyle (the manner one lives)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ë (deverbal)",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 10 10 10 15 10 5 13 6 5 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "jetë baritore",
+       "en": "pastoral life",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "life",
+      "lifestyle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life, biography (totality of events occurred to someone)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ë (deverbal)",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 10 10 10 15 10 5 13 6 5 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "jeta dhe vepra e poetit",
+       "en": "life and works of the poet",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "life",
+      "biography"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life, reality (the hardships of life)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ë (deverbal)",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 10 10 10 15 10 5 13 6 5 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "i përgatitur për jetën",
+       "en": "prepared for life",
+       "offsets": [
+        [
+         17,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "life",
+      "reality"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "liveliness, movement, energy",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "liveliness",
+      "movement",
+      "energy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life (a friend or loved one)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ë (deverbal)",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 10 10 10 15 10 5 13 6 5 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Jeta ime!",
+       "en": "My beloved!",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "life"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "age, period",
+     "tags": [
+      "feminine",
+      "obsolete"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "A morte perpetua, libera nos, Domine.",
+       "en": "From everlasting death, deliver us, O Lord.",
+       "offsets": [
+        [
+         15,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "age",
+      "period"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "nature",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Calabrian Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nature"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "century",
+     "tags": [
+      "dialectal",
+      "feminine",
+      "obsolete"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "century"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "world",
+     "tags": [
+      "dialectal",
+      "feminine",
+      "obsolete"
+     ],
+     "cats": [
+      {
+       "name": "Arbanasi Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Calabrian Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Sicilian Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Jeta ë tundullore.",
+       "en": "The world is round.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "world"
+     ]
+    }
+   ],
+   "rank": 82,
+   "count": 16723,
+   "family": "jetë",
+   "is_root": true,
+   "etymology": "An early deverbal formation from jes, jet- (“to remain, exist”) + -ë.\nDiscarded theory\nTraditionally made to derive from Latin aetās (“lifespan”), comparing it to Aromanian etã (“age, life”) which was assumed to be an inheritance thereof. This however does not take into consideration the unusual borrowing from the nominative case rather than its accusative aetātem (compare pushtet, qytet, i vërtetë, etc.) and the Aromanian term's lack of expected diaphthongisation of e-. It is rather the case that the Albanian word is of native origin and the Aromanian one was borrowed from it.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "jetak",
+    "jetësjetës",
+    "jetësoj",
+    "jetik",
+    "jetoj",
+    "jetos",
+    "përjetë",
+    "jeta e mot"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "jetë",
+     "tag": "plural"
+    },
+    {
+     "form": "jeta",
+     "tag": "definite"
+    },
+    {
+     "form": "jetje",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "qe",
+   "sq": "qe",
+   "en": "see!, look!, behold! (points out something with emphasis)",
+   "glosses": [
+    "see!, look!, behold! (points out something with emphasis)",
+    "here! (used to show that something is present)",
+    "second-person singular simple perfect indicative of jam",
+    "third-person singular simple perfect indicative of jam"
+   ],
+   "pos": [
+    "intj",
+    "intj",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "interjection",
+    "interjection",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "see!, look!, behold! (points out something with emphasis)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "61 14 7 9 9"
+      },
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 6 1 3 3 11 11 18 6 15"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 3 1 2 2 17 17 11 3 18"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Qe! Ja ku po shkoj!",
+       "en": "Look! That's where I am going!",
+       "offsets": []
+      },
+      {
+       "sq": "Qe si shkojnë punët!",
+       "en": "Look how things come out to be",
+       "offsets": []
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "here! (used to show that something is present)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Qe ku është!",
+       "en": "Here it is!",
+       "offsets": []
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "second-person singular simple perfect indicative of jam",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "jam"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "third-person singular simple perfect indicative of jam",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "jam"
+     ]
+    }
+   ],
+   "rank": 83,
+   "count": 16270,
+   "family": "qe",
+   "is_root": true,
+   "etymology": "Borrowed from Latin ecce.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "lutem",
+   "sq": "lutem",
+   "en": "to long for something to happen (to someone, oneself); to wish (to someone)",
+   "glosses": [
+    "to long for something to happen (to someone, oneself); to wish (to someone)",
+    "to pray",
+    "to beg",
+    "(used to underline politeness when acknowledging (or refusing) an offer, gift, service or compliment) + pronoun: please, welcome"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg) or he/she/it arrive (from vij, to arrive)",
+     "gloss": "to long for something to happen (to someone, oneself); to wish (to someone)",
      "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "long",
+      "for",
+      "happen"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pray",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Religion",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Religion",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "religion",
+      "pray"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to beg",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beg"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "(used to underline politeness when acknowledging (or refusing) an offer, gift, service or compliment) + pronoun: please, welcome",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 20 10 51"
+      },
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 18 15 40"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Të lutem mos pi duhan.",
+       "en": "Please don't smoke.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "please",
+      "welcome"
+     ]
+    }
+   ],
+   "rank": 84,
+   "count": 16024,
+   "family": "lutem",
+   "is_root": true,
+   "etymology": "Cognate to Arvanitic and Arbëresh Albanian liútem, Gheg Albanian lutna (“to pray”). See active form lut (“to request, plead”) for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "lut",
+    "lutës",
+    "lutësi",
+    "lutje",
+    "lutja"
+   ],
+   "forms": [
+    {
+     "form": "lutur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "jetën",
+   "sq": "jetën",
+   "en": "the life, singular (from jetë)",
+   "glosses": [
+    "the life, singular (from jetë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the life, singular (from jetë)",
+     "tags": [
+      "accusative",
+      "definite",
       "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular",
-      "third-person"
+      "singular"
      ],
      "cats": [
       {
@@ -60,12 +743,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "jetë"
     }
    ],
-   "rank": 91,
-   "count": 15313,
-   "family": "vij",
+   "rank": 255,
+   "count": 4672,
+   "family": "jetë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -77,135 +760,185 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'ma sorry.",
+    "en": "I have my life.",
     "score": [
      1,
-     3,
-     -2,
+     4,
+     -3,
      10
     ],
-    "sq": "Më vjen keq."
+    "sq": "Unë kam jetën time."
    }
   },
   {
-   "id": "vij",
-   "sq": "vij",
-   "en": "to arrive",
+   "id": "jeta",
+   "sq": "jeta",
+   "en": "the life, singular (from jetë)",
    "glosses": [
-    "to arrive",
-    "to come"
+    "the life, singular (from jetë)"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to arrive",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "arrive"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to come",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the life, singular (from jetë)",
+     "tags": [
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 95"
+       "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 97"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "come"
-     ]
+     "is_form_of": "jetë"
     }
    ],
-   "rank": 385,
-   "count": 2715,
-   "family": "vij",
-   "is_root": true,
-   "etymology": "A case of a loaned verb being suppleted by inherited forms.\nFrom Old Albanian vinj (“to come”), vjen (“he comes”), borrowed from Latin veniō. The past forms in erdh- are from Proto-Indo-European *h₁erǵʰ- and cognate with Ancient Greek ἔρχομαι (érkhomai).",
-   "etymology_class": "borrowed",
+   "rank": 474,
+   "count": 2232,
+   "family": "jetë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "erdha",
-     "tag": "aorist"
-    },
-    {
-     "form": "ardhur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I have ways to come.",
+    "en": "That is life.",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Kam si të vij unë."
+    "sq": "Kjo është jeta."
    }
   },
   {
-   "id": "vijnë",
-   "sq": "vijnë",
-   "en": "they arrive (from vij, to arrive)",
+   "id": "jete",
+   "sq": "jete",
+   "en": "life, singular (from jetë)",
    "glosses": [
-    "they arrive (from vij, to arrive)"
+    "life, singular (from jetë)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they arrive (from vij, to arrive)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life, singular (from jetë)",
      "tags": [
+      "ablative",
+      "dative",
       "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
+      "indefinite",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 6 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jetë"
+    }
+   ],
+   "rank": 577,
+   "count": 1774,
+   "family": "jetë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's a lifestyle.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Ajo është një stil jete."
+   }
+  },
+  {
+   "id": "jetës",
+   "sq": "jetës",
+   "en": "the life, singular (from jetë)",
+   "glosses": [
+    "the life, singular (from jetë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the life, singular (from jetë)",
+     "tags": [
+      "ablative",
+      "dative",
+      "definite",
+      "form-of",
+      "singular"
      ],
      "cats": [
       {
@@ -228,12 +961,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "jetë"
     }
    ],
-   "rank": 462,
-   "count": 2272,
-   "family": "vij",
+   "rank": 611,
+   "count": 1678,
+   "family": "jetë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -245,312 +978,148 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Why should they come?",
-    "score": [
-     0,
-     5,
-     -5,
-     8
-    ],
-    "sq": "Pse duhet të vijnë ata?"
-   }
-  },
-  {
-   "id": "erdha",
-   "sq": "erdha",
-   "en": "I (once did) arriveed (from vij, to arrive)",
-   "glosses": [
-    "I (once did) arriveed (from vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (once did) arriveed (from vij, to arrive)",
-     "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 602,
-   "count": 1697,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "Older ardh, aorist of vij. Rebuilt from 3rd pers. erdh, with i-mutation from *arði, from Proto-Albanian *ardze, with Osthoff’s shortening from earlier *ērdz-, from Proto-Indo-European *h₁r̥ǵʰ-, weak perfective stem of *h₁erǵʰ- (“to go up, rise”). Close to Greek έρχομαι (érchomai, “come”), aorist ήρθα (írtha, “I came”), Middle Irish eirgg (“go!”), German ragen (“to rise”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why did I come?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Pse erdha këtu?"
-   }
-  },
-  {
-   "id": "vini",
-   "sq": "vini",
-   "en": "you (pl) arrive (from vij, to arrive)",
-   "glosses": [
-    "you (pl) arrive (from vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl) arrive (from vij, to arrive)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "second-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 16 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 829,
-   "count": 1179,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You must come.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Duhet të vini."
-   }
-  },
-  {
-   "id": "vije",
-   "sq": "vije",
-   "en": "you (sg) (used to) arriveed (from vij, to arrive)",
-   "glosses": [
-    "you (sg) (used to) arriveed (from vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) (used to) arriveed (from vij, to arrive)",
-     "tags": [
-      "form-of",
-      "imperfect",
-      "indicative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 984,
-   "count": 960,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why did you not come to me?",
+    "en": "Early Life.",
     "score": [
      2,
-     4,
-     -2,
-     10
+     3,
+     -1,
+     8
     ],
-    "sq": "Përse ngurrove të vije?"
+    "sq": "Pema e jetës."
    }
   },
   {
-   "id": "eja",
-   "sq": "eja",
-   "en": "you (sg)! (imperative of vij, to arrive)",
+   "id": "jetoj",
+   "sq": "jetoj",
+   "en": "to live (to be alive)",
    "glosses": [
-    "you (sg)! (imperative of vij, to arrive)"
+    "to live (to be alive)",
+    "to live, to reside"
    ],
    "pos": [
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg)! (imperative of vij, to arrive)",
+     "gloss": "to live (to be alive)",
      "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
+      "intransitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "72 28"
       },
       {
-       "name": "Old Persian terms with non-redundant manual transliterations",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "58 42"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "53 47"
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "links": [
+      "live"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to live, to reside",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Qyteti në të cilin jetojmë është shumë i madh.",
+       "en": "The city in which we live is very large.",
+       "offsets": [
+        [
+         19,
+         26
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "live",
+      "reside"
+     ]
     }
    ],
-   "rank": 112,
-   "count": 12254,
-   "family": "vij",
+   "rank": 870,
+   "count": 1104,
+   "family": "jetë",
    "is_root": false,
-   "etymology": "From *enja, from Proto-Albanian *ainja, from Proto-Indo-European *h₁ey- (“to go”). Compare Greek έλα (éla), Bulgarian ела (ela, “come”), Latvian eja (“way, passage, corridor”) from iet (“to go”), Ancient Greek εἶμι (eîmi, “to go”), Hittite 𒄿𒄿𒀀𒀜𒋫 (i-ya-at-ta /⁠iyatta⁠/, “goes”), Old Persian 𐎠𐎡𐎫𐎡𐎹 (aitiy, “goes”).",
-   "etymology_class": "inherited",
+   "etymology": "From jetë + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Come and enjoy!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Eja dhe kënaqu!"
-   }
+   "components": [
+    {
+     "word": "jetë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "përjetoj"
+   ],
+   "related": [
+    "banoj",
+    "rroj"
+   ],
+   "forms": [
+    {
+     "form": "jetova",
+     "tag": "aorist"
+    },
+    {
+     "form": "jetuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "ardhur",
-   "sq": "ardhur",
-   "en": "past participle of vij (“to arrive”)",
+   "id": "jetuar",
+   "sq": "jetuar",
+   "en": "past participle of jetoj (to live (to be alive))",
    "glosses": [
-    "past participle of vij (“to arrive”)"
+    "past participle of jetoj (to live (to be alive))"
    ],
    "pos": [
     "verb"
@@ -562,7 +1131,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "past participle of vij (“to arrive”)",
+     "gloss": "past participle of jetoj (to live (to be alive))",
      "tags": [
       "form-of",
       "participle",
@@ -589,12 +1158,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "jetoj"
     }
    ],
-   "rank": 244,
-   "count": 4884,
-   "family": "vij",
+   "rank": 1077,
+   "count": 875,
+   "family": "jetë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -605,87 +1174,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "When you come pick me up!",
+    "corpus": "MaCoCu",
+    "en": "We didn't sweat it.",
     "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kur keni ardhur vini mua!"
-   }
-  },
-  {
-   "id": "ejani",
-   "sq": "ejani",
-   "en": "you (pl)! (imperative of vij, to arrive)",
-   "glosses": [
-    "you (pl)! (imperative of vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (imperative of vij, to arrive)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "plural",
-      "second-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 453,
-   "count": 2321,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I'm like, come on.",
-    "score": [
-     0,
+     1,
      4,
-     -4,
-     10
+     -3,
+     8
     ],
-    "sq": "Unë jam si, ejani."
+    "sq": "Nuk kemi jetuar bashkë."
    }
   }
  ]

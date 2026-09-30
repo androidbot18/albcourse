@@ -70,3 +70,19 @@ def teaching_tier(card):
 def tier_of_word(cards_by_word, word):
     """teaching_tier for `word` given a {word: card} mapping."""
     return teaching_tier(cards_by_word.get(word) or {})
+
+
+def level_key(card, is_root=False):
+    """The single sort key for a card inside its level.
+
+    The builder and the validator must agree on this exactly. They did not:
+    the builder gave a family root tier -1 so the root leads its own lesson
+    even when its gloss reads as a rare form, while the validator recomputed a
+    bare teaching_tier and so demanded the opposite order for a level like
+    `qetë` -- a rare verb form of `jam` that is nevertheless its family root.
+
+    Sharing one function is the fix; a test pins the two together.
+    """
+    if is_root:
+        return (-1, card.get("rank", 0))
+    return (teaching_tier(card), card.get("rank", 0))

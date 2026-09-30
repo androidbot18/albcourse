@@ -1,31 +1,30 @@
 {
  "level": 341,
- "title": "lëpij, metodë, domate, çerek, muzikor, terr +4",
+ "title": "buzë, kuçkë, lagur, art +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 5,
  "families": [
-  "domate",
-  "lëpij",
-  "metodë",
-  "muzikor",
-  "terr",
-  "çerek"
+  "art",
+  "buzë",
+  "kuçkë",
+  "lagur"
  ],
  "pos_mix": {
   "verb": 1,
-  "noun": 5,
-  "adj": 1
+  "noun": 9,
+  "adj": 1,
+  "prep": 2
  },
  "words": [
   {
-   "id": "lëpij",
-   "sq": "lëpij",
-   "en": "to lick",
+   "id": "buzëqesh",
+   "sq": "buzëqesh",
+   "en": "to smile",
    "glosses": [
-    "to lick"
+    "to smile"
    ],
    "pos": [
     "verb"
@@ -37,8 +36,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to lick",
-     "tags": [],
+     "gloss": "to smile",
+     "tags": [
+      "intransitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -61,196 +62,62 @@
      ],
      "examples": [],
      "links": [
-      "lick"
+      "smile"
      ]
     }
    ],
-   "rank": 11996,
-   "count": 52,
-   "family": "lëpij",
-   "is_root": true,
-   "etymology": "Structurally identical with Proto-Germanic *lapjanan, *lapanan, Icelandic lepja (“to lick”), Old High German laffan (“to slurp”) and Latin lambo (“to lick”).",
-   "etymology_class": null,
+   "rank": 3813,
+   "count": 205,
+   "family": "buzë",
+   "is_root": false,
+   "etymology": "From buzë (“lip”) + qesh (“laugh”).",
+   "etymology_class": "compound",
    "source_lang": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "lip",
+    "laugh"
+   ],
+   "components": [
+    {
+     "word": "buzë",
+     "role": "prefix"
+    },
+    {
+     "word": "qesh",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "lëpiva",
+     "form": "buzëqesha",
      "tag": "aorist"
     },
     {
-     "form": "lëpirë",
+     "form": "buzëqeshur",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
-  },
-  {
-   "id": "metodë",
-   "sq": "metodë",
-   "en": "method",
-   "glosses": [
-    "method"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "method",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "method"
-     ]
-    }
-   ],
-   "rank": 12004,
-   "count": 52,
-   "family": "metodë",
-   "is_root": true,
-   "etymology": "Learned borrowing from Latin methodus, from Ancient Greek μέθοδος (méthodos).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "metoda",
-     "tag": "plural"
-    }
-   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is this method?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Çfarë është kjo metodë?"
-   }
-  },
-  {
-   "id": "domate",
-   "sq": "domate",
-   "en": "tomato",
-   "glosses": [
-    "tomato"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tomato",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tomato"
-     ]
-    }
-   ],
-   "rank": 12006,
-   "count": 52,
-   "family": "domate",
-   "is_root": true,
-   "etymology": "Singularized plural of *domatë, from Greek ντομάτα (ntomáta).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "domate",
-     "tag": "plural"
-    },
-    {
-     "form": "domatja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "1 medium tomatoes.",
+    "en": "Smile for no reason.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "1 domate të mesme."
+    "sq": "Buzëqesh pa arsye."
    }
   },
   {
-   "id": "çerek",
-   "sq": "çerek",
-   "en": "quarter, fourth, ¹⁄₄",
+   "id": "kuçkë",
+   "sq": "kuçkë",
+   "en": "female dog, bitch",
    "glosses": [
-    "quarter, fourth, ¹⁄₄",
-    "synonym of çerekje"
+    "female dog, bitch",
+    "slut, whore, bitch"
    ],
    "pos": [
     "noun",
@@ -264,108 +131,98 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "quarter, fourth, ¹⁄₄",
+     "gloss": "female dog, bitch",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
-      {
-       "name": "Four",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Four",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "94 6"
+       "_dis": "46 54"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "96 4"
+       "_dis": "47 53"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 37"
       }
      ],
      "examples": [],
      "links": [
-      "quarter",
-      "fourth"
+      "bitch"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "synonym of çerekje",
+     "gloss": "slut, whore, bitch",
      "tags": [
-      "archaic",
-      "masculine"
+      "derogatory",
+      "feminine"
      ],
      "cats": [
       {
-       "name": "Currency",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Currency",
-       "langcode": "sq"
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
       }
      ],
      "examples": [],
      "links": [
-      "çerekje"
+      "derogatory",
+      "slut",
+      "whore"
      ]
     }
    ],
-   "rank": 12012,
-   "count": 51,
-   "family": "çerek",
+   "rank": 3815,
+   "count": 205,
+   "family": "kuçkë",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish چیرك (çeyrek), through the dialectal variant çerek.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
+   "etymology": "From South Slavic; cf. Serbo-Croatian kȕčka, Bulgarian/Macedonian кучка (kučka).",
+   "etymology_class": null,
+   "source_lang": "sr",
    "parents": [],
    "components": [],
-   "derived": [
-    "çerekçi",
-    "çereke",
-    "çerekfinale",
-    "çerekje",
-    "çerekkilësh",
-    "çereklitërsh",
-    "çerekore",
-    "çereksh"
+   "derived": [],
+   "related": [
+    "kuç",
+    "gucë"
    ],
-   "related": [],
    "forms": [
     {
-     "form": "çerekë",
+     "form": "kuçka",
      "tag": "plural"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's not far, a quarter of an hour.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Nuk është larg, një çerek ore."
-   }
+   "corpus_example": null
   },
   {
-   "id": "muzikor",
-   "sq": "muzikor",
-   "en": "musical",
+   "id": "lagur",
+   "sq": "lagur",
+   "en": "wet, moist, damp",
    "glosses": [
-    "musical"
+    "wet, moist, damp"
    ],
    "pos": [
     "adj"
@@ -377,37 +234,42 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "musical",
+     "gloss": "wet, moist, damp",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "77 23"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       }
      ],
      "examples": [],
      "links": [
-      "musical"
+      "wet",
+      "moist",
+      "damp"
      ]
     }
    ],
-   "rank": 12017,
-   "count": 51,
-   "family": "muzikor",
+   "rank": 3821,
+   "count": 205,
+   "family": "lagur",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -419,22 +281,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Play the game Music Store online.",
+    "en": "I felt my hand wet.",
     "score": [
      2,
-     5,
-     -3,
+     4,
+     -2,
      10
     ],
-    "sq": "Luajnë lojë Dyqan muzikor online."
+    "sq": "Ndjeva dorën të lagur."
    }
   },
   {
-   "id": "terr",
-   "sq": "terr",
-   "en": "dark",
+   "id": "art",
+   "sq": "art",
+   "en": "art",
    "glosses": [
-    "dark"
+    "art"
    ],
    "pos": [
     "noun"
@@ -446,7 +308,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "dark",
+     "gloss": "art",
      "tags": [
       "masculine"
      ],
@@ -458,7 +320,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 23 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -472,15 +334,15 @@
      ],
      "examples": [],
      "links": [
-      "dark"
+      "art"
      ]
     }
    ],
-   "rank": 12022,
-   "count": 51,
-   "family": "terr",
+   "rank": 3824,
+   "count": 204,
+   "family": "art",
    "is_root": true,
-   "etymology": "A t- prefixed oblique case of err.",
+   "etymology": "Learned borrowing from Latin ars, artem.",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
@@ -489,20 +351,332 @@
    "related": [],
    "forms": [
     {
-     "form": "terri",
-     "tag": "plural"
+     "form": "arti",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "So it was an absolute darkness.",
+    "en": "Art and music.",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Domethënë ka qenë terr absolut."
+    "sq": "Art dhe muzikë."
+   }
+  },
+  {
+   "id": "buzë",
+   "sq": "buzë",
+   "en": "nigh, to/at the side of",
+   "glosses": [
+    "nigh, to/at the side of",
+    "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+    "lip",
+    "muzzle, snout",
+    "edge, rim, side",
+    "beginning (of an event/time)",
+    "cliff",
+    "rocky chasm, (rocky) cliffs; sharp rock(s), boulders"
+   ],
+   "pos": [
+    "prep",
+    "prep",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "preposition",
+    "preposition",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "nigh, to/at the side of",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      },
+      {
+       "name": "Albanian terms suffixed with -zë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 18 4 23 5 6 12 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nigh",
+      "to",
+      "at"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "on",
+      "to",
+      "onto"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lip",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "lip"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "muzzle, snout",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Veterinary medicine",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Veterinary medicine",
+       "langcode": "sq"
+      },
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "veterinary medicine",
+      "muzzle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "edge, rim, side",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge",
+      "rim",
+      "side"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beginning (of an event/time)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beginning"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cliff",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cliff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rocky chasm, (rocky) cliffs; sharp rock(s), boulders",
+     "tags": [
+      "in-plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 25 2 8 3 37 5 13"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 19 2 6 2 35 3 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chasm",
+      "rock",
+      "boulders"
+     ]
+    }
+   ],
+   "rank": 5429,
+   "count": 137,
+   "family": "buzë",
+   "is_root": true,
+   "etymology": "From archaic and now chiefly dialectal (Arbëresh) budhë + -zë (collective suffix), from Proto-Albanian *budzā, from Proto-Indo-European *bʰudʰmḗn (“bottom”); compare Lithuanian budė̃ (“tree-fungus”), bùdė (“whetstone”), Sanskrit बुध्न (budhna), Ancient Greek πυθμήν (puthmḗn, “bottom”), Latin fundus (“bottom, piece of land, farm”). Possibly lent Romanian buză.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [
+    "bottom",
+    "whetstone"
+   ],
+   "components": [],
+   "derived": [
+    "buzaç",
+    "buzak",
+    "buzake",
+    "buzël",
+    "buzëqeshje",
+    "buzëz",
+    "buzinë",
+    "buzm"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Oceanfront Views!",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Pamje buzë oqeanit!"
    }
   }
  ]

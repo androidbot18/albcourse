@@ -1,100 +1,84 @@
 {
  "level": 179,
- "title": "kampion, aeroport, shpatë, marrëzi, hanë, qesharak +4",
- "root": "",
- "root_gloss": "",
+ "title": "vjedh",
+ "root": "vjedh",
+ "root_gloss": "to steal",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 3,
  "families": [
-  "aeroport",
-  "hanë",
-  "kampion",
-  "marrëzi",
-  "qesharak",
-  "shpatë"
+  "vjedh"
  ],
  "pos_mix": {
-  "noun": 5,
-  "adj": 1,
-  "adv": 2
+  "verb": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "kampion",
-   "sq": "kampion",
-   "en": "champion",
+   "id": "vjedh",
+   "sq": "vjedh",
+   "en": "to steal",
    "glosses": [
-    "champion"
+    "to steal"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "champion",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to steal",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "champion"
+      "steal"
      ]
     }
    ],
-   "rank": 2617,
-   "count": 315,
-   "family": "kampion",
+   "rank": 2546,
+   "count": 327,
+   "family": "vjedh",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
+   "etymology_class": "root",
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "vodha",
+     "tag": "aorist"
+    },
+    {
+     "form": "vjedhur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then I became the champion.",
+    "en": "It steals data from you.",
     "score": [
-     0,
-     4,
+     2,
+     6,
      -4,
      10
     ],
-    "sq": "Pastaj u bëra kampion."
+    "sq": "Ajo vjedh të dhëna nga ju."
    }
   },
   {
-   "id": "aeroport",
-   "sq": "aeroport",
-   "en": "airport, aerodrome, airdrome, airfield",
+   "id": "vjedhës",
+   "sq": "vjedhës",
+   "en": "thief",
    "glosses": [
-    "airport, aerodrome, airdrome, airfield"
+    "thief"
    ],
    "pos": [
     "noun"
@@ -106,7 +90,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "airport, aerodrome, airdrome, airfield",
+     "gloss": "thief",
      "tags": [
       "masculine"
      ],
@@ -118,7 +102,94 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Albanian terms suffixed with -ës",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thief"
+     ]
+    }
+   ],
+   "rank": 17203,
+   "count": 32,
+   "family": "vjedh",
+   "is_root": false,
+   "etymology": "From vjedh + -ës.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vjedh",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vjedhës",
+     "tag": "plural"
+    },
+    {
+     "form": "vjedhësi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Also if you will be a thief.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Gjithashtu nëse do të jeni vjedhës."
+   }
+  },
+  {
+   "id": "vjedhur",
+   "sq": "vjedhur",
+   "en": "past participle of vjedh (to steal)",
+   "glosses": [
+    "past participle of vjedh (to steal)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of vjedh (to steal)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -131,17 +202,13 @@
       }
      ],
      "examples": [],
-     "links": [
-      "airport",
-      "aerodrome",
-      "airdrome"
-     ]
+     "is_form_of": "vjedh"
     }
    ],
-   "rank": 2620,
-   "count": 315,
-   "family": "aeroport",
-   "is_root": true,
+   "rank": 948,
+   "count": 1004,
+   "family": "vjedh",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -152,417 +219,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "When come to the airport?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Kur vijnë në aeroport?"
-   }
-  },
-  {
-   "id": "shpatë",
-   "sq": "shpatë",
-   "en": "sword",
-   "glosses": [
-    "sword"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sword",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sword"
-     ]
-    }
-   ],
-   "rank": 2632,
-   "count": 312,
-   "family": "shpatë",
-   "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Latin spatha. Cognate with Greek σπαθί (spathí), Italian spada, Romanian spadă, spată.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shpata",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have not come to bring peace, but a sword.",
-    "score": [
-     0,
-     8,
-     -8,
-     10
-    ],
-    "sq": "Nuk kam ardhur të sjell paqe, por shpatë."
-   }
-  },
-  {
-   "id": "marrëzi",
-   "sq": "marrëzi",
-   "en": "madness, craziness",
-   "glosses": [
-    "madness, craziness"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "madness, craziness",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "madness",
-      "craziness"
-     ]
-    }
-   ],
-   "rank": 2633,
-   "count": 312,
-   "family": "marrëzi",
-   "is_root": true,
-   "etymology": "From marrë, possibly related to mërzit.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is stupid.",
+    "en": "Have you ever stolen?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Kjo është marrëzi."
-   }
-  },
-  {
-   "id": "hanë",
-   "sq": "hanë",
-   "en": "moon",
-   "glosses": [
-    "moon"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "moon",
-     "tags": [
-      "Gheg"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "moon"
-     ]
-    }
-   ],
-   "rank": 2634,
-   "count": 312,
-   "family": "hanë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ksandā, from pre-Albanian *skandneh₂, from Proto-Indo-European *(s)kand- (“to shine”) (compare Welsh can (“white”), Latin candeō (“to shine, gleam”), Sanskrit चन्द्र (candrá, “shining; moon”)). One might also consider a connection to Ancient Greek ἕνος (hénos, “old”) and Latin annus (“year”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "white"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hënë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How often do they eat?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Sa shpesh ata hanë?"
-   }
-  },
-  {
-   "id": "qesharak",
-   "sq": "qesharak",
-   "en": "funny, amusing; laughable, ridiculous",
-   "glosses": [
-    "funny, amusing; laughable, ridiculous"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "funny, amusing; laughable, ridiculous",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "funny",
-      "amusing",
-      "laughable"
-     ]
-    }
-   ],
-   "rank": 2647,
-   "count": 311,
-   "family": "qesharak",
-   "is_root": true,
-   "etymology": "From qesh.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qesharake",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Of course and funny.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Sigurisht dhe qesharak."
-   }
-  },
-  {
-   "id": "marrëzisht",
-   "sq": "marrëzisht",
-   "en": "madly, foolishly, ludicrously, idiotically",
-   "glosses": [
-    "madly, foolishly, ludicrously, idiotically",
-    "crazily, insanely, ridiculously"
-   ],
-   "pos": [
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "madly, foolishly, ludicrously, idiotically",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Albanian terms suffixed with -sht",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "madly",
-      "foolishly",
-      "ludicrously"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "crazily, insanely, ridiculously",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "crazily",
-      "insanely",
-      "ridiculously"
-     ]
-    }
-   ],
-   "rank": 29920,
-   "count": 15,
-   "family": "marrëzi",
-   "is_root": false,
-   "etymology": "From marrëzi (mad(ness)) + -sht (-ly).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "marrëzi",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [
-    "marrë",
-    "marri",
-    "mërzit",
-    "marrëzishëm",
-    "marrëzishme"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Head over heels in love.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Marrëzisht në dashuri."
+    "sq": "Ke vjedhur ndonjëherë?"
    }
   }
  ]

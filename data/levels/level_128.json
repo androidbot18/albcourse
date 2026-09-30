@@ -1,77 +1,104 @@
 {
  "level": 128,
- "title": "ëndërr, godas, dash, paqe, tri +3",
+ "title": "dal, ej, budalla, doktor, kthyer +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 9,
+ "word_count": 7,
  "families": [
-  "dash",
-  "godas",
-  "paqe",
-  "tri",
-  "ëndërr"
+  "budalla",
+  "dal",
+  "doktor",
+  "ej",
+  "kthyer"
  ],
  "pos_mix": {
+  "verb": 5,
+  "intj": 2,
   "noun": 5,
-  "num": 1,
-  "verb": 19,
-  "adj": 1
+  "adj": 7
  },
  "words": [
   {
-   "id": "ëndërr",
-   "sq": "ëndërr",
-   "en": "dream",
+   "id": "dal",
+   "sq": "dal",
+   "en": "to exit, go out",
    "glosses": [
-    "dream"
+    "to exit, go out",
+    "to leave",
+    "to come; to do come"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "dream",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to exit, go out",
      "tags": [
-      "feminine"
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "exit",
+      "go",
+      "out"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to come; to do come",
+     "tags": [
+      "impersonal",
+      "passive",
+      "third-person"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 5 80"
       }
      ],
      "examples": [],
      "links": [
-      "dream"
+      "come",
+      "do",
+      "come"
      ]
     }
    ],
-   "rank": 1228,
-   "count": 741,
-   "family": "ëndërr",
+   "rank": 560,
+   "count": 1845,
+   "family": "dal",
    "is_root": true,
-   "etymology": "#From Proto-Albanian *anera, from Proto-Indo-European *dreH- (“sleep, to sleep”). The reconstruction is not entirely certain. Under the assumption of epenthetic -d- (within -nr-) the word may be linked with Ancient Greek ὄναρ (ónar), ὄνειρος (óneiros) and Old Armenian անուրջ (anurǰ).\n#From Late-Proto-Albanian *ándərrə \"dream\" < Proto-Albanian *andərnə < Early-Proto-Albanian *andrənnə < Pre-Proto-Albanian *andrā- < *anrā- < PIE *h₂(e)nra-h₂/*h₃(e)nra-h₂.",
+   "etymology": "From Proto-Albanian *dala, from Proto-Indo-European *dʰelh₁- (“to spring forth, flourish”). Compare Ancient Greek θάλλω (thállō, “to grow, bloom, thrive”), Welsh deillio (“to emanate, derive”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "parents": [],
@@ -80,28 +107,270 @@
    "related": [],
    "forms": [
     {
-     "form": "ëndrra",
-     "tag": "plural"
+     "form": "dalë",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It was no dream.",
+    "en": "How to get out?",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Ajo nuk ishte ëndërr."
+    "sq": "Si të dal?"
    }
   },
   {
-   "id": "goditje",
-   "sq": "goditje",
-   "en": "hit, punch",
+   "id": "ej",
+   "sq": "ej",
+   "en": "a call for attention. hey!, oi!",
    "glosses": [
-    "hit, punch"
+    "a call for attention. hey!, oi!",
+    "yes"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "a call for attention. hey!, oi!",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ej ti, ku shkon?",
+       "en": "Hey you, where are you going?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hey",
+      "oi"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "yes",
+     "tags": [
+      "archaic"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "éei pǽr chíjr tǽ chríxtit Zótit tínæ",
+       "en": "Yes, for the grace of Christ our Lord.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "yes"
+     ]
+    }
+   ],
+   "rank": 561,
+   "count": 1839,
+   "family": "ej",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "budalla",
+   "sq": "budalla",
+   "en": "fool, crazy person",
+   "glosses": [
+    "fool, crazy person",
+    "someone who acts as a fool",
+    "fool, crazy person",
+    "foolish"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fool, crazy person",
+     "tags": [
+      "colloquial",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 7 33 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fool",
+      "crazy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "someone who acts as a fool",
+     "tags": [
+      "colloquial",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 7 33 26"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 24 0 51"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 0 73"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "act"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "fool, crazy person",
+     "tags": [
+      "colloquial",
+      "derogatory"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 7 33 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fool",
+      "crazy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "foolish",
+     "tags": [
+      "colloquial",
+      "derogatory"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "foolish"
+     ]
+    }
+   ],
+   "rank": 571,
+   "count": 1787,
+   "family": "budalla",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish بدلا (budala, “imbecile, fool”), from Arabic اَبْدَال pl (abdāl) of singular بديل (badīl).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "budallae",
+     "tag": "feminine"
+    },
+    {
+     "form": "budallar",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Now this is just silly.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Tani kjo është vetëm budalla."
+   }
+  },
+  {
+   "id": "doktor",
+   "sq": "doktor",
+   "en": "a male doctor",
+   "glosses": [
+    "a male doctor"
    ],
    "pos": [
     "noun"
@@ -113,11 +382,17 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "hit, punch",
+     "gloss": "a male doctor",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -125,13 +400,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
+       "name": "Pages using etymon with no ID",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -139,73 +408,248 @@
      ],
      "examples": [],
      "links": [
-      "hit",
-      "punch"
+      "doctor"
      ]
     }
    ],
-   "rank": 1237,
-   "count": 731,
-   "family": "godas",
-   "is_root": false,
-   "etymology": "Gerund of godas through the participle stem; godas + -je.",
-   "etymology_class": "affix",
+   "rank": 572,
+   "count": 1783,
+   "family": "doktor",
+   "is_root": true,
+   "etymology": "Borrowed from Latin doctor.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "parents": [],
-   "components": [
-    {
-     "word": "godas",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "goditje",
+     "form": "doktorë",
      "tag": "plural"
     },
     {
-     "form": "goditja",
+     "form": "doktori",
      "tag": "definite"
+    },
+    {
+     "form": "doktoreshë",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How to perform a clamp?",
+    "corpus": "MaCoCu",
+    "en": "Dear Doctor.",
     "score": [
-     0,
-     4,
-     -4,
-     10
+     2,
+     3,
+     -1,
+     8
     ],
-    "sq": "Si të bëni goditje?"
+    "sq": "?I nderuar Doktor."
    }
   },
   {
-   "id": "desh",
-   "sq": "desh",
-   "en": "ram, plural (from dash)",
+   "id": "kthyer",
+   "sq": "kthyer",
+   "en": "bent, curved",
    "glosses": [
-    "ram, plural (from dash)"
+    "bent, curved",
+    "ploughed, cultivated (of land)",
+    "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
+    "divorced (of a woman)",
+    "recovered, got better (from an illness)",
+    "bend, curve, turn (of a road, river, etc.)",
+    "hem, fold"
    ],
    "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "bent, curved",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bent",
+      "curved"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "ploughed, cultivated (of land)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ploughed",
+      "cultivated"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "folded",
+      "hemmed",
+      "rolled up"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "divorced (of a woman)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "divorced"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "recovered, got better (from an illness)",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 6 28 3 40 1 18 1"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 35 2 50 0 8 1"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 1 31 2 45 0 18 1"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "recovered",
+      "got better"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ram, plural (from dash)",
+     "gloss": "bend, curve, turn (of a road, river, etc.)",
      "tags": [
-      "accusative",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bend",
+      "curve",
+      "turn"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hem, fold",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hem",
+      "fold"
+     ]
+    }
+   ],
+   "rank": 573,
+   "count": 1782,
+   "family": "kthyer",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "i pakthyer",
+    "i sqepkthyer"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kthyera",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And I came back.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Dhe jam kthyer."
+   }
+  },
+  {
+   "id": "dil",
+   "sq": "dil",
+   "en": "you (sg)! (imperative of dal, to exit)",
+   "glosses": [
+    "you (sg)! (imperative of dal, to exit)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg)! (imperative of dal, to exit)",
+     "tags": [
       "form-of",
-      "indefinite",
-      "nominative",
-      "plural"
+      "imperative",
+      "second-person",
+      "singular"
      ],
      "cats": [
       {
@@ -215,7 +659,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 22 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -228,12 +672,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "dash"
+     "is_form_of": "dal"
     }
    ],
-   "rank": 1241,
-   "count": 728,
-   "family": "dash",
+   "rank": 576,
+   "count": 1775,
+   "family": "dal",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -244,707 +688,50 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It took me a while.",
-    "score": [
-     1,
-     5,
-     -4,
-     8
-    ],
-    "sq": "M'u desh ca kohë."
-   }
-  },
-  {
-   "id": "paqe",
-   "sq": "paqe",
-   "en": "peace",
-   "glosses": [
-    "peace"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "peace",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "peace"
-     ]
-    }
-   ],
-   "rank": 1256,
-   "count": 718,
-   "family": "paqe",
-   "is_root": true,
-   "etymology": "Borrowed from Latin pāx, pācem (“peace”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "peace"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "War is not peace.",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Lufta nuk është paqe!"
-   }
-  },
-  {
-   "id": "tri",
-   "sq": "tri",
-   "en": "three",
-   "glosses": [
-    "three"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "three",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 35 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "three"
-     ]
-    }
-   ],
-   "rank": 1260,
-   "count": 715,
-   "family": "tri",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *trī(-ā), from Proto-Indo-European *tríh₂ (“three”). Cognate to Ancient Greek τρία (tría, “three”) and Latin tria (“three”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [
-    "three"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "3 weeks war!",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Tri javë luftë!"
-   }
-  },
-  {
-   "id": "godas",
-   "sq": "godas",
-   "en": "to hit",
-   "glosses": [
-    "to hit",
-    "to beat",
-    "to shoot (with weapon)",
-    "to kick, hit (ball)",
-    "to hurt by hitting against something",
-    "to kill",
-    "to happen",
-    "to build",
-    "to fix",
-    "to put right, rectify",
-    "to adorn, embellish",
-    "to flavor food",
-    "to write, compose",
-    "to scold, criticize",
-    "to damage, destroy",
-    "to strike",
-    "to shake, move",
-    "to pursue"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hit",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hit"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to beat",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "beat"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to shoot (with weapon)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shoot"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to kick, hit (ball)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kick",
-      "hit"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hurt by hitting against something",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hurt"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to kill",
-     "tags": [
-      "third-person"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kill"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to happen",
-     "tags": [
-      "third-person"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "happen"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to build",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "build"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to fix",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fix"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to put right, rectify",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 2 2 3 3 2 6 2 2 2 2 2 2 2 49 4 6 2"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 3 3 3 4 3 4 3 3 3 3 3 3 3 44 4 4 3"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 2 2 2 3 2 3 2 2 2 2 2 2 2 61 3 3 2"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "put right",
-      "rectify"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to adorn, embellish",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "adorn",
-      "embellish"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to flavor food",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "flavor"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to write, compose",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "write",
-      "compose"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to scold, criticize",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "scold",
-      "criticize"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to damage, destroy",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "damage",
-      "destroy"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to strike",
-     "tags": [
-      "figuratively",
-      "third-person"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "strike"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to shake, move",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shake",
-      "move"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to pursue",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pursue"
-     ]
-    }
-   ],
-   "rank": 3073,
-   "count": 264,
-   "family": "godas",
-   "is_root": true,
-   "etymology": "Borrowed from Serbo-Croatian goditi (“to please”), pogoditi (“I hit”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "goditem",
-    "goditje"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "godita",
-     "tag": "aorist"
-    },
-    {
-     "form": "goditur",
-     "tag": "participle"
-    },
-    {
-     "form": "godit",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
     "corpus": "HPLT",
-    "en": "Every time I hit the post.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "sa herë që të godas shtyllën."
-   }
-  },
-  {
-   "id": "ëndërroj",
-   "sq": "ëndërroj",
-   "en": "to dream",
-   "glosses": [
-    "to dream"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dream",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "dream"
-     ]
-    }
-   ],
-   "rank": 7725,
-   "count": 89,
-   "family": "ëndërr",
-   "is_root": false,
-   "etymology": "From ëndërr + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ëndërr",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ëndërrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "ëndërruar",
-     "tag": "participle"
-    },
-    {
-     "form": "andërroj",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I've dreamed about it for some time.",
+    "en": "Get in and out whenever you want to.",
     "score": [
      1,
      6,
      -5,
      10
     ],
-    "sq": "Kohë të gjatë e ëndërroj atë."
+    "sq": "Hyr dhe dil kur të duash."
    }
   },
   {
-   "id": "paqësor",
-   "sq": "paqësor",
-   "en": "peaceful",
+   "id": "dilni",
+   "sq": "dilni",
+   "en": "you (pl)! (imperative of dal, to exit)",
    "glosses": [
-    "peaceful"
+    "you (pl)! (imperative of dal, to exit)"
    ],
    "pos": [
-    "adj"
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "peaceful",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (pl)! (imperative of dal, to exit)",
+     "tags": [
+      "form-of",
+      "imperative",
+      "plural",
+      "second-person"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ësor",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
        "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "peaceful"
-     ]
-    }
-   ],
-   "rank": 8528,
-   "count": 79,
-   "family": "paqe",
-   "is_root": false,
-   "etymology": "From paqe (“peace”) + -ësor.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "parents": [
-    "peace"
-   ],
-   "components": [
-    {
-     "word": "paqe",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "paqësore",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The Japanese stopped in the Pacific.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Japonezët u ndal në Paqësor."
-   }
-  },
-  {
-   "id": "dash",
-   "sq": "dash",
-   "en": "ram (male sheep)",
-   "glosses": [
-    "ram (male sheep)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ram (male sheep)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 7 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -957,42 +744,31 @@
       }
      ],
      "examples": [],
-     "links": [
-      "ram"
-     ]
+     "is_form_of": "dal"
     }
    ],
-   "rank": 35979,
-   "count": 11,
-   "family": "dash",
-   "is_root": true,
-   "etymology": "Potentially from Early Proto-Albanian *dauša, from Proto-Indo-European *dʰows-o-s (compare English deer, Lithuanian daũsos (“upper air; heaven”)).",
-   "etymology_class": "inherited",
+   "rank": 967,
+   "count": 980,
+   "family": "dal",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "desh",
-     "tag": "plural"
-    },
-    {
-     "form": "dashi",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Happy birthday, Dash!",
+    "en": "How to log out?",
     "score": [
-     1,
-     3,
-     -2,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Gëzuar ditëlindjen, Dash!"
+    "sq": "Si të dilni jashtë?"
    }
   }
  ]

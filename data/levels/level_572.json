@@ -1,41 +1,67 @@
 {
  "level": 572,
- "title": "rreshtim, hide, bukël, spango, zhabë, shtëllungë +4",
- "root": "",
- "root_gloss": "",
+ "title": "fill",
+ "root": "fill",
+ "root_gloss": "at once, immediately, alone",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 3,
  "families": [
-  "bukël",
-  "hide",
-  "rreshtim",
-  "shtëllungë",
-  "spango",
-  "zhabë"
+  "fill"
  ],
  "pos_mix": {
-  "noun": 11
+  "adv": 2,
+  "noun": 1,
+  "verb": 2
  },
  "words": [
   {
-   "id": "rreshtim",
-   "sq": "rreshtim",
-   "en": "lining",
+   "id": "fill",
+   "sq": "fill",
+   "en": "at once, immediately, alone",
    "glosses": [
-    "lining"
+    "at once, immediately, alone",
+    "instant",
+    "thread, yarn"
    ],
    "pos": [
+    "adv",
+    "adv",
     "noun"
    ],
    "pos_labels": [
+    "adverb",
+    "adverb",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at once, immediately, alone",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "immediately",
+      "alone"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "instant",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "instant"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "lining",
+     "gloss": "thread, yarn",
      "tags": [
       "masculine"
      ],
@@ -44,10 +70,82 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 0 71"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thread",
+      "yarn"
+     ]
+    }
+   ],
+   "rank": 12209,
+   "count": 50,
+   "family": "fill",
+   "is_root": true,
+   "etymology": "Borrowed from Latin fīlum (“thread”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "parents": [
+    "thread"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fije",
+     "tag": "plural"
+    },
+    {
+     "form": "filli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And this is where our story begins.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Dhe këtu zë fill historia jonë."
+   }
+  },
+  {
+   "id": "filloj",
+   "sq": "filloj",
+   "en": "to start, to begin",
+   "glosses": [
+    "to start, to begin"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to start, to begin",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,548 +157,128 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Unë fillova të lexoj librin tim dje.",
+       "en": "I started to read my book yesterday.",
+       "offsets": [
+        [
+         4,
+         11
+        ]
+       ]
+      }
+     ],
      "links": [
-      "lining"
+      "start",
+      "begin"
      ]
     }
    ],
-   "rank": 48458,
-   "count": 7,
-   "family": "rreshtim",
-   "is_root": true,
-   "etymology": "From rreshtoj + -im.",
+   "rank": 1055,
+   "count": 894,
+   "family": "fill",
+   "is_root": false,
+   "etymology": "From fill (“thread”) + -oj, with sense development \"to take the thread\" > \"to begin\", as evidenced by the phrase zë filloj.",
    "etymology_class": "affix",
    "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "rreshtime",
-     "tag": "plural"
-    },
-    {
-     "form": "rreshtimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Every cloud has a silver lining.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Çdo re ka një rreshtim argjendi."
-   }
-  },
-  {
-   "id": "hide",
-   "sq": "hide",
-   "en": "jujube (Ziziphus jujuba)",
-   "glosses": [
-    "jujube (Ziziphus jujuba)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "jujube (Ziziphus jujuba)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "botany",
-      "jujube",
-      "Ziziphus jujuba"
-     ]
-    }
-   ],
-   "rank": 48549,
-   "count": 7,
-   "family": "hide",
-   "is_root": true,
-   "etymology": "From Turkish iğde (“oleaster”).",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
    "parents": [
-    "oleaster"
+    "thread"
    ],
-   "components": [],
+   "components": [
+    {
+     "word": "fill",
+     "role": "prefix"
+    },
+    {
+     "word": "as",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "hide",
-     "tag": "plural"
+     "form": "fillova",
+     "tag": "aorist"
     },
     {
-     "form": "hidja",
-     "tag": "definite"
-    },
-    {
-     "form": "ide",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Can You Hide Your Own GeoCache?",
-    "score": [
-     3,
-     7,
-     -4,
-     10
-    ],
-    "sq": "Ju mund të geocache Hide Your Own?"
-   }
-  },
-  {
-   "id": "bukël",
-   "sq": "bukël",
-   "en": "least weasel (Mustela nivalis)",
-   "glosses": [
-    "least weasel (Mustela nivalis)",
-    "curly lock of hair",
-    "edible mushroom with sweet reddish flesh"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "least weasel (Mustela nivalis)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "85 9 6"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "90 5 5"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "93 4 3"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weasel",
-      "Mustela nivalis"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "curly lock of hair",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "edible mushroom with sweet reddish flesh",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mushroom"
-     ]
-    }
-   ],
-   "rank": 48713,
-   "count": 7,
-   "family": "bukël",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *buklā, derivative of *buk- (“lush, lusty”), from Proto-Indo-European *bʰoHu- (“to grow, swell”). More at bukur (“beautiful”). For sense development, compare Latin lascivia (“mink”), from lascivus (“wanton”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "bukla",
-     "tag": "plural"
-    },
-    {
-     "form": "buklëz",
-     "tag": "alternative"
+     "form": "filluar",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "spango",
-   "sq": "spango",
-   "en": "cord, twine, string",
+   "id": "filluar",
+   "sq": "filluar",
+   "en": "past participle of filloj (to start)",
    "glosses": [
-    "cord, twine, string",
-    "plumb line"
+    "past participle of filloj (to start)"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cord, twine, string",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of filloj (to start)",
      "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cord",
-      "twine",
-      "string"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plumb line",
-     "tags": [
-      "feminine"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 65"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "plumb line"
-     ]
+     "is_form_of": "filloj"
     }
    ],
-   "rank": 48742,
-   "count": 7,
-   "family": "spango",
-   "is_root": true,
-   "etymology": "In the -ng- forms, borrowed from Greek σπάγγος (spángos). In the -g- forms, borrowed from Italian spago directly.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "spango",
-     "tag": "plural"
-    },
-    {
-     "form": "spangoja",
-     "tag": "definite"
-    },
-    {
-     "form": "spagë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "zhabë",
-   "sq": "zhabë",
-   "en": "frog",
-   "glosses": [
-    "frog",
-    "toad"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "frog",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "frog"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "toad",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "toad"
-     ]
-    }
-   ],
-   "rank": 48746,
-   "count": 7,
-   "family": "zhabë",
-   "is_root": true,
-   "etymology": "Borrowed from Serbo-Croatian žȁba.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "zhaban"
-   ],
-   "related": [
-    "fulterëz"
-   ],
-   "forms": [
-    {
-     "form": "zhaba",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "shtëllungë",
-   "sq": "shtëllungë",
-   "en": "flock (of wool)",
-   "glosses": [
-    "flock (of wool)",
-    "column (of smoke)"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flock (of wool)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "89 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flock"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "column (of smoke)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "column"
-     ]
-    }
-   ],
-   "rank": 48891,
-   "count": 7,
-   "family": "shtëllungë",
-   "is_root": true,
-   "etymology": "Derivative in -ungë of shtjell.",
+   "rank": 679,
+   "count": 1492,
+   "family": "fill",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "shtjell"
-   ],
-   "forms": [
-    {
-     "form": "shtëllunga",
-     "tag": "plural"
-    },
-    {
-     "form": "shllung",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Just get started.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Vetëm të marrë filluar."
+   }
   }
  ]
 }

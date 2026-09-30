@@ -1,136 +1,165 @@
 {
  "level": 518,
- "title": "harabel, tramvaj, pjerdh, kapitalist, dordolec, rrafsh +4",
+ "title": "shpërblej, kruaj, shkruaj +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "dordolec",
-  "harabel",
-  "kapitalist",
-  "pjerdh",
-  "rrafsh",
-  "tramvaj"
+  "kruaj",
+  "shkruaj",
+  "shpërblej"
  ],
  "pos_mix": {
-  "noun": 11,
-  "verb": 1,
-  "adj": 1
+  "verb": 9,
+  "noun": 2
  },
  "words": [
   {
-   "id": "harabel",
-   "sq": "harabel",
-   "en": "house sparrow (Passer domesticus)",
+   "id": "shkruaj",
+   "sq": "shkruaj",
+   "en": "to write",
    "glosses": [
-    "house sparrow (Passer domesticus)",
-    "reckless person"
+    "to write",
+    "to express",
+    "to compose, draw, draw up, mark, record"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "house sparrow (Passer domesticus)",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to write",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "write"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to express",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "express"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to compose, draw, draw up, mark, record",
+     "tags": [
+      "colloquial"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "81 19"
+       "_dis": "28 28 44"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "95 5"
+       "_dis": "28 28 44"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "97 3"
+       "_dis": "18 18 63"
       }
      ],
      "examples": [],
      "links": [
-      "house sparrow",
-      "Passer domesticus"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "reckless person",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "reckless",
-      "person"
+      "compose",
+      "draw",
+      "draw up"
      ]
     }
    ],
-   "rank": 35858,
-   "count": 11,
-   "family": "harabel",
+   "rank": 1422,
+   "count": 625,
+   "family": "shkruaj",
    "is_root": true,
-   "etymology": "Ultimately from a Proto-Slavic *vorbьľь (“sparrow”), unattested in most South Slavic dialects, where only *vorbьcь is found.",
-   "etymology_class": "derived",
+   "etymology": "* From sh- (“off”) + kruaj (“to scratch”) q.v.; for sense development, compare English write from Old English wrītan (“to incise, engrave”). The noun form shkrim was probably influenced by Latin scrībō (“write”).\n* From earlier shkruon (“he/she writes”), from Proto-Albanian *śkrɔ̄n < *śkrə.on < *śkriwɔnit. More likely borrowed from Vulgar Latin *skrīβō, from Latin scrībō.",
+   "etymology_class": "affix",
    "source_lang": null,
    "parents": [
-    "sparrow"
+    "off"
    ],
-   "components": [],
-   "derived": [],
-   "related": [],
+   "components": [
+    {
+     "word": "kruaj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "nënshkrim, nënshkrimi",
+    "nënshkruaj, nënshkruhet",
+    "nënshkruar, nënshkruara",
+    "nënshkruari",
+    "nënshkrues, nënshkruesi",
+    "parashkruaj, parashkruhet",
+    "parashkruar",
+    "pashkruar, pashkruara"
+   ],
+   "related": [
+    "kruaj",
+    "sh-",
+    "shkruhem",
+    "shkruar"
+   ],
    "forms": [
     {
-     "form": "harabela",
-     "tag": "plural"
+     "form": "shkrova",
+     "tag": "aorist"
     },
     {
-     "form": "harabeli",
-     "tag": "definite"
-    },
-    {
-     "form": "rabeckë",
-     "tag": "alternative"
+     "form": "shkruar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The bird was identified as a Rose-breasted Grosbeak.",
+    "corpus": "MaCoCu",
+    "en": "I am writing history!",
     "score": [
+     0,
      3,
-     6,
      -3,
-     10
+     8
     ],
-    "sq": "Zogu identifikohet si një harabel sqepmadh."
+    "sq": "Unë shkruaj historinë!"
    }
   },
   {
-   "id": "tramvaj",
-   "sq": "tramvaj",
-   "en": "tram",
+   "id": "shkrim",
+   "sq": "shkrim",
+   "en": "writing",
    "glosses": [
-    "tram"
+    "writing"
    ],
    "pos": [
     "noun"
@@ -142,7 +171,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "tram",
+     "gloss": "writing",
      "tags": [
       "masculine"
      ],
@@ -154,13 +183,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Latin links with redundant target parameters",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -168,53 +197,374 @@
      ],
      "examples": [],
      "links": [
-      "tram"
+      "writing"
      ]
     }
    ],
-   "rank": 35897,
-   "count": 11,
-   "family": "tramvaj",
-   "is_root": true,
-   "etymology": "From English tramway, possibly through Serbo-Croatian tramvaj.",
-   "etymology_class": "borrowed",
-   "source_lang": "en",
+   "rank": 7451,
+   "count": 93,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "Gerund of shkruaj; shkruaj + -im. Possibly influenced by Latin scrībō (“to write”).",
+   "etymology_class": "affix",
+   "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "shkruaj",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "tramvaje",
+     "form": "shkrime",
      "tag": "plural"
     },
     {
-     "form": "tramvaji",
+     "form": "shkrimi",
      "tag": "definite"
-    },
-    {
-     "form": "tramvajë",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A unique aerial tramway.",
+    "en": "Freelance writing?",
     "score": [
-     2,
-     4,
+     1,
+     3,
      -2,
      10
     ],
-    "sq": "Një tramvaj unik ajror."
+    "sq": "Shkrim i pavarur?"
    }
   },
   {
-   "id": "pjerdh",
-   "sq": "pjerdh",
-   "en": "to fart",
+   "id": "shpërblej",
+   "sq": "shpërblej",
+   "en": "to requite, reward",
    "glosses": [
-    "to fart"
+    "to requite, reward",
+    "to pay"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to requite, reward",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      },
+      {
+       "name": "Albanian terms prefixed with shpër-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "requite",
+      "reward"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pay",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pay"
+     ]
+    }
+   ],
+   "rank": 14043,
+   "count": 42,
+   "family": "shpërblej",
+   "is_root": true,
+   "etymology": "From shpër- + blej.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "blej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpërblyer",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The international community must not reward Belgrade's fantasies.",
+    "score": [
+     5,
+     9,
+     -4,
+     10
+    ],
+    "sq": "Bashkësia ndërkombëtare nuk duhet të shpërblej fantazirat e Beogradit."
+   }
+  },
+  {
+   "id": "kruaj",
+   "sq": "kruaj",
+   "en": "to rub, to scratch (an itch) (bodyparts in general)",
+   "glosses": [
+    "to rub, to scratch (an itch) (bodyparts in general)",
+    "to scrape, to wipe off (something from a surface)",
+    "to search everywhere for; to search up"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rub, to scratch (an itch) (bodyparts in general)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 43 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 25 23"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "62 20 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rub",
+      "scratch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to scrape, to wipe off (something from a surface)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 43 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "scrape",
+      "wipe",
+      "off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to search everywhere for; to search up",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 43 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "search",
+      "search up"
+     ]
+    }
+   ],
+   "rank": 14044,
+   "count": 42,
+   "family": "kruaj",
+   "is_root": true,
+   "etymology": "* From *kroj, from Proto-Albanian *krābnja, from Proto-Indo-European *gʰrebʰ-. Compare German graben (“to dig”), Lithuanian grebti (“to rake”)\n* Alternatively from Proto-Albanian *krawånj-, from Old High German krauwōn.\n* Or from North-West IE *kna-ye- ‘scratch’, cf. Welsh cnoi, Old High German nōen, Lithuanian knója, Ancient Greek κναίω (knaíō)",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "kreh",
+    "krehër, krehri",
+    "krehës, krehësi",
+    "krehur",
+    "kromë, kroma",
+    "krosë, krosa",
+    "kruajtje, kruajtja",
+    "kruar"
+   ],
+   "related": [
+    "kreh",
+    "kruese",
+    "kruesja",
+    "kruhem",
+    "kruar"
+   ],
+   "forms": [
+    {
+     "form": "krova",
+     "tag": "aorist"
+    },
+    {
+     "form": "kruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "shkronjë",
+   "sq": "shkronjë",
+   "en": "letter (symbol)",
+   "glosses": [
+    "letter (symbol)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "letter (symbol)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -onjë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "letter"
+     ]
+    }
+   ],
+   "rank": 31123,
+   "count": 14,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "From shkruaj (“to write”) + -onjë (feminine suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "shkruaj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shkronja",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Which letter does it cover up?",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Cila shkronjë është fshehur?"
+   }
+  },
+  {
+   "id": "shkruar",
+   "sq": "shkruar",
+   "en": "past participle of shkruaj (to write)",
+   "glosses": [
+    "past participle of shkruaj (to write)"
    ],
    "pos": [
     "verb"
@@ -226,9 +576,11 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to fart",
+     "gloss": "past participle of shkruaj (to write)",
      "tags": [
-      "transitive"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -251,111 +603,13 @@
       }
      ],
      "examples": [],
-     "links": [
-      "fart"
-     ]
+     "is_form_of": "shkruaj"
     }
    ],
-   "rank": 35917,
-   "count": 11,
-   "family": "pjerdh",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *perda, from Proto-Indo-European *pérdetor. Cognate with Ancient Greek πέρδομαι (pérdomai), English fart.",
-   "etymology_class": "root",
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pordha",
-     "tag": "aorist"
-    },
-    {
-     "form": "pjerdhur",
-     "tag": "participle"
-    },
-    {
-     "form": "pordh",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This does not even apply to the Constitution.",
-    "score": [
-     3,
-     6,
-     -3,
-     10
-    ],
-    "sq": "Ky s'pjerdh as për Kushtetutën."
-   }
-  },
-  {
-   "id": "kapitalist",
-   "sq": "kapitalist",
-   "en": "capitalist, capitalistic",
-   "glosses": [
-    "capitalist, capitalistic",
-    "capitalist"
-   ],
-   "pos": [
-    "adj",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "capitalist, capitalistic",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "capitalist",
-      "capitalistic"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "capitalist",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "capitalist"
-     ]
-    }
-   ],
-   "rank": 35918,
-   "count": 11,
-   "family": "kapitalist",
-   "is_root": true,
+   "rank": 933,
+   "count": 1025,
+   "family": "shkruaj",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -363,293 +617,17 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "kapitalistë",
-     "tag": "plural"
-    },
-    {
-     "form": "kapitalisti",
-     "tag": "definite"
-    },
-    {
-     "form": "kapitaliste",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "We were looking at a capitalist civilization.",
+    "en": "It is not written.",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
      10
     ],
-    "sq": "Shikonim një qytetërim kapitalist."
-   }
-  },
-  {
-   "id": "dordolec",
-   "sq": "dordolec",
-   "en": "scarecrow",
-   "glosses": [
-    "scarecrow",
-    "snowman",
-    "laughing stock",
-    "boy wearing fern and hellebore leaves and sprinkled with water in a ceremony to attract rain"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "scarecrow",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "scarecrow"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "snowman",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "snowman"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "laughing stock",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "laughing stock"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "boy wearing fern and hellebore leaves and sprinkled with water in a ceremony to attract rain",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 39 14 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 58 15 5"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 63 13 6"
-      }
-     ],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 35946,
-   "count": 11,
-   "family": "dordolec",
-   "is_root": true,
-   "etymology": "From Macedonian додола (dodola, “rainmaker”) + -ec; variants blended with дожд (dožd, “rain”) and добар (dobar, “good, kind”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "parents": [
-    "rainmaker",
-    "rain"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "dordolecë",
-     "tag": "plural"
-    },
-    {
-     "form": "dordoleci",
-     "tag": "definite"
-    },
-    {
-     "form": "dozhdole",
-     "tag": "alternative"
-    },
-    {
-     "form": "dozhdolec",
-     "tag": "alternative"
-    },
-    {
-     "form": "dobërdolë",
-     "tag": "alternative"
-    },
-    {
-     "form": "dobërdole",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "rrafsh",
-   "sq": "rrafsh",
-   "en": "plain, flat area, field",
-   "glosses": [
-    "plain, flat area, field",
-    "flatland",
-    "field"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plain, flat area, field",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "plain",
-      "flat",
-      "field"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flatland",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian back-formations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 42 29"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 88 6"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 78 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flatland"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "field",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "field"
-     ]
-    }
-   ],
-   "rank": 36039,
-   "count": 11,
-   "family": "rrafsh",
-   "is_root": true,
-   "etymology": "Formerly believed to be a Back-formation from rrafshoj; the latter is derived from unattested *rravsh + -oj, the first element of which is borrowed from a South Slavic language, ultimately derived from *orvьnъ (“even”); compare Old Church Slavonic равьнъ (ravĭnŭ), Serbo-Croatian ravan, Bulgarian равен (raven).\nHowever this is less likely, as Omari doubts a Slavic origin due to phonological problems. Most likely from rraf, Gheg form of rrah (“to beat, strike, to flatten; grubbed out land”). Consider also northeastern Gheg \"rrapsh\", as found in Malsia. Possibly related to rrjep (“to peel”) and rrap (“plane tree”), as it would explain the change from -psh- to -fsh-.",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [
-    "even"
-   ],
-   "components": [
-    {
-     "word": "a",
-     "role": "stem"
-    }
-   ],
-   "derived": [
-    "rrafshoj",
-    "rrafshinë",
-    "rrafshinor",
-    "rrafshnaltë",
-    "rrafshjan"
-   ],
-   "related": [
-    "rrah"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "What do you expect?",
-    "score": [
-     2,
-     5,
-     -3,
-     8
-    ],
-    "sq": "Çfarë prisni në këtë rrafsh?"
+    "sq": "Nuk është shkruar."
    }
   }
  ]

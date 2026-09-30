@@ -1,24 +1,25 @@
 {
  "level": 26,
- "title": "shkoj 2/2",
- "root": "shkoj",
- "root_gloss": "to go, pass",
- "part": 2,
- "parts": 2,
- "word_count": 4,
+ "title": "them",
+ "root": "them",
+ "root_gloss": "to say",
+ "part": 1,
+ "parts": 1,
+ "word_count": 9,
  "families": [
-  "shkoj"
+  "them"
  ],
  "pos_mix": {
-  "verb": 4
+  "verb": 8,
+  "noun": 1
  },
  "words": [
   {
-   "id": "shko",
-   "sq": "shko",
-   "en": "you (sg)! (imperative of shkoj, to go)",
+   "id": "them",
+   "sq": "them",
+   "en": "to say",
    "glosses": [
-    "you (sg)! (imperative of shkoj, to go)"
+    "to say"
    ],
    "pos": [
     "verb"
@@ -30,11 +31,91 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg)! (imperative of shkoj, to go)",
+     "gloss": "to say",
      "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "say"
+     ]
+    }
+   ],
+   "rank": 101,
+   "count": 14124,
+   "family": "them",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *θēm-, from Proto-Indo-European *ḱens- (“to say, instruct, announce”). Cognate with Latin cēnseō (“to give an opinion, to judge, guess, reckon”). Potentially a doublet of rrëfej.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "thashë",
+     "tag": "aorist"
+    },
+    {
+     "form": "thënë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Why do I say that?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pse them kështu?"
+   }
+  },
+  {
+   "id": "thashë",
+   "sq": "thashë",
+   "en": "I (once did) said (from them, to say)",
+   "glosses": [
+    "I (once did) said (from them, to say)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (once did) said (from them, to say)",
+     "tags": [
+      "aorist",
+      "first-person",
       "form-of",
-      "imperative",
-      "second-person",
       "singular"
      ],
      "cats": [
@@ -58,12 +139,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "is_form_of": "them"
     }
    ],
-   "rank": 177,
-   "count": 7255,
-   "family": "shkoj",
+   "rank": 227,
+   "count": 5533,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -74,23 +155,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Go where you want to go.",
+    "corpus": "HPLT",
+    "en": "I told you so!",
     "score": [
      0,
-     4,
-     -4,
-     8
+     3,
+     -3,
+     10
     ],
-    "sq": "Shko ku të duash."
+    "sq": "Unë ju thashë!"
    }
   },
   {
-   "id": "shkosh",
-   "sq": "shkosh",
-   "en": "you (sg) (subjunctive) go (from shkoj, to go)",
+   "id": "thoshte",
+   "sq": "thoshte",
+   "en": "he/she/it (used to) said (from them, to say)",
    "glosses": [
-    "you (sg) (subjunctive) go (from shkoj, to go)"
+    "he/she/it (used to) said (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -102,13 +183,12 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg) (subjunctive) go (from shkoj, to go)",
+     "gloss": "he/she/it (used to) said (from them, to say)",
      "tags": [
       "form-of",
-      "present",
-      "second-person",
+      "imperfect",
       "singular",
-      "subjunctive"
+      "third-person"
      ],
      "cats": [
       {
@@ -131,12 +211,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "is_form_of": "them"
     }
    ],
-   "rank": 356,
-   "count": 2925,
-   "family": "shkoj",
+   "rank": 927,
+   "count": 1030,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -147,23 +227,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "said Ipthar, turning to go.",
+    "corpus": "MaCoCu",
+    "en": "What does he mean?",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
-     10
+     8
     ],
-    "sq": "Duhet të shkosh»."
+    "sq": "Çfarë donte të thoshte?"
    }
   },
   {
-   "id": "shkoni",
-   "sq": "shkoni",
-   "en": "you (pl)! (imperative of shkoj, to go)",
+   "id": "thosha",
+   "sq": "thosha",
+   "en": "I (used to) said (from them, to say)",
    "glosses": [
-    "you (pl)! (imperative of shkoj, to go)"
+    "I (used to) said (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -175,21 +255,40 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (pl)! (imperative of shkoj, to go)",
+     "gloss": "I (used to) said (from them, to say)",
      "tags": [
+      "first-person",
       "form-of",
-      "imperative",
-      "plural",
-      "second-person"
+      "imperfect",
+      "singular"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "is_form_of": "them"
     }
    ],
-   "rank": 361,
-   "count": 2911,
-   "family": "shkoj",
+   "rank": 1523,
+   "count": 582,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -201,22 +300,98 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But, that is not the way to go.",
+    "en": "I said how I ended up here.",
     "score": [
-     0,
-     9,
-     -9,
+     2,
+     4,
+     -2,
      10
     ],
-    "sq": "Por, kjo nuk është ajo ku duhet të shkoni."
+    "sq": "Thosha si përfundova këtu."
    }
   },
   {
-   "id": "shkojë",
-   "sq": "shkojë",
-   "en": "he/she/it (subjunctive) go (from shkoj, to go)",
+   "id": "thashetheme",
+   "sq": "thashetheme",
+   "en": "gossip, rumor, hearsay",
    "glosses": [
-    "he/she/it (subjunctive) go (from shkoj, to go)"
+    "gossip, rumor, hearsay"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gossip, rumor, hearsay",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pluralia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "gossip",
+      "rumor",
+      "hearsay"
+     ]
+    }
+   ],
+   "rank": 5790,
+   "count": 127,
+   "family": "them",
+   "is_root": false,
+   "etymology": "From thashë + e + them.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "thashë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is slander and gossip.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Kjo është shpifje dhe thashetheme."
+   }
+  },
+  {
+   "id": "thotë",
+   "sq": "thotë",
+   "en": "he/she/it (subjunctive) say (from them, to say)",
+   "glosses": [
+    "he/she/it (subjunctive) say (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -228,7 +403,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "he/she/it (subjunctive) go (from shkoj, to go)",
+     "gloss": "he/she/it (subjunctive) say (from them, to say)",
      "tags": [
       "form-of",
       "present",
@@ -257,12 +432,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "is_form_of": "them"
     }
    ],
-   "rank": 482,
-   "count": 2181,
-   "family": "shkoj",
+   "rank": 145,
+   "count": 8663,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -274,14 +449,230 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Where do I have to go?",
+    "en": "It does not say.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Ku duhet të shkojë?"
+    "sq": "Ajo nuk thotë."
+   }
+  },
+  {
+   "id": "thënë",
+   "sq": "thënë",
+   "en": "past participle of them (to say)",
+   "glosses": [
+    "past participle of them (to say)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "past participle of them (to say)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "them"
+    }
+   ],
+   "rank": 208,
+   "count": 6001,
+   "family": "them",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I told you.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Të kam thënë."
+   }
+  },
+  {
+   "id": "thuaj",
+   "sq": "thuaj",
+   "en": "you (sg)! (imperative of them, to say)",
+   "glosses": [
+    "you (sg)! (imperative of them, to say)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg)! (imperative of them, to say)",
+     "tags": [
+      "form-of",
+      "imperative",
+      "second-person",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "them"
+    }
+   ],
+   "rank": 226,
+   "count": 5542,
+   "family": "them",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Speak the truth.",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Thuaj të vërtetën."
+   }
+  },
+  {
+   "id": "thuash",
+   "sq": "thuash",
+   "en": "you (sg) (subjunctive) say (from them, to say)",
+   "glosses": [
+    "you (sg) (subjunctive) say (from them, to say)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) (subjunctive) say (from them, to say)",
+     "tags": [
+      "form-of",
+      "present",
+      "second-person",
+      "singular",
+      "subjunctive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "them"
+    }
+   ],
+   "rank": 265,
+   "count": 4415,
+   "family": "them",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What to say?",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Çka të thuash?"
    }
   }
  ]
