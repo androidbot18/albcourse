@@ -91,14 +91,27 @@ CASES = [
      "they (have done) are (from jam, to be)"),
     ("third-person singular simple perfect indicative of jam", "verb", "jam",
      "he/she/it (has done) is (from jam, to be)"),
-    # A gloss that is nothing but the slot.
-    ("participle of vdes", "verb", "vdes", "participle of vdes (to die)"),
+    # A gloss that is nothing but the slot. A participle is a word the learner
+    # meets, so it is glossed by what it DOES, not by the slot name. This was the
+    # largest group of leaks: 91 of the 133 still leaking when measured.
+    ("participle of vdes", "verb", "vdes", "die, past form (from vdes, to die)"),
     ("past participle of them", "verb", "them",
-     "past participle of them (to say)"),
+     "say, past form (from them, to say)"),
     ("plural of minutë", "noun", "minutë", "minute, plural (from minutë)"),
     # Two moods at once: claim neither.
     ("second-person plural present indicative/imperative of dua", "verb", "dua",
      "you (pl) want (from dua, to want)"),
+    # The subjunctive, jussive and conditional have no distinct English word, so
+    # a card labelled '(subjunctive)' taught grammar rather than meaning. They
+    # render as the infinitive, which is what follows the conjunction 'te'.
+    ("third-person singular present subjunctive of them", "verb", "them",
+     "he/she/it say (from them, to say)"),
+    ("second-person singular present subjunctive of dua", "verb", "dua",
+     "you (sg) want (from dua, to want)"),
+    # Indicative AND subjunctive together: a mood note would still be a claim
+    # about the English form, so none is made.
+    ("first-person plural present indicative/subjunctive of dua", "verb", "dua",
+     "we want (from dua, to want)"),
     # Nominal endings.
     ("definite nominative plural of njeri", "noun", "njeri",
      "the person, plural (from njeri)"),
@@ -108,9 +121,10 @@ CASES = [
      "the dad, singular (from baba)"),
     ("feminine singular of madh", "adjective", "madh",
      "big, singular (from madh)"),
-    # Imperative is an address, not a statement.
+    # Imperative is an address, not a statement. The '!' already carries the mood,
+    # so the slot name is not repeated: 'you (sg)! (from shkoj, to go)'.
     ("second-person singular imperative of shkoj", "verb", "shkoj",
-     "you (sg)! (imperative of shkoj, to go)"),
+     "you (sg)! (from shkoj, to go)"),
     # An ambiguous person slot names both rather than guessing.
     ("second/third-person singular present indicative of vij", "verb", "vij",
      "you (sg) or he/she/it arrive (from vij, to arrive)"),
@@ -121,8 +135,17 @@ DEFECTS = [
     (re.compile(r"\bthe\s+(anyone|anybody|someone|somebody|nothing|something|anything|everything)\b",
                 re.I), "bad article"),
     (re.compile(r"\b(\w+)\s+\1\b", re.I), "duplicated word"),
-    (re.compile(r"\bindicative\b|\bnominative\b|\baccusative\b|\bgenitive\b|\bablative\b"
-                r"|\bvocative\b|\bimperfect\b|\baorist\b|\bjussive\b", re.I),
+        # Every grammar term ever found leaking, in one pattern. The list grew
+    # each time a residue turned up, so it covers the moods as well as the
+    # cases, the persons and the participles: those three groups are what
+    # survived the rewrite until the 133 were measured directly.
+    (re.compile(r"\bindicative\b|\bnominative\b|\baccusative\b|\bgenitive\b"
+                r"|\bablative\b|\bvocative\b|\bdative\b|\bimperfect\b"
+                r"|\baorist\b|\bjussive\b|\bsubjunctive\b|\bconditional\b"
+                r"|\bimperative\b|\bparticiple\b|\boptative\b"
+                r"|\bthird-person\b|\bfirst-person\b|\bsecond-person\b"
+                r"|\bmasculine\b|\bfeminine\b|\bdefinite\b|\bindefinite\b"
+                r"|\bplural of\b|\bsingular of\b|\bparticiple of\b", re.I),
      "grammar jargon left in"),
     (re.compile(r"\(\s*\)"), "empty parens"),
     (re.compile(r"\s{2,}"), "double space"),
@@ -141,7 +164,7 @@ def main():
         "two verbs in a row": "he/she/it (used to) was is",
         "bad article": "the anyone, plural",
         "duplicated word": "the the person",
-        "grammar jargon left in": "third-person indicative of jam",
+        "grammar jargon left in": "he/she/it (subjunctive) say (from them, to say)",
         "empty parens": "the person ()",
         "double space": "the  person",
     }

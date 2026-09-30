@@ -65,6 +65,14 @@ MISSPELLING = re.compile(r"\bmisspell", re.I)
 
 def _lemma_candidates(remainder):
     """Word groups in the text after the final 'of'."""
+    # A gloss already rewritten by form_gloss names its lemma mid-parenthetical,
+    # as in 'he/she/it (subjunctive) say (from them, to say)'. Taking the text
+    # after the final 'of' there yields 'say)', which is not a lemma, so that
+    # shape is read first and directly.
+    fm = re.search(r"\(from\s+([A-Za-zëçËÇ][A-Za-zëçËÇ'-]*)\s*,", remainder or "")
+    if fm and re.match(r"^[A-Za-zëçËÇ][A-Za-zëçËÇ'-]*$", fm.group(1)):
+        return [fm.group(1)]
+
     m = re.search(r"\bof\b(.*)$", remainder, re.I)
     if not m:
         return []
