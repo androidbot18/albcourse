@@ -10,15 +10,24 @@ missing is the *morphology* - the fact that so many words are one root wearing
 different clothes. This course teaches them together: the root, then everything
 built on it, then the descendants.
 
+**Scope: text only.** No audio, no pronunciation drills, no recordings. That
+is a deliberate decision, not an oversight - see `PLAN.md`.
+
 ## What is here
 
 | | |
 |---|---|
-| Words | 3,731 |
-| Levels | 1,031 |
-| Word families | 3,029 |
-| Families with more than one member | 407 |
-| Words containing ë / ç | 1,535 |
+| Words | 4,087 |
+| Levels | 755 |
+| Word families | 3,011 |
+| Families with more than one member | 495 |
+| Words containing ë / ç | 1,643 |
+| Words with an example sentence | 3,751 (91.8%) |
+| Words with a cognate hook | 125 |
+
+(These figures were stale for several PRs -- the deck had already been
+rebuilt twice. They now come from `data/words.json`; check with
+`python3 tools/measure_learnability.py`.)
 
 Levels are ordered by corpus frequency, so level 1 is genuinely the first thing
 you should learn.
@@ -28,15 +37,19 @@ A level is a **session of whole word families**, not a frequency slice:
 * A family is never split apart by the level boundaries. A root and its
   derivations unlock together, so a level teaches a word group rather than an
   arbitrary slice of the frequency list.
-* A level holds at most 3 roots and at most 9 words, which is the
-  ~9-items-per-level rhythm of a real course.
+* A level holds at most 9 words, which is the ~9-items-per-level rhythm of
+  a real course. A family with more members than fit gets its own
+  sessions; a level that mixes families is the normal case (492 of 755),
+  because forcing one family per level was measured and produced 3,033
+  sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
   enough to be worth teaching, not when one of its rare derivatives surfaces.
-* 5 families are larger than a single session. The biggest is `për`, a
-  productive prefix with 61 attested derivatives, which spans 7 levels
-  (`1/7`..`7/7`). The others are `pa` (16), `bashkë` (13), `me` (11) and `a`
-  (11), each split in two. A continuation always gets a level to itself, so a
-  part label is never misleading.
+* 15 families are larger than a single session. The biggest is `për`, a
+  productive prefix with 64 attested derivatives, which spans 8 levels
+  (`1/8`..`8/8`). Then `jam` (21, 3 levels), `pa` (16), `kam` (14), `dua`
+  (13), `shkoj` (13), `bashkë` (13), `di` (12), `vras` (12), `me` (11), `a`
+  (11), `vend` (11), `flas` (11), `vij` (10) and `mend` (10). A continuation
+  always gets a level to itself, so a part label is never misleading.
 
 Levels are titled after the root they teach, the way a Wanikani level is named
 after the radical it unlocks.
