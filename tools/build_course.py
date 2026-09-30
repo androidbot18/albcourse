@@ -28,6 +28,7 @@ Design rules:
 """
 
 import json
+import form_gloss
 import form_senses
 from example_rank import rank_examples
 import os
@@ -760,6 +761,38 @@ def load_dict(path, freq):
 
 # ---------------------------------------------------------- word families
 
+def friendly_form_glosses(cards):
+    """Rewrite inflected-form glosses for a learner, in place.
+
+    A form card's gloss arrives as grammar ('third-person singular present
+    indicative of jam'), which is accurate and close to useless for someone
+    learning the language. form_gloss.friendly_gloss turns it into what the
+    word does in a sentence ('he/she/it is (from jam, to be)').
+
+    It needs the whole deck, because it reads each lemma's own English gloss,
+    which is why this runs after every card has been loaded rather than while
+    form cards are being created. Returns (rewritten, kept) counts; a card whose
+    gloss cannot be rewritten safely keeps the original.
+    """
+    lookup = {}
+    for c in cards:
+        lookup[c["word"]] = {"glosses": [s["gloss"] for s in c.get("senses") or []]}
+
+    rewritten = kept = 0
+    for c in cards:
+        senses = c.get("senses") or []
+        for s in senses:
+            if not s.get("is_form_of"):
+                continue
+            new = form_gloss.friendly_gloss(
+                s["gloss"], s.get("pos"), s["is_form_of"], lookup)
+            if new:
+                s["gloss"] = new
+                rewritten += 1
+            else:
+                kept += 1
+    return rewritten, kept
+
 def build_families(cards):
     """Link words into families using explicit derivation evidence ONLY.
 
@@ -1008,6 +1041,12 @@ def main():
     if added:
         print("  +%d inflected-form cards (rank <= %d), now %d cards"
               % (len(added), FORM_CARD_MAX_RANK, len(cards)))
+
+    # The whole deck now exists, so each form can be glossed using the
+    # English meaning of its own lemma.
+    n_rw, n_keep = friendly_form_glosses(cards)
+    if n_rw:
+        print("  learner glosses: %d rewritten, %d kept as-is" % (n_rw, n_keep))
 
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.
