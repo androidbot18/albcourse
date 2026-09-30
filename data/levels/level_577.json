@@ -11,10 +11,10 @@
  ],
  "pos_mix": {
   "prep": 3,
-  "adv": 2,
+  "adv": 3,
   "conj": 1,
-  "verb": 3,
-  "noun": 1
+  "verb": 1,
+  "noun": 4
  },
  "words": [
   {
@@ -556,76 +556,6 @@
    }
   },
   {
-   "id": "përdorur",
-   "sq": "përdorur",
-   "en": "participle of përdor (to use)",
-   "glosses": [
-    "participle of përdor (to use)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "participle of përdor (to use)",
-     "tags": [
-      "form-of",
-      "participle"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "përdor"
-    }
-   ],
-   "rank": 1040,
-   "count": 905,
-   "family": "për",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Haven't used it yet.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Nuk e kanë përdorur ende."
-   }
-  },
-  {
    "id": "përgjigje",
    "sq": "përgjigje",
    "en": "answer",
@@ -705,27 +635,25 @@
    }
   },
   {
-   "id": "përfshirë",
-   "sq": "përfshirë",
-   "en": "past participle of përfshij (to include)",
+   "id": "përtej",
+   "sq": "përtej",
+   "en": "beyond, on the other side",
    "glosses": [
-    "past participle of përfshij (to include)"
+    "beyond, on the other side"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "past participle of përfshij (to include)",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beyond, on the other side",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "with-ablative"
      ],
      "cats": [
       {
@@ -735,44 +663,227 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "përfshij"
+     "links": [
+      "beyond",
+      "on",
+      "the"
+     ]
     }
    ],
-   "rank": 1320,
-   "count": 679,
+   "rank": 1599,
+   "count": 548,
    "family": "për",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From për + tej.",
+   "etymology_class": "compound",
    "source_lang": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "tej",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "incorporated in the price.",
+    "en": "They are beyond.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "përfshirë në çmim."
+    "sq": "Ato janë përtej."
+   }
+  },
+  {
+   "id": "përbindësh",
+   "sq": "përbindësh",
+   "en": "monster",
+   "glosses": [
+    "monster",
+    "large predatory animal",
+    "evil person"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "monster",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mythology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mythology",
+      "monster"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "large predatory animal",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësh",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "predatory",
+      "animal"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "evil person",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësh",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "evil"
+     ]
+    }
+   ],
+   "rank": 2143,
+   "count": 399,
+   "family": "për",
+   "is_root": false,
+   "etymology": "From për- + bind (“awe, dread”) + -ësh.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "bind",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "përbindshëm",
+    "adjective"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "përbindësha",
+     "tag": "plural"
+    },
+    {
+     "form": "përbindëshi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "In his monsters.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "në përbindësh të tij."
    }
   }
  ]

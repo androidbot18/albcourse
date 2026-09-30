@@ -30,6 +30,7 @@ Design rules:
 import json
 import form_gloss
 import form_senses
+import teaching_order
 from example_rank import rank_examples
 import os
 import re
@@ -922,6 +923,19 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     so it is displayed but never re-ordered.
     """
     rank_of = {c["word"]: c["rank"] for c in cards}
+
+    # Teaching priority inside a family. `jam` has 21 members, and a
+    # frequency sort opens that family with `qenka`/`qenke` (a colloquial
+    # present) and buries the subjunctive and the perfect. Sorting by
+    # tense first puts the everyday present at the front of the lesson.
+    by_word_card = {c["word"]: c for c in cards}
+
+    def tier_of(word):
+        # The family root names the level, so it always leads its own
+        # family even when its gloss reads as a rare or archaic form.
+        if word == root:
+            return -1
+        return teaching_order.teaching_tier(by_word_card.get(word) or {})
     components = components or {}
 
     def stems_of(word):
@@ -1000,7 +1014,10 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     # Split any family larger than a session, keeping root first.
     units = []  # (root, members, part, nparts)
     for root in ordered:
-        members = sorted(families[root], key=lambda w: (rank_of.get(w, 10 ** 9), w))
+        members = sorted(
+            families[root],
+            key=lambda w: (tier_of(w), rank_of.get(w, 10 ** 9), w),
+        )
         nparts = max(1, -(-len(members) // per_level))
         for i in range(0, len(members), per_level):
             units.append((root, members[i:i + per_level], i // per_level, nparts))
@@ -1165,8 +1182,19 @@ def main():
                 # Corpus fallback, shaped like a sense example so the
                 # existing exampleForSense() logic reads it unchanged.
                 "corpus_example": corpus_examples.get(w),
+                "_tier": (0 if w == root else
+                          teaching_order.teaching_tier(c)),
             })
-        objs.sort(key=lambda o: o["rank"])
+        # Order within a level is the teaching order assign_levels() chose
+        # (family members sorted by tense/register tier, then frequency).
+        # Re-sorting by raw rank here silently undid that work: the `jam`
+        # family came out byte-identical to the frequency order, which is
+        # how the tier sort was found to be a no-op in practice.
+        objs.sort(key=lambda o: (o["_tier"], o["rank"]))
+        # _tier exists only to drive that sort. The level-file contract is
+        # that no build-time field ships, so drop it before writing.
+        for o in objs:
+            del o["_tier"]
         # A single-family level is named after its root, the way a Wanikani
         # level is named after the radical it unlocks; a split family keeps
         # the root and gains a "2/3" marker. A multi-family level lists the
