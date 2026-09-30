@@ -33,6 +33,7 @@ import form_senses
 import teaching_order
 import pack_shape
 import pos_balance
+import cognates
 from example_rank import rank_examples
 import os
 import re
@@ -1223,6 +1224,10 @@ def main():
                 "etymology": c["etymology"],
                 "etymology_class": c["etymology_class"],
                 "source_lang": c["source_lang"],
+                # Item 3: the source-language form, e.g. "from Latin soca".
+                # The deck already shows components this way ("from e- +
+                # sille"); a cognate is the historical equivalent.
+                "cognate": cognates.cognate_line(w, c["etymology"], c["source_lang"]),
                 "parents": c["parents"][:3],
                 "components": c.get("components") or [],
                 "derived": c["derived"][:8],

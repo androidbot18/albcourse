@@ -145,6 +145,9 @@ def main():
                     # render the label twice. Dedup, then cap at 2.
                     "pos": dedup_labels(w)[:2],
                     "etymology_class": w.get("etymology_class"),
+                    # Item 3: the source-language form, shown like the
+                    # component line ("from e- + sille") as "from Latin soca".
+                    "cognate": w.get("cognate"),
                     "components": w.get("components") or [],
                     # Wiktionary first; corpus only fills a genuine gap.
                     # Only sq/en ship. The corpus record also carries

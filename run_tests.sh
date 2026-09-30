@@ -32,6 +32,13 @@ echo "== early level balance =="
 python3 tools/test_pos_balance.py
 
 echo
+echo "== cognate hooks =="
+# The source-language form shown on a card ("from Latin soca"). The failure
+# mode this guards is subtle: the extractor can return the English gloss
+# instead of the source word, which looks plausible and teaches nothing.
+python3 tools/test_cognates.py
+
+echo
 echo "== family completeness =="
 # The family rule is strict, so it can also UNDER-link: a real derivative left
 # alone would quietly weaken every level built on it. This asserts that no

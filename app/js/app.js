@@ -150,6 +150,17 @@ function componentsLine(w) {
   return line;
 }
 
+/* The source-language form, e.g. "from Latin soca".
+   This is the historical equivalent of the component line: a kanji learner
+   sees 日 in 明, an Albanian learner sees soca in shokë. Rendered on the
+   revealed side only -- it is a memory hook for the answer, not a clue
+   for the prompt. Returns null when the etymology named no form. */
+function cognateLine(w) {
+  const c = w && w.cognate;
+  if (!c) return null;
+  return el('div', 'cognate', c);
+}
+
 function wordRow(w) {
   const row = el('div', 'word');
   const top = el('div', 'word-top');
@@ -159,6 +170,8 @@ function wordRow(w) {
   row.append(el('div', 'en', w.en));
   const comps = componentsLine(w);
   if (comps) row.append(comps);
+  const cog = cognateLine(w);
+  if (cog) row.append(cog);
 
   const ex = firstExample(w);
   if (ex) {
@@ -217,6 +230,13 @@ function viewStudy(root) {
 
   if (state.revealed) {
     card.append(el('div', 'answer-label', forward ? 'English' : 'Albanian'));
+    // A cognate is a recall aid, so it belongs with the answer, not the
+    // prompt: showing "from Latin soca" before the reveal would hand over
+    // the shape of the word the learner is being asked to recognise.
+    if (forward) {
+      const cog = cognateLine(w);
+      if (cog) card.append(cog);
+    }
     card.append(el('div', 'answer', forward ? w.en : w.sq));
     if (w.ex && w.ex.sq && w.ex.en) {
       const ex = el('div', 'example');

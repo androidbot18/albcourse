@@ -89,6 +89,7 @@ function buildViewStudy(src) {
   const stubbed = [
     'function viewDone(root){ return null; }',
     'function componentsLine(w){ return null; }',
+    'function cognateLine(w){ return null; }',
     'function preview(item, g){ return ""; }',
     'function itemFor(id){ return null; }',
     'function grade(){ }',
