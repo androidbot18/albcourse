@@ -1,25 +1,24 @@
 {
  "level": 3,
- "title": "jam 2/3",
+ "title": "jam 1/3",
  "root": "jam",
  "root_gloss": "to be",
- "part": 2,
+ "part": 1,
  "parts": 3,
  "word_count": 9,
  "families": [
   "jam"
  ],
  "pos_mix": {
-  "verb": 8,
-  "noun": 3
+  "verb": 9
  },
  "words": [
   {
-   "id": "qoftë",
-   "sq": "qoftë",
-   "en": "he/she/it is (from jam, to be)",
+   "id": "jam",
+   "sq": "jam",
+   "en": "to be",
    "glosses": [
-    "he/she/it is (from jam, to be)"
+    "to be"
    ],
    "pos": [
     "verb"
@@ -31,44 +30,42 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "he/she/it is (from jam, to be)",
-     "tags": [
-      "form-of",
-      "optative",
-      "present",
-      "singular",
-      "third-person"
-     ],
-     "cats": [
+     "gloss": "to be",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "Është e bukur.",
+       "en": "She is beautiful.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "S'është për ty.",
+       "en": "It is not for you.",
+       "offsets": [
+        [
+         2,
+         7
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "is_form_of": "jam"
+     "links": [
+      "be"
+     ]
     }
    ],
-   "rank": 504,
-   "count": 2094,
+   "rank": 36,
+   "count": 49311,
    "family": "jam",
-   "is_root": false,
-   "etymology": "From Old Albanian kloftë.",
-   "etymology_class": null,
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *esmi, from Proto-Indo-European *h₁ésmi (“to be, exist”). The forms in qe- may derive from Proto-Indo-European *kʷel- (“to turn, revolve”), whence also Ancient Greek πέλω (pélō, “to be”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -77,41 +74,19 @@
    "related": [],
    "forms": [
     {
-     "form": "kloftë",
-     "tag": "alternative"
+     "form": "qeshë",
+     "tag": "aorist"
     },
     {
-     "form": "koftë",
-     "tag": "alternative"
-    },
-    {
-     "form": "koft",
-     "tag": "alternative"
-    },
-    {
-     "form": "kioftë",
-     "tag": "alternative"
-    },
-    {
-     "form": "kjoftë",
-     "tag": "alternative"
+     "form": "qenë",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Glorified be God!",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "Lëvduar qoftë Perëndia!"
-   }
+   "corpus_example": null
   },
   {
-   "id": "qenka",
-   "sq": "qenka",
+   "id": "është",
+   "sq": "është",
    "en": "he/she/it is (from jam, to be)",
    "glosses": [
     "he/she/it is (from jam, to be)"
@@ -128,10 +103,14 @@
      "pos_label": "verb",
      "gloss": "he/she/it is (from jam, to be)",
      "tags": [
-      "admirative",
+      "Arbëresh",
+      "Cham",
+      "Tosk",
       "form-of",
+      "indicative",
       "present",
       "singular",
+      "standard",
       "third-person"
      ],
      "cats": [
@@ -142,13 +121,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Arbëresh Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Cham Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -158,34 +137,39 @@
      "is_form_of": "jam"
     }
    ],
-   "rank": 799,
-   "count": 1241,
+   "rank": 6,
+   "count": 196218,
    "family": "jam",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *ensti Proto-Indo-European *h₁ésti (“to be”), from *h₁es-.\nPossibly reinforced by Latin est.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "o",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why exaggeration?",
+    "corpus": "MaCoCu",
+    "en": "Here he is!",
     "score": [
      2,
      3,
      -1,
-     10
+     8
     ],
-    "sq": "Pse qenka ekzagjerim?"
+    "sq": "Ja ku është!"
    }
   },
   {
-   "id": "qenke",
-   "sq": "qenke",
+   "id": "je",
+   "sq": "je",
    "en": "you (sg) are (from jam, to be)",
    "glosses": [
     "you (sg) are (from jam, to be)"
@@ -202,8 +186,8 @@
      "pos_label": "verb",
      "gloss": "you (sg) are (from jam, to be)",
      "tags": [
-      "admirative",
       "form-of",
+      "indicative",
       "present",
       "second-person",
       "singular"
@@ -216,7 +200,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 47 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -232,365 +216,8 @@
      "is_form_of": "jam"
     }
    ],
-   "rank": 1510,
-   "count": 586,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You are curious about us.",
-    "score": [
-     4,
-     5,
-     -1,
-     10
-    ],
-    "sq": "Na qenke kuriozuar për ne."
-   }
-  },
-  {
-   "id": "qenie",
-   "sq": "qenie",
-   "en": "being, existence",
-   "glosses": [
-    "being, existence",
-    "being (a living creature)",
-    "the objective world or the totality of things and phenomena that exist independently of consciousness; matter"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "being, existence",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "being",
-      "existence"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "being (a living creature)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ne jemi të gjithë qenie njerëzore.",
-       "en": "We are all human beings.",
-       "offsets": [
-        [
-         18,
-         23
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "being"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the objective world or the totality of things and phenomena that exist independently of consciousness; matter",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Philosophy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Philosophy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 69 16"
-      },
-      {
-       "name": "Albanian terms suffixed with -ie",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 54 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "philosophy",
-      "matter"
-     ]
-    }
-   ],
-   "rank": 4786,
-   "count": 159,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "Gerund of jam; qenë + -ie (variant of -je).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "qenë",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qenie",
-     "tag": "plural"
-    },
-    {
-     "form": "qenia",
-     "tag": "definite"
-    },
-    {
-     "form": "qenje",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "ishte",
-   "sq": "ishte",
-   "en": "he/she/it (used to) was (from jam, to be)",
-   "glosses": [
-    "he/she/it (used to) was (from jam, to be)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it (used to) was (from jam, to be)",
-     "tags": [
-      "form-of",
-      "imperfect",
-      "indicative",
-      "singular",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 45 10"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 48 5"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 48 4"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jam"
-    }
-   ],
-   "rank": 47,
-   "count": 38449,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The violence was extreme.",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "Dhuna ishte ekstreme."
-   }
-  },
-  {
-   "id": "qenë",
-   "sq": "qenë",
-   "en": "they (have done) are (from jam, to be)",
-   "glosses": [
-    "they (have done) are (from jam, to be)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they (have done) are (from jam, to be)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 70"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 60"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 76"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "jam"
-     ],
-     "is_form_of": "jam"
-    }
-   ],
-   "rank": 128,
-   "count": 10255,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "That was me…!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ky kam qenë unë…!"
-   }
-  },
-  {
-   "id": "isha",
-   "sq": "isha",
-   "en": "I (used to) was (from jam, to be)",
-   "glosses": [
-    "I (used to) was (from jam, to be)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) was (from jam, to be)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "imperfect",
-      "indicative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 40 21"
-      },
-      {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 29 15 25 1"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 31 14 24 1"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jam"
-    }
-   ],
-   "rank": 154,
-   "count": 8158,
+   "rank": 39,
+   "count": 47501,
    "family": "jam",
    "is_root": false,
    "etymology": "",
@@ -604,22 +231,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "I was completely alone.",
+    "en": "What type are you?",
     "score": [
      2,
      3,
      -1,
      8
     ],
-    "sq": "Isha plotësisht vetëm."
+    "sq": "Çfarë tipi je?"
    }
   },
   {
-   "id": "ishe",
-   "sq": "ishe",
-   "en": "you (sg) (used to) was (from jam, to be)",
+   "id": "janë",
+   "sq": "janë",
+   "en": "they are (from jam, to be)",
    "glosses": [
-    "you (sg) (used to) was (from jam, to be)"
+    "they are (from jam, to be)"
    ],
    "pos": [
     "verb"
@@ -631,13 +258,87 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg) (used to) was (from jam, to be)",
+     "gloss": "they are (from jam, to be)",
      "tags": [
       "form-of",
-      "imperfect",
       "indicative",
-      "second-person",
-      "singular"
+      "plural",
+      "present",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 54,
+   "count": 28548,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "They are not many!",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Nuk janë shumë!"
+   }
+  },
+  {
+   "id": "jemi",
+   "sq": "jemi",
+   "en": "we are (from jam, to be)",
+   "glosses": [
+    "we are (from jam, to be)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we are (from jam, to be)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "indicative",
+      "plural",
+      "present"
      ],
      "cats": [
       {
@@ -645,7 +346,84 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "45 45 10"
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 74,
+   "count": 18283,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "To be present.",
+    "score": [
+     1,
+     4,
+     -3,
+     8
+    ],
+    "sq": "Të jemi të pranishëm."
+   }
+  },
+  {
+   "id": "jeni",
+   "sq": "jeni",
+   "en": "you (pl) are (from jam, to be)",
+   "glosses": [
+    "you (pl) are (from jam, to be)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (pl) are (from jam, to be)",
+     "tags": [
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "second-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 45 9"
       },
       {
        "name": "Pages with 4 entries",
@@ -666,8 +444,8 @@
      "is_form_of": "jam"
     }
    ],
-   "rank": 248,
-   "count": 4810,
+   "rank": 98,
+   "count": 14491,
    "family": "jam",
    "is_root": false,
    "etymology": "",
@@ -681,22 +459,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Why were you in Albania?",
+    "en": "Are you hungry?",
     "score": [
+     1,
      3,
-     4,
-     -1,
+     -2,
      8
     ],
-    "sq": "Pse ishe në Shqipëri?"
+    "sq": "Jeni të uritur?"
    }
   },
   {
-   "id": "ishin",
-   "sq": "ishin",
-   "en": "they (used to) was (from jam, to be)",
+   "id": "jesh",
+   "sq": "jesh",
+   "en": "you (sg) are (from jam, to be)",
    "glosses": [
-    "they (used to) was (from jam, to be)"
+    "you (sg) are (from jam, to be)"
    ],
    "pos": [
     "verb"
@@ -708,13 +486,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "they (used to) was (from jam, to be)",
+     "gloss": "you (sg) are (from jam, to be)",
      "tags": [
       "form-of",
-      "imperfect",
-      "indicative",
-      "plural",
-      "third-person"
+      "present",
+      "second-person",
+      "singular",
+      "subjunctive"
      ],
      "cats": [
       {
@@ -722,29 +500,29 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "45 45 10"
+       "_dis": "84 16"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "46 46 9"
+       "_dis": "91 9"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "48 48 5"
+       "_dis": "92 8"
       }
      ],
      "examples": [],
      "is_form_of": "jam"
     }
    ],
-   "rank": 258,
-   "count": 4610,
+   "rank": 228,
+   "count": 5493,
    "family": "jam",
    "is_root": false,
    "etymology": "",
@@ -758,14 +536,168 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "No, they were not.",
+    "en": "To be yourself.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Jo, nuk ishin."
+    "sq": "Të jesh vetvetja."
+   }
+  },
+  {
+   "id": "jem",
+   "sq": "jem",
+   "en": "I am (from jam, to be)",
+   "glosses": [
+    "I am (from jam, to be)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I am (from jam, to be)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "present",
+      "singular",
+      "subjunctive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 6 17 17 3 1 0 14 13 15 0 1"
+      },
+      {
+       "name": "Tok Pisin entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 10 6 5 9 3 3 16 11 12 2 5"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 260,
+   "count": 4564,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I could be.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Mund të jem."
+   }
+  },
+  {
+   "id": "jenë",
+   "sq": "jenë",
+   "en": "they are (from jam, to be)",
+   "glosses": [
+    "they are (from jam, to be)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "they are (from jam, to be)",
+     "tags": [
+      "form-of",
+      "plural",
+      "present",
+      "subjunctive",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "83 17"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "91 9"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "92 8"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "jam"
+    }
+   ],
+   "rank": 468,
+   "count": 2256,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Be Prepared!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Të jenë të përgatitur!"
    }
   }
  ]

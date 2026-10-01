@@ -1,32 +1,34 @@
 {
  "level": 399,
- "title": "pikturë, qetësohem, rrahje, keqkuptim, mek, qij +4",
+ "title": "nen, qese, kafaz, gjerman, flitet, çokollatë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "keqkuptim",
-  "mek",
-  "pikturë",
-  "qetësohem",
-  "qij",
-  "rrahje"
+  "flitet",
+  "gjerman",
+  "kafaz",
+  "nen",
+  "qese",
+  "çokollatë"
  ],
  "pos_mix": {
-  "noun": 6,
-  "verb": 5
+  "noun": 18,
+  "adj": 3,
+  "verb": 8,
+  "adv": 2
  },
  "words": [
   {
-   "id": "pikturë",
-   "sq": "pikturë",
-   "en": "painting (art form)",
+   "id": "nen",
+   "sq": "nen",
+   "en": "paragraph, article, section, clause (of a law, statute or contract)",
    "glosses": [
-    "painting (art form)",
-    "painting (work of art)",
-    "very good description, depiction"
+    "paragraph, article, section, clause (of a law, statute or contract)",
+    "ankle",
+    "fragrant plant, perhaps thyme, or mint"
    ],
    "pos": [
     "noun",
@@ -42,36 +44,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "painting (art form)",
+     "gloss": "paragraph, article, section, clause (of a law, statute or contract)",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "painting"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "painting (work of art)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "painting"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "very good description, depiction",
-     "tags": [
-      "feminine",
-      "figuratively"
+      "masculine"
      ],
      "cats": [
       {
@@ -79,156 +54,355 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "9 9 82"
+       "_dis": "37 34 24 5"
+      },
+      {
+       "name": "Body parts",
+       "kind": "other",
+       "parents": [
+        "Anatomy"
+       ],
+       "source": "w+disamb",
+       "orig": "sq:Body parts",
+       "langcode": "sq",
+       "_dis": "34 17 40 9"
+      },
+      {
+       "name": "Law",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Law",
+       "langcode": "sq",
+       "_dis": "9 84 7 1"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "paragraph",
+      "article",
+      "section"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ankle",
+     "tags": [
+      "masculine",
+      "regional"
+     ],
+     "cats": [
+      {
+       "name": "Regional Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 34 24 5"
+      },
+      {
+       "name": "Body parts",
+       "kind": "other",
+       "parents": [
+        "Anatomy"
+       ],
+       "source": "w+disamb",
+       "orig": "sq:Body parts",
+       "langcode": "sq",
+       "_dis": "34 17 40 9"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regional",
+      "ankle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fragrant plant, perhaps thyme, or mint",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Plants",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Plants",
+       "langcode": "sq",
+       "_dis": "12 26 25 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thyme",
+      "mint"
+     ]
+    }
+   ],
+   "rank": 3940,
+   "count": 198,
+   "family": "nen",
+   "is_root": true,
+   "etymology": "Variant of nyjë, nye (“article; joint”), whose stem was originally nen-.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "amaranth",
+    "mint"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "nene",
+     "tag": "plural"
+    },
+    {
+     "form": "neni",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are not under your control.",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Ato nuk jane nen kontrollin tend."
+   }
+  },
+  {
+   "id": "qese",
+   "sq": "qese",
+   "en": "bag, pouch",
+   "glosses": [
+    "bag, pouch",
+    "purse, wallet (for money)",
+    "sac, bag (containing liquid)",
+    "washcloth, flannel",
+    "money, one's income, one's assets",
+    "a sum amounting to 500 groshë"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bag, pouch",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Bags",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Bags",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bag",
+      "pouch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "purse, wallet (for money)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "purse",
+      "wallet"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sac, bag (containing liquid)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "sac",
+      "bag"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "washcloth, flannel",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "washcloth",
+      "flannel"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "money, one's income, one's assets",
+     "tags": [
+      "colloquial",
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "money",
+      "income",
+      "assets"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a sum amounting to 500 groshë",
+     "tags": [
+      "archaic",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Currency",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Currency",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 24 9 35 9 10"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 7 86"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 6 87"
+       "_dis": "12 12 4 52 8 12"
       }
      ],
      "examples": [],
      "links": [
-      "description",
-      "depiction"
+      "groshë"
      ]
     }
    ],
-   "rank": 6064,
-   "count": 119,
-   "family": "pikturë",
+   "rank": 3944,
+   "count": 197,
+   "family": "qese",
    "is_root": true,
-   "etymology": "Borrowed from Italian pittura, with the etymological -kt- restored. Compare Serbo-Croatian piktúra /пикту́ра.",
+   "etymology": "Borrowed from Ottoman Turkish كیسه (kise, kese).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "pikturoj",
-    "pikturshëm"
+    "qeselidhur",
+    "qeseshpuar",
+    "qeskë"
    ],
-   "related": [
-    "piktor"
-   ],
-   "forms": [
-    {
-     "form": "piktura",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's like a painting!",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Është si një pikturë!"
-   }
-  },
-  {
-   "id": "qetësohem",
-   "sq": "qetësohem",
-   "en": "to calm down, to quiet down",
-   "glosses": [
-    "to calm down, to quiet down"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to calm down, to quiet down",
-     "tags": [
-      "mediopassive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "calm down",
-      "quiet down"
-     ]
-    }
-   ],
-   "rank": 6088,
-   "count": 119,
-   "family": "qetësohem",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qetësuar",
-     "tag": "participle"
+     "form": "qese",
+     "tag": "plural"
+    },
+    {
+     "form": "qesja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Tracy decided to make lemonade to cool off.",
+    "en": "Kind of like a bag, but there were a lot of people.",
     "score": [
-     3,
+     1,
      7,
-     -4,
+     -6,
      10
     ],
-    "sq": "Tracy vendosi të bëjë limonadë të qetësohem."
+    "sq": "Ca si qese, por kishte shumë njerëz."
    }
   },
   {
-   "id": "rrahje",
-   "sq": "rrahje",
-   "en": "fighting",
+   "id": "kafaz",
+   "sq": "kafaz",
+   "en": "cage (for animals)",
    "glosses": [
-    "fighting",
-    "fight"
+    "cage (for animals)",
+    "pen, coop (for animals)",
+    "basket, hamper for food",
+    "shutter (of a window)",
+    "guard, worker of a diplomat or official"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -236,9 +410,57 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fighting",
+     "gloss": "cage (for animals)",
      "tags": [
-      "feminine"
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 33 8 25 4"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "kafaz zogjsh",
+       "en": "birdcage",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "kafaz lepujsh",
+       "en": "hare hutch",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "cage"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pen, coop (for animals)",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
@@ -246,127 +468,219 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "85 15"
+       "_dis": "30 33 8 25 4"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "82 18"
+       "_dis": "26 35 14 19 5"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "91 9"
+       "_dis": "35 48 7 8 3"
       }
      ],
      "examples": [],
      "links": [
-      "fighting"
+      "pen",
+      "coop"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fight",
+     "gloss": "basket, hamper for food",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "fight"
+      "basket",
+      "hamper",
+      "food"
      ]
-    }
-   ],
-   "rank": 6110,
-   "count": 118,
-   "family": "rrahje",
-   "is_root": true,
-   "etymology": "Gerund of rrah and rrihet.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "rrahje",
-     "tag": "plural"
     },
-    {
-     "form": "rrahja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And they gave him blows.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Dhe ata i dhanë atij rrahje."
-   }
-  },
-  {
-   "id": "keqkuptim",
-   "sq": "keqkuptim",
-   "en": "misunderstanding",
-   "glosses": [
-    "misunderstanding"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "misunderstanding",
-     "tags": [],
+     "gloss": "shutter (of a window)",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "30 33 8 25 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "shutter"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guard, worker of a diplomat or official",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "guard",
+      "worker",
+      "diplomat"
+     ]
+    }
+   ],
+   "rank": 3946,
+   "count": 197,
+   "family": "kafaz",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish قفس (kafes), from Classical Persian قفس (qafas), from Arabic قَفَص (qafaṣ).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "kafaz i kraharorit"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kafaze",
+     "tag": "plural"
+    },
+    {
+     "form": "kafazi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "gjerman",
+   "sq": "gjerman",
+   "en": "German (male person)",
+   "glosses": [
+    "German (male person)",
+    "German"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "German (male person)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "36 64"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "16 84"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Gjermanët.",
+       "en": "The Germans.",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
      "links": [
-      "misunderstanding"
+      "German"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "German",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Germany",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Germany",
+       "langcode": "sq",
+       "_dis": "58 42"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "populli gjerman",
+       "en": "the German people",
+       "offsets": [
+        [
+         8,
+         15
+        ]
+       ]
+      },
+      {
+       "sq": "gjuha gjermane",
+       "en": "the German language",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "German"
      ]
     }
    ],
-   "rank": 6119,
-   "count": 118,
-   "family": "keqkuptim",
+   "rank": 3956,
+   "count": 197,
+   "family": "gjerman",
    "is_root": true,
-   "etymology": "Gerund of keqkuptoj and keqkuptohem.",
-   "etymology_class": null,
+   "etymology": "Borrowed from English German.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -375,39 +689,43 @@
    "related": [],
    "forms": [
     {
-     "form": "keqkuptime",
-     "tag": "plural"
-    },
-    {
-     "form": "keqkuptimi",
-     "tag": "definite"
+     "form": "m",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is a misconception.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Ky është një keqkuptim."
-   }
+   "corpus_example": null
   },
   {
-   "id": "mek",
-   "sq": "mek",
-   "en": "to bleat, stammer",
+   "id": "flitet",
+   "sq": "flitet",
+   "en": "is spoken",
    "glosses": [
-    "to bleat, stammer",
-    "to wet"
+    "is spoken",
+    "tells; (it) is about (when associated with books, documents, etc)",
+    "was spoken",
+    "was uttered, voiced, said",
+    "are spoken",
+    "tell; (they) are about (when associated with books, documents, etc)",
+    "were spoken",
+    "were said, uttered, voiced"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
@@ -415,7 +733,438 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to bleat, stammer",
+     "gloss": "is spoken",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Gjuha shqipe flitet kryesisht në Republiken e Shqipërisë dhe në Kosovë.",
+       "en": "The Albanian language is spoken primarily in the Republic of Albania and in Kosovo.",
+       "offsets": [
+        [
+         13,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "is",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "tells; (it) is about (when associated with books, documents, etc)",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Përse flitet në libër?",
+       "en": "What is the book about?",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "tells",
+      "it"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "was spoken",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "U fol gjuha arbëreshë në atë kohë.",
+       "en": "The (Old) Albanian language was spoken at that time.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "was",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "was uttered, voiced, said",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 6 33 6 6 6 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 6 4 37 4 5 4 34"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 5 3 40 3 4 3 37"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U fol fjala e ndaluar.",
+       "en": "The forbidden word was voiced.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "was",
+      "uttered"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "are spoken",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Gjuhët romake fliten në Francë, Itali, Portugali, Spanjë, Rumani edhe në Moldovë.",
+       "en": "Romance languages are spoken in France, Italy, Portugal, Spain, Romania and Moldova.",
+       "offsets": [
+        [
+         14,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "are",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "tell; (they) are about (when associated with books, documents, etc)",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Përse fliten këto libra?",
+       "en": "What are these books about?",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "tell",
+      "they"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "were spoken",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Para 4000 vjet u folën gjuhë të tjera.",
+       "en": "Other languages were spoken 4000 years ago.",
+       "offsets": [
+        [
+         15,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "were",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "were said, uttered, voiced",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 6 33 6 6 6 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 6 4 37 4 5 4 34"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 5 3 40 3 4 3 37"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U folën fjalë të këqija.",
+       "en": "Bad words were uttered.",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "were",
+      "said"
+     ]
+    }
+   ],
+   "rank": 3957,
+   "count": 197,
+   "family": "flitet",
+   "is_root": true,
+   "etymology": "3rd person (singular) mediopassive form of flet (“(it) speaks”).\nSee active voice form flas (“to speak”) for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "flas",
+    "folur",
+    "fjalë",
+    "fjala",
+    "fjalor"
+   ],
+   "forms": [
+    {
+     "form": "folur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "çokollatë",
+   "sq": "çokollatë",
+   "en": "chocolate",
+   "glosses": [
+    "chocolate",
+    "hot chocolate",
+    "chocolate-coloured; chocolate, (reddish-brown)"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chocolate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Sweets",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Sweets",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "çokollatë me qumësht",
+       "en": "milk chocolate",
+       "offsets": [
+        [
+         0,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "chocolate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hot chocolate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Beverages",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Beverages",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 8 67"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 6 67"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hot chocolate"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "chocolate-coloured; chocolate, (reddish-brown)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Colors",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chocolate"
+     ]
+    }
+   ],
+   "rank": 3961,
+   "count": 196,
+   "family": "çokollatë",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish چوقولاته (çokolata), from Italian cioccolata.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "gjermane",
+   "sq": "gjermane",
+   "en": "german (female person)",
+   "glosses": [
+    "german (female person)",
+    "german"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "german (female person)",
      "tags": [],
      "cats": [
       {
@@ -423,187 +1172,246 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "57 43"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bleat",
-      "stammer"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to wet",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "wet"
-     ]
-    }
-   ],
-   "rank": 6143,
-   "count": 117,
-   "family": "mek",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *mek-, from Proto-Indo-European *mek- (“to bleat”). Cognate to Lithuanian meknénti (“to bleat”). An onomatopoeic root.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "meka",
-     "tag": "aorist"
-    },
-    {
-     "form": "mekur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I loved and admired President McKay.",
-    "score": [
-     5,
-     9,
-     -4,
-     10
-    ],
-    "sq": "Unë e doja dhe e admiroja Presidentin Mek-Kei."
-   }
-  },
-  {
-   "id": "qij",
-   "sq": "qij",
-   "en": "to hew",
-   "glosses": [
-    "to hew",
-    "to fuck"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hew",
-     "tags": [],
-     "cats": [
+       "_dis": "30 70"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
        "_dis": "58 42"
       },
       {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
-      },
-      {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
+       "_dis": "45 55"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Gjermane, gjermanja.",
+       "en": "German woman, the german woman.",
+       "offsets": [
+        [
+         0,
+         7
+        ],
+        [
+         10,
+         17
+        ]
+       ]
+      },
+      {
+       "sq": "Gjermanet.",
+       "en": "The Germans.",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
      "links": [
-      "hew"
+      "german"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to fuck",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "german",
      "tags": [
-      "vulgar"
+      "feminine"
      ],
      "cats": [
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian terms suffixed with -e",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
+       "_dis": "56 44"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 19 34 18 0"
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjuha gjermane",
+       "en": "the german language",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
       },
       {
-       "name": "Sex",
+       "sq": "Gjuha gjermane flitet në Gjermani, Austri dhe në rajonin verior të Zvicrës.",
+       "en": "The German language is spoken in Germany, Austria and the nothern region of Switzerland.",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "german"
+     ]
+    }
+   ],
+   "rank": 4556,
+   "count": 167,
+   "family": "gjerman",
+   "is_root": false,
+   "etymology": "gjerman + -e",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "gjerman",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjerman",
+     "tag": "masculine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "gjermanisht",
+   "sq": "gjermanisht",
+   "en": "in German",
+   "glosses": [
+    "in German",
+    "german(ly), in German manner"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in German",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "orig": "sq:Sex",
-       "langcode": "sq",
-       "_dis": "0 100"
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian terms suffixed with -isht",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
       }
      ],
      "examples": [],
      "links": [
-      "fuck"
+      "German"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "german(ly), in German manner",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian terms suffixed with -isht",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "german"
      ]
     }
    ],
-   "rank": 6183,
-   "count": 116,
-   "family": "qij",
-   "is_root": true,
-   "etymology": "A variant of Albanian kij, with palatalized velar.",
-   "etymology_class": null,
+   "rank": 10882,
+   "count": 58,
+   "family": "gjerman",
+   "is_root": false,
+   "etymology": "From gjerman + -isht.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [
-    "qihem",
-    "qirë",
-    "qirje"
-   ],
-   "related": [
-    "bythëqirë",
-    "nënëqirë",
-    "robqirë",
-    "shkërdhej",
-    "shqyej"
-   ],
-   "forms": [
+   "components": [
     {
-     "form": "qirë",
-     "tag": "participle"
+     "word": "gjerman",
+     "role": "prefix"
     }
    ],
+   "derived": [
+    "gjermanishte"
+   ],
+   "related": [
+    "gjerman",
+    "gjermane",
+    "Gjermani"
+   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Fuck me, I'm drunk!",
+    "en": "Don't speak German?",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Qij mua, unë jam i dehur!"
+    "sq": "Nuk flisni gjermanisht?"
    }
   }
  ]

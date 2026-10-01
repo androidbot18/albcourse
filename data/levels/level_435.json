@@ -1,103 +1,165 @@
 {
  "level": 435,
- "title": "ngarkoj, barrë, shtoj +1",
- "root": "",
- "root_gloss": "",
+ "title": "sqaroj",
+ "root": "sqaroj",
+ "root_gloss": "to explain; to clarify",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 2,
  "families": [
-  "barrë",
-  "ngarkoj",
-  "shtoj"
+  "sqaroj"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 9
+  "verb": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "ngarkesë",
-   "sq": "ngarkesë",
-   "en": "load",
+   "id": "sqaroj",
+   "sq": "sqaroj",
+   "en": "to explain; to clarify",
    "glosses": [
-    "load",
-    "electric charge"
+    "to explain; to clarify"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "load",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to explain; to clarify",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "load"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "electric charge",
-     "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
-      {
-       "name": "Chemistry",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Chemistry",
-       "langcode": "sq"
-      },
-      {
-       "name": "Physics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Physics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 96"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with s-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "physics",
-      "chemistry",
-      "electric charge"
+      "explain",
+      "clarify"
      ]
     }
    ],
-   "rank": 7656,
-   "count": 90,
-   "family": "ngarkoj",
-   "is_root": false,
-   "etymology": "From ngarkoj + -esë.",
+   "rank": 5409,
+   "count": 137,
+   "family": "sqaroj",
+   "is_root": true,
+   "etymology": "Possibly related to sqaq, with a meaning 'to make weak' in terms of difficulty of understanding. Alternatively a compound, from s- (“de-”) + qartë (“clear”) + -oj (verb suffix).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "ngarkoj",
+     "word": "qartë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "sqarova",
+     "tag": "aorist"
+    },
+    {
+     "form": "sqaruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I should clarify this.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Unë duhet të sqaroj këtë."
+   }
+  },
+  {
+   "id": "sqarim",
+   "sq": "sqarim",
+   "en": "explanation",
+   "glosses": [
+    "explanation"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "explanation",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "explanation"
+     ]
+    }
+   ],
+   "rank": 18456,
+   "count": 29,
+   "family": "sqaroj",
+   "is_root": false,
+   "etymology": "From sqaroj + -im masculine noun suffix.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "sqaroj",
      "role": "prefix"
     }
    ],
@@ -105,539 +167,24 @@
    "related": [],
    "forms": [
     {
-     "form": "ngarkesa",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do you need to transport a Full Load?",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Keni nevojë të transportoni një ngarkesë të plotë?"
-   }
-  },
-  {
-   "id": "barrë",
-   "sq": "barrë",
-   "en": "burden, load",
-   "glosses": [
-    "burden, load",
-    "fetus"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "burden, load",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "burden",
-      "load"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fetus",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fetus"
-     ]
-    }
-   ],
-   "rank": 7665,
-   "count": 90,
-   "family": "barrë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *bárā-, from Proto-Indo-European *bʰor-áh₂ (“burden, load”), from *bʰer- (“to carry”). Cognate to Ancient Greek φορά (phorá, “burden, load”). More at bie and bark. An etymological differentiation between \"burden, load\" and \"fetus\", as desired by Orel, isn't necessary.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "bar",
-    "mbaj",
-    "mbaroj",
-    "mbars",
-    "barros"
-   ],
-   "forms": [
-    {
-     "form": "barrë",
+     "form": "sqarime",
      "tag": "plural"
     },
     {
-     "form": "barra",
+     "form": "sqarimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "It was a heavy burden.",
+    "en": "They didn't give us any explanation.",
     "score": [
      1,
-     4,
-     -3,
+     5,
+     -4,
      8
     ],
-    "sq": "Ishte barrë e rëndë."
-   }
-  },
-  {
-   "id": "shtoj",
-   "sq": "shtoj",
-   "en": "to add",
-   "glosses": [
-    "to add",
-    "to increase, augment",
-    "to accumulate, accrue"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to add",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 36 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 34 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "add"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to increase, augment",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 52 30"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 36 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 34 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "increase",
-      "augment"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to accumulate, accrue",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 36 35"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 34 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "accumulate",
-      "accrue"
-     ]
-    }
-   ],
-   "rank": 7684,
-   "count": 90,
-   "family": "shtoj",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *stānja, from Proto-Indo-European *stnéh₂ti, nasal present of Proto-Indo-European *steh₂- (“to stand”). Cognate to Latin stō, Old High German stān, Lithuanian stóju and Proto-Slavic *stati.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "kundërshtoj",
-    "dështoj"
-   ],
-   "related": [
-    "shtazë",
-    "shtaj"
-   ],
-   "forms": [
-    {
-     "form": "shtuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But what must I add?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Por çfarë duhet të shtoj?"
-   }
-  },
-  {
-   "id": "ngarkoj",
-   "sq": "ngarkoj",
-   "en": "to load",
-   "glosses": [
-    "to load",
-    "to charge",
-    "to impose",
-    "to impute, attribute",
-    "to assign",
-    "to upload"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to load",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 21 16 18 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 18 15 18 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "load"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to charge",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 21 16 18 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 18 15 18 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "charge"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to impose",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 21 16 18 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 18 15 18 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "impose"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to impute, attribute",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 7 10 13 33 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 21 16 18 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 18 15 18 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "impute",
-      "attribute"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to assign",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 7 10 13 33 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 21 16 18 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 18 15 18 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "assign"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to upload",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 7 10 13 33 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 21 16 18 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 18 15 18 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "upload"
-     ]
-    }
-   ],
-   "rank": 17597,
-   "count": 31,
-   "family": "ngarkoj",
-   "is_root": true,
-   "etymology": "From Vulgar Latin *incarrico. Compare Aromanian ncarcu, Romanian încărca.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin incarrico",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "shkarkoj",
-    "barros",
-    "lëshoj"
-   ],
-   "forms": [
-    {
-     "form": "ngarkova",
-     "tag": "aorist"
-    },
-    {
-     "form": "ngarkuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What kind of photos can I add?",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Çfarë lloj fotosh mund të ngarkoj?"
+    "sq": "Nuk na dhanë asnjë sqarim."
    }
   }
  ]

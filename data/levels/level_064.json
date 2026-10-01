@@ -1,44 +1,42 @@
 {
  "level": 64,
- "title": "jep, gjatë, vogël, mi +2",
+ "title": "punë, as",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 9,
  "families": [
-  "gjatë",
-  "jep",
-  "mi",
-  "vogël"
+  "as",
+  "punë"
  ],
  "pos_mix": {
-  "verb": 1,
-  "prep": 1,
-  "adj": 3,
-  "pron": 1,
-  "noun": 2
+  "noun": 7,
+  "adv": 1,
+  "verb": 3
  },
  "words": [
   {
-   "id": "jep",
-   "sq": "jep",
-   "en": "to give",
+   "id": "punë",
+   "sq": "punë",
+   "en": "work; labour; job",
    "glosses": [
-    "to give"
+    "work; labour; job"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to give",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "work; labour; job",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,7 +45,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,23 +57,19 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "jap",
-       "en": "I give",
-       "offsets": []
-      }
-     ],
+     "examples": [],
      "links": [
-      "give"
+      "work",
+      "labour",
+      "job"
      ]
     }
    ],
-   "rank": 214,
-   "count": 5846,
-   "family": "jep",
+   "rank": 163,
+   "count": 7674,
+   "family": "punë",
    "is_root": true,
-   "etymology": "From older ep (Buzuku), with the initial j- coming from a reanalysis of \"i ep\" (roughly, i ep > ijep > i jep). Old Albanian ep further comes from *epi < Proto-Albanian *apijo, also reconstructed as *apīh, *apī(t), from Pre-Proto-Albanian *apii̯i/a-, inherited from Proto-Indo-European *h₁op-éi̯e/o-, meaning \"to give\" < \"to let grasp, have\".",
+   "etymology": "The current form is a participle of an obsolete form *pojë, which is a zero-grade suffixed derivation of *h₃ep- (“to work”). Relationship with Hittite [script needed] (ḫappinaḫḫ, “to become rich”) is unclear, even though there have been cases in which an older -i- has become a -u- (ahu (“beech”) is also attested as ahi in older dictionaries), making it possible for this word to have been *pina with a different meaning.\nAlternatively a derivative in -në of an unused verb *puaj, continuing Proto-Albanian *pānja. The latter is related to Ancient Greek πένομαι (pénomai, “to strain, work on”) and its deverbative πόνος (pónos), with uncertain further links.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -85,103 +79,151 @@
    "related": [],
    "forms": [
     {
-     "form": "ep",
-     "tag": "alternative"
+     "form": "punë",
+     "tag": "plural"
+    },
+    {
+     "form": "puna",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But these jobs are like that…!",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Por këto punë kështu janë…!"
+   }
   },
   {
-   "id": "gjatë",
-   "sq": "gjatë",
-   "en": "during",
+   "id": "as",
+   "sq": "as",
+   "en": "not, neither, nor",
    "glosses": [
-    "during",
-    "tall",
-    "long"
+    "not, neither, nor"
    ],
    "pos": [
-    "prep",
-    "adj",
-    "adj"
+    "adv"
    ],
    "pos_labels": [
-    "preposition",
-    "adjective",
-    "adjective"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "during",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "not, neither, nor",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 63 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "not",
+      "neither",
+      "nor"
+     ]
+    }
+   ],
+   "rank": 164,
+   "count": 7630,
+   "family": "as",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *(ne) h₂óyu kʷíd (“(not) ever, (not) on your life”). compare Ancient Greek οὐ (ou) and Armenian ոչ (očʻ) -ës",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "No, me either.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Asnjë, mua as."
+   }
+  },
+  {
+   "id": "puna",
+   "sq": "puna",
+   "en": "the work, singular (from punë)",
+   "glosses": [
+    "the work, singular (from punë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the work, singular (from punë)",
      "tags": [
-      "with-ablative"
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 13 51"
+       "source": "w"
       },
       {
-       "name": "Albanian prepositions",
+       "name": "Pages with 22 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 8 72"
+       "source": "w"
       },
       {
-       "name": "Albanian prepositions governing the ablative",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 3 91"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "during"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "tall",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "72 28 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tall"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "long",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "long"
-     ]
+     "is_form_of": "punë"
     }
    ],
-   "rank": 217,
-   "count": 5790,
-   "family": "gjatë",
-   "is_root": true,
-   "etymology": "From dialectal and archaic glatë, from Proto-Albanian *dlata, from pre-Albanian *dl̥h₁gʰto, from Proto-Indo-European *dl̥h₁gʰós and suffix *-to.",
+   "rank": 306,
+   "count": 3461,
+   "family": "punë",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -192,44 +234,42 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Women during this war.",
+    "en": "That's the job.",
     "score": [
-     2,
-     4,
-     -2,
+     0,
+     3,
+     -3,
      8
     ],
-    "sq": "Gratë gjatë kësaj lufte."
+    "sq": "Kjo është puna."
    }
   },
   {
-   "id": "vogël",
-   "sq": "vogël",
-   "en": "small, little",
+   "id": "punuar",
+   "sq": "punuar",
+   "en": "work, past form (from punoj, to work)",
    "glosses": [
-    "small, little"
+    "work, past form (from punoj, to work)"
    ],
    "pos": [
-    "adj"
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "small, little",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "work, past form (from punoj, to work)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -239,140 +279,207 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "small",
-      "little"
-     ]
+     "is_form_of": "punoj"
     }
    ],
-   "rank": 220,
-   "count": 5736,
-   "family": "vogël",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *wāgla, from Proto-Indo-European *Hou-go-, compare Latin vagus (“roaming, wandering”) and Norwegian våk (“child”). Related to vogërr. According to Krzysztof Tomasz Witczak, it is the source of Doric Greek βάδιος (bádios, “child”). According to Matasović, the etymology vogël is controversial and has no accepted source or substrate.",
-   "etymology_class": "inherited",
+   "rank": 641,
+   "count": 1585,
+   "family": "punë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "child"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Extremely small!",
+    "en": "I have never worked.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Jashtëzakonisht të vogël!"
+    "sq": "Unë nuk kam punuar kurrë."
    }
   },
   {
-   "id": "mi",
-   "sq": "mi",
-   "en": "my",
+   "id": "pune",
+   "sq": "pune",
+   "en": "work, singular (from punë)",
    "glosses": [
-    "my",
-    "mouse"
+    "work, singular (from punë)"
    ],
    "pos": [
-    "pron",
     "noun"
    ],
    "pos_labels": [
-    "pronoun",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "my",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "work, singular (from punë)",
+     "tags": [
+      "ablative",
+      "dative",
+      "form-of",
+      "indefinite",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "punë"
+    }
+   ],
+   "rank": 705,
+   "count": 1436,
+   "family": "punë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I have work discipline.",
+    "score": [
+     1,
+     4,
+     -3,
+     8
+    ],
+    "sq": "Unë kam disiplinë pune."
+   }
+  },
+  {
+   "id": "punoj",
+   "sq": "punoj",
+   "en": "to work",
+   "glosses": [
+    "to work"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to work",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
+       "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "my"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mouse",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mouse"
+      "work"
      ]
     }
    ],
-   "rank": 229,
-   "count": 5422,
-   "family": "mi",
-   "is_root": true,
-   "etymology": "From Proto-Indo-European *me-.",
-   "etymology_class": "inherited",
+   "rank": 711,
+   "count": 1428,
+   "family": "punë",
+   "is_root": false,
+   "etymology": "From punë + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "mouse"
+   "parents": [],
+   "components": [
+    {
+     "word": "punë",
+     "role": "prefix"
+    }
    ],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "minj",
-     "tag": "plural"
+     "form": "punova",
+     "tag": "aorist"
     },
     {
-     "form": "miu",
-     "tag": "definite"
+     "form": "punuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You are my witnesses!",
+    "en": "I have to work.",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Ju jeni dëshmitarë të mi."
+    "sq": "Duhet të punoj."
    }
   },
   {
-   "id": "miush",
-   "sq": "miush",
-   "en": "computer mouse",
+   "id": "punët",
+   "sq": "punët",
+   "en": "the work, plural (from punë)",
    "glosses": [
-    "computer mouse"
+    "the work, plural (from punë)"
    ],
    "pos": [
     "noun"
@@ -384,73 +491,262 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "computer mouse",
+     "gloss": "the work, plural (from punë)",
      "tags": [
-      "masculine"
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
      ],
      "cats": [
       {
-       "name": "Computing",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Computing",
-       "langcode": "sq"
+       "source": "w"
       },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "punë"
+    }
+   ],
+   "rank": 1368,
+   "count": 648,
+   "family": "punë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "People are people, and jobs are jobs.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Njerëzit janë njerëz, dhe punët janë punë."
+   }
+  },
+  {
+   "id": "punosh",
+   "sq": "punosh",
+   "en": "you (sg) work (from punoj, to work)",
+   "glosses": [
+    "you (sg) work (from punoj, to work)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) work (from punoj, to work)",
+     "tags": [
+      "form-of",
+      "present",
+      "second-person",
+      "singular",
+      "subjunctive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "punoj"
+    }
+   ],
+   "rank": 1987,
+   "count": 435,
+   "family": "punë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You need to work.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Duhet të punosh."
+   }
+  },
+  {
+   "id": "punishte",
+   "sq": "punishte",
+   "en": "workshop",
+   "glosses": [
+    "workshop",
+    "workplace",
+    "factory"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "workshop",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "68 15 17"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 8 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "workshop"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "workplace",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "workplace"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "factory",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "11 89"
-      },
-      {
-       "name": "Albanian terms suffixed with -ush",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 69"
+       "_dis": "31 4 65"
       }
      ],
      "examples": [],
      "links": [
-      "computing",
-      "mouse"
+      "factory"
      ]
     }
    ],
-   "rank": 49758,
-   "count": 7,
-   "family": "mi",
+   "rank": 22756,
+   "count": 22,
+   "family": "punë",
    "is_root": false,
-   "etymology": "From mi (“mouse”) + -ush. Sense 2 is likely a phono-semantic matching of English mouse.",
+   "etymology": "From punë + ishte common paleo-balkan noun suffix.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "mouse"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "mi",
+     "word": "punë",
      "role": "prefix"
+    },
+    {
+     "word": "ishte",
+     "role": "stem"
     }
    ],
-   "derived": [
-    "Miushi Miki"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "miushë",
+     "form": "punishte",
      "tag": "plural"
     },
     {
-     "form": "miushe",
-     "tag": "feminine"
+     "form": "punishtja",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "These may have been both residences and workshops.",
+    "score": [
+     2,
+     9,
+     -7,
+     10
+    ],
+    "sq": "Këto mund të kenë qenë rezidenca dhe punishte artizanale."
+   }
   }
  ]
 }

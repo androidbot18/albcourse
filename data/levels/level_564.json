@@ -1,43 +1,44 @@
 {
  "level": 564,
- "title": "spermë, mulli, paraburgim, tesha, perandor, kaçavidë +4",
+ "title": "shkruaj, artistik, blerje +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 9,
  "families": [
-  "kaçavidë",
-  "mulli",
-  "paraburgim",
-  "perandor",
-  "spermë",
-  "tesha"
+  "artistik",
+  "blerje",
+  "shkruaj"
  ],
  "pos_mix": {
-  "noun": 7
+  "verb": 6,
+  "noun": 5,
+  "adj": 1
  },
  "words": [
   {
-   "id": "spermë",
-   "sq": "spermë",
-   "en": "semen; sperm",
+   "id": "shkruar",
+   "sq": "shkruar",
+   "en": "write, past form (from shkruaj, to write)",
    "glosses": [
-    "semen; sperm"
+    "write, past form (from shkruaj, to write)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "semen; sperm",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "write, past form (from shkruaj, to write)",
      "tags": [
-      "feminine"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -59,28 +60,14 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Kanalet e spermës dalin nga testikujt dhe bashkohen me uretrën.",
-       "en": "Sperm ducts emerge from the testicles and join the urethra.",
-       "offsets": [
-        [
-         10,
-         17
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "semen",
-      "sperm"
-     ]
+     "examples": [],
+     "is_form_of": "shkruaj"
     }
    ],
-   "rank": 18204,
-   "count": 30,
-   "family": "spermë",
-   "is_root": true,
+   "rank": 933,
+   "count": 1025,
+   "family": "shkruaj",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -89,20 +76,164 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "sperma",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is not written.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nuk është shkruar."
+   }
   },
   {
-   "id": "mulli",
-   "sq": "mulli",
-   "en": "mill",
+   "id": "shkruaj",
+   "sq": "shkruaj",
+   "en": "to write",
    "glosses": [
-    "mill"
+    "to write",
+    "to express",
+    "to compose, draw, draw up, mark, record"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to write",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "write"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to express",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "express"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to compose, draw, draw up, mark, record",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 28 44"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 28 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 18 63"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "compose",
+      "draw",
+      "draw up"
+     ]
+    }
+   ],
+   "rank": 1422,
+   "count": 625,
+   "family": "shkruaj",
+   "is_root": true,
+   "etymology": "* From sh- (“off”) + kruaj (“to scratch”) q.v.; for sense development, compare English write from Old English wrītan (“to incise, engrave”). The noun form shkrim was probably influenced by Latin scrībō (“write”).\n* From earlier shkruon (“he/she writes”), from Proto-Albanian *śkrɔ̄n < *śkrə.on < *śkriwɔnit. More likely borrowed from Vulgar Latin *skrīβō, from Latin scrībō.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "off"
+   ],
+   "components": [
+    {
+     "word": "kruaj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "nënshkrim, nënshkrimi",
+    "nënshkruaj, nënshkruhet",
+    "nënshkruar, nënshkruara",
+    "nënshkruari",
+    "nënshkrues, nënshkruesi",
+    "parashkruaj, parashkruhet",
+    "parashkruar",
+    "pashkruar, pashkruara"
+   ],
+   "related": [
+    "kruaj",
+    "sh-",
+    "shkruhem",
+    "shkruar"
+   ],
+   "forms": [
+    {
+     "form": "shkrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "shkruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I am writing history!",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Unë shkruaj historinë!"
+   }
+  },
+  {
+   "id": "shkrim",
+   "sq": "shkrim",
+   "en": "writing",
+   "glosses": [
+    "writing"
    ],
    "pos": [
     "noun"
@@ -114,7 +245,183 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mill",
+     "gloss": "writing",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Latin links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "writing"
+     ]
+    }
+   ],
+   "rank": 7451,
+   "count": 93,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "Gerund of shkruaj; shkruaj + -im. Possibly influenced by Latin scrībō (“to write”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "shkruaj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shkrime",
+     "tag": "plural"
+    },
+    {
+     "form": "shkrimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Freelance writing?",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Shkrim i pavarur?"
+   }
+  },
+  {
+   "id": "nënshkruaj",
+   "sq": "nënshkruaj",
+   "en": "to sign",
+   "glosses": [
+    "to sign"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sign",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with nën-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sign"
+     ]
+    }
+   ],
+   "rank": 8557,
+   "count": 79,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "From nën- + shkruaj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "nën",
+     "role": "prefix"
+    },
+    {
+     "word": "shkruaj",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "nënshkrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "nënshkruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "and can I refuse to sign?",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "dhe a mund të refuzoj të nënshkruaj?"
+   }
+  },
+  {
+   "id": "përshkruaj",
+   "sq": "përshkruaj",
+   "en": "to describe",
+   "glosses": [
+    "to describe"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to describe",
      "tags": [],
      "cats": [
       {
@@ -124,73 +431,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mill"
-     ]
-    }
-   ],
-   "rank": 18228,
-   "count": 30,
-   "family": "mulli",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Late Latin molīnum, from Latin molō.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How to Maintain a Hammer Mill?",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Si të mirëmbani një mulli çekiç?"
-   }
-  },
-  {
-   "id": "paraburgim",
-   "sq": "paraburgim",
-   "en": "detention",
-   "glosses": [
-    "detention"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "detention",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms prefixed with për-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -200,6 +441,88 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "describe"
+     ]
+    }
+   ],
+   "rank": 10618,
+   "count": 60,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "From për- + shkruaj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "shkruaj",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "përshkrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përshkruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Why didn't I paint more?",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Pse nuk mundem të përshkruaj më shumë?"
+   }
+  },
+  {
+   "id": "artistik",
+   "sq": "artistik",
+   "en": "artistic (having creative skill)",
+   "glosses": [
+    "artistic (having creative skill)"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "artistic (having creative skill)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with entries",
@@ -210,13 +533,13 @@
      ],
      "examples": [],
      "links": [
-      "detention"
+      "artistic"
      ]
     }
    ],
-   "rank": 18237,
-   "count": 30,
-   "family": "paraburgim",
+   "rank": 14046,
+   "count": 42,
+   "family": "artistik",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -229,204 +552,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He is in custody.",
+    "en": "This is also the artistic name for it.",
     "score": [
      2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "Ai është në paraburgim."
-   }
-  },
-  {
-   "id": "tesha",
-   "sq": "tesha",
-   "en": "belongings, utensils, things",
-   "glosses": [
-    "belongings, utensils, things",
-    "clothes"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "belongings, utensils, things",
-     "tags": [
-      "feminine",
-      "plural"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "belongings",
-      "utensils",
-      "things"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "clothes",
-     "tags": [
-      "Gheg",
-      "feminine",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      },
-      {
-       "name": "Albanian pluralia tantum",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "clothes"
-     ]
-    }
-   ],
-   "rank": 18252,
-   "count": 30,
-   "family": "tesha",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *taišā, continuing Proto-Indo-European *tetḱ-. Related to Lithuanian tiesiù, tiēsti (“to make right, to build”) and perhaps Ancient Greek τέκτων (téktōn, “artisan”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "teshë"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "They wore balaclavas and army clothes.",
-    "score": [
-     3,
-     8,
+     7,
      -5,
-     8
-    ],
-    "sq": "Ata kishin veshur maska dhe tesha të ushtrisë."
-   }
-  },
-  {
-   "id": "perandor",
-   "sq": "perandor",
-   "en": "emperor",
-   "glosses": [
-    "emperor"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "emperor",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "emperor"
-     ]
-    }
-   ],
-   "rank": 18280,
-   "count": 29,
-   "family": "perandor",
-   "is_root": true,
-   "etymology": "Highly disputed etymology.\n* either from perëndi, or Prenda. according to Durham, a sun-cult influence by Mithraism during early Roman Christianity similar Middle Greek ὁ ήλιος βασιλεύει\n* from Latin parento\n* or from Latin imperator, but this is challenging due to the existence of mbret",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "Perennuur",
-     "tag": "alternative"
-    },
-    {
-     "form": "Perennuori",
-     "tag": "alternative"
-    },
-    {
-     "form": "Perennor",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Even Caesar was once an Emperor.",
-    "score": [
-     2,
-     5,
-     -3,
      10
     ],
-    "sq": "Edhe Çezari ishte dikur Perandor."
+    "sq": "Ky është edhe emërtimi artistik për të."
    }
   },
   {
-   "id": "kaçavidë",
-   "sq": "kaçavidë",
-   "en": "screwdriver",
+   "id": "blerje",
+   "sq": "blerje",
+   "en": "shopping",
    "glosses": [
-    "screwdriver"
+    "shopping"
    ],
    "pos": [
     "noun"
@@ -438,7 +579,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "screwdriver",
+     "gloss": "shopping",
      "tags": [
       "feminine"
      ],
@@ -464,46 +605,233 @@
      ],
      "examples": [],
      "links": [
-      "screwdriver"
+      "shopping"
      ]
     }
    ],
-   "rank": 18288,
-   "count": 29,
-   "family": "kaçavidë",
+   "rank": 14051,
+   "count": 42,
+   "family": "blerje",
    "is_root": true,
-   "etymology": "Borrowed from Italian cacciavite, variants are borrowed from Greek κατσαβίδι (katsavídi), from Venetan caçavide.",
-   "etymology_class": "borrowed",
+   "etymology": "Gerund of blej.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "kaçavida",
-     "tag": "plural"
-    },
-    {
-     "form": "kacavidë",
-     "tag": "alternative"
-    },
-    {
-     "form": "kacavidhë",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Impact drill, screwdriver etc.",
+    "en": "secure purchase.",
     "score": [
-     4,
-     6,
+     1,
+     3,
      -2,
      10
     ],
-    "sq": "Tools: Stërvitje me ndikim, kaçavidë etj."
+    "sq": "blerje të sigurt."
+   }
+  },
+  {
+   "id": "shkronjë",
+   "sq": "shkronjë",
+   "en": "letter (symbol)",
+   "glosses": [
+    "letter (symbol)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "letter (symbol)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -onjë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "letter"
+     ]
+    }
+   ],
+   "rank": 31123,
+   "count": 14,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "From shkruaj (“to write”) + -onjë (feminine suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "shkruaj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shkronja",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Which letter does it cover up?",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Cila shkronjë është fshehur?"
+   }
+  },
+  {
+   "id": "dorëshkrim",
+   "sq": "dorëshkrim",
+   "en": "manuscript",
+   "glosses": [
+    "manuscript",
+    "document"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "manuscript",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "69 31"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "manuscript"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "document",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "document"
+     ]
+    }
+   ],
+   "rank": 33003,
+   "count": 13,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "From dorë (“hand”) + shkrim (“writing”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "hand",
+    "writing"
+   ],
+   "components": [
+    {
+     "word": "dorë",
+     "role": "prefix"
+    },
+    {
+     "word": "shkrim",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How can I submit manuscript?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Si mund të dorëzoj dorëshkrim?"
    }
   }
  ]

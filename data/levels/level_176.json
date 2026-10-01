@@ -1,46 +1,48 @@
 {
  "level": 176,
- "title": "dhjetë, kafe",
+ "title": "dhomë, shaka, pret, prapë +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "dhjetë",
-  "kafe"
+  "dhomë",
+  "prapë",
+  "pret",
+  "shaka"
  ],
  "pos_mix": {
-  "num": 1,
-  "noun": 5
+  "noun": 3,
+  "verb": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "dhjetë",
-   "sq": "dhjetë",
-   "en": "ten",
+   "id": "dhomën",
+   "sq": "dhomën",
+   "en": "the room, singular (from dhomë)",
    "glosses": [
-    "ten"
+    "the room, singular (from dhomë)"
    ],
    "pos": [
-    "num"
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "ten",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the room, singular (from dhomë)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "singular"
+     ],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -52,20 +54,24 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "ten"
-     ]
+     "is_form_of": "dhomë"
     }
    ],
-   "rank": 890,
-   "count": 1073,
-   "family": "dhjetë",
-   "is_root": true,
-   "etymology": "From *djeth + -të, from Proto-Albanian *detsa, from Proto-Indo-European *déḱm̥. Initial dh- from decimal compounds like tridhjetë (“thirty”).",
-   "etymology_class": "derived",
+   "rank": 623,
+   "count": 1651,
+   "family": "dhomë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -75,161 +81,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There were ten people.",
+    "en": "How is your room like?",
     "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Ishin dhjetë vetë."
-   }
-  },
-  {
-   "id": "kafe",
-   "sq": "kafe",
-   "en": "a plant of the genus Coffea, coffee bean",
-   "glosses": [
-    "a plant of the genus Coffea, coffee bean",
-    "Brown",
-    "ground coffee beans, the beverage brewed from it",
-    "coffeeshop"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a plant of the genus Coffea, coffee bean",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "Coffea",
-      "coffee bean"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Brown",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ground coffee beans, the beverage brewed from it",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 4 13 7 36 15 1 1 3 4 3 1 3"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 2 15 4 42 21 1 1 2 2 2 1 1"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "19 6 51 24"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "coffee"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coffeeshop",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "coffeeshop"
-     ]
-    }
-   ],
-   "rank": 893,
-   "count": 1070,
-   "family": "kafe",
-   "is_root": true,
-   "etymology": "From Ottoman Turkish قهوه (kahve, “coffee”), from Arabic قَهْوَة (qahwa, “coffee, a brew”). Another explanation claims it traces back to the name of the Kaffa region of Ethiopia, which is an Omotic word.",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish kahve (\"coffee\")",
-   "parents": [
-    "coffee"
-   ],
-   "components": [],
-   "derived": [
-    "kafene",
-    "kafehane",
-    "kafexhi",
-    "kafenjtë",
-    "kafeinë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "kafe",
-     "tag": "plural"
-    },
-    {
-     "form": "kafja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I don't drink coffee.",
-    "score": [
-     0,
-     4,
+     1,
+     5,
      -4,
      10
     ],
-    "sq": "Unë nuk pi kafe."
+    "sq": "Si është dhomën tuaj si?"
    }
   },
   {
-   "id": "dhjetor",
-   "sq": "dhjetor",
-   "en": "December",
+   "id": "shaka",
+   "sq": "shaka",
+   "en": "joke, prank",
    "glosses": [
-    "December"
+    "joke, prank"
    ],
    "pos": [
     "noun"
@@ -241,7 +108,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "December",
+     "gloss": "joke, prank",
      "tags": [],
      "cats": [
       {
@@ -251,7 +118,154 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -or (month)",
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "joke",
+      "prank"
+     ]
+    }
+   ],
+   "rank": 624,
+   "count": 1650,
+   "family": "shaka",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish شقا (şaka, “joke”). Compare Turkish şaka.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "joke"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shaka",
+     "tag": "plural"
+    },
+    {
+     "form": "shakaja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Not a joke!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nuk është shaka!"
+   }
+  },
+  {
+   "id": "pret",
+   "sq": "pret",
+   "en": "wait expectantly, expect",
+   "glosses": [
+    "wait expectantly, expect"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "wait expectantly, expect",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 67 0 8 5"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 80 0 5 3"
+      }
+     ],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 625,
+   "count": 1649,
+   "family": "pret",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "So, what are you waiting for?",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Çfarë pret akoma?"
+   }
+  },
+  {
+   "id": "prapë",
+   "sq": "prapë",
+   "en": "again, back, anew, afresh",
+   "glosses": [
+    "again, back, anew, afresh"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "again, back, anew, afresh",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -261,49 +275,123 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "December"
+      "again",
+      "back",
+      "anew"
      ]
     }
    ],
-   "rank": 6835,
-   "count": 103,
-   "family": "dhjetë",
-   "is_root": false,
-   "etymology": "Calque of Latin December, from dhjetë (“ten”) + -or.",
-   "etymology_class": "affix",
+   "rank": 626,
+   "count": 1648,
+   "family": "prapë",
+   "is_root": true,
+   "etymology": "A combination of two contiguous particles, from Proto-Albanian *pər apə. Compare Proto-Albanian *pər-parə-a > modern përpara (> para).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "ten"
-   ],
-   "components": [
-    {
-     "word": "dhjetë",
-     "role": "prefix"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dhjetori",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It was December.",
+    "en": "Life flows again.",
     "score": [
      1,
      3,
      -2,
      10
     ],
-    "sq": "Ishte muaji dhjetor."
+    "sq": "Rrjedh prapë jeta."
+   }
+  },
+  {
+   "id": "dhomë",
+   "sq": "dhomë",
+   "en": "room, chamber",
+   "glosses": [
+    "room, chamber"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "room, chamber",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "room",
+      "chamber"
+     ]
+    }
+   ],
+   "rank": 708,
+   "count": 1432,
+   "family": "dhomë",
+   "is_root": true,
+   "etymology": "Ultimately from Proto-Indo-European *dem- (“to build; house”). Compare Ancient Greek δόμος (dómos, “house”), Latin domus, and English timber.",
+   "etymology_class": "root",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dhoma",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Room as you.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Dhomë si ju."
    }
   }
  ]

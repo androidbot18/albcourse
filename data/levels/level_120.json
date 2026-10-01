@@ -1,37 +1,149 @@
 {
  "level": 120,
- "title": "dashuri",
- "root": "dashuri",
- "root_gloss": "love",
+ "title": "vras 1/2",
+ "root": "vras",
+ "root_gloss": "to kill",
  "part": 1,
- "parts": 1,
- "word_count": 2,
+ "parts": 2,
+ "word_count": 9,
  "families": [
-  "dashuri"
+  "vras"
  ],
  "pos_mix": {
-  "noun": 2
+  "verb": 8,
+  "noun": 4
  },
  "words": [
   {
-   "id": "dashuri",
-   "sq": "dashuri",
-   "en": "love",
+   "id": "vras",
+   "sq": "vras",
+   "en": "to kill",
    "glosses": [
-    "love"
+    "to kill",
+    "to hurt, wound"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "love",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to kill",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kill"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hurt, wound",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hurt",
+      "wound"
+     ]
+    }
+   ],
+   "rank": 454,
+   "count": 2316,
+   "family": "vras",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *u̯ərátˢ < older *u̯ərátˢə, from Proto-Indo-European *(h)u̯arn-áti̯a/e-, with the meaning going from \"to wound (mortally)\" to \"to kill\". This further continues PIE *(h)u̯arnā- (“wound”) (source of varrë (“wound”)). An initial Pre-Proto-Albanian *u̯r- can be excluded as it would have led to Albanian rr- and not vr-.\nOrel considers it from Proto-Albanian *awa-rautja, from Proto-Indo-European *reu (“to tear, to destroy”). This is unlikely as there is no independent evidence of PIE *reu̯H-d- extended to dental. Furthermore, *rou̯(H)-d-éi̯e/o- would have led to Alb. *-rés ~ -rét, as seen in vesh (“to wear”), ndez (“to light”), qell (“to bring”), qes (“to pull out”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pavrarë",
+    "vrajë",
+    "vrarë",
+    "vrarje",
+    "vrasë",
+    "vrasës",
+    "vrasëse",
+    "vrasi"
+   ],
+   "related": [
+    "varrë",
+    "rrah"
+   ],
+   "forms": [
+    {
+     "form": "vrava",
+     "tag": "aorist"
+    },
+    {
+     "form": "vrarë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I no kill.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Unë nuk vras."
+   }
+  },
+  {
+   "id": "vrarë",
+   "sq": "vrarë",
+   "en": "kill, past form (from vras, to kill)",
+   "glosses": [
+    "kill, past form (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "kill, past form (from vras, to kill)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -53,16 +165,14 @@
       }
      ],
      "examples": [],
-     "links": [
-      "love"
-     ]
+     "is_form_of": "vras"
     }
    ],
-   "rank": 475,
-   "count": 2217,
-   "family": "dashuri",
-   "is_root": true,
-   "etymology": "From dashur, participle of dua (“to love”).",
+   "rank": 346,
+   "count": 3012,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -70,50 +180,505 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dashuria",
-     "tag": "definite"
-    },
-    {
-     "form": "dashni",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Life is love.",
+    "en": "I could have been killed.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Mund të isha vrarë."
+   }
+  },
+  {
+   "id": "vrau",
+   "sq": "vrau",
+   "en": "he/she/it (once did) killed (from vras, to kill)",
+   "glosses": [
+    "he/she/it (once did) killed (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (once did) killed (from vras, to kill)",
+     "tags": [
+      "aorist",
+      "form-of",
+      "indicative",
+      "singular",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 807,
+   "count": 1227,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "upon it.",
+    "score": [
+     2,
+     3,
+     -1,
+     10
+    ],
+    "sq": "e vrau Xhalutin."
+   }
+  },
+  {
+   "id": "vrasin",
+   "sq": "vrasin",
+   "en": "they kill (from vras, to kill)",
+   "glosses": [
+    "they kill (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "they kill (from vras, to kill)",
+     "tags": [
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 817,
+   "count": 1199,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They do kill people.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Jeta është dashuri."
+    "sq": "Ata vrasin njerëz."
    }
   },
   {
-   "id": "dashuria",
-   "sq": "dashuria",
-   "en": "the love, singular (from dashuri)",
+   "id": "vrasës",
+   "sq": "vrasës",
+   "en": "murderer",
    "glosses": [
-    "the love, singular (from dashuri)"
+    "murderer",
+    "killer"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the love, singular (from dashuri)",
+     "gloss": "murderer",
      "tags": [
-      "definite",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -ës",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "murderer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "killer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -ës",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "killer"
+     ]
+    }
+   ],
+   "rank": 1051,
+   "count": 897,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "From vras (“to kill”) + -ës.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vras",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "vetëvrasës"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "vrasës",
+     "tag": "plural"
+    },
+    {
+     "form": "vrasësi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I am not a killer.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Unë nuk jam vrasës."
+   }
+  },
+  {
+   "id": "vrasje",
+   "sq": "vrasje",
+   "en": "killing, murder",
+   "glosses": [
+    "killing, murder",
+    "injuring, wounding"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "killing, murder",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "killing",
+      "murder"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "injuring, wounding",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 83"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 89"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "injuring",
+      "wounding"
+     ]
+    }
+   ],
+   "rank": 1059,
+   "count": 891,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "From vras (“to kill”) + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vras",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "amëvrasje",
+    "atëvrasje",
+    "babavrasje",
+    "bijëvrasje",
+    "birvrasje",
+    "fëmijëvrasje",
+    "hyjnivrasje",
+    "mbretvrasje"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Another murder.",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Edhe një vrasje."
+   }
+  },
+  {
+   "id": "vret",
+   "sq": "vret",
+   "en": "you (sg) or he/she/it kill (from vras, to kill)",
+   "glosses": [
+    "you (sg) or he/she/it kill (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) or he/she/it kill (from vras, to kill)",
+     "tags": [
       "form-of",
-      "nominative",
+      "indicative",
+      "present",
+      "second-person",
+      "singular",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 1124,
+   "count": 835,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Waas kills him.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Waas vret atë."
+   }
+  },
+  {
+   "id": "vrave",
+   "sq": "vrave",
+   "en": "I (once did) killed (from vras, to kill)",
+   "glosses": [
+    "I (once did) killed (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (once did) killed (from vras, to kill)",
+     "tags": [
+      "aorist",
+      "first-person",
+      "form-of",
+      "indicative",
       "singular"
      ],
      "cats": [
@@ -137,12 +702,76 @@
       }
      ],
      "examples": [],
-     "is_form_of": "dashuri"
+     "is_form_of": "vras"
     }
    ],
-   "rank": 1152,
-   "count": 811,
-   "family": "dashuri",
+   "rank": 1345,
+   "count": 663,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "vrasim",
+   "sq": "vrasim",
+   "en": "we kill (from vras, to kill)",
+   "glosses": [
+    "we kill (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we kill (from vras, to kill)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "indicative",
+      "plural",
+      "present"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 1575,
+   "count": 554,
+   "family": "vras",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -155,14 +784,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Life is Love.",
+    "en": "And we won't kill you.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Jeta është Dashuria."
+    "sq": "E nuk të vrasim."
    }
   }
  ]

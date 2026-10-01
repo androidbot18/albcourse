@@ -1,46 +1,135 @@
 {
  "level": 512,
- "title": "gru, trajtoj, skandal, izoloj, grip, biologjik +4",
+ "title": "mohoj, kasolle, sillë, tutë, dasmë, bujar +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "biologjik",
-  "grip",
-  "gru",
-  "izoloj",
-  "skandal",
-  "trajtoj"
+  "bujar",
+  "dasmë",
+  "kasolle",
+  "mohoj",
+  "sillë",
+  "tutë"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 3,
+  "verb": 1,
+  "noun": 11,
+  "adv": 1,
   "adj": 1
  },
  "words": [
   {
-   "id": "gru",
-   "sq": "gru",
-   "en": "synonym of ngjalë deti (Conger conger)",
+   "id": "mohoj",
+   "sq": "mohoj",
+   "en": "to deny",
    "glosses": [
-    "synonym of ngjalë deti (Conger conger)"
+    "to deny"
    ],
    "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to deny",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "deny"
+     ]
+    }
+   ],
+   "rank": 9452,
+   "count": 70,
+   "family": "mohoj",
+   "is_root": true,
+   "etymology": "From moh (“negation, evil”), from earlier mboh.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mohova",
+     "tag": "aorist"
+    },
+    {
+     "form": "mohuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I don't deny it.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Unë nuk e mohoj."
+   }
+  },
+  {
+   "id": "kasolle",
+   "sq": "kasolle",
+   "en": "hut, cabin",
+   "glosses": [
+    "hut, cabin",
+    "barn (for hay)",
+    "shepherd's summer hut",
+    "doghouse"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "synonym of ngjalë deti (Conger conger)",
+     "gloss": "hut, cabin",
      "tags": [
-      "Gheg",
-      "dialectal",
       "feminine"
      ],
      "cats": [
@@ -49,68 +138,298 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 93"
+       "_dis": "58 3 34 4"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 10 36 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 20 26 26"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Afër malit gjendet një kasolle e vjetër.",
+       "en": "There is an old hut near the mountain.",
+       "offsets": [
+        [
+         23,
+         30
+        ]
+       ]
+      }
+     ],
      "links": [
-      "ngjalë deti"
+      "hut",
+      "cabin"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "barn (for hay)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 10 36 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 20 26 26"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Dil nga kasollja!",
+       "en": "Exit the barn!",
+       "offsets": [
+        [
+         8,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "barn"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "shepherd's summer hut",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 10 36 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 20 26 26"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Verës rri në kasolle.",
+       "en": "He/she stays in the hut during the summer.",
+       "offsets": [
+        [
+         13,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hut"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "doghouse",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 10 36 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 20 26 26"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Qeni shkoi në kasolle.",
+       "en": "The dog went to the doghouse.",
+       "offsets": [
+        [
+         14,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "doghouse"
      ]
     }
    ],
-   "rank": 13100,
-   "count": 46,
-   "family": "gru",
+   "rank": 9469,
+   "count": 70,
+   "family": "kasolle",
    "is_root": true,
-   "etymology": "Borrowed from Serbo-Croatian grȕj /гру̏ј. Doublet of dhrongo.",
+   "etymology": "A suffixed form of *kasë, from Italian casa (“home”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "home"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "gruja",
+     "form": "kasolle",
+     "tag": "plural"
+    },
+    {
+     "form": "kasollja",
      "tag": "definite"
+    },
+    {
+     "form": "kësollë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "esëll",
+   "sq": "esëll",
+   "en": "sober, on an empty stomach",
+   "glosses": [
+    "sober, on an empty stomach"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "sober, on an empty stomach",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with e-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sober"
+     ]
+    }
+   ],
+   "rank": 9479,
+   "count": 70,
+   "family": "sillë",
+   "is_root": false,
+   "etymology": "From Proto-Albanian *a-tšilna or *a-čila-, a compound equivalent to a privative e- (from *a-, from Proto-Indo-European *n̥-) + sillë (“breakfast”). Interpretible as e- + sille (“breakfast”)\nA similar formation to egjëll.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "breakfast"
+   ],
+   "components": [
+    {
+     "word": "e",
+     "role": "prefix"
+    },
+    {
+     "word": "sillë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "esull",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Minions Gru took the car to give a ride.",
+    "en": "If Miranda can stay sober, all the better.",
     "score": [
      3,
      9,
      -6,
      10
     ],
-    "sq": "Miqtë Gru mori makinën për të dhënë një udhëtim."
+    "sq": "Nëse Miranda mund të qëndroni esëll, sa më mirë."
    }
   },
   {
-   "id": "trajtoj",
-   "sq": "trajtoj",
-   "en": "to treat",
+   "id": "tutë",
+   "sq": "tutë",
+   "en": "cartridge case",
    "glosses": [
-    "to treat",
-    "to handle"
+    "cartridge case",
+    "fear, worry"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to treat",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cartridge case",
      "tags": [
-      "transitive"
+      "feminine",
+      "uncountable"
      ],
      "cats": [
       {
@@ -118,85 +437,93 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "57 43"
+       "_dis": "24 76"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "59 41"
+       "_dis": "24 76"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "59 41"
+       "_dis": "23 77"
       }
      ],
      "examples": [],
      "links": [
-      "treat"
+      "cartridge",
+      "case"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to handle",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fear, worry",
      "tags": [
-      "transitive"
+      "Gheg",
+      "feminine",
+      "uncountable"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "handle"
+      "fear",
+      "worry"
      ]
     }
    ],
-   "rank": 13107,
-   "count": 46,
-   "family": "trajtoj",
+   "rank": 9489,
+   "count": 70,
+   "family": "tutë",
    "is_root": true,
-   "etymology": "Borrowed from Latin tractāre.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [
-    "ndërtoj",
-    "trajtë"
+   "derived": [
+    "tutarak",
+    "tutec",
+    "tutem"
    ],
+   "related": [],
    "forms": [
     {
-     "form": "trajtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "trajtuar",
-     "tag": "participle"
+     "form": "tuta",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How can I treat at home?",
+    "en": "They are yours!",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Si mund të trajtoj në shtëpi?"
+    "sq": "Ata janë të tutë!"
    }
   },
   {
-   "id": "skandal",
-   "sq": "skandal",
-   "en": "scandal",
+   "id": "dasmë",
+   "sq": "dasmë",
+   "en": "wedding",
    "glosses": [
-    "scandal"
+    "wedding"
    ],
    "pos": [
     "noun"
@@ -208,7 +535,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "scandal",
+     "gloss": "wedding",
      "tags": [],
      "cats": [
       {
@@ -218,7 +545,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -232,338 +559,250 @@
      ],
      "examples": [],
      "links": [
-      "scandal"
+      "wedding"
      ]
     }
    ],
-   "rank": 13144,
-   "count": 46,
-   "family": "skandal",
+   "rank": 9490,
+   "count": 70,
+   "family": "dasmë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Goes back to Proto-Albanian *dartšimā, originally, \"wedding feast\", derived from darkë.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is a scandal.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ky është një skandal."
-   }
-  },
-  {
-   "id": "izolim",
-   "sq": "izolim",
-   "en": "isolation",
-   "glosses": [
-    "isolation"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "isolation",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "isolation"
-     ]
+     "form": "darsëm",
+     "tag": "alternative"
     }
    ],
-   "rank": 13147,
-   "count": 46,
-   "family": "izoloj",
-   "is_root": false,
-   "etymology": "From izoloj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "izoloj",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "protection and insulation.",
+    "en": "They did not have a wedding.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "mbrojtje dhe izolim."
+    "sq": "Nuk bënë dasmë."
    }
   },
   {
-   "id": "grip",
-   "sq": "grip",
-   "en": "flu, influenza",
+   "id": "bujar",
+   "sq": "bujar",
+   "en": "boyar, nobleman",
    "glosses": [
-    "flu, influenza"
+    "boyar, nobleman",
+    "generous, honorable, ungrudging"
    ],
    "pos": [
-    "noun"
+    "noun",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "noun",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "flu, influenza",
+     "gloss": "boyar, nobleman",
      "tags": [
       "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 21 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "flu",
-      "influenza"
+      "boyar",
+      "nobleman"
      ]
-    }
-   ],
-   "rank": 13155,
-   "count": 46,
-   "family": "grip",
-   "is_root": true,
-   "etymology": "Probably a modern loanword, from German Grippe.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What is the Keto Flu?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Cili është Keto grip?"
-   }
-  },
-  {
-   "id": "biologjik",
-   "sq": "biologjik",
-   "en": "biological",
-   "glosses": [
-    "biological"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
+    },
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "biological",
+     "gloss": "generous, honorable, ungrudging",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "95 5"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -ar",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "82 18"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "93 7"
       }
      ],
      "examples": [],
      "links": [
-      "biological"
+      "generous",
+      "honorable",
+      "ungrudging"
      ]
     }
    ],
-   "rank": 13171,
-   "count": 46,
-   "family": "biologjik",
+   "rank": 9496,
+   "count": 70,
+   "family": "bujar",
    "is_root": true,
-   "etymology": "Ancient Greek βιολογικός (viologikós, “biologikos”)",
-   "etymology_class": "derived",
+   "etymology": "Borrowed from South Slavic language, compare Old Church Slavonic болꙗринъ (boljarinŭ, “boyar”), Serbo-Croatian boljar (“boyar”) and Bulgarian боляр (boljar, “boyar”). Ultimately from Bulgar. The adjective, a derivate of buj, was likely influenced by the Slavic word.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "biologikos"
+    "boyar"
    ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "biologjike",
+     "form": "bujare",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A birth father and stepmother.",
+    "en": "Will they be generous?",
     "score": [
-     1,
+     0,
      5,
-     -4,
+     -5,
      10
     ],
-    "sq": "Një baba biologjik dhe njerka."
+    "sq": "A do të jetë bujar?"
    }
   },
   {
-   "id": "izoloj",
-   "sq": "izoloj",
-   "en": "to isolate",
+   "id": "sillë",
+   "sq": "sillë",
+   "en": "breakfast",
    "glosses": [
-    "to isolate"
+    "breakfast",
+    "food brought out in the morning to a farmer working in the field",
+    "lunch"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to isolate",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "breakfast",
      "tags": [
-      "transitive"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "breakfast"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "food brought out in the morning to a farmer working in the field",
+     "tags": [
+      "dated",
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "13 85 3"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 88 2"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 89 2"
       }
      ],
      "examples": [],
      "links": [
-      "isolate"
+      "food"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lunch",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lunch"
      ]
     }
    ],
-   "rank": 37861,
-   "count": 10,
-   "family": "izoloj",
+   "rank": 30157,
+   "count": 14,
+   "family": "sillë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *čīlā-, from Proto-Indo-European *kʷih₁-tl-éh₂, from *kʷyeh₁- (“to rest; rest, peace”). Compare English while, Latin tranquillus, Sanskrit चिर (cirá).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "silloj",
+    "cilore"
+   ],
+   "related": [
+    "esëll"
+   ],
    "forms": [
     {
-     "form": "izoluar",
-     "tag": "participle"
+     "form": "silla",
+     "tag": "plural"
+    },
+    {
+     "form": "cile",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Should I isolate her from us?",
-    "score": [
-     2,
-     7,
-     -5,
-     10
-    ],
-    "sq": "A duhet ta izoloj atë nga ne?"
-   }
+   "corpus_example": null
   }
  ]
 }

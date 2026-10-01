@@ -1,60 +1,45 @@
 {
  "level": 7,
- "title": "doktor, ju, si, fillim, duhet, ne +4",
+ "title": "një, dhe",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 9,
  "families": [
-  "doktor",
-  "duhet",
-  "fillim",
-  "ju",
-  "ne",
-  "si"
+  "dhe",
+  "një"
  ],
  "pos_mix": {
-  "pron": 2,
-  "adv": 3,
-  "verb": 4,
-  "noun": 2
+  "num": 3,
+  "conj": 2,
+  "noun": 4,
+  "det": 1,
+  "adv": 7
  },
  "words": [
   {
-   "id": "ju",
-   "sq": "ju",
-   "en": "you (plural or polite)",
+   "id": "një",
+   "sq": "një",
+   "en": "one",
    "glosses": [
-    "you (plural or polite)"
+    "one"
    ],
    "pos": [
-    "pron"
+    "num"
    ],
    "pos_labels": [
-    "pronoun"
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "you (plural or polite)",
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "one",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
+       "name": "Albanian cardinal numbers",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,55 +47,393 @@
      ],
      "examples": [],
      "links": [
-      "you"
+      "one"
      ]
     }
    ],
-   "rank": 26,
-   "count": 64790,
-   "family": "ju",
+   "rank": 11,
+   "count": 156661,
+   "family": "një",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ju(s) identical with Lithuanian jūs id., Gothic jūs id., English you. Ultimately derived from Proto-Indo-European *yúHs.",
-   "etymology_class": "derived",
+   "etymology": "From Old Albanian nja, from Proto-Albanian *nyá-, from Pre-Proto-Albanian *myá-, from Proto-Indo-European *smiyo- (“a, an”), from Proto-Indo-European *s(e)mih₂ or Proto-Indo-European *smiyah₂. Ultimately from Proto-Indo-European *sem- (“together, one”). According to Neri, the etymology connecting një to *h₁óynos is problematic, as it assumes an unknown pronomial element at the initial sound and also does not explain the stem *nyá- without a final nasal.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What is a Tribe?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë është një fis?"
+   }
+  },
+  {
+   "id": "dhe",
+   "sq": "dhe",
+   "en": "and (used to connect two similar words, phrases, et cetera)",
+   "glosses": [
+    "and (used to connect two similar words, phrases, et cetera)",
+    "also",
+    "earth, land",
+    "soil"
+   ],
+   "pos": [
+    "conj",
+    "conj",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "conjunction",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and (used to connect two similar words, phrases, et cetera)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 0 7 7 44"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 0 7 7 27 11 0 23"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 0 7 7 27 11 0 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "and"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "also",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "also"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "earth, land",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "earth",
+      "land"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "soil",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "soil"
+     ]
+    }
+   ],
+   "rank": 12,
+   "count": 154309,
+   "family": "dhe",
+   "is_root": true,
+   "etymology": "* Conjunction e (“and, also”): according to Orel from Proto-Albanian *ō(d), from Proto-Indo-European *ēd ~ *ōd (ablative sg. stem of Proto-Indo-European *ē- ~ *ō-).\nSee edhe.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "earth"
+   ],
+   "components": [],
+   "derived": [
+    "atdhe",
+    "dhebardhë",
+    "dhedhënie",
+    "dhenas",
+    "dhetar",
+    "gërdhele",
+    "gërdhet",
+    "kapërdhij"
+   ],
+   "related": [
+    "gërdhatë",
+    "dhatë"
+   ],
    "forms": [
     {
-     "form": "ju",
-     "tag": "accusative"
+     "form": "dhera",
+     "tag": "plural"
     },
     {
-     "form": "juve",
-     "tag": "dative"
-    },
-    {
-     "form": "jush",
-     "tag": "ablative"
+     "form": "dheu",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's you and the computer.",
+    "en": "And the sons.",
     "score": [
      1,
-     4,
-     -3,
+     3,
+     -2,
      10
     ],
-    "sq": "Është ju dhe kompjuteri."
+    "sq": "Dhe të bijtë."
    }
   },
   {
-   "id": "si",
-   "sq": "si",
-   "en": "how; in what way; in what state",
+   "id": "asnjë",
+   "sq": "asnjë",
+   "en": "neither, none",
    "glosses": [
-    "how; in what way; in what state",
-    "like, as"
+    "neither, none"
+   ],
+   "pos": [
+    "det"
+   ],
+   "pos_labels": [
+    "determiner"
+   ],
+   "sense_detail": [
+    {
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "neither, none",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with as-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "neither",
+      "none"
+     ]
+    }
+   ],
+   "rank": 192,
+   "count": 6558,
+   "family": "një",
+   "is_root": false,
+   "etymology": "From as- (“no-”) + një (“one”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "one"
+   ],
+   "components": [
+    {
+     "word": "as",
+     "role": "prefix"
+    },
+    {
+     "word": "një",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Without any doubt!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pa asnjë dyshim!"
+   }
+  },
+  {
+   "id": "menjëherë",
+   "sq": "menjëherë",
+   "en": "immediately",
+   "glosses": [
+    "immediately",
+    "instantly",
+    "at once"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "immediately",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 81"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 0 49"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Kontaktoni menjëherë mjekun tuaj.",
+       "en": "Contact your doctor immediately.",
+       "offsets": [
+        [
+         11,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "immediately"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "instantly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "instantly"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at once",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 0 93"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 81"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 0 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "at once"
+     ]
+    }
+   ],
+   "rank": 359,
+   "count": 2914,
+   "family": "një",
+   "is_root": false,
+   "etymology": "From me + një + herë, literally 'with/at one moment'.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "me",
+     "role": "prefix"
+    },
+    {
+     "word": "një",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "njësoj",
+   "sq": "njësoj",
+   "en": "alike; in the same way",
+   "glosses": [
+    "alike; in the same way",
+    "equally, to the same extent/degree"
    ],
    "pos": [
     "adv",
@@ -124,479 +447,445 @@
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "how; in what way; in what state",
+     "gloss": "alike; in the same way",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms interfixed with -s-",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
-      }
-     ],
-     "examples": [
+       "_dis": "47 53"
+      },
       {
-       "sq": "Si janë shokët e tu?",
-       "en": "How are your friends?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
       }
      ],
+     "examples": [],
      "links": [
-      "how"
+      "alike"
      ]
     },
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "like, as",
+     "gloss": "equally, to the same extent/degree",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 86"
+      },
+      {
+       "name": "Albanian terms interfixed with -s-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "equally",
+      "extent",
+      "degree"
+     ]
+    }
+   ],
+   "rank": 1514,
+   "count": 585,
+   "family": "një",
+   "is_root": false,
+   "etymology": "From një + -s- + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "një",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "njësojshëm",
+    "njësojtë"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Same as me.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Njësoj si mua."
+   }
+  },
+  {
+   "id": "njëzet",
+   "sq": "njëzet",
+   "en": "twenty",
+   "glosses": [
+    "twenty"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "twenty",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -zet",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [
       {
-       "sq": "Si e dini, nuk kemi filluar ende.",
-       "en": "As you know, we've not yet begun.",
+       "sq": "njëzet e një",
+       "en": "twenty-one",
        "offsets": [
         [
          0,
-         2
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "njëzet ditë",
+       "en": "twenty days",
+       "offsets": [
+        [
+         0,
+         6
         ]
        ]
       }
      ],
      "links": [
-      "like",
-      "as"
+      "twenty"
      ]
     }
    ],
-   "rank": 27,
-   "count": 64570,
-   "family": "si",
-   "is_root": true,
-   "etymology": "Varying reconstructions. Orel descends it from Proto-Albanian *tšei, Matzinger from Proto-Albanian *čī. Ultimately from instrumental Proto-Indo-European *kʷí-h₁. Compare Latin qui (“how, why”), Old English hwȳ, hwī (“why”). An interrogative and relative pronoun, especially in connection with a preposition.",
-   "etymology_class": "inherited",
+   "rank": 3390,
+   "count": 235,
+   "family": "një",
+   "is_root": false,
+   "etymology": "From një (“one”) + -zet (“twenty”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "cila",
-    "cili",
-    "disi",
-    "sesi",
-    "sido",
-    "sidoqoftë",
-    "sivjet"
+   "parents": [
+    "one",
+    "twenty"
    ],
-   "related": [
-    "qysh"
+   "components": [
+    {
+     "word": "një",
+     "role": "prefix"
+    }
    ],
+   "derived": [],
+   "related": [],
    "forms": [],
    "corpus_example": null
   },
   {
-   "id": "duhet",
-   "sq": "duhet",
-   "en": "it must",
+   "id": "mënjanë",
+   "sq": "mënjanë",
+   "en": "at the side",
    "glosses": [
-    "it must",
-    "it has to",
-    "it is needed, necessarily",
-    "to do with certainty; indicates that the speaker is certain that the subject will have executed the predicate"
+    "at the side",
+    "aside"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it must",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "must"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it has to",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "has to"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it is needed, necessarily",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "needed",
-      "necessarily"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to do with certainty; indicates that the speaker is certain that the subject will have executed the predicate",
-     "tags": [
-      "auxiliary",
-      "defective",
-      "modal"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 13 10 12"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 13 10 10"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "73 11 8 8"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "certainty",
-      "certain",
-      "predicate"
-     ]
-    }
-   ],
-   "rank": 28,
-   "count": 64246,
-   "family": "duhet",
-   "is_root": true,
-   "etymology": "Mediopassive of dua.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This should be avoided.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Kjo duhet të shmanget."
-   }
-  },
-  {
-   "id": "ne",
-   "sq": "ne",
-   "en": "we, us",
-   "glosses": [
-    "we, us"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "we, us",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "we",
-      "us"
-     ]
-    }
-   ],
-   "rank": 29,
-   "count": 59954,
-   "family": "ne",
-   "is_root": true,
-   "etymology": "The nominative-accusative is from accusative Proto-Albanian *nōs, stressed form of clitic Proto-Indo-European *nos, which is continued by the clitic na. Neve and nesh are innovated, but Gheg retains dative nahe (Old Albanian nae) from a genitive *nosōm.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ne",
-     "tag": "accusative"
-    },
-    {
-     "form": "neve",
-     "tag": "dative"
-    },
-    {
-     "form": "nesh",
-     "tag": "ablative"
-    },
-    {
-     "form": "në",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We will.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "ne do të."
-   }
-  },
-  {
-   "id": "doktor",
-   "sq": "doktor",
-   "en": "a male doctor",
-   "glosses": [
-    "a male doctor"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a male doctor",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages using etymon with no ID",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "doctor"
-     ]
-    }
-   ],
-   "rank": 572,
-   "count": 1783,
-   "family": "doktor",
-   "is_root": true,
-   "etymology": "Borrowed from Latin doctor.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "doktorë",
-     "tag": "plural"
-    },
-    {
-     "form": "doktori",
-     "tag": "definite"
-    },
-    {
-     "form": "doktoreshë",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Dear Doctor.",
-    "score": [
-     2,
-     3,
-     -1,
-     8
-    ],
-    "sq": "?I nderuar Doktor."
-   }
-  },
-  {
-   "id": "fillim",
-   "sq": "fillim",
-   "en": "start, beginning",
-   "glosses": [
-    "start, beginning"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "start, beginning",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "start",
-      "beginning"
-     ]
-    }
-   ],
-   "rank": 642,
-   "count": 1585,
-   "family": "fillim",
-   "is_root": true,
-   "etymology": "Gerund of filloj and fillohem.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fillime",
-     "tag": "plural"
-    },
-    {
-     "form": "fillimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But only in the beginning.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Por vetëm në fillim."
-   }
-  },
-  {
-   "id": "nes",
-   "sq": "nes",
-   "en": "after, next after",
-   "glosses": [
-    "after, next after"
-   ],
-   "pos": [
+    "adv",
     "adv"
    ],
    "pos_labels": [
+    "adverb",
     "adverb"
    ],
    "sense_detail": [
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "after, next after",
+     "gloss": "at the side",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "aside",
      "tags": [],
      "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Albanian univerbations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "aside"
+     ]
+    }
+   ],
+   "rank": 4352,
+   "count": 176,
+   "family": "një",
+   "is_root": false,
+   "etymology": "Univerbation of më (“at”) + një (“one”) + anë (“side”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "at",
+    "one",
+    "side"
+   ],
+   "components": [
+    {
+     "word": "më",
+     "role": "prefix"
+    },
+    {
+     "word": "një",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "mënjan",
+    "mënjanem",
+    "mënjanëri",
+    "mënjanës",
+    "mënjanoj",
+    "mënjanshëm",
+    "mënjanur"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Then, set aside.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Pastaj, lëreni mënjanë."
+   }
+  },
+  {
+   "id": "njësi",
+   "sq": "njësi",
+   "en": "unit",
+   "glosses": [
+    "unit",
+    "unity"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "unit",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -si",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "njësia administrative",
+       "en": "the administrative unit",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "unit"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "unity",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 83"
+      },
+      {
+       "name": "Albanian terms suffixed with -si",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unity"
+     ]
+    }
+   ],
+   "rank": 5992,
+   "count": 121,
+   "family": "një",
+   "is_root": false,
+   "etymology": "From një (“one”) + -si (“forming nouns”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "one"
+   ],
+   "components": [
+    {
+     "word": "një",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "njësia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "njëmbëdhjetë",
+   "sq": "njëmbëdhjetë",
+   "en": "eleven",
+   "glosses": [
+    "eleven"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "eleven",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -604,13 +893,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 27 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Albanian terms suffixed with -mbëdhjetë",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -618,22 +901,24 @@
      ],
      "examples": [],
      "links": [
-      "after"
+      "eleven"
      ]
     }
    ],
-   "rank": 21624,
-   "count": 23,
-   "family": "ne",
+   "rank": 10616,
+   "count": 60,
+   "family": "një",
    "is_root": false,
-   "etymology": "A compound *ne + *-s, from Proto-Indo-European *nō kwe. From Proto-Albanian *(e)nō ̊, from Proto-Indo-European *(h1)nē̆-, *(h1)nō̆- (“after, behind, next to/after”). Cognate to Ancient Greek ἔνη(ς) (énē(s)), ἔνας (énas, “the day after tomorrow”) and Gothic 𐌽𐌴𐍈 (nēƕ, “after”).",
-   "etymology_class": "compound",
+   "etymology": "From një (“one”) + -mbëdhjetë (“-teen”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "one"
+   ],
    "components": [
     {
-     "word": "ne",
+     "word": "një",
      "role": "prefix"
     }
    ],
@@ -642,14 +927,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Situated very close to the centre of Nes.",
+    "en": "Eleven people were killed.",
     "score": [
-     5,
-     7,
-     -2,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Ndodhet shumë afër në qendër të Nes."
+    "sq": "Njëmbëdhjetë njerëz u vranë."
    }
   }
  ]

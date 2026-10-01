@@ -124,10 +124,19 @@ def quota(current_words, current_nouns):
     return max(0, want - current_nouns)
 
 
-# How many families the opening window spans. Each level holds up to 9 words
-# and a family is never split, so 20 families covers the first ten levels
-# generously.
-WINDOW_FAMILIES = 20
+# How much vocabulary the opening window spans, in WORDS rather than
+# families.
+#
+# It used to be a fixed 20 families, which only held while the opening was
+# dominated by very large families (jam alone had 21 members, so 20
+# families covered 158 words). Teaching the common function words early
+# re-homes compounds to their stem families, which makes the opening
+# families smaller -- the same 20 families then held 96 words, and the
+# noun rebalance lost its footing without failing loudly.
+#
+# Measured in words it states the actual intent: cover the first ten
+# levels, whatever shape the families happen to be.
+WINDOW_WORDS = 90
 
 
 def spread(chosen, natural):

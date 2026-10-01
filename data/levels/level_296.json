@@ -1,46 +1,85 @@
 {
  "level": 296,
- "title": "supozoj, magji, nganjëherë, duroj +2",
+ "title": "këngë, egër",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 3,
  "families": [
-  "duroj",
-  "magji",
-  "nganjëherë",
-  "supozoj"
+  "egër",
+  "këngë"
  ],
  "pos_mix": {
-  "verb": 6,
-  "noun": 3,
-  "adv": 1
+  "noun": 6,
+  "adj": 6
  },
  "words": [
   {
-   "id": "supozoj",
-   "sq": "supozoj",
-   "en": "to guess, hypothesize",
+   "id": "këngë",
+   "sq": "këngë",
+   "en": "song",
    "glosses": [
-    "to guess, hypothesize",
-    "to suppose"
+    "song",
+    "bird song",
+    "a continuous sound",
+    "part of an epic or didactic poem",
+    "an action or thing that is repeated, becoming tedious"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to guess, hypothesize",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "song",
      "tags": [
-      "literary"
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Music",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Music",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Këngët qytetare të Prishtinës.",
+       "en": "Prishtina's urban songs.",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "song"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bird song",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -48,262 +87,189 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "56 44"
+       "_dis": "24 66 1 6 4"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "58 42"
+       "_dis": "26 70 1 1 2"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "58 42"
+       "_dis": "26 71 1 1 2"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Dëgjohet kënga e bilbilit.",
+       "en": "The nightingale's song can be heard.",
+       "offsets": [
+        [
+         9,
+         14
+        ]
+       ]
+      }
+     ],
      "links": [
-      "guess",
-      "hypothesize"
+      "bird song"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to suppose",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a continuous sound",
      "tags": [
-      "literary"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kënga e lumit.",
+       "en": "The sound of the river.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "continuous",
+      "sound"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "part of an epic or didactic poem",
+     "tags": [
+      "feminine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "suppose"
+      "part"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "an action or thing that is repeated, becoming tedious",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "action",
+      "thing"
      ]
     }
    ],
-   "rank": 2266,
-   "count": 374,
-   "family": "supozoj",
+   "rank": 1591,
+   "count": 550,
+   "family": "këngë",
    "is_root": true,
-   "etymology": "Borrowed from French supposer, ultimately from Latin suppōnō.",
+   "etymology": "Borrowed from Vulgar Latin, from Latin cantica (“song”). Compare Romanian cântec.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "song"
+   ],
    "components": [],
    "derived": [
-    "supozim"
+    "këngëtar"
    ],
-   "related": [],
+   "related": [
+    "kangjelë",
+    "këndoj"
+   ],
    "forms": [
     {
-     "form": "supozova",
-     "tag": "aorist"
+     "form": "këngë",
+     "tag": "plural"
     },
     {
-     "form": "supozuar",
-     "tag": "participle"
+     "form": "kënga",
+     "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I suppose we'll also have the bad, too.",
-    "score": [
-     1,
-     8,
-     -7,
-     10
-    ],
-    "sq": "Supozoj se do të kemi edhe të këqijtë."
-   }
+   "corpus_example": null
   },
   {
-   "id": "magji",
-   "sq": "magji",
-   "en": "magic",
+   "id": "egër",
+   "sq": "egër",
+   "en": "wild (not tame)",
    "glosses": [
-    "magic"
+    "wild (not tame)",
+    "fierce, ferocious",
+    "rough, coarse, raw",
+    "uncivilized",
+    "not easily arable (of land)"
    ],
    "pos": [
-    "noun"
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "magic",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "magic"
-     ]
-    }
-   ],
-   "rank": 2269,
-   "count": 373,
-   "family": "magji",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Is it magic?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "A është magji?"
-   }
-  },
-  {
-   "id": "nganjëherë",
-   "sq": "nganjëherë",
-   "en": "sometimes",
-   "glosses": [
-    "sometimes"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "sometimes",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sometimes"
-     ]
-    }
-   ],
-   "rank": 2295,
-   "count": 368,
-   "family": "nganjëherë",
-   "is_root": true,
-   "etymology": "From nganjë + herë.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "herë",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why do we sometimes happy and sometimes not.",
-    "score": [
-     0,
-     8,
-     -8,
-     10
-    ],
-    "sq": "Pse jemi të lumtur ndonjëherë dhe nganjëherë jo."
-   }
-  },
-  {
-   "id": "duroj",
-   "sq": "duroj",
-   "en": "to bear",
-   "glosses": [
-    "to bear",
-    "to endure, persevere, persist, withstand",
-    "to tolerate",
-    "to sustain"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to bear",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "wild (not tame)",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "bear"
+      "wild"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to endure, persevere, persist, withstand",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "fierce, ferocious",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fierce",
+      "ferocious"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "rough, coarse, raw",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rough",
+      "coarse",
+      "raw"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "uncivilized",
      "tags": [],
      "cats": [
       {
@@ -311,166 +277,143 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "15 42 15 28"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "endure",
-      "persevere",
-      "persist"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to tolerate",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "tolerate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to sustain",
-     "tags": [],
-     "cats": [
+       "_dis": "22 13 12 31 21"
+      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 20 20 40"
+       "_dis": "22 4 3 58 13"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "13 14 13 60"
+       "_dis": "9 2 2 81 7"
       }
      ],
      "examples": [],
      "links": [
-      "sustain"
+      "uncivilized"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "not easily arable (of land)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "arable"
      ]
     }
    ],
-   "rank": 2297,
-   "count": 368,
-   "family": "duroj",
+   "rank": 1593,
+   "count": 550,
+   "family": "egër",
    "is_root": true,
-   "etymology": "Borrowed from Latin dūrāre, with an irregular reflex of Latin -ū-.",
+   "etymology": "From Ancient Greek ἄγριος (ágrios).",
    "etymology_class": "borrowed",
-   "source_lang": null,
+   "source_lang": "el",
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "durova",
-     "tag": "aorist"
-    },
-    {
-     "form": "duruar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How can I endure?",
+    "en": "But we are not savages.",
     "score": [
      0,
-     4,
-     -4,
+     6,
+     -6,
      10
     ],
-    "sq": "Si mund të duroj?"
+    "sq": "Por ne nuk jemi të egër."
    }
   },
   {
-   "id": "supozim",
-   "sq": "supozim",
-   "en": "guess",
+   "id": "këngëtar",
+   "sq": "këngëtar",
+   "en": "singer",
    "glosses": [
-    "guess",
-    "assumption"
+    "singer",
+    "singing"
    ],
    "pos": [
     "noun",
-    "noun"
+    "adj"
    ],
    "pos_labels": [
     "noun",
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "guess",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "80 20"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "80 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "guess"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "assumption",
+     "gloss": "singer",
      "tags": [
       "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "assumption"
+      "singer"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "singing",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "67 33"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "75 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "81 19"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "singing"
      ]
     }
    ],
-   "rank": 21343,
-   "count": 24,
-   "family": "supozoj",
+   "rank": 13319,
+   "count": 45,
+   "family": "këngë",
    "is_root": false,
-   "etymology": "Gerund of supozoj: supozoj + -im.",
+   "etymology": "From këngë (“song”) + -tar.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "song"
+   ],
    "components": [
     {
-     "word": "supozoj",
+     "word": "këngë",
      "role": "prefix"
     }
    ],
@@ -478,24 +421,24 @@
    "related": [],
    "forms": [
     {
-     "form": "supozime",
-     "tag": "plural"
+     "form": "këngëtare",
+     "tag": "feminine"
     },
     {
-     "form": "supozimi",
-     "tag": "definite"
+     "form": "këngëtor",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This claim is not true.",
+    "en": "I had a dream to be a rock singer.",
     "score": [
-     1,
-     6,
-     -5,
+     3,
+     9,
+     -6,
      10
     ],
-    "sq": "Ky supozim nuk është i vërtetë."
+    "sq": "E kam pasur ëndërr të jem këngëtar i rokut."
    }
   }
  ]
