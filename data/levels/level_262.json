@@ -1,37 +1,42 @@
 {
  "level": 262,
- "title": "mençur",
- "root": "mençur",
- "root_gloss": "wise",
+ "title": "paqe, tri, bëmë, biznes, blerë +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "mençur"
+  "biznes",
+  "blerë",
+  "bëmë",
+  "paqe",
+  "tri"
  ],
  "pos_mix": {
-  "adj": 1,
-  "noun": 1
+  "noun": 3,
+  "num": 1,
+  "adj": 2
  },
  "words": [
   {
-   "id": "mençur",
-   "sq": "mençur",
-   "en": "wise",
+   "id": "paqe",
+   "sq": "paqe",
+   "en": "peace",
    "glosses": [
-    "wise"
+    "peace"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "wise",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "peace",
      "tags": [],
      "cats": [
       {
@@ -55,43 +60,115 @@
      ],
      "examples": [],
      "links": [
-      "wise"
+      "peace"
      ]
     }
    ],
-   "rank": 1722,
-   "count": 507,
-   "family": "mençur",
+   "rank": 1256,
+   "count": 718,
+   "family": "paqe",
    "is_root": true,
-   "etymology": "From mend (“mind”).",
-   "etymology_class": null,
+   "etymology": "Borrowed from Latin pāx, pācem (“peace”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "mind"
+    "peace"
    ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are very wise people.",
+    "corpus": "MaCoCu",
+    "en": "War is not peace.",
     "score": [
      0,
-     5,
-     -5,
-     10
+     4,
+     -4,
+     8
     ],
-    "sq": "Janë njerëz shumë të mençur."
+    "sq": "Lufta nuk është paqe!"
    }
   },
   {
-   "id": "mençuri",
-   "sq": "mençuri",
-   "en": "wisdom, sagacity",
+   "id": "tri",
+   "sq": "tri",
+   "en": "three",
    "glosses": [
-    "wisdom, sagacity"
+    "three"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "three",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 35 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "three"
+     ]
+    }
+   ],
+   "rank": 1260,
+   "count": 715,
+   "family": "tri",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *trī(-ā), from Proto-Indo-European *tríh₂ (“three”). Cognate to Ancient Greek τρία (tría, “three”) and Latin tria (“three”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "three"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "3 weeks war!",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Tri javë luftë!"
+   }
+  },
+  {
+   "id": "bëmë",
+   "sq": "bëmë",
+   "en": "deed",
+   "glosses": [
+    "deed"
    ],
    "pos": [
     "noun"
@@ -103,7 +180,198 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wisdom, sagacity",
+     "gloss": "deed",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deed"
+     ]
+    }
+   ],
+   "rank": 1265,
+   "count": 711,
+   "family": "bëmë",
+   "is_root": true,
+   "etymology": "From a variant of the past participle of bëj.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "bëma",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We became friends.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "U bëmë miq."
+   }
+  },
+  {
+   "id": "biznes",
+   "sq": "biznes",
+   "en": "business",
+   "glosses": [
+    "business"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "business",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "business"
+     ]
+    }
+   ],
+   "rank": 1266,
+   "count": 711,
+   "family": "biznes",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Is this business?",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Biznes është ky?"
+   }
+  },
+  {
+   "id": "blerë",
+   "sq": "blerë",
+   "en": "green",
+   "glosses": [
+    "green"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "green",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Colors",
+       "langcode": "sq",
+       "_dis": "78 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "green"
+     ]
+    }
+   ],
+   "rank": 1269,
+   "count": 710,
+   "family": "blerë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *blöra-, from Pre-Proto-Albanian *blōra-, from Proto-Indo-European *bʰleh₁-r-ós, from the root *bʰleh₁- (“blue, green, yellow”). Cognate to Latin flōrus (“golden yellow, reddish-yellow”) and Proto-Germanic *blēwaz (“blue, dark”). Possibly borrowed from Proto-Celtic *blaros (“gray”), compare blár.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Why should you buy it?",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Pse duhet të keni blerë atë?"
+   }
+  },
+  {
+   "id": "paqësor",
+   "sq": "paqësor",
+   "en": "peaceful",
+   "glosses": [
+    "peaceful"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "peaceful",
      "tags": [],
      "cats": [
       {
@@ -113,7 +381,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -i",
+       "name": "Albanian terms suffixed with -ësor",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -127,39 +395,45 @@
      ],
      "examples": [],
      "links": [
-      "wisdom",
-      "sagacity"
+      "peaceful"
      ]
     }
    ],
-   "rank": 10344,
-   "count": 62,
-   "family": "mençur",
+   "rank": 8528,
+   "count": 79,
+   "family": "paqe",
    "is_root": false,
-   "etymology": "From mençur + -i.",
+   "etymology": "From paqe (“peace”) + -ësor.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "peace"
+   ],
    "components": [
     {
-     "word": "mençur",
+     "word": "paqe",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "paqësore",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You will be the wise one.",
+    "en": "The Japanese stopped in the Pacific.",
     "score": [
-     1,
-     6,
-     -5,
+     2,
+     5,
+     -3,
      10
     ],
-    "sq": "Ju do të jeni i mençuri."
+    "sq": "Japonezët u ndal në Paqësor."
    }
   }
  ]

@@ -976,8 +976,30 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     if early_nouns:
         # Natural order, and the nouns chosen to join it.
         natural = sorted(families, key=lambda r: (score.get(r, 10 ** 9), r))
-        window = natural[:pos_balance.WINDOW_FAMILIES]
-        win_words = sum(len(families[r]) for r in window)
+        # The window is sized in WORDS, not in families. It used to be a
+        # fixed 20 families, which only worked while the opening was
+        # dominated by very large families (jam alone had 21 members, so 20
+        # families covered 158 words). Teaching the common function words
+        # early re-homes compounds to their stem families, which makes the
+        # opening families smaller -- the same 20 families then held 96
+        # words, and the noun rebalance quietly lost its footing.
+        #
+        # Sized in words it states its real intent: cover the first ten
+        # levels with room to spare, whatever shape the families are in.
+        # The window is the first ten levels' worth of vocabulary, measured in
+        # WORDS. It used to be a fixed 20 families, which only worked while the
+        # opening was dominated by very large families (jam alone had 21
+        # members, so 20 families covered 158 words). Teaching the common
+        # function words early re-homes compounds to their stem families,
+        # making the opening families smaller -- the same 20 families then
+        # held 96 words and the noun rebalance quietly lost its footing.
+        window = []
+        win_words = 0
+        for r in natural:
+            if window and win_words >= pos_balance.WINDOW_WORDS:
+                break
+            window.append(r)
+            win_words += len(families[r])
         win_nouns = 0
         for r in window:
             for m in families[r]:
@@ -986,7 +1008,10 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         room = pos_balance.quota(win_words, win_nouns)
         chosen = [r for _, r in early_nouns[:room]]
         if chosen:
-            for r, new_rank in pos_balance.spread(chosen, natural).items():
+            # Pace the nouns across the opening window only. Spreading them
+            # over the whole frequency list placed them too late to help the
+            # first ten levels, which is where the noun floor is measured.
+            for r, new_rank in pos_balance.spread(chosen, window).items():
                 score[r] = new_rank
             print("  early window: %d words, %d nouns (%.0f%%); target %.0f%%; "
                   "weaving in %d pictureable nouns"
@@ -1184,6 +1209,119 @@ def main():
         if comps:
             n_comp += 1
     print("  %d cards with components" % n_comp)
+
+    # --- Function-word rescue, BEFORE level assignment.
+    #
+    # A word that supplies only a PREFIX to a compound is not a member of
+    # that compound family; the compound belongs to its stem. Filing it there
+    # made the family inherit an edge onto the stem, so a common word could
+    # not unlock until a rarer stem was ready: esell (stem sille, rank 30157)
+    # put e (rank 2) at L652. Re-home such compounds to their stem family.
+    #
+    # A family whose own root is used only as a prefix, across members built
+    # on many unrelated stems, is a prefix bucket rather than a family: per
+    # held 64 members over 42 stems, each edge individually correct, together
+    # enough to hold per (rank 13) back to L739. Detach the bare prefix.
+    #
+    # Both moves only move a word between families or free a prefix; no word
+    # is dropped, and every compound still follows its own stem.
+    rank_of = dict((c["word"], c["rank"]) for c in cards)
+    fam_of = {}
+    for root, members in families.items():
+        for m in members:
+            fam_of[m] = root
+    comps_of = by_word_components(cards)
+    BIG = 10 ** 9
+
+    def rk(w):
+        return rank_of.get(w, BIG)
+
+    rehomed = 0
+    for root in list(families):
+        members = families[root]
+        if len(members) < 2:
+            continue
+        root_rank = min(rk(m) for m in members)
+        for m in list(members):
+            if m == root or fam_of.get(m) != root:
+                continue
+            cs = comps_of.get(m, ())
+            hit = False
+            stem = None
+            for c in cs:
+                if c.get("role") == "prefix" and c.get("word") == root:
+                    hit = True
+                elif c.get("role") == "stem":
+                    stem = c.get("word")
+            if not hit or not stem or stem == m or stem == root:
+                continue
+            sf = fam_of.get(stem)
+            if sf is None or sf == root:
+                continue
+            if min(rk(x) for x in families[sf]) <= root_rank:
+                continue
+            members.remove(m)
+            families[sf].append(m)
+            fam_of[m] = sf
+            rehomed += 1
+
+    detached = 0
+    for root in list(families):
+        members = families[root]
+        if len(members) < 2 or root not in members:
+            continue
+        stems = set()
+        for m in members:
+            if m == root:
+                continue
+            cs = comps_of.get(m, ())
+            is_pref = False
+            st = None
+            for c in cs:
+                if c.get("role") == "prefix" and c.get("word") == root:
+                    is_pref = True
+                elif c.get("role") == "stem":
+                    st = c.get("word")
+            if is_pref and st:
+                stems.add(st)
+        if len(stems) < 2 or len(stems) * 2 < len(members):
+            continue
+        # Every non-root member must go somewhere: re-home each to the
+        # family of the stem it is actually built on. Discarding them would
+        # silently delete the word from the deck (the me bucket alone held
+        # mjaft, menjëherë, meqë and five more).
+        for m in list(members):
+            if m == root:
+                continue
+            st = None
+            for c in comps_of.get(m, ()):
+                if c.get("role") == "stem":
+                    st = c.get("word")
+            # No stem means this member is not a prefix-compound at all
+            # (vënë has no components; mjaftoj carries only the prefix
+            # mjaft). Truncating the family would delete it, so keep it here.
+            if not st:
+                continue
+            sf = fam_of.get(st)
+            if sf is None or sf == root:
+                continue
+            if m not in families[sf]:
+                families[sf].append(m)
+            fam_of[m] = sf
+        # Keep the root plus anything that could not be re-homed, so no
+        # word is ever lost by detaching a bucket.
+        keep = [root] + [m for m in members
+                        if m != root and fam_of.get(m) == root]
+        families[root] = keep
+        fam_of[root] = root
+        detached += 1
+
+    for root, members in families.items():
+        for m in members:
+            by_word[m]["family"] = root
+    if rehomed or detached:
+        print("  function-word rescue: %d re-homed, %d detached"
+              % (rehomed, detached))
 
     print("assigning levels...", flush=True)
     levels = assign_levels(cards, families, components=by_word_components(cards))

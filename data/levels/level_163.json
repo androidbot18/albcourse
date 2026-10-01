@@ -1,114 +1,234 @@
 {
  "level": 163,
- "title": "vjeç, herët, urrej +1",
+ "title": "ha, kem",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "herët",
-  "urrej",
-  "vjeç"
+  "ha",
+  "kem"
  ],
  "pos_mix": {
-  "adj": 3,
-  "adv": 1,
-  "verb": 6
+  "verb": 5,
+  "noun": 3
  },
  "words": [
   {
-   "id": "vjeç",
-   "sq": "vjeç",
-   "en": "years of age",
+   "id": "ha",
+   "sq": "ha",
+   "en": "to eat",
    "glosses": [
-    "years of age"
+    "to eat",
+    "to gnaw, consume, wear out",
+    "to capture"
    ],
    "pos": [
-    "adj"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "years of age",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to eat",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "I vuri këto ushqime Saulit dhe shërbëtorëve të tij, dhe ata i hëngrën; pastaj u ngritën dhe u nisën po atë natë.",
+       "en": "And she gave them to Saul and his servants, and they ate (them). They got up and departed that same night.",
+       "offsets": [
+        [
+         62,
+         69
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "eat"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gnaw, consume, wear out",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gnaw",
+      "consume",
+      "wear"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to capture",
      "tags": [],
      "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 25 64"
       }
      ],
      "examples": [],
-     "links": []
+     "links": [
+      "chess",
+      "capture"
+     ]
     }
    ],
-   "rank": 765,
-   "count": 1294,
-   "family": "vjeç",
+   "rank": 528,
+   "count": 1978,
+   "family": "ha",
    "is_root": true,
-   "etymology": "From older vjetësh, a derivative of vjet. From Proto-Albanian *u̯itəś, from PPA *u̯éteśi, plural of *u̯étad (“year”).",
+   "etymology": "From Proto-Albanian *eda, from Proto-Indo-European *h₁ed- (“to eat”), with the preservation of the laryngeal. Alternatively from Proto-Indo-European *h₂ew- (compare Ashkun au (“bread”), Sanskrit अवय (avaya, “to eat”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
+   "related": [
+    "hahem",
+    "haje",
+    "pi"
+   ],
+   "forms": [
+    {
+     "form": "hëngra",
+     "tag": "aorist"
+    },
+    {
+     "form": "ngrënë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kem",
+   "sq": "kem",
+   "en": "incense",
+   "glosses": [
+    "incense"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "incense",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 17 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incense"
+     ]
+    }
+   ],
+   "rank": 529,
+   "count": 1958,
+   "family": "kem",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kapna, from Proto-Indo-European *kʷh₂wep- (“smoke, seethe”) (compare Ancient Greek καπνός (kapnós, “smoke”), Polish kopeć (“soot”)).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "smoke",
+    "soot"
+   ],
+   "components": [],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vjeçe",
-     "tag": "feminine"
+     "form": "qem",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He is six years old.",
+    "en": "How many accounts can I have?",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Është gjashtë vjeç."
+    "sq": "Sa llogari mund të kem?"
    }
   },
   {
-   "id": "herët",
-   "sq": "herët",
-   "en": "early",
+   "id": "ngrënë",
+   "sq": "ngrënë",
+   "en": "eat, past form (from ha, to eat)",
    "glosses": [
-    "early"
+    "eat, past form (from ha, to eat)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "early",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "eat, past form (from ha, to eat)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -130,347 +250,234 @@
       }
      ],
      "examples": [],
-     "links": [
-      "early"
-     ]
+     "is_form_of": "ha"
     }
    ],
-   "rank": 772,
-   "count": 1283,
-   "family": "herët",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 889,
+   "count": 1073,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "Standard Tosk form of Gheg hangër. From Proto-Albanian *engranti, from Proto-Indo-European *gʷerh₃- (“to swallow, devour, eat”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "ngranë",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It's too early.",
+    "corpus": "HPLT",
+    "en": "It does not require much to eat.",
     "score": [
-     0,
-     3,
-     -3,
-     8
+     1,
+     6,
+     -5,
+     10
     ],
-    "sq": "Është tepër herët."
+    "sq": "Nuk kërkon shumë për të ngrënë."
    }
   },
   {
-   "id": "urrej",
-   "sq": "urrej",
-   "en": "to hate",
+   "id": "hamendje",
+   "sq": "hamendje",
+   "en": "guess",
    "glosses": [
-    "to hate",
-    "to detest",
-    "to abhor",
-    "to abominate",
-    "to execrate",
-    "to loathe"
+    "guess",
+    "hypothesis"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hate",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guess",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "21 15 15 19 15 15"
+       "_dis": "67 33"
+      },
+      {
+       "name": "Albanian terms prefixed with ha-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "22 16 16 16 16 16"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 11 11 11 11 11"
+       "_dis": "80 20"
       }
      ],
      "examples": [],
      "links": [
-      "hate"
+      "guess"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to detest",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 15 15 19 15 15"
-      }
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hypothesis",
+     "tags": [
+      "feminine"
      ],
+     "cats": [],
      "examples": [],
      "links": [
-      "detest"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to abhor",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 15 15 19 15 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "abhor"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to abominate",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 15 15 19 15 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "abominate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to execrate",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 15 15 19 15 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "execrate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to loathe",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 15 15 19 15 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "loathe"
+      "hypothesis"
      ]
     }
    ],
-   "rank": 787,
-   "count": 1259,
-   "family": "urrej",
-   "is_root": true,
-   "etymology": "From Latin horreō (“to be afraid”); change in meaning also in Romanian urî (“to hate”).",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin horreō",
+   "rank": 24907,
+   "count": 19,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "From ha- + mendje.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "ha",
+     "role": "prefix"
+    },
+    {
+     "word": "mendje",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "urreva",
+     "form": "hamendje",
+     "tag": "plural"
+    },
+    {
+     "form": "hamendja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Many guesses can be made, as they have been made.",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "Hamendje mund të bëhen shumë, siç edhe janë bërë."
+   }
+  },
+  {
+   "id": "hamendësoj",
+   "sq": "hamendësoj",
+   "en": "to guess; speculate",
+   "glosses": [
+    "to guess; speculate"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to guess; speculate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guess",
+      "speculate"
+     ]
+    }
+   ],
+   "rank": 32764,
+   "count": 13,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "From hamendje + -oj (verb suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "hamendje",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "hamendësova",
      "tag": "aorist"
     },
     {
-     "form": "urryer",
+     "form": "hamendësuar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Hate that guy!",
+    "en": "how i can guess about wining numbers?",
     "score": [
-     0,
      3,
-     -3,
+     7,
+     -4,
      10
     ],
-    "sq": "Urrej atë djalë!"
+    "sq": "si mund të hamendësoj për numrat fitues?"
    }
-  },
-  {
-   "id": "vjeçar",
-   "sq": "vjeçar",
-   "en": "of # years old",
-   "glosses": [
-    "of # years old",
-    "annual"
-   ],
-   "pos": [
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "of # years old",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "63 37"
-      },
-      {
-       "name": "Albanian terms suffixed with -ar",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "64 36"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "dyvjeçar",
-       "en": "Two years old",
-       "offsets": []
-      },
-      {
-       "sq": "trivjeçar",
-       "en": "Three years old",
-       "offsets": []
-      }
-     ],
-     "links": []
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "annual",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "63 37"
-      },
-      {
-       "name": "Albanian terms suffixed with -ar",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "64 36"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "annual"
-     ]
-    }
-   ],
-   "rank": 3340,
-   "count": 240,
-   "family": "vjeç",
-   "is_root": false,
-   "etymology": "From vjeç + -ar, from vjet (“year”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "year"
-   ],
-   "components": [
-    {
-     "word": "vjeç",
-     "role": "prefix"
-    },
-    {
-     "word": "vjet",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [
-    "viç",
-    "vit"
-   ],
-   "forms": [
-    {
-     "form": "vjeçare",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": null
   }
  ]
 }

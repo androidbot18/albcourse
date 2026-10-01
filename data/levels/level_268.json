@@ -1,25 +1,27 @@
 {
  "level": 268,
- "title": "gjuhë",
- "root": "gjuhë",
- "root_gloss": "tongue (organ)",
+ "title": "ushtar",
+ "root": "ushtar",
+ "root_gloss": "soldier",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "gjuhë"
+  "ushtar"
  ],
  "pos_mix": {
-  "noun": 3
+  "noun": 6,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "gjuhë",
-   "sq": "gjuhë",
-   "en": "tongue (organ)",
+   "id": "ushtar",
+   "sq": "ushtar",
+   "en": "soldier",
    "glosses": [
-    "tongue (organ)",
-    "language, tongue"
+    "soldier",
+    "pawn"
    ],
    "pos": [
     "noun",
@@ -33,61 +35,117 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "tongue (organ)",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "soldier",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian terms with collocations",
+       "name": "Occupations",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Body parts",
-       "kind": "other",
-       "parents": [
-        "Anatomy"
-       ],
-       "source": "w",
-       "orig": "sq:Body parts",
-       "langcode": "sq"
+       "source": "w+disamb",
+       "orig": "sq:Occupations",
+       "langcode": "sq",
+       "_dis": "55 45"
       }
      ],
-     "examples": [
-      {
-       "sq": "gjuhë lope e zier",
-       "en": "boiled beef tongue",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      },
-      {
-       "sq": "Dogji gjuhën.",
-       "en": "Burned its tongue.",
-       "offsets": [
-        [
-         6,
-         12
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "tongue"
+      "soldier"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "language, tongue",
-     "tags": [
-      "feminine"
+     "gloss": "pawn",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
+      }
      ],
+     "examples": [],
+     "links": [
+      "chess",
+      "pawn"
+     ]
+    }
+   ],
+   "rank": 1322,
+   "count": 678,
+   "family": "ushtar",
+   "is_root": true,
+   "etymology": "From ushtë (“spear”), historically identical with usht (“ear (of grain)”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "spear"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ushtarak",
+    "ushtri"
+   ],
+   "forms": [
+    {
+     "form": "ushtarë",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I was a soldier here for two years.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Dy vjet kam qenë ushtar këtu."
+   }
+  },
+  {
+   "id": "ushtarak",
+   "sq": "ushtarak",
+   "en": "military (relating to army or war)",
+   "glosses": [
+    "military (relating to army or war)",
+    "serviceman (member of armed forces)"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "military (relating to army or war)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian terms with collocations",
@@ -98,99 +156,271 @@
      ],
      "examples": [
       {
-       "sq": "gjuha shqipe",
-       "en": "the Albanian language",
+       "sq": "shërbimi ushtarak",
+       "en": "military service",
        "offsets": [
         [
-         0,
-         5
+         9,
+         17
+        ]
+       ]
+      },
+      {
+       "sq": "Në qoftë sa fajtori […] dorëzon personin për një shërbim ushtarak përjashta Shteti, ndeshkimi asht me burgim të randë nga tre deri në tetë vjet dhe me gjobë të randë nga pesqint deri në tremijë fr. ari.",
+       "en": "If the guilty party […] sends the person for military service outside the State, the punishment is severe imprisonment from three to eight years and a severe fine from five hundred to three thousand gold francs.",
+       "offsets": [
+        [
+         57,
+         65
         ]
        ]
       }
      ],
      "links": [
-      "language",
-      "tongue"
+      "military"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "serviceman (member of armed forces)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 80"
+      },
+      {
+       "name": "Albanian terms suffixed with -ak",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 76"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 85"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "serviceman"
      ]
     }
    ],
-   "rank": 2674,
-   "count": 308,
-   "family": "gjuhë",
-   "is_root": true,
-   "etymology": "Unclear. From Old Albanian gluhë, most likely from earlier *glu.a, with sporadic loss of intervocalic b (see pi, det, and dra) and insertion of a hiatus-filling h (see bahe, kohë, and pah), from Proto-Albanian *glubā (“tip”), from Proto-Indo-European *ǵlubʰeh₂- (“point”), albeit with no adduced cognates. Alternatively, from a Proto-Albanian *glusā, from Proto-Indo-European *gl̥H-so-s, a zero-grade variant of *golH-so-s, from *gelH- (“to call”); compare Proto-Balto-Slavic *galsás (“voice”).\nA loan from Ancient Greek γλῶσσα (glôssa) is improbable from a semantic and phonetic standpoint, as Ancient Greek loans involved terms of trade and agriculture, not body parts, and would have given **gluśa in Proto-Albanian.",
-   "etymology_class": "inherited",
+   "rank": 2523,
+   "count": 330,
+   "family": "ushtar",
+   "is_root": false,
+   "etymology": "From ushtar (“soldier”) + -ak.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "dygjuhësi",
-    "dygjuhësh",
-    "gjuhcë",
-    "gjuhësi",
-    "gjuhësisht",
-    "gjuhësor",
-    "gjuhëtar",
-    "gjuhëz"
+   "parents": [
+    "soldier"
    ],
+   "components": [
+    {
+     "word": "ushtar",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "gjuhë",
+     "form": "ushtarakë",
      "tag": "plural"
     },
     {
-     "form": "gjuha",
+     "form": "ushtaraku",
      "tag": "definite"
-    },
-    {
-     "form": "gju",
-     "tag": "alternative"
-    },
-    {
-     "form": "gëluhë",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjufë",
-     "tag": "alternative"
-    },
-    {
-     "form": "glufë",
-     "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "gjuhën",
-   "sq": "gjuhën",
-   "en": "the tongue, singular (from gjuhë)",
+   "id": "ushtrim",
+   "sq": "ushtrim",
+   "en": "military training",
    "glosses": [
-    "the tongue, singular (from gjuhë)"
+    "military training",
+    "exercise",
+    "practice"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the tongue, singular (from gjuhë)",
-     "tags": [
-      "accusative",
-      "definite",
-      "feminine",
-      "form-of",
-      "singular"
-     ],
+     "gloss": "military training",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 18 31"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "military",
+      "training"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "exercise",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 46 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exercise"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "practice",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "practice"
+     ]
+    }
+   ],
+   "rank": 8485,
+   "count": 79,
+   "family": "ushtar",
+   "is_root": false,
+   "etymology": "From ushtroj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ushtroj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "kushtrim"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do this exercise.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Bëni këtë ushtrim."
+   }
+  },
+  {
+   "id": "ushtroj",
+   "sq": "ushtroj",
+   "en": "to exercise (use, call upon)",
+   "glosses": [
+    "to exercise (use, call upon)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to exercise (use, call upon)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -200,42 +430,53 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
-     "examples": [],
-     "is_form_of": "gjuhë"
+     "examples": [
+      {
+       "sq": "Ushtron të drejtën e votës",
+       "en": "He exercises his right to vote",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "exercise"
+     ]
     }
    ],
-   "rank": 1844,
-   "count": 470,
-   "family": "gjuhë",
+   "rank": 14936,
+   "count": 39,
+   "family": "ushtar",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From ushtar + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "ushtar",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He speaks English.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Flet gjuhën angleze."
-   }
+   "forms": [
+    {
+     "form": "ushtrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "ushtruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

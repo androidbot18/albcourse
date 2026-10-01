@@ -1,44 +1,43 @@
 {
  "level": 300,
- "title": "hajdut, pasdite, fitore, radhë, fushë, kamion +4",
+ "title": "zbuloj, muzikë, avion +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 5,
  "families": [
-  "fitore",
-  "fushë",
-  "hajdut",
-  "kamion",
-  "pasdite",
-  "radhë"
+  "avion",
+  "muzikë",
+  "zbuloj"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adv": 1
+  "verb": 3,
+  "noun": 3
  },
  "words": [
   {
-   "id": "hajdut",
-   "sq": "hajdut",
-   "en": "thief",
+   "id": "zbuluar",
+   "sq": "zbuluar",
+   "en": "discover, past form (from zbuloj, to discover)",
    "glosses": [
-    "thief"
+    "discover, past form (from zbuloj, to discover)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thief",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "discover, past form (from zbuloj, to discover)",
      "tags": [
-      "masculine"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -61,96 +60,13 @@
       }
      ],
      "examples": [],
-     "links": [
-      "thief"
-     ]
+     "is_form_of": "zbuloj"
     }
    ],
-   "rank": 2349,
-   "count": 356,
-   "family": "hajdut",
-   "is_root": true,
-   "etymology": "From Ottoman Turkish حیدود (Turkish haydut), from Hungarian hajdúk.",
-   "etymology_class": "derived",
-   "source_lang": "tr",
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hajdutë",
-     "tag": "plural"
-    },
-    {
-     "form": "hajduti",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who is not a thief?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Kush nuk është hajdut?"
-   }
-  },
-  {
-   "id": "pasdite",
-   "sq": "pasdite",
-   "en": "in the afternoon",
-   "glosses": [
-    "in the afternoon"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "in the afternoon",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "in",
-      "the",
-      "afternoon"
-     ]
-    }
-   ],
-   "rank": 2350,
-   "count": 356,
-   "family": "pasdite",
-   "is_root": true,
+   "rank": 1640,
+   "count": 535,
+   "family": "zbuloj",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -161,23 +77,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It is late in the afternoon.",
+    "corpus": "HPLT",
+    "en": "A Voice Discovered.",
     "score": [
      0,
      3,
      -3,
-     8
+     10
     ],
-    "sq": "Është pasdite vonë."
+    "sq": "Një Zë zbuluar."
    }
   },
   {
-   "id": "fitore",
-   "sq": "fitore",
-   "en": "victory",
+   "id": "muzikë",
+   "sq": "muzikë",
+   "en": "music",
    "glosses": [
-    "victory"
+    "music"
    ],
    "pos": [
     "noun"
@@ -189,7 +105,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "victory",
+     "gloss": "music",
      "tags": [
       "feminine"
      ],
@@ -201,13 +117,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -215,50 +131,46 @@
      ],
      "examples": [],
      "links": [
-      "victory"
+      "music"
      ]
     }
    ],
-   "rank": 2353,
-   "count": 356,
-   "family": "fitore",
+   "rank": 1642,
+   "count": 534,
+   "family": "muzikë",
    "is_root": true,
-   "etymology": "Ultimately from Latin victoria, via a Balkan Romance language.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Ancient Greek μουσική (mousikḗ).",
+   "etymology_class": null,
+   "source_lang": "el",
+   "cognate": "from Greek μουσική",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "fitore",
-     "tag": "plural"
-    },
-    {
-     "form": "fitorja",
+     "form": "muzika",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But I wish you victory.",
+    "en": "We made music.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Por të uroj fitore."
+    "sq": "Ne bëmë muzikë."
    }
   },
   {
-   "id": "radhë",
-   "sq": "radhë",
-   "en": "row, queue, line, rank",
+   "id": "avion",
+   "sq": "avion",
+   "en": "aeroplane",
    "glosses": [
-    "row, queue, line, rank"
+    "aeroplane"
    ],
    "pos": [
     "noun"
@@ -270,11 +182,17 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "row, queue, line, rank",
+     "gloss": "aeroplane",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -282,13 +200,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Pages using etymon with no ID",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -296,209 +208,173 @@
      ],
      "examples": [],
      "links": [
-      "row",
-      "queue",
-      "line"
+      "aeroplane"
      ]
     }
    ],
-   "rank": 2356,
-   "count": 355,
-   "family": "radhë",
+   "rank": 1645,
+   "count": 533,
+   "family": "avion",
    "is_root": true,
-   "etymology": "From Proto-Albanian *raðā, from Proto-Indo-European *Hreh₁dʰ- (“to arrange”), whence Old Norse ráða, German raten (“to advise; guess”). Alternatively related to rreth (“wheel”), close to Proto-Germanic *raðo (“row”) (compare Old Norse rǫð (“row”), Middle Low German gerade (“growing straight upwards”)), also connected to *rathan (“wheel”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "radhë",
-     "tag": "plural"
-    },
-    {
-     "form": "radha",
-     "tag": "definite"
-    },
-    {
-     "form": "rradhë",
-     "tag": "alternative"
-    },
-    {
-     "form": "rredhë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "That's how we did it this time.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kështu bëmë edhe këtë radhë."
-   }
-  },
-  {
-   "id": "fushë",
-   "sq": "fushë",
-   "en": "field",
-   "glosses": [
-    "field",
-    "plain, flatland",
-    "area of activity or interest"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "field",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Geography",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Geography",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 47 4"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 47 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "geography",
-      "field"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plain, flatland",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Geography",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Geography",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 47 4"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 47 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "geography",
-      "plain",
-      "flatland"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "area of activity or interest",
-     "tags": [
-      "broadly",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "area",
-      "activity",
-      "interest"
-     ]
-    }
-   ],
-   "rank": 2362,
-   "count": 355,
-   "family": "fushë",
-   "is_root": true,
-   "etymology": "Orel claims it is borrowed through Vulgar Latin from Latin fossa (“ditch, moat”). However, Çabej identifies it as an inherited word from Proto-Albanian *pl̥thu̯iām. Matasović claims it has no known etymology. Possibly from Arabic فُسْحَة (fusḥa, “wide, spatious place”).",
+   "etymology": "Borrowed from French avion.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "fushujë",
-    "fushnajë",
-    "fushëpamje",
-    "fushëtar"
-   ],
-   "related": [
-    "fushatë"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "fusha",
+     "form": "avionë",
      "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Field, alone, night.",
+    "en": "Ultralight Aircraft.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Avion ultra të lehtë."
+   }
+  },
+  {
+   "id": "zbuloj",
+   "sq": "zbuloj",
+   "en": "to discover",
+   "glosses": [
+    "to discover",
+    "to unveil, reveal, expose"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discover",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discover"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unveil, reveal, expose",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unveil",
+      "reveal",
+      "expose"
+     ]
+    }
+   ],
+   "rank": 3283,
+   "count": 245,
+   "family": "zbuloj",
+   "is_root": true,
+   "etymology": "From z- + mbuloj, with assimilation of the labial.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mbuloj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "zbulim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "zbulova",
+     "tag": "aorist"
+    },
+    {
+     "form": "zbuluar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I find that.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Fushë, vetëm, natë."
+    "sq": "Unë zbuloj që."
    }
   },
   {
-   "id": "kamion",
-   "sq": "kamion",
-   "en": "truck (vehicle for cargo)",
+   "id": "zbulim",
+   "sq": "zbulim",
+   "en": "discovery",
    "glosses": [
-    "truck (vehicle for cargo)"
+    "discovery"
    ],
    "pos": [
     "noun"
@@ -510,7 +386,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "truck (vehicle for cargo)",
+     "gloss": "discovery",
      "tags": [
       "masculine"
      ],
@@ -522,13 +398,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -536,42 +412,47 @@
      ],
      "examples": [],
      "links": [
-      "truck"
+      "discovery"
      ]
     }
    ],
-   "rank": 2363,
-   "count": 355,
-   "family": "kamion",
-   "is_root": true,
-   "etymology": "Ultimately borrowed from French camion. Possible intermediate source from Italian camion",
-   "etymology_class": "borrowed",
+   "rank": 8695,
+   "count": 77,
+   "family": "zbuloj",
+   "is_root": false,
+   "etymology": "From zbuloj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "zbuloj",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "kamionë",
+     "form": "zbulime",
      "tag": "plural"
     },
     {
-     "form": "kamioni",
+     "form": "zbulimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "truck to the glory.",
+    "en": "I have a discovery.",
     "score": [
-     1,
-     3,
-     -2,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "kamion tek lavdisë."
+    "sq": "Unë kam një zbulim."
    }
   }
  ]

@@ -1,43 +1,163 @@
 {
  "level": 450,
- "title": "koleg, shkurtë, send, ortak, banane, kafeja +4",
+ "title": "pikturë, qetësohem, rrahje, keqkuptim, mek, qij +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "banane",
-  "kafeja",
-  "koleg",
-  "ortak",
-  "send",
-  "shkurtë"
+  "keqkuptim",
+  "mek",
+  "pikturë",
+  "qetësohem",
+  "qij",
+  "rrahje"
  ],
  "pos_mix": {
-  "noun": 6
+  "noun": 6,
+  "verb": 5
  },
  "words": [
   {
-   "id": "koleg",
-   "sq": "koleg",
-   "en": "colleague",
+   "id": "pikturë",
+   "sq": "pikturë",
+   "en": "painting (art form)",
    "glosses": [
-    "colleague"
+    "painting (art form)",
+    "painting (work of art)",
+    "very good description, depiction"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "colleague",
+     "gloss": "painting (art form)",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "painting"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "painting (work of art)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "painting"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "very good description, depiction",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 9 82"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 7 86"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 6 87"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "description",
+      "depiction"
+     ]
+    }
+   ],
+   "rank": 6064,
+   "count": 119,
+   "family": "pikturë",
+   "is_root": true,
+   "etymology": "Borrowed from Italian pittura, with the etymological -kt- restored. Compare Serbo-Croatian piktúra /пикту́ра.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pikturoj",
+    "pikturshëm"
+   ],
+   "related": [
+    "piktor"
+   ],
+   "forms": [
+    {
+     "form": "piktura",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's like a painting!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Është si një pikturë!"
+   }
+  },
+  {
+   "id": "qetësohem",
+   "sq": "qetësohem",
+   "en": "to calm down, to quiet down",
+   "glosses": [
+    "to calm down, to quiet down"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to calm down, to quiet down",
+     "tags": [
+      "mediopassive"
      ],
      "cats": [
       {
@@ -61,13 +181,14 @@
      ],
      "examples": [],
      "links": [
-      "colleague"
+      "calm down",
+      "quiet down"
      ]
     }
    ],
-   "rank": 8297,
-   "count": 81,
-   "family": "koleg",
+   "rank": 6088,
+   "count": 119,
+   "family": "qetësohem",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -79,48 +200,43 @@
    "related": [],
    "forms": [
     {
-     "form": "kolegë",
-     "tag": "plural"
-    },
-    {
-     "form": "kolegu",
-     "tag": "definite"
-    },
-    {
-     "form": "kolege",
-     "tag": "feminine"
+     "form": "qetësuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Gift for a colleague?",
+    "en": "Tracy decided to make lemonade to cool off.",
     "score": [
-     2,
-     4,
-     -2,
+     3,
+     7,
+     -4,
      10
     ],
-    "sq": "Dhuratë për një koleg?"
+    "sq": "Tracy vendosi të bëjë limonadë të qetësohem."
    }
   },
   {
-   "id": "shkurtë",
-   "sq": "shkurtë",
-   "en": "quail",
+   "id": "rrahje",
+   "sq": "rrahje",
+   "en": "fighting",
    "glosses": [
-    "quail"
+    "fighting",
+    "fight"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "quail",
+     "gloss": "fighting",
      "tags": [
       "feminine"
      ],
@@ -129,32 +245,48 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "85 15"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "82 18"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "91 9"
       }
      ],
      "examples": [],
      "links": [
-      "quail"
+      "fighting"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fight",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fight"
      ]
     }
    ],
-   "rank": 8311,
-   "count": 81,
-   "family": "shkurtë",
+   "rank": 6110,
+   "count": 118,
+   "family": "rrahje",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Gerund of rrah and rrihet.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -164,190 +296,32 @@
    "related": [],
    "forms": [
     {
-     "form": "shkurta",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Brief exposure.",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "Ekspozim i shkurtë."
-   }
-  },
-  {
-   "id": "send",
-   "sq": "send",
-   "en": "thing, object",
-   "glosses": [
-    "thing, object"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thing, object",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thing",
-      "object"
-     ]
-    }
-   ],
-   "rank": 8347,
-   "count": 81,
-   "family": "send",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tsjam tam, from Proto-Indo-European *kiom tom, a sequence of two pronouns in neuter of which the first is related to 'se'. Alternatively from Proto-Albanian *tśe enta, literally 'this being', the first element from *kwe- (“how, what”), or *k̂(e) (“this”), while the second one being a gerundive or a participle of a disused verb, close to Latin -ēns (participal ending), Medieval Latin ens (“being”) (hence Italian ente (“entity, body, being”)), and Ancient Greek ὤν (ṓn) (present participle).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "se"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "senë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He takes a white object, which he opens.",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Merr një send të bardhë, të cilin e hap."
-   }
-  },
-  {
-   "id": "ortak",
-   "sq": "ortak",
-   "en": "partner, associate",
-   "glosses": [
-    "partner, associate"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "partner, associate",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "partner",
-      "associate"
-     ]
-    }
-   ],
-   "rank": 8366,
-   "count": 81,
-   "family": "ortak",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish اورتاق (ortak, “partner, associate”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ortakë",
+     "form": "rrahje",
      "tag": "plural"
     },
     {
-     "form": "ortaku",
+     "form": "rrahja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This person is called the general partner.",
+    "en": "And they gave him blows.",
     "score": [
-     4,
+     1,
      6,
-     -2,
+     -5,
      10
     ],
-    "sq": "Ky person quhet ortak i përgjithshëm."
+    "sq": "Dhe ata i dhanë atij rrahje."
    }
   },
   {
-   "id": "banane",
-   "sq": "banane",
-   "en": "banana",
+   "id": "keqkuptim",
+   "sq": "keqkuptim",
+   "en": "misunderstanding",
    "glosses": [
-    "banana"
+    "misunderstanding"
    ],
    "pos": [
     "noun"
@@ -359,7 +333,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "banana",
+     "gloss": "misunderstanding",
      "tags": [],
      "cats": [
       {
@@ -369,73 +343,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "banana"
-     ]
-    }
-   ],
-   "rank": 8379,
-   "count": 80,
-   "family": "banane",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What desserts can dogs eat?",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "A mund të hanë qentë banane?"
-   }
-  },
-  {
-   "id": "kafeja",
-   "sq": "kafeja",
-   "en": "coffee",
-   "glosses": [
-    "coffee"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coffee",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -445,25 +353,19 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "coffee"
+      "misunderstanding"
      ]
     }
    ],
-   "rank": 8380,
-   "count": 80,
-   "family": "kafeja",
+   "rank": 6119,
+   "count": 118,
+   "family": "keqkuptim",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Gerund of keqkuptoj and keqkuptohem.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -471,17 +373,237 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "keqkuptime",
+     "tag": "plural"
+    },
+    {
+     "form": "keqkuptimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Therefore, where coffee is grown.",
+    "en": "This is a misconception.",
     "score": [
-     2,
-     5,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Prandaj, ku kafeja është rritur."
+    "sq": "Ky është një keqkuptim."
+   }
+  },
+  {
+   "id": "mek",
+   "sq": "mek",
+   "en": "to bleat, stammer",
+   "glosses": [
+    "to bleat, stammer",
+    "to wet"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bleat, stammer",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bleat",
+      "stammer"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wet",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wet"
+     ]
+    }
+   ],
+   "rank": 6143,
+   "count": 117,
+   "family": "mek",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *mek-, from Proto-Indo-European *mek- (“to bleat”). Cognate to Lithuanian meknénti (“to bleat”). An onomatopoeic root.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "meka",
+     "tag": "aorist"
+    },
+    {
+     "form": "mekur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I loved and admired President McKay.",
+    "score": [
+     5,
+     9,
+     -4,
+     10
+    ],
+    "sq": "Unë e doja dhe e admiroja Presidentin Mek-Kei."
+   }
+  },
+  {
+   "id": "qij",
+   "sq": "qij",
+   "en": "to hew",
+   "glosses": [
+    "to hew",
+    "to fuck"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hew",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 19 34 18 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 19 34 18 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hew"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fuck",
+     "tags": [
+      "vulgar"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 19 34 18 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 19 34 18 0"
+      },
+      {
+       "name": "Sex",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Sex",
+       "langcode": "sq",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fuck"
+     ]
+    }
+   ],
+   "rank": 6183,
+   "count": 116,
+   "family": "qij",
+   "is_root": true,
+   "etymology": "A variant of Albanian kij, with palatalized velar.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "qihem",
+    "qirë",
+    "qirje"
+   ],
+   "related": [
+    "bythëqirë",
+    "nënëqirë",
+    "robqirë",
+    "shkërdhej",
+    "shqyej"
+   ],
+   "forms": [
+    {
+     "form": "qirë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Fuck me, I'm drunk!",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Qij mua, unë jam i dehur!"
    }
   }
  ]
