@@ -43,11 +43,13 @@ LOOKUP = {
 }
 
 PERFECT = [
-    ("third-person singular simple perfect indicative of jam", "jam", "he/she/it (has done)"),
-    ("third-person plural simple perfect indicative of jam", "jam", "they (have done)"),
-    ("first-person singular simple perfect indicative of jam", "jam", "I (have done)"),
+    # A copula takes no perfect note, so the note is absent from these.
+    ("third-person singular simple perfect indicative of jam", "jam", "he/she/it is"),
+    ("third-person plural simple perfect indicative of jam", "jam", "they are"),
+    ("first-person singular simple perfect indicative of jam", "jam", "I am"),
+    ("second-person plural simple perfect indicative of jam", "jam", "you (pl) are"),
+    # A lexical verb keeps the note, and it agrees with the person.
     ("first-person plural simple perfect indicative of bie", "bie", "we (have done)"),
-    ("second-person plural simple perfect indicative of jam", "jam", "you (pl) (have done)"),
 ]
 
 
@@ -58,9 +60,16 @@ def test_person_agreement():
         check(got is not None and expect in got,
               "%s... -> %r" % (gloss[:44], expect), got)
     print("-- no false 'has done' outside third person --")
-    for gloss, lem, _ in PERFECT[1:]:
+    for gloss, lem, _ in PERFECT:
+        if re.search(r"third-person singular", gloss):
+            continue
         got = form_gloss.friendly_gloss(gloss, "verb", lem, LOOKUP) or ""
         check("has done" not in got, "no 'has done' in %r" % gloss[:44], got)
+    print("-- a copula never carries the perfect note --")
+    for gloss in [g for g, lem, _ in PERFECT if lem == "jam"]:
+        got = form_gloss.friendly_gloss(gloss, "verb", "jam", LOOKUP) or ""
+        check("have done" not in got and "has done" not in got,
+              "no perfect note on a 'be' form: %r" % gloss[:44], got)
 
 
 # Raw dictionary phrasing: the word-order shapes Wiktionary emits.
@@ -76,8 +85,11 @@ RAW = re.compile(
 # must not be replaced by a grammatical reading of a minor sense. That word
 # keeping dictionary phrasing is the correct outcome, not a miss.
 EXPECTED_SHIPPED = {
-    "qenë": "they (have done) are",
-    "qeshë": "I (have done) am",
+    # A copula takes no perfect note: English has no '(have done) are'.
+    # 'qenë' used to ship exactly that, which is the nonsense this fixes.
+    "qenë": "they are",
+    "qeshë": "I am",
+    # A lexical verb DOES keep the note, and it agrees with the person.
     "ramë": "we (have done) fall",
     "ranë": "they (have done) fall",
     "doni": "you (pl) want",

@@ -402,6 +402,14 @@ def friendly_verb(prefix, lemma, lemma_en):
             if txt == " (has done)" and not (
                     person.startswith("third") and number == "singular"):
                 txt = " (have done)"
+            # The perfect note claims an English construction a copula cannot
+            # carry. qenë is glossed 'third-person plural simple perfect
+            # indicative of jam', and the note was attached to the 'be' form
+            # below, shipping the card as 'they (have done) are'. English has
+            # no '(have done) are', so the note is dropped for 'be'; the card
+            # then reads 'they are', which is true.
+            if inf and inf.lower() == "be" and "done" in txt:
+                txt = ""
             note = txt
             break
 

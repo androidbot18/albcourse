@@ -84,13 +84,19 @@ CASES = [
      "I (used to) was (from jam, to be)"),
     ("first-person singular aorist indicative of them", "verb", "them",
      "I (once did) said (from them, to say)"),
-    # Albanian tenses with no single English word. The perfect agrees with the
-    # person: 'they (has done) are' is false English, so only third-person
-    # singular takes 'has done' and the rest take 'have done'.
+    # Albanian tenses with no single English word. For a LEXICAL verb the
+    # perfect agrees with the person: only third-person singular takes 'has
+    # done', the rest take 'have done'.
+    ("third-person plural simple perfect indicative of dua", "verb", "dua",
+     "they (have done) want (from dua, to want)"),
+    # For 'be' the note is dropped entirely. English has no '(have done) are',
+    # so attaching the perfect to the copula shipped qenë as 'they (have
+    # done) are (from jam, to be)'. The form itself is 'they are', which is
+    # true, so the note was the only thing that had to go.
     ("third-person plural simple perfect indicative of jam", "verb", "jam",
-     "they (have done) are (from jam, to be)"),
+     "they are (from jam, to be)"),
     ("third-person singular simple perfect indicative of jam", "verb", "jam",
-     "he/she/it (has done) is (from jam, to be)"),
+     "he/she/it is (from jam, to be)"),
     # A gloss that is nothing but the slot. A participle is a word the learner
     # meets, so it is glossed by what it DOES, not by the slot name. This was the
     # largest group of leaks: 91 of the 133 still leaking when measured.
