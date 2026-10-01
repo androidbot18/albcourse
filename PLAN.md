@@ -27,7 +27,7 @@ Reproduce with `python3 tools/measure_learnability.py` and
 3. Cognate hooks on 125 cards.
 4. Pictureable nouns in the opening levels (noun share 0.30).
 
-## Open work, highest leverage first
+## Ordering defect found 2026-10-01: function words are taught last\n\nThe \
 
 Every number below comes from `tools/measure_learnability.py`.
 
