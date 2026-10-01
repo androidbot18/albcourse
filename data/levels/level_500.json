@@ -1,33 +1,32 @@
 {
  "level": 500,
- "title": "bli, piano, nuse, holli, përfundimtar, shmang +4",
+ "title": "stan, leh, kockë, ngjit, mësuese, zhdukem +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "bli",
-  "holli",
-  "nuse",
-  "piano",
-  "përfundimtar",
-  "shmang"
+  "kockë",
+  "leh",
+  "mësuese",
+  "ngjit",
+  "stan",
+  "zhdukem"
  ],
  "pos_mix": {
-  "noun": 8,
-  "adj": 2,
-  "verb": 1
+  "noun": 10,
+  "verb": 5
  },
  "words": [
   {
-   "id": "bli",
-   "sq": "bli",
-   "en": "linden, lime tree (Tilia)",
+   "id": "stan",
+   "sq": "stan",
+   "en": "place with huts and pens for shepherds and cattle; shed, fold, barn; hut, shelter",
    "glosses": [
-    "linden, lime tree (Tilia)",
-    "linden flower (used to make linden tea)",
-    "sturgeon (Acipenser sturio)"
+    "place with huts and pens for shepherds and cattle; shed, fold, barn; hut, shelter",
+    "flock of sheep",
+    "hostile group, gang, unit"
    ],
    "pos": [
     "noun",
@@ -43,7 +42,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "linden, lime tree (Tilia)",
+     "gloss": "place with huts and pens for shepherds and cattle; shed, fold, barn; hut, shelter",
      "tags": [
       "masculine"
      ],
@@ -53,452 +52,449 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "54 7 26 13"
-      },
-      {
-       "name": "Acipenseriform fish",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Acipenseriform fish",
-       "langcode": "sq",
-       "_dis": "66 3 25 6"
-      },
-      {
-       "name": "Malvales order plants",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Malvales order plants",
-       "langcode": "sq",
-       "_dis": "40 27 6 27"
+       "_dis": "49 30 22"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Kur më vjen burri nga stani // kur më vjen ×3 // fërr-fërr-fërr më bën fustani // fërr-fërr-fërr ×3",
+       "en": "When my husband comes from the barn furr-furr-furr my dress flies.",
+       "offsets": [
+        [
+         22,
+         27
+        ],
+        [
+         73,
+         78
+        ]
+       ]
+      }
+     ],
      "links": [
-      "linden",
-      "lime",
-      "Tilia"
+      "hut",
+      "pen",
+      "shepherd"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "linden flower (used to make linden tea)",
+     "gloss": "flock of sheep",
      "tags": [
       "masculine"
      ],
      "cats": [],
+     "examples": [],
+     "links": [
+      "flock",
+      "sheep"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hostile group, gang, unit",
+     "tags": [
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "group",
+      "gang"
+     ]
+    }
+   ],
+   "rank": 8673,
+   "count": 77,
+   "family": "stan",
+   "is_root": true,
+   "etymology": "Borrowed from South Slavic, from Proto-Slavic *stanъ (“camp”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "camp"
+   ],
+   "components": [],
+   "derived": [
+    "stanar",
+    "stanoj",
+    "stanore"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "stane",
+     "tag": "plural"
+    },
+    {
+     "form": "stani",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "leh",
+   "sq": "leh",
+   "en": "to bark, yap",
+   "glosses": [
+    "to bark, yap",
+    "to waffle, to gossip, to slander, to insult",
+    "to pant, to snort"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bark, yap",
+     "tags": [
+      "intransitive",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 17 25 15 4 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bark",
+      "yap"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to waffle, to gossip, to slander, to insult",
+     "tags": [
+      "derogatory",
+      "figuratively",
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "waffle",
+      "gossip"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pant, to snort",
+     "tags": [
+      "Arvanitika",
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Arvanitika Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 7 10 8 1 10 2 2 2 2 8 10 11 9 2 9 2"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 17 25 15 4 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pant",
+      "snort"
+     ]
+    }
+   ],
+   "rank": 8699,
+   "count": 77,
+   "family": "leh",
+   "is_root": true,
+   "etymology": "Earlier attested as ljeh, cognate with Romanian lehăi, supported as Dacian, or substrate. Alternatively, from Proto-Albanian *laja, from Proto-Indo-European *leh₂-. Cognate to Ancient Greek λάσκω (láskō, “to cry, roar”). Present leh occurs almost exclusively in the 2nd and 3rd person, the -a- of which has usually been subject to umlaut.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "leha",
+     "tag": "aorist"
+    },
+    {
+     "form": "lehur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "D'Leh, when will I become a hunter?",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "D'Leh, kur do të bëhem unë gjuetar?"
+   }
+  },
+  {
+   "id": "kockë",
+   "sq": "kockë",
+   "en": "bone",
+   "glosses": [
+    "bone",
+    "core of a person's character, essential nature",
+    "strong character",
+    "die used in a children's dice game",
+    "trinket, small thing of no value"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bone",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 23 6 23 20"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 12 12 28 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "bone"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "core of a person's character, essential nature",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 12 12 28 15"
+      }
+     ],
      "examples": [],
      "links": []
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sturgeon (Acipenser sturio)",
+     "gloss": "strong character",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "sturgeon",
-      "Acipenser sturio"
-     ]
-    }
-   ],
-   "rank": 8543,
-   "count": 79,
-   "family": "bli",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "blishtë",
-    "blinishtë",
-    "blinajë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "blij",
-     "tag": "plural"
-    },
-    {
-     "form": "blini",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Buy yours now!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Bli tënden tani!"
-   }
-  },
-  {
-   "id": "piano",
-   "sq": "piano",
-   "en": "piano",
-   "glosses": [
-    "piano"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "piano",
-     "tags": [
-      "feminine"
+      "feminine",
+      "figuratively"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 29 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "33 12 12 28 15"
       }
      ],
      "examples": [],
-     "links": [
-      "music",
-      "piano"
-     ]
-    }
-   ],
-   "rank": 8556,
-   "count": 79,
-   "family": "piano",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "piano",
-     "tag": "plural"
+     "links": []
     },
-    {
-     "form": "pianoja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "She plays the piano.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Ajo luan në piano."
-   }
-  },
-  {
-   "id": "nuse",
-   "sq": "nuse",
-   "en": "bride",
-   "glosses": [
-    "bride",
-    "daughter-in-law"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bride",
+     "gloss": "die used in a children's dice game",
      "tags": [
       "feminine"
      ],
      "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 12 12 28 15"
+      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "77 23"
+       "_dis": "25 9 9 28 30"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "89 11"
-      },
-      {
-       "name": "Family members",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Family members",
-       "langcode": "sq",
-       "_dis": "90 10"
+       "_dis": "35 4 4 28 29"
       }
      ],
      "examples": [],
      "links": [
-      "bride"
+      "die"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "daughter-in-law",
+     "gloss": "trinket, small thing of no value",
      "tags": [
-      "feminine"
+      "feminine",
+      "figuratively"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "35 65"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "daughter-in-law"
-     ]
-    }
-   ],
-   "rank": 8564,
-   "count": 79,
-   "family": "nuse",
-   "is_root": true,
-   "etymology": "Singularized plural of *nusë, from Proto-Albanian *nutjā, from Proto-Indo-European *(s)nubʰ-tyeh₂, from *snewbʰ-; compare Latin nūbō (“to marry a man”), Czech snoubiti (“to woo”). For the sense development, Greek νύφη (nýfi, “bride, daughter-in-law”), from Ancient Greek νύμφη (númphē, “bride”). Alternatively from Proto-Albanian *snutjā, from Proto-Indo-European *snu-eh₂- (“daughter-in-law”), derivative of *snusós (compare Latin nurus, Sanskrit स्नुषा (snuṣā), Ancient Greek νυός (nuós), Old English snoru). Attributed by Vladimir Orel 2000 (:34) to Latin nūptia as a later Latin loan, derived from the first mentioned root.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "nus",
-    "nusja"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "nuse",
-     "tag": "plural"
-    },
-    {
-     "form": "nusja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What happened to these two young brides?",
-    "score": [
-     3,
-     8,
-     -5,
-     10
-    ],
-    "sq": "Ç'ndodhi me këto dy nuse të reja?"
-   }
-  },
-  {
-   "id": "holli",
-   "sq": "holli",
-   "en": "oblong, hollow",
-   "glosses": [
-    "oblong, hollow"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "oblong, hollow",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "oblong",
-      "hollow"
-     ]
-    }
-   ],
-   "rank": 8574,
-   "count": 78,
-   "family": "holli",
-   "is_root": true,
-   "etymology": "From hollë with -í-enlargement.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hollie",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Also, the main lobby has three large domes.",
-    "score": [
-     4,
-     8,
-     -4,
-     10
-    ],
-    "sq": "Gjithashtu, holli kryesor ka tre kupola të mëdha."
-   }
-  },
-  {
-   "id": "përfundimtar",
-   "sq": "përfundimtar",
-   "en": "definitive, conclusive, decisive",
-   "glosses": [
-    "definitive, conclusive, decisive"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "definitive, conclusive, decisive",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "_dis": "33 12 12 28 15"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 9 9 28 30"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "35 4 4 28 29"
       }
      ],
      "examples": [],
-     "links": [
-      "definitive",
-      "conclusive",
-      "decisive"
-     ]
+     "links": []
     }
    ],
-   "rank": 8576,
-   "count": 78,
-   "family": "përfundimtar",
+   "rank": 8724,
+   "count": 77,
+   "family": "kockë",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From South Slavic; cf. Macedonian коска (koska), Serbo-Croatian kȍska.",
    "etymology_class": null,
-   "source_lang": null,
+   "source_lang": "sr",
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "kockaman",
+    "kockanjar",
+    "kockëbutë",
+    "kockëdalë",
+    "kockëfortë",
+    "kockëgjerë",
+    "kockëhollë",
+    "kockëmadh"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "përfundimtare",
-     "tag": "feminine"
+     "form": "kocka",
+     "tag": "plural"
+    },
+    {
+     "form": "koskë",
+     "tag": "alternative"
+    },
+    {
+     "form": "goskë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "This decision is final.",
+    "corpus": "HPLT",
+    "en": "But when he got there, he was skin and bones.",
     "score": [
-     0,
-     4,
-     -4,
-     8
+     2,
+     8,
+     -6,
+     10
     ],
-    "sq": "Ky vendim është përfundimtar."
+    "sq": "Por kur erdhi aty, ishte kockë e lëkurë."
    }
   },
   {
-   "id": "shmang",
-   "sq": "shmang",
-   "en": "to avoid, to prevent",
+   "id": "ngjit",
+   "sq": "ngjit",
+   "en": "to stick, glue, adhere",
    "glosses": [
-    "to avoid, to prevent"
+    "to stick, glue, adhere"
    ],
    "pos": [
     "verb"
@@ -510,10 +506,8 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to avoid, to prevent",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to stick, glue, adhere",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -536,14 +530,82 @@
      ],
      "examples": [],
      "links": [
-      "avoid",
-      "prevent"
+      "stick",
+      "glue",
+      "adhere"
      ]
     }
    ],
-   "rank": 8596,
-   "count": 78,
-   "family": "shmang",
+   "rank": 8759,
+   "count": 77,
+   "family": "ngjit",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *en-gleitja, from Proto-Indo-European *gleyH- (“to smear; to stick”). Compare Proto-Germanic *klaiþą (“garment”), English cloth.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngjita",
+     "tag": "aorist"
+    },
+    {
+     "form": "ngjitur",
+     "tag": "participle"
+    },
+    {
+     "form": "ngjis",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Nicely constructed and went up easy!",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "E ndërtuar bukur dhe u ngjit lehtë!"
+   }
+  },
+  {
+   "id": "mësuese",
+   "sq": "mësuese",
+   "en": "female teacher, instructor",
+   "glosses": [
+    "female teacher, instructor"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "female teacher, instructor",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "teacher",
+      "instructor"
+     ]
+    }
+   ],
+   "rank": 8763,
+   "count": 77,
+   "family": "mësuese",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -555,56 +617,117 @@
    "related": [],
    "forms": [
     {
-     "form": "shmangur",
-     "tag": "participle"
+     "form": "mësuese",
+     "tag": "plural"
+    },
+    {
+     "form": "mësuesja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But this time, even the Witch avoided.",
+    "en": "She was a French teacher.",
     "score": [
      1,
-     7,
-     -6,
+     3,
+     -2,
      10
     ],
-    "sq": "Ama kësaj here, edhe Shtriga u shmang."
+    "sq": "Ishte mësuese frëngjishteje."
    }
   },
   {
-   "id": "nuselalë",
-   "sq": "nuselalë",
-   "en": "weasel",
+   "id": "zhdukem",
+   "sq": "zhdukem",
+   "en": "to disappear, vanish",
    "glosses": [
-    "weasel",
-    "racoon"
+    "to disappear, vanish"
    ],
    "pos": [
-    "noun",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to disappear, vanish",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with zh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -em",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "disappear",
+      "vanish"
+     ]
+    }
+   ],
+   "rank": 8770,
+   "count": 77,
+   "family": "zhdukem",
+   "is_root": true,
+   "etymology": "From zh- + dukem. By surface analysis, zhduk + -em.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "dukem",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zhdukur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "zhdukje",
+   "sq": "zhdukje",
+   "en": "disappearance, vanishing",
+   "glosses": [
+    "disappearance, vanishing"
+   ],
+   "pos": [
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "weasel",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "weasel"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "racoon",
+     "gloss": "disappearance, vanishing",
      "tags": [
       "feminine"
      ],
@@ -613,57 +736,66 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 96"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 97"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 97"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "racoon"
+      "disappearance",
+      "vanishing"
      ]
     }
    ],
-   "rank": 47498,
-   "count": 7,
-   "family": "nuse",
+   "rank": 22079,
+   "count": 23,
+   "family": "zhdukem",
    "is_root": false,
-   "etymology": "A compound of nuse + lalë.",
-   "etymology_class": null,
+   "etymology": "Gerund of zhdukem; zhdukem + -je.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "nuse",
+     "word": "zhdukem",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [
-    "nuse",
-    "lalë"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "nuselala",
+     "form": "zhdukje",
      "tag": "plural"
+    },
+    {
+     "form": "zhdukja",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "volume is a complete extinction of the market.",
+    "score": [
+     3,
+     8,
+     -5,
+     10
+    ],
+    "sq": "Vëllimi është një zhdukje të plotë të tregut."
+   }
   }
  ]
 }

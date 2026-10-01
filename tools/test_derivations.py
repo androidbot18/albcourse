@@ -176,6 +176,58 @@ for text, want_stem, why in [
 eq(bc.components_of("e- + sillë", W) != [], True,
    "esëll still resolves components at all")
 
+
+# --- the stem side ends at its own clause ------------------------------
+# kush reads "...Proto-Indo-European *kʷos + *sos, meaning 'who (is) this'".
+# The "+" joins two RECONSTRUCTED forms, but _side_word() matched the spelling
+# "sos" against the deck word sos ("indeed"), inventing an edge that held ai
+# (rank 35) back to L614 behind a rank-19473 word. Prose is not a composition.
+# kruaj must be in the word set: a stem the course does not teach is
+# correctly rejected as "not a deck word", which would mask this rule.
+PROSE_W = W | {"sos", "kurrë", "ne", "kush", "kruaj", "rravsh"}
+
+for text, want_stem, why in [
+    ('From Proto-Indo-European *kʷos + *sos, meaning "who (is) this".', None,
+     "a reconstructed PIE form is not a stem the learner must know"),
+    ("Compound of Proto-Albanian *kur + *ne/o- negative particle.", None,
+     "a starred affix + starred base is prose, not a lesson prerequisite"),
+    ("From Proto-Albanian *(V)(m)pi, from *h₂en-h₁pi + *h₁(é)pi.", None,
+     "reconstruction inside the stem side yields no stem"),
+    # The other side of the same rule: a base that merely sits after the
+    # comma is in the NEXT clause, so it is not this word's stem either.
+    ("From a compound *rravsh + -oj, the first element of which is borrowed.", None,
+     "a word named after the comma is in another clause"),
+    # Negative controls: real compositions, none of which has a clause
+    # break or a star between the "+" and its base.
+    ("From e- + sillë.", "sillë",
+     "esëll = e- + sillë keeps its real stem"),
+    ("* From sh- (\u201coff\u201d) + kruaj (\u201cto scratch\u201d) q.v.;", "kruaj",
+     "shkruaj = sh- + kruaj keeps kruaj"),
+]:
+    got = bc.components_of(text, PROSE_W)
+    stems = [w for w, role in got if role == "stem"]
+    eq(stems, [want_stem] if want_stem else [], why)
+
+# The defect itself, as an end-to-end guard on the built deck: ai and kush
+# are among the 100 commonest words, so neither may sit past level 100.
+try:
+    import json as _json
+    import os as _os
+    here = _os.path.dirname(_os.path.abspath(__file__))
+    _idx = _json.load(open(_os.path.join(here, "..", "data", "index.json")))
+    _pos = {}
+    for _lv in _idx:
+        _f = _os.path.join(here, "..", "data", "levels",
+                           "level_%03d.json" % _lv["level"])
+        for _c in _json.load(open(_f))["words"]:
+            _pos[_c["sq"]] = _lv["level"]
+    for _w in ("ai", "kush"):
+        if _w in _pos:
+            eq(_pos[_w] <= 100, True,
+               "%s is taught in the opening, not held behind a rare stem" % _w)
+except (IOError, OSError, ValueError):
+    pass
+
 print()
 if failures:
     print("FAILURES (%d):" % len(failures))

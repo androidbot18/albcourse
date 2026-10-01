@@ -1,23 +1,200 @@
 {
  "level": 12,
- "title": "nënë, frymë, mbrëmë, mut, numër, qejf +4",
+ "title": "nënë, frymë, mbrëmë, mut, jo, mirë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 9,
  "families": [
   "frymë",
+  "jo",
   "mbrëmë",
+  "mirë",
   "mut",
-  "numër",
-  "nënë",
-  "qejf"
+  "nënë"
  ],
  "pos_mix": {
-  "noun": 11
+  "det": 1,
+  "adj": 1,
+  "adv": 1,
+  "noun": 11,
+  "verb": 2
  },
  "words": [
+  {
+   "id": "jo",
+   "sq": "jo",
+   "en": "negates non-verbal phrases: no, not",
+   "glosses": [
+    "negates non-verbal phrases: no, not"
+   ],
+   "pos": [
+    "det"
+   ],
+   "pos_labels": [
+    "determiner"
+   ],
+   "sense_detail": [
+    {
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "negates non-verbal phrases: no, not",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 48 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "no",
+      "not"
+     ]
+    }
+   ],
+   "rank": 19,
+   "count": 82999,
+   "family": "jo",
+   "is_root": true,
+   "etymology": "Likely a babble word, compare Turkish yok (“no”), and its derivates in other Balkanic languages such as Romanian ioc, Macedonian јок (jok). Comparison with German ja (“yes”) is semantically hard to explain.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "no"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Easy, right?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Lehtë, apo jo?"
+   }
+  },
+  {
+   "id": "mirë",
+   "sq": "mirë",
+   "en": "good",
+   "glosses": [
+    "good",
+    "well"
+   ],
+   "pos": [
+    "adj",
+    "adv"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "good",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "good"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "well",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 88"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 70"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "S'flas shqip mirë .",
+       "en": "I don't speak Albanian well.",
+       "offsets": [
+        [
+         13,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "well"
+     ]
+    }
+   ],
+   "rank": 21,
+   "count": 74145,
+   "family": "mirë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *mīrā, from older Proto-Albanian *meirā, from Proto-Indo-European *meih₁-ro- (“peace”).\nCompare Proto-Balto-Slavic *meiˀrás (“peace”), Proto-Slavic *milъ (“nice, gentle, mild”)), enlargement of *meih₁- (“soft, mild”) (compare Latin mītis (“soft (not chewy)”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "peace"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Very well written.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Shumë mirë shkruar."
+   }
+  },
   {
    "id": "nënë",
    "sq": "nënë",
@@ -469,107 +646,148 @@
    }
   },
   {
-   "id": "numër",
-   "sq": "numër",
-   "en": "number",
+   "id": "mirësi",
+   "sq": "mirësi",
+   "en": "goodness",
    "glosses": [
-    "number"
+    "goodness",
+    "kindness"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "number",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "goodness",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësi",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "56 44"
       }
      ],
      "examples": [],
      "links": [
-      "number"
+      "goodness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "kindness",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësi",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kindness"
      ]
     }
    ],
-   "rank": 860,
-   "count": 1119,
-   "family": "numër",
-   "is_root": true,
-   "etymology": "Probably borrowed through Vulgar Latin from Latin numerus. Compare Romanian număr, with a similar pronunciation.",
-   "etymology_class": "borrowed",
+   "rank": 8432,
+   "count": 80,
+   "family": "mirë",
+   "is_root": false,
+   "etymology": "From mirë + -ësi.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "numra",
+     "form": "mirësi",
      "tag": "plural"
     },
     {
-     "form": "numri",
+     "form": "mirësia",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What number of will you find?",
+    "en": "Thank you kindly.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Cili numër do të gjeni?"
+    "sq": "Faleminderit me mirësi."
    }
   },
   {
-   "id": "qejf",
-   "sq": "qejf",
-   "en": "pleasure",
+   "id": "përmirësoj",
+   "sq": "përmirësoj",
+   "en": "to improve",
    "glosses": [
-    "pleasure"
+    "to improve"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pleasure",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to improve",
      "tags": [
-      "colloquial",
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -593,34 +811,126 @@
      ],
      "examples": [],
      "links": [
-      "pleasure"
+      "improve"
      ]
     }
    ],
-   "rank": 864,
-   "count": 1117,
-   "family": "qejf",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish كیف (keyf, literally “state, disposition”), from Arabic كَيْف (kayf, “state, disposition”).",
-   "etymology_class": "borrowed",
+   "rank": 19135,
+   "count": 28,
+   "family": "mirë",
+   "is_root": false,
+   "etymology": "From për + mirë + soj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "mirë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "përmirësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përmirësuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It was just fun.",
+    "en": "improve the texture of my skin?",
     "score": [
-     0,
      3,
-     -3,
+     5,
+     -2,
      10
     ],
-    "sq": "Ishte thjesht qejf."
+    "sq": "përmirësoj përbërjen e lëkurës sime?"
    }
+  },
+  {
+   "id": "miratoj",
+   "sq": "miratoj",
+   "en": "to approve",
+   "glosses": [
+    "to approve"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to approve",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -toj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "approve"
+     ]
+    }
+   ],
+   "rank": 35402,
+   "count": 11,
+   "family": "mirë",
+   "is_root": false,
+   "etymology": "From mirë (“good, well”) + -toj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "miratova",
+     "tag": "aorist"
+    },
+    {
+     "form": "miratuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

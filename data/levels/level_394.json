@@ -1,25 +1,30 @@
 {
  "level": 394,
- "title": "djeg",
- "root": "djeg",
- "root_gloss": "to burn",
+ "title": "buzë, kuçkë, lagur, art +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "djeg"
+  "art",
+  "buzë",
+  "kuçkë",
+  "lagur"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 1
+  "verb": 3,
+  "noun": 9,
+  "adj": 1,
+  "prep": 2
  },
  "words": [
   {
-   "id": "djeg",
-   "sq": "djeg",
-   "en": "to burn",
+   "id": "buzëqesh",
+   "sq": "buzëqesh",
+   "en": "to smile",
    "glosses": [
-    "to burn"
+    "to smile"
    ],
    "pos": [
     "verb"
@@ -31,9 +36,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to burn",
+     "gloss": "to smile",
      "tags": [
-      "transitive"
+      "intransitive"
      ],
      "cats": [
       {
@@ -57,50 +62,244 @@
      ],
      "examples": [],
      "links": [
-      "burn"
+      "smile"
      ]
     }
    ],
-   "rank": 3811,
+   "rank": 3813,
    "count": 205,
-   "family": "djeg",
+   "family": "buzë",
+   "is_root": false,
+   "etymology": "From buzë (“lip”) + qesh (“laugh”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "lip",
+    "laugh"
+   ],
+   "components": [
+    {
+     "word": "buzë",
+     "role": "prefix"
+    },
+    {
+     "word": "qesh",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "buzëqesha",
+     "tag": "aorist"
+    },
+    {
+     "form": "buzëqeshur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Smile for no reason.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Buzëqesh pa arsye."
+   }
+  },
+  {
+   "id": "kuçkë",
+   "sq": "kuçkë",
+   "en": "female dog, bitch",
+   "glosses": [
+    "female dog, bitch",
+    "slut, whore, bitch"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "female dog, bitch",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bitch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "slut, whore, bitch",
+     "tags": [
+      "derogatory",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "slut",
+      "whore"
+     ]
+    }
+   ],
+   "rank": 3815,
+   "count": 205,
+   "family": "kuçkë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dega, Proto-Indo-European *dʰégʷʰeti.",
-   "etymology_class": "inherited",
+   "etymology": "From South Slavic; cf. Serbo-Croatian kȕčka, Bulgarian/Macedonian кучка (kučka).",
+   "etymology_class": null,
+   "source_lang": "sr",
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "kuç",
+    "gucë"
+   ],
+   "forms": [
+    {
+     "form": "kuçka",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "lagur",
+   "sq": "lagur",
+   "en": "wet, moist, damp",
+   "glosses": [
+    "wet, moist, damp"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "wet, moist, damp",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "77 23"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "wet",
+      "moist",
+      "damp"
+     ]
+    }
+   ],
+   "rank": 3821,
+   "count": 205,
+   "family": "lagur",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dogja",
-     "tag": "aorist"
-    },
-    {
-     "form": "djegur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "city before it burns completely.",
+    "en": "I felt my hand wet.",
     "score": [
-     1,
-     6,
-     -5,
+     2,
+     4,
+     -2,
      10
     ],
-    "sq": "qytet para se të djeg plotësisht."
+    "sq": "Ndjeva dorën të lagur."
    }
   },
   {
-   "id": "djegje",
-   "sq": "djegje",
-   "en": "burn",
+   "id": "art",
+   "sq": "art",
+   "en": "art",
    "glosses": [
-    "burn"
+    "art"
    ],
    "pos": [
     "noun"
@@ -112,9 +311,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "burn",
+     "gloss": "art",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -124,13 +323,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 23 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -138,38 +337,464 @@
      ],
      "examples": [],
      "links": [
-      "burn"
+      "art"
      ]
     }
    ],
-   "rank": 28235,
-   "count": 16,
-   "family": "djeg",
-   "is_root": false,
-   "etymology": "From djeg + -je feminine noun suffix.",
-   "etymology_class": "affix",
+   "rank": 3824,
+   "count": 204,
+   "family": "art",
+   "is_root": true,
+   "etymology": "Learned borrowing from Latin ars, artem.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
     {
-     "word": "djeg",
-     "role": "prefix"
+     "form": "arti",
+     "tag": "definite"
     }
    ],
-   "derived": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Art and music.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Art dhe muzikë."
+   }
+  },
+  {
+   "id": "buzë",
+   "sq": "buzë",
+   "en": "nigh, to/at the side of",
+   "glosses": [
+    "nigh, to/at the side of",
+    "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+    "lip",
+    "muzzle, snout",
+    "edge, rim, side",
+    "beginning (of an event/time)",
+    "cliff",
+    "rocky chasm, (rocky) cliffs; sharp rock(s), boulders"
+   ],
+   "pos": [
+    "prep",
+    "prep",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "preposition",
+    "preposition",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "nigh, to/at the side of",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      },
+      {
+       "name": "Albanian terms suffixed with -zë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 18 4 23 5 6 12 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nigh",
+      "to",
+      "at"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "on",
+      "to",
+      "onto"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lip",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "lip"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "muzzle, snout",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Veterinary medicine",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Veterinary medicine",
+       "langcode": "sq"
+      },
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "veterinary medicine",
+      "muzzle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "edge, rim, side",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge",
+      "rim",
+      "side"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beginning (of an event/time)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beginning"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cliff",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cliff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rocky chasm, (rocky) cliffs; sharp rock(s), boulders",
+     "tags": [
+      "in-plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 25 2 8 3 37 5 13"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 19 2 6 2 35 3 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chasm",
+      "rock",
+      "boulders"
+     ]
+    }
+   ],
+   "rank": 5429,
+   "count": 137,
+   "family": "buzë",
+   "is_root": true,
+   "etymology": "From archaic and now chiefly dialectal (Arbëresh) budhë + -zë (collective suffix), from Proto-Albanian *budzā, from Proto-Indo-European *bʰudʰmḗn (“bottom”); compare Lithuanian budė̃ (“tree-fungus”), bùdė (“whetstone”), Sanskrit बुध्न (budhna), Ancient Greek πυθμήν (puthmḗn, “bottom”), Latin fundus (“bottom, piece of land, farm”). Possibly lent Romanian buză.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "bottom",
+    "whetstone"
+   ],
+   "components": [],
+   "derived": [
+    "buzaç",
+    "buzak",
+    "buzake",
+    "buzël",
+    "buzëqeshje",
+    "buzëz",
+    "buzinë",
+    "buzm"
+   ],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Looking for La Loma columbaries cremation services?",
+    "en": "Oceanfront Views!",
     "score": [
-     6,
-     8,
+     1,
+     3,
      -2,
      10
     ],
-    "sq": "Duke kërkuar për La Loma columbaries shërbime djegje?"
+    "sq": "Pamje buzë oqeanit!"
+   }
+  },
+  {
+   "id": "përbuz",
+   "sq": "përbuz",
+   "en": "to despise, disdain",
+   "glosses": [
+    "to despise, disdain",
+    "to overcome, not fear"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to despise, disdain",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "despise",
+      "disdain"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to overcome, not fear",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "overcome",
+      "fear"
+     ]
+    }
+   ],
+   "rank": 29542,
+   "count": 15,
+   "family": "buzë",
+   "is_root": false,
+   "etymology": "From për- + buzë (“lip”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "lip"
+   ],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "buzë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "përbuza",
+     "tag": "aorist"
+    },
+    {
+     "form": "përbuzur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The police despise Waze.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Policia e përbuz Waze."
    }
   }
  ]
