@@ -27,7 +27,43 @@ Reproduce with `python3 tools/measure_learnability.py` and
 3. Cognate hooks on 125 cards.
 4. Pictureable nouns in the opening levels (noun share 0.30).
 
-## Ordering defect found 2026-10-01: function words are taught last\n\nThe \
+## Ordering defect found 2026-10-01: function words were taught last
+
+The deck taught its most common words at the very end. A family inherits a
+prerequisite edge from the stem of ANY of its members, and a function word is
+also a PREFIX in rarer compounds -- `esëll` (stem `sillë`, rank 30157) sat in
+family `e`, so `e` could not unlock until `sillë` was ready. Those edges chain
+into mutual knots (`një` <- `për` <- `gjithë` <- `kush` <- `sos` <- `ai`) that
+the topological sort resolves by scheduling the rare tail first.
+
+Fixed without discarding any edge: a word that supplies only a PREFIX to a
+compound is re-homed to the family of the stem it is built on, and a family
+whose own root is used only as a prefix across many unrelated stems (a
+"prefix bucket", e.g. `për` held 64 members over 42 stems) has its bare prefix
+detached. Every compound still follows the stem that explains it.
+
+| word | gloss | rank | before | after |
+|---|---|---|---|---|
+| e | and | 2 | L652 | L1 |
+| në | if | 3 | L738 | L1 |
+| me | with | 14 | L747 | L8 |
+| jo | not | 19 | L276 | L11 |
+| nga | from/to | 25 | L750 | L15 |
+| për | for | 13 | L739 | L276 |
+| gjithë | all | 62 | L753 | L255 |
+| ka | from/out | 20 | L749 | L279 |
+| ai | he | 35 | L573 | L614 (worse) |
+| kush | who | 80 | L574 | L615 (worse) |
+
+This reshuffles the whole deck: 755 levels become 768, so every level number in
+this document that cited the old count has been re-measured.
+
+**Not fully solved.** Two knots survive the fix and are now *worse*:
+`ai` (L573 -> L614) and `kush` (L574 -> L615) are still held back by `sos`
+(rank 19473), whose root is used only as a SUFFIX across many unrelated stems
+-- the suffix-bucket counterpart to the prefix buckets handled above. The count
+of top-100 words taught after L100 fell 26 -> 11, but the worst of them moved
+L215 -> L253. The next step is the same detach applied to suffix buckets.
 
 Every number below comes from `tools/measure_learnability.py`.
 
@@ -36,13 +72,18 @@ Every number below comes from `tools/measure_learnability.py`.
 This is the owner's own stated criterion -- short sentences that reuse
 vocabulary from this lesson or an earlier one -- and the deck does not meet it.
 
+Measured after the 2026-10-01 ordering fix. Before the fix these read
+33.8% / 14.5% / 11.8% / 13.3% / 9.1% -- L1-20 got WORSE, not better:
+45.3% now. That band is measured before the function words its examples need
+are taught, and the fix moved those words out of L489-L753 and into L1-L15.
+
 | Band | deck tokens in examples taught later |
 |---|---|
-| L1-20 | 33.8% |
-| L21-100 | 14.5% |
-| L101-300 | 11.8% |
-| L301-500 | 13.3% |
-| L501-755 | 9.1% |
+| L1-20 | 45.3% |
+| L21-100 | 9.9% |
+| L101-300 | 5.4% |
+| L301-500 | 1.4% |
+| L501-768 | 0.5% |
 
 L1-20 is by far the worst and it is the band that matters most: 145 tokens
 taught later plus 71 not in the deck at all. Concrete cases:
@@ -85,7 +126,7 @@ description. These are the same class as the 348 already fixed.
 
 ### 5. The tail is thinner than the head
 
-Example coverage falls to 84.0% in L501-755 against 100% in L1-20, and
+Example coverage falls to 84.4% in L501-768 against 100% in L1-20, and
 component coverage falls to 15.5% from 26.3%. If a learner stops early the
 course is in better shape, which should be an explicit and defensible property
 rather than an accident.
