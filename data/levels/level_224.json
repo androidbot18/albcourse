@@ -1,37 +1,40 @@
 {
  "level": 224,
- "title": "paguaj",
- "root": "paguaj",
- "root_gloss": "to pay",
+ "title": "fytyrë",
+ "root": "fytyrë",
+ "root_gloss": "face",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "paguaj"
+  "fytyrë"
  ],
  "pos_mix": {
-  "verb": 2
+  "noun": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "paguaj",
-   "sq": "paguaj",
-   "en": "to pay",
+   "id": "fytyrë",
+   "sq": "fytyrë",
+   "en": "face",
    "glosses": [
-    "to pay"
+    "face"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to pay",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "face",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -54,50 +57,49 @@
      ],
      "examples": [],
      "links": [
-      "pay"
+      "anatomy",
+      "face"
      ]
     }
    ],
-   "rank": 973,
-   "count": 977,
-   "family": "paguaj",
+   "rank": 969,
+   "count": 979,
+   "family": "fytyrë",
    "is_root": true,
-   "etymology": "Ultimately from Latin pācāre. Source language is uncertain, as is the possibility of a direct borrowing. Possibly from Italian pagare or alternatively a derivative of pagë, also from Italian.",
-   "etymology_class": "derived",
+   "etymology": "From fyt (“throat”). Influenced by and alternatively borrowed from Latin factūra (“making, manufacture”) (compare Romanian Romanian făptură (“creature, form”), Italian Italian fattura (“make”)).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "throat"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pagova",
-     "tag": "aorist"
-    },
-    {
-     "form": "paguar",
-     "tag": "participle"
+     "form": "fytyra",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "How much do I need to pay?",
+    "corpus": "HPLT",
+    "en": "face and then blended.",
     "score": [
-     0,
+     1,
      4,
-     -4,
-     8
+     -3,
+     10
     ],
-    "sq": "Sa duhet të paguaj?"
+    "sq": "fytyrë dhe pastaj përzier."
    }
   },
   {
-   "id": "paguar",
-   "sq": "paguar",
-   "en": "pay, past form (from paguaj, to pay)",
+   "id": "përfytyroj",
+   "sq": "përfytyroj",
+   "en": "to imagine, picture",
    "glosses": [
-    "pay, past form (from paguaj, to pay)"
+    "to imagine, picture"
    ],
    "pos": [
     "verb"
@@ -109,11 +111,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "pay, past form (from paguaj, to pay)",
+     "gloss": "to imagine, picture",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "transitive"
      ],
      "cats": [
       {
@@ -123,45 +123,68 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms prefixed with për-",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "paguaj"
+     "links": [
+      "imagine",
+      "picture"
+     ]
     }
    ],
-   "rank": 1079,
-   "count": 873,
-   "family": "paguaj",
+   "rank": 25676,
+   "count": 18,
+   "family": "fytyrë",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From për- + fytyrë (“face”) + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "face"
+   ],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "fytyrë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "përfytyrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përfytyruar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Paid killers.",
+    "en": "I cannot imagine my life without the Church.",
     "score": [
-     0,
      3,
-     -3,
+     8,
+     -5,
      10
     ],
-    "sq": "Vrasës të paguar."
+    "sq": "Nuk mund ta përfytyroj jetën time pa Kishën."
    }
   }
  ]

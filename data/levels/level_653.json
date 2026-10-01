@@ -1,43 +1,46 @@
 {
  "level": 653,
- "title": "shtroj, shkrumb, litër, pëllumb, kult, zogëz +4",
+ "title": "biologji, riparoj, kollë, ruajtje, kukudh, britmë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "kult",
-  "litër",
-  "pëllumb",
-  "shkrumb",
-  "shtroj",
-  "zogëz"
+  "biologji",
+  "britmë",
+  "kollë",
+  "kukudh",
+  "riparoj",
+  "ruajtje"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 6
+  "noun": 9,
+  "verb": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "vështroj",
-   "sq": "vështroj",
-   "en": "to observe, watch, analyze",
+   "id": "biologji",
+   "sq": "biologji",
+   "en": "biology",
    "glosses": [
-    "to observe, watch, analyze"
+    "biology"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to observe, watch, analyze",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "biology",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with vë-",
+       "name": "Albanian terms suffixed with -logji",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,61 +63,115 @@
      ],
      "examples": [],
      "links": [
-      "observe",
-      "watch",
-      "analyze"
+      "biology"
      ]
     }
    ],
-   "rank": 24815,
+   "rank": 24886,
    "count": 19,
-   "family": "shtroj",
-   "is_root": false,
-   "etymology": "From vë- + shtroj, used in contexts with a similar meaning.",
-   "etymology_class": "affix",
+   "family": "biologji",
+   "is_root": true,
+   "etymology": "Ancient Greek βιολογία (viología, “biologia”).\nFrom bio + -logji.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vë",
-     "role": "prefix"
-    },
-    {
-     "word": "shtroj",
-     "role": "stem"
-    }
+   "parents": [
+    "biologia"
    ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vështrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "vështruar",
-     "tag": "participle"
+     "form": "biologjia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I feel hypnotised when I look at his work!",
+    "corpus": "MaCoCu",
+    "en": "Why did you study biology?",
     "score": [
      2,
-     8,
-     -6,
-     10
+     4,
+     -2,
+     8
     ],
-    "sq": "Ndihem e hipnotizuar kur vështroj punën e tij!"
+    "sq": "Pse studiove për biologji?"
    }
   },
   {
-   "id": "shkrumb",
-   "sq": "shkrumb",
-   "en": "ashes, embers",
+   "id": "riparoj",
+   "sq": "riparoj",
+   "en": "to repair",
    "glosses": [
-    "ashes, embers"
+    "to repair"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to repair",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "repair"
+     ]
+    }
+   ],
+   "rank": 24908,
+   "count": 19,
+   "family": "riparoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "riparuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kollë",
+   "sq": "kollë",
+   "en": "cough",
+   "glosses": [
+    "cough"
    ],
    "pos": [
     "noun"
@@ -126,9 +183,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ashes, embers",
+     "gloss": "cough",
      "tags": [
-      "masculine"
+      "uncountable"
      ],
      "cats": [
       {
@@ -152,51 +209,48 @@
      ],
      "examples": [],
      "links": [
-      "ashes",
-      "embers"
+      "cough"
      ]
     }
    ],
-   "rank": 24823,
+   "rank": 24975,
    "count": 19,
-   "family": "shkrumb",
+   "family": "kollë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *iš-kruma, with a non etymological -mb-<*m (cf. Romanian scrum, from Albanian) from Proto-Indo-European *krem, attested in Latin cremō (“to burn”), or from Proto-Indo-European *skremb, *skr̥mb (cf. Lithuanian skrembti (“to crust over, stiffen”), Swedish skrympa (“to shrink”), English shrimp). Compare also Romanian scrum (“ashes”).",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *kāslā, from Proto-Indo-European *kʷeh₂s- (“cough”) (compare English wheeze, Lithuanian kosulỹs, Serbo-Croatian kašalj).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "cough"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shkrumbi",
+     "form": "kolla",
      "tag": "definite"
-    },
-    {
-     "form": "shkrum",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Praise you for streams in the desert.",
+    "en": "A dry cough appears.",
     "score": [
      2,
-     6,
-     -4,
+     5,
+     -3,
      10
     ],
-    "sq": "shkrumb u bënë kullotat në shkretëtirë."
+    "sq": "Shfaqet një kollë e thatë."
    }
   },
   {
-   "id": "litër",
-   "sq": "litër",
-   "en": "liter",
+   "id": "ruajtje",
+   "sq": "ruajtje",
+   "en": "preservation, storage",
    "glosses": [
-    "liter"
+    "preservation, storage"
    ],
    "pos": [
     "noun"
@@ -208,10 +262,16 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "liter",
+     "gloss": "preservation, storage",
      "tags": [],
      "cats": [
       {
+       "name": "Albanian deverbals",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
@@ -222,25 +282,20 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "liter"
+      "preservation",
+      "storage"
      ]
     }
    ],
-   "rank": 24839,
+   "rank": 24994,
    "count": 19,
-   "family": "litër",
+   "family": "ruajtje",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Deverbal from ruaj.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -251,185 +306,254 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How long does 1 liter of bioethanol last?",
+    "en": "Now for storage.",
     "score": [
      1,
-     4,
-     -3,
+     3,
+     -2,
      10
     ],
-    "sq": "Sa zgjat 1 litër bioetanol?"
+    "sq": "Tani për ruajtje."
    }
   },
   {
-   "id": "pëllumb",
-   "sq": "pëllumb",
-   "en": "dove, pigeon (taxonomic family: Columbidae)",
+   "id": "kukudh",
+   "sq": "kukudh",
+   "en": "revenant, undead, vampire, zombie, ghost",
    "glosses": [
-    "dove, pigeon (taxonomic family: Columbidae)",
-    "child, son"
+    "revenant, undead, vampire, zombie, ghost",
+    "evil man, evil-minded, wicked",
+    "fear, terror, dread, horror",
+    "undead Gypsy",
+    "plague: blind female demon associated with plague and cholera and thought to have been brought to the lands by Alexander the Great after he raped an Epirote princess who would not return his love.",
+    "wretched, miserable, desolated, alone, solitary"
    ],
    "pos": [
     "noun",
-    "noun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "adj"
    ],
    "pos_labels": [
     "noun",
-    "noun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "dove, pigeon (taxonomic family: Columbidae)",
+     "gloss": "revenant, undead, vampire, zombie, ghost",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "93 7"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Mythology",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "86 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "95 5"
+       "source": "w",
+       "orig": "sq:Mythology",
+       "langcode": "sq"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "U ngrit si kukudh",
+       "en": "He rose like a revenant",
+       "offsets": [
+        [
+         11,
+         17
+        ]
+       ]
+      }
+     ],
      "links": [
-      "dove",
-      "pigeon",
-      "taxonomic"
+      "mythology",
+      "revenant",
+      "undead"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "child, son",
+     "gloss": "evil man, evil-minded, wicked",
      "tags": [
-      "endearing",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U hyri kukudhi në shtëpi",
+       "en": "The evil went into their house",
+       "offsets": [
+        [
+         7,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "derogatory",
+      "evil",
+      "evil-minded"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fear, terror, dread, horror",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "I ka hyrë kukudhi",
+       "en": "The terror has gotten into him",
+       "offsets": [
+        [
+         10,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fear",
+      "terror",
+      "dread"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "undead Gypsy",
+     "tags": [
+      "archaic",
       "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "endearing",
-      "child",
-      "son"
+      "undead",
+      "Gypsy"
      ]
-    }
-   ],
-   "rank": 24861,
-   "count": 19,
-   "family": "pëllumb",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin palumbus. Compare Italian palombo, Aromanian pãrumbu, Romanian porumb.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "pëllumbeshë"
-   ],
-   "related": [
-    "bisht pëllumbi"
-   ],
-   "forms": [
-    {
-     "form": "pëllumba",
-     "tag": "plural"
     },
-    {
-     "form": "pëllumbi",
-     "tag": "definite"
-    },
-    {
-     "form": "pllumb",
-     "tag": "alternative"
-    },
-    {
-     "form": "pllum",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But it is not a real dove.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Por nuk është një pëllumb i vërtetë."
-   }
-  },
-  {
-   "id": "kult",
-   "sq": "kult",
-   "en": "cult",
-   "glosses": [
-    "cult"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cult",
+     "gloss": "plague: blind female demon associated with plague and cholera and thought to have been brought to the lands by Alexander the Great after he raped an Epirote princess who would not return his love.",
      "tags": [
+      "Tosk",
+      "archaic",
       "masculine"
      ],
      "cats": [
       {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Tosk Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "18 7 21 5 29 20"
+      }
+     ],
+     "examples": [
       {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
+       "sq": "As të ha kukudhi!",
+       "en": "Not even the plague will devour you!",
+       "offsets": [
+        [
+         9,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "plague",
+      "demon",
+      "cholera"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "wretched, miserable, desolated, alone, solitary",
+     "tags": [],
+     "cats": [
       {
-       "name": "Pages with entries",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Mbeti kukudh",
+       "en": "He remained a alone",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
      "links": [
-      "cult"
+      "wretched",
+      "miserable",
+      "desolated"
      ]
     }
    ],
-   "rank": 24865,
+   "rank": 25000,
    "count": 19,
-   "family": "kult",
+   "family": "kukudh",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Uncertain. Probably from onomatopoeic kuku (“mourn, lament”) as the similar kukuvriq (“male owl”) suggests.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -437,87 +561,35 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Like in a cult.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Si në një kult."
-   }
-  },
-  {
-   "id": "zogëz",
-   "sq": "zogëz",
-   "en": "young girl",
-   "glosses": [
-    "young girl"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "young girl",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 24871,
-   "count": 19,
-   "family": "zogëz",
-   "is_root": true,
-   "etymology": "From zogë + -ëz.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "zogë",
-    "zogël"
-   ],
    "forms": [
     {
-     "form": "zogëzë",
-     "tag": "alternative"
+     "form": "kukudhe",
+     "tag": "feminine"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "shtroj",
-   "sq": "shtroj",
-   "en": "to spread, scatter, lay down",
+   "id": "britmë",
+   "sq": "britmë",
+   "en": "scream, yell, shriek",
    "glosses": [
-    "to spread, scatter, lay down"
+    "scream, yell, shriek"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to spread, scatter, lay down",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "scream, yell, shriek",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -540,44 +612,35 @@
      ],
      "examples": [],
      "links": [
-      "spread",
-      "scatter",
-      "lay"
+      "scream",
+      "yell",
+      "shriek"
      ]
     }
    ],
-   "rank": 35856,
-   "count": 11,
-   "family": "shtroj",
+   "rank": 25003,
+   "count": 19,
+   "family": "britmë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *śt(a)rē-, from Proto-Indo-European *sterh₃- (“to spread, scatter, floar”). Cognate to Old Church Slavonic прострѣти (prostrěti, “to spread”).",
-   "etymology_class": "inherited",
+   "etymology": "Enlargement of Gheg brit.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shtrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "shtruar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do I have the right to put the problem this way?",
+    "en": "Just give us a shout!",
     "score": [
-     2,
-     7,
+     0,
+     5,
      -5,
      10
     ],
-    "sq": "Kam të drejtë ta shtroj kështu problemin?"
+    "sq": "Vetëm na jepni një britmë!"
    }
   }
  ]

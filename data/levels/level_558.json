@@ -1,27 +1,30 @@
 {
  "level": 558,
- "title": "prokuror, anuloj, zhvilloj +1",
+ "title": "kulturë, kala, kurorë, zota, sirenë, pendë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "anuloj",
-  "prokuror",
-  "zhvilloj"
+  "kala",
+  "kulturë",
+  "kurorë",
+  "pendë",
+  "sirenë",
+  "zota"
  ],
  "pos_mix": {
-  "noun": 3,
-  "verb": 2
+  "noun": 22,
+  "adj": 1
  },
  "words": [
   {
-   "id": "prokuror",
-   "sq": "prokuror",
-   "en": "prosecutor",
+   "id": "kulturë",
+   "sq": "kulturë",
+   "en": "culture",
    "glosses": [
-    "prosecutor"
+    "culture"
    ],
    "pos": [
     "noun"
@@ -33,9 +36,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "prosecutor",
+     "gloss": "culture",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -45,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,13 +62,13 @@
      ],
      "examples": [],
      "links": [
-      "prosecutor"
+      "culture"
      ]
     }
    ],
-   "rank": 13537,
+   "rank": 13611,
    "count": 44,
-   "family": "prokuror",
+   "family": "kulturë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -78,67 +81,537 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A prosecutor is appointed.",
+    "en": "It is that culture.",
     "score": [
-     1,
+     0,
      3,
-     -2,
+     -3,
      10
     ],
-    "sq": "Caktohet një prokuror."
+    "sq": "Është ajo kulturë."
    }
   },
   {
-   "id": "anuloj",
-   "sq": "anuloj",
-   "en": "to annul, to cancel",
+   "id": "kala",
+   "sq": "kala",
+   "en": "castle, fortress",
    "glosses": [
-    "to annul, to cancel"
+    "castle, fortress",
+    "fortification",
+    "rook",
+    "ardent defender",
+    "hurdle, obstacle: something difficult to be overcome only by great effort"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to annul, to cancel",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "castle, fortress",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "castle",
+      "fortress"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fortification",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fortification"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rook",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 3 16 17 52"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chess",
+      "rook"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ardent defender",
      "tags": [
-      "transitive"
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ardent",
+      "defender"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hurdle, obstacle: something difficult to be overcome only by great effort",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "u bë kala",
+       "en": "it became difficult",
+       "offsets": [
+        [
+         5,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hurdle",
+      "obstacle"
+     ]
+    }
+   ],
+   "rank": 13614,
+   "count": 44,
+   "family": "kala",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish قلعه (kale), from Classical Persian قلعه (qal'a), from Arabic قَلْعَة (qalʕa).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kala",
+     "tag": "plural"
+    },
+    {
+     "form": "kalaja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kurorë",
+   "sq": "kurorë",
+   "en": "crown, garland",
+   "glosses": [
+    "crown, garland",
+    "marriage"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "crown, garland",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "81 19"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "78 22"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "89 11"
       }
      ],
      "examples": [],
      "links": [
-      "annul",
-      "cancel"
+      "crown",
+      "garland"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "marriage",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "marriage"
      ]
     }
    ],
-   "rank": 13547,
+   "rank": 13636,
    "count": 44,
-   "family": "anuloj",
+   "family": "kurorë",
+   "is_root": true,
+   "etymology": "From Old Albanian kunorë (preserved in Gheg), from Latin corōna (“garland, crown”). The sense marriage derives from Byzantine tradition.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pakurorë",
+    "kurorëz",
+    "kurorëzoj",
+    "shkurorëzoj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kurora",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But a king without a crown?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Por një mbret pa kurorë?"
+   }
+  },
+  {
+   "id": "zota",
+   "sq": "zota",
+   "en": "master, headman",
+   "glosses": [
+    "master, headman",
+    "boss, head",
+    "Lord, God",
+    "sir, mister",
+    "landowner, owner of a wealthy estate",
+    "lord, head of a wealthy family with servants"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "master, headman",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "master",
+      "headman"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "boss, head",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "boss",
+      "head"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Lord, God",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Religion",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Religion",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "religion",
+      "Lord",
+      "God"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sir, mister",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 15 23 40 3 13"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 5 20 50 6 13"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 3 9 77 3 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sir",
+      "mister"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "landowner, owner of a wealthy estate",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "landowner"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lord, head of a wealthy family with servants",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lord"
+     ]
+    }
+   ],
+   "rank": 13654,
+   "count": 44,
+   "family": "zota",
+   "is_root": true,
+   "etymology": "*From Proto-Albanian *dzwāpt, from *w(i)tspáti, from Proto-Indo-European *wiḱpótis (“clan leader”) (compare Lithuanian viēšpats, Avestan 𐬬𐬍𐬯𐬞𐬀𐬌𐬙𐬌 (vīspaⁱti)), compound of *weyḱ- (“clan, extended family”) (compare Ancient Greek οἰκία (oikía, “house (clan)”), Avestan 𐬬𐬌𐬚 (viθ, “royal court”)) and *pótis (“master”) (compare Ancient Greek πόσις (pósis, “husband”), Tocharian A pats (“husband”)).\n*From an old compound for \"Sky father\": Proto-Albanian *dźie̅u ̊ + *a(t)t-, from *dyew- (“sky”) + *átta (“father”), compare Sanskrit द्यौष्पितृ (dyáuṣ-pitṛ́), Proto-Italic *djous patēr (whence Latin Iuppiter), Ancient Greek Ζεῦ πάτερ (Zeû páter). The radical zot contains the zero-grade radical of Proto-Indo-European *dyḗws.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "master",
+    "husband"
+   ],
+   "components": [],
+   "derived": [
+    "zot",
+    "zotëri",
+    "zotëni",
+    "zotni",
+    "zotërisht",
+    "zotëroj",
+    "zotnoj",
+    "zotësi"
+   ],
+   "related": [
+    "zonjë",
+    "pronar",
+    "zôjë"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Alright, are we gods?",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Mirë, jemi ne zota?"
+   }
+  },
+  {
+   "id": "sirenë",
+   "sq": "sirenë",
+   "en": "siren",
+   "glosses": [
+    "siren",
+    "siren (dangerously seductive woman)"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "siren",
+     "tags": [
+      "Greek",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Greek mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Greek mythology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "61 39"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Greek",
+      "mythology",
+      "siren"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "siren (dangerously seductive woman)",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Female people",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Female people",
+       "langcode": "sq",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "siren",
+      "dangerous",
+      "seductive"
+     ]
+    }
+   ],
+   "rank": 13667,
+   "count": 44,
+   "family": "sirenë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -148,37 +621,44 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "anuluar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How do I cancel an order?",
+    "en": "What is a mermaid.",
     "score": [
      0,
-     6,
-     -6,
+     4,
+     -4,
      10
     ],
-    "sq": "Si mund të anuloj një porosi?"
+    "sq": "Çfarë është një sirenë."
    }
   },
   {
-   "id": "zhvillim",
-   "sq": "zhvillim",
-   "en": "evolution",
+   "id": "pendë",
+   "sq": "pendë",
+   "en": "feather, quill",
    "glosses": [
-    "evolution",
-    "development"
+    "feather, quill",
+    "fin (of fish)",
+    "vane (of waterwheel)",
+    "dike; weir",
+    "pair or team of draft animals yoked together",
+    "juger, measure of land equal to what a yoke of oxen can plow in a day"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -186,44 +666,63 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "evolution",
+     "gloss": "feather, quill",
      "tags": [
-      "masculine"
+      "feminine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "evolution"
+      "feather",
+      "quill"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "development",
+     "gloss": "fin (of fish)",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fin"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vane (of waterwheel)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vane"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dike; weir",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "dike",
+      "weir"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pair or team of draft animals yoked together",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -231,91 +730,109 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "11 1 18 8 43 19"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "4 1 17 5 62 10"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 1 16 4 55 21"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "një pendë qe",
+       "en": "a yoke of oxen",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "juger, measure of land equal to what a yoke of oxen can plow in a day",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "një pendë dhe",
+       "en": "3,000 sq. meters of land",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
      "links": [
-      "development"
+      "juger"
      ]
     }
    ],
-   "rank": 13548,
+   "rank": 13686,
    "count": 44,
-   "family": "zhvilloj",
-   "is_root": false,
-   "etymology": "Gerund of zhvilloj; zhvilloj + -im.",
-   "etymology_class": "affix",
+   "family": "pendë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin pinna. Displaced native Albanian perk.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "zhvilloj",
-     "role": "prefix"
-    }
-   ],
-   "derived": [
-    "zhvillimor"
-   ],
+   "components": [],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "zhvillime",
+     "form": "pendë",
      "tag": "plural"
     },
     {
-     "form": "zhvillimi",
+     "form": "penda",
      "tag": "definite"
+    },
+    {
+     "form": "pëndë",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We want to have economic development.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Duam të kemi zhvillim ekonomik."
-   }
+   "corpus_example": null
   },
   {
-   "id": "zhvilloj",
-   "sq": "zhvilloj",
-   "en": "to develop",
+   "id": "kulturor",
+   "sq": "kulturor",
+   "en": "cultural",
    "glosses": [
-    "to develop"
+    "cultural"
    ],
    "pos": [
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to develop",
-     "tags": [
-      "transitive"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "cultural",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -324,7 +841,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with zh-",
+       "name": "Albanian terms suffixed with -or",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -338,47 +855,43 @@
      ],
      "examples": [],
      "links": [
-      "develop"
+      "cultural"
      ]
     }
    ],
-   "rank": 27756,
-   "count": 16,
-   "family": "zhvilloj",
-   "is_root": true,
-   "etymology": "From zh- + filloj (“to start, begin”). Possibly a formation encouraged by the svil- of Italian sviluppare (“id.”), or simply coincidental.",
+   "rank": 23534,
+   "count": 21,
+   "family": "kulturë",
+   "is_root": false,
+   "etymology": "From kulturë + -or.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "filloj",
-     "role": "stem"
+     "word": "kulturë",
+     "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "zhvillova",
-     "tag": "aorist"
-    },
-    {
-     "form": "zhvilluar",
-     "tag": "participle"
+     "form": "kulturore",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I want to develop tourism and agritourism.",
+    "en": "Appoint a cultural leader.",
     "score": [
-     2,
-     6,
-     -4,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "Dua të zhvilloj turizmin dhe agroturizmin."
+    "sq": "Caktoni një udhëheqës kulturor."
    }
   }
  ]

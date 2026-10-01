@@ -52,18 +52,49 @@ detached. Every compound still follows the stem that explains it.
 | për | for | 13 | L739 | L276 |
 | gjithë | all | 62 | L753 | L255 |
 | ka | from/out | 20 | L749 | L279 |
-| ai | he | 35 | L573 | L614 (worse) |
-| kush | who | 80 | L574 | L615 (worse) |
+| ai | he | 35 | L573 | L614 -> L19 (see below) |
+| kush | who | 80 | L574 | L615 -> L35 (see below) |
 
 This reshuffles the whole deck: 755 levels become 768, so every level number in
 this document that cited the old count has been re-measured.
 
 **Not fully solved.** Two knots survive the fix and are now *worse*:
 `ai` (L573 -> L614) and `kush` (L574 -> L615) are still held back by `sos`
-(rank 19473), whose root is used only as a SUFFIX across many unrelated stems
--- the suffix-bucket counterpart to the prefix buckets handled above. The count
-of top-100 words taught after L100 fell 26 -> 11, but the worst of them moved
-L215 -> L253. The next step is the same detach applied to suffix buckets.
+(rank 19473). The count of top-100 words taught after L100 fell 26 -> 11, but
+the worst of them moved L215 -> L253.
+
+### The `ai`/`kush` knot was NOT a suffix bucket (corrected 2026-10-01)
+
+The note above blamed `sos` for being used only as a SUFFIX across unrelated
+stems. That diagnosis was wrong. `sos` has no members and no dependents; it
+was never a bucket. The real cause is in `components_of()`:
+
+    kush: "...Proto-Indo-European *kʷos + *sos, meaning 'who (is) this'"
+    ai:   "...Pre-Proto-Albanian *au̯- (\"away\") + *hýh ~ íh, ... Proto-Indo-European *sos (\"that\")"
+
+Here the "+" joins two RECONSTRUCTED PIE forms, and the real `sos` appears ~40
+characters later in a different clause. `_side_word()` scans forward from the
+"+" for the first deck word it can match, so it matched the spelling `sos`
+against the deck word `sos` ("indeed", rank 19473) and invented an edge. The
+same shape hit `ti`, `këtu`, `kurrë`, `mbi`, `tetë`, `mbledh`, `rrafsh` and
+`mbarë`: 20 of the deck's 283 stem edges come from Proto-* prose.
+
+Fixed in `_stem_side()`: the stem side is cut at the first clause boundary,
+and a side carrying a reconstruction marker (`*`) yields no stem. Prose is not
+a composition, and a reconstructed ancestor is not a word the learner meets.
+
+| word | gloss | rank | before | after |
+|---|---|---|---|---|
+| ai | he | 35 | L614 | L19 |
+| kush | who | 80 | L615 | L35 |
+| mbi | on/upon | 241 | L256 | L89 |
+| kurrë | fist | 129 | L26 | L25 |
+
+Top-100 words taught after L100: 11 -> 7. Worst top-100 word: L615 -> L279.
+4,087 cards, zero added or dropped; 768 levels become 767. Every genuine stem
+still precedes its derivative (`shkruaj` L563 vs `kruaj` L562, `esëll` = `e- +
+sillë`, `bashkëpunim` = `bashkëpunoj + -im`). The rule is pinned by
+`tools/test_derivations.py`, including a negative control that fails without it.
 
 Every number below comes from `tools/measure_learnability.py`.
 

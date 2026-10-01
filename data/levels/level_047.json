@@ -1,24 +1,25 @@
 {
  "level": 47,
- "title": "shkoj 1/2",
- "root": "shkoj",
- "root_gloss": "to go, pass",
+ "title": "dukem",
+ "root": "dukem",
+ "root_gloss": "to seem, appear, look",
  "part": 1,
- "parts": 2,
- "word_count": 9,
+ "parts": 1,
+ "word_count": 3,
  "families": [
-  "shkoj"
+  "dukem"
  ],
  "pos_mix": {
-  "verb": 9
+  "verb": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "shkoj",
-   "sq": "shkoj",
-   "en": "to go, pass",
+   "id": "dukem",
+   "sq": "dukem",
+   "en": "to seem, appear, look",
    "glosses": [
-    "to go, pass"
+    "to seem, appear, look"
    ],
    "pos": [
     "verb"
@@ -30,11 +31,19 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to go, pass",
-     "tags": [],
+     "gloss": "to seem, appear, look",
+     "tags": [
+      "reflexive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -em",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -44,27 +53,33 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Situata nuk duket e mirë.",
+       "en": "The situation doesn't look good.",
+       "offsets": [
+        [
+         12,
+         17
+        ]
+       ]
+      }
+     ],
      "links": [
-      "go",
-      "pass"
+      "seem",
+      "appear",
+      "look"
      ]
     }
    ],
-   "rank": 149,
-   "count": 8533,
-   "family": "shkoj",
+   "rank": 1159,
+   "count": 799,
+   "family": "dukem",
    "is_root": true,
-   "etymology": "Syncope of shtekoj (“to set out, take to the road”), Gheg variant of shtegoj, denominative verb from shteg (“path, trail”).",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *duk-, from Proto-Indo-European *dewk- (“to draw”). An etymological connection to ancient Greek δοκέω and Gothic þugkjan (to think, to appear) is phonetically impossible. The use of third-person singular present of δοκέω, δοκεῖ (\"it seems\" [to me]) in ancient Greek probably influenced its use in the form më duket (it seems to me) in Albanian.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -73,32 +88,18 @@
    "related": [],
    "forms": [
     {
-     "form": "shkova",
-     "tag": "aorist"
-    },
-    {
-     "form": "shkuar",
+     "form": "dukur",
      "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Where do I go?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ku mund të shkoj?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "shkojmë",
-   "sq": "shkojmë",
-   "en": "we go (from shkoj, to go)",
+   "id": "duket",
+   "sq": "duket",
+   "en": "he/she/it seem (from dukem, to seem)",
    "glosses": [
-    "we go (from shkoj, to go)"
+    "he/she/it seem (from dukem, to seem)"
    ],
    "pos": [
     "verb"
@@ -110,159 +111,12 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "we go (from shkoj, to go)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 117,
-   "count": 11313,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Let's go!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Le të shkojmë!"
-   }
-  },
-  {
-   "id": "shko",
-   "sq": "shko",
-   "en": "you (sg)! (from shkoj, to go)",
-   "glosses": [
-    "you (sg)! (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 177,
-   "count": 7255,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Go where you want to go.",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Shko ku të duash."
-   }
-  },
-  {
-   "id": "shkon",
-   "sq": "shkon",
-   "en": "you (sg) or he/she/it go (from shkoj, to go)",
-   "glosses": [
-    "you (sg) or he/she/it go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) or he/she/it go (from shkoj, to go)",
+     "gloss": "he/she/it seem (from dukem, to seem)",
      "tags": [
       "form-of",
       "indicative",
+      "mediopassive",
       "present",
-      "second-person",
       "singular",
       "third-person"
      ],
@@ -274,7 +128,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -287,12 +141,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "is_form_of": "dukem"
     }
    ],
-   "rank": 224,
-   "count": 5562,
-   "family": "shkoj",
+   "rank": 111,
+   "count": 12323,
+   "family": "dukem",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -305,168 +159,36 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What's wrong?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Çfarë nuk shkon?"
-   }
-  },
-  {
-   "id": "shkosh",
-   "sq": "shkosh",
-   "en": "you (sg) go (from shkoj, to go)",
-   "glosses": [
-    "you (sg) go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 356,
-   "count": 2925,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "said Ipthar, turning to go.",
+    "en": "Seems to be.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Duhet të shkosh»."
+    "sq": "Duket të jetë."
    }
   },
   {
-   "id": "shkoni",
-   "sq": "shkoni",
-   "en": "you (pl)! (from shkoj, to go)",
+   "id": "dukje",
+   "sq": "dukje",
+   "en": "look, appearance",
    "glosses": [
-    "you (pl)! (from shkoj, to go)"
+    "look, appearance"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (from shkoj, to go)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "look, appearance",
      "tags": [
-      "form-of",
-      "imperative",
-      "plural",
-      "second-person"
-     ],
-     "cats": [],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 361,
-   "count": 2911,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But, that is not the way to go.",
-    "score": [
-     0,
-     9,
-     -9,
-     10
-    ],
-    "sq": "Por, kjo nuk është ajo ku duhet të shkoni."
-   }
-  },
-  {
-   "id": "shkojë",
-   "sq": "shkojë",
-   "en": "he/she/it go (from shkoj, to go)",
-   "glosses": [
-    "he/she/it go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
+      "feminine"
      ],
      "cats": [
       {
@@ -476,193 +198,62 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -je",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "links": [
+      "look",
+      "appearance"
+     ]
     }
    ],
-   "rank": 482,
-   "count": 2181,
-   "family": "shkoj",
+   "rank": 10403,
+   "count": 62,
+   "family": "dukem",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Gerund of dukem; dukem + -je.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "dukem",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "dukje",
+     "tag": "plural"
+    },
+    {
+     "form": "dukja",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Where do I have to go?",
+    "en": "At least apparently.",
     "score": [
-     0,
+     2,
      4,
-     -4,
+     -2,
      10
     ],
-    "sq": "Ku duhet të shkojë?"
-   }
-  },
-  {
-   "id": "shkoi",
-   "sq": "shkoi",
-   "en": "he/she/it (once did) went (from shkoj, to go)",
-   "glosses": [
-    "he/she/it (once did) went (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it (once did) went (from shkoj, to go)",
-     "tags": [
-      "aorist",
-      "form-of",
-      "indicative",
-      "singular",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 607,
-   "count": 1679,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "And so it went.",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Dhe kështu shkoi."
-   }
-  },
-  {
-   "id": "shkojnë",
-   "sq": "shkojnë",
-   "en": "they go (from shkoj, to go)",
-   "glosses": [
-    "they go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 635,
-   "count": 1608,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They need to go.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ata duhet të shkojnë."
+    "sq": "Të paktën në dukje."
    }
   }
  ]

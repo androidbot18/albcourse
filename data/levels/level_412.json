@@ -1,34 +1,41 @@
 {
  "level": 412,
- "title": "ligj, model, vampir, adresë +2",
+ "title": "qafë, armen, futboll, far, kryesisht +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 6,
  "families": [
-  "adresë",
-  "ligj",
-  "model",
-  "vampir"
+  "armen",
+  "far",
+  "futboll",
+  "kryesisht",
+  "qafë"
  ],
  "pos_mix": {
-  "noun": 7
+  "noun": 5,
+  "adj": 1,
+  "adv": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "ligj",
-   "sq": "ligj",
-   "en": "law",
+   "id": "qafë",
+   "sq": "qafë",
+   "en": "neck",
    "glosses": [
-    "law",
-    "statute"
+    "neck",
+    "nape",
+    "mountain pass"
    ],
    "pos": [
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun"
    ],
@@ -36,109 +43,32 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "law",
+     "gloss": "neck",
      "tags": [
-      "masculine"
+      "feminine"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
      "examples": [],
      "links": [
-      "law"
+      "anatomy",
+      "neck"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "statute",
+     "gloss": "nape",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "statute"
-     ]
-    }
-   ],
-   "rank": 4470,
-   "count": 171,
-   "family": "ligj",
-   "is_root": true,
-   "etymology": "Singularized plural of earlier *leg, *lig. Either borrowed through Vulgar Latin from Latin lēx, lēgem (“law”) (compare Romanian lege), from Proto-Indo-European *leǵ- (“to collect, to speak”), or from the same root of Lithuanian lygùs (“equal”) and Old Prussian līgan (“court”), as substantiated by ligje (“mourning, dirge”). Compare Old Sicilian liji and Sicilian liggi.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "ligj i luftës",
-    "ligje",
-    "ligjëratë",
-    "ligjërim",
-    "ligjërisht",
-    "ligjëroj",
-    "ligjërues",
-    "ligjor"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "ligje",
-     "tag": "plural"
-    },
-    {
-     "form": "ligji",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "So far, there is no such law.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Deri tani ky ligj nuk është bërë."
-   }
-  },
-  {
-   "id": "model",
-   "sq": "model",
-   "en": "pattern",
-   "glosses": [
-    "pattern",
-    "example"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pattern",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pattern"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "example",
-     "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -146,73 +76,91 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 86"
+       "_dis": "35 58 7"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 54 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 75 7"
       }
      ],
      "examples": [],
      "links": [
-      "example"
+      "nape"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mountain pass",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mountain pass"
      ]
     }
    ],
-   "rank": 4472,
-   "count": 171,
-   "family": "model",
+   "rank": 4498,
+   "count": 170,
+   "family": "qafë",
    "is_root": true,
-   "etymology": "Ultimately from Old Italian modello, from Vulgar Latin *modellus, diminutive form of modulus (“measure, standard”).",
-   "etymology_class": "derived",
+   "etymology": "Unknown. Possibly borrowed from Ottoman Turkish قفا (compare Turkish kafa (“head”)), from Arabic قَفَاء (qafāʔ, “back of the neck”). However, the term is seen first in Buzuku's writings in 1555, and is present in the Arbëresh dialect as well, which usually does not have Turkish loans.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "modeloj",
-    "modelim"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "modele",
+     "form": "qafa",
      "tag": "plural"
-    },
-    {
-     "form": "modeli",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "just like the second pattern.",
+    "en": "On the head or neck.",
     "score": [
      1,
-     5,
-     -4,
+     4,
+     -3,
      10
     ],
-    "sq": "ashtu si model i dytë."
+    "sq": "Në kokë ose qafë."
    }
   },
   {
-   "id": "vampir",
-   "sq": "vampir",
-   "en": "vampire",
+   "id": "armen",
+   "sq": "armen",
+   "en": "Armenian (of, from, or pertaining to Armenia, Armenians, the language or alphabet)",
    "glosses": [
-    "vampire"
+    "Armenian (of, from, or pertaining to Armenia, Armenians, the language or alphabet)"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "vampire",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "Armenian (of, from, or pertaining to Armenia, Armenians, the language or alphabet)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -221,7 +169,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Pages with 9 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -235,13 +183,13 @@
      ],
      "examples": [],
      "links": [
-      "vampire"
+      "Armenian"
      ]
     }
    ],
-   "rank": 4482,
-   "count": 171,
-   "family": "vampir",
+   "rank": 4510,
+   "count": 169,
+   "family": "armen",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -251,34 +199,25 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "vampirë",
-     "tag": "plural"
-    },
-    {
-     "form": "vampiri",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is the war between werewolf and vampire.",
+    "en": "The family was photographed at Armenian restaurant Lavash on The Boulevard.",
     "score": [
-     1,
      7,
-     -6,
+     9,
+     -2,
      10
     ],
-    "sq": "Kjo është lufta mes ujk dhe vampir."
+    "sq": "Familja është fotografuar në restorantin armen 'Lavash' në Bulevard."
    }
   },
   {
-   "id": "adresë",
-   "sq": "adresë",
-   "en": "address",
+   "id": "futboll",
+   "sq": "futboll",
+   "en": "association football, soccer",
    "glosses": [
-    "address"
+    "association football, soccer"
    ],
    "pos": [
     "noun"
@@ -290,10 +229,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "address",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "association football, soccer",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -302,7 +239,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -316,43 +253,42 @@
      ],
      "examples": [],
      "links": [
-      "address"
+      "association football",
+      "soccer"
      ]
     }
    ],
-   "rank": 4496,
-   "count": 170,
-   "family": "adresë",
+   "rank": 4511,
+   "count": 169,
+   "family": "futboll",
    "is_root": true,
-   "etymology": "Ultimately borrowed from a derivative of Latin ad directus, from Vulgar Latin *dīrēctiāre, from Classical Latin dīrēctus (“straight”). Compare French adresse.",
-   "etymology_class": "derived",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "straight"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Today, they have a name and an address.",
+    "en": "Football and blood!",
     "score": [
      0,
-     6,
-     -6,
+     3,
+     -3,
      10
     ],
-    "sq": "Ato sot kanë emër dhe adresë."
+    "sq": "Futboll dhe gjak!"
    }
   },
   {
-   "id": "ligjvënës",
-   "sq": "ligjvënës",
-   "en": "legislator",
+   "id": "far",
+   "sq": "far",
+   "en": "lighthouse",
    "glosses": [
-    "legislator"
+    "lighthouse"
    ],
    "pos": [
     "noun"
@@ -364,9 +300,152 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "legislator",
+     "gloss": "lighthouse",
      "tags": [
       "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 39 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lighthouse"
+     ]
+    }
+   ],
+   "rank": 4520,
+   "count": 169,
+   "family": "far",
+   "is_root": true,
+   "etymology": "Borrowed from Latin Pharus.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Today we built a lighthouse.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Sot ne kemi ndërtuar një far."
+   }
+  },
+  {
+   "id": "kryesisht",
+   "sq": "kryesisht",
+   "en": "chiefly, primarily",
+   "glosses": [
+    "chiefly, primarily"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "chiefly, primarily",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chiefly",
+      "primarily"
+     ]
+    }
+   ],
+   "rank": 4525,
+   "count": 168,
+   "family": "kryesisht",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Mainly for two reasons.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Kryesisht për dy arsye."
+   }
+  },
+  {
+   "id": "përqafoj",
+   "sq": "përqafoj",
+   "en": "to embrace, to hug",
+   "glosses": [
+    "to embrace, to hug"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to embrace, to hug",
+     "tags": [
+      "transitive"
      ],
      "cats": [
       {
@@ -390,38 +469,54 @@
      ],
      "examples": [],
      "links": [
-      "legislator"
+      "embrace",
+      "hug"
      ]
     }
    ],
-   "rank": 36534,
-   "count": 11,
-   "family": "ligj",
+   "rank": 10340,
+   "count": 62,
+   "family": "qafë",
    "is_root": false,
-   "etymology": "From ligj + vënës.",
+   "etymology": "From për- + qafë (“neck”) + -oj (“verb suffix”).",
    "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "neck"
+   ],
    "components": [
     {
-     "word": "ligj",
+     "word": "për",
      "role": "prefix"
+    },
+    {
+     "word": "qafë",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "përqafova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përqafuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And precisely the representative of the highest legislative power.",
+    "en": "I love you so much and hug you.",
     "score": [
-     4,
-     9,
-     -5,
+     0,
+     6,
+     -6,
      10
     ],
-    "sq": "Dhe pikërisht përfaqësuesi i pushtetit më të lartë ligjvënës."
+    "sq": "Ju dua shumë dhe ju përqafoj."
    }
   }
  ]

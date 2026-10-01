@@ -1,6 +1,6 @@
 {
  "level": 11,
- "title": "këmbë, lojë, gjeni, jo, rast, pe +4",
+ "title": "vit, këmbë, lojë, gjeni, rast, pe +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -8,43 +8,38 @@
  "word_count": 6,
  "families": [
   "gjeni",
-  "jo",
   "këmbë",
   "lojë",
   "pe",
-  "rast"
+  "rast",
+  "vit"
  ],
  "pos_mix": {
-  "det": 1,
-  "noun": 10
+  "noun": 11
  },
  "words": [
   {
-   "id": "jo",
-   "sq": "jo",
-   "en": "negates non-verbal phrases: no, not",
+   "id": "vit",
+   "sq": "vit",
+   "en": "year",
    "glosses": [
-    "negates non-verbal phrases: no, not"
+    "year"
    ],
    "pos": [
-    "det"
+    "noun"
    ],
    "pos_labels": [
-    "determiner"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "negates non-verbal phrases: no, not",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "year",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
-      {
-       "name": "Albanian determiners",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -52,7 +47,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 48 entries",
+       "name": "Pages with 18 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,36 +61,48 @@
      ],
      "examples": [],
      "links": [
-      "no",
-      "not"
+      "year"
      ]
     }
    ],
-   "rank": 19,
-   "count": 82999,
-   "family": "jo",
+   "rank": 689,
+   "count": 1466,
+   "family": "vit",
    "is_root": true,
-   "etymology": "Likely a babble word, compare Turkish yok (“no”), and its derivates in other Balkanic languages such as Romanian ioc, Macedonian јок (jok). Comparison with German ja (“yes”) is semantically hard to explain.",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *weta, from Proto-Indo-European *wétos (compare Proto-Slavic *věkъ (“age (period of time)”), Greek έτος (étos), Latin vetus (“old”), Old Church Slavonic ветъхъ (vetŭxŭ, “old, aged, ancient”)).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "no"
+    "old"
    ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "vite",
+     "tag": "plural"
+    },
+    {
+     "form": "vjet",
+     "tag": "plural"
+    },
+    {
+     "form": "viti",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Easy, right?",
+    "en": "This year, it could be you!",
     "score": [
      0,
-     3,
-     -3,
+     7,
+     -7,
      10
     ],
-    "sq": "Lehtë, apo jo?"
+    "sq": "Këtë vit, ajo mund të jetë ju!"
    }
   },
   {

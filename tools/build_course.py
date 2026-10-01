@@ -486,6 +486,36 @@ def _part_is_word(chunk, words):
     return bool(w) and w in words
 
 
+_CLAUSE_BREAK = re.compile(r"[,;:\n]")
+
+
+def _stem_side(chunk):
+    """The stem side of a derivation equation, bounded to its own clause.
+
+    A derivation is "base + affix", so the base sits in the text immediately
+    after the "+". Reading further is how prose got mistaken for composition:
+    kush reads "...Proto-Indo-European *kʷos + *sos, meaning 'who (is) this'",
+    where the "+" joins two RECONSTRUCTED PIE forms. _side_word() then matched
+    the spelling "sos" against the deck word sos ("indeed"), inventing an
+    edge ai/kush -> sos and holding ai (rank 35) back to L614. The same
+    happened to kurrë, mbi, tetë and rrafsh.
+
+    So the stem side is cut at the first clause boundary -- the equation does
+    not run past a comma -- and a side carrying a reconstruction marker (*)
+    describes a reconstructed ancestor rather than a word the learner meets,
+    so it yields no stem.
+
+    This is deliberately narrow. It keeps every real composition, including
+    the headline cases esëll = e- + sillë, shkruaj = sh- + kruaj and
+    bashkëpunim = bashkëpunoj + -im, none of which has a clause break or a
+    star between the "+" and its base.
+    """
+    side = _CLAUSE_BREAK.split(chunk)[0]
+    if "*" in side:
+        return ""
+    return side
+
+
 def components_of(text, words):
     """The deck words this entry says it is built FROM, with their role.
 
@@ -515,7 +545,8 @@ def components_of(text, words):
         pre = _side_word(sides[0])
         # The stem side is read against the deck, so a trailing description
         # ("dritë, a brightening of ndriç") cannot displace the real base.
-        stem = _side_word(sides[1], words) if len(sides) >= 2 else None
+        stem = _side_word(_stem_side(sides[1]), words) \
+            if len(sides) >= 2 else None
 
         # A short function word sitting BETWEEN two lexical elements is a
         # joiner, not a stem: gjëegjëzë is gjë + e + gjëzë, where e is

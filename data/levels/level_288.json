@@ -1,64 +1,353 @@
 {
  "level": 288,
- "title": "lëshoj",
- "root": "lëshoj",
- "root_gloss": "to let, let go, release",
+ "title": "dyshoj, shans, marrtë, provoj, planet +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "lëshoj"
+  "dyshoj",
+  "marrtë",
+  "planet",
+  "provoj",
+  "shans"
  ],
  "pos_mix": {
-  "verb": 23
+  "noun": 3,
+  "adj": 4,
+  "verb": 3
  },
  "words": [
   {
-   "id": "lëshoj",
-   "sq": "lëshoj",
-   "en": "to let, let go, release",
+   "id": "dyshim",
+   "sq": "dyshim",
+   "en": "suspicion, doubt",
    "glosses": [
-    "to let, let go, release",
-    "to leave (something somewhere)",
-    "to start, put in motion, turn on",
-    "to leave, free, vacate, clear (a place, role, etc.)",
-    "to knock down",
-    "to let out, release",
-    "to send, launch, throw",
-    "to flood, come out in abundance",
-    "to make concessions, grants",
-    "to go away, leave (of an illness or ability)",
-    "to divorce",
-    "to swarm (of bees, migrate to a new colony)",
-    "to sell (usually for cheap)"
+    "suspicion, doubt"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "suspicion, doubt",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "suspicion",
+      "doubt"
+     ]
+    }
+   ],
+   "rank": 1466,
+   "count": 605,
+   "family": "dyshoj",
+   "is_root": false,
+   "etymology": "From dyshoj (“to doubt”) + -im. For sense development, compare Latin dubitō, from duo + habeō.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "dyshoj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dyshime",
+     "tag": "plural"
+    },
+    {
+     "form": "dyshimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Doubt that we will ever gave back.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Dyshim se ne do të dhënë ndonjëherë prapa."
+   }
+  },
+  {
+   "id": "shans",
+   "sq": "shans",
+   "en": "chance",
+   "glosses": [
+    "chance"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chance",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chance"
+     ]
+    }
+   ],
+   "rank": 1467,
+   "count": 603,
+   "family": "shans",
+   "is_root": true,
+   "etymology": "Borrowed from French chance.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shanse",
+     "tag": "plural"
+    },
+    {
+     "form": "shansi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I just couldn't take that chance.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Unë thjesht nuk mund të marrë atë shans."
+   }
+  },
+  {
+   "id": "marrtë",
+   "sq": "marrtë",
+   "en": "twilight, dim; weak (light)",
+   "glosses": [
+    "twilight, dim; weak (light)",
+    "blurred, dizzy (vision)",
+    "opaque, turbid, muddy (glass)",
+    "leprous"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "twilight, dim; weak (light)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 13 35 3 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 24 22 0 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "twilight",
+      "dim",
+      "weak"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "blurred, dizzy (vision)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 13 35 3 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 24 22 0 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "blurred",
+      "dizzy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "opaque, turbid, muddy (glass)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 13 35 3 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 24 22 0 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "opaque",
+      "turbid",
+      "muddy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "leprous",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leprous"
+     ]
+    }
+   ],
+   "rank": 1471,
+   "count": 602,
+   "family": "marrtë",
+   "is_root": true,
+   "etymology": "Cognate to Albanian marrë; both from Proto-Albanian *marsa (from Proto-Indo-European *mergʷ- (“to flicker; to darken; to be dark”); Proto-Indo-European *h₂mergʷ- (“dark”)).\nCognate to Proto-Slavic *morkъ (“darkness”), *morxъ (“dusk, fog”), Proto-Slavic *mergъ (“brown”), Proto-Germanic *merkuz (“dark”), Ancient Greek ἀμορβός (amorbós, “dark”), Lithuanian márgas (“colorful”).\nAlso related to Albanian murg (“dark”), murgët (also derived from Proto-Indo-European *mergʷ- (“to flicker; to darken; to be dark”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "dark"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "marrë",
+    "marrëzi"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The devil got this name!",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Djalli e marrtë këtë emër!"
+   }
+  },
+  {
+   "id": "provoj",
+   "sq": "provoj",
+   "en": "to try; to try out; to try on",
+   "glosses": [
+    "to try; to try out; to try on",
+    "to prove (through testing); to test, to put to the test"
+   ],
+   "pos": [
     "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
     "verb",
     "verb"
    ],
@@ -66,515 +355,138 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to let, let go, release",
-     "tags": [
-      "transitive"
+     "gloss": "to try; to try out; to try on",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po provoj të interesohem për problemet e tu, por sapo e kujtova që të urrej.",
+       "en": "I'm trying to take interest in your problems, but I just remembered that I hate you.",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
      ],
+     "links": [
+      "try",
+      "try out",
+      "try on"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to prove (through testing); to test, to put to the test",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 2 16 2 3 15 1 2 3 8 11 17 1"
+       "_dis": "18 82"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "23 1 18 1 3 17 1 1 1 3 12 17 1"
+       "_dis": "23 77"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "23 1 17 1 2 17 1 1 1 6 12 17 1"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "I lëshoj flokët.",
-       "en": "I let my hair down.",
-       "offsets": [
-        [
-         2,
-         8
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "let",
-      "let go",
-      "release"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to leave (something somewhere)",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "leave"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to start, put in motion, turn on",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 2 16 2 3 15 1 2 3 8 11 17 1"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "lëshoj motorin",
-       "en": "start the engine",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "start",
-      "put",
-      "motion"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to leave, free, vacate, clear (a place, role, etc.)",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "lëshoj punën",
-       "en": "leave the job",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      },
-      {
-       "sq": "lëshoj karrigen",
-       "en": "free the seat",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "free",
-      "vacate",
-      "clear"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to knock down",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "lëshoj pemën",
-       "en": "fall the tree",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "knock down"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to let out, release",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 2 16 2 3 15 1 2 3 8 11 17 1"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Më lëshojnë sytë lot.",
-       "en": "My eyes shed tears.",
-       "offsets": [
-        [
-         3,
-         11
-        ]
-       ]
-      },
-      {
-       "sq": "lëshoj kujën",
-       "en": "let out a scream",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "let out",
-      "release"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to send, launch, throw",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "lëshoj topin",
-       "en": "throw the ball",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      },
-      {
-       "sq": "lëshoj raketën",
-       "en": "launch a rocket",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "send",
-      "launch",
-      "throw"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to flood, come out in abundance",
-     "tags": [
-      "intransitive",
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 2 16 2 3 15 1 2 3 8 11 17 1"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Ka lëshuar lumi.",
-       "en": "The river flooded.",
-       "offsets": [
-        [
-         3,
-         10
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "flood"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to make concessions, grants",
-     "tags": [
-      "intransitive",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "concession",
-      "grant"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to go away, leave (of an illness or ability)",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "E lëshuan ethet.",
-       "en": "He recovered from the fever.",
-       "offsets": [
-        [
-         2,
-         9
-        ]
-       ]
-      },
-      {
-       "sq": "E lëshoi kujtesa.",
-       "en": "His memory left him.",
-       "offsets": [
-        [
-         2,
-         8
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "go away",
-      "leave"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to divorce",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Unë e lëshoj gruan për ty.",
-       "en": "I leave my wife for you.",
-       "offsets": [
-        [
-         6,
-         12
-        ]
-       ]
-      },
-      {
-       "sq": "Ajo e lëshoi burrin.",
-       "en": "She left her husband.",
-       "offsets": [
-        [
-         6,
-         12
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "divorce"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to swarm (of bees, migrate to a new colony)",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "swarm"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to sell (usually for cheap)",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 2 16 2 3 15 1 2 3 8 11 17 1"
+       "_dis": "13 87"
       }
      ],
      "examples": [],
      "links": [
-      "sell"
+      "prove",
+      "test",
+      "put to the test"
      ]
     }
    ],
-   "rank": 3319,
-   "count": 242,
-   "family": "lëshoj",
+   "rank": 1477,
+   "count": 600,
+   "family": "provoj",
    "is_root": true,
-   "etymology": "Borrowed from Latin laxō, laxāre (“to let”), via its byform *lassō, *lassāre, evidenced by Romanian lăsa, Aromanian alas, dialectal Italian lassare.\nMany scholars also consider the possibility of a borrowing from Italian lasciare, although it is less likely due to the term's early attestation date and presence in all dialects, as well as the initial vowel /ə/ ~ /i/.",
+   "etymology": "Borrowed from Italian provare. Compare Serbo-Croatian probati (“id.”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "lëshe",
-    "lëshesë",
-    "lëshim",
-    "lëshohem",
-    "lëshojë",
-    "lëshojkë",
-    "lëshuar",
-    "lëshuemas"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "lëshova",
+     "form": "provova",
      "tag": "aorist"
     },
     {
-     "form": "lëshuar",
+     "form": "provuar",
      "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "lësho",
-   "sq": "lësho",
-   "en": "you (sg)! (from lëshoj, to let)",
+   "id": "planet",
+   "sq": "planet",
+   "en": "planet",
    "glosses": [
-    "you (sg)! (from lëshoj, to let)"
+    "planet"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from lëshoj, to let)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "planet",
      "tags": [
-      "form-of",
-      "imperative",
-      "present",
-      "second-person",
-      "singular"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 16 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "lëshoj"
+     "links": [
+      "planet"
+     ]
     }
    ],
-   "rank": 1463,
-   "count": 605,
-   "family": "lëshoj",
-   "is_root": false,
+   "rank": 1491,
+   "count": 594,
+   "family": "planet",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -583,347 +495,105 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "planete",
+     "tag": "plural"
+    },
+    {
+     "form": "planeti",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Launch boats for free and stroll in the park across the street.",
+    "en": "planet of robots.",
     "score": [
-     7,
-     9,
+     1,
+     3,
      -2,
      10
     ],
-    "sq": "Lësho anije falas dhe shëtit në parkun matanë rrugës."
+    "sq": "planet të robots."
    }
   },
   {
-   "id": "lëshohem",
-   "sq": "lëshohem",
-   "en": "to let oneself go; to free, release oneself; to be loose; to go off",
+   "id": "dyshoj",
+   "sq": "dyshoj",
+   "en": "to doubt, suspect",
    "glosses": [
-    "to let oneself go; to free, release oneself; to be loose; to go off",
-    "to lose control over (one's body parts, mind); to lose one's ability/strength",
-    "to be left by/with; to be separated",
-    "→ + prej (“from”), nga (“by, from”)",
-    "→ often in combination with me (“with”)",
-    "→ + short pronouns (f.e. më (“me”))",
-    "→ + short pronouns",
-    "(it/they) turn(s) up, increase(s), flow(s) (volume, water, etc.)",
-    "(it/they) spread(s), increase(s), swell(s), extend(s) (seeds, material)"
+    "to doubt, suspect"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to let oneself go; to free, release oneself; to be loose; to go off",
+     "gloss": "to doubt, suspect",
      "tags": [
-      "reflexive"
+      "intransitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 28 2 10 3 12 14 4 4"
-      },
-      {
-       "name": "Albanian terms suffixed with -hem",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 19 5 14 6 12 13 7 7"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 32 2 5 2 13 16 2 2"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Mos u lësho!",
-       "en": "Don't let (yourself) go! (~ Hold on!)",
-       "offsets": [
-        [
-         6,
-         11
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "let",
-      "oneself",
-      "go"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to lose control over (one's body parts, mind); to lose one's ability/strength",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 28 2 10 3 12 14 4 4"
+       "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -hem",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 19 5 14 6 12 13 7 7"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 32 2 5 2 13 16 2 2"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "lose",
-      "control",
-      "lose"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be left by/with; to be separated",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "left",
-      "separated"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "→ + prej (“from”), nga (“by, from”)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -hem",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 19 5 14 6 12 13 7 7"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "to be out of (prision, jail); to be released (from prison, school, etc.); to be done (with); to finish (school, study, education, work, jailtime, etc.)",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "prej",
-      "nga"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "→ often in combination with me (“with”)",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "I slap, punch, kick, beat (someone) (lit. 'release a punch, kick, etc.')",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "me"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "→ + short pronouns (f.e. më (“me”))",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 28 2 10 3 12 14 4 4"
-      },
-      {
-       "name": "Albanian terms suffixed with -hem",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 19 5 14 6 12 13 7 7"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 32 2 5 2 13 16 2 2"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "(it/they) seizes/take(s) over; (it/they) possess(es) (associated with alcohol, drugs, demons, etc.)",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "më"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "→ + short pronouns",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 28 2 10 3 12 14 4 4"
-      },
-      {
-       "name": "Albanian terms suffixed with -hem",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 19 5 14 6 12 13 7 7"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 32 2 5 2 13 16 2 2"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "(it/they) make(s) addicted to; make(s) crazy for (something) (associated with alcohol, drugs, etc.)",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": []
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "(it/they) turn(s) up, increase(s), flow(s) (volume, water, etc.)",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "turn",
-      "up",
-      "increase"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "(it/they) spread(s), increase(s), swell(s), extend(s) (seeds, material)",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "spread",
-      "increase",
-      "swell"
+      "doubt",
+      "suspect"
      ]
     }
    ],
-   "rank": 39654,
-   "count": 9,
-   "family": "lëshoj",
-   "is_root": false,
-   "etymology": "lësho (let go) + -hem (-oneself)",
-   "etymology_class": "affix",
+   "rank": 2670,
+   "count": 308,
+   "family": "dyshoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "lësho",
-     "role": "prefix"
-    }
-   ],
-   "derived": [
-    "lëshim",
-    "lëshoj",
-    "sylëshuar",
-    "lëshuar",
-    "felëshues",
-    "felëshuese",
-    "ujëlëshues",
-    "lëshues"
-   ],
-   "related": [
-    "le",
-    "lë",
-    "lihem",
-    "lënë",
-    "leje"
-   ],
+   "components": [],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "lëshuar",
+     "form": "dyshuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "There is much doubt here.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Nuk është shumë dyshoj këtu."
+   }
   }
  ]
 }

@@ -1,39 +1,189 @@
 {
  "level": 267,
- "title": "turp, hotel, film +1",
- "root": "",
- "root_gloss": "",
+ "title": "ushtar",
+ "root": "ushtar",
+ "root_gloss": "soldier",
  "part": 1,
  "parts": 1,
  "word_count": 4,
  "families": [
-  "film",
-  "hotel",
-  "turp"
+  "ushtar"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 2
+  "noun": 6,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "turp",
-   "sq": "turp",
-   "en": "shame",
+   "id": "ushtar",
+   "sq": "ushtar",
+   "en": "soldier",
    "glosses": [
-    "shame"
+    "soldier",
+    "pawn"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "shame",
+     "gloss": "soldier",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Occupations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Occupations",
+       "langcode": "sq",
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "soldier"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pawn",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chess",
+      "pawn"
+     ]
+    }
+   ],
+   "rank": 1322,
+   "count": 678,
+   "family": "ushtar",
+   "is_root": true,
+   "etymology": "From ushtë (“spear”), historically identical with usht (“ear (of grain)”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "spear"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ushtarak",
+    "ushtri"
+   ],
+   "forms": [
+    {
+     "form": "ushtarë",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I was a soldier here for two years.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Dy vjet kam qenë ushtar këtu."
+   }
+  },
+  {
+   "id": "ushtarak",
+   "sq": "ushtarak",
+   "en": "military (relating to army or war)",
+   "glosses": [
+    "military (relating to army or war)",
+    "serviceman (member of armed forces)"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "military (relating to army or war)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "shërbimi ushtarak",
+       "en": "military service",
+       "offsets": [
+        [
+         9,
+         17
+        ]
+       ]
+      },
+      {
+       "sq": "Në qoftë sa fajtori […] dorëzon personin për një shërbim ushtarak përjashta Shteti, ndeshkimi asht me burgim të randë nga tre deri në tetë vjet dhe me gjobë të randë nga pesqint deri në tremijë fr. ari.",
+       "en": "If the guilty party […] sends the person for military service outside the State, the punishment is severe imprisonment from three to eight years and a severe fine from five hundred to three thousand gold francs.",
+       "offsets": [
+        [
+         57,
+         65
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "military"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "serviceman (member of armed forces)",
      "tags": [
       "masculine"
      ],
@@ -42,349 +192,287 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "20 80"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Albanian terms suffixed with -ak",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "24 76"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 85"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "serviceman"
+     ]
+    }
+   ],
+   "rank": 2523,
+   "count": 330,
+   "family": "ushtar",
+   "is_root": false,
+   "etymology": "From ushtar (“soldier”) + -ak.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "soldier"
+   ],
+   "components": [
+    {
+     "word": "ushtar",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ushtarakë",
+     "tag": "plural"
+    },
+    {
+     "form": "ushtaraku",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ushtrim",
+   "sq": "ushtrim",
+   "en": "military training",
+   "glosses": [
+    "military training",
+    "exercise",
+    "practice"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "military training",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 18 31"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "30 35 35"
       }
      ],
      "examples": [],
      "links": [
-      "shame"
+      "military",
+      "training"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "exercise",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 46 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exercise"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "practice",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 36 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 35 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "practice"
      ]
     }
    ],
-   "rank": 1311,
-   "count": 685,
-   "family": "turp",
-   "is_root": true,
-   "etymology": "From Latin turpis.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin turpis",
+   "rank": 8485,
+   "count": 79,
+   "family": "ushtar",
+   "is_root": false,
+   "etymology": "From ushtroj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
+   "components": [
+    {
+     "word": "ushtroj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "kushtrim"
+   ],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is a shame.",
+    "en": "Do this exercise.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Ky është turp."
+    "sq": "Bëni këtë ushtrim."
    }
   },
   {
-   "id": "hotel",
-   "sq": "hotel",
-   "en": "hotel",
+   "id": "ushtroj",
+   "sq": "ushtroj",
+   "en": "to exercise (use, call upon)",
    "glosses": [
-    "hotel"
+    "to exercise (use, call upon)"
    ],
    "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hotel",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 23 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hotel"
-     ]
-    }
-   ],
-   "rank": 1316,
-   "count": 680,
-   "family": "hotel",
-   "is_root": true,
-   "etymology": "Borrowed from French hôtel.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hotele",
-     "tag": "plural"
-    },
-    {
-     "form": "hoteli",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Awesome hotel!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Hotel i mrekullueshëm!"
-   }
-  },
-  {
-   "id": "film",
-   "sq": "film",
-   "en": "film",
-   "glosses": [
-    "film",
-    "movie"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "film",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "film"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "movie",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "movie"
-     ]
-    }
-   ],
-   "rank": 1318,
-   "count": 679,
-   "family": "film",
-   "is_root": true,
-   "etymology": "Borrowed from French film, from English film.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "filma",
-     "tag": "plural"
-    },
-    {
-     "form": "filmi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is not a film.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ky nuk është film."
-   }
-  },
-  {
-   "id": "turpëroj",
-   "sq": "turpëroj",
-   "en": "to humiliate, embarrass",
-   "glosses": [
-    "to humiliate, embarrass",
-    "to mortify"
-   ],
-   "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to humiliate, embarrass",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to exercise (use, call upon)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "71 29"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "source": "w"
       }
      ],
-     "examples": [],
-     "links": [
-      "humiliate",
-      "embarrass"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to mortify",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
+     "examples": [
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "sq": "Ushtron të drejtën e votës",
+       "en": "He exercises his right to vote",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
       }
      ],
-     "examples": [],
      "links": [
-      "mortify"
+      "exercise"
      ]
     }
    ],
-   "rank": 29114,
-   "count": 15,
-   "family": "turp",
+   "rank": 14936,
+   "count": 39,
+   "family": "ushtar",
    "is_root": false,
-   "etymology": "From turp (“shame”) + ër + oj (“I”).",
+   "etymology": "From ushtar + -oj.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "shame"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "turp",
+     "word": "ushtar",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [
-    "kori",
-    "marre",
-    "veprim"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "turpëruar",
+     "form": "ushtrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "ushtruar",
      "tag": "participle"
     }
    ],

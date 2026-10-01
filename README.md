@@ -18,7 +18,7 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 | | |
 |---|---|
 | Words | 4,087 |
-| Levels | 768 |
+| Levels | 767 |
 | Word families | 3009 |
 | Families with more than one member | 523 |
 | Words containing ë / ç | 1,643 |
@@ -39,7 +39,7 @@ A level is a **session of whole word families**, not a frequency slice:
   arbitrary slice of the frequency list.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (569 of 768),
+  sessions; a level that mixes families is the normal case (572 of 767),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
@@ -121,7 +121,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        768 level descriptors, loaded first
+      index.json        767 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -155,7 +155,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (768 decks, 4,087 notes). It is
+That writes dist/albanian-roots-families.apkg (767 decks, 4,087 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

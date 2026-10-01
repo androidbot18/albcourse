@@ -1,6 +1,6 @@
 {
  "level": 1,
- "title": "babi, të, zemër, e, në, mami +4",
+ "title": "babi, të, zemër, e, në, re +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -9,8 +9,8 @@
  "families": [
   "babi",
   "e",
-  "mami",
   "në",
+  "re",
   "të",
   "zemër"
  ],
@@ -18,7 +18,8 @@
   "conj": 4,
   "prep": 6,
   "pron": 4,
-  "noun": 10
+  "noun": 13,
+  "verb": 1
  },
  "words": [
   {
@@ -806,18 +807,30 @@
    "corpus_example": null
   },
   {
-   "id": "mami",
-   "sq": "mami",
-   "en": "mom",
+   "id": "re",
+   "sq": "re",
+   "en": "cloud",
    "glosses": [
-    "mom",
-    "midwife"
+    "cloud",
+    "cloud, gloom, bad luck",
+    "second-person singular simple perfect indicative of bie",
+    "attention, care, consideration",
+    "young girl",
+    "daughter-in-law"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "verb",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "verb",
+    "noun",
     "noun",
     "noun"
    ],
@@ -825,18 +838,81 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mom",
+     "gloss": "cloud",
      "tags": [],
-     "cats": [],
-     "examples": [],
+     "cats": [
+      {
+       "name": "Weather",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Weather",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "qiell pa re",
+       "en": "cloudless sky",
+       "offsets": [
+        [
+         9,
+         11
+        ]
+       ]
+      }
+     ],
      "links": [
-      "mom"
+      "cloud"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "midwife",
+     "gloss": "cloud, gloom, bad luck",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "një re zogjsh",
+       "en": "a flock of birds",
+       "offsets": [
+        [
+         4,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "një re mushkonjash",
+       "en": "a swarm of mosquitos",
+       "offsets": [
+        [
+         4,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "cloud",
+      "gloom",
+      "bad luck"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "second-person singular simple perfect indicative of bie",
      "tags": [],
      "cats": [
       {
@@ -844,39 +920,81 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "17 83"
+       "_dis": "3 3 25 4 3 24 39"
       }
      ],
      "examples": [],
      "links": [
-      "midwife"
+      "bie"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "attention, care, consideration",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attention",
+      "care",
+      "consideration"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "young girl",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "girl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "daughter-in-law",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "daughter-in-law"
      ]
     }
    ],
-   "rank": 279,
-   "count": 4033,
-   "family": "mami",
+   "rank": 259,
+   "count": 4606,
+   "family": "re",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *rina, a noun derived from the Proto-Indo-European verb *h₃rinéHti whence Albanian rij (“to make humid”), from the root *h₃reyH- (“move, flow, boil”). It is likely morphologically identical with Illyrian ῥινός (rhinós, “mist”). Further related to Sanskrit रिणाति (riṇā́ti, “to make flow, to release, to pour”) and Proto-Slavic *rinǫti (“push, shove”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I love you mom!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Të dua mami!"
-   }
+   "related": [
+    "ren",
+    "rend",
+    "rij",
+    "ritë",
+    "vranësi"
+   ],
+   "forms": [
+    {
+     "form": "reja",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
   },
   {
    "id": "të",
