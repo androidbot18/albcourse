@@ -11,7 +11,25 @@ import urllib.request
 
 URL = "https://androidbot18.github.io/albcourse/data/words.json"
 
-# Verified individually: each keeps a real content sense or is upstream-bad data.
+# Verified individually against upstream Wiktionary and the reference corpus.
+#
+# These are NOT all the same kind of exception, and the distinction matters:
+#
+#   moj   - honest upstream gloss. 'vocative particle used in a call to a
+#           woman' SAYS what the word does. Corpus: 'Moj zonjë' = 'My lady'.
+#   qetë  - a real word whose content sense the deck is right to keep. The
+#           entry also means 'quiet' (corpus: 'Por sot jemi të qetë' = 'But
+#           today we are quiet'), yet the card is built from the grammatical
+#           sense. That is a genuine sense-selection bug -- see PLAN.md --
+#           and not something the gloss rewriter can fix.
+#   dashura - upstream tags it 'verb' while the gloss is a nominal slot
+#           ('feminine plural of dashur'), so friendly_verb returns None and
+#           the raw label survives. Its lemma dashur is itself only 'participle
+#           of dua', so the noun path would read 'participle of dua, plural' --
+#           trading one grammar label for another. The corpus ('rrugët tona të
+#           dashura' = 'our beloved roads') shows an adjectival sense that no
+#           source in the build records. Fixing this needs a human gloss, not
+#           another heuristic.
 DELIBERATE_KEEP = {
     "të", "atë", "im", "cili", "cila", "qetë", "more",
     "kap", "mashkullor", "kënd", "moj", "muj", "neve", "dashura",
@@ -31,8 +49,11 @@ checks = {
     "bare participle of X": re.compile(r"^participle of "),
     "(subjunctive) label": re.compile(r"\(subjunctive\)"),
     "(imperative of X)": re.compile(r"\(imperative of "),
+    # 'locative' was missing from this list, which is how vendore shipped
+    # "locative case" as its only gloss without the checker ever seeing it.
+    # The case list must match the one in form_gloss._SLOT_R.
     "case-slot gloss": re.compile(
-        r"^(accusative|dative|nominative|genitive|vocative|ablative)\b"),
+        r"^(accusative|dative|nominative|genitive|vocative|ablative|locative)\b"),
 }
 
 failed = False
