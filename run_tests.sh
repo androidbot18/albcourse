@@ -130,6 +130,14 @@ echo "== example selection guard =="
 python3 tools/corpus/test_select_guard.py
 
 echo
+echo "== deployed e check (negative control) =="
+# verify_live_merge.py shipped two VACUOUS checks for the 'e' card: both
+# passed on the exact sentence they were written to reject, so the article
+# sense went live under the gloss "and". This asserts they ARE vacuous,
+# and that the replacements actually reject the defect.
+python3 tools/test_verify_live.py
+
+echo
 echo "== example pairing =="
 # An example must illustrate the gloss above it. firstExample() used to take the
 # first example across ALL senses, so 'e' showed the conjunction "and" beside a
