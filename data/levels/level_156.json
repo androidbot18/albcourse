@@ -1,113 +1,229 @@
 {
  "level": 156,
- "title": "katër",
- "root": "katër",
- "root_gloss": "four",
+ "title": "armë",
+ "root": "armë",
+ "root_gloss": "gun",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 3,
  "families": [
-  "katër"
+  "armë"
  ],
  "pos_mix": {
-  "num": 3
+  "noun": 6,
+  "verb": 1
  },
  "words": [
   {
-   "id": "katër",
-   "sq": "katër",
-   "en": "four",
+   "id": "armë",
+   "sq": "armë",
+   "en": "gun",
    "glosses": [
-    "four"
+    "gun",
+    "weapon",
+    "combat arms",
+    "army",
+    "tool"
    ],
    "pos": [
-    "num"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "four",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gun",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gun"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "weapon",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
-       "name": "Albanian cardinal numbers",
+       "name": "Weapons",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "orig": "sq:Weapons",
+       "langcode": "sq",
+       "_dis": "74 4 15 4 4"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "I shpie udhësë gjithë armëtë e tī.",
+       "en": "",
+       "offsets": [
+        [
+         22,
+         28
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "weapon"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "combat arms",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 10 58 10 12"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "12 12 48 12 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 8 68 8 9"
       }
      ],
      "examples": [],
      "links": [
-      "four"
+      "combat",
+      "arms"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "army",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "army"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tool",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tool"
      ]
     }
    ],
-   "rank": 486,
-   "count": 2168,
-   "family": "katër",
+   "rank": 451,
+   "count": 2335,
+   "family": "armë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *kátur, from Proto-Indo-European *kʷtur- ~ *kʷétur- (compare Lithuanian keturi̇̀, Serbo-Croatian četiri, and possibly Latin quattuor), oblique of *kʷetwóres. Probably borrowed from Latin quattuor.",
+   "etymology": "Borrowed from Late Latin arma (“weapon”). A later loan from Italian arma (“weapon”) is also plausible.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "weapon"
+   ],
    "components": [],
-   "derived": [],
+   "derived": [
+    "armatë",
+    "armatis",
+    "armatos",
+    "armëlarë",
+    "armëmbajtës",
+    "armëmbajtje",
+    "armëndreqës",
+    "armëngrirë"
+   ],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "armë",
+     "tag": "plural"
+    },
+    {
+     "form": "arma",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "They have four children.",
+    "corpus": "HPLT",
+    "en": "They have guns.",
     "score": [
      0,
-     4,
-     -4,
-     8
+     3,
+     -3,
+     10
     ],
-    "sq": "Ata kanë katër fëmijë."
+    "sq": "Ata kanë armë."
    }
   },
   {
-   "id": "katërmbëdhjetë",
-   "sq": "katërmbëdhjetë",
-   "en": "fourteen",
+   "id": "armët",
+   "sq": "armët",
+   "en": "the gun, plural (from armë)",
    "glosses": [
-    "fourteen",
-    "forty"
+    "the gun, plural (from armë)"
    ],
    "pos": [
-    "num",
-    "num"
+    "noun"
    ],
    "pos_labels": [
-    "numeral",
-    "numeral"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "fourteen",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the gun, plural (from armë)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
+     ],
      "cats": [
       {
-       "name": "Albanian cardinal numbers",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -116,87 +232,119 @@
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fourteen"
-     ]
-    },
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "forty",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Molise Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 68"
-      },
-      {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 63"
       }
      ],
      "examples": [],
-     "links": [
-      "forty",
-      "Mouton de Gruyter"
-     ]
+     "is_form_of": "armë"
     }
    ],
-   "rank": 18773,
-   "count": 28,
-   "family": "katër",
+   "rank": 904,
+   "count": 1052,
+   "family": "armë",
    "is_root": false,
-   "etymology": "From katër (“four”) + -mbëdhjetë (“-teen”).",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "four"
-   ],
-   "components": [
-    {
-     "word": "katër",
-     "role": "prefix"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I was in Leskovac for fourteen months.",
+    "en": "Guns don't kill people.",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Katërmbëdhjetë muaj kam qenë në Leskovc."
+    "sq": "Armët nuk vrasin njerëz."
    }
+  },
+  {
+   "id": "armatos",
+   "sq": "armatos",
+   "en": "to arm (supply with weapons)",
+   "glosses": [
+    "to arm (supply with weapons)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arm (supply with weapons)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -os",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "arm"
+     ]
+    }
+   ],
+   "rank": 43096,
+   "count": 8,
+   "family": "armë",
+   "is_root": false,
+   "etymology": "From armë (“weapon”) + -os (verb suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "weapon"
+   ],
+   "components": [
+    {
+     "word": "armë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "armatosa",
+     "tag": "aorist"
+    },
+    {
+     "form": "armatosur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

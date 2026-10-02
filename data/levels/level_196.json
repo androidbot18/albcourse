@@ -1,38 +1,213 @@
 {
  "level": 196,
- "title": "mrekulli",
- "root": "mrekulli",
- "root_gloss": "miracle",
+ "title": "mbaroj",
+ "root": "mbaroj",
+ "root_gloss": "to complete, to finish",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "mrekulli"
+  "mbaroj"
  ],
  "pos_mix": {
-  "noun": 1,
-  "adj": 1
+  "verb": 6
  },
  "words": [
   {
-   "id": "mrekulli",
-   "sq": "mrekulli",
-   "en": "miracle",
+   "id": "mbaroj",
+   "sq": "mbaroj",
+   "en": "to complete, to finish",
    "glosses": [
-    "miracle"
+    "to complete, to finish",
+    "to (bring to an) end, finalize",
+    "to create, to prepare",
+    "to fulfill (a wish, desire, request, need); to end/destroy (someone or someone’s dream, wish, etc.)",
+    "it runs out / they run out (money)"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "miracle",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to complete, to finish",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "complete",
+      "finish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to (bring to an) end, finalize",
+     "tags": [
+      "active",
+      "figuratively",
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "end",
+      "finalize"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to create, to prepare",
+     "tags": [
+      "Gheg"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "create",
+      "prepare"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fulfill (a wish, desire, request, need); to end/destroy (someone or someone’s dream, wish, etc.)",
+     "tags": [
+      "active",
+      "colloquial",
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "ta mbaron qejfin",
+       "en": "(he/she) fulfills your wish",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fulfill",
+      "end",
+      "destroy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it runs out / they run out (money)",
      "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 14 12 21 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 16 21 22 28"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 5 5 31 56"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "(see mbarohet (“(it) runs out”) for more)",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "run",
+      "out",
+      "run"
+     ]
+    }
+   ],
+   "rank": 1485,
+   "count": 595,
+   "family": "mbaroj",
+   "is_root": true,
+   "etymology": "According to Meyer and Tagliavini from mbar (“to bring (back)”) (mbar + -oj). Related to Albanian mbarë (“good, right, complete, wholly, etc.”), further related to mbart (“to bear, carry (back)”), Albanian mbaj (“to hold, carry”) and bie (“to bring”).\nOrel proposed it as a (prefixal) derivative of parë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mbaruar",
+     "tag": "participle"
+    },
+    {
+     "form": "maroj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "mbaruar",
+   "sq": "mbaruar",
+   "en": "complete, past form (from mbaroj, to complete)",
+   "glosses": [
+    "complete, past form (from mbaroj, to complete)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "complete, past form (from mbaroj, to complete)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -54,118 +229,32 @@
       }
      ],
      "examples": [],
-     "links": [
-      "miracle"
-     ]
+     "is_form_of": "mbaroj"
     }
    ],
-   "rank": 757,
-   "count": 1306,
-   "family": "mrekulli",
-   "is_root": true,
-   "etymology": "From Old Albanian mërekull, borrowed from Latin mīrāculum.",
-   "etymology_class": "borrowed",
+   "rank": 693,
+   "count": 1453,
+   "family": "mbaroj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "mrekulli",
-     "tag": "plural"
-    },
-    {
-     "form": "mrekullia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Okay? Great.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Ne rregull? Mrekulli."
-   }
-  },
-  {
-   "id": "mrekullueshëm",
-   "sq": "mrekullueshëm",
-   "en": "miraculous",
-   "glosses": [
-    "miraculous"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "miraculous",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -shëm",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "miraculous"
-     ]
-    }
-   ],
-   "rank": 1109,
-   "count": 847,
-   "family": "mrekulli",
-   "is_root": false,
-   "etymology": "mrekulli + -shëm",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "mrekulli",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "They are just magnificent.",
+    "en": "I'm not done yet. I'm not done yet.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      5
     ],
-    "sq": "Janë të mrekullueshëm."
+    "sq": "Nuk kam mbaruar ende."
    }
   }
  ]

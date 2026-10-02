@@ -1,29 +1,177 @@
 {
  "level": 339,
- "title": "shtat, eci, tërheq, rrëmujë +2",
+ "title": "duk, bindur, trashë, gjer, sidomos +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "eci",
-  "rrëmujë",
-  "shtat",
-  "tërheq"
+  "bindur",
+  "duk",
+  "gjer",
+  "sidomos",
+  "trashë"
  ],
  "pos_mix": {
-  "adj": 1,
-  "verb": 4,
-  "noun": 5
+  "noun": 5,
+  "verb": 3,
+  "adj": 15,
+  "adv": 4
  },
  "words": [
   {
-   "id": "shtatzënë",
-   "sq": "shtatzënë",
-   "en": "pregnant",
+   "id": "duk",
+   "sq": "duk",
+   "en": "virtue",
    "glosses": [
-    "pregnant"
+    "virtue",
+    "attribute",
+    "it seemed",
+    "it looked like",
+    "it appeared"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "virtue",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "virtue"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "attribute",
+     "tags": [
+      "attributive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attribute"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it seemed",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "it",
+      "seemed"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it looked like",
+     "tags": [
+      "active"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 21 56 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "it",
+      "looked",
+      "like"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it appeared",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "it",
+      "appeared"
+     ]
+    }
+   ],
+   "rank": 2105,
+   "count": 408,
+   "family": "duk",
+   "is_root": true,
+   "etymology": "See medio-passive voice form duket (“it seems like, appears like”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "zhduk",
+    "dukje",
+    "dukuri"
+   ],
+   "related": [
+    "duket",
+    "dukem",
+    "nduk",
+    "ndihem",
+    "ndiej"
+   ],
+   "forms": [
+    {
+     "form": "duk",
+     "tag": "aorist"
+    },
+    {
+     "form": "dukur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "3 Another sign was seen in heaven.",
+    "score": [
+     0,
+     7,
+     -7,
+     8
+    ],
+    "sq": "«Një tjetër shenjë u duk në qiell."
+   }
+  },
+  {
+   "id": "bindur",
+   "sq": "bindur",
+   "en": "convinced",
+   "glosses": [
+    "convinced"
    ],
    "pos": [
     "adj"
@@ -35,15 +183,9 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "pregnant",
+     "gloss": "convinced",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian blends",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -55,84 +197,598 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "pregnant"
+      "convinced"
      ]
     }
    ],
-   "rank": 2222,
-   "count": 384,
-   "family": "shtat",
-   "is_root": false,
-   "etymology": "Blend of shtat (“body”) + zënë (“occupied”), from zë.",
+   "rank": 2111,
+   "count": 407,
+   "family": "bindur",
+   "is_root": true,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "body",
-    "occupied"
-   ],
-   "components": [
-    {
-     "word": "shtat",
-     "role": "prefix"
-    },
-    {
-     "word": "zënë",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shtatzënëe",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "2 and she was pregnant.",
+    "en": "It has convinced me.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "2 dhe ishte shtatzënë."
+    "sq": "Më ka bindur."
    }
   },
   {
-   "id": "eci",
-   "sq": "eci",
-   "en": "to walk",
+   "id": "trashë",
+   "sq": "trashë",
+   "en": "thick, fat, massive (thicker, wider than usual)",
    "glosses": [
-    "to walk"
+    "thick, fat, massive (thicker, wider than usual)",
+    "voluminous, thick, large, big (consisting of many layers)",
+    "viscous, syrupy (liquids)",
+    "low quality, cheap (production, fabrication, work)",
+    "deep, low-pitched (voices, vocals, sounds)",
+    "heavy, thick, strong (accent)",
+    "stringy, fat (domesticated animal with large amount of excess flesh)",
+    "fertile (when associated with soil, ground)",
+    "large",
+    "rough, gritty, gritty, coarse (substances or objects consisting of particles, fibers or granules)",
+    "indecent, rude, uncultured, tasteless, vulgar, trashy (person); vulgar, offensive, bold (speech)",
+    "thickly, largely (cross section)",
+    "abundantly, in large quantities, plentifully (condition, wealth, resources, food, money)",
+    "harshly, heavily, coarsely (way of speech, behavior)",
+    "thickness, opulence, voluptuousness, fatness",
+    "thick, big part/portion of a body (animals and human beings) or food"
    ],
    "pos": [
-    "verb"
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adv",
+    "adv",
+    "adv",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adverb",
+    "adverb",
+    "adverb",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to walk",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "thick, fat, massive (thicker, wider than usual)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "trup i trashë",
+       "en": "massive body",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      },
+      {
+       "sq": "A ke parë sa i trashë është ai?",
+       "en": "Have you seen how fat he is?",
+       "offsets": [
+        [
+         13,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "thick",
+      "fat",
+      "massive"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "voluminous, thick, large, big (consisting of many layers)",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "1 11 11 7 1 9 0 3 5 4 3 13 7 7 9 9"
       },
       {
-       "name": "Lithuanian links with redundant target parameters",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 10 0 0 1 1 1 12 8 9 10 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 11 0 0 1 1 1 12 8 8 11 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "libër i trashë; libra të trasha",
+       "en": "big book; big books",
+       "offsets": [
+        [
+         6,
+         14
+        ],
+        [
+         22,
+         31
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "voluminous",
+      "thick",
+      "large"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "viscous, syrupy (liquids)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "lëng i trashë",
+       "en": "viscous liquid",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "viscous",
+      "syrupy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "low quality, cheap (production, fabrication, work)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "low",
+      "quality",
+      "cheap"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "deep, low-pitched (voices, vocals, sounds)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 10 0 0 1 1 1 12 8 9 10 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 11 0 0 1 1 1 12 8 8 11 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "një zë i trashë",
+       "en": "a deep voice",
+       "offsets": [
+        [
+         7,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "deep",
+      "low-pitched"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "heavy, thick, strong (accent)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "heavy",
+      "thick",
+      "strong"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "stringy, fat (domesticated animal with large amount of excess flesh)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "stringy",
+      "fat"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "fertile (when associated with soil, ground)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "toka e trashë",
+       "en": "the fertile soil",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      },
+      {
+       "sq": "tokë e trashë",
+       "en": "fertile soil",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fertile"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "large",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "zorra e trashë",
+       "en": "the large intestine (colon)",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "anatomy",
+      "large"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "rough, gritty, gritty, coarse (substances or objects consisting of particles, fibers or granules)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 11 11 7 1 9 0 3 5 4 3 13 7 7 9 9"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 10 0 0 1 1 1 12 8 9 10 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 11 0 0 1 1 1 12 8 8 11 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "rëra e trashë",
+       "en": "the coarse sand",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "rough",
+      "gritty",
+      "gritty"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "indecent, rude, uncultured, tasteless, vulgar, trashy (person); vulgar, offensive, bold (speech)",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "indecent",
+      "rude",
+      "uncultured"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "thickly, largely (cross section)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 11 11 7 1 9 0 3 5 4 3 13 7 7 9 9"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 10 0 0 1 1 1 12 8 9 10 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 11 0 0 1 1 1 12 8 8 11 13"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thickly",
+      "largely"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "abundantly, in large quantities, plentifully (condition, wealth, resources, food, money)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "abundantly",
+      "large",
+      "quantities"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "harshly, heavily, coarsely (way of speech, behavior)",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "harshly",
+      "heavily",
+      "coarsely"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "thickness, opulence, voluptuousness, fatness",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 10 0 0 1 1 1 12 8 9 10 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 11 0 0 1 1 1 12 8 8 11 13"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thickness",
+      "opulence",
+      "voluptuousness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "thick, big part/portion of a body (animals and human beings) or food",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 10 0 0 1 1 1 12 8 9 10 12"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 14 14 6 0 11 0 0 1 1 1 12 8 8 11 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e trasha e kofshës",
+       "en": "the thickness of the tight (the big part of a ham)",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "thick",
+      "big",
+      "part"
+     ]
+    }
+   ],
+   "rank": 2114,
+   "count": 407,
+   "family": "trashë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *trauša. Close to Lithuanian trąšùs (“fat, fertile (soil)”) (cf. Albanian trashi (“fertile soil”)). May reflect ultimate origin in Proto-Indo-European *treu- (“to destroy”), but this is not certain.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "trashaluq",
+    "trashaluqe",
+    "trashaluqi",
+    "trashamak",
+    "trashamake",
+    "trashaman",
+    "trashamane",
+    "trashanik"
+   ],
+   "related": [
+    "trashe",
+    "trashi",
+    "dhjamë",
+    "trash",
+    "trashem"
+   ],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "gjer",
+   "sq": "gjer",
+   "en": "dormouse",
+   "glosses": [
+    "dormouse"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dormouse",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -142,460 +798,308 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "walk"
+      "dormouse"
      ]
     }
    ],
-   "rank": 2224,
-   "count": 384,
-   "family": "eci",
+   "rank": 2122,
+   "count": 405,
+   "family": "gjer",
    "is_root": true,
-   "etymology": "From *etës (compare dialectal ecëj), from Proto-Albanian *aitatja, from Proto-Indo-European *h₁éyti, present of *h₁ey-. Compare Serbo-Croatian ìći, Lithuanian ei̇̃ti. See heci.",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Indo-European *geli-, *glī- (“mous”). Compare Ancient Greek γαλέη (galéē, “weasel, marten”), Latin glīs (“dormouse”). Alternatively from Latin glīrem.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "mous"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "eca",
-     "tag": "aorist"
+     "form": "gjera",
+     "tag": "plural"
     },
     {
-     "form": "ecur",
-     "tag": "participle"
+     "form": "gjeri",
+     "tag": "definite"
     },
     {
-     "form": "ecëj",
+     "form": "ger",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "SETIMES",
-    "en": "It didn't work.",
+    "corpus": "GlobalVoices",
+    "en": "There is no damage done to the house so far.",
     "score": [
-     0,
-     3,
-     -3,
-     7
+     1,
+     6,
+     -5,
+     3
     ],
-    "sq": "Kjo nuk eci."
+    "sq": "Gjer tani shtëpia nuk është dëmtuar."
    }
   },
   {
-   "id": "tërheq",
-   "sq": "tërheq",
-   "en": "to pull",
+   "id": "sidomos",
+   "sq": "sidomos",
+   "en": "especially",
    "glosses": [
-    "to pull",
-    "to withdraw",
-    "to attract"
+    "especially"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to pull",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 39 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 36 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "pull"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to withdraw",
-     "tags": [
-      "transitive"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "especially",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 44 29"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 82 18"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 39 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "withdraw"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to attract",
-     "tags": [
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 82 18"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 39 32"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 36 33"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "attract"
+      "especially"
      ]
     }
    ],
-   "rank": 2231,
-   "count": 383,
-   "family": "tërheq",
+   "rank": 2136,
+   "count": 400,
+   "family": "sidomos",
    "is_root": true,
-   "etymology": "A compound formation of prefix tër- and heq. Alternatively from Proto-Indo-European *tragʰ- (“to draw, drag”) or *dʰerǵʰ- (“to bind fast”). Compare Latin trahō (“to pull, carry”), Old High German trehhan (“to push, bump, move, scratch”), English drag.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "tërheqës",
-    "tërheqësi",
-    "tërheqje",
-    "tërhiqem"
-   ],
-   "forms": [
-    {
-     "form": "tërhoqa",
-     "tag": "aorist"
-    },
-    {
-     "form": "tërhequr",
-     "tag": "participle"
-    }
-   ],
+   "related": [],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How can I withdraw money?",
+    "en": "For women especially.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Për gratë sidomos."
+   }
+  },
+  {
+   "id": "padukshëm",
+   "sq": "padukshëm",
+   "en": "invisible",
+   "glosses": [
+    "invisible"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "invisible",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "invisible"
+     ]
+    }
+   ],
+   "rank": 5704,
+   "count": 129,
+   "family": "duk",
+   "is_root": false,
+   "etymology": "pa- + dukshëm",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pa",
+     "role": "prefix"
+    },
+    {
+     "word": "dukshëm",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You got an invisible ending.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Si mund të tërheq para?"
+    "sq": "Ke një fund të padukshëm."
    }
   },
   {
-   "id": "rrëmujë",
-   "sq": "rrëmujë",
-   "en": "disorder, confusion, chaos, mishmash, hubbub",
+   "id": "dukshëm",
+   "sq": "dukshëm",
+   "en": "visible",
    "glosses": [
-    "disorder, confusion, chaos, mishmash, hubbub",
-    "plundering, rifling, ransacking",
-    "riot"
+    "visible",
+    "evident, apparent"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "disorder, confusion, chaos, mishmash, hubbub",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "visible",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 36 35"
+       "_dis": "45 55"
       }
      ],
      "examples": [],
      "links": [
-      "disorder",
-      "confusion",
-      "chaos"
+      "visible"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plundering, rifling, ransacking",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "evident, apparent",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 36 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "plundering",
-      "rifling",
-      "ransacking"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "riot",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
+       "_dis": "45 55"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 36 35"
+       "_dis": "22 78"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "24 34 42"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 19 67"
+       "_dis": "0 100"
       }
      ],
      "examples": [],
      "links": [
-      "riot"
+      "evident",
+      "apparent"
      ]
     }
    ],
-   "rank": 2234,
-   "count": 382,
-   "family": "rrëmujë",
-   "is_root": true,
-   "etymology": "According to Orel, from Proto-Albanian *raimuljā, cognate with Lithuanian ráibas (“multicolored, varied”).",
-   "etymology_class": "inherited",
+   "rank": 9067,
+   "count": 74,
+   "family": "duk",
+   "is_root": false,
+   "etymology": "From duk + -shëm.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "duk",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "rrëmuja",
-     "tag": "plural"
-    },
-    {
-     "form": "rëmujë",
-     "tag": "alternative"
-    },
-    {
-     "form": "rumujë",
-     "tag": "alternative"
-    },
-    {
-     "form": "rrumujë",
-     "tag": "alternative"
-    },
-    {
-     "form": "rëmullë",
-     "tag": "alternative"
-    },
-    {
-     "form": "rrëmullë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What a mess!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Çfarë një rrëmujë!"
-   }
-  },
-  {
-   "id": "shtat",
-   "sq": "shtat",
-   "en": "body, figure",
-   "glosses": [
-    "body, figure",
-    "stem (of plant)"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "body, figure",
-     "tags": [
-      "masculine",
-      "uncountable"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "94 6"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "85 15"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "75 8 8 8"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "body",
-      "figure"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stem (of plant)",
-     "tags": [
-      "masculine",
-      "uncountable"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "stem"
-     ]
-    }
-   ],
-   "rank": 17261,
-   "count": 32,
-   "family": "shtat",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *śtat-, from Proto-Indo-European *steh₂- (“to stay, stand, put, lay”). Cognate to Latin status (“standing, stan”), Russian стать (statʹ, “structure of the body”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "shtatoj"
-   ],
-   "related": [
-    "shtaj",
-    "mbështet"
-   ],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He was so perfect in stature.",
+    "en": "There will be no visible difference.",
     "score": [
-     2,
-     6,
-     -4,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Aq i përsosur ishte në shtat."
+    "sq": "Nuk do të ketë ndryshim të dukshëm."
    }
   }
  ]

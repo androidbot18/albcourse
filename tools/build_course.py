@@ -67,6 +67,63 @@ CORE_POS = {"noun", "verb", "adj", "adv", "pron", "num", "intj", "prep", "conj",
 # rank <= 5000 would add 669 and pull in rare conjugations nobody meets yet.
 FORM_CARD_MAX_RANK = 2000
 
+# How common a family member must be to compete for a slot in the opening
+# levels. See "the opening must not be crowded out by a family's rare tail"
+# in assign_levels().
+OPENING_MEMBER_MAX_RANK = 1200
+
+# How many rare members a family must have before deferring them is worth an
+# extra session.
+#
+# Deferring is not free: a deferred family becomes a split family, its tail
+# takes a level of its own, and the head can no longer share one. Measured,
+# 103 families had exactly ONE rare member -- lexim beside lexoj, and dozens
+# like it -- and deferring those bought a tidier level 1 at the price of 103
+# extra sessions, which pushed the course from 767 levels past its 800
+# ceiling.
+#
+# One stray rare member crowds nothing out. It shares a session with common
+# words and costs the learner one unfamiliar card. The case worth fixing is a
+# family whose rare half is genuinely large, where a common head is competing
+# for an opening slot against a dozen words nobody meets in their first month.
+OPENING_MIN_DEFERRED = 4
+
+# A family is deferred only when its ROOT is at least this rare. Families at
+# the front of the course are left whole: their rare members cannot move out
+# of the opening without moving the whole family, and a whole family in the
+# first ten levels is worth more than a tidy one. See the note at the
+# deferral set below.
+# A family is only deferred when its ROOT is at least this rare. Families at
+# the front of the course are left whole: their rare members cannot move out
+# of the opening without moving the whole family, and a whole family in the
+# first ten levels is worth more than a tidy one. See the note at the
+# deferral set below.
+DEFER_MAX_ROOT_RANK = 900
+
+# The common head must be at least this large before a family inside the
+# opening is split. Below it, the split only shuffles rare words and costs a
+# session: do has 1 common word and stayed whole; per has 4 and was split.
+# per's head of 4 displaced THREE sessions (per 1/3, 2/3, 3/3) and pushed
+# une from L11 to L15 -- a bad trade for moving one word from L13 to L11.
+# Raise the bar so a family only earns that many sessions when its head can
+# actually fill them. per's head is 4 and its tail is 19, so it stops# splitting and stays whole at L13; një's head is 3 against5 and also stops.
+# A family inside the opening is split only when its common head is at least
+# this large. Below it the split only shuffles rare words: do has 1 common word
+# and stayed whole; per has 4 and is split.
+DEFER_MIN_HEAD_IN_OPENING = 4
+
+# A common head at least this large already occupies the opening, so moving
+# its tail out cannot help -- it can only shuffle the rare words a few levels
+# along while costing a session. do has 1 common member though, so this is
+# about the family as a whole: a head of 4 or more words is a lesson in itself.
+
+# A deferred head must also own its level (see the packer), which makes the
+# head session shorter than a full one. Requiring a tail of at least half a
+# session keeps that trade honest: deferring a 3-word tail bought a tidier
+# level 1 but split a session that had room for two more words, and the
+# course crept past its 800-level ceiling. Four rare members is where the
+# crowding is real -- do, jam, një and me each have 6 to 19.
+
 # Order in which a multi-POS word should be presented.
 #
 # Closed-class words (conjunction, preposition, pronoun, adverb, determiner)
@@ -427,7 +484,12 @@ _PAREN_RE = re.compile(r"\([^)]*\)")
 
 
 def _is_derivation_sentence(sent):
-    """True if this sentence states a composition rather than comparing."""
+    """True if this sentence states a composition rather than comparing.
+
+    Whether the equation may supply a BASE is decided in
+    derivations_from_text(), which can see the affix itself; this only
+    decides whether the sentence is about composition at all.
+    """
     if _COMPARISON_RE.search(sent):
         return False
     # A "+" that lives entirely inside parentheses describes something else
@@ -459,6 +521,21 @@ def derivations_from_text(text):
         return []
 
     left = head.split("+")[0]
+    # A starred affix reconstructs an ANCESTOR, so the equation describes some
+    # other word, not this one. See _is_derivation_sentence().
+    #
+    # The test is on the affix itself, not the clause. esell reads "From
+    # Proto-Albanian *atsilna or *aila-, a compound equivalent to a privative
+    # e- + sille", where the stars sit in an earlier aside and the derivation
+    # is the unstarred e- at the end; a bare star-anywhere test would throw
+    # that real derivation away. ti reads "...ablative teje is from locative
+    # *toi + -je", where the affix IS the reconstruction and must be dropped.
+    #
+    # So: the equation counts only when the token immediately before the "+"
+    # is an unstarred word. That is the affix, and it is the token the base is
+    # taken from below.
+    if _affix_is_reconstruction(left):
+        return []
     left = _DERIV_LEAD_RE.sub("", left)
     left = left.replace("*", "")            # proto-form reconstruction stars
     left = re.sub(r"\([^)]*\)", " ", left)       # (gloss) / (note)
@@ -516,6 +593,23 @@ def _stem_side(chunk):
     return side
 
 
+def _affix_is_reconstruction(left):
+    """True if the LEFT of an equation is a starred reconstructed form.
+
+    The affix is the last word before the "+". esell reads "...a privative e-
+    + sille", where e- is unstarred and real, while ti reads "...from locative
+    *toí + -je", where *toí reconstructs an ancestor. A bare test for "*"
+    anywhere in the clause would reject esell too, because its sentence opens
+    with the starred reconstruction "From Proto-Albanian *a-tšilna". So the
+    star is only read when it is attached to the affix itself.
+    """
+    ctx = _DERIV_LEAD_RE.sub("", left)
+    toks = _DERIV_WORD_RE.findall(ctx)
+    if not toks:
+        return False
+    return ctx.rstrip().endswith("*" + toks[-1])
+
+
 def components_of(text, words):
     """The deck words this entry says it is built FROM, with their role.
 
@@ -547,6 +641,18 @@ def components_of(text, words):
         # ("dritë, a brightening of ndriç") cannot displace the real base.
         stem = _side_word(_stem_side(sides[1]), words) \
             if len(sides) >= 2 else None
+
+        # A starred AFFIX means the equation reconstructs an ancestor, so it
+        # describes some other word and yields no stem either. Without this,
+        # ti ("you", rank 18) took meje as its stem: its etymology ends
+        # "...ablative teje is from locative *toí + -je from meje", and reading
+        # the text after the "+" found meje sitting in the prose. That gave
+        # the second most common pronoun a prerequisite on a rank-423 word and
+        # held it to L140. _stem_side() guards the right of the equation and
+        # the affix guard guards the left, so a reconstruction now contributes
+        # neither side.
+        if _affix_is_reconstruction(sides[0]):
+            stem = None
 
         # A short function word sitting BETWEEN two lexical elements is a
         # joiner, not a stem: gjëegjëzë is gjë + e + gjëzë, where e is
@@ -1073,6 +1179,102 @@ def assign_levels(cards, families, per_level=9, max_families=6,
                      100.0 * win_nouns / max(1, win_words),
                      100.0 * pos_balance.TARGET_NOUN_SHARE, len(chosen)))
 
+    # ---- the opening must not be crowded out by a family's rare tail ------
+    #
+    # A family is taught whole, which is right for a root and its
+    # derivations but has a cost the frequency sort cannot see: the family
+    # also owns its inflected forms, its productive compounds and its
+    # archaisms, and those inflate it far past the common word that named
+    # it. Measured on the opening:
+    #
+    #   do  (rank 4)   8 members, median rank 22083 -- doemos, medoemos,
+    #                   domosdoshem, domosdoshmeri, ndopak
+    #   një (rank 11)   8 members, median rank 3390  -- njëzet, njësi, mënjanë
+    #   me  (rank 14)   4 members, median rank 3227  -- mjaftoj (rank 42540)
+    #   jam (rank 6)   22 members, median rank 258
+    #
+    # Fifteen of the sixty-nine words in levels 1-10 had rank > 2000, and
+    # rare words crowded out common ones: doemos (30516) and qeshe (15706)
+    # sat in level 2 and 4 while mire (rank 21) waited until level 13, past
+    # shume, por and kjo.
+    #
+    # So a family is split by frequency for scheduling purposes only. The
+    # common head of a family -- the word that earned it its place, plus its
+    # everyday forms -- competes for the opening; the rare tail is scheduled
+    # after it. Nothing is dropped and no family is broken: a learner who
+    # reaches the tail still gets it as a whole, it simply no longer competes
+    # for a level-1 slot against words they meet in their first week.
+    #
+    # The cut is deliberately generous (OPENING_MEMBER_MAX_RANK). The point
+    # is not to prune the deck, it is to stop rank-30000 words sitting beside
+    # rank-4 ones in a first session. The stem-before-word ordering is
+    # unaffected: it is applied to whole families, and the tail only ever
+    # contains members whose own stems are already taught.
+    # Deferral is skipped for any family that would land in the OPENING.
+    #
+    # A deferred family's tail must follow its head in consecutive levels, so
+    # deferring a family whose head sits in levels 1-10 only moves its rare
+    # words a few levels later -- still inside the opening the change was
+    # meant to clear. Measured: do 2/2 landed on L3, jam 3/3 on L7 and nje
+    # 2/2 on L10, so doemos (rank 30516) and qeshe (15706) were still being
+    # taught in the first ten sessions, and the sessions those tails consumed
+    # pushed dhe and une past level 10.
+    #
+    # So a family is deferred only when its head is comfortably outside the
+    # opening. The opening is then built from whole families, and the first
+    # ten sessions hold nothing a first-week learner has not met.
+    opening_roots, deferred_roots = set(), set()
+    # head_members[root] = the members that teach the family in its first
+    # session, when it has been split. Read back by the deps pass below.
+    deferred_units_head = {}
+    for root, members in families.items():
+        common = [m for m in members
+                  if rank_of.get(m, 10 ** 9) <= OPENING_MEMBER_MAX_RANK]
+        if not common or len(common) == len(members):
+            continue
+        cset = set(common)
+        rare = [m for m in members if m not in cset]
+        # Keep the family whole when its common head is already large enough
+        # to occupy the opening on its own. do has 1 common word but 7 rare,
+        # and splitting it put domethene/domosdoshem/doemos into level 3 --
+        # still inside the opening, just relocated. The tail only leaves the
+        # opening if the head sits deep enough for head+1 > EARLY_LEVELS, so a
+        # family whose common words alone are numerous keeps its tail.
+        # Split a family inside the opening when its common head is at least
+        # DEFER_MIN_HEAD_IN_OPENING words. Splitting does not move a tail OUT
+        # of the opening -- the tail lands at head+1 either way -- so this only
+        # decides whether the head is worth a session of its own.
+        #
+        # do (rank 4) is the case: head [do], tail [domethene, ndopak,
+        # domosdoshem, domosdoshmerisht, medoemos, doemos, domosdoshmeri],
+        # where doemos is rank 30516 and was being taught in level 2. Splitting
+        # it puts do alone at level 2 and the seven rare words behind it.
+        #
+        # per (rank 13) is the other: head [per, neper, perdorur, pergjigje]
+        # against nineteen rare members, and it shipped at L275 until
+        # prerequisites stopped being scored over the whole family.
+        # Inside the opening, split only when the family is MOSTLY rare
+        # material -- when the tail outweighs the head. That is what makes a
+        # common word look late: it is one session followed by several of
+        # words nobody meets for weeks.
+        #
+        # per (rank 13): head [per, neper, perdorur, pergjigje] = 4, tail = 19.
+        # It shipped at L279 behind vere ("wine", rank 1393), reached through a
+        # tail member. Splitting teaches per early and files the nineteen
+        # behind it.
+        #
+        # do (rank 4): head [do] = 1, tail = 7. Also mostly rare, but splitting
+        # it put doemos (rank 30516) into level 3 -- still the opening -- while
+        # emptying level 2 and costing dhe its slot. do stays whole.
+        #
+        # The rule that separates them is the ratio: per is 4 to 19 and do is
+        # 1 to 7, and only per's head is big enough to be a lesson in itself.
+        if (score.get(root, 10 ** 9) <= DEFER_MAX_ROOT_RANK
+                and len(common) < DEFER_MIN_HEAD_IN_OPENING):
+            continue
+        opening_roots.add(root)
+        deferred_units_head[root] = list(common)
+
     # ---- topological order over families ---------------------------------
     # A family cannot unlock before the family holding a stem one of its
     # members is built from. This has to be a real topological sort, not a
@@ -1084,10 +1286,22 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     # Among families ready at the same moment the most frequent goes first,
     # so the course still reads as "common words early" wherever the
     # etymology imposes no order.
+    # A family cannot unlock before the family holding a stem one of its
+    # HEAD members is built from. The HEAD, specifically.
+    #
+    # Scoring this over the whole family gated common words behind their own
+    # rare tail. per (rank 13) shipped at L276 because its tail member
+    # pranvere is "prane + vere", so vere -- wine, rank 1393 -- became a
+    # prerequisite for the entire family and per waited for it at position
+    # 506 of 3013. A learner meets per in their first sentence; they do not
+    # meet wine for another fifty lessons. The head is the session that
+    # teaches the family, so only the head's stems may hold it back, and the
+    # tail is placed after it with its own stems already taught.
     deps = {}
     for root, members in families.items():
         need = set()
-        for m in members:
+        head_members = deferred_units_head.get(root) or members
+        for m in head_members:
             for s in stems_of(m):
                 sf = fam_of.get(s)
                 if sf is not None and sf != root:
@@ -1131,18 +1345,92 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         print("  %d families in a stem cycle (mutual borrowing, e.g. "
               "dalengadale <-> ngadale); appended by frequency" % len(rest))
 
+    # A family whose rare tail would fill the opening is taught in two passes:
+    # the common head competes on frequency, and the tail follows as its own
+    # unit once the head has been placed. See "the opening must not be crowded
+    # out by a family's rare tail" above.
+    #
+    # The head keeps the root and everything a learner meets in ordinary
+    # speech. The tail is placed immediately after the whole course has been
+    # scheduled by frequency, so it interleaves with other mid-frequency
+    # vocabulary rather than piling up at the end. Splitting on frequency
+    # rather than on the family's own ordering also keeps teaching_order()'s
+    # tense-first sort intact inside each pass.
+    deferred_units = []
+    defer_at = {}
+    for root in ordered:
+        members = families[root]
+        if root not in deferred_units_head:
+            continue
+        common = [m for m in members
+                  if rank_of.get(m, 10 ** 9) <= OPENING_MEMBER_MAX_RANK]
+        # The root ALWAYS leads the head, even when it is rarer than its own
+        # inflected form. levoj heads a family whose common member is lexuar
+        # (rank 1170) while levoj itself is rank 1814; filtering the root out
+        # of the tail without putting it back in the head silently deleted 24
+        # cards (lexoj, shkruaj, mesoj, fitoj, uroj and 19 others) -- the
+        # family's own name is the one word it cannot afford to lose.
+        if root not in common:
+            common = [root] + common
+        cset = set(common)
+        rare = [m for m in members if m not in cset]
+        if len(rare) < OPENING_MIN_DEFERRED:
+            continue
+        # The family is NOT shrunk. It keeps every member, because that is
+        # what makes the head and the tail ONE family with consecutive parts
+        # -- "do 1/2" then "do 2/2", which is what the validator and the
+        # learner both expect. Only the ORDER changes: the common members are
+        # listed first and the rare ones after, so the split point falls
+        # between them. The unit builder below then does the numbering.
+        deferred_units.append((root, rare, score.get(root, 10 ** 9), root))
+        defer_at[root] = len(common)
+
+    if deferred_units:
+        n_deferred = sum(len(m) for _, m, _, _ in deferred_units)
+        print("  %d rare family members across %d families held back "
+              "from the opening" % (n_deferred, len(deferred_units)))
+
     # Split any family larger than a session, keeping root first.
     units = []  # (root, members, part, nparts)
     for root in ordered:
+        # teaching_order() sorts a family by teaching priority first (the
+        # everyday present before the subjunctive), which is right WITHIN a
+        # session. But a deferred family additionally needs its common
+        # members listed before its rare ones, so the split point computed
+        # above is real. So the rare set is keyed ahead of the teaching order
+        # and the teaching order still decides everything inside each half.
+        rare_set = set()
+        for r_root, rare, _, _ in deferred_units:
+            if r_root == root:
+                rare_set = set(rare)
         members = sorted(
             families[root],
-            key=lambda w: (teaching_order.level_key(
-                by_word_card.get(w) or {}, is_root=(w == root)),
-                rank_of.get(w, 10 ** 9), w),
+            key=lambda w: (1 if w in rare_set else 0,
+                           teaching_order.level_key(
+                               by_word_card.get(w) or {}, is_root=(w == root)),
+                           rank_of.get(w, 10 ** 9), w),
         )
-        nparts = max(1, -(-len(members) // per_level))
-        for i in range(0, len(members), per_level):
-            units.append((root, members[i:i + per_level], i // per_level, nparts))
+        cut = defer_at.get(root)
+        if cut is None:
+            nparts = max(1, -(-len(members) // per_level))
+            for i in range(0, len(members), per_level):
+                units.append((root, members[i:i + per_level],
+                              i // per_level, nparts))
+            continue
+        # The split point must land ON a part boundary, or the rare members
+        # would share a session with the common ones -- which is the very
+        # thing this change removes. So the head is padded out to whole
+        # sessions and the tail starts the next part.
+        head_parts = max(1, -(-cut // per_level))
+        head = members[:cut]
+        tail = members[cut:]
+        nparts = head_parts + max(1, -(-len(tail) // per_level))
+        for i in range(0, head_parts):
+            units.append((root, head[i * per_level:(i + 1) * per_level],
+                          i, nparts))
+        for j, i in enumerate(range(0, len(tail), per_level)):
+            units.append((root, tail[i:i + per_level],
+                          head_parts + j, nparts))
 
     # Pack consecutive units into session-sized levels.
     #
@@ -1173,8 +1461,9 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         levels.append((root, list(cur_words), title, len(cur_roots), part, nparts))
         cur_words, cur_roots, cur_part = [], [], {}
 
+    tail_of = {root: rare for root, rare, _, _ in deferred_units}
+
     for root, members, part, nparts in units:
-        new_family = root not in cur_part
         # Option 2: a multi-member family teaches a root plus its
         # derivations, so it holds the level alone. Singletons have no group
         # lesson and pack up to the session target as before. A continuation
@@ -1184,6 +1473,16 @@ def assign_levels(cards, families, per_level=9, max_families=6,
             part > 0
             or not pack_shape.may_join(cur_counts, len(members))
             or len(cur_words) + len(members) > per_level)
+        # A family whose rare tail is deferred must own the level holding its
+        # HEAD. The part metadata lives on the level, so a head packed beside
+        # other roots is recorded as a plain 1/1 and its tail then reads
+        # "part 2/2 follows part 0".
+        #
+        # Only these families are affected -- seven of them, measured -- so
+        # the cost is a handful of shorter sessions rather than the 257 extra
+        # levels that forcing EVERY family to own its level produced.
+        if cur_words and tail_of.get(root) and part == 0:
+            blocked = True
         if blocked:
             flush()
         if root not in cur_part:
@@ -1193,6 +1492,15 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         if part > 0:
             flush()
     flush()
+
+    # The rare tails need no machinery here. Each deferred family is already a
+    # normal split family: its members were ordered common-first and the unit
+    # builder above split it at the boundary, so the packer below numbers its
+    # parts consecutively and gives each a level of its own. "do 1/2" is the
+    # session a beginner meets; "do 2/2" -- domethene, ndopak, domosdoshem,
+    # medoemos, doemos, domosdoshmeri -- follows it a few levels later rather
+    # than sitting in level 2 and crowding out the words a learner meets in
+    # their first week.
     return levels
 
 

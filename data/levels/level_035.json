@@ -1,27 +1,181 @@
 {
  "level": 35,
- "title": "kush, faleminderit",
+ "title": "mua, edhe, ata, rregull +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "faleminderit",
-  "kush"
+  "ata",
+  "edhe",
+  "mua",
+  "rregull"
  ],
  "pos_mix": {
-  "pron": 6,
-  "intj": 1
+  "pron": 3,
+  "conj": 2,
+  "noun": 1,
+  "verb": 3,
+  "adj": 1
  },
  "words": [
   {
-   "id": "kush",
-   "sq": "kush",
-   "en": "who (as an interrogative pronoun)",
+   "id": "mua",
+   "sq": "mua",
+   "en": "me",
    "glosses": [
-    "who (as an interrogative pronoun)",
-    "nobody, noone (as an indefinite pronoun; used to distinguish someone from others)"
+    "me"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "me",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 24 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "me"
+     ]
+    }
+   ],
+   "rank": 56,
+   "count": 27330,
+   "family": "mua",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *moN, from Proto-Indo-European *me- (“me”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "me"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "She was very good to me.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Ajo ishte shumë e mirë me mua."
+   }
+  },
+  {
+   "id": "edhe",
+   "sq": "edhe",
+   "en": "and",
+   "glosses": [
+    "and",
+    "also; even"
+   ],
+   "pos": [
+    "conj",
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "and"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "also; even",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "also",
+      "even"
+     ]
+    }
+   ],
+   "rank": 57,
+   "count": 27329,
+   "family": "edhe",
+   "is_root": true,
+   "etymology": "From an older form ênde (attested in F. Bardhi), from Proto-Indo-European *h₂énti (“facing opposite, near, in front of, before”). Compare Old Norse eða (“and”), Danish end (“but”), Swedish än (“yet, but”), Icelandic enn (“still, yet”), German und (“and”), English and.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ende",
+    "andej",
+    "anë",
+    "dhe",
+    "e"
+   ],
+   "forms": [
+    {
+     "form": "ende",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Twenty, I don't even know.",
+    "score": [
+     0,
+     6,
+     -6,
+     5
+    ],
+    "sq": "Njëzet, unë nuk e di edhe."
+   }
+  },
+  {
+   "id": "ata",
+   "sq": "ata",
+   "en": "they",
+   "glosses": [
+    "they",
+    "it"
    ],
    "pos": [
     "pron",
@@ -35,30 +189,36 @@
     {
      "pos": "pron",
      "pos_label": "pronoun",
-     "gloss": "who (as an interrogative pronoun)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      }
+     "gloss": "they",
+     "tags": [
+      "masculine",
+      "plural"
      ],
+     "cats": [],
      "examples": [],
      "links": [
-      "who"
+      "they"
      ]
     },
     {
      "pos": "pron",
      "pos_label": "pronoun",
-     "gloss": "nobody, noone (as an indefinite pronoun; used to distinguish someone from others)",
-     "tags": [],
+     "gloss": "it",
+     "tags": [
+      "archaic",
+      "neuter",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Albanian personal pronouns",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
@@ -69,90 +229,67 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "43 57"
       }
      ],
      "examples": [],
      "links": [
-      "nobody",
-      "noone"
+      "it"
      ]
     }
    ],
-   "rank": 80,
-   "count": 17131,
-   "family": "kush",
+   "rank": 58,
+   "count": 25903,
+   "family": "ata",
    "is_root": true,
-   "etymology": "From Proto-Albanian *kʉśśə, from Pre-Proto-Albanian *kʉs-sa, from Proto-Indo-European *kʷos + *sos, meaning \"who (is) this\". (compare Tocharian B kᵤse (“who”)).",
+   "etymology": "From the accusative Proto-Albanian *a-ta, compound of proclitic particle a and demonstrative ta, from Proto-Indo-European *tóms, masculine accusative plural of *só m (“that (one)”) (compare Latin istud, English that).\nOlder and dialectal varieties retain ablative asish, acish, from a + Proto-Albanian *tsj(a)isu, from *ḱjoisu, locative of Proto-Indo-European *ḱís (“this (one)”) (compare English he).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "dikush",
-    "gjithkush",
-    "kushdo",
-    "kushdoqoftë",
-    "ndokush",
-    "çdokush",
-    "kurrkush"
-   ],
-   "related": [
-    "im",
-    "ime",
-    "imi",
-    "imja",
-    "e"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "kë",
+     "form": "ata",
      "tag": "accusative"
     },
     {
-     "form": "kënd",
-     "tag": "accusative"
-    },
-    {
-     "form": "kujt",
-     "tag": "dative"
-    },
-    {
-     "form": "kuj",
+     "form": "atij",
      "tag": "dative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Who was that?",
+    "corpus": "HPLT",
+    "en": "They are who they are.",
     "score": [
      0,
-     3,
-     -3,
-     5
+     4,
+     -4,
+     10
     ],
-    "sq": "Kush ishte ajo?"
+    "sq": "Janë ata që janë."
    }
   },
   {
-   "id": "faleminderit",
-   "sq": "faleminderit",
-   "en": "thank you",
+   "id": "rregull",
+   "sq": "rregull",
+   "en": "rule",
    "glosses": [
-    "thank you"
+    "rule"
    ],
    "pos": [
-    "intj"
+    "noun"
    ],
    "pos_labels": [
-    "interjection"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "thank you",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rule",
      "tags": [],
      "cats": [
       {
@@ -176,323 +313,175 @@
      ],
      "examples": [],
      "links": [
-      "thank you"
+      "rule"
      ]
     }
    ],
-   "rank": 81,
-   "count": 16929,
-   "family": "faleminderit",
+   "rank": 59,
+   "count": 25854,
+   "family": "rregull",
    "is_root": true,
-   "etymology": "From older të falemi nderit, literally \"We salute your honor\", or \"We pray for your honor\".",
-   "etymology_class": null,
+   "etymology": "Borrowed via Vulgar Latin from Latin regula.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "faleminerës",
-     "tag": "alternative"
-    },
-    {
-     "form": "faliminerës",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "TED2020",
-    "en": "Thank you.",
-    "score": [
-     0,
-     2,
-     -2,
-     4
-    ],
-    "sq": "Ju faleminderit !"
-   }
-  },
-  {
-   "id": "dikush",
-   "sq": "dikush",
-   "en": "someone, somebody",
-   "glosses": [
-    "someone, somebody"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "someone, somebody",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with di-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "someone",
-      "somebody"
-     ]
-    }
-   ],
-   "rank": 186,
-   "count": 6854,
-   "family": "kush",
-   "is_root": false,
-   "etymology": "From di- + kush.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "di",
-     "role": "prefix"
-    },
-    {
-     "word": "kush",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "dikë",
-     "tag": "accusative"
-    },
-    {
-     "form": "dikujt",
-     "tag": "dative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The 'someone' is just like this.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "'Dikush' është vetëm si kjo."
-   }
-  },
-  {
-   "id": "askush",
-   "sq": "askush",
-   "en": "no one, nobody",
-   "glosses": [
-    "no one, nobody"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "no one, nobody",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with as-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "no one",
-      "nobody"
-     ]
-    }
-   ],
-   "rank": 250,
-   "count": 4782,
-   "family": "kush",
-   "is_root": false,
-   "etymology": "From as- + kush.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "as",
-     "role": "prefix"
-    },
-    {
-     "word": "kush",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "askë",
-     "tag": "accusative"
-    },
-    {
-     "form": "askujt",
-     "tag": "dative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "We are no one.",
+    "en": "Okay, so fine.",
     "score": [
      0,
      3,
      -3,
-     5
+     4
     ],
-    "sq": "Ne jemi askush."
+    "sq": "Mirë, në rregull."
    }
   },
   {
-   "id": "çdokush",
-   "sq": "çdokush",
-   "en": "everyone, anyone, whoever",
+   "id": "rregulloj",
+   "sq": "rregulloj",
+   "en": "to put into working order",
    "glosses": [
-    "everyone, anyone, whoever"
+    "to put into working order",
+    "to put in order",
+    "to regularize"
    ],
    "pos": [
-    "pron"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "pronoun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "everyone, anyone, whoever",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put into working order",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "63 10 27"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "43 28 29"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "78 7 16"
       }
      ],
      "examples": [],
      "links": [
-      "everyone",
-      "anyone",
-      "whoever"
+      "put into working order"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put in order",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "put",
+      "in order"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to regularize",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "regularize"
      ]
     }
    ],
-   "rank": 2747,
-   "count": 300,
-   "family": "kush",
+   "rank": 1219,
+   "count": 746,
+   "family": "rregull",
    "is_root": false,
-   "etymology": "From çdo (“all, every”) + kush (“who”).",
-   "etymology_class": "compound",
+   "etymology": "From rregull (“rule”) + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "who"
+    "rule"
    ],
    "components": [
     {
-     "word": "çdo",
+     "word": "rregull",
      "role": "prefix"
-    },
-    {
-     "word": "kush",
-     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "rregullova",
+     "tag": "aorist"
+    },
+    {
+     "form": "rregulluar",
+     "tag": "participle"
+    },
+    {
+     "form": "regulluar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "QED",
-    "en": "We are everyone.",
+    "en": "They are not letting anyone in his room.",
     "score": [
-     0,
+     1,
      3,
-     -3,
+     -2,
      5
     ],
-    "sq": "Ne jemi çdokush."
+    "sq": "Do i rregulloj."
    }
   },
   {
-   "id": "gjithkush",
-   "sq": "gjithkush",
-   "en": "everyone",
+   "id": "rregullt",
+   "sq": "rregullt",
+   "en": "regular",
    "glosses": [
-    "everyone"
+    "regular"
    ],
    "pos": [
-    "pron"
+    "adj"
    ],
    "pos_labels": [
-    "pronoun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "everyone",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "regular",
      "tags": [],
      "cats": [
       {
@@ -502,7 +491,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Albanian terms suffixed with -t",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -516,27 +505,23 @@
      ],
      "examples": [],
      "links": [
-      "everyone"
+      "regular"
      ]
     }
    ],
-   "rank": 3518,
-   "count": 225,
-   "family": "kush",
+   "rank": 5099,
+   "count": 148,
+   "family": "rregull",
    "is_root": false,
-   "etymology": "gjithë + kush",
-   "etymology_class": "compound",
+   "etymology": "From rregull + -t.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "gjithë",
+     "word": "rregull",
      "role": "prefix"
-    },
-    {
-     "word": "kush",
-     "role": "stem"
     }
    ],
    "derived": [],
@@ -544,14 +529,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Everybody knows.",
+    "en": "Only regular visitors.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Gjithkush e di."
+    "sq": "Vetëm vizitorë të rregullt."
    }
   }
  ]

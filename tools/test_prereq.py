@@ -113,7 +113,72 @@ def main():
         for w, s, d in late[:10]:
             print("      %-16s needs %-12s (%d later)" % (w, s, d))
 
-    if missing or gaps or not ok or nlev > CEILING:
+    # 6. a common word may not be gated behind its own rare family.
+    #
+    # Rule 2 above protects a STEM from being taught after the word built on
+    # it. This is the other half: a word may not be taught long after words
+    # far commoner than it. The measured failures were two different bugs
+    # behind one symptom.
+    #
+    # ti ("you", rank 18) sat at L141 behind meje (rank 423), an edge invented
+    # by reading "...ablative teje is from locative *toí + -je from meje" as if
+    # it described ti. Fixed in derivations_from_text/components_of.
+    #
+    # per ("for", rank 13) sat at L275 behind vere ("wine", rank 1393), because
+    # per's family holds pranvere = prane + vere and the edge was computed over
+    # the WHOLE family. Fixed by scoring prerequisites over the family's head.
+    #
+    # A bound of 2000 means: of the 200 commonest words, none teaches after a
+    # word rarer than rank 2000. Generous enough to allow prerequisite order to
+    # do its job (ka waits for per, esell for sille), tight enough to catch a
+    # common word held behind a rare one.
+    INVERSION_CEILING = 2000
+    freq = {}
+    try:
+        with open(os.path.join(os.path.dirname(
+                os.path.dirname(os.path.abspath(__file__))),
+                "data", "raw", "sq_50k.txt"), encoding="utf-8") as fh:
+            for i, line in enumerate(fh):
+                line = line.rstrip("\n")
+                if line:
+                    w = line.rsplit(" ", 1)[0]
+                    freq.setdefault(w, i + 1)
+    except OSError:
+        freq = {}
+
+    inverted = []
+    if freq:
+        comp_of = {}
+        for f in glob.glob(os.path.join(LEVELS, "level_*.json")):
+            for w in json.load(open(f, encoding="utf-8")).get("words") or []:
+                comp_of[w["id"]] = (w.get("components") or [])
+        for w, rnk in sorted(freq.items(), key=lambda kv: kv[1])[:200]:
+            lv = lev.get(w)
+            if lv is None:
+                continue
+            # Test the EDGE, not the level number. A stem is a real
+            # prerequisite even when it is rarer -- shkruaj is built on kruaj
+            # and must wait for it. The defect was a stem so rare it dragged a
+            # common word out of the opening entirely: ti behind meje
+            # (rank 423), per behind vere (rank 1393).
+            for c in comp_of.get(w, []):
+                s = c.get("word")
+                srank = freq.get(s)
+                if srank is None:
+                    continue
+                if srank <= INVERSION_CEILING:
+                    continue
+                slv = lev.get(s)
+                if slv is None or slv <= lv:
+                    continue
+                inverted.append((w, rnk, lv, s, srank, slv))
+    print("6. common words not held behind a rare stem: %s"
+          % ("OK" if not inverted else "FAIL %d" % len(inverted)))
+    for w, rnk, lv, other, ornk, olv in inverted[:8]:
+        print("      %s (rank %d, L%d) waits for stem %s (rank %d, L%d)"
+              % (w, rnk, lv, other, ornk, olv))
+
+    if missing or gaps or not ok or nlev > CEILING or inverted:
         return 1
     if not late:
         print()

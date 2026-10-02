@@ -1,38 +1,39 @@
 {
  "level": 260,
- "title": "dash",
- "root": "dash",
- "root_gloss": "ram (male sheep)",
+ "title": "dhuroj",
+ "root": "dhuroj",
+ "root_gloss": "to bestow, grant, donate",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "dash"
+  "dhuroj"
  ],
  "pos_mix": {
-  "noun": 2
+  "verb": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "dash",
-   "sq": "dash",
-   "en": "ram (male sheep)",
+   "id": "dhuroj",
+   "sq": "dhuroj",
+   "en": "to bestow, grant, donate",
    "glosses": [
-    "ram (male sheep)"
+    "to bestow, grant, donate"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ram (male sheep)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bestow, grant, donate",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -42,7 +43,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -56,16 +57,18 @@
      ],
      "examples": [],
      "links": [
-      "ram"
+      "bestow",
+      "grant",
+      "donate"
      ]
     }
    ],
-   "rank": 35979,
-   "count": 11,
-   "family": "dash",
+   "rank": 10172,
+   "count": 64,
+   "family": "dhuroj",
    "is_root": true,
-   "etymology": "Potentially from Early Proto-Albanian *dauša, from Proto-Indo-European *dʰows-o-s (compare English deer, Lithuanian daũsos (“upper air; heaven”)).",
-   "etymology_class": "inherited",
+   "etymology": "Possibly borrowed through Vulgar Latin from Latin dōnō. Otherwise related to Proto-Albanian *dhu̯onti (dhunti), from Proto-Indo-European *deh₃- (“to give”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -74,32 +77,32 @@
    "related": [],
    "forms": [
     {
-     "form": "desh",
-     "tag": "plural"
+     "form": "dhurova",
+     "tag": "aorist"
     },
     {
-     "form": "dashi",
-     "tag": "definite"
+     "form": "dhuruar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Happy birthday, Dash!",
+    "en": "For every girl who follows me I give a?",
     "score": [
      1,
-     3,
-     -2,
+     8,
+     -7,
      10
     ],
-    "sq": "Gëzuar ditëlindjen, Dash!"
+    "sq": "Për çdo vajzë që më ndjek dhuroj një?"
    }
   },
   {
-   "id": "desh",
-   "sq": "desh",
-   "en": "ram, plural (from dash)",
+   "id": "dhuratë",
+   "sq": "dhuratë",
+   "en": "gift, present",
    "glosses": [
-    "ram, plural (from dash)"
+    "gift, present"
    ],
    "pos": [
     "noun"
@@ -111,14 +114,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ram, plural (from dash)",
-     "tags": [
-      "accusative",
-      "form-of",
-      "indefinite",
-      "nominative",
-      "plural"
-     ],
+     "gloss": "gift, present",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -127,45 +124,58 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian terms suffixed with -atë",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "dash"
+     "links": [
+      "gift",
+      "present"
+     ]
     }
    ],
-   "rank": 1241,
-   "count": 728,
-   "family": "dash",
+   "rank": 1165,
+   "count": 796,
+   "family": "dhuroj",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Latin dōnātiō.\nEquivalent to dhuroj + -atë.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "dhuroj",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "dhurata",
+     "tag": "plural"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And it took so long?",
+    "corpus": "TED2020",
+    "en": "It's a gift.",
     "score": [
      0,
-     6,
-     -6,
-     10
+     3,
+     -3,
+     4
     ],
-    "sq": "Dhe u desh kaq shumë kohë?"
+    "sq": "Është një dhuratë."
    }
   }
  ]

@@ -1,30 +1,31 @@
 {
  "level": 600,
- "title": "shkumë, mushkëri, mitur, kartolinë, ritual, va +4",
+ "title": "vithe, lëmuar, frymëzim, borës, autopsi, ngrij +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "kartolinë",
-  "mitur",
-  "mushkëri",
-  "ritual",
-  "shkumë",
-  "va"
+  "autopsi",
+  "borës",
+  "frymëzim",
+  "lëmuar",
+  "ngrij",
+  "vithe"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 1
+  "noun": 4,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "shkumë",
-   "sq": "shkumë",
-   "en": "foam, scum",
+   "id": "vithe",
+   "sq": "vithe",
+   "en": "crupper, rump, buttock, haunch",
    "glosses": [
-    "foam, scum"
+    "crupper, rump, buttock, haunch"
    ],
    "pos": [
     "noun"
@@ -36,8 +37,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "foam, scum",
-     "tags": [],
+     "gloss": "crupper, rump, buttock, haunch",
+     "tags": [
+      "feminine",
+      "plural"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,13 +50,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Albanian pluralia tantum",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -th",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,21 +64,22 @@
      ],
      "examples": [],
      "links": [
-      "foam",
-      "scum"
+      "crupper",
+      "rump",
+      "buttock"
      ]
     }
    ],
-   "rank": 17660,
-   "count": 31,
-   "family": "shkumë",
+   "rank": 17235,
+   "count": 32,
+   "family": "vithe",
    "is_root": true,
-   "etymology": "An old loanword from Gothic *skūm- (“foam, scum”) (compare German Schaum (“foam”), English scum) via Late Latin.",
-   "etymology_class": null,
+   "etymology": "A diminutive in -th, based on Proto-Albanian *wīja (“twisted, woven”), from *weh₁yos (“twisted”), ultimately from *weh₁y- (“to twist, to twine”). Cognate to Latin vīeō, Sanskrit व्ययति (vyáyati), Lithuanian výti, Proto-Slavic *viti.",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "foam"
+    "twisted"
    ],
    "components": [],
    "derived": [],
@@ -82,101 +87,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This paste does not foam.",
+    "en": "What treatment for cellulite on the buttocks to choose?",
     "score": [
-     1,
-     5,
-     -4,
+     2,
+     9,
+     -7,
      10
     ],
-    "sq": "Kjo paste nuk ka shkumë."
+    "sq": "Çfarë trajtimi për celulitin në vithe për të zgjedhur?"
    }
   },
   {
-   "id": "mushkëri",
-   "sq": "mushkëri",
-   "en": "lung",
+   "id": "lëmuar",
+   "sq": "lëmuar",
+   "en": "smooth",
    "glosses": [
-    "lung"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lung",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lung"
-     ]
-    }
-   ],
-   "rank": 17661,
-   "count": 31,
-   "family": "mushkëri",
-   "is_root": true,
-   "etymology": "Uncertain. Probably from Proto-Indo-European *múHs (“mouse; muscle”). Compare Sanskrit मुष्क (muṣká, “testicle, vulva”), Persian مشک (mošk, “lively, eager”), Ancient Greek μύσχον (múskhon, “genitals”), Latin mūsculus (“muscle”), Old Armenian մուկն (mukn, “muscle”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "mushkni",
-     "tag": "alternative"
-    },
-    {
-     "form": "mushkëni",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "You've got it in your brain; you've got it in your lungs.",
-    "score": [
-     0,
-     6,
-     -6,
-     5
-    ],
-    "sq": "E keni në tru, në mushkëri."
-   }
-  },
-  {
-   "id": "mitur",
-   "sq": "mitur",
-   "en": "ward, underage",
-   "glosses": [
-    "ward, underage"
+    "smooth"
    ],
    "pos": [
     "adj"
@@ -188,86 +114,8 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "ward, underage",
+     "gloss": "smooth",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ward",
-      "underage"
-     ]
-    }
-   ],
-   "rank": 17678,
-   "count": 31,
-   "family": "mitur",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *mit-ono, from Proto-Indo-European *meH1i (“mild, soft”). Compare Latin mitis.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "miture",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do you have minor children?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "A keni fëmijë të mitur?"
-   }
-  },
-  {
-   "id": "kartolinë",
-   "sq": "kartolinë",
-   "en": "postcard",
-   "glosses": [
-    "postcard"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "postcard",
-     "tags": [
-      "feminine"
-     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -290,85 +138,13 @@
      ],
      "examples": [],
      "links": [
-      "postcard"
+      "smooth"
      ]
     }
    ],
-   "rank": 17710,
-   "count": 31,
-   "family": "kartolinë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian cartolina.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Also I received a postcard in the mail.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Gjithashtu kam marrë një kartolinë në postë."
-   }
-  },
-  {
-   "id": "ritual",
-   "sq": "ritual",
-   "en": "ritual",
-   "glosses": [
-    "ritual"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ritual",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 13 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ritual"
-     ]
-    }
-   ],
-   "rank": 17726,
-   "count": 31,
-   "family": "ritual",
+   "rank": 17241,
+   "count": 32,
+   "family": "lëmuar",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -381,78 +157,35 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Is it just a ritual?",
+    "en": "It doesn't seem like a well-polished solution.",
     "score": [
      0,
-     4,
-     -4,
+     8,
+     -8,
      10
     ],
-    "sq": "Është vetëm një ritual?"
+    "sq": "Nuk duket si një zgjidhje e lëmuar mirë."
    }
   },
   {
-   "id": "va",
-   "sq": "va",
-   "en": "ford",
+   "id": "frymëzim",
+   "sq": "frymëzim",
+   "en": "inspiration",
    "glosses": [
-    "ford",
-    "forest passageway",
-    "way out"
+    "inspiration"
    ],
    "pos": [
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ford",
+     "gloss": "inspiration",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "ford"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "forest passageway",
-     "tags": [
-      "masculine",
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "regional",
-      "forest",
-      "passageway"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "way out",
-     "tags": [
-      "figuratively",
       "masculine"
      ],
      "cats": [
@@ -460,50 +193,286 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 73"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "way out"
+      "inspiration"
      ]
     }
    ],
-   "rank": 17754,
-   "count": 31,
-   "family": "va",
+   "rank": 17255,
+   "count": 32,
+   "family": "frymëzim",
    "is_root": true,
-   "etymology": "Either from Proto-Albanian *wa(d), from Proto-Indo-European *weh₂dʰ- (“to go, walk”), or from Latin vadum; impossible to determine. Possibly forms a doublet of vete.",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "vator"
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I have inspiration.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Unë kam frymëzim."
+   }
+  },
+  {
+   "id": "borës",
+   "sq": "borës",
+   "en": "chaffinch (Fringilla coelebs)",
+   "glosses": [
+    "chaffinch (Fringilla coelebs)"
    ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chaffinch (Fringilla coelebs)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "chaffinch",
+      "Fringilla coelebs"
+     ]
+    }
+   ],
+   "rank": 17266,
+   "count": 32,
+   "family": "borës",
+   "is_root": true,
+   "etymology": "Less common variant of bors.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "va",
+     "form": "borës",
      "tag": "plural"
     },
     {
-     "form": "vau",
+     "form": "borësi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But no, the va a straight no and no!",
+    "en": "Do you know other curiosities of the snow?",
     "score": [
-     0,
-     9,
-     -9,
+     2,
+     7,
+     -5,
      10
     ],
-    "sq": "Por jo, va a jo të drejtë dhe jo!"
+    "sq": "A njihni kuriozitete të tjera të borës?"
+   }
+  },
+  {
+   "id": "autopsi",
+   "sq": "autopsi",
+   "en": "autopsy (a dissection performed on a cadaver)",
+   "glosses": [
+    "autopsy (a dissection performed on a cadaver)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "autopsy (a dissection performed on a cadaver)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "autopsy"
+     ]
+    }
+   ],
+   "rank": 17285,
+   "count": 32,
+   "family": "autopsi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "In an autopsy the exact drug is easily identified.",
+    "score": [
+     2,
+     8,
+     -6,
+     10
+    ],
+    "sq": "Në një autopsi drogës saktë është identifikuar lehtë."
+   }
+  },
+  {
+   "id": "ngrij",
+   "sq": "ngrij",
+   "en": "to freeze, become cold",
+   "glosses": [
+    "to freeze, become cold"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to freeze, become cold",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "freeze",
+      "become",
+      "cold"
+     ]
+    }
+   ],
+   "rank": 17299,
+   "count": 32,
+   "family": "ngrij",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *en-kreinja, a derivation in *en- of Proto-Indo-European *gwrH-i-. Cognate to Ancient Greek κρῡ́ον (krū́on).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngriva",
+     "tag": "aorist"
+    },
+    {
+     "form": "ngrirë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I always freeze many different blanks for the winter.",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "Unë gjithmonë ngrij shumë boshllëqe të ndryshme për dimër."
    }
   }
  ]

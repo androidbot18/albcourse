@@ -1,86 +1,212 @@
 {
  "level": 626,
- "title": "buxhet, kuletë, batalion, gëlltit, lundroj, arktik +4",
+ "title": "mëlçi, vutë, uragan, pështyj, mustardë, beton +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "arktik",
-  "batalion",
-  "buxhet",
-  "gëlltit",
-  "kuletë",
-  "lundroj"
+  "beton",
+  "mustardë",
+  "mëlçi",
+  "pështyj",
+  "uragan",
+  "vutë"
  ],
  "pos_mix": {
-  "noun": 5,
-  "verb": 7,
-  "adj": 1
+  "noun": 6,
+  "adj": 2,
+  "verb": 1
  },
  "words": [
   {
-   "id": "buxhet",
-   "sq": "buxhet",
-   "en": "budget (amount of money or resources)",
+   "id": "mëlçi",
+   "sq": "mëlçi",
+   "en": "liver",
    "glosses": [
-    "budget (amount of money or resources)"
+    "liver",
+    "innards",
+    "lungs"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "budget (amount of money or resources)",
+     "gloss": "liver",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "liver"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "innards",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "innards"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lungs",
      "tags": [
-      "masculine"
+      "colloquial"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "21 4 75"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 3 89"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 3 90"
       }
      ],
-     "examples": [
-      {
-       "sq": "Shpesh herë fitimet e realizuara nuk janë të mjaftueshme për buxhet i cili mbulon planin",
-       "en": "",
-       "offsets": [
-        [
-         61,
-         67
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "budget"
+      "lungs"
      ]
     }
    ],
-   "rank": 20970,
-   "count": 24,
-   "family": "buxhet",
+   "rank": 20486,
+   "count": 25,
+   "family": "mëlçi",
+   "is_root": true,
+   "etymology": "From Italian milza or its variant, Italian milcia, with -ía suffix.",
+   "etymology_class": "borrowed",
+   "source_lang": "it",
+   "cognate": "from Italian milza",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mëlçi",
+     "tag": "plural"
+    },
+    {
+     "form": "mëlçia",
+     "tag": "definite"
+    },
+    {
+     "form": "mbëlçi",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "During life, they move to the heart, liver and lungs.",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "Gjatë jetës, ato lëvizin në zemër, mëlçi dhe mushkëri."
+   }
+  },
+  {
+   "id": "vutë",
+   "sq": "vutë",
+   "en": "flat, low",
+   "glosses": [
+    "flat, low",
+    "humble, modest"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "flat, low",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "flat",
+      "low"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "humble, modest",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "humble",
+      "modest"
+     ]
+    }
+   ],
+   "rank": 20496,
+   "count": 25,
+   "family": "vutë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -88,183 +214,29 @@
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "vutësi"
+   ],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Make a budget.",
+    "corpus": "TED2020",
+    "en": "But you put one there. Why?",
     "score": [
      0,
-     3,
-     -3,
-     8
+     6,
+     -6,
+     4
     ],
-    "sq": "Bëj një buxhet."
+    "sq": "Por ju e vutë një aty."
    }
   },
   {
-   "id": "kuletë",
-   "sq": "kuletë",
-   "en": "wallet",
+   "id": "uragan",
+   "sq": "uragan",
+   "en": "hurricane",
    "glosses": [
-    "wallet",
-    "income",
-    "scrotum"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wallet",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "64 12 24"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 29"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 33 32"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Më humbi kuleta mbrëmë në qytet",
-       "en": "I lost my wallet last night in the city.",
-       "offsets": [
-        [
-         9,
-         15
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "wallet"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "income",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 29"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 33 32"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Varet nga kuleta e tij.",
-       "en": "It depends on his income.",
-       "offsets": [
-        [
-         10,
-         16
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "income"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "scrotum",
-     "tags": [
-      "archaic",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 29"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 33 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "scrotum"
-     ]
-    }
-   ],
-   "rank": 21004,
-   "count": 24,
-   "family": "kuletë",
-   "is_root": true,
-   "etymology": "From Italian colletta.",
-   "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian colletta",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kuleta",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "batalion",
-   "sq": "batalion",
-   "en": "battalion (army unit)",
-   "glosses": [
-    "battalion (army unit)"
+    "hurricane"
    ],
    "pos": [
     "noun"
@@ -276,7 +248,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "battalion (army unit)",
+     "gloss": "hurricane",
      "tags": [
       "masculine"
      ],
@@ -302,13 +274,13 @@
      ],
      "examples": [],
      "links": [
-      "battalion"
+      "hurricane"
      ]
     }
    ],
-   "rank": 21018,
-   "count": 24,
-   "family": "batalion",
+   "rank": 20514,
+   "count": 25,
+   "family": "uragan",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -318,275 +290,46 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "battalion has been ambushed and lost his team.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "batalion është pritë dhe humbi ekipin e tij."
-   }
-  },
-  {
-   "id": "gëlltit",
-   "sq": "gëlltit",
-   "en": "to swallow",
-   "glosses": [
-    "to swallow",
-    "to tolerate",
-    "to conquer",
-    "to accept",
-    "to spend",
-    "to engulf"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to swallow",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "swallow"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to tolerate",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "tolerate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to conquer",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "conquer"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to accept",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "accept"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to spend",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 15 15 25 15"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 16 16 16 21 16"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 11 11 11 45 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "spend"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to engulf",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "engulf"
-     ]
-    }
-   ],
-   "rank": 21027,
-   "count": 24,
-   "family": "gëlltit",
-   "is_root": true,
-   "etymology": "Derived from Proto-Slavic *glъtiti.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
    "forms": [
     {
-     "form": "gëlltita",
-     "tag": "aorist"
+     "form": "uragane",
+     "tag": "plural"
     },
     {
-     "form": "gëlltitur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Well, basically the East was swallowed by the West.",
-    "score": [
-     3,
-     7,
-     -4,
-     4
-    ],
-    "sq": "Në esencë Lindja u gëlltit nga Perëndimi."
-   }
-  },
-  {
-   "id": "lundroj",
-   "sq": "lundroj",
-   "en": "to sail, navigate",
-   "glosses": [
-    "to sail, navigate"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to sail, navigate",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sail",
-      "navigate"
-     ]
-    }
-   ],
-   "rank": 21028,
-   "count": 24,
-   "family": "lundroj",
-   "is_root": true,
-   "etymology": "From lundër + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "lundrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "lundruar",
-     "tag": "participle"
-    },
-    {
-     "form": "lëndroj",
-     "tag": "alternative"
+     "form": "uragani",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Where and when can I sail?",
+    "en": "Is there a tornado coming?",
     "score": [
      0,
      6,
      -6,
      10
     ],
-    "sq": "Ku dhe kur mund të lundroj?"
+    "sq": "A ka një uragan që vjen?"
    }
   },
   {
-   "id": "arktik",
-   "sq": "arktik",
-   "en": "Arctic",
+   "id": "pështyj",
+   "sq": "pështyj",
+   "en": "to spit out, smoke out, give off",
    "glosses": [
-    "Arctic"
+    "to spit out, smoke out, give off"
    ],
    "pos": [
-    "adj"
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "Arctic",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to spit out, smoke out, give off",
      "tags": [],
      "cats": [
       {
@@ -596,7 +339,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -610,13 +353,108 @@
      ],
      "examples": [],
      "links": [
-      "Arctic"
+      "spit",
+      "smoke",
+      "out"
      ]
     }
    ],
-   "rank": 21057,
-   "count": 24,
-   "family": "arktik",
+   "rank": 20533,
+   "count": 25,
+   "family": "pështyj",
+   "is_root": true,
+   "etymology": "From a base *shtyj (“to spit”), from Proto-Albanian *śtūi̯a/i- (“to spit”), from Proto-Indo-European *spi̯eu̯H- (“to spit”). The initial pë- is either from për- (< PA *pra-), or from Proto-Albanian *apu- (“away”). Variants such as fshtyj use instead the Proto-Albanian prefix *u̯i-, and mështyn uses Proto-Albanian *əmbi- (“up”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pështyva",
+     "tag": "aorist"
+    },
+    {
+     "form": "pështyrë",
+     "tag": "participle"
+    },
+    {
+     "form": "fshtyj",
+     "tag": "alternative"
+    },
+    {
+     "form": "mështyj",
+     "tag": "alternative"
+    },
+    {
+     "form": "byshtyj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Rinse and spit till your mouth is clear.",
+    "score": [
+     4,
+     8,
+     -4,
+     10
+    ],
+    "sq": "Shpëlaji dhe pështyj derisa të jetë pastruar goja."
+   }
+  },
+  {
+   "id": "mustardë",
+   "sq": "mustardë",
+   "en": "mustard",
+   "glosses": [
+    "mustard"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mustard",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mustard"
+     ]
+    }
+   ],
+   "rank": 20552,
+   "count": 25,
+   "family": "mustardë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -626,17 +464,98 @@
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [
+    {
+     "form": "mustarda",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "White wine, bee honey, mustard.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Verë e bardhë, bee mjaltë, mustardë."
+   }
+  },
+  {
+   "id": "beton",
+   "sq": "beton",
+   "en": "concrete",
+   "glosses": [
+    "concrete"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "concrete",
+     "tags": [
+      "masculine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 19 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "concrete"
+     ]
+    }
+   ],
+   "rank": 20578,
+   "count": 25,
+   "family": "beton",
+   "is_root": true,
+   "etymology": "From French béton (“concrete”), from Latin bitūmen (“asphalt”).",
+   "etymology_class": "borrowed",
+   "source_lang": "fr",
+   "cognate": "from French béton",
+   "parents": [
+    "concrete",
+    "asphalt"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The Arctic Hideaway is an experience like few others.",
+    "en": "Only glued concrete.",
     "score": [
      1,
-     9,
-     -8,
+     3,
+     -2,
      10
     ],
-    "sq": "Fshati Arktik është një përvojë si disa të tjera."
+    "sq": "Vetëm beton ngjitur."
    }
   }
  ]

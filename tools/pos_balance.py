@@ -167,7 +167,16 @@ def quota(current_words, current_nouns):
 #
 # Measured in words it states the actual intent: cover the first ten
 # levels, whatever shape the families happen to be.
-WINDOW_WORDS = 90
+#
+# It is 69, not 90, because that is what ten levels actually hold. Levels
+# are not nine words each: a multi-member family takes a level to itself, so
+# the opening is padded with families of one or two words (do, nuk, ti) and
+# ten levels come to 69 words rather than 90. Sizing the window at 90 counted
+# 21 words that never reach level10, spread the chosen nouns across them, and
+# the opening finished one noun short of its own floor: 24.6% against a 25%
+# target, with 'dhe' and 'une' pushed to level 11 and 12 by the words the
+# quota thought it had room for.
+WINDOW_WORDS = 69
 
 
 def spread(chosen, natural):

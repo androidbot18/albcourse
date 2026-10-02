@@ -1,26 +1,28 @@
 {
  "level": 101,
- "title": "kaloj",
- "root": "kaloj",
- "root_gloss": "to pass, walk by",
+ "title": "kuptoj, fare",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 8,
  "families": [
-  "kaloj"
+  "fare",
+  "kuptoj"
  ],
  "pos_mix": {
-  "verb": 2,
+  "verb": 3,
+  "adv": 4,
   "noun": 2,
-  "adj": 1
+  "adj": 2
  },
  "words": [
   {
-   "id": "kaloj",
-   "sq": "kaloj",
-   "en": "to pass, walk by",
+   "id": "kuptoj",
+   "sq": "kuptoj",
+   "en": "to understand",
    "glosses": [
-    "to pass, walk by"
+    "to understand"
    ],
    "pos": [
     "verb"
@@ -32,7 +34,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to pass, walk by",
+     "gloss": "to understand",
      "tags": [],
      "cats": [
       {
@@ -42,7 +44,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -56,18 +58,16 @@
      ],
      "examples": [],
      "links": [
-      "pass",
-      "walk",
-      "by"
+      "understand"
      ]
     }
    ],
-   "rank": 956,
-   "count": 997,
-   "family": "kaloj",
+   "rank": 262,
+   "count": 4476,
+   "family": "kuptoj",
    "is_root": true,
-   "etymology": "From kalë, or from Proto-Indo-European *keleu (“to wander; way”). Close to Lithuanian keliáuju (“fare, journey”), kẽlias (“way”), Ancient Greek κέλευθος (kéleuthos, “way”).",
-   "etymology_class": "derived",
+   "etymology": "Borrowed from Latin computō (“to compute, reckon”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -76,32 +76,155 @@
    "related": [],
    "forms": [
     {
-     "form": "kalova",
+     "form": "kuptova",
      "tag": "aorist"
     },
     {
-     "form": "kaluar",
+     "form": "kuptuar",
      "tag": "participle"
+    },
+    {
+     "form": "kupëtoj",
+     "tag": "alternative"
+    },
+    {
+     "form": "kupëtonj",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Thanks, but I'll pass.",
+    "corpus": "TED2020",
+    "en": "I don't get it.",
     "score": [
      0,
-     6,
-     -6,
-     10
+     3,
+     -3,
+     4
     ],
-    "sq": "Faleminderit, por unë do të kaloj."
+    "sq": "Nuk e kuptoj."
    }
   },
   {
-   "id": "kaluar",
-   "sq": "kaluar",
-   "en": "pass, past form (from kaloj, to pass)",
+   "id": "fare",
+   "sq": "fare",
+   "en": "totally, wholly, completely",
    "glosses": [
-    "pass, past form (from kaloj, to pass)"
+    "totally, wholly, completely",
+    "barely, scarcely, not in the least",
+    "kind",
+    "at all"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "totally, wholly, completely",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "totally",
+      "wholly",
+      "completely"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "barely, scarcely, not in the least",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 99 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "barely",
+      "scarcely",
+      "not in the least"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "kind",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ç'farë? ~ Ç'fare?",
+       "en": "What kind? (~ What? How?)",
+       "offsets": [
+        [
+         2,
+         6
+        ],
+        [
+         12,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "kind"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at all",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "at all"
+     ]
+    }
+   ],
+   "rank": 267,
+   "count": 4386,
+   "family": "fare",
+   "is_root": true,
+   "etymology": "From farë (“seed, semen, kind”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "farë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kuptova",
+   "sq": "kuptova",
+   "en": "I (once did) understanded (from kuptoj, to understand)",
+   "glosses": [
+    "I (once did) understanded (from kuptoj, to understand)"
    ],
    "pos": [
     "verb"
@@ -113,11 +236,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "pass, past form (from kaloj, to pass)",
+     "gloss": "I (once did) understanded (from kuptoj, to understand)",
      "tags": [
+      "aorist",
+      "first-person",
       "form-of",
-      "participle",
-      "past"
+      "indicative",
+      "singular"
      ],
      "cats": [
       {
@@ -140,12 +265,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kaloj"
+     "is_form_of": "kuptoj"
     }
    ],
-   "rank": 291,
-   "count": 3648,
-   "family": "kaloj",
+   "rank": 527,
+   "count": 1989,
+   "family": "kuptoj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -158,37 +283,34 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They have been through a lot.",
+    "en": "Did I understand you correctly?",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Ata kanë kaluar shumë."
+    "sq": "Ju kuptova mirë?"
    }
   },
   {
-   "id": "kalim",
-   "sq": "kalim",
-   "en": "passage",
+   "id": "kuptim",
+   "sq": "kuptim",
+   "en": "understanding",
    "glosses": [
-    "passage",
-    "pass"
+    "understanding"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "passage",
+     "gloss": "understanding",
      "tags": [
       "masculine"
      ],
@@ -197,114 +319,91 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "passage"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pass",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "pass"
+      "understanding"
      ]
     }
    ],
-   "rank": 8054,
-   "count": 85,
-   "family": "kaloj",
+   "rank": 865,
+   "count": 1112,
+   "family": "kuptoj",
    "is_root": false,
-   "etymology": "From kaloj + -im.",
+   "etymology": "From kuptoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "kaloj",
+     "word": "kuptoj",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "kuptime",
+     "tag": "plural"
+    },
+    {
+     "form": "kuptimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We must be careful in crossing.",
+    "corpus": "QED",
+    "en": "Anyhow, dear old Bobbie nearly foamed at the mouth.",
     "score": [
-     1,
-     6,
-     -5,
-     10
+     0,
+     3,
+     -3,
+     5
     ],
-    "sq": "Duhet të bëjmë kujdes në kalim."
+    "sq": "Pyetje pa kuptim?"
    }
   },
   {
-   "id": "kalimtar",
-   "sq": "kalimtar",
-   "en": "transitive",
+   "id": "kuptove",
+   "sq": "kuptove",
+   "en": "you (sg) (once did) understanded (from kuptoj, to understand)",
    "glosses": [
-    "transitive"
+    "you (sg) (once did) understanded (from kuptoj, to understand)"
    ],
    "pos": [
-    "adj"
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "transitive",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) (once did) understanded (from kuptoj, to understand)",
+     "tags": [
+      "aorist",
+      "form-of",
+      "indicative",
+      "second-person",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -325,40 +424,171 @@
        "source": "w"
       }
      ],
-     "examples": [
+     "examples": [],
+     "is_form_of": "kuptoj"
+    }
+   ],
+   "rank": 930,
+   "count": 1027,
+   "family": "kuptoj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You got it right!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "E kuptove mirë!"
+   }
+  },
+  {
+   "id": "kuptueshëm",
+   "sq": "kuptueshëm",
+   "en": "understandable",
+   "glosses": [
+    "understandable"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "understandable",
+     "tags": [],
+     "cats": [
       {
-       "sq": "folje kalimtare",
-       "en": "transitive verb",
-       "offsets": [
-        [
-         6,
-         15
-        ]
-       ]
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -shëm",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
+     "examples": [],
      "links": [
-      "grammar",
-      "transitive"
+      "understandable"
      ]
     }
    ],
-   "rank": 18040,
-   "count": 30,
-   "family": "kaloj",
+   "rank": 14566,
+   "count": 40,
+   "family": "kuptoj",
    "is_root": false,
-   "etymology": "From kaloj + im + tar.",
+   "etymology": "From kuptoj + -shëm.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "kaloj",
+     "word": "kuptoj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Try to be understanding.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Mundohuni të jeni të kuptueshëm."
+   }
+  },
+  {
+   "id": "pakuptim",
+   "sq": "pakuptim",
+   "en": "nonsense",
+   "glosses": [
+    "nonsense"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "nonsense",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nonsense"
+     ]
+    }
+   ],
+   "rank": 22113,
+   "count": 23,
+   "family": "kuptoj",
+   "is_root": false,
+   "etymology": "From pa- + kuptim.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pa",
      "role": "prefix"
     },
     {
-     "word": "im",
+     "word": "kuptim",
      "role": "stem"
     }
    ],
@@ -366,11 +596,104 @@
    "related": [],
    "forms": [
     {
-     "form": "kalimtare",
-     "tag": "feminine"
+     "form": "pakuptime",
+     "tag": "plural"
+    },
+    {
+     "form": "pakuptimi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "Nonsense, says the religious world view.",
+    "score": [
+     3,
+     4,
+     -1,
+     4
+    ],
+    "sq": "Pakuptim, thote pikpamja fetare."
+   }
+  },
+  {
+   "id": "pakuptueshëm",
+   "sq": "pakuptueshëm",
+   "en": "incomprehensible",
+   "glosses": [
+    "incomprehensible"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "incomprehensible",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incomprehensible"
+     ]
+    }
+   ],
+   "rank": 38411,
+   "count": 10,
+   "family": "kuptoj",
+   "is_root": false,
+   "etymology": "From pa- + kuptueshëm.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pa",
+     "role": "prefix"
+    },
+    {
+     "word": "kuptueshëm",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "They would seek to be incomprehensible, but they can be understood.",
+    "score": [
+     2,
+     9,
+     -7,
+     8
+    ],
+    "sq": "Kërkojnë të jenë të pakuptueshëm, por mund të kuptohen."
+   }
   }
  ]
 }

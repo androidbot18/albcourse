@@ -1,29 +1,32 @@
 {
  "level": 237,
- "title": "ndjek",
- "root": "ndjek",
- "root_gloss": "dog",
+ "title": "zgjidh",
+ "root": "zgjidh",
+ "root_gloss": "to untie, unbind, loosen",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "ndjek"
+  "zgjidh"
  ],
  "pos_mix": {
-  "verb": 5
+  "verb": 5,
+  "noun": 3
  },
  "words": [
   {
-   "id": "ndjek",
-   "sq": "ndjek",
-   "en": "dog",
+   "id": "zgjidh",
+   "sq": "zgjidh",
+   "en": "to untie, unbind, loosen",
    "glosses": [
-    "dog",
-    "to run (after)",
-    "to follow",
-    "to pursue"
+    "to untie, unbind, loosen",
+    "to set free, loose; to unleash, unyoke",
+    "to break off (a relationship); to break (an agreement, spell, etc.)",
+    "to solve",
+    "to arrive at a solution; to resolve"
    ],
    "pos": [
+    "verb",
     "verb",
     "verb",
     "verb",
@@ -33,35 +36,40 @@
     "verb",
     "verb",
     "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "dog",
+     "gloss": "to untie, unbind, loosen",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "dog"
+      "untie",
+      "unbind",
+      "loosen"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to run (after)",
+     "gloss": "to set free, loose; to unleash, unyoke",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "run"
+      "free",
+      "loose",
+      "unleash"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to follow",
+     "gloss": "to break off (a relationship); to break (an agreement, spell, etc.)",
      "tags": [],
      "cats": [
       {
@@ -69,147 +77,259 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "23 31 23 23"
+       "_dis": "26 6 40 19 9"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "23 31 23 23"
+       "_dis": "15 15 29 20 21"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 57 14 14"
+       "_dis": "13 11 42 17 16"
       }
      ],
      "examples": [],
      "links": [
-      "follow"
+      "break off",
+      "break"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to pursue",
+     "gloss": "to solve",
      "tags": [],
+     "cats": [
+      {
+       "name": "Mathematics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mathematics",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mathematics",
+      "solve"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arrive at a solution; to resolve",
+     "tags": [
+      "figuratively"
+     ],
      "cats": [],
      "examples": [],
      "links": [
-      "pursue"
+      "arrive",
+      "solution",
+      "resolve"
      ]
     }
    ],
-   "rank": 1039,
-   "count": 907,
-   "family": "ndjek",
+   "rank": 1902,
+   "count": 454,
+   "family": "zgjidh",
    "is_root": true,
-   "etymology": "From Proto-Albanian *en-teka, from Proto-Indo-European *tekʷ- (“to run”). Cognate to Lithuanian tekėti (“to run, flow”) and Sanskrit तक्ति (tákti, “to hasten”). A prefixed formation in (a)n-.",
-   "etymology_class": "inherited",
+   "etymology": "First attested in 1555 as zgidh (Buzuku), from zga (“out”) + lidh (“tie”). The expected form, zglidh, is seen in the Arbëresh dialect but not in Buzuku's due to the immediate following -i-, which in Gheg leads to -gl- becoming -g- (similar to gisht (“finger”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "dejë",
-    "thaj"
+   "parents": [
+    "out",
+    "tie"
    ],
+   "components": [
+    {
+     "word": "lidh",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "zgjidhet",
+    "zgjidhëm",
+    "zgjidhës",
+    "zgjidhje",
+    "zgjidhshëm",
+    "zgjidhur"
+   ],
+   "related": [],
    "forms": [
     {
-     "form": "ndoqa",
-     "tag": "aorist"
-    },
-    {
-     "form": "ndjekur",
+     "form": "zgjidhur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I don't follow him.",
+    "en": "Choose and get it!",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Nuk e ndjek."
+    "sq": "Zgjidh e merr!"
    }
   },
   {
-   "id": "ndjekur",
-   "sq": "ndjekur",
-   "en": "ndjek, past form (from ndjek)",
+   "id": "zgjidhje",
+   "sq": "zgjidhje",
+   "en": "solution",
    "glosses": [
-    "ndjek, past form (from ndjek)"
+    "solution",
+    "resolution",
+    "dissolution"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "ndjek, past form (from ndjek)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "solution",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "32 32 37"
       }
      ],
      "examples": [],
-     "is_form_of": "ndjek"
+     "links": [
+      "solution"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "resolution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "resolution"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dissolution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dissolution"
+     ]
     }
    ],
-   "rank": 1527,
-   "count": 580,
-   "family": "ndjek",
+   "rank": 983,
+   "count": 962,
+   "family": "zgjidh",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Gerund of zgjidh (“to untie”). From zgjidh (“to untie”) + -je.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "zgjidh",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is the way out?",
+    "en": "Still no solution.",
     "score": [
      0,
-     6,
-     -6,
+     3,
+     -3,
      10
     ],
-    "sq": "Cila është rruga që duhet ndjekur?"
+    "sq": "Ende asnjë zgjidhje."
    }
   }
  ]

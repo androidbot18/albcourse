@@ -1,111 +1,128 @@
 {
  "level": 25,
- "title": "kur",
- "root": "kur",
- "root_gloss": "when",
- "part": 1,
- "parts": 1,
- "word_count": 2,
+ "title": "kam 3/3",
+ "root": "kam",
+ "root_gloss": "to have",
+ "part": 3,
+ "parts": 3,
+ "word_count": 4,
  "families": [
-  "kur"
+  "kam"
  ],
  "pos_mix": {
-  "pron": 1,
-  "adv": 1
+  "verb": 3,
+  "noun": 2
  },
  "words": [
   {
-   "id": "kur",
-   "sq": "kur",
-   "en": "when",
+   "id": "patur",
+   "sq": "patur",
+   "en": "have, past form (from kam, to have)",
    "glosses": [
-    "when"
+    "have, past form (from kam, to have)"
    ],
    "pos": [
-    "pron"
+    "verb"
    ],
    "pos_labels": [
-    "pronoun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "when",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "have, past form (from kam, to have)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "46 54"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "47 53"
       }
      ],
      "examples": [],
-     "links": [
-      "when"
-     ]
+     "is_form_of": "kam"
     }
    ],
-   "rank": 53,
-   "count": 28832,
-   "family": "kur",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kur, from Proto-Indo-European *kʷur; cognate to Lithuanian kur̃ (“where”), Old Armenian ուր (ur, “id”), etc. See also Albanian ku (“where”).\nLess likely from Latin quā hōrā.",
-   "etymology_class": "derived",
+   "rank": 1304,
+   "count": 688,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "Alternative variant of participle pasur. Compound of pat + -ur (Tosk participle suffix). See pata (“I had”) (aorist form of kam (“I have”)) for more.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "where",
-    "id"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "pasur",
+     "tag": "alternative"
+    },
+    {
+     "form": "pat",
+     "tag": "alternative"
+    },
+    {
+     "form": "pas",
+     "tag": "alternative"
+    },
+    {
+     "form": "pasë",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "When are the effects?",
+    "corpus": "TED2020",
+    "en": "I had great teachers.",
     "score": [
-     1,
-     3,
-     -2,
-     10
+     2,
+     5,
+     -3,
+     4
     ],
-    "sq": "Kur janë efektet?"
+    "sq": "kam patur mësues të shkëlqyer."
    }
   },
   {
-   "id": "kurrë",
-   "sq": "kurrë",
-   "en": "never",
+   "id": "paske",
+   "sq": "paske",
+   "en": "you (sg) have (from kam, to have)",
    "glosses": [
-    "never"
+    "you (sg) have (from kam, to have)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "never",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg) have (from kam, to have)",
+     "tags": [
+      "admirative",
+      "form-of",
+      "present",
+      "second-person",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -114,7 +131,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -127,39 +144,207 @@
       }
      ],
      "examples": [],
+     "is_form_of": "kam"
+    }
+   ],
+   "rank": 1493,
+   "count": 594,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "That is, you were a prisoner!",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "E paske të burgosur domethënë!"
+   }
+  },
+  {
+   "id": "pata",
+   "sq": "pata",
+   "en": "I (once did) had (from kam, to have)",
+   "glosses": [
+    "I (once did) had (from kam, to have)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (once did) had (from kam, to have)",
+     "tags": [
+      "aorist",
+      "first-person",
+      "form-of",
+      "indicative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 32 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "kam"
+    }
+   ],
+   "rank": 1573,
+   "count": 556,
+   "family": "kam",
+   "is_root": false,
+   "etymology": "From Proto-Albanian *pat(i)-, derivative of Proto-Indo-European *pótis (“owner, master, host, husband”). Cognate to Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti). A suppletive verb, which occurs in the participle and the aorist, as well as in the tenses and moods derived from these stems.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I didn't have children.",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Nuk pata fëmijë."
+   }
+  },
+  {
+   "id": "pasuri",
+   "sq": "pasuri",
+   "en": "wealth",
+   "glosses": [
+    "wealth",
+    "fortune"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wealth",
+     "tags": [],
+     "cats": [],
+     "examples": [],
      "links": [
-      "never"
+      "wealth"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fortune",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 68"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fortune"
      ]
     }
    ],
-   "rank": 129,
-   "count": 10186,
-   "family": "kur",
+   "rank": 3302,
+   "count": 243,
+   "family": "kam",
    "is_root": false,
-   "etymology": "Compound of Proto-Albanian *kur + *ne/o- negative particle. More at kur.",
+   "etymology": "From pasur (participle) + -i (noun suffix); pasur from pasë.\nCognate to Gheg Albanian pasoni (“wealth, fortune”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "kur",
+     "word": "pasur",
      "role": "prefix"
     }
    ],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "pasuria",
+    "pasurtë"
+   ],
+   "related": [
+    "pasuroj",
+    "pasurohem",
+    "pasuruar",
+    "pasur",
+    "patur"
+   ],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It never was.",
+    "en": "Heritage is wealth.",
     "score": [
-     0,
+     1,
      3,
-     -3,
+     -2,
      10
     ],
-    "sq": "Kurrë nuk ishte."
+    "sq": "Trashëgimia është pasuri."
    }
   }
  ]

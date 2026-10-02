@@ -1,38 +1,40 @@
 {
  "level": 284,
- "title": "dehem",
- "root": "dehem",
- "root_gloss": "to get drunk",
+ "title": "femër, fati",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "dehem"
+  "fati",
+  "femër"
  ],
  "pos_mix": {
-  "verb": 2
+  "noun": 3,
+  "adj": 2
  },
  "words": [
   {
-   "id": "dehem",
-   "sq": "dehem",
-   "en": "to get drunk",
+   "id": "femër",
+   "sq": "femër",
+   "en": "a female (individual belonging to the sex that can typically give birth)",
    "glosses": [
-    "to get drunk"
+    "a female (individual belonging to the sex that can typically give birth)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to get drunk",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a female (individual belonging to the sex that can typically give birth)",
      "tags": [
-      "intransitive"
+      "feminine"
      ],
      "cats": [
       {
@@ -56,64 +58,94 @@
      ],
      "examples": [],
      "links": [
-      "get drunk"
+      "female"
      ]
     }
    ],
-   "rank": 20160,
-   "count": 26,
-   "family": "dehem",
+   "rank": 1370,
+   "count": 647,
+   "family": "femër",
    "is_root": true,
-   "etymology": "See dej.",
-   "etymology_class": null,
+   "etymology": "Borrowed through Vulgar Latin from Latin femina (“woman”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "woman"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "deha",
-     "tag": "aorist"
-    },
-    {
-     "form": "dehur",
-     "tag": "participle"
+     "form": "femra",
+     "tag": "plural"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "It's a female now.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Është femër tani."
+   }
   },
   {
-   "id": "dehur",
-   "sq": "dehur",
-   "en": "get drunk, past form (from dehem, to get drunk)",
+   "id": "femrat",
+   "sq": "femrat",
+   "en": "the a female, plural (from femër)",
    "glosses": [
-    "get drunk, past form (from dehem, to get drunk)"
+    "the a female, plural (from femër)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "get drunk, past form (from dehem, to get drunk)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the a female, plural (from femër)",
      "tags": [
+      "accusative",
+      "definite",
       "form-of",
-      "participle"
+      "nominative",
+      "plural"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
-     "is_form_of": "dehem"
+     "is_form_of": "femër"
     }
    ],
-   "rank": 1440,
-   "count": 614,
-   "family": "dehem",
+   "rank": 1933,
+   "count": 447,
+   "family": "femër",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -126,15 +158,199 @@
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "You're drunk.",
+    "en": "I like girls.",
     "score": [
-     0,
+     1,
      3,
-     -3,
+     -2,
      5
     ],
-    "sq": "Ju jeni dehur."
+    "sq": "Me pelqejne femrat."
    }
+  },
+  {
+   "id": "femëror",
+   "sq": "femëror",
+   "en": "feminine",
+   "glosses": [
+    "feminine",
+    "feminine gender"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "feminine",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "feminine"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "feminine gender",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Grammar",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Grammar",
+       "langcode": "sq"
+      },
+      {
+       "name": "Lexicography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Lexicography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "grammar",
+      "lexicography",
+      "feminine"
+     ]
+    }
+   ],
+   "rank": 31542,
+   "count": 13,
+   "family": "femër",
+   "is_root": false,
+   "etymology": "femër (“woman”) + -or.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "woman"
+   ],
+   "components": [
+    {
+     "word": "femër",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But not forgotten, and the usual feminine care.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Por jo harruar, dhe kujdes zakonshme femëror."
+   }
+  },
+  {
+   "id": "fati",
+   "sq": "fati",
+   "en": "mythological figure, imagined as one of three women (fates) that would come to a newborn's cradle on the third day of their life to assign their fate and future",
+   "glosses": [
+    "mythological figure, imagined as one of three women (fates) that would come to a newborn's cradle on the third day of their life to assign their fate and future"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mythological figure, imagined as one of three women (fates) that would come to a newborn's cradle on the third day of their life to assign their fate and future",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 13 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "tri fatitë",
+       "en": "the three fates",
+       "offsets": [
+        [
+         4,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mythological",
+      "figure",
+      "three"
+     ]
+    }
+   ],
+   "rank": 1371,
+   "count": 647,
+   "family": "fati",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fati",
+     "tag": "plural"
+    },
+    {
+     "form": "fatia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

@@ -1,30 +1,33 @@
 {
  "level": 357,
- "title": "shpatë, marrëzi, hanë, qesharak, shtrenjtë +3",
+ "title": "mashkull, jona, mërzit, gënjeshtër, dalje, zero +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "hanë",
-  "marrëzi",
-  "qesharak",
-  "shpatë",
-  "shtrenjtë"
+  "dalje",
+  "gënjeshtër",
+  "jona",
+  "mashkull",
+  "mërzit",
+  "zero"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 2,
-  "adv": 2
+  "noun": 5,
+  "pron": 1,
+  "verb": 1,
+  "num": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "shpatë",
-   "sq": "shpatë",
-   "en": "sword",
+   "id": "mashkull",
+   "sq": "mashkull",
+   "en": "male",
    "glosses": [
-    "sword"
+    "male"
    ],
    "pos": [
     "noun"
@@ -36,9 +39,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sword",
+     "gloss": "male",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -62,15 +65,15 @@
      ],
      "examples": [],
      "links": [
-      "sword"
+      "male"
      ]
     }
    ],
-   "rank": 2632,
-   "count": 312,
-   "family": "shpatë",
+   "rank": 2453,
+   "count": 342,
+   "family": "mashkull",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Latin spatha. Cognate with Greek σπαθί (spathí), Italian spada, Romanian spadă, spată.",
+   "etymology": "Borrowed through Vulgar Latin from Latin masculus. The Proto-Albanian singular was *maśkulʉh, plural *maśkuli.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -80,42 +83,117 @@
    "related": [],
    "forms": [
     {
-     "form": "shpata",
+     "form": "meshkuj",
      "tag": "plural"
+    },
+    {
+     "form": "mashkulli",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is this sword?",
+    "en": "Instead of male and female.",
     "score": [
      0,
-     4,
-     -4,
+     6,
+     -6,
      10
     ],
-    "sq": "Çfarë është kjo shpatë?"
+    "sq": "Në vend të mashkull dhe femër."
    }
   },
   {
-   "id": "marrëzi",
-   "sq": "marrëzi",
-   "en": "madness, craziness",
+   "id": "jona",
+   "sq": "jona",
+   "en": "ours",
    "glosses": [
-    "madness, craziness"
+    "ours"
    ],
    "pos": [
-    "noun"
+    "pron"
    ],
    "pos_labels": [
-    "noun"
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "madness, craziness",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "ours",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian links with redundant wikilinks",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Kjo shtëpi është jona.",
+       "en": "This house is ours.",
+       "offsets": [
+        [
+         17,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "ours"
+     ]
+    }
+   ],
+   "rank": 2456,
+   "count": 341,
+   "family": "jona",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "mërzit",
+   "sq": "mërzit",
+   "en": "to annoy, bother, get bored, to become sad",
+   "glosses": [
+    "to annoy, bother, get bored, to become sad"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to annoy, bother, get bored, to become sad",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -139,16 +217,101 @@
      ],
      "examples": [],
      "links": [
-      "madness",
-      "craziness"
+      "annoy",
+      "bother",
+      "get"
      ]
     }
    ],
-   "rank": 2633,
-   "count": 312,
-   "family": "marrëzi",
+   "rank": 2458,
+   "count": 341,
+   "family": "mërzit",
    "is_root": true,
-   "etymology": "From marrë, possibly related to mërzit.",
+   "etymology": "From Proto-Albanian *mertja, from Proto-Indo-European *mers (“to trouble”). Compare Gothic marzjan (“to hinder, offend”), Lithuanian marši̇̀nti (“make forget”), Ancient Greek μαραίνω (maraínō, “to rub, consume”), Hittite [Term?] (/⁠marriattari⁠/, “will destroy”). Alternatively, a borrowing from Serbo-Croatian mrziti (“to hate”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mërzita",
+     "tag": "aorist"
+    },
+    {
+     "form": "mërzitur",
+     "tag": "participle"
+    },
+    {
+     "form": "mërzis",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do not worry.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Mos u mërzit."
+   }
+  },
+  {
+   "id": "gënjeshtër",
+   "sq": "gënjeshtër",
+   "en": "lie, deception",
+   "glosses": [
+    "lie, deception"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lie, deception",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lie",
+      "deception"
+     ]
+    }
+   ],
+   "rank": 2459,
+   "count": 340,
+   "family": "gënjeshtër",
+   "is_root": true,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -158,353 +321,329 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Complete madness.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Marrëzi e plotë."
-   }
-  },
-  {
-   "id": "hanë",
-   "sq": "hanë",
-   "en": "moon",
-   "glosses": [
-    "moon"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "moon",
-     "tags": [
-      "Gheg"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "moon"
-     ]
-    }
-   ],
-   "rank": 2634,
-   "count": 312,
-   "family": "hanë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ksandā, from pre-Albanian *skandneh₂, from Proto-Indo-European *(s)kand- (“to shine”) (compare Welsh can (“white”), Latin candeō (“to shine, gleam”), Sanskrit चन्द्र (candrá, “shining; moon”)). One might also consider a connection to Ancient Greek ἕνος (hénos, “old”) and Latin annus (“year”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "white"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hënë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "People have to eat.",
-    "score": [
-     0,
-     4,
-     -4,
-     4
-    ],
-    "sq": "Njerëzit duhet të hanë."
-   }
-  },
-  {
-   "id": "qesharak",
-   "sq": "qesharak",
-   "en": "funny, amusing; laughable, ridiculous",
-   "glosses": [
-    "funny, amusing; laughable, ridiculous"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "funny, amusing; laughable, ridiculous",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "funny",
-      "amusing",
-      "laughable"
-     ]
-    }
-   ],
-   "rank": 2647,
-   "count": 311,
-   "family": "qesharak",
-   "is_root": true,
-   "etymology": "From qesh.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qesharake",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Don't be ridiculous, man.",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Mos u bej qesharak."
-   }
-  },
-  {
-   "id": "shtrenjtë",
-   "sq": "shtrenjtë",
-   "en": "costly, expensive",
-   "glosses": [
-    "costly, expensive"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "costly, expensive",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "costly",
-      "expensive"
-     ]
-    }
-   ],
-   "rank": 2649,
-   "count": 311,
-   "family": "shtrenjtë",
-   "is_root": true,
-   "etymology": "From Vulgar Latin *strinctus (compare Romanian strâmt, Italian strinto), from Latin strictus (“narrow, tight”).",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin strinctus",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shtrejt",
-     "tag": "alternative"
-    },
-    {
-     "form": "sctreit",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "It is very expensive.",
+    "en": "That is a lie.",
     "score": [
      0,
      3,
      -3,
      8
     ],
-    "sq": "Është shumë shtrenjtë."
+    "sq": "Kjo është gënjeshtër."
    }
   },
   {
-   "id": "marrëzisht",
-   "sq": "marrëzisht",
-   "en": "madly, foolishly, ludicrously, idiotically",
+   "id": "dalje",
+   "sq": "dalje",
+   "en": "exit",
    "glosses": [
-    "madly, foolishly, ludicrously, idiotically",
-    "crazily, insanely, ridiculously"
+    "exit",
+    "door, path (where you get out)",
+    "diminution, reduction, discount; outlet; amount withdrawn from the cash register"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "madly, foolishly, ludicrously, idiotically",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "exit",
      "tags": [],
      "cats": [
+      {
+       "name": "Albanian links with redundant wikilinks",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 45 42"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 48 40"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exit"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "door, path (where you get out)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian links with redundant wikilinks",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 45 42"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 48 40"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 48 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "door",
+      "path"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "diminution, reduction, discount; outlet; amount withdrawn from the cash register",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Finance",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Finance",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "9 34 57"
       },
       {
-       "name": "Albanian terms suffixed with -sht",
+       "name": "Albanian links with redundant wikilinks",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "14 45 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "finance",
+      "diminution",
+      "reduction"
+     ]
+    }
+   ],
+   "rank": 2463,
+   "count": 340,
+   "family": "dalje",
+   "is_root": true,
+   "etymology": "From dal (dal + -je). See dal for more.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "derëdalje",
+    "derëdalja",
+    "fletëdalje",
+    "fletëdalja",
+    "lejedalje",
+    "lejedalja",
+    "ndalje",
+    "ndalja"
+   ],
+   "related": [
+    "dal",
+    "dale(ni)",
+    "dalë",
+    "dala",
+    "dalët"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "enough to open the exit.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "mjaft për të hapur dalje."
+   }
+  },
+  {
+   "id": "zero",
+   "sq": "zero",
+   "en": "zero (cardinal number before 1, denoting nothing)",
+   "glosses": [
+    "zero (cardinal number before 1, denoting nothing)"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "zero (cardinal number before 1, denoting nothing)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zero"
+     ]
+    }
+   ],
+   "rank": 2480,
+   "count": 336,
+   "family": "zero",
+   "is_root": true,
+   "etymology": "(This etymology is missing or incomplete. Please add to it, or discuss it at the Etymology scriptorium. )",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "xero",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Eight games, zero minutes.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Tetë ndeshje, zero minuta."
+   }
+  },
+  {
+   "id": "mashkullor",
+   "sq": "mashkullor",
+   "en": "masculine",
+   "glosses": [
+    "masculine"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "masculine",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -or",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "madly",
-      "foolishly",
-      "ludicrously"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "crazily, insanely, ridiculously",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "crazily",
-      "insanely",
-      "ridiculously"
+      "masculine"
      ]
     }
    ],
-   "rank": 29920,
-   "count": 15,
-   "family": "marrëzi",
+   "rank": 33753,
+   "count": 12,
+   "family": "mashkull",
    "is_root": false,
-   "etymology": "From marrëzi (mad(ness)) + -sht (-ly).",
+   "etymology": "From mashkull + -or.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "marrëzi",
+     "word": "mashkull",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [
-    "marrë",
-    "marri",
-    "mërzit",
-    "marrëzishëm",
-    "marrëzishme"
+   "related": [],
+   "forms": [
+    {
+     "form": "mashkullore",
+     "tag": "feminine"
+    }
    ],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Head over heels in love.",
+    "en": "There is a male and female voice to choose from.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     9,
+     -8,
      10
     ],
-    "sq": "Marrëzisht në dashuri."
+    "sq": "Ekziston një zë mashkullor dhe femëror për të zgjedhur."
    }
   }
  ]

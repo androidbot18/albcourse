@@ -39,6 +39,16 @@ def eq(got, want, name):
 
 print("derivation parser tests")
 
+# The BASE path has the same guard as the stem path. ti was held to L141 by a
+# base read out of a reconstruction; ka (rank 20) and mirë (rank 21) were
+# held the same way, by aq and by ditë/mbajtje/mëngjes. Both directions are
+# pinned: a reconstruction supplies no base, and a real composition still
+# does.
+eq(d("ablative teje is from locative *toí + -je from meje"), [],
+   "a starred affix yields no base (ti's defect)")
+eq(d("From sh- + kruaj, from Latin scribere"), ["sh"],
+   "a real composition still yields its base")
+
 # --- real derivations that MUST be found --------------------------------
 eq(d("From marr + -ës."), ["marr"], "simple: From marr + -ës")
 eq(d("marrë (foolish) + -i (-ness)"), ["marrë"], "parenthetical gloss before the plus")
@@ -201,6 +211,21 @@ for text, want_stem, why in [
     # break or a star between the "+" and its base.
     ("From e- + sillë.", "sillë",
      "esëll = e- + sillë keeps its real stem"),
+    # A STARRED affix reconstructs an ancestor, so the equation describes
+    # some other word and yields no stem. ti ("you", rank 18) reads "...and
+    # ablative teje is from locative *toí + -je from meje": the equation
+    # reconstructs TEJE, yet reading the text after the "+" found meje in the
+    # prose. That gave the second most common pronoun a stem at rank 423, a
+    # prerequisite edge, and level 141 instead of the opening.
+    ("clitic te is from clitic *te, and ablative teje is from locative "
+     "*toí + -je from meje (see unë).", None,
+     "a starred affix reconstructs another word, not this one"),
+    # The star must be read on the AFFIX, not the clause: esëll opens with
+    # the reconstruction "From Proto-Albanian *a-tšilna or *a-čila-" and its
+    # real derivation is the unstarred "e-" at the end of the sentence.
+    ("From Proto-Albanian *a-tšilna or *a-čila-, a compound equivalent "
+     "to a privative e- + sillë", "sillë",
+     "stars earlier in the clause do not void a real derivation"),
     ("* From sh- (\u201coff\u201d) + kruaj (\u201cto scratch\u201d) q.v.;", "kruaj",
      "shkruaj = sh- + kruaj keeps kruaj"),
 ]:

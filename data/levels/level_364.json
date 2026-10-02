@@ -1,35 +1,44 @@
 {
  "level": 364,
- "title": "dëm, martohem",
+ "title": "mal, ngjarje, kënd, klub, ndjerë, verdhë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 7,
  "families": [
-  "dëm",
-  "martohem"
+  "klub",
+  "kënd",
+  "mal",
+  "ndjerë",
+  "ngjarje",
+  "verdhë"
  ],
  "pos_mix": {
-  "noun": 3,
-  "verb": 2
+  "noun": 15,
+  "pron": 2,
+  "prep": 1,
+  "adj": 8
  },
  "words": [
   {
-   "id": "dëm",
-   "sq": "dëm",
-   "en": "damage",
+   "id": "mal",
+   "sq": "mal",
+   "en": "mount",
    "glosses": [
-    "damage",
-    "harm",
-    "detriment"
+    "mount",
+    "mountain",
+    "large amount of something",
+    "forest"
    ],
    "pos": [
+    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun",
     "noun"
@@ -38,137 +47,169 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "damage",
+     "gloss": "mount",
      "tags": [
       "masculine"
      ],
      "cats": [],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Mali i Korabit",
+       "en": "Mount Korab",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
      "links": [
-      "damage"
+      "mount"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "harm",
+     "gloss": "mountain",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Landforms",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 45 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 48 48"
+       "orig": "sq:Landforms",
+       "langcode": "sq",
+       "_dis": "4 53 36 6"
       }
      ],
      "examples": [],
      "links": [
-      "harm"
+      "mountain"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "detriment",
+     "gloss": "large amount of something",
      "tags": [
       "masculine"
      ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kam marrë një mal me letra.",
+       "en": "I've received a lot of papers.",
+       "offsets": [
+        [
+         14,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "amount"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "forest",
+     "tags": [
+      "Gheg",
+      "Northeastern",
+      "masculine"
+     ],
      "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 34 59"
+       "_dis": "4 4 82 10"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with ISBN errors",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 45 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 48 48"
+       "_dis": "6 6 62 13 6 6"
       }
      ],
      "examples": [],
      "links": [
-      "detriment"
+      "forest"
      ]
     }
    ],
-   "rank": 2820,
-   "count": 291,
-   "family": "dëm",
+   "rank": 2655,
+   "count": 310,
+   "family": "mal",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin damnum.",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *mal̄, from Pre-Proto-Albanian *malnə, from Proto-Indo-European *mĺ̥h₃nu- (“mountain”), from older *mólh₃nu- (“the emerging one”), from the root *melh₃-.\nOrel's reconstruction of Proto-Albanian *mala- cannot be accepted as it would have led to Albanian *mall. For the same reason, Demiraj's reconstruction of *m(o)lH-i- cannot be accepted either.\nAlthough the thematic precursor *mólh₃nos has found widespread acceptance, it is most likely that mal follows a u-stem precursor, *mólh₃nus, as an *-os ending should lead to an -ë ending. This also supports the plural form male, which is feminine, unlike the masculine singular.\nPreserved in patronyms, ethnonym malësor (“highlander, mountaineer”), in toponym (historical and ethnographic region) Malësia (north Albania and Montenegro). In Kosovo (Malishevë, Gjilan, Mališevo, Prizren), in Serbia (Maleševo (Golubac), Maleševo (Rekovac)) and the name of Maleshevo Mountain (North Macedonia and Bulgaria).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "mountain"
+   ],
    "components": [],
    "derived": [
-    "dëmtim",
-    "dëmtoj",
-    "dëmtues"
+    "kukumalkë",
+    "malacak",
+    "malamal",
+    "male",
+    "malesh",
+    "malet",
+    "maleve",
+    "malevet"
    ],
-   "related": [],
+   "related": [
+    "majë"
+   ],
    "forms": [
     {
-     "form": "dëme",
+     "form": "male",
      "tag": "plural"
     },
     {
-     "form": "dëmi",
+     "form": "mali",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "SETIMES",
-    "en": "That way nothing goes to waste.",
-    "score": [
-     0,
-     7,
-     -7,
-     7
-    ],
-    "sq": "Në këtë mënyrë asgjë nuk shkon dëm."
-   }
+   "corpus_example": null
   },
   {
-   "id": "martohem",
-   "sq": "martohem",
-   "en": "to marry",
+   "id": "ngjarje",
+   "sq": "ngjarje",
+   "en": "event",
    "glosses": [
-    "to marry"
+    "event"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to marry",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "event",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -191,15 +232,15 @@
      ],
      "examples": [],
      "links": [
-      "marry"
+      "event"
      ]
     }
    ],
-   "rank": 2822,
-   "count": 291,
-   "family": "martohem",
+   "rank": 2658,
+   "count": 309,
+   "family": "ngjarje",
    "is_root": true,
-   "etymology": "From martoj.",
+   "etymology": "From ngjarë, participle of ngjaj (“to happen”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -209,42 +250,345 @@
    "related": [],
    "forms": [
     {
-     "form": "martuar",
-     "tag": "participle"
+     "form": "ngjarje",
+     "tag": "plural"
+    },
+    {
+     "form": "ngjarja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Should I get married now?",
+    "corpus": "GNOME",
+    "en": "This event has been changed.",
+    "score": [
+     0,
+     4,
+     -4,
+     6
+    ],
+    "sq": "Kjo ngjarje është ndryshuar."
+   }
+  },
+  {
+   "id": "kënd",
+   "sq": "kënd",
+   "en": "whom (alternative form of kë (“whom”) (accusative form of kush)",
+   "glosses": [
+    "whom (alternative form of kë (“whom”) (accusative form of kush)",
+    "somebody",
+    "corner",
+    "angle",
+    "a seat around something",
+    "a faraway place",
+    "a comfortable place (to stay, to live)",
+    "an area used for a specific purpose",
+    "viewpoint"
+   ],
+   "pos": [
+    "pron",
+    "pron",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "whom (alternative form of kë (“whom”) (accusative form of kush)",
+     "tags": [
+      "interrogative",
+      "pronoun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-pronoun",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "whom",
+      "kë",
+      "kush"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "somebody",
+     "tags": [
+      "pronoun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "somebody"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "corner",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 0 3 6 5 10 4 5 4"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 0 5 5 6 14 6 5 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 0 2 2 3 5 3 2 3"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Drejtkëndëshi ka katër kënde.",
+       "en": "A rectangle has four corners.",
+       "offsets": [
+        [
+         23,
+         28
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "corner"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "angle",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Këndi është shumë i ngushtë.",
+       "en": "The angle is very narrow.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "angle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a seat around something",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "seat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a faraway place",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "faraway",
+      "place"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a comfortable place (to stay, to live)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "comfortable",
+      "place"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "an area used for a specific purpose",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "area",
+      "specific",
+      "purpose"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "viewpoint",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "viewpoint"
+     ]
+    }
+   ],
+   "rank": 2663,
+   "count": 309,
+   "family": "kënd",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kan tan, sequence of two pronouns (Proto-Albanian *kan + *tan). Proto-Albanian *kan from Proto-Indo-European *kʷo-, from Proto-Indo-European *kʷ-. The second element Proto-Albanian *tan from Proto-Indo-European *to-. Continuing in accusative form of kush as kë (Gheg Albanian kâ, kân). See (pronoun) Albanian kë and (nominative form) kush (“who”) for more.\nFrom compound Proto-Albanian *kwom-to-, an indefinite pronoun.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "dikan",
+    "kërkan",
+    "ndokënd"
+   ],
+   "related": [
+    "kë",
+    "kujt",
+    "i kujt",
+    "e kujt",
+    "kush"
+   ],
+   "forms": [
+    {
+     "form": "kënde",
+     "tag": "plural"
+    },
+    {
+     "form": "këndi",
+     "tag": "definite"
+    },
+    {
+     "form": "kë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Beautiful from every angle.",
     "score": [
      0,
      5,
      -5,
-     5
+     10
     ],
-    "sq": "A duhet të martohem tani?"
+    "sq": "E bukur nga çdo kënd."
    }
   },
   {
-   "id": "dëmtoj",
-   "sq": "dëmtoj",
-   "en": "to damage",
+   "id": "klub",
+   "sq": "klub",
+   "en": "club",
    "glosses": [
-    "to damage"
+    "club"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to damage",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "club",
      "tags": [
-      "transitive"
+      "masculine"
      ],
      "cats": [
       {
@@ -254,7 +598,413 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -toj",
+       "name": "Pages with 13 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "club"
+     ]
+    }
+   ],
+   "rank": 2673,
+   "count": 308,
+   "family": "klub",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He loves this club.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Ai e do këtë klub."
+   }
+  },
+  {
+   "id": "ndjerë",
+   "sq": "ndjerë",
+   "en": "until, at, near(ly)",
+   "glosses": [
+    "until, at, near(ly)",
+    "dear, gone, dead"
+   ],
+   "pos": [
+    "prep",
+    "adj"
+   ],
+   "pos_labels": [
+    "preposition",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "until, at, near(ly)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "until",
+      "at",
+      "near"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "dear, gone, dead",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "78 22"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dear",
+      "gone",
+      "dead"
+     ]
+    }
+   ],
+   "rank": 2686,
+   "count": 307,
+   "family": "ndjerë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *a/N(e)dri, from Proto-Indo-European *mé-ǵʰ(s)ri (locative) from *me (“with”). Cognate to Ancient Greek μέχρι (mékhri), Old Armenian մերձ (merj), and doublet of me as well related to dorë.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "with"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ndjerëe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How did you feel?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Si jeni ndjerë?"
+   }
+  },
+  {
+   "id": "verdhë",
+   "sq": "verdhë",
+   "en": "yellow",
+   "glosses": [
+    "yellow",
+    "pale",
+    "involving crimes and detective work (of a story)",
+    "yellow (of race), mongoloid",
+    "gold, golden (of coins)",
+    "green, fresh-leaves-coloured",
+    "jaundice",
+    "faint, swoon"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "yellow",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "yellow"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "pale",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "i verdhë në fytyrë",
+       "en": "with a pale face",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "pale"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "involving crimes and detective work (of a story)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 4 67 6 4 10 6"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 0 1 80 4 2 7 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "roman i verdhë",
+       "en": "crime novel, mystery novel",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "crime",
+      "detective"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "yellow (of race), mongoloid",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "raca e verdhë",
+       "en": "yellow race",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "yellow",
+      "mongoloid"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "gold, golden (of coins)",
+     "tags": [
+      "archaic"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gold",
+      "golden"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "green, fresh-leaves-coloured",
+     "tags": [
+      "archaic",
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "green",
+      "fresh",
+      "leaves"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "jaundice",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "jaundice"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "faint, swoon",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "faint",
+      "swoon"
+     ]
+    }
+   ],
+   "rank": 2695,
+   "count": 306,
+   "family": "verdhë",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin virdis, from Latin viridis (“green”). Adjective sense 4 is a semantic loan from Italian giallo (literally “yellow”). Adjective sense 2 is shared with Romanian verde (literally “green”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "green"
+   ],
+   "components": [],
+   "derived": [
+    "ballëverdhë",
+    "ballukeverdhë",
+    "cullufeverdhë",
+    "çehreverdhë",
+    "faqeverdhë",
+    "flokëverdhë",
+    "fytyrëverdhë",
+    "gërshetverdhë"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "malor",
+   "sq": "malor",
+   "en": "mountainous",
+   "glosses": [
+    "mountainous"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "mountainous",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -or",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -266,24 +1016,35 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Ai banon në një vend malor.",
+       "en": "He lives in a mountainous country.",
+       "offsets": [
+        [
+         21,
+         26
+        ]
+       ]
+      }
+     ],
      "links": [
-      "damage"
+      "mountainous"
      ]
     }
    ],
-   "rank": 30968,
-   "count": 14,
-   "family": "dëm",
+   "rank": 29783,
+   "count": 15,
+   "family": "mal",
    "is_root": false,
-   "etymology": "From dëm + -toj.",
+   "etymology": "From mal + -or.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "dëm",
+     "word": "mal",
      "role": "prefix"
     }
    ],
@@ -291,12 +1052,8 @@
    "related": [],
    "forms": [
     {
-     "form": "dëmtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "dëmtuar",
-     "tag": "participle"
+     "form": "malore",
+     "tag": "feminine"
     }
    ],
    "corpus_example": null

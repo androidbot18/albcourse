@@ -1,45 +1,158 @@
 {
  "level": 555,
- "title": "emocion, gomë, shtizë, sakat, gju, bixhoz +4",
+ "title": "beng, ofendoj, huazoj, cak, avull, djersë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "bixhoz",
-  "emocion",
-  "gju",
-  "gomë",
-  "sakat",
-  "shtizë"
+  "avull",
+  "beng",
+  "cak",
+  "djersë",
+  "huazoj",
+  "ofendoj"
  ],
  "pos_mix": {
-  "noun": 15,
-  "adj": 1,
-  "intj": 1
+  "noun": 9,
+  "verb": 9,
+  "intj": 2,
+  "adv": 1
  },
  "words": [
   {
-   "id": "emocion",
-   "sq": "emocion",
-   "en": "emotion",
+   "id": "beng",
+   "sq": "beng",
+   "en": "golden oriole (Oriolus oriolus)",
    "glosses": [
-    "emotion"
+    "golden oriole (Oriolus oriolus)",
+    "necklace made of gold or precious stones",
+    "mole (on the body)"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "emotion",
+     "gloss": "golden oriole (Oriolus oriolus)",
      "tags": [
       "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Birds",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Birds",
+       "langcode": "sq",
+       "_dis": "48 48 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "oriole",
+      "Oriolus oriolus"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "necklace made of gold or precious stones",
+     "tags": [
+      "dialectal",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 63 2"
+      },
+      {
+       "name": "Birds",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Birds",
+       "langcode": "sq",
+       "_dis": "48 48 4"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mole (on the body)",
+     "tags": [
+      "dialectal",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 12871,
+   "count": 47,
+   "family": "beng",
+   "is_root": true,
+   "etymology": "From Gheg benk, from Bavarian Pienk (“finch”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "finch"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "bengje",
+     "tag": "plural"
+    },
+    {
+     "form": "bengu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ofendoj",
+   "sq": "ofendoj",
+   "en": "to insult, to offend",
+   "glosses": [
+    "to insult, to offend"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to insult, to offend",
+     "tags": [
+      "transitive"
      ],
      "cats": [
       {
@@ -49,7 +162,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -63,13 +176,95 @@
      ],
      "examples": [],
      "links": [
-      "emotion"
+      "insult",
+      "offend"
      ]
     }
    ],
-   "rank": 13328,
-   "count": 45,
-   "family": "emocion",
+   "rank": 12877,
+   "count": 47,
+   "family": "ofendoj",
+   "is_root": true,
+   "etymology": "Learned borrowing from Latin offendō, from the compounding of the prefix ob- and *fendō.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ofendova",
+     "tag": "aorist"
+    },
+    {
+     "form": "ofenduar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I don't want to offend anyone.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Nuk dua të ofendoj askënd."
+   }
+  },
+  {
+   "id": "huazoj",
+   "sq": "huazoj",
+   "en": "to borrow",
+   "glosses": [
+    "to borrow"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to borrow",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "borrow"
+     ]
+    }
+   ],
+   "rank": 12891,
+   "count": 47,
+   "family": "huazoj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -81,462 +276,43 @@
    "related": [],
    "forms": [
     {
-     "form": "emocione",
-     "tag": "plural"
+     "form": "huazova",
+     "tag": "aorist"
     },
     {
-     "form": "emocioni",
-     "tag": "definite"
+     "form": "huazuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Lots of excitement, that's what happens!",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Shumë emocion, kjo është çfarë ndodh!"
-   }
+   "corpus_example": null
   },
   {
-   "id": "gomë",
-   "sq": "gomë",
-   "en": "rubber (material)",
+   "id": "cak",
+   "sq": "cak",
+   "en": "used to represent the drumming sound of a woodpecker knocking on wood",
    "glosses": [
-    "rubber (material)",
-    "tyre, tire (of a wheel)",
-    "rubber, eraser"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rubber (material)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "rubber"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tyre, tire (of a wheel)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 61 21"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 75 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tyre",
-      "tire"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rubber, eraser",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 25 68"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "rubber",
-      "eraser"
-     ]
-    }
-   ],
-   "rank": 13342,
-   "count": 45,
-   "family": "gomë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian gomma.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "gomist",
-    "gomoj",
-    "i gomtë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "goma",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Being a tire is a difficult life.",
-    "score": [
-     0,
-     9,
-     -9,
-     10
-    ],
-    "sq": "Të jesh një gomë është një jetë e vështirë."
-   }
-  },
-  {
-   "id": "shtizë",
-   "sq": "shtizë",
-   "en": "lance, spear, javelin",
-   "glosses": [
-    "lance, spear, javelin",
-    "tongue of cart, ploughbeam",
-    "knitting needle",
-    "shuttle (of loom)",
-    "flagpole, flagstaff",
-    "style, stylet",
-    "sunbeam, reflected sunray"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lance, spear, javelin",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "lance",
-      "spear",
-      "javelin"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tongue of cart, ploughbeam",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 23 4 4 32 3 30"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 25 3 3 33 3 31"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tongue",
-      "cart",
-      "ploughbeam"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knitting needle",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "knitting needle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shuttle (of loom)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shuttle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flagpole, flagstaff",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 23 4 4 32 3 30"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 25 3 3 33 3 31"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flagpole",
-      "flagstaff"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "style, stylet",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Botany",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Botany",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 19 4 6 24 4 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 23 4 4 32 3 30"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "botany",
-      "style",
-      "stylet"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sunbeam, reflected sunray",
-     "tags": [
-      "colloquial",
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "sunbeam",
-      "sunray"
-     ]
-    }
-   ],
-   "rank": 13344,
-   "count": 45,
-   "family": "shtizë",
-   "is_root": true,
-   "etymology": "Contraction of dialectal shtijëzë, from shtijë (“lance, spear”) + -zë.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "shtizar",
-    "shtizëmbajtës",
-    "shtizoj",
-    "shtizor"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "shtiza",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I was pierced by a spear in the ear.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "U fus nga një shtizë në vesh."
-   }
-  },
-  {
-   "id": "sakat",
-   "sq": "sakat",
-   "en": "crippled",
-   "glosses": [
-    "crippled"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "crippled",
-     "tags": [
-      "archaic"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "crippled"
-     ]
-    }
-   ],
-   "rank": 13360,
-   "count": 45,
-   "family": "sakat",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish سقط (sakat, “unsound, defective; invalid, disabled, crippled”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "sakate",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He was lame in both his feet.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Ishte sakat nga të dy këmbët."
-   }
-  },
-  {
-   "id": "gju",
-   "sq": "gju",
-   "en": "shoo! go away!",
-   "glosses": [
-    "shoo! go away!",
-    "knee (body part)",
-    "bend, elbow, curve",
-    "descent, lineage, generation"
+    "used to represent the drumming sound of a woodpecker knocking on wood",
+    "used to represent the light hammering or knocking sound",
+    "from, starting from. Cak prej Hotit (starting from Hoti).",
+    "to undress, disrobe, unclothe",
+    "limit, edge, border",
+    "highest level , final point that is targeted",
+    "small hole created by heel-pressing the ground, in tipcat game"
    ],
    "pos": [
     "intj",
+    "intj",
+    "adv",
+    "verb",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
     "interjection",
+    "interjection",
+    "adverb",
+    "verb",
     "noun",
     "noun",
     "noun"
@@ -545,211 +321,163 @@
     {
      "pos": "intj",
      "pos_label": "interjection",
-     "gloss": "shoo! go away!",
+     "gloss": "used to represent the drumming sound of a woodpecker knocking on wood",
      "tags": [
-      "dialectal"
+      "transitive"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "shoo",
-      "go away"
+      "drumming",
+      "sound",
+      "woodpecker"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knee (body part)",
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "used to represent the light hammering or knocking sound",
      "tags": [
-      "masculine"
+      "transitive"
      ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Body parts",
-       "kind": "other",
-       "parents": [
-        "Anatomy"
-       ],
-       "source": "w+disamb",
-       "orig": "sq:Body parts",
-       "langcode": "sq",
-       "_dis": "2 79 16 2"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "ulem në gjunjë",
-       "en": "to kneel",
-       "offsets": [
-        [
-         8,
-         14
-        ]
-       ]
-      },
-      {
-       "sq": "M'u prenë gjunjët.",
-       "en": "I'm too tired. (or) I'm too scared.",
-       "offsets": [
-        [
-         10,
-         17
-        ]
-       ]
-      }
-     ],
+     "cats": [],
+     "examples": [],
      "links": [
-      "knee"
+      "light",
+      "hammering",
+      "knocking"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "from, starting from. Cak prej Hotit (starting from Hoti).",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "from"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to undress, disrobe, unclothe",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "undress",
+      "disrobe",
+      "unclothe"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bend, elbow, curve",
+     "gloss": "limit, edge, border",
      "tags": [
-      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "limit",
+      "edge",
+      "border"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "highest level , final point that is targeted",
+     "tags": [
       "masculine"
      ],
      "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "6 19 59 16"
-      }
-     ],
-     "examples": [
+       "_dis": "11 24 7 7 36 4 11"
+      },
       {
-       "sq": "gjuri i lumit",
-       "en": "the bend of the river",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
+       "name": "Albanian onomatopoeias",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 24 6 2 36 2 12"
       }
      ],
+     "examples": [],
      "links": [
-      "bend",
-      "elbow",
-      "curve"
+      "highest",
+      "level",
+      "final"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "descent, lineage, generation",
+     "gloss": "small hole created by heel-pressing the ground, in tipcat game",
      "tags": [
-      "archaic",
       "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "të nji gjuni",
-       "en": "of one origin, homogenous",
-       "offsets": [
-        [
-         7,
-         12
-        ]
-       ]
-      },
-      {
-       "sq": "bascκoj emenitè vet Scenjt me Jacobnè prej se κuijt ghiuni, e fissi janè giξξè tè κersctenetè.",
-       "en": "He united His Holy name with Jacob of whose linage are all Christians.",
-       "offsets": [
-        [
-         52,
-         58
-        ]
-       ]
-      }
-     ],
+     "cats": [],
+     "examples": [],
      "links": [
-      "descent",
-      "lineage",
-      "generation"
+      "hole",
+      "heel",
+      "tipcat"
      ]
     }
    ],
-   "rank": 13363,
-   "count": 45,
-   "family": "gju",
+   "rank": 12896,
+   "count": 47,
+   "family": "cak",
    "is_root": true,
-   "etymology": "Inherited from Proto-Indo-European *ǵónu ~ *ǵnéws, relevelled in a preform something like *ǵnu-nó-s. The *ǵ is regularly depalatised before liquids. The shift *gn- → *gl-, aside from a possible parallel in gjuhë according to one hypothesis about its origin, is not seen elsewhere in Albanian, and has been explained as contamination with words such as llërë (“upper arm”) or bërryl (“elbow”). Compare also Proto-Celtic *glūnos, which parallels both the relevelling and the dissimilation, though it reflects a long vowel, unlike in Albanian.",
-   "etymology_class": "inherited",
+   "etymology": "Variant of cark.\nAlternatively, Çabej puts it as a possible elementary creation or lexicalization of the onomatopoeic theme, resembling the sound of a cut, similar to τσακίζω in Greek or zacc in Italian.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "gjunjak",
-    "gjunjar",
-    "gjunjas",
-    "gjunjëprerë",
-    "gjunjëse",
-    "gjunjëzohem",
-    "përgjunjem"
+    "cak-cak",
+    "cakcak"
    ],
    "related": [],
    "forms": [
     {
-     "form": "gjunjë",
-     "tag": "plural"
+     "form": "caka",
+     "tag": "aorist"
     },
     {
-     "form": "gjuri",
-     "tag": "definite"
-    },
-    {
-     "form": "gynj",
-     "tag": "alternative"
-    },
-    {
-     "form": "glunjë",
-     "tag": "alternative"
+     "form": "cakur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "However it sometimes occurs in the knee or wrist.",
+    "corpus": "TED2020",
+    "en": "Money is not a goal.",
     "score": [
-     0,
-     8,
-     -8,
-     10
+     1,
+     4,
+     -3,
+     4
     ],
-    "sq": "Megjithatë ajo ndonjëherë ndodh në gju ose dore."
+    "sq": "Paratë nuk janë cak."
    }
   },
   {
-   "id": "bixhoz",
-   "sq": "bixhoz",
-   "en": "gamble, gambling",
+   "id": "avull",
+   "sq": "avull",
+   "en": "steam",
    "glosses": [
-    "gamble, gambling"
+    "steam"
    ],
    "pos": [
     "noun"
@@ -761,13 +489,17 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "gamble, gambling",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "steam",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Messapic terms in nonstandard scripts",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -777,44 +509,436 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "steam"
+     ]
+    }
+   ],
+   "rank": 12924,
+   "count": 47,
+   "family": "avull",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *abula, from Proto-Indo-European *n̥bʰel-, from *nébʰos (“cloud”). Closely related to Messapic atabulus. Compare Latin nebula (“mist, cloud”), Old English nifol (“mist, darkness”), Ancient Greek νεφέλη (nephélē). Compare also Romanian abur.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "cloud"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "avuj",
+     "tag": "plural"
+    },
+    {
+     "form": "avulli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "outside the steam room.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "jashtë dhomë me avull."
+   }
+  },
+  {
+   "id": "djersë",
+   "sq": "djersë",
+   "en": "sweat, perspiration",
+   "glosses": [
+    "sweat, perspiration",
+    "condensation of moisture as droplets on a surface"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sweat, perspiration",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sweat",
+      "perspiration"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "condensation of moisture as droplets on a surface",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 92"
       }
      ],
      "examples": [],
      "links": [
-      "gamble",
-      "gambling"
+      "condensation",
+      "moisture",
+      "droplet"
      ]
     }
    ],
-   "rank": 13365,
-   "count": 45,
-   "family": "bixhoz",
+   "rank": 12932,
+   "count": 47,
+   "family": "djersë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *dértsā, from either:\n* with loss of the unstressed initial syllable of earlier *(s)widértjā, from Proto-Indo-European *swid-ér-tyeh₂, from the root *sweyd- (“sweat”) (compare Ancient Greek ἱδρώς (hidrṓs), Latvian sviêdri, Italian sudore). Earlier reconstructions attempted to directly derive d < PIE *sw (cf. diell); however, this is no longer accepted as valid. Instead, the outcome would be #sw > #v (e.g. vjehërr, vëlla).\n* from Proto-Indo-European *dʰérǵʰ-ti̯(-)eh₂ (or *dʰérǵʰ-ii̯o- n.), from the root *dʰerǵʰ- (whence the verb derdh), with a semantic shift from ‘rotate, turn’ to ‘outpouring (of sweat)’.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "sweat"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "djersij",
+    "djersit",
+    "i djersirë",
+    "i djersitur"
+   ],
+   "forms": [
+    {
+     "form": "djersë",
+     "tag": "plural"
+    },
+    {
+     "form": "djersa",
+     "tag": "definite"
+    },
+    {
+     "form": "niers",
+     "tag": "alternative"
+    },
+    {
+     "form": "nniers",
+     "tag": "alternative"
+    },
+    {
+     "form": "diers",
+     "tag": "alternative"
+    },
+    {
+     "form": "njers",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Breaking a sweat!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Duke thyer një djersë!"
+   }
+  },
+  {
+   "id": "caktoj",
+   "sq": "caktoj",
+   "en": "to set",
+   "glosses": [
+    "to set",
+    "to assign",
+    "to appoint",
+    "to define"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to set",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "set"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to assign",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 42 9 41"
+      },
+      {
+       "name": "Albanian terms suffixed with -toj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 38 19 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 44 17 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "assign"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to appoint",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "appoint"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to define",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 42 9 41"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "define"
+     ]
+    }
+   ],
+   "rank": 17167,
+   "count": 32,
+   "family": "cak",
+   "is_root": false,
+   "etymology": "From cak (“limit, edge, border”) + -toj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "cak",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
-   "related": [],
-   "forms": [],
+   "related": [
+    "cak",
+    "përcaktoj"
+   ],
+   "forms": [
+    {
+     "form": "caktova",
+     "tag": "aorist"
+    },
+    {
+     "form": "caktuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They ask you about intoxicants and games of chance.",
+    "en": "When can I book an appointment?",
     "score": [
-     1,
-     7,
-     -6,
+     0,
+     5,
+     -5,
      10
     ],
-    "sq": "Të pyesin ty për verë dhe bixhoz."
+    "sq": "Kur mund të caktoj kohë?"
+   }
+  },
+  {
+   "id": "përcaktoj",
+   "sq": "përcaktoj",
+   "en": "to determine",
+   "glosses": [
+    "to determine",
+    "to define"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to determine",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "determine"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to define",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 83"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "define"
+     ]
+    }
+   ],
+   "rank": 20436,
+   "count": 25,
+   "family": "cak",
+   "is_root": false,
+   "etymology": "From për- + caktoj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "caktoj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "përcaktim"
+   ],
+   "related": [
+    "cak",
+    "caktoj"
+   ],
+   "forms": [
+    {
+     "form": "përcaktova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përcaktuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How do I set a destination?",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Si ta përcaktoj destinacionin?"
    }
   }
  ]
