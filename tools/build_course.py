@@ -559,7 +559,20 @@ def components_of(text, words):
                 stem = None
 
         out = []
-        if pre and pre in words:
+        # The affix is normally required to be a deck word too, and that filter
+        # is load-bearing: dropping it lets prose into the component line
+        # ("behind" for lashte, "appearance" for drite, Latin "communis" for
+        # komunal -- 193 such tokens across the deck).
+        #
+        # Curated exclusions are the one deliberate exception. "e" is not a
+        # card, but the privative PREFIX e- is real, recurring and is the
+        # whole point of the derivation: esell = e- + sille, egjell = e- +
+        # gjell. The card is excluded because its own senses are unresolvable
+        # out of context; the PREFIX is unambiguous and worth teaching, so it
+        # stays on the component line as a label rather than as a word to learn.
+        # It is a prefix, so per assign_levels it never creates a prerequisite
+        # edge -- it is displayed, not re-ordered.
+        if pre and (pre in words or pre in pos_balance.EXCLUDE_WORDS):
             out.append((pre, "prefix"))
         if stem and stem in words and stem != pre:
             out.append((stem, "stem"))
@@ -669,6 +682,16 @@ def load_dict(path, freq):
             w = (j.get("word") or "").strip()
             if not w or not ALPHABET_RE.match(w):
                 stats["skipped_shape"] += 1
+                continue
+            # Curated exclusions. These are words the frequency list proves
+            # are extremely common, so the frequency cut alone will never
+            # remove them. "e" is the standing case: rank 2, a conjunction in
+            # one reading and the definite article in another, so its card
+            # cannot say which sense it teaches and its example could show the
+            # article while the English "and" came from "dhe". See
+            # pos_balance.EXCLUDE_WORDS for the full reasoning.
+            if w in pos_balance.EXCLUDE_WORDS:
+                stats["skipped_excluded"] += 1
                 continue
 
             f = freq.get(w)
@@ -1190,7 +1213,7 @@ def main():
     print("parsing dictionary...", flush=True)
     cards, stats = load_dict(kaikki, freq)
     print("  %d cards from %d sq entries" % (stats["kept"], stats["sq_total"]))
-    for k in ("skipped_pos", "skipped_shape", "skipped_nogloss", "skipped_notfreq", "parse_error"):
+    for k in ("skipped_pos", "skipped_shape", "skipped_nogloss", "skipped_notfreq", "skipped_excluded", "parse_error"):
         if stats.get(k):
             print("  %-16s %d" % (k, stats[k]))
 

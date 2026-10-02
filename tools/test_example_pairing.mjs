@@ -37,23 +37,34 @@ const allLevels = readdirSync(LEVELS)
   .filter((f) => /^level_\d+\.json$/.test(f))
   .sort()
   .map((f) => JSON.parse(readFileSync(join(LEVELS, f), 'utf8')));
-const e = allLevels.flatMap((l) => l.words).find((w) => w.id === 'e');
-ok(!!e, 'the card e exists');
-if (e) {
-  ok(e.en === 'and', "e's headline is the conjunction 'and'", 'got ' + e.en);
-  const homePos = e.sense_detail[0].pos;
-  ok(homePos === 'conj', 'headline sense is a conjunction', 'got ' + homePos);
-  ok((e.sense_detail[0].examples || []).length === 0,
+const allWords = allLevels.flatMap((l) => l.words);
+const byId = {};
+for (const w of allWords) byId[w.id] = w;
+
+// "e" must never come back. It was rank 2 and opened level 1, but it is a
+// conjunction in one reading and the definite article in another, so the card
+// cannot say which sense it teaches. Its shipped example made that concrete:
+// the Albanian "e" was the article while the English "and" came from "dhe".
+// Three attempts to fix example SELECTION all failed; the word is excluded
+// instead (pos_balance.EXCLUDE_WORDS). This pins that decision.
+ok(!byId['e'], '"e" is not in the deck');
+
+// The original defect, on a word that still ships. "lis" headlines the
+// adjective "strong and tall", which has no example, while its noun sense
+// "lineage" carries one. The headline and the only available example are
+// different parts of speech, so nothing may be shown. A same-POS fallback is
+// still fine and is checked separately below.
+const lis = byId['lis'];
+ok(!!lis, 'the card lis exists');
+if (lis) {
+  const home = lis.sense_detail[0];
+  ok(home.pos === 'adj', 'lis headlines the adjective', 'got ' + home.pos);
+  ok((home.examples || []).length === 0,
      'that sense genuinely has no example, so showing none is correct');
-  // "e" may legitimately show a corpus sentence in which it IS the
-  // conjunction ("Dhe e bera." / "And it did."). The defect guarded here is a
-  // MISMATCHED example, so assert the example is not the preposition one and
-  // that anything shown really does render the conjunction.
-  const ex = firstExample(e);
-  ok(!ex || String(ex.sq).indexOf('Besa') < 0,
-     "'e' shows no preposition example");
-  ok(!ex || /\band\b/i.test(ex.en),
-     "any example shown for 'e' renders the conjunction", ex ? ex.en : 'none');
+  ok(!(lis.sense_detail || []).some((s) => s.pos === home.pos && (s.examples || []).length),
+     'lis has no same-POS example to fall back on');
+  const ex = firstExample(lis);
+  ok(!ex, 'lis shows no cross-POS example', ex ? ex.sq : 'none');
 }
 
 // Across the whole deck: no shown example may come from a different POS.
@@ -99,19 +110,20 @@ if (found) {
   console.log('       e.g. ' + found + ' (headline sense has no example)');
 }
 
-// Negative control: the old behaviour really did mispair.
-if (e) {
+// Negative control: the old behaviour really did mispair. It walked every
+// sense and returned the first example it found, so on "lis" it returned the
+// noun sentence while the card glossed an adjective.
+if (lis) {
   const old = (() => {
-    for (const s of e.sense_detail) {
+    for (const s of lis.sense_detail) {
       for (const ex of (s.examples || [])) {
         if (ex && ex.en && ex.en.trim()) return ex;
       }
     }
     return null;
   })();
-  ok(old !== null && old.sq.includes('Besa'),
-     'negative control: the old scan returned the preposition example');
-  ok(old !== firstExample(e), 'negative control: the old behaviour differs from the fix');
+  ok(old !== null, 'negative control: the old scan returned an example');
+  ok(old !== firstExample(lis), 'negative control: the old behaviour differs from the fix');
 }
 
 console.log('');

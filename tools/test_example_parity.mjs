@@ -40,29 +40,40 @@ ok(Object.keys(levels).length > 0, 'level files loaded', String(Object.keys(leve
 const byId = {};
 for (const w of words) byId[w.id] = w;
 
-// The reported case: "e" headlines the conjunction "and", whose senses carry
-// no examples. The only example belongs to the preposition sense "of, +
-// dative", so both implementations must return nothing.
-const e = levels['e'];
-ok(!!e, 'the card "e" is in the level data');
-if (e) {
-  const home = e.sense_detail[0];
-  const homeHasExample = (home.examples || []).some(
+// "e" must never come back. It was rank 2 and opened level 1, but it is a
+// conjunction in one reading and the definite article in another, so the card
+// cannot say which sense it teaches. Its shipped example made that concrete:
+// the Albanian "e" was the article while the English "and" came from "dhe".
+// Three attempts to fix example SELECTION all failed; the word is excluded
+// instead (pos_balance.EXCLUDE_WORDS). This pins that decision.
+ok(!levels['e'], '"e" is not a card in the level data');
+ok(!byId['e'], '"e" is not in the flat index');
+
+// The same defect, on a word that still ships. "lis" headlines the adjective
+// "strong and tall", which has no example, while its noun sense "lineage"
+// carries one. A same-POS borrow would be defensible -- the sentence would
+// still show the glossed meaning -- so this fixture is deliberately the harder
+// case: the only example available belongs to a DIFFERENT part of speech.
+// Both implementations must return nothing rather than borrow it.
+const lis = levels['lis'];
+ok(!!lis, 'the card "lis" is in the level data');
+if (lis) {
+  const home = lis.sense_detail[0];
+  const hasExample = (s) => (s.examples || []).some(
     (x) => x && typeof x.en === 'string' && x.en.trim());
-  ok(!homeHasExample, '"e" headline sense ("and") really has no example');
-  // The card may now show a corpus sentence where "e" really is the
-  // conjunction ("Dhe e bera." / "And it did."). What must never happen is the
-  // preposition example, so the rule under test is "no wrong-POS example",
-  // not "no example at all".
-  const shownE = exampleForSense(e);
-  ok(!shownE || String(shownE.sq).indexOf('Besa') < 0,
-     'lesson view: "e" shows no preposition example');
-  const idx = byId['e'];
-  ok(idx && (!idx.ex || String(idx.ex.sq).indexOf('Besa') < 0),
-     'flat index: "e" carries no preposition example',
+  ok(!hasExample(home), '"lis" headline sense ("strong and tall") has no example');
+  ok(!(lis.sense_detail || []).some(
+ (s) => s.pos === home.pos && hasExample(s)),
+     '"lis" has no same-POS example to fall back on');
+  const other = (lis.sense_detail || []).find((s) => hasExample(s));
+  ok(!!other && other.pos !== home.pos,
+     'a later "lis" sense of another POS has an example to leak');
+  const shownL = exampleForSense(lis);
+  ok(!shownL, 'lesson view: "lis" shows no other-POS example',
+     shownL ? JSON.stringify(shownL) : 'none');
+  const idx = byId['lis'];
+  ok(idx && !idx.ex, 'flat index: "lis" carries no other-POS example',
      idx ? JSON.stringify(idx.ex) : 'missing');
-  ok(!idx || !idx.ex || String(idx.ex.sq).indexOf('Besa') < 0,
-     'the preposition sentence is gone from "e"');
 }
 
 // Parity across the whole deck: for every card, the flat index must hold the
@@ -104,8 +115,10 @@ ok(leaks.length === 0,
    leaks.length + ' leaks: ' + leaks.slice(0, 6).join(', '));
 ok(agree > 300, 'a substantial number of cards were compared', String(agree));
 
-// Negative control: the OLD build_words_index rule does leak on "e". If it
-// ever stopped leaking, this control would be meaningless.
+// Negative control: the OLD build_words_index rule DOES leak on "lis" --
+// it walks every sense and returns the first example it finds, ignoring which
+// sense the card actually headlines. If it ever stopped leaking, the control
+// above would be meaningless.
 {
   const oldRule = (word) => {
     for (const s of word.sense_detail || []) {
@@ -117,10 +130,9 @@ ok(agree > 300, 'a substantial number of cards were compared', String(agree));
     }
     return null;
   };
-  const leaked = oldRule(e);
-  ok(!!leaked && String(leaked.sq).indexOf('Besa') >= 0,
-     'negative control: the old rule does return the preposition sentence');
-  ok(JSON.stringify(oldRule(e)) !== JSON.stringify(exampleForSense(e)),
+  const leaked = oldRule(lis);
+  ok(!!leaked, 'negative control: the old rule does return an example');
+  ok(JSON.stringify(oldRule(lis)) !== JSON.stringify(exampleForSense(lis)),
      'negative control: the old rule differs from the current one');
 }
 

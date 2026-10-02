@@ -40,13 +40,33 @@ def main():
     print("levels: %d  cards: %d  cards with components: %d"
           % (nlev, len(lev), len(comp)))
 
-    # 1. every component is a real card in the deck
+    # 1. every component is a real card in the deck, or is a curated label.
+    #
+    # The rule exists because dropping it lets prose into the component line
+    # ("behind", "appearance", Latin "communis"). pos_balance.EXCLUDE_WORDS
+    # is the single deliberate exception: "e" is not a card because its own
+    # senses are unresolvable out of context, but the privative PREFIX e- is
+    # real and is what the etymology is explaining (esell = e- + sille). It is
+    # a prefix, so it never creates a prerequisite edge below -- it is a label
+    # on the derivation, not a word to learn first.
+    import pos_balance
+    allowed = set(pos_balance.EXCLUDE_WORDS)
     missing = [(w, c["word"]) for w, cs in comp.items()
-               for c in cs if c["word"] not in lev]
+               for c in cs if c["word"] not in lev and c["word"] not in allowed]
     print("1. components resolve to real cards: %s"
           % ("OK" if not missing else "FAIL %d" % len(missing)))
     for w, s in missing[:5]:
         print("      %s references unknown %s" % (w, s))
+
+    # The exception must stay a PREFIX. If an excluded word ever appears as a
+    # STEM it would silently stop being taught-before-its-word, which is the
+    # ordering guarantee test 2 exists to protect.
+    as_stem = [(w, c["word"]) for w, cs in comp.items()
+               for c in cs if c["word"] in allowed and c["role"] == "stem"]
+    print("1b. curated non-card components are prefixes only: %s"
+          % ("OK" if not as_stem else "FAIL %d" % len(as_stem)))
+    for w, s in as_stem[:5]:
+        print("      %s uses %s as a stem" % (w, s))
 
     # 2. a stem is not taught later than the word using it
     late = []
