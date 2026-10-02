@@ -204,6 +204,66 @@ component coverage falls to 15.5% from 26.3%. If a learner stops early the
 course is in better shape, which should be an explicit and defensible property
 rather than an accident.
 
+## 2026-10-02: the 8 "missing" corpora were never missing
+
+Eight human corpora were recorded as unavailable and example selection was
+running on 3 of 12. They were not missing: `tools/corpus/fetch_opus.py` and
+`fetch_more.py` resolve `DEST` with `.parent.parent` from `tools/corpus/`,
+which lands on `tools/` and yields `tools/src_raw/opus`. The selector reads
+`repo/src_raw/opus`, so the downloads went somewhere nothing read. This is the
+second instance of the `ROOT` path bug class fixed in #21, and it fails the
+same way -- quietly, reporting a plausible coverage number.
+
+With the path corrected, 12 of 12 human corpora are visible and selection
+fills 3,420 of 3,704. Nine corpora now contribute instead of three.
+
+| | before | after |
+|---|---|---|
+| deck example coverage | 91.8% | 93.1% |
+| examples using only taught vocabulary | 56.2% | 58.4% |
+| mean untaught words per example | 0.806 | 0.770 |
+| examples changed | -- | 795 |
+
+4,087 words before and after: none added, none removed, no gloss changed. 171
+examples improved against 14 that scored worse.
+
+### Half-untranslated source pairs are in HPLT
+
+`nepër` shipped the example `Driving nëpër qytet?` -- English left untranslated
+in the Albanian column. The cause is upstream, not the selector: HPLT line
+4813358 pairs `Driving through the city?` with `Driving nëpër qytet?`. Every
+gate passes it because the string is well-formed.
+
+There is no mixed-script gate and one could be added, but it cannot be built on
+Latin script. Attempting it flagged 230 of 4,087 examples as mixed, and every
+hit was a genuine Albanian homograph (`do` = "will", `A` = the question
+particle, `as` = "even"). A naive gate would reject correct examples. The
+reliable signal is a proper noun or a token the frequency list does not carry.
+Deferred, not fixed.
+
+### The qetë/vendore sense pass does not have a mechanical fix
+
+`vendore` and `qetë` were recorded as one sense-ranking defect. They are two
+different failures and neither is reachable by re-ranking:
+
+* `vendore` pos adj -- BOTH senses are `form-of` tagged (`feminine singular of
+  vendor`, `feminine plural of vendor`). `content_senses` filters them out
+  before ranking runs, so the only real meaning ("local") is already gone by
+  the time senses are sorted. `content_senses` on that entry returns 0 senses.
+* `qetë` pos verb -- the gloss `second-person plural simple perfect indicative
+  of jam` has NO `form-of` tag, and `form_of_lemma` resolves it to `jam`, so it
+  is indistinguishable from `qen` (rank 915) whose card must be kept. Both are
+  untagged slot glosses of `jam`. Any rule that demotes one demotes the other,
+  and losing `qen` is the worse trade.
+
+A demotion was implemented, measured, and reverted: it changed nothing on any
+of the four target words. `zgjedhim` is separately unreachable -- `conjugation`
+is not in `form_senses.GRAMMAR_SLOT`, so by the code's own definition it is not
+a slot gloss, and upstream carries no English for it in any entry.
+
+These need a hand-written gloss or a native speaker, not another heuristic.
+The decision to route them to a native speaker (2026-10-02) stands.
+
 ## Explicitly NOT problems
 
 - **Thin levels.** 85 levels hold 1-2 words; 7 are family continuations and 78
