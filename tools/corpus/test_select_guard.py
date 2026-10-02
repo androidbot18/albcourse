@@ -18,6 +18,7 @@ rendered with no sentence at all.
 The Albanian sentences below are real corpus lines, not invented examples, so
 the gates are tested against the text they actually have to survive.
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -52,6 +53,19 @@ def sq_gate_rejects(sq, word):
     if marker and not re.search(marker, low):
         return True
     return False
+
+
+def real_pos_index():
+    """POS lookup built from the deck's own level files, as main() does."""
+    pos = {}
+    for lv in sorted(S.LEVEL_DIR.glob("level_*.json")):
+        for w in json.loads(lv.read_text(encoding="utf-8"))["words"]:
+            labs = [str(p).lower() for p in (w.get("pos") or [])]
+            slot = pos.setdefault(w["sq"].lower(), [])
+            for lab in labs:
+                if lab not in slot:
+                    slot.append(lab)
+    return pos
 
 
 def main():
@@ -119,6 +133,47 @@ def main():
     ]:
         check(not sq_gate_rejects(good, "e"),
               "a real conjunction sentence is kept: %s" % good[:36], good)
+
+    # -- defect 3: a sentence-level guard cannot see a per-token sense ------
+    # The shipped 'e' card said "and" and shipped 'Nuk kerkon shume kohe dhe
+    # eshte shume e lire.' The English DOES contain "and", so SENSE_GUARD
+    # passes it, but the conjunction in that sentence is `dhe`; the `e` is the
+    # article in 'shume e lire'. Validating the sentence cannot catch a
+    # per-token sense error, which is why context_ok() inspects the Albanian
+    # neighbourhood of the token instead.
+    pi = real_pos_index()
+    shipped = "Nuk kërkon shumë kohë dhe është shumë e lirë."
+    check(re.search(S.SENSE_GUARD["e"],
+                    "It doesn't require much time and it's extremely "
+                    "inexpensive.", re.I) is not None,
+          "the sentence-level guard accepts the shipped defect")
+    check(not S.context_ok(shipped, "e", pi),
+          "context_ok rejects the shipped article reading", shipped)
+
+    for bad, why in [
+        ("Dhe kshtu ajo do te duket nje e tere.", "article, unclassifiable head"),
+        ("Në rrugën e qytetit", "article before a noun"),
+        ("Ka qenë një eksperiencë e re dhe sfiduese.",
+         "ambiguous 're' = noun|verb"),
+    ]:
+        check(not S.context_ok(bad, "e", pi),
+              "context_ok rejects %s" % why, bad)
+
+    for good, why in [
+        ("A duhet të kthehem e të shërbej atje?", "infinitive marker between"),
+        ("Atëherë do të jetoni e nuk do të vdisni.", "auxiliary chain after"),
+        ("Ai e ngre kokën dhe më thotë diçka.", "verb follows"),
+        ("Edhe e kam gjetur në një fjalor shqip-shqip.", "pronoun follows"),
+        ("Gjithsej tridhjetë e një mbretër.", "compound numeral"),
+        ("Prej shtëpisë del e shkon në fushë.", "verb follows"),
+    ]:
+        check(S.context_ok(good, "e", pi),
+              "context_ok keeps a real conjunction (%s)" % why, good)
+
+    # The gate must be able to FAIL. A gate that accepted everything would
+    # pass every 'keeps' case above while still shipping the original defect.
+    check(not S.context_ok("Në rrugën e qytetit", "e", pi),
+          "context_ok is not vacuously permissive")
 
     print("")
     if failures:

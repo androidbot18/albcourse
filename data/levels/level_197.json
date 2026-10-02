@@ -1,37 +1,37 @@
 {
  "level": 197,
- "title": "mrekulli",
- "root": "mrekulli",
- "root_gloss": "miracle",
+ "title": "premtoj",
+ "root": "premtoj",
+ "root_gloss": "to promise",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "mrekulli"
+  "premtoj"
  ],
  "pos_mix": {
-  "noun": 1,
-  "adj": 1
+  "verb": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "mrekulli",
-   "sq": "mrekulli",
-   "en": "miracle",
+   "id": "premtoj",
+   "sq": "premtoj",
+   "en": "to promise",
    "glosses": [
-    "miracle"
+    "to promise"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "miracle",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to promise",
      "tags": [],
      "cats": [
       {
@@ -55,63 +55,67 @@
      ],
      "examples": [],
      "links": [
-      "miracle"
+      "promise"
      ]
     }
    ],
-   "rank": 757,
-   "count": 1306,
-   "family": "mrekulli",
+   "rank": 758,
+   "count": 1304,
+   "family": "premtoj",
    "is_root": true,
-   "etymology": "From Old Albanian mërekull, borrowed from Latin mīrāculum.",
+   "etymology": "From Italian promettere (“promise”). Compare Romanian promite, French promettre.",
    "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
+   "source_lang": "it",
+   "cognate": "from Italian promettere",
+   "parents": [
+    "promise"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "mrekulli",
-     "tag": "plural"
+     "form": "premtova",
+     "tag": "aorist"
     },
     {
-     "form": "mrekullia",
-     "tag": "definite"
+     "form": "premtuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "That's great.",
+    "en": "I promise not to kill.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Kjo është mrekulli."
+    "sq": "Unë premtoj të mos vrarë."
    }
   },
   {
-   "id": "mrekullueshëm",
-   "sq": "mrekullueshëm",
-   "en": "miraculous",
+   "id": "premtim",
+   "sq": "premtim",
+   "en": "promise",
    "glosses": [
-    "miraculous"
+    "promise"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "miraculous",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "promise",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -120,7 +124,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -shëm",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -134,38 +138,47 @@
      ],
      "examples": [],
      "links": [
-      "miraculous"
+      "promise"
      ]
     }
    ],
-   "rank": 1109,
-   "count": 847,
-   "family": "mrekulli",
+   "rank": 4686,
+   "count": 162,
+   "family": "premtoj",
    "is_root": false,
-   "etymology": "mrekulli + -shëm",
+   "etymology": "From premtoj + -im noun suffix.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "mrekulli",
+     "word": "premtoj",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "premtime",
+     "tag": "plural"
+    },
+    {
+     "form": "premtimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They have five beautiful children.",
+    "en": "This is a promise.",
     "score": [
      0,
-     6,
-     -6,
+     4,
+     -4,
      10
     ],
-    "sq": "Ata kanë pesë fëmijë të mrekullueshëm."
+    "sq": "Ky është një premtim."
    }
   }
  ]

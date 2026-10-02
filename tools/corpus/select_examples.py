@@ -231,6 +231,94 @@ SENSE_FORBID_SQ = {
 }
 
 
+def context_ok(sq, sq_word, pos_index):
+    """Decide whether every occurrence of sq_word in sq is provably the glossed sense.
+
+    The English-side SENSE_GUARD validates the WHOLE sentence: for 'e' the rule
+    is /\\band\\b/, so a sentence whose 'and' comes from an unrelated 'dhe'
+    passes even though the 'e' is the article. That is the shipped defect
+    ('...dhe eshte shume e lire.').
+
+    Three REJECTION rules were tried and all three were falsified, because each
+    killed genuine conjunctions ('me e madhe', 'Bordet e rregullta', 'dhe e
+    quajti'). So this does the opposite: it ACCEPTS only contexts that prove
+    the intended sense, using the deck's own part-of-speech data rather than a
+    hand-written pattern. A sentence it is unsure about is simply not chosen,
+    which costs an example but never teaches the wrong one.
+
+    A joining 'e'/'dhe' sits before a VERB or a PRONOUN ('e dua', 'e cila'), or
+    between two NUMERALS in a compound ('tridhjetë e katër vjet'). An article
+    'e' sits before a NOUN or ADJECTIVE ('e lirë', 'e qytetit'). The two are
+    told apart by the following token's POS.
+    """
+    toks = TOKEN_RE.findall(sq.lower())
+    target = sq_word.lower()
+    seen = False
+
+    def pos_of(tok):
+        return (pos_index.get(tok) or [])
+
+    PROBES = (("verb", "verb"), ("pron", "pron"), ("num", "num"),
+              ("noun", "noun"), ("adj", "adj"))
+
+    def kinds(tok):
+        """Every part-of-speech class the deck's own labels support for tok."""
+        ps = pos_of(tok)
+        return {tag for probe, tag in PROBES if any(probe in p for p in ps)}
+
+    # Particles and auxiliaries can stand between a joining 'e' and its verb
+    # ('e të shërbej', 'e nuk do të vdisni'). These are function words, never
+    # the noun an article 'e' would govern, so the scan looks through them.
+    # Article readings ('e lirë', 'e qytetit') are still rejected because the
+    # token right after the joiner is a noun or adjective there.
+    FUNCTION = {"të", "te", "t", "nuk", "do", "jo", "po", "se", "qe"}
+
+    def is_function(tok):
+        if tok in FUNCTION:
+            return True
+        labs = pos_of(tok)
+        # An adverb/particle/conjunction label on the next token also cannot be
+        # the noun an article 'e' governs.
+        return any(("adv" in lab) or ("part" in lab) or ("conj" in lab) for lab in labs)
+
+    for i, tok in enumerate(toks):
+        if tok != target:
+            continue
+        seen = True
+        nxt = toks[i + 1] if i + 1 < len(toks) else None
+        prev = toks[i - 1] if i else None
+        if not nxt:
+            return False
+        j = i + 1
+        skipped = False
+        while is_function(nxt) and j + 1 < len(toks):
+            j += 1
+            nxt = toks[j]
+            skipped = True
+        ks = kinds(nxt)
+        kp = kinds(prev) if prev else set()
+        # A noun reading on the following token means the ARTICLE sense, so a
+        # token that could be either is rejected. 're' is labelled
+        # ['noun','verb']; 'e re' in 'një eksperiencë e re dhe sfiduese' is
+        # really conjunctive, but nothing local settles it, and the deck's own
+        # rule is that a wrong example is worse than a missing one.
+        if ks & {"noun", "adj"}:
+            return False
+        if ks & {"verb", "pron"}:
+            continue
+        if "num" in ks and "num" in kp:
+            continue
+        # An out-of-deck head ('vdisni', 'tere') proves nothing by itself, so
+        # decide by position: after a skipped function word we are inside a
+        # verb phrase ('e nuk do të vdisni'), which no article reading yields.
+        # Directly after the joiner nothing is provable ('një e tere'), so
+        # refuse instead of guessing.
+        if not ks and skipped:
+            continue
+        return False
+    return seen
+
+
 def alignment_ok(en, sq):
     """Reject known misalignments using symmetric conjunction markers."""
     e, s = en.lower(), sq.lower()
@@ -280,6 +368,9 @@ def main():
                 "sq": w["sq"],
                 "level": w.get("level") or payload.get("level"),
                 "wiktionary_example": ex,
+                # Needed by context_ok() to tell a joining 'e' from the
+                # article 'e' by the POS of the token that follows it.
+                "pos": [str(p).lower() for p in (w.get("pos") or [])],
             })
 
     # Fail here, not at the coverage print. An empty deck once ran to the end
@@ -291,6 +382,14 @@ def main():
 
     word_level = {w["sq"]: w["level"] for w in deck_words}
     deck_set = set(word_level)
+    # POS lookup for context_ok(). The deck's own labels, so the gate agrees
+    # with what the card actually claims rather than a hand-written guess.
+    pos_index = {}
+    for w in deck_words:
+        for lab in w.get("pos") or []:
+            pos_index.setdefault(w["sq"].lower(), [])
+            if lab not in pos_index[w["sq"].lower()]:
+                pos_index[w["sq"].lower()].append(lab)
     have_example = {w["sq"] for w in deck_words if w.get("wiktionary_example")}
 
     # Index: token -> list of (corpus, en, sq). Only gated pairs are kept, and
@@ -344,6 +443,13 @@ def main():
             forbid = SENSE_FORBID_SQ.get(sq_word)
             if forbid and re.search(forbid, sq.lower()):
                 continue
+            # Provable-context check. Rejects sentences where the token sits in
+            # a context that reads as a different part of speech than the gloss
+            # claims (the article 'e' in '... eshte shume e lire.'). Applied to
+            # guarded, sense-ambiguous words only; an unprovable sentence simply
+            # loses the example rather than teaching the wrong sense.
+            if sq_word in SENSE_GUARD and not context_ok(sq, sq_word, pos_index):
+                continue
             marker = SENSE_MARKER_SQ.get(sq_word)
             if marker and not re.search(marker, sq.lower()):
                 continue
@@ -388,7 +494,12 @@ def main():
     for k in sorted(by_corpus, key=lambda x: -by_corpus[x]):
         print("  %-14s %d" % (k, by_corpus[k]))
 
-    out = ROOT / "corpus_examples.json"
+    # data/, not the repo root. build_words_index.CORPUS_EXAMPLES reads
+    # data/corpus_examples.json, so writing anywhere else produced a file the
+    # build never read: re-running selection changed nothing in the deck and
+    # the stale examples persisted. Same failure shape as the earlier ROOT
+    # bug that made the deck load as zero words.
+    out = ROOT / "data" / "corpus_examples.json"
     out.write_text(json.dumps(results, ensure_ascii=False, indent=1, sort_keys=True))
     print()
     print("wrote " + str(out.relative_to(ROOT)))
