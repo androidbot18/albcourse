@@ -14,6 +14,11 @@ BASE = "https://androidbot18.github.io/albcourse"
 UA = {"User-Agent": "albcourse-verify/1.0"}
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
+# Reuse the selector's own gate rather than re-implementing a weaker one.
+# select_examples.py is guarded by __main__, so importing it is side-effect free.
+sys.path.insert(0, str(ROOT / "tools" / "corpus"))
+from select_examples import context_ok, article_reading  # noqa: E402
+
 
 def get(path):
     req = urllib.request.Request(BASE + path, headers=UA)
@@ -70,10 +75,34 @@ def main():
               (card or {}).get("family"))
 
     # The 'e' example must illustrate the conjunction, not the article.
+    #
+    # These two checks used to be substring tests and were VACUOUS -- both
+    # passed on the very defect they were written to catch:
+    #   check(" e " in ex)     was satisfied by '...dhe eshte shume e lire.',
+    #                          where that 'e' IS the article;
+    #   check("një e tërë" not in ex)  is satisfied by any sentence lacking
+    #                          that one literal phrase, so it could never
+    #                          detect the article sense at all.
+    # A check that cannot fail is worth nothing. Both are replaced by the SAME
+    # context_ok() the selector uses to choose the example, built from the
+    # DEPLOYED cards' own POS labels, so the verifier and the build agree on
+    # what the conjunction looks like instead of each guessing.
     e = by.get("e") or {}
     ex = (e.get("ex") or {}).get("sq", "")
-    check(bool(ex) and " e " in ex, "'e' has an example containing the conjunction", ex)
-    check("një e tërë" not in ex, "'e' example is not the article sense", ex)
+    if ex:
+        pos_index = {}
+        for w in words:
+            for lab in w.get("pos") or []:
+                pos_index.setdefault(w["sq"].lower(), [])
+                if lab not in pos_index[w["sq"].lower()]:
+                    pos_index[w["sq"].lower()].append(lab)
+        check(context_ok(ex, "e", pos_index),
+              "deployed 'e' example is a provable conjunction", ex)
+        check(not article_reading(ex, "e", pos_index),
+              "deployed 'e' example is not the article sense", ex)
+    else:
+        check(False, "deployed 'e' example is a provable conjunction", "no example")
+        check(False, "deployed 'e' example is not the article sense", "no example")
 
     # Every deployed example needs both halves.
     bad = [w["sq"] for w in words

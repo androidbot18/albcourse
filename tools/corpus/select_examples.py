@@ -319,6 +319,31 @@ def context_ok(sq, sq_word, pos_index):
     return seen
 
 
+def article_reading(sq, sq_word, pos_index):
+    """True if sq_word is used as the definite ARTICLE in this sentence.
+
+    The article's signature is a following NOUN or ADJECTIVE ('e qytetit',
+    'e lirë'), which is what separates it from a joining 'e' ('e dua').
+    Note the adjective case: the original defect '...shume e lire.' is an
+    article governing an ADJECTIVE, so a noun-only test misses the exact
+    sentence this whole gate exists to catch.
+
+    Kept separate from context_ok() on purpose: context_ok() is conservative and
+    returns False whenever it cannot PROVE the conjunction, which is a
+    different question from positively identifying the article. Reporting the
+    two separately is what lets the verifier say which sense it saw.
+    """
+    toks = TOKEN_RE.findall(sq.lower())
+    target = sq_word.lower()
+    for i, tok in enumerate(toks):
+        if tok != target or i + 1 >= len(toks):
+            continue
+        labs = pos_index.get(toks[i + 1]) or []
+        if any(("noun" in (l or "")) or ("adj" in (l or "")) for l in labs):
+            return True
+    return False
+
+
 def alignment_ok(en, sq):
     """Reject known misalignments using symmetric conjunction markers."""
     e, s = en.lower(), sq.lower()
