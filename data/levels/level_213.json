@@ -1,43 +1,47 @@
 {
  "level": 213,
- "title": "fsheh, djall",
+ "title": "dhjetë, gjendje, kafe +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "djall",
-  "fsheh"
+  "dhjetë",
+  "gjendje",
+  "kafe"
  ],
  "pos_mix": {
-  "verb": 3,
-  "noun": 1
+  "num": 1,
+  "noun": 6
  },
  "words": [
   {
-   "id": "fshehur",
-   "sq": "fshehur",
-   "en": "hide, past form (from fsheh, to hide)",
+   "id": "dhjetë",
+   "sq": "dhjetë",
+   "en": "ten",
    "glosses": [
-    "hide, past form (from fsheh, to hide)"
+    "ten"
    ],
    "pos": [
-    "verb"
+    "num"
    ],
    "pos_labels": [
-    "verb"
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "hide, past form (from fsheh, to hide)",
-     "tags": [
-      "form-of",
-      "participle"
-     ],
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "ten",
+     "tags": [],
      "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -49,24 +53,20 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "fsheh"
+     "links": [
+      "ten"
+     ]
     }
    ],
-   "rank": 887,
-   "count": 1079,
-   "family": "fsheh",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 890,
+   "count": 1073,
+   "family": "dhjetë",
+   "is_root": true,
+   "etymology": "From *djeth + -të, from Proto-Albanian *detsa, from Proto-Indo-European *déḱm̥. Initial dh- from decimal compounds like tridhjetë (“thirty”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -76,22 +76,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Concealed and surface.",
+    "en": "There were ten people.",
     "score": [
-     1,
+     0,
      3,
-     -2,
+     -3,
      10
     ],
-    "sq": "Fshehur dhe sipërfaqe."
+    "sq": "Ishin dhjetë vetë."
    }
   },
   {
-   "id": "djall",
-   "sq": "djall",
-   "en": "devil",
+   "id": "gjendje",
+   "sq": "gjendje",
+   "en": "situation, state, condition",
    "glosses": [
-    "devil"
+    "situation, state, condition"
    ],
    "pos": [
     "noun"
@@ -103,17 +103,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "devil",
+     "gloss": "situation, state, condition",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -121,7 +115,13 @@
        "source": "w"
       },
       {
-       "name": "Pages using etymon with no ID",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -129,179 +129,265 @@
      ],
      "examples": [],
      "links": [
-      "devil"
+      "situation",
+      "state",
+      "condition"
      ]
     }
    ],
-   "rank": 888,
-   "count": 1076,
-   "family": "djall",
+   "rank": 892,
+   "count": 1072,
+   "family": "gjendje",
    "is_root": true,
-   "etymology": "From an earlier djāll, from Proto-Albanian *diaβəł, borrowed from Latin diabolus (“devil”), ultimately derived from Ancient Greek διάβολος (diábolos, “slanderer”).",
-   "etymology_class": "inherited",
+   "etymology": "A gerund gjej.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "devil",
-    "slanderer"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "djaj",
+     "form": "gjendje",
      "tag": "plural"
     },
     {
-     "form": "djalli",
+     "form": "gjendja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Devil can kill them.",
+    "en": "is in poor condition.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Djall mund të vrasin ata."
+    "sq": "është në gjendje të keqe."
    }
   },
   {
-   "id": "fsheh",
-   "sq": "fsheh",
-   "en": "to hide",
+   "id": "kafe",
+   "sq": "kafe",
+   "en": "a plant of the genus Coffea, coffee bean",
    "glosses": [
-    "to hide",
-    "to conceal"
+    "a plant of the genus Coffea, coffee bean",
+    "Brown",
+    "ground coffee beans, the beverage brewed from it",
+    "coffeeshop"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hide",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a plant of the genus Coffea, coffee bean",
      "tags": [
-      "transitive"
+      "feminine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "hide"
+      "Coffea",
+      "coffee bean"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to conceal",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Brown",
      "tags": [
-      "transitive"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ground coffee beans, the beverage brewed from it",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 20 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "8 4 13 7 36 15 1 1 3 4 3 1 3"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "5 2 15 4 42 21 1 1 2 2 2 1 1"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 6 51 24"
       }
      ],
      "examples": [],
      "links": [
-      "conceal"
+      "coffee"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coffeeshop",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "coffeeshop"
      ]
     }
    ],
-   "rank": 2970,
-   "count": 274,
-   "family": "fsheh",
+   "rank": 893,
+   "count": 1070,
+   "family": "kafe",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *skepska, related to Greek σκεπω (skepo, “to cover, to shield, to screen”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
+   "etymology": "From Ottoman Turkish قهوه (kahve, “coffee”), from Arabic قَهْوَة (qahwa, “coffee, a brew”). Another explanation claims it traces back to the name of the Kaffa region of Ethiopia, which is an Omotic word.",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "cognate": "from Turkish kahve (\"coffee\")",
+   "parents": [
+    "coffee"
+   ],
    "components": [],
    "derived": [
-    "fshehtas",
-    "fshehtë",
-    "fshihem"
+    "kafene",
+    "kafehane",
+    "kafexhi",
+    "kafenjtë",
+    "kafeinë"
    ],
    "related": [],
    "forms": [
     {
-     "form": "fsheha",
-     "tag": "aorist"
+     "form": "kafe",
+     "tag": "plural"
     },
     {
-     "form": "fshehur",
-     "tag": "participle"
-    },
-    {
-     "form": "psheh",
-     "tag": "alternative"
-    },
-    {
-     "form": "mbësheh",
-     "tag": "alternative"
+     "form": "kafja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I could very well hide this.",
+    "corpus": "HPLT",
+    "en": "Good coffee.",
     "score": [
-     1,
-     7,
-     -6,
-     8
+     0,
+     3,
+     -3,
+     10
     ],
-    "sq": "Jam mundur shumë ta fsheh këtë gjë."
+    "sq": "Kafe e mirë."
+   }
+  },
+  {
+   "id": "dhjetor",
+   "sq": "dhjetor",
+   "en": "December",
+   "glosses": [
+    "December"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "December",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -or (month)",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "December"
+     ]
+    }
+   ],
+   "rank": 6835,
+   "count": 103,
+   "family": "dhjetë",
+   "is_root": false,
+   "etymology": "Calque of Latin December, from dhjetë (“ten”) + -or.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "ten"
+   ],
+   "components": [
+    {
+     "word": "dhjetë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dhjetori",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What happened in December?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë ndodhi në dhjetor?"
    }
   }
  ]

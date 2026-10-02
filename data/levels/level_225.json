@@ -1,167 +1,335 @@
 {
  "level": 225,
- "title": "paguaj",
- "root": "paguaj",
- "root_gloss": "to pay",
+ "title": "zgjidh",
+ "root": "zgjidh",
+ "root_gloss": "to untie, unbind, loosen",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "paguaj"
+  "zgjidh"
  ],
  "pos_mix": {
-  "verb": 2
+  "verb": 5,
+  "noun": 3
  },
  "words": [
   {
-   "id": "paguaj",
-   "sq": "paguaj",
-   "en": "to pay",
+   "id": "zgjidh",
+   "sq": "zgjidh",
+   "en": "to untie, unbind, loosen",
    "glosses": [
-    "to pay"
+    "to untie, unbind, loosen",
+    "to set free, loose; to unleash, unyoke",
+    "to break off (a relationship); to break (an agreement, spell, etc.)",
+    "to solve",
+    "to arrive at a solution; to resolve"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to pay",
+     "gloss": "to untie, unbind, loosen",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "untie",
+      "unbind",
+      "loosen"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to set free, loose; to unleash, unyoke",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "free",
+      "loose",
+      "unleash"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to break off (a relationship); to break (an agreement, spell, etc.)",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "26 6 40 19 9"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 15 29 20 21"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "13 11 42 17 16"
       }
      ],
      "examples": [],
      "links": [
-      "pay"
+      "break off",
+      "break"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to solve",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Mathematics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mathematics",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mathematics",
+      "solve"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arrive at a solution; to resolve",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "arrive",
+      "solution",
+      "resolve"
      ]
     }
    ],
-   "rank": 973,
-   "count": 977,
-   "family": "paguaj",
+   "rank": 1902,
+   "count": 454,
+   "family": "zgjidh",
    "is_root": true,
-   "etymology": "Ultimately from Latin pācāre. Source language is uncertain, as is the possibility of a direct borrowing. Possibly from Italian pagare or alternatively a derivative of pagë, also from Italian.",
-   "etymology_class": "derived",
+   "etymology": "First attested in 1555 as zgidh (Buzuku), from zga (“out”) + lidh (“tie”). The expected form, zglidh, is seen in the Arbëresh dialect but not in Buzuku's due to the immediate following -i-, which in Gheg leads to -gl- becoming -g- (similar to gisht (“finger”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
+   "parents": [
+    "out",
+    "tie"
+   ],
+   "components": [
+    {
+     "word": "lidh",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "zgjidhet",
+    "zgjidhëm",
+    "zgjidhës",
+    "zgjidhje",
+    "zgjidhshëm",
+    "zgjidhur"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "pagova",
-     "tag": "aorist"
-    },
-    {
-     "form": "paguar",
+     "form": "zgjidhur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "How much do I need to pay?",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Sa duhet të paguaj?"
-   }
-  },
-  {
-   "id": "paguar",
-   "sq": "paguar",
-   "en": "pay, past form (from paguaj, to pay)",
-   "glosses": [
-    "pay, past form (from paguaj, to pay)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "pay, past form (from paguaj, to pay)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "paguaj"
-    }
-   ],
-   "rank": 1079,
-   "count": 873,
-   "family": "paguaj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
     "corpus": "HPLT",
-    "en": "Paid killers.",
+    "en": "Choose and get it!",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Vrasës të paguar."
+    "sq": "Zgjidh e merr!"
+   }
+  },
+  {
+   "id": "zgjidhje",
+   "sq": "zgjidhje",
+   "en": "solution",
+   "glosses": [
+    "solution",
+    "resolution",
+    "dissolution"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "solution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "solution"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "resolution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "resolution"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dissolution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dissolution"
+     ]
+    }
+   ],
+   "rank": 983,
+   "count": 962,
+   "family": "zgjidh",
+   "is_root": false,
+   "etymology": "Gerund of zgjidh (“to untie”). From zgjidh (“to untie”) + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "zgjidh",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Still no solution.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ende asnjë zgjidhje."
    }
   }
  ]
