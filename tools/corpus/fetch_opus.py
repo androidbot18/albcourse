@@ -16,7 +16,11 @@ import zipfile
 from pathlib import Path
 
 BASE = "https://object.pouta.csc.fi/OPUS-{corpus}/{version}/moses/en-sq.txt.zip"
-DEST = Path(__file__).resolve().parent.parent / "src_raw" / "opus"
+# This file is tools/corpus/fetch_opus.py, so THREE parents up is the repo root.
+# parent.parent lands on tools/ and resolves to tools/src_raw/opus, a directory
+# select_examples.py never reads (it uses <repo>/src_raw/opus), so the corpora
+# downloaded to the wrong place and the selector still ran on 3 of 11.
+DEST = Path(__file__).resolve().parent.parent.parent / "src_raw" / "opus"
 
 # (corpus, version, api_pair_count, human_translated)
 CORPORA = [

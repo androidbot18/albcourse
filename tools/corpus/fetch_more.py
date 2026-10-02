@@ -4,7 +4,10 @@ import sys, time, urllib.request, zipfile
 from pathlib import Path
 
 BASE = "https://object.pouta.csc.fi/OPUS-{corpus}/{version}/moses/en-sq.txt.zip"
-DEST = Path(__file__).resolve().parent.parent / "src_raw" / "opus"
+# Three parents up: this file is tools/corpus/fetch_more.py, so the repo root
+# (and therefore src_raw/opus, where select_examples.py reads from) is three
+# levels up. parent.parent lands on tools/ and is a directory nothing reads.
+DEST = Path(__file__).resolve().parent.parent.parent / "src_raw" / "opus"
 CORPORA = [
     ("bible-uedin", "v1"),
     ("ELRC-3052-wikipedia_health", "v1"),
