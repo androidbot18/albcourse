@@ -1684,12 +1684,27 @@ def main():
     def rk(w):
         return rank_of.get(w, BIG)
 
+    # Frozen before any re-homing, so the comparison below cannot depend on
+    # how far the loop has progressed. See the note on MIN_FAMILY_RANK.
+    MIN_FAMILY_RANK = {}
+    for r, ms in families.items():
+        MIN_FAMILY_RANK[r] = min(rk(m) for m in ms)
+
     rehomed = 0
-    for root in list(families):
+    for root in sorted(families):
         members = families[root]
         if len(members) < 2:
             continue
-        root_rank = min(rk(m) for m in members)
+        # Read the FROZEN minimum, not the live one. Reading the live list
+        # made the decision depend on iteration order: family `as` holds
+        # `as` (rank 164) and `atje` (rank 97), and `atje` -- "a- + -tje", a
+        # prefix compound on the stem `as` -- is itself re-homed out earlier
+        # in this same loop. Whether it had already left when the loop
+        # reached `as` depended on dict iteration order, so root_rank was 97
+        # under one hash seed and 113 under another. That flipped the fate of
+        # asgje, askush and asnje, and the differing edge set moved 460 words
+        # between levels 143 and 257.
+        root_rank = MIN_FAMILY_RANK[root]
         for m in list(members):
             if m == root or fam_of.get(m) != root:
                 continue
@@ -1706,15 +1721,21 @@ def main():
             sf = fam_of.get(stem)
             if sf is None or sf == root:
                 continue
-            if min(rk(x) for x in families[sf]) <= root_rank:
+            if MIN_FAMILY_RANK.get(sf, BIG) <= root_rank:
                 continue
             members.remove(m)
             families[sf].append(m)
             fam_of[m] = sf
             rehomed += 1
 
+    # Sorted, and for the same reason as the re-homing loop above: this
+    # pass also rewrites families as it goes, so iterating in dict order
+    # made its decisions depend on PYTHONHASHSEED. It does not currently
+    # fire on this deck (no family reaches the two-stems threshold), but
+    # it is the same hazard and would reintroduce the drift the moment
+    # the data changed. Sorted iteration costs nothing.
     detached = 0
-    for root in list(families):
+    for root in sorted(families):
         members = families[root]
         if len(members) < 2 or root not in members:
             continue
