@@ -1,42 +1,170 @@
 {
  "level": 389,
- "title": "rus, kompjuter, çift, uiski, magjistar, tashme +4",
+ "title": "peng, qind, kërcej, tufë, plagë, restorant +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 8,
  "families": [
-  "kompjuter",
-  "magjistar",
-  "rus",
-  "tashme",
-  "uiski",
-  "çift"
+  "kërcej",
+  "peng",
+  "plagë",
+  "qind",
+  "restorant",
+  "tufë"
  ],
  "pos_mix": {
-  "adj": 2,
-  "noun": 6
+  "noun": 9,
+  "num": 2,
+  "verb": 2
  },
  "words": [
   {
-   "id": "rus",
-   "sq": "rus",
-   "en": "Russian",
+   "id": "peng",
+   "sq": "peng",
+   "en": "pledge, pawn",
    "glosses": [
-    "Russian"
+    "pledge, pawn",
+    "hostage",
+    "feeling of regret, unfulfilled desire, wishful thinking",
+    "token of assurance"
    ],
    "pos": [
-    "adj"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "Russian",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pledge, pawn",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Law",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Law",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 27 25 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "law",
+      "pledge",
+      "pawn"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hostage",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hostage"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "feeling of regret, unfulfilled desire, wishful thinking",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "token of assurance",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 3516,
+   "count": 226,
+   "family": "peng",
+   "is_root": true,
+   "etymology": "From Latin pignus.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin pignus",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pengcë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "pengje",
+     "tag": "plural"
+    },
+    {
+     "form": "pengu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Who has taken hostage whom?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Kush ka marrë peng kë?"
+   }
+  },
+  {
+   "id": "njëqind",
+   "sq": "njëqind",
+   "en": "one hundred",
+   "glosses": [
+    "one hundred"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "one hundred",
      "tags": [],
      "cats": [
       {
@@ -46,7 +174,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 20 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,132 +186,176 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "gjuha ruse",
-       "en": "the Russian language",
-       "offsets": [
-        [
-         6,
-         10
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "Russian"
+      "one hundred"
      ]
     }
    ],
-   "rank": 3430,
-   "count": 232,
-   "family": "rus",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 3525,
+   "count": 225,
+   "family": "qind",
+   "is_root": false,
+   "etymology": "Equivalent to një + qind.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "components": [
     {
-     "form": "ruse",
-     "tag": "feminine"
+     "word": "një",
+     "role": "prefix"
+    },
+    {
+     "word": "qind",
+     "role": "stem"
     }
    ],
-   "corpus_example": null
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "One hundred years of experience.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Njëqind vjet përvojë."
+   }
   },
   {
-   "id": "kompjuter",
-   "sq": "kompjuter",
-   "en": "computer",
+   "id": "kërcej",
+   "sq": "kërcej",
+   "en": "to dance",
    "glosses": [
-    "computer"
+    "to dance",
+    "to crack, to snap"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "computer",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to dance",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
-       "name": "Albanian terms with collocations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "53 47"
       }
      ],
-     "examples": [
-      {
-       "sq": "ekran kompjuteri",
-       "en": "computer screen",
-       "offsets": [
-        [
-         6,
-         16
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "computer"
+      "dance"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to crack, to snap",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "crack",
+      "snap"
      ]
     }
    ],
-   "rank": 3431,
-   "count": 232,
-   "family": "kompjuter",
+   "rank": 3543,
+   "count": 224,
+   "family": "kërcej",
    "is_root": true,
-   "etymology": "Borrowed from English computer.",
-   "etymology_class": "borrowed",
+   "etymology": "A derivative of kërcas, originally meaning 'to crack, to snap', thus 'to jump, to dance'. A descriptive term.\nAlternatively, from Dacian or Paleo-Balkan substrate, cognate to Romanian cățăra.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "kërcas",
+    "kërce",
+    "kërcell"
+   ],
    "forms": [
     {
-     "form": "kompjutera",
-     "tag": "plural"
+     "form": "kërceva",
+     "tag": "aorist"
     },
     {
-     "form": "kompjuteri",
-     "tag": "definite"
+     "form": "kërcyer",
+     "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "bounce them back into the sky.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "kërcej ata përsëri në qiell."
+   }
   },
   {
-   "id": "çift",
-   "sq": "çift",
-   "en": "pair, couple (a set of two things)",
+   "id": "tufë",
+   "sq": "tufë",
+   "en": "flock, herd",
    "glosses": [
-    "pair, couple (a set of two things)",
-    "couple (two people who are romantically linked)"
+    "flock, herd",
+    "bunch, mass, crowd"
    ],
    "pos": [
     "noun",
@@ -197,23 +369,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pair, couple (a set of two things)",
+     "gloss": "flock, herd",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pair",
-      "couple"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "couple (two people who are romantically linked)",
-     "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -221,20 +379,128 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 90"
+       "_dis": "79 21"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 21"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 10"
       }
      ],
      "examples": [],
      "links": [
-      "couple"
+      "flock",
+      "herd"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bunch, mass, crowd",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bunch",
+      "mass",
+      "crowd"
      ]
     }
    ],
-   "rank": 3433,
-   "count": 232,
-   "family": "çift",
+   "rank": 3554,
+   "count": 223,
+   "family": "tufë",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish چفت (çift), from Persian جفت (joft).",
+   "etymology": "From Latin tufa. Compare Romanian tufă, Aromanian tufã.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin tufa",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "tufëz",
+    "tufëzoj",
+    "tufëzim",
+    "tufëzues",
+    "tufshak"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is a tough clutch.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Kjo është një tufë e fortë."
+   }
+  },
+  {
+   "id": "plagë",
+   "sq": "plagë",
+   "en": "wound",
+   "glosses": [
+    "wound"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wound",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "wound"
+     ]
+    }
+   ],
+   "rank": 3574,
+   "count": 222,
+   "family": "plagë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin plāga. Compare Romanian plagă, Aromanian pleagã.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -244,32 +510,32 @@
    "related": [],
    "forms": [
     {
-     "form": "çifte",
+     "form": "plagë",
      "tag": "plural"
     },
     {
-     "form": "çifti",
+     "form": "plaga",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'm in a couple.",
+    "en": "No one was wound.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Jam në çift."
+    "sq": "Askush nuk ishte plagë."
    }
   },
   {
-   "id": "uiski",
-   "sq": "uiski",
-   "en": "whisky",
+   "id": "restorant",
+   "sq": "restorant",
+   "en": "restaurant",
    "glosses": [
-    "whisky"
+    "restaurant"
    ],
    "pos": [
     "noun"
@@ -281,25 +547,25 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "whisky",
+     "gloss": "restaurant",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Pages using etymon with no ID",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -307,16 +573,16 @@
      ],
      "examples": [],
      "links": [
-      "whisky"
+      "restaurant"
      ]
     }
    ],
-   "rank": 3434,
-   "count": 232,
-   "family": "uiski",
+   "rank": 3578,
+   "count": 221,
+   "family": "restorant",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from French restaurant.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -326,37 +592,43 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to make whiskey?",
+    "en": "only 9 Restaurant.",
     "score": [
      0,
-     5,
-     -5,
+     2,
+     -2,
      10
     ],
-    "sq": "Si për të bërë uiski?"
+    "sq": "vetëm 9 Restorant."
    }
   },
   {
-   "id": "magjistar",
-   "sq": "magjistar",
-   "en": "magician",
+   "id": "qind",
+   "sq": "qind",
+   "en": "hundred",
    "glosses": [
-    "magician"
+    "hundred"
    ],
    "pos": [
-    "noun"
+    "num"
    ],
    "pos_labels": [
-    "noun"
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "magician",
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "hundred",
      "tags": [],
      "cats": [
       {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
@@ -367,28 +639,22 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "magician"
+      "hundred"
      ]
     }
    ],
-   "rank": 3449,
-   "count": 231,
-   "family": "magjistar",
+   "rank": 5783,
+   "count": 127,
+   "family": "qind",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Latin centum, possibly borrowed through Vulgar Latin.",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "cognate": "from Latin centum",
    "parents": [],
    "components": [],
    "derived": [],
@@ -396,114 +662,37 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Who are these funny magician?",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Kush janë këta magjistar qesharake?"
-   }
-  },
-  {
-   "id": "tashme",
-   "sq": "tashme",
-   "en": "present tense",
-   "glosses": [
-    "present tense"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "present tense",
-     "tags": [
-      "feminine",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "grammar",
-      "present tense"
-     ]
-    }
-   ],
-   "rank": 3483,
-   "count": 229,
-   "family": "tashme",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "tashmja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I see you've already started.",
+    "en": "0 percent risk!",
     "score": [
      0,
      3,
      -3,
-     5
+     10
     ],
-    "sq": "Ke filluar tashme."
+    "sq": "0 për qind rrezik!"
    }
   },
   {
-   "id": "kompjuterik",
-   "sq": "kompjuterik",
-   "en": "digital, of computers",
+   "id": "qindarkë",
+   "sq": "qindarkë",
+   "en": "qindarkë, a hundredth of a lek",
    "glosses": [
-    "digital, of computers"
+    "qindarkë, a hundredth of a lek"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "digital, of computers",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "qindarkë, a hundredth of a lek",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -512,13 +701,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ik",
+       "name": "Albanian terms suffixed with -ar",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms with collocations",
+       "name": "Albanian terms suffixed with -kë",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -526,46 +715,36 @@
      ],
      "examples": [
       {
-       "sq": "ekran kompjuterik",
-       "en": "computer screen",
+       "sq": "nuk vlen asnjë qindarkë",
+       "en": "not worth a penny",
        "offsets": [
         [
-         6,
-         17
-        ]
-       ]
-      },
-      {
-       "sq": "program kompjuterik",
-       "en": "computer program",
-       "offsets": [
-        [
-         8,
-         19
+         15,
+         23
         ]
        ]
       }
      ],
      "links": [
-      "digital",
-      "computer"
+      "qindarkë",
+      "lek"
      ]
     }
    ],
-   "rank": 17768,
-   "count": 31,
-   "family": "kompjuter",
+   "rank": 8587,
+   "count": 78,
+   "family": "qind",
    "is_root": false,
-   "etymology": "From kompjuter (“computer”) + -ik.",
+   "etymology": "From qind (“hundred”) + -ar + -kë.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "computer"
+    "hundred"
    ],
    "components": [
     {
-     "word": "kompjuter",
+     "word": "qind",
      "role": "prefix"
     }
    ],
@@ -573,8 +752,8 @@
    "related": [],
    "forms": [
     {
-     "form": "kompjuterike",
-     "tag": "feminine"
+     "form": "qindarka",
+     "tag": "plural"
     }
    ],
    "corpus_example": null

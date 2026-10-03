@@ -1,45 +1,45 @@
 {
  "level": 521,
- "title": "gjynah, sëmur, ndreq, lej, tavan, kripë +4",
+ "title": "val, byrek, përshëndet, injorant, janar, pah +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "gjynah",
-  "kripë",
-  "lej",
-  "ndreq",
-  "sëmur",
-  "tavan"
+  "byrek",
+  "injorant",
+  "janar",
+  "pah",
+  "përshëndet",
+  "val"
  ],
  "pos_mix": {
-  "intj": 1,
-  "noun": 8,
-  "verb": 11
+  "noun": 16,
+  "verb": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "gjynah",
-   "sq": "gjynah",
-   "en": "Expresses sorrow or regret.",
+   "id": "val",
+   "sq": "val",
+   "en": "valley",
    "glosses": [
-    "Expresses sorrow or regret.",
-    "sin",
-    "fault, guilt",
-    "pity, compassion, sympathy",
-    "anything bad, wrong or unfortunate"
+    "valley",
+    "scree",
+    "mountain pass",
+    "summer pasture, shieling",
+    "courtyard"
    ],
    "pos": [
-    "intj",
+    "noun",
     "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "interjection",
+    "noun",
     "noun",
     "noun",
     "noun",
@@ -47,48 +47,28 @@
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "Expresses sorrow or regret.",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "valley",
      "tags": [
-      "colloquial"
+      "masculine",
+      "regional",
+      "uncountable"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "sorrow",
-      "regret"
+      "valley"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sin",
+     "gloss": "scree",
      "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Islam",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Islam",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sin"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fault, guilt",
-     "tags": [
-      "colloquial",
-      "masculine"
+      "masculine",
+      "regional",
+      "uncountable"
      ],
      "cats": [
       {
@@ -96,121 +76,211 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 20 52 12 6"
+       "_dis": "3 43 3 12 3 36"
+      },
+      {
+       "name": "Apulian Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 32 11 11 11 25"
+      },
+      {
+       "name": "Calabrian Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 38 10 10 10 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "scree"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mountain pass",
+     "tags": [
+      "masculine",
+      "regional",
+      "uncountable"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mountain pass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "summer pasture, shieling",
+     "tags": [
+      "masculine",
+      "regional",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 43 3 12 3 36"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "summer",
+      "pasture",
+      "shieling"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "courtyard",
+     "tags": [
+      "masculine",
+      "regional",
+      "uncountable"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "courtyard"
+     ]
+    }
+   ],
+   "rank": 10042,
+   "count": 65,
+   "family": "val",
+   "is_root": true,
+   "etymology": "Likely borrowed from Latin vallis. The term may be an example of an ancient borrowing that later fell out of use. Its presence is minimal but scattered both in Southern and Northern Albanian toponyms.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "i pasun mal e val"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "vale",
+     "tag": "plural"
+    },
+    {
+     "form": "vali",
+     "tag": "definite"
+    },
+    {
+     "form": "baj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is located in the region of Centre-Val de Loire.",
+    "score": [
+     4,
+     8,
+     -4,
+     10
+    ],
+    "sq": "Ndodhet në rajonin e Centre-Val de Loire."
+   }
+  },
+  {
+   "id": "byrek",
+   "sq": "byrek",
+   "en": "A layered pie with meat, eggs, vegetables or cheese.",
+   "glosses": [
+    "A layered pie with meat, eggs, vegetables or cheese."
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "A layered pie with meat, eggs, vegetables or cheese.",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 27 39 15 3"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 13 71 7 2"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "fault",
-      "guilt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pity, compassion, sympathy",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pity",
-      "compassion",
-      "sympathy"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "anything bad, wrong or unfortunate",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "sa gjynah!",
-       "en": "what a pity!",
-       "offsets": [
-        [
-         3,
-         9
-        ]
-       ]
-      },
-      {
-       "sq": "është gjynah.",
-       "en": "it's a pity.",
-       "offsets": [
-        [
-         6,
-         12
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "bad",
-      "wrong",
-      "unfortunate"
+      "pie"
      ]
     }
    ],
-   "rank": 9836,
-   "count": 67,
-   "family": "gjynah",
+   "rank": 10054,
+   "count": 65,
+   "family": "byrek",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish گناه (günah), ultimately from Classical Persian گناه (gunāh).",
+   "etymology": "Borrowed from Ottoman Turkish بورك (börek).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "gjynahqar"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "gjynahe",
+     "form": "byrekë",
      "tag": "plural"
+    },
+    {
+     "form": "byreku",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's a pity my wife too.",
+    "en": "Is it a pie?",
     "score": [
-     1,
+     0,
      5,
-     -4,
+     -5,
      10
     ],
-    "sq": "Është gjynah edhe gruaja ime."
+    "sq": "A është kjo një byrek?"
    }
   },
   {
-   "id": "sëmur",
-   "sq": "sëmur",
-   "en": "to make someone sick",
+   "id": "përshëndet",
+   "sq": "përshëndet",
+   "en": "to greet, to salute",
    "glosses": [
-    "to make someone sick"
+    "to greet, to salute"
    ],
    "pos": [
     "verb"
@@ -222,7 +292,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to make someone sick",
+     "gloss": "to greet, to salute",
      "tags": [
       "transitive"
      ],
@@ -248,15 +318,14 @@
      ],
      "examples": [],
      "links": [
-      "make",
-      "someone",
-      "sick"
+      "greet",
+      "salute"
      ]
     }
    ],
-   "rank": 9837,
-   "count": 67,
-   "family": "sëmur",
+   "rank": 10068,
+   "count": 65,
+   "family": "përshëndet",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -268,368 +337,115 @@
    "related": [],
    "forms": [
     {
-     "form": "sëmurur",
+     "form": "përshëndetur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The question itself makes you sick.",
+    "corpus": "MaCoCu",
+    "en": "Who is greeting whom and how?",
     "score": [
-     1,
-     4,
-     -3,
-     10
+     0,
+     5,
+     -5,
+     8
     ],
-    "sq": "Vetë pyetja të sëmur."
+    "sq": "Kush përshëndet kë dhe si?"
    }
   },
   {
-   "id": "ndreq",
-   "sq": "ndreq",
-   "en": "to repair, fix, arrange",
+   "id": "injorant",
+   "sq": "injorant",
+   "en": "ignorant",
    "glosses": [
-    "to repair, fix, arrange",
-    "to put in order",
-    "to improve",
-    "to solve, find solution",
-    "to feed and give water",
-    "to cook food, add ingredients to improve food",
-    "to straighten up"
+    "ignorant"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to repair, fix, arrange",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 16 9 11 9 19 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "repair",
-      "fix",
-      "arrange"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to put in order",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 16 9 11 9 19 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "put in order"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to improve",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "improve"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to solve, find solution",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 16 9 11 9 19 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "solve",
-      "solution"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to feed and give water",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "feed",
-      "water"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cook food, add ingredients to improve food",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "ignorant",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 17 7 13 7 24 18"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 16 9 11 9 19 23"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 16 4 14 4 28 20"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "cook",
-      "ingredients"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to straighten up",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 16 9 11 9 19 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "straighten",
-      "up"
+      "ignorant"
      ]
     }
    ],
-   "rank": 9857,
-   "count": 67,
-   "family": "ndreq",
+   "rank": 10071,
+   "count": 65,
+   "family": "injorant",
    "is_root": true,
-   "etymology": "From an attested dialectal dreq, a phonetic variant of drejt. Alternatively from the adverb ndreq (“straight”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "ndreqje",
-    "ndreqës",
-    "pandrequr"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "ndreqa",
-     "tag": "aorist"
-    },
-    {
-     "form": "ndrequr",
-     "tag": "participle"
+     "form": "injorante",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's time to Spruce Up Your Space again.",
+    "en": "Both were ignorant.",
     "score": [
-     1,
-     8,
-     -7,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Është koha për të ndreq Hapësirë juaj përsëri."
+    "sq": "Të dy ishin injorant."
    }
   },
   {
-   "id": "lej",
-   "sq": "lej",
-   "en": "to give birth, bear (children)",
+   "id": "janar",
+   "sq": "janar",
+   "en": "January",
    "glosses": [
-    "to give birth, bear (children)",
-    "to be born",
-    "to rise (of the sun)"
+    "January"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to give birth, bear (children)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 32 21"
-      },
-      {
-       "name": "Pages with 9 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 6 5 17 17 6 7 16 14"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "give birth",
-      "bear"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be born",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "be born"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rise (of the sun)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Leu dielli.",
-       "en": "The sun rose up.",
-       "offsets": [
-        [
-         0,
-         3
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "rise"
-     ]
-    }
-   ],
-   "rank": 9858,
-   "count": 67,
-   "family": "lej",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *laidnja, from an Proto-Indo-European o-grade verb from the root *leyd- (“to release”). Alternatively from an *éy-present from the root *h₂el- (“to grow, nourish”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "lenicë"
-   ],
-   "related": [
-    "lind",
-    "? vëlla"
-   ],
-   "forms": [
-    {
-     "form": "leva",
-     "tag": "aorist"
-    },
-    {
-     "form": "lerë",
-     "tag": "participle"
-    },
-    {
-     "form": "le",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "tavan",
-   "sq": "tavan",
-   "en": "ceiling",
-   "glosses": [
-    "ceiling",
-    "cover, overlay",
-    "roof"
-   ],
-   "pos": [
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ceiling",
+     "gloss": "January",
      "tags": [
       "masculine"
      ],
@@ -638,210 +454,268 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 44 16"
+       "source": "w"
       },
       {
-       "name": "Pages with 9 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 12 15 9 4 4 15 11"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 12 15 9 4 4 15 11"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "ceiling"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cover, overlay",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 44 16"
-      },
-      {
-       "name": "Pages with 9 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 12 15 9 4 4 15 11"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 12 15 9 4 4 15 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cover",
-      "overlay"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "roof",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Mining",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Mining",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 44 16"
-      },
-      {
-       "name": "Pages with 9 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 15 12 15 9 4 4 15 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mining",
-      "roof"
+      "January"
      ]
     }
    ],
-   "rank": 9865,
-   "count": 67,
-   "family": "tavan",
+   "rank": 10074,
+   "count": 65,
+   "family": "janar",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish تاوان (tavan, “ceiling”).",
-   "etymology_class": "borrowed",
+   "etymology": "Ultimately from Latin Iānuārius (“January”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "ceiling"
+    "January"
    ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "tavane",
-     "tag": "plural"
+     "form": "janari",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The ceiling should be white.",
+    "en": "What happened in January happened.",
     "score": [
      0,
      6,
      -6,
      10
     ],
-    "sq": "Tavan duhet të jetë e bardhë."
+    "sq": "Ajo që ndodhi në janar, ndodhi."
    }
   },
   {
-   "id": "kripë",
-   "sq": "kripë",
-   "en": "salt",
+   "id": "pah",
+   "sq": "pah",
+   "en": "finely milled flour, patent flour",
    "glosses": [
-    "salt"
+    "finely milled flour, patent flour",
+    "fine chaff and dust from threshed grain",
+    "sawdust",
+    "pollen",
+    "fine snow flakes; thin layer of snow",
+    "dandruff; grime on a child's head",
+    "appearance",
+    "forwardness",
+    "emphasis, stress"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "salt",
-     "tags": [],
+     "gloss": "finely milled flour, patent flour",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "flour"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fine chaff and dust from threshed grain",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chaff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sawdust",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sawdust"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pollen",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pollen"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fine snow flakes; thin layer of snow",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "3 8 5 5 35 3 1 18 1 5 15"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "2 9 3 3 43 2 1 23 1 3 9"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 11 4 7 41 7 3 22 2"
       }
      ],
      "examples": [],
      "links": [
-      "salt"
+      "snow"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dandruff; grime on a child's head",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "dandruff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "appearance",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "appearance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "forwardness",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "forwardness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "emphasis, stress",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "emphasis",
+      "stress"
      ]
     }
    ],
-   "rank": 9869,
-   "count": 66,
-   "family": "kripë",
+   "rank": 10075,
+   "count": 65,
+   "family": "pah",
    "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *krūpā, from Proto-Indo-European *kroup- (“rough”). Compare Dutch roof (“scabby”), Lithuanian kraupis (“scab”), Serbo-Croatian krúpa (“hail”).",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *pauja, from Proto-Indo-European *pew-. Compare Armenian հոգի (hogi, “breath”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "rough"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "pluhur"
+   ],
    "forms": [
     {
-     "form": "kripa",
+     "form": "pahu",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "tastes a little too sweet.",
+    "en": "For me, this was a highlight.",
     "score": [
      0,
-     3,
-     -3,
+     6,
+     -6,
      10
     ],
-    "sq": "Më pak kripë?"
+    "sq": "Për mua, kjo ishte një pah."
    }
   }
  ]

@@ -1,34 +1,113 @@
 {
  "level": 359,
- "title": "yll, plazh, bari, prapanicë, presion, banjë +4",
+ "title": "gënjej, rob, vonuar, bankë, kampion, aeroport +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "banjë",
-  "bari",
-  "plazh",
-  "prapanicë",
-  "presion",
-  "yll"
+  "aeroport",
+  "bankë",
+  "gënjej",
+  "kampion",
+  "rob",
+  "vonuar"
  ],
  "pos_mix": {
-  "noun": 15
+  "noun": 10,
+  "adj": 1,
+  "verb": 2
  },
  "words": [
   {
-   "id": "yll",
-   "sq": "yll",
-   "en": "star",
+   "id": "gënjeshtar",
+   "sq": "gënjeshtar",
+   "en": "liar",
    "glosses": [
-    "star",
-    "fate, luck",
-    "luminary",
-    "reputation"
+    "liar"
    ],
    "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "liar",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "liar"
+     ]
+    }
+   ],
+   "rank": 2595,
+   "count": 319,
+   "family": "gënjej",
+   "is_root": false,
+   "etymology": "From gënjej + -tar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "gënjej",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "A liar and a thief.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Gënjeshtar dhe hajdut."
+   }
+  },
+  {
+   "id": "rob",
+   "sq": "rob",
+   "en": "slave",
+   "glosses": [
+    "slave",
+    "serf",
+    "prisoner of war",
+    "person, family member",
+    "servant"
+   ],
+   "pos": [
+    "noun",
     "noun",
     "noun",
     "noun",
@@ -38,44 +117,72 @@
     "noun",
     "noun",
     "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "star",
+     "gloss": "slave",
      "tags": [
+      "historical",
       "masculine"
      ],
-     "cats": [
-      {
-       "name": "Astronomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Astronomy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 48 6 4"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "astronomy",
-      "star"
+      "slave"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fate, luck",
+     "gloss": "serf",
      "tags": [
+      "historical",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "serf"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "prisoner of war",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "prisoner of war"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "person, family member",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "person",
+      "family",
+      "member"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "servant",
+     "tags": [
+      "derogatory",
       "figuratively",
       "masculine"
      ],
@@ -85,97 +192,263 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "43 48 6 4"
+       "_dis": "6 7 11 44 32"
       }
      ],
      "examples": [],
      "links": [
-      "fate",
-      "luck"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "luminary",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "luminary"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "reputation",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "reputation"
+      "servant"
      ]
     }
    ],
-   "rank": 2521,
-   "count": 330,
-   "family": "yll",
+   "rank": 2600,
+   "count": 318,
+   "family": "rob",
    "is_root": true,
-   "etymology": "From Old Albanian ȳll (/yːɫ/), from Proto-Albanian *usla, from either\n* Proto-Indo-European *h₁us-los (“the burning one”) (compare Old English ysle (“hot ashes”)), from *h₁ews- (“to burn”) (compare Latin ūrere, Ancient Greek εὕω (heúō, “to singe”)); or\n* from Proto-Indo-European *h₂us-los (“the glowing one”) (compare Sanskrit उ॒स्र (usrá, “reddish, ruddy; bright; matutinal”)), from *h₂ews- (“to dawn”) (compare English Easter, Latin aurōra, and Lithuanian aušrà).",
-   "etymology_class": "inherited",
+   "etymology": "From a South Slavic language; compare Serbo-Croatian rob, Macedonian роб (rob), Bulgarian роб (rob), ultimately derived from Proto-Slavic *orbъ (“servant, slave”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "yej",
-    "yjësi",
-    "yjkë",
-    "yjor",
-    "yllak",
-    "ylle",
-    "yllës",
-    "yllëz"
+    "robëri",
+    "robëreshë",
+    "robinjë",
+    "robëroj",
+    "robi"
    ],
    "related": [],
    "forms": [
     {
-     "form": "yje",
+     "form": "robër",
      "tag": "plural"
     },
     {
-     "form": "ylli",
+     "form": "robi",
      "tag": "definite"
     },
     {
-     "form": "hyll",
-     "tag": "alternative"
+     "form": "rob",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You don't have to be a star.",
+    "en": "Daniel was taken captive here.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Danieli u kap rob këtu."
+   }
+  },
+  {
+   "id": "vonuar",
+   "sq": "vonuar",
+   "en": "late; retarded, feeble-minded",
+   "glosses": [
+    "late; retarded, feeble-minded"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "late; retarded, feeble-minded",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "late",
+      "retarded",
+      "feeble-minded"
+     ]
+    }
+   ],
+   "rank": 2610,
+   "count": 316,
+   "family": "vonuar",
+   "is_root": true,
+   "etymology": "From vonë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "m",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We are very late.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Jemi shumë të vonuar."
+   }
+  },
+  {
+   "id": "bankë",
+   "sq": "bankë",
+   "en": "bank",
+   "glosses": [
+    "bank",
+    "desk"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bank",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bank"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "desk",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "desk"
+     ]
+    }
+   ],
+   "rank": 2613,
+   "count": 316,
+   "family": "bankë",
+   "is_root": true,
+   "etymology": "Borrowed from Italian banca, or more likely through Venetan. Possibly also through French banque or even English bank, though it was used since Buzuku (1555).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "Banka Botërore",
+    "bankë qendrore"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "banka",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "To choose a bank.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Nuk duhet të jesh yll."
+    "sq": "Për të zgjedhur një bankë."
    }
   },
   {
-   "id": "plazh",
-   "sq": "plazh",
-   "en": "beach",
+   "id": "kampion",
+   "sq": "kampion",
+   "en": "champion",
    "glosses": [
-    "beach"
+    "champion"
    ],
    "pos": [
     "noun"
@@ -187,237 +460,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "beach",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "beach"
-     ]
-    }
-   ],
-   "rank": 2528,
-   "count": 329,
-   "family": "plazh",
-   "is_root": true,
-   "etymology": "Borrowed from French plage (compare Turkish plaj).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "plazhe",
-     "tag": "plural"
-    },
-    {
-     "form": "plazhi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "All right on the beach!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Në rregull në plazh!"
-   }
-  },
-  {
-   "id": "bari",
-   "sq": "bari",
-   "en": "shepherd",
-   "glosses": [
-    "shepherd"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shepherd",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "64 10 26"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "shepherd"
-     ]
-    }
-   ],
-   "rank": 2532,
-   "count": 328,
-   "family": "bari",
-   "is_root": true,
-   "etymology": "Back-formation from plural barinjë, from earlier *bar, from Proto-Albanian *bara, from Proto-Indo-European *bʰer- (“to carry”). Compare Old High German baro (“man, husband”). A connection with ari (“bear”) has also been proposed, though ari was originally arth prior to the loss of the -th ending by mistake.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "barinj",
-     "tag": "plural"
-    },
-    {
-     "form": "bariu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I am a shepherd.",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Unë jam një bari."
-   }
-  },
-  {
-   "id": "prapanicë",
-   "sq": "prapanicë",
-   "en": "buttocks",
-   "glosses": [
-    "buttocks"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "buttocks",
-     "tags": [
-      "colloquial",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "buttock"
-     ]
-    }
-   ],
-   "rank": 2534,
-   "count": 328,
-   "family": "prapanicë",
-   "is_root": true,
-   "etymology": "From the preposition prapa (“behind”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "behind"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "prapanica",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This thing kicks butt!",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Kjo gjë nis prapanicë!"
-   }
-  },
-  {
-   "id": "presion",
-   "sq": "presion",
-   "en": "pressure",
-   "glosses": [
-    "pressure"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pressure",
+     "gloss": "champion",
      "tags": [],
      "cats": [
       {
@@ -441,13 +484,13 @@
      ],
      "examples": [],
      "links": [
-      "pressure"
+      "champion"
      ]
     }
    ],
-   "rank": 2537,
-   "count": 328,
-   "family": "presion",
+   "rank": 2617,
+   "count": 315,
+   "family": "kampion",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -460,289 +503,188 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I was under pressure.",
+    "en": "Be a champion!",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Isha nën presion."
+    "sq": "Të jetë një kampion!"
    }
   },
   {
-   "id": "banjë",
-   "sq": "banjë",
-   "en": "bathroom",
+   "id": "aeroport",
+   "sq": "aeroport",
+   "en": "airport, aerodrome, airdrome, airfield",
    "glosses": [
-    "bathroom",
-    "bathtub, bath",
-    "bath (act of washing)",
-    "swim, bath (in the sea, lake, etc.)",
-    "spa, thermal baths",
-    "bath (in which something is immersed)",
-    "toilet, restroom"
+    "airport, aerodrome, airdrome, airfield"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bathroom",
+     "gloss": "airport, aerodrome, airdrome, airfield",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bathroom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bathtub, bath",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bathtub",
-      "bath"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bath (act of washing)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "bëj banjë",
-       "en": "to bathe",
-       "offsets": [
-        [
-         4,
-         9
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "bath"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "swim, bath (in the sea, lake, etc.)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 4 9 12 32 35 5"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "rroba banje",
-       "en": "swimming suit",
-       "offsets": [
-        [
-         6,
-         11
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "swim",
-      "bath"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spa, thermal baths",
-     "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "airport",
+      "aerodrome",
+      "airdrome"
+     ]
+    }
+   ],
+   "rank": 2620,
+   "count": 315,
+   "family": "aeroport",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "When come to the airport?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Kur vijnë në aeroport?"
+   }
+  },
+  {
+   "id": "gënjej",
+   "sq": "gënjej",
+   "en": "to lie",
+   "glosses": [
+    "to lie",
+    "to mislead"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to lie",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lie"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to mislead",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
        "source": "w+disamb",
-       "_dis": "2 2 7 8 40 32 9"
+       "_dis": "42 58"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "4 4 9 12 32 35 5"
+       "_dis": "43 57"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "2 2 4 14 52 24 2"
+       "_dis": "20 80"
       }
      ],
      "examples": [],
      "links": [
-      "spa",
-      "thermal"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bath (in which something is immersed)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Chemistry",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Chemistry",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 2 7 8 40 32 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 4 9 12 32 35 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chemistry",
-      "bath"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "toilet, restroom",
-     "tags": [
-      "euphemistic",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian euphemisms",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "banjë publike",
-       "en": "public restroom",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "toilet",
-      "restroom"
+      "mislead"
      ]
     }
    ],
-   "rank": 2541,
-   "count": 328,
-   "family": "banjë",
+   "rank": 3123,
+   "count": 259,
+   "family": "gënjej",
    "is_root": true,
-   "etymology": "From Vulgar Latin baneum, variant of Latin balneum. Compare Romanian baie f, Proto-Slavic *baňa f. Semantic loan from Italian bagno in many senses.",
+   "etymology": "Borrowed from Vulgar Latin ingannō, from Latin ganniō. Compare Romanian îngâna.",
    "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin baneum",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "banjar",
-    "banjë dielli",
-    "banjëzoj",
-    "banjore",
-    "banjtar"
+    "gënjeshtër",
+    "zhgënjej"
    ],
-   "related": [
-    "banjëmari"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "banja",
-     "tag": "plural"
+     "form": "gënjeva",
+     "tag": "aorist"
     },
     {
-     "form": "banjo",
-     "tag": "alternative"
+     "form": "gënjyer",
+     "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "If I lie, tell me?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Nëse gënjej, më thuaj?"
+   }
   }
  ]
 }

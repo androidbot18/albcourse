@@ -88,12 +88,6 @@ OPENING_MEMBER_MAX_RANK = 1200
 # for an opening slot against a dozen words nobody meets in their first month.
 OPENING_MIN_DEFERRED = 4
 
-# A family is deferred only when its ROOT is at least this rare. Families at
-# the front of the course are left whole: their rare members cannot move out
-# of the opening without moving the whole family, and a whole family in the
-# first ten levels is worth more than a tidy one. See the note at the
-# deferral set below.
-# A family is only deferred when its ROOT is at least this rare. Families at
 # the front of the course are left whole: their rare members cannot move out
 # of the opening without moving the whole family, and a whole family in the
 # first ten levels is worth more than a tidy one. See the note at the
@@ -101,16 +95,26 @@ OPENING_MIN_DEFERRED = 4
 DEFER_MAX_ROOT_RANK = 900
 
 # The common head must be at least this large before a family inside the
-# opening is split. Below it, the split only shuffles rare words and costs a
-# session: do has 1 common word and stayed whole; per has 4 and was split.
-# per's head of 4 displaced THREE sessions (per 1/3, 2/3, 3/3) and pushed
-# une from L11 to L15 -- a bad trade for moving one word from L13 to L11.
-# Raise the bar so a family only earns that many sessions when its head can
-# actually fill them. per's head is 4 and its tail is 19, so it stops# splitting and stays whole at L13; një's head is 3 against5 and also stops.
-# A family inside the opening is split only when its common head is at least
-# this large. Below it the split only shuffles rare words: do has 1 common word
-# and stayed whole; per has 4 and is split.
-DEFER_MIN_HEAD_IN_OPENING = 4
+# opening is split. Below it the split only shuffles rare words and costs a
+# session.
+#
+# Raised 4 -> 5 so a promoted noun can never be bought at the cost of a
+# function word's opening slot. At 4, per (rank 13) split into four
+# consecutive sessions -- its head is 4 words against a tail of 19 -- and those
+# sessions displaced three others, pushing une ("I") from L11 to L16. One
+# word moving four levels earlier is not worth three sessions of the opening
+# going to a rare tail.
+#
+# The cost here is deliberate and measured, not an oversight: per reverts to
+# the late level it shipped at before this work, because the defect that was
+# actually fixed -- per teaching late because a TAIL member gated it -- is
+# fixed by scoring prerequisites over the HEAD. Splitting and scoring are two
+# independent levers; only scoring is load-bearing for per.
+#
+# do (rank 4): head [do] = 1, tail = 7. Under the bar, stays whole.
+# per (rank 13): head 4, tail = 19. Under the bar, stays whole.
+# nje (rank 11): head 3, tail = 5. Under the bar, stays whole.
+DEFER_MIN_HEAD_IN_OPENING = 5
 
 # A common head at least this large already occupies the opening, so moving
 # its tail out cannot help -- it can only shuffle the rare words a few levels

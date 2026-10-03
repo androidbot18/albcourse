@@ -1,47 +1,103 @@
 {
  "level": 222,
- "title": "dhjetë, gjendje, kafe +1",
- "root": "",
- "root_gloss": "",
+ "title": "vjedh",
+ "root": "vjedh",
+ "root_gloss": "to steal",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 3,
  "families": [
-  "dhjetë",
-  "gjendje",
-  "kafe"
+  "vjedh"
  ],
  "pos_mix": {
-  "num": 1,
-  "noun": 6
+  "verb": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "dhjetë",
-   "sq": "dhjetë",
-   "en": "ten",
+   "id": "vjedh",
+   "sq": "vjedh",
+   "en": "to steal",
    "glosses": [
-    "ten"
+    "to steal"
    ],
    "pos": [
-    "num"
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "ten",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to steal",
      "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "steal"
+     ]
+    }
+   ],
+   "rank": 2546,
+   "count": 327,
+   "family": "vjedh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
+   "etymology_class": "root",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vodha",
+     "tag": "aorist"
+    },
+    {
+     "form": "vjedhur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It steals data from you.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Ajo vjedh të dhëna nga ju."
+   }
+  },
+  {
+   "id": "vjedhur",
+   "sq": "vjedhur",
+   "en": "steal, past form (from vjedh, to steal)",
+   "glosses": [
+    "steal, past form (from vjedh, to steal)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "steal, past form (from vjedh, to steal)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -53,20 +109,24 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "ten"
-     ]
+     "is_form_of": "vjedh"
     }
    ],
-   "rank": 890,
-   "count": 1073,
-   "family": "dhjetë",
-   "is_root": true,
-   "etymology": "From *djeth + -të, from Proto-Albanian *detsa, from Proto-Indo-European *déḱm̥. Initial dh- from decimal compounds like tridhjetë (“thirty”).",
-   "etymology_class": "derived",
+   "rank": 948,
+   "count": 1004,
+   "family": "vjedh",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -75,245 +135,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "I was ten years old.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Isha dhjetë vjeç."
-   }
-  },
-  {
-   "id": "gjendje",
-   "sq": "gjendje",
-   "en": "situation, state, condition",
-   "glosses": [
-    "situation, state, condition"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "situation, state, condition",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "situation",
-      "state",
-      "condition"
-     ]
-    }
-   ],
-   "rank": 892,
-   "count": 1072,
-   "family": "gjendje",
-   "is_root": true,
-   "etymology": "A gerund gjej.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gjendje",
-     "tag": "plural"
-    },
-    {
-     "form": "gjendja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
     "corpus": "HPLT",
-    "en": "is in poor condition.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "është në gjendje të keqe."
-   }
-  },
-  {
-   "id": "kafe",
-   "sq": "kafe",
-   "en": "a plant of the genus Coffea, coffee bean",
-   "glosses": [
-    "a plant of the genus Coffea, coffee bean",
-    "Brown",
-    "ground coffee beans, the beverage brewed from it",
-    "coffeeshop"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a plant of the genus Coffea, coffee bean",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "Coffea",
-      "coffee bean"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Brown",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ground coffee beans, the beverage brewed from it",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 4 13 7 36 15 1 1 3 4 3 1 3"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 2 15 4 42 21 1 1 2 2 2 1 1"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "19 6 51 24"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "coffee"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coffeeshop",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "coffeeshop"
-     ]
-    }
-   ],
-   "rank": 893,
-   "count": 1070,
-   "family": "kafe",
-   "is_root": true,
-   "etymology": "From Ottoman Turkish قهوه (kahve, “coffee”), from Arabic قَهْوَة (qahwa, “coffee, a brew”). Another explanation claims it traces back to the name of the Kaffa region of Ethiopia, which is an Omotic word.",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish kahve (\"coffee\")",
-   "parents": [
-    "coffee"
-   ],
-   "components": [],
-   "derived": [
-    "kafene",
-    "kafehane",
-    "kafexhi",
-    "kafenjtë",
-    "kafeinë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "kafe",
-     "tag": "plural"
-    },
-    {
-     "form": "kafja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Good coffee.",
+    "en": "Have you ever stolen?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Kafe e mirë."
+    "sq": "Ke vjedhur ndonjëherë?"
    }
   },
   {
-   "id": "dhjetor",
-   "sq": "dhjetor",
-   "en": "December",
+   "id": "vjedhës",
+   "sq": "vjedhës",
+   "en": "thief",
    "glosses": [
-    "December"
+    "thief"
    ],
    "pos": [
     "noun"
@@ -325,8 +163,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "December",
-     "tags": [],
+     "gloss": "thief",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -335,7 +175,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -or (month)",
+       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -349,24 +189,22 @@
      ],
      "examples": [],
      "links": [
-      "December"
+      "thief"
      ]
     }
    ],
-   "rank": 6835,
-   "count": 103,
-   "family": "dhjetë",
+   "rank": 17203,
+   "count": 32,
+   "family": "vjedh",
    "is_root": false,
-   "etymology": "Calque of Latin December, from dhjetë (“ten”) + -or.",
+   "etymology": "From vjedh + -ës.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "ten"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "dhjetë",
+     "word": "vjedh",
      "role": "prefix"
     }
    ],
@@ -374,20 +212,24 @@
    "related": [],
    "forms": [
     {
-     "form": "dhjetori",
+     "form": "vjedhës",
+     "tag": "plural"
+    },
+    {
+     "form": "vjedhësi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What happened in December?",
+    "en": "Also if you will be a thief.",
     "score": [
-     0,
-     4,
-     -4,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Çfarë ndodhi në dhjetor?"
+    "sq": "Gjithashtu nëse do të jeni vjedhës."
    }
   }
  ]

@@ -1,114 +1,252 @@
 {
  "level": 49,
- "title": "dy",
- "root": "dy",
- "root_gloss": "two",
+ "title": "pa",
+ "root": "pa",
+ "root_gloss": "without, minus",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "dy"
+  "pa"
  ],
  "pos_mix": {
-  "num": 3
+  "prep": 2,
+  "adv": 2,
+  "adj": 4
  },
  "words": [
   {
-   "id": "dy",
-   "sq": "dy",
-   "en": "two",
+   "id": "pa",
+   "sq": "pa",
+   "en": "without, minus",
    "glosses": [
-    "two"
+    "without, minus",
+    "not counting, even without counting"
    ],
    "pos": [
-    "num"
+    "prep",
+    "prep"
    ],
    "pos_labels": [
-    "numeral"
+    "preposition",
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "two",
-     "tags": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "without, minus",
+     "tags": [
+      "with-accusative"
+     ],
      "cats": [
       {
-       "name": "Albanian cardinal numbers",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "38 40 22"
       },
       {
-       "name": "Albanian entries with etymon",
+       "name": "Albanian prepositions governing the accusative",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "33 38 28"
       }
      ],
      "examples": [],
      "links": [
-      "two"
+      "without",
+      "minus"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "not counting, even without counting",
+     "tags": [
+      "with-accusative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 40 22"
+      },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 38 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "not counting",
+      "even without counting"
      ]
     }
    ],
-   "rank": 92,
-   "count": 15285,
-   "family": "dy",
+   "rank": 108,
+   "count": 12873,
+   "family": "pa",
    "is_root": true,
-   "etymology": "From Proto-Albanian *duwō masc, *duwai fem, from Proto-Indo-European *dwóh₁. Matzinger reconstructs *duu̯a.",
+   "etymology": "From Proto-Albanian *apa, from Proto-Indo-European *h₂epó (“off, away”). Cognate to Messapic [script needed] (apa, “from, out of, by”), Ancient Greek ἀπό (apó, “away, off”), Sanskrit अप (apá).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "prapë",
+    "pas",
+    "patjetër"
+   ],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And I have two!",
+    "en": "But here, not without learning.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Por këtu, jo pa mësuar."
+   }
+  },
+  {
+   "id": "patjetër",
+   "sq": "patjetër",
+   "en": "by all means, definitely",
+   "glosses": [
+    "by all means, definitely",
+    "for sure, without doubt, sure thing"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "by all means, definitely",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "by",
+      "all",
+      "means"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "for sure, without doubt, sure thing",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 93"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 95"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "for sure",
+      "without doubt",
+      "sure thing"
+     ]
+    }
+   ],
+   "rank": 663,
+   "count": 1537,
+   "family": "pa",
+   "is_root": false,
+   "etymology": "From pa (“without”) + tjetër (“other”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "without",
+    "other"
+   ],
+   "components": [
+    {
+     "word": "pa",
+     "role": "prefix"
+    },
+    {
+     "word": "tjetër",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "i patjetërsuar",
+    "patjetërsueshmëri",
+    "patjetërsueshëm"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Of course not, of course not.",
     "score": [
      0,
      3,
      -3,
-     10
+     5
     ],
-    "sq": "Dhe kam dy!"
+    "sq": "Patjetër që jo."
    }
   },
   {
-   "id": "dymbëdhjetë",
-   "sq": "dymbëdhjetë",
-   "en": "twelve",
+   "id": "pabesueshëm",
+   "sq": "pabesueshëm",
+   "en": "unbelievable, implausible",
    "glosses": [
-    "twelve"
+    "unbelievable, implausible"
    ],
    "pos": [
-    "num"
+    "adj"
    ],
    "pos_labels": [
-    "numeral"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "twelve",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "unbelievable, implausible",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -116,7 +254,90 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -shëm",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Tregimet e tij janë totalisht të pabesueshme.",
+       "en": "His stories are entirely unbelievable.",
+       "offsets": [
+        [
+         33,
+         44
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "unbelievable",
+      "implausible"
+     ]
+    }
+   ],
+   "rank": 5864,
+   "count": 125,
+   "family": "pa",
+   "is_root": false,
+   "etymology": "From pa- + besue + -shëm.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pa",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "paparashikueshëm",
+   "sq": "paparashikueshëm",
+   "en": "unforeseeable",
+   "glosses": [
+    "unforeseeable"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "unforeseeable",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -124,24 +345,22 @@
      ],
      "examples": [],
      "links": [
-      "twelve"
+      "unforeseeable"
      ]
     }
    ],
-   "rank": 6015,
-   "count": 120,
-   "family": "dy",
+   "rank": 16231,
+   "count": 34,
+   "family": "pa",
    "is_root": false,
-   "etymology": "From dy (“two”) + -mbëdhjetë (“-teen”).",
+   "etymology": "From pa- + parashikueshëm.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "two"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "dy",
+     "word": "pa",
      "role": "prefix"
     }
    ],
@@ -150,42 +369,36 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "it was twelve men.",
+    "en": "He was unpredictable.",
     "score": [
      1,
      4,
      -3,
      10
     ],
-    "sq": "ajo ishte dymbëdhjetë burra."
+    "sq": "Ai ishte i paparashikueshëm."
    }
   },
   {
-   "id": "dyzet",
-   "sq": "dyzet",
-   "en": "forty",
+   "id": "parregullt",
+   "sq": "parregullt",
+   "en": "irregular",
    "glosses": [
-    "forty"
+    "irregular"
    ],
    "pos": [
-    "num"
+    "adj"
    ],
    "pos_labels": [
-    "numeral"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "forty",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "irregular",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -193,7 +406,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -zet",
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -201,25 +420,101 @@
      ],
      "examples": [],
      "links": [
-      "forty"
+      "irregular"
      ]
     }
    ],
-   "rank": 11203,
-   "count": 57,
-   "family": "dy",
+   "rank": 23106,
+   "count": 21,
+   "family": "pa",
    "is_root": false,
-   "etymology": "From dy (“two”) + -zet (“twenty”).",
+   "etymology": "From pa- + rregullt.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "two",
-    "twenty"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "dy",
+     "word": "pa",
+     "role": "prefix"
+    },
+    {
+     "word": "rregullt",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "It sounds like an oxymoron.",
+    "score": [
+     3,
+     6,
+     -3,
+     4
+    ],
+    "sq": "Duket si një model i parregullt."
+   }
+  },
+  {
+   "id": "paharrueshëm",
+   "sq": "paharrueshëm",
+   "en": "unforgettable",
+   "glosses": [
+    "unforgettable"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "unforgettable",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with pa-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unforgettable"
+     ]
+    }
+   ],
+   "rank": 46790,
+   "count": 7,
+   "family": "pa",
+   "is_root": false,
+   "etymology": "pa- + harrueshëm",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pa",
      "role": "prefix"
     }
    ],
@@ -228,14 +523,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "for these forty days.",
+    "en": "Welcome to an enriching stay!",
     "score": [
-     2,
-     4,
-     -2,
+     1,
+     8,
+     -7,
      10
     ],
-    "sq": "për këto dyzet ditë."
+    "sq": "Mirë se vini në një qëndrim të paharrueshëm!"
    }
   }
  ]

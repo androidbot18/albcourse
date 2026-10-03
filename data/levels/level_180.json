@@ -1,39 +1,219 @@
 {
  "level": 180,
- "title": "qartë",
- "root": "qartë",
- "root_gloss": "clear",
+ "title": "mësoj",
+ "root": "mësoj",
+ "root_gloss": "to teach, instruct, train",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "qartë"
+  "mësoj"
  ],
  "pos_mix": {
-  "adj": 1,
-  "adv": 1,
-  "noun": 1
+  "verb": 4,
+  "noun": 3,
+  "adj": 1
  },
  "words": [
   {
-   "id": "qartë",
-   "sq": "qartë",
-   "en": "clear",
+   "id": "mësoj",
+   "sq": "mësoj",
+   "en": "to teach, instruct, train",
    "glosses": [
-    "clear"
+    "to teach, instruct, train",
+    "to learn, learn of, find out",
+    "to get used to, accustom"
    ],
    "pos": [
-    "adj"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "clear",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to teach, instruct, train",
      "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 36 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 36"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Më mëso diçka.",
+       "en": "Teach me something.",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "teach"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to learn, learn of, find out",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 36 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 36"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Po mësoj shqip.",
+       "en": "I'm learning Albanian.",
+       "offsets": [
+        [
+         3,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "learn"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get used to, accustom",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 32 40"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 36 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 36"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "accustom"
+     ]
+    }
+   ],
+   "rank": 1479,
+   "count": 600,
+   "family": "mësoj",
+   "is_root": true,
+   "etymology": "From Old Albanian mpson (Bogdani, Budi), ëmpson (Buzuku), from Proto-Albanian *imbitjɔnit, borrowed from Vulgar Latin *invitiō, *invitiāre, from *vitiō, from Latin vitium (“vice”). Compare Romanian învăța.\nOtherwise from pësoj, itself of Latin origin, developing in mpsoj, psoj, mbsoj, mbësoj and other dialectal forms.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "vice"
+   ],
+   "components": [],
+   "derived": [
+    "mësim",
+    "mësohem",
+    "mësonjës",
+    "mësonjëtore",
+    "mësues"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "mësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "mësuar",
+     "tag": "participle"
+    },
+    {
+     "form": "mësonj",
+     "tag": "alternative"
+    },
+    {
+     "form": "mbësonj",
+     "tag": "alternative"
+    },
+    {
+     "form": "msoj",
+     "tag": "alternative"
+    },
+    {
+     "form": "psoj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "mësuar",
+   "sq": "mësuar",
+   "en": "teach, past form (from mësoj, to teach)",
+   "glosses": [
+    "teach, past form (from mësoj, to teach)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "teach, past form (from mësoj, to teach)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -55,17 +235,15 @@
       }
      ],
      "examples": [],
-     "links": [
-      "clear"
-     ]
+     "is_form_of": "mësoj"
     }
    ],
-   "rank": 600,
-   "count": 1701,
-   "family": "qartë",
-   "is_root": true,
-   "etymology": "Seemingly from Italian chiaro. However, due to the existence of dialectal klartë and kjartë, a loan from Latin clarus seems more probable.",
-   "etymology_class": "borrowed",
+   "rank": 658,
+   "count": 1551,
+   "family": "mësoj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -74,150 +252,227 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It is very clear.",
+    "corpus": "QED",
+    "en": "What did you find out?",
     "score": [
      0,
      3,
      -3,
-     8
+     5
     ],
-    "sq": "Shumë e qartë."
+    "sq": "Çfarë keni mësuar?"
    }
   },
   {
-   "id": "qartësisht",
-   "sq": "qartësisht",
-   "en": "clearly; obviously",
+   "id": "mësim",
+   "sq": "mësim",
+   "en": "course",
    "glosses": [
-    "clearly; obviously"
+    "course",
+    "lesson"
    ],
    "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "clearly; obviously",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -isht",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "clearly",
-      "obviously"
-     ]
-    }
-   ],
-   "rank": 17263,
-   "count": 32,
-   "family": "qartë",
-   "is_root": false,
-   "etymology": "From qartë + -isht.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "qartë",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Obviously, much better than last week.",
-    "score": [
-     1,
-     8,
-     -7,
-     8
-    ],
-    "sq": "Qartësisht, shumë më mirë se javën e shkuar."
-   }
-  },
-  {
-   "id": "qartësi",
-   "sq": "qartësi",
-   "en": "clarity",
-   "glosses": [
-    "clarity"
-   ],
-   "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "clarity",
-     "tags": [],
+     "gloss": "course",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "course"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lesson",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 85"
       },
       {
-       "name": "Albanian terms suffixed with -ësi",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "18 82"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "18 82"
       }
      ],
      "examples": [],
      "links": [
-      "clarity"
+      "lesson"
      ]
     }
    ],
-   "rank": 34777,
-   "count": 12,
-   "family": "qartë",
+   "rank": 2068,
+   "count": 418,
+   "family": "mësoj",
    "is_root": false,
-   "etymology": "From qartë + -ësi.",
+   "etymology": "From mësoj + -im noun suffix.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "qartë",
+     "word": "mësoj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "mësimdhënës",
+    "mësimdhënie",
+    "mësimor"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "mësime",
+     "tag": "plural"
+    },
+    {
+     "form": "mësimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "When in class.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Kur je në mësim."
+   }
+  },
+  {
+   "id": "mësues",
+   "sq": "mësues",
+   "en": "teacher, instructor",
+   "glosses": [
+    "teacher, instructor",
+    "instructive"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "teacher, instructor",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      },
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 45"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "teacher",
+      "instructor"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "instructive",
+     "tags": [
+      "instructive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      },
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 45"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "instructive"
+     ]
+    }
+   ],
+   "rank": 2573,
+   "count": 322,
+   "family": "mësoj",
+   "is_root": false,
+   "etymology": "From mësoj (“to teach”) + -ues.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mësoj",
      "role": "prefix"
     }
    ],
@@ -225,20 +480,20 @@
    "related": [],
    "forms": [
     {
-     "form": "qartësia",
-     "tag": "definite"
+     "form": "mësuese",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We have not had clarity.",
+    "corpus": "Tatoeba",
+    "en": "I'm a teacher.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     0
     ],
-    "sq": "Nuk kemi pasur qartësi."
+    "sq": "Unë jam mësues."
    }
   }
  ]

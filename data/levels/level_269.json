@@ -1,43 +1,39 @@
 {
  "level": 269,
- "title": "dhemb, udhëtim, marre, falë +2",
- "root": "",
- "root_gloss": "",
+ "title": "fuqi",
+ "root": "fuqi",
+ "root_gloss": "strength, force, might",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 2,
  "families": [
-  "dhemb",
-  "falë",
-  "marre",
-  "udhëtim"
+  "fuqi"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 6,
-  "prep": 1
+  "noun": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "dhemb",
-   "sq": "dhemb",
-   "en": "to smart, feel pain",
+   "id": "fuqi",
+   "sq": "fuqi",
+   "en": "strength, force, might",
    "glosses": [
-    "to smart, feel pain"
+    "strength, force, might"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to smart, feel pain",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "strength, force, might",
      "tags": [
-      "intransitive"
+      "physical"
      ],
      "cats": [
       {
@@ -47,13 +43,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages using invalid parameters when calling Template:R:sq:Meyer:1891",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,66 +57,77 @@
      ],
      "examples": [],
      "links": [
-      "smart",
-      "feel",
-      "pain"
+      "strength",
+      "force",
+      "might"
      ]
     }
    ],
-   "rank": 1223,
-   "count": 745,
-   "family": "dhemb",
+   "rank": 1303,
+   "count": 689,
+   "family": "fuqi",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dzemba, from Proto-Indo-European *ǵembʰ- (“to bite”). Compare Sanskrit जम्भति (jambhati, “to snap at”) and Lithuanian žembiù (“to cut”).",
+   "etymology": "Uncertain; possibly from Proto-Albanian:\n*spukja, either cognate with Latvian spèks (“strength”), from Proto-Indo-European *speh₁- (“to succeed, prosper”) or Ancient Greek φῦσα (phûsa, “breath; bellows”), Old Armenian փուք (pʻukʻ, “breath”), Lithuanian pùsti (“to swell”), from Proto-Indo-European *(s)pew- (“to inflate”). Alternatively, from *fujqi, borrowed from Vulgar Latin *fulcius, from Latin fulcīō (“to prop up; to support; to make strong”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "strength",
+    "breath"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhembur",
-     "tag": "participle"
+     "form": "fuqi",
+     "tag": "plural"
+    },
+    {
+     "form": "fuqia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It hurts so much.",
+    "corpus": "TED2020",
+    "en": "How much power do we have?",
     "score": [
      0,
      3,
      -3,
-     10
+     4
     ],
-    "sq": "Dhemb kaq shumë."
+    "sq": "Sa fuqi kemi?"
    }
   },
   {
-   "id": "udhëtim",
-   "sq": "udhëtim",
-   "en": "travel, journey",
+   "id": "fuqishëm",
+   "sq": "fuqishëm",
+   "en": "powerful, mighty, strong; vigorous",
    "glosses": [
-    "travel, journey"
+    "powerful, mighty, strong; vigorous"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "travel, journey",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "powerful, mighty, strong; vigorous",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -130,329 +137,44 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "travel",
-      "journey"
+      "powerful",
+      "mighty",
+      "strong"
      ]
     }
    ],
-   "rank": 1224,
-   "count": 745,
-   "family": "udhëtim",
-   "is_root": true,
-   "etymology": "From udhëtoj.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "Have a pleasant trip.",
-    "score": [
-     0,
-     3,
-     -3,
-     0
-    ],
-    "sq": "Udhëtim të mbarë."
-   }
-  },
-  {
-   "id": "marre",
-   "sq": "marre",
-   "en": "shame",
-   "glosses": [
-    "shame",
-    "disgrace, dishonor",
-    "foolery, opaqueness, turpitude"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shame",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 9 45"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "shame"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "disgrace, dishonor",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "disgrace",
-      "dishonor"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "foolery, opaqueness, turpitude",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 9 45"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "foolery",
-      "opaqueness",
-      "turpitude"
-     ]
-    }
-   ],
-   "rank": 1225,
-   "count": 745,
-   "family": "marre",
-   "is_root": true,
-   "etymology": "See marrë (and marrtë).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "marri",
-    "marrëzi"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "GlobalVoices",
-    "en": "Anyone can participate.",
-    "score": [
-     0,
-     5,
-     -5,
-     3
-    ],
-    "sq": "Çdokush mund të marre pjesë."
-   }
-  },
-  {
-   "id": "falë",
-   "sq": "falë",
-   "en": "thanks to, owing to",
-   "glosses": [
-    "thanks to, owing to"
-   ],
-   "pos": [
-    "prep"
-   ],
-   "pos_labels": [
-    "preposition"
-   ],
-   "sense_detail": [
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "thanks to, owing to",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thanks to",
-      "owing to"
-     ]
-    }
-   ],
-   "rank": 1227,
-   "count": 741,
-   "family": "falë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And it happened thanks to her!",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Dhe kjo ndodhi falë saj!"
-   }
-  },
-  {
-   "id": "dhembje",
-   "sq": "dhembje",
-   "en": "pain",
-   "glosses": [
-    "pain",
-    "ache"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pain",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pain"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ache",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ache"
-     ]
-    }
-   ],
-   "rank": 14016,
-   "count": 42,
-   "family": "dhemb",
+   "rank": 1583,
+   "count": 553,
+   "family": "fuqi",
    "is_root": false,
-   "etymology": "Gerund of dhemb; dhemb + -je.",
+   "etymology": "From fuqi + -shëm.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "dhemb",
+     "word": "fuqi",
      "role": "prefix"
     }
    ],
-   "derived": [
-    "dhembje koke"
-   ],
+   "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dhembje",
-     "tag": "plural"
-    },
-    {
-     "form": "dhembja",
-     "tag": "definite"
-    },
-    {
-     "form": "dhimje",
-     "tag": "alternative"
-    },
-    {
-     "form": "dhimbje",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Please let me recover.",
+    "corpus": "HPLT",
+    "en": "They are powerful.",
     "score": [
-     1,
-     3,
-     -2,
-     5
+     0,
+     4,
+     -4,
+     10
     ],
-    "sq": "Kam shume dhembje."
+    "sq": "Ata janë të fuqishëm."
    }
   }
  ]

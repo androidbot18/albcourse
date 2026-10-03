@@ -1,108 +1,151 @@
 {
  "level": 144,
- "title": "andaj",
- "root": "andaj",
- "root_gloss": "therefore, thus",
+ "title": "mëngjes",
+ "root": "mëngjes",
+ "root_gloss": "morning",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "andaj"
+  "mëngjes"
  ],
  "pos_mix": {
-  "adv": 1,
-  "conj": 1
+  "noun": 2,
+  "intj": 1
  },
  "words": [
   {
-   "id": "andaj",
-   "sq": "andaj",
-   "en": "therefore, thus",
+   "id": "mëngjes",
+   "sq": "mëngjes",
+   "en": "morning",
    "glosses": [
-    "therefore, thus"
+    "morning",
+    "breakfast"
    ],
    "pos": [
-    "adv"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "therefore, thus",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "morning",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "morning"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "breakfast",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "18 82"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "18 82"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 91"
       }
      ],
      "examples": [],
      "links": [
-      "therefore",
-      "thus"
+      "breakfast"
      ]
     }
    ],
-   "rank": 3986,
-   "count": 195,
-   "family": "andaj",
+   "rank": 430,
+   "count": 2445,
+   "family": "mëngjes",
    "is_root": true,
-   "etymology": "From andej.",
-   "etymology_class": null,
+   "etymology": "The initial mën- is either related to muaj (cf. gjithmonë) or Latin mane (“morning”), from Proto-Indo-European *meh₂- (“to ripern, to mature”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [],
+   "related": [
+    "mbrëmje"
+   ],
+   "forms": [
+    {
+     "form": "mëngjese",
+     "tag": "plural"
+    },
+    {
+     "form": "mëngjesi",
+     "tag": "definite"
+    },
+    {
+     "form": "mangjez",
+     "tag": "alternative"
+    },
+    {
+     "form": "mngjes",
+     "tag": "alternative"
+    },
+    {
+     "form": "mjes",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "So here it is.",
+    "corpus": "HPLT",
+    "en": "and now 3 morning.",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
-     4
+     10
     ],
-    "sq": "Andaj ja ku është."
+    "sq": "dhe tani 3 mëngjes."
    }
   },
   {
-   "id": "prandaj",
-   "sq": "prandaj",
-   "en": "therefore, thus",
+   "id": "mirëmëngjes",
+   "sq": "mirëmëngjes",
+   "en": "good morning",
    "glosses": [
-    "therefore, thus"
+    "good morning"
    ],
    "pos": [
-    "conj"
+    "intj"
    ],
    "pos_labels": [
-    "conjunction"
+    "interjection"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "therefore, thus",
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good morning",
      "tags": [],
      "cats": [
       {
@@ -126,48 +169,42 @@
      ],
      "examples": [],
      "links": [
-      "therefore",
-      "thus"
+      "good morning"
      ]
     }
    ],
-   "rank": 401,
-   "count": 2626,
-   "family": "andaj",
+   "rank": 1577,
+   "count": 554,
+   "family": "mëngjes",
    "is_root": false,
-   "etymology": "From për + andaj.",
+   "etymology": "From mirë + mëngjes.",
    "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "për",
+     "word": "mirë",
      "role": "prefix"
     },
     {
-     "word": "andaj",
+     "word": "mëngjes",
      "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "andaj",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "So be very careful!",
+    "corpus": "QED",
+    "en": "Good morning.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     5
     ],
-    "sq": "Prandaj ki shumë kujdes!"
+    "sq": "Mirëmëngjes. Si jeni?"
    }
   }
  ]

@@ -1,43 +1,178 @@
 {
  "level": 307,
- "title": "preferoj, bazë, ish +1",
- "root": "",
- "root_gloss": "",
+ "title": "mbret",
+ "root": "mbret",
+ "root_gloss": "king (monarch or chess piece)",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 2,
  "families": [
-  "bazë",
-  "ish",
-  "preferoj"
+  "mbret"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 1,
-  "intj": 1
+  "noun": 3
  },
  "words": [
   {
-   "id": "preferuar",
-   "sq": "preferuar",
-   "en": "prefer, past form (from preferoj, to prefer)",
+   "id": "mbret",
+   "sq": "mbret",
+   "en": "king (monarch or chess piece)",
    "glosses": [
-    "prefer, past form (from preferoj, to prefer)"
+    "king (monarch or chess piece)",
+    "king in a pack of playing cards"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "prefer, past form (from preferoj, to prefer)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "king (monarch or chess piece)",
      "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Chess",
+       "langcode": "sq",
+       "_dis": "98 2"
+      },
+      {
+       "name": "Monarchy",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Monarchy",
+       "langcode": "sq",
+       "_dis": "78 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "king"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "king in a pack of playing cards",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Card games",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Card games",
+       "langcode": "sq"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 48 51"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "card game",
+      "king",
+      "playing card"
+     ]
+    }
+   ],
+   "rank": 1681,
+   "count": 525,
+   "family": "mbret",
+   "is_root": true,
+   "etymology": "From Vulgar Latin *imperātus (compare Romanian împărat, Aromanian ampirat), from Latin imperātor.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin imperātus",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "mbretëreshë",
+    "mbretëri",
+    "mbretërim",
+    "mbretëroj",
+    "mbretëror",
+    "mbretërore",
+    "mpret"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "mbretër",
+     "tag": "plural"
+    },
+    {
+     "form": "mbreti",
+     "tag": "definite"
+    },
+    {
+     "form": "mbëret",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A real King?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Një Mbret të vërtetë?"
+   }
+  },
+  {
+   "id": "mbretit",
+   "sq": "mbretit",
+   "en": "the king, singular (from mbret)",
+   "glosses": [
+    "the king, singular (from mbret)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the king, singular (from mbret)",
+     "tags": [
+      "ablative",
+      "dative",
+      "definite",
       "form-of",
-      "participle"
+      "genitive",
+      "masculine",
+      "singular"
      ],
      "cats": [
       {
@@ -60,12 +195,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "preferoj"
+     "is_form_of": "mbret"
     }
    ],
-   "rank": 1653,
-   "count": 531,
-   "family": "preferoj",
+   "rank": 1964,
+   "count": 440,
+   "family": "mbret",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -78,246 +213,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do you have a favorite number?",
+    "en": "There are three people behind the king.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Ke një numër të preferuar?"
-   }
-  },
-  {
-   "id": "bazë",
-   "sq": "bazë",
-   "en": "base",
-   "glosses": [
-    "base"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "base",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chemistry",
-      "base"
-     ]
-    }
-   ],
-   "rank": 1659,
-   "count": 530,
-   "family": "bazë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "baza",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Work has been done on this basis.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Mbi këtë bazë është punuar."
-   }
-  },
-  {
-   "id": "ish",
-   "sq": "ish",
-   "en": "used to chase chicken away",
-   "glosses": [
-    "used to chase chicken away"
-   ],
-   "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "used to chase chicken away",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chase",
-      "chicken",
-      "away"
-     ]
-    }
-   ],
-   "rank": 1662,
-   "count": 530,
-   "family": "ish",
-   "is_root": true,
-   "etymology": "Onomatopoeic.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ush",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Below is the ex.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Më poshtë është ish."
-   }
-  },
-  {
-   "id": "preferoj",
-   "sq": "preferoj",
-   "en": "to prefer",
-   "glosses": [
-    "to prefer"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to prefer",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "prefer"
-     ]
-    }
-   ],
-   "rank": 3586,
-   "count": 220,
-   "family": "preferoj",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "preferova",
-     "tag": "aorist"
-    },
-    {
-     "form": "preferuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I prefer not to think about it!",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Unë preferoj të mos mendoj për këtë!"
+    "sq": "Tre vetë janë pas mbretit."
    }
   }
  ]

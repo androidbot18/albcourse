@@ -1,38 +1,45 @@
 {
  "level": 374,
- "title": "lëndoj",
- "root": "lëndoj",
- "root_gloss": "to hurt, touch",
+ "title": "kuzhinë, karrige, shkallë, dale, vepër +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 9,
  "families": [
-  "lëndoj"
+  "dale",
+  "karrige",
+  "kuzhinë",
+  "shkallë",
+  "vepër"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 1
+  "noun": 10,
+  "intj": 2,
+  "verb": 2
  },
  "words": [
   {
-   "id": "lëndoj",
-   "sq": "lëndoj",
-   "en": "to hurt, touch",
+   "id": "kuzhinë",
+   "sq": "kuzhinë",
+   "en": "kitchen",
    "glosses": [
-    "to hurt, touch"
+    "kitchen"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hurt, touch",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "kitchen",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -55,17 +62,16 @@
      ],
      "examples": [],
      "links": [
-      "hurt",
-      "touch"
+      "kitchen"
      ]
     }
    ],
-   "rank": 2956,
-   "count": 275,
-   "family": "lëndoj",
+   "rank": 3000,
+   "count": 271,
+   "family": "kuzhinë",
    "is_root": true,
-   "etymology": "From an unattested *lënd < Proto-Albanian *lenta (cf. lëndë), from Proto-Indo-European *lento- (“bendsome, resilient”). Akin to Lithuanian leñtas (“still, quite”), Latin lentus (“supple”), English lithe (“supple”), German lind (“mild”). Possibly a nasal variant of ledh (“to caress, stroke”).",
-   "etymology_class": "derived",
+   "etymology": "Borrowed from Venetan cusina, from Late Latin cocīna, from earlier coquīna.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -74,32 +80,413 @@
    "related": [],
    "forms": [
     {
-     "form": "lëndova",
-     "tag": "aorist"
-    },
-    {
-     "form": "lënduar",
-     "tag": "participle"
+     "form": "kuzhina",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I'm not gonna hurt you.",
+    "corpus": "HPLT",
+    "en": "He went into the kitchen.",
     "score": [
      0,
-     5,
-     -5,
-     8
+     4,
+     -4,
+     10
     ],
-    "sq": "Nuk do të të lëndoj."
+    "sq": "Ai shkoi në kuzhinë."
    }
   },
   {
-   "id": "lëndim",
-   "sq": "lëndim",
-   "en": "wound, injury",
+   "id": "karrige",
+   "sq": "karrige",
+   "en": "chair",
    "glosses": [
-    "wound, injury"
+    "chair",
+    "office job"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chair",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Furniture",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Furniture",
+       "langcode": "sq",
+       "_dis": "76 24"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ku e bleve këtë karrige?",
+       "en": "Where did you buy this chair?",
+       "offsets": [
+        [
+         16,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "chair"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "office job",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ka zënë një karrige.",
+       "en": "He/she found an office job.",
+       "offsets": [
+        [
+         12,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "office",
+      "job"
+     ]
+    }
+   ],
+   "rank": 3002,
+   "count": 271,
+   "family": "karrige",
+   "is_root": true,
+   "etymology": "Borrowed from Venetan carega, from Latin cathedra, from Ancient Greek καθέδρα (kathédra, “chair of a teacher, throne”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ndenjëse",
+    "stol",
+    "shkëmb"
+   ],
+   "forms": [
+    {
+     "form": "karrige",
+     "tag": "plural"
+    },
+    {
+     "form": "karrigia",
+     "tag": "definite"
+    },
+    {
+     "form": "karrike",
+     "tag": "alternative"
+    },
+    {
+     "form": "karrikë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "shkallë",
+   "sq": "shkallë",
+   "en": "stairs",
+   "glosses": [
+    "stairs",
+    "ladder",
+    "rate"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "stairs",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "stairs"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ladder",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ladder"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rate",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 32 32"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "shkalla e rritjes",
+       "en": "the rate of growth",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "rate"
+     ]
+    }
+   ],
+   "rank": 3005,
+   "count": 270,
+   "family": "shkallë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin scāla.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shkallë",
+     "tag": "plural"
+    },
+    {
+     "form": "shkalla",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "dale",
+   "sq": "dale",
+   "en": "wait, stay, hold up",
+   "glosses": [
+    "wait, stay, hold up",
+    "don't hurry, relax, chill"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "wait, stay, hold up",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wait",
+      "stay",
+      "hold up"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "don't hurry, relax, chill",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 60"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "don't",
+      "hurry",
+      "relax"
+     ]
+    }
+   ],
+   "rank": 3012,
+   "count": 269,
+   "family": "dale",
+   "is_root": true,
+   "etymology": "Short form of ndal (“I halt, stop, rest, hold up”). See ndal and dal for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "dal",
+    "dalë",
+    "dala",
+    "dalët",
+    "dalëngadalë"
+   ],
+   "forms": [
+    {
+     "form": "daleni",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "When is he getting dispatched?",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Kur do te dale?"
+   }
+  },
+  {
+   "id": "veprim",
+   "sq": "veprim",
+   "en": "action",
+   "glosses": [
+    "action"
    ],
    "pos": [
     "noun"
@@ -111,7 +498,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wound, injury",
+     "gloss": "action",
      "tags": [
       "masculine"
      ],
@@ -137,23 +524,22 @@
      ],
      "examples": [],
      "links": [
-      "wound",
-      "injury"
+      "action"
      ]
     }
    ],
-   "rank": 25201,
-   "count": 19,
-   "family": "lëndoj",
+   "rank": 3022,
+   "count": 268,
+   "family": "vepër",
    "is_root": false,
-   "etymology": "Gerund of lëndoj; lëndoj + -im.",
-   "etymology_class": "affix",
+   "etymology": "From veproj (“do something”) + -im noun ending.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "lëndoj",
+     "word": "veproj",
      "role": "prefix"
     }
    ],
@@ -161,24 +547,397 @@
    "related": [],
    "forms": [
     {
-     "form": "lëndime",
+     "form": "veprime",
      "tag": "plural"
     },
     {
-     "form": "lëndimi",
+     "form": "veprimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "No military action.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Jo veprim ushtarak."
+   }
+  },
+  {
+   "id": "vepër",
+   "sq": "vepër",
+   "en": "piece (artistic), deed, creation",
+   "glosses": [
+    "piece (artistic), deed, creation"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "piece (artistic), deed, creation",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "piece",
+      "deed",
+      "creation"
+     ]
+    }
+   ],
+   "rank": 4815,
+   "count": 158,
+   "family": "vepër",
+   "is_root": true,
+   "etymology": "Borrowed from Latin opera (“id”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "id"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vepra",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "The bad word is a bad deed.",
+    "score": [
+     0,
+     7,
+     -7,
+     8
+    ],
+    "sq": "Fjala e keqe është vepër e keqe."
+   }
+  },
+  {
+   "id": "veproj",
+   "sq": "veproj",
+   "en": "to do something",
+   "glosses": [
+    "to do something",
+    "to be active"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to do something",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "do",
+      "something"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be active",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "be",
+      "active"
+     ]
+    }
+   ],
+   "rank": 8869,
+   "count": 75,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "From vepër + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vepër",
+     "role": "prefix"
+    }
+   ],
+   "derived": [
+    "veprim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "veprova",
+     "tag": "aorist"
+    },
+    {
+     "form": "vepruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's not an injury.",
+    "en": "What should I do?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Nuk është lëndim."
+    "sq": "Si të veproj?"
+   }
+  },
+  {
+   "id": "kryevepër",
+   "sq": "kryevepër",
+   "en": "masterpiece",
+   "glosses": [
+    "masterpiece"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "masterpiece",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Shumë njerëz e konsideronin një kryevepër lirike.",
+       "en": "Many people considered it a lyrical masterpiece.",
+       "offsets": [
+        [
+         32,
+         41
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "masterpiece"
+     ]
+    }
+   ],
+   "rank": 19857,
+   "count": 26,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "Ultimately a calque of French chef-d’œuvre, with likely intermediate influence from Italian capolavoro and Turkish başyapıt (or indeed possibly a calque of either of the two instead), from krye (“head”) + vepër (“piece”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "head",
+    "piece"
+   ],
+   "components": [
+    {
+     "word": "krye",
+     "role": "prefix"
+    },
+    {
+     "word": "vepër",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kryevepra",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "veprimtari",
+   "sq": "veprimtari",
+   "en": "activity",
+   "glosses": [
+    "activity"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "activity",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -tari",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "activity"
+     ]
+    }
+   ],
+   "rank": 35887,
+   "count": 11,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "veprim + -tari.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "veprim",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "There's a lot of activity in China.",
+    "score": [
+     1,
+     5,
+     -4,
+     4
+    ],
+    "sq": "Ka shumë veprimtari në Kinë."
    }
   }
  ]

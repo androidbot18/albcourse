@@ -1,29 +1,32 @@
 {
  "level": 410,
- "title": "buron, hetim, guximshëm +1",
+ "title": "shënoj, lot, qysh, varr, tortë, gjoks +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "buron",
-  "guximshëm",
-  "hetim"
+  "gjoks",
+  "lot",
+  "qysh",
+  "shënoj",
+  "tortë",
+  "varr"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 1,
-  "verb": 1
+  "noun": 9,
+  "adv": 2,
+  "verb": 5
  },
  "words": [
   {
-   "id": "burim",
-   "sq": "burim",
-   "en": "wellspring, spring",
+   "id": "shënim",
+   "sq": "shënim",
+   "en": "note",
    "glosses": [
-    "wellspring, spring",
-    "source"
+    "note",
+    "mark"
    ],
    "pos": [
     "noun",
@@ -37,8 +40,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wellspring, spring",
-     "tags": [],
+     "gloss": "note",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -64,15 +69,16 @@
      ],
      "examples": [],
      "links": [
-      "wellspring",
-      "spring"
+      "note"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "source",
-     "tags": [],
+     "gloss": "mark",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -98,60 +104,58 @@
      ],
      "examples": [],
      "links": [
-      "source"
+      "mark"
      ]
     }
    ],
-   "rank": 4283,
-   "count": 180,
-   "family": "buron",
+   "rank": 4309,
+   "count": 178,
+   "family": "shënoj",
    "is_root": false,
-   "etymology": "From buron + -im.",
+   "etymology": "Gerund of shënoj; shënoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "buron",
+     "word": "shënoj",
      "role": "prefix"
     }
    ],
-   "derived": [
-    "burime njerëzore"
-   ],
+   "derived": [],
    "related": [
-    "buron",
-    "burmë"
+    "shënoj",
+    "shenjë"
    ],
    "forms": [
     {
-     "form": "burime",
+     "form": "shënime",
      "tag": "plural"
     },
     {
-     "form": "burimi",
+     "form": "shënimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "That's just one source.",
+    "corpus": "HPLT",
+    "en": "On a note.",
     "score": [
      0,
-     6,
-     -6,
-     4
+     3,
+     -3,
+     10
     ],
-    "sq": "Edhe ky, është vetëm një burim."
+    "sq": "Në një shënim."
    }
   },
   {
-   "id": "hetim",
-   "sq": "hetim",
-   "en": "investigation, inquiry, probe",
+   "id": "lot",
+   "sq": "lot",
+   "en": "tear (from the eye)",
    "glosses": [
-    "investigation, inquiry, probe"
+    "tear (from the eye)"
    ],
    "pos": [
     "noun"
@@ -163,7 +167,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "investigation, inquiry, probe",
+     "gloss": "tear (from the eye)",
      "tags": [
       "masculine"
      ],
@@ -175,7 +179,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 23 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -187,20 +191,24 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Gjak, djersë dhe lot",
+       "en": "Blood, sweat and tears",
+       "offsets": []
+      }
+     ],
      "links": [
-      "investigation",
-      "inquiry",
-      "probe"
+      "tear"
      ]
     }
    ],
-   "rank": 4286,
-   "count": 180,
-   "family": "hetim",
+   "rank": 4330,
+   "count": 177,
+   "family": "lot",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *lā(i)ta, and adjective in *-to-, from Proto-Indo-European *lēy- (“to pour”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -209,115 +217,139 @@
    "related": [],
    "forms": [
     {
-     "form": "hetime",
+     "form": "lot",
      "tag": "plural"
+    },
+    {
+     "form": "loti",
+     "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Thanks for the enquiry.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Faleminderit për hetim."
-   }
+   "corpus_example": null
   },
   {
-   "id": "guximshëm",
-   "sq": "guximshëm",
-   "en": "daring, brave, courageous",
+   "id": "qysh",
+   "sq": "qysh",
+   "en": "how?",
    "glosses": [
-    "daring, brave, courageous"
+    "how?",
+    "since"
    ],
    "pos": [
-    "adj"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "daring, brave, courageous",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "how?",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       }
      ],
+     "examples": [
+      {
+       "sq": "Qysh je?",
+       "en": "How are you?",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "how"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "since",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "daring",
-      "brave",
-      "courageous"
+      "since"
      ]
     }
    ],
-   "rank": 4287,
-   "count": 180,
-   "family": "guximshëm",
+   "rank": 4331,
+   "count": 177,
+   "family": "qysh",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Locative of që. More at që.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "akëqysh",
+    "diqysh",
+    "qyshdo",
+    "qyshdoqoftë",
+    "qyshe"
+   ],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "So brave?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Aq të guximshëm?"
-   }
+   "forms": [
+    {
+     "form": "qish",
+     "tag": "alternative"
+    },
+    {
+     "form": "çish",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "buron",
-   "sq": "buron",
-   "en": "(it) springs, gushs, flows",
+   "id": "varr",
+   "sq": "varr",
+   "en": "grave",
    "glosses": [
-    "(it) springs, gushs, flows"
+    "grave"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "(it) springs, gushs, flows",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "grave",
      "tags": [
-      "impersonal",
-      "intransitive"
+      "masculine"
      ],
      "cats": [
       {
@@ -341,50 +373,514 @@
      ],
      "examples": [],
      "links": [
-      "it",
-      "spring",
-      "gush"
+      "grave"
      ]
     }
    ],
-   "rank": 34855,
-   "count": 12,
-   "family": "buron",
+   "rank": 4347,
+   "count": 176,
+   "family": "varr",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *bhrē̆u- (“wellspring”), ultimately from *bʰer-, *bʰrē- (“to bear”). Compare Old High German brunno (“wellspring”), burjan (“to push up, raise”), Old English byrian (“to come up, occur”).",
-   "etymology_class": "derived",
+   "etymology": "From Proto-Albanian *ā̆ur(V)n, ultimately from Proto-Indo-European *h₁er-, close to Gothic 𐌰𐌿𐍂𐌰𐌷𐌾𐍉𐌼 (aurahjōm, “monuments, tombs”, dat. pl.), Old English ēar (“grave, earth”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "wellspring"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "buroi",
-     "tag": "aorist"
+     "form": "varre",
+     "tag": "plural"
     },
     {
-     "form": "buruar",
-     "tag": "participle"
-    },
-    {
-     "form": "vrujon",
-     "tag": "alternative"
+     "form": "varri",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Our love stems from mandates.",
+    "en": "My father is with them in the grave too.",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     8,
+     -8,
      10
     ],
-    "sq": "Dashuria jonë buron nga mandatet."
+    "sq": "Edhe babai im është me ata në varr."
+   }
+  },
+  {
+   "id": "tortë",
+   "sq": "tortë",
+   "en": "cake",
+   "glosses": [
+    "cake",
+    "rope"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cake",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cake"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rope",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rope"
+     ]
+    }
+   ],
+   "rank": 4349,
+   "count": 176,
+   "family": "tortë",
+   "is_root": true,
+   "etymology": "Ultimately from Latin turta. Perhaps borrowed via Italian torta. Compare Romanian turtă.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "In prison for a cake?!",
+    "score": [
+     0,
+     5,
+     -5,
+     8
+    ],
+    "sq": "Në burg për një tortë?!"
+   }
+  },
+  {
+   "id": "gjoks",
+   "sq": "gjoks",
+   "en": "chest, thorax",
+   "glosses": [
+    "chest, thorax",
+    "breast, breasts",
+    "heart (as the container of emotions)"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chest, thorax",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chest",
+      "thorax"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "breast, breasts",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "breast",
+      "breasts"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "heart (as the container of emotions)",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 7 57"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 7 84"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "me gjoks",
+       "en": "with all one's might",
+       "offsets": [
+        [
+         3,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "heart"
+     ]
+    }
+   ],
+   "rank": 4368,
+   "count": 175,
+   "family": "gjoks",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish گوگس (göks).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjokse",
+     "tag": "plural"
+    },
+    {
+     "form": "gjoksi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "shënoj",
+   "sq": "shënoj",
+   "en": "to sign",
+   "glosses": [
+    "to sign",
+    "to mark",
+    "to note",
+    "to tag",
+    "to score"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sign",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sign"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to mark",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mark"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to note",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "note"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tag",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "tag"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to score",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 20 20 20 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "score"
+     ]
+    }
+   ],
+   "rank": 12288,
+   "count": 50,
+   "family": "shënoj",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin signō.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "shënim"
+   ],
+   "related": [
+    "shenjë"
+   ],
+   "forms": [
+    {
+     "form": "shënova",
+     "tag": "aorist"
+    },
+    {
+     "form": "shënuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Why don't you punch him?",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Pse nuk ju shënoj atë?"
    }
   }
  ]

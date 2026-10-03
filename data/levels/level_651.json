@@ -1,30 +1,30 @@
 {
  "level": 651,
- "title": "vathë, kazan, turbull, sfungjer, morr, buf +4",
+ "title": "zorrë, ber, demet, zuskë, papërcaktuar, shpallje +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "buf",
-  "kazan",
-  "morr",
-  "sfungjer",
-  "turbull",
-  "vathë"
+  "ber",
+  "demet",
+  "papërcaktuar",
+  "shpallje",
+  "zorrë",
+  "zuskë"
  ],
  "pos_mix": {
-  "noun": 7,
+  "noun": 10,
   "adj": 1
  },
  "words": [
   {
-   "id": "vathë",
-   "sq": "vathë",
-   "en": "fold, pen, cote (fenced area, in which the small cattle is herded together for the night)",
+   "id": "zorrë",
+   "sq": "zorrë",
+   "en": "bowel, intestine(s)",
    "glosses": [
-    "fold, pen, cote (fenced area, in which the small cattle is herded together for the night)"
+    "bowel, intestine(s)"
    ],
    "pos": [
     "noun"
@@ -36,7 +36,89 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fold, pen, cote (fenced area, in which the small cattle is herded together for the night)",
+     "gloss": "bowel, intestine(s)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bowel",
+      "intestine"
+     ]
+    }
+   ],
+   "rank": 24286,
+   "count": 20,
+   "family": "zorrë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *džārnā with long *ā < *ē, from Proto-Indo-European *gʷerh₃- (“to swallow”). Close to Lithuanian žarnà (“gut”), Latvian zarna (“intestines”), Old Norse gǫrn (“gut”).\nAlternatively from *ǵʰer- (“guts, entrails, bowels, intestine”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zorrë",
+     "tag": "plural"
+    },
+    {
+     "form": "zorra",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Located in the intestine.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Lokalizuar në zorrë."
+   }
+  },
+  {
+   "id": "ylber",
+   "sq": "ylber",
+   "en": "rainbow",
+   "glosses": [
+    "rainbow"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rainbow",
      "tags": [
       "masculine"
      ],
@@ -62,18 +144,109 @@
      ],
      "examples": [],
      "links": [
-      "fold",
-      "pen",
-      "cote"
+      "rainbow"
      ]
     }
    ],
-   "rank": 23939,
+   "rank": 24296,
    "count": 20,
-   "family": "vathë",
+   "family": "ber",
+   "is_root": false,
+   "etymology": "Compound of Proto-Albanian *ulnā (“forearm”) and *bōra (“bow”), mirror image of bërryl (“elbow”). More at bërryl.\nAlternatively, from yll (“star”) + ber (“bow”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "forearm",
+    "bow",
+    "elbow"
+   ],
+   "components": [
+    {
+     "word": "yll",
+     "role": "prefix"
+    },
+    {
+     "word": "ber",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "It's okay to say rainbow. Yeah.",
+    "score": [
+     0,
+     5,
+     -5,
+     4
+    ],
+    "sq": "A mund te them ylber."
+   }
+  },
+  {
+   "id": "demet",
+   "sq": "demet",
+   "en": "sheaf of grain",
+   "glosses": [
+    "sheaf of grain",
+    "bundle of corn or oak leaves used as rain cover for a haystack"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sheaf of grain",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sheaf",
+      "grain"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bundle of corn or oak leaves used as rain cover for a haystack",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 84"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bundle",
+      "corn",
+      "oak"
+     ]
+    }
+   ],
+   "rank": 24301,
+   "count": 20,
+   "family": "demet",
    "is_root": true,
-   "etymology": "From Proto-Albanian *au̯aϑā, from Proto-Indo-European *h₂wes- (“to dwell, abide, pass/stay the night”). Cognate to Sanskrit वास (vāsá-, “sojourn, stay, spending the night”), प्रौष्ठ (próṣṭha-, “lodging”). Alternatively from an unattested *vartë, from Proto-Albanian *wartā, close to Tocharian B wärto (“garten”), Irish fert (“grave mound”), Old English weorð (“yard”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish دمت (demet). Doublet of dhemat.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -82,32 +255,28 @@
    "related": [],
    "forms": [
     {
-     "form": "vathe",
+     "form": "demete",
      "tag": "plural"
-    },
-    {
-     "form": "vatha",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Nice earrings, thanks a lot!",
+    "corpus": "QED",
+    "en": "You told me to trust you.",
     "score": [
      0,
-     5,
-     -5,
-     10
+     3,
+     -3,
+     5
     ],
-    "sq": "Vathë të bukur, faleminderit shumë!"
+    "sq": "Demet, ne rregull."
    }
   },
   {
-   "id": "kazan",
-   "sq": "kazan",
-   "en": "kettle",
+   "id": "zuskë",
+   "sq": "zuskë",
+   "en": "slut (a promiscuous woman)",
    "glosses": [
-    "kettle"
+    "slut (a promiscuous woman)"
    ],
    "pos": [
     "noun"
@@ -119,9 +288,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "kettle",
+     "gloss": "slut (a promiscuous woman)",
      "tags": [
-      "masculine"
+      "derogatory",
+      "feminine"
      ],
      "cats": [
       {
@@ -131,7 +301,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -145,17 +315,18 @@
      ],
      "examples": [],
      "links": [
-      "kettle"
+      "derogatory",
+      "slut"
      ]
     }
    ],
-   "rank": 23951,
+   "rank": 24327,
    "count": 20,
-   "family": "kazan",
+   "family": "zuskë",
    "is_root": true,
-   "etymology": "From Ottoman Turkish قزان (qazan).",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
@@ -164,22 +335,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You will find a kettle in the room.",
+    "en": "Simply divine: hot slut!",
     "score": [
-     0,
-     8,
-     -8,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Ju do të gjeni një kazan në dhomë."
+    "sq": "Thjesht hyjnore: zuskë e nxehtë!"
    }
   },
   {
-   "id": "turbull",
-   "sq": "turbull",
-   "en": "turbid, troubled (water)",
+   "id": "papërcaktuar",
+   "sq": "papërcaktuar",
+   "en": "indeterminate, unspecified",
    "glosses": [
-    "turbid, troubled (water)"
+    "indeterminate, unspecified"
    ],
    "pos": [
     "adj"
@@ -191,7 +362,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "turbid, troubled (water)",
+     "gloss": "indeterminate, unspecified",
      "tags": [],
      "cats": [
       {
@@ -215,16 +386,89 @@
      ],
      "examples": [],
      "links": [
-      "turbid",
-      "troubled"
+      "indeterminate",
+      "unspecified"
      ]
     }
    ],
-   "rank": 23965,
+   "rank": 24336,
    "count": 20,
-   "family": "turbull",
+   "family": "papërcaktuar",
    "is_root": true,
-   "etymology": "From Romance *turbulus, also in Romanian turbure, Italian Sicilian trúbbulu, French trouble.",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are impersonal, tasteless.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Ata janë të papërcaktuar, pa shije."
+   }
+  },
+  {
+   "id": "shpallje",
+   "sq": "shpallje",
+   "en": "announcement, declaration",
+   "glosses": [
+    "announcement, declaration"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "announcement, declaration",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "announcement",
+      "declaration"
+     ]
+    }
+   ],
+   "rank": 24369,
+   "count": 20,
+   "family": "shpallje",
+   "is_root": true,
+   "etymology": "Gerund of shpall.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -234,330 +478,148 @@
    "related": [],
    "forms": [
     {
-     "form": "turbulle",
-     "tag": "feminine"
-    },
-    {
-     "form": "turbullt",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I vaguely remember him.",
-    "score": [
-     0,
-     5,
-     -5,
-     5
-    ],
-    "sq": "E mbaj mend turbull atë."
-   }
-  },
-  {
-   "id": "sfungjer",
-   "sq": "sfungjer",
-   "en": "sponge (Porifera)",
-   "glosses": [
-    "sponge (Porifera)",
-    "sponge (for washing)"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sponge (Porifera)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "88 12"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "93 7"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "94 6"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sponge",
-      "Porifera"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sponge (for washing)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "𐔓𐔇𐔛𐔈𐔙 𐔏𐔇 / 𐔗𐔈𐔙 𐔝𐔀 𐔗𐔀𐔒 𐔝𐔈 𐔒𐔈 𐔏𐔖𐔕𐔈𐔓𐔈 𐔝𐔈 / 𐔗𐔀𐔁𐔇𐔛𐔈𐔝𐔈 𐔒𐔇 𐔕𐔈 𐔛𐔟𐔋𐔇𐔙 𐔒𐔁𐔟/𐔜𐔟𐔓 𐔟𐔞𐔟𐔐 𐔇 𐔗𐔜𐔝𐔟𐔒𐔈",
-       "en": "Tomorrow you will see how the faithless stuff me with a sponge filled with vinegar and spit.",
-       "offsets": [
-        [
-         55,
-         60
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "sponge"
-     ]
-    }
-   ],
-   "rank": 23968,
-   "count": 20,
-   "family": "sfungjer",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish سونگر (sünger), from Greek σφουγγάρι (sfoungári). Doublet of shpuzë and shponxë.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "sfungjeror",
-    "sfungjertë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "sfungjerë",
+     "form": "shpallje",
      "tag": "plural"
     },
     {
-     "form": "sfung",
-     "tag": "alternative"
-    },
-    {
-     "form": "sfungar",
-     "tag": "alternative"
-    },
-    {
-     "form": "sfëngar",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "morr",
-   "sq": "morr",
-   "en": "louse (head louse, body louse (Pediculus humanus))",
-   "glosses": [
-    "louse (head louse, body louse (Pediculus humanus))",
-    "plant louse, aphid (Aphidoidea)"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "louse (head louse, body louse (Pediculus humanus))",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "louse",
-      "Pediculus humanus"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plant louse, aphid (Aphidoidea)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 28 2 0 2 7 15 9 16"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 29 1 0 1 7 16 10 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "aphid",
-      "Aphidoidea"
-     ]
-    }
-   ],
-   "rank": 23985,
-   "count": 20,
-   "family": "morr",
-   "is_root": true,
-   "etymology": "According to Oryol, from Proto-Albanian *mērwa, from Proto-Indo-European *mer- (“to die”). Oryol compares semantically Ancient Greek φθείρ (phtheír, “louse”) and φθείρω (phtheírō, “to destroy”), though the etymological connection of the Greek cognates is uncertain.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "morth",
-    "morrac",
-    "morrc",
-    "morrës",
-    "morracak",
-    "çmorrit"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "morra",
-     "tag": "plural"
-    },
-    {
-     "form": "morri",
+     "form": "shpallja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What action was taken against you?",
-    "score": [
-     3,
-     6,
-     -3,
-     10
-    ],
-    "sq": "Ç'masë u morr ndaj jush?"
-   }
-  },
-  {
-   "id": "buf",
-   "sq": "buf",
-   "en": "owl",
-   "glosses": [
-    "owl"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "owl",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 9 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "owl"
-     ]
-    }
-   ],
-   "rank": 23989,
-   "count": 20,
-   "family": "buf",
-   "is_root": true,
-   "etymology": "Borrowed from Late Latin būfus (“owl”), probably of onomatopoeic origin; see also Ancient Greek βοῦφος (boûphos). Compare archaic Romanian buf, Spanish búho.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "owl"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "bufë",
-     "tag": "plural"
-    },
-    {
-     "form": "bufi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Let's look for an owl in the forest.",
+    "en": "It is a great Revelation for you.",
     "score": [
      0,
      7,
      -7,
      10
     ],
-    "sq": "Le të shikojmë një buf në pyll."
+    "sq": "Është një Shpallje e madhe për ju."
    }
+  },
+  {
+   "id": "ber",
+   "sq": "ber",
+   "en": "bow, arc, arch",
+   "glosses": [
+    "bow, arc, arch",
+    "arrow",
+    "javelin, lance",
+    "European whipsnake (Dolichophis jugularis, syn. Coluber jugularis)"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bow, arc, arch",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bow",
+      "arc",
+      "arch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "arrow",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "arrow"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "javelin, lance",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "javelin",
+      "lance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "European whipsnake (Dolichophis jugularis, syn. Coluber jugularis)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 3 33 61"
+      },
+      {
+       "name": "Reptiles",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Reptiles",
+       "langcode": "sq",
+       "_dis": "12 12 12 64"
+      }
+     ],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 28148,
+   "count": 16,
+   "family": "ber",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *bōr-, from Proto-Indo-European *bʰōrs-, from root *bʰers- (“point, tip bolt”). Cognate to Old Irish barr (“point”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "beronjë"
+   ],
+   "related": [
+    "ylber",
+    "bërryl"
+   ],
+   "forms": [
+    {
+     "form": "berë",
+     "tag": "plural"
+    },
+    {
+     "form": "beri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

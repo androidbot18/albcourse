@@ -1,86 +1,72 @@
 {
  "level": 47,
- "title": "vij 1/2",
- "root": "vij",
- "root_gloss": "to arrive",
+ "title": "them",
+ "root": "them",
+ "root_gloss": "to say",
  "part": 1,
- "parts": 2,
+ "parts": 1,
  "word_count": 9,
  "families": [
-  "vij"
+  "them"
  ],
  "pos_mix": {
-  "verb": 10
+  "verb": 8,
+  "noun": 1
  },
  "words": [
   {
-   "id": "vij",
-   "sq": "vij",
-   "en": "to arrive",
+   "id": "them",
+   "sq": "them",
+   "en": "to say",
    "glosses": [
-    "to arrive",
-    "to come"
+    "to say"
    ],
    "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to arrive",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "arrive"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to come",
-     "tags": [],
+     "gloss": "to say",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 95"
+       "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 7 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 97"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "come"
+      "say"
      ]
     }
    ],
-   "rank": 385,
-   "count": 2715,
-   "family": "vij",
+   "rank": 101,
+   "count": 14124,
+   "family": "them",
    "is_root": true,
-   "etymology": "A case of a loaned verb being suppleted by inherited forms.\nFrom Old Albanian vinj (“to come”), vjen (“he comes”), borrowed from Latin veniō. The past forms in erdh- are from Proto-Indo-European *h₁erǵʰ- and cognate with Ancient Greek ἔρχομαι (érkhomai).",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *θēm-, from Proto-Indo-European *ḱens- (“to say, instruct, announce”). Cognate with Latin cēnseō (“to give an opinion, to judge, guess, reckon”). Potentially a doublet of rrëfej.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -89,32 +75,32 @@
    "related": [],
    "forms": [
     {
-     "form": "erdha",
+     "form": "thashë",
      "tag": "aorist"
     },
     {
-     "form": "ardhur",
+     "form": "thënë",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I will come.",
+    "corpus": "QED",
+    "en": "That's why I was explaining.",
     "score": [
      0,
      3,
      -3,
-     0
+     5
     ],
-    "sq": "Do të vij."
+    "sq": "Dua te them."
    }
   },
   {
-   "id": "vjen",
-   "sq": "vjen",
-   "en": "you (sg) or he/she/it arrive (from vij, to arrive)",
+   "id": "thotë",
+   "sq": "thotë",
+   "en": "he/she/it say (from them, to say)",
    "glosses": [
-    "you (sg) or he/she/it arrive (from vij, to arrive)"
+    "he/she/it say (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -126,13 +112,12 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg) or he/she/it arrive (from vij, to arrive)",
+     "gloss": "he/she/it say (from them, to say)",
      "tags": [
       "form-of",
-      "indicative",
       "present",
-      "second-person",
       "singular",
+      "subjunctive",
       "third-person"
      ],
      "cats": [
@@ -156,12 +141,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "them"
     }
    ],
-   "rank": 91,
-   "count": 15313,
-   "family": "vij",
+   "rank": 145,
+   "count": 8663,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -173,23 +158,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Where'd that come from?",
+    "corpus": "MaCoCu",
+    "en": "What does it mean?",
     "score": [
      0,
-     3,
-     -3,
-     4
+     4,
+     -4,
+     8
     ],
-    "sq": "Nga vjen kjo?"
+    "sq": "Çfarë do të thotë?"
    }
   },
   {
-   "id": "eja",
-   "sq": "eja",
-   "en": "you (sg)! (from vij, to arrive)",
+   "id": "thënë",
+   "sq": "thënë",
+   "en": "say, past form (from them, to say)",
    "glosses": [
-    "you (sg)! (from vij, to arrive)"
+    "say, past form (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -201,80 +186,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg)! (from vij, to arrive)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Old Persian terms with non-redundant manual transliterations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 112,
-   "count": 12254,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "From *enja, from Proto-Albanian *ainja, from Proto-Indo-European *h₁ey- (“to go”). Compare Greek έλα (éla), Bulgarian ела (ela, “come”), Latvian eja (“way, passage, corridor”) from iet (“to go”), Ancient Greek εἶμι (eîmi, “to go”), Hittite 𒄿𒄿𒀀𒀜𒋫 (i-ya-at-ta /⁠iyatta⁠/, “goes”), Old Persian 𐎠𐎡𐎫𐎡𐎹 (aitiy, “goes”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "Please come.",
-    "score": [
-     0,
-     3,
-     -3,
-     0
-    ],
-    "sq": "Të lutem eja."
-   }
-  },
-  {
-   "id": "ardhur",
-   "sq": "ardhur",
-   "en": "arrive, past form (from vij, to arrive)",
-   "glosses": [
-    "arrive, past form (from vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "arrive, past form (from vij, to arrive)",
+     "gloss": "say, past form (from them, to say)",
      "tags": [
       "form-of",
       "participle",
@@ -301,12 +213,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "them"
     }
    ],
-   "rank": 244,
-   "count": 4884,
-   "family": "vij",
+   "rank": 208,
+   "count": 6001,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -318,23 +230,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are coming!",
+    "corpus": "MaCoCu",
+    "en": "I told you.",
     "score": [
      0,
      3,
      -3,
-     10
+     8
     ],
-    "sq": "Ata janë ardhur!"
+    "sq": "Të kam thënë."
    }
   },
   {
-   "id": "ejani",
-   "sq": "ejani",
-   "en": "you (pl)! (from vij, to arrive)",
+   "id": "thuaj",
+   "sq": "thuaj",
+   "en": "you (sg)! (from them, to say)",
    "glosses": [
-    "you (pl)! (from vij, to arrive)"
+    "you (sg)! (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -346,12 +258,12 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (pl)! (from vij, to arrive)",
+     "gloss": "you (sg)! (from them, to say)",
      "tags": [
       "form-of",
       "imperative",
-      "plural",
-      "second-person"
+      "second-person",
+      "singular"
      ],
      "cats": [
       {
@@ -374,12 +286,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "them"
     }
    ],
-   "rank": 453,
-   "count": 2321,
-   "family": "vij",
+   "rank": 226,
+   "count": 5542,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -392,170 +304,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'm like, come on.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Unë jam si, ejani."
-   }
-  },
-  {
-   "id": "vijnë",
-   "sq": "vijnë",
-   "en": "they arrive (from vij, to arrive)",
-   "glosses": [
-    "they arrive (from vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they arrive (from vij, to arrive)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 462,
-   "count": 2272,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "You come too.",
+    "en": "Tell me that.",
     "score": [
      0,
      3,
      -3,
-     5
-    ],
-    "sq": "Ju vijnë shumë."
-   }
-  },
-  {
-   "id": "vish",
-   "sq": "vish",
-   "en": "you (sg) arrive (from vij, to arrive)",
-   "glosses": [
-    "you (sg) arrive (from vij, to arrive)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) arrive (from vij, to arrive)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "vij"
-    }
-   ],
-   "rank": 509,
-   "count": 2082,
-   "family": "vij",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You must come here!",
-    "score": [
-     0,
-     4,
-     -4,
      10
     ],
-    "sq": "Duhet të vish këtu!"
+    "sq": "Më thuaj këtë."
    }
   },
   {
-   "id": "erdha",
-   "sq": "erdha",
-   "en": "I (once did) arriveed (from vij, to arrive)",
+   "id": "thashë",
+   "sq": "thashë",
+   "en": "I (once did) said (from them, to say)",
    "glosses": [
-    "I (once did) arriveed (from vij, to arrive)"
+    "I (once did) said (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -567,7 +331,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "I (once did) arriveed (from vij, to arrive)",
+     "gloss": "I (once did) said (from them, to say)",
      "tags": [
       "aorist",
       "first-person",
@@ -595,15 +359,15 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "them"
     }
    ],
-   "rank": 602,
-   "count": 1697,
-   "family": "vij",
+   "rank": 227,
+   "count": 5533,
+   "family": "them",
    "is_root": false,
-   "etymology": "Older ardh, aorist of vij. Rebuilt from 3rd pers. erdh, with i-mutation from *arði, from Proto-Albanian *ardze, with Osthoff’s shortening from earlier *ērdz-, from Proto-Indo-European *h₁r̥ǵʰ-, weak perfective stem of *h₁erǵʰ- (“to go up, rise”). Close to Greek έρχομαι (érchomai, “come”), aorist ήρθα (írtha, “I came”), Middle Irish eirgg (“go!”), German ragen (“to rise”).",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -613,22 +377,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why did I come?",
+    "en": "There, I said it.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Pse erdha këtu?"
+    "sq": "Atje, e thashë."
    }
   },
   {
-   "id": "vini",
-   "sq": "vini",
-   "en": "you (pl) arrive (from vij, to arrive)",
+   "id": "thuash",
+   "sq": "thuash",
+   "en": "you (sg) say (from them, to say)",
    "glosses": [
-    "you (pl) arrive (from vij, to arrive)"
+    "you (sg) say (from them, to say)"
    ],
    "pos": [
     "verb"
@@ -640,13 +404,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (pl) arrive (from vij, to arrive)",
+     "gloss": "you (sg) say (from them, to say)",
      "tags": [
       "form-of",
-      "indicative",
-      "plural",
       "present",
-      "second-person"
+      "second-person",
+      "singular",
+      "subjunctive"
      ],
      "cats": [
       {
@@ -656,7 +420,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 16 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -669,12 +433,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vij"
+     "is_form_of": "them"
     }
    ],
-   "rank": 829,
-   "count": 1179,
-   "family": "vij",
+   "rank": 265,
+   "count": 4415,
+   "family": "them",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -686,15 +450,238 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "Welcome.",
+    "corpus": "HPLT",
+    "en": "What do you mean?",
     "score": [
      0,
-     3,
-     -3,
-     0
+     4,
+     -4,
+     10
     ],
-    "sq": "Mirë se vini."
+    "sq": "Çfarë do të thuash?"
+   }
+  },
+  {
+   "id": "thoshte",
+   "sq": "thoshte",
+   "en": "he/she/it (used to) said (from them, to say)",
+   "glosses": [
+    "he/she/it (used to) said (from them, to say)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (used to) said (from them, to say)",
+     "tags": [
+      "form-of",
+      "imperfect",
+      "singular",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "them"
+    }
+   ],
+   "rank": 927,
+   "count": 1030,
+   "family": "them",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "What does he mean?",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Çfarë donte të thoshte?"
+   }
+  },
+  {
+   "id": "thosha",
+   "sq": "thosha",
+   "en": "I (used to) said (from them, to say)",
+   "glosses": [
+    "I (used to) said (from them, to say)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (used to) said (from them, to say)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "imperfect",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "them"
+    }
+   ],
+   "rank": 1523,
+   "count": 582,
+   "family": "them",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Nothing I would answer.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Asgjë, do të thosha unë."
+   }
+  },
+  {
+   "id": "thashetheme",
+   "sq": "thashetheme",
+   "en": "gossip, rumor, hearsay",
+   "glosses": [
+    "gossip, rumor, hearsay"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gossip, rumor, hearsay",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pluralia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "gossip",
+      "rumor",
+      "hearsay"
+     ]
+    }
+   ],
+   "rank": 5790,
+   "count": 127,
+   "family": "them",
+   "is_root": false,
+   "etymology": "From thashë + e + them.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "thashë",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is slander and gossip.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Kjo është shpifje dhe thashetheme."
    }
   }
  ]

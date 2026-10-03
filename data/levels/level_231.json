@@ -1,85 +1,161 @@
 {
  "level": 231,
- "title": "vjedh",
- "root": "vjedh",
- "root_gloss": "to steal",
+ "title": "arrij",
+ "root": "arrij",
+ "root_gloss": "to arrive",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 2,
  "families": [
-  "vjedh"
+  "arrij"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 1
+  "verb": 4
  },
  "words": [
   {
-   "id": "vjedh",
-   "sq": "vjedh",
-   "en": "to steal",
+   "id": "arrij",
+   "sq": "arrij",
+   "en": "to arrive",
    "glosses": [
-    "to steal"
+    "to arrive",
+    "to reach, catch up with",
+    "to attain, achieve"
    ],
    "pos": [
+    "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to steal",
+     "gloss": "to arrive",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "steal"
+      "arrive"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to reach, catch up with",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 43 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 43 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 62 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "reach",
+      "catch up"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to attain, achieve",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attain",
+      "achieve"
      ]
     }
    ],
-   "rank": 2546,
-   "count": 327,
-   "family": "vjedh",
+   "rank": 1367,
+   "count": 649,
+   "family": "arrij",
    "is_root": true,
-   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
-   "etymology_class": "root",
+   "etymology": "Hamp suggests a connection with rri (“stand”) (see related mbërrij (“arrive”). Alternatively from Early Medieval Latin adrīpāre, derived from Latin ad (“to”) + rīpa (“shore”). Compare Italian arrivare.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "stand",
+    "arrive"
+   ],
    "components": [],
-   "derived": [],
+   "derived": [
+    "arritje",
+    "arritur",
+    "pikarritje",
+    "arritshëm",
+    "mosarritje"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "vodha",
+     "form": "arrita",
      "tag": "aorist"
     },
     {
-     "form": "vjedhur",
+     "form": "arritur",
      "tag": "participle"
+    },
+    {
+     "form": "harrij",
+     "tag": "alternative"
+    },
+    {
+     "form": "errij",
+     "tag": "alternative"
+    },
+    {
+     "form": "arrënj",
+     "tag": "alternative"
+    },
+    {
+     "form": "mrrij",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It steals data from you.",
+    "corpus": "TED2020",
+    "en": "So how do you get there?",
     "score": [
-     1,
-     6,
+     0,
+     5,
      -5,
-     10
+     4
     ],
-    "sq": "Ajo vjedh të dhëna nga ju."
+    "sq": "Si do të arrij atje?"
    }
   },
   {
-   "id": "vjedhur",
-   "sq": "vjedhur",
-   "en": "steal, past form (from vjedh, to steal)",
+   "id": "arritur",
+   "sq": "arritur",
+   "en": "arrive, past form (from arrij, to arrive)",
    "glosses": [
-    "steal, past form (from vjedh, to steal)"
+    "arrive, past form (from arrij, to arrive)"
    ],
    "pos": [
     "verb"
@@ -91,7 +167,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "steal, past form (from vjedh, to steal)",
+     "gloss": "arrive, past form (from arrij, to arrive)",
      "tags": [
       "form-of",
       "participle",
@@ -118,12 +194,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vjedh"
+     "is_form_of": "arrij"
     }
    ],
-   "rank": 948,
-   "count": 1004,
-   "family": "vjedh",
+   "rank": 991,
+   "count": 956,
+   "family": "arrij",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -136,100 +212,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Have you ever stolen?",
+    "en": "This is easily accomplished.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Ke vjedhur ndonjëherë?"
-   }
-  },
-  {
-   "id": "vjedhës",
-   "sq": "vjedhës",
-   "en": "thief",
-   "glosses": [
-    "thief"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thief",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ës",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thief"
-     ]
-    }
-   ],
-   "rank": 17203,
-   "count": 32,
-   "family": "vjedh",
-   "is_root": false,
-   "etymology": "From vjedh + -ës.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vjedh",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vjedhës",
-     "tag": "plural"
-    },
-    {
-     "form": "vjedhësi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Also if you will be a thief.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Gjithashtu nëse do të jeni vjedhës."
+    "sq": "Kjo është arritur lehtë."
    }
   }
  ]

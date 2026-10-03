@@ -1,30 +1,200 @@
 {
  "level": 362,
- "title": "shpatë, marrëzi, hanë, qesharak, shtrenjtë +3",
+ "title": "mal, ngjarje, kënd, klub, ndjerë, verdhë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "hanë",
-  "marrëzi",
-  "qesharak",
-  "shpatë",
-  "shtrenjtë"
+  "klub",
+  "kënd",
+  "mal",
+  "ndjerë",
+  "ngjarje",
+  "verdhë"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 2,
-  "adv": 2
+  "noun": 15,
+  "pron": 2,
+  "prep": 1,
+  "adj": 8
  },
  "words": [
   {
-   "id": "shpatë",
-   "sq": "shpatë",
-   "en": "sword",
+   "id": "mal",
+   "sq": "mal",
+   "en": "mount",
    "glosses": [
-    "sword"
+    "mount",
+    "mountain",
+    "large amount of something",
+    "forest"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mount",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mali i Korabit",
+       "en": "Mount Korab",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mount"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mountain",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Landforms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Landforms",
+       "langcode": "sq",
+       "_dis": "4 53 36 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mountain"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "large amount of something",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kam marrë një mal me letra.",
+       "en": "I've received a lot of papers.",
+       "offsets": [
+        [
+         14,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "amount"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "forest",
+     "tags": [
+      "Gheg",
+      "Northeastern",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 82 10"
+      },
+      {
+       "name": "Pages with ISBN errors",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 62 13 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "forest"
+     ]
+    }
+   ],
+   "rank": 2655,
+   "count": 310,
+   "family": "mal",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *mal̄, from Pre-Proto-Albanian *malnə, from Proto-Indo-European *mĺ̥h₃nu- (“mountain”), from older *mólh₃nu- (“the emerging one”), from the root *melh₃-.\nOrel's reconstruction of Proto-Albanian *mala- cannot be accepted as it would have led to Albanian *mall. For the same reason, Demiraj's reconstruction of *m(o)lH-i- cannot be accepted either.\nAlthough the thematic precursor *mólh₃nos has found widespread acceptance, it is most likely that mal follows a u-stem precursor, *mólh₃nus, as an *-os ending should lead to an -ë ending. This also supports the plural form male, which is feminine, unlike the masculine singular.\nPreserved in patronyms, ethnonym malësor (“highlander, mountaineer”), in toponym (historical and ethnographic region) Malësia (north Albania and Montenegro). In Kosovo (Malishevë, Gjilan, Mališevo, Prizren), in Serbia (Maleševo (Golubac), Maleševo (Rekovac)) and the name of Maleshevo Mountain (North Macedonia and Bulgaria).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "mountain"
+   ],
+   "components": [],
+   "derived": [
+    "kukumalkë",
+    "malacak",
+    "malamal",
+    "male",
+    "malesh",
+    "malet",
+    "maleve",
+    "malevet"
+   ],
+   "related": [
+    "majë"
+   ],
+   "forms": [
+    {
+     "form": "male",
+     "tag": "plural"
+    },
+    {
+     "form": "mali",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ngjarje",
+   "sq": "ngjarje",
+   "en": "event",
+   "glosses": [
+    "event"
    ],
    "pos": [
     "noun"
@@ -36,7 +206,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sword",
+     "gloss": "event",
      "tags": [
       "feminine"
      ],
@@ -62,16 +232,16 @@
      ],
      "examples": [],
      "links": [
-      "sword"
+      "event"
      ]
     }
    ],
-   "rank": 2632,
-   "count": 312,
-   "family": "shpatë",
+   "rank": 2658,
+   "count": 309,
+   "family": "ngjarje",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Latin spatha. Cognate with Greek σπαθί (spathí), Italian spada, Romanian spadă, spată.",
-   "etymology_class": "borrowed",
+   "etymology": "From ngjarë, participle of ngjaj (“to happen”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -80,28 +250,331 @@
    "related": [],
    "forms": [
     {
-     "form": "shpata",
+     "form": "ngjarje",
      "tag": "plural"
+    },
+    {
+     "form": "ngjarja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What is this sword?",
+    "corpus": "GNOME",
+    "en": "This event has been changed.",
     "score": [
      0,
      4,
      -4,
-     10
+     6
     ],
-    "sq": "Çfarë është kjo shpatë?"
+    "sq": "Kjo ngjarje është ndryshuar."
    }
   },
   {
-   "id": "marrëzi",
-   "sq": "marrëzi",
-   "en": "madness, craziness",
+   "id": "kënd",
+   "sq": "kënd",
+   "en": "whom (alternative form of kë (“whom”) (accusative form of kush)",
    "glosses": [
-    "madness, craziness"
+    "whom (alternative form of kë (“whom”) (accusative form of kush)",
+    "somebody",
+    "corner",
+    "angle",
+    "a seat around something",
+    "a faraway place",
+    "a comfortable place (to stay, to live)",
+    "an area used for a specific purpose",
+    "viewpoint"
+   ],
+   "pos": [
+    "pron",
+    "pron",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "whom (alternative form of kë (“whom”) (accusative form of kush)",
+     "tags": [
+      "interrogative",
+      "pronoun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-pronoun",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "whom",
+      "kë",
+      "kush"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "somebody",
+     "tags": [
+      "pronoun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "somebody"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "corner",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 0 3 6 5 10 4 5 4"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 0 5 5 6 14 6 5 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 0 2 2 3 5 3 2 3"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Drejtkëndëshi ka katër kënde.",
+       "en": "A rectangle has four corners.",
+       "offsets": [
+        [
+         23,
+         28
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "corner"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "angle",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Këndi është shumë i ngushtë.",
+       "en": "The angle is very narrow.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "angle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a seat around something",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "seat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a faraway place",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "faraway",
+      "place"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a comfortable place (to stay, to live)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "comfortable",
+      "place"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "an area used for a specific purpose",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "area",
+      "specific",
+      "purpose"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "viewpoint",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "viewpoint"
+     ]
+    }
+   ],
+   "rank": 2663,
+   "count": 309,
+   "family": "kënd",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kan tan, sequence of two pronouns (Proto-Albanian *kan + *tan). Proto-Albanian *kan from Proto-Indo-European *kʷo-, from Proto-Indo-European *kʷ-. The second element Proto-Albanian *tan from Proto-Indo-European *to-. Continuing in accusative form of kush as kë (Gheg Albanian kâ, kân). See (pronoun) Albanian kë and (nominative form) kush (“who”) for more.\nFrom compound Proto-Albanian *kwom-to-, an indefinite pronoun.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "dikan",
+    "kërkan",
+    "ndokënd"
+   ],
+   "related": [
+    "kë",
+    "kujt",
+    "i kujt",
+    "e kujt",
+    "kush"
+   ],
+   "forms": [
+    {
+     "form": "kënde",
+     "tag": "plural"
+    },
+    {
+     "form": "këndi",
+     "tag": "definite"
+    },
+    {
+     "form": "kë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Beautiful from every angle.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "E bukur nga çdo kënd."
+   }
+  },
+  {
+   "id": "klub",
+   "sq": "klub",
+   "en": "club",
+   "glosses": [
+    "club"
    ],
    "pos": [
     "noun"
@@ -113,9 +586,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "madness, craziness",
+     "gloss": "club",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -125,7 +598,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 13 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -139,16 +612,15 @@
      ],
      "examples": [],
      "links": [
-      "madness",
-      "craziness"
+      "club"
      ]
     }
    ],
-   "rank": 2633,
-   "count": 312,
-   "family": "marrëzi",
+   "rank": 2673,
+   "count": 308,
+   "family": "klub",
    "is_root": true,
-   "etymology": "From marrë, possibly related to mërzit.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -158,179 +630,359 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Complete madness.",
+    "corpus": "HPLT",
+    "en": "He loves this club.",
     "score": [
      0,
-     3,
-     -3,
-     4
+     5,
+     -5,
+     10
     ],
-    "sq": "Marrëzi e plotë."
+    "sq": "Ai e do këtë klub."
    }
   },
   {
-   "id": "hanë",
-   "sq": "hanë",
-   "en": "moon",
+   "id": "ndjerë",
+   "sq": "ndjerë",
+   "en": "until, at, near(ly)",
    "glosses": [
-    "moon"
+    "until, at, near(ly)",
+    "dear, gone, dead"
    ],
    "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "moon",
-     "tags": [
-      "Gheg"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "moon"
-     ]
-    }
-   ],
-   "rank": 2634,
-   "count": 312,
-   "family": "hanë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ksandā, from pre-Albanian *skandneh₂, from Proto-Indo-European *(s)kand- (“to shine”) (compare Welsh can (“white”), Latin candeō (“to shine, gleam”), Sanskrit चन्द्र (candrá, “shining; moon”)). One might also consider a connection to Ancient Greek ἕνος (hénos, “old”) and Latin annus (“year”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "white"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hënë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "People have to eat.",
-    "score": [
-     0,
-     4,
-     -4,
-     4
-    ],
-    "sq": "Njerëzit duhet të hanë."
-   }
-  },
-  {
-   "id": "qesharak",
-   "sq": "qesharak",
-   "en": "funny, amusing; laughable, ridiculous",
-   "glosses": [
-    "funny, amusing; laughable, ridiculous"
-   ],
-   "pos": [
+    "prep",
     "adj"
    ],
    "pos_labels": [
+    "preposition",
     "adjective"
    ],
    "sense_detail": [
     {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "until, at, near(ly)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "until",
+      "at",
+      "near"
+     ]
+    },
+    {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "funny, amusing; laughable, ridiculous",
+     "gloss": "dear, gone, dead",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "78 22"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       }
      ],
      "examples": [],
      "links": [
-      "funny",
-      "amusing",
-      "laughable"
+      "dear",
+      "gone",
+      "dead"
      ]
     }
    ],
-   "rank": 2647,
-   "count": 311,
-   "family": "qesharak",
+   "rank": 2686,
+   "count": 307,
+   "family": "ndjerë",
    "is_root": true,
-   "etymology": "From qesh.",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *a/N(e)dri, from Proto-Indo-European *mé-ǵʰ(s)ri (locative) from *me (“with”). Cognate to Ancient Greek μέχρι (mékhri), Old Armenian մերձ (merj), and doublet of me as well related to dorë.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "with"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qesharake",
+     "form": "ndjerëe",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Don't be ridiculous, man.",
+    "corpus": "HPLT",
+    "en": "How did you feel?",
     "score": [
      0,
-     4,
-     -4,
-     5
+     3,
+     -3,
+     10
     ],
-    "sq": "Mos u bej qesharak."
+    "sq": "Si jeni ndjerë?"
    }
   },
   {
-   "id": "shtrenjtë",
-   "sq": "shtrenjtë",
-   "en": "costly, expensive",
+   "id": "verdhë",
+   "sq": "verdhë",
+   "en": "yellow",
    "glosses": [
-    "costly, expensive"
+    "yellow",
+    "pale",
+    "involving crimes and detective work (of a story)",
+    "yellow (of race), mongoloid",
+    "gold, golden (of coins)",
+    "green, fresh-leaves-coloured",
+    "jaundice",
+    "faint, swoon"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "yellow",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "yellow"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "pale",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "i verdhë në fytyrë",
+       "en": "with a pale face",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "pale"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "involving crimes and detective work (of a story)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 4 67 6 4 10 6"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 0 1 80 4 2 7 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "roman i verdhë",
+       "en": "crime novel, mystery novel",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "crime",
+      "detective"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "yellow (of race), mongoloid",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "raca e verdhë",
+       "en": "yellow race",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "yellow",
+      "mongoloid"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "gold, golden (of coins)",
+     "tags": [
+      "archaic"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gold",
+      "golden"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "green, fresh-leaves-coloured",
+     "tags": [
+      "archaic",
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "green",
+      "fresh",
+      "leaves"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "jaundice",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "jaundice"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "faint, swoon",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "faint",
+      "swoon"
+     ]
+    }
+   ],
+   "rank": 2695,
+   "count": 306,
+   "family": "verdhë",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin virdis, from Latin viridis (“green”). Adjective sense 4 is a semantic loan from Italian giallo (literally “yellow”). Adjective sense 2 is shared with Romanian verde (literally “green”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "green"
+   ],
+   "components": [],
+   "derived": [
+    "ballëverdhë",
+    "ballukeverdhë",
+    "cullufeverdhë",
+    "çehreverdhë",
+    "faqeverdhë",
+    "flokëverdhë",
+    "fytyrëverdhë",
+    "gërshetverdhë"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "malor",
+   "sq": "malor",
+   "en": "mountainous",
+   "glosses": [
+    "mountainous"
    ],
    "pos": [
     "adj"
@@ -342,7 +994,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "costly, expensive",
+     "gloss": "mountainous",
      "tags": [],
      "cats": [
       {
@@ -352,160 +1004,59 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -or",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
-     "links": [
-      "costly",
-      "expensive"
-     ]
-    }
-   ],
-   "rank": 2649,
-   "count": 311,
-   "family": "shtrenjtë",
-   "is_root": true,
-   "etymology": "From Vulgar Latin *strinctus (compare Romanian strâmt, Italian strinto), from Latin strictus (“narrow, tight”).",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin strinctus",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shtrejt",
-     "tag": "alternative"
-    },
-    {
-     "form": "sctreit",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It is very expensive.",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Është shumë shtrenjtë."
-   }
-  },
-  {
-   "id": "marrëzisht",
-   "sq": "marrëzisht",
-   "en": "madly, foolishly, ludicrously, idiotically",
-   "glosses": [
-    "madly, foolishly, ludicrously, idiotically",
-    "crazily, insanely, ridiculously"
-   ],
-   "pos": [
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "madly, foolishly, ludicrously, idiotically",
-     "tags": [],
-     "cats": [
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Albanian terms suffixed with -sht",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "sq": "Ai banon në një vend malor.",
+       "en": "He lives in a mountainous country.",
+       "offsets": [
+        [
+         21,
+         26
+        ]
+       ]
       }
      ],
-     "examples": [],
      "links": [
-      "madly",
-      "foolishly",
-      "ludicrously"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "crazily, insanely, ridiculously",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "crazily",
-      "insanely",
-      "ridiculously"
+      "mountainous"
      ]
     }
    ],
-   "rank": 29920,
+   "rank": 29783,
    "count": 15,
-   "family": "marrëzi",
+   "family": "mal",
    "is_root": false,
-   "etymology": "From marrëzi (mad(ness)) + -sht (-ly).",
+   "etymology": "From mal + -or.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "marrëzi",
+     "word": "mal",
      "role": "prefix"
     }
    ],
    "derived": [],
-   "related": [
-    "marrë",
-    "marri",
-    "mërzit",
-    "marrëzishëm",
-    "marrëzishme"
+   "related": [],
+   "forms": [
+    {
+     "form": "malore",
+     "tag": "feminine"
+    }
    ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Head over heels in love.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Marrëzisht në dashuri."
-   }
+   "corpus_example": null
   }
  ]
 }

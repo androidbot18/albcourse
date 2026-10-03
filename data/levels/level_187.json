@@ -1,52 +1,85 @@
 {
  "level": 187,
- "title": "histori",
- "root": "histori",
- "root_gloss": "history",
+ "title": "mbaroj",
+ "root": "mbaroj",
+ "root_gloss": "to complete, to finish",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 2,
  "families": [
-  "histori"
+  "mbaroj"
  ],
  "pos_mix": {
-  "noun": 4
+  "verb": 6
  },
  "words": [
   {
-   "id": "histori",
-   "sq": "histori",
-   "en": "history",
+   "id": "mbaroj",
+   "sq": "mbaroj",
+   "en": "to complete, to finish",
    "glosses": [
-    "history"
+    "to complete, to finish",
+    "to (bring to an) end, finalize",
+    "to create, to prepare",
+    "to fulfill (a wish, desire, request, need); to end/destroy (someone or someone’s dream, wish, etc.)",
+    "it runs out / they run out (money)"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "history",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to complete, to finish",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "complete",
+      "finish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to (bring to an) end, finalize",
+     "tags": [
+      "active",
+      "figuratively",
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "end",
+      "finalize"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to create, to prepare",
+     "tags": [
+      "Gheg"
+     ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Gheg Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,16 +87,86 @@
      ],
      "examples": [],
      "links": [
-      "history"
+      "create",
+      "prepare"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fulfill (a wish, desire, request, need); to end/destroy (someone or someone’s dream, wish, etc.)",
+     "tags": [
+      "active",
+      "colloquial",
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "ta mbaron qejfin",
+       "en": "(he/she) fulfills your wish",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fulfill",
+      "end",
+      "destroy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it runs out / they run out (money)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 14 12 21 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 16 21 22 28"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 5 5 31 56"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "(see mbarohet (“(it) runs out”) for more)",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "run",
+      "out",
+      "run"
      ]
     }
    ],
-   "rank": 651,
-   "count": 1573,
-   "family": "histori",
+   "rank": 1485,
+   "count": 595,
+   "family": "mbaroj",
    "is_root": true,
-   "etymology": "Learned borrowing from Latin historia.",
-   "etymology_class": null,
+   "etymology": "According to Meyer and Tagliavini from mbar (“to bring (back)”) (mbar + -oj). Related to Albanian mbarë (“good, right, complete, wholly, etc.”), further related to mbart (“to bear, carry (back)”), Albanian mbaj (“to hold, carry”) and bie (“to bring”).\nOrel proposed it as a (prefixal) derivative of parë.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -72,49 +175,38 @@
    "related": [],
    "forms": [
     {
-     "form": "histori",
-     "tag": "plural"
+     "form": "mbaruar",
+     "tag": "participle"
     },
     {
-     "form": "historia",
-     "tag": "definite"
+     "form": "maroj",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "more stories.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Të tjera histori."
-   }
+   "corpus_example": null
   },
   {
-   "id": "historinë",
-   "sq": "historinë",
-   "en": "the history, singular (from histori)",
+   "id": "mbaruar",
+   "sq": "mbaruar",
+   "en": "complete, past form (from mbaroj, to complete)",
    "glosses": [
-    "the history, singular (from histori)"
+    "complete, past form (from mbaroj, to complete)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the history, singular (from histori)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "complete, past form (from mbaroj, to complete)",
      "tags": [
-      "accusative",
-      "definite",
       "form-of",
-      "singular"
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -137,12 +229,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "histori"
+     "is_form_of": "mbaroj"
     }
    ],
-   "rank": 1313,
-   "count": 684,
-   "family": "histori",
+   "rank": 693,
+   "count": 1453,
+   "family": "mbaroj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -154,163 +246,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I just know the history.",
+    "corpus": "QED",
+    "en": "I'm not done yet. I'm not done yet.",
     "score": [
      0,
-     5,
-     -5,
-     10
+     4,
+     -4,
+     5
     ],
-    "sq": "Unë vetëm e di historinë."
-   }
-  },
-  {
-   "id": "historia",
-   "sq": "historia",
-   "en": "the history, singular (from histori)",
-   "glosses": [
-    "the history, singular (from histori)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the history, singular (from histori)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 18 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "histori"
-    }
-   ],
-   "rank": 1501,
-   "count": 590,
-   "family": "histori",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "That's the story.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Kjo është historia."
-   }
-  },
-  {
-   "id": "historian",
-   "sq": "historian",
-   "en": "historian",
-   "glosses": [
-    "historian"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "historian",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -an",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "historian"
-     ]
-    }
-   ],
-   "rank": 39671,
-   "count": 9,
-   "family": "histori",
-   "is_root": false,
-   "etymology": "From histori + -an.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "histori",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I am a historian and I know a lot about the sights.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Jam historian dhe i njoh shumë mirë pamjet."
+    "sq": "Nuk kam mbaruar ende."
    }
   }
  ]

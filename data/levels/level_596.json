@@ -1,29 +1,31 @@
 {
  "level": 596,
- "title": "bazen, astronaut, kilometër, bole, qarkullim, magnet +4",
+ "title": "geto, komunist, pasagjer, llum, tradhtoj, qyqar +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "astronaut",
-  "bazen",
-  "bole",
-  "kilometër",
-  "magnet",
-  "qarkullim"
+  "geto",
+  "komunist",
+  "llum",
+  "pasagjer",
+  "qyqar",
+  "tradhtoj"
  ],
  "pos_mix": {
-  "noun": 6
+  "noun": 4,
+  "verb": 1,
+  "adj": 3
  },
  "words": [
   {
-   "id": "bazen",
-   "sq": "bazen",
-   "en": "swimming pool",
+   "id": "geto",
+   "sq": "geto",
+   "en": "ghetto (racially segregated neighbourhood, especially of Jews)",
    "glosses": [
-    "swimming pool"
+    "ghetto (racially segregated neighbourhood, especially of Jews)"
    ],
    "pos": [
     "noun"
@@ -35,9 +37,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "swimming pool",
+     "gloss": "ghetto (racially segregated neighbourhood, especially of Jews)",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -61,50 +63,50 @@
      ],
      "examples": [],
      "links": [
-      "swimming pool"
+      "ghetto"
      ]
     }
    ],
-   "rank": 16694,
+   "rank": 16950,
    "count": 33,
-   "family": "bazen",
+   "family": "geto",
    "is_root": true,
-   "etymology": "From Serbo-Croatian bazen, from French bassin.",
+   "etymology": "Borrowed from Italian ghetto.",
    "etymology_class": "borrowed",
-   "source_lang": "sr",
-   "cognate": "from Serbian bassin",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "bazene",
+     "form": "geto",
      "tag": "plural"
     },
     {
-     "form": "bazeni",
+     "form": "getoja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "We set up a foundation.",
+    "corpus": "HPLT",
+    "en": "Believing in justice is ghettoised here.",
     "score": [
      1,
-     4,
-     -3,
-     4
+     8,
+     -7,
+     10
     ],
-    "sq": "Ne kemi krijuar bazen."
+    "sq": "Besimi në drejtësi këtu ka hyrë në geto."
    }
   },
   {
-   "id": "astronaut",
-   "sq": "astronaut",
-   "en": "astronaut, cosmonaut",
+   "id": "komunist",
+   "sq": "komunist",
+   "en": "communist",
    "glosses": [
-    "astronaut, cosmonaut"
+    "communist"
    ],
    "pos": [
     "noun"
@@ -116,8 +118,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "astronaut, cosmonaut",
-     "tags": [],
+     "gloss": "communist",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -126,7 +130,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 11 entries",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -140,14 +144,13 @@
      ],
      "examples": [],
      "links": [
-      "astronaut",
-      "cosmonaut"
+      "communist"
      ]
     }
    ],
-   "rank": 16723,
+   "rank": 16975,
    "count": 33,
-   "family": "astronaut",
+   "family": "komunist",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -157,25 +160,38 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "komunistë",
+     "tag": "plural"
+    },
+    {
+     "form": "komunisti",
+     "tag": "definite"
+    },
+    {
+     "form": "komuniste",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I want to become an astronaut.",
+    "corpus": "HPLT",
+    "en": "This country is a communist country.",
     "score": [
      0,
-     4,
-     -4,
-     0
+     5,
+     -5,
+     10
     ],
-    "sq": "Dua të bëhem astronaut."
+    "sq": "Ky vend është vend komunist."
    }
   },
   {
-   "id": "kilometër",
-   "sq": "kilometër",
-   "en": "kilometer, kilometre",
+   "id": "pasagjer",
+   "sq": "pasagjer",
+   "en": "passenger",
    "glosses": [
-    "kilometer, kilometre"
+    "passenger"
    ],
    "pos": [
     "noun"
@@ -187,17 +203,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "kilometer, kilometre",
-     "tags": [],
+     "gloss": "passenger",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with kilo-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -207,51 +219,60 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "kilometer",
-      "kilometre"
+      "passenger"
      ]
     }
    ],
-   "rank": 16765,
-   "count": 33,
-   "family": "kilometër",
+   "rank": 17029,
+   "count": 32,
+   "family": "pasagjer",
    "is_root": true,
-   "etymology": "kilo- + metër",
-   "etymology_class": "affix",
+   "etymology": "Borrowed from French passager.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "metër",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "pasagjerë",
+     "tag": "plural"
+    },
+    {
+     "form": "pasagjere",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's not far, maybe a kilometer.",
+    "en": "He had only six passengers.",
     "score": [
      0,
-     7,
-     -7,
+     6,
+     -6,
      10
     ],
-    "sq": "Ajo nuk është larg, ndoshta një kilometër."
+    "sq": "Ai ka pasur vetëm gjashtë pasagjer."
    }
   },
   {
-   "id": "bole",
-   "sq": "bole",
-   "en": "testicles",
+   "id": "llum",
+   "sq": "llum",
+   "en": "mud",
    "glosses": [
-    "testicles"
+    "mud"
    ],
    "pos": [
     "noun"
@@ -263,10 +284,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "testicles",
+     "gloss": "mud",
      "tags": [
-      "masculine",
-      "plural"
+      "masculine"
      ],
      "cats": [
       {
@@ -276,13 +296,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian pluralia tantum",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 16 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -290,16 +310,109 @@
      ],
      "examples": [],
      "links": [
-      "testicles"
+      "mud"
      ]
     }
    ],
-   "rank": 16817,
-   "count": 33,
-   "family": "bole",
+   "rank": 17065,
+   "count": 32,
+   "family": "llum",
    "is_root": true,
-   "etymology": "Variant of bolle. Occurs exclusively in the plural form.",
+   "etymology": "A formation of lym with expressive anlaut, which in its turn has caused the velarization of the following vowel.",
    "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "into the scum, into the black sludge.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "në llum, në llagëmin e zi."
+   }
+  },
+  {
+   "id": "tradhtoj",
+   "sq": "tradhtoj",
+   "en": "to betray",
+   "glosses": [
+    "to betray"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to betray",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Më ke tradhtuar, tani të lë unë!",
+       "en": "You betrayed me, I leave you now!",
+       "offsets": [
+        [
+         3,
+         15
+        ]
+       ]
+      },
+      {
+       "sq": "Gabim me ty qe rrija, se dija qe më tradhtove.",
+       "en": "It was a mistake that I stood with you, because I knew that you betrayed me.",
+       "offsets": [
+        [
+         36,
+         45
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "betray"
+     ]
+    }
+   ],
+   "rank": 17072,
+   "count": 32,
+   "family": "tradhtoj",
+   "is_root": true,
+   "etymology": "Ultimately from Latin trādō. Compare Romanian trăda.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -308,173 +421,140 @@
    "related": [],
    "forms": [
     {
-     "form": "bolle",
-     "tag": "alternative"
+     "form": "tradhtova",
+     "tag": "aorist"
+    },
+    {
+     "form": "tradhtuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "qarkullim",
-   "sq": "qarkullim",
-   "en": "circulation",
+   "id": "qyqar",
+   "sq": "qyqar",
+   "en": "poor, miserable, wretched, hapless",
    "glosses": [
-    "circulation"
+    "poor, miserable, wretched, hapless",
+    "alone, desolate, forsaken",
+    "incapable, helpless, weak"
    ],
    "pos": [
-    "noun"
+    "adj",
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "circulation",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "poor, miserable, wretched, hapless",
      "tags": [
-      "masculine"
+      "also",
+      "noun"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "poor",
+      "miserable",
+      "wretched"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "alone, desolate, forsaken",
+     "tags": [
+      "also",
+      "noun"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "14 52 34"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 68 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 87 13"
       }
      ],
      "examples": [],
      "links": [
-      "circulation"
+      "alone",
+      "desolate",
+      "forsaken"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "incapable, helpless, weak",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 40 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incapable",
+      "helpless",
+      "weak"
      ]
     }
    ],
-   "rank": 16819,
-   "count": 33,
-   "family": "qarkullim",
+   "rank": 17075,
+   "count": 32,
+   "family": "qyqar",
    "is_root": true,
-   "etymology": "Gerund of qarkulloj; qarkulloj + -im.",
+   "etymology": "From qyq (“wretched, miserable”) + -ar.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "qyq",
+    "qyqan",
+    "qyqatoj",
+    "qyqe",
+    "qyqohem"
+   ],
    "forms": [
     {
-     "form": "qarkullime",
-     "tag": "plural"
-    },
-    {
-     "form": "qarkullimi",
-     "tag": "definite"
+     "form": "qyqare",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Their time in circulation is fleeting.",
-    "score": [
-     0,
-     8,
-     -8,
-     10
-    ],
-    "sq": "Koha e tyre në qarkullim është e shkurtër."
-   }
-  },
-  {
-   "id": "magnet",
-   "sq": "magnet",
-   "en": "magnet",
-   "glosses": [
-    "magnet"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "magnet",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "magnet"
-     ]
-    }
-   ],
-   "rank": 16884,
-   "count": 33,
-   "family": "magnet",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "magnete",
-     "tag": "plural"
-    },
-    {
-     "form": "magneti",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Use Caution with Magnets.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Përdorni Kujdes me Magnet."
-   }
+   "corpus_example": null
   }
  ]
 }
