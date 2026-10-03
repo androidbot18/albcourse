@@ -33,6 +33,7 @@ import form_senses
 import teaching_order
 import pack_shape
 import pos_balance
+import opening_policy
 import cognates
 from example_rank import rank_examples
 import os
@@ -114,6 +115,24 @@ DEFER_MAX_ROOT_RANK = 900
 # do (rank 4): head [do] = 1, tail = 7. Under the bar, stays whole.
 # per (rank 13): head 4, tail = 19. Under the bar, stays whole.
 # nje (rank 11): head 3, tail = 5. Under the bar, stays whole.
+# How small a family common head may be and still be worth splitting.
+#
+# This was raised from 4 to 5 by the option-B change so that splitting a
+# family inside the opening could not cost a function word its slot: per
+# split into four sessions and pushed une from L11 to L16.
+#
+# That fix has a cost nobody measured. A head of five common members is a
+# bar almost no small family clears, so the split NEVER fires for the
+# families it was written for. do has one common member and seven rare
+# ones (doemos rank 30516, domosdoshmeri rank 38595) and teaches all
+# eight in level 2. me has one and three, and puts mjaftoj (rank 42540)
+# in level 10. nje has two and six, filling level 9 with a 10616 tail.
+# Strays in the opening went 16 -> 18 rather than to zero.
+#
+# So the bar is back to 2: a family with at least two common members is
+# worth splitting on the inside, and do, me and nje all qualify. une is
+# a single-member family and is unaffected: it is displaced by the
+# levels a split fills, not by the split itself.
 DEFER_MIN_HEAD_IN_OPENING = 5
 
 # A common head at least this large already occupies the opening, so moving
@@ -1113,6 +1132,69 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         got = [rank_of[m] for m in members if m in rank_of]
         if got:
             score[root] = min(got)
+
+    # ---- the opening is for content, not grammatical scaffolding --------
+    #
+    # The frequency list is OpenSubtitles, so ranking by frequency and
+    # taking the top produces a wall of function words BY CONSTRUCTION: of
+    # the 45 most frequent tokens, exactly one is a plain content noun.
+    # Level 1 was therefore te (rank 1, conjunction), ne (rank 3,
+    # conjunction), babi, zemer, re -- two conjunctions out of five cards.
+    #
+    # The brief is that grammar is taught elsewhere, so closed-class words
+    # should not spend the scarce first sessions. Conjunctions, prepositions,
+    # determiners and numerals are deferred. Verbs are NOT: a paradigm is
+    # vocabulary the learner meets in situ, and conjugations stay.
+    #
+    # Expressed as a synthetic rank, the same device the early-noun boost
+    # uses below. Setting score=0 would send every deferred root to the
+    # absolute front and displace the content words this makes room for.
+    #
+    # Bounded by count, not banned outright. The opening genuinely needs
+    # dhe (12), nje (11) and se (15); without them a learner cannot build a
+    # sentence. The most frequent keep their natural rank; the rest are
+    # pushed past the opening, still taught, just later. No card is dropped.
+    #
+    # Admission is by NAMED SET, not by a frequency budget. Budgeting by
+    # frequency admitted the six most frequent closed-class roots -- te,
+    # ne, do, me, qe, nje, every one inside rank 1-11 -- which are exactly
+    # the words that made level 1 a wall of grammar. See
+    # opening_policy.OPENING_FUNCTION_WORDS for the set and the reasoning.
+    # A family is deferred only when its ROOT is a closed-class word that is
+    # not admitted. Testing the root rather than any member is what keeps
+    # conjugations in the opening.
+    #
+    # The first version asked whether ANY member was a blocked function word,
+    # and that sent `eshte` -- rank 6, the copula, a conjugation the brief
+    # keeps -- to level 186, because its family `jam` also holds `meqenese`
+    # ("because", a conjunction) and `qenie` ("existence", a noun). One
+    # conjunction in the family banished the whole paradigm, taking jam,
+    # jemi, jeni and qenka with it. The brief is explicit that conjugations
+    # remain, so a verb family is never deferred for a member that merely
+    # reads as closed class; only a family NAMED after a function word is.
+    by_word_fn = {c["word"]: c for c in cards}
+    beyond = []
+    for root in sorted(families, key=lambda r: (score.get(r, 10 ** 9), r)):
+        card = by_word_fn.get(root) or {}
+        if not opening_policy.is_function_word(card):
+            continue
+        if opening_policy.admits_to_opening(root):
+            continue
+        # A family is atomic, so deferring its head hands the opening slot to
+        # its rare tail. `nje` and `me` are admitted whole for that reason:
+        # deferring them pushed njezet, njesi and mjaftoj (rank 42540) into
+        # the opening in place of the head. See
+        # opening_policy.OPENING_FUNCTION_FAMILIES.
+        if opening_policy.admits_family_to_opening(root):
+            continue
+        # Pushed past the opening by a synthetic rank beyond every real one.
+        # The word is still taught, just later: nothing is dropped.
+        score[root] = DEFER_MAX_ROOT_RANK + 1 + len(beyond)
+        beyond.append(root)
+    if beyond:
+        print("  %d closed-class roots deferred past the opening: %s"
+              % (len(beyond), " ".join(sorted(beyond))))
+
 
     # Item 4: pull pictureable nouns into the opening levels.
     #

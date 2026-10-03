@@ -1,42 +1,46 @@
 {
  "level": 606,
- "title": "mulli, paraburgim, tesha, perandor, kaçavidë, rimë +4",
+ "title": "hetoj, bardhosh, call, quar, dell, shkas +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "kaçavidë",
-  "mulli",
-  "paraburgim",
-  "perandor",
-  "rimë",
-  "tesha"
+  "bardhosh",
+  "call",
+  "dell",
+  "hetoj",
+  "quar",
+  "shkas"
  ],
  "pos_mix": {
-  "noun": 8
+  "verb": 2,
+  "adj": 4,
+  "noun": 6
  },
  "words": [
   {
-   "id": "mulli",
-   "sq": "mulli",
-   "en": "mill",
+   "id": "hetoj",
+   "sq": "hetoj",
+   "en": "to investigate, inquire, observe",
    "glosses": [
-    "mill"
+    "to investigate, inquire, observe"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mill",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to investigate, inquire, observe",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -45,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,85 +63,126 @@
      ],
      "examples": [],
      "links": [
-      "mill"
+      "investigate",
+      "inquire",
+      "observe"
      ]
     }
    ],
-   "rank": 18228,
-   "count": 30,
-   "family": "mulli",
+   "rank": 17765,
+   "count": 31,
+   "family": "hetoj",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Late Latin molīnum, from Latin molō.",
-   "etymology_class": "borrowed",
+   "etymology": "From an unattested *het, from Proto-Albanian *skaita, close to Lithuanian skaitýti (“to read”). Alternatively from Latin ēdictāre (“to announce”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "hetova",
+     "tag": "aorist"
+    },
+    {
+     "form": "hetuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Three years later the mill was finally ready.",
+    "corpus": "TED2020",
+    "en": "So, I decided to investigate.",
     "score": [
-     0,
-     9,
-     -9,
-     10
+     2,
+     5,
+     -3,
+     4
     ],
-    "sq": "Tre vjet më vonë, në fund mulli ishte gati."
+    "sq": "Keshtu qe, vendosa te hetoj."
    }
   },
   {
-   "id": "paraburgim",
-   "sq": "paraburgim",
-   "en": "detention",
+   "id": "bardhosh",
+   "sq": "bardhosh",
+   "en": "pallid, pale",
    "glosses": [
-    "detention"
+    "pallid, pale",
+    "gray-haired",
+    "whitish"
    ],
    "pos": [
-    "noun"
+    "adj",
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "detention",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "pallid, pale",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pallid",
+      "pale"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "gray-haired",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "3 94 3"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 100 0"
       }
      ],
      "examples": [],
      "links": [
-      "detention"
+      "gray-haired"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "whitish",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "whitish"
      ]
     }
    ],
-   "rank": 18237,
-   "count": 30,
-   "family": "paraburgim",
+   "rank": 17799,
+   "count": 31,
+   "family": "bardhosh",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -147,134 +192,120 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He is in custody.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ai është në paraburgim."
-   }
+   "forms": [
+    {
+     "form": "bardhoshe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "tesha",
-   "sq": "tesha",
-   "en": "belongings, utensils, things",
+   "id": "call",
+   "sq": "call",
+   "en": "inapt, unuseful, naive",
    "glosses": [
-    "belongings, utensils, things",
-    "clothes"
+    "inapt, unuseful, naive"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "belongings, utensils, things",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "inapt, unuseful, naive",
      "tags": [
-      "feminine",
-      "plural"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "belongings",
-      "utensils",
-      "things"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "clothes",
-     "tags": [
-      "Gheg",
-      "feminine",
-      "plural"
+      "regional"
      ],
      "cats": [
       {
-       "name": "Gheg Albanian",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
+       "source": "w"
       },
       {
-       "name": "Albanian pluralia tantum",
+       "name": "Pages with 8 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "clothes"
+      "regional",
+      "inapt",
+      "unuseful"
      ]
     }
    ],
-   "rank": 18252,
+   "rank": 17868,
    "count": 30,
-   "family": "tesha",
+   "family": "call",
    "is_root": true,
-   "etymology": "From Proto-Albanian *taišā, continuing Proto-Indo-European *tetḱ-. Related to Lithuanian tiesiù, tiēsti (“to make right, to build”) and perhaps Ancient Greek τέκτων (téktōn, “artisan”).",
+   "etymology": "A truncation of callok.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "teshë"
+   "related": [],
+   "forms": [
+    {
+     "form": "calle",
+     "tag": "feminine"
+    }
    ],
-   "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "They wore balaclavas and army clothes.",
+    "corpus": "HPLT",
+    "en": "What is Call+?",
     "score": [
+     0,
      3,
-     8,
-     -5,
-     8
+     -3,
+     10
     ],
-    "sq": "Ata kishin veshur maska dhe tesha të ushtrisë."
+    "sq": "Çfarë është Call+?"
    }
   },
   {
-   "id": "perandor",
-   "sq": "perandor",
-   "en": "emperor",
+   "id": "quar",
+   "sq": "quar",
+   "en": "basement, cellar, stable (where animals are kept)",
    "glosses": [
-    "emperor"
+    "basement, cellar, stable (where animals are kept)",
+    "cellar, pantry, storage, larder (where food is stored)",
+    "housing, shelter, bed",
+    "bedroom"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "emperor",
+     "gloss": "basement, cellar, stable (where animals are kept)",
      "tags": [
       "masculine"
      ],
@@ -283,32 +314,79 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "52 35 9 4"
       }
      ],
      "examples": [],
      "links": [
-      "emperor"
+      "basement",
+      "cellar",
+      "stable"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cellar, pantry, storage, larder (where food is stored)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cellar",
+      "pantry",
+      "storage"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "housing, shelter, bed",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "housing",
+      "shelter",
+      "bed"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bedroom",
+     "tags": [
+      "masculine",
+      "obsolete"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "egoditi cori / chi aytue fyetune gniay nate atȣ ꝑpara dereſe / chiorit, keiſc iɛoti tue fyetune",
+       "en": "it happened one night, while he was sleeping, in front of the door of the chamber where his master was sleeping",
+       "offsets": [
+        [
+         63,
+         70
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bedroom"
      ]
     }
    ],
-   "rank": 18280,
-   "count": 29,
-   "family": "perandor",
+   "rank": 17874,
+   "count": 30,
+   "family": "quar",
    "is_root": true,
-   "etymology": "Highly disputed etymology.\n* either from perëndi, or Prenda. according to Durham, a sun-cult influence by Mithraism during early Roman Christianity similar Middle Greek ὁ ήλιος βασιλεύει\n* from Latin parento\n* or from Latin imperator, but this is challenging due to the existence of mbret",
+   "etymology": "Borrowed from Late Latin cellārium (“cellar, pantry”). For the ending compare hamshor, fruer, etc. Doublet of qilar.\nDiscarded theories\nMeyer (1891) separately misidentifies Bardhi's chiuer a typographical mistake for qiler and hesitatingly compares qur with ahur. Jokl (1923) connects the word to descendants of Proto-Slavic *klětь (“barn, cellar”) and other descendants of Proto-Indo-European *ḱley- (“to shelter, cover”). Çabej SEFSH [1950s–1980] compares it to the descendants of Proto-Celtic *kladeti (“to dig, bury”). Orel (1998) tentatively compares it to qos (“to finish”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -318,51 +396,142 @@
    "related": [],
    "forms": [
     {
-     "form": "Perennuur",
+     "form": "quarë",
+     "tag": "plural"
+    },
+    {
+     "form": "quari",
+     "tag": "definite"
+    },
+    {
+     "form": "quer",
      "tag": "alternative"
     },
     {
-     "form": "Perennuori",
+     "form": "qur",
      "tag": "alternative"
     },
     {
-     "form": "Perennor",
+     "form": "çur",
      "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No major emperor moves.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Asnjë perandor i madh nuk lëviz."
-   }
+   "corpus_example": null
   },
   {
-   "id": "kaçavidë",
-   "sq": "kaçavidë",
-   "en": "screwdriver",
+   "id": "dell",
+   "sq": "dell",
+   "en": "tendon",
    "glosses": [
-    "screwdriver"
+    "tendon",
+    "sinew"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "screwdriver",
+     "gloss": "tendon",
      "tags": [
-      "feminine"
+      "masculine"
      ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "67 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "tendon"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sinew",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sinew"
+     ]
+    }
+   ],
+   "rank": 17876,
+   "count": 30,
+   "family": "dell",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *daislā, from Proto-Indo-European *gʷʰiH-slo (compare Latin fīlum, Lithuanian gýsla, Serbo-Croatian žȉla).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dej",
+     "tag": "plural"
+    },
+    {
+     "form": "delli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Ambassador Dell: You are quite right.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Ambasadori Dell: Keni shumë të drejtë."
+   }
+  },
+  {
+   "id": "shkas",
+   "sq": "shkas",
+   "en": "to slip, slide; motive, pretext",
+   "glosses": [
+    "to slip, slide; motive, pretext"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to slip, slide; motive, pretext",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -385,16 +554,18 @@
      ],
      "examples": [],
      "links": [
-      "screwdriver"
+      "slip",
+      "slide",
+      "motive"
      ]
     }
    ],
-   "rank": 18288,
-   "count": 29,
-   "family": "kaçavidë",
+   "rank": 17877,
+   "count": 30,
+   "family": "shkas",
    "is_root": true,
-   "etymology": "Borrowed from Italian cacciavite, variants are borrowed from Greek κατσαβίδι (katsavídi), from Venetan caçavide.",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *skatja. Cognate to Latin scateō (“to stream, to flow out”), Lithuanian skantù, skàsti (“to spring, to jump”), and perhaps to Ancient Greek σκάξω (skáxō, “to be lame”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -403,150 +574,25 @@
    "related": [],
    "forms": [
     {
-     "form": "kaçavida",
-     "tag": "plural"
+     "form": "shkava",
+     "tag": "aorist"
     },
     {
-     "form": "kacavidë",
-     "tag": "alternative"
-    },
-    {
-     "form": "kacavidhë",
-     "tag": "alternative"
+     "form": "shkarë",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Impact drill, screwdriver etc.",
+    "en": "This signal is called a trigger.",
     "score": [
-     3,
+     0,
      6,
-     -3,
+     -6,
      10
     ],
-    "sq": "Tools: Stërvitje me ndikim, kaçavidë etj."
+    "sq": "Ky sinjal është quajtur një shkas."
    }
-  },
-  {
-   "id": "rimë",
-   "sq": "rimë",
-   "en": "rhyme",
-   "glosses": [
-    "rhyme",
-    "poem"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rhyme",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Tërë këto të bëjnë të kuptosh hallin e poetit për rithëm e rimë.",
-       "en": "All of this makes you understand the poet's concern for rhythm and rhyme.",
-       "offsets": [
-        [
-         59,
-         63
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "rhyme"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "poem",
-     "tags": [
-      "dialectal",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Calabrian Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Sicilian Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -më",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 37 5 12"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Ktë rrim e bëri Strolaku; e arbreshve i thot: se me fljamur te dora u ngjal in Zot.",
-       "en": "Strolak composed this poem, and he tells the Arbëreshë: that our God arose with a flag in his hand.",
-       "offsets": [
-        [
-         4,
-         8
-        ]
-       ]
-      },
-      {
-       "sq": "E ghieghie Zogna e S. Mɐrij grazien e limoſɐnɐn ciɐ dua, pɐr chɐtɐ Rimm'?",
-       "en": "",
-       "offsets": [
-        [
-         67,
-         72
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "poem"
-     ]
-    }
-   ],
-   "rank": 18319,
-   "count": 29,
-   "family": "rimë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian rima.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "rimar",
-    "rimon",
-    "rimor"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "rima",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
   }
  ]
 }

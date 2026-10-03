@@ -32,6 +32,17 @@ echo "== early level balance =="
 python3 tools/test_pos_balance.py
 
 echo
+echo "== opening policy =="
+# Levels 1-10 opened with `të` (rank 1, conjunction) and `në` (rank 3,
+# conjunction) because the frequency list is OpenSubtitles and only one of
+# its top 45 tokens is a content noun. Grammar is taught in a separate
+# course, so closed-class words are held out of the opening by a named set;
+# conjugations stay. This also pins the two silent failures that produced a
+# green build and a wrong deck: the POS namespace mismatch and the frequency
+# budget that admitted exactly the words it was meant to exclude.
+python3 tools/test_opening_policy.py
+
+echo
 echo "== cognate hooks =="
 # The source-language form shown on a card ("from Latin soca"). The failure
 # mode this guards is subtle: the extractor can return the English gloss

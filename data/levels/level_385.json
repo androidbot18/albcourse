@@ -1,30 +1,30 @@
 {
  "level": 385,
- "title": "liri, varfër, akullore, fli, pluhur, rresht +4",
+ "title": "pako, shkurt, pazakontë, stuhi +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 5,
  "families": [
-  "akullore",
-  "fli",
-  "liri",
-  "pluhur",
-  "rresht",
-  "varfër"
+  "pako",
+  "pazakontë",
+  "shkurt",
+  "stuhi"
  ],
  "pos_mix": {
-  "noun": 8,
-  "adj": 1
+  "noun": 4,
+  "adj": 2,
+  "adv": 2,
+  "verb": 4
  },
  "words": [
   {
-   "id": "liri",
-   "sq": "liri",
-   "en": "freedom",
+   "id": "pako",
+   "sq": "pako",
+   "en": "parcel, pack",
    "glosses": [
-    "freedom"
+    "parcel, pack"
    ],
    "pos": [
     "noun"
@@ -36,8 +36,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "freedom",
-     "tags": [],
+     "gloss": "parcel, pack",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 6 entries",
+       "name": "Pages with 20 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,16 +62,17 @@
      ],
      "examples": [],
      "links": [
-      "freedom"
+      "parcel",
+      "pack"
      ]
     }
    ],
-   "rank": 3314,
-   "count": 242,
-   "family": "liri",
+   "rank": 3159,
+   "count": 256,
+   "family": "pako",
    "is_root": true,
-   "etymology": "From lirë.",
-   "etymology_class": null,
+   "etymology": "Ultimately from Latin particula.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -78,32 +81,203 @@
    "related": [],
    "forms": [
     {
-     "form": "liri",
+     "form": "pako",
      "tag": "plural"
     },
     {
-     "form": "liria",
+     "form": "pakoja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Woman, life, freedom!",
+    "en": "It only requires two or three packages.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Kërkon vetëm dy ose tre pako."
+   }
+  },
+  {
+   "id": "shkurt",
+   "sq": "shkurt",
+   "en": "short",
+   "glosses": [
+    "short",
+    "in short, in brief, in sum",
+    "abruptly",
+    "short male",
+    "February"
+   ],
+   "pos": [
+    "adj",
+    "adv",
+    "adv",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adverb",
+    "adverb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "short",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "short"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in short, in brief, in sum",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 87 0 2 9"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 70 0 5 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 91 0 2 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "in short",
+      "in brief",
+      "in sum"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "abruptly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "abruptly"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "short male",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Months",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Months",
+       "langcode": "sq",
+       "_dis": "0 23 0 38 38"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "male"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "February",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Months",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Months",
+       "langcode": "sq",
+       "_dis": "0 23 0 38 38"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "February"
+     ]
+    }
+   ],
+   "rank": 3165,
+   "count": 256,
+   "family": "shkurt",
+   "is_root": true,
+   "etymology": "According to Guillaume Bonnet, possibly from Proto-Germanic *skurtaz.\nAlternatively borrowed from reconstructed Vulgar Latin *excurtus (cf. Italian scurto, Romanian scurt, Aromanian shcurtu), derivative of Latin curtus. The Albanian, (reconstructed) Latin, and Germanic terms developed in the same way. A borrowing theory does not explain the sense development and progression of the Albanian root itself.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "shkurtoj",
+    "shkurtohem",
+    "shkurtë",
+    "shkurtër",
+    "shkurte"
+   ],
+   "related": [
+    "shkurte",
+    "shurtohem",
+    "shkurtoj",
+    "kij"
+   ],
+   "forms": [
+    {
+     "form": "shkurti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Short on time?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Grua, jetë, liri!"
+    "sq": "Shkurt në kohë?"
    }
   },
   {
-   "id": "varfër",
-   "sq": "varfër",
-   "en": "poor (having little money)",
+   "id": "pazakontë",
+   "sq": "pazakontë",
+   "en": "unusual",
    "glosses": [
-    "poor (having little money)"
+    "unusual"
    ],
    "pos": [
     "adj"
@@ -115,7 +289,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "poor (having little money)",
+     "gloss": "unusual",
      "tags": [],
      "cats": [
       {
@@ -139,15 +313,87 @@
      ],
      "examples": [],
      "links": [
-      "poor"
+      "unusual"
      ]
     }
    ],
-   "rank": 3322,
-   "count": 242,
-   "family": "varfër",
+   "rank": 3168,
+   "count": 256,
+   "family": "pazakontë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *wɔrfana-, ultimately from Ancient Greek ὀρφανός (orphanós), probably through Latin orphanus. Compare Aromanian oarfãn, archaic Romanian oarfăn.",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Nothing unusual?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Asgjë e pazakontë?"
+   }
+  },
+  {
+   "id": "stuhi",
+   "sq": "stuhi",
+   "en": "storm",
+   "glosses": [
+    "storm"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "storm",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "storm"
+     ]
+    }
+   ],
+   "rank": 3171,
+   "count": 255,
+   "family": "stuhi",
+   "is_root": true,
+   "etymology": "Related to Ancient Greek στοιχείο (stoikheío, “element, spirit”). Alternatively from some contraction of Proto-Indo-European *(s)tur- (“to rotate, swirl, twirl, move around”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -155,417 +401,236 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We were very poor.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ishim shumë të varfër."
-   }
-  },
-  {
-   "id": "akullore",
-   "sq": "akullore",
-   "en": "ice cream",
-   "glosses": [
-    "ice cream",
-    "glacier"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ice cream",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian nominalizations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "72 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "72 28"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "88 12"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ice cream"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "glacier",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 73"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "glacier"
-     ]
-    }
-   ],
-   "rank": 3328,
-   "count": 241,
-   "family": "akullore",
-   "is_root": true,
-   "etymology": "Feminine nominalization of akullor (“icy, cold”). Sense 1 may be a semantic loan from Italian gelato (“icy, cold; ice cream”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "akulloreshitës"
-   ],
-   "related": [],
    "forms": [
     {
-     "form": "akullore",
+     "form": "stuhi",
      "tag": "plural"
     },
     {
-     "form": "akullorja",
+     "form": "stuhia",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "candy and ice cream.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "karamele dhe akullore."
-   }
-  },
-  {
-   "id": "fli",
-   "sq": "fli",
-   "en": "sacrifice, offering (to God)",
-   "glosses": [
-    "sacrifice, offering (to God)",
-    "a traditional dish"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sacrifice, offering (to God)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "93 1 7"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "90 2 9"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "84 1 4 7 1 1 2"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sacrifice",
-      "offering"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a traditional dish",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "dish"
-     ]
-    }
-   ],
-   "rank": 3346,
-   "count": 239,
-   "family": "fli",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *spleida, from Proto-Indo-European *(s)plei- (“to split, splice”). Compare Latin spolium (“stripped hide”), Lithuanian spaliai (“flax shives”), Ancient Greek ασπαλον (aspalon, “skin, hide”), σπολάς (spolás, “flayed skin”). Orel derives it from Vulgar Latin firigilīnum. Gheg flî.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "flijoj",
-    "flijim"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Rest and sleep.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Pusho dhe fli."
-   }
-  },
-  {
-   "id": "pluhur",
-   "sq": "pluhur",
-   "en": "dust, powder",
-   "glosses": [
-    "dust, powder",
-    "something that can hinder one's actions and sap one's vitality"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "dust, powder",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "dust",
-      "powder"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "something that can hinder one's actions and sap one's vitality",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 69"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 69"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 83"
-      }
-     ],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 3355,
-   "count": 239,
-   "family": "pluhur",
-   "is_root": true,
-   "etymology": "From *plëhur, from Latin pulvis.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pluhuri",
-     "tag": "definite"
-    },
-    {
-     "form": "pluhun",
-     "tag": "alternative"
-    },
-    {
-     "form": "pluhn",
-     "tag": "alternative"
-    },
-    {
-     "form": "plhun",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It was dusty work.",
+    "en": "But it's just a Storm.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Ishte punë me shumë pluhur."
+    "sq": "Por është vetëm një Stuhi."
    }
   },
   {
-   "id": "rresht",
-   "sq": "rresht",
-   "en": "row, line, queue",
+   "id": "shkurtoj",
+   "sq": "shkurtoj",
+   "en": "to cut; to make shorter",
    "glosses": [
-    "row, line, queue"
+    "to cut; to make shorter",
+    "to abbreviate, abridge, truncate",
+    "to prune, trim",
+    "to curtail"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "row, line, queue",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cut; to make shorter",
      "tags": [
-      "masculine"
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 27 24 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 25 25 26"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 23 26 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cut"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to abbreviate, abridge, truncate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 27 24 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 25 25 26"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 23 26 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "abbreviate",
+      "abridge",
+      "truncate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to prune, trim",
+     "tags": [
+      "transitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 27 44 14"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 27 24 25"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "24 25 25 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "prune",
+      "trim"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to curtail",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 27 24 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 25 25 26"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "23 23 26 28"
       }
      ],
      "examples": [],
      "links": [
-      "row",
-      "line",
-      "queue"
+      "curtail"
      ]
     }
    ],
-   "rank": 3374,
-   "count": 237,
-   "family": "rresht",
-   "is_root": true,
-   "etymology": "A derivative of rreth. A Latin origin is not excluded.",
-   "etymology_class": null,
+   "rank": 21073,
+   "count": 24,
+   "family": "shkurt",
+   "is_root": false,
+   "etymology": "From shkurt + -oj; hence shkurtoj (“to cut; make short”).\nAlternatively borrowed from Late Latin excurtō, from Latin curtō; cf. Romanian scurta, Aromanian shcurtedz.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "shkurt",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
-   "related": [],
+   "related": [
+    "shkurt",
+    "shkurtohem",
+    "shkurtuar"
+   ],
    "forms": [
     {
-     "form": "rreshta",
-     "tag": "plural"
+     "form": "shkurtova",
+     "tag": "aorist"
     },
     {
-     "form": "rreshti",
-     "tag": "definite"
-    },
-    {
-     "form": "resht",
-     "tag": "alternative"
+     "form": "shkurtuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Again, in line.",
+    "en": "Will I have to cut my hair short?",
     "score": [
      0,
-     3,
-     -3,
+     8,
+     -8,
      10
     ],
-    "sq": "Përsëri në rresht."
+    "sq": "A do të më duhet të shkurtoj flokët?"
    }
   }
  ]

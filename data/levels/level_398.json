@@ -1,105 +1,354 @@
 {
  "level": 398,
- "title": "grumbull",
- "root": "grumbull",
- "root_gloss": "heap, pile",
+ "title": "gaz, armik, argëtoj, shqetësohem, garantoj, gjelbër +4",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 9,
  "families": [
-  "grumbull"
+  "argëtoj",
+  "armik",
+  "garantoj",
+  "gaz",
+  "gjelbër",
+  "shqetësohem"
  ],
  "pos_mix": {
-  "noun": 1,
-  "verb": 1
+  "noun": 8,
+  "verb": 6,
+  "adj": 4
  },
  "words": [
   {
-   "id": "grumbull",
-   "sq": "grumbull",
-   "en": "heap, pile",
+   "id": "gaz",
+   "sq": "gaz",
+   "en": "joy",
    "glosses": [
-    "heap, pile"
+    "joy",
+    "laughter"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "heap, pile",
+     "gloss": "joy",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "joy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "laughter",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "laughter"
+     ]
+    }
+   ],
+   "rank": 3677,
+   "count": 214,
+   "family": "gaz",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin gaudium.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "gazmend",
+    "gëzim",
+    "gëzoj",
+    "gëzuar"
+   ],
+   "forms": [
+    {
+     "form": "gaze",
+     "tag": "plural"
+    },
+    {
+     "form": "gazra",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Where to get cheap gas?",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Ku mund të marrë gaz të lirë?"
+   }
+  },
+  {
+   "id": "armik",
+   "sq": "armik",
+   "en": "enemy",
+   "glosses": [
+    "enemy",
+    "adversary, opponent"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "enemy",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ull",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "75 25"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "82 18"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "91 9"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ti neve en anëmikut na ruoj.",
+       "en": "",
+       "offsets": [
+        [
+         11,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "enemy"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "adversary, opponent",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "adversary",
+      "opponent"
+     ]
+    }
+   ],
+   "rank": 3689,
+   "count": 213,
+   "family": "armik",
+   "is_root": true,
+   "etymology": "From an earlier anëmik, borrowed through Vulgar Latin from Latin inimīcus (“enemy”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "enemy"
+   ],
+   "components": [],
+   "derived": [
+    "armiqëri",
+    "armiqësi",
+    "armiqësisht",
+    "armiqësoj",
+    "armiqësor"
+   ],
+   "related": [
+    "mik"
+   ],
+   "forms": [
+    {
+     "form": "armiq",
+     "tag": "plural"
+    },
+    {
+     "form": "armiku",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "He was no enemy.",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Ai nuk ishte armik."
+   }
+  },
+  {
+   "id": "argëtim",
+   "sq": "argëtim",
+   "en": "entertainment (activity designed to give pleasure or relaxation)",
+   "glosses": [
+    "entertainment (activity designed to give pleasure or relaxation)",
+    "fun, pleasure"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "entertainment (activity designed to give pleasure or relaxation)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 28"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "69 31"
       }
      ],
      "examples": [],
      "links": [
-      "heap",
-      "pile"
+      "entertainment"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fun, pleasure",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fun",
+      "pleasure"
      ]
     }
    ],
-   "rank": 3827,
-   "count": 204,
-   "family": "grumbull",
-   "is_root": true,
-   "etymology": "A -ull lengthening of grumb, from Proto-Albanian *grumba, from Proto-Indo-European *gru(m)bʰ, derivative of Proto-Indo-European *grewb- (“to crumple, bend, crawl”). Identical with Latvian grumbulains (“uneven, rough”), and close to Old Church Slavonic grǫbь (grǫbĭ, “ignorant, uneducated”), Old Norse kryppa (“hump”). Otherwise inherited from Latin grumulus, diminutive of grūmus (“small heap”).",
+   "rank": 3697,
+   "count": 213,
+   "family": "argëtoj",
+   "is_root": false,
+   "etymology": "Ultimately from Proto-Indo-European *werǵ-; argëtoj + -im.",
    "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "argëtoj",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "grumbuj",
+     "form": "argëtime",
      "tag": "plural"
     },
     {
-     "form": "grumbulli",
+     "form": "argëtimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I have a pile of them.",
+    "en": "Have a fun.",
     "score": [
      0,
-     6,
-     -6,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë kam një grumbull të tyre."
+    "sq": "Keni një argëtim."
    }
   },
   {
-   "id": "grumbulloj",
-   "sq": "grumbulloj",
-   "en": "to pile up, to gather up, to amass",
+   "id": "shqetësohem",
+   "sq": "shqetësohem",
+   "en": "to worry, to grieve, to be troubled",
    "glosses": [
-    "to pile up, to gather up, to amass"
+    "to worry, to grieve, to be troubled"
    ],
    "pos": [
     "verb"
@@ -111,7 +360,86 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to pile up, to gather up, to amass",
+     "gloss": "to worry, to grieve, to be troubled",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "worry",
+      "grieve",
+      "be"
+     ]
+    }
+   ],
+   "rank": 3701,
+   "count": 212,
+   "family": "shqetësohem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shqetësuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "So I worry.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Kështu që shqetësohem."
+   }
+  },
+  {
+   "id": "garantoj",
+   "sq": "garantoj",
+   "en": "to guarantee",
+   "glosses": [
+    "to guarantee"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to guarantee",
      "tags": [
       "transitive"
      ],
@@ -123,7 +451,472 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guarantee"
+     ]
+    }
+   ],
+   "rank": 3710,
+   "count": 211,
+   "family": "garantoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "garantova",
+     "tag": "aorist"
+    },
+    {
+     "form": "garantuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I guarantee it!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Unë garantoj atë!"
+   }
+  },
+  {
+   "id": "gjelbër",
+   "sq": "gjelbër",
+   "en": "green",
+   "glosses": [
+    "green",
+    "yellowish blue",
+    "lush",
+    "unripe"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "green",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Colors",
+       "langcode": "sq",
+       "_dis": "49 32 19 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "green"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "yellowish blue",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "yellowish",
+      "blue"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "lush",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 11 67 12"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 0 100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 0 100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lush"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "unripe",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "unripe"
+     ]
+    }
+   ],
+   "rank": 3725,
+   "count": 211,
+   "family": "gjelbër",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin galbinus. Compare Romanian galben.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "gjelbërim",
+    "gjelbërimë",
+    "gjerlbëremë",
+    "gjerlbëri",
+    "gjerlbëroj",
+    "gjerlbërsi",
+    "gjerlbëruar"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Green coffee.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Kafe e gjelbër."
+   }
+  },
+  {
+   "id": "argëtues",
+   "sq": "argëtues",
+   "en": "comedian",
+   "glosses": [
+    "comedian",
+    "funny person"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "comedian",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -es",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "comedian"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "funny person",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Albanian terms suffixed with -es",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "funny"
+     ]
+    }
+   ],
+   "rank": 7642,
+   "count": 90,
+   "family": "argëtoj",
+   "is_root": false,
+   "etymology": "From argëtoj + -es.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "argëtoj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "argëtuesi",
+     "tag": "definite"
+    },
+    {
+     "form": "argëtuese",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You will have easy and fun entertainment.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Do të keni argëtim të lehtë dhe argëtues."
+   }
+  },
+  {
+   "id": "argëtohem",
+   "sq": "argëtohem",
+   "en": "to be entertained, to have fun",
+   "glosses": [
+    "to be entertained, to have fun",
+    "to revel",
+    "to entertain, amuse"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be entertained, to have fun",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 28 34"
+      },
+      {
+       "name": "Albanian terms suffixed with -hem",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 26 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 25 25"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "entertained",
+      "have",
+      "fun"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to revel",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 28 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "revel"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to entertain, amuse",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 28 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "entertain",
+      "amuse"
+     ]
+    }
+   ],
+   "rank": 13056,
+   "count": 46,
+   "family": "argëtoj",
+   "is_root": false,
+   "etymology": "argëtim (“fun, entertainment, joy”) + -hem (passive suffix); see active form argëtoj (“to entertain, amuse”) for more.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "argëtim",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "argëtuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Revel in this state for a few minutes.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Argëtohem në këtë shtet për disa minuta."
+   }
+  },
+  {
+   "id": "argëtoj",
+   "sq": "argëtoj",
+   "en": "to entertain, amuse",
+   "glosses": [
+    "to entertain, amuse"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to entertain, amuse",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -133,40 +926,36 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "pile up",
-      "gather",
-      "amass"
+      "entertain",
+      "amuse"
      ]
     }
    ],
-   "rank": 34102,
-   "count": 12,
-   "family": "grumbull",
-   "is_root": false,
-   "etymology": "From grumbull + -oj.",
-   "etymology_class": "affix",
+   "rank": 43530,
+   "count": 8,
+   "family": "argëtoj",
+   "is_root": true,
+   "etymology": "Related to argëtim (“fun, entertainment”). Ultimately from Proto-Indo-European *werǵ-.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "grumbull",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "grumbullova",
-     "tag": "aorist"
-    },
-    {
-     "form": "grumbulluar",
+     "form": "argëtuar",
      "tag": "participle"
     }
    ],

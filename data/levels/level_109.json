@@ -1,24 +1,128 @@
 {
  "level": 109,
- "title": "jap",
- "root": "jap",
- "root_gloss": "to give",
+ "title": "iki",
+ "root": "iki",
+ "root_gloss": "to go",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 5,
  "families": [
-  "jap"
+  "iki"
  ],
  "pos_mix": {
   "verb": 7
  },
  "words": [
   {
-   "id": "jap",
-   "sq": "jap",
-   "en": "to give",
+   "id": "iki",
+   "sq": "iki",
+   "en": "to go",
    "glosses": [
-    "to give"
+    "to go",
+    "to leave",
+    "to escape"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to go",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 26 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "go"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to escape",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "escape"
+     ]
+    }
+   ],
+   "rank": 613,
+   "count": 1672,
+   "family": "iki",
+   "is_root": true,
+   "etymology": "From dialectal ik, from Proto-Albanian *eika, from Proto-Indo-European *h₁ey- (“to go”) (compare Latin ire, Lithuanian ei̇̃k (“go!”), Serbo-Croatian ići).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ika",
+     "tag": "aorist"
+    },
+    {
+     "form": "ikur",
+     "tag": "participle"
+    },
+    {
+     "form": "ik",
+     "tag": "alternative"
+    },
+    {
+     "form": "ikëj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "I should go now.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Duhet te iki."
+   }
+  },
+  {
+   "id": "ik",
+   "sq": "ik",
+   "en": "you (sg)! (from iki, to go)",
+   "glosses": [
+    "you (sg)! (from iki, to go)"
    ],
    "pos": [
     "verb"
@@ -30,9 +134,12 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to give",
+     "gloss": "you (sg)! (from iki, to go)",
      "tags": [
-      "Tosk"
+      "form-of",
+      "imperative",
+      "second-person",
+      "singular"
      ],
      "cats": [
       {
@@ -42,7 +149,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 11 entries",
+       "name": "Pages with 31 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -55,51 +162,40 @@
       }
      ],
      "examples": [],
-     "links": [
-      "give"
-     ]
+     "is_form_of": "iki"
     }
    ],
-   "rank": 316,
-   "count": 3286,
-   "family": "jap",
-   "is_root": true,
-   "etymology": "Variant of dialectal ap, from Proto-Albanian *apa, from Proto-Indo-European *h₁op-eio/e-, from *h₁ep- (“to take”). The verb is suppletive with past dhashë and participle dhënë from Proto-Indo-European *deh₃-.",
-   "etymology_class": "inherited",
+   "rank": 367,
+   "count": 2843,
+   "family": "iki",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dhashë",
-     "tag": "aorist"
-    },
-    {
-     "form": "dhënë",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "give you this chance.",
+    "corpus": "QED",
+    "en": "Please, get out of that place.",
     "score": [
-     0,
+     1,
      4,
-     -4,
-     10
+     -3,
+     5
     ],
-    "sq": "ju jap këtë mundësi."
+    "sq": "Te lutem, ik menjehere!"
    }
   },
   {
-   "id": "dha",
-   "sq": "dha",
-   "en": "he/she/it (once did) gave (from jap, to give)",
+   "id": "ikur",
+   "sq": "ikur",
+   "en": "go, past form (from iki, to go)",
    "glosses": [
-    "he/she/it (once did) gave (from jap, to give)"
+    "go, past form (from iki, to go)"
    ],
    "pos": [
     "verb"
@@ -111,7 +207,85 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "he/she/it (once did) gave (from jap, to give)",
+     "gloss": "go, past form (from iki, to go)",
+     "tags": [
+      "participle"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 44 5 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 48 2 3"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "iki",
+      "escaped",
+      "fugitive"
+     ],
+     "is_form_of": "iki"
+    }
+   ],
+   "rank": 746,
+   "count": 1338,
+   "family": "iki",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The others go.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Të tjerët kanë ikur."
+   }
+  },
+  {
+   "id": "iku",
+   "sq": "iku",
+   "en": "he/she/it (once did) went (from iki, to go)",
+   "glosses": [
+    "he/she/it (once did) went (from iki, to go)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (once did) went (from iki, to go)",
      "tags": [
       "aorist",
       "form-of",
@@ -127,7 +301,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 13 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -140,12 +314,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "jap"
+     "is_form_of": "iki"
     }
    ],
-   "rank": 729,
-   "count": 1388,
-   "family": "jap",
+   "rank": 1038,
+   "count": 907,
+   "family": "iki",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -157,23 +331,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "She gave me her time!",
+    "corpus": "QED",
+    "en": "Ali is gone.",
     "score": [
      0,
-     6,
-     -6,
-     10
+     3,
+     -3,
+     5
     ],
-    "sq": "Më dha nga koha e saj!"
+    "sq": "Baba, ai iku."
    }
   },
   {
-   "id": "jepni",
-   "sq": "jepni",
-   "en": "you (pl) give (from jap, to give)",
+   "id": "ikni",
+   "sq": "ikni",
+   "en": "you (pl) go (from iki, to go)",
    "glosses": [
-    "you (pl) give (from jap, to give)"
+    "you (pl) go (from iki, to go)"
    ],
    "pos": [
     "verb"
@@ -185,7 +359,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (pl) give (from jap, to give)",
+     "gloss": "you (pl) go (from iki, to go)",
      "tags": [
       "form-of",
       "indicative",
@@ -198,87 +372,10 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "75 25"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "90 10"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 835,
-   "count": 1158,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Give me in time!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Më jepni në kohë!"
-   }
-  },
-  {
-   "id": "japim",
-   "sq": "japim",
-   "en": "we give (from jap, to give)",
-   "glosses": [
-    "we give (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we give (from jap, to give)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -291,12 +388,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "jap"
+     "is_form_of": "iki"
     }
    ],
-   "rank": 1086,
-   "count": 866,
-   "family": "jap",
+   "rank": 1201,
+   "count": 763,
+   "family": "iki",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -309,239 +406,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "That is how we have to give.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Kështu duhet të japim."
-   }
-  },
-  {
-   "id": "jepja",
-   "sq": "jepja",
-   "en": "I (used to) gave (from jap, to give)",
-   "glosses": [
-    "I (used to) gave (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) gave (from jap, to give)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "imperfect",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 1429,
-   "count": 621,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I wanted to set a good example.",
+    "en": "Don't run away from responsibilities today.",
     "score": [
      1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Doja të jepja shembull të mirë!"
-   }
-  },
-  {
-   "id": "japin",
-   "sq": "japin",
-   "en": "they give (from jap, to give)",
-   "glosses": [
-    "they give (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they give (from jap, to give)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 1475,
-   "count": 601,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They give us life.",
-    "score": [
-     0,
-     4,
+     5,
      -4,
      10
     ],
-    "sq": "Ato na japin jetë."
-   }
-  },
-  {
-   "id": "dhashë",
-   "sq": "dhashë",
-   "en": "I (once did) gave (from jap, to give)",
-   "glosses": [
-    "I (once did) gave (from jap, to give)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (once did) gave (from jap, to give)",
-     "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jap"
-    }
-   ],
-   "rank": 1778,
-   "count": 491,
-   "family": "jap",
-   "is_root": false,
-   "etymology": "Aorist form of jap. From Proto-Albanian *(e)ðaśa, from earlier *edasa, from Proto-Indo-European *deh₃- (“to give”). A suppletive verb, it occurs only in the non-present paradigm. dha and dhe come from Proto-Indo-European *h₁e-dh₃(e)s-s.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "dhata",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "But I gave you some.",
-    "score": [
-     0,
-     5,
-     -5,
-     5
-    ],
-    "sq": "Por unë të dhashë disa."
+    "sq": "Mos ikni nga përgjegjësitë sot."
    }
   }
  ]

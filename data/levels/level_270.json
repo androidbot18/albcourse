@@ -1,41 +1,42 @@
 {
  "level": 270,
- "title": "turp, hotel, film +1",
+ "title": "quaj, çoj, dëshiroj +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "film",
-  "hotel",
-  "turp"
+  "dëshiroj",
+  "quaj",
+  "çoj"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 2
+  "verb": 8
  },
  "words": [
   {
-   "id": "turp",
-   "sq": "turp",
-   "en": "shame",
+   "id": "quajtur",
+   "sq": "quajtur",
+   "en": "call, past form (from quaj, to call)",
    "glosses": [
-    "shame"
+    "call, past form (from quaj, to call)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shame",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "call, past form (from quaj, to call)",
      "tags": [
-      "masculine"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -45,7 +46,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,56 +59,54 @@
       }
      ],
      "examples": [],
-     "links": [
-      "shame"
-     ]
+     "is_form_of": "quaj"
     }
    ],
-   "rank": 1311,
-   "count": 685,
-   "family": "turp",
-   "is_root": true,
-   "etymology": "From Latin turpis.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin turpis",
+   "rank": 1193,
+   "count": 773,
+   "family": "quaj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I was ashamed.",
+    "corpus": "HPLT",
+    "en": "What are they called?",
     "score": [
      0,
-     3,
-     -3,
-     8
+     5,
+     -5,
+     10
     ],
-    "sq": "Më vinte turp."
+    "sq": "Cilat janë ato të quajtur?"
    }
   },
   {
-   "id": "hotel",
-   "sq": "hotel",
-   "en": "hotel",
+   "id": "çoj",
+   "sq": "çoj",
+   "en": "to awaken, send, carry on, dispatch, stir up",
    "glosses": [
-    "hotel"
+    "to awaken, send, carry on, dispatch, stir up"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hotel",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to awaken, send, carry on, dispatch, stir up",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -117,7 +116,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 23 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -131,16 +130,18 @@
      ],
      "examples": [],
      "links": [
-      "hotel"
+      "awaken",
+      "send",
+      "carry on"
      ]
     }
    ],
-   "rank": 1316,
-   "count": 680,
-   "family": "hotel",
+   "rank": 1211,
+   "count": 753,
+   "family": "çoj",
    "is_root": true,
-   "etymology": "Borrowed from French hôtel.",
-   "etymology_class": "borrowed",
+   "etymology": "From earlier *çonjë, possibly from Proto-Albanian *skēnja, possibly cognate with Gothic 𐍃𐌺𐌴𐍅𐌾𐌰𐌽 (skēwjan, “to go”). Alternatively, from Latin exciēre.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -149,105 +150,82 @@
    "related": [],
    "forms": [
     {
-     "form": "hotele",
-     "tag": "plural"
+     "form": "çova",
+     "tag": "aorist"
     },
     {
-     "form": "hoteli",
-     "tag": "definite"
+     "form": "çuar",
+     "tag": "participle"
+    },
+    {
+     "form": "qoj",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "We're in our hotel now.",
+    "corpus": "MaCoCu",
+    "en": "I'll take you.",
     "score": [
      0,
-     4,
-     -4,
-     5
+     5,
+     -5,
+     8
     ],
-    "sq": "Jemi ne hotel tani."
+    "sq": "Do të të çoj atje."
    }
   },
   {
-   "id": "film",
-   "sq": "film",
-   "en": "film",
+   "id": "dëshiroj",
+   "sq": "dëshiroj",
+   "en": "to desire",
    "glosses": [
-    "film",
-    "movie"
+    "to desire"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "film",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to desire",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "film"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "movie",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "movie"
+      "desire"
      ]
     }
    ],
-   "rank": 1318,
-   "count": 679,
-   "family": "film",
+   "rank": 1222,
+   "count": 746,
+   "family": "dëshiroj",
    "is_root": true,
-   "etymology": "Borrowed from French film, from English film.",
+   "etymology": "Borrowed through Vulgar Latin from Latin dēsīderō. Compare Italian desiderare, desirare, archaic Romanian deșidera.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -257,39 +235,135 @@
    "related": [],
    "forms": [
     {
-     "form": "filma",
-     "tag": "plural"
+     "form": "dëshirova",
+     "tag": "aorist"
     },
     {
-     "form": "filmi",
-     "tag": "definite"
+     "form": "dëshiruar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It looks like a movie!",
+    "en": "I wish to know?",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Duket si një film!"
+    "sq": "Unë dëshiroj të di?"
    }
   },
   {
-   "id": "turpëroj",
-   "sq": "turpëroj",
-   "en": "to humiliate, embarrass",
+   "id": "quhem",
+   "sq": "quhem",
+   "en": "to be called (named); my name is",
    "glosses": [
-    "to humiliate, embarrass",
-    "to mortify"
+    "to be called (named); my name is"
    ],
    "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be called (named); my name is",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -hem",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Unë quhem Lukë.",
+       "en": "My name is Luke.",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "Besoj se quhet Afërdita.",
+       "en": "I think (that) her name is Aferdita.",
+       "offsets": [
+        [
+         9,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "called",
+      "named",
+      "my name is"
+     ]
+    }
+   ],
+   "rank": 1458,
+   "count": 607,
+   "family": "quaj",
+   "is_root": false,
+   "etymology": "See active Albanian quaj (quaj (call, name) + -hem (-ed to be)).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "quaj",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "quaj",
+   "sq": "quaj",
+   "en": "to call, name",
+   "glosses": [
+    "to call, name",
+    "to have/make an opinion (on something or someone); to value (something or someone)",
+    "to carry (a name) for (something or someone)",
+    "to declare (something)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
@@ -297,7 +371,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to humiliate, embarrass",
+     "gloss": "to call, name",
      "tags": [
       "transitive"
      ],
@@ -307,88 +381,184 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "71 29"
+       "_dis": "25 25 25 25"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "12 12 12 12 17 19 15"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "48 52"
+       "_dis": "12 12 12 12 17 19 15"
       }
      ],
      "examples": [],
      "links": [
-      "humiliate",
-      "embarrass"
+      "call",
+      "name"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to mortify",
+     "gloss": "to have/make an opinion (on something or someone); to value (something or someone)",
      "tags": [
+      "figuratively",
       "transitive"
      ],
      "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "25 25 25 25"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 12 12 12 17 19 15"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "48 52"
+       "_dis": "12 12 12 12 17 19 15"
       }
      ],
      "examples": [],
      "links": [
-      "mortify"
+      "have",
+      "make",
+      "opinion"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to carry (a name) for (something or someone)",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 25 25"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 12 12 12 17 19 15"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 12 12 12 17 19 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "carry"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to declare (something)",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 25 25"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 12 12 12 17 19 15"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 12 12 12 17 19 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "declare"
      ]
     }
    ],
-   "rank": 29114,
-   "count": 15,
-   "family": "turp",
-   "is_root": false,
-   "etymology": "From turp (“shame”) + ër + oj (“I”).",
-   "etymology_class": "affix",
+   "rank": 1820,
+   "count": 477,
+   "family": "quaj",
+   "is_root": true,
+   "etymology": "From Old Albanian kluoj (Buzuku), from Proto-Albanian *klāusnja, from Proto-Indo-European *ḱlows-, from *ḱlew-.\nCompare English listen, Proto-Slavic *slušati (“to listen”), Ancient Greek κλύω (klúō, “to hear, listen to”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "shame"
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pashquarsi",
+    "quajtje",
+    "quhem",
+    "shquaj",
+    "shquar",
+    "shquarje",
+    "shquarsi",
+    "shques"
    ],
-   "components": [
-    {
-     "word": "turp",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
    "related": [
-    "kori",
-    "marre",
-    "veprim"
+    "qaj"
    ],
    "forms": [
     {
-     "form": "turpëruar",
+     "form": "quajta",
+     "tag": "aorist"
+    },
+    {
+     "form": "quajtur",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "I'll call you.",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Unë do të ju quaj."
+   }
   }
  ]
 }

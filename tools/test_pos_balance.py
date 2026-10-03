@@ -73,10 +73,21 @@ check(vshare <= 0.60,
 
 # The demotion regression: score=0 pushed these out of the opening entirely.
 # A promoted noun must not be able to cost a function word its place.
-for w in ("të", "nuk", "dhe", "unë"):
+# `të` was on this list and is now deliberately OFF it: it is the
+# rank-1 token and a conjunction marking the subjunctive, and grammar is
+# taught in a separate course. See opening_policy.OPENING_FUNCTION_WORDS
+# for the named set that replaces it, and test_opening_policy.py for the
+# rule. The other three stay: they are ordinary first-week vocabulary.
+for w in ("nuk", "dhe", "unë"):
     check(levels.get(w, 99) <= pb.EARLY_LEVELS,
           "%r still teaches in the first %d levels (on L%s)"
           % (w, pb.EARLY_LEVELS, levels.get(w, "absent")))
+
+# `të` must still be TAUGHT, just later. A policy that dropped it
+# from the course would pass every check above.
+check(levels.get("të", 0) > pb.EARLY_LEVELS,
+      "'të' is deferred, not dropped (on L%s)"
+      % levels.get("të", "absent"))
 
 # The promoted nouns must be actual everyday nouns, not the first version's
 # picks. Each of these was in that list and is now refused.

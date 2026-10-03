@@ -1,31 +1,32 @@
 {
  "level": 106,
- "title": "fat",
- "root": "fat",
- "root_gloss": "luck",
+ "title": "pjesë, bëra",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 4,
  "families": [
-  "fat"
+  "bëra",
+  "pjesë"
  ],
  "pos_mix": {
-  "noun": 8
+  "noun": 5,
+  "verb": 4,
+  "adv": 1
  },
  "words": [
   {
-   "id": "fat",
-   "sq": "fat",
-   "en": "luck",
+   "id": "pjesë",
+   "sq": "pjesë",
+   "en": "part",
    "glosses": [
-    "luck",
-    "chance",
-    "fate",
-    "destiny",
-    "spouse"
+    "part",
+    "fragment, fraction",
+    "portion, share",
+    "particle"
    ],
    "pos": [
-    "noun",
     "noun",
     "noun",
     "noun",
@@ -35,16 +36,58 @@
     "noun",
     "noun",
     "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "luck",
+     "gloss": "part",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 25 25"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "part"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fragment, fraction",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 25 25"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fragment",
+      "fraction"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "portion, share",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -52,107 +95,222 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "46 3 31 3 17"
+       "_dis": "15 15 56 15"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 25 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 15 56 15"
       }
      ],
      "examples": [],
      "links": [
-      "luck"
+      "portion",
+      "share"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chance",
+     "gloss": "particle",
      "tags": [
-      "masculine"
+      "feminine"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 25 25 25"
+      }
+     ],
      "examples": [],
      "links": [
-      "chance"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fate",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fate"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "destiny",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "destiny"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spouse",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "spouse"
+      "particle"
      ]
     }
    ],
-   "rank": 299,
-   "count": 3517,
-   "family": "fat",
+   "rank": 347,
+   "count": 3003,
+   "family": "pjesë",
    "is_root": true,
-   "etymology": "Borrowed from Latin fātum. Jolk claims a derivation from Gothic fadi-.",
+   "etymology": "From Vulgar Latin pettia, pettium. Ultimate origin uncertain; perhaps from Transalpine Gaulish (compare Welsh peth, Breton pez (“thing”), Irish cuid (“part”)). Compare Italian pezza, French pièce, English piece, Spanish pieza, Portuguese peça.",
    "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
+   "source_lang": "la",
+   "cognate": "from Latin pettia",
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "pjestar"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "fate",
+     "form": "pjesë",
      "tag": "plural"
     },
     {
-     "form": "fati",
+     "form": "pjesa",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Good luck to you!",
+    "en": "some parts please?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "disa pjesë të lutem?"
+   }
+  },
+  {
+   "id": "bëra",
+   "sq": "bëra",
+   "en": "to have become",
+   "glosses": [
+    "to have become",
+    "to have turned into",
+    "to have been getting",
+    "to have appeared (appeared like ... - in use with si (“like”))"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to have become",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "become"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to have turned into",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 70 5 21"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-verb",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 59 10 23"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 72 4 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "turn",
+      "into"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to have been getting",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "get"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to have appeared (appeared like ... - in use with si (“like”))",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "appear",
+      "appeared",
+      "like"
+     ]
+    }
+   ],
+   "rank": 348,
+   "count": 2992,
+   "family": "bëra",
+   "is_root": true,
+   "etymology": "Tosk and Standard Albanian aorist form of Gheg Albanian bôna (“I did, made”). See Tosk Albanian bëj (“to do, to make”) for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "bâ",
+    "bân",
+    "bo",
+    "bon",
+    "bâhna"
+   ],
+   "forms": [
+    {
+     "form": "bërë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "So I did just that.",
     "score": [
      0,
      3,
      -3,
-     10
+     4
     ],
-    "sq": "Fat të mirë!"
+    "sq": "Kështu e bëra."
    }
   },
   {
-   "id": "fatin",
-   "sq": "fatin",
-   "en": "the luck, singular (from fat)",
+   "id": "pjesa",
+   "sq": "pjesa",
+   "en": "the part, singular (from pjesë)",
    "glosses": [
-    "the luck, singular (from fat)"
+    "the part, singular (from pjesë)"
    ],
    "pos": [
     "noun"
@@ -164,11 +322,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the luck, singular (from fat)",
+     "gloss": "the part, singular (from pjesë)",
      "tags": [
-      "accusative",
       "definite",
       "form-of",
+      "nominative",
       "singular"
      ],
      "cats": [
@@ -179,7 +337,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -192,12 +350,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "fat"
+     "is_form_of": "pjesë"
     }
    ],
-   "rank": 1941,
-   "count": 445,
-   "family": "fat",
+   "rank": 810,
+   "count": 1214,
+   "family": "pjesë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -210,120 +368,34 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do not seek their fortune.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Mos e kërko fatin e tyre."
-   }
-  },
-  {
-   "id": "fatkeqësi",
-   "sq": "fatkeqësi",
-   "en": "misfortune",
-   "glosses": [
-    "misfortune"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "misfortune",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ësi",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "misfortune"
-     ]
-    }
-   ],
-   "rank": 5725,
-   "count": 129,
-   "family": "fat",
-   "is_root": false,
-   "etymology": "From fatkeq (“unfortunate”) + -ësi.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "unfortunate"
-   ],
-   "components": [
-    {
-     "word": "fatkeq",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fatkeqësi",
-     "tag": "plural"
-    },
-    {
-     "form": "fatkeqësia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It would be a disaster.",
+    "en": "The best part?",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Do të ishte fatkeqësi."
+    "sq": "Pjesa më e mirë?"
    }
   },
   {
-   "id": "fatkeq",
-   "sq": "fatkeq",
-   "en": "unfortunate",
+   "id": "pjesërisht",
+   "sq": "pjesërisht",
+   "en": "partially",
    "glosses": [
-    "unfortunate"
+    "partially"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "unfortunate",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "partially",
      "tags": [],
      "cats": [
       {
@@ -333,13 +405,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -ri",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian terms suffixed with -sht",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -347,47 +419,38 @@
      ],
      "examples": [],
      "links": [
-      "unfortunate"
+      "partially"
      ]
     }
    ],
-   "rank": 13900,
-   "count": 43,
-   "family": "fat",
+   "rank": 12527,
+   "count": 49,
+   "family": "pjesë",
    "is_root": false,
-   "etymology": "From fat + keq.",
-   "etymology_class": null,
+   "etymology": "From pjesë (“piece, part”) + -ri + -sht.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "fat",
+     "word": "pjesë",
      "role": "prefix"
-    },
-    {
-     "word": "keq",
-     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "fatkeqe",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is an unfortunate fact.",
+    "en": "You are partly right.",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
      10
     ],
-    "sq": "Ky është një fakt fatkeq."
+    "sq": "Pjesërisht keni të drejtë."
    }
   }
  ]

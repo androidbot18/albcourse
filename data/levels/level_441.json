@@ -1,13 +1,13 @@
 {
  "level": 441,
- "title": "përjashtoj",
- "root": "përjashtoj",
- "root_gloss": "to exclude",
+ "title": "sqaroj",
+ "root": "sqaroj",
+ "root_gloss": "to explain; to clarify",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "përjashtoj"
+  "sqaroj"
  ],
  "pos_mix": {
   "verb": 1,
@@ -15,11 +15,11 @@
  },
  "words": [
   {
-   "id": "përjashtoj",
-   "sq": "përjashtoj",
-   "en": "to exclude",
+   "id": "sqaroj",
+   "sq": "sqaroj",
+   "en": "to explain; to clarify",
    "glosses": [
-    "to exclude"
+    "to explain; to clarify"
    ],
    "pos": [
     "verb"
@@ -31,7 +31,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to exclude",
+     "gloss": "to explain; to clarify",
      "tags": [
       "transitive"
      ],
@@ -43,13 +43,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Albanian terms prefixed with s-",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,46 +57,56 @@
      ],
      "examples": [],
      "links": [
-      "exclude"
+      "explain",
+      "clarify"
      ]
     }
    ],
-   "rank": 22077,
-   "count": 23,
-   "family": "përjashtoj",
+   "rank": 5409,
+   "count": 137,
+   "family": "sqaroj",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Possibly related to sqaq, with a meaning 'to make weak' in terms of difficulty of understanding. Alternatively a compound, from s- (“de-”) + qartë (“clear”) + -oj (verb suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "qartë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "përjashtuar",
+     "form": "sqarova",
+     "tag": "aorist"
+    },
+    {
+     "form": "sqaruar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The opposition does not have the luxury of excluding anyone.",
+    "en": "I should clarify this.",
     "score": [
-     3,
-     7,
-     -4,
+     0,
+     5,
+     -5,
      10
     ],
-    "sq": "Opozita nuk ka luksin të përjashtoj askënd."
+    "sq": "Unë duhet të sqaroj këtë."
    }
   },
   {
-   "id": "përjashtim",
-   "sq": "përjashtim",
-   "en": "exception",
+   "id": "sqarim",
+   "sq": "sqarim",
+   "en": "explanation",
    "glosses": [
-    "exception"
+    "explanation"
    ],
    "pos": [
     "noun"
@@ -108,7 +118,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "exception",
+     "gloss": "explanation",
      "tags": [
       "masculine"
      ],
@@ -134,38 +144,47 @@
      ],
      "examples": [],
      "links": [
-      "exception"
+      "explanation"
      ]
     }
    ],
-   "rank": 5534,
-   "count": 133,
-   "family": "përjashtoj",
+   "rank": 18456,
+   "count": 29,
+   "family": "sqaroj",
    "is_root": false,
-   "etymology": "From përjashtoj + -im.",
+   "etymology": "From sqaroj + -im masculine noun suffix.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "përjashtoj",
+     "word": "sqaroj",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "sqarime",
+     "tag": "plural"
+    },
+    {
+     "form": "sqarimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No one, without exception.",
+    "corpus": "MaCoCu",
+    "en": "They didn't give us any explanation.",
     "score": [
      0,
-     3,
-     -3,
-     10
+     5,
+     -5,
+     8
     ],
-    "sq": "Askush, pa përjashtim."
+    "sq": "Nuk na dhanë asnjë sqarim."
    }
   }
  ]

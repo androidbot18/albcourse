@@ -1,25 +1,28 @@
 {
  "level": 275,
- "title": "sulm",
- "root": "sulm",
- "root_gloss": "attack, charge",
+ "title": "paqe, bëmë, biznes, blerë +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "sulm"
+  "biznes",
+  "blerë",
+  "bëmë",
+  "paqe"
  ],
  "pos_mix": {
-  "noun": 2,
-  "verb": 1
+  "noun": 3,
+  "adj": 2
  },
  "words": [
   {
-   "id": "sulm",
-   "sq": "sulm",
-   "en": "attack, charge",
+   "id": "paqe",
+   "sq": "paqe",
+   "en": "peace",
    "glosses": [
-    "attack, charge"
+    "peace"
    ],
    "pos": [
     "noun"
@@ -31,10 +34,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "attack, charge",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "peace",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -57,16 +58,70 @@
      ],
      "examples": [],
      "links": [
-      "attack",
-      "charge"
+      "peace"
      ]
     }
    ],
-   "rank": 1358,
-   "count": 655,
-   "family": "sulm",
+   "rank": 1256,
+   "count": 718,
+   "family": "paqe",
    "is_root": true,
-   "etymology": "Suffixed derivative from *sul, zero-grade of sjell.",
+   "etymology": "Borrowed from Latin pāx, pācem (“peace”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "peace"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "SETIMES",
+    "en": "I'm at peace.",
+    "score": [
+     0,
+     3,
+     -3,
+     7
+    ],
+    "sq": "Jam në paqe."
+   }
+  },
+  {
+   "id": "bëmë",
+   "sq": "bëmë",
+   "en": "deed",
+   "glosses": [
+    "deed"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "deed",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deed"
+     ]
+    }
+   ],
+   "rank": 1265,
+   "count": 711,
+   "family": "bëmë",
+   "is_root": true,
+   "etymology": "From a variant of the past participle of bëj.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -76,120 +131,28 @@
    "related": [],
    "forms": [
     {
-     "form": "sulme",
+     "form": "bëma",
      "tag": "plural"
-    },
-    {
-     "form": "sulmi",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We are under attack.",
+    "corpus": "TED2020",
+    "en": "And that's what we did.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     4
     ],
-    "sq": "Ne jemi nën sulm."
+    "sq": "Dhe këtë bëmë."
    }
   },
   {
-   "id": "sulmoj",
-   "sq": "sulmoj",
-   "en": "to attack",
+   "id": "biznes",
+   "sq": "biznes",
+   "en": "business",
    "glosses": [
-    "to attack"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to attack",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "attack"
-     ]
-    }
-   ],
-   "rank": 10989,
-   "count": 58,
-   "family": "sulm",
-   "is_root": false,
-   "etymology": "From sulm (“attack”) + -oj.",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "attack"
-   ],
-   "components": [
-    {
-     "word": "sulm",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "sulmova",
-     "tag": "aorist"
-    },
-    {
-     "form": "sulmuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have an agreement that I do not attack.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Kam marrëveshje që unë nuk e sulmoj."
-   }
-  },
-  {
-   "id": "kundërsulm",
-   "sq": "kundërsulm",
-   "en": "counteroffensive",
-   "glosses": [
-    "counteroffensive"
+    "business"
    ],
    "pos": [
     "noun"
@@ -201,7 +164,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "counteroffensive",
+     "gloss": "business",
      "tags": [
       "masculine"
      ],
@@ -213,7 +176,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -227,45 +190,176 @@
      ],
      "examples": [],
      "links": [
-      "counteroffensive"
+      "business"
      ]
     }
    ],
-   "rank": 31794,
-   "count": 13,
-   "family": "sulm",
-   "is_root": false,
-   "etymology": "From kundër (“against”) + sulm (“attack”).",
-   "etymology_class": "affix",
+   "rank": 1266,
+   "count": 711,
+   "family": "biznes",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "against",
-    "attack"
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Is this business?",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Biznes është ky?"
+   }
+  },
+  {
+   "id": "blerë",
+   "sq": "blerë",
+   "en": "green",
+   "glosses": [
+    "green"
    ],
-   "components": [
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
     {
-     "word": "kundër",
-     "role": "prefix"
-    },
-    {
-     "word": "sulm",
-     "role": "stem"
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "green",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Colors",
+       "langcode": "sq",
+       "_dis": "78 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "green"
+     ]
     }
    ],
+   "rank": 1269,
+   "count": 710,
+   "family": "blerë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *blöra-, from Pre-Proto-Albanian *blōra-, from Proto-Indo-European *bʰleh₁-r-ós, from the root *bʰleh₁- (“blue, green, yellow”). Cognate to Latin flōrus (“golden yellow, reddish-yellow”) and Proto-Germanic *blēwaz (“blue, dark”). Possibly borrowed from Proto-Celtic *blaros (“gray”), compare blár.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "At what point does a cyberattack merit a counterattack?",
+    "en": "I bought a car.",
     "score": [
-     3,
-     9,
-     -6,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Në çfarë pike një sulm kibernetik meriton një kundërsulm?"
+    "sq": "Kam blerë një makinë."
+   }
+  },
+  {
+   "id": "paqësor",
+   "sq": "paqësor",
+   "en": "peaceful",
+   "glosses": [
+    "peaceful"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "peaceful",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësor",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "peaceful"
+     ]
+    }
+   ],
+   "rank": 8528,
+   "count": 79,
+   "family": "paqe",
+   "is_root": false,
+   "etymology": "From paqe (“peace”) + -ësor.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "peace"
+   ],
+   "components": [
+    {
+     "word": "paqe",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "paqësore",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "This is a peaceful march.",
+    "score": [
+     1,
+     5,
+     -4,
+     5
+    ],
+    "sq": "Ky është një marsh paqësor."
    }
   }
  ]
