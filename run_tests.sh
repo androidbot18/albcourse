@@ -42,6 +42,7 @@ echo "== opening policy =="
 # budget that admitted exactly the words it was meant to exclude.
 python3 tools/test_opening_policy.py
 
+
 echo
 echo "== cognate hooks =="
 # The source-language form shown on a card ("from Latin soca"). The failure
@@ -180,6 +181,21 @@ else
   echo "  skipped: genanki not installed (pip3 install genanki)"
 fi
 
+echo
+echo "== reproducible build =="
+# The deck was not reproducible: 460 of 4086 words moved between
+# levels 143 and 257 depending on PYTHONHASHSEED, because the family
+# re-homing pass both read a family minimum rank and removed members
+# from it in one loop. This rebuilds under several hash seeds and
+# compares a digest of every level file. Slow by nature; pass --fast
+# for just the two seeds that disagreed.
+python3 tools/test_determinism.py
+
+# This one is LAST on purpose. It rebuilds the deck seven times, and
+# run_tests.sh runs under `set -e`, so placing it earlier means any
+# earlier failure -- there is a known one, unë at L11 -- aborts the
+# script before the reproducibility check ever runs. A slow test that
+# silently never executes is worse than no test.
 echo
 echo "ALL SUITES PASSED"
 
