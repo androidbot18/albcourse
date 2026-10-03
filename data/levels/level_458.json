@@ -1,44 +1,43 @@
 {
  "level": 458,
- "title": "ndonëse, propozoj, zor, xham, druaj, ekran +4",
+ "title": "lut, refuzoj, qeras, tradhtar, prag, çifut +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "druaj",
-  "ekran",
-  "ndonëse",
-  "propozoj",
-  "xham",
-  "zor"
+  "lut",
+  "prag",
+  "qeras",
+  "refuzoj",
+  "tradhtar",
+  "çifut"
  ],
  "pos_mix": {
-  "conj": 1,
-  "verb": 2,
-  "adv": 1,
-  "noun": 6
+  "noun": 11,
+  "verb": 4,
+  "adj": 1
  },
  "words": [
   {
-   "id": "ndonëse",
-   "sq": "ndonëse",
-   "en": "although, though",
+   "id": "lutje",
+   "sq": "lutje",
+   "en": "prayer",
    "glosses": [
-    "although, though"
+    "prayer"
    ],
    "pos": [
-    "conj"
+    "noun"
    ],
    "pos_labels": [
-    "conjunction"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "although, though",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "prayer",
      "tags": [],
      "cats": [
       {
@@ -62,42 +61,46 @@
      ],
      "examples": [],
      "links": [
-      "although",
-      "though"
+      "prayer"
      ]
     }
    ],
-   "rank": 6561,
-   "count": 108,
-   "family": "ndonëse",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 6354,
+   "count": 112,
+   "family": "lut",
+   "is_root": false,
+   "etymology": "From lut + -je, a feminising suffix.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "lut",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Though knowing it hurts.",
+    "corpus": "MaCoCu",
+    "en": "them with a supplication.",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
-     10
+     8
     ],
-    "sq": "Ndonëse e dinë, kjo dhemb."
+    "sq": "ata me një lutje."
    }
   },
   {
-   "id": "propozoj",
-   "sq": "propozoj",
-   "en": "to propose, to suggest",
+   "id": "refuzoj",
+   "sq": "refuzoj",
+   "en": "to refuse",
    "glosses": [
-    "to propose, to suggest"
+    "to refuse"
    ],
    "pos": [
     "verb"
@@ -109,8 +112,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to propose, to suggest",
-     "tags": [],
+     "gloss": "to refuse",
+     "tags": [
+      "ambitransitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -133,16 +138,115 @@
      ],
      "examples": [],
      "links": [
-      "propose",
-      "suggest"
+      "refuse"
      ]
     }
    ],
-   "rank": 6563,
-   "count": 108,
-   "family": "propozoj",
+   "rank": 6358,
+   "count": 112,
+   "family": "refuzoj",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Borrowed from French refuser. Compare Romanian refuza, English refuse.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "refuzova",
+     "tag": "aorist"
+    },
+    {
+     "form": "refuzuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I refuse to be parted with her.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Unë refuzoj të ndahem me të."
+   }
+  },
+  {
+   "id": "qeras",
+   "sq": "qeras",
+   "en": "to treat guests to food and drink",
+   "glosses": [
+    "to treat guests to food and drink",
+    "to pay for someone's food or drinks"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to treat guests to food and drink",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "treat",
+      "guests",
+      "food"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pay for someone's food or drinks",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 93"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 94"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pay",
+      "food",
+      "drinks"
+     ]
+    }
+   ],
+   "rank": 6369,
+   "count": 112,
+   "family": "qeras",
+   "is_root": true,
+   "etymology": "Related to qera (“rent, hire”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -152,190 +256,26 @@
    "related": [],
    "forms": [
     {
-     "form": "propozova",
+     "form": "qerasa",
      "tag": "aorist"
     },
     {
-     "form": "propozuar",
+     "form": "qerasur",
      "tag": "participle"
+    },
+    {
+     "form": "qiras",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "A clean slate, did he say?",
-    "score": [
-     1,
-     6,
-     -5,
-     5
-    ],
-    "sq": "Një propozoj të pastër, tha ai?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "zor",
-   "sq": "zor",
-   "en": "hard, difficult",
+   "id": "tradhtar",
+   "sq": "tradhtar",
+   "en": "traitor",
    "glosses": [
-    "hard, difficult",
-    "hard effort; difficulty",
-    "difficult situation, great need",
-    "bashfulness, shyness",
-    "brute force, coercion"
-   ],
-   "pos": [
-    "adv",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "adverb",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "hard, difficult",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hard",
-      "difficult"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hard effort; difficulty",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hard",
-      "effort",
-      "difficulty"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "difficult situation, great need",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "difficult",
-      "situation",
-      "great"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bashfulness, shyness",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 10 3 4 13 11 7 2 4 8 7 1 1 16 1 1 1 3"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 6 2 3 16 13 11 1 2 12 8 1 1 20 1 1 1 2"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bashfulness",
-      "shyness"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "brute force, coercion",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 53 5 7 28"
-      },
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 10 3 4 13 11 7 2 4 8 7 1 1 16 1 1 1 3"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "brute force",
-      "coercion"
-     ]
-    }
-   ],
-   "rank": 6568,
-   "count": 108,
-   "family": "zor",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish زور (zor), from Classical Persian زور (zōr).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "zori",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How hard it was.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Sa zor që ishte."
-   }
-  },
-  {
-   "id": "xham",
-   "sq": "xham",
-   "en": "glass (material)",
-   "glosses": [
-    "glass (material)"
+    "traitor"
    ],
    "pos": [
     "noun"
@@ -347,13 +287,19 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "glass (material)",
+     "gloss": "traitor",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -363,25 +309,326 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "traitor"
+     ]
+    }
+   ],
+   "rank": 6390,
+   "count": 112,
+   "family": "tradhtar",
+   "is_root": true,
+   "etymology": "From Latin traditor, from tradere (“hand over, give up, deliver”).",
+   "etymology_class": null,
+   "source_lang": "la",
+   "cognate": "from Latin traditor",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "tradhëtar",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I am not Italian and a traitor.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Nuk jam italian dhe tradhtar."
+   }
+  },
+  {
+   "id": "prag",
+   "sq": "prag",
+   "en": "threshold, doorstep",
+   "glosses": [
+    "threshold, doorstep",
+    "window sill",
+    "stone slab",
+    "home, house",
+    "obstacle",
+    "brink"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "threshold, doorstep",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "threshold",
+      "doorstep"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "window sill",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 35 0 0 0 1 28 22 2 1 1 2 6"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 82 1 1 1 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "window",
+      "sill"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "stone slab",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "stone",
+      "slab"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "home, house",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "home",
+      "house"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "obstacle",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "obstacle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brink",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "brink"
+     ]
+    }
+   ],
+   "rank": 6392,
+   "count": 112,
+   "family": "prag",
+   "is_root": true,
+   "etymology": "Borrowed from Old Church Slavonic прагъ (pragŭ), from Proto-Slavic *porgъ (“threshold”), from Proto-Balto-Slavic *parˀgas, from Proto-Indo-European *porg-o-. Compare Macedonian праг (prag), Serbo-Croatian prȁg.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "threshold"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pragje",
+     "tag": "plural"
+    },
+    {
+     "form": "pragu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And in December they were on the verge of a war.",
+    "score": [
+     0,
+     9,
+     -9,
+     10
+    ],
+    "sq": "Dhe në dhjetor ishin në prag të një luftë."
+   }
+  },
+  {
+   "id": "çifut",
+   "sq": "çifut",
+   "en": "Jew",
+   "glosses": [
+    "Jew",
+    "stingy person, miser, kike",
+    "coward",
+    "Jewish"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Jew",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Judaism",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Judaism",
+       "langcode": "sq"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 47 18 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "19 71 10 0"
       }
      ],
      "examples": [],
      "links": [
-      "glass"
+      "Jew"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "stingy person, miser, kike",
+     "tags": [
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "stingy",
+      "miser"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coward",
+     "tags": [
+      "archaic",
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "coward"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "Jewish",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 30 29 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Jewish"
      ]
     }
    ],
-   "rank": 6575,
-   "count": 108,
-   "family": "xham",
+   "rank": 6396,
+   "count": 111,
+   "family": "çifut",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish جام (cam), from Classical Persian جام (jām).",
+   "etymology": "Borrowed from Ottoman Turkish چفوت (çıfut).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -391,36 +638,28 @@
    "related": [],
    "forms": [
     {
-     "form": "xhama",
-     "tag": "plural"
-    },
-    {
-     "form": "xhame",
-     "tag": "plural"
-    },
-    {
-     "form": "xhami",
-     "tag": "definite"
+     "form": "çifute",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "They got me.",
+    "corpus": "HPLT",
+    "en": "that is also a Jew.",
     "score": [
-     1,
+     0,
      5,
-     -4,
-     8
+     -5,
+     10
     ],
-    "sq": "Ata vunë xham për mua."
+    "sq": "që është gjithashtu një çifut."
    }
   },
   {
-   "id": "druaj",
-   "sq": "druaj",
-   "en": "to be afraid, to fear",
+   "id": "lut",
+   "sq": "lut",
+   "en": "to request, (kindly) ask for; to plead, to beg",
    "glosses": [
-    "to be afraid, to fear"
+    "to request, (kindly) ask for; to plead, to beg"
    ],
    "pos": [
     "verb"
@@ -432,8 +671,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to be afraid, to fear",
-     "tags": [],
+     "gloss": "to request, (kindly) ask for; to plead, to beg",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -442,7 +683,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 18 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -456,17 +697,17 @@
      ],
      "examples": [],
      "links": [
-      "be",
-      "afraid",
-      "fear"
+      "request",
+      "ask",
+      "plead"
      ]
     }
    ],
-   "rank": 6589,
-   "count": 107,
-   "family": "druaj",
+   "rank": 12477,
+   "count": 49,
+   "family": "lut",
    "is_root": true,
-   "etymology": "From Proto-Albanian *drāunja, a derivative of droe.",
+   "etymology": "From Proto-Albanian *lutśi-, from the Proto-Indo-European root *lewt-, *lewdʰ- (“song, sound”), from Proto-Indo-European *lew- (“to sound, resound, sing out”). Cognate to Latin laudo (“to praise”) and others. Alternatively, from Proto-Indo-European *lewd- (“to duck; feign”). Compare Proto-Germanic *lutōną (“to conceal”) (whence English lote, Gothic 𐌻𐌿𐍄𐍉𐌽 (lutōn, “cheat, deceive”)), Lithuanian liūstù (“to be sad”).\nAlternatively, from Proto-Albanian *lugtja, from Proto-Indo-European *lewgʰ- (“to lie, tell falsehood”), with the same semantic shift \"tell lies\" > \"request\" found in Baltic cognates such as Latvian lūgt (“to ask, request”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -476,93 +717,29 @@
    "related": [],
    "forms": [
     {
-     "form": "druajta",
+     "form": "luta",
      "tag": "aorist"
     },
     {
-     "form": "druajtur",
+     "form": "lutur",
      "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "ekran",
-   "sq": "ekran",
-   "en": "screen (in a cinema or on a technological device)",
-   "glosses": [
-    "screen (in a cinema or on a technological device)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "screen (in a cinema or on a technological device)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymology trees",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "ekran telefoni",
-       "en": "phone screen",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "screen"
-     ]
+     "form": "lus",
+     "tag": "alternative"
     }
    ],
-   "rank": 6591,
-   "count": 107,
-   "family": "ekran",
-   "is_root": true,
-   "etymology": "Etymology tree\nProto-Indo-European *(s)ker-der.\nProto-Germanic *skirmiz\nProto-West Germanic *skirmi\nOld Dutch skirm\nMiddle Dutch schermbor.\nOld French escran\nMiddle French écran\nFrench écranbor.\nAlbanian ekran\nBorrowed from French écran. Ultimately from Proto-West Germanic *skirmi.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ekrane",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He begged for help.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Ai u lut për ndihmë."
+   }
   }
  ]
 }

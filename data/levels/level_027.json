@@ -1,24 +1,143 @@
 {
  "level": 27,
- "title": "dua 2/2",
+ "title": "dua 1/2",
  "root": "dua",
  "root_gloss": "to want",
- "part": 2,
+ "part": 1,
  "parts": 2,
- "word_count": 4,
+ "word_count": 9,
  "families": [
   "dua"
  ],
  "pos_mix": {
-  "verb": 4
+  "verb": 10,
+  "noun": 1
  },
  "words": [
   {
-   "id": "desha",
-   "sq": "desha",
-   "en": "I (once did) wanted (from dua, to want)",
+   "id": "dua",
+   "sq": "dua",
+   "en": "to want",
    "glosses": [
-    "I (once did) wanted (from dua, to want)"
+    "to want",
+    "to love",
+    "sheaf"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to want",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "want"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to love",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Love",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Love",
+       "langcode": "sq",
+       "_dis": "1 0 99"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "love"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sheaf",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "77 17 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sheaf"
+     ]
+    }
+   ],
+   "rank": 55,
+   "count": 27974,
+   "family": "dua",
+   "is_root": true,
+   "etymology": "From Old Albanian duo, from either:\n* Proto-Albanian *dāusnja, from Proto-Indo-European *ǵeus- (compare English choose, Greek γεύση (géfsi, “taste”), Italian gustare (“to taste”)); or\n* *duām, from Proto-Albanian *duēs-mi, from Proto-Indo-European *dews- (compare English tire, Ancient Greek δεύομαι (deúomai, “to lack”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "taste",
+    "band"
+   ],
+   "components": [],
+   "derived": [
+    "dashës",
+    "dashje",
+    "dashuri",
+    "do"
+   ],
+   "related": [
+    "duhem"
+   ],
+   "forms": [
+    {
+     "form": "desha",
+     "tag": "aorist"
+    },
+    {
+     "form": "dashur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "This one I love.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Këtë e dua."
+   }
+  },
+  {
+   "id": "dashur",
+   "sq": "dashur",
+   "en": "want, past form (from dua, to want)",
+   "glosses": [
+    "want, past form (from dua, to want)"
    ],
    "pos": [
     "verb"
@@ -30,13 +149,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "I (once did) wanted (from dua, to want)",
+     "gloss": "want, past form (from dua, to want)",
      "tags": [
-      "aorist",
-      "first-person",
       "form-of",
-      "indicative",
-      "singular"
+      "participle"
      ],
      "cats": [
       {
@@ -62,8 +178,8 @@
      "is_form_of": "dua"
     }
    ],
-   "rank": 1146,
-   "count": 815,
+   "rank": 194,
+   "count": 6541,
    "family": "dua",
    "is_root": false,
    "etymology": "",
@@ -77,22 +193,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is what I wanted to know!",
+    "en": "I've never loved it.",
     "score": [
      0,
-     5,
-     -5,
+     6,
+     -6,
      10
     ],
-    "sq": "Këtë desha të di unë!"
+    "sq": "Unë kurrë nuk kam dashur atë."
    }
   },
   {
-   "id": "dashura",
-   "sq": "dashura",
-   "en": "feminine plural of dashur",
+   "id": "doja",
+   "sq": "doja",
+   "en": "I (used to) wanted (from dua, to want)",
    "glosses": [
-    "feminine plural of dashur"
+    "I (used to) wanted (from dua, to want)"
    ],
    "pos": [
     "verb"
@@ -104,12 +220,233 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "feminine plural of dashur",
+     "gloss": "I (used to) wanted (from dua, to want)",
      "tags": [
-      "feminine",
+      "first-person",
       "form-of",
-      "participle",
-      "plural"
+      "imperfect",
+      "indicative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "dua"
+    }
+   ],
+   "rank": 210,
+   "count": 5959,
+   "family": "dua",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I really wanted to be.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Doja shumë të isha."
+   }
+  },
+  {
+   "id": "doni",
+   "sq": "doni",
+   "en": "you (pl) want (from dua, to want)",
+   "glosses": [
+    "you (pl) want (from dua, to want)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (pl) want (from dua, to want)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 10 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dua"
+     ],
+     "is_form_of": "dua"
+    }
+   ],
+   "rank": 289,
+   "count": 3795,
+   "family": "dua",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But only if you want to.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Por vetëm nëse doni."
+   }
+  },
+  {
+   "id": "duan",
+   "sq": "duan",
+   "en": "they want (from dua, to want)",
+   "glosses": [
+    "they want (from dua, to want)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "they want (from dua, to want)",
+     "tags": [
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "subjunctive",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "dua"
+    }
+   ],
+   "rank": 421,
+   "count": 2482,
+   "family": "dua",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Not that you'd want to.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Jo se ju do të duan të."
+   }
+  },
+  {
+   "id": "donte",
+   "sq": "donte",
+   "en": "he/she/it (used to) wanted (from dua, to want)",
+   "glosses": [
+    "he/she/it (used to) wanted (from dua, to want)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (used to) wanted (from dua, to want)",
+     "tags": [
+      "form-of",
+      "imperfect",
+      "indicative",
+      "singular",
+      "third-person"
      ],
      "cats": [
       {
@@ -132,11 +469,86 @@
       }
      ],
      "examples": [],
-     "is_form_of": "dashur"
+     "is_form_of": "dua"
     }
    ],
-   "rank": 1187,
-   "count": 777,
+   "rank": 507,
+   "count": 2085,
+   "family": "dua",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "What did he want?",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Çfarë donte ai?"
+   }
+  },
+  {
+   "id": "duam",
+   "sq": "duam",
+   "en": "we want (from dua, to want)",
+   "glosses": [
+    "we want (from dua, to want)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we want (from dua, to want)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "indicative",
+      "plural",
+      "present",
+      "subjunctive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "dua"
+    }
+   ],
+   "rank": 549,
+   "count": 1883,
    "family": "dua",
    "is_root": false,
    "etymology": "",
@@ -150,22 +562,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "our beloved roads.",
+    "en": "Where we want to be?",
     "score": [
-     2,
+     0,
      4,
-     -2,
+     -4,
      10
     ],
-    "sq": "rrugët tona të dashura."
+    "sq": "Ku duam të jemi?"
    }
   },
   {
-   "id": "donin",
-   "sq": "donin",
-   "en": "they (used to) wanted (from dua, to want)",
+   "id": "doje",
+   "sq": "doje",
+   "en": "you (sg) (used to) wanted (from dua, to want)",
    "glosses": [
-    "they (used to) wanted (from dua, to want)"
+    "you (sg) (used to) wanted (from dua, to want)"
    ],
    "pos": [
     "verb"
@@ -177,13 +589,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "they (used to) wanted (from dua, to want)",
+     "gloss": "you (sg) (used to) wanted (from dua, to want)",
      "tags": [
       "form-of",
       "imperfect",
       "indicative",
-      "plural",
-      "third-person"
+      "second-person",
+      "singular"
      ],
      "cats": [
       {
@@ -209,8 +621,8 @@
      "is_form_of": "dua"
     }
    ],
-   "rank": 1947,
-   "count": 444,
+   "rank": 649,
+   "count": 1576,
    "family": "dua",
    "is_root": false,
    "etymology": "",
@@ -223,23 +635,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No, they did not.",
+    "corpus": "QED",
+    "en": "Were you going to call? We were worried here.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
-     10
+     5
     ],
-    "sq": "Jo, nuk donin."
+    "sq": "Kur doje te telefonoje?"
    }
   },
   {
-   "id": "dashuroj",
-   "sq": "dashuroj",
-   "en": "to love",
+   "id": "duash",
+   "sq": "duash",
+   "en": "you (sg) want (from dua, to want)",
    "glosses": [
-    "to love"
+    "you (sg) want (from dua, to want)"
    ],
    "pos": [
     "verb"
@@ -251,9 +663,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to love",
+     "gloss": "you (sg) want (from dua, to want)",
      "tags": [
-      "transitive"
+      "form-of",
+      "present",
+      "second-person",
+      "singular",
+      "subjunctive"
      ],
      "cats": [
       {
@@ -276,48 +692,32 @@
       }
      ],
      "examples": [],
-     "links": [
-      "love"
-     ]
+     "is_form_of": "dua"
     }
    ],
-   "rank": 5450,
-   "count": 136,
+   "rank": 726,
+   "count": 1392,
    "family": "dua",
    "is_root": false,
-   "etymology": "Compound of participle dashur (“loved, beloved”) + -oj (personal suffix; active voice, indicative, present, 1st pers. sg.).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "dashur",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dashurova",
-     "tag": "aorist"
-    },
-    {
-     "form": "dashuruar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I love him.",
+    "corpus": "QED",
+    "en": "As you wish.",
     "score": [
      0,
      3,
      -3,
-     10
+     5
     ],
-    "sq": "E dashuroj atë."
+    "sq": "Si te duash."
    }
   }
  ]

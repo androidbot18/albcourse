@@ -1,57 +1,75 @@
 {
  "level": 612,
- "title": "lake, shaj, kacabu, protestë, citoj, derdhje +4",
+ "title": "emëroj, presh, shkëndijë, cikël, mej, jehonë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "citoj",
-  "derdhje",
-  "kacabu",
-  "lake",
-  "protestë",
-  "shaj"
+  "cikël",
+  "emëroj",
+  "jehonë",
+  "mej",
+  "presh",
+  "shkëndijë"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 3
+  "verb": 3,
+  "noun": 8
  },
  "words": [
   {
-   "id": "lake",
-   "sq": "lake",
-   "en": "lackey",
+   "id": "emëroj",
+   "sq": "emëroj",
+   "en": "to appoint, to name",
    "glosses": [
-    "lackey"
+    "to appoint, to name"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lackey",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to appoint, to name",
      "tags": [
-      "derogatory",
-      "literary"
+      "transitive"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "derogatory",
-      "lackey"
+      "appoint",
+      "name"
      ]
     }
    ],
-   "rank": 19246,
-   "count": 27,
-   "family": "lake",
+   "rank": 18949,
+   "count": 28,
+   "family": "emëroj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -61,418 +79,350 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "emëruar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Lake Louise arrive in drive of about an hour.",
+    "en": "I name you as my assistant.",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Po të emëroj si asistentin tim."
+   }
+  },
+  {
+   "id": "presh",
+   "sq": "presh",
+   "en": "leek",
+   "glosses": [
+    "leek",
+    "chives"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "leek",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leek"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chives",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 38 38"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 38 38"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 90"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chives"
+     ]
+    }
+   ],
+   "rank": 18982,
+   "count": 28,
+   "family": "presh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *prasa, from Proto-Indo-European *pr̥so-, possibly of non-Indo-European origin. Cognate with Ancient Greek πράσον (práson), Latin porrum, or perhaps borrowed from Ancient Greek. Variants porr and purri are probably from Latin.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "preshë",
+     "tag": "plural"
+    },
+    {
+     "form": "preshi",
+     "tag": "definite"
+    },
+    {
+     "form": "pras",
+     "tag": "alternative"
+    },
+    {
+     "form": "purri",
+     "tag": "alternative"
+    },
+    {
+     "form": "porr",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Want a quick pie with potatoes and leeks?",
     "score": [
      2,
      9,
      -7,
      10
     ],
-    "sq": "Lake Louise arrijnë në makinë e rreth një orë."
+    "sq": "Dëshironi një byrek të shpejtë me patate dhe presh?"
    }
   },
   {
-   "id": "shaj",
-   "sq": "shaj",
-   "en": "to insult, revile, slander",
+   "id": "shkëndijë",
+   "sq": "shkëndijë",
+   "en": "spark",
    "glosses": [
-    "to insult, revile, slander",
-    "to split, cleave, smash, batter"
+    "spark",
+    "sparkle, twinkle",
+    "firefly"
    ],
    "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to insult, revile, slander",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "insult",
-      "revile",
-      "slander"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to split, cleave, smash, batter",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "39 61"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "split",
-      "cleave",
-      "smash"
-     ]
-    }
-   ],
-   "rank": 19276,
-   "count": 27,
-   "family": "shaj",
-   "is_root": true,
-   "etymology": "From a variant of çaj (“smash”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "smash"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shava",
-     "tag": "aorist"
-    },
-    {
-     "form": "sharë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "That after-hours with sorrow chide us not!",
-    "score": [
-     0,
-     8,
-     -8,
-     5
-    ],
-    "sq": "Se pas-orë me keqardhje nuk na shaj!"
-   }
-  },
-  {
-   "id": "kacabu",
-   "sq": "kacabu",
-   "en": "beetle",
-   "glosses": [
-    "beetle"
-   ],
-   "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "beetle",
+     "gloss": "spark",
      "tags": [
-      "masculine"
+      "feminine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with kaca-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "beetle"
+      "spark"
      ]
-    }
-   ],
-   "rank": 19301,
-   "count": 27,
-   "family": "kacabu",
-   "is_root": true,
-   "etymology": "Prefixed with kaca-. The origin of the second morpheme -bu /-bû is unclear, likely ultimately a babble word, as is the prefixoid bubu- (“beetle”). Alternatively a variant of buall (“buffalo; stag beetle”), by back-formation from its plural.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kacabunj",
-     "tag": "plural"
     },
-    {
-     "form": "kacabuni",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "protestë",
-   "sq": "protestë",
-   "en": "protest",
-   "glosses": [
-    "protest"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "protest",
+     "gloss": "sparkle, twinkle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sparkle",
+      "twinkle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "firefly",
      "tags": [
       "feminine"
      ],
      "cats": [
       {
+       "name": "Entomology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Entomology",
+       "langcode": "sq"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 23 71"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 26 67"
       }
      ],
      "examples": [],
      "links": [
-      "protest"
+      "entomology",
+      "firefly"
      ]
     }
    ],
-   "rank": 19315,
-   "count": 27,
-   "family": "protestë",
+   "rank": 19035,
+   "count": 28,
+   "family": "shkëndijë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Vulgar Latin *scintilia, from Latin scintilla. Compare Romanian scânteie.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "syshkëndijë",
+    "shkëndijëz",
+    "shkëndijim",
+    "shkëndijon",
+    "shkëndit"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "protesta",
+     "form": "shkëndija",
      "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What happened at the protest?",
+    "en": "So far, there's nothing that could indicate such thing.",
     "score": [
      0,
-     4,
-     -4,
+     6,
+     -6,
      10
     ],
-    "sq": "Çfarë ndodhi në protestë?"
+    "sq": "Deri tani nuk kemi asnjë shkëndijë."
    }
   },
   {
-   "id": "citoj",
-   "sq": "citoj",
-   "en": "to quote",
+   "id": "cikël",
+   "sq": "cikël",
+   "en": "cycle",
    "glosses": [
-    "to quote"
+    "cycle",
+    "little spot, drop"
    ],
    "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to quote",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "quote"
-     ]
-    }
-   ],
-   "rank": 19321,
-   "count": 27,
-   "family": "citoj",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "citova",
-     "tag": "aorist"
-    },
-    {
-     "form": "cituar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "And let me actually quote the president of Brazil, Ms. Dilma Rousseff.",
-    "score": [
-     4,
-     8,
-     -4,
-     4
-    ],
-    "sq": "Më lejoni të citoj presidenten e Brazilit, znj."
-   }
-  },
-  {
-   "id": "derdhje",
-   "sq": "derdhje",
-   "en": "spillage",
-   "glosses": [
-    "spillage"
-   ],
-   "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "spillage",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "cycle",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -lë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "spillage"
+      "cycle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "little spot, drop",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -lë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "spot",
+      "drop"
      ]
     }
    ],
-   "rank": 19385,
-   "count": 27,
-   "family": "derdhje",
+   "rank": 19086,
+   "count": 28,
+   "family": "cikël",
    "is_root": true,
-   "etymology": "Gerund of derdh.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Late Latin cyclus.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin cyclus",
    "parents": [],
    "components": [],
    "derived": [],
@@ -480,14 +430,202 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A little more about free spill.",
+    "en": "It is a cycle.",
     "score": [
      0,
-     9,
-     -9,
+     3,
+     -3,
      10
     ],
-    "sq": "Një pak më shumë në lidhje me falas derdhje."
+    "sq": "Është një cikël."
+   }
+  },
+  {
+   "id": "mej",
+   "sq": "mej",
+   "en": "to reduce, make fade, extinguish",
+   "glosses": [
+    "to reduce, make fade, extinguish",
+    "to fail"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to reduce, make fade, extinguish",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 18 0 16 4 0 5 5 5 13 21"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 18 0 16 5 0 6 6 6 12 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "reduce",
+      "fade",
+      "extinguish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fail",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 70"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 18 0 16 4 0 5 5 5 13 21"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 18 0 16 5 0 6 6 6 12 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fail"
+     ]
+    }
+   ],
+   "rank": 19124,
+   "count": 28,
+   "family": "mej",
+   "is_root": true,
+   "etymology": "First attested in 1618 by Budi. From Proto-Albanian *me(i̯)ə, from Pre-Proto-Albanian *mai̯-ii̯i/a-, from Proto-Indo-European *moi̯H-éi̯e/o- (“to make small”), from Proto-Indo-European *meyH- (“to become small, diminish”). Connected to me (“little, slightly”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "meha",
+     "tag": "aorist"
+    },
+    {
+     "form": "mehur",
+     "tag": "participle"
+    },
+    {
+     "form": "mehem",
+     "tag": "alternative"
+    },
+    {
+     "form": "mehet",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "jehonë",
+   "sq": "jehonë",
+   "en": "echo",
+   "glosses": [
+    "echo"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "echo",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -onë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "echo"
+     ]
+    }
+   ],
+   "rank": 19131,
+   "count": 28,
+   "family": "jehonë",
+   "is_root": true,
+   "etymology": "By surface analysis, jeh + -onë, but compare Latin ēchōnis, genitive singular of Latin ēchō.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "jehona",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "An echo.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Përgjigje: Një jehonë."
    }
   }
  ]

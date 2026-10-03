@@ -1,33 +1,40 @@
 {
  "level": 228,
- "title": "arrij",
- "root": "arrij",
- "root_gloss": "to arrive",
+ "title": "zgjidh",
+ "root": "zgjidh",
+ "root_gloss": "to untie, unbind, loosen",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "arrij"
+  "zgjidh"
  ],
  "pos_mix": {
-  "verb": 4
+  "verb": 5,
+  "noun": 3
  },
  "words": [
   {
-   "id": "arrij",
-   "sq": "arrij",
-   "en": "to arrive",
+   "id": "zgjidh",
+   "sq": "zgjidh",
+   "en": "to untie, unbind, loosen",
    "glosses": [
-    "to arrive",
-    "to reach, catch up with",
-    "to attain, achieve"
+    "to untie, unbind, loosen",
+    "to set free, loose; to unleash, unyoke",
+    "to break off (a relationship); to break (an agreement, spell, etc.)",
+    "to solve",
+    "to arrive at a solution; to resolve"
    ],
    "pos": [
+    "verb",
+    "verb",
     "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "verb",
     "verb",
     "verb"
@@ -36,18 +43,33 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to arrive",
+     "gloss": "to untie, unbind, loosen",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "arrive"
+      "untie",
+      "unbind",
+      "loosen"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to reach, catch up with",
+     "gloss": "to set free, loose; to unleash, unyoke",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "free",
+      "loose",
+      "unleash"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to break off (a relationship); to break (an agreement, spell, etc.)",
      "tags": [],
      "cats": [
       {
@@ -55,171 +77,259 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "25 43 33"
+       "_dis": "26 6 40 19 9"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "25 43 33"
+       "_dis": "15 15 29 20 21"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "16 62 23"
+       "_dis": "13 11 42 17 16"
       }
      ],
      "examples": [],
      "links": [
-      "reach",
-      "catch up"
+      "break off",
+      "break"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to attain, achieve",
+     "gloss": "to solve",
      "tags": [],
+     "cats": [
+      {
+       "name": "Mathematics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mathematics",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mathematics",
+      "solve"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arrive at a solution; to resolve",
+     "tags": [
+      "figuratively"
+     ],
      "cats": [],
      "examples": [],
      "links": [
-      "attain",
-      "achieve"
+      "arrive",
+      "solution",
+      "resolve"
      ]
     }
    ],
-   "rank": 1367,
-   "count": 649,
-   "family": "arrij",
+   "rank": 1902,
+   "count": 454,
+   "family": "zgjidh",
    "is_root": true,
-   "etymology": "Hamp suggests a connection with rri (“stand”) (see related mbërrij (“arrive”). Alternatively from Early Medieval Latin adrīpāre, derived from Latin ad (“to”) + rīpa (“shore”). Compare Italian arrivare.",
-   "etymology_class": "borrowed",
+   "etymology": "First attested in 1555 as zgidh (Buzuku), from zga (“out”) + lidh (“tie”). The expected form, zglidh, is seen in the Arbëresh dialect but not in Buzuku's due to the immediate following -i-, which in Gheg leads to -gl- becoming -g- (similar to gisht (“finger”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "stand",
-    "arrive"
+    "out",
+    "tie"
    ],
-   "components": [],
+   "components": [
+    {
+     "word": "lidh",
+     "role": "stem"
+    }
+   ],
    "derived": [
-    "arritje",
-    "arritur",
-    "pikarritje",
-    "arritshëm",
-    "mosarritje"
+    "zgjidhet",
+    "zgjidhëm",
+    "zgjidhës",
+    "zgjidhje",
+    "zgjidhshëm",
+    "zgjidhur"
    ],
    "related": [],
    "forms": [
     {
-     "form": "arrita",
-     "tag": "aorist"
-    },
-    {
-     "form": "arritur",
+     "form": "zgjidhur",
      "tag": "participle"
-    },
-    {
-     "form": "harrij",
-     "tag": "alternative"
-    },
-    {
-     "form": "errij",
-     "tag": "alternative"
-    },
-    {
-     "form": "arrënj",
-     "tag": "alternative"
-    },
-    {
-     "form": "mrrij",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "So how do you get there?",
+    "corpus": "HPLT",
+    "en": "Choose and get it!",
     "score": [
      0,
-     5,
-     -5,
-     4
+     3,
+     -3,
+     10
     ],
-    "sq": "Si do të arrij atje?"
+    "sq": "Zgjidh e merr!"
    }
   },
   {
-   "id": "arritur",
-   "sq": "arritur",
-   "en": "arrive, past form (from arrij, to arrive)",
+   "id": "zgjidhje",
+   "sq": "zgjidhje",
+   "en": "solution",
    "glosses": [
-    "arrive, past form (from arrij, to arrive)"
+    "solution",
+    "resolution",
+    "dissolution"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "arrive, past form (from arrij, to arrive)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "solution",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "32 32 37"
       }
      ],
      "examples": [],
-     "is_form_of": "arrij"
+     "links": [
+      "solution"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "resolution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "resolution"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dissolution",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dissolution"
+     ]
     }
    ],
-   "rank": 991,
-   "count": 956,
-   "family": "arrij",
+   "rank": 983,
+   "count": 962,
+   "family": "zgjidh",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Gerund of zgjidh (“to untie”). From zgjidh (“to untie”) + -je.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "zgjidh",
+     "role": "prefix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is easily accomplished.",
+    "en": "Still no solution.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Kjo është arritur lehtë."
+    "sq": "Ende asnjë zgjidhje."
    }
   }
  ]

@@ -1,171 +1,46 @@
 {
  "level": 386,
- "title": "peng, qind, kërcej, tufë, plagë, restorant +4",
+ "title": "ndez, lesh, raport, plas, ofertë, arratisur +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 8,
+ "word_count": 7,
  "families": [
-  "kërcej",
-  "peng",
-  "plagë",
-  "qind",
-  "restorant",
-  "tufë"
+  "arratisur",
+  "lesh",
+  "ndez",
+  "ofertë",
+  "plas",
+  "raport"
  ],
  "pos_mix": {
-  "noun": 9,
-  "num": 2,
-  "verb": 2
+  "verb": 2,
+  "noun": 7,
+  "adj": 1
  },
  "words": [
   {
-   "id": "peng",
-   "sq": "peng",
-   "en": "pledge, pawn",
+   "id": "ndez",
+   "sq": "ndez",
+   "en": "to light, to kindle",
    "glosses": [
-    "pledge, pawn",
-    "hostage",
-    "feeling of regret, unfulfilled desire, wishful thinking",
-    "token of assurance"
+    "to light, to kindle"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pledge, pawn",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to light, to kindle",
      "tags": [
-      "masculine"
+      "transitive"
      ],
-     "cats": [
-      {
-       "name": "Law",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Law",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 27 25 12"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "law",
-      "pledge",
-      "pawn"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hostage",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hostage"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "feeling of regret, unfulfilled desire, wishful thinking",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "token of assurance",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 3516,
-   "count": 226,
-   "family": "peng",
-   "is_root": true,
-   "etymology": "From Latin pignus.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin pignus",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "pengcë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "pengje",
-     "tag": "plural"
-    },
-    {
-     "form": "pengu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who has taken hostage whom?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kush ka marrë peng kë?"
-   }
-  },
-  {
-   "id": "njëqind",
-   "sq": "njëqind",
-   "en": "one hundred",
-   "glosses": [
-    "one hundred"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "one hundred",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -174,7 +49,89 @@
        "source": "w"
       },
       {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "light",
+      "kindle"
+     ]
+    }
+   ],
+   "rank": 3387,
+   "count": 235,
+   "family": "ndez",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *en-dadžja, from Proto-Indo-European *dʰegʷʰ- (“to burn”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ndeza",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndezur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "I would just light up a cigarette.",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Unë vetëm ndez një cigare."
+   }
+  },
+  {
+   "id": "lesh",
+   "sq": "lesh",
+   "en": "wool, hair, fleece",
+   "glosses": [
+    "wool, hair, fleece"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wool, hair, fleece",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -188,354 +145,233 @@
      ],
      "examples": [],
      "links": [
-      "one hundred"
+      "wool",
+      "hair",
+      "fleece"
      ]
     }
    ],
-   "rank": 3525,
-   "count": 225,
-   "family": "qind",
-   "is_root": false,
-   "etymology": "Equivalent to një + qind.",
-   "etymology_class": "compound",
+   "rank": 3404,
+   "count": 234,
+   "family": "lesh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laiša, close to the Balto-Slavic word for 'foliage'. Compare Lithuanian lai̇̃škos (“leaf”), Latvian laĩska (“leaf on a linen stalk; stalk”), Proto-Slavic *lȋstъ (“leaf”). Alternatively from Proto-Albanian *(u)laś-, from Proto-Indo-European *h₂welh₁- (“wool”). Cognate to Latin vellus (“wool, fleece, skin”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "një",
-     "role": "prefix"
-    },
-    {
-     "word": "qind",
-     "role": "stem"
-    }
+   "parents": [
+    "foliage"
    ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "One hundred years of experience.",
+    "en": "wool market.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Njëqind vjet përvojë."
+    "sq": "lesh në treg."
    }
   },
   {
-   "id": "kërcej",
-   "sq": "kërcej",
-   "en": "to dance",
+   "id": "raport",
+   "sq": "raport",
+   "en": "report",
    "glosses": [
-    "to dance",
-    "to crack, to snap"
+    "report",
+    "relationship, relation"
    ],
    "pos": [
-    "verb",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "report",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "report"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "relationship, relation",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "relationship",
+      "relation"
+     ]
+    }
+   ],
+   "rank": 3408,
+   "count": 233,
+   "family": "raport",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Whether this report!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nëse ky raport!"
+   }
+  },
+  {
+   "id": "plas",
+   "sq": "plas",
+   "en": "to crack, burst, break through",
+   "glosses": [
+    "to crack, burst, break through"
+   ],
+   "pos": [
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to dance",
+     "gloss": "to crack, burst, break through",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "dance"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to crack, to snap",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
       "crack",
-      "snap"
+      "burst",
+      "break through"
      ]
     }
    ],
-   "rank": 3543,
-   "count": 224,
-   "family": "kërcej",
+   "rank": 3409,
+   "count": 233,
+   "family": "plas",
    "is_root": true,
-   "etymology": "A derivative of kërcas, originally meaning 'to crack, to snap', thus 'to jump, to dance'. A descriptive term.\nAlternatively, from Dacian or Paleo-Balkan substrate, cognate to Romanian cățăra.",
-   "etymology_class": "derived",
+   "etymology": "Inherited from Proto-Albanian *platˢ̌a-, from Pre-Proto-Albanian *plača-, from Proto-Indo-European *pl̥Hḱyé-, with a semantic change from \"to tear\" to \"to burst\". Etymologically close to pëlcas (“to burst”). Cognate to Lithuanian plė́šti (“to burst, crack”), Latvian plêst (“to tear”) and perhaps German platzen (“to blow, explode”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "kërcas",
-    "kërce",
-    "kërcell"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "kërceva",
+     "form": "plasa",
      "tag": "aorist"
     },
     {
-     "form": "kërcyer",
+     "form": "plasur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "bounce them back into the sky.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "kërcej ata përsëri në qiell."
-   }
-  },
-  {
-   "id": "tufë",
-   "sq": "tufë",
-   "en": "flock, herd",
-   "glosses": [
-    "flock, herd",
-    "bunch, mass, crowd"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flock, herd",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 21"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 21"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "90 10"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flock",
-      "herd"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bunch, mass, crowd",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bunch",
-      "mass",
-      "crowd"
-     ]
-    }
-   ],
-   "rank": 3554,
-   "count": 223,
-   "family": "tufë",
-   "is_root": true,
-   "etymology": "From Latin tufa. Compare Romanian tufă, Aromanian tufã.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin tufa",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "tufëz",
-    "tufëzoj",
-    "tufëzim",
-    "tufëzues",
-    "tufshak"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is a tough clutch.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Kjo është një tufë e fortë."
-   }
-  },
-  {
-   "id": "plagë",
-   "sq": "plagë",
-   "en": "wound",
-   "glosses": [
-    "wound"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wound",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "wound"
-     ]
-    }
-   ],
-   "rank": 3574,
-   "count": 222,
-   "family": "plagë",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin plāga. Compare Romanian plagă, Aromanian pleagã.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "plagë",
-     "tag": "plural"
-    },
-    {
-     "form": "plaga",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No one was wound.",
+    "en": "and some also crack.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Askush nuk ishte plagë."
+    "sq": "dhe disa gjithashtu plas."
    }
   },
   {
-   "id": "restorant",
-   "sq": "restorant",
-   "en": "restaurant",
+   "id": "ofertë",
+   "sq": "ofertë",
+   "en": "offer",
    "glosses": [
-    "restaurant"
+    "offer"
    ],
    "pos": [
     "noun"
@@ -547,149 +383,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "restaurant",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages using etymon with no ID",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "restaurant"
-     ]
-    }
-   ],
-   "rank": 3578,
-   "count": 221,
-   "family": "restorant",
-   "is_root": true,
-   "etymology": "Borrowed from French restaurant.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "only 9 Restaurant.",
-    "score": [
-     0,
-     2,
-     -2,
-     10
-    ],
-    "sq": "vetëm 9 Restorant."
-   }
-  },
-  {
-   "id": "qind",
-   "sq": "qind",
-   "en": "hundred",
-   "glosses": [
-    "hundred"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "hundred",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hundred"
-     ]
-    }
-   ],
-   "rank": 5783,
-   "count": 127,
-   "family": "qind",
-   "is_root": true,
-   "etymology": "From Latin centum, possibly borrowed through Vulgar Latin.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin centum",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "0 percent risk!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "0 për qind rrezik!"
-   }
-  },
-  {
-   "id": "qindarkë",
-   "sq": "qindarkë",
-   "en": "qindarkë, a hundredth of a lek",
-   "glosses": [
-    "qindarkë, a hundredth of a lek"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "qindarkë, a hundredth of a lek",
+     "gloss": "offer",
      "tags": [
       "feminine"
      ],
@@ -701,59 +395,274 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ar",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -kë",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
+     "examples": [],
+     "links": [
+      "economics",
+      "offer"
+     ]
+    }
+   ],
+   "rank": 3416,
+   "count": 233,
+   "family": "ofertë",
+   "is_root": true,
+   "etymology": "Borrowed from a Romance language; cf. Italian offerta, or from Late Latin offerta, ultimately from Latin offerō.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "oferta",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Make an offer!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Bëni një ofertë!"
+   }
+  },
+  {
+   "id": "arratisur",
+   "sq": "arratisur",
+   "en": "fugitive (a person who is fleeing or escaping from something)",
+   "glosses": [
+    "fugitive (a person who is fleeing or escaping from something)",
+    "escaper"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fugitive (a person who is fleeing or escaping from something)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "74 26"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "86 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fugitive"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "escaper",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 65"
+      }
+     ],
      "examples": [
       {
-       "sq": "nuk vlen asnjë qindarkë",
-       "en": "not worth a penny",
+       "sq": "I dëgjove lajmet për dy aktor të arratisur? Të arratisur ka shumë, por jo dy aktor të arratisur nga një teatër komfort.",
+       "en": "",
        "offsets": [
         [
-         15,
-         23
+         33,
+         42
+        ],
+        [
+         47,
+         56
+        ],
+        [
+         86,
+         95
         ]
        ]
       }
      ],
      "links": [
-      "qindarkë",
-      "lek"
+      "escaper"
      ]
     }
    ],
-   "rank": 8587,
-   "count": 78,
-   "family": "qind",
+   "rank": 3425,
+   "count": 232,
+   "family": "arratisur",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "arrati",
+    "arratis",
+    "arratisem",
+    "arratisje"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He is a fugitive.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Është i arratisur."
+   }
+  },
+  {
+   "id": "sylesh",
+   "sq": "sylesh",
+   "en": "credulous, gullible",
+   "glosses": [
+    "credulous, gullible",
+    "dupe, gull (guillible person)"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "credulous, gullible",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "credulous",
+      "gullible"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dupe, gull (guillible person)",
+     "tags": [
+      "feminine",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 92"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dupe",
+      "gull"
+     ]
+    }
+   ],
+   "rank": 35622,
+   "count": 11,
+   "family": "lesh",
    "is_root": false,
-   "etymology": "From qind (“hundred”) + -ar + -kë.",
+   "etymology": "From sy (“eye”) + lesh (“wool”).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "hundred"
+    "eye",
+    "wool"
    ],
    "components": [
     {
-     "word": "qind",
+     "word": "sy",
      "role": "prefix"
+    },
+    {
+     "word": "lesh",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qindarka",
+     "form": "syleshi",
      "tag": "plural"
+    },
+    {
+     "form": "syleshja",
+     "tag": "definite"
+    },
+    {
+     "form": "syleshtë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": null

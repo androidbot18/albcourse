@@ -1,102 +1,160 @@
 {
  "level": 575,
- "title": "gjinjtë, marihuanë, derrkuc, varëse, pashmangshëm, mbajtje +4",
+ "title": "grabit, ekspeditë, shtresë, shkarkoj, atlete, dërrasë +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 8,
+ "word_count": 6,
  "families": [
-  "derrkuc",
-  "gjinjtë",
-  "marihuanë",
-  "mbajtje",
-  "pashmangshëm",
-  "varëse"
+  "atlete",
+  "dërrasë",
+  "ekspeditë",
+  "grabit",
+  "shkarkoj",
+  "shtresë"
  ],
  "pos_mix": {
-  "noun": 8,
-  "adj": 1
+  "verb": 7,
+  "noun": 6
  },
  "words": [
   {
-   "id": "gjinjtë",
-   "sq": "gjinjtë",
-   "en": "bosom",
+   "id": "grabit",
+   "sq": "grabit",
+   "en": "to seize, rob, steal",
    "glosses": [
-    "bosom"
+    "to seize, rob, steal",
+    "to encroach, violate someone's rights",
+    "to attract"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bosom",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to seize, rob, steal",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "70 18 13"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "53 25 22"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "80 11 9"
       }
      ],
+     "examples": [
+      {
+       "sq": "Me ta bashkë të jemi grabitunë.",
+       "en": "",
+       "offsets": [
+        [
+         21,
+         31
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "seize",
+      "rob",
+      "steal"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to encroach, violate someone's rights",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "bosom"
+      "encroach",
+      "violate",
+      "rights"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to attract",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attract"
      ]
     }
    ],
-   "rank": 15201,
-   "count": 38,
-   "family": "gjinjtë",
+   "rank": 14958,
+   "count": 39,
+   "family": "grabit",
    "is_root": true,
-   "etymology": "From gjinj, plural variant of gji (“breast; udder, teat”). More at gji.",
-   "etymology_class": null,
+   "etymology": "Borrowed from a South Slavic language, compare Old Church Slavonic грабити (grabiti), Serbo-Croatian grabiti (“to grab, to sieze”) and Bulgarian грабя (grabja, “to rob, to plunder”). Ultimately from Proto-Slavic *grabiti (“to grab, to sieze”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "grabitës",
+    "grabitqar"
+   ],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "grabita",
+     "tag": "aorist"
+    },
+    {
+     "form": "grabitur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "My breasts have disappeared for years.",
+    "en": "This is also the goal: rob and depopulate.",
     "score": [
      1,
      7,
      -6,
      10
     ],
-    "sq": "Gjinjtë e mi janë zhdukur prej vitesh."
+    "sq": "Ky është edhe qëllimi: grabit dhe shpopullo."
    }
   },
   {
-   "id": "marihuanë",
-   "sq": "marihuanë",
-   "en": "marijuana",
+   "id": "ekspeditë",
+   "sq": "ekspeditë",
+   "en": "expedition",
    "glosses": [
-    "marijuana"
+    "expedition"
    ],
    "pos": [
     "noun"
@@ -108,7 +166,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "marijuana",
+     "gloss": "expedition",
      "tags": [
       "feminine"
      ],
@@ -134,16 +192,16 @@
      ],
      "examples": [],
      "links": [
-      "marijuana"
+      "expedition"
      ]
     }
    ],
-   "rank": 15220,
-   "count": 38,
-   "family": "marihuanë",
+   "rank": 14968,
+   "count": 39,
+   "family": "ekspeditë",
    "is_root": true,
-   "etymology": "Borrowed from Spanish marihuana.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -151,14 +209,24 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "Each trip was an excursion, was an adventure.",
+    "score": [
+     0,
+     8,
+     -8,
+     4
+    ],
+    "sq": "Çdo udhëtim ishte një ekspeditë, ishte një aventurë."
+   }
   },
   {
-   "id": "derrkuc",
-   "sq": "derrkuc",
-   "en": "piglet",
+   "id": "shtresë",
+   "sq": "shtresë",
+   "en": "layer",
    "glosses": [
-    "piglet"
+    "layer"
    ],
    "pos": [
     "noun"
@@ -170,8 +238,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "piglet",
-     "tags": [],
+     "gloss": "layer",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -194,78 +264,94 @@
      ],
      "examples": [],
      "links": [
-      "piglet"
+      "layer"
      ]
     }
    ],
-   "rank": 15237,
+   "rank": 14980,
    "count": 38,
-   "family": "derrkuc",
+   "family": "shtresë",
    "is_root": true,
-   "etymology": "From archaic and dialectal derk, from Proto-Albanian *darika, diminutive of *darja (“pig”) (modern derr). More at derr.",
-   "etymology_class": "derived",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "pig"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "derrk",
-     "tag": "alternative"
-    },
-    {
-     "form": "derk",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A piggy bank has different uses.",
+    "en": "It's a beautiful seam.",
     "score": [
-     1,
+     0,
      6,
-     -5,
+     -6,
      10
     ],
-    "sq": "Një derrkuc ka përdorime të ndryshme."
+    "sq": "Kjo është një shtresë e bukur."
    }
   },
   {
-   "id": "varëse",
-   "sq": "varëse",
-   "en": "chain",
+   "id": "shkarkoj",
+   "sq": "shkarkoj",
+   "en": "to discharge, emit, fire",
    "glosses": [
-    "chain",
-    "necklace"
+    "to discharge, emit, fire",
+    "to emanate",
+    "to unload",
+    "to download"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chain",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discharge, emit, fire",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 7 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discharge",
+      "emit",
+      "fire"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to emanate",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "chain"
+      "emanate"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "necklace",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unload",
      "tags": [],
      "cats": [
       {
@@ -273,244 +359,115 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 86"
+       "_dis": "26 7 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unload"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to download",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 7 33 33"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "17 83"
+       "_dis": "22 22 24 31"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "8 92"
+       "_dis": "15 13 17 56"
       }
      ],
      "examples": [],
      "links": [
-      "necklace"
+      "download"
      ]
     }
    ],
-   "rank": 15239,
+   "rank": 15031,
    "count": 38,
-   "family": "varëse",
+   "family": "shkarkoj",
    "is_root": true,
-   "etymology": "Derivative of var.",
-   "etymology_class": null,
+   "etymology": "Borrowed through Vulgar Latin from Late Latin discarricō, from Latin carricō, from Latin carrus. Compare Romanian descărca, Aromanian discarcu.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [
-    "var"
+    "ngarkoj",
+    "lëshoj"
    ],
    "forms": [
     {
-     "form": "varëse",
-     "tag": "plural"
-    },
-    {
-     "form": "varësja",
-     "tag": "definite"
+     "form": "shkarkuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "* Hangers in the closets.",
+    "en": "How many videos can I download?",
     "score": [
      1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "* Varëse në dollapë."
-   }
-  },
-  {
-   "id": "pashmangshëm",
-   "sq": "pashmangshëm",
-   "en": "inevitable",
-   "glosses": [
-    "inevitable"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "inevitable",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "inevitable"
-     ]
-    }
-   ],
-   "rank": 15260,
-   "count": 37,
-   "family": "pashmangshëm",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pashmangshëme",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Rejection is inevitable.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "Refuzimi është i pashmangshëm."
-   }
-  },
-  {
-   "id": "përmbajtje",
-   "sq": "përmbajtje",
-   "en": "containment",
-   "glosses": [
-    "containment"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "containment",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with për-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "containment"
-     ]
-    }
-   ],
-   "rank": 15269,
-   "count": 37,
-   "family": "mbajtje",
-   "is_root": false,
-   "etymology": "From për- + mbajtje.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    },
-    {
-     "word": "mbajtje",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përmbajtja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is listed in the content.",
-    "score": [
-     0,
      5,
-     -5,
+     -4,
      10
     ],
-    "sq": "Është e shënuar në përmbajtje."
+    "sq": "Sa video mund të shkarkoj?"
    }
   },
   {
-   "id": "mbajtje",
-   "sq": "mbajtje",
-   "en": "retention",
+   "id": "atlete",
+   "sq": "atlete",
+   "en": "athlete",
    "glosses": [
-    "retention"
+    "athlete",
+    "sneakers"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "retention",
+     "gloss": "athlete",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "athlete"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sneakers",
      "tags": [
       "feminine"
      ],
@@ -519,30 +476,33 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "12 88"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 89"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "5 95"
       }
      ],
      "examples": [],
      "links": [
-      "retention"
+      "sneakers"
      ]
     }
    ],
-   "rank": 20568,
-   "count": 25,
-   "family": "mbajtje",
+   "rank": 15049,
+   "count": 38,
+   "family": "atlete",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -552,42 +512,40 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "mbajtja",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "By decision of the prosecutor, he was sent to detention.",
+    "en": "There are shoes you can run in.",
     "score": [
      1,
-     9,
-     -8,
+     8,
+     -7,
      10
     ],
-    "sq": "Me vendim të prokurorit, ai është dërguar në mbajtje."
+    "sq": "Ka atlete me të cilat mund të vraponi."
    }
   },
   {
-   "id": "mirëmbajtje",
-   "sq": "mirëmbajtje",
-   "en": "maintenance",
+   "id": "dërrasë",
+   "sq": "dërrasë",
+   "en": "board, stone plate, plank",
    "glosses": [
-    "maintenance"
+    "board, stone plate, plank",
+    "penis, cock, dick (vulgar); in use with verb rras"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "maintenance",
+     "gloss": "board, stone plate, plank",
      "tags": [
       "feminine"
      ],
@@ -596,65 +554,85 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "82 18"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "74 26"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "88 12"
       }
      ],
      "examples": [],
      "links": [
-      "maintenance"
+      "board",
+      "stone",
+      "plate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "penis, cock, dick (vulgar); in use with verb rras",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Të ka rrasur me dërrasë.",
+       "en": "He slammed/rammed you with his dick.",
+       "offsets": [
+        [
+         6,
+         12
+        ],
+        [
+         16,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "penis",
+      "cock",
+      "dick"
      ]
     }
    ],
-   "rank": 42626,
-   "count": 8,
-   "family": "mbajtje",
-   "is_root": false,
-   "etymology": "mirë + mbajtje",
-   "etymology_class": null,
+   "rank": 15064,
+   "count": 38,
+   "family": "dërrasë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *deratjā, from Proto-Indo-European *der (“to tear, to split”). Alternatively a prefixed derivative of rrasë (“flat stone”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "mirë",
-     "role": "prefix"
-    },
-    {
-     "word": "mbajtje",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "rrasë",
+    "djerr",
+    "rras"
+   ],
    "forms": [
     {
-     "form": "mirëmbajtja",
-     "tag": "definite"
+     "form": "dërrasa",
+     "tag": "plural"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "◆ Free of maintenance.",
-    "score": [
-     0,
-     2,
-     -2,
-     10
-    ],
-    "sq": "◆ Pa mirëmbajtje."
-   }
+   "corpus_example": null
   }
  ]
 }

@@ -1,43 +1,192 @@
 {
  "level": 447,
- "title": "teknologji, dollap, shëndet, xhami +2",
+ "title": "shkëmb, paq, tridhjetë, afërsisht, pop, pavarur +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 6,
  "families": [
-  "dollap",
-  "shëndet",
-  "teknologji",
-  "xhami"
+  "afërsisht",
+  "paq",
+  "pavarur",
+  "pop",
+  "shkëmb",
+  "tridhjetë"
  ],
  "pos_mix": {
-  "noun": 7,
-  "intj": 1
+  "noun": 5,
+  "adv": 2,
+  "num": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "teknologji",
-   "sq": "teknologji",
-   "en": "technology",
+   "id": "shkëmb",
+   "sq": "shkëmb",
+   "en": "cliff, rocky crag",
    "glosses": [
-    "technology"
+    "cliff, rocky crag",
+    "rock",
+    "stool, crude wooden chair",
+    "sole of a wooden plow"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "technology",
+     "gloss": "cliff, rocky crag",
      "tags": [
-      "feminine"
+      "masculine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cliff",
+      "crag"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rock",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Geology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Geology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 51 6 27"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 65 7 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "geology",
+      "rock"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "stool, crude wooden chair",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "stool",
+      "chair"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sole of a wooden plow",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Agriculture",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Agriculture",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "agriculture",
+      "sole",
+      "plow"
+     ]
+    }
+   ],
+   "rank": 5836,
+   "count": 125,
+   "family": "shkëmb",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin scamnum. Compare Greek σκαμνί (skamní), Romanian scaun, Italian scanno.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shkëmbinj",
+     "tag": "plural"
+    },
+    {
+     "form": "shkëmbi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What Is A Rock?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë është një shkëmb?"
+   }
+  },
+  {
+   "id": "paq",
+   "sq": "paq",
+   "en": "clean, quite, well",
+   "glosses": [
+    "clean, quite, well"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "clean, quite, well",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +195,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,13 +209,15 @@
      ],
      "examples": [],
      "links": [
-      "technology"
+      "clean",
+      "quite",
+      "well"
      ]
     }
    ],
-   "rank": 6012,
-   "count": 120,
-   "family": "teknologji",
+   "rank": 5845,
+   "count": 125,
+   "family": "paq",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -76,355 +227,47 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "teknologji",
-     "tag": "plural"
-    },
-    {
-     "form": "teknologjia",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "There is a lot of technology.",
+    "corpus": "QED",
+    "en": "There will always be killing, you see?",
     "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Ka shumë teknologji."
-   }
-  },
-  {
-   "id": "dollap",
-   "sq": "dollap",
-   "en": "closet, cupboard",
-   "glosses": [
-    "closet, cupboard"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "closet, cupboard",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "closet",
-      "cupboard"
-     ]
-    }
-   ],
-   "rank": 6016,
-   "count": 120,
-   "family": "dollap",
-   "is_root": true,
-   "etymology": "From Turkish dolap.",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish dolap",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "dollapë",
-     "tag": "plural"
-    },
-    {
-     "form": "dollapi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "She went to the closet and looked it up.",
-    "score": [
-     0,
+     2,
      7,
-     -7,
-     10
-    ],
-    "sq": "Ajo shkoi në dollap dhe shikuar atë."
-   }
-  },
-  {
-   "id": "shëndet",
-   "sq": "shëndet",
-   "en": "bless you! (said when someone sneezes)",
-   "glosses": [
-    "bless you! (said when someone sneezes)",
-    "health",
-    "greeting",
-    "toast"
-   ],
-   "pos": [
-    "intj",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "interjection",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "bless you! (said when someone sneezes)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 2 9 32"
-      },
-      {
-       "name": "Albanian responses to sneezing",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 4 20 21"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 2 10 10"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bless you"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "health",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "health"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "greeting",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "greeting"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "toast",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "toast"
-     ]
-    }
-   ],
-   "rank": 6018,
-   "count": 120,
-   "family": "shëndet",
-   "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin *sanitātis (nominative singular), from Latin sānitās (“health”). Compare Romanian sănătate.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "health"
-   ],
-   "components": [],
-   "derived": [
-    "përshëndetje",
-    "shëndetdobët",
-    "shëndetësi",
-    "i shëndetshëm"
-   ],
-   "related": [
-    "shëndoshë",
-    "shëroj"
-   ],
-   "forms": [
-    {
-     "form": "shëndeti",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Good health and good luck!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Shëndet dhe fat!"
-   }
-  },
-  {
-   "id": "xhami",
-   "sq": "xhami",
-   "en": "mosque",
-   "glosses": [
-    "mosque"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mosque",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mosque"
-     ]
-    }
-   ],
-   "rank": 6029,
-   "count": 120,
-   "family": "xhami",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish جامع (cami), from Arabic جَامِع (jāmiʕ).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "xhami",
-     "tag": "plural"
-    },
-    {
-     "form": "xhamia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "From the glass I saw a face.",
-    "score": [
-     0,
-     5,
      -5,
-     10
+     5
     ],
-    "sq": "Nga xhami pashë një fytyrë."
+    "sq": "Pa fitore, nuk do tė ketė paqė."
    }
   },
   {
-   "id": "shëndetshëm",
-   "sq": "shëndetshëm",
-   "en": "healthy (in good health or conducive to good health)",
+   "id": "tridhjetë",
+   "sq": "tridhjetë",
+   "en": "thirty",
    "glosses": [
-    "healthy (in good health or conducive to good health)"
+    "thirty"
    ],
    "pos": [
-    "noun"
+    "num"
    ],
    "pos_labels": [
-    "noun"
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "healthy (in good health or conducive to good health)",
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "thirty",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian cardinal numbers",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -shëm",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -438,23 +281,26 @@
      ],
      "examples": [],
      "links": [
-      "healthy"
+      "thirty"
      ]
     }
    ],
-   "rank": 6458,
-   "count": 110,
-   "family": "shëndet",
-   "is_root": false,
-   "etymology": "shëndet + -shëm",
+   "rank": 5856,
+   "count": 125,
+   "family": "tridhjetë",
+   "is_root": true,
+   "etymology": "From tri f (“three”) + dhjetë (“ten”). This forms confirms the feminine gender of dhjetë, also shown in Romanian douăzeci.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "three",
+    "ten"
+   ],
    "components": [
     {
-     "word": "shëndet",
-     "role": "prefix"
+     "word": "dhjetë",
+     "role": "stem"
     }
    ],
    "derived": [],
@@ -462,14 +308,233 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Healthy eyes.",
+    "en": "It's been round as thirty days.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Sy të shëndetshëm."
+    "sq": "Kanë kaluar rreth tridhjetë ditë."
+   }
+  },
+  {
+   "id": "afërsisht",
+   "sq": "afërsisht",
+   "en": "about, approximately",
+   "glosses": [
+    "about, approximately"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "about, approximately",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "about",
+      "approximately"
+     ]
+    }
+   ],
+   "rank": 5862,
+   "count": 125,
+   "family": "afërsisht",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Approximately 1 hour.",
+    "score": [
+     0,
+     2,
+     -2,
+     10
+    ],
+    "sq": "Afërsisht 1 orë."
+   }
+  },
+  {
+   "id": "pop",
+   "sq": "pop",
+   "en": "Orthodox priest",
+   "glosses": [
+    "Orthodox priest"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Orthodox priest",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 26 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Orthodox",
+      "priest"
+     ]
+    }
+   ],
+   "rank": 5866,
+   "count": 125,
+   "family": "pop",
+   "is_root": true,
+   "etymology": "Borrowed from South Slavic. Compare Bulgarian поп (pop), Serbo-Croatian поп /pȍp.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "popa",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "One day you have a Pop!",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Një ditë ju keni një Pop!"
+   }
+  },
+  {
+   "id": "pavarur",
+   "sq": "pavarur",
+   "en": "independent",
+   "glosses": [
+    "independent"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "independent",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "independent"
+     ]
+    }
+   ],
+   "rank": 5875,
+   "count": 124,
+   "family": "pavarur",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are not independent.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Nuk janë të pavarur."
    }
   }
  ]

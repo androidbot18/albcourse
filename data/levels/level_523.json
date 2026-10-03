@@ -1,31 +1,31 @@
 {
  "level": 523,
- "title": "fe, et, kursej, mistrec, baraz +3",
+ "title": "matematikë, bre, gji, ëngjëll, gjobë, deklaroj +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "baraz",
-  "et",
-  "fe",
-  "kursej",
-  "mistrec"
+  "bre",
+  "deklaroj",
+  "gji",
+  "gjobë",
+  "matematikë",
+  "ëngjëll"
  ],
  "pos_mix": {
-  "noun": 8,
-  "verb": 1,
-  "adj": 1,
-  "adv": 1
+  "noun": 10,
+  "intj": 2,
+  "verb": 1
  },
  "words": [
   {
-   "id": "fe",
-   "sq": "fe",
-   "en": "religion",
+   "id": "matematikë",
+   "sq": "matematikë",
+   "en": "mathematics",
    "glosses": [
-    "religion"
+    "mathematics"
    ],
    "pos": [
     "noun"
@@ -37,7 +37,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "religion",
+     "gloss": "mathematics",
      "tags": [
       "feminine"
      ],
@@ -49,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 28 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -63,16 +63,16 @@
      ],
      "examples": [],
      "links": [
-      "religion"
+      "mathematics"
      ]
     }
    ],
-   "rank": 10331,
-   "count": 62,
-   "family": "fe",
+   "rank": 10096,
+   "count": 64,
+   "family": "matematikë",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin *fēdes, from Latin fidēs. The Vulgar Latin form is alternatively reconstructed as Vulgar Latin *fe.des.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -81,122 +81,505 @@
    "related": [],
    "forms": [
     {
-     "form": "fe",
-     "tag": "plural"
-    },
-    {
-     "form": "feja",
+     "form": "matematika",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What is a religion?",
+    "corpus": "TED2020",
+    "en": "This is math.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     4
     ],
-    "sq": "Çfarë është një fe?"
+    "sq": "Kjo është matematikë."
    }
   },
   {
-   "id": "et",
-   "sq": "et",
-   "en": "thirst",
+   "id": "bre",
+   "sq": "bre",
+   "en": "A friendly exclamation to a person.",
    "glosses": [
-    "thirst"
+    "A friendly exclamation to a person.",
+    "An exclamation of surprise."
    ],
    "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "A friendly exclamation to a person.",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Folni bre, burra!",
+       "en": "Speak, therefore, men!",
+       "offsets": [
+        [
+         6,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "exclamation",
+      "person"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "An exclamation of surprise.",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Bre! Po ç'është kjo?",
+       "en": "Man! What is this?",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "exclamation",
+      "surprise"
+     ]
+    }
+   ],
+   "rank": 10152,
+   "count": 64,
+   "family": "bre",
+   "is_root": true,
+   "etymology": "From Greek βρε (vre), from Greek μωρέ (moré, “stupid”, vocative). Doublet of more.",
+   "etymology_class": "derived",
+   "source_lang": "el",
+   "cognate": "from Greek βρε",
+   "parents": [
+    "stupid"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "brez",
+    "pra"
+   ],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "gji",
+   "sq": "gji",
+   "en": "breast",
+   "glosses": [
+    "breast",
+    "bosom",
+    "udder",
+    "teat",
+    "mastitis",
+    "bay, gulf, inlet"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "thirst",
+     "gloss": "breast",
      "tags": [
-      "dated",
-      "feminine"
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "breast"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bosom",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bosom"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "udder",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "udder"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "teat",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "teat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mastitis",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 46 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "13 18 3 6 37 23"
       }
      ],
      "examples": [],
      "links": [
-      "thirst"
+      "veterinary",
+      "mastitis"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bay, gulf, inlet",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Bodies of water",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Bodies of water",
+       "langcode": "sq",
+       "_dis": "14 14 8 8 25 32"
+      },
+      {
+       "name": "Landforms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Landforms",
+       "langcode": "sq",
+       "_dis": "6 6 6 6 17 59"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bay",
+      "gulf",
+      "inlet"
      ]
     }
    ],
-   "rank": 10373,
-   "count": 62,
-   "family": "et",
+   "rank": 10157,
+   "count": 64,
+   "family": "gji",
    "is_root": true,
-   "etymology": "Uncertain. Attested as \"het\" in Bogdani. Possibly from Proto-Indo-European *i̯et (“to set out for; to strive”). Compare Old Irish ét (“thirst”), Irish éad (“eagerness, jealousy”), Latin sitis (“thirst”), Tocharian A yat (“reach, get”). Alternatively from Proto-Indo-European *eus-ti-, cognate to Greek αἰτέω (aitéo, “to demand, to beg”). Orel suggests Proto-Albanian *alk-ti-, drawing comparisons to Lithuanian álkti (“to be hungry”), Proto-Slavic *olkati (“id.”), and Old High German ilgi (“hunger”).",
-   "etymology_class": "derived",
+   "etymology": "From (pre-)Proto-Albanian *źinu (“bosom”), from Proto-Indo-European *s(e)i-nu (“curved body part”). Similar development to Latin sinus (“breast; curve”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "bosom"
+   ],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "gjinjës",
+    "gjitar",
+    "zgjiç"
+   ],
+   "related": [
+    "gjizë"
+   ],
    "forms": [
     {
-     "form": "etje",
+     "form": "gjinj",
      "tag": "plural"
     },
     {
-     "form": "etja",
+     "form": "gjiri",
      "tag": "definite"
     },
     {
-     "form": "edia",
-     "tag": "alternative"
-    },
-    {
-     "form": "et",
+     "form": "gjire",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "et sa well as possible.",
+    "en": "I'm pregnant or breastfeeding.",
     "score": [
      0,
      7,
      -7,
      10
     ],
-    "sq": "et sa mirë të jetë e mundur."
+    "sq": "Unë jam shtatzënë ose ushqej me gji."
    }
   },
   {
-   "id": "kursej",
-   "sq": "kursej",
-   "en": "to save, save up, spare, put aside",
+   "id": "ëngjëll",
+   "sq": "ëngjëll",
+   "en": "angel",
    "glosses": [
-    "to save, save up, spare, put aside"
+    "angel"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "angel",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "angel"
+     ]
+    }
+   ],
+   "rank": 10171,
+   "count": 64,
+   "family": "ëngjëll",
+   "is_root": true,
+   "etymology": "See engjëll.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ëngjëj",
+     "tag": "plural"
+    },
+    {
+     "form": "ëngjëlli",
+     "tag": "definite"
+    },
+    {
+     "form": "engjëll",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Hotngjëll Hoti is officially part of the Partizan club.",
+    "score": [
+     3,
+     9,
+     -6,
+     8
+    ],
+    "sq": "Ëngjëll Hoti është zyrtarisht pjesë e klubit të Partizanit."
+   }
+  },
+  {
+   "id": "gjobë",
+   "sq": "gjobë",
+   "en": "fine (penalty)",
+   "glosses": [
+    "fine (penalty)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fine (penalty)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Të shkruehej ndë giobë o haraç.",
+       "en": "",
+       "offsets": [
+        [
+         17,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fine"
+     ]
+    }
+   ],
+   "rank": 10199,
+   "count": 64,
+   "family": "gjobë",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, derived from Proto-Slavic *globa (“fine”). Compare Serbo-Croatian globa (“fine, penalty”) and Bulgarian глоба (globa, “fine”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "fine"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjoba",
+     "tag": "plural"
+    },
+    {
+     "form": "giobë",
+     "tag": "alternative"
+    },
+    {
+     "form": "gobë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Can I get a fine?",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "A mund të marr një gjobë?"
+   }
+  },
+  {
+   "id": "deklaroj",
+   "sq": "deklaroj",
+   "en": "to declare",
+   "glosses": [
+    "to declare"
    ],
    "pos": [
     "verb"
@@ -208,9 +591,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to save, save up, spare, put aside",
+     "gloss": "to declare",
      "tags": [
-      "ambitransitive"
+      "transitive"
      ],
      "cats": [
       {
@@ -220,155 +603,29 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "save",
-      "save up",
-      "spare"
-     ]
-    }
-   ],
-   "rank": 10399,
-   "count": 62,
-   "family": "kursej",
-   "is_root": true,
-   "etymology": "Probably a substrate word (probably Daco-Thracian), compare Romanian cruța. According to Orel, a derivative of Latin curtus.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kurseva",
-     "tag": "aorist"
-    },
-    {
-     "form": "kursyer",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It could save you money.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Mund të ju kursej para."
-   }
-  },
-  {
-   "id": "mistrec",
-   "sq": "mistrec",
-   "en": "imp",
-   "glosses": [
-    "imp",
-    "midget, someone with short limbs",
-    "troublemaker, mischieving"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "adj"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "imp",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -ec",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 23 44"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "imp"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "midget, someone with short limbs",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "midget",
-      "limbs"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "troublemaker, mischieving",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 9 37"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "76 9 15"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 7 12"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "troublemaker",
-      "mischieving"
+      "declare"
      ]
     }
    ],
-   "rank": 10424,
-   "count": 62,
-   "family": "mistrec",
+   "rank": 10206,
+   "count": 63,
+   "family": "deklaroj",
    "is_root": true,
-   "etymology": "From mis.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -378,218 +635,110 @@
    "related": [],
    "forms": [
     {
-     "form": "mistrece",
-     "tag": "feminine"
+     "form": "deklarova",
+     "tag": "aorist"
+    },
+    {
+     "form": "deklaruar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Zysha told me ore master and called me dad.",
+    "en": "Do I need to declare my financial situation?",
     "score": [
-     4,
-     9,
-     -5,
+     3,
+     7,
+     -4,
      10
     ],
-    "sq": "Zysha më tha ore mistrec dhe më thirri babin."
+    "sq": "A duhet të deklaroj gjendjen time financiare?"
    }
   },
   {
-   "id": "baraz",
-   "sq": "baraz",
-   "en": "equally",
+   "id": "matematikan",
+   "sq": "matematikan",
+   "en": "mathematician",
    "glosses": [
-    "equally"
+    "mathematician"
    ],
    "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "equally",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "equally"
-     ]
-    }
-   ],
-   "rank": 10439,
-   "count": 62,
-   "family": "baraz",
-   "is_root": true,
-   "etymology": "From the synonym barabar by extraction of bar- as a stem and final -az by analogy with other adverbs such as shkaraz, tërthoraz. Perhaps the stem's extraction as monosyllabic bar- and not also possible disyllabic barab- is due to specific analogy to an adverb like mentioned shkaraz with an also monosyllabic stem and not one like mentioned tërthoraz with a disyllabic stem.\nUltimately from Ottoman Turkish برابر (beraber, baraber), from Classical Persian برابر (barābar, “equal”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "This would have been a 2.",
-    "score": [
-     0,
-     5,
-     -5,
-     5
-    ],
-    "sq": "Kjo do ishte baraz me 2."
-   }
-  },
-  {
-   "id": "pafe",
-   "sq": "pafe",
-   "en": "synonym for the devil",
-   "glosses": [
-    "synonym for the devil",
-    "a person without religion/faith; atheist (insulting)",
-    "a rude, evil person; bastard",
-    "person without morals"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "synonym for the devil",
-     "tags": [],
+     "gloss": "mathematician",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "70 10 7 13"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -an",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 7 3 9"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 3 2 5"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "devil"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a person without religion/faith; atheist (insulting)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "atheist"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a rude, evil person; bastard",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "rude",
-      "evil",
-      "bastard"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "person without morals",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "morals"
+      "mathematician"
      ]
     }
    ],
-   "rank": 17512,
-   "count": 31,
-   "family": "fe",
+   "rank": 41219,
+   "count": 9,
+   "family": "matematikë",
    "is_root": false,
-   "etymology": "Compound of pa + fe (\"without religion/faith\").",
-   "etymology_class": "compound",
+   "etymology": "From matematikë + -an.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "pa",
+     "word": "matematikë",
      "role": "prefix"
-    },
-    {
-     "word": "fe",
-     "role": "stem"
     }
    ],
-   "derived": [
-    "pafeja"
-   ],
+   "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "matematikanë",
+     "tag": "plural"
+    },
+    {
+     "form": "matematikani",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "In effect, they are the infidels.",
+    "corpus": "MaCoCu",
+    "en": "Why did you become a mathematician?",
     "score": [
-     2,
-     7,
-     -5,
-     4
+     0,
+     4,
+     -4,
+     8
     ],
-    "sq": "Ata ne te vertete jane te pafe."
+    "sq": "Pse u bëre matematikan?"
    }
   }
  ]

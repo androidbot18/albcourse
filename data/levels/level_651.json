@@ -1,28 +1,30 @@
 {
  "level": 651,
- "title": "mëndafsh, gjashtëdhjetë, muskul +1",
+ "title": "zorrë, ber, demet, zuskë, papërcaktuar, shpallje +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "gjashtëdhjetë",
-  "muskul",
-  "mëndafsh"
+  "ber",
+  "demet",
+  "papërcaktuar",
+  "shpallje",
+  "zorrë",
+  "zuskë"
  ],
  "pos_mix": {
-  "noun": 2,
-  "num": 1,
-  "adj": 2
+  "noun": 10,
+  "adj": 1
  },
  "words": [
   {
-   "id": "mëndafsh",
-   "sq": "mëndafsh",
-   "en": "silk",
+   "id": "zorrë",
+   "sq": "zorrë",
+   "en": "bowel, intestine(s)",
    "glosses": [
-    "silk"
+    "bowel, intestine(s)"
    ],
    "pos": [
     "noun"
@@ -34,8 +36,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "silk",
-     "tags": [],
+     "gloss": "bowel, intestine(s)",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -58,16 +62,17 @@
      ],
      "examples": [],
      "links": [
-      "silk"
+      "bowel",
+      "intestine"
      ]
     }
    ],
-   "rank": 24682,
-   "count": 19,
-   "family": "mëndafsh",
+   "rank": 24286,
+   "count": 20,
+   "family": "zorrë",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin mataxa, from Ancient Greek μέταξα (métaxa). Meaning in common with Eastern Romance: compare Romanian mătase (“silk”), however different than Dalmatian matuos and Italian matassa (“skein, hank”).",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *džārnā with long *ā < *ē, from Proto-Indo-European *gʷerh₃- (“to swallow”). Close to Lithuanian žarnà (“gut”), Latvian zarna (“intestines”), Old Norse gǫrn (“gut”).\nAlternatively from *ǵʰer- (“guts, entrails, bowels, intestine”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -76,48 +81,48 @@
    "related": [],
    "forms": [
     {
-     "form": "mëndafshi",
+     "form": "zorrë",
+     "tag": "plural"
+    },
+    {
+     "form": "zorra",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You can with Silk.",
+    "en": "Located in the intestine.",
     "score": [
      1,
-     4,
-     -3,
+     3,
+     -2,
      10
     ],
-    "sq": "Ju mundeni me Mëndafsh."
+    "sq": "Lokalizuar në zorrë."
    }
   },
   {
-   "id": "gjashtëdhjetë",
-   "sq": "gjashtëdhjetë",
-   "en": "sixty",
+   "id": "ylber",
+   "sq": "ylber",
+   "en": "rainbow",
    "glosses": [
-    "sixty"
+    "rainbow"
    ],
    "pos": [
-    "num"
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "sixty",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rainbow",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -129,17 +134,195 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "sixty"
+      "rainbow"
      ]
     }
    ],
-   "rank": 24703,
-   "count": 19,
-   "family": "gjashtëdhjetë",
+   "rank": 24296,
+   "count": 20,
+   "family": "ber",
+   "is_root": false,
+   "etymology": "Compound of Proto-Albanian *ulnā (“forearm”) and *bōra (“bow”), mirror image of bërryl (“elbow”). More at bërryl.\nAlternatively, from yll (“star”) + ber (“bow”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "forearm",
+    "bow",
+    "elbow"
+   ],
+   "components": [
+    {
+     "word": "yll",
+     "role": "prefix"
+    },
+    {
+     "word": "ber",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "It's okay to say rainbow. Yeah.",
+    "score": [
+     0,
+     5,
+     -5,
+     4
+    ],
+    "sq": "A mund te them ylber."
+   }
+  },
+  {
+   "id": "demet",
+   "sq": "demet",
+   "en": "sheaf of grain",
+   "glosses": [
+    "sheaf of grain",
+    "bundle of corn or oak leaves used as rain cover for a haystack"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sheaf of grain",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sheaf",
+      "grain"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bundle of corn or oak leaves used as rain cover for a haystack",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 84"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bundle",
+      "corn",
+      "oak"
+     ]
+    }
+   ],
+   "rank": 24301,
+   "count": 20,
+   "family": "demet",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish دمت (demet). Doublet of dhemat.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "demete",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "You told me to trust you.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Demet, ne rregull."
+   }
+  },
+  {
+   "id": "zuskë",
+   "sq": "zuskë",
+   "en": "slut (a promiscuous woman)",
+   "glosses": [
+    "slut (a promiscuous woman)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "slut (a promiscuous woman)",
+     "tags": [
+      "derogatory",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "slut"
+     ]
+    }
+   ],
+   "rank": 24327,
+   "count": 20,
+   "family": "zuskë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -152,37 +335,35 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'm sixty years of age.",
+    "en": "Simply divine: hot slut!",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Jam gjashtëdhjetë vjeç."
+    "sq": "Thjesht hyjnore: zuskë e nxehtë!"
    }
   },
   {
-   "id": "muskul",
-   "sq": "muskul",
-   "en": "muscle",
+   "id": "papërcaktuar",
+   "sq": "papërcaktuar",
+   "en": "indeterminate, unspecified",
    "glosses": [
-    "muscle"
+    "indeterminate, unspecified"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "muscle",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "indeterminate, unspecified",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -191,7 +372,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -205,16 +386,89 @@
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "muscle"
+      "indeterminate",
+      "unspecified"
      ]
     }
    ],
-   "rank": 24790,
-   "count": 19,
-   "family": "muskul",
+   "rank": 24336,
+   "count": 20,
+   "family": "papërcaktuar",
    "is_root": true,
-   "etymology": "Learned borrowing from Latin musculus. Doublet of mushk or mushkull, which entered earlier through Vulgar Latin.",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are impersonal, tasteless.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Ata janë të papërcaktuar, pa shije."
+   }
+  },
+  {
+   "id": "shpallje",
+   "sq": "shpallje",
+   "en": "announcement, declaration",
+   "glosses": [
+    "announcement, declaration"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "announcement, declaration",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "announcement",
+      "declaration"
+     ]
+    }
+   ],
+   "rank": 24369,
+   "count": 20,
+   "family": "shpallje",
+   "is_root": true,
+   "etymology": "Gerund of shpall.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -224,174 +478,145 @@
    "related": [],
    "forms": [
     {
-     "form": "muskuj",
+     "form": "shpallje",
      "tag": "plural"
     },
     {
-     "form": "muskuli",
+     "form": "shpallja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Fearlessness is like a muscle.",
+    "en": "It is a great Revelation for you.",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Guximi është si një muskul."
+    "sq": "Është një Shpallje e madhe për ju."
    }
   },
   {
-   "id": "muskulor",
-   "sq": "muskulor",
-   "en": "muscular (of or relating to the muscles)",
+   "id": "ber",
+   "sq": "ber",
+   "en": "bow, arc, arch",
    "glosses": [
-    "muscular (of or relating to the muscles)"
+    "bow, arc, arch",
+    "arrow",
+    "javelin, lance",
+    "European whipsnake (Dolichophis jugularis, syn. Coluber jugularis)"
    ],
    "pos": [
-    "adj"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "muscular (of or relating to the muscles)",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bow, arc, arch",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bow",
+      "arc",
+      "arch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "arrow",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "arrow"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "javelin, lance",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "javelin",
+      "lance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "European whipsnake (Dolichophis jugularis, syn. Coluber jugularis)",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "3 3 33 61"
       },
       {
-       "name": "Albanian terms suffixed with -or",
+       "name": "Reptiles",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "orig": "sq:Reptiles",
+       "langcode": "sq",
+       "_dis": "12 12 12 64"
       }
      ],
-     "examples": [
-      {
-       "sq": "Sistemi muskulor është tërësia e muskujve të trupave të organizmave të gjallë.",
-       "en": "The muscular system is the entirety of the muscles of the bodies of living organisms.",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "muscular"
-     ]
+     "examples": [],
+     "links": []
     }
    ],
-   "rank": 31672,
-   "count": 13,
-   "family": "muskul",
-   "is_root": false,
-   "etymology": "muskul + -or",
-   "etymology_class": "affix",
+   "rank": 28148,
+   "count": 16,
+   "family": "ber",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *bōr-, from Proto-Indo-European *bʰōrs-, from root *bʰers- (“point, tip bolt”). Cognate to Old Irish barr (“point”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "muskul",
-     "role": "prefix"
-    }
+   "components": [],
+   "derived": [
+    "beronjë"
    ],
-   "derived": [],
-   "related": [],
+   "related": [
+    "ylber",
+    "bërryl"
+   ],
    "forms": [
     {
-     "form": "muskulore",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "muskuloz",
-   "sq": "muskuloz",
-   "en": "muscular (having well-developed muscles)",
-   "glosses": [
-    "muscular (having well-developed muscles)"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
+     "form": "berë",
+     "tag": "plural"
+    },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "muscular (having well-developed muscles)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oz",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Më pëlqejnë vetëm burrat me trupa muskuloze.",
-       "en": "I only like men with muscular bodies.",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "muscular"
-     ]
-    }
-   ],
-   "rank": 48212,
-   "count": 7,
-   "family": "muskul",
-   "is_root": false,
-   "etymology": "From muskul + -oz.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "muskul",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "muskuloze",
-     "tag": "feminine"
+     "form": "beri",
+     "tag": "definite"
     }
    ],
    "corpus_example": null
