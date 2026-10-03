@@ -1,64 +1,134 @@
 {
  "level": 25,
- "title": "vetë",
- "root": "vetë",
- "root_gloss": "self",
+ "title": "mua, ata, rregull +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "vetë"
+  "ata",
+  "mua",
+  "rregull"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 6,
-  "adv": 1
+  "pron": 3,
+  "noun": 1,
+  "verb": 3,
+  "adj": 1
  },
  "words": [
   {
-   "id": "vetë",
-   "sq": "vetë",
-   "en": "self",
+   "id": "mua",
+   "sq": "mua",
+   "en": "me",
    "glosses": [
-    "self",
-    "person"
+    "me"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "pron"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "self",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "me",
+     "tags": [],
      "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 24 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "self"
+      "me"
+     ]
+    }
+   ],
+   "rank": 56,
+   "count": 27330,
+   "family": "mua",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *moN, from Proto-Indo-European *me- (“me”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "me"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "She was very good to me.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Ajo ishte shumë e mirë me mua."
+   }
+  },
+  {
+   "id": "ata",
+   "sq": "ata",
+   "en": "they",
+   "glosses": [
+    "they",
+    "it"
+   ],
+   "pos": [
+    "pron",
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "they",
+     "tags": [
+      "masculine",
+      "plural"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "they"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "person",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "it",
      "tags": [
-      "feminine"
+      "archaic",
+      "neuter",
+      "singular"
      ],
      "cats": [
       {
@@ -66,347 +136,329 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "12 87"
+       "_dis": "0 100"
+      },
+      {
+       "name": "Albanian personal pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 66"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "it"
+     ]
+    }
+   ],
+   "rank": 58,
+   "count": 25903,
+   "family": "ata",
+   "is_root": true,
+   "etymology": "From the accusative Proto-Albanian *a-ta, compound of proclitic particle a and demonstrative ta, from Proto-Indo-European *tóms, masculine accusative plural of *só m (“that (one)”) (compare Latin istud, English that).\nOlder and dialectal varieties retain ablative asish, acish, from a + Proto-Albanian *tsj(a)isu, from *ḱjoisu, locative of Proto-Indo-European *ḱís (“this (one)”) (compare English he).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ata",
+     "tag": "accusative"
+    },
+    {
+     "form": "atij",
+     "tag": "dative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are who they are.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Janë ata që janë."
+   }
+  },
+  {
+   "id": "rregull",
+   "sq": "rregull",
+   "en": "rule",
+   "glosses": [
+    "rule"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rule",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 65"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "person"
+      "rule"
      ]
     }
    ],
-   "rank": 290,
-   "count": 3778,
-   "family": "vetë",
+   "rank": 59,
+   "count": 25854,
+   "family": "rregull",
    "is_root": true,
-   "etymology": "From Proto-Albanian *swetā, from Proto-Indo-European *swet- (“self; one's own”), from *swé; compare Lithuanian svetỹs (“foreigner”), Russian сват (svat, “matchmaker; father-in-law”), Attic Greek ἔτης (étēs, “relative, friend”), Elean Greek ϝέτας (wétas). Related to u. Closely related to Messapic veinan (“his, one's”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed via Vulgar Latin from Latin regula.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "Okay, so fine.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Mirë, në rregull."
+   }
+  },
+  {
+   "id": "rregulloj",
+   "sq": "rregulloj",
+   "en": "to put into working order",
+   "glosses": [
+    "to put into working order",
+    "to put in order",
+    "to regularize"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put into working order",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 10 27"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 28 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "78 7 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "put into working order"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put in order",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "put",
+      "in order"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to regularize",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "regularize"
+     ]
+    }
+   ],
+   "rank": 1219,
+   "count": 746,
+   "family": "rregull",
+   "is_root": false,
+   "etymology": "From rregull (“rule”) + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "foreigner"
+    "rule"
    ],
-   "components": [],
-   "derived": [
-    "vetë-",
-    "vete",
-    "veti",
-    "vetiu",
-    "vetvete",
-    "vetvetiu"
+   "components": [
+    {
+     "word": "rregull",
+     "role": "prefix"
+    }
    ],
-   "related": [
-    "veta e parë",
-    "veta e dytë",
-    "veta e tretë"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "veta",
-     "tag": "plural"
+     "form": "rregullova",
+     "tag": "aorist"
     },
     {
-     "form": "vet",
-     "tag": "alternative"
+     "form": "rregulluar",
+     "tag": "participle"
     },
     {
-     "form": "vehte",
-     "tag": "alternative"
+     "form": "regulluar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "It doesn't happen by itself.",
+    "corpus": "QED",
+    "en": "They are not letting anyone in his room.",
     "score": [
      1,
      3,
      -2,
-     4
+     5
     ],
-    "sq": "Nuk ndodh vetë."
+    "sq": "Do i rregulloj."
    }
   },
   {
-   "id": "vetëm",
-   "sq": "vetëm",
-   "en": "only, single",
+   "id": "rregullt",
+   "sq": "rregullt",
+   "en": "regular",
    "glosses": [
-    "only, single",
-    "alone, deserted",
-    "solitary, lonely",
-    "united, jointed",
-    "common, unified, shared",
-    "identical, unchanged, same",
-    "loner, recluse",
-    "alone"
+    "regular"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "noun",
-    "adv"
+    "adj"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "noun",
-    "adverb"
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "only, single",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "only",
-      "single"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "alone, deserted",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -më",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 13 3 15 12 16 8 18 0 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "alone",
-      "deserted"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "solitary, lonely",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "solitary",
-      "lonely"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "united, jointed",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -më",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 13 3 15 12 16 8 18 0 13"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "një fjalë e vetme",
-       "en": "a single word, i.e. without spaces",
-       "offsets": [
-        [
-         10,
-         17
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "united",
-      "jointed"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "common, unified, shared",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -më",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 13 3 15 12 16 8 18 0 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "common",
-      "unified",
-      "shared"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "identical, unchanged, same",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "1 6 1 6 5 12 4 32 0 31"
-      },
-      {
-       "name": "Albanian terms suffixed with -më",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 13 3 15 12 16 8 18 0 13"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "në një vend të vetëm",
-       "en": "in the same place",
-       "offsets": [
-        [
-         12,
-         20
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "identical",
-      "unchanged",
-      "same"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "loner, recluse",
+     "gloss": "regular",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "1 6 1 6 5 12 4 32 0 31"
+       "source": "w"
       },
       {
-       "name": "Albanian particles",
+       "name": "Albanian terms suffixed with -t",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 4 3 3 4 7 9 30 0 35"
+       "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -më",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 13 3 15 12 16 8 18 0 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "loner",
-      "recluse"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "alone",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "mbetur vetëm",
-       "en": "left alone",
-       "offsets": [
-        [
-         7,
-         12
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "alone"
+      "regular"
      ]
     }
    ],
-   "rank": 50,
-   "count": 33993,
-   "family": "vetë",
+   "rank": 5099,
+   "count": 148,
+   "family": "rregull",
    "is_root": false,
-   "etymology": "From vetë (“self”) + -më.",
+   "etymology": "From rregull + -t.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "self"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "vetë",
+     "word": "rregull",
      "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Only regular visitors.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Vetëm vizitorë të rregullt."
+   }
   }
  ]
 }

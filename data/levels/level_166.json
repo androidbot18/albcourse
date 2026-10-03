@@ -1,56 +1,85 @@
 {
  "level": 166,
- "title": "vë, budalla, kthyer +1",
- "root": "",
- "root_gloss": "",
+ "title": "mbaroj",
+ "root": "mbaroj",
+ "root_gloss": "to complete, to finish",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 2,
  "families": [
-  "budalla",
-  "kthyer",
-  "vë"
+  "mbaroj"
  ],
  "pos_mix": {
-  "verb": 4,
-  "noun": 5,
-  "adj": 7
+  "verb": 6
  },
  "words": [
   {
-   "id": "vë",
-   "sq": "vë",
-   "en": "to put, to place",
+   "id": "mbaroj",
+   "sq": "mbaroj",
+   "en": "to complete, to finish",
    "glosses": [
-    "to put, to place"
+    "to complete, to finish",
+    "to (bring to an) end, finalize",
+    "to create, to prepare",
+    "to fulfill (a wish, desire, request, need); to end/destroy (someone or someone’s dream, wish, etc.)",
+    "it runs out / they run out (money)"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to put, to place",
-     "tags": [],
+     "gloss": "to complete, to finish",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "complete",
+      "finish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to (bring to an) end, finalize",
+     "tags": [
+      "active",
+      "figuratively",
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "end",
+      "finalize"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to create, to prepare",
+     "tags": [
+      "Gheg"
+     ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Gheg Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,17 +87,86 @@
      ],
      "examples": [],
      "links": [
-      "put",
-      "place"
+      "create",
+      "prepare"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fulfill (a wish, desire, request, need); to end/destroy (someone or someone’s dream, wish, etc.)",
+     "tags": [
+      "active",
+      "colloquial",
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "ta mbaron qejfin",
+       "en": "(he/she) fulfills your wish",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fulfill",
+      "end",
+      "destroy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it runs out / they run out (money)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 14 12 21 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 16 21 22 28"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 5 5 31 56"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "(see mbarohet (“(it) runs out”) for more)",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "run",
+      "out",
+      "run"
      ]
     }
    ],
-   "rank": 565,
-   "count": 1828,
-   "family": "vë",
+   "rank": 1485,
+   "count": 595,
+   "family": "mbaroj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *awena, an innovation based on *au̯e (“down, off”) (cf. Sanskrit अव (áva, “id”)), replacing Proto-Indo-European *dʰeh₁- (“to place, put”). The original meaning must have been 'to put down, put aside', as in Latin pōnere (“to put”). Alternatively from Proto-Albanian *u̯enō, from Proto-Indo-European *h₁wen- (“to spread”).",
-   "etymology_class": "inherited",
+   "etymology": "According to Meyer and Tagliavini from mbar (“to bring (back)”) (mbar + -oj). Related to Albanian mbarë (“good, right, complete, wholly, etc.”), further related to mbart (“to bear, carry (back)”), Albanian mbaj (“to hold, carry”) and bie (“to bring”).\nOrel proposed it as a (prefixal) derivative of parë.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -77,371 +175,22 @@
    "related": [],
    "forms": [
     {
-     "form": "vura",
-     "tag": "aorist"
-    },
-    {
-     "form": "vënë",
+     "form": "mbaruar",
      "tag": "participle"
     },
     {
-     "form": "voj",
+     "form": "maroj",
      "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You bet it is!",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Vë bast se është!"
-   }
+   "corpus_example": null
   },
   {
-   "id": "budalla",
-   "sq": "budalla",
-   "en": "fool, crazy person",
+   "id": "mbaruar",
+   "sq": "mbaruar",
+   "en": "complete, past form (from mbaroj, to complete)",
    "glosses": [
-    "fool, crazy person",
-    "someone who acts as a fool",
-    "fool, crazy person",
-    "foolish"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fool, crazy person",
-     "tags": [
-      "colloquial",
-      "derogatory",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 7 33 26"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fool",
-      "crazy"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "someone who acts as a fool",
-     "tags": [
-      "colloquial",
-      "derogatory",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 7 33 26"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 24 0 51"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 14 0 73"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "act"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "fool, crazy person",
-     "tags": [
-      "colloquial",
-      "derogatory"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 7 33 26"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fool",
-      "crazy"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "foolish",
-     "tags": [
-      "colloquial",
-      "derogatory"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "foolish"
-     ]
-    }
-   ],
-   "rank": 571,
-   "count": 1787,
-   "family": "budalla",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بدلا (budala, “imbecile, fool”), from Arabic اَبْدَال pl (abdāl) of singular بديل (badīl).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "budallae",
-     "tag": "feminine"
-    },
-    {
-     "form": "budallar",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "What a fool I was!",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Sa budalla isha!"
-   }
-  },
-  {
-   "id": "kthyer",
-   "sq": "kthyer",
-   "en": "bent, curved",
-   "glosses": [
-    "bent, curved",
-    "ploughed, cultivated (of land)",
-    "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
-    "divorced (of a woman)",
-    "recovered, got better (from an illness)",
-    "bend, curve, turn (of a road, river, etc.)",
-    "hem, fold"
-   ],
-   "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "bent, curved",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bent",
-      "curved"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "ploughed, cultivated (of land)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "ploughed",
-      "cultivated"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "folded",
-      "hemmed",
-      "rolled up"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "divorced (of a woman)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "divorced"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "recovered, got better (from an illness)",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 6 28 3 40 1 18 1"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 2 35 2 50 0 8 1"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 1 31 2 45 0 18 1"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "recovered",
-      "got better"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bend, curve, turn (of a road, river, etc.)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bend",
-      "curve",
-      "turn"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hem, fold",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hem",
-      "fold"
-     ]
-    }
-   ],
-   "rank": 573,
-   "count": 1782,
-   "family": "kthyer",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "i pakthyer",
-    "i sqepkthyer"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "kthyera",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I'm back.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Unë jam kthyer."
-   }
-  },
-  {
-   "id": "vënë",
-   "sq": "vënë",
-   "en": "put, past form (from vë, to put)",
-   "glosses": [
-    "put, past form (from vë, to put)"
+    "complete, past form (from mbaroj, to complete)"
    ],
    "pos": [
     "verb"
@@ -453,7 +202,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "put, past form (from vë, to put)",
+     "gloss": "complete, past form (from mbaroj, to complete)",
      "tags": [
       "form-of",
       "participle",
@@ -480,12 +229,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vë"
+     "is_form_of": "mbaroj"
     }
    ],
-   "rank": 616,
-   "count": 1666,
-   "family": "vë",
+   "rank": 693,
+   "count": 1453,
+   "family": "mbaroj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -497,230 +246,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Very well put.",
+    "corpus": "QED",
+    "en": "I'm not done yet. I'm not done yet.",
     "score": [
      0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Shumë mirë vënë."
-   }
-  },
-  {
-   "id": "vëmendje",
-   "sq": "vëmendje",
-   "en": "attention, concentration, care",
-   "glosses": [
-    "attention, concentration, care"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "attention, concentration, care",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with vë-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "attention",
-      "concentration",
-      "care"
-     ]
-    }
-   ],
-   "rank": 2500,
-   "count": 333,
-   "family": "vë",
-   "is_root": false,
-   "etymology": "From vë- + mendje.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vë",
-     "role": "prefix"
-    },
-    {
-     "word": "mendje",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vëmendja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "more attention.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "më shumë vëmendje."
-   }
-  },
-  {
-   "id": "vërej",
-   "sq": "vërej",
-   "en": "to look, observe, pay attention",
-   "glosses": [
-    "to look, observe, pay attention",
-    "to notice"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to look, observe, pay attention",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "look",
-      "observe",
-      "pay"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to notice",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "notice"
-     ]
-    }
-   ],
-   "rank": 17304,
-   "count": 32,
-   "family": "vë",
-   "is_root": false,
-   "etymology": "Uncertain. Either a compound formation of vë + re or from Proto-Indo-European *wer- (“to observe, pay attention”). Compare (Attic) Ancient Greek ὤρα (ṓra, “care, attention”), Latin vereor (“worship, fear, dread”), Latvian véru (“see, show, notice”), Latin vara (“attentive make, look after; protect, assume”) Old Saxon waron (“observe, protect, look after, watch over, keep”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vë",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vërejta",
-     "tag": "aorist"
-    },
-    {
-     "form": "vërejtur",
-     "tag": "participle"
-    },
-    {
-     "form": "vrej",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "I notice a couple of things about this.",
-    "score": [
-     1,
-     5,
+     4,
      -4,
-     4
+     5
     ],
-    "sq": "Nga kjo vërej disa gjëra."
+    "sq": "Nuk kam mbaruar ende."
    }
   }
  ]

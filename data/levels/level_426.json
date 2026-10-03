@@ -1,44 +1,45 @@
 {
  "level": 426,
- "title": "ëmbëlsirë, bijë, tremb, brekë, njof, ndërpres +4",
+ "title": "çmend, rërë, thith, hall, kartë, fshehurazi +4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 8,
+ "word_count": 7,
  "families": [
-  "bijë",
-  "brekë",
-  "ndërpres",
-  "njof",
-  "tremb",
-  "ëmbëlsirë"
+  "fshehurazi",
+  "hall",
+  "kartë",
+  "rërë",
+  "thith",
+  "çmend"
  ],
  "pos_mix": {
-  "noun": 6,
-  "verb": 5
+  "verb": 6,
+  "noun": 8,
+  "adv": 2
  },
  "words": [
   {
-   "id": "ëmbëlsirë",
-   "sq": "ëmbëlsirë",
-   "en": "sweet, confection",
+   "id": "çmend",
+   "sq": "çmend",
+   "en": "to drive someone crazy",
    "glosses": [
-    "sweet, confection"
+    "to drive someone crazy"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sweet, confection",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to drive someone crazy",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -48,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -sirë",
+       "name": "Albanian terms prefixed with ç-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,59 +63,435 @@
      ],
      "examples": [],
      "links": [
-      "sweet",
-      "confection"
+      "drive",
+      "someone",
+      "crazy"
      ]
     }
    ],
-   "rank": 4833,
-   "count": 157,
-   "family": "ëmbëlsirë",
+   "rank": 4721,
+   "count": 161,
+   "family": "çmend",
    "is_root": true,
-   "etymology": "From embël + -sirë.",
+   "etymology": "From ç- (privative mobile prefix) + mend (“mind”).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "mind"
+   ],
+   "components": [
+    {
+     "word": "mend",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "çmenda",
+     "tag": "aorist"
+    },
+    {
+     "form": "çmendur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "GlobalVoices",
+    "en": "It kind of blows my mind.",
+    "score": [
+     0,
+     3,
+     -3,
+     3
+    ],
+    "sq": "Disi më çmend."
+   }
+  },
+  {
+   "id": "rërë",
+   "sq": "rërë",
+   "en": "sand",
+   "glosses": [
+    "sand",
+    "sandy area"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sand",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 62"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sand"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sandy area",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 62"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sandy",
+      "area"
+     ]
+    }
+   ],
+   "rank": 4726,
+   "count": 161,
+   "family": "rërë",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin, from Latin arēna (“sand”). Displaced native Albanian mulin.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "sand"
+   ],
+   "components": [],
+   "derived": [
+    "ranishtë",
+    "ranor",
+    "i rërët"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "rëra",
+     "tag": "plural"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "however there s no dessert!",
+    "en": "White sand beach.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "megjithatë nuk ka asnjë ëmbëlsirë!"
+    "sq": "Plazh me rërë të bardhë."
    }
   },
   {
-   "id": "bijë",
-   "sq": "bijë",
-   "en": "daughter",
+   "id": "thith",
+   "sq": "thith",
+   "en": "to suck",
    "glosses": [
-    "daughter",
-    "girl"
+    "to suck",
+    "to suck in, inhale",
+    "to suck up, absorb",
+    "to siphon, drain (liquid)"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to suck",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 36 32 18"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 29 27 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "suck"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to suck in, inhale",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian onomatopoeias",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 47 0 53"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 13 45 42"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 36 32 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "suck in",
+      "inhale"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to suck up, absorb",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 27 40 22"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 13 45 42"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 36 32 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "suck up",
+      "absorb"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to siphon, drain (liquid)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian onomatopoeias",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 47 0 53"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 13 45 42"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 36 32 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "siphon",
+      "drain"
+     ]
+    }
+   ],
+   "rank": 4736,
+   "count": 160,
+   "family": "thith",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tsitsa, possibly from Proto-Indo-European *ḱik- (compare Serbo-Croatian sisa (“teat, tit”), Irish cíoch (“breast”), Old Armenian ծիծ (cic, “breast”)) and/or onomatopoeic. Related to thithkë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "breast"
+   ],
+   "components": [],
+   "derived": [
+    "thithës",
+    "thithje",
+    "thind",
+    "thimth"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "thitha",
+     "tag": "aorist"
+    },
+    {
+     "form": "thithur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Soak them in cold water.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Thith ato në ujë të ftohtë."
+   }
+  },
+  {
+   "id": "hall",
+   "sq": "hall",
+   "en": "badly, wrongly",
+   "glosses": [
+    "badly, wrongly",
+    "difficult situation, difficulty, trouble, misery, plight",
+    "concern, vexing issue",
+    "solution, way out"
+   ],
+   "pos": [
+    "adv",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "adverb",
+    "noun",
     "noun",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "badly, wrongly",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 12 35 11"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "hall kështu, hall ashtu.",
+       "en": "",
+       "offsets": [
+        [
+         0,
+         4
+        ],
+        [
+         13,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "badly",
+      "wrongly"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "daughter",
+     "gloss": "difficult situation, difficulty, trouble, misery, plight",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -122,245 +499,234 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "92 8"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "62 38"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "52 48"
+       "_dis": "42 12 35 11"
       }
      ],
      "examples": [],
      "links": [
-      "daughter"
+      "difficult",
+      "situation",
+      "difficulty"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "girl",
+     "gloss": "concern, vexing issue",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "62 38"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "52 48"
-      },
-      {
-       "name": "Family members",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Family members",
-       "langcode": "sq",
-       "_dis": "52 48"
+       "_dis": "42 12 35 11"
       }
      ],
      "examples": [],
      "links": [
-      "girl"
+      "concern",
+      "vexing",
+      "issue"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "solution, way out",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 12 35 11"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "solution",
+      "way out"
      ]
     }
    ],
-   "rank": 4845,
-   "count": 157,
-   "family": "bijë",
+   "rank": 4742,
+   "count": 160,
+   "family": "hall",
    "is_root": true,
-   "etymology": "From archaic and dialectal bilë, from Proto-Albanian *bir(i)lā, derivative of *bira. More at bir. Phonetically and semantically close to Messapic *bilia (“daughter”) and Messapic *biles (“son”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish حال (hal, “situation; grief”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "solution"
+   ],
    "components": [],
-   "derived": [],
+   "derived": [
+    "hallemadh",
+    "halleshumë",
+    "hallexhi",
+    "hallezi",
+    "hallkeq"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "bija",
+     "form": "halle",
      "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A daughter and sister.",
+    "en": "No, they have no problem.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Është bijë dhe motër."
+    "sq": "Jo, nuk kanë hall."
    }
   },
   {
-   "id": "tremb",
-   "sq": "tremb",
-   "en": "to frighten, scare",
+   "id": "kartë",
+   "sq": "kartë",
+   "en": "paper",
    "glosses": [
-    "to frighten, scare",
-    "to get a fright"
+    "paper",
+    "card",
+    "charter"
    ],
    "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to frighten, scare",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "frighten",
-      "scare"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to get a fright",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "get",
-      "a",
-      "fright"
-     ]
-    }
-   ],
-   "rank": 4851,
-   "count": 157,
-   "family": "tremb",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *trem(b)-, from Proto-Indo-European *trem- (“to tripp, patter, tremble”). Cognate to Latin tremo (“to tremble”). A formation with labial \"epenthesis\" in stem auslaut.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "drambur"
-   ],
-   "forms": [
-    {
-     "form": "tremba",
-     "tag": "aorist"
-    },
-    {
-     "form": "trembur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It all happened in a second.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Për një çast u tremb."
-   }
-  },
-  {
-   "id": "brekë",
-   "sq": "brekë",
-   "en": "drawers, knickers, undies, briefs",
-   "glosses": [
-    "drawers, knickers, undies, briefs"
-   ],
-   "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "drawers, knickers, undies, briefs",
+     "gloss": "paper",
      "tags": [
-      "feminine",
-      "plural"
+      "feminine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "paper"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "card",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "card"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "charter",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 13 75"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 71"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 8 85"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "charter"
+     ]
+    }
+   ],
+   "rank": 4743,
+   "count": 160,
+   "family": "kartë",
+   "is_root": true,
+   "etymology": "Probably borrowed through Vulgar Latin from Latin charta. Compare Romanian carte.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "letër"
+   ],
+   "forms": [
+    {
+     "form": "karta",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Don't have a card?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Nuk ke një kartë?"
+   }
+  },
+  {
+   "id": "fshehurazi",
+   "sq": "fshehurazi",
+   "en": "secretly, surreptitiously",
+   "glosses": [
+    "secretly, surreptitiously"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "secretly, surreptitiously",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -383,18 +749,17 @@
      ],
      "examples": [],
      "links": [
-      "drawers",
-      "knickers",
-      "undies"
+      "secretly",
+      "surreptitiously"
      ]
     }
    ],
-   "rank": 4858,
-   "count": 156,
-   "family": "brekë",
+   "rank": 4746,
+   "count": 160,
+   "family": "fshehurazi",
    "is_root": true,
-   "etymology": "Borrowed from Latin brāca or brācae, likely ultimately from Proto-Germanic *brōks (> English breeches). Compare also dialectal Romanian brace, and cf. the verb îmbrăca.",
-   "etymology_class": "borrowed",
+   "etymology": "From fsheh.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -404,22 +769,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Sometimes she wears panties and sometimes she's not.",
+    "en": "And I don't understand why you do it secretly?",
     "score": [
      0,
-     9,
-     -9,
+     8,
+     -8,
      10
     ],
-    "sq": "Ndonjëherë ajo vesh brekë dhe nganjëherë ajo nuk është."
+    "sq": "Dhe nuk e kuptoj përse e bëni fshehurazi?"
    }
   },
   {
-   "id": "njoftoj",
-   "sq": "njoftoj",
-   "en": "to announce, to inform, to notify",
+   "id": "çmendem",
+   "sq": "çmendem",
+   "en": "to go mad",
    "glosses": [
-    "to announce, to inform, to notify"
+    "to go mad"
    ],
    "pos": [
     "verb"
@@ -431,9 +796,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to announce, to inform, to notify",
+     "gloss": "to go mad",
      "tags": [
-      "transitive"
+      "reflexive"
      ],
      "cats": [
       {
@@ -443,7 +808,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Albanian terms suffixed with -em",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -457,24 +822,22 @@
      ],
      "examples": [],
      "links": [
-      "announce",
-      "inform",
-      "notify"
+      "mad"
      ]
     }
    ],
-   "rank": 4869,
-   "count": 156,
-   "family": "njof",
+   "rank": 6599,
+   "count": 107,
+   "family": "çmend",
    "is_root": false,
-   "etymology": "From njof (a variant of njoh) + -oj.",
+   "etymology": "From çmend + -em.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "njof",
+     "word": "çmend",
      "role": "prefix"
     }
    ],
@@ -482,304 +845,21 @@
    "related": [],
    "forms": [
     {
-     "form": "njoftova",
-     "tag": "aorist"
-    },
-    {
-     "form": "njoftuar",
+     "form": "çmendur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Where can I report bugs?",
+    "en": "Anyone feeling the burning and pain will go crazy.",
     "score": [
-     1,
-     6,
+     3,
+     8,
      -5,
      10
     ],
-    "sq": "Ku mund të njoftoj të meta?"
+    "sq": "Çdokush ndjenja djegien dhe dhimbje do të çmendem."
    }
-  },
-  {
-   "id": "ndërpres",
-   "sq": "ndërpres",
-   "en": "to cease",
-   "glosses": [
-    "to cease"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cease",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cease"
-     ]
-    }
-   ],
-   "rank": 4873,
-   "count": 156,
-   "family": "ndërpres",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ndërpreva",
-     "tag": "aorist"
-    },
-    {
-     "form": "ndërprerë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Interrupt intercourse?",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "Të ndërpres marrëdhëniet seksuale?"
-   }
-  },
-  {
-   "id": "njoftim",
-   "sq": "njoftim",
-   "en": "notice, announcement",
-   "glosses": [
-    "notice, announcement",
-    "notification"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "notice, announcement",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "notice",
-      "announcement"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "notification",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "notification"
-     ]
-    }
-   ],
-   "rank": 7661,
-   "count": 90,
-   "family": "njof",
-   "is_root": false,
-   "etymology": "Gerund of njoftoj; njoftoj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "njoftoj",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [
-    "njof",
-    "njoftoj",
-    "njoftues"
-   ],
-   "forms": [
-    {
-     "form": "njoftime",
-     "tag": "plural"
-    },
-    {
-     "form": "njoftimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "without prior notice.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "atë në çdo kohë, pa njoftim paraprak."
-   }
-  },
-  {
-   "id": "njof",
-   "sq": "njof",
-   "en": "to know; recognize; be familiar with",
-   "glosses": [
-    "to know; recognize; be familiar with"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to know; recognize; be familiar with",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "know",
-      "recognize",
-      "familiar"
-     ]
-    }
-   ],
-   "rank": 23149,
-   "count": 21,
-   "family": "njof",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *gnāska, from Proto-Indo-European *ǵneh₃-sḱe/o-, from *ǵneh₃- (compare English know, Serbo-Croatian znati, Latin (g)nōscō).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "njofa",
-     "tag": "aorist"
-    },
-    {
-     "form": "njofur",
-     "tag": "participle"
-    },
-    {
-     "form": "njoh",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
   }
  ]
 }

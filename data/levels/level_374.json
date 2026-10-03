@@ -1,42 +1,45 @@
 {
  "level": 374,
- "title": "kuzhinë, karrige, shkallë, dale, vepër +3",
+ "title": "mbledh, lakuriq, lëng, dihet +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 9,
+ "word_count": 6,
  "families": [
-  "dale",
-  "karrige",
-  "kuzhinë",
-  "shkallë",
-  "vepër"
+  "dihet",
+  "lakuriq",
+  "lëng",
+  "mbledh"
  ],
  "pos_mix": {
-  "noun": 10,
-  "intj": 2,
-  "verb": 2
+  "noun": 11,
+  "adj": 7,
+  "verb": 11,
+  "adv": 2
  },
  "words": [
   {
-   "id": "kuzhinë",
-   "sq": "kuzhinë",
-   "en": "kitchen",
+   "id": "mbledhje",
+   "sq": "mbledhje",
+   "en": "convention, assembly, gathering",
    "glosses": [
-    "kitchen"
+    "convention, assembly, gathering",
+    "parliament"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "kitchen",
+     "gloss": "convention, assembly, gathering",
      "tags": [
       "feminine"
      ],
@@ -45,114 +48,278 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "90 10"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "69 31"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "85 15"
       }
      ],
      "examples": [],
      "links": [
-      "kitchen"
-     ]
-    }
-   ],
-   "rank": 3000,
-   "count": 271,
-   "family": "kuzhinë",
-   "is_root": true,
-   "etymology": "Borrowed from Venetan cusina, from Late Latin cocīna, from earlier coquīna.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kuzhina",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He went into the kitchen.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ai shkoi në kuzhinë."
-   }
-  },
-  {
-   "id": "karrige",
-   "sq": "karrige",
-   "en": "chair",
-   "glosses": [
-    "chair",
-    "office job"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chair",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Furniture",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Furniture",
-       "langcode": "sq",
-       "_dis": "76 24"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Ku e bleve këtë karrige?",
-       "en": "Where did you buy this chair?",
-       "offsets": [
-        [
-         16,
-         23
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "chair"
+      "convention",
+      "assembly",
+      "gathering"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "office job",
+     "gloss": "parliament",
      "tags": [
-      "feminine",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "parliament"
+     ]
+    }
+   ],
+   "rank": 2823,
+   "count": 290,
+   "family": "mbledh",
+   "is_root": false,
+   "etymology": "From Albanian mbledh (“gather”) + -je (“-ing”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "gather"
+   ],
+   "components": [
+    {
+     "word": "mbledh",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "mbledh"
+   ],
+   "forms": [
+    {
+     "form": "mbledhje",
+     "tag": "plural"
+    },
+    {
+     "form": "mbledhja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "GNOME",
+    "en": "It is a meeting.",
+    "score": [
+     0,
+     3,
+     -3,
+     6
+    ],
+    "sq": "Është një mbledhje."
+   }
+  },
+  {
+   "id": "lakuriq",
+   "sq": "lakuriq",
+   "en": "nude, naked, undressed",
+   "glosses": [
+    "nude, naked, undressed",
+    "(tree/plant) without leaves",
+    "mammals/birds without fur/feathers",
+    "empty place/land",
+    "open, naked, blunt",
+    "to undress, remove clothing",
+    "to rob, steal (leaving a person without nothing left)",
+    "to find out (something that was hidden)",
+    "nakedly, baldly, plainly",
+    "frankly, openly, honestly, truly, plainly",
+    "bat"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "verb",
+    "verb",
+    "verb",
+    "adv",
+    "adv",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "verb",
+    "verb",
+    "verb",
+    "adverb",
+    "adverb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "nude, naked, undressed",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "nude",
+      "naked"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "(tree/plant) without leaves",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Plants",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Plants",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 12 16 1 3 18 4 12 3 19 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "botany",
+      "without",
+      "leaves"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "mammals/birds without fur/feathers",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 12 16 1 3 18 4 12 3 19 7"
+      },
+      {
+       "name": "Mammals",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Mammals",
+       "langcode": "sq",
+       "_dis": "2 4 31 0 1 22 0 29 1 8 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "without",
+      "fur"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "empty place/land",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "empty"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "open, naked, blunt",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E vërteta lakuriqe.",
+       "en": "The naked truth.",
+       "offsets": [
+        [
+         10,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "open",
+      "naked",
+      "blunt"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to undress, remove clothing",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "undress",
+      "remove",
+      "clothing"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rob, steal (leaving a person without nothing left)",
+     "tags": [
       "figuratively"
      ],
      "cats": [
@@ -161,220 +328,164 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "26 74"
-      },
+       "_dis": "5 12 16 1 3 18 4 12 3 19 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rob",
+      "steal"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to find out (something that was hidden)",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "find",
+      "out"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "nakedly, baldly, plainly",
+     "tags": [],
+     "cats": [
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "26 74"
+       "_dis": "5 12 16 1 3 18 4 12 3 19 7"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 12 17 0 3 25 3 11 3 15 7"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "26 74"
+       "_dis": "3 10 16 0 2 29 3 10 3 19 6"
       }
      ],
      "examples": [
       {
-       "sq": "Ka zënë një karrige.",
-       "en": "He/she found an office job.",
+       "sq": "E la lakuriq (dikë).",
+       "en": "He/she/it left (someone) baldly.",
        "offsets": [
         [
-         12,
-         19
+         5,
+         12
         ]
        ]
       }
      ],
      "links": [
-      "office",
-      "job"
+      "nakedly",
+      "baldly",
+      "plainly"
      ]
-    }
-   ],
-   "rank": 3002,
-   "count": 271,
-   "family": "karrige",
-   "is_root": true,
-   "etymology": "Borrowed from Venetan carega, from Latin cathedra, from Ancient Greek καθέδρα (kathédra, “chair of a teacher, throne”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "ndenjëse",
-    "stol",
-    "shkëmb"
-   ],
-   "forms": [
-    {
-     "form": "karrige",
-     "tag": "plural"
     },
     {
-     "form": "karrigia",
-     "tag": "definite"
-    },
-    {
-     "form": "karrike",
-     "tag": "alternative"
-    },
-    {
-     "form": "karrikë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "shkallë",
-   "sq": "shkallë",
-   "en": "stairs",
-   "glosses": [
-    "stairs",
-    "ladder",
-    "rate"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stairs",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "frankly, openly, honestly, truly, plainly",
      "tags": [
-      "feminine"
+      "figuratively"
      ],
-     "cats": [
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
-      },
-      {
-       "name": "Pages using etymon with no ID",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
+       "sq": "Ia tha të vërtetën lakuriq.",
+       "en": "It told him frankly the truth.",
+       "offsets": [
+        [
+         19,
+         26
+        ]
+       ]
       }
      ],
-     "examples": [],
      "links": [
-      "stairs"
+      "frankly",
+      "openly",
+      "honestly"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ladder",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "bat",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with etymon",
+       "name": "Zoology",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
       },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "37 32 32"
+       "_dis": "5 12 16 1 3 18 4 12 3 19 7"
       },
       {
-       "name": "Pages using etymon with no ID",
+       "name": "Mammals",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "37 32 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ladder"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rate",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
-      },
-      {
-       "name": "Pages using etymon with no ID",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 32 32"
+       "orig": "sq:Mammals",
+       "langcode": "sq",
+       "_dis": "2 4 31 0 1 22 0 29 1 8 2"
       }
      ],
      "examples": [
       {
-       "sq": "shkalla e rritjes",
-       "en": "the rate of growth",
+       "sq": "lakuriqi i natës, lakuriq nate",
+       "en": "the bat, bat",
        "offsets": [
         [
          0,
          7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         18,
+         25
         ]
        ]
       }
      ],
      "links": [
-      "rate"
+      "zoology",
+      "bat"
      ]
     }
    ],
-   "rank": 3005,
-   "count": 270,
-   "family": "shkallë",
+   "rank": 2824,
+   "count": 290,
+   "family": "lakuriq",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin scāla.",
-   "etymology_class": "borrowed",
+   "etymology": "(Adj., verb, adverb & noun) suffixed form of dialectal lakur, from Proto-Albanian *laukura, from Proto-Indo-European *lewk- (“light, shine”). Related to loqe, gloq.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -383,50 +494,256 @@
    "related": [],
    "forms": [
     {
-     "form": "shkallë",
-     "tag": "plural"
-    },
-    {
-     "form": "shkalla",
-     "tag": "definite"
+     "form": "lakuriqur",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "dale",
-   "sq": "dale",
-   "en": "wait, stay, hold up",
+   "id": "lëng",
+   "sq": "lëng",
+   "en": "juice",
    "glosses": [
-    "wait, stay, hold up",
-    "don't hurry, relax, chill"
+    "juice",
+    "fluid, liquid",
+    "semen, cum, jizz"
    ],
    "pos": [
-    "intj",
-    "intj"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "interjection",
-    "interjection"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "wait, stay, hold up",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "juice",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "juice"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fluid, liquid",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fluid",
+      "liquid"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "semen, cum, jizz",
+     "tags": [
+      "masculine",
+      "slang"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 13 75"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 19 62"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 10 79"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "semen",
+      "cum",
+      "jizz"
+     ]
+    }
+   ],
+   "rank": 2836,
+   "count": 289,
+   "family": "lëng",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *(u)la-n-g-, from Proto-Indo-European *welg- (“wet, moist”), with metathesis. Cognate to Russian воло́га (vológa, “liquid”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "i lëngshëm"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "lëngje",
+     "tag": "plural"
+    },
+    {
+     "form": "lëngu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I have juice.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Unë kam lëng."
+   }
+  },
+  {
+   "id": "dihet",
+   "sq": "dihet",
+   "en": "to be known",
+   "glosses": [
+    "to be known"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be known",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "known"
+     ]
+    }
+   ],
+   "rank": 2839,
+   "count": 288,
+   "family": "dihet",
+   "is_root": true,
+   "etymology": "See active voice form di (“to know”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ditur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But this is known.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Por këto dihet."
+   }
+  },
+  {
+   "id": "mbledh",
+   "sq": "mbledh",
+   "en": "to gather, gather in or up",
+   "glosses": [
+    "to gather, gather in or up",
+    "to fasten together, tuck in or under, pick up",
+    "to collect, accumulate",
+    "to convene, assemble, herd",
+    "to add",
+    "to huddle",
+    "to fester, pus up"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gather, gather in or up",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "wait",
-      "stay",
-      "hold up"
+      "gather"
      ]
     },
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "don't hurry, relax, chill",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fasten together, tuck in or under, pick up",
      "tags": [],
      "cats": [
       {
@@ -434,71 +751,189 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "40 60"
+       "_dis": "5 31 7 5 14 18 20"
       }
      ],
      "examples": [],
      "links": [
-      "don't",
-      "hurry",
-      "relax"
+      "fasten",
+      "together",
+      "tuck in"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to collect, accumulate",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "collect",
+      "accumulate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to convene, assemble, herd",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "convene",
+      "herd"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to add",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Mathematics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mathematics",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mathematics",
+      "add"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to huddle",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "huddle"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fester, pus up",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 17 13 10 13 14 22"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 12 9 6 8 9 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fester"
      ]
     }
    ],
-   "rank": 3012,
-   "count": 269,
-   "family": "dale",
+   "rank": 3474,
+   "count": 230,
+   "family": "mbledh",
    "is_root": true,
-   "etymology": "Short form of ndal (“I halt, stop, rest, hold up”). See ndal and dal for more.",
-   "etymology_class": null,
+   "etymology": "From older mbëledh, from Old Albanian ënbëljedh, made of a prefix ënbë- of disputed origin + a component ljedh from Proto-Indo-European *leǵ- (“to gather”) (compare Latin legere, Ancient Greek λέγω (légō)). For the identity of ënbë-:\n* Orel reconstructs Proto-Albanian *ambi-ledza, thuse relating the prefix to Proto-Indo-European *h₂m̥bʰí (“around, towards”).\n* Demiraj reconstructs Proto-Albanian *əmbər-lʲę́ð(ə)-, from Pre-Proto-Albanian *ana-pra- + léj́i/a-, implying the prefix to be from an Albanian reflex of the root that gives Ancient Greek ἀνά (aná, “up, on”) + πρό (pró, “forward”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "çmbledh",
+    "mbledhës",
+    "mbledhje",
+    "mblidhem",
+    "përmbledh",
+    "zbledh"
+   ],
    "related": [
-    "dal",
-    "dalë",
-    "dala",
-    "dalët",
-    "dalëngadalë"
+    "zgjedh",
+    "zgledh"
    ],
    "forms": [
     {
-     "form": "daleni",
+     "form": "mblodha",
+     "tag": "aorist"
+    },
+    {
+     "form": "mbledhur",
+     "tag": "participle"
+    },
+    {
+     "form": "mbledhurë",
+     "tag": "alternative"
+    },
+    {
+     "form": "mbledhunë",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "When is he getting dispatched?",
+    "corpus": "HPLT",
+    "en": "How do I collect points?",
     "score": [
      0,
-     4,
-     -4,
-     5
+     5,
+     -5,
+     10
     ],
-    "sq": "Kur do te dale?"
+    "sq": "Si mund të mbledh pikë?"
    }
   },
   {
-   "id": "veprim",
-   "sq": "veprim",
-   "en": "action",
+   "id": "mbledhës",
+   "sq": "mbledhës",
+   "en": "gatherer, harvester",
    "glosses": [
-    "action"
+    "gatherer, harvester",
+    "collector (of paintings, stamps, coins, etc.)",
+    "collector of dialectal words, folklore, etc.",
+    "container, receptacle, holder",
+    "addend",
+    "collecting, gathering, harvesting",
+    "focusing, concentrating (of a lens)"
    ],
    "pos": [
-    "noun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "action",
+     "gloss": "gatherer, harvester",
      "tags": [
       "masculine"
      ],
@@ -507,310 +942,124 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 25 14 21 8 7 17"
       }
      ],
      "examples": [],
      "links": [
-      "action"
+      "gatherer",
+      "harvester"
      ]
-    }
-   ],
-   "rank": 3022,
-   "count": 268,
-   "family": "vepër",
-   "is_root": false,
-   "etymology": "From veproj (“do something”) + -im noun ending.",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "veproj",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "veprime",
-     "tag": "plural"
     },
-    {
-     "form": "veprimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "No military action.",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Jo veprim ushtarak."
-   }
-  },
-  {
-   "id": "vepër",
-   "sq": "vepër",
-   "en": "piece (artistic), deed, creation",
-   "glosses": [
-    "piece (artistic), deed, creation"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "piece (artistic), deed, creation",
+     "gloss": "collector (of paintings, stamps, coins, etc.)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 25 14 21 8 7 17"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 40 2 36 5 2 8"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "5 42 3 38 5 2 7"
       }
      ],
      "examples": [],
      "links": [
-      "piece",
-      "deed",
-      "creation"
-     ]
-    }
-   ],
-   "rank": 4815,
-   "count": 158,
-   "family": "vepër",
-   "is_root": true,
-   "etymology": "Borrowed from Latin opera (“id”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "id"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vepra",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "The bad word is a bad deed.",
-    "score": [
-     0,
-     7,
-     -7,
-     8
-    ],
-    "sq": "Fjala e keqe është vepër e keqe."
-   }
-  },
-  {
-   "id": "veproj",
-   "sq": "veproj",
-   "en": "to do something",
-   "glosses": [
-    "to do something",
-    "to be active"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to do something",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "do",
-      "something"
+      "collector"
      ]
     },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be active",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "be",
-      "active"
-     ]
-    }
-   ],
-   "rank": 8869,
-   "count": 75,
-   "family": "vepër",
-   "is_root": false,
-   "etymology": "From vepër + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vepër",
-     "role": "prefix"
-    }
-   ],
-   "derived": [
-    "veprim"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "veprova",
-     "tag": "aorist"
-    },
-    {
-     "form": "vepruar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What should I do?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Si të veproj?"
-   }
-  },
-  {
-   "id": "kryevepër",
-   "sq": "kryevepër",
-   "en": "masterpiece",
-   "glosses": [
-    "masterpiece"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "masterpiece",
+     "gloss": "collector of dialectal words, folklore, etc.",
      "tags": [
-      "feminine"
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "collector"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "container, receptacle, holder",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "container",
+      "receptacle",
+      "holder"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "addend",
+     "tags": [
+      "masculine"
      ],
      "cats": [
+      {
+       "name": "Mathematics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mathematics",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 25 14 21 8 7 17"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -s (agent)",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "13 13 3 9 10 5 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mathematics",
+      "addend"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "collecting, gathering, harvesting",
+     "tags": [],
+     "cats": [
       {
-       "name": "Pages with entries",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -818,126 +1067,101 @@
      ],
      "examples": [
       {
-       "sq": "Shumë njerëz e konsideronin një kryevepër lirike.",
-       "en": "Many people considered it a lyrical masterpiece.",
+       "sq": "makinë mbledhëse",
+       "en": "collecting machine",
        "offsets": [
         [
-         32,
-         41
+         7,
+         16
         ]
        ]
       }
      ],
      "links": [
-      "masterpiece"
+      "collecting",
+      "gathering",
+      "harvesting"
      ]
-    }
-   ],
-   "rank": 19857,
-   "count": 26,
-   "family": "vepër",
-   "is_root": false,
-   "etymology": "Ultimately a calque of French chef-d’œuvre, with likely intermediate influence from Italian capolavoro and Turkish başyapıt (or indeed possibly a calque of either of the two instead), from krye (“head”) + vepër (“piece”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "head",
-    "piece"
-   ],
-   "components": [
-    {
-     "word": "krye",
-     "role": "prefix"
     },
     {
-     "word": "vepër",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kryevepra",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "veprimtari",
-   "sq": "veprimtari",
-   "en": "activity",
-   "glosses": [
-    "activity"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "activity",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "focusing, concentrating (of a lens)",
      "tags": [],
      "cats": [
+      {
+       "name": "Physics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Physics",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -tari",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 25 14 21 8 7 17"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 40 2 36 5 2 8"
       }
      ],
      "examples": [],
      "links": [
-      "activity"
+      "physics",
+      "focus",
+      "concentrating"
      ]
     }
    ],
-   "rank": 35887,
-   "count": 11,
-   "family": "vepër",
+   "rank": 30996,
+   "count": 14,
+   "family": "mbledh",
    "is_root": false,
-   "etymology": "veprim + -tari.",
+   "etymology": "From mbledh (“to gather”) + -s.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "veprim",
+     "word": "mbledh",
      "role": "prefix"
     }
    ],
-   "derived": [],
+   "derived": [
+    "faktmbledhës",
+    "gjysmëmbledhës",
+    "kallëzambledhës",
+    "kallimbledhës",
+    "mbledhëse",
+    "minambledhës",
+    "shimbledhës",
+    "tagrambledhës"
+   ],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "mbledhëse",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "There's a lot of activity in China.",
+    "corpus": "HPLT",
+    "en": "It was the drainage channel.",
     "score": [
      1,
-     5,
-     -4,
-     4
+     4,
+     -3,
+     10
     ],
-    "sq": "Ka shumë veprimtari në Kinë."
+    "sq": "Ishte kanali ujë-mbledhës."
    }
   }
  ]

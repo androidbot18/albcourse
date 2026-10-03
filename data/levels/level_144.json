@@ -1,152 +1,234 @@
 {
  "level": 144,
- "title": "mëngjes",
- "root": "mëngjes",
- "root_gloss": "morning",
+ "title": "ha, kem",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "mëngjes"
+  "ha",
+  "kem"
  ],
  "pos_mix": {
-  "noun": 2,
-  "intj": 1
+  "verb": 5,
+  "noun": 3
  },
  "words": [
   {
-   "id": "mëngjes",
-   "sq": "mëngjes",
-   "en": "morning",
+   "id": "ha",
+   "sq": "ha",
+   "en": "to eat",
    "glosses": [
-    "morning",
-    "breakfast"
+    "to eat",
+    "to gnaw, consume, wear out",
+    "to capture"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "morning",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to eat",
+     "tags": [],
      "cats": [],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "I vuri këto ushqime Saulit dhe shërbëtorëve të tij, dhe ata i hëngrën; pastaj u ngritën dhe u nisën po atë natë.",
+       "en": "And she gave them to Saul and his servants, and they ate (them). They got up and departed that same night.",
+       "offsets": [
+        [
+         62,
+         69
+        ]
+       ]
+      }
+     ],
      "links": [
-      "morning"
+      "eat"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breakfast",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gnaw, consume, wear out",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gnaw",
+      "consume",
+      "wear"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to capture",
+     "tags": [],
      "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
+       "_dis": "11 25 64"
       }
      ],
      "examples": [],
      "links": [
-      "breakfast"
+      "chess",
+      "capture"
      ]
     }
    ],
-   "rank": 430,
-   "count": 2445,
-   "family": "mëngjes",
+   "rank": 528,
+   "count": 1978,
+   "family": "ha",
    "is_root": true,
-   "etymology": "The initial mën- is either related to muaj (cf. gjithmonë) or Latin mane (“morning”), from Proto-Indo-European *meh₂- (“to ripern, to mature”).",
-   "etymology_class": "derived",
+   "etymology": "From Proto-Albanian *eda, from Proto-Indo-European *h₁ed- (“to eat”), with the preservation of the laryngeal. Alternatively from Proto-Indo-European *h₂ew- (compare Ashkun au (“bread”), Sanskrit अवय (avaya, “to eat”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [
-    "mbrëmje"
+    "hahem",
+    "haje",
+    "pi"
    ],
    "forms": [
     {
-     "form": "mëngjese",
-     "tag": "plural"
+     "form": "hëngra",
+     "tag": "aorist"
     },
     {
-     "form": "mëngjesi",
-     "tag": "definite"
-    },
+     "form": "ngrënë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kem",
+   "sq": "kem",
+   "en": "incense",
+   "glosses": [
+    "incense"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
     {
-     "form": "mangjez",
-     "tag": "alternative"
-    },
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "incense",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 17 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incense"
+     ]
+    }
+   ],
+   "rank": 529,
+   "count": 1958,
+   "family": "kem",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kapna, from Proto-Indo-European *kʷh₂wep- (“smoke, seethe”) (compare Ancient Greek καπνός (kapnós, “smoke”), Polish kopeć (“soot”)).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "smoke",
+    "soot"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
     {
-     "form": "mngjes",
-     "tag": "alternative"
-    },
-    {
-     "form": "mjes",
+     "form": "qem",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "and now 3 morning.",
+    "en": "What do I need to keep in mind?",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "dhe tani 3 mëngjes."
+    "sq": "Çfarë duhet të kem parasysh?"
    }
   },
   {
-   "id": "mirëmëngjes",
-   "sq": "mirëmëngjes",
-   "en": "good morning",
+   "id": "ngrënë",
+   "sq": "ngrënë",
+   "en": "eat, past form (from ha, to eat)",
    "glosses": [
-    "good morning"
+    "eat, past form (from ha, to eat)"
    ],
    "pos": [
-    "intj"
+    "verb"
    ],
    "pos_labels": [
-    "interjection"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "good morning",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "eat, past form (from ha, to eat)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -168,43 +250,233 @@
       }
      ],
      "examples": [],
+     "is_form_of": "ha"
+    }
+   ],
+   "rank": 889,
+   "count": 1073,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "Standard Tosk form of Gheg hangër. From Proto-Albanian *engranti, from Proto-Indo-European *gʷerh₃- (“to swallow, devour, eat”).",
+   "etymology_class": "root",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngranë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A year without eating.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Një vit pa ngrënë."
+   }
+  },
+  {
+   "id": "hamendje",
+   "sq": "hamendje",
+   "en": "guess",
+   "glosses": [
+    "guess",
+    "hypothesis"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guess",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "67 33"
+      },
+      {
+       "name": "Albanian terms prefixed with ha-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      }
+     ],
+     "examples": [],
      "links": [
-      "good morning"
+      "guess"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hypothesis",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hypothesis"
      ]
     }
    ],
-   "rank": 1577,
-   "count": 554,
-   "family": "mëngjes",
+   "rank": 24907,
+   "count": 19,
+   "family": "ha",
    "is_root": false,
-   "etymology": "From mirë + mëngjes.",
-   "etymology_class": "compound",
+   "etymology": "From ha- + mendje.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "mirë",
+     "word": "ha",
      "role": "prefix"
     },
     {
-     "word": "mëngjes",
+     "word": "mendje",
      "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "hamendje",
+     "tag": "plural"
+    },
+    {
+     "form": "hamendja",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Good morning.",
+    "corpus": "HPLT",
+    "en": "No more guessing.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
-     5
+     10
     ],
-    "sq": "Mirëmëngjes. Si jeni?"
+    "sq": "Nuk ka më hamendje."
+   }
+  },
+  {
+   "id": "hamendësoj",
+   "sq": "hamendësoj",
+   "en": "to guess; speculate",
+   "glosses": [
+    "to guess; speculate"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to guess; speculate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guess",
+      "speculate"
+     ]
+    }
+   ],
+   "rank": 32764,
+   "count": 13,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "From hamendje + -oj (verb suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "hamendje",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "hamendësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "hamendësuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "how i can guess about wining numbers?",
+    "score": [
+     3,
+     7,
+     -4,
+     10
+    ],
+    "sq": "si mund të hamendësoj për numrat fitues?"
    }
   }
  ]

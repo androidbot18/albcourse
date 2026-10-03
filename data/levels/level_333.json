@@ -1,25 +1,26 @@
 {
  "level": 333,
- "title": "rojë",
- "root": "rojë",
- "root_gloss": "watch, guard",
+ "title": "toger, shpif",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 3,
  "families": [
-  "rojë"
+  "shpif",
+  "toger"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 1
+  "noun": 1,
+  "verb": 4
  },
  "words": [
   {
-   "id": "rojë",
-   "sq": "rojë",
-   "en": "watch, guard",
+   "id": "toger",
+   "sq": "toger",
+   "en": "lieutenant, an officer rank in the military, below a captain and above a sub-lieutenant",
    "glosses": [
-    "watch, guard"
+    "lieutenant, an officer rank in the military, below a captain and above a sub-lieutenant"
    ],
    "pos": [
     "noun"
@@ -31,9 +32,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "watch, guard",
+     "gloss": "lieutenant, an officer rank in the military, below a captain and above a sub-lieutenant",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -57,16 +58,17 @@
      ],
      "examples": [],
      "links": [
-      "watch",
-      "guard"
+      "military",
+      "lieutenant",
+      "officer"
      ]
     }
    ],
-   "rank": 20143,
-   "count": 26,
-   "family": "rojë",
+   "rank": 1928,
+   "count": 448,
+   "family": "toger",
    "is_root": true,
-   "etymology": "From ruoj.",
+   "etymology": "Derivative of tog, denoting a leader of a group.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -76,32 +78,32 @@
    "related": [],
    "forms": [
     {
-     "form": "roje",
+     "form": "togerë",
      "tag": "plural"
     },
     {
-     "form": "roja",
+     "form": "togeri",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Then I stood guard outside, together with Ivana.",
+    "corpus": "QED",
+    "en": "Ask Sgt. Eversmann. He likes skinnies.",
     "score": [
-     1,
+     3,
      6,
-     -5,
-     10
+     -3,
+     5
     ],
-    "sq": "Bëja rojë jashtë, bashkë me Ivanën."
+    "sq": "A ėshte e vėrtetė, toger?"
    }
   },
   {
-   "id": "mbroj",
-   "sq": "mbroj",
-   "en": "to protect; to defend",
+   "id": "shpifur",
+   "sq": "shpifur",
+   "en": "slander, past form (from shpif, to slander)",
    "glosses": [
-    "to protect; to defend"
+    "slander, past form (from shpif, to slander)"
    ],
    "pos": [
     "verb"
@@ -113,118 +115,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to protect; to defend",
+     "gloss": "slander, past form (from shpif, to slander)",
      "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "protect",
-      "defend"
-     ]
-    }
-   ],
-   "rank": 2066,
-   "count": 418,
-   "family": "rojë",
-   "is_root": false,
-   "etymology": "Compound of mbi + rojë (“guard”), from ruoj (“to guard, to keep”). Related to mburojë. According to Orel, borrowed from a Romance language (compare Italian imparare).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "guard"
-   ],
-   "components": [
-    {
-     "word": "mbi",
-     "role": "prefix"
-    },
-    {
-     "word": "rojë",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "mbrojta",
-     "tag": "aorist"
-    },
-    {
-     "form": "mbrojtur",
-     "tag": "participle"
-    },
-    {
-     "form": "mbruar",
-     "tag": "participle"
-    },
-    {
-     "form": "mproj",
-     "tag": "alternative"
-    },
-    {
-     "form": "mpronj",
-     "tag": "alternative"
-    },
-    {
-     "form": "përonj",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "* I want to protect us.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "* Unë dua të na mbroj."
-   }
-  },
-  {
-   "id": "mburojë",
-   "sq": "mburojë",
-   "en": "shield",
-   "glosses": [
-    "shield"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shield",
-     "tags": [
-      "feminine"
+      "form-of",
+      "participle"
      ],
      "cats": [
       {
@@ -247,97 +141,81 @@
       }
      ],
      "examples": [],
-     "links": [
-      "shield"
-     ]
+     "is_form_of": "shpif"
     }
    ],
-   "rank": 8679,
-   "count": 77,
-   "family": "rojë",
+   "rank": 1931,
+   "count": 447,
+   "family": "shpif",
    "is_root": false,
-   "etymology": "A cluster formation of mbi (“on, over”) + rojë (“guardian, watchdog”), probably a parallel formation of mbuloj.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "mbi",
-     "role": "prefix"
-    },
-    {
-     "word": "rojë",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "mburoja",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is a shield against oneself.",
+    "corpus": "QED",
+    "en": "It's disgusting!",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
-     10
+     5
     ],
-    "sq": "Është mburojë ndaj vetes."
+    "sq": "Është e shpifur!"
    }
   },
   {
-   "id": "truprojë",
-   "sq": "truprojë",
-   "en": "military guard, guard unit",
+   "id": "shpif",
+   "sq": "shpif",
+   "en": "to slander, defame",
    "glosses": [
-    "military guard, guard unit",
-    "guard post"
+    "to slander, defame",
+    "to lie, say false things",
+    "to make up, fabricate"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "military guard, guard unit",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Military",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Military",
-       "langcode": "sq"
-      }
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to slander, defame",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "military",
-      "military",
-      "guard"
+      "slander",
+      "defame"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "guard post",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to lie, say false things",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make up, fabricate",
      "tags": [
-      "feminine"
+      "colloquial"
      ],
      "cats": [
       {
@@ -345,61 +223,68 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "1 99"
+       "_dis": "21 30 49"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "1 99"
+       "_dis": "23 22 55"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "1 99"
+       "_dis": "17 16 67"
       }
      ],
      "examples": [],
-     "links": [
-      "guard post"
-     ]
+     "links": []
     }
    ],
-   "rank": 27105,
-   "count": 17,
-   "family": "rojë",
-   "is_root": false,
-   "etymology": "From trup + rojë.",
-   "etymology_class": "affix",
+   "rank": 2720,
+   "count": 303,
+   "family": "shpif",
+   "is_root": true,
+   "etymology": "Gheg variant of Tosk shpih, from Proto-Albanian *dis- and *pīska, from Proto-Indo-European *pih₁-sḱe/o-, from *peh₁-i- (“to taunt”) (compare Old English fēon (“to hate”), Sanskrit पीयति (pī́yati, “to blame, abuse”)).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
+   "components": [],
+   "derived": [
+    "shpifacak",
+    "shpifaman",
+    "shpifarak",
+    "shpifarraq",
+    "shpifë",
+    "shpifës",
+    "shpifje",
+    "shpiftar"
+   ],
+   "related": [],
+   "forms": [
     {
-     "word": "trup",
-     "role": "prefix"
+     "form": "shpifa",
+     "tag": "aorist"
     },
     {
-     "word": "rojë",
-     "role": "stem"
+     "form": "shpifur",
+     "tag": "participle"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The blast also killed a bodyguard.",
+    "corpus": "QED",
+    "en": "That sucks.",
     "score": [
+     1,
      3,
-     8,
-     -5,
-     10
+     -2,
+     5
     ],
-    "sq": "Nga shpërthimi mbeti i vrarë edhe një truprojë."
+    "sq": "Kjo ta shpif."
    }
   }
  ]
