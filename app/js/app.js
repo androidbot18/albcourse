@@ -110,6 +110,10 @@ function viewMap(root) {
     // is secondary. "të, e, në +1" is meaningful, "3 fam" is not.
     b.append(el('span', 'lvl-root', l.title || String(l.level)));
     b.append(el('span', 'lvl-meta', l.word_count + 'w'));
+    if (l.patterns && l.patterns.length) {
+      b.append(el('span', 'lvl-pattern', l.patterns.join(' ')));
+      b.title = 'Introduces the pattern ' + l.patterns.join(', ');
+    }
     b.addEventListener('click', () => openLevel(l.level));
     grid.append(b);
   }
@@ -147,6 +151,7 @@ function viewLevel(root) {
   if (data.parts > 1) bits.push('part ' + data.part + ' of ' + data.parts);
   head.append(el('p', 'sub', bits.join(' \u00b7 ')));
   root.append(head);
+  for (const p of data.patterns || []) root.append(patternBox(p));
 
   for (const [family, words] of groupByFamily(data.words)) {
     const card = el('section', 'family');
@@ -156,21 +161,77 @@ function viewLevel(root) {
   }
 }
 
-/* The words a card is built from, rendered as e- + sille.
-   Only a real stem is worth teaching on, so a prefix-only card shows
-   the prefix alone. Returns null when the card has no components. */
-function componentsLine(w) {
+/* The words a card is built from, rendered as pa- + fund or mund + -ësi.
+   Roles: prefix (pa-), stem/base (fund, mund), suffix (-ësi).
+
+   A "transparent" breakdown predicts the meaning, so it is drawn as parts
+   with a gloss under each when `glosses` is set (pa- "un-, without" + fund
+   "end"). A "historical" one is a memory aid only -- përdor is për- + dorë
+   "hand", which nobody could guess -- so it is labelled as history and never
+   glossed: the stem's gloss there is often a long-lost sense.
+   Returns null when the card has no components. */
+const LEXICAL = new Set(['stem', 'base']);
+
+function partText(c) {
+  if (c.role === 'prefix') return c.word + '-';
+  if (c.role === 'suffix') return '-' + c.word;
+  return c.word;
+}
+
+function componentsLine(w, opts = {}) {
   const comps = (w && w.components) || [];
   if (!comps.length) return null;
-  const line = el('div', 'components');
-  line.append(document.createTextNode('from '));
+  const transparent = w.breakdown === 'transparent';
+  const line = el('div', 'components' + (transparent ? ' transparent' : ' historical'));
+  line.append(document.createTextNode(transparent ? 'built from ' : 'historically from '));
   comps.forEach((c, i) => {
     if (i) line.append(document.createTextNode(' + '));
-    const cls = c.role === 'stem' ? 'stem' : null;
-    const txt = c.role === 'stem' ? c.word : c.word + '-';
-    line.append(el('span', cls, txt));
+    const cls = 'part ' + (LEXICAL.has(c.role) ? 'stem' : 'affix');
+    const part = el('span', cls);
+    part.append(el('span', 'part-sq', partText(c)));
+    const gloss = LEXICAL.has(c.role) ? c.en : c.meaning;
+    if (transparent && gloss) {
+      if (opts.glosses) part.append(el('span', 'part-en', gloss));
+      else part.title = gloss;
+    }
+    line.append(part);
   });
   return line;
+}
+
+/* "Guess from the parts": the first time a transparent word comes up, and
+   the learner already knows the word it is built on, the prompt shows each
+   part's meaning and asks for the whole before revealing it. This is the
+   moment the roots idea pays off, so it is reserved for words where the
+   guess is actually possible. */
+function isGuessCard(w, id) {
+  if (!w || w.breakdown !== 'transparent' || id !== w.id) return false;
+  if (!isNew(state.progress.items[id])) return false;
+  const lex = (w.components || []).find((c) => LEXICAL.has(c.role));
+  return !!lex && !isNew(state.progress.items[lex.word]);
+}
+
+/* A pattern note: shown on the level where the learner meets the third
+   clear example of an affix, naming what they have been seeing. */
+function patternBox(p) {
+  const box = el('section', 'pattern');
+  const h = el('h2', null, 'Pattern: ' + p.label);
+  h.append(el('span', 'pattern-meaning', ' ' + p.meaning));
+  box.append(h);
+  box.append(el('p', null, p.summary));
+  const ex = el('ul', 'pattern-examples');
+  for (const e of p.examples) {
+    const li = el('li');
+    li.append(el('span', 'stem', e.stem));
+    if (e.stem_en) li.append(el('span', 'pattern-gloss', ' (' + e.stem_en + ')'));
+    li.append(document.createTextNode(' \u2192 '));
+    li.append(el('span', 'sq', e.sq));
+    li.append(el('span', 'pattern-gloss', ' (' + e.en + ')'));
+    ex.append(li);
+  }
+  box.append(ex);
+  box.append(el('p', 'pattern-note', p.note));
+  return box;
 }
 
 /* The source-language form, e.g. "from Latin soca".
@@ -191,7 +252,7 @@ function wordRow(w) {
   top.append(el('span', 'pos', displayPosLabels(w, 2).join(', ')));
   row.append(top);
   row.append(el('div', 'en', w.en));
-  const comps = componentsLine(w);
+  const comps = componentsLine(w, { glosses: true });
   if (comps) row.append(comps);
   const cog = cognateLine(w);
   if (cog) row.append(cog);
@@ -256,8 +317,10 @@ function viewStudy(root) {
   const card = el('div', 'card' + (forward ? '' : ' reverse'));
   card.append(el('div', 'prompt-label', forward ? 'Albanian' : 'English'));
   card.append(el('div', 'prompt', forward ? w.sq : w.en));
+  const guess = forward && isGuessCard(w, id);
+  if (guess && !state.revealed) card.append(el('div', 'guess-label', 'New word. Guess it from the parts:'));
   if (forward) {
-    const sc = componentsLine(w);
+    const sc = componentsLine(w, { glosses: guess || state.revealed });
     if (sc) card.append(sc);
   }
 

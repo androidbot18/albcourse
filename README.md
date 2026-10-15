@@ -57,6 +57,21 @@ A level is a **session of whole word families**, not a frequency slice:
 Levels are titled after the root they teach, the way a Wanikani level is named
 after the radical it unlocks.
 
+### Word parts and affix patterns
+
+The same `+` equations give each card its breakdown: `pa- + fund`,
+`mund + -ësi`. A breakdown is **transparent** when the parts predict the
+meaning (hand-reviewed; 191 words) and **historical** otherwise (`përdor` is
+`për-` + `dorë` "hand"; 577 words). Transparent ones are colour-coded with a
+meaning under each part, and the first review of one, once its base is known,
+asks you to guess the word from its parts.
+
+Eight affixes are taught as patterns (`-im`, `-je`, `-(ë)si`, `-shëm`,
+`-tar`, `pa-`, `-isht`, `-ues`), each on the level where you meet its third
+clear example. Most of the vocabulary is opaque roots and loans, so this is a
+layer on top of the deck, not its backbone. See `tools/affixes.py` and
+RECOMMENDATIONS.md section 2.
+
 ### How a word joins a family
 
 Family membership requires **an explicit derivation in the etymology text**,

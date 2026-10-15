@@ -231,7 +231,14 @@
    "components": [
     {
      "word": "vdes",
-     "role": "prefix"
+     "role": "base",
+     "en": "to die (used only for humans and bees)"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -264,7 +271,8 @@
      8
     ],
     "sq": "Edhe një vdekje."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "vdekja",
@@ -338,6 +346,35 @@
     ],
     "sq": "Kjo ishte vdekja."
    }
+  }
+ ],
+ "patterns": [
+  {
+   "id": "je",
+   "label": "-je",
+   "meaning": "the act of (noun)",
+   "summary": "Turns a verb into the noun for doing it, mostly verbs that do not end in -oj: lidh (to tie) → lidhje (connection).",
+   "note": "Not every word ending in -je is built this way: anije (ship) is not.",
+   "examples": [
+    {
+     "sq": "mendje",
+     "en": "mind",
+     "stem": "mend",
+     "stem_en": "mind"
+    },
+    {
+     "sq": "dukje",
+     "en": "look",
+     "stem": "dukem",
+     "stem_en": "to seem"
+    },
+    {
+     "sq": "vdekje",
+     "en": "death",
+     "stem": "vdes",
+     "stem_en": "to die (used only for humans and bees)"
+    }
+   ]
   }
  ]
 }

@@ -352,7 +352,14 @@
    "components": [
     {
      "word": "kuptoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to understand"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -377,7 +384,8 @@
      5
     ],
     "sq": "Pyetje pa kuptim?"
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "kuptove",
@@ -510,7 +518,14 @@
    "components": [
     {
      "word": "kuptoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to understand"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
     }
    ],
    "derived": [],
@@ -526,7 +541,8 @@
      10
     ],
     "sq": "Mundohuni të jeni të kuptueshëm."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "pakuptim",
@@ -585,11 +601,14 @@
    "components": [
     {
      "word": "pa",
-     "role": "prefix"
+     "role": "prefix",
+     "affix": "pa",
+     "meaning": "un-, without"
     },
     {
      "word": "kuptim",
-     "role": "stem"
+     "role": "stem",
+     "en": "understanding"
     }
    ],
    "derived": [],
@@ -614,7 +633,8 @@
      4
     ],
     "sq": "Pakuptim, thote pikpamja fetare."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "pakuptueshëm",
@@ -673,11 +693,14 @@
    "components": [
     {
      "word": "pa",
-     "role": "prefix"
+     "role": "prefix",
+     "affix": "pa",
+     "meaning": "un-, without"
     },
     {
      "word": "kuptueshëm",
-     "role": "stem"
+     "role": "stem",
+     "en": "understandable"
     }
    ],
    "derived": [],
@@ -693,7 +716,43 @@
      8
     ],
     "sq": "Kërkojnë të jenë të pakuptueshëm, por mund të kuptohen."
-   }
+   },
+   "breakdown": "transparent"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "pa",
+   "label": "pa-",
+   "meaning": "un-, without",
+   "summary": "Negates a word: fund (end) → pafund (endless), dukshëm (visible) → padukshëm (invisible).",
+   "note": "pa is also the preposition 'without' (pa ty = without you). Many words just start with pa- by chance: palloj (to beat) has nothing to do with lloj.",
+   "examples": [
+    {
+     "sq": "pafund",
+     "en": "endless",
+     "stem": "fund",
+     "stem_en": "end"
+    },
+    {
+     "sq": "pakujdesshëm",
+     "en": "uncaring",
+     "stem": "kujdesshëm",
+     "stem_en": "careful"
+    },
+    {
+     "sq": "pakuptim",
+     "en": "nonsense",
+     "stem": "kuptim",
+     "stem_en": "understanding"
+    },
+    {
+     "sq": "pakuptueshëm",
+     "en": "incomprehensible",
+     "stem": "kuptueshëm",
+     "stem_en": "understandable"
+    }
+   ]
   }
  ]
 }

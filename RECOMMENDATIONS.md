@@ -17,11 +17,12 @@ negative-control tests, reproducible builds). Three problems hold it back:
    in raw frequency order across the whole deck. Your first session teaches
    `të` (level 192), `më` (L192) and `që` (L193) next to level-1 words. The level
    structure the pipeline works so hard on never reaches the learner's queue.
-2. **"Roots" is mostly not happening.** 2,493 of 3,013 families (83%) have a
-   single member. No suffix is ever shown: in 514 cards the stem is labelled
-   as a *prefix* (`mundësi` renders as "from mund-"). For the hook to work,
-   affixes need to be taught as first-class items, the way WaniKani teaches
-   radicals.
+2. **"Roots" is mostly not happening, and can only partly happen.** 2,493
+   of 3,013 families (83%) have a single member. No suffix was ever shown: in
+   514 cards the stem was labelled as a *prefix* (`mundësi` rendered as "from
+   mund-"). About eight affixes are frequent, predictable and regular enough
+   to teach as patterns; the rest are too rare, unpredictable, or collide
+   with inflection. See section 2.
 3. **Progression is built for the algorithm, not the learner.** The rule that a
    family is never split puts `domosdoshmëri` (rank 38,595) in **level 2**.
    Meanwhile *two* lands in L207, *bread* in L390, and *yes* (`po`) is not in the
@@ -59,44 +60,70 @@ These are defects in the current app. Fix them before any redesign.
 
 ---
 
-## 2. The roots concept: make it real
+## 2. The roots concept: useful, but smaller than it looks
 
-The pitch is a kanji-style course where roots unlock word families. Right now
-the learner rarely sees that.
+The pitch is a kanji-style course where roots unlock word families. The first
+version of this section proposed teaching about 20 affixes as WaniKani-style
+"radicals". Measured against the deck, that holds for some affixes and not for
+others, and the kanji analogy breaks down in one important way: a radical is
+visually unambiguous, while an Albanian suffix is a string that often doubles
+as an inflectional ending.
 
-### 2.1 Teach affixes as first-class items ("radicals")
+### 2.1 Which affixes are worth teaching
 
-WaniKani works because radicals are taught *as items*, with their own meaning,
-before the kanji that use them. The Albanian equivalent is derivational affixes,
-which are very regular and productive:
+An affix earns a lesson only if it passes the four standard tests for teaching
+an affix (Bauer & Nation's affix levels): **frequent** in this deck,
+**predictable** in meaning, **regular** in form, and **not confusable** with
+inflection (or the confusion is taught out loud). Counts below are
+derivations the etymology parser confirms, not spelling matches.
 
-- **Suffixes:** `-im`/`-je` (action noun), `-ës`/`-ëse` (agent), `-tar`/`-tare`
-  (person/related to), `-si`/`-ësi` (abstract noun), `-shëm` (-able/-ful),
-  `-isht` (-ly), `-or`/`-ore` (-al), `-ak`, `-ar`, `-ues`, `-ri` (abstract
-  noun), `-oj`/`-ëzoj` (verbalisers)
-- **Prefixes:** `pa-` (un-/without), `mos-` (non-), `ç-`/`sh-`/`zh-`
-  (undo/reverse), `ri-` (re-), `për-`, `mbi-` (over), `nën-` (under),
-  `bashkë-` (co-), `para-` (pre-), `kundër-` (counter-)
+| Affix | Meaning | Confirmed derivations | Clear (reviewed) | Verdict |
+|---|---|---|---|---|
+| `-im` | the act of (noun) | 78 | 75 | Teach, with the warning that `-im` is also "we" (`flasim`) |
+| `-je` | the act of (noun) | 41 | 35 | Teach; `anije` (ship) is not one |
+| `-(ë)si` | -ness, -ity | 24 | 20 | Teach; not the word `si` (how) |
+| `-shëm` | -ful, -able | 22 | 16 | Teach, with `-shme` and `-ueshëm` |
+| `-tar` | person / of | 20 | 19 | Teach, with `-ëtar` and `-tare` |
+| `pa-` | un-, without | 15 | 10 | Teach; also the preposition "without" |
+| `-isht` | -ly | 11 | 11 | Teach; it also names languages |
+| `-ues` | one who does it | 4 | 4 | Teach (small but perfectly regular) |
+| `zh-` | undo | 5 | 2 | Show in breakdowns, do not teach |
+| `mos-`, `ri-`, `mbi-`, `nën-`, `kundër-`, `para-`, `bashkë-` | | 1–4 each | | Too rare in this deck |
+| `për-`, `sh-`, `ç-` | | | | Not predictable: `përdor` "use" is `për-` + `dorë` "hand"; 220 words start with `sh-` and almost none are built with it |
+| `-oj` | | | | A verb class, not a meaning: `shkoj`, `besoj` are not derived |
+| `-ës` | | | | Collides with the case ending (`jetës`, `kohës`) |
+
+Even the good ones drift: `rëndë` "heavy" → `rëndësi` "importance",
+`sjell` "bring" → `sjellshëm` "polite". Their breakdown is a memory aid for the
+answer, not something the learner can work out in advance.
 
 Recommendations:
 
-- Add an `affix` card type with a meaning ("`-shëm` → -ful / -able") and 3–5
-  transparent examples.
-- Introduce each affix **just before** the first level that relies on it, and
-  make it a prerequisite in the same topological sort the build already runs.
-- Count affix-based families: with suffixes as connectors, many of the 2,493
-  singleton "families" become members of a pattern (e.g. every `-isht` adverb).
+- Teach the eight affixes above as **patterns**, introduced inductively: on
+  the level where the learner meets the **third** clear example, show a note
+  that names what they have been seeing ("`mësues`, `lexues`… notice the
+  pattern?"), with its spelling variants and its trap.
+- Mark every breakdown as **transparent** (the parts predict the meaning;
+  hand-reviewed) or **historical** (true, but not guessable). The default for
+  an unreviewed word is historical.
+- Keep the expectation honest. Breakdowns connect 191 words clearly and
+  another 577 only historically, out of 4,086. They will not absorb most of the 2,493 one-word
+  families, so 2.5 matters at least as much as this section.
 
 ### 2.2 Fix the component data
 
-- 514 cards have a single component tagged `prefix` that is really the
-  **stem**: `mundësi` → `[{mund, prefix}]` renders as "from mund-", which is
-  wrong. It should read **`mund` + `-ësi`**.
-- No card has a `suffix` role at all. The derivation parser already finds
-  `marr + -ës`; it throws away the affix side.
-- Render components as a colour-coded breakdown: **root** in one colour, affix
-  in another, with each affix's meaning on hover or tap:
-  `pa·` *without* + **`mend`** *mind* + `·shëm` *-ful* → *thoughtless*.
+- 514 cards had their stem tagged as a **prefix**: `mundësi` →
+  `[{mund, prefix}]` rendered as "from mund-". The parser read every
+  equation as "affix + base", but a suffix equation (`mund + -ësi`) has the
+  base on the left. It should read **`mund` + `-ësi`**.
+- No card had a `suffix` role at all; the parser threw the suffix away.
+- Breakdowns must come from the etymology only, never from spelling
+  (`shkollë` is not `sh-` + `kollë` "cough").
+- Render components colour-coded (root in one colour, affix in another)
+  with each part's meaning under it, **only for transparent breakdowns**. A
+  historical breakdown is shown muted and without glosses, because its stem
+  gloss is often the wrong homograph (`pije` is `pi` "to drink", but the deck's
+  `pi` card says "from").
 
 ### 2.3 Separate homographs, and bridge meaning drift
 
@@ -109,17 +136,20 @@ Recommendations:
 - Examples picked for the wrong homograph: `turi` "muzzle" → *Turi zgjat rreth 6
   orë* = "**The tour** lasts…"; `jon` "ion" → *Ne e bëmë atë Jon!* (a name);
   `lej` "give birth" → *Leu dielli* = "the sun rose".
+- The same problem reaches breakdowns through stem glosses: `duk` "virtue"
+  under `dukshëm` (visible), `ndjej` "forgive" under `ndjeshëm` (sensitive).
 
 Use Wiktionary's numbered etymologies (`Etymology 1/2`) as separate family
 keys, and require an example's English side to contain one of the gloss words
 for the chosen sense.
 
-### 2.4 Add the "guess from the parts" exercise
+### 2.4 Add the "guess from the parts" exercise, for transparent words only
 
-This is the payoff of the method, and nothing in the app does it yet. Once a
-learner knows `mend` and `pa-` and `-shëm`, show `pamendshëm` *before teaching
-it* and ask what it means (multiple choice or free text). Getting it right is
-the moment the course proves its worth. Make it a regular review type.
+This is the payoff of the method. Once a learner knows `mund`, show
+`mundësi` *before teaching it*, with each part's meaning (`mund` *can* +
+`-ësi` *-ness*), and ask what it means. Restrict it to transparent
+breakdowns whose base the learner has already started: offering it on
+`përdor` or `sjellshëm` would teach learners that the method does not work.
 
 ### 2.5 Give opaque words a different hook
 
@@ -134,6 +164,29 @@ that, and give them:
   (`makinë`, `teknologji`, `doktor`, `kapiten`). A "you already know this"
   badge is a cheap win, and the 125-card cognate limit comes from the
   extractor, not from the language.
+
+**Status (section 2 pass):** 2.1, 2.2 and 2.4 are implemented; 2.3 and 2.5
+are not.
+- `components_of()` reads suffix equations the right way round: the base gets
+  role `base`, the suffix role `suffix`. No lone-prefix breakdown of a suffix
+  derivation remains (459 before). `base` deliberately creates no
+  prerequisite edge, so the level order is unchanged; promoting bases to
+  edges is a scheduling change that belongs with 3.1 and needs a full
+  rebuild to evaluate.
+- `tools/affixes.py` holds the eight taught patterns (meaning, variants,
+  trap) and the hand-reviewed list of 191 transparent words, with the
+  reasons for the exclusions. It annotates the levels during the build, and
+  can re-derive the shipped data in place when the Kaikki dump is not
+  available (`python3 tools/affixes.py`).
+- Patterns land on the level of their third clear example: `-(ë)si` L14,
+  `-je` L60, `-shëm` L65, `-im` L68, `pa-` L78, `-tar` L142, `-isht` L287,
+  `-ues` L290. The level map marks those levels.
+- The app colour-codes breakdowns, glosses each part on transparent cards,
+  mutes historical ones, and shows "New word. Guess it from the parts" on the
+  first review of a transparent word whose base has been started.
+- `tools/test_affixes.py` and the rewritten `tools/test_components_render.mjs`
+  (which now runs the real `componentsLine()` and `isGuessCard()`) pin all of
+  this, with negative controls.
 
 ---
 
@@ -398,10 +451,13 @@ not all fall due on the same day.
 - [ ] Mastery gating between levels
 
 **Phase 2: roots made visible (2–3 weeks)**
-- [ ] Affix item type plus suffix extraction; fix stem/prefix role labels
-- [ ] Colour-coded word breakdown and family-tree view
+- [x] Suffix extraction; fix stem/prefix role labels (2.2)
+- [x] Eight affix patterns, introduced at their third clear example (2.1)
+- [x] Colour-coded breakdown, transparent vs historical (2.2)
+- [x] "Guess from the parts" on transparent words (2.4)
+- [ ] Family-tree view
 - [ ] Learn → Quiz → Review lesson flow
-- [ ] "Guess from the parts" and "build the word" exercises
+- [ ] "Build the word" exercise (transparent words only)
 
 **Phase 3: engagement and polish (ongoing)**
 - [ ] Typed answers, cloze, contrast drills

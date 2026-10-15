@@ -165,10 +165,20 @@ step node tools/test_example_pairing.mjs
 
 echo
 echo "== components render =="
-# The build stores components as [{word, role}]; the views must turn that into
-# "from e- + sille" on both the level row and the study card. Checks the app
-# source, the stylesheet, and the real card data together.
+# The build stores components as [{word, role}] plus a transparent/historical
+# flag; the real componentsLine() must render "built from mund + -ësi" or
+# "historically from për- + dorë" on the level row and the study card, and
+# isGuessCard() must only fire on a new transparent card with a known base.
 step node tools/test_components_render.mjs
+
+echo
+echo "== affix patterns and breakdowns =="
+# A breakdown is only worth showing if it is true. Pins: breakdowns come from
+# the etymology, never spelling (shkollë is not sh- + kollë); only reviewed
+# words are offered as guess-from-the-parts; a historical breakdown never
+# shows a wrong-homograph stem gloss; -im the noun is not -im "we"; patterns
+# land on their third clear example; shipped data matches tools/affixes.py.
+step python3 tools/test_affixes.py
 
 echo
 echo "== flat-index POS regression =="

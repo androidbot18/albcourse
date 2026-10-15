@@ -35,6 +35,7 @@ import pack_shape
 import pos_balance
 import opening_policy
 import cognates
+import affixes
 from example_rank import rank_examples
 import os
 import re
@@ -653,7 +654,11 @@ def components_of(text, words):
     Ottoman bori -> bri is a false association, because neither is a word
     the course teaches.
 
-    Returns [(word, role), ...] with role in {"prefix", "stem"}, or [].
+    Returns [(word, role), ...] in reading order, or []. Roles:
+      prefix  pa- in pa- + fund (a deck word, or marked with a hyphen)
+      stem    fund in pa- + fund; creates a prerequisite edge
+      base    mund in mund + -ësi; displayed like a stem, no edge
+      suffix  ësi in mund + -ësi (stored without the hyphen)
     """
     if not text:
         return []
@@ -690,6 +695,33 @@ def components_of(text, words):
             if _part_is_word(sides[-1], words) or _part_is_word(sides[1], words):
                 stem = None
 
+        # A SUFFIX equation reads the other way round: "mund + -ësi" puts the
+        # base on the LEFT and the affix on the right. Reading the left side as
+        # a prefix rendered mundësi as "from mund-" on 514 cards, and threw the
+        # suffix away, so no card ever showed one. The left is a prefix only
+        # when the text marks it with a hyphen ("pa- + fund"); an unmarked left
+        # followed by a hyphen-led right side is the base word.
+        #
+        # Its role is "base", not "stem", on purpose. A stem creates a
+        # prerequisite edge in assign_levels(); a suffix base never did (it
+        # was filed as the family root, and build_families() already groups
+        # the word under it). Promoting 456 bases to edges would re-order the
+        # course -- pasur (L15) would wait for pasë (L551) -- which is a
+        # scheduling decision (RECOMMENDATIONS.md 3.1), not a display fix.
+        suffix = None
+        if len(sides) >= 2 and _suffix_of(sides[1]):
+            suffix = _suffix_of(sides[1])
+            if not _left_is_prefix(sides[0]):
+                base = pre if not _affix_is_reconstruction(sides[0]) else None
+                out = []
+                if base and base in words:
+                    out.append((base, "base"))
+                    out.append((suffix, "suffix"))
+                return out
+            stem = None
+        elif len(sides) >= 3:
+            suffix = _suffix_of(sides[-1])
+
         out = []
         # The affix is normally required to be a deck word too, and that filter
         # is load-bearing: dropping it lets prose into the component line
@@ -704,12 +736,52 @@ def components_of(text, words):
         # stays on the component line as a label rather than as a word to learn.
         # It is a prefix, so per assign_levels it never creates a prerequisite
         # edge -- it is displayed, not re-ordered.
-        if pre and (pre in words or pre in pos_balance.EXCLUDE_WORDS):
+        #
+        # A prefix the text itself marks with a hyphen ("zh- + vesh") is also
+        # kept: the hyphen is the evidence the prose filter above lacks, and a
+        # prefix never creates a prerequisite edge.
+        # A bare one ("n-" on ndaj, with no stem in the deck) explains nothing,
+        # so it is shown only beside a stem.
+        has_stem = bool(stem and stem in words and stem != pre)
+        if pre and (pre in words or pre in pos_balance.EXCLUDE_WORDS
+                    or (has_stem and _left_is_prefix(sides[0])
+                        and _AFFIX_RE.match(pre))):
             out.append((pre, "prefix"))
-        if stem and stem in words and stem != pre:
+        if has_stem:
             out.append((stem, "stem"))
+            if suffix:
+                out.append((suffix, "suffix"))
         return out
     return []
+
+
+# An affix is short and spelled in the Albanian alphabet. Anything else after
+# a hyphen ("-Albanian", "-*kʷos") is prose, not a morpheme.
+_AFFIX_RE = re.compile(r"^[a-zçë]{1,10}$")
+
+
+def _clean_side(chunk):
+    c = _DERIV_LEAD_RE.sub("", chunk)
+    c = re.sub(r"\([^)]*\)", " ", c)
+    c = re.sub(r'"[^"]*"', " ", c)
+    c = re.sub(r"“[^”]*”", " ", c)
+    return c
+
+
+def _suffix_of(chunk):
+    """The suffix a side of the equation opens with ("-ësi"), or None."""
+    side = _CLAUSE_BREAK.split(chunk)[0]
+    m = re.match(r"\s*-([^\W\d_]+)", _clean_side(side))
+    if not m:
+        return None
+    suf = m.group(1).lower()
+    return suf if _AFFIX_RE.match(suf) else None
+
+
+def _left_is_prefix(chunk):
+    """True if the text marks the left side as a prefix: "pa- + fund"."""
+    toks = _DERIV_WORD_RE.findall(_clean_side(chunk).replace("*", ""))
+    return bool(toks) and toks[-1].endswith("-") and len(toks[-1]) > 1
 
 
 def _side_word(chunk, words=None):
@@ -1879,10 +1951,17 @@ def main():
             "pos_mix": dict(Counter(p for o in objs for p in o["pos"])),
             "words": objs,
         }
-        with open(os.path.join(LEVELS_DIR, "level_%0*d.json" % (lvl_width, i)),
+        level_objs.append(lvl)
+
+    # Breakdown glosses, transparency and pattern notes need the whole course
+    # in order (a pattern lands on the level of its third clear example), so
+    # the level files are written only after every level exists.
+    patterns_at = affixes.annotate_levels(level_objs)
+    for lvl in level_objs:
+        with open(os.path.join(LEVELS_DIR, "level_%0*d.json"
+                               % (lvl_width, lvl["level"])),
                   "w", encoding="utf-8") as fh:
             json.dump(lvl, fh, ensure_ascii=False, indent=1)
-        level_objs.append(lvl)
 
     course = {
         "title": "Albanian Roots & Families",
@@ -1905,6 +1984,7 @@ def main():
                     "part": l["part"], "parts": l["parts"]}
                    for l in level_objs],
     }
+    affixes.set_index_patterns(course["levels"], patterns_at)
     with open(os.path.join(OUT, "course.json"), "w", encoding="utf-8") as fh:
         json.dump(course, fh, ensure_ascii=False, indent=1)
     with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as fh:

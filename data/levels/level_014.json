@@ -392,7 +392,8 @@
      "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
    "id": "ju",
@@ -882,7 +883,14 @@
    "components": [
     {
      "word": "mund",
-     "role": "prefix"
+     "role": "base",
+     "en": "can"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
     }
    ],
    "derived": [],
@@ -907,7 +915,8 @@
      8
     ],
     "sq": "Është një mundësi."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "mundje",
@@ -995,7 +1004,13 @@
    "components": [
     {
      "word": "mund",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -1024,7 +1039,8 @@
      4
     ],
     "sq": "Mund të bëja mundje në gjimnaz."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "mundim",
@@ -1087,7 +1103,13 @@
    "components": [
     {
      "word": "mund",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -1112,7 +1134,37 @@
      10
     ],
     "sq": "Gjithçka është pa mundim."
-   }
+   },
+   "breakdown": "historical"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "si",
+   "label": "-(ë)si",
+   "meaning": "-ness, -ity",
+   "summary": "Turns an adjective into a quality: shpejt (fast) → shpejtësi (speed), mirë (good) → mirësi (goodness).",
+   "note": "Spelled -ësi after most consonants and -si after a vowel (njësi). Not the same word as si (how, like).",
+   "examples": [
+    {
+     "sq": "njësi",
+     "en": "unit",
+     "stem": "një",
+     "stem_en": "one"
+    },
+    {
+     "sq": "mirësi",
+     "en": "goodness",
+     "stem": "mirë",
+     "stem_en": "good"
+    },
+    {
+     "sq": "mundësi",
+     "en": "possibility",
+     "stem": "mund",
+     "stem_en": "can"
+    }
+   ]
   }
  ]
 }

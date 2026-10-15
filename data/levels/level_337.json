@@ -642,7 +642,11 @@
    "components": [
     {
      "word": "be",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "së",
+     "role": "suffix"
     }
    ],
    "derived": [
@@ -676,7 +680,8 @@
      10
     ],
     "sq": "Po, për besë!"
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "pabesë",
@@ -900,11 +905,18 @@
    "components": [
     {
      "word": "pa",
-     "role": "prefix"
+     "role": "prefix",
+     "affix": "pa",
+     "meaning": "un-, without"
     },
     {
      "word": "besë",
-     "role": "stem"
+     "role": "stem",
+     "en": "pledge"
+    },
+    {
+     "word": "ë",
+     "role": "suffix"
     }
    ],
    "derived": [
@@ -917,7 +929,8 @@
     "i pabesueshëm"
    ],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "transparent"
   }
  ]
 }

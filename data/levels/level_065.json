@@ -325,7 +325,14 @@
    "components": [
     {
      "word": "nevojë",
-     "role": "prefix"
+     "role": "base",
+     "en": "need"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
     }
    ],
    "derived": [],
@@ -341,7 +348,8 @@
      10
     ],
     "sq": "Kur është i nevojshëm?"
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "nevojtore",
@@ -405,7 +413,11 @@
    "components": [
     {
      "word": "nevojë",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "tore",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -430,7 +442,37 @@
      4
     ],
     "sq": "Ajo ishte rritur me nje nevojtore."
-   }
+   },
+   "breakdown": "historical"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "shem",
+   "label": "-shëm",
+   "meaning": "-ful, -able",
+   "summary": "Makes an adjective from a noun or verb: fuqi (strength) → i fuqishëm (powerful), kuptoj (to understand) → i kuptueshëm (understandable).",
+   "note": "The feminine is -shme (e fuqishme). After a verb in -oj it becomes -ueshëm.",
+   "examples": [
+    {
+     "sq": "domosdoshëm",
+     "en": "indispensable",
+     "stem": "domosdo",
+     "stem_en": "by all means"
+    },
+    {
+     "sq": "gatshëm",
+     "en": "ready",
+     "stem": "gati",
+     "stem_en": "ready"
+    },
+    {
+     "sq": "nevojshëm",
+     "en": "necessary",
+     "stem": "nevojë",
+     "stem_en": "need"
+    }
+   ]
   }
  ]
 }

@@ -73,7 +73,14 @@
    "components": [
     {
      "word": "absolut",
-     "role": "prefix"
+     "role": "base",
+     "en": "absolute"
+    },
+    {
+     "word": "isht",
+     "role": "suffix",
+     "affix": "isht",
+     "meaning": "-ly"
     }
    ],
    "derived": [],
@@ -89,7 +96,8 @@
      4
     ],
     "sq": "Absolutisht e vërtetë."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "rehat",
@@ -404,6 +412,35 @@
     ],
     "sq": "Është një turp absolut."
    }
+  }
+ ],
+ "patterns": [
+  {
+   "id": "isht",
+   "label": "-isht",
+   "meaning": "-ly",
+   "summary": "Turns an adjective into an adverb: zyrtar (official) → zyrtarisht (officially).",
+   "note": "It also names languages: gjermanisht = (in) German, kinezisht = (in) Chinese.",
+   "examples": [
+    {
+     "sq": "domosdoshmërisht",
+     "en": "indispensably",
+     "stem": "domosdoshmëri",
+     "stem_en": "indispensability"
+    },
+    {
+     "sq": "qartësisht",
+     "en": "clearly",
+     "stem": "qartë",
+     "stem_en": "clear"
+    },
+    {
+     "sq": "absolutisht",
+     "en": "absolutely",
+     "stem": "absolut",
+     "stem_en": "absolute"
+    }
+   ]
   }
  ]
 }

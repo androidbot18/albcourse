@@ -213,7 +213,11 @@
    "components": [
     {
      "word": "kujdes",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "em",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -237,7 +241,8 @@
      10
     ],
     "sq": "Pse duhet të kujdesem?"
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "kujdesshëm",
@@ -297,7 +302,14 @@
    "components": [
     {
      "word": "kujdes",
-     "role": "prefix"
+     "role": "base",
+     "en": "regard"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
     }
    ],
    "derived": [],
@@ -313,7 +325,8 @@
      5
     ],
     "sq": "Të jenë të kujdesshëm."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "kujdestar",
@@ -418,7 +431,14 @@
    "components": [
     {
      "word": "kujdes",
-     "role": "prefix"
+     "role": "base",
+     "en": "regard"
+    },
+    {
+     "word": "tar",
+     "role": "suffix",
+     "affix": "tar",
+     "meaning": "person / of"
     }
    ],
    "derived": [
@@ -445,7 +465,8 @@
      8
     ],
     "sq": "Unë jam një kujdestar."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "pakujdesshëm",
@@ -523,11 +544,14 @@
    "components": [
     {
      "word": "pa",
-     "role": "prefix"
+     "role": "prefix",
+     "affix": "pa",
+     "meaning": "un-, without"
     },
     {
      "word": "kujdesshëm",
-     "role": "stem"
+     "role": "stem",
+     "en": "careful"
     }
    ],
    "derived": [],
@@ -543,7 +567,8 @@
      10
     ],
     "sq": "Kështu që lojtarët të fitojë të pakujdesshëm."
-   }
+   },
+   "breakdown": "transparent"
   }
  ]
 }

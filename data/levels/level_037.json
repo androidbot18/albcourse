@@ -73,7 +73,14 @@
    "components": [
     {
      "word": "mendoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to think"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -98,7 +105,8 @@
      10
     ],
     "sq": "Vetëm një mendim."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "mendor",
@@ -174,7 +182,11 @@
    "components": [
     {
      "word": "mend",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "or",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -195,7 +207,8 @@
      10
     ],
     "sq": "Është një çrregullim mendor."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "mendjemadh",
@@ -310,7 +323,8 @@
      10
     ],
     "sq": "Nëse ju jeni mendjemadh, ju do të dështojnë."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "mendjemadhësi",
@@ -386,13 +400,21 @@
    "components": [
     {
      "word": "mendjemadh",
-     "role": "prefix"
+     "role": "base",
+     "en": "arrogant"
+    },
+    {
+     "word": "si",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "transparent"
   }
  ]
 }
