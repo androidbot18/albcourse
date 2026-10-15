@@ -47,6 +47,16 @@ These are defects in the current app. Fix them before any redesign.
 | 1.6 | **The test suite is red.** `test_pos_balance.py` fails (`unë` on L11). Because of `set -e`, the determinism test and Anki checks never run. The script's own comment admits this. | `run_tests.sh` | "All green" is not currently achievable, so regressions go unnoticed. |
 | 1.7 | **Stale metadata.** README says 4,087 words / 767 levels; the data has 4,086 / 771. Level titles have wrong "+N" counts (L1 `babi, zemër, në, re +2` has 4 words; L6 lists 6 words "+4" and has 6). README also says "level 1 is genuinely the first thing you should learn", which is no longer true. | `data/index.json`, `README.md` | Erodes trust; the level map looks broken. |
 
+
+**Status (P0 pass):** 1.1 to 1.5 and 1.7 are fixed in code; 1.6 is partly fixed.
+- 1.1 `startStudy()` now orders new cards by level, then rank.
+- 1.2 "Again" cards are re-queued at the end of the session.
+- 1.3 the 20-new-cards cap is per calendar day (`stats.newToday`, persisted).
+- 1.4 `due = startOfDay + interval*DAY` (a 1-day card is due tomorrow).
+- 1.5 direction is persisted and restarts the queue; reverse mode skips cards that fail `isReverseFriendly()` and has its own SRS items (`<id>~r`). Existing progress is unaffected.
+- 1.6 `run_tests.sh` no longer aborts on the first failure; it runs every suite and lists the failed ones. The data failures themselves remain, because they need a rebuild from the Kaikki dump, which was not reachable from this environment: `test_pos_balance` (`unë` on L11), `test_opening_policy` (rare-tail strays; it was hidden by the old abort) and `test_determinism` (needs `data/raw/`). The proper fix for the first two is the hand-curated opening in section 3.
+- 1.7 level titles now name three roots and count only the hidden ones (`tools/build_course.py` and the shipped JSON patched to match); README figures and the "level 1" claim corrected.
+
 ---
 
 ## 2. The roots concept: make it real

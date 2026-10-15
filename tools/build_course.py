@@ -73,6 +73,9 @@ FORM_CARD_MAX_RANK = 2000
 # in assign_levels().
 OPENING_MEMBER_MAX_RANK = 1200
 
+# Roots named in a multi-root level's title before the "+N" tail.
+TITLE_ROOTS = 3
+
 # How many rare members a family must have before deferring them is worth an
 # extra session.
 #
@@ -1539,11 +1542,14 @@ def assign_levels(cards, families, per_level=9, max_families=6,
             root = ""
             part, nparts = 1, 1
         if nparts == 1:
-            title = root if root else ", ".join(cur_roots)
+            # Name at most TITLE_ROOTS roots and count only the ones left out,
+            # so "+N" is the number actually hidden (it used to be len - 2
+            # while every root was still listed).
+            title = root if root else ", ".join(cur_roots[:TITLE_ROOTS])
         else:
             title = "%s %d/%d" % (root, part, nparts)
-        if len(cur_roots) > 2:
-            title += " +%d" % (len(cur_roots) - 2)
+        if not root and len(cur_roots) > TITLE_ROOTS:
+            title += " +%d" % (len(cur_roots) - TITLE_ROOTS)
         levels.append((root, list(cur_words), title, len(cur_roots), part, nparts))
         cur_words, cur_roots, cur_part = [], [], {}
 

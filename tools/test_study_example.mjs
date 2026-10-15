@@ -94,6 +94,8 @@ function buildViewStudy(src) {
     'function itemFor(id){ return null; }',
     'function grade(){ }',
     'function render(){ }',
+    "const REVERSE = '~r';",
+    'const baseId = (k) => (k.endsWith(REVERSE) ? k.slice(0, -REVERSE.length) : k);',
     'const GRADES = { AGAIN:1, HARD:2, GOOD:3, EASY:4 };',
     'const el = globalThis.__el;',
     'const document = globalThis.__document;',
@@ -122,7 +124,7 @@ function renderStudyCard(word, opts = {}) {
   globalThis.__el = el;
   globalThis.__document = document;
   globalThis.__state = {
-    queue: [word.id],
+    queue: [opts.direction === 'en2sq' ? word.id + '~r' : word.id],
     queuePos: 0,
     direction: opts.direction || 'sq2en',
     revealed: opts.revealed !== false,

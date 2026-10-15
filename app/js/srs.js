@@ -89,7 +89,8 @@ export function review(item, grade, now = Date.now()) {
   const scaled = (s.interval === 0 ? step : Math.max(step, s.interval * s.ease)) * GRADE_MULT[grade];
 
   s.interval = Math.max(1, Math.round(scaled));
-  s.due = startOfDay(now) + s.interval * DAY + DAY; // due tomorrow at the earliest
+  // interval 1 = tomorrow morning; the old extra DAY made it two days.
+  s.due = startOfDay(now) + s.interval * DAY;
   return s;
 }
 
