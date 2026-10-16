@@ -1,30 +1,31 @@
 {
  "level": 755,
- "title": "boj, dëboj, gjenetikë +3",
+ "title": "mbaj (more), korb, pjalm +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "arkitekturë",
-  "artrit",
-  "boj",
-  "dëboj",
-  "gjenetikë",
-  "kthetër"
+  "fryj",
+  "gdhendje",
+  "korb",
+  "mbaj",
+  "pjalm",
+  "zellshëm"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 5
+  "verb": 8,
+  "noun": 3,
+  "adj": 1
  },
  "words": [
   {
-   "id": "dëboj",
-   "sq": "dëboj",
-   "en": "to throw out, drive away, expel, banish",
+   "id": "përmbaj",
+   "sq": "përmbaj",
+   "en": "to contain",
    "glosses": [
-    "to throw out, drive away, expel, banish"
+    "to contain"
    ],
    "pos": [
     "verb"
@@ -36,9 +37,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to throw out, drive away, expel, banish",
+     "gloss": "to contain",
      "tags": [
-      "transitive"
+      "impersonal"
      ],
      "cats": [
       {
@@ -48,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with dë-",
+       "name": "Albanian terms prefixed with për-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,52 +63,51 @@
      ],
      "examples": [],
      "links": [
-      "throw",
-      "out",
-      "drive"
+      "contain"
      ]
     }
    ],
-   "rank": 29882,
-   "count": 15,
-   "family": "dëboj",
-   "is_root": true,
-   "etymology": "From dë- + boj, from Proto-Indo-European *bʰegʷ- (“to run”). Compare Ancient Greek φέβομαι (phébomai, “flee, be afraid”), φόβος (phóbos, “escape, fear”), Lithuanian bėgu (“run, flee”), Latvian bêgu (“flee”), Old Church Slavonic бѣгати (běgati, “flee”).",
+   "rank": 45828,
+   "count": 8,
+   "family": "mbaj",
+   "is_root": false,
+   "etymology": "From për- + mbaj.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "dë",
+     "word": "për",
      "role": "prefix"
     },
     {
-     "word": "boj",
+     "word": "mbaj",
      "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dëbova",
-     "tag": "aorist"
-    },
-    {
-     "form": "dëbuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null,
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "If you feel like crying, don't hold back.",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "Nëse të vjen të qash, mos u përmbaj."
+   },
    "breakdown": "historical"
   },
   {
-   "id": "dëbim",
-   "sq": "dëbim",
-   "en": "expulsion, banishment, deportation",
+   "id": "korb",
+   "sq": "korb",
+   "en": "raven",
    "glosses": [
-    "expulsion, banishment, deportation"
+    "raven"
    ],
    "pos": [
     "noun"
@@ -119,7 +119,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "expulsion, banishment, deportation",
+     "gloss": "raven",
      "tags": [
       "masculine"
      ],
@@ -131,92 +131,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "expulsion",
-      "banishment",
-      "deportation"
-     ]
-    }
-   ],
-   "rank": 38278,
-   "count": 10,
-   "family": "dëboj",
-   "is_root": false,
-   "etymology": "From dëboj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "dëboj",
-     "role": "base",
-     "en": "to throw out"
-    },
-    {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Much more than death; do not say banishment.",
-    "score": [
-     0,
-     8,
-     -8,
-     5
-    ],
-    "sq": "Më shumë se vdekja, nuk e them dëbim."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "boj",
-   "sq": "boj",
-   "en": "to mate",
-   "glosses": [
-    "to mate"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to mate",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -230,15 +145,86 @@
      ],
      "examples": [],
      "links": [
-      "mate"
+      "raven"
      ]
     }
    ],
-   "rank": 46421,
-   "count": 7,
-   "family": "boj",
+   "rank": 45835,
+   "count": 8,
+   "family": "korb",
    "is_root": true,
-   "etymology": "Metaphoric use of boj (“to drive”) (see dëboj), from Proto-Albanian *bāgnja, related to Lithuanian běgti (“to run”), Latvian bêgt (“id.”), Old Prussian begeyte (“id.”) and Greek φέβομαι (févomai, “to be put to flight, flee”), ultimately from Proto-Indo-European *bʰegʷ-. Usually attested in the passive form bohet.",
+   "etymology": "Borrowed through Vulgar Latin from Latin corvus. Compare Romanian corb, Italian corvo.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "korba",
+     "tag": "plural"
+    },
+    {
+     "form": "korbi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pjalm",
+   "sq": "pjalm",
+   "en": "pollen",
+   "glosses": [
+    "pollen"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pollen",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pollen"
+     ]
+    }
+   ],
+   "rank": 45839,
+   "count": 8,
+   "family": "pjalm",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *pelm-, from Proto-Indo-European *pelh₂- (“to push”), the same root of pjell (“to beget, procreate”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -248,197 +234,264 @@
    "related": [],
    "forms": [
     {
-     "form": "bova",
-     "tag": "aorist"
-    },
-    {
-     "form": "buar",
-     "tag": "participle"
+     "form": "pjalmi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Everything I do feels wrong.",
-    "score": [
-     2,
-     8,
-     -6,
-     8
-    ],
-    "sq": "Çkado që të boj po më duket keq."
-   }
+   "corpus_example": null
   },
   {
-   "id": "gjenetikë",
-   "sq": "gjenetikë",
-   "en": "genetics",
+   "id": "fryj",
+   "sq": "fryj",
+   "en": "to breathe (out); exhale; blow (towards something)",
    "glosses": [
-    "genetics"
+    "to breathe (out); exhale; blow (towards something)",
+    "to inflate",
+    "to wind",
+    "to raise; expand",
+    "to swell, inflate",
+    "to escape; run away",
+    "to annoy; (over)motivate"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "genetics",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to breathe (out); exhale; blow (towards something)",
      "tags": [
-      "feminine",
-      "uncountable"
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "breathe",
+      "out",
+      "exhale"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to inflate",
+     "tags": [
+      "transitive"
      ],
      "cats": [
-      {
-       "name": "Biology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Biology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Genetics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Genetics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
+       "_dis": "8 25 6 21 22 6 12"
       }
      ],
      "examples": [],
      "links": [
-      "biology",
-      "genetics"
+      "inflate"
      ]
-    }
-   ],
-   "rank": 46508,
-   "count": 7,
-   "family": "gjenetikë",
-   "is_root": true,
-   "etymology": "Internationalism, compare French génétique, Italian genetica, ultimately from English genetics.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "what is meant by genetics?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "çfarë nënkuptohet me gjenetikë?"
-   }
-  },
-  {
-   "id": "artrit",
-   "sq": "artrit",
-   "en": "arthritis (inflammation of a joint)",
-   "glosses": [
-    "arthritis (inflammation of a joint)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "arthritis (inflammation of a joint)",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wind",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wind"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to raise; expand",
+     "tags": [
+      "intransitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "8 25 6 21 22 6 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "raise",
+      "expand"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to swell, inflate",
+     "tags": [
+      "colloquial",
+      "intransitive"
+     ],
+     "cats": [
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 25 6 21 22 6 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "swell",
+      "inflate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to escape; run away",
+     "tags": [
+      "colloquial",
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 25 6 21 22 6 12"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 11 11 11 17 11 23"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 11 9 10 13 9 38"
       }
      ],
      "examples": [],
      "links": [
-      "arthritis"
+      "escape",
+      "run",
+      "away"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to annoy; (over)motivate",
+     "tags": [
+      "colloquial",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "annoy",
+      "over",
+      "motivate"
      ]
     }
    ],
-   "rank": 46525,
-   "count": 7,
-   "family": "artrit",
+   "rank": 45901,
+   "count": 8,
+   "family": "fryj",
    "is_root": true,
-   "etymology": "Borrowed from French arthrite.",
-   "etymology_class": "borrowed",
+   "etymology": "* According to Orel, from Proto-Albanian *sprūgnja, etymologically connected to Lithuanian sprūgstu, sprūgti (“to escape, get out”) and Proto-Slavic *prygati (“to spring, jump”).\n* Earlier form might have been *fnyj, from *pnyj, from Proto-Albanian *pnewa, hence from Proto-Indo-European *pnew-. Compare Ancient Greek πνέω (pnéō, “to blow”). A similar development p- > f- happened to ftoh, from Old Albanian *ptoh.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
+   "derived": [
+    "frymë",
+    "fryshëm",
+    "frymëmarrje"
+   ],
+   "related": [
+    "fryjë",
+    "freth",
+    "fryhem",
+    "shfrej"
+   ],
+   "forms": [
+    {
+     "form": "fryva",
+     "tag": "aorist"
+    },
+    {
+     "form": "fryrë",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "She always assumed it was arthritis.",
+    "en": "When I blow it, there is no sound.",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Ajo gjithmonë supozohet se ishte artrit."
+    "sq": "Kur e fryj, nuk ka asnjë zë."
    }
   },
   {
-   "id": "arkitekturë",
-   "sq": "arkitekturë",
-   "en": "architecture (art and science of designing buildings and other structures)",
+   "id": "zellshëm",
+   "sq": "zellshëm",
+   "en": "zealous",
    "glosses": [
-    "architecture (art and science of designing buildings and other structures)"
+    "zealous"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "architecture (art and science of designing buildings and other structures)",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "zealous",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -448,26 +501,20 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "architecture"
+      "zealous"
      ]
     }
    ],
-   "rank": 46573,
-   "count": 7,
-   "family": "arkitekturë",
+   "rank": 45908,
+   "count": 8,
+   "family": "zellshëm",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From zellje + -shëm.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -477,22 +524,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They are built with a modern architecture.",
+    "en": "How earnest should we be?",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Janë ndërtuar me një arkitekturë moderne."
+    "sq": "Sa të zellshëm duhet të jemi ne?"
    }
   },
   {
-   "id": "kthetër",
-   "sq": "kthetër",
-   "en": "claw",
+   "id": "gdhendje",
+   "sq": "gdhendje",
+   "en": "carving, engraving",
    "glosses": [
-    "claw"
+    "carving, engraving"
    ],
    "pos": [
     "noun"
@@ -504,7 +551,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "claw",
+     "gloss": "carving, engraving",
      "tags": [
       "feminine"
      ],
@@ -516,13 +563,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -je",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -530,16 +577,17 @@
      ],
      "examples": [],
      "links": [
-      "claw"
+      "carving",
+      "engraving"
      ]
     }
    ],
-   "rank": 46601,
+   "rank": 45944,
    "count": 7,
-   "family": "kthetër",
+   "family": "gdhendje",
    "is_root": true,
-   "etymology": "Deverbative of kthej (“to turn”).",
-   "etymology_class": null,
+   "etymology": "Gerund of gdhend; gdhend + -je.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -548,11 +596,25 @@
    "related": [],
    "forms": [
     {
-     "form": "kthetra",
+     "form": "gdhendje",
      "tag": "plural"
+    },
+    {
+     "form": "gdhendja",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Carvings on stone, wood and dried pumpkins.",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "Gdhendje në gur, dru dhe kunguj të thatë."
+   }
   }
  ],
  "extended": true

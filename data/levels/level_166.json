@@ -1,72 +1,441 @@
 {
  "level": 166,
- "title": "fitoj, kjo",
+ "title": "që, te, nga",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "fitoj",
-  "kjo"
+  "nga",
+  "që",
+  "te"
  ],
  "pos_mix": {
-  "det": 1,
-  "verb": 6
+  "conj": 2,
+  "pron": 2,
+  "adv": 2,
+  "prep": 4
  },
  "words": [
   {
-   "id": "kjo",
-   "sq": "kjo",
-   "en": "this, used also for neuter",
+   "id": "që",
+   "sq": "që",
+   "en": "that, which",
    "glosses": [
-    "this, used also for neuter"
+    "that, which",
+    "who, whom, that, which",
+    "when, where",
+    "since, from"
    ],
    "pos": [
-    "det"
+    "conj",
+    "pron",
+    "pron",
+    "adv"
    ],
    "pos_labels": [
-    "determiner"
+    "conjunction",
+    "pronoun",
+    "pronoun",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "this, used also for neuter",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "that, which",
      "tags": [
-      "feminine"
+      "relative"
      ],
      "cats": [
       {
-       "name": "Albanian determiners",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "1 20 39 40"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Është ai që po kërkojmë.",
+       "en": "It's him that we're looking for.",
+       "offsets": [
+        [
+         9,
+         11
+        ]
+       ]
       },
+      {
+       "sq": "A kishe parë librat që bleva?",
+       "en": "Have you seen the books (that) I bought?",
+       "offsets": [
+        [
+         20,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "that",
+      "which"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "who, whom, that, which",
+     "tags": [],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 0 45 49"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "1 20 39 40"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 38 43"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Replaces noun or pronoun. Connects dependent determinative sentence",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "who",
+      "whom",
+      "that"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "when, where",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 0 45 49"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 20 39 40"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 38 43"
       }
      ],
      "examples": [],
      "links": [
-      "this"
+      "when",
+      "where"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "since, from",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 0 38 43"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Që i ri...",
+       "en": "Since (he was) young...",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "since",
+      "from"
      ]
     }
    ],
-   "rank": 30,
-   "count": 59866,
-   "family": "kjo",
+   "rank": 10,
+   "count": 163738,
+   "family": "që",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ka-jā, based on a pronominal element *ka and a demonstrative (see ajo).",
+   "etymology": "From Proto-Albanian *kai. Alternatively or more likely from Latin quī.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qi",
+     "tag": "alternative"
+    },
+    {
+     "form": "qe",
+     "tag": "alternative"
+    },
+    {
+     "form": "çe",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "te",
+   "sq": "te",
+   "en": "at",
+   "glosses": [
+    "at",
+    "to",
+    "at (someone's) place"
+   ],
+   "pos": [
+    "prep",
+    "prep",
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition",
+    "preposition",
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "at",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 35 31"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Unë jam te pijetorja.",
+       "en": "I'm at the bar.",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "at"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "to",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 35 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "to"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "at (someone's) place",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 35 31"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Jemi te unë.",
+       "en": "We're at my place.",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "at"
+     ]
+    }
+   ],
+   "rank": 22,
+   "count": 73616,
+   "family": "te",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *te-k(u), from Proto-Indo-European *to- (“it”). Governs the nominative determinative, due to its relatively recent use as a preposition and its origin as a shortened form of Albanian *te-k(u).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "it"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "nga",
+   "sq": "nga",
+   "en": "at, from, to",
+   "glosses": [
+    "at, from, to",
+    "whence, where from"
+   ],
+   "pos": [
+    "prep",
+    "adv"
+   ],
+   "pos_labels": [
+    "preposition",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "at, from, to",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jo, unë nuk jam nga Shqipëria.",
+       "en": "No, I am not from Albania.",
+       "offsets": [
+        [
+         16,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "at",
+      "from",
+      "to"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "whence, where from",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "89 11"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "whence",
+      "where from"
+     ]
+    }
+   ],
+   "rank": 25,
+   "count": 65653,
+   "family": "nga",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *en-ka and related to the preposition ka (“from, out, out of, to”). Cognate with Old Church Slavonic къ (kŭ, “to”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -75,43 +444,36 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "What should it be for?",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Përse duhet kjo?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "fituar",
-   "sq": "fituar",
-   "en": "profit, past form (from fitoj, to profit)",
+   "id": "meqë",
+   "sq": "meqë",
+   "en": "since",
    "glosses": [
-    "profit, past form (from fitoj, to profit)"
+    "since"
    ],
    "pos": [
-    "verb"
+    "conj"
    ],
    "pos_labels": [
-    "verb"
+    "conjunction"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "profit, past form (from fitoj, to profit)",
-     "tags": [
-      "form-of",
-      "participle"
-     ],
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "since",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian univerbations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -121,247 +483,53 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "fitoj"
+     "links": [
+      "since"
+     ]
     }
    ],
-   "rank": 906,
-   "count": 1051,
-   "family": "fitoj",
+   "rank": 926,
+   "count": 1030,
+   "family": "që",
    "is_root": false,
-   "etymology": "",
+   "etymology": "Univerbation of me + që.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This means you have won.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Kjo do të thotë që keni fituar."
-   }
-  },
-  {
-   "id": "fitoj",
-   "sq": "fitoj",
-   "en": "to profit, earn",
-   "glosses": [
-    "to profit, earn",
-    "to win",
-    "to gain",
-    "to win, get on one's side",
-    "to receive, take (something unpleasant)"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
+   "components": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to profit, earn",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Fitoj pak nga dyqani.",
-       "en": "I earn a little from the store.",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "profit",
-      "earn"
-     ]
+     "word": "me",
+     "role": "prefix"
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to win",
-     "tags": [
-      "also",
-      "intransitive",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "E fitova ndeshjen.",
-       "en": "I won the match.",
-       "offsets": [
-        [
-         0,
-         8
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "win"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to gain",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Fitoj besimin e shokëve.",
-       "en": "I gain the trust of friends.",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      },
-      {
-       "sq": "Fitoj dashurinë e shokëve.",
-       "en": "I gain the love of friends.",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "gain"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to win, get on one's side",
-     "tags": [
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian back-formations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 0 0 70 0"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 9 9 55 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 13 13 42 13"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "E fitova zemrën e Lindës.",
-       "en": "I won Linda's heart.",
-       "offsets": [
-        [
-         0,
-         8
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "win",
-      "side"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to receive, take (something unpleasant)",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "receive",
-      "take"
-     ]
+     "word": "që",
+     "role": "stem"
     }
    ],
-   "rank": 1528,
-   "count": 580,
-   "family": "fitoj",
-   "is_root": true,
-   "etymology": "Back-formation from përfitoj (“to profit”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "fit",
-    "fitim",
-    "fitore",
-    "fituar",
-    "fitues"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "fitova",
-     "tag": "aorist"
-    },
-    {
-     "form": "fituar",
-     "tag": "participle"
+     "form": "meqenëse",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Since we are in the season of the Lion.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Meqë jemi në sezonin e Luanit."
+   },
+   "breakdown": "historical"
   }
  ]
 }

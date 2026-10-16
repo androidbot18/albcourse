@@ -1,30 +1,144 @@
 {
  "level": 624,
- "title": "pambuk, lakër, ngreh +3",
+ "title": "vashë, udhëzoj, stinë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "balenë",
-  "beqari",
-  "lakër",
-  "ngreh",
-  "pambuk",
-  "xhel"
+  "arësye",
+  "ishalla",
+  "petull",
+  "stinë",
+  "udhëzoj",
+  "vashë"
  ],
  "pos_mix": {
   "noun": 7,
+  "intj": 1,
   "verb": 1
  },
  "words": [
   {
-   "id": "pambuk",
-   "sq": "pambuk",
-   "en": "cotton",
+   "id": "vashë",
+   "sq": "vashë",
+   "en": "young girl",
    "glosses": [
-    "cotton"
+    "young girl",
+    "synonym of vajzë"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "young girl",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Poetry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Poetry",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 28"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Vashë e bukur",
+       "en": "beautiful young girl",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Vashat e fshatit",
+       "en": "village young girls",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "poetry",
+      "young",
+      "girl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "synonym of vajzë",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vajzë"
+     ]
+    }
+   ],
+   "rank": 22322,
+   "count": 22,
+   "family": "vashë",
+   "is_root": true,
+   "etymology": "See vajzë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "vashëri",
+    "vashëror"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "vasha",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "udhëzim",
+   "sq": "udhëzim",
+   "en": "instruction",
+   "glosses": [
+    "instruction"
    ],
    "pos": [
     "noun"
@@ -36,7 +150,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cotton",
+     "gloss": "instruction",
      "tags": [
       "masculine"
      ],
@@ -48,7 +162,101 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "instruction"
+     ]
+    }
+   ],
+   "rank": 22354,
+   "count": 22,
+   "family": "udhëzoj",
+   "is_root": false,
+   "etymology": "From udhëzoj + -im noun suffix.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "udhëzoj",
+     "role": "base",
+     "en": "to instruct"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëzime",
+     "tag": "plural"
+    },
+    {
+     "form": "udhëzimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "That's it for this tutorial.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Kjo është ajo për këtë udhëzim."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "stinë",
+   "sq": "stinë",
+   "en": "season",
+   "glosses": [
+    "season"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "season",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,17 +268,23 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Stinët e vitit",
+       "en": "Seasons of the year",
+       "offsets": []
+      }
+     ],
      "links": [
-      "cotton"
+      "season"
      ]
     }
    ],
-   "rank": 22617,
+   "rank": 22355,
    "count": 22,
-   "family": "pambuk",
+   "family": "stinë",
    "is_root": true,
-   "etymology": "Compare Turkish pamuk (Ottoman Turkish پاموق), Serbo-Croatian pàmuk, Romanian bumbac, Greek βαμβάκι (vamváki), Ancient Greek βάμβαξ (bámbax).",
+   "etymology": "Unclear. Maybe a late irregular borrowing from Latin stationem.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -80,151 +294,34 @@
    "related": [],
    "forms": [
     {
-     "form": "pambuku",
+     "form": "stinë",
+     "tag": "plural"
+    },
+    {
+     "form": "stina",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Cotton Bush also gives us food.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Pambuk Bush gjithashtu na jep ushqim."
-   }
+   "corpus_example": null
   },
   {
-   "id": "lakër",
-   "sq": "lakër",
-   "en": "cabbage (Brassica oleracea)",
+   "id": "petull",
+   "sq": "petull",
+   "en": "pancake",
    "glosses": [
-    "cabbage (Brassica oleracea)",
-    "leafy vegetable"
+    "pancake"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cabbage (Brassica oleracea)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Crucifers",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Crucifers",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cabbage",
-      "Brassica oleracea"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "leafy vegetable",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 72"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 72"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 73"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "leafy",
-      "vegetable"
-     ]
-    }
-   ],
-   "rank": 22628,
-   "count": 22,
-   "family": "lakër",
-   "is_root": true,
-   "etymology": "From earlier lakënë, borrowed from Ancient Greek λάχανον (lákhanon, “garden herb, vegetables”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "lakërarme",
-    "lakërishtë",
-    "lakëroj"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "lakra",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Grow sprouts at home, school, work.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Rritni lakër në shtëpi, shkollë, punë."
-   }
-  },
-  {
-   "id": "ngreh",
-   "sq": "ngreh",
-   "en": "to set, raise, build up",
-   "glosses": [
-    "to set, raise, build up"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to set, raise, build up",
+     "gloss": "pancake",
      "tags": [],
      "cats": [
       {
@@ -248,100 +345,13 @@
      ],
      "examples": [],
      "links": [
-      "set",
-      "raise",
-      "build"
+      "pancake"
      ]
     }
    ],
-   "rank": 22636,
+   "rank": 22379,
    "count": 22,
-   "family": "ngreh",
-   "is_root": true,
-   "etymology": "A variant of ngre. More at ngre.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ngreha",
-     "tag": "aorist"
-    },
-    {
-     "form": "ngrehur",
-     "tag": "participle"
-    },
-    {
-     "form": "ngre",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And that raises serious questions, Stano said.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Dhe kjo ngreh shqetësime serioze."
-   }
-  },
-  {
-   "id": "xhel",
-   "sq": "xhel",
-   "en": "gel",
-   "glosses": [
-    "gel"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "gel",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "gel"
-     ]
-    }
-   ],
-   "rank": 22659,
-   "count": 22,
-   "family": "xhel",
+   "family": "petull",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -354,23 +364,93 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Gel arrived on time.",
+    "en": "Flapjack puzzle games like younger players.",
     "score": [
-     1,
-     4,
-     -3,
+     3,
+     7,
+     -4,
      10
     ],
-    "sq": "Xhel erdhi në kohë."
+    "sq": "lojra puzzle petull si lojtarë të rinj."
    }
   },
   {
-   "id": "balenë",
-   "sq": "balenë",
-   "en": "whale",
+   "id": "ishalla",
+   "sq": "ishalla",
+   "en": "inshallah (God willing)",
    "glosses": [
-    "whale",
-    "whalebone, whalebone stay"
+    "inshallah (God willing)"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "inshallah (God willing)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "inshallah"
+     ]
+    }
+   ],
+   "rank": 22394,
+   "count": 22,
+   "family": "ishalla",
+   "is_root": true,
+   "etymology": "Borrowed from Arabic إِنْ شَاءَ ٱللَٰه (ʔin šāʔa llāh).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Inshallah.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Ishalla. Ishalla. Shpresoj."
+   }
+  },
+  {
+   "id": "arësye",
+   "sq": "arësye",
+   "en": "reason",
+   "glosses": [
+    "reason",
+    "rationale"
    ],
    "pos": [
     "noun",
@@ -384,161 +464,57 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "whale",
-     "tags": [],
+     "gloss": "reason",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
-       "name": "Zoology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Cetaceans",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "orig": "sq:Cetaceans",
-       "langcode": "sq",
-       "_dis": "51 49"
+       "_dis": "86 14"
       },
       {
-       "name": "Whales",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "orig": "sq:Whales",
-       "langcode": "sq",
-       "_dis": "67 33"
+       "_dis": "80 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 10"
       }
      ],
      "examples": [],
      "links": [
-      "zoology",
-      "whale"
+      "reason"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "whalebone, whalebone stay",
+     "gloss": "rationale",
      "tags": [
-      "colloquial"
+      "feminine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "38 62"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 73"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 76"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "whalebone",
-      "stay"
+      "rationale"
      ]
     }
    ],
-   "rank": 22663,
+   "rank": 22412,
    "count": 22,
-   "family": "balenë",
+   "family": "arësye",
    "is_root": true,
-   "etymology": "Borrowed from Italian balena (“whale”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "whale"
-   ],
-   "components": [],
-   "derived": [
-    "balenologji",
-    "balenagjuajtës",
-    "balenator",
-    "balenatore"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "you got a crazy whale mouth!",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "keni marrë një gojë të çmendur balenë!"
-   }
-  },
-  {
-   "id": "beqari",
-   "sq": "beqari",
-   "en": "bachelorhood (the condition of being a bachelor)",
-   "glosses": [
-    "bachelorhood (the condition of being a bachelor)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bachelorhood (the condition of being a bachelor)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bachelorhood"
-     ]
-    }
-   ],
-   "rank": 22701,
-   "count": 22,
-   "family": "beqari",
-   "is_root": true,
-   "etymology": "From beqar.",
+   "etymology": "Form of arsye.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -547,7 +523,98 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And why did he put him to death?",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Dhe për çfarë arësye e vrau atë?"
+   }
+  },
+  {
+   "id": "udhëzoj",
+   "sq": "udhëzoj",
+   "en": "to instruct",
+   "glosses": [
+    "to instruct"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to instruct",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "instruct"
+     ]
+    }
+   ],
+   "rank": 36752,
+   "count": 11,
+   "family": "udhëzoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëzova",
+     "tag": "aorist"
+    },
+    {
+     "form": "udhëzuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I will guide you.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Unë do t'ju udhëzoj."
+   }
   }
  ],
  "extended": true

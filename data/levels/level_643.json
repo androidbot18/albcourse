@@ -1,30 +1,220 @@
 {
  "level": 643,
- "title": "prej (more), abuzim, akuarium +3",
+ "title": "biologji, ha (more), riparoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "abuzim",
-  "akuarium",
-  "lisë",
-  "mitër",
-  "mërzi",
-  "prej"
+  "biologji",
+  "gjashtë",
+  "ha",
+  "kollë",
+  "riparoj",
+  "ruajtje"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 9
+  "noun": 5,
+  "verb": 2,
+  "num": 1
  },
  "words": [
   {
-   "id": "ndërprej",
-   "sq": "ndërprej",
-   "en": "to interrupt something",
+   "id": "biologji",
+   "sq": "biologji",
+   "en": "biology",
    "glosses": [
-    "to interrupt something"
+    "biology"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "biology",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -logji",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "biology"
+     ]
+    }
+   ],
+   "rank": 24886,
+   "count": 19,
+   "family": "biologji",
+   "is_root": true,
+   "etymology": "Ancient Greek βιολογία (viología, “biologia”).\nFrom bio + -logji.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "biologia"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "biologjia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "That does not happen in biology.",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Kjo nuk ndodh në biologji."
+   }
+  },
+  {
+   "id": "hamendje",
+   "sq": "hamendje",
+   "en": "guess",
+   "glosses": [
+    "guess",
+    "hypothesis"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guess",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "67 33"
+      },
+      {
+       "name": "Albanian terms prefixed with ha-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guess"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hypothesis",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hypothesis"
+     ]
+    }
+   ],
+   "rank": 24907,
+   "count": 19,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "From ha- + mendje.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ha",
+     "role": "prefix"
+    },
+    {
+     "word": "mendje",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "hamendje",
+     "tag": "plural"
+    },
+    {
+     "form": "hamendja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "No more guessing.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Nuk ka më hamendje."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "riparoj",
+   "sq": "riparoj",
+   "en": "to repair",
+   "glosses": [
+    "to repair"
    ],
    "pos": [
     "verb"
@@ -36,8 +226,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to interrupt something",
-     "tags": [],
+     "gloss": "to repair",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +238,74 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with ndër-",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "repair"
+     ]
+    }
+   ],
+   "rank": 24908,
+   "count": 19,
+   "family": "riparoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "riparuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kollë",
+   "sq": "kollë",
+   "en": "cough",
+   "glosses": [
+    "cough"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cough",
+     "tags": [
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,496 +319,286 @@
      ],
      "examples": [],
      "links": [
-      "interrupt"
+      "cough"
      ]
     }
    ],
-   "rank": 25094,
+   "rank": 24975,
    "count": 19,
-   "family": "prej",
+   "family": "kollë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kāslā, from Proto-Indo-European *kʷeh₂s- (“cough”) (compare English wheeze, Lithuanian kosulỹs, Serbo-Croatian kašalj).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "cough"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kolla",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A dry cough appears.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Shfaqet një kollë e thatë."
+   }
+  },
+  {
+   "id": "gjashtëmbëdhjetë",
+   "sq": "gjashtëmbëdhjetë",
+   "en": "sixteen",
+   "glosses": [
+    "sixteen"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "sixteen",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -mbëdhjetë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sixteen"
+     ]
+    }
+   ],
+   "rank": 24989,
+   "count": 19,
+   "family": "gjashtë",
    "is_root": false,
-   "etymology": "From ndër- (“among, between”) + prej (“to cut”).",
+   "etymology": "From gjashtë (“six”) + -mbëdhjetë (“-teen”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "six"
+   ],
+   "components": [
+    {
+     "word": "gjashtë",
+     "role": "base"
+    },
+    {
+     "word": "mbëdhjetë",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "She was so young, only sixteen.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Ajo ishte aq i ri, vetëm gjashtëmbëdhjetë."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "ruajtje",
+   "sq": "ruajtje",
+   "en": "preservation, storage",
+   "glosses": [
+    "preservation, storage"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "preservation, storage",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian deverbals",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "preservation",
+      "storage"
+     ]
+    }
+   ],
+   "rank": 24994,
+   "count": 19,
+   "family": "ruajtje",
+   "is_root": true,
+   "etymology": "Deverbal from ruaj.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Now for storage.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Tani për ruajtje."
+   }
+  },
+  {
+   "id": "hamendësoj",
+   "sq": "hamendësoj",
+   "en": "to guess; speculate",
+   "glosses": [
+    "to guess; speculate"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to guess; speculate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guess",
+      "speculate"
+     ]
+    }
+   ],
+   "rank": 32764,
+   "count": 13,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "From hamendje + -oj (verb suffix).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "ndër",
-     "role": "prefix"
+     "word": "hamendje",
+     "role": "base"
     },
     {
-     "word": "prej",
-     "role": "stem"
+     "word": "oj",
+     "role": "suffix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": null,
-   "breakdown": "historical"
-  },
-  {
-   "id": "abuzim",
-   "sq": "abuzim",
-   "en": "abuse",
-   "glosses": [
-    "abuse"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "abuse",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "abuse"
-     ]
+     "form": "hamendësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "hamendësuar",
+     "tag": "participle"
     }
    ],
-   "rank": 25116,
-   "count": 19,
-   "family": "abuzim",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then I realised it was child abuse.",
+    "en": "how i can guess about wining numbers?",
     "score": [
-     0,
+     3,
      7,
-     -7,
+     -4,
      10
     ],
-    "sq": "Pastaj kuptova se ishte abuzim me fëmijët."
-   }
-  },
-  {
-   "id": "akuarium",
-   "sq": "akuarium",
-   "en": "aquarium",
-   "glosses": [
-    "aquarium"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "aquarium",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "aquarium"
-     ]
-    }
-   ],
-   "rank": 25145,
-   "count": 19,
-   "family": "akuarium",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Put them in an aquarium.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Vendos ato në një akuarium."
-   }
-  },
-  {
-   "id": "mërzi",
-   "sq": "mërzi",
-   "en": "depression",
-   "glosses": [
-    "depression",
-    "boredom",
-    "a yearning to leave",
-    "spleen"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "depression",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "depression"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "boredom",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "boredom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a yearning to leave",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spleen",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 11 25 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 12 28 49"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 8 15 71"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "spleen"
-     ]
-    }
-   ],
-   "rank": 25158,
-   "count": 19,
-   "family": "mërzi",
-   "is_root": true,
-   "etymology": "from mërzit, mërzis. close to marrë, marr",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "mërzitur",
-    "shpretkë"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "GlobalVoices",
-    "en": "and enjoys the boredom.",
-    "score": [
-     1,
-     4,
-     -3,
-     3
-    ],
-    "sq": "dhe kënaqet në mërzi."
-   }
-  },
-  {
-   "id": "lisë",
-   "sq": "lisë",
-   "en": "woof, weft",
-   "glosses": [
-    "woof, weft",
-    "heddle"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "woof, weft",
-     "tags": [
-      "feminine",
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Weaving",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Weaving",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weaving",
-      "regional",
-      "woof"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "heddle",
-     "tags": [
-      "feminine",
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Weaving",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Weaving",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weaving",
-      "regional",
-      "heddle"
-     ]
-    }
-   ],
-   "rank": 25167,
-   "count": 19,
-   "family": "lisë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *litšā, from Proto-Indo-European *leykʷyeh₂, derivative of *leykʷ- (“to leave, to remain”); related to liq.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "liq",
-    "lismë"
-   ],
-   "forms": [
-    {
-     "form": "lisa",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "mitër",
-   "sq": "mitër",
-   "en": "womb, uterus",
-   "glosses": [
-    "womb, uterus"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "womb, uterus",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "womb",
-      "uterus"
-     ]
-    }
-   ],
-   "rank": 25174,
-   "count": 19,
-   "family": "mitër",
-   "is_root": true,
-   "etymology": "From Greek μήτρα (mítra, “womb, uterus”).",
-   "etymology_class": "borrowed",
-   "source_lang": "el",
-   "cognate": "from Greek μήτρα",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "mitra",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This is then implanted in the womb.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Kjo më pas implantohet në mitër."
-   }
+    "sq": "si mund të hamendësoj për numrat fitues?"
+   },
+   "breakdown": "historical"
   }
  ],
  "extended": true

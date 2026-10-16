@@ -1,75 +1,81 @@
 {
  "level": 508,
- "title": "kund, ligjërisht, kafkë +3",
+ "title": "automatik, ballë (more), trokë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "aleat",
-  "kafkë",
-  "komandë",
-  "kund",
-  "ligjërisht",
-  "ndër"
+  "automatik",
+  "ballë",
+  "bojë",
+  "hokej",
+  "jelek",
+  "trokë"
  ],
  "pos_mix": {
-  "adv": 4,
-  "noun": 4
+  "adj": 1,
+  "noun": 7,
+  "verb": 1
  },
  "words": [
   {
-   "id": "kund",
-   "sq": "kund",
-   "en": "somewhere",
+   "id": "automatik",
+   "sq": "automatik",
+   "en": "automatic (capable of operating without external control)",
    "glosses": [
-    "somewhere"
+    "automatic (capable of operating without external control)",
+    "machine gun"
    ],
    "pos": [
-    "adv"
+    "adj",
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "adjective",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "somewhere",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "automatic (capable of operating without external control)",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "92 8"
       }
      ],
      "examples": [],
      "links": [
-      "somewhere"
+      "automatic"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "machine gun",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "machine gun"
      ]
     }
    ],
-   "rank": 11418,
-   "count": 55,
-   "family": "kund",
+   "rank": 11356,
+   "count": 56,
+   "family": "automatik",
    "is_root": true,
-   "etymology": "From Proto-Albanian *kum to(m); accusative singular of *ku and a pronominal stem *to-.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from English automatic, from French automatique, from Ancient Greek αὐτόματον (autómaton), neuter of αὐτόματος (autómatos, “self-moving, moving of oneself, self-acting, spontaneous”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -79,109 +85,116 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This does not happen anywhere in the world.",
+    "en": "Registration is automatic.",
     "score": [
-     0,
-     6,
-     -6,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Kjo nuk ndodh kund në botë."
+    "sq": "Regjistrimi është automatik."
    }
   },
   {
-   "id": "ligjërisht",
-   "sq": "ligjërisht",
-   "en": "lawfully",
+   "id": "përball",
+   "sq": "përball",
+   "en": "to face, to defy",
    "glosses": [
-    "lawfully",
-    "legally"
+    "to face, to defy"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "lawfully",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to face, to defy",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "lawfully"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "legally",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "legally"
+      "face",
+      "defy"
      ]
     }
    ],
-   "rank": 11467,
+   "rank": 11360,
    "count": 55,
-   "family": "ligjërisht",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "family": "ballë",
+   "is_root": false,
+   "etymology": "From për- + ballë (“forehead”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "forehead"
+   ],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "ballë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "përballa",
+     "tag": "aorist"
+    },
+    {
+     "form": "përballur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "quickly and legally.",
+    "corpus": "TED2020",
+    "en": "When he sees her in person, he says it's an impostor.",
     "score": [
-     0,
-     3,
-     -3,
-     10
+     1,
+     7,
+     -6,
+     4
     ],
-    "sq": "Shpejt dhe ligjërisht."
-   }
+    "sq": "Kur e sheh përball thotë është gënjeshtare."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "kafkë",
-   "sq": "kafkë",
-   "en": "skull",
+   "id": "trokë",
+   "sq": "trokë",
+   "en": "earth, world; ground, floor",
    "glosses": [
-    "skull"
+    "earth, world; ground, floor"
    ],
    "pos": [
     "noun"
@@ -193,7 +206,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "skull",
+     "gloss": "earth, world; ground, floor",
      "tags": [
       "feminine"
      ],
@@ -219,49 +232,113 @@
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "skull"
+      "earth",
+      "world",
+      "ground"
      ]
     }
    ],
-   "rank": 11519,
-   "count": 54,
-   "family": "kafkë",
+   "rank": 11364,
+   "count": 55,
+   "family": "trokë",
    "is_root": true,
-   "etymology": "Borrowed from Byzantine Greek καῦκος (kaûkos, “cup”).",
-   "etymology_class": "borrowed",
+   "etymology": "A variant of tokë.\nHas probably been influenced by truall, plural troje \"land, place\"",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "cup"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "kafka",
+     "form": "troka",
      "tag": "plural"
+    },
+    {
+     "form": "tokë",
+     "tag": "alternative"
     }
    ],
+   "corpus_example": null
+  },
+  {
+   "id": "jelek",
+   "sq": "jelek",
+   "en": "waistcoat, vest",
+   "glosses": [
+    "waistcoat, vest"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "waistcoat, vest",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "waistcoat",
+      "vest"
+     ]
+    }
+   ],
+   "rank": 11372,
+   "count": 55,
+   "family": "jelek",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish یلك (yelek).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Blow hole had already walked up the skull.",
+    "en": "through the hands, head over white undershirt stretched.",
     "score": [
      1,
      8,
      -7,
      10
     ],
-    "sq": "Vrimë Goditje tashmë kishin ecur deri në kafkë."
+    "sq": "nëpër duar, kokë e shtrirje të bardhë jelek."
    }
   },
   {
-   "id": "aleat",
-   "sq": "aleat",
-   "en": "ally",
+   "id": "hokej",
+   "sq": "hokej",
+   "en": "hockey",
    "glosses": [
-    "ally"
+    "hockey"
    ],
    "pos": [
     "noun"
@@ -273,225 +350,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ally",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ally"
-     ]
-    }
-   ],
-   "rank": 11530,
-   "count": 54,
-   "family": "aleat",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The registration was made by an allied country.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Regjistrimi është bërë nga një vend aleat."
-   }
-  },
-  {
-   "id": "komandë",
-   "sq": "komandë",
-   "en": "command",
-   "glosses": [
-    "command"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "command",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "command"
-     ]
-    }
-   ],
-   "rank": 11561,
-   "count": 54,
-   "family": "komandë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He immediately rose to command.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Menjëherë u ngjit në komandë."
-   }
-  },
-  {
-   "id": "ndërgjegje",
-   "sq": "ndërgjegje",
-   "en": "conscience (moral sense of faculty)",
-   "glosses": [
-    "conscience (moral sense of faculty)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "conscience (moral sense of faculty)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with ndër-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Të gjithë njerëzit lindin të lirë dhe të barabartë në dinjitet dhe në të drejta. Ata kanë arsye dhe ndërgjegje dhe duhet të sillen ndaj njëri tjetrit me frymë vëllazërimi.",
-       "en": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "conscience"
-     ]
-    }
-   ],
-   "rank": 11566,
-   "count": 54,
-   "family": "ndër",
-   "is_root": false,
-   "etymology": "Compound formation of ndër- + gjegje.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ndër",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null,
-   "breakdown": "historical"
-  },
-  {
-   "id": "çdokund",
-   "sq": "çdokund",
-   "en": "everywhere",
-   "glosses": [
-    "everywhere"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "everywhere",
+     "gloss": "hockey",
      "tags": [],
      "cats": [
       {
@@ -501,7 +360,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -515,46 +374,203 @@
      ],
      "examples": [],
      "links": [
-      "everywhere"
+      "hockey"
      ]
     }
    ],
-   "rank": 13477,
-   "count": 44,
-   "family": "kund",
-   "is_root": false,
-   "etymology": "From çdo (“all, every”) + kund (“somewhere”).",
-   "etymology_class": "compound",
+   "rank": 11376,
+   "count": 55,
+   "family": "hokej",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "somewhere"
-   ],
-   "components": [
-    {
-     "word": "çdo",
-     "role": "prefix"
-    },
-    {
-     "word": "kund",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "However, two taboos exist everywhere.",
+    "corpus": "HPLT",
+    "en": "Cornell Ubuye uhlelo strong hockey.",
     "score": [
-     2,
-     5,
-     -3,
-     8
+     1,
+     8,
+     -7,
+     10
     ],
-    "sq": "Megjithatë, dy tabu ekzistojnë çdokund."
-   },
-   "breakdown": "historical"
+    "sq": "Cornell gjithashtu ka një program të fortë hokej."
+   }
+  },
+  {
+   "id": "bojë",
+   "sq": "bojë",
+   "en": "ink",
+   "glosses": [
+    "ink",
+    "dye",
+    "paint"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ink",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ink"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dye",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dye"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "paint",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "paint"
+     ]
+    }
+   ],
+   "rank": 11394,
+   "count": 55,
+   "family": "bojë",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish بویا (boya), from Proto-Turkic *boda-.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "bojalleshë",
+    "bojalli",
+    "bojargjend",
+    "bojatis",
+    "bojatisje",
+    "bojaxhi",
+    "bojëbizele",
+    "bojëçelik"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "boja",
+     "tag": "plural"
+    },
+    {
+     "form": "bojëra",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "Brown. Dan Ariely: Brown. Thank you.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Bojë kafe. Faleminderit. Poshtë?"
+   }
   }
  ],
  "extended": true

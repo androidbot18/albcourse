@@ -1,77 +1,119 @@
 {
  "level": 594,
- "title": "furçë, kufje, lake +3",
+ "title": "votoj, emëroj, presh +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "furçë",
-  "kacabu",
-  "kufje",
-  "lake",
-  "shaj",
-  "shtet"
+  "cikël",
+  "emëroj",
+  "humb",
+  "presh",
+  "shkëndijë",
+  "votoj"
  ],
  "pos_mix": {
-  "noun": 5,
-  "verb": 2
+  "verb": 3,
+  "noun": 8
  },
  "words": [
   {
-   "id": "furçë",
-   "sq": "furçë",
-   "en": "brush",
+   "id": "votoj",
+   "sq": "votoj",
+   "en": "to vote",
    "glosses": [
-    "brush"
+    "to vote",
+    "to be elected"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "brush",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to vote",
      "tags": [
-      "feminine"
+      "active",
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jo, nuk votoj për dënim me vdekje.",
+       "en": "No, I don't vote for death penalty.",
+       "offsets": [
+        [
+         8,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "vote"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be elected",
+     "tags": [
+      "intransitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "42 58"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "44 56"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Votohem nga populli.",
+       "en": "I am elected by the people.",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
      "links": [
-      "brush"
+      "elected"
      ]
     }
    ],
-   "rank": 19240,
-   "count": 27,
-   "family": "furçë",
+   "rank": 18930,
+   "count": 28,
+   "family": "votoj",
    "is_root": true,
-   "etymology": "Borrowed from Turkish fırça.",
-   "etymology_class": "borrowed",
+   "etymology": "votë (vote) + -oj (-I)",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -80,42 +122,32 @@
    "related": [],
    "forms": [
     {
-     "form": "furça",
-     "tag": "plural"
+     "form": "votuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Brush two eyes right, two wrong.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Furçë dy sytë drejtë, dy gabuar."
-   }
+   "corpus_example": null
   },
   {
-   "id": "kufje",
-   "sq": "kufje",
-   "en": "earphone",
+   "id": "emëroj",
+   "sq": "emëroj",
+   "en": "to appoint, to name",
    "glosses": [
-    "earphone"
+    "to appoint, to name"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "earphone",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to appoint, to name",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -139,13 +171,14 @@
      ],
      "examples": [],
      "links": [
-      "earphone"
+      "appoint",
+      "name"
      ]
     }
    ],
-   "rank": 19241,
-   "count": 27,
-   "family": "kufje",
+   "rank": 18949,
+   "count": 28,
+   "family": "emëroj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -155,268 +188,373 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "emëruar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "No headset to wear.",
+    "en": "I name you as my assistant.",
     "score": [
-     0,
+     3,
      6,
-     -6,
+     -3,
      10
     ],
-    "sq": "Nuk ka kufje për tu veshur."
+    "sq": "Po të emëroj si asistentin tim."
    }
   },
   {
-   "id": "lake",
-   "sq": "lake",
-   "en": "lackey",
+   "id": "presh",
+   "sq": "presh",
+   "en": "leek",
    "glosses": [
-    "lackey"
+    "leek",
+    "chives"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "lackey",
+     "gloss": "leek",
      "tags": [
-      "derogatory",
-      "literary"
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "derogatory",
-      "lackey"
+      "leek"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chives",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 38 38"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 38 38"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 90"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chives"
      ]
     }
    ],
-   "rank": 19246,
-   "count": 27,
-   "family": "lake",
+   "rank": 18982,
+   "count": 28,
+   "family": "presh",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *prasa, from Proto-Indo-European *pr̥so-, possibly of non-Indo-European origin. Cognate with Ancient Greek πράσον (práson), Latin porrum, or perhaps borrowed from Ancient Greek. Variants porr and purri are probably from Latin.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "preshë",
+     "tag": "plural"
+    },
+    {
+     "form": "preshi",
+     "tag": "definite"
+    },
+    {
+     "form": "pras",
+     "tag": "alternative"
+    },
+    {
+     "form": "purri",
+     "tag": "alternative"
+    },
+    {
+     "form": "porr",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Lake Louise arrive in drive of about an hour.",
+    "en": "Want a quick pie with potatoes and leeks?",
     "score": [
      2,
      9,
      -7,
      10
     ],
-    "sq": "Lake Louise arrijnë në makinë e rreth një orë."
+    "sq": "Dëshironi një byrek të shpejtë me patate dhe presh?"
    }
   },
   {
-   "id": "shaj",
-   "sq": "shaj",
-   "en": "to insult, revile, slander",
+   "id": "shkëndijë",
+   "sq": "shkëndijë",
+   "en": "spark",
    "glosses": [
-    "to insult, revile, slander",
-    "to split, cleave, smash, batter"
+    "spark",
+    "sparkle, twinkle",
+    "firefly"
    ],
    "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to insult, revile, slander",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "insult",
-      "revile",
-      "slander"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to split, cleave, smash, batter",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "39 61"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "split",
-      "cleave",
-      "smash"
-     ]
-    }
-   ],
-   "rank": 19276,
-   "count": 27,
-   "family": "shaj",
-   "is_root": true,
-   "etymology": "From a variant of çaj (“smash”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "smash"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shava",
-     "tag": "aorist"
-    },
-    {
-     "form": "sharë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "That after-hours with sorrow chide us not!",
-    "score": [
-     0,
-     8,
-     -8,
-     5
-    ],
-    "sq": "Se pas-orë me keqardhje nuk na shaj!"
-   }
-  },
-  {
-   "id": "kacabu",
-   "sq": "kacabu",
-   "en": "beetle",
-   "glosses": [
-    "beetle"
-   ],
-   "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "beetle",
+     "gloss": "spark",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "spark"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sparkle, twinkle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sparkle",
+      "twinkle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "firefly",
+     "tags": [
+      "feminine"
      ],
      "cats": [
+      {
+       "name": "Entomology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Entomology",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with kaca-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 23 71"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 26 67"
       }
      ],
      "examples": [],
      "links": [
-      "beetle"
+      "entomology",
+      "firefly"
      ]
     }
    ],
-   "rank": 19301,
-   "count": 27,
-   "family": "kacabu",
+   "rank": 19035,
+   "count": 28,
+   "family": "shkëndijë",
    "is_root": true,
-   "etymology": "Prefixed with kaca-. The origin of the second morpheme -bu /-bû is unclear, likely ultimately a babble word, as is the prefixoid bubu- (“beetle”). Alternatively a variant of buall (“buffalo; stag beetle”), by back-formation from its plural.",
-   "etymology_class": "affix",
+   "etymology": "Borrowed from Vulgar Latin *scintilia, from Latin scintilla. Compare Romanian scânteie.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "syshkëndijë",
+    "shkëndijëz",
+    "shkëndijim",
+    "shkëndijon",
+    "shkëndit"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "kacabunj",
+     "form": "shkëndija",
      "tag": "plural"
-    },
-    {
-     "form": "kacabuni",
-     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "So far, there's nothing that could indicate such thing.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Deri tani nuk kemi asnjë shkëndijë."
+   }
   },
   {
-   "id": "shtetas",
-   "sq": "shtetas",
-   "en": "citizen (of a country)",
+   "id": "cikël",
+   "sq": "cikël",
+   "en": "cycle",
    "glosses": [
-    "citizen (of a country)"
+    "cycle",
+    "little spot, drop"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cycle",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -lë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cycle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "little spot, drop",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -lë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "spot",
+      "drop"
+     ]
+    }
+   ],
+   "rank": 19086,
+   "count": 28,
+   "family": "cikël",
+   "is_root": true,
+   "etymology": "From Late Latin cyclus.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin cyclus",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is a cycle.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Është një cikël."
+   }
+  },
+  {
+   "id": "humnerë",
+   "sq": "humnerë",
+   "en": "precipice, chasm, abyss",
+   "glosses": [
+    "precipice, chasm, abyss"
    ],
    "pos": [
     "noun"
@@ -428,9 +566,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "citizen (of a country)",
+     "gloss": "precipice, chasm, abyss",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -440,13 +578,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -as",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -454,51 +592,53 @@
      ],
      "examples": [],
      "links": [
-      "citizen"
+      "precipice",
+      "chasm",
+      "abyss"
      ]
     }
    ],
-   "rank": 19313,
-   "count": 27,
-   "family": "shtet",
+   "rank": 19087,
+   "count": 28,
+   "family": "humb",
    "is_root": false,
-   "etymology": "From shtet + -as.",
-   "etymology_class": "affix",
+   "etymology": "A formation from humb (“to lose”) + *nerë, singularized plural of *narë, from Proto-Indo-European *nerH-. Cognate with Russian нора́ (norá, “hole”), Serbo-Croatian ponor (“abyss”), Lithuanian nãras (“diving duck; diver”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "shtet",
-     "role": "base"
-    },
-    {
-     "word": "as",
-     "role": "suffix"
+     "word": "humb",
+     "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shtetas",
+     "form": "humnera",
      "tag": "plural"
     },
     {
-     "form": "shtetasi",
-     "tag": "definite"
+     "form": "humbnerë",
+     "tag": "alternative"
+    },
+    {
+     "form": "humbënerë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Many citizens agree.",
+    "en": "I shit it out in the abyss.",
     "score": [
-     0,
-     4,
+     1,
+     5,
      -4,
      10
     ],
-    "sq": "Shumë shtetas janë dakord."
+    "sq": "I mut atë në humnerë."
    },
    "breakdown": "historical"
   }

@@ -28,6 +28,7 @@ Design rules:
 """
 
 import json
+import added_words
 import form_gloss
 import form_senses
 import gloss_overrides
@@ -1937,6 +1938,13 @@ def main():
 
     n_fixed = gloss_overrides.apply(cards, lambda p: POS_LABEL.get(p, p))
     print("  reviewed gloss fixes: %d headlines changed" % n_fixed)
+
+    # Core words Wiktionary has no entry for (pra, ndonjë, sikur...). After
+    # the form cards and gloss fixes, which only rewrite Wiktionary data, and
+    # before families, so a hand-added form (falni) joins its lemma's family.
+    hand = added_words.apply(cards, freq, lambda p: POS_LABEL.get(p, p),
+                             ALPHABET_RE)
+    print("  +%d hand-added core words, now %d cards" % (len(hand), len(cards)))
 
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.

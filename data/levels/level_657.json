@@ -1,30 +1,32 @@
 {
  "level": 657,
- "title": "piramidë, pot, gërvisht +3",
+ "title": "breshër, ngacmoj, çiltër +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "gjyle",
-  "gërvisht",
-  "piramidë",
-  "pot",
-  "servis",
-  "zog"
+  "breshër",
+  "ngacmoj",
+  "parlament",
+  "shkencërisht",
+  "tra",
+  "çiltër"
  ],
  "pos_mix": {
-  "noun": 10,
-  "verb": 1
+  "noun": 6,
+  "verb": 1,
+  "adj": 2,
+  "adv": 1
  },
  "words": [
   {
-   "id": "piramidë",
-   "sq": "piramidë",
-   "en": "pyramid",
+   "id": "breshër",
+   "sq": "breshër",
+   "en": "hail",
    "glosses": [
-    "pyramid"
+    "hail"
    ],
    "pos": [
     "noun"
@@ -36,9 +38,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pyramid",
+     "gloss": "hail",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -62,141 +64,46 @@
      ],
      "examples": [],
      "links": [
-      "geometry",
-      "pyramid"
+      "hail"
      ]
     }
    ],
-   "rank": 27266,
+   "rank": 26976,
    "count": 17,
-   "family": "piramidë",
+   "family": "breshër",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Singularized plural of *brash, from Proto-Albanian *brauša, from Proto-Indo-European *bʰrews-. Compare Dutch broos (“brittle”), Latin frustum (“shard”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How built a pyramid?",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Si për të ndërtuar një piramidë?"
-   }
-  },
-  {
-   "id": "pot",
-   "sq": "pot",
-   "en": "mill-hopper, flower-bin",
-   "glosses": [
-    "mill-hopper, flower-bin",
-    "little boy"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mill-hopper, flower-bin",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mill",
-      "hopper",
-      "flower-bin"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "little boy",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "little",
-      "boy"
-     ]
-    }
-   ],
-   "rank": 27289,
-   "count": 17,
-   "family": "pot",
-   "is_root": true,
-   "etymology": "From Romance *pottus (“pot”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "poç"
-   ],
    "forms": [
     {
-     "form": "pota",
-     "tag": "plural"
-    },
-    {
-     "form": "poti",
+     "form": "breshri",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then I won the jack-pot of about 5 thousand Euros.",
+    "en": "There is a risk of hail in the northwest.",
     "score": [
-     3,
-     8,
+     1,
+     6,
      -5,
      10
     ],
-    "sq": "Atëherë fitova xhek-pot prej rreth 5 mijë eurosh."
+    "sq": "Në veriperëndim ka rrezik për breshër."
    }
   },
   {
-   "id": "gërvisht",
-   "sq": "gërvisht",
-   "en": "to scratch, scrape with the nails",
+   "id": "ngacmoj",
+   "sq": "ngacmoj",
+   "en": "to poke, bother, harass, provoke",
    "glosses": [
-    "to scratch, scrape with the nails"
+    "to poke, bother, harass, provoke"
    ],
    "pos": [
     "verb"
@@ -208,7 +115,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to scratch, scrape with the nails",
+     "gloss": "to poke, bother, harass, provoke",
      "tags": [
       "transitive"
      ],
@@ -232,18 +139,40 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Mos e ngacmo qenin!",
+       "en": "Do not bother the dog!",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "E ngacmova arushën!",
+       "en": "I provoked the bear!",
+       "offsets": [
+        [
+         2,
+         10
+        ]
+       ]
+      }
+     ],
      "links": [
-      "scratch",
-      "scrape"
+      "poke",
+      "bother",
+      "harass"
      ]
     }
    ],
-   "rank": 27291,
+   "rank": 27005,
    "count": 17,
-   "family": "gërvisht",
+   "family": "ngacmoj",
    "is_root": true,
-   "etymology": "Enlargement of *gërvij.",
+   "etymology": "A form parallel to ngallmoj. Based on *ngacmë > *ngacë, from ngas.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -253,226 +182,124 @@
    "related": [],
    "forms": [
     {
-     "form": "gërvishta",
+     "form": "ngacmova",
      "tag": "aorist"
     },
     {
-     "form": "gërvishtur",
+     "form": "ngacmuar",
      "tag": "participle"
-    },
-    {
-     "form": "gërvish",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It scratches you: one, two, three.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Të gërvisht: një, dy, tre."
-   }
+   "corpus_example": null
   },
   {
-   "id": "zogth",
-   "sq": "zogth",
-   "en": "biceps",
+   "id": "çiltër",
+   "sq": "çiltër",
+   "en": "straightforward, frank",
    "glosses": [
-    "biceps",
-    "fetlock",
-    "fledgling, chick, young bird"
+    "straightforward, frank",
+    "sincere, honest"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "biceps",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 43 14"
-      },
-      {
-       "name": "Albanian terms suffixed with -th",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 43 14"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "biceps"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fetlock",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 43 14"
-      },
-      {
-       "name": "Albanian terms suffixed with -th",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 43 14"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "fetlock"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fledgling, chick, young bird",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "straightforward, frank",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "43 43 14"
-      },
-      {
-       "name": "Albanian terms suffixed with -th",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 43 14"
+       "_dis": "59 41"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "43 43 14"
+       "_dis": "57 43"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
       }
      ],
      "examples": [],
      "links": [
-      "fledgling",
-      "chick"
+      "straightforward",
+      "frank"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sincere, honest",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sincere",
+      "honest"
      ]
     }
    ],
-   "rank": 27357,
+   "rank": 27008,
    "count": 17,
-   "family": "zog",
-   "is_root": false,
-   "etymology": "From zog + -th diminutive ending. Doublet of zokth.",
-   "etymology_class": "affix",
+   "family": "çiltër",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "zog",
-     "role": "base"
-    },
-    {
-     "word": "th",
-     "role": "suffix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "zogtha",
-     "tag": "plural"
-    },
-    {
-     "form": "zogthi",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "She's quite a chick.",
+    "corpus": "HPLT",
+    "en": "Let love be without hypocrisy.",
     "score": [
      0,
      6,
      -6,
-     5
+     10
     ],
-    "sq": "Ajo është mjaft e një zogth."
-   },
-   "breakdown": "historical"
+    "sq": "9 Dashuria le të jetë e çiltër."
+   }
   },
   {
-   "id": "gjyle",
-   "sq": "gjyle",
-   "en": "cannonball",
+   "id": "shkencërisht",
+   "sq": "shkencërisht",
+   "en": "scientifically",
    "glosses": [
-    "cannonball"
+    "scientifically"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cannonball",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "scientifically",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -495,16 +322,16 @@
      ],
      "examples": [],
      "links": [
-      "cannonball"
+      "scientifically"
      ]
     }
    ],
-   "rank": 27377,
+   "rank": 27115,
    "count": 17,
-   "family": "gjyle",
+   "family": "shkencërisht",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish گوله (gülle), from Classical Persian گوله (gōla, “cannonball, heavy and round object”).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -512,23 +339,36 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Is it consistent?",
+    "score": [
+     1,
+     4,
+     -3,
+     8
+    ],
+    "sq": "A është vërtetuar shkencërisht?"
+   }
   },
   {
-   "id": "servis",
-   "sq": "servis",
-   "en": "service area (place where to stop along a road)",
+   "id": "tra",
+   "sq": "tra",
+   "en": "beam, girder; timber",
    "glosses": [
-    "service area (place where to stop along a road)",
-    "set of crockery, service",
-    "repair shop for cars, if unspecified, or of electronics or watches"
+    "beam, girder; timber",
+    "scaffolding",
+    "balance beam",
+    "family, different house"
    ],
    "pos": [
+    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun",
     "noun"
@@ -537,7 +377,144 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "service area (place where to stop along a road)",
+     "gloss": "beam, girder; timber",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beam",
+      "girder",
+      "timber"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "scaffolding",
+     "tags": [
+      "in-plural",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "scaffolding"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "balance beam",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Sports",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Sports",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 37 51 10"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sports",
+      "balance beam"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "family, different house",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Ethnography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Ethnography",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ethnography",
+      "family",
+      "house"
+     ]
+    }
+   ],
+   "rank": 27159,
+   "count": 17,
+   "family": "tra",
+   "is_root": true,
+   "etymology": "From Latin trabem (“beam”).",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin trabem",
+   "parents": [
+    "beam"
+   ],
+   "components": [],
+   "derived": [
+    "trath",
+    "trenoj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "trerë",
+     "tag": "plural"
+    },
+    {
+     "form": "trari",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The joist should be fixed in parallel.",
+    "score": [
+     2,
+     8,
+     -6,
+     10
+    ],
+    "sq": "Tra duhet të jetë fikse në mënyrë paralele."
+   }
+  },
+  {
+   "id": "parlament",
+   "sq": "parlament",
+   "en": "parliament",
+   "glosses": [
+    "parliament"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "parliament",
      "tags": [
       "masculine"
      ],
@@ -546,115 +523,51 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 1 42"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 20 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "service area"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "set of crockery, service",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "servis gotash",
-       "en": "glass set",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "set",
-      "crockery",
-      "service"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "repair shop for cars, if unspecified, or of electronics or watches",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "servis orësh",
-       "en": "watch repair shop",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      },
-      {
-       "sq": "servis celularësh",
-       "en": "cell phone repair shop",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "repair shop",
-      "cars",
-      "electronics"
+      "parliament"
      ]
     }
    ],
-   "rank": 27392,
+   "rank": 27163,
    "count": 17,
-   "family": "servis",
+   "family": "parlament",
    "is_root": true,
-   "etymology": "From French service and English service. Compare Serbo-Croatian sèrvīs /сѐрвӣс, Greek σερβίς (servís), σέρβις (sérvis).",
-   "etymology_class": null,
-   "source_lang": "fr",
-   "cognate": "from French service",
+   "etymology": "Borrowed from Late Latin parlamentum.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "servise",
-     "tag": "plural"
-    },
-    {
-     "form": "servisi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What is a House?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë është një parlament?"
+   }
   }
  ],
  "extended": true

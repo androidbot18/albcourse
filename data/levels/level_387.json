@@ -1,27 +1,29 @@
 {
  "level": 387,
- "title": "shtatë (more), mek",
+ "title": "tetë (more), hak, madhështor +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "mek",
-  "shtatë"
+  "hak",
+  "madhështor",
+  "pikturë",
+  "tetë"
  ],
  "pos_mix": {
-  "noun": 1,
-  "verb": 2,
-  "num": 2
+  "noun": 8,
+  "adj": 1,
+  "num": 1
  },
  "words": [
   {
-   "id": "shtator",
-   "sq": "shtator",
-   "en": "September",
+   "id": "tetor",
+   "sq": "tetor",
+   "en": "October",
    "glosses": [
-    "September"
+    "October"
    ],
    "pos": [
     "noun"
@@ -33,8 +35,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "September",
-     "tags": [],
+     "gloss": "October",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -57,24 +61,24 @@
      ],
      "examples": [],
      "links": [
-      "September"
+      "October"
      ]
     }
    ],
-   "rank": 6136,
-   "count": 117,
-   "family": "shtatë",
+   "rank": 6054,
+   "count": 120,
+   "family": "tetë",
    "is_root": false,
-   "etymology": "Calque of Latin September, from shtatë (“seven”) + -or.",
+   "etymology": "Calque of Latin Octōber, from tetë (“eight”) + -or.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "seven"
+    "eight"
    ],
    "components": [
     {
-     "word": "shtatë",
+     "word": "tetë",
      "role": "base"
     },
     {
@@ -84,80 +88,208 @@
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shtatori",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "September at midnight.",
+    "en": "October to 5.",
     "score": [
      0,
-     3,
-     -3,
+     2,
+     -2,
      10
     ],
-    "sq": "Shtator në mesnatë."
+    "sq": "Tetor në 5."
    },
    "breakdown": "historical"
   },
   {
-   "id": "mek",
-   "sq": "mek",
-   "en": "to bleat, stammer",
+   "id": "hak",
+   "sq": "hak",
+   "en": "revenge;",
    "glosses": [
-    "to bleat, stammer",
-    "to wet"
+    "revenge;",
+    "earnings, reward;",
+    "just deserts (deserved punishment);",
+    "right, justice"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to bleat, stammer",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "revenge;",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "revenge"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "earnings, reward;",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "earnings",
+      "reward"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "just deserts (deserved punishment);",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "57 43"
+       "_dis": "7 7 84 2"
+      },
+      {
+       "name": "Pages with 15 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 12 0 0 3 1 12 12 1 1 4 0 2 0 0 0 0 0 1 1 1 1 1 4 0 2 0 0 0 0 12 0 0 1 2 1 4 3 1 1 0 0 0 0 0 1 3 2 0 1"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 13 0 0 3 0 14 14 1 1 4 0 2 0 0 0 0 0 0 1 1 1 1 4 0 2 0 0 0 0 14 0 0 1 2 0 4 3 1 1 0 0 0 0 0 1 3 2 0 1"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "right, justice",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "right",
+      "justice"
+     ]
+    }
+   ],
+   "rank": 6059,
+   "count": 120,
+   "family": "hak",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish حق (hak, “the right, justice; a right; due, share; remuneration”), from Arabic حَقّ (ḥaqq, “truth”). The definition evolved from \"right, claim, remuneration\" > \"claim to remuneration or justice\" > \"retribution, revenge\".",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "truth"
+   ],
+   "components": [],
+   "derived": [
+    "hakmarrje"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "hakë",
+     "tag": "plural"
+    },
+    {
+     "form": "ah",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How would he take revenge?",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Si do ai të marrë hak?"
+   }
+  },
+  {
+   "id": "madhështor",
+   "sq": "madhështor",
+   "en": "majestic, magnificent",
+   "glosses": [
+    "majestic, magnificent"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "majestic, magnificent",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "bleat",
-      "stammer"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to wet",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "wet"
+      "majestic",
+      "magnificent"
      ]
     }
    ],
-   "rank": 6143,
-   "count": 117,
-   "family": "mek",
+   "rank": 6061,
+   "count": 119,
+   "family": "madhështor",
    "is_root": true,
-   "etymology": "From Proto-Albanian *mek-, from Proto-Indo-European *mek- (“to bleat”). Cognate to Lithuanian meknénti (“to bleat”). An onomatopoeic root.",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -166,47 +298,159 @@
    "related": [],
    "forms": [
     {
-     "form": "meka",
-     "tag": "aorist"
-    },
-    {
-     "form": "mekur",
-     "tag": "participle"
+     "form": "madhështore",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I loved and admired President McKay.",
+    "en": "A great goal!",
     "score": [
+     1,
      3,
-     9,
-     -6,
+     -2,
      10
     ],
-    "sq": "Unë e doja dhe e admiroja Presidentin Mek-Kei."
+    "sq": "Një gol madhështor!"
    }
   },
   {
-   "id": "shtatëmbëdhjetë",
-   "sq": "shtatëmbëdhjetë",
-   "en": "seventeen",
+   "id": "pikturë",
+   "sq": "pikturë",
+   "en": "painting (art form)",
    "glosses": [
-    "seventeen",
-    "seventy"
+    "painting (art form)",
+    "painting (work of art)",
+    "very good description, depiction"
    ],
    "pos": [
-    "num",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "painting (art form)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "painting"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "painting (work of art)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "painting"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "very good description, depiction",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 9 82"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 7 86"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 6 87"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "description",
+      "depiction"
+     ]
+    }
+   ],
+   "rank": 6064,
+   "count": 119,
+   "family": "pikturë",
+   "is_root": true,
+   "etymology": "Borrowed from Italian pittura, with the etymological -kt- restored. Compare Serbo-Croatian piktúra /пикту́ра.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pikturoj",
+    "pikturshëm"
+   ],
+   "related": [
+    "piktor"
+   ],
+   "forms": [
+    {
+     "form": "piktura",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's like a painting!",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Është si një pikturë!"
+   }
+  },
+  {
+   "id": "tetëmbëdhjetë",
+   "sq": "tetëmbëdhjetë",
+   "en": "eighteen",
+   "glosses": [
+    "eighteen"
+   ],
+   "pos": [
     "num"
    ],
    "pos_labels": [
-    "numeral",
     "numeral"
    ],
    "sense_detail": [
     {
      "pos": "num",
      "pos_label": "numeral",
-     "gloss": "seventeen",
+     "gloss": "eighteen",
      "tags": [],
      "cats": [
       {
@@ -214,21 +458,15 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "seventeen"
-     ]
-    },
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "seventy",
-     "tags": [],
-     "cats": [
+      },
       {
-       "name": "Molise Arbëresh Albanian",
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -mbëdhjetë",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -236,25 +474,24 @@
      ],
      "examples": [],
      "links": [
-      "seventy",
-      "Mouton de Gruyter"
+      "eighteen"
      ]
     }
    ],
-   "rank": 20557,
+   "rank": 20348,
    "count": 25,
-   "family": "shtatë",
+   "family": "tetë",
    "is_root": false,
-   "etymology": "From shtatë (“seven”) + -mbëdhjetë (“-teen”).",
+   "etymology": "From tetë (“eight”) + -mbëdhjetë (“-teen”).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "seven"
+    "eight"
    ],
    "components": [
     {
-     "word": "shtatë",
+     "word": "tetë",
      "role": "base"
     },
     {
@@ -267,14 +504,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He was no more than seventeen years old.",
+    "en": "Eighteen separate heroes.",
     "score": [
-     0,
-     7,
-     -7,
+     2,
+     4,
+     -2,
      10
     ],
-    "sq": "Nuk ishte më shumë se shtatëmbëdhjetë vjeç."
+    "sq": "Tetëmbëdhjetë heronj të veçanta."
    },
    "breakdown": "historical"
   }

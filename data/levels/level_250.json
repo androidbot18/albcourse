@@ -1,28 +1,28 @@
 {
  "level": 250,
- "title": "preferoj, bazë, ish",
+ "title": "brengos, zbuloj, muzikë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "bazë",
-  "ish",
-  "preferoj"
+  "avion",
+  "brengos",
+  "muzikë",
+  "zbuloj"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 1,
-  "intj": 1
+  "verb": 4,
+  "noun": 2
  },
  "words": [
   {
-   "id": "preferuar",
-   "sq": "preferuar",
-   "en": "prefer, past form (from preferoj, to prefer)",
+   "id": "brengos",
+   "sq": "brengos",
+   "en": "to afflict, vex, grieve, worry",
    "glosses": [
-    "prefer, past form (from preferoj, to prefer)"
+    "to afflict, vex, grieve, worry"
    ],
    "pos": [
     "verb"
@@ -34,10 +34,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "prefer, past form (from preferoj, to prefer)",
+     "gloss": "to afflict, vex, grieve, worry",
      "tags": [
-      "form-of",
-      "participle"
+      "transitive"
      ],
      "cats": [
       {
@@ -60,12 +59,97 @@
       }
      ],
      "examples": [],
-     "is_form_of": "preferoj"
+     "links": [
+      "afflict",
+      "vex",
+      "grieve"
+     ]
     }
    ],
-   "rank": 1653,
-   "count": 531,
-   "family": "preferoj",
+   "rank": 1637,
+   "count": 536,
+   "family": "brengos",
+   "is_root": true,
+   "etymology": "A formation from brengë, with -os verbative suffix.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "brengosa",
+     "tag": "aorist"
+    },
+    {
+     "form": "brengosur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "This approach makes me curious but also worries me.",
+    "score": [
+     2,
+     8,
+     -6,
+     8
+    ],
+    "sq": "Aq sa kurreshtar, kjo qasje edhe më brengos."
+   }
+  },
+  {
+   "id": "zbuluar",
+   "sq": "zbuluar",
+   "en": "discover, past form (from zbuloj, to discover)",
+   "glosses": [
+    "discover, past form (from zbuloj, to discover)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "discover, past form (from zbuloj, to discover)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "zbuloj"
+    }
+   ],
+   "rank": 1640,
+   "count": 535,
+   "family": "zbuloj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -78,22 +162,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do you have a favorite number?",
+    "en": "A Voice Discovered.",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Ke një numër të preferuar?"
+    "sq": "Një Zë zbuluar."
    }
   },
   {
-   "id": "bazë",
-   "sq": "bazë",
-   "en": "base",
+   "id": "muzikë",
+   "sq": "muzikë",
+   "en": "music",
    "glosses": [
-    "base"
+    "music"
    ],
    "pos": [
     "noun"
@@ -105,11 +189,19 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "base",
-     "tags": [],
+     "gloss": "music",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -119,71 +211,72 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "chemistry",
-      "base"
+      "music"
      ]
     }
    ],
-   "rank": 1659,
-   "count": 530,
-   "family": "bazë",
+   "rank": 1642,
+   "count": 534,
+   "family": "muzikë",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From Ancient Greek μουσική (mousikḗ).",
    "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "source_lang": "el",
+   "cognate": "from Greek μουσική",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "baza",
+     "form": "muzika",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Work has been done on this basis.",
+    "en": "We made music.",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Mbi këtë bazë është punuar."
+    "sq": "Ne bëmë muzikë."
    }
   },
   {
-   "id": "ish",
-   "sq": "ish",
-   "en": "used to chase chicken away",
+   "id": "avion",
+   "sq": "avion",
+   "en": "aeroplane",
    "glosses": [
-    "used to chase chicken away"
+    "aeroplane"
    ],
    "pos": [
-    "intj"
+    "noun"
    ],
    "pos_labels": [
-    "interjection"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "used to chase chicken away",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "aeroplane",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -191,13 +284,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
+       "name": "Pages using etymon with no ID",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -205,18 +292,16 @@
      ],
      "examples": [],
      "links": [
-      "chase",
-      "chicken",
-      "away"
+      "aeroplane"
      ]
     }
    ],
-   "rank": 1662,
-   "count": 530,
-   "family": "ish",
+   "rank": 1645,
+   "count": 533,
+   "family": "avion",
    "is_root": true,
-   "etymology": "Onomatopoeic.",
-   "etymology_class": null,
+   "etymology": "Borrowed from French avion.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -225,100 +310,153 @@
    "related": [],
    "forms": [
     {
-     "form": "ush",
-     "tag": "alternative"
+     "form": "avionë",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Below is the ex.",
+    "en": "I was so afraid to be in a plane.",
     "score": [
      0,
-     4,
-     -4,
+     8,
+     -8,
      10
     ],
-    "sq": "Më poshtë është ish."
+    "sq": "Isha aq frikë të jetë në një avion."
    }
   },
   {
-   "id": "preferoj",
-   "sq": "preferoj",
-   "en": "to prefer",
+   "id": "zbuloj",
+   "sq": "zbuloj",
+   "en": "to discover",
    "glosses": [
-    "to prefer"
+    "to discover",
+    "to unveil, reveal, expose"
    ],
    "pos": [
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to prefer",
+     "gloss": "to discover",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discover"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unveil, reveal, expose",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "45 55"
       }
      ],
      "examples": [],
      "links": [
-      "prefer"
+      "unveil",
+      "reveal",
+      "expose"
      ]
     }
    ],
-   "rank": 3586,
-   "count": 220,
-   "family": "preferoj",
+   "rank": 3283,
+   "count": 245,
+   "family": "zbuloj",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From z- + mbuloj, with assimilation of the labial.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
+   "components": [
+    {
+     "word": "z",
+     "role": "prefix"
+    },
+    {
+     "word": "mbuloj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "zbulim"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "preferova",
+     "form": "zbulova",
      "tag": "aorist"
     },
     {
-     "form": "preferuar",
+     "form": "zbuluar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I prefer not to think about it!",
+    "en": "I find that.",
     "score": [
      0,
-     7,
-     -7,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë preferoj të mos mendoj për këtë!"
-   }
+    "sq": "Unë zbuloj që."
+   },
+   "breakdown": "historical"
   }
  ]
 }

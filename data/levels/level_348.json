@@ -1,44 +1,162 @@
 {
  "level": 348,
- "title": "njerëzor, gri, karrocë +3",
+ "title": "shpellë, pishinë, virgjër +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "gri",
-  "karrocë",
-  "kruaj",
-  "ngatërroj",
-  "njerëzor",
-  "shkatërroj"
+  "cep",
+  "gazetë",
+  "pishinë",
+  "rrah",
+  "shpellë",
+  "virgjër"
  ],
  "pos_mix": {
-  "verb": 7,
-  "adj": 3,
-  "noun": 2
+  "noun": 11,
+  "adj": 2,
+  "verb": 2
  },
  "words": [
   {
-   "id": "shkatërroj",
-   "sq": "shkatërroj",
-   "en": "to destruct, to destroy, to devastate",
+   "id": "shpellë",
+   "sq": "shpellë",
+   "en": "cave",
    "glosses": [
-    "to destruct, to destroy, to devastate"
+    "cave",
+    "boulder"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to destruct, to destroy, to devastate",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cave",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Askush s'ka hyrë në këtë shpellë më parë.",
+       "en": "Nobody has entered this cave before.",
+       "offsets": [
+        [
+         25,
+         32
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "cave"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "boulder",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 92"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 82"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Hipi mbi një shpellë.",
+       "en": "He/she climbed onto a boulder.",
+       "offsets": [
+        [
+         13,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "boulder"
+     ]
+    }
+   ],
+   "rank": 4885,
+   "count": 155,
+   "family": "shpellë",
+   "is_root": true,
+   "etymology": "From Ancient Greek σπήλαιον (spḗlaion, “cave”).",
+   "etymology_class": "derived",
+   "source_lang": "el",
+   "cognate": "from Greek σπήλαιον",
+   "parents": [
+    "cave"
+   ],
+   "components": [],
+   "derived": [
+    "shpellar",
+    "shpellinë",
+    "shpelloj",
+    "shpellor",
+    "shpellanik"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpella",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pishinë",
+   "sq": "pishinë",
+   "en": "swimming pool",
+   "glosses": [
+    "swimming pool"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "swimming pool",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -61,63 +179,42 @@
      ],
      "examples": [],
      "links": [
-      "destruct",
-      "destroy",
-      "devastate"
+      "swimming pool"
      ]
     }
    ],
-   "rank": 3015,
-   "count": 269,
-   "family": "shkatërroj",
+   "rank": 4886,
+   "count": 155,
+   "family": "pishinë",
    "is_root": true,
-   "etymology": "From sh- + ngatërroj.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "sh",
-     "role": "prefix"
-    },
-    {
-     "word": "ngatërroj",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shkatërrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "shkatërruar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I destroy every form of death.",
+    "en": "outdoor pool: 4.",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë shkatërroj çdo formë të vdekjes."
-   },
-   "breakdown": "historical"
+    "sq": "pishinë të hapur: 4."
+   }
   },
   {
-   "id": "njerëzor",
-   "sq": "njerëzor",
-   "en": "human (having the nature or attributes of a human being)",
+   "id": "virgjër",
+   "sq": "virgjër",
+   "en": "virginal",
    "glosses": [
-    "human (having the nature or attributes of a human being)",
-    "humane (something done from love to humanity)"
+    "virginal",
+    "chaste, pure"
    ],
    "pos": [
     "adj",
@@ -131,7 +228,7 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "human (having the nature or attributes of a human being)",
+     "gloss": "virginal",
      "tags": [],
      "cats": [
       {
@@ -139,121 +236,157 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "63 37"
+       "_dis": "79 21"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "83 17"
+       "_dis": "100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "93 7"
+       "_dis": "100 0"
       }
      ],
      "examples": [],
      "links": [
-      "human"
+      "virginal"
      ]
     },
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "humane (something done from love to humanity)",
-     "tags": [],
+     "gloss": "chaste, pure",
+     "tags": [
+      "figuratively"
+     ],
      "cats": [],
      "examples": [],
      "links": [
-      "humane"
+      "chaste",
+      "pure"
      ]
     }
    ],
-   "rank": 4988,
-   "count": 151,
-   "family": "njerëzor",
+   "rank": 4892,
+   "count": 155,
+   "family": "virgjër",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Latin virgo, virginem. Compare also Romanian vergură.",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "cognate": "from Latin virgo",
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "njerëzore",
-     "tag": "feminine"
-    }
+   "related": [
+    "virgjëreshë",
+    "virgjëri",
+    "zhvirgjëroj",
+    "zhvirgjërohem",
+    "virgjëror"
    ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "You are more than human.",
+    "corpus": "HPLT",
+    "en": "A virgin beauty.",
     "score": [
      0,
-     6,
-     -6,
-     8
+     4,
+     -4,
+     10
     ],
-    "sq": "Ju jeni më shumë se njerëzor."
+    "sq": "Një bukuri e virgjër."
    }
   },
   {
-   "id": "gri",
-   "sq": "gri",
-   "en": "grey (colour)",
+   "id": "rrah",
+   "sq": "rrah",
+   "en": "to strike, beat",
    "glosses": [
-    "grey (colour)"
+    "to strike, beat",
+    "to punch (colloquial)",
+    "grubbed out land"
    ],
    "pos": [
-    "adj"
+    "verb",
+    "verb",
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "verb",
+    "verb",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "grey (colour)",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to strike, beat",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "strike",
+      "beat"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to punch (colloquial)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "punch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "grubbed out land",
+     "tags": [
+      "masculine",
+      "transitive"
+     ],
      "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 2 3 45"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 6 4"
       }
      ],
      "examples": [],
      "links": [
-      "grey"
+      "land"
      ]
     }
    ],
-   "rank": 4991,
-   "count": 151,
-   "family": "gri",
+   "rank": 4929,
+   "count": 153,
+   "family": "rrah",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *wragska, from Proto-Indo-European *wr̥h₁ǵ-sḱé-ti, from *wreh₁ǵ-.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -262,35 +395,55 @@
    "related": [],
    "forms": [
     {
-     "form": "grie",
-     "tag": "feminine"
+     "form": "rrahe",
+     "tag": "plural"
+    },
+    {
+     "form": "rrahu",
+     "tag": "definite"
+    },
+    {
+     "form": "rraf",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "It's gray.",
+    "corpus": "HPLT",
+    "en": "He was beaten to death that evening.",
     "score": [
      0,
-     3,
-     -3,
-     5
+     7,
+     -7,
+     10
     ],
-    "sq": "Është ngjyrë gri."
+    "sq": "Ai u rrah për vdekje atë natë."
    }
   },
   {
-   "id": "karrocë",
-   "sq": "karrocë",
-   "en": "carriage, chariot",
+   "id": "cep",
+   "sq": "cep",
+   "en": "corner, angle, wedge",
    "glosses": [
-    "carriage, chariot",
-    "cart"
+    "corner, angle, wedge",
+    "edge, tip; tip of the shoulder",
+    "external angle",
+    "cape",
+    "beak",
+    "peak, top (of mountain or rock)"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -298,17 +451,46 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "carriage, chariot",
+     "gloss": "corner, angle, wedge",
      "tags": [
-      "feminine"
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "corner",
+      "angle",
+      "wedge"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "edge, tip; tip of the shoulder",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge",
+      "tip"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "external angle",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Vehicles",
+       "name": "Geometry",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Vehicles",
+       "orig": "sq:Geometry",
        "langcode": "sq"
       },
       {
@@ -316,169 +498,63 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "94 6"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "90 10"
+       "_dis": "2 7 30 31 2 28"
       }
      ],
      "examples": [],
      "links": [
-      "carriage",
-      "chariot"
+      "geometry"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cart",
+     "gloss": "cape",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Albanian terms with collocations",
+       "name": "Geography",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "karrocë dore",
-       "en": "wheelbarrow",
-       "offsets": [
-        [
-         0,
-         7
-        ]
-       ]
+       "source": "w",
+       "orig": "sq:Geography",
+       "langcode": "sq"
       },
-      {
-       "sq": "karrocë fëmijësh",
-       "en": "pram",
-       "offsets": [
-        [
-         0,
-         7
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "cart"
-     ]
-    }
-   ],
-   "rank": 4999,
-   "count": 151,
-   "family": "karrocë",
-   "is_root": true,
-   "etymology": "Borrowed from Latin carrūca or Italian carrozza (“carriage”) with semantic conflation with Italian carrozzina (“pram; wheelchair”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "carriage"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "karroca",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "kruaj",
-   "sq": "kruaj",
-   "en": "to rub, to scratch (an itch) (bodyparts in general)",
-   "glosses": [
-    "to rub, to scratch (an itch) (bodyparts in general)",
-    "to scrape, to wipe off (something from a surface)",
-    "to search everywhere for; to search up"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rub, to scratch (an itch) (bodyparts in general)",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "37 43 20"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 25 23"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "62 20 18"
+       "_dis": "2 7 30 31 2 28"
       }
      ],
      "examples": [],
      "links": [
-      "rub",
-      "scratch"
+      "geography",
+      "cape"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to scrape, to wipe off (something from a surface)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 43 20"
-      }
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beak",
+     "tags": [
+      "masculine"
      ],
+     "cats": [],
      "examples": [],
      "links": [
-      "scrape",
-      "wipe",
-      "off"
+      "beak"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to search everywhere for; to search up",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "peak, top (of mountain or rock)",
      "tags": [
-      "figuratively"
+      "masculine"
      ],
      "cats": [
       {
@@ -486,221 +562,126 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "37 43 20"
+       "_dis": "2 7 30 31 2 28"
       }
      ],
      "examples": [],
      "links": [
-      "search",
-      "search up"
+      "peak",
+      "top"
      ]
     }
    ],
-   "rank": 14044,
-   "count": 42,
-   "family": "kruaj",
+   "rank": 4946,
+   "count": 153,
+   "family": "cep",
    "is_root": true,
-   "etymology": "* From *kroj, from Proto-Albanian *krābnja, from Proto-Indo-European *gʰrebʰ-. Compare German graben (“to dig”), Lithuanian grebti (“to rake”)\n* Alternatively from Proto-Albanian *krawånj-, from Old High German krauwōn.\n* Or from North-West IE *kna-ye- ‘scratch’, cf. Welsh cnoi, Old High German nōen, Lithuanian knója, Ancient Greek κναίω (knaíō)",
-   "etymology_class": "inherited",
+   "etymology": "Doublet of thep, with affricated initial consonant. More at thep.\nPart of a rich phonolexical series represented by variants covering almost all vocalic grades (\"a\", \"e\", \"i\", \"o\", \"u\") and with consonantal variants with \"c\", \"ç\", \"q\", and \"sh\" (çak, cek, çek, qek, cik, çik, cok, çok, qok, cuk, quk, çuk, etc).\nSource of Romanian țeapă, or cognate to it from a common pre-Roman term of Balkan substratum. Possible co-source of Romanian țipilic (“peak, top”) and țăpălic (“id.”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "kreh",
-    "krehër, krehri",
-    "krehës, krehësi",
-    "krehur",
-    "kromë, kroma",
-    "krosë, krosa",
-    "kruajtje, kruajtja",
-    "kruar"
+    "cepoj",
+    "cepatar",
+    "cepatare",
+    "cepore"
    ],
    "related": [
-    "kreh",
-    "kruese",
-    "kruesja",
-    "kruhem",
-    "kruar"
+    "thep"
    ],
    "forms": [
     {
-     "form": "krova",
-     "tag": "aorist"
+     "form": "cepa",
+     "tag": "plural"
     },
     {
-     "form": "kruar",
-     "tag": "participle"
+     "form": "cepi",
+     "tag": "definite"
+    },
+    {
+     "form": "step",
+     "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "ngatërroj",
-   "sq": "ngatërroj",
-   "en": "to tangle, entangle",
+   "id": "gazetë",
+   "sq": "gazetë",
+   "en": "newspaper",
    "glosses": [
-    "to tangle, entangle",
-    "to complicate, confuse",
-    "to jumble, scramble, garble"
+    "newspaper"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to tangle, entangle",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "newspaper",
      "tags": [
-      "transitive"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 30 26"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 32 34"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 27 36"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tangle",
-      "entangle"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to complicate, confuse",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 32 34"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 27 36"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 31 33"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "complicate",
-      "confuse"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to jumble, scramble, garble",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 32 34"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 27 36"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 31 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "jumble",
-      "scramble",
-      "garble"
+      "newspaper"
      ]
     }
    ],
-   "rank": 33352,
-   "count": 12,
-   "family": "ngatërroj",
+   "rank": 4949,
+   "count": 153,
+   "family": "gazetë",
    "is_root": true,
-   "etymology": "Denominative; ngatërr + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Italian gazzetta. Compare Romanian gazetă.",
+   "etymology_class": "borrowed",
+   "source_lang": "it",
+   "cognate": "from Italian gazzetta",
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "ngatërr",
-    "ngas",
-    "ngah"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "ngatërrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "ngatërruar",
-     "tag": "participle"
+     "form": "gazeta",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Ah yes, I want to confound man in Love!",
+    "en": "And I went to the newspaper.",
     "score": [
-     2,
-     8,
-     -6,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Ah po, dua ta ngatërroj njeriun në Dashuri!"
+    "sq": "Dhe shkova në gazetë."
    }
   }
  ]

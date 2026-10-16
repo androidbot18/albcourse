@@ -354,7 +354,42 @@ once the learner turns it on. The Anki decks are named "Albanian extended
 `tools/test_scope.py` pins the split and measures that the main course
 still reaches 80%; the main course may not exceed 360 levels. The whole
 course is 766 levels, down from 801, because tails no longer interleave.
-Recommendations 2 and 3 are still open.
+
+**Recommendations 2 and 3: done.** `tools/added_words.py` adds 41 core
+words Wiktionary has no entry for, each with a reviewed part of speech,
+gloss, example and forms. The build adds one only when Wiktionary gave
+the word no card and the frequency list has it; otherwise it fails.
+- **What was added:** discourse words (`pra`, `ndonjë`, `sikur`, `vërtet`,
+  `sigurisht`, `natyrisht`, `epo`, `sapo`, `derisa`, `sesa`, `madje`…),
+  place and time (`lart`, `përpara`, `kudo`, `përmes`, `njëherë`,
+  `asnjëherë`), set phrases counted by their second word (`së bashku`,
+  `të paktën`, `së shpejti`), `mirupafshim` and `më falni`, and common
+  nouns and adjectives (`problem`, `fakt`, `ide`, `moment`, `plan`,
+  `sigurt`…). `falni` is filed as a form of `fal`, so it joins that family.
+  `mirupafshim` (*goodbye*) joins the curated opening on L3, and its
+  example uses only L1–3 words.
+- **What was not:** forms of words the deck already teaches (`gjitha`,
+  `djema`, `veten`), clitic clusters (`ma`, `ia`, `ua`), misspellings,
+  names, English, interjections and insults.
+- **Coverage is counted the learner's way.** `tools/measure_coverage.py`
+  now reports exact-form and form-or-lemma coverage against the pinned
+  frequency list, and `tools/test_scope.py` uses the same code. Wiktionary
+  lists adjective and pronoun forms with their article (`të gjitha`,
+  `e rëndësishme`); the count now reads those as the token a learner sees,
+  which was worth 0.8 points the old count missed.
+
+  | | exact form | form or lemma | top-1,411 forms not covered |
+  |---|---|---|---|
+  | main course before | 68.9% | 81.8% | 302 |
+  | main course now | 70.0% | **83.1%** | 252 |
+  | whole course now | 70.9% | 86.0% | |
+
+  The deck is 4,133 words in 768 levels; the main course is 350 levels.
+  Most of the 252 forms still uncovered are not vocabulary: `s`, `t`, `oh`,
+  `hej`, clitic clusters, and ë-less spellings (`mire`, `cfare`, `kete`).
+  The rest are inflections Wiktionary does not list (`veten`, `djema`,
+  `duhej`), which the grammar spine (§3.3) should teach.
+- Pinned by `tools/test_added_words.py`.
 
 The 800-level ceiling (`tools/test_prereq.py`) is a soft cap, set when
 families were first given their own sessions. The question is whether a
@@ -625,9 +660,11 @@ not all fall due on the same day.
       week are taught (L22–23). See §3.2.
 - [x] Scope the course to 80% (§3.6): a 348-level main course (rank ≤
       5,000, 81.0% coverage), then an optional extended track to 766.
-- [ ] Hand-add the core words Wiktionary lacks (`pra`, `ndonjë`, `gjitha`,
+- [x] Hand-add the core words Wiktionary lacks (`pra`, `ndonjë`, `gjitha`,
       `vërtet`…), and report form-or-lemma coverage in
       `tools/measure_coverage.py` (§3.6, recommendations 2 and 3).
+      41 words in `tools/added_words.py`; the main course now covers 83.1%
+      (form or lemma), up from 81.8%. `mirupafshim` (*goodbye*) is on L3.
 - [ ] "Root first, tail later" scheduling instead of unsplittable families.
       Partly done (1.6): rare tails (rank > 1,200) now come back in their own
       frequency band, for every opening family and for any family with 4+

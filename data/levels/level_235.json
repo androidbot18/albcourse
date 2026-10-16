@@ -1,25 +1,30 @@
 {
  "level": 235,
- "title": "luftë (rarer words)",
- "root": "luftë",
- "root_gloss": "war, fight",
+ "title": "rreshter, ajër, shembull +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "luftë"
+  "ajër",
+  "blu",
+  "gjeneral",
+  "pamje",
+  "rreshter",
+  "shembull"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 1
+  "noun": 9,
+  "adj": 1
  },
  "words": [
   {
-   "id": "luftës",
-   "sq": "luftës",
-   "en": "the war, singular (from luftë)",
+   "id": "rreshter",
+   "sq": "rreshter",
+   "en": "sergeant, an enlisted first-grade military rank below a staff sergeant and above a corporal",
    "glosses": [
-    "the war, singular (from luftë)"
+    "sergeant, an enlisted first-grade military rank below a staff sergeant and above a corporal"
    ],
    "pos": [
     "noun"
@@ -31,13 +36,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the war, singular (from luftë)",
+     "gloss": "sergeant, an enlisted first-grade military rank below a staff sergeant and above a corporal",
      "tags": [
-      "ablative",
-      "dative",
-      "definite",
-      "form-of",
-      "singular"
+      "masculine"
      ],
      "cats": [
       {
@@ -60,14 +61,18 @@
       }
      ],
      "examples": [],
-     "is_form_of": "luftë"
+     "links": [
+      "military",
+      "sergeant",
+      "enlisted"
+     ]
     }
    ],
-   "rank": 1448,
-   "count": 610,
-   "family": "luftë",
-   "is_root": false,
-   "etymology": "",
+   "rank": 1392,
+   "count": 636,
+   "family": "rreshter",
+   "is_root": true,
+   "etymology": "From rresht.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -75,25 +80,164 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "rreshterë",
+     "tag": "plural"
+    },
+    {
+     "form": "rreshteri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ajër",
+   "sq": "ajër",
+   "en": "air",
+   "glosses": [
+    "air",
+    "environment"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "air",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Fluturonjënë për qiell, për ajërit.",
+       "en": "",
+       "offsets": [
+        [
+         28,
+         35
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "air"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "environment",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 94"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "environment"
+     ]
+    }
+   ],
+   "rank": 1403,
+   "count": 633,
+   "family": "ajër",
+   "is_root": true,
+   "etymology": "Borrowed from Latin āēr (“air”), ultimately derived from Ancient Greek ἀήρ (aḗr, “air”). Topalli posits Italian aria (“air”) as another possible source, considering that the Latin term is already (potentially) borrowed into Albanian as erë (“wind, air, smell”); alternatively, it is a doublet.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "air"
+   ],
+   "components": [],
+   "derived": [
+    "ajroj",
+    "ajrohet",
+    "ajërt"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "ajra",
+     "tag": "plural"
+    },
+    {
+     "form": "ajri",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I am against war!",
+    "en": "It's in the air.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë jam kundër luftës!"
+    "sq": "Është në ajër."
    }
   },
   {
-   "id": "lufte",
-   "sq": "lufte",
-   "en": "war, singular (from luftë)",
+   "id": "shembull",
+   "sq": "shembull",
+   "en": "example",
    "glosses": [
-    "war, singular (from luftë)"
+    "example"
    ],
    "pos": [
     "noun"
@@ -105,13 +249,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "war, singular (from luftë)",
+     "gloss": "example",
      "tags": [
-      "ablative",
-      "dative",
-      "form-of",
-      "indefinite",
-      "singular"
+      "masculine"
      ],
      "cats": [
       {
@@ -134,15 +274,185 @@
       }
      ],
      "examples": [],
-     "is_form_of": "luftë"
+     "links": [
+      "example"
+     ]
     }
    ],
-   "rank": 1891,
-   "count": 457,
-   "family": "luftë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 1407,
+   "count": 632,
+   "family": "shembull",
+   "is_root": true,
+   "etymology": "Borrowed via Vulgar Latin from Latin exemplum.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shembuj",
+     "tag": "plural"
+    },
+    {
+     "form": "shembulli",
+     "tag": "definite"
+    },
+    {
+     "form": "shemull",
+     "tag": "alternative"
+    },
+    {
+     "form": "shembëll",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "For instance, this one.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Si shembull, kjo."
+   }
+  },
+  {
+   "id": "pamje",
+   "sq": "pamje",
+   "en": "appearance, sight, view",
+   "glosses": [
+    "appearance, sight, view",
+    "visual image",
+    "vision"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "appearance, sight, view",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 44 15"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 42 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "appearance",
+      "sight",
+      "view"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "visual image",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 44 15"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 42 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vision",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 44 15"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 42 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "vision"
+     ]
+    }
+   ],
+   "rank": 1408,
+   "count": 631,
+   "family": "pamje",
+   "is_root": true,
+   "etymology": "Derived from pamë + -je, with pamë (“seen, watched”) being from pashë.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -152,46 +462,38 @@
    "forms": [],
    "corpus_example": {
     "corpus": "TED2020",
-    "en": "But some want war.",
+    "en": "That's a very different picture.",
     "score": [
      0,
-     4,
-     -4,
+     5,
+     -5,
      4
     ],
-    "sq": "Por disa donin lufte."
+    "sq": "Kjo është një pamje ndryshme."
    }
   },
   {
-   "id": "luftoj",
-   "sq": "luftoj",
-   "en": "to fight",
+   "id": "gjeneral",
+   "sq": "gjeneral",
+   "en": "general (military rank)",
    "glosses": [
-    "to fight"
+    "general (military rank)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to fight",
-     "tags": [
-      "intransitive"
-     ],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "general (military rank)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -201,185 +503,170 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "fight"
+      "general"
      ]
     }
    ],
-   "rank": 2444,
-   "count": 342,
-   "family": "luftë",
-   "is_root": false,
-   "etymology": "Borrowed through Vulgar Latin from Latin luctārī. By surface analysis, luftë + -oj.",
-   "etymology_class": "borrowed",
+   "rank": 1414,
+   "count": 629,
+   "family": "gjeneral",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "luftë",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "luftova",
-     "tag": "aorist"
-    },
-    {
-     "form": "luftuar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I have to fight.",
+    "en": "He has never been a general.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Duhet të luftoj."
-   },
-   "breakdown": "historical"
+    "sq": "Asnjëherë nuk ka qenë gjeneral."
+   }
   },
   {
-   "id": "luftëtar",
-   "sq": "luftëtar",
-   "en": "warrior, fighter, combatant",
+   "id": "blu",
+   "sq": "blu",
+   "en": "blue, deep blue",
    "glosses": [
-    "warrior, fighter, combatant",
-    "ruff"
+    "blue, deep blue",
+    "blue, deep blue (colour)"
    ],
    "pos": [
-    "noun",
+    "adj",
     "noun"
    ],
    "pos_labels": [
-    "noun",
+    "adjective",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "warrior, fighter, combatant",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "blue, deep blue",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "warrior",
-      "fighter",
-      "combatant"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ruff",
-     "tags": [
-      "masculine"
+      "invariable"
      ],
      "cats": [
       {
-       "name": "Zoology",
+       "name": "Pages with 17 entries",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
+       "source": "w+disamb",
+       "_dis": "12 10 0 12 22 22 18 0 0 4"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 10 0 11 22 22 18 0 0 4"
       },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "12 88"
+       "_dis": "53 47"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Pelhurë e rafsht blu për kombinazone shoferash",
+       "en": "Smooth blue fabric for drivers' suits",
+       "offsets": [
+        [
+         17,
+         20
+        ]
+       ]
       },
       {
-       "name": "Albanian terms suffixed with -tar",
+       "sq": "Near-synonyms: i kaltër, i mavi",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "blue",
+      "deep blue"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "blue, deep blue (colour)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 17 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "21 79"
+       "_dis": "12 10 0 12 22 22 18 0 0 4"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 10 0 11 22 22 18 0 0 4"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
       }
      ],
      "examples": [],
      "links": [
-      "zoology",
-      "ruff"
+      "blue",
+      "deep blue"
      ]
     }
    ],
-   "rank": 2526,
-   "count": 329,
-   "family": "luftë",
-   "is_root": false,
-   "etymology": "From luftë + -tar, or possibly borrowed through Vulgar Latin from Latin luctator, luctatōrem. Compare Romanian luptător.",
-   "etymology_class": "affix",
+   "rank": 1416,
+   "count": 629,
+   "family": "blu",
+   "is_root": true,
+   "etymology": "First attested in the 20th century. Borrowed from Italian blu.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "luftë",
-     "role": "base",
-     "en": "war"
-    },
-    {
-     "word": "tar",
-     "role": "suffix",
-     "affix": "tar",
-     "meaning": "person / of"
-    }
-   ],
+   "components": [],
    "derived": [],
-   "related": [
-    "luftarak",
-    "luftëdashës",
-    "luftënxitës",
-    "luftëtari(a)",
-    "luftim"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "luftëtarë",
-     "tag": "plural"
-    },
-    {
-     "form": "luftëtari",
+     "form": "bluja",
      "tag": "definite"
-    },
-    {
-     "form": "luftar",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You're a warrior!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ju jeni një luftëtar!"
-   },
-   "breakdown": "transparent"
+   "corpus_example": null
   }
- ],
- "resumes": true
+ ]
 }

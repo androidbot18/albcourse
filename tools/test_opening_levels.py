@@ -197,8 +197,11 @@ else:
     # A reviewed example on an opening card is read in the first lessons,
     # so every word in it must already be taught. `e`'s example used punoj
     # and natë, both taught after it.
+    import added_words as aw
     import gloss_overrides as go
-    for w, (_, sq, _) in sorted(go.EXAMPLES.items()):
+    reviewed = {w: sq for w, (_, sq, _) in go.EXAMPLES.items()}
+    reviewed.update((w, e["ex"][0]) for w, e in aw.WORDS.items())
+    for w, sq in sorted(reviewed.items()):
         if w not in curated:
             continue
         late = [(t, lvl_of.get(t)) for t in re.findall(r"[^\W\d_]+", sq.lower())

@@ -1,24 +1,25 @@
 {
  "level": 242,
- "title": "them (rarer words)",
- "root": "them",
- "root_gloss": "to say",
+ "title": "jam (rarer words)",
+ "root": "jam",
+ "root_gloss": "to be",
  "part": 1,
  "parts": 1,
- "word_count": 1,
+ "word_count": 2,
  "families": [
-  "them"
+  "jam"
  ],
  "pos_mix": {
-  "verb": 1
+  "verb": 1,
+  "noun": 3
  },
  "words": [
   {
-   "id": "thosha",
-   "sq": "thosha",
-   "en": "I (used to) said (from them, to say)",
+   "id": "qenke",
+   "sq": "qenke",
+   "en": "you (sg) are (from jam, to be)",
    "glosses": [
-    "I (used to) said (from them, to say)"
+    "you (sg) are (from jam, to be)"
    ],
    "pos": [
     "verb"
@@ -30,11 +31,12 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "I (used to) said (from them, to say)",
+     "gloss": "you (sg) are (from jam, to be)",
      "tags": [
-      "first-person",
+      "admirative",
       "form-of",
-      "imperfect",
+      "present",
+      "second-person",
       "singular"
      ],
      "cats": [
@@ -58,12 +60,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "them"
+     "is_form_of": "jam"
     }
    ],
-   "rank": 1523,
-   "count": 582,
-   "family": "them",
+   "rank": 1510,
+   "count": 586,
+   "family": "jam",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -74,17 +76,141 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Nothing I would answer.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Asgjë, do të thosha unë."
-   }
+   "corpus_example": null
+  },
+  {
+   "id": "qenie",
+   "sq": "qenie",
+   "en": "being, existence",
+   "glosses": [
+    "being, existence",
+    "being (a living creature)",
+    "the objective world or the totality of things and phenomena that exist independently of consciousness; matter"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "being, existence",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "being",
+      "existence"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "being (a living creature)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ne jemi të gjithë qenie njerëzore.",
+       "en": "We are all human beings.",
+       "offsets": [
+        [
+         18,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "being"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the objective world or the totality of things and phenomena that exist independently of consciousness; matter",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Philosophy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Philosophy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 69 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -ie",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 54 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "philosophy",
+      "matter"
+     ]
+    }
+   ],
+   "rank": 4786,
+   "count": 159,
+   "family": "jam",
+   "is_root": false,
+   "etymology": "Gerund of jam; qenë + -ie (variant of -je).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "qenë",
+     "role": "base"
+    },
+    {
+     "word": "ie",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qenie",
+     "tag": "plural"
+    },
+    {
+     "form": "qenia",
+     "tag": "definite"
+    },
+    {
+     "form": "qenje",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ],
  "resumes": true

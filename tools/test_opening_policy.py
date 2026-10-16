@@ -99,8 +99,9 @@ if W:
 
     # 4086, plus `po` (pos_balance.INCLUDE_PARTICLES) and `e`, restored
     # for the curated opening (RECOMMENDATIONS.md section 3.2), and the four
-    # days Wiktionary files under their article (pos_balance.ARTICLED_ENTRIES).
-    check("the deck has 4092 cards", len(W), 4092)
+    # days Wiktionary files under their article (pos_balance.ARTICLED_ENTRIES),
+    # plus the 41 core words Wiktionary lacks (tools/added_words.py).
+    check("the deck has 4133 cards", len(W), 4133)
 
     # The policy governs the SCHEDULER, which starts after the curated
     # opening (tools/opening_levels.py). That opening teaches `jo` and the
