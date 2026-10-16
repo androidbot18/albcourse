@@ -326,6 +326,14 @@ the wrong thing.
 | `ishin` | they (used to) was | they were |
 | `errësirë`, `hua` | raw Wiktionary head-line (`errësirë f (plural…`) | darkness; loan |
 
+**Status:** all six rows fixed. `tools/gloss_overrides.py` is a small reviewed
+overrides layer applied after the build picks senses. It either moves an
+existing sense to the front (`në` → in, `botë` → world, planet) or replaces
+the headline (`do`, `qenë`, `ishin`, `errësirë`). Senses whose "gloss" is
+Wiktionary's head line (`húa f (plural …`) are dropped, which also fixed
+`hua`, `viç` and `krehër`. Levels are unchanged. A native speaker should
+confirm the `do` wording.
+
 40% of glosses (1,629) are comma lists of several senses. Headline **one**
 sense; put the rest behind a "more meanings" toggle.
 
@@ -479,9 +487,11 @@ not all fall due on the same day.
       Sources are pinned snapshots in `data/sources/`, the committed data is
       a clean rebuild, and CI fails if the two ever disagree.
 - [x] Fix README counts and level-title "+N" (1.7)
-- [ ] Orthography gate on examples; fix the glosses in §4.1. Not started: `në`
-      still ships as "if", `do` as "some", `botë` as "Earth", and `qenë` and
-      `ishin` keep their raw headlines.
+- [ ] Orthography gate on examples; fix the glosses in §4.1. Glosses done:
+      every §4.1 headline is fixed through a reviewed overrides layer
+      (`tools/gloss_overrides.py`, pinned by `tools/test_gloss_overrides.py`).
+      The build also drops Wiktionary head-line senses, which fixed `hua`,
+      `viç` and `krehër` as well. Orthography gate on examples: not started.
 
 **Phase 1: progression (1–2 weeks)**
 - [ ] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`

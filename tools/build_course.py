@@ -30,6 +30,7 @@ Design rules:
 import json
 import form_gloss
 import form_senses
+import gloss_overrides
 import teaching_order
 import pack_shape
 import pos_balance
@@ -1788,6 +1789,9 @@ def main():
     n_rw, n_keep = friendly_form_glosses(cards)
     if n_rw:
         print("  learner glosses: %d rewritten, %d kept as-is" % (n_rw, n_keep))
+
+    n_fixed = gloss_overrides.apply(cards, lambda p: POS_LABEL.get(p, p))
+    print("  reviewed gloss fixes: %d headlines changed" % n_fixed)
 
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.

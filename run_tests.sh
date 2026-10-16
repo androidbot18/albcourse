@@ -155,6 +155,12 @@ echo "== form gloss: person agreement and inferred lemmas =="
 # never converted. Also pins the two cards that must KEEP the raw gloss.
 step python3 tools/test_form_gloss_person.py
 
+echo "== reviewed headline glosses =="
+# Section 4.1: në headlined "if", botë "Earth", qenë "they are". These are
+# fixed by a small reviewed overrides layer (tools/gloss_overrides.py); this
+# pins each fix in the shipped deck and bans raw Wiktionary head lines.
+step python3 tools/test_gloss_overrides.py
+
 echo "== example selection guard =="
 # Two components disagreed on what counts as "this card has an example", so
 # words were skipped and shipped bare: 'mire' (adjective 'good') because its

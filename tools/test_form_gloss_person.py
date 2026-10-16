@@ -86,8 +86,9 @@ RAW = re.compile(
 # keeping dictionary phrasing is the correct outcome, not a miss.
 EXPECTED_SHIPPED = {
     # A copula takes no perfect note: English has no '(have done) are'.
-    # 'qenë' used to ship exactly that, which is the nonsense this fixes.
-    "qenë": "they are",
+    # 'qenë' used to ship exactly that. It is now overridden outright: it is
+    # the participle "been", not "they are" (tools/gloss_overrides.py, 4.1).
+    "qenë": "been",
     "qeshë": "I am",
     # A lexical verb DOES keep the note, and it agrees with the person.
     "ramë": "we (have done) fall",
