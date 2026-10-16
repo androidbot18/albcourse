@@ -58,6 +58,31 @@ jobs:
           git diff --stat -- data | tail -20 | tee -a rebuild-status.txt
           git diff --binary -- data > rebuild.patch || true
 
+      - name: How does the rebuild differ from the committed words?
+        shell: bash
+        run: |
+          git show HEAD:data/words.json > old_words.json
+          python3 - <<'PY' | tee rebuild-compare.txt
+          import json, collections
+          def load(p):
+              d = json.load(open(p, encoding="utf-8"))
+              return {w["sq"]: w for w in d["words"]}
+          old, new = load("old_words.json"), load("data/words.json")
+          print("DIGEST-CMP words old=%d new=%d" % (len(old), len(new)))
+          print("DIGEST-CMP only in old:", sorted(set(old) - set(new))[:40], len(set(old) - set(new)))
+          print("DIGEST-CMP only in new:", sorted(set(new) - set(old))[:40], len(set(new) - set(old)))
+          both = set(old) & set(new)
+          moved = [k for k in both if old[k]["level"] != new[k]["level"]]
+          print("DIGEST-CMP level moved:", len(moved), "of", len(both))
+          d = collections.Counter(abs(new[k]["level"] - old[k]["level"]) for k in moved)
+          print("DIGEST-CMP shift size (top):", d.most_common(8))
+          for f in ("en", "components", "breakdown", "rank"):
+              n = sum(1 for k in both if old[k].get(f) != new[k].get(f))
+              print("DIGEST-CMP field %s differs on %d cards" % (f, n))
+          print("DIGEST-CMP first 12 new:", [w["sq"] for w in sorted(new.values(), key=lambda w: (w["level"], w.get("rank", 0)))[:12]])
+          print("DIGEST-CMP first 12 old:", [w["sq"] for w in sorted(old.values(), key=lambda w: (w["level"], w.get("rank", 0)))[:12]])
+          PY
+
       - name: Run every test
         run: ./run_tests.sh 2>&1 | tee test-output.txt; exit "${PIPESTATUS[0]}"
         shell: bash
@@ -78,7 +103,7 @@ jobs:
         shell: bash
         run: |
           echo "=== DIGEST: rebuild vs committed ==="
-          cat rebuild-status.txt || true
+          cat rebuild-status.txt | tail -5 || true; grep DIGEST-CMP rebuild-compare.txt || true
           for t in test_pos_balance test_opening_policy; do
             echo "=== DIGEST: $t ==="
             python3 tools/$t.py 2>&1 | grep -v '^  ok' | head -30 || true
@@ -92,4 +117,5 @@ jobs:
           path: |
             test-output.txt
             rebuild-status.txt
+            rebuild-compare.txt
             rebuild.patch
