@@ -54,22 +54,33 @@ def load_all():
 
 files, cards, levels = load_all()
 
-early = [sq for f in files[:pb.EARLY_LEVELS]
-         for sq in [w["sq"] for w in json.load(open(f, encoding="utf-8"))["words"]]]
-mix = Counter(pb.headline_pos(cards[sq]) for sq in early)
-total = sum(mix.values()) or 1
-nshare = mix["noun"] / float(total)
-vshare = mix["verb"] / float(total)
+# The first levels are now hand-curated by theme (tools/opening_levels.py),
+# and the noun rebalance acts on the scheduler's levels after them. Both
+# must hold the balance: the curated opening as a whole (it has its own
+# syllabus, so numbers and pronouns crowd its first ten levels on purpose),
+# and the scheduler's first EARLY_LEVELS levels, which is where the
+# rebalance is measured.
+shipped = [json.load(open(f, encoding="utf-8")) for f in files]
+curated = [L for L in shipped if L.get("opening")]
+sched = [L for L in shipped if not L.get("opening")][:pb.EARLY_LEVELS]
 
-print("levels 1-%d: %d words, nouns %.1f%%, verbs %.1f%%"
-      % (pb.EARLY_LEVELS, total, 100 * nshare, 100 * vshare))
-
-check(nshare >= 0.25,
-      "opening is at least 25%% noun (got %.1f%%)" % (100 * nshare))
-check(nshare <= 0.60,
-      "opening is not a noun wall (got %.1f%%, over 60%%)" % (100 * nshare))
-check(vshare <= 0.60,
-      "opening is not all verb (got %.1f%%)" % (100 * vshare))
+for name, block in (("curated opening (%d levels)" % len(curated), curated),
+                    ("scheduler's first %d levels" % pb.EARLY_LEVELS, sched)):
+    mix = Counter(pb.headline_pos(cards[w["sq"]])
+                  for L in block for w in L["words"])
+    total = sum(mix.values()) or 1
+    nshare = mix["noun"] / float(total)
+    vshare = mix["verb"] / float(total)
+    print("%s: %d words, nouns %.1f%%, verbs %.1f%%"
+          % (name, total, 100 * nshare, 100 * vshare))
+    check(nshare >= 0.25,
+          "%s is at least 25%% noun (got %.1f%%)" % (name, 100 * nshare))
+    check(nshare <= 0.60,
+          "%s is not a noun wall (got %.1f%%, over 60%%)"
+          % (name, 100 * nshare))
+    check(vshare <= 0.60,
+          "%s is not all verb (got %.1f%%)" % (name, 100 * vshare))
+check(bool(curated), "the deck opens with curated levels")
 
 # The demotion regression: score=0 pushed these out of the opening entirely.
 # A promoted noun must not be able to cost a function word its place.

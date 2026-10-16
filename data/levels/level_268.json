@@ -1,41 +1,42 @@
 {
  "level": 268,
- "title": "larg (rarer words)",
- "root": "larg",
- "root_gloss": "away (from). in space or time",
+ "title": "atë (rarer words)",
+ "root": "atë",
+ "root_gloss": "it, that, him, her (accusative)",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 2,
  "families": [
-  "larg"
+  "atë"
  ],
  "pos_mix": {
-  "verb": 2,
-  "adj": 2
+  "noun": 1,
+  "adv": 2
  },
  "words": [
   {
-   "id": "larguar",
-   "sq": "larguar",
-   "en": "leave, past form (from largoj, to leave)",
+   "id": "ati",
+   "sq": "ati",
+   "en": "the it, singular (from atë)",
    "glosses": [
-    "leave, past form (from largoj, to leave)"
+    "the it, singular (from atë)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "leave, past form (from largoj, to leave)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the it, singular (from atë)",
      "tags": [
+      "definite",
       "form-of",
-      "participle",
-      "past"
+      "nominative",
+      "singular"
      ],
      "cats": [
       {
@@ -45,7 +46,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 28 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,12 +59,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "largoj"
+     "is_form_of": "atë"
     }
    ],
-   "rank": 1364,
-   "count": 651,
-   "family": "larg",
+   "rank": 1963,
+   "count": 441,
+   "family": "atë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -75,272 +76,120 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They're gone.",
+    "corpus": "bible-uedin",
+    "en": "I and my Father are one.",
     "score": [
      0,
-     3,
-     -3,
-     10
+     5,
+     -5,
+     9
     ],
-    "sq": "Ata janë larguar."
+    "sq": "Unë dhe Ati jemi një''."
    }
   },
   {
-   "id": "largë",
-   "sq": "largë",
-   "en": "far, far-off, distant",
+   "id": "matanë",
+   "sq": "matanë",
+   "en": "on the other side",
    "glosses": [
-    "far, far-off, distant"
+    "on the other side",
+    "beyond"
    ],
    "pos": [
-    "adj"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "far, far-off, distant",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "on the other side",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "65 35"
       },
       {
-       "name": "Albanian terms suffixed with -ë (adjective)",
+       "name": "Albanian univerbations",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "65 35"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "65 35"
       }
      ],
+     "examples": [
+      {
+       "sq": "Shko matanë!",
+       "en": "Go on the other side!",
+       "offsets": [
+        [
+         5,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beyond",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "far",
-      "far-off",
-      "distant"
+      "beyond"
      ]
     }
    ],
-   "rank": 3140,
-   "count": 258,
-   "family": "larg",
+   "rank": 4013,
+   "count": 194,
+   "family": "atë",
    "is_root": false,
-   "etymology": "From larg (“far”) + -ë.",
-   "etymology_class": "affix",
+   "etymology": "Univerbation of më (“at”) + atë (“that”) + anë (“side”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "far"
+    "at",
+    "that",
+    "side"
    ],
    "components": [
     {
-     "word": "larg",
-     "role": "base"
+     "word": "më",
+     "role": "prefix"
     },
     {
-     "word": "ë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Large ships were moored away.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Anijet e mëdha ankoroheshin largë."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "largoj",
-   "sq": "largoj",
-   "en": "to leave",
-   "glosses": [
-    "to leave"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to leave",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "leave"
-     ]
-    }
-   ],
-   "rank": 3271,
-   "count": 246,
-   "family": "larg",
-   "is_root": false,
-   "etymology": "From larg (“far, far away”) + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "larg",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
+     "word": "atë",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "largova",
-     "tag": "aorist"
-    },
-    {
-     "form": "larguar",
-     "tag": "participle"
+     "form": "mbatanë",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I don't want it, but I can't get rid of it.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Nuk e dua, po nuk e largoj dot."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "largët",
-   "sq": "largët",
-   "en": "distant, faraway, remote",
-   "glosses": [
-    "distant, faraway, remote"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "distant, faraway, remote",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ët",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "distant",
-      "faraway",
-      "remote"
-     ]
-    }
-   ],
-   "rank": 4752,
-   "count": 160,
-   "family": "larg",
-   "is_root": false,
-   "etymology": "From larg + -ët.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "larg",
-     "role": "base"
-    },
-    {
-     "word": "ët",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's not so far-fetched.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Nuk është aq e largët."
-   },
+   "corpus_example": null,
    "breakdown": "historical"
   }
  ],

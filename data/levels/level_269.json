@@ -1,41 +1,41 @@
 {
  "level": 269,
- "title": "femër, fati",
+ "title": "këndej, informacion, javë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "fati",
-  "femër"
+  "informacion",
+  "javë",
+  "këndej",
+  "shpi"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 2
+  "adv": 1,
+  "noun": 4
  },
  "words": [
   {
-   "id": "femër",
-   "sq": "femër",
-   "en": "a female (individual belonging to the sex that can typically give birth)",
+   "id": "këndej",
+   "sq": "këndej",
+   "en": "on this way",
    "glosses": [
-    "a female (individual belonging to the sex that can typically give birth)"
+    "on this way"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a female (individual belonging to the sex that can typically give birth)",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "on this way",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -58,48 +58,52 @@
      ],
      "examples": [],
      "links": [
-      "female"
+      "on",
+      "this",
+      "way"
      ]
     }
    ],
-   "rank": 1370,
-   "count": 647,
-   "family": "femër",
+   "rank": 1965,
+   "count": 440,
+   "family": "këndej",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin femina (“woman”).",
-   "etymology_class": "borrowed",
+   "etymology": "A nasal variant of këtej.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "woman"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "femra",
-     "tag": "plural"
+     "form": "këtej",
+     "tag": "alternative"
+    },
+    {
+     "form": "ktej",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "TED2020",
-    "en": "It's a female now.",
+    "en": "It moves this way over here.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      4
     ],
-    "sq": "Është femër tani."
+    "sq": "Lëviz këndej dhe vjen këtu."
    }
   },
   {
-   "id": "femrat",
-   "sq": "femrat",
-   "en": "the a female, plural (from femër)",
+   "id": "informacion",
+   "sq": "informacion",
+   "en": "information",
    "glosses": [
-    "the a female, plural (from femër)"
+    "information"
    ],
    "pos": [
     "noun"
@@ -111,13 +115,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the a female, plural (from femër)",
+     "gloss": "information",
      "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "nominative",
-      "plural"
+      "masculine"
      ],
      "cats": [
       {
@@ -127,7 +127,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -140,12 +140,97 @@
       }
      ],
      "examples": [],
-     "is_form_of": "femër"
+     "links": [
+      "information"
+     ]
     }
    ],
-   "rank": 1933,
-   "count": 447,
-   "family": "femër",
+   "rank": 1966,
+   "count": 440,
+   "family": "informacion",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "informacione",
+     "tag": "plural"
+    },
+    {
+     "form": "informacioni",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "What we need is information.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Na duhet informacion."
+   }
+  },
+  {
+   "id": "jave",
+   "sq": "jave",
+   "en": "week, singular (from javë)",
+   "glosses": [
+    "week, singular (from javë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "week, singular (from javë)",
+     "tags": [
+      "ablative",
+      "dative",
+      "form-of",
+      "indefinite",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "javë"
+    }
+   ],
+   "rank": 1967,
+   "count": 440,
+   "family": "javë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -156,95 +241,158 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "after one week.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "pas një jave."
+   }
   },
   {
-   "id": "femëror",
-   "sq": "femëror",
-   "en": "feminine",
+   "id": "shpi",
+   "sq": "shpi",
+   "en": "carriage",
    "glosses": [
-    "feminine",
-    "feminine gender"
+    "carriage"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "feminine",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "carriage",
      "tags": [
+      "Gheg",
+      "colloquial",
       "feminine"
      ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "feminine"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "feminine gender",
-     "tags": [],
      "cats": [
       {
-       "name": "Grammar",
+       "name": "Gheg Albanian",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Grammar",
-       "langcode": "sq"
-      },
-      {
-       "name": "Lexicography",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Lexicography",
-       "langcode": "sq"
+       "source": "w"
       },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 95"
+       "_dis": "4 96"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 97"
       }
      ],
      "examples": [],
      "links": [
-      "grammar",
-      "lexicography",
-      "feminine"
+      "carriage"
      ]
     }
    ],
-   "rank": 31542,
-   "count": 13,
-   "family": "femër",
+   "rank": 1970,
+   "count": 439,
+   "family": "shpi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "He came home once a year.",
+    "score": [
+     0,
+     7,
+     -7,
+     4
+    ],
+    "sq": "Vinte në shpi një herë ne vit."
+   }
+  },
+  {
+   "id": "fundjavë",
+   "sq": "fundjavë",
+   "en": "weekend",
+   "glosses": [
+    "weekend"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "weekend",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "weekend"
+     ]
+    }
+   ],
+   "rank": 2260,
+   "count": 376,
+   "family": "javë",
    "is_root": false,
-   "etymology": "femër (“woman”) + -or.",
+   "etymology": "From fund + javë.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "woman"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "femër",
-     "role": "base"
+     "word": "fund",
+     "role": "prefix"
     },
     {
-     "word": "or",
-     "role": "suffix"
+     "word": "javë",
+     "role": "stem"
     }
    ],
    "derived": [],
@@ -252,100 +400,19 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But not forgotten, and the usual feminine care.",
+    "en": "Wishing you a refreshing weekend!",
     "score": [
-     1,
-     7,
-     -6,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Por jo harruar, dhe kujdes zakonshme femëror."
+    "sq": "Fundjavë të bukur!"
    },
    "breakdown": "historical"
-  },
-  {
-   "id": "fati",
-   "sq": "fati",
-   "en": "mythological figure, imagined as one of three women (fates) that would come to a newborn's cradle on the third day of their life to assign their fate and future",
-   "glosses": [
-    "mythological figure, imagined as one of three women (fates) that would come to a newborn's cradle on the third day of their life to assign their fate and future"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mythological figure, imagined as one of three women (fates) that would come to a newborn's cradle on the third day of their life to assign their fate and future",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 13 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "tri fatitë",
-       "en": "the three fates",
-       "offsets": [
-        [
-         4,
-         10
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "mythological",
-      "figure",
-      "three"
-     ]
-    }
-   ],
-   "rank": 1371,
-   "count": 647,
-   "family": "fati",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fati",
-     "tag": "plural"
-    },
-    {
-     "form": "fatia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
   }
+ ],
+ "continues": [
+  "javë"
  ]
 }

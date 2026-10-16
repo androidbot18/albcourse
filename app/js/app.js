@@ -69,6 +69,17 @@ function startedWordCount() {
   return new Set(Object.keys(state.progress.items).map(baseId)).size;
 }
 
+/* The extended track (levels after the main course) is optional: its new
+ * words are introduced only once the learner turns it on. Words already
+ * started keep coming back for review either way. */
+function extendedOn() {
+  return state.progress.prefs.extended === true;
+}
+
+function inScope(l) {
+  return !l.extended || extendedOn();
+}
+
 /* ------------------------------------------------------------ rendering */
 
 function render() {
@@ -89,11 +100,13 @@ function render() {
 function viewMap(root) {
   const head = el('div', 'view-head');
   head.append(el('h1', null, 'Albanian Roots & Families'));
-  head.append(el('p', 'sub', state.index.length + ' levels, ordered by how common a root is.'));
+  const main = state.index.filter((l) => !l.extended);
+  const extra = state.index.filter((l) => l.extended);
+  head.append(el('p', 'sub', main.length + ' levels, ordered by how common a root is.'));
   head.append(el('p', 'sub', 'Learn the root, then the family of words built on it.'));
   root.append(head);
 
-  const total = state.index.reduce((a, l) => a + l.word_count, 0);
+  const total = state.index.filter(inScope).reduce((a, l) => a + l.word_count, 0);
   const started = startedWordCount();
   const track = el('div', 'progress-line');
   const fill = el('div', 'progress-fill');
@@ -101,8 +114,26 @@ function viewMap(root) {
   track.append(fill);
   head.append(track);
 
+  root.append(levelGrid(main));
+  if (extra.length) {
+    const ext = el('div', 'view-head');
+    ext.append(el('h2', null, 'Extended vocabulary'));
+    ext.append(el('p', 'sub', extra.length + ' more levels of rarer words. The main course already covers about 80% of everyday Albanian; these add a few percent more.'));
+    const words = extra.reduce((a, l) => a + l.word_count, 0);
+    ext.append(btn(extendedOn() ? 'Stop adding these to Review' : 'Add these ' + words + ' words to Review', () => {
+      if (extendedOn()) delete state.progress.prefs.extended;
+      else state.progress.prefs.extended = true;
+      commit();
+      render();
+    }));
+    root.append(ext);
+    root.append(levelGrid(extra));
+  }
+}
+
+function levelGrid(levels) {
   const grid = el('div', 'level-grid');
-  for (const l of state.index) {
+  for (const l of levels) {
     const b = el('button', 'level-chip');
     b.type = 'button';
     b.append(el('span', 'lvl-num', String(l.level)));
@@ -117,7 +148,7 @@ function viewMap(root) {
     b.addEventListener('click', () => openLevel(l.level));
     grid.append(b);
   }
-  root.append(grid);
+  return grid;
 }
 
 async function openLevel(n) {
@@ -283,7 +314,9 @@ function startStudy() {
   for (const w of state.teachingOrder) {
     if (reverse && !isReverseFriendly(w)) continue;
     const key = reverse ? w.id + REVERSE : w.id;
-    pool.push(state.progress.items[key] || newItem(key));
+    const item = state.progress.items[key];
+    if (!item && w.extended && !extendedOn()) continue;
+    pool.push(item || newItem(key));
   }
   // The cap is per day, not per press: subtract what was already introduced.
   const allowance = Math.max(0, NEW_PER_DAY - newIntroducedToday());
@@ -456,7 +489,7 @@ function viewStats(root) {
 }
 
 function totalWords() {
-  return state.words.size || state.index.reduce((a, l) => a + l.word_count, 0);
+  return state.index.filter(inScope).reduce((a, l) => a + l.word_count, 0);
 }
 
 function btn(label, fn) {

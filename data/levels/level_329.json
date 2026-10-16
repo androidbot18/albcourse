@@ -1,43 +1,46 @@
 {
  "level": 329,
- "title": "ngre, hir, vënd",
+ "title": "shpërthim, xhep, rreze +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "hir",
-  "ngre",
-  "vënd"
+  "rashë",
+  "rreze",
+  "shpërthim",
+  "urtë",
+  "vaj",
+  "xhep"
  ],
  "pos_mix": {
-  "verb": 5,
-  "noun": 5
+  "noun": 7,
+  "intj": 1,
+  "adj": 1,
+  "verb": 3
  },
  "words": [
   {
-   "id": "ngritur",
-   "sq": "ngritur",
-   "en": "raise, past form (from ngre, to raise)",
+   "id": "shpërthim",
+   "sq": "shpërthim",
+   "en": "explosion",
    "glosses": [
-    "raise, past form (from ngre, to raise)"
+    "explosion"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "raise, past form (from ngre, to raise)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "explosion",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "masculine"
      ],
      "cats": [
       {
@@ -60,13 +63,15 @@
       }
      ],
      "examples": [],
-     "is_form_of": "ngre"
+     "links": [
+      "explosion"
+     ]
     }
    ],
-   "rank": 1934,
-   "count": 447,
-   "family": "ngre",
-   "is_root": false,
+   "rank": 4204,
+   "count": 183,
+   "family": "shpërthim",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -78,151 +83,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And then you are set up.",
+    "en": "What a blast!",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Dhe atëherë ju jeni ngritur."
+    "sq": "Çfarë një shpërthim!"
    }
   },
   {
-   "id": "hir",
-   "sq": "hir",
-   "en": "kindness, favor, sake",
+   "id": "xhep",
+   "sq": "xhep",
+   "en": "pocket",
    "glosses": [
-    "kindness, favor, sake",
-    "willingness, goodwill",
-    "beauty, grace, charm, dignity",
-    "heavenly grace"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kindness, favor, sake",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "willingness, goodwill",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "willingness",
-      "goodwill"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "beauty, grace, charm, dignity",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "beauty",
-      "grace",
-      "charm"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "heavenly grace",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 22 27 34"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "grace"
-     ]
-    }
-   ],
-   "rank": 1936,
-   "count": 446,
-   "family": "hir",
-   "is_root": true,
-   "etymology": "Possibly from Proto-Albanian *skīra, from a Proto-Indo-European *sḱeyr-o- (“shine, reflex”), whence German schier (“pure, clear”), Polish szczery (“sincere, earnest”), Ancient Greek σκίρον (skíron, “parasol”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "parasol"
-   ],
-   "components": [],
-   "derived": [
-    "hire",
-    "hirës",
-    "hirësi",
-    "hirësisht",
-    "hirmadh",
-    "hiroj",
-    "hirplotë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "hire",
-     "tag": "plural"
-    },
-    {
-     "form": "hiri",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "full of grace and truth.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "plot hir dhe të vërtetë."
-   }
-  },
-  {
-   "id": "vënd",
-   "sq": "vënd",
-   "en": "place",
-   "glosses": [
-    "place"
+    "pocket"
    ],
    "pos": [
     "noun"
@@ -234,7 +110,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "place",
+     "gloss": "pocket",
      "tags": [
       "masculine"
      ],
@@ -260,15 +136,257 @@
      ],
      "examples": [],
      "links": [
-      "place"
+      "pocket"
      ]
     }
    ],
-   "rank": 1945,
-   "count": 444,
-   "family": "vënd",
+   "rank": 4205,
+   "count": 183,
+   "family": "xhep",
    "is_root": true,
-   "etymology": "From Proto-Albanian *wenta, derivative of vë (“to put”).",
+   "etymology": "Borrowed from Ottoman Turkish جیب (ceb, cep), from Arabic جَيْب (jayb, “pocket”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "pocket"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "xhepa",
+     "tag": "plural"
+    },
+    {
+     "form": "xhepi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Slip them in your pocket and go.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Futini në xhep dhe shkoni."
+   }
+  },
+  {
+   "id": "rreze",
+   "sq": "rreze",
+   "en": "ray of light",
+   "glosses": [
+    "ray of light",
+    "spark",
+    "radiation",
+    "radius"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ray of light",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 4 4 36"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ray"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spark",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "spark"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "radiation",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "radiation"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "radius",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 11 11 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 7 7 70"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "radius"
+     ]
+    }
+   ],
+   "rank": 4208,
+   "count": 183,
+   "family": "rreze",
+   "is_root": true,
+   "etymology": "Singularized plural of *rraz, borrowed through Vulgar Latin from Latin radius. Compare Romanian rază, Italian raggio.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "rrezatoj",
+    "rrezeartë",
+    "rrezekuq",
+    "rrezit",
+    "rrezoj",
+    "rrëzëllen",
+    "rrëzëllimë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "rreze",
+     "tag": "plural"
+    },
+    {
+     "form": "rrezja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A black hole has no radius.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Një vrimë e zezë nuk ka rreze."
+   }
+  },
+  {
+   "id": "vaj",
+   "sq": "vaj",
+   "en": "woe!, alas!",
+   "glosses": [
+    "woe!, alas!",
+    "oil"
+   ],
+   "pos": [
+    "intj",
+    "noun"
+   ],
+   "pos_labels": [
+    "interjection",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "woe!, alas!",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "woe",
+      "alas"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "oil",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "oil"
+     ]
+    }
+   ],
+   "rank": 4210,
+   "count": 183,
+   "family": "vaj",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *u̯ɔλa, from Vulgar Latin *oli̯u, from Latin oleum, from Ancient Greek ἔλαιον (élaion).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -278,48 +396,113 @@
    "related": [],
    "forms": [
     {
-     "form": "vënde",
+     "form": "vajra",
      "tag": "plural"
     },
     {
-     "form": "vëndi",
+     "form": "vaji",
      "tag": "definite"
-    },
-    {
-     "form": "vend",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "All is in place.",
+    "en": "Which oil did you use?",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Gjithçka është në vënd."
+    "sq": "Cilin vaj keni përdorur?"
    }
   },
   {
-   "id": "ngre",
-   "sq": "ngre",
-   "en": "to raise, to elevate, to lift",
+   "id": "urtë",
+   "sq": "urtë",
+   "en": "sage, wise; clever; silent",
    "glosses": [
-    "to raise, to elevate, to lift",
-    "to erect",
-    "to awaken, wake up",
-    "to arouse (to cause to have an erection)"
+    "sage, wise; clever; silent"
    ],
    "pos": [
-    "verb",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sage, wise; clever; silent",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sage",
+      "wise",
+      "clever"
+     ]
+    }
+   ],
+   "rank": 4234,
+   "count": 182,
+   "family": "urtë",
+   "is_root": true,
+   "etymology": "First attested in 1555. Uncertain, however, suggested to be:\n* a -të continuation of a Proto-Albanian *(w)ura- (“clever, experienced”), from Proto-Indo-European *(s)wr̥h₃ós (“insightful, observant”).\n* related to Old High German war (“aware, careful”), from Proto-Albanian *urta, from Proto-Indo-European *ur-tó-s, from *wer- (“to observe, perceive”) + *-tós;\n* from Proto-Indo-European *h₂er- (“to speak emphatically, loudly”), from Proto-Albanian *urta, presumably from Proto-Indo-European *h₂r̥-tó-s, from *h₂er- + *-tós;\n* from unattested *ur + -të (verbal adjective suffix), from Proto-Albanian *wara, from Proto-Indo-European *weh₁ros (“true”), though this is problematic as a *war- would lead to Alb. *var- (see valë);\n* related to Gothic 𐍅𐍂𐌹𐌺𐌰𐌽 (wrikan, “to persecute”), Latin urgeō (“to press, push”), presumably from Proto-Albanian *ur(k)ta, from Proto-Indo-European *urg-tó-s, from *wreg- (“to follow a trail”) + *-tós.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is wise.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Është e urtë."
+   }
+  },
+  {
+   "id": "rashë",
+   "sq": "rashë",
+   "en": "to have fallen (off)",
+   "glosses": [
+    "to have fallen (off)",
+    "to have tumbled, to have flopped",
+    "to have punched, to have struck"
+   ],
+   "pos": [
     "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb",
     "verb",
     "verb"
@@ -328,128 +511,92 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to raise, to elevate, to lift",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to have fallen (off)",
+     "tags": [],
      "cats": [],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Rashë në një gjumë të thellë.",
+       "en": "I fell into a deep sleep.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
      "links": [
-      "raise",
-      "elevate",
-      "lift"
+      "fall",
+      "off"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to erect",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "erect"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to awaken, wake up",
-     "tags": [
-      "figuratively",
-      "transitive"
-     ],
+     "gloss": "to have tumbled, to have flopped",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "17 17 39 26"
+       "_dis": "14 49 38"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "19 19 39 22"
+       "_dis": "11 67 21"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 14 57 16"
+       "_dis": "8 57 36"
       }
      ],
-     "examples": [
-      {
-       "sq": "Skënderbeu ngriti popullin në luftë.",
-       "en": "Skanderbeg woke the people up in the war.",
-       "offsets": [
-        [
-         11,
-         17
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "awaken",
-      "wake up"
+      "tumble",
+      "flop"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to arouse (to cause to have an erection)",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
+     "gloss": "to have punched, to have struck",
+     "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "arouse"
+      "punch",
+      "struck"
      ]
     }
    ],
-   "rank": 2565,
-   "count": 323,
-   "family": "ngre",
+   "rank": 4244,
+   "count": 181,
+   "family": "rashë",
    "is_root": true,
-   "etymology": "First attested in 1555 by Buzuku as ëngre, allowing the dissection of ën- + *gre. Ultimately from Proto-Indo-European *h₁ger- (“to awaken”).",
+   "etymology": "Suppletive aorist of bie; from Proto-Albanian *rauša, from Proto-Indo-European *h₃rew-s-e-ti, from *h₃rew- (“run, hurry”) (compare Latin ruō (“to rush; collapse”), Ancient Greek ὀρούω (oroúō, “to hurry”), Czech ruch (“movement”)).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "movement"
+   ],
    "components": [],
-   "derived": [
-    "shkreh"
-   ],
+   "derived": [],
    "related": [
-    "ngrihem"
+    "bie",
+    "ra",
+    "rëndë"
    ],
-   "forms": [
-    {
-     "form": "ngrita",
-     "tag": "aorist"
-    },
-    {
-     "form": "ngritur",
-     "tag": "participle"
-    },
-    {
-     "form": "ngredh",
-     "tag": "alternative"
-    },
-    {
-     "form": "ngreh",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": null
   }
  ]

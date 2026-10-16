@@ -1,29 +1,158 @@
 {
  "level": 307,
- "title": "vlerë, merak, polici +2",
+ "title": "bodrum, mjek, not +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "merak",
-  "polici",
-  "rruge",
-  "vazhdoj",
-  "vlerë"
+  "ani",
+  "bodrum",
+  "lajmëroj",
+  "mjek",
+  "not",
+  "pistë"
  ],
  "pos_mix": {
-  "noun": 11,
-  "verb": 4
+  "noun": 8,
+  "verb": 1,
+  "adv": 2
  },
  "words": [
   {
-   "id": "vlerë",
-   "sq": "vlerë",
-   "en": "value, worth",
+   "id": "bodrum",
+   "sq": "bodrum",
+   "en": "basement, cellar",
    "glosses": [
-    "value, worth"
+    "basement, cellar",
+    "underground hole",
+    "prison cell"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "basement, cellar",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 29 35"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 8 10"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 17 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "basement",
+      "cellar"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "underground hole",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 29 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "underground",
+      "hole"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "prison cell",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 29 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "prison",
+      "cell"
+     ]
+    }
+   ],
+   "rank": 3237,
+   "count": 249,
+   "family": "bodrum",
+   "is_root": true,
+   "etymology": "From Ottoman Turkish پودروم (podrum), بودروم (bodrum), from Byzantine Greek ὑπόδρομος (hupódromos).",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Studio in basement.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Studio në bodrum."
+   }
+  },
+  {
+   "id": "mjek",
+   "sq": "mjek",
+   "en": "doctor, medic",
+   "glosses": [
+    "doctor, medic"
    ],
    "pos": [
     "noun"
@@ -35,8 +164,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "value, worth",
-     "tags": [],
+     "gloss": "doctor, medic",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -59,68 +190,64 @@
      ],
      "examples": [],
      "links": [
-      "value",
-      "worth"
+      "doctor",
+      "medic"
      ]
     }
    ],
-   "rank": 1665,
-   "count": 528,
-   "family": "vlerë",
+   "rank": 3239,
+   "count": 249,
+   "family": "mjek",
    "is_root": true,
-   "etymology": "Borrowed from Latin valor, valōrem (“value”).",
-   "etymology_class": "borrowed",
+   "etymology": "From an earlier mjēk, from Proto-Albanian *mʲeðək, borrowed through Vulgar Latin from Latin medicus (“doctor, physician, surgeon”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "value"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "mjekë",
+     "tag": "plural"
+    },
+    {
+     "form": "mjeku",
+     "tag": "definite"
+    },
+    {
+     "form": "mjeke",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Always to value.",
+    "corpus": "Tatoeba",
+    "en": "I'm not a doctor.",
     "score": [
      0,
-     3,
-     -3,
-     10
+     4,
+     -4,
+     0
     ],
-    "sq": "Gjithmonë në vlerë."
+    "sq": "Unë nuk jam mjek."
    }
   },
   {
-   "id": "merak",
-   "sq": "merak",
-   "en": "great curiosity",
+   "id": "not",
+   "sq": "not",
+   "en": "swim, swimming (act of swimming or ability to swim)",
    "glosses": [
-    "great curiosity",
-    "desire, yearning, craving for something",
-    "great worry, concern, anxiety, uneasiness",
-    "love, passion",
-    "care, attention, concern",
-    "fear, insecurity",
-    "doubt, suspicion",
-    "regret"
+    "swim, swimming (act of swimming or ability to swim)",
+    "swimmer",
+    "southwest wind, libeccio"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
     "noun",
     "noun",
     "noun"
@@ -129,39 +256,75 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "great curiosity",
+     "gloss": "swim, swimming (act of swimming or ability to swim)",
      "tags": [
-      "colloquial",
-      "masculine"
+      "masculine",
+      "uncountable"
      ],
-     "cats": [],
-     "examples": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Swimming",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Swimming",
+       "langcode": "sq",
+       "_dis": "90 6 4"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "di not",
+       "en": "to know how to swim",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "ra not",
+       "en": "to swim",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      }
+     ],
      "links": [
-      "curiosity"
+      "swim",
+      "swimming"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "desire, yearning, craving for something",
+     "gloss": "swimmer",
      "tags": [
-      "colloquial",
+      "dialectal",
       "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "desire",
-      "yearning",
-      "craving"
+      "swimmer"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "great worry, concern, anxiety, uneasiness",
+     "gloss": "southwest wind, libeccio",
      "tags": [
-      "colloquial",
+      "dialectal",
       "masculine"
      ],
      "cats": [
@@ -170,161 +333,57 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 9 30 3 28 3 11 14"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "worry",
-      "concern",
-      "anxiety"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "love, passion",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "love",
-      "passion"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "care, attention, concern",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
+       "_dis": "16 8 75"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Wind",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 9 30 3 28 3 11 14"
+       "orig": "sq:Wind",
+       "langcode": "sq",
+       "_dis": "6 1 93"
       }
      ],
      "examples": [],
      "links": [
-      "care",
-      "attention",
-      "concern"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fear, insecurity",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fear",
-      "insecurity"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "doubt, suspicion",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 9 30 3 28 3 11 14"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "doubt",
-      "suspicion"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "regret",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 9 30 3 28 3 11 14"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "regret"
+      "southwest",
+      "wind",
+      "libeccio"
      ]
     }
    ],
-   "rank": 1675,
-   "count": 526,
-   "family": "merak",
+   "rank": 3240,
+   "count": 248,
+   "family": "not",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish مراق (merak).",
+   "etymology": "From a deverbal of Latin natāre, *notāre, compare Italian nuoto. A direct verbal borrowing would have regularly yielded **nëtoj instead of attested notoj, which must be a secondary derivation from the noun. Earliest attestations start with /mn/, likely due rebracketing of expressions such as i bie m not, compare Romanian înota.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "merakleshë",
-    "merakli",
-    "merakos",
-    "merakshëm"
+    "mnotshëm",
+    "notar",
+    "notarak",
+    "notoj"
    ],
    "related": [],
    "forms": [
     {
-     "form": "merake",
-     "tag": "plural"
-    },
-    {
-     "form": "meraku",
+     "form": "noti",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "We're on it.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Mos ki merak."
-   }
+   "corpus_example": null
   },
   {
-   "id": "polici",
-   "sq": "polici",
-   "en": "police",
+   "id": "pistë",
+   "sq": "pistë",
+   "en": "airstrip, runway",
    "glosses": [
-    "police"
+    "airstrip, runway"
    ],
    "pos": [
     "noun"
@@ -336,7 +395,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "police",
+     "gloss": "airstrip, runway",
      "tags": [
       "feminine"
      ],
@@ -348,85 +407,6 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "police"
-     ]
-    }
-   ],
-   "rank": 1676,
-   "count": 526,
-   "family": "polici",
-   "is_root": true,
-   "etymology": "Borrowed from Italian polizia.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "policia",
-     "tag": "definite"
-    },
-    {
-     "form": "ciliop",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I'm in the police.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Jam në polici."
-   }
-  },
-  {
-   "id": "rruge",
-   "sq": "rruge",
-   "en": "street",
-   "glosses": [
-    "street"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "street",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -441,15 +421,16 @@
      ],
      "examples": [],
      "links": [
-      "street"
+      "airstrip",
+      "runway"
      ]
     }
    ],
-   "rank": 1677,
-   "count": 526,
-   "family": "rruge",
+   "rank": 3263,
+   "count": 247,
+   "family": "pistë",
    "is_root": true,
-   "etymology": "Variant of standard rrugë.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -459,38 +440,35 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "It's okay, mom.",
+    "corpus": "HPLT",
+    "en": "It's a dirty game.'",
     "score": [
      0,
-     4,
-     -4,
-     5
+     5,
+     -5,
+     10
     ],
-    "sq": "Te rri ne rruge?"
+    "sq": "Është një lojë e pistë.'"
    }
   },
   {
-   "id": "vazhdoj",
-   "sq": "vazhdoj",
-   "en": "to continue",
+   "id": "lajmëroj",
+   "sq": "lajmëroj",
+   "en": "to announce, to notify, to inform",
    "glosses": [
-    "to continue",
-    "to proceed"
+    "to announce, to notify, to inform"
    ],
    "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to continue",
+     "gloss": "to announce, to notify, to inform",
      "tags": [
       "transitive"
      ],
@@ -499,49 +477,35 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "60 40"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "continue"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to proceed",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "proceed"
+      "announce",
+      "notify",
+      "inform"
      ]
     }
    ],
-   "rank": 1680,
-   "count": 525,
-   "family": "vazhdoj",
+   "rank": 3265,
+   "count": 247,
+   "family": "lajmëroj",
    "is_root": true,
-   "etymology": "From vazhdë + -oj.",
-   "etymology_class": "affix",
+   "etymology": "From lajm.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -550,158 +514,103 @@
    "related": [],
    "forms": [
     {
-     "form": "vazhdova",
-     "tag": "aorist"
-    },
-    {
-     "form": "vazhduar",
+     "form": "lajmëruar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "And so I'll go on.",
+    "corpus": "HPLT",
+    "en": "Commander Përmet warns all the troops to flee.",
     "score": [
-     0,
      3,
-     -3,
-     5
+     10,
+     -7,
+     10
     ],
-    "sq": "Dhe do vazhdoj."
+    "sq": "Kumandar'i Përmetit lajmëroj të gjithë trupat për të ikur."
    }
   },
   {
-   "id": "vlerësoj",
-   "sq": "vlerësoj",
-   "en": "to value",
+   "id": "ani",
+   "sq": "ani",
+   "en": "then, later; later (on)",
    "glosses": [
-    "to value",
-    "to rate"
+    "then, later; later (on)",
+    "well, so, fine, now, OK"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to value",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "then, later; later (on)",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms interfixed with -s-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "then",
+      "later",
+      "later"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "well, so, fine, now, OK",
+     "tags": [],
+     "cats": [],
      "examples": [
       {
-       "sq": "Unë vlerësoj ty.",
-       "en": "I value you.",
+       "sq": "Ani, në rregull.",
+       "en": "Well, all right.",
        "offsets": [
         [
-         4,
-         12
+         0,
+         3
+        ]
+       ]
+      },
+      {
+       "sq": "Ani de?",
+       "en": "So what?",
+       "offsets": [
+        [
+         0,
+         3
         ]
        ]
       }
      ],
      "links": [
-      "value"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rate",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms interfixed with -s-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "rate"
+      "well",
+      "so",
+      "fine"
      ]
     }
    ],
-   "rank": 2081,
-   "count": 415,
-   "family": "vlerë",
-   "is_root": false,
-   "etymology": "From vlerë + -s- + -oj.",
-   "etymology_class": "affix",
+   "rank": 3268,
+   "count": 246,
+   "family": "ani",
+   "is_root": true,
+   "etymology": "Cognate to tani (“now, at present, then”), from Proto-Albanian *nū, from Proto-Indo-European *nū (“now”) (cognate to Sanskrit नू (nū, “now”)). Occurs in coordination with other particles, compare nani, nime.\nFurther related to and (Standard) Albanian a (“probably, whether; or, there”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vlerë",
-     "role": "base"
-    },
-    {
-     "word": "s",
-     "role": "suffix"
-    }
+   "parents": [
+    "now"
    ],
+   "components": [],
    "derived": [],
-   "related": [
-    "vlerë",
-    "vlerësi",
-    "zhvlerësoj"
-   ],
-   "forms": [
-    {
-     "form": "vlerësova",
-     "tag": "aorist"
-    },
-    {
-     "form": "vlerësuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "related": [],
+   "forms": [],
+   "corpus_example": null
   }
  ]
 }

@@ -35,6 +35,7 @@ import orthography
 import teaching_order
 import pack_shape
 import pos_balance
+import opening_levels
 import opening_policy
 import cognates
 import affixes
@@ -90,6 +91,13 @@ TITLE_ROOTS = 3
 # Families that compete for the opening shed any tail at all (see
 # assign_levels(), "root first, tail later").
 OPENING_MIN_DEFERRED = 4
+
+# The main course teaches the words ranked up to here; the rest is an
+# optional extended track that follows it (RECOMMENDATIONS.md section 3.6).
+# Measured on the pinned sources: 340 levels reach 80.9% of tokens counted
+# by form or lemma, against 83.8% for all 801 levels. The curated opening
+# and the stems of main-course words are main course whatever their rank.
+MAIN_MAX_RANK = 5000
 
 # Closed-class roots deferred past the opening get a synthetic rank just
 # beyond this one, so they are taught after the opening rather than dropped.
@@ -585,12 +593,18 @@ def _affix_is_reconstruction(left):
     anywhere in the clause would reject esell too, because its sentence opens
     with the starred reconstruction "From Proto-Albanian *a-tšilna". So the
     star is only read when it is attached to the affix itself.
+
+    "Attached" covers a reconstruction with an optional segment: tetë
+    ("eight") reads "From *(a)te + -të", and *(a)te is not the preposition
+    te. Matching only "*" + the last word missed it, so tetë was filed in
+    the family of te ("at, to").
     """
     ctx = _DERIV_LEAD_RE.sub("", left)
     toks = _DERIV_WORD_RE.findall(ctx)
     if not toks:
         return False
-    return ctx.rstrip().endswith("*" + toks[-1])
+    chunk = ctx.split()[-1] if ctx.split() else ""
+    return chunk.startswith("*") and chunk.endswith(toks[-1])
 
 
 def components_of(text, words):
@@ -684,12 +698,12 @@ def components_of(text, words):
         # ("behind" for lashte, "appearance" for drite, Latin "communis" for
         # komunal -- 193 such tokens across the deck).
         #
-        # Curated exclusions are the one deliberate exception. "e" is not a
-        # card, but the privative PREFIX e- is real, recurring and is the
-        # whole point of the derivation: esell = e- + sille, egjell = e- +
-        # gjell. The card is excluded because its own senses are unresolvable
-        # out of context; the PREFIX is unambiguous and worth teaching, so it
-        # stays on the component line as a label rather than as a word to learn.
+        # Curated exclusions are the one deliberate exception
+        # (pos_balance.EXCLUDE_WORDS, empty at present). The privative PREFIX
+        # e- is the case this was written for: esell = e- + sille, egjell =
+        # e- + gjell. It is shown on the component line as a label; it is not
+        # the card e ("and"), and pos_balance.NOT_A_FAMILY_BASE keeps the
+        # derivation from filing esell in that card's family.
         # It is a prefix, so per assign_levels it never creates a prerequisite
         # edge -- it is displayed, not re-ordered.
         #
@@ -842,16 +856,14 @@ def load_dict(path, freq):
                 stats["skipped_pos"] += 1
                 continue
             w = (j.get("word") or "").strip()
+            w = pos_balance.ARTICLED_ENTRIES.get(w, w)
             if not w or not ALPHABET_RE.match(w):
                 stats["skipped_shape"] += 1
                 continue
             # Curated exclusions. These are words the frequency list proves
             # are extremely common, so the frequency cut alone will never
-            # remove them. "e" is the standing case: rank 2, a conjunction in
-            # one reading and the definite article in another, so its card
-            # cannot say which sense it teaches and its example could show the
-            # article while the English "and" came from "dhe". See
-            # pos_balance.EXCLUDE_WORDS for the full reasoning.
+            # remove them. "e" was the standing case until it was restored
+            # with a reviewed gloss and example; see pos_balance.EXCLUDE_WORDS.
             if w in pos_balance.EXCLUDE_WORDS:
                 stats["skipped_excluded"] += 1
                 continue
@@ -1085,6 +1097,10 @@ def build_families(cards):
             parent.setdefault(w, lemma)
             continue
         for base in derivations_from_text(c.get("etymology", "")):
+            # e- (privative prefix) is not e ("and"); see
+            # pos_balance.NOT_A_FAMILY_BASE.
+            if base in pos_balance.NOT_A_FAMILY_BASE:
+                continue
             if base in words and base != w:
                 parent.setdefault(w, base)
                 break
@@ -1113,8 +1129,49 @@ def by_word_components(cards):
             if c.get("components")}
 
 
+def schedule_course(cards, families, components=None, opening=None,
+                    main_max_rank=MAIN_MAX_RANK):
+    """The main course, then the extended track, as assign_levels() levels.
+
+    The main course is every card ranked up to `main_max_rank`, the curated
+    opening, and (transitively) the stems those words are built on, so the
+    prerequisite rule holds inside it. Everything else is the extended
+    track: scheduled by the same rules, numbered after the main course, and
+    marked `extended`. Its stems are all taught already, either in the main
+    course or earlier in the track. No card is dropped.
+    """
+    components = components or {}
+    rank_of = {c["word"]: c["rank"] for c in cards}
+    main = {w for w, r in rank_of.items() if r <= main_max_rank}
+    main |= {w for _, ws in (opening or ()) for w in ws if w in rank_of}
+    todo = sorted(main)
+    while todo:
+        w = todo.pop()
+        for c in components.get(w, ()):
+            s = c.get("word")
+            if c.get("role") == "stem" and s in rank_of and s not in main:
+                main.add(s)
+                todo.append(s)
+
+    def part(keep):
+        fams = {r: [m for m in ms if m in keep] for r, ms in families.items()}
+        return ([c for c in cards if c["word"] in keep],
+                {r: ms for r, ms in fams.items() if ms})
+
+    main_cards, main_fams = part(main)
+    levels = assign_levels(main_cards, main_fams, components=components,
+                           opening=opening)
+    ext_cards, ext_fams = part(set(rank_of) - main)
+    if ext_cards:
+        for lvl in assign_levels(ext_cards, ext_fams, components=components,
+                                 begun=set(main_fams)):
+            lvl[7]["extended"] = True
+            levels.append(lvl)
+    return levels
+
+
 def assign_levels(cards, families, per_level=9, max_families=6,
-                  components=None):
+                  components=None, opening=None, begun=()):
     """Levels are sessions of whole word families, in prerequisite order.
 
     Three rules, in priority order:
@@ -1142,6 +1199,15 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     `components` is {word: [{"word":..., "role":...}, ...]}. Only stems
     (role "stem") create prerequisites; a prefix is already the family root,
     so it is displayed but never re-ordered.
+
+    `opening` is the hand-curated opening (tools/opening_levels.LEVELS): a
+    list of (title, words) that become levels 1..n as written. The scheduler
+    runs on what is left. A family the opening only partly teaches comes
+    back later at its own frequency, on a level that lists it under
+    `continues`.
+
+    `begun` names families an earlier track already taught (see
+    schedule_course()); their levels here are titled "root (more)".
     """
     rank_of = {c["word"]: c["rank"] for c in cards}
 
@@ -1161,6 +1227,23 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     for root, members in families.items():
         for m in members:
             fam_of[m] = root
+
+    # ---- the hand-curated opening ----------------------------------------
+    # Levels 1..n are set by theme in tools/opening_levels.py (greetings,
+    # pronouns, jam/kam, numbers, family, food...), because no frequency
+    # list is a syllabus for a first week. Everything below schedules the
+    # rest. A curated word's stem is curated no later than it (plan()
+    # checks), so no edge into the opening is ever unmet.
+    curated = []
+    opened = set()
+    if opening:
+        curated = opening_levels.plan(opening, set(rank_of), fam_of,
+                                      stems_of, per_level, max_families)
+        opened = {w for _, ws in curated for w in ws}
+        families = {r: [m for m in ms if m not in opened]
+                    for r, ms in families.items()}
+        families = {r: ms for r, ms in families.items() if ms}
+    opened_fams = {fam_of[w] for w in opened}
 
     score = {}
     for root, members in families.items():
@@ -1375,7 +1458,7 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         for m in head_members:
             for s in stems_of(m):
                 sf = fam_of.get(s)
-                if sf is not None and sf != root:
+                if sf is not None and sf != root and s not in opened:
                     need.add(sf)
         deps[root] = need
 
@@ -1454,7 +1537,7 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         # of the tail without putting it back in the head silently deleted 24
         # cards (lexoj, shkruaj, mesoj, fitoj, uroj and 19 others) -- the
         # family's own name is the one word it cannot afford to lose.
-        if root not in common:
+        if root in members and root not in common:
             common = [root] + common
         cset = set(common)
         rare = [m for m in members if m not in cset]
@@ -1554,7 +1637,7 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         if tail_units:
             tail_words = [w for u in tail_units for w in u[0]]
             needs = {fam_of[s] for w in tail_words for s in stems_of(w)
-                     if fam_of.get(s) not in (None, root)}
+                     if fam_of.get(s) not in (None, root) and s not in opened}
             pending.append((min(rank_of.get(w, big) for w in tail_words),
                             root, needs, tail_units))
     # Whatever is left waits on a stem cycle or is rarer than everything
@@ -1570,6 +1653,11 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     #   3. Otherwise pack whole families up to per_level words and
     #      max_families roots.
     levels = []
+    for title, ws in curated:
+        roots = sorted({fam_of[w] for w in ws})
+        levels.append((roots[0] if len(roots) == 1 else "", list(ws), title,
+                       len(roots), 1, 1, False, {"opening": True}))
+    continued = set()
     cur_words, cur_roots, cur_part, cur_sizes = [], [], {}, []
     cur_tail = False
 
@@ -1587,17 +1675,38 @@ def assign_levels(cards, families, per_level=9, max_families=6,
             title = "%s (rarer words)" % root
             if nparts > 1:
                 title += " %d/%d" % (part, nparts)
+        elif root in opened_fams:
+            # The rest of a family the curated opening began ("jam" opens
+            # with the present tense; ishte, qenë... come back here).
+            title = "%s (continued)" % root
+            if nparts > 1:
+                title += " %d/%d" % (part, nparts)
+        elif root in begun:
+            # More of a family the main course taught; the root itself is
+            # not on this level.
+            title = "%s (more)" % root
+            if nparts > 1:
+                title += " %d/%d" % (part, nparts)
         elif nparts == 1:
             # Name at most TITLE_ROOTS roots and count only the ones left out,
             # so "+N" is the number actually hidden (it used to be len - 2
             # while every root was still listed).
-            title = root if root else ", ".join(cur_roots[:TITLE_ROOTS])
+            title = root if root else ", ".join(
+                "%s (more)" % r if r in begun else r
+                for r in cur_roots[:TITLE_ROOTS])
         else:
             title = "%s %d/%d" % (root, part, nparts)
         if not root and len(cur_roots) > TITLE_ROOTS:
             title += " +%d" % (len(cur_roots) - TITLE_ROOTS)
+        # The first level after the opening that brings back a family the
+        # opening began. The validator lets the family resume here.
+        cont = sorted(r for r in cur_roots
+                      if r in opened_fams and r not in continued
+                      and not cur_tail)
+        continued.update(cont)
         levels.append((root, list(cur_words), title, len(cur_roots), part,
-                       nparts, cur_tail and part == 1))
+                       nparts, cur_tail and part == 1,
+                       {"continues": cont} if cont else {}))
         cur_words, cur_roots, cur_part, cur_sizes = [], [], {}, []
         cur_tail = False
 
@@ -1692,7 +1801,7 @@ def write_levels(levels, by_word, corpus_examples):
     lvl_width = max(2, len(str(len(levels))))
 
     level_objs = []
-    for i, (root, words, title, nfam, part, nparts, resumes) in enumerate(levels, 1):
+    for i, (root, words, title, nfam, part, nparts, resumes, meta) in enumerate(levels, 1):
         objs = []
         for w in words:
             objs.append(word_object(w, by_word[w], root, corpus_examples))
@@ -1729,6 +1838,15 @@ def write_levels(levels, by_word, corpus_examples):
         # continuations follow a gap.
         if resumes:
             lvl["resumes"] = True
+        # A curated opening level (tools/opening_levels.py), and the families
+        # this level brings back after the opening began them.
+        if meta.get("opening"):
+            lvl["opening"] = True
+        if meta.get("continues"):
+            lvl["continues"] = meta["continues"]
+        # The optional extended track after the main course (schedule_course).
+        if meta.get("extended"):
+            lvl["extended"] = True
         level_objs.append(lvl)
 
     # Breakdown glosses, transparency and pattern notes need the whole course
@@ -1752,6 +1870,10 @@ def write_levels(levels, by_word, corpus_examples):
         # here keeps the two in lockstep (a hardcoded padStart broke at 1000).
         "level_file_width": lvl_width,
         "level_count": len(level_objs),
+        # Levels 1..main_level_count are the main course; the rest are the
+        # optional extended track.
+        "main_level_count": sum(1 for l in level_objs
+                                if not l.get("extended")),
         "word_count": sum(l["word_count"] for l in level_objs),
         # title/root/part/parts ride along so the level map can label each
         # level with its root without loading all 184 level files.
@@ -1759,7 +1881,8 @@ def write_levels(levels, by_word, corpus_examples):
                     "families": len(l["families"]),
                     "title": l["title"], "root": l["root"],
                     "root_gloss": l["root_gloss"],
-                    "part": l["part"], "parts": l["parts"]}
+                    "part": l["part"], "parts": l["parts"],
+                    **({"extended": True} if l.get("extended") else {})}
                    for l in level_objs],
     }
     affixes.set_index_patterns(course["levels"], patterns_at)
@@ -1822,6 +1945,9 @@ def main():
         with open(CORPUS_EXAMPLES_PATH, encoding="utf-8") as fh:
             corpus_examples = json.load(fh)
         for w in sorted(corpus_examples):
+            if gloss_overrides.corpus_overridden(w):
+                del corpus_examples[w]
+                continue
             bad = ORTHO.problems(corpus_examples[w]["sq"], w)
             if bad:
                 ORTHO_REJECTED.append(("corpus", w, corpus_examples[w]["sq"], bad))
@@ -1990,8 +2116,12 @@ def main():
               % (rehomed, detached))
 
     print("assigning levels...", flush=True)
-    levels = assign_levels(cards, families, components=by_word_components(cards))
-    print("  %d levels" % len(levels))
+    levels = schedule_course(cards, families,
+                             components=by_word_components(cards),
+                             opening=opening_levels.LEVELS)
+    n_main = sum(1 for l in levels if not l[7].get("extended"))
+    print("  %d levels: %d main course (rank <= %d), %d extended"
+          % (len(levels), n_main, MAIN_MAX_RANK, len(levels) - n_main))
 
     level_objs = write_levels(levels, by_word, corpus_examples)
 
@@ -2001,6 +2131,7 @@ def main():
         "families": len(families),
         "families_multi": len(multi),
         "levels": len(level_objs),
+        "main_levels": sum(1 for l in level_objs if not l.get("extended")),
         "words": sum(l["word_count"] for l in level_objs),
         "pos": dict(Counter(p for c in cards for p in [s["pos"] for s in c["senses"]])),
         "etymology_class": dict(Counter(str(c["etymology_class"]) for c in cards)),

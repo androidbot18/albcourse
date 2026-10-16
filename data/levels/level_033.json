@@ -1,36 +1,611 @@
 {
  "level": 33,
- "title": "shkoj",
- "root": "shkoj",
- "root_gloss": "to go, pass",
+ "title": "çka, parë, im",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 9,
+ "word_count": 5,
  "families": [
-  "shkoj"
+  "im",
+  "parë",
+  "çka"
  ],
  "pos_mix": {
-  "verb": 9
+  "pron": 6,
+  "adv": 3,
+  "adj": 2,
+  "verb": 1,
+  "noun": 3
  },
  "words": [
   {
-   "id": "shkoj",
-   "sq": "shkoj",
-   "en": "to go, pass",
+   "id": "diçka",
+   "sq": "diçka",
+   "en": "something",
    "glosses": [
-    "to go, pass"
+    "something",
+    "somehow"
    ],
    "pos": [
-    "verb"
+    "pron",
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun",
+    "adverb"
    ],
    "sense_detail": [
     {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "something",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "something"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "somehow",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Albanian terms prefixed with di-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "somehow"
+     ]
+    }
+   ],
+   "rank": 73,
+   "count": 18346,
+   "family": "çka",
+   "is_root": false,
+   "etymology": "From di- + çka.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "di",
+     "role": "prefix"
+    },
+    {
+     "word": "çka",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "something comes up.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "diçka vjen deri."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "parë",
+   "sq": "parë",
+   "en": "first",
+   "glosses": [
+    "first",
+    "main, principal, primary, chief",
+    "beforehand, first, previously"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adv"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "first",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian ordinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "first"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "main, principal, primary, chief",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "main",
+      "principal",
+      "primary"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beforehand, first, previously",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "më parë",
+       "en": "earlier",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "beforehand",
+      "first",
+      "previously"
+     ]
+    }
+   ],
+   "rank": 75,
+   "count": 18256,
+   "family": "parë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *para.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "përparmë"
+   ],
+   "related": [
+    "para"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "See him?",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Të parë atë?"
+   }
+  },
+  {
+   "id": "im",
+   "sq": "im",
+   "en": "my, of mine (possessive pronoun in nominative form, adjectival aspect)",
+   "glosses": [
+    "my, of mine (possessive pronoun in nominative form, adjectival aspect)",
+    "my (possessive pronoun, adjectival aspect)",
+    "mine (possessive pronoun, nominal aspect)",
+    "to crumble, grind, shred, refine",
+    "a kinsman; a member of the same clan, tribe or family (kinship, singular)",
+    "one's (own); kinsfolk; family members (kinship, plural)",
+    "a close friend or partner; a beloved and trusted person (sg.+pl., person (or people) connected through relationship (or friendship))"
+   ],
+   "pos": [
+    "pron",
+    "pron",
+    "pron",
+    "verb",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun",
+    "pronoun",
+    "verb",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "my, of mine (possessive pronoun in nominative form, adjectival aspect)",
+     "tags": [
+      "masculine",
+      "nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 33 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 12 5 13 0 1 2 1 2 8 1 5 0 0 0 0 0 0 0 0 2 2 1 2 2 1 1 2 0 0 0 0 0 0 4 5 0 0 14 2 2 2 0 4 4"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 13 7 16 0 0 1 0 1 8 1 5 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 0 0 0 0 4 7 0 0 13 3 3 3 0 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ati im, vëllai im, biri im",
+       "en": "my father, my brother, my son",
+       "offsets": [
+        [
+         4,
+         6
+        ],
+        [
+         15,
+         17
+        ],
+        [
+         24,
+         26
+        ]
+       ]
+      },
+      {
+       "sq": "syri im",
+       "en": "my eye",
+       "offsets": [
+        [
+         5,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "my",
+      "of",
+      "mine"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "my (possessive pronoun, adjectival aspect)",
+     "tags": [
+      "masculine",
+      "nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 26 11 28 15 15"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Im atë, i dashuri ati im.",
+       "en": "My father, my beloved father.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      },
+      {
+       "sq": "im gjysh, im atë, im bir",
+       "en": "my grandfather, my father, my son",
+       "offsets": [
+        [
+         0,
+         2
+        ],
+        [
+         10,
+         12
+        ],
+        [
+         18,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "my"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "mine (possessive pronoun, nominal aspect)",
+     "tags": [
+      "masculine",
+      "nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 26 11 28 15 15"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ti je imi m.",
+       "en": "You are mine.",
+       "offsets": [
+        [
+         6,
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "Është imi.",
+       "en": "It is mine.",
+       "offsets": [
+        [
+         6,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mine"
+     ]
+    },
+    {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to go, pass",
+     "gloss": "to crumble, grind, shred, refine",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "crumble",
+      "grind",
+      "shred"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a kinsman; a member of the same clan, tribe or family (kinship, singular)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Një imi.",
+       "en": "A kinsman (One of mine).",
+       "offsets": [
+        [
+         4,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "kinsman",
+      "member",
+      "clan"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "one's (own); kinsfolk; family members (kinship, plural)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 33 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 12 5 13 0 1 2 1 2 8 1 5 0 0 0 0 0 0 0 0 2 2 1 2 2 1 1 2 0 0 0 0 0 0 4 5 0 0 14 2 2 2 0 4 4"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 13 7 16 0 0 1 0 1 8 1 5 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 0 0 0 0 4 7 0 0 13 3 3 3 0 5 5"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 33 18 35 2 5 3"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "A: Kush erdhi? - B: Erdhën të mitë.",
+       "en": "A: Who came? - B: My family came.",
+       "offsets": [
+        [
+         27,
+         34
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "one's",
+      "own",
+      "kinsfolk"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a close friend or partner; a beloved and trusted person (sg.+pl., person (or people) connected through relationship (or friendship))",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 33 18 35 2 5 3"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 31 21 27 5 9"
+      },
+      {
+       "name": "Albanian links with redundant wikilinks",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 36 14 33 3 3 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "close",
+      "friend",
+      "partner"
+     ]
+    }
+   ],
+   "rank": 78,
+   "count": 17454,
+   "family": "im",
+   "is_root": true,
+   "etymology": "Demonstrative pronoun Proto-Albanian *is + (unstressed) 1st sg. pronoun Proto-Albanian *me, from Proto-Indo-European *ís and Proto-Indo-European *me.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ime",
+    "ma",
+    "më",
+    "mu",
+    "mua"
+   ],
+   "forms": [
+    {
+     "form": "ima",
+     "tag": "aorist"
+    },
+    {
+     "form": "imur",
+     "tag": "participle"
+    },
+    {
+     "form": "i",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "gjithçka",
+   "sq": "gjithçka",
+   "en": "everything",
+   "glosses": [
+    "everything"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "everything",
      "tags": [],
      "cats": [
       {
@@ -40,13 +615,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,616 +629,132 @@
      ],
      "examples": [],
      "links": [
-      "go",
-      "pass"
+      "everything"
      ]
     }
    ],
-   "rank": 149,
-   "count": 8533,
-   "family": "shkoj",
-   "is_root": true,
-   "etymology": "Syncope of shtekoj (“to set out, take to the road”), Gheg variant of shtegoj, denominative verb from shteg (“path, trail”).",
-   "etymology_class": null,
+   "rank": 162,
+   "count": 7704,
+   "family": "çka",
+   "is_root": false,
+   "etymology": "From gjithë + çka.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "components": [
     {
-     "form": "shkova",
-     "tag": "aorist"
+     "word": "gjithë",
+     "role": "prefix"
     },
     {
-     "form": "shkuar",
-     "tag": "participle"
+     "word": "çka",
+     "role": "stem"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I won't go there today.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Nuk do shkoj."
-   }
-  },
-  {
-   "id": "shkojmë",
-   "sq": "shkojmë",
-   "en": "we go (from shkoj, to go)",
-   "glosses": [
-    "we go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we go (from shkoj, to go)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 117,
-   "count": 11313,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Come, shall we go?",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Eja, të shkojmë?"
-   }
-  },
-  {
-   "id": "shko",
-   "sq": "shko",
-   "en": "you (sg)! (from shkoj, to go)",
-   "glosses": [
-    "you (sg)! (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 177,
-   "count": 7255,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "· Go to the game.",
+    "en": "But not all.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "· Shko në lojë."
-   }
+    "sq": "Por, jo gjithçka."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "shkon",
-   "sq": "shkon",
-   "en": "you (sg) or he/she/it go (from shkoj, to go)",
+   "id": "çka",
+   "sq": "çka",
+   "en": "what",
    "glosses": [
-    "you (sg) or he/she/it go (from shkoj, to go)"
+    "what",
+    "so-so, somehow"
    ],
    "pos": [
-    "verb"
+    "pron",
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) or he/she/it go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular",
-      "third-person"
-     ],
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "what",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "36 31 31 3"
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "links": [
+      "what"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "so-so, somehow",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 31 31 3"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "so-so",
+      "somehow"
+     ]
     }
    ],
-   "rank": 224,
-   "count": 5562,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 167,
+   "count": 7539,
+   "family": "çka",
+   "is_root": true,
+   "etymology": "From ç' + ka, where ka is the third-person singular present indicative of kam (“to have”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "ka",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Here goes we.",
+    "corpus": "MaCoCu",
+    "en": "What is this?",
     "score": [
      0,
      3,
      -3,
-     10
+     8
     ],
-    "sq": "Këtu shkon ne."
-   }
-  },
-  {
-   "id": "shkosh",
-   "sq": "shkosh",
-   "en": "you (sg) go (from shkoj, to go)",
-   "glosses": [
-    "you (sg) go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 356,
-   "count": 2925,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Where are you going?",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Ku do shkosh?"
-   }
-  },
-  {
-   "id": "shkoni",
-   "sq": "shkoni",
-   "en": "you (pl)! (from shkoj, to go)",
-   "glosses": [
-    "you (pl)! (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "plural",
-      "second-person"
-     ],
-     "cats": [],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 361,
-   "count": 2911,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Here you go!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Këtu ju shkoni!"
-   }
-  },
-  {
-   "id": "shkojë",
-   "sq": "shkojë",
-   "en": "he/she/it go (from shkoj, to go)",
-   "glosses": [
-    "he/she/it go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 482,
-   "count": 2181,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Where do I have to go?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ku duhet të shkojë?"
-   }
-  },
-  {
-   "id": "shkoi",
-   "sq": "shkoi",
-   "en": "he/she/it (once did) went (from shkoj, to go)",
-   "glosses": [
-    "he/she/it (once did) went (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it (once did) went (from shkoj, to go)",
-     "tags": [
-      "aorist",
-      "form-of",
-      "indicative",
-      "singular",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 607,
-   "count": 1679,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Sir, bye.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Ku shkoi ai?"
-   }
-  },
-  {
-   "id": "shkojnë",
-   "sq": "shkojnë",
-   "en": "they go (from shkoj, to go)",
-   "glosses": [
-    "they go (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they go (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 635,
-   "count": 1608,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Where does this money go?!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ku shkojnë këto para?!"
-   }
+    "sq": "Çka është kjo?"
+   },
+   "breakdown": "historical"
   }
  ]
 }

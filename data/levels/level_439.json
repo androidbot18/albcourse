@@ -1,43 +1,37 @@
 {
  "level": 439,
- "title": "zakon, qasje, kukull +3",
+ "title": "dështoj, pendohem, pesë (more) +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "kukull",
-  "pallë",
-  "qasje",
-  "shpreh",
-  "urdhëroj",
-  "zakon"
+  "dështoj",
+  "kushëri",
+  "ngul",
+  "pendohem",
+  "pesë"
  ],
  "pos_mix": {
-  "noun": 15,
-  "verb": 8
+  "noun": 4,
+  "verb": 5,
+  "num": 1
  },
  "words": [
   {
-   "id": "zakon",
-   "sq": "zakon",
-   "en": "practice",
+   "id": "dështim",
+   "sq": "dështim",
+   "en": "failure",
    "glosses": [
-    "practice",
-    "custom",
-    "kanun",
-    "period"
+    "failure",
+    "miscarriage"
    ],
    "pos": [
-    "noun",
-    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun",
     "noun"
    ],
@@ -45,7 +39,160 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "practice",
+     "gloss": "failure",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "62 38"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "76 24"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "failure"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "miscarriage",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "miscarriage"
+     ]
+    }
+   ],
+   "rank": 7640,
+   "count": 90,
+   "family": "dështoj",
+   "is_root": false,
+   "etymology": "From dështoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "dështoj",
+     "role": "base"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dështime",
+     "tag": "plural"
+    },
+    {
+     "form": "dështimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Even a failure?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Edhe një dështim?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "pendohem",
+   "sq": "pendohem",
+   "en": "to regret",
+   "glosses": [
+    "to regret",
+    "to repent"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to regret",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regret"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to repent",
      "tags": [],
      "cats": [
       {
@@ -53,115 +200,75 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "73 9 10 9"
+       "_dis": "36 64"
       }
      ],
      "examples": [],
      "links": [
-      "practice"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "custom",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "custom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kanun",
-     "tags": [
-      "historical"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kanun"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "period",
-     "tags": [
-      "dated"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "period"
+      "repent"
      ]
     }
    ],
-   "rank": 4952,
-   "count": 152,
-   "family": "zakon",
+   "rank": 7691,
+   "count": 90,
+   "family": "pendohem",
    "is_root": true,
-   "etymology": "Borrowed from a South Slavic language, compare Old Church Slavonic законъ (zakonŭ, “law”), Bulgarian закон (zakon, “law, statute”), and Serbo-Croatian zákon (“law, rule”). Ultimately from Proto-Slavic *zakonъ (“law”).",
+   "etymology": "Borrowed from a Vulgar Latin derivative of Latin poeniteō, from Latin paeniteō, with a later suffix within Albanian.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "law"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [
-    "zakonisht",
-    "zakonor",
-    "zakonshëm",
-    "zakontë"
+   "derived": [],
+   "related": [
+    "pendesë",
+    "pendestar",
+    "pendoj"
    ],
-   "related": [],
    "forms": [
     {
-     "form": "zakone",
-     "tag": "plural"
-    },
-    {
-     "form": "zakoni",
-     "tag": "definite"
+     "form": "penduar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I hate this rut.",
+    "en": "I don't regret buying.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "Unë e urrej këtë zakon."
+    "sq": "Nuk pendohem për blerjen."
    }
   },
   {
-   "id": "qasje",
-   "sq": "qasje",
-   "en": "approach",
+   "id": "pesëmbëdhjetë",
+   "sq": "pesëmbëdhjetë",
+   "en": "fifteen",
    "glosses": [
-    "approach"
+    "fifteen"
    ],
    "pos": [
-    "noun"
+    "num"
    ],
    "pos_labels": [
-    "noun"
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "approach",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "fifteen",
+     "tags": [],
      "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -169,13 +276,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -mbëdhjetë",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -183,141 +284,69 @@
      ],
      "examples": [],
      "links": [
-      "approach"
+      "fifteen"
      ]
     }
    ],
-   "rank": 4953,
-   "count": 152,
-   "family": "qasje",
-   "is_root": true,
-   "etymology": "From qas + -je.",
+   "rank": 7694,
+   "count": 90,
+   "family": "pesë",
+   "is_root": false,
+   "etymology": "From pesë (“five”) + -mbëdhjetë (“-teen”).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "five"
+   ],
+   "components": [
+    {
+     "word": "pesë",
+     "role": "base"
+    },
+    {
+     "word": "mbëdhjetë",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "We didn't have access.",
+    "en": "There were about fifteen people.",
     "score": [
-     0,
-     4,
+     1,
+     5,
      -4,
      10
     ],
-    "sq": "Nuk kemi pasur qasje."
-   }
+    "sq": "Ishin diku nja pesëmbëdhjetë vetë."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "kukull",
-   "sq": "kukull",
-   "en": "doll, puppet",
+   "id": "ngul",
+   "sq": "ngul",
+   "en": "to prick, drive in, spit",
    "glosses": [
-    "doll, puppet"
+    "to prick, drive in, spit"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "doll, puppet",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to prick, drive in, spit",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "doll",
-      "puppet"
-     ]
-    }
-   ],
-   "rank": 4954,
-   "count": 152,
-   "family": "kukull",
-   "is_root": true,
-   "etymology": "From Proto-Indo-European *kuH-l-.\nCompare Latin cucūllus, Greek κουκούλα (koukoúla, “doll”). Doublet of kukule \"silkworm cocoon\".",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kukulla",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Very beautiful doll.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Kukull shumë e bukur."
-   }
-  },
-  {
-   "id": "shprehje",
-   "sq": "shprehje",
-   "en": "a saying, expression, utterance",
-   "glosses": [
-    "a saying, expression, utterance"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a saying, expression, utterance",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -327,165 +356,9 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "a",
-      "saying",
-      "expression"
-     ]
-    }
-   ],
-   "rank": 4961,
-   "count": 152,
-   "family": "shpreh",
-   "is_root": false,
-   "etymology": "A deverbative formation from shpreh + -je feminine suffix, from Proto-Indo-European *spreg- (“to make a sound, utter, speak”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "shpreh",
-     "role": "base",
-     "en": "to express"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Very good eye and expression.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Sy shumë të mirë dhe shprehje."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "pallë",
-   "sq": "pallë",
-   "en": "pole, club, bat, washing stick",
-   "glosses": [
-    "pole, club, bat, washing stick",
-    "plowshare",
-    "wooden shovel used to thresh grain; flail",
-    "penis",
-    "spoke (on a carriage wheel)",
-    "pole, door bolt (to close doors)",
-    "sword",
-    "lounge, idle"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pole, club, bat, washing stick",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pole",
-      "club",
-      "bat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "plowshare",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 5 45 13 6 26 2 2"
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 4 62 9 6 13 2 2"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 3 55 6 4 27 2 2"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "plowshare"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wooden shovel used to thresh grain; flail",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "wooden",
-      "shovel",
-      "flail"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "penis",
-     "tags": [
-      "euphemistic",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian euphemisms",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -493,231 +366,160 @@
      ],
      "examples": [],
      "links": [
-      "penis"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spoke (on a carriage wheel)",
-     "tags": [
-      "colloquial",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "spoke"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pole, door bolt (to close doors)",
-     "tags": [
-      "colloquial",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pole",
-      "bolt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sword",
-     "tags": [
-      "archaic",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "sword"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lounge, idle",
-     "tags": [
-      "feminine",
-      "uninflected"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "lounge",
-      "idle"
+      "prick",
+      "drive",
+      "in"
      ]
     }
    ],
-   "rank": 4975,
-   "count": 152,
-   "family": "pallë",
+   "rank": 7700,
+   "count": 90,
+   "family": "ngul",
    "is_root": true,
-   "etymology": "From Latin pāla (“shovel, spade”).",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin pāla",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Similarly, I also designed in Pekisht, Bisht-Palle, etc.",
-    "score": [
-     5,
-     10,
-     -5,
-     10
-    ],
-    "sq": "Po kështu, kam projektuar edhe në Pekisht, Bisht-Pallë, etj."
-   }
-  },
-  {
-   "id": "urdhëroj",
-   "sq": "urdhëroj",
-   "en": "to order to",
-   "glosses": [
-    "to order to",
-    "to answer",
-    "to return (an answer, a calling)"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to order to",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "83 9 8"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "87 7 6"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "88 6 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "order"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to answer",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "answer"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to return (an answer, a calling)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "return",
-      "answer",
-      "calling"
-     ]
-    }
-   ],
-   "rank": 4979,
-   "count": 152,
-   "family": "urdhëroj",
-   "is_root": true,
-   "etymology": "From urdhër.",
+   "etymology": "From Proto-Albanian * ̊gull-, from Proto-Indo-European *gwelH- (“to prick”). Cognate to Lithuanian gélti (“to prick”), gi̇̀lti (“to get pained, ache”). A formation with the prefix (a)n-.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "urdhër",
-    "urdhën",
-    "urdhë"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "urdhërova",
+     "form": "ngula",
      "tag": "aorist"
     },
     {
-     "form": "urdhëruar",
+     "form": "ngulur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I will keep ordering from them.",
+    "en": "Stand like a mule!",
     "score": [
-     0,
-     7,
-     -7,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "Do të vazhdoj të urdhëroj prej tyre."
+    "sq": "Ngul këmbë si mushka!"
    }
   },
   {
-   "id": "shpreh",
-   "sq": "shpreh",
-   "en": "to express, show, manifest",
+   "id": "kushëri",
+   "sq": "kushëri",
+   "en": "cousin, first cousin",
    "glosses": [
-    "to express, show, manifest",
-    "to express, give (in a unit of measure)",
-    "See shprehem.",
-    "to train, teach, accustom",
-    "to hope"
+    "cousin, first cousin",
+    "clan, tribe, large family"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cousin, first cousin",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cousin",
+      "first cousin"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "clan, tribe, large family",
+     "tags": [
+      "in-plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 60"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "clan",
+      "tribe",
+      "large"
+     ]
+    }
+   ],
+   "rank": 7701,
+   "count": 90,
+   "family": "kushëri",
+   "is_root": true,
+   "etymology": "Borrowed from Latin cōnsobrīnus (“first cousin, relation”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kushërinj",
+     "tag": "plural"
+    },
+    {
+     "form": "kushëriri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The father was a cousin to him.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Babai ishte kushëri me të."
+   }
+  },
+  {
+   "id": "dështoj",
+   "sq": "dështoj",
+   "en": "to have a miscarriage",
+   "glosses": [
+    "to have a miscarriage",
+    "to fail"
+   ],
+   "pos": [
     "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
     "verb",
     "verb"
    ],
@@ -725,149 +527,122 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to express, show, manifest",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "express",
-      "show",
-      "manifest"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to express, give (in a unit of measure)",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "peshë e shprehur me gram",
-       "en": "weight given in grams",
-       "offsets": [
-        [
-         6,
-         16
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "express",
-      "give"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "See shprehem.",
-     "tags": [
-      "mediopassive",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shprehem"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to train, teach, accustom",
-     "tags": [
-      "Gheg",
-      "dialectal",
-      "transitive"
-     ],
+     "gloss": "to have a miscarriage",
+     "tags": [],
      "cats": [
       {
-       "name": "Gheg Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms prefixed with dë-",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "24 7 43 13 13"
+       "_dis": "45 55"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "9 7 56 10 17"
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
       }
      ],
      "examples": [],
      "links": [
-      "train",
-      "teach",
-      "accustom"
+      "have",
+      "miscarriage"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to hope",
+     "gloss": "to fail",
      "tags": [
-      "Tosk",
-      "dialectal",
-      "transitive"
+      "figuratively"
      ],
      "cats": [
       {
-       "name": "Tosk Albanian",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Albanian terms prefixed with dë-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Plani dështoi.",
+       "en": "The plan failed.",
+       "offsets": [
+        [
+         6,
+         14
+        ]
+       ]
+      }
+     ],
      "links": [
-      "hope"
+      "fail"
      ]
     }
    ],
-   "rank": 6794,
-   "count": 104,
-   "family": "shpreh",
+   "rank": 11482,
+   "count": 55,
+   "family": "dështoj",
    "is_root": true,
-   "etymology": "Uncertain. Possibly a derivation from eh (“to sharpen, hone”). Alternatively a relatively recent loan from German sprechen (“to speak, say”), compare Serbo-Croatian šprȅhati /шпре̏хати.",
-   "etymology_class": "borrowed",
+   "etymology": "From dë- + shtoj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [
-    "shpehët",
-    "shprehës",
-    "shprehësi",
-    "shprehi",
-    "shprehim",
-    "shprehje",
-    "të shprehur"
+   "components": [
+    {
+     "word": "dë",
+     "role": "prefix"
+    },
+    {
+     "word": "shtoj",
+     "role": "stem"
+    }
    ],
-   "related": [],
+   "derived": [
+    "dështim"
+   ],
+   "related": [
+    "shtoj"
+   ],
    "forms": [
     {
-     "form": "shpreha",
+     "form": "dështova",
      "tag": "aorist"
     },
     {
-     "form": "shprehur",
+     "form": "dështuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

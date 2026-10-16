@@ -54,6 +54,7 @@ export function normalise(raw) {
 
   const prefs = {};
   if (raw.prefs && raw.prefs.direction === 'en2sq') prefs.direction = 'en2sq';
+  if (raw.prefs && raw.prefs.extended === true) prefs.extended = true;
 
   return { version: SCHEMA_VERSION, items, stats, prefs };
 }

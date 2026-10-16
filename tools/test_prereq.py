@@ -44,11 +44,10 @@ def main():
     #
     # The rule exists because dropping it lets prose into the component line
     # ("behind", "appearance", Latin "communis"). pos_balance.EXCLUDE_WORDS
-    # is the single deliberate exception: "e" is not a card because its own
-    # senses are unresolvable out of context, but the privative PREFIX e- is
-    # real and is what the etymology is explaining (esell = e- + sille). It is
-    # a prefix, so it never creates a prerequisite edge below -- it is a label
-    # on the derivation, not a word to learn first.
+    # is the single deliberate exception (empty since "e" was restored). An
+    # excluded word may still label a PREFIX (esell = e- + sille), which
+    # never creates a prerequisite edge below -- a label on the derivation,
+    # not a word to learn first.
     import pos_balance
     allowed = set(pos_balance.EXCLUDE_WORDS)
     #
@@ -108,7 +107,10 @@ def main():
     # unrelated roots. 751 is the honest cost of that fix: a root and its
     # derivations are no longer buried among six strangers. Sessions still
     # pack to 9 words where a family allows it.
-    CEILING = 800
+    # 810 since the days of the week (RECOMMENDATIONS.md section 3.2) took
+    # the course to 801. This bounds the whole course, extended track
+    # included; tools/test_scope.py bounds the main course (section 3.6).
+    CEILING = 810
     print("5. level count %d within ceiling %d: %s"
           % (nlev, CEILING, "OK" if nlev <= CEILING else "FAIL"))
 

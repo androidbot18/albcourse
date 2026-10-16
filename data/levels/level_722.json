@@ -1,31 +1,30 @@
 {
  "level": 722,
- "title": "klith, lavazh, dardhë +3",
+ "title": "përparëse, pall, shpall +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "dardhë",
-  "gren",
-  "klith",
-  "lavazh",
-  "sahat",
-  "sistematikisht"
+  "boshatis",
+  "cilindër",
+  "edh",
+  "pall",
+  "përparëse",
+  "shpall"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 6,
-  "adv": 1
+  "verb": 3,
+  "noun": 5
  },
  "words": [
   {
-   "id": "klith",
-   "sq": "klith",
-   "en": "to shout, scream, yell",
+   "id": "shpall",
+   "sq": "shpall",
+   "en": "to announce, to declare",
    "glosses": [
-    "to shout, scream, yell"
+    "to announce, to declare"
    ],
    "pos": [
     "verb"
@@ -37,8 +36,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to shout, scream, yell",
-     "tags": [],
+     "gloss": "to announce, to declare",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -61,170 +62,96 @@
      ],
      "examples": [],
      "links": [
-      "shout",
-      "scream",
-      "yell"
+      "announce",
+      "declare"
      ]
     }
    ],
-   "rank": 33432,
-   "count": 12,
-   "family": "klith",
+   "rank": 7119,
+   "count": 99,
+   "family": "shpall",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Albanian formation with the prefix sh- + pall.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "sh",
+     "role": "prefix"
+    },
+    {
+     "word": "pall",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "klitha",
+     "form": "shpalla",
      "tag": "aorist"
     },
     {
-     "form": "klithur",
+     "form": "shpallur",
      "tag": "participle"
     },
     {
-     "form": "këlthas",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "lavazh",
-   "sq": "lavazh",
-   "en": "car wash",
-   "glosses": [
-    "car wash",
-    "washing, lavage, in the collocations lavazh stomaku and lavazh truri"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "car wash",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "car wash"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "washing, lavage, in the collocations lavazh stomaku and lavazh truri",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 80"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "16 84"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "washing",
-      "lavage",
-      "lavazh stomaku"
-     ]
-    }
-   ],
-   "rank": 33443,
-   "count": 12,
-   "family": "lavazh",
-   "is_root": true,
-   "etymology": "Borrowed from French lavage (“washing”), particularly station de lavage (“car wash”). The regional variant is influenced by Italian lavaggio.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "washing"
-   ],
-   "components": [],
-   "derived": [
-    "lavazh stomaku",
-    "lavazh truri",
-    "lavazhier"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "lavazhe",
-     "tag": "plural"
-    },
-    {
-     "form": "lavazhi",
-     "tag": "definite"
-    },
-    {
-     "form": "lavazho",
+     "form": "çpall",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Rinse with water or go through the car wash.",
+    "en": "and proclaim in it!",
     "score": [
-     2,
-     7,
-     -5,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Shpëlajeni me ujë ose lajeni në lavazh."
-   }
+    "sq": "dhe shpall në të!"
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "dardhë",
-   "sq": "dardhë",
-   "en": "pear, pear tree (Pyrus communis)",
+   "id": "përparëse",
+   "sq": "përparëse",
+   "en": "apron",
    "glosses": [
-    "pear, pear tree (Pyrus communis)"
+    "apron",
+    "overall, coverall; scrubs; smock",
+    "each of the two halves of the front of a jacket, sweater, etc."
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pear, pear tree (Pyrus communis)",
+     "gloss": "apron",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "apron"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "overall, coverall; scrubs; smock",
      "tags": [
       "feminine"
      ],
@@ -233,10 +160,103 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "37 55 8"
       },
       {
        "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 77 8"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 81 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "overall",
+      "coverall",
+      "scrubs"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "each of the two halves of the front of a jacket, sweater, etc.",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "halves",
+      "front",
+      "jacket"
+     ]
+    }
+   ],
+   "rank": 39421,
+   "count": 10,
+   "family": "përparëse",
+   "is_root": true,
+   "etymology": "From përpara (“in front”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "përparëse",
+     "tag": "plural"
+    },
+    {
+     "form": "përparësja",
+     "tag": "definite"
+    },
+    {
+     "form": "përparëcë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pall",
+   "sq": "pall",
+   "en": "to cry, hee-haw",
+   "glosses": [
+    "to cry, hee-haw"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cry, hee-haw",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 9 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -250,61 +270,63 @@
      ],
      "examples": [],
      "links": [
-      "pear",
-      "Pyrus communis"
+      "cry",
+      "hee-haw"
      ]
     }
    ],
-   "rank": 33460,
-   "count": 12,
-   "family": "dardhë",
+   "rank": 39473,
+   "count": 10,
+   "family": "pall",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dardā, deverbative of *darda (“to spill, pour”) whence modern derdh, compare Proto-Slavic *kruša (“pear”) for such semantic development.",
+   "etymology": "From Proto-Albanian *palei-, from Proto-Indo-European *(s)pel- (“to speak with a loud voice”). Cognate to Gothic 𐍃𐍀𐌹𐌻𐌻𐍉𐌽 (spillōn, “to proclaim”).",
    "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "pear"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dardha",
-     "tag": "plural"
+     "form": "palla",
+     "tag": "aorist"
+    },
+    {
+     "form": "pallur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Mom is the sweet pear.",
+    "en": "Paeoniflorin is abstruse from the basis of Paeonia albiflora Pall.",
     "score": [
-     0,
-     4,
+     5,
+     9,
      -4,
      10
     ],
-    "sq": "Mami është dardhë ëmbël."
+    "sq": "Paeoniflorin është abstruse nga baza e Paeonia albiflora Pall."
    }
   },
   {
-   "id": "sistematikisht",
-   "sq": "sistematikisht",
-   "en": "systematically",
+   "id": "cilindër",
+   "sq": "cilindër",
+   "en": "cylinder",
    "glosses": [
-    "systematically"
+    "cylinder"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "systematically",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cylinder",
      "tags": [],
      "cats": [
       {
@@ -328,13 +350,14 @@
      ],
      "examples": [],
      "links": [
-      "systematically"
+      "geometry",
+      "cylinder"
      ]
     }
    ],
-   "rank": 33567,
-   "count": 12,
-   "family": "sistematikisht",
+   "rank": 39490,
+   "count": 10,
+   "family": "cilindër",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -347,185 +370,175 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "In September, I will start working systematically.",
+    "en": "to have it go into the cylinder.",
     "score": [
      0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Në shtator do nis nga puna sistematikisht."
-   }
-  },
-  {
-   "id": "gren",
-   "sq": "gren",
-   "en": "eggs (of silk worm)",
-   "glosses": [
-    "eggs (of silk worm)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "eggs (of silk worm)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "eggs"
-     ]
-    }
-   ],
-   "rank": 33622,
-   "count": 12,
-   "family": "gren",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "sahat",
-   "sq": "sahat",
-   "en": "water meter, electricity meter",
-   "glosses": [
-    "water meter, electricity meter",
-    "clock, watch, hour"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "water meter, electricity meter",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 94"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 45 17 17 7 7"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 56 13 13 6 6"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "technical",
-      "water meter",
-      "electricity meter"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "clock, watch, hour",
-     "tags": [
-      "colloquial",
-      "counter",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "clock",
-      "watch",
-      "hour"
-     ]
-    }
-   ],
-   "rank": 33630,
-   "count": 12,
-   "family": "sahat",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish ساعت (saʼat), itself derived from Arabic سَاعَة (sāʕa), ultimately from Aramaic שָׁעְתָא / ܫܳܥܬܳܐ (šāʿəṯā).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "sahatçi"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "sahate",
-     "tag": "plural"
-    },
-    {
-     "form": "sahati",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "to call a time bomb.",
-    "score": [
-     1,
-     7,
+     6,
      -6,
      10
     ],
-    "sq": "për të thirrur një bombë me sahat."
+    "sq": "që kanë të shkojnë në cilindër."
    }
+  },
+  {
+   "id": "boshatis",
+   "sq": "boshatis",
+   "en": "to empty",
+   "glosses": [
+    "to empty"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to empty",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "empty"
+     ]
+    }
+   ],
+   "rank": 39506,
+   "count": 10,
+   "family": "boshatis",
+   "is_root": true,
+   "etymology": "From bosh (“empty”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "empty"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "boshatisa",
+     "tag": "aorist"
+    },
+    {
+     "form": "boshatisur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Finally, the square was empty.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Ma në fund sheshi u boshatis."
+   }
+  },
+  {
+   "id": "edh",
+   "sq": "edh",
+   "en": "goat kid (under a year old)",
+   "glosses": [
+    "goat kid (under a year old)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "goat kid (under a year old)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kid"
+     ]
+    }
+   ],
+   "rank": 39524,
+   "count": 10,
+   "family": "edh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ayð(iy)a-, from Proto-Indo-European *h₂eyǵ- (compare Ancient Greek αἴξ (aíx), Armenian այծ (ayc), Lithuanian ožỹs).",
+   "etymology_class": "root",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "edha",
+     "tag": "plural"
+    },
+    {
+     "form": "edhi",
+     "tag": "definite"
+    },
+    {
+     "form": "hedh",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   }
- ]
+ ],
+ "extended": true
 }

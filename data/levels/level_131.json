@@ -1,40 +1,959 @@
 {
  "level": 131,
- "title": "vë, budalla, kthyer",
+ "title": "ndaj, pastaj, neve +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 5,
  "families": [
-  "budalla",
-  "kthyer",
-  "vë"
+  "gëzuar",
+  "ndaj",
+  "neve",
+  "pastaj"
  ],
  "pos_mix": {
-  "verb": 4,
-  "noun": 5,
-  "adj": 7
+  "adv": 4,
+  "verb": 20,
+  "pron": 1,
+  "intj": 1
  },
  "words": [
   {
-   "id": "vë",
-   "sq": "vë",
-   "en": "to put, to place",
+   "id": "pastaj",
+   "sq": "pastaj",
+   "en": "afterwards, after that, then",
    "glosses": [
-    "to put, to place"
+    "afterwards, after that, then",
+    "subsequently, afterwards (in space)",
+    "besides, moreover, also, furthermore",
+    "else, otherwise (in threats)"
    ],
    "pos": [
+    "adv",
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "afterwards, after that, then",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "afterwards",
+      "after",
+      "then"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "subsequently, afterwards (in space)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "subsequently",
+      "afterwards"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "besides, moreover, also, furthermore",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "besides",
+      "moreover",
+      "also"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "else, otherwise (in threats)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 0 5 83"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 0 0 94"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 0 0 95"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "else",
+      "otherwise"
+     ]
+    }
+   ],
+   "rank": 174,
+   "count": 7384,
+   "family": "pastaj",
+   "is_root": true,
+   "etymology": "From pas, mbas (“after”) + ndaj (“towards”), without the n-.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "after",
+    "towards"
+   ],
+   "components": [
+    {
+     "word": "ndaj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "mëpastajshëm",
+    "pastajmë",
+    "pastajshëm"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "mbasandaj",
+     "tag": "alternative"
+    },
+    {
+     "form": "pstaj",
+     "tag": "alternative"
+    },
+    {
+     "form": "psaj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Then what happened?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pastaj çfarë ndodhi?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "ndaj",
+   "sq": "ndaj",
+   "en": "to divide, separate two or more things or people that are together or mixed",
+   "glosses": [
+    "to divide, separate two or more things or people that are together or mixed",
+    "to limit, separate, confine from something",
+    "to separate a person from their spouse, to cut off from someone",
+    "to break something into parts from a whole",
+    "to share, to divide something between multiple people giving a piece each",
+    "to put things into different places",
+    "to put aside or save for someone or something; to designate",
+    "to wean a baby from breast-feeding",
+    "it's far away for a specified time",
+    "to give continuously",
+    "to separate corn cobs",
+    "to share a happenstance or feeling with someone, relate a happy or sad story",
+    "to schedule, create deadline",
+    "to decide",
+    "to figure out, solve",
+    "to discern, make out, distinguish (usually in a negative sense)",
+    "to differentiate",
+    "to keep something separate, refusing to unite two or more things or people (usually in a negative sense)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to put, to place",
+     "gloss": "to divide, separate two or more things or people that are together or mixed",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "i ndau dy veta që ziheshin",
+       "en": "he divided two people that were fighting",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "i ndau kecat nga dhitë",
+       "en": "he separated the kids from the goats",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "divide",
+      "separate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to limit, separate, confine from something",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndaj me mur",
+       "en": "I confine with a wall",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      },
+      {
+       "sq": "na ndau lumi",
+       "en": "the river separated us",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "limit",
+      "separate",
+      "confine"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to separate a person from their spouse, to cut off from someone",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e ndau gruan",
+       "en": "they separated the wive from her husband",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "separate",
+      "spouse",
+      "cut off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to break something into parts from a whole",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndaj përgjysmë",
+       "en": "I cut in two",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      },
+      {
+       "sq": "ndau bukën",
+       "en": "he cut the bread",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "break",
+      "whole"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to share, to divide something between multiple people giving a piece each",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndau të hollat",
+       "en": "he shared his money",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "share",
+      "piece"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put things into different places",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndaj dy nga dy",
+       "en": "to put two by two",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "put"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put aside or save for someone or something; to designate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      },
+      {
+       "name": "Albanian terms prefixed with n-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 5 5 4 6 5 5 10 5 6 5 4 4 10 8 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "kishte ndarë para mënjanë",
+       "en": "he had put money aside",
+       "offsets": [
+        [
+         0,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "put aside",
+      "save",
+      "designate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wean a baby from breast-feeding",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e ndau fëmijën prej gjirit",
+       "en": "she weaned her baby",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "wean"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it's far away for a specified time",
+     "tags": [
+      "third-person",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "edhe dy javë na ndajnë nga Viti i Ri",
+       "en": "two weeks until the New Year",
+       "offsets": [
+        [
+         16,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "far away"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to give continuously",
+     "tags": [
+      "negative",
+      "particle",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk ia ndan kujdesin",
+       "en": "they give care continuously",
+       "offsets": [
+        [
+         7,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "give",
+      "continuously"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to separate corn cobs",
+     "tags": [
+      "third-person",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndan kalli misri",
+       "en": "he cuts off corn cobs",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "separate",
+      "corn",
+      "cob"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to share a happenstance or feeling with someone, relate a happy or sad story",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndajmë së bashku të mirën dhe të keqen",
+       "en": "we share with each other the good and the bad",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "share",
+      "happenstance",
+      "feeling"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to schedule, create deadline",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ndanë ditën e martesës",
+       "en": "they scheduled their wedding day",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "schedule",
+      "deadline"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to decide",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "e kemi ndarë të shihemi sonte",
+       "en": "we have decided to meet up tonight",
+       "offsets": [
+        [
+         2,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "e ndau me mend",
+       "en": "he decided",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "decide"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to figure out, solve",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with n-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 5 5 4 6 5 5 10 5 6 5 4 4 10 8 5 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "këtë e ndan pushka",
+       "en": "this is solved by a gun",
+       "offsets": [
+        [
+         7,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "figure out",
+      "solve"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discern, make out, distinguish (usually in a negative sense)",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "s'e ndava dot kush qe",
+       "en": "I couldn't make out who it was",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "discern",
+      "make out",
+      "distinguish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to differentiate",
+     "tags": [
+      "colloquial",
+      "figuratively",
+      "intransitive",
+      "third-person",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk ndan nga i vëllai",
+       "en": "he's indistinguishable from his brother",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "differentiate"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to keep something separate, refusing to unite two or more things or people (usually in a negative sense)",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 5 12 3 3 2 2 17 10 3 2 2 7 5 15 5 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk i ndan fjalët nga veprat",
+       "en": "he doesn't separate his words from his actions",
+       "offsets": [
+        [
+         0,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "keep",
+      "refusing",
+      "unite"
+     ]
+    }
+   ],
+   "rank": 631,
+   "count": 1627,
+   "family": "ndaj",
+   "is_root": true,
+   "etymology": "Intensive n- + daj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "ndahem"
+   ],
+   "related": [
+    "daj",
+    "përdaj",
+    "ditë"
+   ],
+   "forms": [
+    {
+     "form": "ndava",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndarë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "neve",
+   "sq": "neve",
+   "en": "us; dative of ne",
+   "glosses": [
+    "us; dative of ne"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "us; dative of ne",
      "tags": [],
      "cats": [
       {
@@ -44,7 +963,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 17 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,16 +977,16 @@
      ],
      "examples": [],
      "links": [
-      "put",
-      "place"
+      "us",
+      "ne"
      ]
     }
    ],
-   "rank": 565,
-   "count": 1828,
-   "family": "vë",
+   "rank": 644,
+   "count": 1583,
+   "family": "neve",
    "is_root": true,
-   "etymology": "From Proto-Albanian *awena, an innovation based on *au̯e (“down, off”) (cf. Sanskrit अव (áva, “id”)), replacing Proto-Indo-European *dʰeh₁- (“to place, put”). The original meaning must have been 'to put down, put aside', as in Latin pōnere (“to put”). Alternatively from Proto-Albanian *u̯enō, from Proto-Indo-European *h₁wen- (“to spread”).",
+   "etymology": "An innovation stemming from Early Proto-Albanian *nōhōn. Cognate to Proto-Slavic *nasъ (“our”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -75,337 +994,104 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "vura",
-     "tag": "aorist"
-    },
-    {
-     "form": "vënë",
-     "tag": "participle"
-    },
-    {
-     "form": "voj",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You bet it is!",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Vë bast se është!"
-   }
-  },
-  {
-   "id": "budalla",
-   "sq": "budalla",
-   "en": "fool, crazy person",
-   "glosses": [
-    "fool, crazy person",
-    "someone who acts as a fool",
-    "fool, crazy person",
-    "foolish"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fool, crazy person",
-     "tags": [
-      "colloquial",
-      "derogatory",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 7 33 26"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fool",
-      "crazy"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "someone who acts as a fool",
-     "tags": [
-      "colloquial",
-      "derogatory",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 7 33 26"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 24 0 51"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 14 0 73"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "act"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "fool, crazy person",
-     "tags": [
-      "colloquial",
-      "derogatory"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 7 33 26"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fool",
-      "crazy"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "foolish",
-     "tags": [
-      "colloquial",
-      "derogatory"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "foolish"
-     ]
-    }
-   ],
-   "rank": 571,
-   "count": 1787,
-   "family": "budalla",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بدلا (budala, “imbecile, fool”), from Arabic اَبْدَال pl (abdāl) of singular بديل (badīl).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "budallae",
-     "tag": "feminine"
-    },
-    {
-     "form": "budallar",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "What a fool I was!",
+    "corpus": "TED2020",
+    "en": "This is happening to us today.",
     "score": [
      0,
-     3,
-     -3,
-     5
+     5,
+     -5,
+     4
     ],
-    "sq": "Sa budalla isha!"
+    "sq": "Kjo na ndodh neve sot."
    }
   },
   {
-   "id": "kthyer",
-   "sq": "kthyer",
-   "en": "bent, curved",
+   "id": "gëzuar",
+   "sq": "gëzuar",
+   "en": "cheers (a basic toast)",
    "glosses": [
-    "bent, curved",
-    "ploughed, cultivated (of land)",
-    "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
-    "divorced (of a woman)",
-    "recovered, got better (from an illness)",
-    "bend, curve, turn (of a road, river, etc.)",
-    "hem, fold"
+    "cheers (a basic toast)",
+    "participle of gëzoj"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "noun",
-    "noun"
+    "intj",
+    "verb"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "noun",
-    "noun"
+    "interjection",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "bent, curved",
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "cheers (a basic toast)",
      "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bent",
-      "curved"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "ploughed, cultivated (of land)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "ploughed",
-      "cultivated"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "folded, hemmed (of clothes' rims), rolled up (of sleeves)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "folded",
-      "hemmed",
-      "rolled up"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "divorced (of a woman)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "divorced"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "recovered, got better (from an illness)",
-     "tags": [
-      "colloquial"
-     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 6 28 3 40 1 18 1"
+       "_dis": "50 20 30"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "2 2 35 2 50 0 8 1"
+       "_dis": "34 29 37"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "2 1 31 2 45 0 18 1"
+       "_dis": "35 28 36"
       }
      ],
      "examples": [],
      "links": [
-      "recovered",
-      "got better"
+      "cheers",
+      "toast"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bend, curve, turn (of a road, river, etc.)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "participle of gëzoj",
      "tags": [
-      "feminine"
+      "participle"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 29 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 28 36"
+      }
+     ],
      "examples": [],
      "links": [
-      "bend",
-      "curve",
-      "turn"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hem, fold",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hem",
-      "fold"
+      "gëzoj",
+      "cheerful",
+      "glad"
      ]
     }
    ],
-   "rank": 573,
-   "count": 1782,
-   "family": "kthyer",
+   "rank": 645,
+   "count": 1581,
+   "family": "gëzuar",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -414,34 +1100,28 @@
    "parents": [],
    "components": [],
    "derived": [
-    "i pakthyer",
-    "i sqepkthyer"
+    "gëzuar Krishtlindja!"
    ],
    "related": [],
-   "forms": [
-    {
-     "form": "kthyera",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "I'm back.",
+    "corpus": "HPLT",
+    "en": "Cheers and thanks.",
     "score": [
      0,
      3,
      -3,
-     5
+     10
     ],
-    "sq": "Unë jam kthyer."
+    "sq": "Gëzuar dhe faleminderit."
    }
   },
   {
-   "id": "vënë",
-   "sq": "vënë",
-   "en": "put, past form (from vë, to put)",
+   "id": "ndarë",
+   "sq": "ndarë",
+   "en": "divide, past form (from ndaj, to divide)",
    "glosses": [
-    "put, past form (from vë, to put)"
+    "divide, past form (from ndaj, to divide)"
    ],
    "pos": [
     "verb"
@@ -453,7 +1133,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "put, past form (from vë, to put)",
+     "gloss": "divide, past form (from ndaj, to divide)",
      "tags": [
       "form-of",
       "participle",
@@ -480,12 +1160,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vë"
+     "is_form_of": "ndaj"
     }
    ],
-   "rank": 616,
-   "count": 1666,
-   "family": "vë",
+   "rank": 1592,
+   "count": 550,
+   "family": "ndaj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -498,232 +1178,15 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Very well put.",
+    "en": "I was separated.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Shumë mirë vënë."
+    "sq": "Isha e ndarë."
    }
-  },
-  {
-   "id": "vëmendje",
-   "sq": "vëmendje",
-   "en": "attention, concentration, care",
-   "glosses": [
-    "attention, concentration, care"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "attention, concentration, care",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with vë-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "attention",
-      "concentration",
-      "care"
-     ]
-    }
-   ],
-   "rank": 2500,
-   "count": 333,
-   "family": "vë",
-   "is_root": false,
-   "etymology": "From vë- + mendje.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vë",
-     "role": "prefix"
-    },
-    {
-     "word": "mendje",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vëmendja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "more attention.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "më shumë vëmendje."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "vërej",
-   "sq": "vërej",
-   "en": "to look, observe, pay attention",
-   "glosses": [
-    "to look, observe, pay attention",
-    "to notice"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to look, observe, pay attention",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "look",
-      "observe",
-      "pay"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to notice",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "notice"
-     ]
-    }
-   ],
-   "rank": 17304,
-   "count": 32,
-   "family": "vë",
-   "is_root": false,
-   "etymology": "Uncertain. Either a compound formation of vë + re or from Proto-Indo-European *wer- (“to observe, pay attention”). Compare (Attic) Ancient Greek ὤρα (ṓra, “care, attention”), Latin vereor (“worship, fear, dread”), Latvian véru (“see, show, notice”), Latin vara (“attentive make, look after; protect, assume”) Old Saxon waron (“observe, protect, look after, watch over, keep”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "vë",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vërejta",
-     "tag": "aorist"
-    },
-    {
-     "form": "vërejtur",
-     "tag": "participle"
-    },
-    {
-     "form": "vrej",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "I notice a couple of things about this.",
-    "score": [
-     1,
-     5,
-     -4,
-     4
-    ],
-    "sq": "Nga kjo vërej disa gjëra."
-   },
-   "breakdown": "historical"
   }
  ]
 }

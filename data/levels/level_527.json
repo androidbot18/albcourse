@@ -1,42 +1,43 @@
 {
  "level": 527,
- "title": "negativ, barazim, ditar +3",
+ "title": "heri, plak (more), elefant +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "adhurues",
-  "barazim",
-  "bimë",
-  "ditar",
-  "mollë",
-  "negativ"
+  "elefant",
+  "gungë",
+  "hedhe",
+  "heri",
+  "plak",
+  "topit"
  ],
  "pos_mix": {
-  "adj": 1,
-  "noun": 7
+  "adv": 1,
+  "verb": 4,
+  "noun": 8
  },
  "words": [
   {
-   "id": "negativ",
-   "sq": "negativ",
-   "en": "negative",
+   "id": "heri",
+   "sq": "heri",
+   "en": "on a mountain",
    "glosses": [
-    "negative"
+    "on a mountain"
    ],
    "pos": [
-    "adj"
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "negative",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "on a mountain",
      "tags": [],
      "cats": [
       {
@@ -60,46 +61,181 @@
      ],
      "examples": [],
      "links": [
-      "negative"
+      "on",
+      "a",
+      "mountain"
      ]
     }
    ],
-   "rank": 8973,
-   "count": 75,
-   "family": "negativ",
+   "rank": 12996,
+   "count": 47,
+   "family": "heri",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Indo-European *h₃eros (“elevated”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "elevated"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "negative",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "How far is negative 3 from 0?",
+    "corpus": "HPLT",
+    "en": "So is Harry.",
     "score": [
-     0,
-     5,
-     -5,
-     5
+     1,
+     4,
+     -3,
+     10
     ],
-    "sq": "Sa larg është negativ 3 nga 0?"
+    "sq": "Po kështu edhe Heri."
    }
   },
   {
-   "id": "barazim",
-   "sq": "barazim",
-   "en": "identity",
+   "id": "plakem",
+   "sq": "plakem",
+   "en": "to age; to become/grow/get old",
    "glosses": [
-    "identity"
+    "to age; to become/grow/get old",
+    "to live long; to overlive (living a long life)",
+    "to become wise, gain experience; to turn to a master (for something; work, activity, life, etc.)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to age; to become/grow/get old",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "age",
+      "become",
+      "grow"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to live long; to overlive (living a long life)",
+     "tags": [
+      "figuratively",
+      "reflexive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "live",
+      "long",
+      "overlive"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to become wise, gain experience; to turn to a master (for something; work, activity, life, etc.)",
+     "tags": [
+      "figuratively",
+      "reflexive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 27 45"
+      },
+      {
+       "name": "Albanian links with redundant wikilinks",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 23 53"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 30 39"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "become",
+      "wise",
+      "gain"
+     ]
+    }
+   ],
+   "rank": 13031,
+   "count": 46,
+   "family": "plak",
+   "is_root": false,
+   "etymology": "From plak (“to make old”) (from Proto-Albanian *plaka-, from Proto-Indo-European *pl̥h₂-ko-, *pelh₂-) + -em (passive suffix).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "plak",
+     "role": "base"
+    },
+    {
+     "word": "em",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "plakur",
+    "mplakje",
+    "mplakur",
+    "mplak",
+    "mplakem"
+   ],
+   "forms": [
+    {
+     "form": "plakur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And I want to grow old in peace.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Dhe unë dua të plakem në paqe."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "elefant",
+   "sq": "elefant",
+   "en": "elephant",
+   "glosses": [
+    "elephant"
    ],
    "pos": [
     "noun"
@@ -111,10 +247,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "identity",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "elephant",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -123,7 +257,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 14 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -135,65 +269,169 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "barazim i gradës së dytë",
-       "en": "quadratics equation",
-       "offsets": [
-        [
-         0,
-         7
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "mathematics",
-      "identity"
+      "elephant"
      ]
     }
    ],
-   "rank": 8978,
-   "count": 75,
-   "family": "barazim",
+   "rank": 13038,
+   "count": 46,
+   "family": "elefant",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Learned borrowing from Latin elephantem. Ultimately from Ancient Greek ἐλέφᾱς (eléphās).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "barazimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "rabbit and a strange elephant.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "lepur dhe një elefant çuditshme."
+   }
   },
   {
-   "id": "ditar",
-   "sq": "ditar",
-   "en": "diary",
+   "id": "hedhe",
+   "sq": "hedhe",
+   "en": "fine chaff, fine sawdust",
    "glosses": [
-    "diary"
+    "fine chaff, fine sawdust",
+    "dandruff",
+    "snowflake"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "diary",
+     "gloss": "fine chaff, fine sawdust",
      "tags": [
-      "masculine"
+      "feminine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chaff",
+      "sawdust"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dandruff",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 48 38"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 56 24"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 82 11"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dandruff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "snowflake",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "snowflake"
+     ]
+    }
+   ],
+   "rank": 13042,
+   "count": 46,
+   "family": "hedhe",
+   "is_root": true,
+   "etymology": "Singularized plural of variant hedhë, derivative of hedh.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "hedh"
+   ],
+   "forms": [
+    {
+     "form": "hedhe",
+     "tag": "plural"
+    },
+    {
+     "form": "hedhja",
+     "tag": "definite"
+    },
+    {
+     "form": "hedhë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "topit",
+   "sq": "topit",
+   "en": "to make blunt, wear out, hold back",
+   "glosses": [
+    "to make blunt, wear out, hold back"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make blunt, wear out, hold back",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -216,16 +454,18 @@
      ],
      "examples": [],
      "links": [
-      "diary"
+      "make",
+      "blunt",
+      "wear"
      ]
     }
    ],
-   "rank": 8992,
-   "count": 74,
-   "family": "ditar",
+   "rank": 13057,
+   "count": 46,
+   "family": "topit",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Serbo-Croatian topiti (“to melt (down)”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -234,32 +474,36 @@
    "related": [],
    "forms": [
     {
-     "form": "ditarë",
-     "tag": "plural"
+     "form": "topita",
+     "tag": "aorist"
     },
     {
-     "form": "ditari",
-     "tag": "definite"
+     "form": "topitur",
+     "tag": "participle"
+    },
+    {
+     "form": "topis",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Maybe even a diary.",
+    "en": "The structure of the ball joint.",
     "score": [
-     0,
-     3,
+     2,
+     5,
      -3,
      10
     ],
-    "sq": "Mbase edhe ditar."
+    "sq": "Struktura e bashkimit të topit."
    }
   },
   {
-   "id": "adhurues",
-   "sq": "adhurues",
-   "en": "admirer",
+   "id": "kungull",
+   "sq": "kungull",
+   "en": "pumpkin",
    "glosses": [
-    "admirer"
+    "pumpkin"
    ],
    "pos": [
     "noun"
@@ -271,7 +515,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "admirer",
+     "gloss": "pumpkin",
      "tags": [
       "masculine"
      ],
@@ -283,13 +527,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -ull",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -297,61 +541,72 @@
      ],
      "examples": [],
      "links": [
-      "admirer"
+      "pumpkin"
      ]
     }
    ],
-   "rank": 8999,
-   "count": 74,
-   "family": "adhurues",
-   "is_root": true,
-   "etymology": "From adhuroj.",
-   "etymology_class": null,
+   "rank": 13058,
+   "count": 46,
+   "family": "gungë",
+   "is_root": false,
+   "etymology": "Possibly a devoiced variant of gungë + -ull, from Proto-Indo-European *geng-, *gong- (“lump”). Close to Lithuanian gungulỹs (“ball”), Old Norse kǫngull (“bundle of berries”), Ancient Greek γογγύλος (gongúlos, “round”), Latin conucla (“staff for holding flax, wool, etc.”). Alternatively from Proto-Albanian *kunkula, similar to Lithuanian kunkulas (“bubble”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "lump"
+   ],
+   "components": [
+    {
+     "word": "gungë",
+     "role": "base"
+    },
+    {
+     "word": "ull",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "adhurues",
+     "form": "kunguj",
      "tag": "plural"
     },
     {
-     "form": "adhuruesi",
+     "form": "kungulli",
      "tag": "definite"
-    },
-    {
-     "form": "adhuruese",
-     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Welcome, steak lovers.",
+    "en": "Yay, real pumpkin pie!",
     "score": [
      1,
      6,
      -5,
      10
     ],
-    "sq": "Mirë se vini, adhurues të biftekut."
-   }
+    "sq": "Yay, byrek me kungull e vërtetë!"
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "bimë",
-   "sq": "bimë",
-   "en": "plant",
+   "id": "gungë",
+   "sq": "gungë",
+   "en": "hump, lump",
    "glosses": [
-    "plant",
-    "girl"
+    "hump, lump",
+    "hunchback",
+    "small hill"
    ],
    "pos": [
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun"
    ],
@@ -359,7 +614,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "plant",
+     "gloss": "hump, lump",
      "tags": [
       "feminine"
      ],
@@ -369,216 +624,93 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "58 26 16"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "62 20 18"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "80 11 9"
       }
      ],
      "examples": [],
      "links": [
-      "plant"
+      "hump",
+      "lump"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "girl",
+     "gloss": "hunchback",
      "tags": [
       "feminine"
      ],
-     "cats": [
-      {
-       "name": "Dogançe Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "girl"
+      "hunchback"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "small hill",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "small",
+      "hill"
      ]
     }
    ],
-   "rank": 9006,
-   "count": 74,
-   "family": "bimë",
+   "rank": 19295,
+   "count": 27,
+   "family": "gungë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *būmā, from Proto-Indo-European *bʰuH- (“to grow”) (compare Ancient Greek φῦμα (phûma), German Baum (“tree”)).",
+   "etymology": "From Proto-Albanian *gungā, from Proto-Indo-European *geng-, *gong- (“lump”). Identical with Lithuanian gùnga (“hump, hunchback, ball, clump”), gùnginti (“go slowly, from a humped going person”), and cognate with Latin gingiva (“gum”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "tree"
+    "lump"
    ],
    "components": [],
    "derived": [],
    "related": [
-    "bij",
-    "mbij",
-    "bisht",
-    "bisk"
+    "gush",
+    "kungull",
+    "kumbull"
    ],
    "forms": [
     {
-     "form": "bimë",
+     "form": "gunga",
      "tag": "plural"
-    },
-    {
-     "form": "bima",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "plant is back!",
+    "corpus": "QED",
+    "en": "There is a hump.",
     "score": [
      0,
      3,
      -3,
-     10
+     5
     ],
-    "sq": "bimë është kthyer!"
+    "sq": "Kemi një gungë."
    }
-  },
-  {
-   "id": "mollë",
-   "sq": "mollë",
-   "en": "apple",
-   "glosses": [
-    "apple",
-    "cheek"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "apple",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pome fruits",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Pome fruits",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "apple"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cheek",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Body parts",
-       "kind": "other",
-       "parents": [
-        "Anatomy"
-       ],
-       "source": "w",
-       "orig": "sq:Body parts",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 95"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 96"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cheek"
-     ]
-    }
-   ],
-   "rank": 9022,
-   "count": 74,
-   "family": "mollë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *mālā, akin to Ancient Greek μῆλον (mêlon, “apple”), Latin mālum (“apple”), either a cognate or borrowed from either of the two. Likely from a western dialect borrowed from Doric Greek. A borrowing from Latin would be unusually early, as the shift from *ā to o, characteristic of inherited words, would not be paralleled in any other Latin loan. Direct inheritance is formally possible, though dubious given the defined areal distribution and the absence of any clear cognate outside of it. See Ancient Greek μῆλον (mêlon) for further connections. Sense 2 is a common metaphor, compare Ancient Greek μῆλον (mêlon, “cheek”) etc.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "apple"
-   ],
-   "components": [],
-   "derived": [
-    "mollaftua",
-    "mollak",
-    "mollapjeshkë",
-    "mollaqe",
-    "mollash",
-    "mollatartë",
-    "mollë dheu",
-    "mollë e egër"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "mollë",
-     "tag": "plural"
-    },
-    {
-     "form": "molla",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null
   }
- ]
+ ],
+ "extended": true
 }

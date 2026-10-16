@@ -1,45 +1,47 @@
 {
  "level": 575,
- "title": "tullac, pezull, çelik +3",
+ "title": "llum, tradhtoj, qyqar +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "atom",
-  "bujë",
-  "heri",
-  "pezull",
-  "tullac",
-  "çelik"
+  "hendek",
+  "kec",
+  "llum",
+  "qyqar",
+  "tok",
+  "tradhtoj"
  ],
  "pos_mix": {
-  "adj": 1,
-  "adv": 2,
-  "noun": 4,
-  "verb": 1
+  "noun": 3,
+  "verb": 5,
+  "adj": 3,
+  "adv": 1
  },
  "words": [
   {
-   "id": "tullac",
-   "sq": "tullac",
-   "en": "bald",
+   "id": "llum",
+   "sq": "llum",
+   "en": "mud",
    "glosses": [
-    "bald"
+    "mud"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "bald",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mud",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -48,13 +50,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ac",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,59 +64,56 @@
      ],
      "examples": [],
      "links": [
-      "bald"
+      "mud"
      ]
     }
    ],
-   "rank": 12935,
-   "count": 47,
-   "family": "tullac",
+   "rank": 17065,
+   "count": 32,
+   "family": "llum",
    "is_root": true,
-   "etymology": "From tollë (“bald spot”) + -ac.",
-   "etymology_class": "affix",
+   "etymology": "A formation of lym with expressive anlaut, which in its turn has caused the velarization of the following vowel.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "tullace",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He was actually bald.",
+    "en": "into the scum, into the black sludge.",
     "score": [
      1,
-     5,
-     -4,
+     6,
+     -5,
      10
     ],
-    "sq": "Ai në fakt ishte tullac."
+    "sq": "në llum, në llagëmin e zi."
    }
   },
   {
-   "id": "pezull",
-   "sq": "pezull",
-   "en": "suspended, abolished",
+   "id": "tradhtoj",
+   "sq": "tradhtoj",
+   "en": "to betray",
    "glosses": [
-    "suspended, abolished"
+    "to betray"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "suspended, abolished",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to betray",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -135,18 +134,38 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Më ke tradhtuar, tani të lë unë!",
+       "en": "You betrayed me, I leave you now!",
+       "offsets": [
+        [
+         3,
+         15
+        ]
+       ]
+      },
+      {
+       "sq": "Gabim me ty qe rrija, se dija qe më tradhtove.",
+       "en": "It was a mistake that I stood with you, because I knew that you betrayed me.",
+       "offsets": [
+        [
+         36,
+         45
+        ]
+       ]
+      }
+     ],
      "links": [
-      "suspended",
-      "abolished"
+      "betray"
      ]
     }
    ],
-   "rank": 12936,
-   "count": 47,
-   "family": "pezull",
+   "rank": 17072,
+   "count": 32,
+   "family": "tradhtoj",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin pendulus, from pendere (“to hang, suspend”).",
+   "etymology": "Ultimately from Latin trādō. Compare Romanian trăda.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -154,25 +173,334 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Have you put some work on hold?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Ke lënë pezull ca punë?"
-   }
+   "forms": [
+    {
+     "form": "tradhtova",
+     "tag": "aorist"
+    },
+    {
+     "form": "tradhtuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "çelik",
-   "sq": "çelik",
-   "en": "steel",
+   "id": "qyqar",
+   "sq": "qyqar",
+   "en": "poor, miserable, wretched, hapless",
    "glosses": [
-    "steel"
+    "poor, miserable, wretched, hapless",
+    "alone, desolate, forsaken",
+    "incapable, helpless, weak"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "poor, miserable, wretched, hapless",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "poor",
+      "miserable",
+      "wretched"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "alone, desolate, forsaken",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 52 34"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 68 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 87 13"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "alone",
+      "desolate",
+      "forsaken"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "incapable, helpless, weak",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 40 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incapable",
+      "helpless",
+      "weak"
+     ]
+    }
+   ],
+   "rank": 17075,
+   "count": 32,
+   "family": "qyqar",
+   "is_root": true,
+   "etymology": "From qyq (“wretched, miserable”) + -ar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "qyq",
+    "qyqan",
+    "qyqatoj",
+    "qyqe",
+    "qyqohem"
+   ],
+   "forms": [
+    {
+     "form": "qyqare",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "tok",
+   "sq": "tok",
+   "en": "to cut or hit meat to mince it or make meatballs",
+   "glosses": [
+    "to cut or hit meat to mince it or make meatballs",
+    "to sharpen (scythe or sickle)",
+    "knock",
+    "to hit (or handshake) someone's hand to greet them, toast someone by clinking glasses",
+    "together"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "adv"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cut or hit meat to mince it or make meatballs",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 41 17 11 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cut",
+      "hit",
+      "meatball"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sharpen (scythe or sickle)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "toku draprin",
+       "en": "tempering the sickle",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "sharpen",
+      "scythe",
+      "sickle"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "knock",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "knock"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hit (or handshake) someone's hand to greet them, toast someone by clinking glasses",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "tokën duart",
+       "en": "they high fived",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "tokën gotat",
+       "en": "they toasted with glasses",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hit",
+      "greet",
+      "toast"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "together",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "together"
+     ]
+    }
+   ],
+   "rank": 17082,
+   "count": 32,
+   "family": "tok",
+   "is_root": true,
+   "etymology": "An onomatopoeia, similar to Italian toccare (“to touch, to tap”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "toka"
+   ],
+   "related": [
+    "tokë",
+    "cek"
+   ],
+   "forms": [
+    {
+     "form": "toka",
+     "tag": "aorist"
+    },
+    {
+     "form": "tokur",
+     "tag": "participle"
+    },
+    {
+     "form": "toku",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kec",
+   "sq": "kec",
+   "en": "goat kid less than a year old",
+   "glosses": [
+    "goat kid less than a year old"
    ],
    "pos": [
     "noun"
@@ -184,7 +512,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "steel",
+     "gloss": "goat kid less than a year old",
      "tags": [
       "masculine"
      ],
@@ -210,140 +538,64 @@
      ],
      "examples": [],
      "links": [
-      "steel"
+      "kid"
      ]
     }
    ],
-   "rank": 12938,
-   "count": 47,
-   "family": "çelik",
+   "rank": 17092,
+   "count": 32,
+   "family": "kec",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish چلیك (çelik).",
+   "etymology": "Either from Ottoman Turkish كچی (keçi, “goat”), or diminutive with hypocoristic suffix -ç ~ -c of regular kedh (see there for further etymology).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "goat"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "çeliqe",
+     "form": "kecër",
      "tag": "plural"
     },
     {
-     "form": "çeliku",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Made with durable steel.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Bërë me çelik të qëndrueshëm."
-   }
-  },
-  {
-   "id": "bujë",
-   "sq": "bujë",
-   "en": "fuss",
-   "glosses": [
-    "fuss",
-    "fame"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fuss",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fuss"
-     ]
+     "form": "keca",
+     "tag": "plural"
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fame",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fame"
-     ]
+     "form": "keci",
+     "tag": "definite"
+    },
+    {
+     "form": "keç",
+     "tag": "alternative"
+    },
+    {
+     "form": "kedh",
+     "tag": "alternative"
     }
    ],
-   "rank": 12940,
-   "count": 47,
-   "family": "bujë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *buliā, from Proto-Indo-European *bh(e)ū̆- (“swell, puff”). Cognate to Ancient Greek φῷδες (phōîdes, “blisters”), Old Irish bolach (“swelling, blister”), Latin bucca (“cheek”) and Old English bȳle (“swelling, blister”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "mbush",
-    "buzë"
-   ],
-   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No fuss, no issues!",
+    "corpus": "QED",
+    "en": "Nice knowing you kid.",
     "score": [
      0,
      4,
      -4,
-     10
+     5
     ],
-    "sq": "Pa bujë, pa çështje!"
+    "sq": "Bukur ditur ju kec."
    }
   },
   {
-   "id": "atom",
-   "sq": "atom",
-   "en": "atom",
+   "id": "hendek",
+   "sq": "hendek",
+   "en": "ditch",
    "glosses": [
-    "atom"
+    "ditch"
    ],
    "pos": [
     "noun"
@@ -355,7 +607,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "atom",
+     "gloss": "ditch",
      "tags": [
       "masculine"
      ],
@@ -367,7 +619,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 21 entries",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -381,207 +633,35 @@
      ],
      "examples": [],
      "links": [
-      "physics",
-      "chemistry",
-      "atom"
+      "ditch"
      ]
     }
    ],
-   "rank": 12955,
-   "count": 47,
-   "family": "atom",
+   "rank": 17099,
+   "count": 32,
+   "family": "hendek",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish خندق (hendek), from Arabic خَنْدَق (ḵandaq).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "atomi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Each atom is like our solar system.",
-    "score": [
-     2,
-     7,
-     -5,
-     10
-    ],
-    "sq": "Çdo atom është si sistemin tonë diellor."
-   }
-  },
-  {
-   "id": "heri",
-   "sq": "heri",
-   "en": "on a mountain",
-   "glosses": [
-    "on a mountain"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "on a mountain",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "on",
-      "a",
-      "mountain"
-     ]
-    }
-   ],
-   "rank": 12996,
-   "count": 47,
-   "family": "heri",
-   "is_root": true,
-   "etymology": "From Proto-Indo-European *h₃eros (“elevated”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "elevated"
-   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "So is Harry.",
+    "en": "They're in the ditch!",
     "score": [
-     1,
+     0,
      4,
-     -3,
+     -4,
      10
     ],
-    "sq": "Po kështu edhe Heri."
+    "sq": "Ata janë në hendek!"
    }
-  },
-  {
-   "id": "pezulloj",
-   "sq": "pezulloj",
-   "en": "to suspend, abolish",
-   "glosses": [
-    "to suspend, abolish"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to suspend, abolish",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian links with redundant target parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "suspend",
-      "abolish"
-     ]
-    }
-   ],
-   "rank": 49168,
-   "count": 7,
-   "family": "pezull",
-   "is_root": false,
-   "etymology": "From pezull + -oj. Ultimately based on the same Latin root (pendō) as English suspend.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "pezull",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pezullova",
-     "tag": "aorist"
-    },
-    {
-     "form": "pezulluar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I want to suspend it until I'm done!",
-    "score": [
-     2,
-     7,
-     -5,
-     10
-    ],
-    "sq": "Unë dua ta pezulloj derisa të mbaroj!"
-   },
-   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

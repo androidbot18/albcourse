@@ -17,23 +17,45 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 
 | | |
 |---|---|
-| Words | 4,087 |
-| Levels | 790 |
-| Word families | 3,013 |
+| Words | 4,092 |
+| Levels | 766: a 348-level main course, then 418 optional extended levels |
+| Word families | 3,019 |
 | Families with more than one member | 519 |
-| Words containing ë / ç | 1,643 |
-| Words with an example sentence | 3,715 (90.9%) |
+| Words containing ë / ç | 1,645 |
+| Words with an example sentence | 3,718 (90.9%) |
 | Words with a cognate hook | 125 |
 
 (These figures were stale for several PRs -- the deck had already been
 rebuilt twice. They now come from `data/words.json`; check with
 `python3 tools/measure_learnability.py`.)
 
-Levels are ordered by when a word family's root becomes common enough to
-teach, with grammar words held back and some pictureable nouns pulled forward.
-This is an approximation, not a hand-built curriculum: the opening levels are
-not yet the ideal first words (see RECOMMENDATIONS.md, section 3). The Review
-tab follows level order, and new cards are capped at 20 per day.
+The first 23 levels are **hand-curated by theme**: greetings and yes/no,
+pronouns, `jam` and `kam` in the present, the little words (`nuk`, `dhe`,
+`në`, `me`, `për`), numbers 1-10, family, food and drink, time, question
+words, the core verbs, everyday adjectives, home and work, the conjunctions
+(`e`, `por`, `ose`, `edhe`) and the days of the week. They live in
+`tools/opening_levels.py`, a small reviewed list the build checks (every
+word in the deck, a family on one level only, a stem never after its word).
+A family the opening only begins comes back later at its own frequency:
+`jam` opens with its present tense, and `ishte`, `qenë`, `isha`... return as
+"jam (continued)" on level 29. Glosses and examples for these first words
+were reviewed in `tools/gloss_overrides.py` (`pi` is "to drink", not the
+Gheg preposition "from"; `e` is back, see RECOMMENDATIONS.md section 3.2).
+
+After the opening, levels are ordered by when a word family's root becomes
+common enough to teach, with grammar words held back and some pictureable
+nouns pulled forward. That part is an approximation, not a hand-built
+curriculum. The Review tab follows level order, and new cards are capped at
+20 per day.
+
+The **main course** is levels 1-348: 1,624 words, everything ranked up to
+5,000 in the frequency list plus the opening and the stems those words are
+built on. It covers 81% of the tokens in the frequency list, counting an
+inflected form of a taught word as known. The other 2,468 words, rank above
+5,000, form an optional **extended track** (levels 349-766, marked
+`extended`) that adds under 3 points more. The app introduces them only
+after the learner turns the track on from the level map. See
+RECOMMENDATIONS.md section 3.6.
 
 A level is a **session of whole word families**, not a frequency slice:
 
@@ -44,16 +66,16 @@ A level is a **session of whole word families**, not a frequency slice:
   ride the root into an early session. They come back as their own level,
   "do (rarer words)", once the course reaches their frequency. Before this,
   `do` (rank 4) taught `doemos` (rank 30,516) in level 2 and pushed `unë`
-  ("I") out of the first ten levels; 37 families now resume this way.
+  ("I") out of the first ten levels; 22 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (584 of 790),
+  sessions; a level that mixes families is the normal case (616 of 766),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
   enough to be worth teaching, not when one of its rare derivatives surfaces.
-* 13 families have more than 9 words. The biggest are `për` (23 words,
-  4 levels), `jam` (22, 3 levels), `kam` (14), and `dua`, `shkoj`, `vras` and `a` (13 each). A
+* 13 families have more than 9 words. The biggest are `për` (23 words),
+  `jam` (22), `kam` (14), and `dua`, `shkoj`, `vras` and `a` (13 each). A
   continuation always gets a level to itself, so a part label is never
   misleading.
 
@@ -142,7 +164,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        790 level descriptors, loaded first
+      index.json        766 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -183,7 +205,8 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (790 decks, 4,087 notes). It is
+That writes dist/albanian-roots-families.apkg (766 decks, 4,092 notes; the extended track's decks are named
+"Albanian extended L..."). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

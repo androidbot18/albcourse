@@ -1,59 +1,226 @@
 {
  "level": 645,
- "title": "flihet, bejsboll, rrjedhshëm +3",
+ "title": "pështymë, sakrifikoj, loke +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "bejsboll",
-  "flihet",
-  "mysliman",
-  "mëlçi",
-  "rrjedhshëm",
-  "vutë"
+  "dalë",
+  "loke",
+  "pështymë",
+  "qytetërim",
+  "sakrifikoj",
+  "spec"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 5,
-  "adj": 5
+  "noun": 9,
+  "verb": 1,
+  "adv": 2
  },
  "words": [
   {
-   "id": "flihet",
-   "sq": "flihet",
-   "en": "it caused sleep",
+   "id": "pështymë",
+   "sq": "pështymë",
+   "en": "saliva, spit, vomit, eruption (from volcano etc)",
    "glosses": [
-    "it caused sleep",
-    "it is sleepable"
+    "saliva, spit, vomit, eruption (from volcano etc)"
    ],
    "pos": [
-    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "saliva, spit, vomit, eruption (from volcano etc)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "saliva",
+      "spit",
+      "vomit"
+     ]
+    }
+   ],
+   "rank": 25278,
+   "count": 19,
+   "family": "pështymë",
+   "is_root": true,
+   "etymology": "From pështyj (“to spit”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pështyma",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What if there is blood in the saliva collected?",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "Çka në qoftë se ka gjak në pështymë mbledhura?"
+   }
+  },
+  {
+   "id": "sakrifikoj",
+   "sq": "sakrifikoj",
+   "en": "to sacrifice",
+   "glosses": [
+    "to sacrifice"
+   ],
+   "pos": [
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "it caused sleep",
+     "gloss": "to sacrifice",
      "tags": [
-      "mediopassive"
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Për ty sakrifikova çka pata",
+       "en": "I sacrificed all I had for you",
+       "offsets": [
+        [
+         7,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "sacrifice"
+     ]
+    }
+   ],
+   "rank": 25344,
+   "count": 19,
+   "family": "sakrifikoj",
+   "is_root": true,
+   "etymology": "Learned borrowing from Latin sacrificō; sakrificë (“sacrifice”) + oj (“I”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "sacrifice"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "sakrifikuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "loke",
+   "sq": "loke",
+   "en": "mom",
+   "glosses": [
+    "mom",
+    "dear (addressed to a mother)",
+    "father's mother",
+    "term of respectful address for an old woman"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mom",
+     "tags": [
+      "feminine"
      ],
      "cats": [],
      "examples": [],
-     "links": []
+     "links": [
+      "mom"
+     ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it is sleepable",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dear (addressed to a mother)",
      "tags": [
-      "mediopassive"
+      "feminine"
      ],
      "cats": [
       {
@@ -61,32 +228,42 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "42 58"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "39 61"
+       "_dis": "45 16 16 24"
       }
      ],
+     "examples": [],
+     "links": [
+      "dear"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "father's mother",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "term of respectful address for an old woman",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
      "examples": [],
      "links": []
     }
    ],
-   "rank": 20342,
-   "count": 25,
-   "family": "flihet",
+   "rank": 25361,
+   "count": 18,
+   "family": "loke",
    "is_root": true,
-   "etymology": "See active voice form fle (“to sleep”).",
+   "etymology": "A derivative of loc.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -94,320 +271,30 @@
    "components": [],
    "derived": [],
    "related": [
-    "fle"
+    "loc",
+    "loçkë",
+    "lot"
    ],
    "forms": [
     {
-     "form": "fjetur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I want to sleep.",
-    "score": [
-     1,
-     3,
-     -2,
-     5
-    ],
-    "sq": "Me flihet gjum."
-   }
-  },
-  {
-   "id": "bejsboll",
-   "sq": "bejsboll",
-   "en": "baseball",
-   "glosses": [
-    "baseball"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "baseball",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "baseball"
-     ]
-    }
-   ],
-   "rank": 20387,
-   "count": 25,
-   "family": "bejsboll",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "bejsbolli",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "As soon as he did that, he turned to baseball.",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Sapo e bëri atë, ai u kthye në bejsboll."
-   }
-  },
-  {
-   "id": "rrjedhshëm",
-   "sq": "rrjedhshëm",
-   "en": "flowing",
-   "glosses": [
-    "flowing",
-    "fluent"
-   ],
-   "pos": [
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "flowing",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "80 20"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "87 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flowing"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "fluent",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 72"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fluent"
-     ]
-    }
-   ],
-   "rank": 20433,
-   "count": 25,
-   "family": "rrjedhshëm",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are both fluent in English.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Të dy flasin rrjedhshëm anglisht."
-   }
-  },
-  {
-   "id": "mysliman",
-   "sq": "mysliman",
-   "en": "Muslim",
-   "glosses": [
-    "Muslim",
-    "Muslim"
-   ],
-   "pos": [
-    "adj",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "Muslim",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      },
-      {
-       "name": "Islam",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Islam",
-       "langcode": "sq",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Muslim"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Muslim",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Muslim"
-     ]
-    }
-   ],
-   "rank": 20455,
-   "count": 25,
-   "family": "mysliman",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish مسلمان (müsliman), from Classical Persian مسلمان (musalmān), from Arabic مُسْلِم (muslim).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "myslimanë",
+     "form": "loke",
      "tag": "plural"
     },
     {
-     "form": "myslimani",
+     "form": "lokja",
      "tag": "definite"
-    },
-    {
-     "form": "myslimane",
-     "tag": "feminine"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This person could be a Muslim.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Ky person mund të jetë mysliman."
-   }
+   "corpus_example": null
   },
   {
-   "id": "mëlçi",
-   "sq": "mëlçi",
-   "en": "liver",
+   "id": "spec",
+   "sq": "spec",
+   "en": "pepper (Capsicum annuum)",
    "glosses": [
-    "liver",
-    "innards",
-    "lungs"
+    "pepper (Capsicum annuum)",
+    "paprika",
+    "(adjective) cranky"
    ],
    "pos": [
     "noun",
@@ -423,170 +310,146 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "liver",
-     "tags": [],
+     "gloss": "pepper (Capsicum annuum)",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
-       "name": "Anatomy",
+       "name": "Botany",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Anatomy",
+       "orig": "sq:Botany",
        "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "liver"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "innards",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "innards"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lungs",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "21 4 75"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 3 89"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 3 90"
+       "_dis": "88 7 5"
       }
      ],
      "examples": [],
      "links": [
-      "lungs"
+      "botany",
+      "pepper",
+      "Capsicum annuum"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "paprika",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "paprika"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "(adjective) cranky",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cranky"
      ]
     }
    ],
-   "rank": 20486,
-   "count": 25,
-   "family": "mëlçi",
+   "rank": 25363,
+   "count": 18,
+   "family": "spec",
    "is_root": true,
-   "etymology": "From Italian milza or its variant, Italian milcia, with -ía suffix.",
+   "etymology": "Borrowed from Italian spezie (“spices”), ultimately from Latin speciēs.",
    "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian milza",
-   "parents": [],
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "spices"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "mëlçi",
+     "form": "speca",
      "tag": "plural"
     },
     {
-     "form": "mëlçia",
+     "form": "speci",
      "tag": "definite"
-    },
-    {
-     "form": "mbëlçi",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "During life, they move to the heart, liver and lungs.",
+    "en": "Add soy sauce, sugar, garlic, and ginger.",
     "score": [
-     1,
-     9,
-     -8,
+     2,
+     8,
+     -6,
      10
     ],
-    "sq": "Gjatë jetës, ato lëvizin në zemër, mëlçi dhe mushkëri."
+    "sq": "Shto qepë, hudhër, spec i gjelbër, dhe domate."
    }
   },
   {
-   "id": "vutë",
-   "sq": "vutë",
-   "en": "flat, low",
+   "id": "qytetërim",
+   "sq": "qytetërim",
+   "en": "civilization",
    "glosses": [
-    "flat, low",
-    "humble, modest"
+    "civilization"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "flat, low",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "civilization",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flat",
-      "low"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "humble, modest",
-     "tags": [],
-     "cats": [
+       "source": "w"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "humble",
-      "modest"
+      "civilization"
      ]
     }
    ],
-   "rank": 20496,
-   "count": 25,
-   "family": "vutë",
+   "rank": 25375,
+   "count": 18,
+   "family": "qytetërim",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -594,22 +457,125 @@
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "vutësi"
-   ],
+   "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "But you put one there. Why?",
+    "corpus": "HPLT",
+    "en": "You have created a civilization in the world.",
     "score": [
      0,
      6,
      -6,
-     4
+     10
     ],
-    "sq": "Por ju e vutë një aty."
+    "sq": "Keni ndërtuar një qytetërim në botë."
    }
+  },
+  {
+   "id": "dalëngadalë",
+   "sq": "dalëngadalë",
+   "en": "slowly, unhurriedly",
+   "glosses": [
+    "slowly, unhurriedly",
+    "quietly"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "slowly, unhurriedly",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "slowly",
+      "unhurriedly"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "quietly",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "quietly"
+     ]
+    }
+   ],
+   "rank": 25393,
+   "count": 18,
+   "family": "dalë",
+   "is_root": false,
+   "etymology": "From dalë + nga + dalë.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "dalë",
+     "role": "prefix"
+    },
+    {
+     "word": "nga",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "ngadalë",
+    "ngadalësi",
+    "ngadalësia",
+    "ngadalësim",
+    "ngadalësimi"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The night is slowly turning into day.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Nata dalëngadalë po kthehet në ditë."
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

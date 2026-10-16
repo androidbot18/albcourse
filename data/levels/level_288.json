@@ -1,42 +1,44 @@
 {
  "level": 288,
- "title": "blej, detyrë",
+ "title": "plazh, bari, prapanicë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "blej",
-  "detyrë"
+  "adhuroj",
+  "banjë",
+  "bari",
+  "plazh",
+  "prapanicë",
+  "presion"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 2
+  "noun": 11,
+  "verb": 2
  },
  "words": [
   {
-   "id": "blej",
-   "sq": "blej",
-   "en": "to purchase; to cheat; to barter",
+   "id": "plazh",
+   "sq": "plazh",
+   "en": "beach",
    "glosses": [
-    "to purchase; to cheat; to barter"
+    "beach"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to purchase; to cheat; to barter",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beach",
      "tags": [
-      "Gheg",
-      "Standard",
-      "Tosk"
+      "masculine"
      ],
      "cats": [
       {
@@ -60,18 +62,16 @@
      ],
      "examples": [],
      "links": [
-      "purchase",
-      "cheat",
-      "barter"
+      "beach"
      ]
     }
    ],
-   "rank": 1495,
-   "count": 593,
-   "family": "blej",
+   "rank": 2528,
+   "count": 329,
+   "family": "plazh",
    "is_root": true,
-   "etymology": "First attested in 1497. The short nasal vowel in the 3rd sg. blê \"to buy\" and the long nasal in the 1st-3rd sg. blẽ \"id.\" point to a Common Albanian *blên, inherited from Proto-Albanian *blêna/i-, from Pre-Proto-Albanian *blena/e-, from either Proto-Indo-European *h₃bʰloi̯éi̯e/o- (“to buy”) or Proto-Indo-European *bʰl̥nh₂énti (“to buy”). A reasonable formal and semantic match is found in Ancient Greek ὄφελος (óphelos, “advantage, help”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from French plage (compare Turkish plaj).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -80,36 +80,32 @@
    "related": [],
    "forms": [
     {
-     "form": "bleva",
-     "tag": "aorist"
+     "form": "plazhe",
+     "tag": "plural"
     },
     {
-     "form": "blerë",
-     "tag": "participle"
-    },
-    {
-     "form": "blenë",
-     "tag": "participle"
+     "form": "plazhi",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Which one should I buy?",
+    "en": "All right on the beach!",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Cilin duhet të blej?"
+    "sq": "Në rregull në plazh!"
    }
   },
   {
-   "id": "detyrë",
-   "sq": "detyrë",
-   "en": "duty, task, assignment",
+   "id": "bari",
+   "sq": "bari",
+   "en": "shepherd",
    "glosses": [
-    "duty, task, assignment"
+    "shepherd"
    ],
    "pos": [
     "noun"
@@ -121,8 +117,77 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "duty, task, assignment",
+     "gloss": "shepherd",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "64 10 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "shepherd"
+     ]
+    }
+   ],
+   "rank": 2532,
+   "count": 328,
+   "family": "bari",
+   "is_root": true,
+   "etymology": "Back-formation from plural barinjë, from earlier *bar, from Proto-Albanian *bara, from Proto-Indo-European *bʰer- (“to carry”). Compare Old High German baro (“man, husband”). A connection with ari (“bear”) has also been proposed, though ari was originally arth prior to the loss of the -th ending by mistake.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "barinj",
+     "tag": "plural"
+    },
+    {
+     "form": "bariu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "I am a shepherd.",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Unë jam një bari."
+   }
+  },
+  {
+   "id": "prapanicë",
+   "sq": "prapanicë",
+   "en": "buttocks",
+   "glosses": [
+    "buttocks"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "buttocks",
      "tags": [
+      "colloquial",
       "feminine"
      ],
      "cats": [
@@ -147,43 +212,49 @@
      ],
      "examples": [],
      "links": [
-      "duty",
-      "task",
-      "assignment"
+      "anatomy",
+      "buttock"
      ]
     }
    ],
-   "rank": 1496,
-   "count": 592,
-   "family": "detyrë",
+   "rank": 2534,
+   "count": 328,
+   "family": "prapanicë",
    "is_root": true,
-   "etymology": "Borrowed from a Vulgar Latin root *dēbitura, from Latin dēbitus. Also possibly through the intermediate of an Eastern Romance language; compare Romanian datorie.",
-   "etymology_class": "borrowed",
+   "etymology": "From the preposition prapa (“behind”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "behind"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "prapanica",
+     "tag": "plural"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "With a task.",
+    "en": "This thing kicks butt!",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Me një detyrë."
+    "sq": "Kjo gjë nis prapanicë!"
    }
   },
   {
-   "id": "blerës",
-   "sq": "blerës",
-   "en": "customer, buyer",
+   "id": "presion",
+   "sq": "presion",
+   "en": "pressure",
    "glosses": [
-    "customer, buyer"
+    "pressure"
    ],
    "pos": [
     "noun"
@@ -195,19 +266,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "customer, buyer",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "pressure",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -217,58 +280,425 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "customer",
-      "buyer"
+      "pressure"
      ]
     }
    ],
-   "rank": 12330,
-   "count": 50,
-   "family": "blej",
-   "is_root": false,
-   "etymology": "From blej + -ës.",
-   "etymology_class": "affix",
+   "rank": 2537,
+   "count": 328,
+   "family": "presion",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "blej",
-     "role": "base"
-    },
-    {
-     "word": "ës",
-     "role": "suffix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I was under pressure.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Isha nën presion."
+   }
+  },
+  {
+   "id": "banjë",
+   "sq": "banjë",
+   "en": "bathroom",
+   "glosses": [
+    "bathroom",
+    "bathtub, bath",
+    "bath (act of washing)",
+    "swim, bath (in the sea, lake, etc.)",
+    "spa, thermal baths",
+    "bath (in which something is immersed)",
+    "toilet, restroom"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bathroom",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bathroom"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bathtub, bath",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bathtub",
+      "bath"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bath (act of washing)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "bëj banjë",
+       "en": "to bathe",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bath"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "swim, bath (in the sea, lake, etc.)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 9 12 32 35 5"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "rroba banje",
+       "en": "swimming suit",
+       "offsets": [
+        [
+         6,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "swim",
+      "bath"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spa, thermal baths",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 7 8 40 32 9"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 9 12 32 35 5"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 4 14 52 24 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "spa",
+      "thermal"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bath (in which something is immersed)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Chemistry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chemistry",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 7 8 40 32 9"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 9 12 32 35 5"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chemistry",
+      "bath"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "toilet, restroom",
+     "tags": [
+      "euphemistic",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian euphemisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "banjë publike",
+       "en": "public restroom",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "toilet",
+      "restroom"
+     ]
+    }
+   ],
+   "rank": 2541,
+   "count": 328,
+   "family": "banjë",
+   "is_root": true,
+   "etymology": "From Vulgar Latin baneum, variant of Latin balneum. Compare Romanian baie f, Proto-Slavic *baňa f. Semantic loan from Italian bagno in many senses.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin baneum",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "banjar",
+    "banjë dielli",
+    "banjëzoj",
+    "banjore",
+    "banjtar"
+   ],
+   "related": [
+    "banjëmari"
+   ],
    "forms": [
     {
-     "form": "blerës",
+     "form": "banja",
      "tag": "plural"
     },
     {
-     "form": "blerësi",
-     "tag": "definite"
+     "form": "banjo",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "adhuroj",
+   "sq": "adhuroj",
+   "en": "to adore",
+   "glosses": [
+    "to adore",
+    "to worship"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to adore",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "adore"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to worship",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 85"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "worship"
+     ]
+    }
+   ],
+   "rank": 2560,
+   "count": 324,
+   "family": "adhuroj",
+   "is_root": true,
+   "etymology": "Borrowed from Latin adōrāre (“revere, admire, adore”) or Italian adorare (“adore”). According to Orel, it is a learned borrowing from Latin. Attested in Buzuku's Missal as adoronj (influenced by the Italian cognate), while other old authors use the popular term adhëronj.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "adore"
+   ],
+   "components": [],
+   "derived": [
+    "adhurim",
+    "adhurues",
+    "adhuruese",
+    "adhurueshëm"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "adhurova",
+     "tag": "aorist"
+    },
+    {
+     "form": "adhuruar",
+     "tag": "participle"
+    },
+    {
+     "form": "avroj",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What does this mean for you as buyer?",
+    "corpus": "TED2020",
+    "en": "But I love to talk.",
     "score": [
      0,
-     9,
-     -9,
-     10
+     5,
+     -5,
+     4
     ],
-    "sq": "Çfarë do të thotë kjo për ju si blerës?"
-   },
-   "breakdown": "historical"
+    "sq": "Por unë adhuroj të flas."
+   }
   }
  ]
 }

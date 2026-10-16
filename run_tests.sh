@@ -58,6 +58,23 @@ echo "== root first, tail later =="
 step python3 tools/test_tail_later.py
 
 echo
+echo "== hand-curated opening =="
+# Section 3.2: the first levels are set by theme in tools/opening_levels.py
+# (greetings, pronouns, jam/kam, numbers, family, food...), then the
+# scheduler takes over. Pins the plan's rules with negative controls, the
+# "continues" marking on families the opening only began, and the shipped
+# opening itself, including the restored "e".
+step python3 tools/test_opening_levels.py
+
+echo
+echo "== main course and extended track =="
+# Section 3.6: the main course is the words ranked up to 5,000 (plus the
+# opening and the stems they need); the rest is an optional extended track.
+# Pins the split, its markers in every data file, and that the main course
+# still covers 80% of tokens counted by form or lemma.
+step python3 tools/test_scope.py
+
+echo
 echo "== shipped levels match the scheduler =="
 # Re-runs assign_levels() on the shipped cards (no raw sources needed) and
 # fails if any level file would change. Catches a scheduler change committed

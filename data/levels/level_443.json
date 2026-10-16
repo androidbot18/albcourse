@@ -1,44 +1,44 @@
 {
  "level": 443,
- "title": "aromë, martë, hile +3",
+ "title": "tentoj, kyç, përplasje +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "ane",
-  "ankth",
-  "aromë",
-  "ashensor",
-  "hile",
-  "martë"
+  "kyç",
+  "përplasje",
+  "sheqer",
+  "shteg",
+  "tentoj",
+  "vërë"
  ],
  "pos_mix": {
-  "noun": 8
+  "verb": 2,
+  "adj": 1,
+  "noun": 7
  },
  "words": [
   {
-   "id": "aromë",
-   "sq": "aromë",
-   "en": "fragrance (pleasant smell or odour)",
+   "id": "tentoj",
+   "sq": "tentoj",
+   "en": "to try, attempt",
    "glosses": [
-    "fragrance (pleasant smell or odour)"
+    "to try, attempt"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fragrance (pleasant smell or odour)",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to try, attempt",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,7 +47,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,41 +61,242 @@
      ],
      "examples": [],
      "links": [
-      "fragrance"
+      "try",
+      "attempt"
      ]
     }
    ],
-   "rank": 5086,
-   "count": 148,
-   "family": "aromë",
+   "rank": 7758,
+   "count": 89,
+   "family": "tentoj",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Italian tentare, from Latin temptāre. Compare English attempt.",
+   "etymology_class": "borrowed",
+   "source_lang": "it",
+   "cognate": "from Italian tentare",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "tentova",
+     "tag": "aorist"
+    },
+    {
+     "form": "tentuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "But I try to walk through life like this.",
+    "score": [
+     0,
+     8,
+     -8,
+     4
+    ],
+    "sq": "Por unë tentoj të eci në jetë kështu."
+   }
+  },
+  {
+   "id": "kyç",
+   "sq": "kyç",
+   "en": "key, most important",
+   "glosses": [
+    "key, most important",
+    "to lock",
+    "key, lock",
+    "joint"
+   ],
+   "pos": [
+    "adj",
+    "verb",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "verb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "key, most important",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 13 35 39"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 22 31 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "key",
+      "important"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to lock",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 13 35 39"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 22 31 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lock"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "key, lock",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 13 35 39"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 22 31 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "key",
+      "lock"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "joint",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 8 49 25"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 13 35 39"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "joint"
+     ]
+    }
+   ],
+   "rank": 7760,
+   "count": 89,
+   "family": "kyç",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, compare Serbo-Croatian ključ (“key”), Old Church Slavonic ключь (ključĭ), and Bulgarian ключ (ključ). Ultimately derived from Proto-Slavic *kľučь (“key”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "key"
+   ],
+   "components": [],
+   "derived": [
+    "kyçenicë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kyça",
+     "tag": "aorist"
+    },
+    {
+     "form": "kyçur",
+     "tag": "participle"
+    },
+    {
+     "form": "klyç",
+     "tag": "alternative"
+    },
+    {
+     "form": "qyç",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "smooth and full bodied.",
+    "en": "It is not a key state.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "qetë dhe të plotë aromë."
+    "sq": "Nuk është një shtet kyç."
    }
   },
   {
-   "id": "martë",
-   "sq": "martë",
-   "en": "Tuesday",
+   "id": "përplasje",
+   "sq": "përplasje",
+   "en": "collision, crash",
    "glosses": [
-    "Tuesday"
+    "collision, crash"
    ],
    "pos": [
     "noun"
@@ -107,78 +308,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "Tuesday",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "ditë e martë",
-       "en": "Tuesday",
-       "offsets": [
-        [
-         5,
-         12
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "Tuesday"
-     ]
-    }
-   ],
-   "rank": 5115,
-   "count": 147,
-   "family": "martë",
-   "is_root": true,
-   "etymology": "Borrowed from Latin (diēs) Mārtis.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "hile",
-   "sq": "hile",
-   "en": "trick, cheat",
-   "glosses": [
-    "trick, cheat"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "trick, cheat",
+     "gloss": "collision, crash",
      "tags": [
       "feminine"
      ],
@@ -190,214 +320,6 @@
        "source": "w"
       },
       {
-       "name": "Pages with 8 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "trick",
-      "cheat"
-     ]
-    }
-   ],
-   "rank": 5116,
-   "count": 147,
-   "family": "hile",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish حیله (hile, “artifice, stratagem, ruse”), itself from Arabic حِيلَة (ḥīla, “trick, artifice, ruse”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hile",
-     "tag": "plural"
-    },
-    {
-     "form": "hilja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Without cheating!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Pa bërë hile!"
-   }
-  },
-  {
-   "id": "ankth",
-   "sq": "ankth",
-   "en": "nightmare",
-   "glosses": [
-    "nightmare",
-    "bogey, hobgoblin, ghost",
-    "anxiety"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "nightmare",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 31 12"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 20 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 11 8"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "nightmare"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bogey, hobgoblin, ghost",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bogey",
-      "hobgoblin",
-      "ghost"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "anxiety",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "anxiety"
-     ]
-    }
-   ],
-   "rank": 5122,
-   "count": 147,
-   "family": "ankth",
-   "is_root": true,
-   "etymology": "From dialectal angth, diminutive of archaic ang.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "i ankthshëm"
-   ],
-   "related": [
-    "ang",
-    "makth"
-   ],
-   "forms": [
-    {
-     "form": "ankthe",
-     "tag": "plural"
-    },
-    {
-     "form": "ankthi",
-     "tag": "definite"
-    },
-    {
-     "form": "angth",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "I see anxiety.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Unë shoh ankth."
-   }
-  },
-  {
-   "id": "ashensor",
-   "sq": "ashensor",
-   "en": "elevator",
-   "glosses": [
-    "elevator"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "elevator",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -412,13 +334,14 @@
      ],
      "examples": [],
      "links": [
-      "elevator"
+      "collision",
+      "crash"
      ]
     }
    ],
-   "rank": 5124,
-   "count": 146,
-   "family": "ashensor",
+   "rank": 7769,
+   "count": 89,
+   "family": "përplasje",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -431,22 +354,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Sex in an elevator?",
+    "en": "One collision and you fell over a toy.",
     "score": [
      0,
-     3,
-     -3,
+     8,
+     -8,
      10
     ],
-    "sq": "Seks në ashensor?"
+    "sq": "Një përplasje dhe ju ra mbi një lodër."
    }
   },
   {
-   "id": "ane",
-   "sq": "ane",
-   "en": "old mother",
+   "id": "shteg",
+   "sq": "shteg",
+   "en": "path",
    "glosses": [
-    "old mother"
+    "path"
    ],
    "pos": [
     "noun"
@@ -458,9 +381,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "old mother",
+     "gloss": "path",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -470,7 +393,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 35 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -484,37 +407,295 @@
      ],
      "examples": [],
      "links": [
-      "old",
-      "mother"
+      "path"
      ]
     }
    ],
-   "rank": 5128,
-   "count": 146,
-   "family": "ane",
+   "rank": 7772,
+   "count": 89,
+   "family": "shteg",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *h₂en- (“ancestor”). Cognate to Old High German ano (“grandfather, great-grandfather, forefather”), ana (“grandmother, great-grandmother, ancestress”), Old Prussian ane (“old mother”), Lithuanian anýta (“mother-in-law”).",
-   "etymology_class": "derived",
+   "etymology": "From Proto-Albanian *staiga (Orel's notation), from Proto-Indo-European *stóygʰos (“way”), from *steygʰ-. Cognate to Ancient Greek στοῖχος (stoîkhos, “line, row”), Gothic 𐍃𐍄𐌰𐌹𐌲𐌰 (staiga, “way”), Latvian staĩgât (“to walk”) or Latvian pastaĩga (“a walk”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "ancestor"
+    "way"
    ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "shtigje",
+     "tag": "plural"
+    },
+    {
+     "form": "shtegu",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "This side now looks like this.",
+    "corpus": "TED2020",
+    "en": "I know this run so well, by the back of my hand.",
     "score": [
-     1,
-     5,
-     -4,
-     5
+     0,
+     6,
+     -6,
+     4
     ],
-    "sq": "Kjo ane tani duket kesisoji."
+    "sq": "E njoh shumë mirë këtë shteg."
    }
+  },
+  {
+   "id": "vërë",
+   "sq": "vërë",
+   "en": "hole",
+   "glosses": [
+    "hole"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hole",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hole"
+     ]
+    }
+   ],
+   "rank": 7777,
+   "count": 89,
+   "family": "vërë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *werā or *werwā, perhaps from Proto-Indo-European *h₁werH- (“to be wide, spacious”) (or derivative *h₁wérHus) and thereby cognate to Sanskrit उरु (urú, “wide”), वरस् (váras, “space, width”), and Greek ευρύς (evrýs, “wide”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "wide"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vëra",
+     "tag": "plural"
+    },
+    {
+     "form": "vërrë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This may put your safety at risk.",
+    "score": [
+     2,
+     8,
+     -6,
+     10
+    ],
+    "sq": "Kjo mund të vërë në rrezik sigurinë tuaj."
+   }
+  },
+  {
+   "id": "sheqerkë",
+   "sq": "sheqerkë",
+   "en": "candy",
+   "glosses": [
+    "candy"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "candy",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -kë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "candy"
+     ]
+    }
+   ],
+   "rank": 7793,
+   "count": 88,
+   "family": "sheqer",
+   "is_root": false,
+   "etymology": "From sheqer + -kë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "sheqer",
+     "role": "base"
+    },
+    {
+     "word": "kë",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "tentim",
+   "sq": "tentim",
+   "en": "attempt",
+   "glosses": [
+    "attempt"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "attempt",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "attempt"
+     ]
+    }
+   ],
+   "rank": 17109,
+   "count": 32,
+   "family": "tentoj",
+   "is_root": false,
+   "etymology": "From tentoj + -im noun suffix.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "tentoj",
+     "role": "base",
+     "en": "to try"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "tentime",
+     "tag": "plural"
+    },
+    {
+     "form": "tentimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Many suicide attempts are not reported.",
+    "score": [
+     3,
+     7,
+     -4,
+     8
+    ],
+    "sq": "Shumë raste të tentim-vetëvrasjeve nuk raportohen."
+   },
+   "breakdown": "transparent"
   }
- ]
+ ],
+ "extended": true
 }

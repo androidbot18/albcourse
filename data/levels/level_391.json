@@ -1,38 +1,41 @@
 {
  "level": 391,
- "title": "me (rarer words)",
- "root": "me",
- "root_gloss": "with (accompanied by)",
+ "title": "ndikoj, ujdi",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 3,
  "families": [
-  "me"
+  "ndikoj",
+  "ujdi"
  ],
  "pos_mix": {
-  "adj": 1,
+  "noun": 4,
   "verb": 1
  },
  "words": [
   {
-   "id": "mjaftë",
-   "sq": "mjaftë",
-   "en": "sufficient",
+   "id": "ndikim",
+   "sq": "ndikim",
+   "en": "influence",
    "glosses": [
-    "sufficient"
+    "influence"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "sufficient",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "influence",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -41,7 +44,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ë (adjective)",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -55,51 +58,172 @@
      ],
      "examples": [],
      "links": [
-      "sufficient"
+      "influence"
      ]
     }
    ],
-   "rank": 3227,
-   "count": 250,
-   "family": "me",
+   "rank": 6204,
+   "count": 116,
+   "family": "ndikoj",
    "is_root": false,
-   "etymology": "From mjaft + -ë.",
+   "etymology": "From ndikoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "mjaft",
-     "role": "base"
+     "word": "ndikoj",
+     "role": "base",
+     "en": "to influence"
     },
     {
-     "word": "ë",
-     "role": "suffix"
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "And that's quite exciting.",
+    "corpus": "HPLT",
+    "en": "I think they have influence.",
     "score": [
-     2,
+     0,
      4,
-     -2,
-     4
+     -4,
+     10
     ],
-    "sq": "Dhe ajo mjaftë eksituese."
+    "sq": "Mendoj se kanë ndikim."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   },
   {
-   "id": "mjaftoj",
-   "sq": "mjaftoj",
-   "en": "to be enough",
+   "id": "ujdi",
+   "sq": "ujdi",
+   "en": "agreement, accord",
    "glosses": [
-    "to be enough"
+    "agreement, accord",
+    "accordance, consonance",
+    "harmony"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "agreement, accord",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 29 25"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 19 22"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 20 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "agreement",
+      "accord"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "accordance, consonance",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "accordance",
+      "consonance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "harmony",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "harmony"
+     ]
+    }
+   ],
+   "rank": 6219,
+   "count": 115,
+   "family": "ujdi",
+   "is_root": true,
+   "etymology": "From ujdis.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ujdi",
+     "tag": "plural"
+    },
+    {
+     "form": "ujdia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "There needs to be a deal.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Duhet të arrihet një ujdi."
+   }
+  },
+  {
+   "id": "ndikoj",
+   "sq": "ndikoj",
+   "en": "to influence",
+   "glosses": [
+    "to influence"
    ],
    "pos": [
     "verb"
@@ -111,7 +235,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to be enough",
+     "gloss": "to influence",
      "tags": [
       "intransitive"
      ],
@@ -137,46 +261,44 @@
      ],
      "examples": [],
      "links": [
-      "enough"
+      "influence"
      ]
     }
    ],
-   "rank": 42540,
-   "count": 8,
-   "family": "me",
-   "is_root": false,
-   "etymology": "From mjaft (“enough”) + -oj verb suffix.",
-   "etymology_class": "compound",
+   "rank": 22106,
+   "count": 23,
+   "family": "ndikoj",
+   "is_root": true,
+   "etymology": "Disputed:\n* Variant of dëkoj.\n* Borrowed from Latin indīcāre (“to impose, to inflict”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "enough"
-   ],
-   "components": [
-    {
-     "word": "mjaft",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "mjaftova",
+     "form": "ndikova",
      "tag": "aorist"
     },
     {
-     "form": "mjaftuar",
+     "form": "ndikuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I have not undertaken to influence any of them.",
+    "score": [
+     2,
+     10,
+     -8,
+     10
+    ],
+    "sq": "Nuk kam marrë përsipër t'u ndikoj asnjërit prej tyre."
+   }
   }
  ],
- "resumes": true
+ "extended": true
 }

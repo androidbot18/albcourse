@@ -1,30 +1,31 @@
 {
  "level": 729,
- "title": "dredh, vektor, hallkë +3",
+ "title": "ledhatoj, kufi (more), astronom +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "dorashkë",
-  "dredh",
-  "fryt",
-  "hallkë",
-  "shfrytëzoj",
-  "vektor"
+  "astronom",
+  "baticë",
+  "kufi",
+  "ledhatoj",
+  "qukapik",
+  "shtupë"
  ],
  "pos_mix": {
   "verb": 5,
-  "noun": 6
+  "noun": 4,
+  "adj": 1
  },
  "words": [
   {
-   "id": "shfrytëzoj",
-   "sq": "shfrytëzoj",
-   "en": "to exploit, harness, make use of",
+   "id": "ledhatoj",
+   "sq": "ledhatoj",
+   "en": "to caress, to fondle",
    "glosses": [
-    "to exploit, harness, make use of"
+    "to caress, to fondle"
    ],
    "pos": [
     "verb"
@@ -36,10 +37,8 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to exploit, harness, make use of",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to caress, to fondle",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -48,13 +47,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with sh-",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -zoj",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,71 +61,44 @@
      ],
      "examples": [],
      "links": [
-      "exploit",
-      "harness",
-      "make use of"
+      "caress",
+      "fondle"
      ]
     }
    ],
-   "rank": 9581,
-   "count": 69,
-   "family": "shfrytëzoj",
+   "rank": 40543,
+   "count": 9,
+   "family": "ledhatoj",
    "is_root": true,
-   "etymology": "By surface analysis, sh- + fryt (“fruit”) + -ëzoj. Either a calque of or a borrowing from Italian sfruttare (“to exploit”).",
+   "etymology": "Suffixed formation from ledh.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "fruit"
-   ],
-   "components": [
-    {
-     "word": "sh",
-     "role": "prefix"
-    },
-    {
-     "word": "fryt",
-     "role": "stem"
-    },
-    {
-     "word": "ëzoj",
-     "role": "suffix"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shfrytëzova",
+     "form": "ledhatova",
      "tag": "aorist"
     },
     {
-     "form": "shfrytëzuar",
+     "form": "ledhatuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I said take the chance.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Thashë të shfrytëzoj rastin."
-   },
-   "breakdown": "historical"
+   "corpus_example": null
   },
   {
-   "id": "dredh",
-   "sq": "dredh",
-   "en": "to revolve, turn",
+   "id": "kufizoj",
+   "sq": "kufizoj",
+   "en": "to form a border, delimit (geographically)",
    "glosses": [
-    "to revolve, turn",
-    "to rotate",
-    "to wind",
-    "to twist"
+    "to form a border, delimit (geographically)",
+    "to border (of a country with another)",
+    "to mark the borders of",
+    "to restrict, limit, bind, narrow down (in general)"
    ],
    "pos": [
     "verb",
@@ -144,7 +116,71 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to revolve, turn",
+     "gloss": "to form a border, delimit (geographically)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -zoj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 27 18 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "border",
+      "delimit"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to border (of a country with another)",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -zoj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 27 18 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "border"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to mark the borders of",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -zoj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 27 18 27"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mark"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to restrict, limit, bind, narrow down (in general)",
      "tags": [
       "transitive"
      ],
@@ -154,143 +190,91 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "32 27 21 21"
+       "_dis": "25 16 5 54"
+      },
+      {
+       "name": "Albanian terms suffixed with -zoj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 27 18 27"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "30 23 23 23"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 15 15 15"
+       "_dis": "20 6 5 69"
       }
      ],
-     "examples": [],
-     "links": [
-      "revolve",
-      "turn"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to rotate",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 27 21 21"
+       "sq": "Ky ligj kufizon lirinë e shprehjes.",
+       "en": "This law restricts freedom of speech.",
+       "offsets": [
+        [
+         8,
+         15
+        ]
+       ]
       }
      ],
-     "examples": [],
      "links": [
-      "rotate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to wind",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 27 21 21"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "wind"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to twist",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 27 21 21"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "twist"
+      "restrict",
+      "limit",
+      "bind"
      ]
     }
    ],
-   "rank": 35008,
-   "count": 11,
-   "family": "dredh",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *dredza, rebuilt from earlier *dridza (preserved in ndrizë), from Proto-Indo-European *dʰregʰ- (“to run, drag”). Cognate with Old Armenian դարձ (darj, “return; change”), English draw.",
-   "etymology_class": "inherited",
+   "rank": 40551,
+   "count": 9,
+   "family": "kufi",
+   "is_root": false,
+   "etymology": "From kufi (“border”) + -zoj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "border"
+   ],
+   "components": [
+    {
+     "word": "kufi",
+     "role": "base"
+    },
+    {
+     "word": "zoj",
+     "role": "suffix"
+    }
+   ],
    "derived": [
-    "dredharak",
-    "dredhëz",
-    "dredhor",
-    "dredhues",
-    "ndrizë"
+    "kufizim",
+    "kufizor",
+    "i kufizuar",
+    "kufizues",
+    "kufizueshëm",
+    "përkufizoj"
    ],
-   "related": [
-    "dridh",
-    "tredh",
-    "ndrydh"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "drodha",
+     "form": "kufizova",
      "tag": "aorist"
     },
     {
-     "form": "dredhur",
+     "form": "kufizuar",
      "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "A sight that still twists my body!",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Një pamje që ende më dredh trupin!"
-   }
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
-   "id": "vektor",
-   "sq": "vektor",
-   "en": "vector",
+   "id": "astronom",
+   "sq": "astronom",
+   "en": "astronomer",
    "glosses": [
-    "vector"
+    "astronomer"
    ],
    "pos": [
     "noun"
@@ -302,7 +286,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vector",
+     "gloss": "astronomer",
      "tags": [
       "masculine"
      ],
@@ -314,7 +298,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Pages with 11 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -328,14 +312,13 @@
      ],
      "examples": [],
      "links": [
-      "physics",
-      "vector"
+      "astronomer"
      ]
     }
    ],
-   "rank": 35078,
-   "count": 11,
-   "family": "vektor",
+   "rank": 40556,
+   "count": 9,
+   "family": "astronom",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -345,34 +328,133 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "vektorë",
-     "tag": "plural"
-    },
-    {
-     "form": "vektori",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "For me, humor is a vector.",
+    "en": "Copernicus was an astronomer.",
     "score": [
      1,
-     6,
-     -5,
+     4,
+     -3,
      10
     ],
-    "sq": "Për mua, humori është një vektor."
+    "sq": "Koperniku ishte një astronom."
    }
   },
   {
-   "id": "hallkë",
-   "sq": "hallkë",
-   "en": "chain ring",
+   "id": "qukapik",
+   "sq": "qukapik",
+   "en": "woodpecker",
    "glosses": [
-    "chain ring"
+    "woodpecker",
+    "spotted, speckled"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "woodpecker",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
+      },
+      {
+       "name": "Birds",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Birds",
+       "langcode": "sq",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "woodpecker"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "spotted, speckled",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "spotted",
+      "speckled"
+     ]
+    }
+   ],
+   "rank": 40572,
+   "count": 9,
+   "family": "qukapik",
+   "is_root": true,
+   "etymology": "From quk + pikë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pikë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qukapike",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "shtupë",
+   "sq": "shtupë",
+   "en": "mop",
+   "glosses": [
+    "mop"
    ],
    "pos": [
     "noun"
@@ -384,7 +466,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chain ring",
+     "gloss": "mop",
      "tags": [
       "feminine"
      ],
@@ -410,162 +492,15 @@
      ],
      "examples": [],
      "links": [
-      "chain",
-      "ring"
+      "mop"
      ]
     }
    ],
-   "rank": 35102,
-   "count": 11,
-   "family": "hallkë",
+   "rank": 40586,
+   "count": 9,
+   "family": "shtupë",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish حلقه (halka), from Arabic حَلْقَة (ḥalqa).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hallka",
-     "tag": "plural"
-    },
-    {
-     "form": "hallk",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "doll, Hanger is back!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "kukull, Hallkë është kthyer!"
-   }
-  },
-  {
-   "id": "fryt",
-   "sq": "fryt",
-   "en": "fruit",
-   "glosses": [
-    "fruit",
-    "offspring",
-    "product"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fruit",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 37 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 35 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fruit"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "offspring",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 86 7"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 37 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 35 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "offspring"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "product",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 37 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 35 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "product"
-     ]
-    }
-   ],
-   "rank": 35158,
-   "count": 11,
-   "family": "fryt",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin fructus. Doublet of frutë, which was a later borrowing.",
+   "etymology": "Probably borrowed from Latin stuppa, from Ancient Greek στύππη (stúppē). Compare Romanian stupă.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -576,22 +511,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Fruitless even worse.",
+    "en": "Clean them with a swab and alcohol.",
     "score": [
-     0,
-     5,
+     2,
+     7,
      -5,
      10
     ],
-    "sq": "Pa fryt edhe me keq."
+    "sq": "Pastroni ato me një shtupë dhe alkoolit."
    }
   },
   {
-   "id": "dorashkë",
-   "sq": "dorashkë",
-   "en": "glove",
+   "id": "baticë",
+   "sq": "baticë",
+   "en": "high tide",
    "glosses": [
-    "glove"
+    "high tide"
    ],
    "pos": [
     "noun"
@@ -603,9 +538,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "glove",
+     "gloss": "high tide",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -629,16 +564,17 @@
      ],
      "examples": [],
      "links": [
-      "glove"
+      "high",
+      "tide"
      ]
     }
    ],
-   "rank": 35160,
-   "count": 11,
-   "family": "dorashkë",
+   "rank": 40608,
+   "count": 9,
+   "family": "baticë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Venetan bataizza (“id.”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -647,11 +583,22 @@
    "related": [],
    "forms": [
     {
-     "form": "dorashka",
+     "form": "batica",
      "tag": "plural"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And of course, only if it's high tide.",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "Dhe sigurisht, vetëm nëse është baticë e lartë."
+   }
   }
- ]
+ ],
+ "extended": true
 }

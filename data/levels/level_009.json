@@ -1,41 +1,41 @@
 {
  "level": 9,
- "title": "se, unë",
+ "title": "Mum, dad, sister, brother",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "se",
-  "unë"
+  "baba",
+  "babi",
+  "mami",
+  "motër",
+  "nënë",
+  "vëlla"
  ],
  "pos_mix": {
-  "conj": 2,
-  "pron": 1,
-  "noun": 1,
-  "intj": 1,
-  "adv": 1
+  "noun": 16
  },
  "words": [
   {
-   "id": "se",
-   "sq": "se",
-   "en": "that, as, than",
+   "id": "babi",
+   "sq": "babi",
+   "en": "dad, father",
    "glosses": [
-    "that, as, than"
+    "dad, father"
    ],
    "pos": [
-    "conj"
+    "noun"
    ],
    "pos_labels": [
-    "conjunction"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "that, as, than",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dad, father",
      "tags": [],
      "cats": [
       {
@@ -45,7 +45,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 113 entries",
+       "name": "Pages with 26 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,31 +57,19 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Më duket se ke nevojë për disa shokë të rinj.",
-       "en": "It seems to me that you need some new friends.",
-       "offsets": []
-      },
-      {
-       "sq": "Vëllai im më tha se do të bisedojë me ty rreth librit të ri.",
-       "en": "My brother told me that he wants to talk to you about the new book.",
-       "offsets": []
-      }
-     ],
+     "examples": [],
      "links": [
-      "that",
-      "as",
-      "than"
+      "dad",
+      "father"
      ]
     }
    ],
-   "rank": 15,
-   "count": 110137,
-   "family": "se",
+   "rank": 225,
+   "count": 5554,
+   "family": "babi",
    "is_root": true,
-   "etymology": "From Proto-Albanian *tśe(i), *tśi from Proto-Indo-European *kʷe-, *kʷ(e)i- (“how, what”). Interrogative and relative pronoun, especially in connection with a preposition.",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -89,29 +77,123 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "It's good.",
+    "score": [
+     2,
+     3,
+     -1,
+     5
+    ],
+    "sq": "Babi po vjen."
+   }
   },
   {
-   "id": "unë",
-   "sq": "unë",
-   "en": "I",
+   "id": "babai",
+   "sq": "babai",
+   "en": "the dad, singular (from baba)",
    "glosses": [
-    "I",
-    "potsherd"
+    "the dad, singular (from baba)"
    ],
    "pos": [
-    "pron",
     "noun"
    ],
    "pos_labels": [
-    "pronoun",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "I",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the dad, singular (from baba)",
+     "tags": [
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 12 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "baba"
+    }
+   ],
+   "rank": 243,
+   "count": 4897,
+   "family": "baba",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "It's my dad.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Është babai im."
+   }
+  },
+  {
+   "id": "mami",
+   "sq": "mami",
+   "en": "mom",
+   "glosses": [
+    "mom",
+    "midwife"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mom",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mom"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "midwife",
      "tags": [],
      "cats": [
       {
@@ -119,174 +201,539 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb"
+       "_dis": "17 83"
       }
      ],
-     "examples": [
-      {
-       "sq": "Unë jam njeri i lirë.",
-       "en": "I am a free man.",
-       "offsets": [
-        [
-         0,
-         3
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "I"
+      "midwife"
+     ]
+    }
+   ],
+   "rank": 279,
+   "count": 4033,
+   "family": "mami",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "She's Ali's fiancée.",
+    "score": [
+     1,
+     3,
+     -2,
+     5
+    ],
+    "sq": "Jam Demeti, mami."
+   }
+  },
+  {
+   "id": "baba",
+   "sq": "baba",
+   "en": "dad, father",
+   "glosses": [
+    "dad, father"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dad, father",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Male family members",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Male family members",
+       "langcode": "sq"
+      },
+      {
+       "name": "Parents",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Parents",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 25 41"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dad",
+      "father"
+     ]
+    }
+   ],
+   "rank": 392,
+   "count": 2669,
+   "family": "baba",
+   "is_root": true,
+   "etymology": "From Ottoman Turkish بابا (baba), whence Turkish baba.",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Come in dad.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Ejani në baba."
+   }
+  },
+  {
+   "id": "vëlla",
+   "sq": "vëlla",
+   "en": "brother",
+   "glosses": [
+    "brother",
+    "half-brother, stepbrother",
+    "blood brother, oath brother",
+    "compatriot, fellow countryman",
+    "companion, comrade, one who shares one's condition or ideals",
+    "Friendly form of address for a man or boy. brother",
+    "sucker (stem growing from the roots of a plant)",
+    "hottest period of the year, heat wave"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brother",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "brother"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "potsherd",
+     "gloss": "half-brother, stepbrother",
      "tags": [
-      "feminine"
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "vëlla prej nënës",
+       "en": "maternal half-brother",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "half-brother",
+      "stepbrother"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "blood brother, oath brother",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Male family members",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Male family members",
+       "langcode": "sq",
+       "_dis": "8 22 32 1 6 17 7 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "blood brother",
+      "oath brother"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "compatriot, fellow countryman",
+     "tags": [
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "potsherd"
+      "compatriot",
+      "fellow",
+      "countryman"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "companion, comrade, one who shares one's condition or ideals",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "vëllezër armësh",
+       "en": "brothers-in-arms",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "companion",
+      "comrade"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Friendly form of address for a man or boy. brother",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 18 4 2 17 25 18 15"
+      },
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 22 2 2 10 32 18 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "More vëlla!",
+       "en": "Hey brother!",
+       "offsets": [
+        [
+         5,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "man",
+      "boy",
+      "brother"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sucker (stem growing from the roots of a plant)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Botany",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Botany",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "botany",
+      "sucker"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hottest period of the year, heat wave",
+     "tags": [
+      "Gheg",
+      "Northwestern",
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hot",
+      "heat wave"
      ]
     }
    ],
-   "rank": 16,
-   "count": 91729,
-   "family": "unë",
+   "rank": 472,
+   "count": 2240,
+   "family": "vëlla",
    "is_root": true,
-   "etymology": "Compound of archaic and dialectal u + -në (particle) (compare Tosk Albanian ti (“you”) vs. Gheg tinë). U is from earlier *udh, from Proto-Albanian *udz, from *uǵ, with vowel from *túh₂ (see ti), from Proto-Indo-European *éǵh₂.\nAccusative mua (var. mue) is from emphatic *h₁mēm, clitic më is from clitic *h₁me, and ablative meje is from locative *h₁moí + j + -e (ablative ending of nouns). Arbëresh has uth (u + diminutive -th).",
-   "etymology_class": "compound",
+   "etymology": "From earlier *vëllaz-, from Proto-Albanian *swelaudā, from Proto-Indo-European *swé-lowdʰ-, compound of *swé (“self, one's”) and *h₁lewdʰ- (“grow”), whence respectively vetë (“self”) and lej (“to be born”). Displaced Proto-Indo-European *bʰréh₂tēr (“brother”)\nSummary of theories\nBopp (1855) naively derives the plural form vëllazër from *bʰréh₂tēr, assuming a /t/ → /z/ shift and comparing Persian برادر (birādar) for the vowel insertion.\nMeyer (1891), noting parallel formations *swésōr and *swéḱuros, identifies it a compound of *swé, leaving the other component of the compound unexplained. He rejects comparison with *bʰréh₂tēr and Proto-Finnic *velji. This is partially later endorsed by Wiedemann (1902), who compares to Old Norse svili (“brother-in-law”). Demiraj (1997) also leaves the second element of the compound unexplained.\nMeyer Studien, in light of a possible phonetic parallel avull (“steam”) from *n̥bʰrós (“cloud”), accepts derivation from *bʰréh₂tēr. For the loss of /t/ he compares the diminutives Lithuanian brólis, Serbo-Croatian brále /бра́ле, brájo /бра́јо, and for /a/ in place of expected /o/ assumes an eventual the shortening of the vowel. Also notices the Hesychian gloss βρά (brá, “brothers”), and suggests that its label “Elean” could be a copyist mistake for “Illyrian”.\nJokl (1923) carries on the compound idea and identifies its second element as *h₁lewdʰ-. This is endorsed by Tagliavini (1937), Tagliavini (1965), Orel (1998), Topalli (2017) and DPEWA.\nHuld (1984) tentatively compares with Latin avunculus (“maternal uncle”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "you",
-    "wounded"
+    "grow",
+    "self",
+    "steam"
    ],
    "components": [],
-   "derived": [],
+   "derived": [
+    "pavëlla",
+    "vëllaçko",
+    "vëllako",
+    "vëllalo",
+    "vëllam",
+    "vëllath",
+    "vëllavrasës",
+    "vëllavrasje"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "mua",
-     "tag": "accusative"
-    },
-    {
-     "form": "meje",
-     "tag": "ablative"
+     "form": "vëllani",
+     "tag": "definite"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "nëse",
-   "sq": "nëse",
-   "en": "whether, if",
+   "id": "nënë",
+   "sq": "nënë",
+   "en": "mother",
    "glosses": [
-    "whether, if",
-    "whether, if"
+    "mother",
+    "grandmother"
    ],
    "pos": [
-    "conj",
-    "intj"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "conjunction",
-    "interjection"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "whether, if",
-     "tags": [],
-     "cats": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mother",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "whether",
-      "if"
+      "mother"
      ]
     },
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "whether, if",
-     "tags": [],
-     "cats": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "grandmother",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "whether",
-      "if"
+      "grandmother"
      ]
     }
    ],
-   "rank": 51,
-   "count": 32758,
-   "family": "se",
-   "is_root": false,
-   "etymology": "From në + se.",
-   "etymology_class": "compound",
+   "rank": 797,
+   "count": 1242,
+   "family": "nënë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *na(n)nā, from Proto-Indo-European *nan(n)-eh₂- (“mother”), possibly a Lallwort. Closely related to Messapic ana, cognate to Ancient Greek νάννη (nánnē, “aunt, mother”), Welsh nain (“grandmother”), Sanskrit नना (nanā́, “mother”), Persian ننه (nane, “mother, grandmother”), Ukrainian неня (nenja, “mother”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
+   "parents": [
+    "mother"
+   ],
+   "components": [],
+   "derived": [
+    "nina nana",
+    "nina nëna",
+    "nënëqirë",
+    "nënole",
+    "nënoke",
+    "nënëri"
+   ],
+   "related": [],
+   "forms": [
     {
-     "word": "në",
-     "role": "prefix"
+     "form": "nëna",
+     "tag": "plural"
     },
     {
-     "word": "se",
-     "role": "stem"
+     "form": "nanë",
+     "tag": "alternative"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
-    "corpus": "SETIMES",
-    "en": "If so, how many?",
+    "corpus": "TED2020",
+    "en": "And I'm a mother.",
     "score": [
-     2,
-     3,
-     -1,
-     7
+     0,
+     5,
+     -5,
+     4
     ],
-    "sq": "Nëse po, sa?"
-   },
-   "breakdown": "historical"
+    "sq": "Dhe unë jam një nënë."
+   }
   },
   {
-   "id": "përse",
-   "sq": "përse",
-   "en": "why",
+   "id": "motër",
+   "sq": "motër",
+   "en": "sister",
    "glosses": [
-    "why"
+    "sister"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "why",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sister",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -309,56 +756,52 @@
      ],
      "examples": [],
      "links": [
-      "why"
+      "sister"
      ]
     }
    ],
-   "rank": 216,
-   "count": 5802,
-   "family": "se",
-   "is_root": false,
-   "etymology": "From për (“for”) + se (“because”).",
-   "etymology_class": "compound",
+   "rank": 1709,
+   "count": 513,
+   "family": "motër",
+   "is_root": true,
+   "etymology": "First attested in 1555 by Buzuku using two forms: motrë and motërë. If motrë is the archaic form, then it can be reconstructed as Proto-Albanian *mā́terā- (“sister; having the same mother”). If motërë is the archaic form, then a Proto-Albanian *mā́teran could be reconstructed, from an older *mā́terān. Ultimately from from Proto-Indo-European *máh₂terah₂- (“woman/sister having the same mother”).\nAlternatively, from Proto-Albanian *mā́trā-, from Pre-Proto-Albanian *hmā́trā-, from Proto-Indo-European *smah₂tráh₂-, a simplified form of Proto-Indo-European *sm̥-mah₂tráh₂- (“from a common womb”).\nHistorically considered to be directly from Proto-Indo-European *méh₂tēr (“mother”), with the unusual explanation of the sister assuming the roles of the mother, though this would be a difficult explanation for such a change to occur language-wide.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "for",
-    "because"
-   ],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    },
-    {
-     "word": "se",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pse",
+     "form": "motra",
+     "tag": "plural"
+    },
+    {
+     "form": "motrë",
      "tag": "alternative"
     },
     {
-     "form": "ce",
+     "form": "motërë",
+     "tag": "alternative"
+    },
+    {
+     "form": "modër",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Why is that?",
+    "corpus": "HPLT",
+    "en": "I love you.",
     "score": [
-     1,
+     0,
      3,
-     -2,
-     4
+     -3,
+     10
     ],
-    "sq": "Përse është kjo?"
-   },
-   "breakdown": "historical"
+    "sq": "Të dua, motër!"
+   }
   }
- ]
+ ],
+ "opening": true
 }

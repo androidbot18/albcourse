@@ -41,13 +41,22 @@ const allWords = allLevels.flatMap((l) => l.words);
 const byId = {};
 for (const w of allWords) byId[w.id] = w;
 
-// "e" must never come back. It was rank 2 and opened level 1, but it is a
-// conjunction in one reading and the definite article in another, so the card
-// cannot say which sense it teaches. Its shipped example made that concrete:
-// the Albanian "e" was the article while the English "and" came from "dhe".
-// Three attempts to fix example SELECTION all failed; the word is excluded
-// instead (pos_balance.EXCLUDE_WORDS). This pins that decision.
-ok(!byId['e'], '"e" is not in the deck');
+// "e" is back (RECOMMENDATIONS.md section 3.2). It was removed because its
+// card could not say which sense it taught, and its corpus example showed
+// the ARTICLE ("jetën e gëzuar") under the gloss "and", whose English "and"
+// came from "dhe". It now headlines "and" with a reviewed example in which
+// e joins two nouns (tools/gloss_overrides.EXAMPLES), and the corpus
+// sentence is dropped. Pin both, in both the lesson view and the index.
+const E_DEFECT = 'Për të rikthyer jetën e gëzuar dhe të hareshme.';
+const E_REVIEWED = 'Punoj ditë e natë.';
+{
+  const e = byId['e'];
+  ok(!!e && e.en === 'and', '"e" is in the deck, headlining "and"', e ? e.en : 'missing');
+  const ex = e ? firstExample(e) : null;
+  ok(ex && ex.sq === E_REVIEWED, '"e" pairs "and" with the reviewed example',
+     ex ? ex.sq : 'none');
+  ok(!ex || ex.sq !== E_DEFECT, '"e" does not show the article-sense sentence');
+}
 
 // The original defect, on a word that still ships. "lis" headlines the
 // adjective "strong and tall", which has no example, while its noun sense

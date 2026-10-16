@@ -48,6 +48,11 @@ eq(d("ablative teje is from locative *toí + -je from meje"), [],
    "a starred affix yields no base (ti's defect)")
 eq(d("From sh- + kruaj, from Latin scribere"), ["sh"],
    "a real composition still yields its base")
+# tetë ("eight") reads "From *(a)te + -të": a reconstruction with an
+# optional segment. Read as te ("at, to"), it filed the number 8 in the
+# family of a preposition and gave it a nonsense breakdown "te + të".
+eq(d("From *(a)te + -të, from Proto-Albanian *atṓ-tā, from Pre-Proto-Albanian "
+     "*atˢtṓ-tā"), [], "tetë: a starred form with (optional) letters yields no base")
 
 # --- real derivations that MUST be found --------------------------------
 eq(d("From marr + -ës."), ["marr"], "simple: From marr + -ës")
@@ -86,8 +91,10 @@ eq(d("See marr (“I take”)."), [],
 
 # --- derivations stated in a LATER sentence must still be found -----------
 # esëll's etymology only names its base in the third sentence. A
-# first-sentence-only rule split it from its root e, which is a real family
-# broken by the strictness of the rule, not a deliberate exclusion.
+# first-sentence-only rule missed it. The parser must still find the base;
+# whether e- may HEAD a family is decided in build_families(), and it may
+# not: the card e is the conjunction "and", a homograph of the privative
+# prefix (pos_balance.NOT_A_FAMILY_BASE, checked on the shipped deck below).
 eq(d("From Proto-Albanian *a-tšilna, a compound equivalent to a privative e- + "
      "sillë (“breakfast”). Interpretible as e- + sille (“breakfast”)."), ["e"],
    "esëll: base named in a later sentence still counts")
@@ -144,6 +151,14 @@ if card:
                "%s is not in the same family as %s" % (word, not_same))
             print("         %-9s -> %s | %-9s -> %s"
                   % (word, fam[word], not_same, fam[not_same]))
+
+    # On the shipped families, which apply pos_balance.NOT_A_FAMILY_BASE:
+    # the privative prefix e- does not file esëll under e ("and"), and
+    # tetë ("eight") is not filed under te ("at, to").
+    for word, not_same in (("esëll", "e"), ("tetë", "te")):
+        if word in card and not_same in card:
+            eq(card[word]["family"] == card[not_same]["family"], False,
+               "shipped: %s is not in the family of %s" % (word, not_same))
 
     # Genuine derivations must still be together.
     for a, b in (("marr", "marrës"), ("marr", "merrem"), ("gjithë", "gjithçka"),

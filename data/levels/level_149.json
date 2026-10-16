@@ -1,39 +1,38 @@
 {
  "level": 149,
- "title": "luftë",
- "root": "luftë",
- "root_gloss": "war, fight",
+ "title": "premtoj",
+ "root": "premtoj",
+ "root_gloss": "to promise",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "luftë"
+  "premtoj"
  ],
  "pos_mix": {
-  "noun": 2
+  "verb": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "luftë",
-   "sq": "luftë",
-   "en": "war, fight",
+   "id": "premtoj",
+   "sq": "premtoj",
+   "en": "to promise",
    "glosses": [
-    "war, fight"
+    "to promise"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "war, fight",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to promise",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -56,51 +55,52 @@
      ],
      "examples": [],
      "links": [
-      "war",
-      "fight"
+      "promise"
      ]
     }
    ],
-   "rank": 691,
-   "count": 1461,
-   "family": "luftë",
+   "rank": 758,
+   "count": 1304,
+   "family": "premtoj",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Late Latin lucta, from Latin luctor; cognate with Romanian luptă, Aromanian ljuftã.",
+   "etymology": "From Italian promettere (“promise”). Compare Romanian promite, French promettre.",
    "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
+   "source_lang": "it",
+   "cognate": "from Italian promettere",
+   "parents": [
+    "promise"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "luftëra",
-     "tag": "plural"
+     "form": "premtova",
+     "tag": "aorist"
     },
     {
-     "form": "lufta",
-     "tag": "definite"
+     "form": "premtuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Who wants a war?",
+    "corpus": "QED",
+    "en": "I promise you.",
     "score": [
      0,
      3,
      -3,
-     8
+     5
     ],
-    "sq": "Kush do luftë?"
+    "sq": "Unë ju premtoj."
    }
   },
   {
-   "id": "lufta",
-   "sq": "lufta",
-   "en": "the war, singular (from luftë)",
+   "id": "premtim",
+   "sq": "premtim",
+   "en": "promise",
    "glosses": [
-    "the war, singular (from luftë)"
+    "promise"
    ],
    "pos": [
     "noun"
@@ -112,12 +112,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the war, singular (from luftë)",
+     "gloss": "promise",
      "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
+      "masculine"
      ],
      "cats": [
       {
@@ -127,46 +124,70 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "luftë"
+     "links": [
+      "promise"
+     ]
     }
    ],
-   "rank": 1167,
-   "count": 794,
-   "family": "luftë",
+   "rank": 4686,
+   "count": 162,
+   "family": "premtoj",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From premtoj + -im noun suffix.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "premtoj",
+     "role": "base",
+     "en": "to promise"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "premtime",
+     "tag": "plural"
+    },
+    {
+     "form": "premtimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "This is the war.",
+    "corpus": "TED2020",
+    "en": "It's a promise.",
     "score": [
      0,
      3,
      -3,
-     5
+     4
     ],
-    "sq": "Kjo është lufta."
-   }
+    "sq": "Është një premtim."
+   },
+   "breakdown": "transparent"
   }
  ]
 }

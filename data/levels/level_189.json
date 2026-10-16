@@ -1,111 +1,132 @@
 {
  "level": 189,
- "title": "dy, bëhem, sepse",
- "root": "",
- "root_gloss": "",
+ "title": "fut",
+ "root": "fut",
+ "root_gloss": "to insert, to put (something) in",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 2,
  "families": [
-  "bëhem",
-  "dy",
-  "sepse"
+  "fut"
  ],
  "pos_mix": {
-  "num": 3,
-  "conj": 1,
-  "verb": 4
+  "verb": 3
  },
  "words": [
   {
-   "id": "dy",
-   "sq": "dy",
-   "en": "two",
+   "id": "fut",
+   "sq": "fut",
+   "en": "to insert, to put (something) in",
    "glosses": [
-    "two"
+    "to insert, to put (something) in",
+    "to fuck"
    ],
    "pos": [
-    "num"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "two",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to insert, to put (something) in",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "78 22"
       }
      ],
      "examples": [],
      "links": [
-      "two"
+      "insert",
+      "put"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fuck",
+     "tags": [
+      "slang",
+      "vulgar"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Futja (karin) morë.",
+       "en": "Fuck it man.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fuck"
      ]
     }
    ],
-   "rank": 92,
-   "count": 15285,
-   "family": "dy",
+   "rank": 1314,
+   "count": 683,
+   "family": "fut",
    "is_root": true,
-   "etymology": "From Proto-Albanian *duwō masc, *duwai fem, from Proto-Indo-European *dwóh₁. Matzinger reconstructs *duu̯a.",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *sputja, from Proto-Indo-European *pHu-tó- (compare Serbo-Croatian pítati (“to ask”), Tocharian B putk- (“to divide, share”), Latin putāre (“to prune”)).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And I have two!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Dhe kam dy!"
-   }
+   "forms": [
+    {
+     "form": "futa",
+     "tag": "aorist"
+    },
+    {
+     "form": "futur",
+     "tag": "participle"
+    },
+    {
+     "form": "fus",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "sepse",
-   "sq": "sepse",
-   "en": "because",
+   "id": "futur",
+   "sq": "futur",
+   "en": "insert, past form (from fut, to insert)",
    "glosses": [
-    "because"
+    "insert, past form (from fut, to insert)"
    ],
    "pos": [
-    "conj"
+    "verb"
    ],
    "pos_labels": [
-    "conjunction"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "because",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "insert, past form (from fut, to insert)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -114,7 +135,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 11 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -127,15 +148,13 @@
       }
      ],
      "examples": [],
-     "links": [
-      "because"
-     ]
+     "is_form_of": "fut"
     }
    ],
-   "rank": 100,
-   "count": 14160,
-   "family": "sepse",
-   "is_root": true,
+   "rank": 990,
+   "count": 957,
+   "family": "fut",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -147,317 +166,15 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Because it is what it is.",
+    "en": "Why did they put him in prison?!",
     "score": [
      0,
-     5,
-     -5,
+     6,
+     -6,
      10
     ],
-    "sq": "Sepse është ajo që është."
+    "sq": "Pse e kanë futur në burg?!"
    }
-  },
-  {
-   "id": "bëhem",
-   "sq": "bëhem",
-   "en": "to become",
-   "glosses": [
-    "to become",
-    "to turn into",
-    "to be getting",
-    "to appear (appear like ... - in use with si (“like”))"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to become",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "become"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to turn into",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 45 21 17"
-      },
-      {
-       "name": "Pages using invalid parameters when calling Template:sq-verb",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 38 18 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 45 21 16"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "turn",
-      "into"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be getting",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "getting"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to appear (appear like ... - in use with si (“like”))",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "appear",
-      "appear",
-      "like"
-     ]
-    }
-   ],
-   "rank": 918,
-   "count": 1044,
-   "family": "bëhem",
-   "is_root": true,
-   "etymology": "Tosk medio-passive form of bëj (“to do, to make”). See bëj (active voice) for more.\nCognate to Gheg Albanian bâhna (“I become”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "bëj",
-    "bërë",
-    "bâj boj",
-    "bâna bôna",
-    "bosh"
-   ],
-   "forms": [
-    {
-     "form": "bërë",
-     "tag": "participle"
-    },
-    {
-     "form": "behem",
-     "tag": "alternative"
-    },
-    {
-     "form": "bënem",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What will I become?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Çfarë do të bëhem?"
-   }
-  },
-  {
-   "id": "dymbëdhjetë",
-   "sq": "dymbëdhjetë",
-   "en": "twelve",
-   "glosses": [
-    "twelve"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "twelve",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "twelve"
-     ]
-    }
-   ],
-   "rank": 6015,
-   "count": 120,
-   "family": "dy",
-   "is_root": false,
-   "etymology": "From dy (“two”) + -mbëdhjetë (“-teen”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "two"
-   ],
-   "components": [
-    {
-     "word": "dy",
-     "role": "base"
-    },
-    {
-     "word": "mbëdhjetë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "it was twelve men.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "ajo ishte dymbëdhjetë burra."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "dyzet",
-   "sq": "dyzet",
-   "en": "forty",
-   "glosses": [
-    "forty"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "forty",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -zet",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "forty"
-     ]
-    }
-   ],
-   "rank": 11203,
-   "count": 57,
-   "family": "dy",
-   "is_root": false,
-   "etymology": "From dy (“two”) + -zet (“twenty”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "two",
-    "twenty"
-   ],
-   "components": [
-    {
-     "word": "dy",
-     "role": "base"
-    },
-    {
-     "word": "zet",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "for these forty days.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "për këto dyzet ditë."
-   },
-   "breakdown": "historical"
   }
  ]
 }

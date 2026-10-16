@@ -1,45 +1,47 @@
 {
  "level": 655,
- "title": "arabisht, violinë, grep +3",
+ "title": "breshër, ngacmoj, çiltër +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "arabisht",
-  "artileri",
-  "dhjes",
-  "egjiptian",
-  "grep",
-  "violinë"
+  "breshër",
+  "ngacmoj",
+  "parlament",
+  "shkencërisht",
+  "tra",
+  "çiltër"
  ],
  "pos_mix": {
-  "adv": 1,
-  "noun": 5,
-  "adj": 1,
-  "verb": 1
+  "noun": 6,
+  "verb": 1,
+  "adj": 2,
+  "adv": 1
  },
  "words": [
   {
-   "id": "arabisht",
-   "sq": "arabisht",
-   "en": "in Arabic",
+   "id": "breshër",
+   "sq": "breshër",
+   "en": "hail",
    "glosses": [
-    "in Arabic"
+    "hail"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "in Arabic",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hail",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -62,13 +64,201 @@
      ],
      "examples": [],
      "links": [
-      "Arabic"
+      "hail"
      ]
     }
    ],
-   "rank": 21665,
-   "count": 23,
-   "family": "arabisht",
+   "rank": 26976,
+   "count": 17,
+   "family": "breshër",
+   "is_root": true,
+   "etymology": "Singularized plural of *brash, from Proto-Albanian *brauša, from Proto-Indo-European *bʰrews-. Compare Dutch broos (“brittle”), Latin frustum (“shard”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "breshri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "There is a risk of hail in the northwest.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Në veriperëndim ka rrezik për breshër."
+   }
+  },
+  {
+   "id": "ngacmoj",
+   "sq": "ngacmoj",
+   "en": "to poke, bother, harass, provoke",
+   "glosses": [
+    "to poke, bother, harass, provoke"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to poke, bother, harass, provoke",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Mos e ngacmo qenin!",
+       "en": "Do not bother the dog!",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "E ngacmova arushën!",
+       "en": "I provoked the bear!",
+       "offsets": [
+        [
+         2,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "poke",
+      "bother",
+      "harass"
+     ]
+    }
+   ],
+   "rank": 27005,
+   "count": 17,
+   "family": "ngacmoj",
+   "is_root": true,
+   "etymology": "A form parallel to ngallmoj. Based on *ngacmë > *ngacë, from ngas.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngacmova",
+     "tag": "aorist"
+    },
+    {
+     "form": "ngacmuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "çiltër",
+   "sq": "çiltër",
+   "en": "straightforward, frank",
+   "glosses": [
+    "straightforward, frank",
+    "sincere, honest"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "straightforward, frank",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "59 41"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "straightforward",
+      "frank"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sincere, honest",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sincere",
+      "honest"
+     ]
+    }
+   ],
+   "rank": 27008,
+   "count": 17,
+   "family": "çiltër",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -81,312 +271,35 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to Learn Arabic Speaking free Online?",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Sa kohë duhet për të mësuar arabisht?"
-   }
-  },
-  {
-   "id": "violinë",
-   "sq": "violinë",
-   "en": "violin",
-   "glosses": [
-    "violin"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "violin",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "violin"
-     ]
-    }
-   ],
-   "rank": 21702,
-   "count": 23,
-   "family": "violinë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "violina",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "For violin and piano.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Për violinë dhe piano."
-   }
-  },
-  {
-   "id": "grep",
-   "sq": "grep",
-   "en": "hook, fishhook",
-   "glosses": [
-    "hook, fishhook"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hook, fishhook",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hook"
-     ]
-    }
-   ],
-   "rank": 21713,
-   "count": 23,
-   "family": "grep",
-   "is_root": true,
-   "etymology": "From Proto-Indo-European *grep- (“hook”), from *gremb- (“crooked, uneven”), ultimately from *ger- (“to turn, bend, twist”) (cf. English grapple, Old French grape, grappe, crape (“hook”), Norwegian grep (“grasp”)). Alternatively a contraction of variant gërepë, from archaic and dialectal gërjepë, from Proto-Albanian *ga-repa, from *repa (“to peel, tear off”) (modern rrjep). More at rrjep.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "hook"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "grap",
-     "tag": "alternative"
-    },
-    {
-     "form": "gërepë",
-     "tag": "alternative"
-    },
-    {
-     "form": "gërjepë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Now on the hook you have three eyes.",
+    "en": "Let love be without hypocrisy.",
     "score": [
      0,
      6,
      -6,
      10
     ],
-    "sq": "Tani në grep keni tre sy."
+    "sq": "9 Dashuria le të jetë e çiltër."
    }
   },
   {
-   "id": "egjiptian",
-   "sq": "egjiptian",
-   "en": "Egyptian",
+   "id": "shkencërisht",
+   "sq": "shkencërisht",
+   "en": "scientifically",
    "glosses": [
-    "Egyptian",
-    "Egyptian",
-    "Balkan Egyptian"
+    "scientifically"
    ],
    "pos": [
-    "adj",
-    "noun",
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "adjective",
-    "noun",
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "Egyptian",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "scientifically",
      "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "Egyptian"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Egyptian",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "Egyptian"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Balkan Egyptian",
-     "tags": [
-      "formal",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 8 85"
-      },
-      {
-       "name": "Albanian terms suffixed with -ian",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 12 77"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 3 95"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Balkan Egyptian"
-     ]
-    }
-   ],
-   "rank": 21714,
-   "count": 23,
-   "family": "egjiptian",
-   "is_root": true,
-   "etymology": "Borrowed from French égyptien. By surface analysis, Egjipt + -ian.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "egjiptianë",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The Egyptian school's eight-year compulsory.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Shkolla egjiptian është tetë vjet, të detyrueshme."
-   }
-  },
-  {
-   "id": "artileri",
-   "sq": "artileri",
-   "en": "artillery",
-   "glosses": [
-    "artillery"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "artillery",
-     "tags": [
-      "feminine"
-     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -395,7 +308,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -409,13 +322,13 @@
      ],
      "examples": [],
      "links": [
-      "artillery"
+      "scientifically"
      ]
     }
    ],
-   "rank": 21717,
-   "count": 23,
-   "family": "artileri",
+   "rank": 27115,
+   "count": 17,
+   "family": "shkencërisht",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -428,36 +341,182 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Some even had antiaircraft artillery.",
+    "en": "Is it consistent?",
     "score": [
-     2,
-     5,
+     1,
+     4,
      -3,
      8
     ],
-    "sq": "Disa kishin edhe artileri kundërajrore."
+    "sq": "A është vërtetuar shkencërisht?"
    }
   },
   {
-   "id": "dhjes",
-   "sq": "dhjes",
-   "en": "to shit, to fuck up",
+   "id": "tra",
+   "sq": "tra",
+   "en": "beam, girder; timber",
    "glosses": [
-    "to shit, to fuck up"
+    "beam, girder; timber",
+    "scaffolding",
+    "balance beam",
+    "family, different house"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to shit, to fuck up",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beam, girder; timber",
      "tags": [
-      "vulgar"
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beam",
+      "girder",
+      "timber"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "scaffolding",
+     "tags": [
+      "in-plural",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "scaffolding"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "balance beam",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Sports",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Sports",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 37 51 10"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sports",
+      "balance beam"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "family, different house",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Ethnography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Ethnography",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ethnography",
+      "family",
+      "house"
+     ]
+    }
+   ],
+   "rank": 27159,
+   "count": 17,
+   "family": "tra",
+   "is_root": true,
+   "etymology": "From Latin trabem (“beam”).",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin trabem",
+   "parents": [
+    "beam"
+   ],
+   "components": [],
+   "derived": [
+    "trath",
+    "trenoj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "trerë",
+     "tag": "plural"
+    },
+    {
+     "form": "trari",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The joist should be fixed in parallel.",
+    "score": [
+     2,
+     8,
+     -6,
+     10
+    ],
+    "sq": "Tra duhet të jetë fikse në mënyrë paralele."
+   }
+  },
+  {
+   "id": "parlament",
+   "sq": "parlament",
+   "en": "parliament",
+   "glosses": [
+    "parliament"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "parliament",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
@@ -467,7 +526,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 20 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -481,34 +540,35 @@
      ],
      "examples": [],
      "links": [
-      "shit",
-      "fuck up"
+      "parliament"
      ]
     }
    ],
-   "rank": 21731,
-   "count": 23,
-   "family": "dhjes",
+   "rank": 27163,
+   "count": 17,
+   "family": "parlament",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dzetša, from earlier *dzedtja, from Proto-Indo-European *ǵʰed-i̯e/o-, from *ǵʰed- (“to defecate”). Compare Ancient Greek χέζω (khézō), Sanskrit हदति (hadati). Alternatively, Matzinger reconstructs *ȷ́edi̯ō.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Late Latin parlamentum.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "dhjeva",
-     "tag": "aorist"
-    },
-    {
-     "form": "dhjerë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What is a House?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë është një parlament?"
+   }
   }
- ]
+ ],
+ "extended": true
 }

@@ -116,6 +116,10 @@ def main():
         root = next((w["id"] for w in words if w.get("is_root")), words[0]["id"])
         # One deck per level, named for the root it teaches.
         deck_name = "Albanian L%02d - root %s" % (n, root)
+        # The optional extended track after the main course gets its own
+        # prefix, so a learner can leave those decks out.
+        if lvl.get("extended"):
+            deck_name = "Albanian extended L%02d - root %s" % (n, root)
         deck = genanki.Deck(DECK_ID + n, deck_name)
         decks[n] = deck
 
@@ -160,7 +164,8 @@ def main():
                 # instead of duplicating it on every rebuild.
                 guid=f"albcourse::{w['id']}",
                 tags=["albanian", "level%0*d" % (width, n), "root_%s" % root,
-                      "fam_%s" % family],
+                      "fam_%s" % family]
+                     + (["extended"] if lvl.get("extended") else []),
             )
             deck.add_note(note)
             total += 1

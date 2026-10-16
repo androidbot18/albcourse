@@ -1,30 +1,27 @@
 {
  "level": 376,
- "title": "shërbej, parajsë, all +2",
+ "title": "qytet (more), dobi, tragjedi +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "all",
-  "gjyq",
-  "lagje",
-  "parajsë",
-  "shërbej"
+  "dobi",
+  "qytet",
+  "she",
+  "tragjedi"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 1,
-  "verb": 1
+  "noun": 8
  },
  "words": [
   {
-   "id": "shërbim",
-   "sq": "shërbim",
-   "en": "service",
+   "id": "qytetar",
+   "sq": "qytetar",
+   "en": "citizen",
    "glosses": [
-    "service"
+    "citizen"
    ],
    "pos": [
     "noun"
@@ -36,7 +33,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "service",
+     "gloss": "citizen",
      "tags": [
       "masculine"
      ],
@@ -48,7 +45,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -tar",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,54 +59,178 @@
      ],
      "examples": [],
      "links": [
-      "service"
+      "citizen"
      ]
     }
    ],
-   "rank": 2843,
-   "count": 288,
-   "family": "shërbej",
+   "rank": 5732,
+   "count": 128,
+   "family": "qytet",
    "is_root": false,
-   "etymology": "From shërbej + -im.",
+   "etymology": "From qytet + -tar.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "shërbej",
+     "word": "qytet",
      "role": "base",
-     "en": "to serve"
+     "en": "city"
     },
     {
-     "word": "im",
+     "word": "tar",
      "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "affix": "tar",
+     "meaning": "person / of"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "qytetarë",
+     "tag": "plural"
+    },
+    {
+     "form": "qytetari",
+     "tag": "definite"
+    },
+    {
+     "form": "qytetare",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Another service?",
+    "en": "You do not need to be a citizen.",
     "score": [
      0,
-     3,
-     -3,
+     7,
+     -7,
      10
     ],
-    "sq": "Një tjetër shërbim?"
+    "sq": "Ju nuk duhet të jetë një qytetar."
    },
    "breakdown": "transparent"
   },
   {
-   "id": "parajsë",
-   "sq": "parajsë",
-   "en": "paradise",
+   "id": "dobi",
+   "sq": "dobi",
+   "en": "benefit, profit, usefulness, advantage, utility",
    "glosses": [
-    "paradise"
+    "benefit, profit, usefulness, advantage, utility",
+    "victory"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "benefit, profit, usefulness, advantage, utility",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "benefit",
+      "profit",
+      "usefulness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "victory",
+     "tags": [
+      "Gheg",
+      "feminine",
+      "obsolete"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 73"
+      },
+      {
+       "name": "Pages with 6 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 28 13 18 5 24 2 2 2 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "victory"
+     ]
+    }
+   ],
+   "rank": 5742,
+   "count": 128,
+   "family": "dobi",
+   "is_root": true,
+   "etymology": "Back formation of Old Gheg verb dobit (\"to win, to succeed, to defeat\"), borrowed from Serbo-Croatian dobiti (\"to win, to take; to catch\").",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "dobidhënës",
+    "dobiprurës",
+    "dobis",
+    "dobishëm",
+    "dobishme",
+    "dobishmëri",
+    "dobitem"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "dobi",
+     "tag": "plural"
+    },
+    {
+     "form": "dobia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "In short, a comprehensive utility.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Me pak fjalë, një dobi të plotë."
+   }
+  },
+  {
+   "id": "tragjedi",
+   "sq": "tragjedi",
+   "en": "tragedy",
+   "glosses": [
+    "tragedy"
    ],
    "pos": [
     "noun"
@@ -121,7 +242,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "paradise",
+     "gloss": "tragedy",
      "tags": [],
      "cats": [
       {
@@ -145,16 +266,16 @@
      ],
      "examples": [],
      "links": [
-      "paradise"
+      "tragedy"
      ]
     }
    ],
-   "rank": 2847,
-   "count": 287,
-   "family": "parajsë",
+   "rank": 5754,
+   "count": 128,
+   "family": "tragjedi",
    "is_root": true,
-   "etymology": "Borrowed from Latin paradīsus.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -164,35 +285,37 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A real paradise.",
+    "en": "So much tragedy.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Një parajsë e vërtetë."
+    "sq": "Tragjedi aq shumë."
    }
   },
   {
-   "id": "all",
-   "sq": "all",
-   "en": "of glowing, shining color",
+   "id": "she",
+   "sq": "she",
+   "en": "undrying rivulet, torrent, rapid stream",
    "glosses": [
-    "of glowing, shining color"
+    "undrying rivulet, torrent, rapid stream"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "of glowing, shining color",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "undrying rivulet, torrent, rapid stream",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -201,7 +324,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 20 entries",
+       "name": "Pages with 13 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -215,19 +338,19 @@
      ],
      "examples": [],
      "links": [
-      "of",
-      "glowing",
-      "shining"
+      "rivulet",
+      "torrent",
+      "rapid"
      ]
     }
    ],
-   "rank": 2849,
-   "count": 287,
-   "family": "all",
+   "rank": 5762,
+   "count": 127,
+   "family": "she",
    "is_root": true,
-   "etymology": "From Ottoman Turkish آل (al).",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
+   "etymology": "A derivative of shi.",
+   "etymology_class": null,
+   "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
@@ -235,29 +358,126 @@
    "related": [],
    "forms": [
     {
-     "form": "alle",
-     "tag": "feminine"
+     "form": "shera",
+     "tag": "plural"
+    },
+    {
+     "form": "sheu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Arf! Cheeky!",
+    "score": [
+     2,
+     4,
+     -2,
+     5
+    ],
+    "sq": "She is not ashamed !"
+   }
+  },
+  {
+   "id": "kryeqytet",
+   "sq": "kryeqytet",
+   "en": "capital city",
+   "glosses": [
+    "capital city"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "capital city",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with krye-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "capital city"
+     ]
+    }
+   ],
+   "rank": 20362,
+   "count": 25,
+   "family": "qytet",
+   "is_root": false,
+   "etymology": "From krye- (“main, head-”) + qytet (“city”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "city"
+   ],
+   "components": [
+    {
+     "word": "krye",
+     "role": "prefix"
+    },
+    {
+     "word": "qytet",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kryeqytete",
+     "tag": "plural"
+    },
+    {
+     "form": "kryeqyteti",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "All soknadstjenester is free.",
+    "en": "I went to the capital.",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
      10
     ],
-    "sq": "All soknadstjenester është falas."
-   }
+    "sq": "Shkova në kryeqytet."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "lagje",
-   "sq": "lagje",
-   "en": "large number, part",
+   "id": "qytezë",
+   "sq": "qytezë",
+   "en": "small town",
    "glosses": [
-    "large number, part",
-    "neighbourhood, ward, quarter, particularly (politics, historical) as a former administrative division of Albanian cities"
+    "small town",
+    "residential center within a castle"
    ],
    "pos": [
     "noun",
@@ -271,34 +491,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "large number, part",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "large",
-      "number",
-      "part"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "neighbourhood, ward, quarter, particularly (politics, historical) as a former administrative division of Albanian cities",
+     "gloss": "small town",
      "tags": [
       "feminine"
      ],
      "cats": [
-      {
-       "name": "Politics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Politics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -307,268 +504,81 @@
        "_dis": "98 2"
       },
       {
+       "name": "Albanian terms suffixed with -zë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27"
+      },
+      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "96 4"
+       "_dis": "99 1"
       }
      ],
      "examples": [],
      "links": [
-      "neighbourhood",
-      "ward",
-      "quarter"
+      "town"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "residential center within a castle",
+     "tags": [
+      "feminine",
+      "historical"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "center",
+      "castle"
      ]
     }
    ],
-   "rank": 2850,
-   "count": 287,
-   "family": "lagje",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *lag- with -je suffix, from Proto-Indo-European *legʰ- (“to lay, lie (down)”). Cognate to Ancient Greek λόχος (lókhos, “ambush, ambuscade, armed band”). Plural form of lag.",
-   "etymology_class": "derived",
+   "rank": 24568,
+   "count": 19,
+   "family": "qytet",
+   "is_root": false,
+   "etymology": "From qytet + -zë (diminutive suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "qytet",
+     "role": "base"
+    },
+    {
+     "word": "zë",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
-   "related": [
-    "lag"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Quiet neighborhood.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Lagje e qetë."
-   }
-  },
-  {
-   "id": "gjyq",
-   "sq": "gjyq",
-   "en": "trial, lawsuit, litigation",
-   "glosses": [
-    "trial, lawsuit, litigation",
-    "law court, tribunal",
-    "good judgment, prudence"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "trial, lawsuit, litigation",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "trial",
-      "lawsuit",
-      "litigation"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "law court, tribunal",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 91 3"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 95 1"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 95 1"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "law court",
-      "tribunal"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "good judgment, prudence",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 2852,
-   "count": 287,
-   "family": "gjyq",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin jūdicium, iūdicium. Compare Romanian județ.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "gjykatë",
-    "gjykoj",
-    "gjykues",
-    "gjyqtar",
-    "gjyqbjerrës",
-    "gjyqfitonjës"
-   ],
    "related": [],
    "forms": [
     {
-     "form": "gjyqe",
+     "form": "qyteza",
      "tag": "plural"
-    },
-    {
-     "form": "gjyqi",
-     "tag": "definite"
-    },
-    {
-     "form": "gjyk",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjuk",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjyg",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjygj",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "We don't even need to be in court.",
-    "score": [
-     0,
-     8,
-     -8,
-     5
-    ],
-    "sq": "Ne as nuk duhet te jemi ne gjyq."
-   }
-  },
-  {
-   "id": "shërbej",
-   "sq": "shërbej",
-   "en": "to serve",
-   "glosses": [
-    "to serve"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to serve",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "serve"
-     ]
-    }
-   ],
-   "rank": 4251,
-   "count": 181,
-   "family": "shërbej",
-   "is_root": true,
-   "etymology": "From an earlier shërbenj (third person singular shërben), from Proto-Albanian *śerbi̯ɔnit, borrowed from Vulgar Latin *serbiō, from Latin serviō.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shërbeva",
-     "tag": "aorist"
-    },
-    {
-     "form": "shërbyer",
-     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Should I go back and serve there?",
+    "en": "A town within the city!",
     "score": [
-     0,
-     8,
-     -8,
+     1,
+     5,
+     -4,
      8
     ],
-    "sq": "A duhet të kthehem e të shërbej atje?"
-   }
+    "sq": "Një qytezë brenda një qyteti!"
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

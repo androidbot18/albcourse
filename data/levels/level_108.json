@@ -1,38 +1,36 @@
 {
  "level": 108,
- "title": "vesh, sheh",
+ "title": "armë, lartë, tung +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "sheh",
-  "vesh"
+  "armë",
+  "lartë",
+  "lloj",
+  "tung"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 8
+  "noun": 7,
+  "adj": 2,
+  "adv": 1,
+  "intj": 2
  },
  "words": [
   {
-   "id": "vesh",
-   "sq": "vesh",
-   "en": "to dress, clothe",
+   "id": "armë",
+   "sq": "armë",
+   "en": "gun",
    "glosses": [
-    "to dress, clothe",
-    "ear",
-    "handle (on a mug, pot, etc.)",
-    "mouldboard",
-    "eye of a needle",
-    "auricle (of heart)",
-    "vine",
-    "small bunch of grapes"
+    "gun",
+    "weapon",
+    "combat arms",
+    "army",
+    "tool"
    ],
    "pos": [
-    "verb",
-    "noun",
-    "noun",
     "noun",
     "noun",
     "noun",
@@ -40,9 +38,6 @@
     "noun"
    ],
    "pos_labels": [
-    "verb",
-    "noun",
-    "noun",
     "noun",
     "noun",
     "noun",
@@ -51,112 +46,47 @@
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dress, clothe",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "dress",
-      "clothe"
-     ]
-    },
-    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ear",
+     "gloss": "gun",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "ear"
+      "gun"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "handle (on a mug, pot, etc.)",
+     "gloss": "weapon",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "handle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mouldboard",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "mouldboard"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "eye of a needle",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "eye",
-      "needle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "auricle (of heart)",
-     "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
-       "name": "Anatomy",
+       "name": "Weapons",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
+       "source": "w+disamb",
+       "orig": "sq:Weapons",
+       "langcode": "sq",
+       "_dis": "74 4 15 4 4"
       }
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "auricle"
+      "weapon"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vine",
+     "gloss": "combat arms",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "vine"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "small bunch of grapes",
-     "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -164,172 +94,326 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 3 4 3 24 9 44 10"
+       "_dis": "10 10 58 10 12"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 5 6 5 11 12 40 15"
+       "_dis": "12 12 48 12 14"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "4 4 4 4 7 8 60 10"
+       "_dis": "8 8 68 8 9"
       }
      ],
      "examples": [],
      "links": [
-      "bunch",
-      "grapes"
+      "combat",
+      "arms"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "army",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "army"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tool",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tool"
      ]
     }
    ],
-   "rank": 424,
-   "count": 2477,
-   "family": "vesh",
+   "rank": 451,
+   "count": 2335,
+   "family": "armë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *wesi, from earlier *ōusi, from Proto-Indo-European *h₂ṓws- and dual ending *-ih₁. Cognate with Lithuanian ausi̇̀s (“id”), Ancient Greek οὖς (oûs), Latin auris.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Late Latin arma (“weapon”). A later loan from Italian arma (“weapon”) is also plausible.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "weapon"
+   ],
+   "components": [],
+   "derived": [
+    "armatë",
+    "armatis",
+    "armatos",
+    "armëlarë",
+    "armëmbajtës",
+    "armëmbajtje",
+    "armëndreqës",
+    "armëngrirë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "armë",
+     "tag": "plural"
+    },
+    {
+     "form": "arma",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They have guns.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ata kanë armë."
+   }
+  },
+  {
+   "id": "lartë",
+   "sq": "lartë",
+   "en": "tall",
+   "glosses": [
+    "tall",
+    "high",
+    "high"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adv"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "tall",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27 0"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 28 0"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "tall"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "high",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "high"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "high",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "high"
+     ]
+    }
+   ],
+   "rank": 455,
+   "count": 2314,
+   "family": "lartë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laudra, from Proto-Indo-European *h₁lewdʰ- (“to grow”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "veshak",
-    "veshas",
-    "veshatak",
-    "veshë",
-    "veshël",
-    "veshëz",
-    "veshnik",
-    "veshok"
+    "lartësoj",
+    "lartësi"
    ],
    "related": [],
-   "forms": [
-    {
-     "form": "veshë",
-     "tag": "plural"
-    },
-    {
-     "form": "veshi",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Okay, I got it.",
+    "corpus": "HPLT",
+    "en": "This is high.",
     "score": [
      0,
-     3,
-     -3,
-     5
+     4,
+     -4,
+     10
     ],
-    "sq": "E mora vesh."
+    "sq": "Kjo është e lartë."
    }
   },
   {
-   "id": "sheh",
-   "sq": "sheh",
-   "en": "head of a Muslim religious group. sheik",
+   "id": "tung",
+   "sq": "tung",
+   "en": "hi, hello",
    "glosses": [
-    "head of a Muslim religious group. sheik"
+    "hi, hello",
+    "good bye"
    ],
    "pos": [
-    "noun"
+    "intj",
+    "intj"
    ],
    "pos_labels": [
-    "noun"
+    "interjection",
+    "interjection"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "head of a Muslim religious group. sheik",
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "hi, hello",
      "tags": [
-      "masculine"
+      "informal"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian greetings",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hi",
+      "hello"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good bye",
+     "tags": [
+      "informal"
+     ],
+     "cats": [
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 12 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "1 51 0 2 0 0 17 7 3 3 0 3 0 4 4 2 0 0 2"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "1 67 0 1 0 0 10 8 2 2 0 2 0 2 3 1 0 0 1"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
       }
      ],
      "examples": [],
      "links": [
-      "sheik"
+      "good bye"
      ]
     }
    ],
-   "rank": 426,
-   "count": 2461,
-   "family": "sheh",
+   "rank": 465,
+   "count": 2261,
+   "family": "tung",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish شیخ (şeyh, “head of a religious order”), through a monophthongised dialectal variant.",
-   "etymology_class": "root",
+   "etymology": "Shortened from tungjatjeta.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shehlerë",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Where do you find that?",
+    "corpus": "HPLT",
+    "en": "How to switch to Tung tariff?",
     "score": [
-     0,
-     4,
-     -4,
-     5
+     1,
+     6,
+     -5,
+     10
     ],
-    "sq": "Ku e sheh atë?"
+    "sq": "Si të kaloj në pakon Tung?"
    }
   },
   {
-   "id": "veshur",
-   "sq": "veshur",
-   "en": "dress, past form (from vesh, to dress)",
+   "id": "lloj",
+   "sq": "lloj",
+   "en": "sort, kind, type",
    "glosses": [
-    "dress, past form (from vesh, to dress)"
+    "sort, kind, type"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "dress, past form (from vesh, to dress)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sort, kind, type",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "masculine"
      ],
      "cats": [
       {
@@ -352,12 +436,101 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vesh"
+     "links": [
+      "sort",
+      "kind",
+      "type"
+     ]
     }
    ],
-   "rank": 863,
-   "count": 1117,
-   "family": "vesh",
+   "rank": 466,
+   "count": 2258,
+   "family": "lloj",
+   "is_root": true,
+   "etymology": "From Greek λογή (logí, “sort”). Related to llogaris.",
+   "etymology_class": "borrowed",
+   "source_lang": "el",
+   "cognate": "from Greek λογή",
+   "parents": [
+    "sort"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "lloje",
+     "tag": "plural"
+    },
+    {
+     "form": "lloji",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "She's not just one type.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Ajo nuk është vetëm një lloj."
+   }
+  },
+  {
+   "id": "armët",
+   "sq": "armët",
+   "en": "the gun, plural (from armë)",
+   "glosses": [
+    "the gun, plural (from armë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the gun, plural (from armë)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "armë"
+    }
+   ],
+   "rank": 904,
+   "count": 1052,
+   "family": "armë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -369,15 +542,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Shut up! Bye, mother.",
+    "corpus": "HPLT",
+    "en": "Guns don't kill people.",
     "score": [
      0,
      4,
      -4,
-     5
+     10
     ],
-    "sq": "Çfarë është ai veshur?"
+    "sq": "Armët nuk vrasin njerëz."
    }
   }
  ]

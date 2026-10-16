@@ -84,9 +84,22 @@ if not shipped:
     print("  skip data/levels not built")
 else:
     lvl_of = {w["sq"]: L["level"] for L in shipped for w in L["words"]}
-    opening = [w for L in shipped[:op.EARLY_LEVELS_DEFAULT] for w in L["words"]]
+    # A curated opening word is there on purpose, whatever its rank
+    # (motër "sister", nëntë "nine"): tools/opening_levels.py. What must not
+    # happen is a rare word riding its family's root into the opening, so
+    # the check is on the scheduler's levels, and on the curated ones it is
+    # that nothing but the curated words got in.
+    import opening_levels as ol  # noqa: E402
+    sched = [L for L in shipped if not L.get("opening")]
+    opening = [w for L in sched[:op.EARLY_LEVELS_DEFAULT] for w in L["words"]]
     strays = sorted(w["sq"] for w in opening if op.is_rare_tail(w))
-    check("no rare-tail word in the opening (got %s)" % strays, not strays)
+    check("no rare-tail word in the scheduler's first levels (got %s)"
+          % strays, not strays)
+    listed = {w for _, ws in ol.LEVELS for w in ws}
+    extra = sorted(w["sq"] for L in shipped if L.get("opening")
+                   for w in L["words"] if w["sq"] not in listed)
+    check("curated levels hold only the curated words (got %s)" % extra,
+          not extra)
     for w, must in (("doemos", "do"), ("mjaftoj", "me"), ("qeshë", "jam")):
         check("%s waits for its own band, after %s" % (w, must),
               lvl_of[w] > op.EARLY_LEVELS_DEFAULT and lvl_of[w] > lvl_of[must])

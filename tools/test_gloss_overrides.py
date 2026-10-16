@@ -7,6 +7,7 @@ checks that no card headlines Wiktionary's raw head line ("errësirë f
 (plural ...") instead of a meaning. The control proves the junk pattern
 does match the defect it was written for.
 """
+import glob
 import json
 import os
 import sys
@@ -33,6 +34,24 @@ for w, glosses in go.FRONT.items():
           W[w]["en"] == glosses[0])
 for w, (_, gloss) in go.REPLACE.items():
     check("%s headlines %r" % (w, gloss), W[w]["en"] == gloss)
+
+by_sense = {}
+for w in set(go.RENAME) | set(go.ADD):
+    by_sense[w] = [x for L in glob.glob(os.path.join(
+        os.path.dirname(HERE), "data", "levels", "level_*.json"))
+        for c in json.load(open(L, encoding="utf-8"))["words"] if c["sq"] == w
+        for x in [s["gloss"] for s in c["sense_detail"]]]
+for w, ren in go.RENAME.items():
+    for old, new in ren.items():
+        check("%s: %r is %s" % (w, old[:30], "dropped" if new is None
+                                else "now %r" % new[:30]),
+              old not in by_sense[w] and (new is None or new in by_sense[w]))
+for w, (at, _, gloss) in go.ADD.items():
+    check("%s: sense %d is %r" % (w, at, gloss),
+          by_sense[w][at:at + 1] == [gloss])
+for w, (_, sq, en) in go.EXAMPLES.items():
+    check("%s shows the reviewed example %r" % (w, sq),
+          (W[w].get("ex") or {}).get("sq") == sq)
 
 junk = sorted(w for w, c in W.items() if go.HEADLINE_JUNK.match(c["en"]))
 check("no card headlines a raw dictionary head line (got %s)" % junk[:5],
