@@ -98,8 +98,9 @@ if W:
     opening = [w for w in W if w["level"] <= op.EARLY_LEVELS_DEFAULT]
 
     # 4086, plus `po` (pos_balance.INCLUDE_PARTICLES) and `e`, restored
-    # for the curated opening (RECOMMENDATIONS.md section 3.2).
-    check("the deck has 4088 cards", len(W), 4088)
+    # for the curated opening (RECOMMENDATIONS.md section 3.2), and the four
+    # days Wiktionary files under their article (pos_balance.ARTICLED_ENTRIES).
+    check("the deck has 4092 cards", len(W), 4092)
 
     # The policy governs the SCHEDULER, which starts after the curated
     # opening (tools/opening_levels.py). That opening teaches `jo` and the

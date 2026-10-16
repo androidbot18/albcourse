@@ -1,108 +1,102 @@
 {
  "level": 203,
- "title": "qind",
- "root": "qind",
- "root_gloss": "hundred",
+ "title": "vjedh",
+ "root": "vjedh",
+ "root_gloss": "to steal",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "qind"
+  "vjedh"
  ],
  "pos_mix": {
-  "num": 2,
+  "verb": 2,
   "noun": 1
  },
  "words": [
   {
-   "id": "qind",
-   "sq": "qind",
-   "en": "hundred",
+   "id": "vjedh",
+   "sq": "vjedh",
+   "en": "to steal",
    "glosses": [
-    "hundred"
+    "to steal"
    ],
    "pos": [
-    "num"
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "hundred",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to steal",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "hundred"
+      "steal"
      ]
     }
    ],
-   "rank": 5783,
-   "count": 127,
-   "family": "qind",
+   "rank": 2546,
+   "count": 327,
+   "family": "vjedh",
    "is_root": true,
-   "etymology": "From Latin centum, possibly borrowed through Vulgar Latin.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin centum",
+   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
+   "etymology_class": "root",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "vodha",
+     "tag": "aorist"
+    },
+    {
+     "form": "vjedhur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "0 percent risk!",
+    "en": "It steals data from you.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "0 për qind rrezik!"
+    "sq": "Ajo vjedh të dhëna nga ju."
    }
   },
   {
-   "id": "njëqind",
-   "sq": "njëqind",
-   "en": "one hundred",
+   "id": "vjedhur",
+   "sq": "vjedhur",
+   "en": "steal, past form (from vjedh, to steal)",
    "glosses": [
-    "one hundred"
+    "steal, past form (from vjedh, to steal)"
    ],
    "pos": [
-    "num"
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "one hundred",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "steal, past form (from vjedh, to steal)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -124,52 +118,40 @@
       }
      ],
      "examples": [],
-     "links": [
-      "one hundred"
-     ]
+     "is_form_of": "vjedh"
     }
    ],
-   "rank": 3525,
-   "count": 225,
-   "family": "qind",
+   "rank": 948,
+   "count": 1004,
+   "family": "vjedh",
    "is_root": false,
-   "etymology": "Equivalent to një + qind.",
-   "etymology_class": "compound",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "një",
-     "role": "prefix"
-    },
-    {
-     "word": "qind",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "One hundred years of experience.",
+    "en": "Have you ever stolen?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Njëqind vjet përvojë."
-   },
-   "breakdown": "historical"
+    "sq": "Ke vjedhur ndonjëherë?"
+   }
   },
   {
-   "id": "qindarkë",
-   "sq": "qindarkë",
-   "en": "qindarkë, a hundredth of a lek",
+   "id": "vjedhës",
+   "sq": "vjedhës",
+   "en": "thief",
    "glosses": [
-    "qindarkë, a hundredth of a lek"
+    "thief"
    ],
    "pos": [
     "noun"
@@ -181,9 +163,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "qindarkë, a hundredth of a lek",
+     "gloss": "thief",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -193,54 +175,40 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ar",
+       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -kë",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "nuk vlen asnjë qindarkë",
-       "en": "not worth a penny",
-       "offsets": [
-        [
-         15,
-         23
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "qindarkë",
-      "lek"
+      "thief"
      ]
     }
    ],
-   "rank": 8587,
-   "count": 78,
-   "family": "qind",
+   "rank": 17203,
+   "count": 32,
+   "family": "vjedh",
    "is_root": false,
-   "etymology": "From qind (“hundred”) + -ar + -kë.",
+   "etymology": "From vjedh + -ës.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "hundred"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "qind",
+     "word": "vjedh",
      "role": "base"
     },
     {
-     "word": "ar",
+     "word": "ës",
      "role": "suffix"
     }
    ],
@@ -248,11 +216,25 @@
    "related": [],
    "forms": [
     {
-     "form": "qindarka",
+     "form": "vjedhës",
      "tag": "plural"
+    },
+    {
+     "form": "vjedhësi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null,
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Also if you will be a thief.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Gjithashtu nëse do të jeni vjedhës."
+   },
    "breakdown": "historical"
   }
  ]

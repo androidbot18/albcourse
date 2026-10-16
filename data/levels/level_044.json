@@ -1,114 +1,138 @@
 {
  "level": 44,
- "title": "pres",
- "root": "pres",
- "root_gloss": "to cut, carve, slice, hew",
+ "title": "zotëri, kurrë, dreqin",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "pres"
+  "dreqin",
+  "kurrë",
+  "zotëri"
  ],
  "pos_mix": {
-  "verb": 3
+  "noun": 3,
+  "adv": 1,
+  "intj": 1
  },
  "words": [
   {
-   "id": "pres",
-   "sq": "pres",
-   "en": "to cut, carve, slice, hew",
+   "id": "zotëri",
+   "sq": "zotëri",
+   "en": "mister, gentleman",
    "glosses": [
-    "to cut, carve, slice, hew"
+    "mister, gentleman",
+    "lord, sir"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cut, carve, slice, hew",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mister, gentleman",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mister",
+      "gentleman"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lord, sir",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "65 35"
+       "_dis": "37 63"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 68"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 89"
       }
      ],
      "examples": [],
      "links": [
-      "cut",
-      "carve",
-      "slice"
+      "lord",
+      "sir"
      ]
     }
    ],
-   "rank": 514,
-   "count": 2062,
-   "family": "pres",
+   "rank": 124,
+   "count": 10845,
+   "family": "zotëri",
    "is_root": true,
-   "etymology": "From Proto-Albanian *p(e)retja, from Proto-Indo-European *per- (“to strike, beat”) (compare Ancient Greek πρίω (príō, “to saw”), Lithuanian per̃ti (“to flog, beat with besom”), Avestan 𐬞𐬆𐬭𐬆𐬝 (pər^ət̰, “strife”)).",
-   "etymology_class": "inherited",
+   "etymology": "From zotër, plural form of zot.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "strife"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "preva",
-     "tag": "aorist"
-    },
-    {
-     "form": "prerë",
-     "tag": "participle"
-    }
+   "related": [
+    "zot",
+    "zoti",
+    "zotëni"
    ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "This is it? Hey!",
+    "corpus": "HPLT",
+    "en": "Thank you sir.",
     "score": [
      0,
      3,
      -3,
-     5
+     10
     ],
-    "sq": "Duhet te pres?"
+    "sq": "Ju faleminderit zotëri."
    }
   },
   {
-   "id": "prit",
-   "sq": "prit",
-   "en": "you (sg)! (from pres, to cut)",
+   "id": "kurrë",
+   "sq": "kurrë",
+   "en": "never",
    "glosses": [
-    "you (sg)! (from pres, to cut)"
+    "never"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from pres, to cut)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "never",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -117,7 +141,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -130,13 +154,91 @@
       }
      ],
      "examples": [],
-     "is_form_of": "pres"
+     "links": [
+      "never"
+     ]
     }
    ],
-   "rank": 135,
-   "count": 9569,
-   "family": "pres",
-   "is_root": false,
+   "rank": 129,
+   "count": 10186,
+   "family": "kurrë",
+   "is_root": true,
+   "etymology": "Compound of Proto-Albanian *kur + *ne/o- negative particle. More at kur.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kur",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It never was.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Kurrë nuk ishte."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "dreqin",
+   "sq": "dreqin",
+   "en": "damnit",
+   "glosses": [
+    "damnit"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "damnit",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "damnit"
+     ]
+    }
+   ],
+   "rank": 130,
+   "count": 10163,
+   "family": "dreqin",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -148,37 +250,40 @@
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "But one moment.",
+    "en": "Where the hell is it?",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      5
     ],
-    "sq": "Por prit pak."
+    "sq": "Ku dreqin është kjo?"
    }
   },
   {
-   "id": "pritur",
-   "sq": "pritur",
-   "en": "cut, past form (from pres, to cut)",
+   "id": "zotërinj",
+   "sq": "zotërinj",
+   "en": "mister, plural (from zotëri)",
    "glosses": [
-    "cut, past form (from pres, to cut)"
+    "mister, plural (from zotëri)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "cut, past form (from pres, to cut)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mister, plural (from zotëri)",
      "tags": [
+      "accusative",
       "form-of",
-      "participle"
+      "indefinite",
+      "nominative",
+      "plural"
      ],
      "cats": [
       {
@@ -201,12 +306,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "pres"
+     "is_form_of": "zotëri"
     }
    ],
-   "rank": 775,
-   "count": 1275,
-   "family": "pres",
+   "rank": 716,
+   "count": 1415,
+   "family": "zotëri",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -218,15 +323,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "You have been waiting for this.",
+    "corpus": "QED",
+    "en": "Welcome, gentlemen!",
     "score": [
      0,
-     5,
-     -5,
-     8
+     4,
+     -4,
+     5
     ],
-    "sq": "Ju e keni pritur këtë."
+    "sq": "Mirë se vini, zotërinj!"
    }
   }
  ]

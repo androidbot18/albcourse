@@ -1,80 +1,56 @@
 {
  "level": 33,
- "title": "tjetër, bërë",
+ "title": "çka, parë, im",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "bërë",
-  "tjetër"
+  "im",
+  "parë",
+  "çka"
  ],
  "pos_mix": {
-  "adj": 8,
-  "noun": 5
+  "pron": 6,
+  "adv": 3,
+  "adj": 2,
+  "verb": 1,
+  "noun": 3
  },
  "words": [
   {
-   "id": "tjetër",
-   "sq": "tjetër",
-   "en": "other, another",
+   "id": "diçka",
+   "sq": "diçka",
+   "en": "something",
    "glosses": [
-    "other, another",
-    "next, following",
-    "different, another",
-    "other one, (in the plural) others"
+    "something",
+    "somehow"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "noun"
+    "pron",
+    "adv"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "noun"
+    "pronoun",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "other, another",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "something",
      "tags": [],
      "cats": [],
-     "examples": [
-      {
-       "sq": "Nga ana tjetër...",
-       "en": "On the other hand...",
-       "offsets": [
-        [
-         8,
-         14
-        ]
-       ]
-      },
-      {
-       "sq": "Mora një mollë tjetër.",
-       "en": "I took another apple.",
-       "offsets": [
-        [
-         15,
-         21
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "other",
-      "another"
+      "something"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "next, following",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "somehow",
      "tags": [],
      "cats": [
       {
@@ -82,473 +58,703 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "8 50 8 33"
+       "_dis": "100 0"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "0 60 0 40"
+       "_dis": "100 0"
+      },
+      {
+       "name": "Albanian terms prefixed with di-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "somehow"
+     ]
+    }
+   ],
+   "rank": 73,
+   "count": 18346,
+   "family": "çka",
+   "is_root": false,
+   "etymology": "From di- + çka.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "di",
+     "role": "prefix"
+    },
+    {
+     "word": "çka",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "something comes up.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "diçka vjen deri."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "parë",
+   "sq": "parë",
+   "en": "first",
+   "glosses": [
+    "first",
+    "main, principal, primary, chief",
+    "beforehand, first, previously"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adv"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "first",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian ordinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "first"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "main, principal, primary, chief",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "main",
+      "principal",
+      "primary"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beforehand, first, previously",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "më parë",
+       "en": "earlier",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "beforehand",
+      "first",
+      "previously"
+     ]
+    }
+   ],
+   "rank": 75,
+   "count": 18256,
+   "family": "parë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *para.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "përparmë"
+   ],
+   "related": [
+    "para"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "See him?",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Të parë atë?"
+   }
+  },
+  {
+   "id": "im",
+   "sq": "im",
+   "en": "my, of mine (possessive pronoun in nominative form, adjectival aspect)",
+   "glosses": [
+    "my, of mine (possessive pronoun in nominative form, adjectival aspect)",
+    "my (possessive pronoun, adjectival aspect)",
+    "mine (possessive pronoun, nominal aspect)",
+    "to crumble, grind, shred, refine",
+    "a kinsman; a member of the same clan, tribe or family (kinship, singular)",
+    "one's (own); kinsfolk; family members (kinship, plural)",
+    "a close friend or partner; a beloved and trusted person (sg.+pl., person (or people) connected through relationship (or friendship))"
+   ],
+   "pos": [
+    "pron",
+    "pron",
+    "pron",
+    "verb",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun",
+    "pronoun",
+    "verb",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "my, of mine (possessive pronoun in nominative form, adjectival aspect)",
+     "tags": [
+      "masculine",
+      "nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian links with redundant target parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 33 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 12 5 13 0 1 2 1 2 8 1 5 0 0 0 0 0 0 0 0 2 2 1 2 2 1 1 2 0 0 0 0 0 0 4 5 0 0 14 2 2 2 0 4 4"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "0 81 0 19"
+       "_dis": "0 13 7 16 0 0 1 0 1 8 1 5 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 0 0 0 0 4 7 0 0 13 3 3 3 0 5 5"
       }
      ],
      "examples": [
       {
-       "sq": "Shihemi javën tjetër!",
-       "en": "See you next week!",
+       "sq": "ati im, vëllai im, biri im",
+       "en": "my father, my brother, my son",
        "offsets": [
         [
-         14,
+         4,
+         6
+        ],
+        [
+         15,
+         17
+        ],
+        [
+         24,
+         26
+        ]
+       ]
+      },
+      {
+       "sq": "syri im",
+       "en": "my eye",
+       "offsets": [
+        [
+         5,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "my",
+      "of",
+      "mine"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "my (possessive pronoun, adjectival aspect)",
+     "tags": [
+      "masculine",
+      "nominative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 26 11 28 15 15"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Im atë, i dashuri ati im.",
+       "en": "My father, my beloved father.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      },
+      {
+       "sq": "im gjysh, im atë, im bir",
+       "en": "my grandfather, my father, my son",
+       "offsets": [
+        [
+         0,
+         2
+        ],
+        [
+         10,
+         12
+        ],
+        [
+         18,
          20
         ]
        ]
       }
      ],
      "links": [
-      "next",
-      "following"
+      "my"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "different, another",
-     "tags": [],
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "mine (possessive pronoun, nominal aspect)",
+     "tags": [
+      "masculine",
+      "nominative"
+     ],
      "cats": [
       {
-       "name": "Albanian terms with collocations",
+       "name": "Albanian links with redundant target parameters",
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 26 11 28 15 15"
       }
      ],
      "examples": [
       {
-       "sq": "diçka tjetër",
-       "en": "something else",
+       "sq": "Ti je imi m.",
+       "en": "You are mine.",
        "offsets": [
         [
          6,
-         12
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "Është imi.",
+       "en": "It is mine.",
+       "offsets": [
+        [
+         6,
+         9
         ]
        ]
       }
      ],
      "links": [
-      "different",
-      "another"
+      "mine"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to crumble, grind, shred, refine",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "crumble",
+      "grind",
+      "shred"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "other one, (in the plural) others",
+     "gloss": "a kinsman; a member of the same clan, tribe or family (kinship, singular)",
      "tags": [
-      "feminine",
       "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [
       {
-       "sq": "me një tjetër",
-       "en": "with someone else",
+       "sq": "Një imi.",
+       "en": "A kinsman (One of mine).",
        "offsets": [
         [
-         7,
-         13
-        ]
-       ]
-      },
-      {
-       "sq": "si të tjerët",
-       "en": "like the others",
-       "offsets": [
-        [
-         3,
-         12
+         4,
+         7
         ]
        ]
       }
      ],
      "links": [
-      "other",
-      "others"
+      "kinsman",
+      "member",
+      "clan"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "one's (own); kinsfolk; family members (kinship, plural)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 33 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 12 5 13 0 1 2 1 2 8 1 5 0 0 0 0 0 0 0 0 2 2 1 2 2 1 1 2 0 0 0 0 0 0 4 5 0 0 14 2 2 2 0 4 4"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 13 7 16 0 0 1 0 1 8 1 5 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 0 0 0 0 4 7 0 0 13 3 3 3 0 5 5"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 33 18 35 2 5 3"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "A: Kush erdhi? - B: Erdhën të mitë.",
+       "en": "A: Who came? - B: My family came.",
+       "offsets": [
+        [
+         27,
+         34
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "one's",
+      "own",
+      "kinsfolk"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a close friend or partner; a beloved and trusted person (sg.+pl., person (or people) connected through relationship (or friendship))",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 33 18 35 2 5 3"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 31 21 27 5 9"
+      },
+      {
+       "name": "Albanian links with redundant wikilinks",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 36 14 33 3 3 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "close",
+      "friend",
+      "partner"
      ]
     }
    ],
-   "rank": 85,
-   "count": 16007,
-   "family": "tjetër",
+   "rank": 78,
+   "count": 17454,
+   "family": "im",
    "is_root": true,
-   "etymology": "Univerbation of jetër, jatër, now only Arbëresh, with the preceding të. Compare archaic sjetër for the feminine singular ablative, the byform jetërsoj of tjetërsoj, and Arbëresh Albanian njatër, njetr (“another”) for standard një tjetër. The plural form të tjerë might be a remnant of an old paradigm with accent shift, as in *éter- : *(e)tér- > jetër : tjerë. Note also that i tjer is also attested as a dialectal byform for the masculine singular.\nCognate of Old Church Slavonic етеръ (eterŭ, “a certain”), Latin c-ēterus (“the other one”), from *h₁e- (“this”) + *-teros. Has also been compared Ancient Greek ἕτερος (héteros, “other”), which although phonologically incompatible as it reflects Proto-Indo-European *sḿ̥-teros, remains a fitting morphological parallel.",
-   "etymology_class": null,
+   "etymology": "Demonstrative pronoun Proto-Albanian *is + (unstressed) 1st sg. pronoun Proto-Albanian *me, from Proto-Indo-European *ís and Proto-Indo-European *me.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "gjetiu",
-    "mostjetër",
-    "patjetër",
-    "tjetëranshëm",
-    "tjetërdashës",
-    "tjetërfeshëm",
-    "tjetërkah",
-    "tjetërkohë"
+   "derived": [],
+   "related": [
+    "ime",
+    "ma",
+    "më",
+    "mu",
+    "mua"
    ],
-   "related": [],
    "forms": [
     {
-     "form": "tjetri",
-     "tag": "definite"
+     "form": "ima",
+     "tag": "aorist"
     },
     {
-     "form": "tjetra",
-     "tag": "definite"
+     "form": "imur",
+     "tag": "participle"
     },
     {
-     "form": "tjetër",
-     "tag": "alternative"
-    },
-    {
-     "form": "tjeter",
-     "tag": "alternative"
-    },
-    {
-     "form": "tetër",
+     "form": "i",
      "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "bërë",
-   "sq": "bërë",
-   "en": "done, finished",
+   "id": "gjithçka",
+   "sq": "gjithçka",
+   "en": "everything",
    "glosses": [
-    "done, finished",
-    "mature (of fruits and vegetables)",
-    "not homemade, commercial, either handmade or industrialised",
-    "manmade, artificial, not present in nature",
-    "action, something that has been done",
-    "deed, act, feat",
-    "doing, act of doing",
-    "yoghurt starter"
+    "everything"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "adj",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "pron"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "done, finished",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "done",
-      "finished"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "mature (of fruits and vegetables)",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "everything",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 14 9 23 1 14 1 23 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mature"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "not homemade, commercial, either handmade or industrialised",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "homemade",
-      "commercial",
-      "handmade"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "manmade, artificial, not present in nature",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [
+       "source": "w"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 14 9 23 1 14 1 23 11"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 25 4 39 0 6 2 11 8"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 18 2 33 0 4 1 24 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "manmade",
-      "artificial",
-      "present"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "action, something that has been done",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Near-synonyms: punë, vepër",
-       "en": "",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "action",
-      "something",
-      "done"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "deed, act, feat",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 14 9 23 1 14 1 23 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "deed",
-      "act",
-      "feat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "doing, act of doing",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "në të bërë",
-       "en": "in the making",
-       "offsets": [
-        [
-         3,
-         10
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "doing",
-      "doing"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "yoghurt starter",
-     "tags": [
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 14 9 23 1 14 1 23 11"
-      }
-     ],
      "examples": [],
      "links": [
-      "regional",
-      "yoghurt",
-      "starter"
+      "everything"
      ]
     }
    ],
-   "rank": 86,
-   "count": 15786,
-   "family": "bërë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 162,
+   "count": 7704,
+   "family": "çka",
+   "is_root": false,
+   "etymology": "From gjithë + çka.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "gjithë",
+     "role": "prefix"
+    },
+    {
+     "word": "çka",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And if you did.",
+    "en": "But not all.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Dhe nëse keni bërë."
-   }
+    "sq": "Por, jo gjithçka."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "tjera",
-   "sq": "tjera",
-   "en": "other, plural (from tjetër)",
+   "id": "çka",
+   "sq": "çka",
+   "en": "what",
    "glosses": [
-    "other, plural (from tjetër)"
+    "what",
+    "so-so, somehow"
    ],
    "pos": [
-    "adj"
+    "pron",
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "pronoun",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "other, plural (from tjetër)",
-     "tags": [
-      "form-of",
-      "masculine",
-      "plural"
-     ],
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "what",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "36 31 31 3"
       }
      ],
      "examples": [],
-     "is_form_of": "tjetër"
+     "links": [
+      "what"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "so-so, somehow",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 31 31 3"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "so-so",
+      "somehow"
+     ]
     }
    ],
-   "rank": 381,
-   "count": 2725,
-   "family": "tjetër",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 167,
+   "count": 7539,
+   "family": "çka",
+   "is_root": true,
+   "etymology": "From ç' + ka, where ka is the third-person singular present indicative of kam (“to have”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "ka",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do you have any more questions?",
+    "corpus": "MaCoCu",
+    "en": "What is this?",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     8
     ],
-    "sq": "Keni pyetje të tjera?"
-   }
+    "sq": "Çka është kjo?"
+   },
+   "breakdown": "historical"
   }
  ]
 }

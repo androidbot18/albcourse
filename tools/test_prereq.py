@@ -107,7 +107,10 @@ def main():
     # unrelated roots. 751 is the honest cost of that fix: a root and its
     # derivations are no longer buried among six strangers. Sessions still
     # pack to 9 words where a family allows it.
-    CEILING = 800
+    # 810 since the days of the week (RECOMMENDATIONS.md section 3.2) took
+    # the course to 801. Whether the course needs this many levels at all is
+    # section 3.6: a rank cap of 5,000 reaches the same 80% goal in 340.
+    CEILING = 810
     print("5. level count %d within ceiling %d: %s"
           % (nlev, CEILING, "OK" if nlev <= CEILING else "FAIL"))
 

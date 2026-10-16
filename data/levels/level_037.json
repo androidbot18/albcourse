@@ -1,86 +1,231 @@
 {
  "level": 37,
- "title": "së, tek, vërtetë",
- "root": "",
- "root_gloss": "",
+ "title": "mend",
+ "root": "mend",
+ "root_gloss": "mind",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "së",
-  "tek",
-  "vërtetë"
+  "mend"
  ],
  "pos_mix": {
-  "adv": 4,
-  "adj": 2
+  "noun": 3,
+  "verb": 3
  },
  "words": [
   {
-   "id": "së",
-   "sq": "së",
-   "en": "not, don't",
+   "id": "mend",
+   "sq": "mend",
+   "en": "mind",
    "glosses": [
-    "not, don't",
-    "Negates the meaning of the modified verb."
+    "mind"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "not, don't",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "not",
-      "don't"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "Negates the meaning of the modified verb.",
-     "tags": [],
-     "cats": [],
-     "examples": [
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mind",
+     "tags": [
+      "feminine",
+      "plural"
+     ],
+     "cats": [
       {
-       "sq": "A s'është ai...?",
-       "en": "Isn't he ...?",
-       "offsets": [
-        [
-         2,
-         4
-        ]
-       ]
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
-       "sq": "Unë di. Unë s'di.",
-       "en": "I know. I don't know.",
-       "offsets": [
-        [
-         12,
-         14
-        ]
-       ]
+       "name": "Albanian pluralia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
-     "links": []
+     "examples": [],
+     "links": [
+      "mind"
+     ]
     }
    ],
-   "rank": 103,
-   "count": 13822,
-   "family": "së",
+   "rank": 309,
+   "count": 3426,
+   "family": "mend",
    "is_root": true,
-   "etymology": "See alternative form s' (“not, don't”) for adverb së for etymology.",
+   "etymology": "From Proto-Indo-European *men- (“to think; mind”). Alternatively, though less likely, Orel claims a borrowing from Latin mentem (“mind”), ultimately from the same Indo-European root.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "That's kind of a no-brainer.",
+    "score": [
+     0,
+     5,
+     -5,
+     4
+    ],
+    "sq": "Kjo nuk do shumë mend."
+   }
+  },
+  {
+   "id": "mendoj",
+   "sq": "mendoj",
+   "en": "to think",
+   "glosses": [
+    "to think"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to think",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "think"
+     ]
+    }
+   ],
+   "rank": 95,
+   "count": 15110,
+   "family": "mend",
+   "is_root": false,
+   "etymology": "From mend + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mend",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "menduar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "What do I think?",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Çfarë mendoj unë?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "menduar",
+   "sq": "menduar",
+   "en": "think, past form (from mendoj, to think)",
+   "glosses": [
+    "think, past form (from mendoj, to think)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "think, past form (from mendoj, to think)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "mendoj"
+    }
+   ],
+   "rank": 336,
+   "count": 3082,
+   "family": "mend",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -88,33 +233,43 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "nuk",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What were you thinking?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë u keni menduar?"
+   }
   },
   {
-   "id": "tek",
-   "sq": "tek",
-   "en": "there, where",
+   "id": "mendoja",
+   "sq": "mendoja",
+   "en": "I (used to) thought (from mendoj, to think)",
    "glosses": [
-    "there, where"
+    "I (used to) thought (from mendoj, to think)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "there, where",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (used to) thought (from mendoj, to think)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "imperfect",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -123,7 +278,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 22 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -136,160 +291,137 @@
       }
      ],
      "examples": [],
-     "links": [
-      "over",
-      "there",
-      "where"
-     ]
+     "is_form_of": "mendoj"
     }
    ],
-   "rank": 104,
-   "count": 13539,
-   "family": "tek",
-   "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *tai ̊, from *te ku (< *tóy- kʷu- (“there where”)), from Proto-Indo-European *to- (“it”). Also occurs as a preposition with the meaning ‘ad, apud, prope, versus’. See also te.",
-   "etymology_class": "inherited",
+   "rank": 417,
+   "count": 2510,
+   "family": "mend",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "it"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "te",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "We come to you!",
+    "en": "That made me think.",
     "score": [
-     1,
-     4,
-     -3,
+     0,
+     5,
+     -5,
      10
     ],
-    "sq": "Ne vijmë tek ju!"
+    "sq": "Kjo më bëri të mendoja."
    }
   },
   {
-   "id": "vërtetë",
-   "sq": "vërtetë",
-   "en": "true, real",
+   "id": "mendja",
+   "sq": "mendja",
+   "en": "the mind, singular (from mendje)",
    "glosses": [
-    "true, real",
-    "genuine, authentic"
+    "the mind, singular (from mendje)"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "true, real",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "true",
-      "real"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "genuine, authentic",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the mind, singular (from mendje)",
+     "tags": [
+      "definite",
+      "feminine",
+      "form-of",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 77"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "genuine",
-      "authentic"
-     ]
+     "is_form_of": "mendje"
     }
    ],
-   "rank": 107,
-   "count": 13193,
-   "family": "vërtetë",
-   "is_root": true,
-   "etymology": "From Latin vēritās, vēritātem.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin vēritās",
+   "rank": 827,
+   "count": 1180,
+   "family": "mend",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "vërtetësi"
-   ],
-   "related": [
-    "vërteta"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "It's true.",
+    "en": "You are not your mind.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      5
     ],
-    "sq": "Është e vërtetë."
+    "sq": "Ju nuk jeni mendja juaj."
    }
   },
   {
-   "id": "përsëri",
-   "sq": "përsëri",
-   "en": "again",
+   "id": "mendje",
+   "sq": "mendje",
+   "en": "mind",
    "glosses": [
-    "again"
+    "mind"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "again",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mind",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -299,54 +431,64 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "again"
+      "mind"
      ]
     }
    ],
-   "rank": 231,
-   "count": 5372,
-   "family": "së",
+   "rank": 1062,
+   "count": 890,
+   "family": "mend",
    "is_root": false,
-   "etymology": "From për- + së + ri.",
-   "etymology_class": "compound",
+   "etymology": "From mend + -je, from Proto-Indo-European *men- (“to think”). Compare Latin mens, mentem (“mind”) Old English ġemynd (“mind”), Old High German gimunt (“mind, memory”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "për",
-     "role": "prefix"
+     "word": "mend",
+     "role": "base",
+     "en": "mind"
     },
     {
-     "word": "së",
-     "role": "stem"
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "mendje",
+     "tag": "plural"
+    },
+    {
+     "form": "mendja",
+     "tag": "definite"
+    },
+    {
+     "form": "mend",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "QED",
-    "en": "Come back!",
+    "en": "Don't mind them.",
     "score": [
      0,
      3,
      -3,
      5
     ],
-    "sq": "Të vijnë përsëri!"
+    "sq": "Mos mendje ato."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   }
  ]
 }

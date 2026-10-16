@@ -1,42 +1,183 @@
 {
  "level": 68,
- "title": "kam (continued)",
- "root": "kam",
- "root_gloss": "to have",
+ "title": "shok, ende, ndodhi",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "kam"
+  "ende",
+  "ndodhi",
+  "shok"
  ],
  "pos_mix": {
-  "verb": 5
+  "noun": 12,
+  "adv": 1
  },
  "words": [
   {
-   "id": "ketë",
-   "sq": "ketë",
-   "en": "he/she/it have (from kam, to have)",
+   "id": "shoku",
+   "sq": "shoku",
+   "en": "the male friend, singular (from shok)",
    "glosses": [
-    "he/she/it have (from kam, to have)"
+    "the male friend, singular (from shok)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it have (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the male friend, singular (from shok)",
      "tags": [
+      "definite",
       "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
+      "masculine",
+      "nominative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 27 24 24"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 27 24 24"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "shok"
+    }
+   ],
+   "rank": 235,
+   "count": 5136,
+   "family": "shok",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Your friend.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Ai është shoku juaj."
+   }
+  },
+  {
+   "id": "ende",
+   "sq": "ende",
+   "en": "still, yet, therefore",
+   "glosses": [
+    "still, yet, therefore"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "still, yet, therefore",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 19 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "still",
+      "yet",
+      "therefore"
+     ]
+    }
+   ],
+   "rank": 236,
+   "count": 5126,
+   "family": "ende",
+   "is_root": true,
+   "etymology": "Historically identical with edhe. Compare Danish end (“but”), Icelandic enn (“still, yet”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And he's not done yet.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Dhe ai nuk është bërë ende."
+   }
+  },
+  {
+   "id": "ndodhi",
+   "sq": "ndodhi",
+   "en": "event, occurrence",
+   "glosses": [
+    "event, occurrence"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "event, occurrence",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -59,13 +200,16 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "event",
+      "occurrence"
+     ]
     }
    ],
-   "rank": 245,
-   "count": 4862,
-   "family": "kam",
-   "is_root": false,
+   "rank": 238,
+   "count": 5016,
+   "family": "ndodhi",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -74,40 +218,82 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "ndodhi",
+     "tag": "plural"
+    },
+    {
+     "form": "ndodhia",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "There may be.",
+    "corpus": "GlobalVoices",
+    "en": "How did this happen?",
     "score": [
      0,
      3,
      -3,
-     10
+     3
     ],
-    "sq": "Mund të ketë."
+    "sq": "Si ndodhi kjo?"
    }
   },
   {
-   "id": "pasur",
-   "sq": "pasur",
-   "en": "have, past form (from kam, to have)",
+   "id": "shok",
+   "sq": "shok",
+   "en": "male friend",
    "glosses": [
-    "have, past form (from kam, to have)"
+    "male friend",
+    "boyfriend",
+    "comrade"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "have, past form (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "male friend",
      "tags": [
-      "form-of",
-      "participle"
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 44 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 44 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "friend"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "boyfriend",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
@@ -115,121 +301,157 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "46 54"
+       "_dis": "8 46 46"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 44 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 44 44"
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 264,
-   "count": 4416,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "Standard Albanian variant of alternative participles patur, pasë, pat. Compound of pasë + -ur (Tosk participle suffix). See pata (“I had”) (aorist form of kam (“I have”)) for more.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "pasë",
-     "role": "base"
+     "links": [
+      "boyfriend"
+     ]
     },
     {
-     "word": "ur",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pasun",
-     "tag": "alternative"
-    },
-    {
-     "form": "patur",
-     "tag": "alternative"
-    },
-    {
-     "form": "pat",
-     "tag": "alternative"
-    },
-    {
-     "form": "pas",
-     "tag": "alternative"
-    },
-    {
-     "form": "pasë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have had enough.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Unë kam pasur mjaft."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "kesh",
-   "sq": "kesh",
-   "en": "you (sg) have (from kam, to have)",
-   "glosses": [
-    "you (sg) have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) have (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "comrade",
      "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 46 46"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 44 44"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "12 44 44"
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "comrade"
+     ]
     }
    ],
-   "rank": 349,
-   "count": 2975,
-   "family": "kam",
+   "rank": 866,
+   "count": 1108,
+   "family": "shok",
+   "is_root": true,
+   "etymology": "Interpreted as singular of shoq, borrowed through Vulgar Latin from Latin socius. Compare Romanian soț (“husband”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shokë",
+     "tag": "plural"
+    },
+    {
+     "form": "shoku",
+     "tag": "definite"
+    },
+    {
+     "form": "shoqe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He is a friend.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Ai është shok."
+   }
+  },
+  {
+   "id": "shokët",
+   "sq": "shokët",
+   "en": "the male friend, plural (from shok)",
+   "glosses": [
+    "the male friend, plural (from shok)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the male friend, plural (from shok)",
+     "tags": [
+      "definite",
+      "form-of",
+      "masculine",
+      "nominative",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "shok"
+    }
+   ],
+   "rank": 982,
+   "count": 962,
+   "family": "shok",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -241,39 +463,40 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "You need to have incentives.",
+    "corpus": "HPLT",
+    "en": "My friends are dead.",
     "score": [
-     1,
-     4,
-     -3,
-     4
+     0,
+     6,
+     -6,
+     10
     ],
-    "sq": "Duhet te kesh nxitje."
+    "sq": "Shokët e mi janë të vdekur."
    }
   },
   {
-   "id": "ki",
-   "sq": "ki",
-   "en": "you (sg)! (from kam, to have)",
+   "id": "shokun",
+   "sq": "shokun",
+   "en": "the male friend, singular (from shok)",
    "glosses": [
-    "you (sg)! (from kam, to have)"
+    "the male friend, singular (from shok)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the male friend, singular (from shok)",
      "tags": [
+      "accusative",
+      "definite",
       "form-of",
-      "imperative",
-      "second-person",
+      "masculine",
       "singular"
      ],
      "cats": [
@@ -284,7 +507,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 57 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -297,12 +520,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "is_form_of": "shok"
     }
    ],
-   "rank": 869,
-   "count": 1107,
-   "family": "kam",
+   "rank": 1836,
+   "count": 471,
+   "family": "shok",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -314,93 +537,206 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "You won't.",
+    "corpus": "HPLT",
+    "en": "Me and my friend.",
     "score": [
      1,
-     3,
-     -2,
-     5
+     5,
+     -4,
+     10
     ],
-    "sq": "Jo. Ki besim!"
+    "sq": "Mua dhe atë shokun tim."
    }
   },
   {
-   "id": "kenë",
-   "sq": "kenë",
-   "en": "they have (from kam, to have)",
+   "id": "shoqëri",
+   "sq": "shoqëri",
+   "en": "society",
    "glosses": [
-    "they have (from kam, to have)"
+    "society",
+    "friendship",
+    "group, circle of friends",
+    "association, organizatë",
+    "business partnership"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they have (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "society",
      "tags": [
-      "form-of",
-      "plural",
-      "present",
-      "subjunctive",
-      "third-person"
+      "feminine"
      ],
      "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "shoqëria njerëzore",
+       "en": "human society",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "society"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "friendship",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "friendship"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "group, circle of friends",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "3 2 65 17 14"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "2 2 86 9 1"
+      }
+     ],
+     "examples": [
       {
-       "name": "Pages with entries",
+       "sq": "shoqëri e vërtetë",
+       "en": "true friends",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "group",
+      "circle",
+      "friends"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "association, organizatë",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ëri",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 6 25 57 5"
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "association",
+      "organizatë"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "business partnership",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "business",
+      "partnership"
+     ]
     }
    ],
-   "rank": 1102,
-   "count": 852,
-   "family": "kam",
+   "rank": 2004,
+   "count": 432,
+   "family": "shok",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From shok + -ëri.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
+   "components": [
+    {
+     "word": "shok",
+     "role": "base"
+    },
+    {
+     "word": "ëri",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "shoqëri me përgjegjësi të kufizuar"
+   ],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "They may.",
-    "score": [
-     1,
-     4,
-     -3,
-     5
-    ],
-    "sq": "Edhe mund të kenë."
-   }
+   "forms": [
+    {
+     "form": "shoqëri",
+     "tag": "plural"
+    },
+    {
+     "form": "shoqëria",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
- ],
- "continues": [
-  "kam"
  ]
 }

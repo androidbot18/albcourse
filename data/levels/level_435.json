@@ -1,46 +1,265 @@
 {
  "level": 435,
- "title": "shkel, legjendë, mprehtë +3",
+ "title": "fil, universitet, fis +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "braktis",
-  "hipi",
-  "legjendë",
-  "mprehtë",
-  "shkel",
-  "ujk"
+  "fil",
+  "fis",
+  "intervistë",
+  "universitet"
  ],
  "pos_mix": {
-  "verb": 5,
-  "noun": 2,
-  "adj": 1
+  "noun": 15
  },
  "words": [
   {
-   "id": "shkel",
-   "sq": "shkel",
-   "en": "to tread upon",
+   "id": "fil",
+   "sq": "fil",
+   "en": "elephant",
    "glosses": [
-    "to tread upon",
-    "to break (law)"
+    "elephant",
+    "bishop",
+    "gunwale"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to tread upon",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "elephant",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Nautical",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Nautical",
+       "langcode": "sq",
+       "_dis": "31 38 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "elephant"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bishop",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chess",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 91 5"
+      },
+      {
+       "name": "Chess",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Chess",
+       "langcode": "sq",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chess",
+      "bishop"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gunwale",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Nautical",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Nautical",
+       "langcode": "sq",
+       "_dis": "31 38 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "gunwale"
+     ]
+    }
+   ],
+   "rank": 4633,
+   "count": 164,
+   "family": "fil",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish فیل (fil).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "fildish"
+   ],
+   "forms": [
+    {
+     "form": "filë",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "universitet",
+   "sq": "universitet",
+   "en": "university (institution of higher education)",
+   "glosses": [
+    "university (institution of higher education)",
+    "students and staff on a university; the building of the institution"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "university (institution of higher education)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "university"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "students and staff on a university; the building of the institution",
+     "tags": [
+      "collective",
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 72"
+      },
+      {
+       "name": "Pages with 13 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 67"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 82"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "students",
+      "staff",
+      "building"
+     ]
+    }
+   ],
+   "rank": 4653,
+   "count": 163,
+   "family": "universitet",
+   "is_root": true,
+   "etymology": "From German Universität.",
+   "etymology_class": "derived",
+   "source_lang": "de",
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "I work at a university.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Unë punoj në universitet."
+   }
+  },
+  {
+   "id": "fisnik",
+   "sq": "fisnik",
+   "en": "noble",
+   "glosses": [
+    "noble",
+    "aristocrat"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "noble",
      "tags": [],
      "cats": [
       {
@@ -48,90 +267,103 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "95 5"
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -nik",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 37"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "96 4"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "97 3"
+       "_dis": "82 18"
       }
      ],
      "examples": [],
      "links": [
-      "tread",
-      "upon"
+      "noble"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to break (law)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "aristocrat",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "break"
+      "aristocrat"
      ]
     }
    ],
-   "rank": 4695,
-   "count": 162,
-   "family": "shkel",
-   "is_root": true,
-   "etymology": "A variant of shkal.",
-   "etymology_class": null,
+   "rank": 4663,
+   "count": 163,
+   "family": "fis",
+   "is_root": false,
+   "etymology": "From fis (“clan, tribe”) + -nik.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [
-    "shkelm",
-    "shkelb",
-    "shkelc",
-    "shklesë"
+   "components": [
+    {
+     "word": "fis",
+     "role": "base"
+    },
+    {
+     "word": "nik",
+     "role": "suffix"
+    }
    ],
-   "related": [],
+   "derived": [
+    "fisnikëria"
+   ],
+   "related": [
+    "farë",
+    "farefis"
+   ],
    "forms": [
     {
-     "form": "shkela",
-     "tag": "aorist"
+     "form": "fisnikë",
+     "tag": "plural"
     },
     {
-     "form": "shkelur",
-     "tag": "participle"
-    },
-    {
-     "form": "shklas",
-     "tag": "alternative"
+     "form": "fisniku",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "The agreement was violated in Chameria.",
+    "corpus": "HPLT",
+    "en": "However, the risk is noble!",
     "score": [
-     2,
-     6,
-     -4,
-     8
+     1,
+     4,
+     -3,
+     10
     ],
-    "sq": "Kjo marrëveshje u shkel në Çamëri."
-   }
+    "sq": "megjithatë, rreziku është fisnik!"
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "legjendë",
-   "sq": "legjendë",
-   "en": "legend",
+   "id": "intervistë",
+   "sq": "intervistë",
+   "en": "interview",
    "glosses": [
-    "legend"
+    "interview"
    ],
    "pos": [
     "noun"
@@ -143,84 +375,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "legend",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "legend"
-     ]
-    }
-   ],
-   "rank": 4697,
-   "count": 162,
-   "family": "legjendë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "legjenda",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "legend and magic.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "legjendë dhe magji."
-   }
-  },
-  {
-   "id": "mprehtë",
-   "sq": "mprehtë",
-   "en": "sharp, witty",
-   "glosses": [
-    "sharp, witty"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "sharp, witty",
+     "gloss": "interview",
      "tags": [],
      "cats": [
       {
@@ -244,17 +399,16 @@
      ],
      "examples": [],
      "links": [
-      "sharp",
-      "witty"
+      "interview"
      ]
     }
    ],
-   "rank": 4703,
-   "count": 161,
-   "family": "mprehtë",
+   "rank": 4664,
+   "count": 163,
+   "family": "intervistë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Italian intervista.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -264,53 +418,67 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is a sharp question.",
+    "en": "love this interview!",
     "score": [
      0,
-     6,
-     -6,
+     3,
+     -3,
      10
     ],
-    "sq": "Kjo është një pyetje e mprehtë."
+    "sq": "Dua këtë intervistë!"
    }
   },
   {
-   "id": "braktis",
-   "sq": "braktis",
-   "en": "to abandon, leave",
+   "id": "fisnike",
+   "sq": "fisnike",
+   "en": "noblewoman",
    "glosses": [
-    "to abandon, leave",
-    "to quit, leave off"
+    "noblewoman",
+    "female aristocrat"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to abandon, leave",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "noblewoman",
      "tags": [
-      "transitive"
+      "feminine"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -e",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "abandon",
-      "leave"
+      "noblewoman"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to quit, leave off",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "female aristocrat",
      "tags": [
-      "transitive"
+      "feminine"
      ],
      "cats": [
       {
@@ -318,87 +486,96 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 67"
+       "_dis": "10 90"
       },
       {
-       "name": "Albanian terms suffixed with -is",
+       "name": "Albanian terms suffixed with -e",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 67"
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 67"
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "quit",
-      "leave off"
+      "aristocrat"
      ]
     }
    ],
-   "rank": 4706,
-   "count": 161,
-   "family": "braktis",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish براقمق (bırakmak, “to leave; to quit, abandon”).",
-   "etymology_class": "borrowed",
+   "rank": 8364,
+   "count": 81,
+   "family": "fis",
+   "is_root": false,
+   "etymology": "fisnik + -e",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [
-    "braktisem",
-    "braktisje"
-   ],
-   "related": [],
-   "forms": [
+   "components": [
     {
-     "form": "braktisa",
-     "tag": "aorist"
+     "word": "fisnik",
+     "role": "base"
     },
     {
-     "form": "braktisur",
-     "tag": "participle"
+     "word": "e",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "farë",
+    "farefis"
+   ],
+   "forms": [
+    {
+     "form": "fisnike",
+     "tag": "plural"
+    },
+    {
+     "form": "fisnikja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "It breaks out of that clause.",
+    "corpus": "HPLT",
+    "en": "A noble solitude.",
     "score": [
-     0,
-     5,
-     -5,
-     5
+     1,
+     3,
+     -2,
+     10
     ],
-    "sq": "Ai e braktis këtë pjesë."
-   }
+    "sq": "Një vetmi fisnike."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "hipi",
-   "sq": "hipi",
-   "en": "to climb, mount, embark, rise",
+   "id": "fis",
+   "sq": "fis",
+   "en": "clan, tribe, large family",
    "glosses": [
-    "to climb, mount, embark, rise"
+    "clan, tribe, large family"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to climb, mount, embark, rise",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "clan, tribe, large family",
      "tags": [
-      "intransitive"
+      "masculine"
      ],
      "cats": [
       {
@@ -408,7 +585,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 23 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -422,52 +599,54 @@
      ],
      "examples": [],
      "links": [
-      "climb",
-      "mount",
-      "embark"
+      "clan",
+      "tribe",
+      "large"
      ]
     }
    ],
-   "rank": 4709,
-   "count": 161,
-   "family": "hipi",
+   "rank": 12862,
+   "count": 47,
+   "family": "fis",
    "is_root": true,
-   "etymology": "From hip.",
-   "etymology_class": null,
+   "etymology": "Possibly from\nAncient Greek φύσις (phúsis, “origin”) , although the auslaut doesn't follow the phonetic rules of loanwords into Albanian. Alternatively from Ancient Greek φῡλή (phūlḗ, “a union of individuals into a community”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "origin"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "hipa",
-     "tag": "aorist"
+     "form": "fise",
+     "tag": "plural"
     },
     {
-     "form": "hipur",
-     "tag": "participle"
+     "form": "fisi",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He rode in silence.",
+    "en": "We are a tribe.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Ai hipi në heshtje."
+    "sq": "Një fis jemi."
    }
   },
   {
-   "id": "ujk",
-   "sq": "ujk",
-   "en": "wolf",
+   "id": "fisnikëri",
+   "sq": "fisnikëri",
+   "en": "nobility",
    "glosses": [
-    "wolf"
+    "nobility"
    ],
    "pos": [
     "noun"
@@ -479,17 +658,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wolf",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "nobility",
+     "tags": [],
      "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -497,7 +668,13 @@
        "source": "w"
       },
       {
-       "name": "Pages using etymon with no ID",
+       "name": "Albanian terms suffixed with -ëri",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -505,55 +682,173 @@
      ],
      "examples": [],
      "links": [
-      "wolf"
+      "nobility"
      ]
     }
    ],
-   "rank": 4711,
-   "count": 161,
-   "family": "ujk",
-   "is_root": true,
-   "etymology": "From archaic and dialectal ulk, from Proto-Albanian *ulka, from Proto-Indo-European *wĺ̥kʷos. Compare Sanskrit वृक (vṛ́ka), Persian گرگ (gorg), Lithuanian vilkas, Russian волк (volk).",
-   "etymology_class": "inherited",
+   "rank": 38290,
+   "count": 10,
+   "family": "fis",
+   "is_root": false,
+   "etymology": "From fisnik + -ëri.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "fisnik",
+     "role": "base"
+    },
+    {
+     "word": "ëri",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Bonitas means integrity and nobleness.",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "Bonitasi do të thotë integritet dhe fisnikëri."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "farefis",
+   "sq": "farefis",
+   "en": "kind and tribe",
+   "glosses": [
+    "kind and tribe",
+    "ancestry, origin, roots",
+    "relative"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "kind and tribe",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 37 8"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "63 20 17"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 12 10"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kind",
+      "tribe"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ancestry, origin, roots",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ancestry",
+      "origin",
+      "roots"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "relative",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "relative"
+     ]
+    }
+   ],
+   "rank": 43449,
+   "count": 8,
+   "family": "fis",
+   "is_root": false,
+   "etymology": "From farë (“seed, semen”) + fis (“clan, tribe”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "farë",
+     "role": "prefix"
+    },
+    {
+     "word": "fis",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "ujq",
+     "form": "farefise",
      "tag": "plural"
     },
     {
-     "form": "ujku",
+     "form": "farefisi",
      "tag": "definite"
-    },
-    {
-     "form": "uk",
-     "tag": "alternative"
-    },
-    {
-     "form": "auk",
-     "tag": "alternative"
-    },
-    {
-     "form": "ouk",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is the war between werewolf and vampire.",
+    "en": "He was even related to the dictator Batista.",
     "score": [
-     0,
-     7,
-     -7,
+     3,
+     6,
+     -3,
      10
     ],
-    "sq": "Kjo është lufta mes ujk dhe vampir."
-   }
+    "sq": "Madje ishte farefis, me diktatorin Batista."
+   },
+   "breakdown": "historical"
   }
  ]
 }

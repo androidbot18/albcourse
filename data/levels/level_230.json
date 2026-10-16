@@ -1,39 +1,39 @@
 {
  "level": 230,
- "title": "nxehtë, krejt",
+ "title": "tej, borxh",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "krejt",
-  "nxehtë"
+  "borxh",
+  "tej"
  ],
  "pos_mix": {
-  "adj": 1,
-  "adv": 2,
-  "noun": 2
+  "adv": 5,
+  "noun": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "nxehtë",
-   "sq": "nxehtë",
-   "en": "hot, warm",
+   "id": "andej",
+   "sq": "andej",
+   "en": "thither, on that way, over there",
    "glosses": [
-    "hot, warm"
+    "thither, on that way, over there"
    ],
    "pos": [
-    "adj"
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "hot, warm",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "thither, on that way, over there",
      "tags": [],
      "cats": [
       {
@@ -57,23 +57,198 @@
      ],
      "examples": [],
      "links": [
-      "hot",
-      "warm"
+      "thither",
+      "on",
+      "that"
      ]
     }
    ],
-   "rank": 1100,
-   "count": 854,
-   "family": "nxehtë",
-   "is_root": true,
-   "etymology": "From nxej (“to heat”) + të (adjective-forming suffix).",
-   "etymology_class": "affix",
+   "rank": 1080,
+   "count": 872,
+   "family": "tej",
+   "is_root": false,
+   "etymology": "From anë + tej (cf. këndej, përtej).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "të",
+     "word": "anë",
+     "role": "prefix"
+    },
+    {
+     "word": "tej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "anej",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Why, right?",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Pse nuk iku prej andej?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "borxh",
+   "sq": "borxh",
+   "en": "loan (of money)",
+   "glosses": [
+    "loan (of money)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "loan (of money)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "loan"
+     ]
+    }
+   ],
+   "rank": 1083,
+   "count": 869,
+   "family": "borxh",
+   "is_root": true,
+   "etymology": "From Proto-Germanic *burgōną (“to pledge, take care of”). Compare Old English borgian (“to borrow, lend, pledge surety for”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "borxhe",
+     "tag": "plural"
+    },
+    {
+     "form": "borxhi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And you have this debt.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Dhe ti ke këtë borxh."
+   }
+  },
+  {
+   "id": "përtej",
+   "sq": "përtej",
+   "en": "beyond, on the other side",
+   "glosses": [
+    "beyond, on the other side"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beyond, on the other side",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beyond",
+      "on",
+      "the"
+     ]
+    }
+   ],
+   "rank": 1599,
+   "count": 548,
+   "family": "tej",
+   "is_root": false,
+   "etymology": "From për + tej.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "tej",
      "role": "stem"
     }
    ],
@@ -82,24 +257,24 @@
    "forms": [],
    "corpus_example": {
     "corpus": "TED2020",
-    "en": "Too hot, too hot.",
+    "en": "I did that, but I went even further.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      4
     ],
-    "sq": "Shumë nxehtë, tepër nxehtë."
+    "sq": "Shkova përtej kësaj."
    },
    "breakdown": "historical"
   },
   {
-   "id": "krejt",
-   "sq": "krejt",
-   "en": "everything, at all",
+   "id": "tej",
+   "sq": "tej",
+   "en": "far",
    "glosses": [
-    "everything, at all",
-    "altogether, entirely"
+    "far",
+    "beyond"
    ],
    "pos": [
     "adv",
@@ -113,87 +288,18 @@
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "everything, at all",
+     "gloss": "far",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "everything",
-      "at all"
+      "far"
      ]
     },
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "altogether, entirely",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "altogether",
-      "entirely"
-     ]
-    }
-   ],
-   "rank": 1107,
-   "count": 848,
-   "family": "krejt",
-   "is_root": true,
-   "etymology": "From kreit, the definite ablative of krye (“head”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "head"
-   ],
-   "components": [],
-   "derived": [
-    "krejtësisht"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "kejt",
-     "tag": "alternative"
-    },
-    {
-     "form": "ket",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Totally special.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Krejt e veçantë."
-   }
-  },
-  {
-   "id": "nxehtësi",
-   "sq": "nxehtësi",
-   "en": "heat, hotness",
-   "glosses": [
-    "heat, hotness",
-    "heat, an emotionally heated situation"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "heat, hotness",
+     "gloss": "beyond",
      "tags": [],
      "cats": [
       {
@@ -201,86 +307,210 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "88 12"
-      },
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beyond"
+     ]
+    }
+   ],
+   "rank": 2026,
+   "count": 428,
+   "family": "tej",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tai e, a parallel formation to tëhu.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "përtej",
+    "përtejmë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "pertei",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Nothing further.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Asgjë më tej."
+   }
+  },
+  {
+   "id": "gjithandej",
+   "sq": "gjithandej",
+   "en": "everywhere, everyplace",
+   "glosses": [
+    "everywhere, everyplace"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "everywhere, everyplace",
+     "tags": [],
+     "cats": [
       {
-       "name": "Albanian terms suffixed with -ësi",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "62 38"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "heat",
-      "hotness"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "heat, an emotionally heated situation",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "heat",
-      "emotionally"
+      "everywhere",
+      "everyplace"
      ]
     }
    ],
-   "rank": 12313,
-   "count": 50,
-   "family": "nxehtë",
+   "rank": 2332,
+   "count": 359,
+   "family": "tej",
    "is_root": false,
-   "etymology": "From nxehtë + -ësi.",
+   "etymology": "From gjithë + andej.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "gjithë",
+     "role": "prefix"
+    },
+    {
+     "word": "andej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "So it was everywhere.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Kështu ajo ishte gjithandej."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "tejkaloj",
+   "sq": "tejkaloj",
+   "en": "to surpass, exceed",
+   "glosses": [
+    "to surpass, exceed"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to surpass, exceed",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with tej-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "surpass",
+      "exceed"
+     ]
+    }
+   ],
+   "rank": 28122,
+   "count": 16,
+   "family": "tej",
+   "is_root": false,
+   "etymology": "From tej- + kaloj.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "nxehtë",
-     "role": "base",
-     "en": "hot"
+     "word": "tej",
+     "role": "prefix"
     },
     {
-     "word": "ësi",
-     "role": "suffix",
-     "affix": "si",
-     "meaning": "-ness, -ity"
+     "word": "kaloj",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "nxehtësia",
-     "tag": "definite"
+     "form": "tejkalova",
+     "tag": "aorist"
+    },
+    {
+     "form": "tejkaluar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Accordingly, less heat is released.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Prandaj, lëshohet më pak nxehtësi."
-   },
-   "breakdown": "transparent"
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ]
 }

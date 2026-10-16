@@ -1,107 +1,173 @@
 {
  "level": 155,
- "title": "gjak, gjesh",
- "root": "",
- "root_gloss": "",
+ "title": "bie",
+ "root": "bie",
+ "root_gloss": "to fall (off)",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "gjak",
-  "gjesh"
+  "bie"
  ],
  "pos_mix": {
-  "noun": 2,
-  "verb": 1
+  "verb": 9
  },
  "words": [
   {
-   "id": "gjak",
-   "sq": "gjak",
-   "en": "blood",
+   "id": "bie",
+   "sq": "bie",
+   "en": "to fall (off)",
    "glosses": [
-    "blood"
+    "to fall (off)",
+    "to tumble, flop",
+    "to beat, punch",
+    "to strike, punch",
+    "to bring",
+    "to deliver"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "blood",
-     "tags": [
-      "masculine"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fall (off)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po bie në gjumë.",
+       "en": "I'm going to fall asleep.",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      }
      ],
+     "links": [
+      "fall",
+      "off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tumble, flop",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tumble",
+      "flop"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to beat, punch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beat",
+      "punch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to strike, punch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "strike",
+      "punch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bring",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Lithuanian links with redundant target parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 11 11 11 35 19"
       }
      ],
      "examples": [],
      "links": [
-      "blood"
+      "bring"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to deliver",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deliver"
      ]
     }
    ],
-   "rank": 702,
-   "count": 1438,
-   "family": "gjak",
+   "rank": 699,
+   "count": 1445,
+   "family": "bie",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ǵákə, from earlier Proto-Albanian *źaka, from Proto-Indo-European *sokʷos (“sap, resin”). Compare Lithuanian sakai̇̃ (“resin”), Ancient Greek ὀπός (opós, “sap”), Proto-Slavic *sokъ (“juice”). For the sense development from \"sap, juice\" > \"blood\", note the unrelated Tagalog dugo (“blood”).",
+   "etymology": "From dialectal bjej, bjer, from Proto-Albanian *bera, from Proto-Indo-European *bʰerH- (“to strike”) (compare Old English berian, Latin ferīre).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "bie me dorë"
+   ],
+   "related": [
+    "mbaj",
+    "mbar",
+    "mbaroj"
+   ],
    "forms": [
     {
-     "form": "gjakra",
-     "tag": "plural"
+     "form": "prura",
+     "tag": "aorist"
     },
     {
-     "form": "gjaku",
-     "tag": "definite"
+     "form": "prurë",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "blood in this game.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "gjak në këtë lojë."
-   }
+   "corpus_example": null
   },
   {
-   "id": "gjesh",
-   "sq": "gjesh",
-   "en": "to gird",
+   "id": "rënë",
+   "sq": "rënë",
+   "en": "fall, past form (from bie, to fall)",
    "glosses": [
-    "to gird"
+    "fall, past form (from bie, to fall)"
    ],
    "pos": [
     "verb"
@@ -113,17 +179,15 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to gird",
-     "tags": [],
+     "gloss": "fall, past form (from bie, to fall)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -133,19 +197,23 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "gird"
-     ]
+     "is_form_of": "bie"
     }
    ],
-   "rank": 709,
-   "count": 1432,
-   "family": "gjesh",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *(V)iōś-, from Proto-Indo-European *yeh₃s- (“to gird”). Cognate to Ancient Greek ζώννυμι (zṓnnumi, “to gird”) and Old Church Slavonic по-ꙗсати (po-jasati, “to gird”).",
+   "rank": 928,
+   "count": 1028,
+   "family": "bie",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -153,46 +221,37 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "gjesha",
-     "tag": "aorist"
-    },
-    {
-     "form": "gjeshur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Can't find anything?",
+    "en": "You have fallen too low.",
     "score": [
      0,
-     5,
-     -5,
+     4,
+     -4,
      10
     ],
-    "sq": "Nuk mund të gjesh asgjë?"
+    "sq": "Ke rënë shumë poshtë."
    }
   },
   {
-   "id": "gjakpirës",
-   "sq": "gjakpirës",
-   "en": "leech (annelid)",
+   "id": "ramë",
+   "sq": "ramë",
+   "en": "we (have done) fall (from bie, to fall)",
    "glosses": [
-    "leech (annelid)"
+    "we (have done) fall (from bie, to fall)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "leech (annelid)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we (have done) fall (from bie, to fall)",
      "tags": [],
      "cats": [
       {
@@ -216,42 +275,106 @@
      ],
      "examples": [],
      "links": [
-      "leech"
-     ]
+      "bie"
+     ],
+     "is_form_of": "bie"
     }
    ],
-   "rank": 23903,
-   "count": 20,
-   "family": "gjak",
+   "rank": 5646,
+   "count": 130,
+   "family": "bie",
    "is_root": false,
-   "etymology": "From gjak (“blood”) + pirës (“drinker”) (from pi).",
-   "etymology_class": "compound",
+   "etymology": "Inflection of bie.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "blood",
-    "drinker"
-   ],
-   "components": [
-    {
-     "word": "gjak",
-     "role": "prefix"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We disagreed on many points.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Në shumë pika nuk ramë dakord."
+   }
+  },
+  {
+   "id": "ranë",
+   "sq": "ranë",
+   "en": "they (have done) fall (from bie, to fall)",
+   "glosses": [
+    "they (have done) fall (from bie, to fall)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
     {
-     "form": "gjakpirës",
-     "tag": "plural"
-    },
-    {
-     "form": "gjakpirësi",
-     "tag": "definite"
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "they (have done) fall (from bie, to fall)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bie"
+     ],
+     "is_form_of": "bie"
     }
    ],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "rank": 6670,
+   "count": 106,
+   "family": "bie",
+   "is_root": false,
+   "etymology": "Inflection of bie.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Many people agreed.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Shumë njerëz ranë dakord."
+   }
   }
  ]
 }

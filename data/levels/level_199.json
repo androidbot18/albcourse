@@ -1,45 +1,42 @@
 {
  "level": 199,
- "title": "pranoj, zero, ndjerë",
+ "title": "pak, falë, tri",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 5,
  "families": [
-  "ndjerë",
-  "pranoj",
-  "zero"
+  "falë",
+  "pak",
+  "tri"
  ],
  "pos_mix": {
-  "verb": 2,
-  "num": 1,
+  "adv": 2,
   "prep": 1,
-  "adj": 1,
-  "noun": 1
+  "num": 1,
+  "noun": 2
  },
  "words": [
   {
-   "id": "pranoj",
-   "sq": "pranoj",
-   "en": "to accept",
+   "id": "aspak",
+   "sq": "aspak",
+   "en": "absolutely not, not at all",
    "glosses": [
-    "to accept"
+    "absolutely not, not at all"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to accept",
-     "tags": [
-      "transitive"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "absolutely not, not at all",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -48,13 +45,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms prefixed with as-",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,68 +59,66 @@
      ],
      "examples": [],
      "links": [
-      "accept"
+      "absolutely",
+      "not"
      ]
     }
    ],
-   "rank": 945,
-   "count": 1005,
-   "family": "pranoj",
-   "is_root": true,
-   "etymology": "Possibly from pranë (“close”).",
-   "etymology_class": null,
+   "rank": 1056,
+   "count": 893,
+   "family": "pak",
+   "is_root": false,
+   "etymology": "From as- (“not, neither”) + pak (“a little”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "close"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "parents": [],
+   "components": [
     {
-     "form": "pranova",
-     "tag": "aorist"
+     "word": "as",
+     "role": "prefix"
     },
     {
-     "form": "pranuar",
-     "tag": "participle"
+     "word": "pak",
+     "role": "stem"
     }
    ],
+   "derived": [],
+   "related": [],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I admit it.",
+    "corpus": "MaCoCu",
+    "en": "Not friendly at all.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     8
     ],
-    "sq": "Unë e pranoj atë."
-   }
+    "sq": "Aspak të mirë."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "pranuar",
-   "sq": "pranuar",
-   "en": "accept, past form (from pranoj, to accept)",
+   "id": "falë",
+   "sq": "falë",
+   "en": "thanks to, owing to",
    "glosses": [
-    "accept, past form (from pranoj, to accept)"
+    "thanks to, owing to"
    ],
    "pos": [
-    "verb"
+    "prep"
    ],
    "pos_labels": [
-    "verb"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "accept, past form (from pranoj, to accept)",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "thanks to, owing to",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "with-ablative"
      ],
      "cats": [
       {
@@ -133,26 +128,29 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "pranoj"
+     "links": [
+      "thanks to",
+      "owing to"
+     ]
     }
    ],
-   "rank": 1910,
-   "count": 453,
-   "family": "pranoj",
-   "is_root": false,
+   "rank": 1227,
+   "count": 741,
+   "family": "falë",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -164,22 +162,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is received?",
+    "en": "And it happened thanks to her!",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Çfarë është pranuar?"
+    "sq": "Dhe kjo ndodhi falë saj!"
    }
   },
   {
-   "id": "zero",
-   "sq": "zero",
-   "en": "zero (cardinal number before 1, denoting nothing)",
+   "id": "tri",
+   "sq": "tri",
+   "en": "three",
    "glosses": [
-    "zero (cardinal number before 1, denoting nothing)"
+    "three"
    ],
    "pos": [
     "num"
@@ -191,187 +189,79 @@
     {
      "pos": "num",
      "pos_label": "numeral",
-     "gloss": "zero (cardinal number before 1, denoting nothing)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "zero"
-     ]
-    }
-   ],
-   "rank": 2480,
-   "count": 336,
-   "family": "zero",
-   "is_root": true,
-   "etymology": "(This etymology is missing or incomplete. Please add to it, or discuss it at the Etymology scriptorium. )",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "xero",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Eight games, zero minutes.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Tetë ndeshje, zero minuta."
-   }
-  },
-  {
-   "id": "ndjerë",
-   "sq": "ndjerë",
-   "en": "until, at, near(ly)",
-   "glosses": [
-    "until, at, near(ly)",
-    "dear, gone, dead"
-   ],
-   "pos": [
-    "prep",
-    "adj"
-   ],
-   "pos_labels": [
-    "preposition",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "until, at, near(ly)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "until",
-      "at",
-      "near"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "dear, gone, dead",
+     "gloss": "three",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 35 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "dear",
-      "gone",
-      "dead"
+      "three"
      ]
     }
    ],
-   "rank": 2686,
-   "count": 307,
-   "family": "ndjerë",
+   "rank": 1260,
+   "count": 715,
+   "family": "tri",
    "is_root": true,
-   "etymology": "From Proto-Albanian *a/N(e)dri, from Proto-Indo-European *mé-ǵʰ(s)ri (locative) from *me (“with”). Cognate to Ancient Greek μέχρι (mékhri), Old Armenian մերձ (merj), and doublet of me as well related to dorë.",
+   "etymology": "From Proto-Albanian *trī(-ā), from Proto-Indo-European *tríh₂ (“three”). Cognate to Ancient Greek τρία (tría, “three”) and Latin tria (“three”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "with"
+    "three"
    ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "ndjerëe",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How did you feel?",
+    "corpus": "MaCoCu",
+    "en": "3 weeks war!",
     "score": [
      0,
      3,
      -3,
-     10
+     8
     ],
-    "sq": "Si jeni ndjerë?"
+    "sq": "Tri javë luftë!"
    }
   },
   {
-   "id": "pranim",
-   "sq": "pranim",
-   "en": "acceptance, approval, admission",
+   "id": "paksa",
+   "sq": "paksa",
+   "en": "a little, a bit",
    "glosses": [
-    "acceptance, approval, admission"
+    "a little, a bit"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "acceptance, approval, admission",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "a little, a bit",
      "tags": [],
      "cats": [
       {
@@ -381,13 +271,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Pages with 6 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -395,49 +285,160 @@
      ],
      "examples": [],
      "links": [
-      "acceptance",
-      "approval",
-      "admission"
+      "a little",
+      "a bit"
      ]
     }
    ],
-   "rank": 8285,
-   "count": 82,
-   "family": "pranoj",
+   "rank": 1607,
+   "count": 546,
+   "family": "pak",
    "is_root": false,
-   "etymology": "From pranoj + -im.",
+   "etymology": "From pak (“little, a few”) + sa (“how much”).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "pranoj",
-     "role": "base",
-     "en": "to accept"
+     "word": "pak",
+     "role": "prefix"
     },
     {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "word": "sa",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Roger that.",
+    "corpus": "HPLT",
+    "en": "slightly lower.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "paksa më e ulët."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "pakicë",
+   "sq": "pakicë",
+   "en": "smallest part of something; minority",
+   "glosses": [
+    "smallest part of something; minority",
+    "minority"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "smallest part of something; minority",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "smallest",
+      "part"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "minority",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Politics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Politics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Albanian terms suffixed with -icë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 58"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "politics",
+      "minority"
+     ]
+    }
+   ],
+   "rank": 27218,
+   "count": 17,
+   "family": "pak",
+   "is_root": false,
+   "etymology": "From pak (“few, little”) + -icë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pak",
+     "role": "base"
+    },
+    {
+     "word": "icë",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Wholesale & Retail.",
     "score": [
      0,
-     3,
-     -3,
-     5
+     4,
+     -4,
+     10
     ],
-    "sq": "Pranim. E kuptova."
+    "sq": "Me shumicë dhe pakicë."
    },
-   "breakdown": "transparent"
+   "breakdown": "historical"
   }
+ ],
+ "continues": [
+  "pak"
  ]
 }

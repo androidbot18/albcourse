@@ -152,9 +152,10 @@ else:
     # What a learner meets in the first week, which the frequency order
     # used to put at L56-L393 or leave out of the deck.
     for w, by in (("përshëndetje", 1), ("po", 1), ("jo", 1), ("unë", 2),
-                  ("jam", 4), ("kam", 5), ("e", 6), ("një", 7),
+                  ("jam", 4), ("kam", 5), ("e", 21), ("një", 7),
                   ("dhjetë", 8), ("nënë", 9), ("bukë", 11), ("ujë", 11),
-                  ("sot", 13), ("çfarë", 16)):
+                  ("sot", 13), ("çfarë", 16), ("hënë", 22),
+                  ("mërkurë", 22), ("premte", 23), ("diel", 23)):
         check("%s is taught by L%d (L%s)" % (w, by, lvl_of.get(w)),
               lvl_of.get(w, 10 ** 9) <= by)
     # The opening takes only the present tense of jam; the past comes back.
@@ -167,6 +168,36 @@ else:
                      ("ka", "he/she/it has (from kam, to have)")):
         check("%s headlines %r (got %r)" % (w, gloss, card_of[w]["en"]),
               card_of[w]["en"] == gloss)
+    days = (("hënë", "Monday"), ("martë", "Tuesday"),
+            ("mërkurë", "Wednesday"), ("enjte", "Thursday"),
+            ("premte", "Friday"), ("shtunë", "Saturday"),
+            ("diel", "Sunday"))
+    for w, day in days:
+        check("%s is a card headlined %s, with its article (got %r)"
+              % (w, day, card_of.get(w, {}).get("en")),
+              (card_of.get(w, {}).get("en") or "").startswith(
+                  "%s (e %s; të " % (day, w)))
+    check("hënë keeps 'moon' as a later sense",
+          [s["gloss"] for s in card_of["hënë"]["sense_detail"]][1:2]
+          == ["moon"])
+    # "A pi drogë?" stays only under its own sense, "to take (drugs,
+    # medicine)", further down the card; it is no longer the card's example.
+    check("pi's example is the reviewed one, not 'A pi drogë?'",
+          card_of["pi"]["sense_detail"][0]["examples"][0]["sq"]
+          == "Unë pi kafe me qumësht."
+          and not card_of["pi"].get("corpus_example"))
+
+    # A reviewed example on an opening card is read in the first lessons,
+    # so every word in it must already be taught. `e`'s example used punoj
+    # and natë, both taught after it.
+    import gloss_overrides as go
+    for w, (_, sq, _) in sorted(go.EXAMPLES.items()):
+        if w not in curated:
+            continue
+        late = [(t, lvl_of.get(t)) for t in re.findall(r"[^\W\d_]+", sq.lower())
+                if lvl_of.get(t, 10 ** 9) > lvl_of[w]]
+        check("%s's example uses only words taught by L%d (late: %s)"
+              % (w, lvl_of[w], late), not late)
     e = card_of["e"]
     check("e's reviewed example is on its 'and' sense",
           e["sense_detail"][0]["examples"][:1]

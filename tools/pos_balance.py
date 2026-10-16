@@ -53,6 +53,21 @@ INCLUDE_PARTICLES = {
     "po",
 }
 
+# Wiktionary files most days of the week under the article: "e mërkurë",
+# "e premte", "e shtunë", "e diel" (and "e hënë" beside hënë, "moon"). A
+# card is one word, so those entries were skipped and the deck taught only
+# martë and enjte. Each entry here is read as a sense of its bare word,
+# which is what the frequency list counts; the reviewed gloss
+# (tools/gloss_overrides.py) puts the article back: "Wednesday (e mërkurë;
+# të mërkurën, on Wednesday)".
+ARTICLED_ENTRIES = {
+    "e hënë": "hënë",
+    "e mërkurë": "mërkurë",
+    "e premte": "premte",
+    "e shtunë": "shtunë",
+    "e diel": "diel",
+}
+
 EARLY_LEVELS = 10
 TARGET_NOUN_SHARE = 0.30
 MAX_RANK = 2000

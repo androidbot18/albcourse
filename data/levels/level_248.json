@@ -1,24 +1,25 @@
 {
  "level": 248,
- "title": "dash",
- "root": "dash",
- "root_gloss": "ram (male sheep)",
+ "title": "ëndërr",
+ "root": "ëndërr",
+ "root_gloss": "dream",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "dash"
+  "ëndërr"
  ],
  "pos_mix": {
-  "noun": 2
+  "noun": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "dash",
-   "sq": "dash",
-   "en": "ram (male sheep)",
+   "id": "ëndërr",
+   "sq": "ëndërr",
+   "en": "dream",
    "glosses": [
-    "ram (male sheep)"
+    "dream"
    ],
    "pos": [
     "noun"
@@ -30,9 +31,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ram (male sheep)",
+     "gloss": "dream",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -42,7 +43,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -56,15 +57,15 @@
      ],
      "examples": [],
      "links": [
-      "ram"
+      "dream"
      ]
     }
    ],
-   "rank": 35979,
-   "count": 11,
-   "family": "dash",
+   "rank": 1228,
+   "count": 741,
+   "family": "ëndërr",
    "is_root": true,
-   "etymology": "Potentially from Early Proto-Albanian *dauša, from Proto-Indo-European *dʰows-o-s (compare English deer, Lithuanian daũsos (“upper air; heaven”)).",
+   "etymology": "#From Proto-Albanian *anera, from Proto-Indo-European *dreH- (“sleep, to sleep”). The reconstruction is not entirely certain. Under the assumption of epenthetic -d- (within -nr-) the word may be linked with Ancient Greek ὄναρ (ónar), ὄνειρος (óneiros) and Old Armenian անուրջ (anurǰ).\n#From Late-Proto-Albanian *ándərrə \"dream\" < Proto-Albanian *andərnə < Early-Proto-Albanian *andrənnə < Pre-Proto-Albanian *andrā- < *anrā- < PIE *h₂(e)nra-h₂/*h₃(e)nra-h₂.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -74,51 +75,41 @@
    "related": [],
    "forms": [
     {
-     "form": "desh",
+     "form": "ëndrra",
      "tag": "plural"
-    },
-    {
-     "form": "dashi",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Happy birthday, Dash!",
+    "corpus": "QED",
+    "en": "It was no dream.",
     "score": [
-     1,
+     0,
      3,
-     -2,
-     10
+     -3,
+     5
     ],
-    "sq": "Gëzuar ditëlindjen, Dash!"
+    "sq": "Nuk ishte ëndërr."
    }
   },
   {
-   "id": "desh",
-   "sq": "desh",
-   "en": "ram, plural (from dash)",
+   "id": "ëndërroj",
+   "sq": "ëndërroj",
+   "en": "to dream",
    "glosses": [
-    "ram, plural (from dash)"
+    "to dream"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ram, plural (from dash)",
-     "tags": [
-      "accusative",
-      "form-of",
-      "indefinite",
-      "nominative",
-      "plural"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to dream",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -127,46 +118,71 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "dash"
+     "links": [
+      "dream"
+     ]
     }
    ],
-   "rank": 1241,
-   "count": 728,
-   "family": "dash",
+   "rank": 7725,
+   "count": 89,
+   "family": "ëndërr",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From ëndërr + -oj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "ëndërr",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "ëndërrova",
+     "tag": "aorist"
+    },
+    {
+     "form": "ëndërruar",
+     "tag": "participle"
+    },
+    {
+     "form": "andërroj",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And it took so long?",
+    "corpus": "GlobalVoices",
+    "en": "I've dreamed about it for some time.",
     "score": [
      0,
      6,
      -6,
-     10
+     3
     ],
-    "sq": "Dhe u desh kaq shumë kohë?"
-   }
+    "sq": "Kohë të gjatë e ëndërroj atë."
+   },
+   "breakdown": "historical"
   }
  ]
 }

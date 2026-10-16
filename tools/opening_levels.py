@@ -38,7 +38,7 @@ LEVELS = [
     ("To have",
      ["kam", "ke", "ka", "kemi", "keni", "kanë"]),
     ("Not, and, in, with, for",
-     ["nuk", "dhe", "e", "në", "me", "për"]),
+     ["nuk", "dhe", "në", "me", "për"]),
     ("One to five",
      ["një", "dy", "tre", "katër", "pesë"]),
     ("Six to ten",
@@ -55,8 +55,8 @@ LEVELS = [
      ["sot", "nesër", "dje", "tani", "mëngjes", "natë"]),
     ("Hours, weeks, years",
      ["kohë", "orë", "javë", "muaj", "vit", "mbrëmje"]),
-    ("Who, where, when, how, why",
-     ["kush", "ku", "kur", "si", "pse"]),
+    ("Who, where, when, how, why; here",
+     ["kush", "ku", "kur", "si", "pse", "këtu"]),
     ("What, which, how much",
      ["farë", "çfarë", "cili", "cila", "sa"]),
     ("Do, want, go, come, say, know",
@@ -65,10 +65,17 @@ LEVELS = [
      ["shoh", "flas", "marr", "jap", "kuptoj", "mund"]),
     ("Good and bad, big and small",
      ["keq", "bukur", "madh", "vogël", "ri", "vjetër"]),
-    ("Here, a lot, a little, but",
-     ["këtu", "shumë", "pak", "por", "edhe", "ose"]),
     ("Home, work, friends",
      ["shtëpi", "punë", "punoj", "mik", "emër"]),
+    # `e` ("and") comes last, beside the other conjunctions, so its example
+    # ("Punoj ditë e natë.") uses only words already taught.
+    ("And, but, or, also; a lot, a little",
+     ["e", "por", "ose", "edhe", "shumë", "pak"]),
+    # Days are said with their article (e hënë), so they follow `e`.
+    ("Monday to Thursday",
+     ["hënë", "martë", "mërkurë", "enjte"]),
+    ("Friday to Sunday",
+     ["premte", "shtunë", "diel"]),
 ]
 
 

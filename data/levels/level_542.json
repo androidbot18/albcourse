@@ -1,27 +1,31 @@
 {
  "level": 542,
- "title": "dhatë, financiar, hark",
+ "title": "kotele, funksion, picë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "dhatë",
-  "financiar",
-  "hark"
+  "djersitur",
+  "funksion",
+  "kotele",
+  "lezbike",
+  "mësohem",
+  "picë"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 1
+  "noun": 5,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "dhatë",
-   "sq": "dhatë",
-   "en": "place, location",
+   "id": "kotele",
+   "sq": "kotele",
+   "en": "kitten",
    "glosses": [
-    "place, location"
+    "kitten"
    ],
    "pos": [
     "noun"
@@ -33,7 +37,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "place, location",
+     "gloss": "kitten",
      "tags": [
       "feminine"
      ],
@@ -59,60 +63,75 @@
      ],
      "examples": [],
      "links": [
-      "place",
-      "location"
+      "kitten"
      ]
     }
    ],
-   "rank": 9893,
-   "count": 66,
-   "family": "dhatë",
+   "rank": 9796,
+   "count": 67,
+   "family": "kotele",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dʰh₁-teh₂, from Proto-Indo-European *dʰeh₁-, *dʰh₁- (“to place, put”). Cognate to Ancient Greek τίθημι (títhēmi, “to place”), Latin faciō (“to do, make”), Lithuanian dėti (“to put”), Sanskrit दधाति (dádhāti), Old English dōn (“to do”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Bulgarian ко́тел (kótel, “tomcat”), derivative of archaic кот (kot, “tomcat”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "tomcat"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhata",
+     "form": "kotele",
      "tag": "plural"
+    },
+    {
+     "form": "kotelja",
+     "tag": "definite"
+    },
+    {
+     "form": "kotelë",
+     "tag": "alternative"
+    },
+    {
+     "form": "kotole",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You gave me everything.",
+    "en": "Choosing a kitten.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      10
     ],
-    "sq": "Më dhatë gjithçka."
+    "sq": "Zgjedhja e një kotele."
    }
   },
   {
-   "id": "financiar",
-   "sq": "financiar",
-   "en": "financial",
+   "id": "funksion",
+   "sq": "funksion",
+   "en": "function",
    "glosses": [
-    "financial"
+    "function"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "financial",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "function",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -121,7 +140,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -133,26 +152,15 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "dështim financiar",
-       "en": "financial failure",
-       "offsets": [
-        [
-         8,
-         17
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "financial"
+      "function"
      ]
     }
    ],
-   "rank": 9900,
-   "count": 66,
-   "family": "financiar",
+   "rank": 9811,
+   "count": 67,
+   "family": "funksion",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -164,19 +172,33 @@
    "related": [],
    "forms": [
     {
-     "form": "financiare",
-     "tag": "feminine"
+     "form": "funksione",
+     "tag": "plural"
+    },
+    {
+     "form": "funksioni",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "A kind of a simple function.",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Një funksion të thjeshtë."
+   }
   },
   {
-   "id": "hark",
-   "sq": "hark",
-   "en": "bow",
+   "id": "picë",
+   "sq": "picë",
+   "en": "little girl",
    "glosses": [
-    "bow",
-    "arch"
+    "little girl",
+    "pizza"
    ],
    "pos": [
     "noun",
@@ -190,9 +212,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bow",
+     "gloss": "little girl",
      "tags": [
-      "masculine"
+      "feminine",
+      "nonstandard"
      ],
      "cats": [
       {
@@ -200,42 +223,123 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "70 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "84 16"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "94 6"
       }
      ],
      "examples": [],
      "links": [
-      "bow"
+      "girl"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "arch",
+     "gloss": "pizza",
      "tags": [
-      "masculine"
+      "feminine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pizza"
+     ]
+    }
+   ],
+   "rank": 9812,
+   "count": 67,
+   "family": "picë",
+   "is_root": true,
+   "etymology": "Feminine of pic (“tip, top, end”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pica",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Having a pizza.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Duke pasur një picë."
+   }
+  },
+  {
+   "id": "djersitur",
+   "sq": "djersitur",
+   "en": "sweaty",
+   "glosses": [
+    "sweaty"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sweaty",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "arch"
+      "sweaty"
      ]
     }
    ],
-   "rank": 9956,
-   "count": 66,
-   "family": "hark",
+   "rank": 9817,
+   "count": 67,
+   "family": "djersitur",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *h₂erkʷos (“bow, arrow”).",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -245,14 +349,175 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Breakfast for a bow.",
+    "en": "And less sweaty.",
     "score": [
      1,
-     4,
-     -3,
+     5,
+     -4,
      10
     ],
-    "sq": "Mëngjesi për një hark."
+    "sq": "Dhe më pak i djersitur."
+   }
+  },
+  {
+   "id": "mësohem",
+   "sq": "mësohem",
+   "en": "to get used (\"to\" construed with the preposition 'me')",
+   "glosses": [
+    "to get used (\"to\" construed with the preposition 'me')"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get used (\"to\" construed with the preposition 'me')",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "me"
+     ]
+    }
+   ],
+   "rank": 9826,
+   "count": 67,
+   "family": "mësohem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mësuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I seem to be getting used to the prison climate.",
+    "score": [
+     3,
+     8,
+     -5,
+     10
+    ],
+    "sq": "Më duket po mësohem me klimën e burgut."
+   }
+  },
+  {
+   "id": "lezbike",
+   "sq": "lezbike",
+   "en": "lesbian",
+   "glosses": [
+    "lesbian"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lesbian",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 36 64"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 39 61"
+      },
+      {
+       "name": "Sexuality",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Sexuality",
+       "langcode": "sq",
+       "_dis": "0 36 64"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lesbian"
+     ]
+    }
+   ],
+   "rank": 9834,
+   "count": 67,
+   "family": "lezbike",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "lezbike",
+     "tag": "plural"
+    },
+    {
+     "form": "lezbikja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What are you, a lesbian?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Çfarë jeni ju, një lezbike?"
    }
   }
  ]

@@ -849,6 +849,7 @@ def load_dict(path, freq):
                 stats["skipped_pos"] += 1
                 continue
             w = (j.get("word") or "").strip()
+            w = pos_balance.ARTICLED_ENTRIES.get(w, w)
             if not w or not ALPHABET_RE.match(w):
                 stats["skipped_shape"] += 1
                 continue

@@ -1,26 +1,26 @@
 {
  "level": 290,
- "title": "drejt (rarer words)",
- "root": "drejt",
- "root_gloss": "straight",
+ "title": "blej, detyrë",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 3,
  "families": [
-  "drejt"
+  "blej",
+  "detyrë"
  ],
  "pos_mix": {
-  "verb": 4,
-  "noun": 1,
-  "adv": 1
+  "verb": 1,
+  "noun": 2
  },
  "words": [
   {
-   "id": "drejtuar",
-   "sq": "drejtuar",
-   "en": "straighten, past form (from drejtoj, to straighten)",
+   "id": "blej",
+   "sq": "blej",
+   "en": "to purchase; to cheat; to barter",
    "glosses": [
-    "straighten, past form (from drejtoj, to straighten)"
+    "to purchase; to cheat; to barter"
    ],
    "pos": [
     "verb"
@@ -32,11 +32,11 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "straighten, past form (from drejtoj, to straighten)",
+     "gloss": "to purchase; to cheat; to barter",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "Gheg",
+      "Standard",
+      "Tosk"
      ],
      "cats": [
       {
@@ -59,40 +59,57 @@
       }
      ],
      "examples": [],
-     "is_form_of": "drejtoj"
+     "links": [
+      "purchase",
+      "cheat",
+      "barter"
+     ]
     }
    ],
-   "rank": 1498,
-   "count": 592,
-   "family": "drejt",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 1495,
+   "count": 593,
+   "family": "blej",
+   "is_root": true,
+   "etymology": "First attested in 1497. The short nasal vowel in the 3rd sg. blê \"to buy\" and the long nasal in the 1st-3rd sg. blẽ \"id.\" point to a Common Albanian *blên, inherited from Proto-Albanian *blêna/i-, from Pre-Proto-Albanian *blena/e-, from either Proto-Indo-European *h₃bʰloi̯éi̯e/o- (“to buy”) or Proto-Indo-European *bʰl̥nh₂énti (“to buy”). A reasonable formal and semantic match is found in Ancient Greek ὄφελος (óphelos, “advantage, help”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "bleva",
+     "tag": "aorist"
+    },
+    {
+     "form": "blerë",
+     "tag": "participle"
+    },
+    {
+     "form": "blenë",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "And where were they heading?",
+    "corpus": "HPLT",
+    "en": "Which one should I buy?",
     "score": [
      0,
-     5,
-     -5,
-     4
+     4,
+     -4,
+     10
     ],
-    "sq": "Dhe për ku ishin drejtuar?"
+    "sq": "Cilin duhet të blej?"
    }
   },
   {
-   "id": "drejtim",
-   "sq": "drejtim",
-   "en": "direction",
+   "id": "detyrë",
+   "sq": "detyrë",
+   "en": "duty, task, assignment",
    "glosses": [
-    "direction"
+    "duty, task, assignment"
    ],
    "pos": [
     "noun"
@@ -104,7 +121,81 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "direction",
+     "gloss": "duty, task, assignment",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "duty",
+      "task",
+      "assignment"
+     ]
+    }
+   ],
+   "rank": 1496,
+   "count": 592,
+   "family": "detyrë",
+   "is_root": true,
+   "etymology": "Borrowed from a Vulgar Latin root *dēbitura, from Latin dēbitus. Also possibly through the intermediate of an Eastern Romance language; compare Romanian datorie.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "With a task.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Me një detyrë."
+   }
+  },
+  {
+   "id": "blerës",
+   "sq": "blerës",
+   "en": "customer, buyer",
+   "glosses": [
+    "customer, buyer"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "customer, buyer",
      "tags": [
       "masculine"
      ],
@@ -116,7 +207,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -130,309 +221,54 @@
      ],
      "examples": [],
      "links": [
-      "direction"
+      "customer",
+      "buyer"
      ]
     }
    ],
-   "rank": 1696,
-   "count": 519,
-   "family": "drejt",
+   "rank": 12330,
+   "count": 50,
+   "family": "blej",
    "is_root": false,
-   "etymology": "Gerund of drejtoj; drejtoj + -im.",
+   "etymology": "From blej + -ës.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "drejtoj",
-     "role": "base",
-     "en": "to straighten"
+     "word": "blej",
+     "role": "base"
     },
     {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "word": "ës",
+     "role": "suffix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "drejtime",
+     "form": "blerës",
      "tag": "plural"
     },
     {
-     "form": "drejtimi",
+     "form": "blerësi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why do we need guidance?",
+    "en": "What does this mean for you as buyer?",
     "score": [
      0,
-     5,
-     -5,
+     9,
+     -9,
      10
     ],
-    "sq": "Pse kemi nevojë për drejtim?"
+    "sq": "Çfarë do të thotë kjo për ju si blerës?"
    },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "drejtoj",
-   "sq": "drejtoj",
-   "en": "to straighten",
-   "glosses": [
-    "to straighten",
-    "to direct",
-    "to organize, to lead"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to straighten",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 30 38"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 27 27"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 32 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "straighten"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to direct",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 30 38"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 32 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 34 30"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "direct"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to organize, to lead",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 30 38"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 32 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 34 30"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "organize",
-      "lead"
-     ]
-    }
-   ],
-   "rank": 3432,
-   "count": 232,
-   "family": "drejt",
-   "is_root": false,
-   "etymology": "From drejt + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "drejt",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
-    }
-   ],
-   "derived": [
-    "drejtim"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "drejtuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Then I will guide the younger generation.",
-    "score": [
-     1,
-     8,
-     -7,
-     10
-    ],
-    "sq": "Më pas do të drejtoj brezin e ri."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "drejtpërdrejt",
-   "sq": "drejtpërdrejt",
-   "en": "in a direct, frank or straightforward manner",
-   "glosses": [
-    "in a direct, frank or straightforward manner"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "in a direct, frank or straightforward manner",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Nuk i pëlqen të harxhojë kohën me broçkull. Ai parapëlqen të flasë drejtpërdrejt.",
-       "en": "He doesn't like to waste time with nonsense. He prefers to speak frankly.",
-       "offsets": [
-        [
-         67,
-         80
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "direct",
-      "frank",
-      "straightforward"
-     ]
-    }
-   ],
-   "rank": 7013,
-   "count": 100,
-   "family": "drejt",
-   "is_root": false,
-   "etymology": "drejt + për + drejt",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "drejt",
-     "role": "prefix"
-    },
-    {
-     "word": "për",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null,
    "breakdown": "historical"
   }
- ],
- "resumes": true
+ ]
 }

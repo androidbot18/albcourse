@@ -1,35 +1,138 @@
 {
  "level": 200,
- "title": "ndër",
- "root": "ndër",
- "root_gloss": "between",
+ "title": "heq, midis, kurse +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 7,
  "families": [
-  "ndër"
+  "ama",
+  "heq",
+  "kurse",
+  "midis",
+  "nëpërmjet"
  ],
  "pos_mix": {
+  "verb": 4,
   "prep": 3,
-  "noun": 1
+  "conj": 2
  },
  "words": [
   {
-   "id": "ndër",
-   "sq": "ndër",
-   "en": "between",
+   "id": "heq",
+   "sq": "heq",
+   "en": "to pull out",
    "glosses": [
-    "between",
-    "among, in, amidst",
-    "through, throughout"
+    "to pull out",
+    "to remove"
    ],
    "pos": [
-    "prep",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pull out",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 10"
+      },
+      {
+       "name": "Northern Kurdish entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 9 6 5"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 23 10 10"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pull"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to remove",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "remove"
+     ]
+    }
+   ],
+   "rank": 942,
+   "count": 1009,
+   "family": "heq",
+   "is_root": true,
+   "etymology": "From dialectal and archaic helq, though the further etymology is uncertain.\n* It may derive from Proto-Albanian *(w)alkja, from *h₂wolké-ye-ti, causative of Proto-Indo-European *h₂welk- (“to pull”) (compare Lithuanian velkù, Bulgarian влека́ (vleká, “to drag”), Greek αυλάκι (avláki, “furrow”)).\n* Perhaps from Proto-Indo-European *solk-éye-ti, from *selk-, whence also Latin sulcus.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "tërheq",
+    "tërheqje",
+    "hjekës",
+    "heqë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "hoqa",
+     "tag": "aorist"
+    },
+    {
+     "form": "hequr",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I won't give up.",
+    "score": [
+     0,
+     5,
+     -5,
+     8
+    ],
+    "sq": "Nuk do të heq dorë."
+   }
+  },
+  {
+   "id": "midis",
+   "sq": "midis",
+   "en": "between, among",
+   "glosses": [
+    "between, among",
+    "in the middle of"
+   ],
+   "pos": [
     "prep",
     "prep"
    ],
    "pos_labels": [
-    "preposition",
     "preposition",
     "preposition"
    ],
@@ -37,9 +140,45 @@
     {
      "pos": "prep",
      "pos_label": "preposition",
-     "gloss": "between",
+     "gloss": "between, among",
      "tags": [
-      "with-accusative"
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "61 39"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "between",
+      "among"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "in the middle of",
+     "tags": [
+      "with-ablative"
      ],
      "cats": [
       {
@@ -47,124 +186,206 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "41 30 29"
-      },
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 1284,
+   "count": 699,
+   "family": "midis",
+   "is_root": true,
+   "etymology": "Most likely a variant of mjedis. More at mjedis.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "mes"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Between 6 and 7 million years ago.",
+    "score": [
+     1,
+     6,
+     -5,
+     5
+    ],
+    "sq": "Midis 6 dhe 7 milionë vjet më parë."
+   }
+  },
+  {
+   "id": "kurse",
+   "sq": "kurse",
+   "en": "whereas, while",
+   "glosses": [
+    "whereas, while"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "whereas, while",
+     "tags": [],
+     "cats": [
       {
-       "name": "Albanian prepositions governing the accusative",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "77 15 8"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "between"
+      "whereas",
+      "while"
      ]
-    },
+    }
+   ],
+   "rank": 1291,
+   "count": 697,
+   "family": "kurse",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Several post-graduate courses.",
+    "score": [
+     1,
+     4,
+     -3,
+     8
+    ],
+    "sq": "Kurse të ndryshme pasuniversitare."
+   }
+  },
+  {
+   "id": "hequr",
+   "sq": "hequr",
+   "en": "pull out, past form (from heq, to pull out)",
+   "glosses": [
+    "pull out, past form (from heq, to pull out)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
     {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "among, in, amidst",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "pull out, past form (from heq, to pull out)",
      "tags": [
-      "with-accusative"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 81 10"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93 0"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 94 0"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "among",
-      "in",
-      "amidst"
-     ]
-    },
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "through, throughout",
-     "tags": [
-      "with-accusative"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "through",
-      "throughout"
-     ]
+     "is_form_of": "heq"
     }
    ],
-   "rank": 3137,
-   "count": 258,
-   "family": "ndër",
-   "is_root": true,
-   "etymology": "Attested by Buzuku as ëndër. From Proto-Albanian *enter, from Proto-Indo-European *h₁entér (“between”); or borrowed from Latin inter. See also ndë (“in”), ndën, nën (“under”).",
-   "etymology_class": "inherited",
+   "rank": 1538,
+   "count": 576,
+   "family": "heq",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "ndër-",
-    "ndërmjet",
-    "ndërkohë",
-    "ndërkaq",
-    "ndërsa"
-   ],
+   "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Talk about cross-selling!",
+    "en": "I have removed enough.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Flisni për ndër-shitje!"
+    "sq": "Unë kam hequr mjaft."
    }
   },
   {
-   "id": "ndërgjegje",
-   "sq": "ndërgjegje",
-   "en": "conscience (moral sense of faculty)",
+   "id": "hiq",
+   "sq": "hiq",
+   "en": "you (sg)! (from heq, to pull out)",
    "glosses": [
-    "conscience (moral sense of faculty)"
+    "you (sg)! (from heq, to pull out)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "conscience (moral sense of faculty)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg)! (from heq, to pull out)",
      "tags": [
-      "feminine"
+      "form-of",
+      "imperative",
+      "second-person",
+      "singular"
      ],
      "cats": [
       {
@@ -174,7 +395,75 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with ndër-",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "heq"
+    }
+   ],
+   "rank": 1973,
+   "count": 438,
+   "family": "heq",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Keep your hands off me.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Mi hiq duart."
+   }
+  },
+  {
+   "id": "nëpërmjet",
+   "sq": "nëpërmjet",
+   "en": "by means of",
+   "glosses": [
+    "by means of"
+   ],
+   "pos": [
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "by means of",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -186,38 +475,112 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Të gjithë njerëzit lindin të lirë dhe të barabartë në dinjitet dhe në të drejta. Ata kanë arsye dhe ndërgjegje dhe duhet të sillen ndaj njëri tjetrit me frymë vëllazërimi.",
-       "en": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
-       "offsets": []
-      }
-     ],
+     "examples": [],
      "links": [
-      "conscience"
+      "by means of"
      ]
     }
    ],
-   "rank": 11566,
-   "count": 54,
-   "family": "ndër",
-   "is_root": false,
-   "etymology": "Compound formation of ndër- + gjegje.",
-   "etymology_class": "affix",
+   "rank": 2399,
+   "count": 350,
+   "family": "nëpërmjet",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "ndër",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I came through it.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Unë kam ardhur nëpërmjet saj."
+   }
+  },
+  {
+   "id": "ama",
+   "sq": "ama",
+   "en": "but, however",
+   "glosses": [
+    "but, however"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "but, however",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 102 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "but",
+      "however"
+     ]
+    }
+   ],
+   "rank": 2413,
+   "count": 347,
+   "family": "ama",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish اما (ammâ).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "amo",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "But we have something.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Por ama kemi diçka."
+   }
   }
  ]
 }

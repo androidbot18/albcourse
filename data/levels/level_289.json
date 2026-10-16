@@ -1,36 +1,119 @@
 {
  "level": 289,
- "title": "libër",
- "root": "libër",
- "root_gloss": "book",
+ "title": "gjithë (rarer words)",
+ "root": "gjithë",
+ "root_gloss": "all, everybody",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "libër"
+  "gjithë"
  ],
  "pos_mix": {
-  "noun": 2
+  "conj": 3,
+  "adj": 3,
+  "noun": 1
  },
  "words": [
   {
-   "id": "libër",
-   "sq": "libër",
-   "en": "book",
+   "id": "megjithatë",
+   "sq": "megjithatë",
+   "en": "however",
    "glosses": [
-    "book"
+    "however",
+    "nevertheless"
    ],
    "pos": [
-    "noun"
+    "conj",
+    "conj"
    ],
    "pos_labels": [
-    "noun"
+    "conjunction",
+    "conjunction"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "book",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "however",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "however"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "nevertheless",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "nevertheless"
+     ]
+    }
+   ],
+   "rank": 1494,
+   "count": 593,
+   "family": "gjithë",
+   "is_root": false,
+   "etymology": "Probably a compound of me (“with”) + gjithë (“everything”) + atë (“that, it”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "with",
+    "everything"
+   ],
+   "components": [
+    {
+     "word": "me",
+     "role": "prefix"
+    },
+    {
+     "word": "gjithë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "megjithëse",
+    "ndonëse"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "However, I went to the market.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Megjithatë, shkova në treg."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "megjithëse",
+   "sq": "megjithëse",
+   "en": "although, though",
+   "glosses": [
+    "although, though"
+   ],
+   "pos": [
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "although, though",
      "tags": [],
      "cats": [
       {
@@ -52,53 +135,176 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Ia dhashë librin e ri atij.",
-       "en": "I gave the new book to him.",
-       "offsets": [
-        [
-         10,
-         16
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "book"
+      "although",
+      "though"
      ]
     }
    ],
-   "rank": 1516,
-   "count": 584,
-   "family": "libër",
-   "is_root": true,
-   "etymology": "Borrowed through Late Vulgar Latin (or Old Italian) from Latin liber.",
-   "etymology_class": "borrowed",
+   "rank": 3649,
+   "count": 216,
+   "family": "gjithë",
+   "is_root": false,
+   "etymology": "A compound of me (“with”) + gjithë (“everything”) + se (“that, than, as”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "with",
+    "everything"
+   ],
+   "components": [
+    {
+     "word": "me",
+     "role": "prefix"
+    },
+    {
+     "word": "gjithë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's really true, though.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Është me të vërtetë e vërtetë, megjithëse."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "përgjithshëm",
+   "sq": "përgjithshëm",
+   "en": "general, public",
+   "glosses": [
+    "general, public",
+    "universal",
+    "common"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "general, public",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "general",
+      "public"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "universal",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "universal"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "common",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Grammar",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Grammar",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 13 83"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 29 61"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "grammar",
+      "common"
+     ]
+    }
+   ],
+   "rank": 4890,
+   "count": 155,
+   "family": "gjithë",
+   "is_root": false,
+   "etymology": "From për- + gjithë, suffixed with -shëm.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "components": [
     {
-     "form": "libra",
-     "tag": "plural"
+     "word": "për",
+     "role": "prefix"
     },
     {
-     "form": "libri",
-     "tag": "definite"
+     "word": "gjithë",
+     "role": "stem"
     }
    ],
-   "corpus_example": null
+   "derived": [],
+   "related": [
+    "përgjithësim",
+    "përgjithësisht",
+    "përgjithësoj",
+    "përgjithësues"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "General Director.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Drejtorit të Përgjithshëm."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "librin",
-   "sq": "librin",
-   "en": "the book, singular (from libër)",
+   "id": "gjithësi",
+   "sq": "gjithësi",
+   "en": "universe",
    "glosses": [
-    "the book, singular (from libër)"
+    "universe"
    ],
    "pos": [
     "noun"
@@ -110,12 +316,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the book, singular (from libër)",
+     "gloss": "universe",
      "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "singular"
+      "feminine"
      ],
      "cats": [
       {
@@ -125,46 +328,60 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -ësi",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "libër"
+     "links": [
+      "universe"
+     ]
     }
    ],
-   "rank": 1497,
-   "count": 592,
-   "family": "libër",
+   "rank": 31705,
+   "count": 13,
+   "family": "gjithë",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From gjithë + -ësi.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "gjithë",
+     "role": "base"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I talk about this in the book.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Unë flas për këtë në librin."
-   }
+   "forms": [
+    {
+     "form": "gjithësi",
+     "tag": "plural"
+    },
+    {
+     "form": "gjithësia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
- ]
+ ],
+ "resumes": true
 }

@@ -41,6 +41,17 @@ RENAME = {
     "nuk": {"Negates the meaning of the modified verb: not, don't":
             "not, don't (before a verb: nuk di, I don't know)"},
     "jo": {"negates non-verbal phrases: no, not": "no; not"},
+    # Days of the week. Each is said with its article, and "on Monday" is
+    # the definite accusative after të; the card has to show both, because
+    # the bare word on its own is not how a learner meets it.
+    "hënë": {"Monday": "Monday (e hënë; të hënën, on Monday)"},
+    "martë": {"Tuesday": "Tuesday (e martë; të martën, on Tuesday)"},
+    "mërkurë": {"Wednesday":
+                "Wednesday (e mërkurë; të mërkurën, on Wednesday)"},
+    "enjte": {"Thursday": "Thursday (e enjte; të enjten, on Thursday)"},
+    "premte": {"Friday": "Friday (e premte; të premten, on Friday)"},
+    "shtunë": {"Saturday": "Saturday (e shtunë; të shtunën, on Saturday)"},
+    "diel": {"Sunday": "Sunday (e diel; të dielën, on Sunday)"},
 }
 
 # (position, pos, gloss)
@@ -59,6 +70,8 @@ FRONT = {
     "pi": ["to drink"],          # not the Gheg preposition "from"
     "qumësht": ["milk"],         # not the adverb "very (white), as milk"
     "lutem": ["please (ju lutem); you're welcome"],
+    # Taught with the days; "moon" stays as the second sense.
+    "hënë": ["Monday (e hënë; të hënën, on Monday)"],
 }
 
 REPLACE = {
@@ -74,9 +87,24 @@ REPLACE = {
 # corpus example showed the article under the gloss "and", so its card uses
 # this instead and its corpus example is dropped (see corpus_overridden()).
 # "ditë e natë" (day and night) is a set phrase, and `e` joins two nouns
-# there, so it cannot be read as the article.
+# there, so it cannot be read as the article. `pi`'s corpus sentence was
+# "A pi drogë?" ("Do you take drugs?"), on a card in the first lessons.
+#
+# An opening card's reviewed example uses only words taught by its level
+# (tools/test_opening_levels.py checks this), so a learner can read it.
 EXAMPLES = {
     "e": ("and", "Punoj ditë e natë.", "I work day and night."),
+    "pi": ("to drink", "Unë pi kafe me qumësht.",
+           "I drink coffee with milk."),
+    # Four days had no example at all. Each shows the day with its article.
+    "mërkurë": ("Wednesday (e mërkurë; të mërkurën, on Wednesday)",
+                "Sot është e mërkurë.", "Today is Wednesday."),
+    "premte": ("Friday (e premte; të premten, on Friday)",
+               "Nesër është e premte.", "Tomorrow is Friday."),
+    "shtunë": ("Saturday (e shtunë; të shtunën, on Saturday)",
+               "Sot është e shtunë.", "Today is Saturday."),
+    "diel": ("Sunday (e diel; të dielën, on Sunday)",
+             "Nesër është e diel.", "Tomorrow is Sunday."),
 }
 
 # Corpus sentences that are wrong for the card, with no replacement yet.

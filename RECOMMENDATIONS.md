@@ -259,7 +259,7 @@ Today:
 
 - `po` (*yes*) is **missing** from the deck, and `e` (rank 2: *and* plus the
   linking article) was removed rather than fixed. *Both are now in the
-  curated opening (L1 and L6).*
+  curated opening (L1 and L21).*
 - Function words held out of the opening are not spread through the course:
   they all land together around **L192–L210** (`të`, `më`, `që`, `jo`, `ka`,
   `kjo`, `këtë`, `shumë`, `por`, `edhe`, `gjithë`, `pak`, `dy`, `pa`, `pas`,
@@ -279,15 +279,14 @@ preventing this. Drop it. A small, reviewed **overrides layer** (glosses,
 opening order, example picks) on top of the generated data is normal for any
 serious course.
 
-**Status: done.** The first 21 levels (121 words) are set by theme in
+**Status: done.** The first 23 levels (128 words) are set by theme in
 `tools/opening_levels.py`, a Python list beside `tools/gloss_overrides.py`
 rather than YAML, so the build needs no new dependency. The themes are
 greetings and yes/no, pronouns, `jam`, `kam`, the little words, numbers
 1–10, family, food and drink, time, question words, core verbs, adjectives,
-and home and work. Days of the week are left out: only `martë` and `enjte`
-are in the deck.
+home and work, conjunctions, and the days of the week.
 - **The build enforces the list.** `assign_levels()` raises if a curated word is not in the deck, if a family is curated on two levels, if a stem comes after its word (`mirëdita` sits with `ditë`, `çfarë` with `farë`), or if a level exceeds 9 words or 6 families.
-- **A family can be curated in part.** `jam` opens with its present tense. The rest of the family comes back at its own frequency on a level marked `continues` ("jam (continued)", L27), and its rare tail still comes back after that. The validator allows that third run only for families the opening began.
+- **A family can be curated in part.** `jam` opens with its present tense. The rest of the family comes back at its own frequency on a level marked `continues` ("jam (continued)", L29), and its rare tail still comes back after that. The validator allows that third run only for families the opening began.
 - **Placements:**
 
   | Word | Before | Now |
@@ -300,10 +299,11 @@ are in the deck.
   | `bukë` | L393 | L11 |
   | `ujë` | L128 | L11 |
 
-- **`e` is restored (L6).** It headlines "and". Its other senses are reworded as "it, him, her (before a verb)" and "the linking article: of". It carries a reviewed example, *Punoj ditë e natë.* ("I work day and night."), where `e` joins two nouns, so it cannot be read as the article; the article-sense corpus sentence is dropped. The privative prefix `e-` no longer files `esëll` in the family of "and" (`pos_balance.NOT_A_FAMILY_BASE`).
-- **The opening's glosses are reviewed.** `pi` now headlines "to drink" (it was the Gheg "from"), `kafe` "coffee" (it was "a plant of the genus Coffea"), and `qumësht` "milk". `ka` gained "he/she/it has", `farë` gained "kind, sort", and `lutem` now reads "please (ju lutem)".
+- **`e` is restored (L21).** It headlines "and". Its other senses are reworded as "it, him, her (before a verb)" and "the linking article: of". It carries a reviewed example, *Punoj ditë e natë.* ("I work day and night."), where `e` joins two nouns, so it cannot be read as the article; the article-sense corpus sentence is dropped. It is taught beside `por`, `ose` and `edhe`, after `punoj` and `natë`, so every word in its example is already known; the test checks this for every reviewed example in the opening. The privative prefix `e-` no longer files `esëll` in the family of "and" (`pos_balance.NOT_A_FAMILY_BASE`).
+- **The opening's glosses are reviewed.** `pi` now headlines "to drink" (it was the Gheg "from"), `kafe` "coffee" (it was "a plant of the genus Coffea"), and `qumësht` "milk". `pi`'s example is *Unë pi kafe me qumësht.* (it was *A pi drogë?*, "Do you take drugs?"). `ka` gained "he/she/it has", `farë` gained "kind, sort", and `lutem` now reads "please (ju lutem)".
 - **`tetë` is fixed.** The parser read `*(a)te + -të` as the preposition `te`, which filed *eight* in the family of *at*. It now has its own family.
-- **Results:** 4,088 words and 799 levels, inside the 800-level ceiling with one level to spare. Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
+- **Days of the week.** Wiktionary files four of them under the article (`e mërkurë`, `e premte`, `e shtunë`, `e diel`), so the one-word deck had only `martë` and `enjte`. `pos_balance.ARTICLED_ENTRIES` reads those entries as senses of the bare word, and each day's reviewed gloss gives the article and the "on Monday" form: "Wednesday (e mërkurë; të mërkurën, on Wednesday)". `hënë` now headlines Monday, with "moon" second. The days close the opening (L22–23), after `e`.
+- **Results:** 4,092 words and 801 levels. That is one over the 800-level ceiling, which is raised to 810 while §3.6 decides the course's scope. Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
 - Pinned by `tools/test_opening_levels.py`.
 
 ### 3.3 Take inflected forms out of the vocabulary deck
@@ -337,6 +337,77 @@ Nothing is locked. Unlock level N+1 when roughly 80–90% of level N has reached
 what makes levelling up feel like an achievement.
 
 ---
+
+### 3.6 Scope: the course does not need 800 levels to reach 80%
+
+The 800-level ceiling (`tools/test_prereq.py`) is a soft cap, set when
+families were first given their own sessions. The question is whether a
+smaller goal, "the most common 80% of the language", allows a smaller
+course. It does. The figures below come from the pinned OpenSubtitles list
+(`data/raw/sq_50k.txt`). The denominator is that list's top 50,000 word
+forms, so every figure is a few points above true running-text coverage,
+by the same amount for every row.
+
+Two ways to count a token as known:
+
+- **exact form**: the token is itself a card;
+- **form or lemma**: the token is a card, or an inflected form Wiktionary
+  lists for a card (`shkova` when `shkoj` is taught).
+
+The second is the honest goal for a learner who has met the lemma. The
+first stops near 70% whatever the deck size, because Albanian inflects:
+more words do not fix that, a grammar spine (§3.3) does.
+
+**Along the current course.** Form-or-lemma coverage reaches 50% at L19,
+60% at L39, 70% at L179, **80% at L373** (1,595 cards), and ends at 83.8%
+at L801. The last 428 levels hold 2,497 cards with a median rank of
+16,047, and none of them ranks in the top 1,411 forms. They add 3.2
+points.
+
+**Capping the deck by rank.** These are real builds with the opening
+kept and every other card limited to rank ≤ R. Levels, families and
+prerequisites are all recomputed:
+
+| Rank cap | Cards | Levels | Exact form | Form or lemma |
+|---|---|---|---|---|
+| 1,500 | 836 | 174 | 66.6% | 76.4% |
+| 3,000 | 1,258 | 267 | 68.2% | 79.4% |
+| **5,000** | **1,605** | **340** | **68.8%** | **80.9%** |
+| 8,000 | 1,987 | 407 | 69.2% | 82.0% |
+| 12,000 | 2,360 | 471 | 69.4% | 82.7% |
+| 20,000 | 2,916 | 574 | 69.6% | 83.2% |
+| none (today) | 4,092 | 801 | 69.8% | 83.8% |
+
+A rank cap of 5,000 meets the 80% goal with **340 levels, 58% fewer**, at a
+cost of 2.9 points. If cards were ordered purely by how many tokens each
+adds, 872 cards would reach 80%. That is a floor, not a plan: it ignores
+families and prerequisites.
+
+**The rest of the gap is not rare vocabulary.** 16.2% of tokens are not
+covered by any card. Among the top 1,411 forms (the ones that make up 80%
+of tokens), 338 are not covered, worth 5.8% of all tokens. 292 of those
+(5.2%) have **no Wiktionary entry at all**. Some are interjections and
+names (`oh`, `hej`, `z.`). Some are ë-less spellings (`mire`, `kete`,
+`cfare`, `jane`). But many are core words the deck can never contain,
+because it is built only from Wiktionary: `pra` (rank 93), `ndonjë` (114),
+`gjitha` (115), `sikur`, `vërtet`, `sigurisht`, `sapo`, `falni`, `fakt`,
+`derisa`, `përpara`, `lart`, `problem`. A few dozen hand-added cards for
+these would add more coverage than the last 460 levels.
+
+**Recommendation.**
+
+1. Make the main course "rank ≤ 5,000" (≈340 levels), and lower the
+   ceiling to match. Keep the rest as an optional "extended vocabulary"
+   track after it, so nothing is deleted and the build only marks the cut.
+2. Hand-add the missing core words through the overrides layer, as was
+   done for `po` and the days. That would put the main course above 80%.
+3. Count coverage the way a learner would (form or lemma), and add it to
+   `tools/measure_coverage.py` so the cap is tested, not assumed.
+
+Caveats: the source is subtitles, so the register is spoken and informal.
+A cap also moves a common root's rare derivations out of the main course,
+so its family view there is thinner. Those words are still taught, just
+in the extended track.
 
 ## 4. Content quality
 
@@ -531,10 +602,13 @@ not all fall due on the same day.
 
 **Phase 1: progression (1–2 weeks)**
 - [x] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`.
-      21 themed levels in `tools/opening_levels.py`, enforced by the build.
+      23 themed levels in `tools/opening_levels.py`, enforced by the build.
       A family the opening only begins comes back marked `continues`.
-      `po` (*yes*) is on L1, and `e` is restored on L6 with a reviewed gloss
-      and example. The opening's glosses are reviewed. See §3.2.
+      `po` (*yes*) is on L1, and `e` is restored on L21 with a reviewed gloss
+      and example. The opening's glosses are reviewed, and the days of the
+      week are taught (L22–23). See §3.2.
+- [ ] Decide the course's scope (§3.6): a rank cap of 5,000 gives 340
+      levels at 81% coverage, against 801 levels at 84%.
 - [ ] "Root first, tail later" scheduling instead of unsplittable families.
       Partly done (1.6): rare tails (rank > 1,200) now come back in their own
       frequency band, for every opening family and for any family with 4+

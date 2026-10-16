@@ -1,42 +1,54 @@
 {
  "level": 76,
- "title": "flas (continued)",
- "root": "flas",
- "root_gloss": "to speak",
+ "title": "fat, vjet, ca",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "flas"
+  "ca",
+  "fat",
+  "vjet"
  ],
  "pos_mix": {
-  "verb": 6
+  "noun": 8,
+  "adv": 1,
+  "pron": 1
  },
  "words": [
   {
-   "id": "flet",
-   "sq": "flet",
-   "en": "you (sg) speak (from flas, to speak)",
+   "id": "fat",
+   "sq": "fat",
+   "en": "luck",
    "glosses": [
-    "you (sg) speak (from flas, to speak)"
+    "luck",
+    "chance",
+    "fate",
+    "destiny",
+    "spouse"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) speak (from flas, to speak)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "luck",
      "tags": [
-      "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular"
+      "masculine"
      ],
      "cats": [
       {
@@ -44,63 +56,120 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "46 3 31 3 17"
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
+     "links": [
+      "luck"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chance",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chance"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fate",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "destiny",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "destiny"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spouse",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "spouse"
+     ]
     }
    ],
-   "rank": 307,
-   "count": 3461,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 299,
+   "count": 3517,
+   "family": "fat",
+   "is_root": true,
+   "etymology": "Borrowed from Latin fātum. Jolk claims a derivation from Gothic fadi-.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "fate",
+     "tag": "plural"
+    },
+    {
+     "form": "fati",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why is this talking?",
+    "en": "Good luck to you!",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Përse flet kjo?"
+    "sq": "Fat të mirë!"
    }
   },
   {
-   "id": "flasim",
-   "sq": "flasim",
-   "en": "we speak (from flas, to speak)",
+   "id": "vjet",
+   "sq": "vjet",
+   "en": "last year",
    "glosses": [
-    "we speak (from flas, to speak)"
+    "last year"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we speak (from flas, to speak)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "last year",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -109,80 +178,101 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
+     "links": [
+      "year"
+     ]
     }
    ],
-   "rank": 334,
-   "count": 3106,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 303,
+   "count": 3498,
+   "family": "vjet",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wetās, from *wétōs, from Proto-Indo-European *wétos (“year”). More at vit.",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "year"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "I don't know, we'll see.",
+    "corpus": "HPLT",
+    "en": "It's been 5 years.",
     "score": [
      0,
      3,
      -3,
-     5
+     10
     ],
-    "sq": "Do flasim sot."
+    "sq": "Kanë kaluar 5 vjet."
    }
   },
   {
-   "id": "folur",
-   "sq": "folur",
-   "en": "speak, past form (from flas, to speak)",
+   "id": "ca",
+   "sq": "ca",
+   "en": "some",
    "glosses": [
-    "speak, past form (from flas, to speak)"
+    "some"
    ],
    "pos": [
-    "verb"
+    "pron"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "speak, past form (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "some",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 46 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
      ],
-     "cats": [],
      "examples": [],
-     "is_form_of": "flas"
+     "links": [
+      "some"
+     ]
     }
    ],
-   "rank": 476,
-   "count": 2215,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
+   "rank": 304,
+   "count": 3484,
+   "family": "ca",
+   "is_root": true,
+   "etymology": "From the contracted form of disa, dsa.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -190,41 +280,50 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "cave",
+     "tag": "dative"
+    },
+    {
+     "form": "disa",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Because we didn't talk.",
+    "corpus": "QED",
+    "en": "Maybe later.",
     "score": [
      0,
-     5,
-     -5,
-     4
+     4,
+     -4,
+     5
     ],
-    "sq": "Sepse ne nuk kemi folur."
+    "sq": "Jo, kam ca pune."
    }
   },
   {
-   "id": "fol",
-   "sq": "fol",
-   "en": "you (sg)! (from flas, to speak)",
+   "id": "fatin",
+   "sq": "fatin",
+   "en": "the luck, singular (from fat)",
    "glosses": [
-    "you (sg)! (from flas, to speak)"
+    "the luck, singular (from fat)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from flas, to speak)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the luck, singular (from fat)",
      "tags": [
+      "accusative",
+      "definite",
       "form-of",
-      "imperative",
-      "second-person",
       "singular"
      ],
      "cats": [
@@ -235,7 +334,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 19 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -248,159 +347,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
+     "is_form_of": "fat"
     }
    ],
-   "rank": 713,
-   "count": 1426,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "But please don't talk to Cemre about it now.",
-    "score": [
-     0,
-     8,
-     -8,
-     5
-    ],
-    "sq": "Por te lutem, tani mos fol me te."
-   }
-  },
-  {
-   "id": "flasësh",
-   "sq": "flasësh",
-   "en": "you (sg) speak (from flas, to speak)",
-   "glosses": [
-    "you (sg) speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 959,
-   "count": 991,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Whom should you talk to?",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Me kë të flasësh?"
-   }
-  },
-  {
-   "id": "flisni",
-   "sq": "flisni",
-   "en": "you (pl)! (from flas, to speak)",
-   "glosses": [
-    "you (pl)! (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "plural",
-      "second-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1161,
-   "count": 799,
-   "family": "flas",
+   "rank": 1941,
+   "count": 445,
+   "family": "fat",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -413,18 +365,223 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's good to talk.",
+    "en": "Do not seek their fortune.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Mos e kërko fatin e tyre."
+   }
+  },
+  {
+   "id": "fatkeqësi",
+   "sq": "fatkeqësi",
+   "en": "misfortune",
+   "glosses": [
+    "misfortune"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "misfortune",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësi",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "misfortune"
+     ]
+    }
+   ],
+   "rank": 5725,
+   "count": 129,
+   "family": "fat",
+   "is_root": false,
+   "etymology": "From fatkeq (“unfortunate”) + -ësi.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "unfortunate"
+   ],
+   "components": [
+    {
+     "word": "fatkeq",
+     "role": "base",
+     "en": "unfortunate"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fatkeqësi",
+     "tag": "plural"
+    },
+    {
+     "form": "fatkeqësia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It would be a disaster.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Është mirë të flisni."
-   }
+    "sq": "Do të ishte fatkeqësi."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "fatkeq",
+   "sq": "fatkeq",
+   "en": "unfortunate",
+   "glosses": [
+    "unfortunate"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "unfortunate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unfortunate"
+     ]
+    }
+   ],
+   "rank": 13900,
+   "count": 43,
+   "family": "fat",
+   "is_root": false,
+   "etymology": "From fat + keq.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "fat",
+     "role": "prefix"
+    },
+    {
+     "word": "keq",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "fatkeqe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is an unfortunate fact.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Ky është një fakt fatkeq."
+   },
+   "breakdown": "historical"
   }
  ],
- "continues": [
-  "flas"
+ "patterns": [
+  {
+   "id": "si",
+   "label": "-(ë)si",
+   "meaning": "-ness, -ity",
+   "summary": "Turns an adjective into a quality: shpejt (fast) → shpejtësi (speed), mirë (good) → mirësi (goodness).",
+   "note": "Spelled -ësi after most consonants and -si after a vowel (njësi). Not the same word as si (how, like).",
+   "examples": [
+    {
+     "sq": "shpejtësi",
+     "en": "speed",
+     "stem": "shpejt",
+     "stem_en": "quickly"
+    },
+    {
+     "sq": "madhësi",
+     "en": "size",
+     "stem": "madh",
+     "stem_en": "big"
+    },
+    {
+     "sq": "fatkeqësi",
+     "en": "misfortune",
+     "stem": "fatkeq",
+     "stem_en": "unfortunate"
+    }
+   ]
+  }
  ]
 }
