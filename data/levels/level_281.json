@@ -1,33 +1,41 @@
 {
  "level": 281,
- "title": "ushtar",
- "root": "ushtar",
- "root_gloss": "soldier",
+ "title": "veri",
+ "root": "veri",
+ "root_gloss": "north",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 2,
  "families": [
-  "ushtar"
+  "veri"
  ],
  "pos_mix": {
   "noun": 6,
-  "adj": 1,
-  "verb": 1
+  "adj": 2
  },
  "words": [
   {
-   "id": "ushtar",
-   "sq": "ushtar",
-   "en": "soldier",
+   "id": "veri",
+   "sq": "veri",
+   "en": "north",
    "glosses": [
-    "soldier",
-    "pawn"
+    "north",
+    "polar/north star",
+    "north pole",
+    "north wind, Boreas; fresh/cold breeze",
+    "fresh/light smell"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -35,36 +43,49 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "soldier",
-     "tags": [],
+     "gloss": "north",
+     "tags": [
+      "uncountable"
+     ],
      "cats": [
       {
-       "name": "Occupations",
+       "name": "Navigation",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Occupations",
-       "langcode": "sq",
-       "_dis": "55 45"
+       "source": "w",
+       "orig": "sq:Navigation",
+       "langcode": "sq"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "veriu dhe jugu",
+       "en": "the north and the south",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
      "links": [
-      "soldier"
+      "navigation",
+      "north"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pawn",
+     "gloss": "polar/north star",
      "tags": [],
      "cats": [
       {
-       "name": "Chess",
+       "name": "Astrology",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Chess",
+       "orig": "sq:Astrology",
        "langcode": "sq"
       },
       {
@@ -72,71 +93,120 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 95"
+       "_dis": "2 55 30 9 4"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 21 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "4 96"
+       "_dis": "2 33 8 4 3 2 1 1 2 1 1 4 4 1 1 8 1 5 1 11 1 2 3"
       }
      ],
      "examples": [],
      "links": [
-      "chess",
-      "pawn"
+      "astrology",
+      "polar",
+      "north"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "north pole",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Geography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Geography",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "geography",
+      "north",
+      "pole"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "north wind, Boreas; fresh/cold breeze",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "fryn veriu",
+       "en": "the north wind blows",
+       "offsets": [
+        [
+         5,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "north",
+      "wind",
+      "Boreas"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fresh/light smell",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fresh",
+      "light",
+      "smell"
      ]
     }
    ],
-   "rank": 1322,
-   "count": 678,
-   "family": "ushtar",
+   "rank": 1431,
+   "count": 618,
+   "family": "veri",
    "is_root": true,
-   "etymology": "From ushtë (“spear”), historically identical with usht (“ear (of grain)”).",
+   "etymology": "According to British linguist Stuart E. Mann the etymology of veri (“north (wind)”) is uncertain.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "spear"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "verior",
+    "veriore"
+   ],
    "related": [
-    "ushtarak",
-    "ushtri"
+    "lindje",
+    "perëndim"
    ],
-   "forms": [
-    {
-     "form": "ushtarë",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What is a child soldier?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Çfarë është një ushtar fëmijë?"
-   }
+   "forms": [],
+   "corpus_example": null
   },
   {
-   "id": "ushtarak",
-   "sq": "ushtarak",
-   "en": "military (relating to army or war)",
+   "id": "verior",
+   "sq": "verior",
+   "en": "northern",
    "glosses": [
-    "military (relating to army or war)",
-    "serviceman (member of armed forces)"
+    "northern",
+    "boreal",
+    "resident of a northern area, region or country"
    ],
    "pos": [
+    "adj",
     "adj",
     "noun"
    ],
    "pos_labels": [
+    "adjective",
     "adjective",
     "noun"
    ],
@@ -144,96 +214,114 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "military (relating to army or war)",
+     "gloss": "northern",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian terms with collocations",
+       "name": "Geography",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w",
+       "orig": "sq:Geography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "61 5 34"
+      },
+      {
+       "name": "Albanian terms suffixed with -or",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 15 29"
       }
      ],
      "examples": [
       {
-       "sq": "shërbimi ushtarak",
-       "en": "military service",
+       "sq": "Amerika Veriore",
+       "en": "North(ern) America",
        "offsets": [
         [
-         9,
+         8,
+         15
+        ]
+       ]
+      },
+      {
+       "sq": "Shqipëria Veriore",
+       "en": "North(ern) Albania",
+       "offsets": [
+        [
+         10,
          17
         ]
        ]
-      },
-      {
-       "sq": "Në qoftë sa fajtori […] dorëzon personin për një shërbim ushtarak përjashta Shteti, ndeshkimi asht me burgim të randë nga tre deri në tetë vjet dhe me gjobë të randë nga pesqint deri në tremijë fr. ari.",
-       "en": "If the guilty party […] sends the person for military service outside the State, the punishment is severe imprisonment from three to eight years and a severe fine from five hundred to three thousand gold francs.",
-       "offsets": [
-        [
-         57,
-         65
-        ]
-       ]
       }
      ],
      "links": [
-      "military"
+      "geography",
+      "northern"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "boreal",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "boreal"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "serviceman (member of armed forces)",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "resident of a northern area, region or country",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "20 80"
+       "_dis": "53 4 43"
       },
       {
-       "name": "Albanian terms suffixed with -ak",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "24 76"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 85"
+       "_dis": "54 0 46"
       }
      ],
      "examples": [],
      "links": [
-      "serviceman"
+      "resident",
+      "northern"
      ]
     }
    ],
-   "rank": 2523,
-   "count": 330,
-   "family": "ushtar",
+   "rank": 7206,
+   "count": 97,
+   "family": "veri",
    "is_root": false,
-   "etymology": "From ushtar (“soldier”) + -ak.",
+   "etymology": "From veri (north) + -or (-ern).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "soldier"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "ushtar",
+     "word": "veri",
      "role": "base"
     },
     {
-     "word": "ak",
+     "word": "or",
      "role": "suffix"
     }
    ],
@@ -241,256 +329,8 @@
    "related": [],
    "forms": [
     {
-     "form": "ushtarakë",
-     "tag": "plural"
-    },
-    {
-     "form": "ushtaraku",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": null,
-   "breakdown": "historical"
-  },
-  {
-   "id": "ushtrim",
-   "sq": "ushtrim",
-   "en": "military training",
-   "glosses": [
-    "military training",
-    "exercise",
-    "practice"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "military training",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 18 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 36 36"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 35 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "military",
-      "training"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "exercise",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "25 46 29"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 36 36"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 35 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "exercise"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "practice",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 36 36"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 35 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "practice"
-     ]
-    }
-   ],
-   "rank": 8485,
-   "count": 79,
-   "family": "ushtar",
-   "is_root": false,
-   "etymology": "From ushtroj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ushtroj",
-     "role": "base",
-     "en": "to exercise (use"
-    },
-    {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [
-    "kushtrim"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do this exercise.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Bëni këtë ushtrim."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "ushtroj",
-   "sq": "ushtroj",
-   "en": "to exercise (use, call upon)",
-   "glosses": [
-    "to exercise (use, call upon)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to exercise (use, call upon)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Ushtron të drejtën e votës",
-       "en": "He exercises his right to vote",
-       "offsets": [
-        [
-         0,
-         7
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "exercise"
-     ]
-    }
-   ],
-   "rank": 14936,
-   "count": 39,
-   "family": "ushtar",
-   "is_root": false,
-   "etymology": "From ushtar + -oj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ushtar",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ushtrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "ushtruar",
-     "tag": "participle"
+     "form": "veriore",
+     "tag": "feminine"
     }
    ],
    "corpus_example": null,

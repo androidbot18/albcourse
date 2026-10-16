@@ -1,41 +1,43 @@
 {
  "level": 271,
- "title": "dhemb, udhëtim, marre",
+ "title": "rrotë, majtë, rreshter +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "dhemb",
-  "marre",
-  "udhëtim"
+  "majtë",
+  "rreshter",
+  "rrotë",
+  "verë"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 6
+  "prep": 1,
+  "noun": 8,
+  "adj": 1
  },
  "words": [
   {
-   "id": "dhemb",
-   "sq": "dhemb",
-   "en": "to smart, feel pain",
+   "id": "rrotull",
+   "sq": "rrotull",
+   "en": "around, about",
    "glosses": [
-    "to smart, feel pain"
+    "around, about"
    ],
    "pos": [
-    "verb"
+    "prep"
    ],
    "pos_labels": [
-    "verb"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to smart, feel pain",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "around, about",
      "tags": [
-      "intransitive"
+      "with-ablative"
      ],
      "cats": [
       {
@@ -45,13 +47,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,48 +61,149 @@
      ],
      "examples": [],
      "links": [
-      "smart",
-      "feel",
-      "pain"
+      "around",
+      "about"
      ]
     }
    ],
-   "rank": 1223,
-   "count": 745,
-   "family": "dhemb",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *dzemba, from Proto-Indo-European *ǵembʰ- (“to bite”). Compare Sanskrit जम्भति (jambhati, “to snap at”) and Lithuanian žembiù (“to cut”).",
-   "etymology_class": "inherited",
+   "rank": 1388,
+   "count": 638,
+   "family": "rrotë",
+   "is_root": false,
+   "etymology": "From rrotë + -ull.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
+   "components": [
+    {
+     "word": "rrotë",
+     "role": "base"
+    },
+    {
+     "word": "ull",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Around here, no?",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Këtu rrotull, apo jo?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "majtë",
+   "sq": "majtë",
+   "en": "left hand",
+   "glosses": [
+    "left hand",
+    "left"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "left hand",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 80"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "left",
+      "hand"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "left",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "left"
+     ]
+    }
+   ],
+   "rank": 1389,
+   "count": 638,
+   "family": "majtë",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *mn̥tós (“hand”). Cognate to Ancient Greek μάρη (márē, “hand”), Latin manus (“hand”), Gothic manwus (“willing, ready”), Old Norse mund (“hand”). Alternatively, a Romance *manctus based on Latin mancus \"maimed, infirm\", mirroring the development of Italian manca \"left hand\". Cf Albanian mëngjër \"left\" < Romance *mancinus.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "hand"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhembur",
-     "tag": "participle"
+     "form": "shmajt",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It hurts so much.",
+    "corpus": "TED2020",
+    "en": "On the left, we have a woman.",
     "score": [
      0,
-     3,
-     -3,
-     10
+     6,
+     -6,
+     4
     ],
-    "sq": "Dhemb kaq shumë."
+    "sq": "Në të majtë, kemi një grua."
    }
   },
   {
-   "id": "udhëtim",
-   "sq": "udhëtim",
-   "en": "travel, journey",
+   "id": "rreshter",
+   "sq": "rreshter",
+   "en": "sergeant, an enlisted first-grade military rank below a staff sergeant and above a corporal",
    "glosses": [
-    "travel, journey"
+    "sergeant, an enlisted first-grade military rank below a staff sergeant and above a corporal"
    ],
    "pos": [
     "noun"
@@ -112,7 +215,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "travel, journey",
+     "gloss": "sergeant, an enlisted first-grade military rank below a staff sergeant and above a corporal",
      "tags": [
       "masculine"
      ],
@@ -138,16 +241,17 @@
      ],
      "examples": [],
      "links": [
-      "travel",
-      "journey"
+      "military",
+      "sergeant",
+      "enlisted"
      ]
     }
    ],
-   "rank": 1224,
-   "count": 745,
-   "family": "udhëtim",
+   "rank": 1392,
+   "count": 636,
+   "family": "rreshter",
    "is_root": true,
-   "etymology": "From udhëtoj.",
+   "etymology": "From rresht.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -155,133 +259,47 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "Have a pleasant trip.",
-    "score": [
-     0,
-     3,
-     -3,
-     0
-    ],
-    "sq": "Udhëtim të mbarë."
-   }
-  },
-  {
-   "id": "marre",
-   "sq": "marre",
-   "en": "shame",
-   "glosses": [
-    "shame",
-    "disgrace, dishonor",
-    "foolery, opaqueness, turpitude"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shame",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 9 45"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "shame"
-     ]
+     "form": "rreshterë",
+     "tag": "plural"
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "disgrace, dishonor",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "disgrace",
-      "dishonor"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "foolery, opaqueness, turpitude",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 9 45"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "foolery",
-      "opaqueness",
-      "turpitude"
-     ]
+     "form": "rreshteri",
+     "tag": "definite"
     }
    ],
-   "rank": 1225,
-   "count": 745,
-   "family": "marre",
-   "is_root": true,
-   "etymology": "See marrë (and marrtë).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "marri",
-    "marrëzi"
-   ],
-   "forms": [],
    "corpus_example": {
-    "corpus": "GlobalVoices",
-    "en": "Anyone can participate.",
+    "corpus": "QED",
+    "en": "Sergeant Struecker.",
     "score": [
-     0,
-     5,
-     -5,
-     3
+     3,
+     4,
+     -1,
+     5
     ],
-    "sq": "Çdokush mund të marre pjesë."
+    "sq": "Tė shkojmė. Rreshter Struecker."
    }
   },
   {
-   "id": "dhembje",
-   "sq": "dhembje",
-   "en": "pain",
+   "id": "verë",
+   "sq": "verë",
+   "en": "wine",
    "glosses": [
-    "pain",
-    "ache"
+    "wine",
+    "cider",
+    "summer",
+    "spring"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -289,104 +307,330 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pain",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pain"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ache",
-     "tags": [],
+     "gloss": "wine",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
+      {
+       "name": "Alcoholic beverages",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Alcoholic beverages",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
+       "_dis": "23 32 23 23"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
+       "_dis": "23 32 23 23"
       }
      ],
      "examples": [],
      "links": [
-      "ache"
+      "wine"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cider",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 32 23 23"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 32 23 23"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 25 25"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cider"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "summer",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 32 23 23"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 32 23 23"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 25 25"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "summer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spring",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Calabrian Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 32 23 23"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 32 23 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "spring"
      ]
     }
    ],
-   "rank": 14016,
-   "count": 42,
-   "family": "dhemb",
-   "is_root": false,
-   "etymology": "Gerund of dhemb; dhemb + -je.",
-   "etymology_class": "affix",
+   "rank": 1393,
+   "count": 636,
+   "family": "verë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wainā-, from Proto-Indo-European *woy(h₁)neh₂- < *wéyh₁ō (“wine”). Compare Ancient Greek οἶνος (oînos), Latin vīnum, German Wein.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "dhemb",
-     "role": "base",
-     "en": "to smart"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
+   "parents": [
+    "wine",
+    "spring"
    ],
-   "derived": [
-    "dhembje koke"
+   "components": [],
+   "derived": [],
+   "related": [
+    "hardhi",
+    "pranverë"
    ],
-   "related": [],
    "forms": [
     {
-     "form": "dhembje",
+     "form": "vera",
      "tag": "plural"
-    },
-    {
-     "form": "dhembja",
-     "tag": "definite"
-    },
-    {
-     "form": "dhimje",
-     "tag": "alternative"
-    },
-    {
-     "form": "dhimbje",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Please let me recover.",
+    "corpus": "HPLT",
+    "en": "Happy summer.",
     "score": [
-     1,
+     0,
      3,
-     -2,
-     5
+     -3,
+     10
     ],
-    "sq": "Kam shume dhembje."
-   },
-   "breakdown": "transparent"
+    "sq": "verë të lumtur."
+   }
+  },
+  {
+   "id": "rrotë",
+   "sq": "rrotë",
+   "en": "wheel",
+   "glosses": [
+    "wheel"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wheel",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "wheel"
+     ]
+    }
+   ],
+   "rank": 14651,
+   "count": 40,
+   "family": "rrotë",
+   "is_root": true,
+   "etymology": "Borrowed via Vulgar Latin from Latin rota. Compare Romanian roată, Aromanian aroatã.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "rrota",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Focusing on a link wheel.",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "Duke u ndalur në një rrotë Lidhje."
+   }
+  },
+  {
+   "id": "rrotës",
+   "sq": "rrotës",
+   "en": "machine; vehicle, car, automobile",
+   "glosses": [
+    "machine; vehicle, car, automobile"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "machine; vehicle, car, automobile",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -s",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Dogançe Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "machine",
+      "vehicle",
+      "car"
+     ]
+    }
+   ],
+   "rank": 46214,
+   "count": 7,
+   "family": "rrotë",
+   "is_root": false,
+   "etymology": "From rrotë (“wheel”) + -s.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "wheel"
+   ],
+   "components": [
+    {
+     "word": "rrotë",
+     "role": "base"
+    },
+    {
+     "word": "s",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ]
 }

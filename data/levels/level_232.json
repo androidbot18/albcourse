@@ -1,45 +1,48 @@
 {
  "level": 232,
- "title": "dhjetë",
- "root": "dhjetë",
- "root_gloss": "ten",
+ "title": "mbush, shpesh, ëmbël +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "dhjetë"
+  "mbush",
+  "përpiqem",
+  "shpesh",
+  "ëmbël"
  ],
  "pos_mix": {
-  "num": 1,
-  "noun": 1
+  "verb": 8,
+  "adv": 1,
+  "adj": 1,
+  "noun": 2
  },
  "words": [
   {
-   "id": "dhjetë",
-   "sq": "dhjetë",
-   "en": "ten",
+   "id": "mbushur",
+   "sq": "mbushur",
+   "en": "fill (up), past form (from mbush, to fill (up))",
    "glosses": [
-    "ten"
+    "fill (up), past form (from mbush, to fill (up))"
    ],
    "pos": [
-    "num"
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "ten",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "fill (up), past form (from mbush, to fill (up))",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -51,20 +54,24 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": [
-      "ten"
-     ]
+     "is_form_of": "mbush"
     }
    ],
-   "rank": 890,
-   "count": 1073,
-   "family": "dhjetë",
-   "is_root": true,
-   "etymology": "From *djeth + -të, from Proto-Albanian *detsa, from Proto-Indo-European *déḱm̥. Initial dh- from decimal compounds like tridhjetë (“thirty”).",
-   "etymology_class": "derived",
+   "rank": 1084,
+   "count": 868,
+   "family": "mbush",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -74,34 +81,34 @@
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "I was ten years old.",
+    "en": "It's padded.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      5
     ],
-    "sq": "Isha dhjetë vjeç."
+    "sq": "Ajo është e mbushur."
    }
   },
   {
-   "id": "dhjetor",
-   "sq": "dhjetor",
-   "en": "December",
+   "id": "shpesh",
+   "sq": "shpesh",
+   "en": "often",
    "glosses": [
-    "December"
+    "often"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "December",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "often",
      "tags": [],
      "cats": [
       {
@@ -111,7 +118,78 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -or (month)",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "often"
+     ]
+    }
+   ],
+   "rank": 1089,
+   "count": 865,
+   "family": "shpesh",
+   "is_root": true,
+   "etymology": "From Latin spissus (“thick”) (cf. Italian spesso (“id.”)). Also compare Aromanian spes (“id.”).",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin spissus",
+   "parents": [
+    "thick"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpeshë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And do this often!",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Dhe bëni këtë shpesh!"
+   }
+  },
+  {
+   "id": "ëmbël",
+   "sq": "ëmbël",
+   "en": "sweet",
+   "glosses": [
+    "sweet"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sweet",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -121,54 +199,414 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "December"
+      "sweet"
      ]
     }
    ],
-   "rank": 6835,
-   "count": 103,
-   "family": "dhjetë",
-   "is_root": false,
-   "etymology": "Calque of Latin December, from dhjetë (“ten”) + -or.",
-   "etymology_class": "affix",
+   "rank": 1091,
+   "count": 861,
+   "family": "ëmbël",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *amla, from Proto-Indo-European *h₂eh₃mós (“sour”), whence also Dutch amper, Italian amaro, Sanskrit अम्ल (amlá).\nPossibly related to Dacian amolusta (“camomile”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "ten"
+    "sour"
    ],
-   "components": [
-    {
-     "word": "dhjetë",
-     "role": "base"
-    },
-    {
-     "word": "or",
-     "role": "suffix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhjetori",
-     "tag": "definite"
+     "form": "omël",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What happened in December?",
+    "en": "Very sweet story.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Çfarë ndodhi në dhjetor?"
-   },
+    "sq": "Histori shumë e ëmbël."
+   }
+  },
+  {
+   "id": "përpiqem",
+   "sq": "përpiqem",
+   "en": "to try",
+   "glosses": [
+    "to try"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to try",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "try"
+     ]
+    }
+   ],
+   "rank": 1099,
+   "count": 855,
+   "family": "përpiqem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "I sometimes push too hard.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Ndonjëherë unë përpiqem shumë."
+   }
+  },
+  {
+   "id": "mbush",
+   "sq": "mbush",
+   "en": "to fill (up), stuff",
+   "glosses": [
+    "to fill (up), stuff",
+    "to replenish",
+    "to load a gun",
+    "to complete a period of time",
+    "to backfill (a plant) to protect the roots",
+    "to fulfill, comply with, satisfy"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fill (up), stuff",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fill",
+      "up",
+      "stuff"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to replenish",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "replenish"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to load a gun",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "load",
+      "a",
+      "gun"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to complete a period of time",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 3 3 79 8 5"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 2 87 3 2"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 2 89 3 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "complete",
+      "a",
+      "period"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to backfill (a plant) to protect the roots",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "backfill",
+      "protect",
+      "the"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fulfill, comply with, satisfy",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fulfill",
+      "comply",
+      "with"
+     ]
+    }
+   ],
+   "rank": 2889,
+   "count": 283,
+   "family": "mbush",
+   "is_root": true,
+   "etymology": "From Old Albanian ëmbush, from Proto-Albanian *en-busa, or *am-buśś-it, from Proto-Indo-European *bu-n-s-, nasalized weak stem of *beus- (“to blow up, puff out, swell”) (compare Ancient Greek βυνέω (bunéō, “to stuff”), Old High German pfoso (“bag”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "bag"
+   ],
+   "components": [],
+   "derived": [
+    "mbushël",
+    "mbushës",
+    "mbushëtirë",
+    "mbushje",
+    "mbushtar",
+    "mbushulloj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "mbusha",
+     "tag": "aorist"
+    },
+    {
+     "form": "mbushur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Leave to infuse overnight.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Të lënë të mbush gjatë natës."
+   }
+  },
+  {
+   "id": "mbushem",
+   "sq": "mbushem",
+   "en": "to be filled up (with emotions)",
+   "glosses": [
+    "to be filled up (with emotions)",
+    "to fill up (one's mind)"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "to be filled up (with emotions)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "86 14"
+      },
+      {
+       "name": "Albanian terms suffixed with -em",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "89 11"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "filled",
+      "up",
+      "emotions"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "to fill up (one's mind)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -em",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U mbusha mend.",
+       "en": "I filled up my mind.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fill",
+      "up",
+      "mind"
+     ]
+    }
+   ],
+   "rank": 20516,
+   "count": 25,
+   "family": "mbush",
+   "is_root": false,
+   "etymology": "From mbush + -em.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mbush",
+     "role": "base"
+    },
+    {
+     "word": "em",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "mbush",
+    "mbushël",
+    "mbushës",
+    "mbushëtirë",
+    "mbushje"
+   ],
+   "forms": [
+    {
+     "form": "mbushur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null,
    "breakdown": "historical"
   }
  ]

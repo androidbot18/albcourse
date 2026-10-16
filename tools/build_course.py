@@ -2,7 +2,7 @@
 """
 build_course.py - build the albcourse SRS dataset from real source data.
 
-Inputs (downloaded by tools/fetch_data.py):
+Inputs (unpacked from data/sources/ by tools/fetch_sources.py):
   data/raw/kaikki_albanian.jsonl   Kaikki.org / wiktextract of English Wiktionary
   data/raw/sq_50k.txt              hermitdave FrequencyWords, OpenSubtitles2018
 
@@ -80,76 +80,18 @@ TITLE_ROOTS = 3
 # How many rare members a family must have before deferring them is worth an
 # extra session.
 #
-# Deferring is not free: a deferred family becomes a split family, its tail
-# takes a level of its own, and the head can no longer share one. Measured,
-# 103 families had exactly ONE rare member -- lexim beside lexoj, and dozens
-# like it -- and deferring those bought a tidier level 1 at the price of 103
-# extra sessions, which pushed the course from 767 levels past its 800
-# ceiling.
-#
-# One stray rare member crowds nothing out. It shares a session with common
-# words and costs the learner one unfamiliar card. The case worth fixing is a
-# family whose rare half is genuinely large, where a common head is competing
-# for an opening slot against a dozen words nobody meets in their first month.
+# Deferring is not free: a deferred family's tail takes a level of its own.
+# Measured, 103 families had exactly ONE rare member -- lexim beside lexoj,
+# and dozens like it -- and deferring those cost 103 extra sessions, which
+# pushed the course past its 800-level ceiling. One stray rare member crowds
+# nothing out, so outside the opening only a genuinely large tail is split.
+# Families that compete for the opening shed any tail at all (see
+# assign_levels(), "root first, tail later").
 OPENING_MIN_DEFERRED = 4
 
-# the front of the course are left whole: their rare members cannot move out
-# of the opening without moving the whole family, and a whole family in the
-# first ten levels is worth more than a tidy one. See the note at the
-# deferral set below.
+# Closed-class roots deferred past the opening get a synthetic rank just
+# beyond this one, so they are taught after the opening rather than dropped.
 DEFER_MAX_ROOT_RANK = 900
-
-# The common head must be at least this large before a family inside the
-# opening is split. Below it the split only shuffles rare words and costs a
-# session.
-#
-# Raised 4 -> 5 so a promoted noun can never be bought at the cost of a
-# function word's opening slot. At 4, per (rank 13) split into four
-# consecutive sessions -- its head is 4 words against a tail of 19 -- and those
-# sessions displaced three others, pushing une ("I") from L11 to L16. One
-# word moving four levels earlier is not worth three sessions of the opening
-# going to a rare tail.
-#
-# The cost here is deliberate and measured, not an oversight: per reverts to
-# the late level it shipped at before this work, because the defect that was
-# actually fixed -- per teaching late because a TAIL member gated it -- is
-# fixed by scoring prerequisites over the HEAD. Splitting and scoring are two
-# independent levers; only scoring is load-bearing for per.
-#
-# do (rank 4): head [do] = 1, tail = 7. Under the bar, stays whole.
-# per (rank 13): head 4, tail = 19. Under the bar, stays whole.
-# nje (rank 11): head 3, tail = 5. Under the bar, stays whole.
-# How small a family common head may be and still be worth splitting.
-#
-# This was raised from 4 to 5 by the option-B change so that splitting a
-# family inside the opening could not cost a function word its slot: per
-# split into four sessions and pushed une from L11 to L16.
-#
-# That fix has a cost nobody measured. A head of five common members is a
-# bar almost no small family clears, so the split NEVER fires for the
-# families it was written for. do has one common member and seven rare
-# ones (doemos rank 30516, domosdoshmeri rank 38595) and teaches all
-# eight in level 2. me has one and three, and puts mjaftoj (rank 42540)
-# in level 10. nje has two and six, filling level 9 with a 10616 tail.
-# Strays in the opening went 16 -> 18 rather than to zero.
-#
-# So the bar is back to 2: a family with at least two common members is
-# worth splitting on the inside, and do, me and nje all qualify. une is
-# a single-member family and is unaffected: it is displaced by the
-# levels a split fills, not by the split itself.
-DEFER_MIN_HEAD_IN_OPENING = 5
-
-# A common head at least this large already occupies the opening, so moving
-# its tail out cannot help -- it can only shuffle the rare words a few levels
-# along while costing a session. do has 1 common member though, so this is
-# about the family as a whole: a head of 4 or more words is a lesson in itself.
-
-# A deferred head must also own its level (see the packer), which makes the
-# head session shorter than a full one. Requiring a tail of at least half a
-# session keeps that trade honest: deferring a 3-word tail bought a tidier
-# level 1 but split a session that had room for two more words, and the
-# course crept past its 800-level ceiling. Four rare members is where the
-# crowding is real -- do, jam, një and me each have 6 to 19.
 
 # Order in which a multi-POS word should be presented.
 #
@@ -1167,7 +1109,9 @@ def assign_levels(cards, families, per_level=9, max_families=6,
          component comes first because it explains the card.
       2. Within a level, a family is never split. A root and its derivations
          unlock together, so studying a level teaches a word group rather
-         than an arbitrary frequency slice.
+         than an arbitrary frequency slice. The one exception is a family's
+         rare tail ("root first, tail later"): its rank > 1200 members come
+         back later as "root (rarer words)", once the course reaches them.
       3. A level is a session, not a single item: families are packed until
          per_level words are reached, at most max_families of them.
 
@@ -1368,23 +1312,8 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     #
     # The cut is deliberately generous (OPENING_MEMBER_MAX_RANK). The point
     # is not to prune the deck, it is to stop rank-30000 words sitting beside
-    # rank-4 ones in a first session. The stem-before-word ordering is
-    # unaffected: it is applied to whole families, and the tail only ever
-    # contains members whose own stems are already taught.
-    # Deferral is skipped for any family that would land in the OPENING.
-    #
-    # A deferred family's tail must follow its head in consecutive levels, so
-    # deferring a family whose head sits in levels 1-10 only moves its rare
-    # words a few levels later -- still inside the opening the change was
-    # meant to clear. Measured: do 2/2 landed on L3, jam 3/3 on L7 and nje
-    # 2/2 on L10, so doemos (rank 30516) and qeshe (15706) were still being
-    # taught in the first ten sessions, and the sessions those tails consumed
-    # pushed dhe and une past level 10.
-    #
-    # So a family is deferred only when its head is comfortably outside the
-    # opening. The opening is then built from whole families, and the first
-    # ten sessions hold nothing a first-week learner has not met.
-    opening_roots, deferred_roots = set(), set()
+    # rank-4 ones in a first session. Where the tail goes is decided below,
+    # under "root first, tail later".
     # head_members[root] = the members that teach the family in its first
     # session, when it has been split. Read back by the deps pass below.
     deferred_units_head = {}
@@ -1393,47 +1322,12 @@ def assign_levels(cards, families, per_level=9, max_families=6,
                   if rank_of.get(m, 10 ** 9) <= OPENING_MEMBER_MAX_RANK]
         if not common or len(common) == len(members):
             continue
-        cset = set(common)
-        rare = [m for m in members if m not in cset]
-        # Keep the family whole when its common head is already large enough
-        # to occupy the opening on its own. do has 1 common word but 7 rare,
-        # and splitting it put domethene/domosdoshem/doemos into level 3 --
-        # still inside the opening, just relocated. The tail only leaves the
-        # opening if the head sits deep enough for head+1 > EARLY_LEVELS, so a
-        # family whose common words alone are numerous keeps its tail.
-        # Split a family inside the opening when its common head is at least
-        # DEFER_MIN_HEAD_IN_OPENING words. Splitting does not move a tail OUT
-        # of the opening -- the tail lands at head+1 either way -- so this only
-        # decides whether the head is worth a session of its own.
-        #
-        # do (rank 4) is the case: head [do], tail [domethene, ndopak,
-        # domosdoshem, domosdoshmerisht, medoemos, doemos, domosdoshmeri],
-        # where doemos is rank 30516 and was being taught in level 2. Splitting
-        # it puts do alone at level 2 and the seven rare words behind it.
-        #
-        # per (rank 13) is the other: head [per, neper, perdorur, pergjigje]
-        # against nineteen rare members, and it shipped at L275 until
-        # prerequisites stopped being scored over the whole family.
-        # Inside the opening, split only when the family is MOSTLY rare
-        # material -- when the tail outweighs the head. That is what makes a
-        # common word look late: it is one session followed by several of
-        # words nobody meets for weeks.
-        #
-        # per (rank 13): head [per, neper, perdorur, pergjigje] = 4, tail = 19.
-        # It shipped at L279 behind vere ("wine", rank 1393), reached through a
-        # tail member. Splitting teaches per early and files the nineteen
-        # behind it.
-        #
-        # do (rank 4): head [do] = 1, tail = 7. Also mostly rare, but splitting
-        # it put doemos (rank 30516) into level 3 -- still the opening -- while
-        # emptying level 2 and costing dhe its slot. do stays whole.
-        #
-        # The rule that separates them is the ratio: per is 4 to 19 and do is
-        # 1 to 7, and only per's head is big enough to be a lesson in itself.
-        if (score.get(root, 10 ** 9) <= DEFER_MAX_ROOT_RANK
-                and len(common) < DEFER_MIN_HEAD_IN_OPENING):
-            continue
-        opening_roots.add(root)
+        # Every family with a rare tail is a candidate, including the ones at
+        # the front of the course. Bars that used to keep do, jam, nje and me
+        # whole existed because a tail was placed in the level right after
+        # its head, so splitting a family in the opening only moved doemos
+        # (rank 30516) from level 2 to level 3. A tail is now scheduled at
+        # its OWN frequency, so splitting does move it out of the opening.
         deferred_units_head[root] = list(common)
 
     # ---- topological order over families ---------------------------------
@@ -1517,6 +1411,19 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     # vocabulary rather than piling up at the end. Splitting on frequency
     # rather than on the family's own ordering also keeps teaching_order()'s
     # tense-first sort intact inside each pass.
+    # The families that compete for the opening: the most common ones, in
+    # frequency order, until their common words would fill the opening
+    # twice over. Only these shed a tail of one or two words; splitting
+    # every family under rank 900 the same way cost 150 extra levels.
+    opening_families = set()
+    filled = 0
+    for root in sorted(families, key=lambda r: (score.get(r, 10 ** 9), r)):
+        if filled >= 2 * pos_balance.WINDOW_WORDS:
+            break
+        opening_families.add(root)
+        filled += sum(1 for m in families[root]
+                      if rank_of.get(m, 10 ** 9) <= OPENING_MEMBER_MAX_RANK)
+
     deferred_units = []
     defer_at = {}
     for root in ordered:
@@ -1535,14 +1442,18 @@ def assign_levels(cards, families, per_level=9, max_families=6,
             common = [root] + common
         cset = set(common)
         rare = [m for m in members if m not in cset]
-        if len(rare) < OPENING_MIN_DEFERRED:
+        # A family that competes for the opening sheds any rare tail, even a
+        # single word: mjaftoj (rank 42540) beside me (rank 14) is exactly
+        # the stray the opening must not hold. Elsewhere one rare member
+        # costs nothing, and a tail of its own would cost a session, so the
+        # OPENING_MIN_DEFERRED bar still applies.
+        need = 1 if root in opening_families else OPENING_MIN_DEFERRED
+        if len(rare) < need:
             continue
-        # The family is NOT shrunk. It keeps every member, because that is
-        # what makes the head and the tail ONE family with consecutive parts
-        # -- "do 1/2" then "do 2/2", which is what the validator and the
-        # learner both expect. Only the ORDER changes: the common members are
-        # listed first and the rare ones after, so the split point falls
-        # between them. The unit builder below then does the numbering.
+        # The family is NOT shrunk: every member keeps its family, so the head
+        # and the tail stay ONE family. Only the ORDER changes: the common
+        # members are listed first and the rare ones after, so the split point
+        # falls between them. family_units() below does the numbering.
         deferred_units.append((root, rare, score.get(root, 10 ** 9), root))
         defer_at[root] = len(common)
 
@@ -1551,19 +1462,30 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         print("  %d rare family members across %d families held back "
               "from the opening" % (n_deferred, len(deferred_units)))
 
-    # Split any family larger than a session, keeping root first.
-    units = []  # (root, members, part, nparts)
-    for root in ordered:
+    # ---- root first, tail later ------------------------------------------
+    #
+    # A split family's rare tail used to follow its head in the very next
+    # level, so a family at the front of the course carried its tail into
+    # the opening: do (rank 4) taught doemos (30516) and medoemos (22302) in
+    # level 2, jam filled level 5 with qenke, qenie, meqenese and qeshe, and
+    # une ("I", rank 16) was pushed to level 11.
+    #
+    # The tail is now scheduled in its own frequency band: it is emitted
+    # just before the first family whose rank -- and the rank of every
+    # family after it -- is above the tail's most common member. It also
+    # waits for the families holding its own stems, so prerequisites still
+    # hold. The head teaches the root; the tail level ("do 2/2") comes back
+    # to the family once the learner's frontier reaches those words.
+    rare_of = {r_root: set(rare) for r_root, rare, _, _ in deferred_units}
+
+    def family_units(root):
+        """The (members, part, nparts, resumes) units of one family."""
+        rare_set = rare_of.get(root, set())
         # teaching_order() sorts a family by teaching priority first (the
         # everyday present before the subjunctive), which is right WITHIN a
-        # session. But a deferred family additionally needs its common
-        # members listed before its rare ones, so the split point computed
-        # above is real. So the rare set is keyed ahead of the teaching order
-        # and the teaching order still decides everything inside each half.
-        rare_set = set()
-        for r_root, rare, _, _ in deferred_units:
-            if r_root == root:
-                rare_set = set(rare)
+        # session. A deferred family additionally needs its common members
+        # listed before its rare ones, so the rare set is keyed first and
+        # the teaching order still decides everything inside each half.
         members = sorted(
             families[root],
             key=lambda w: (1 if w in rare_set else 0,
@@ -1574,24 +1496,55 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         cut = defer_at.get(root)
         if cut is None:
             nparts = max(1, -(-len(members) // per_level))
-            for i in range(0, len(members), per_level):
-                units.append((root, members[i:i + per_level],
-                              i // per_level, nparts))
-            continue
+            return [(members[i:i + per_level], i // per_level, nparts, False)
+                    for i in range(0, len(members), per_level)], []
         # The split point must land ON a part boundary, or the rare members
-        # would share a session with the common ones -- which is the very
-        # thing this change removes. So the head is padded out to whole
-        # sessions and the tail starts the next part.
+        # would share a session with the common ones.
+        # Head and tail are numbered as two runs: the head is taught like any
+        # family ("per 1/2", or just "do"), and the tail is its own run of
+        # levels marked as the family's rarer words ("do (rarer words)").
         head_parts = max(1, -(-cut // per_level))
-        head = members[:cut]
-        tail = members[cut:]
-        nparts = head_parts + max(1, -(-len(tail) // per_level))
-        for i in range(0, head_parts):
-            units.append((root, head[i * per_level:(i + 1) * per_level],
-                          i, nparts))
-        for j, i in enumerate(range(0, len(tail), per_level)):
-            units.append((root, tail[i:i + per_level],
-                          head_parts + j, nparts))
+        tail_parts = max(1, -(-(len(members) - cut) // per_level))
+        head, tail = members[:cut], members[cut:]
+        head_units = [(head[i * per_level:(i + 1) * per_level], i,
+                       head_parts, False) for i in range(head_parts)]
+        tail_units = [(tail[i:i + per_level], j, tail_parts, True)
+                      for j, i in enumerate(range(0, len(tail), per_level))]
+        return head_units, tail_units
+
+    # The frontier is the rarest family placed so far. The order is
+    # topological, so a common family can follow a rarer one it depends on;
+    # the running maximum ignores those and tracks how far into the
+    # frequency list the learner has actually got.
+    big = 10 ** 9
+    pending = []   # (tail rank, root, stem families, tail units)
+    emitted = set()
+    units = []     # (root, members, part, nparts, resumes)
+    frontier = 0
+
+    def release(frontier):
+        for item in sorted(pending):
+            rank, root, needs, tunits = item
+            if rank < frontier and needs <= emitted:
+                units.extend((root,) + u for u in tunits)
+                pending.remove(item)
+
+    for root in ordered:
+        frontier = max(frontier, score.get(root, big))
+        release(frontier)
+        head_units, tail_units = family_units(root)
+        units.extend((root,) + u for u in head_units)
+        emitted.add(root)
+        if tail_units:
+            tail_words = [w for u in tail_units for w in u[0]]
+            needs = {fam_of[s] for w in tail_words for s in stems_of(w)
+                     if fam_of.get(s) not in (None, root)}
+            pending.append((min(rank_of.get(w, big) for w in tail_words),
+                            root, needs, tail_units))
+    # Whatever is left waits on a stem cycle or is rarer than everything
+    # else; it goes last, most common first.
+    for _, root, _, tunits in sorted(pending):
+        units.extend((root,) + u for u in tunits)
 
     # Pack consecutive units into session-sized levels.
     #
@@ -1601,10 +1554,11 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     #   3. Otherwise pack whole families up to per_level words and
     #      max_families roots.
     levels = []
-    cur_words, cur_roots, cur_part = [], [], {}
+    cur_words, cur_roots, cur_part, cur_sizes = [], [], {}, []
+    cur_tail = False
 
     def flush():
-        nonlocal cur_words, cur_roots, cur_part
+        nonlocal cur_words, cur_roots, cur_part, cur_sizes, cur_tail
         if not cur_words:
             return
         if len(cur_roots) == 1:
@@ -1613,7 +1567,11 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         else:
             root = ""
             part, nparts = 1, 1
-        if nparts == 1:
+        if cur_tail:
+            title = "%s (rarer words)" % root
+            if nparts > 1:
+                title += " %d/%d" % (part, nparts)
+        elif nparts == 1:
             # Name at most TITLE_ROOTS roots and count only the ones left out,
             # so "+N" is the number actually hidden (it used to be len - 2
             # while every root was still listed).
@@ -1622,50 +1580,178 @@ def assign_levels(cards, families, per_level=9, max_families=6,
             title = "%s %d/%d" % (root, part, nparts)
         if not root and len(cur_roots) > TITLE_ROOTS:
             title += " +%d" % (len(cur_roots) - TITLE_ROOTS)
-        levels.append((root, list(cur_words), title, len(cur_roots), part, nparts))
-        cur_words, cur_roots, cur_part = [], [], {}
+        levels.append((root, list(cur_words), title, len(cur_roots), part,
+                       nparts, cur_tail and part == 1))
+        cur_words, cur_roots, cur_part, cur_sizes = [], [], {}, []
+        cur_tail = False
 
-    tail_of = {root: rare for root, rare, _, _ in deferred_units}
-
-    for root, members, part, nparts in units:
+    for root, members, part, nparts, tail in units:
         # Option 2: a multi-member family teaches a root plus its
         # derivations, so it holds the level alone. Singletons have no group
         # lesson and pack up to the session target as before. A continuation
         # part is always alone too, so a split family stays one lesson.
-        cur_counts = [len(families[r]) for r in cur_roots]
+        #
+        # Sizes are the units', not the families': a split family's head is
+        # what is taught here, so do (one common word, seven rare) packs like
+        # the singleton it now is instead of holding a level on its own.
         blocked = cur_words and (
             part > 0
-            or not pack_shape.may_join(cur_counts, len(members))
+            or tail
+            or not pack_shape.may_join(cur_sizes, len(members))
             or len(cur_words) + len(members) > per_level)
-        # A family whose rare tail is deferred must own the level holding its
-        # HEAD. The part metadata lives on the level, so a head packed beside
-        # other roots is recorded as a plain 1/1 and its tail then reads
-        # "part 2/2 follows part 0".
-        #
-        # Only these families are affected -- seven of them, measured -- so
-        # the cost is a handful of shorter sessions rather than the 257 extra
-        # levels that forcing EVERY family to own its level produced.
-        if cur_words and tail_of.get(root) and part == 0:
-            blocked = True
         if blocked:
             flush()
         if root not in cur_part:
             cur_part[root] = (part, nparts)
             cur_roots.append(root)
+            cur_sizes.append(len(members))
         cur_words.extend(members)
-        if part > 0:
+        cur_tail = tail
+        # A tail level always stands alone, so the level that resumes a
+        # family can say so ("resumes") and the validator can check it.
+        if part > 0 or tail:
             flush()
     flush()
 
-    # The rare tails need no machinery here. Each deferred family is already a
-    # normal split family: its members were ordered common-first and the unit
-    # builder above split it at the boundary, so the packer below numbers its
-    # parts consecutively and gives each a level of its own. "do 1/2" is the
-    # session a beginner meets; "do 2/2" -- domethene, ndopak, domosdoshem,
-    # medoemos, doemos, domosdoshmeri -- follows it a few levels later rather
-    # than sitting in level 2 and crowding out the words a learner meets in
-    # their first week.
     return levels
+
+
+def word_object(w, c, root, corpus_examples):
+    """The level-file card for word `w`, built from its build-time card `c`.
+
+    `_tier` rides along for the in-level sort and is removed before writing.
+    """
+    head = c["senses"][0] if c["senses"] else None
+    return {
+        "id": w,
+        "sq": w,
+        "en": head["gloss"] if head else "",
+        "glosses": [s["gloss"] for s in c["senses"]],
+        "pos": [s["pos"] for s in c["senses"]],
+        "pos_labels": [s["pos_label"] for s in c["senses"]],
+        # _score/_src are build-time only; the app never needs them
+        "sense_detail": [{k: v for k, v in s.items()
+                          if k not in ("_score", "_src")}
+                         for s in c["senses"]],
+        "rank": c["rank"],
+        "count": c["count"],
+        "family": c.get("family", w),
+        "is_root": c.get("family", w) == w,
+        "etymology": c["etymology"],
+        "etymology_class": c["etymology_class"],
+        "source_lang": c["source_lang"],
+        # Item 3: the source-language form, e.g. "from Latin soca".
+        # The deck already shows components this way ("from e- +
+        # sille"); a cognate is the historical equivalent.
+        "cognate": cognates.cognate_line(w, c["etymology"], c["source_lang"]),
+        "parents": c["parents"][:3],
+        "components": c.get("components") or [],
+        "derived": c["derived"][:8],
+        "related": c["related"][:5],
+        "forms": c["forms"],
+        # Corpus fallback, shaped like a sense example so the
+        # existing exampleForSense() logic reads it unchanged.
+        "corpus_example": corpus_examples.get(w),
+        "_tier": teaching_order.level_key(c, is_root=(w == root))[0],
+    }
+
+
+def write_levels(levels, by_word, corpus_examples):
+    """Write the level files, course.json and index.json for `levels`.
+
+    `levels` is assign_levels() output and `by_word` maps each word to its
+    build-time card. tools/relevel.py calls this too, with cards read back
+    from the shipped level files, so the two paths cannot drift apart.
+    Returns the level objects, in order.
+    """
+    os.makedirs(LEVELS_DIR, exist_ok=True)
+    for f in os.listdir(LEVELS_DIR):
+        if f.endswith(".json"):
+            os.remove(os.path.join(LEVELS_DIR, f))
+
+    # Zero-pad to a width that fits the largest level number. A fixed %02d
+    # breaks once there are 100+ levels: "level_100" then sorts before
+    # "level_11", so any consumer that globs and sorts the directory by name
+    # gets levels out of order.
+    lvl_width = max(2, len(str(len(levels))))
+
+    level_objs = []
+    for i, (root, words, title, nfam, part, nparts, resumes) in enumerate(levels, 1):
+        objs = []
+        for w in words:
+            objs.append(word_object(w, by_word[w], root, corpus_examples))
+        # Order within a level is the teaching order assign_levels() chose
+        # (family members sorted by tense/register tier, then frequency).
+        # Re-sorting by raw rank here silently undid that work: the `jam`
+        # family came out byte-identical to the frequency order, which is
+        # how the tier sort was found to be a no-op in practice.
+        objs.sort(key=lambda o: (o["_tier"], o["rank"]))
+        # _tier exists only to drive that sort. The level-file contract is
+        # that no build-time field ships, so drop it before writing.
+        for o in objs:
+            del o["_tier"]
+        # A single-family level is named after its root, the way a Wanikani
+        # level is named after the radical it unlocks; a split family keeps
+        # the root and gains a "2/3" marker. A multi-family level lists the
+        # roots it contains, capped at two plus a count.
+        root_gloss = (by_word[root]["senses"][0]["gloss"]
+                      if root and by_word[root]["senses"] else "")
+        lvl = {
+            "level": i,
+            "title": title,
+            "root": root,
+            "root_gloss": root_gloss,
+            "part": part,
+            "parts": nparts,
+            "word_count": len(objs),
+            "families": sorted({o["family"] for o in objs}),
+            "pos_mix": dict(Counter(p for o in objs for p in o["pos"])),
+            "words": objs,
+        }
+        # The first level of a family's rare tail, scheduled later than its
+        # head ("root first, tail later"). The validator lets exactly these
+        # continuations follow a gap.
+        if resumes:
+            lvl["resumes"] = True
+        level_objs.append(lvl)
+
+    # Breakdown glosses, transparency and pattern notes need the whole course
+    # in order (a pattern lands on the level of its third clear example), so
+    # the level files are written only after every level exists.
+    patterns_at = affixes.annotate_levels(level_objs)
+    for lvl in level_objs:
+        with open(os.path.join(LEVELS_DIR, "level_%0*d.json"
+                               % (lvl_width, lvl["level"])),
+                  "w", encoding="utf-8") as fh:
+            json.dump(lvl, fh, ensure_ascii=False, indent=1)
+
+    course = {
+        "title": "Albanian Roots & Families",
+        "language": "sq",
+        "source": {
+            "dictionary": "Kaikki.org (wiktextract of English Wiktionary)",
+            "frequency": "hermitdave/FrequencyWords (OpenSubtitles2018, 2018 build)",
+        },
+        # The app derives level-file names from this width, so publishing it
+        # here keeps the two in lockstep (a hardcoded padStart broke at 1000).
+        "level_file_width": lvl_width,
+        "level_count": len(level_objs),
+        "word_count": sum(l["word_count"] for l in level_objs),
+        # title/root/part/parts ride along so the level map can label each
+        # level with its root without loading all 184 level files.
+        "levels": [{"level": l["level"], "word_count": l["word_count"],
+                    "families": len(l["families"]),
+                    "title": l["title"], "root": l["root"],
+                    "root_gloss": l["root_gloss"],
+                    "part": l["part"], "parts": l["parts"]}
+                   for l in level_objs],
+    }
+    affixes.set_index_patterns(course["levels"], patterns_at)
+    with open(os.path.join(OUT, "course.json"), "w", encoding="utf-8") as fh:
+        json.dump(course, fh, ensure_ascii=False, indent=1)
+    with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as fh:
+        json.dump(course["levels"], fh, ensure_ascii=False, indent=1)
+    return level_objs
 
 
 # ------------------------------------------------------------------- main
@@ -1675,7 +1761,7 @@ def main():
     freqp = os.path.join(RAW, "sq_50k.txt")
     for p in (kaikki, freqp):
         if not os.path.exists(p):
-            print("MISSING:", p, "- run tools/fetch_data.py first", file=sys.stderr)
+            print("MISSING:", p, "- run tools/fetch_sources.py first", file=sys.stderr)
             return 2
 
     print("loading frequency list...", flush=True)
@@ -1874,121 +1960,7 @@ def main():
     levels = assign_levels(cards, families, components=by_word_components(cards))
     print("  %d levels" % len(levels))
 
-    os.makedirs(LEVELS_DIR, exist_ok=True)
-    for f in os.listdir(LEVELS_DIR):
-        if f.endswith(".json"):
-            os.remove(os.path.join(LEVELS_DIR, f))
-
-    # Zero-pad to a width that fits the largest level number. A fixed %02d
-    # breaks once there are 100+ levels: "level_100" then sorts before
-    # "level_11", so any consumer that globs and sorts the directory by name
-    # gets levels out of order.
-    lvl_width = max(2, len(str(len(levels))))
-
-    level_objs = []
-    for i, (root, words, title, nfam, part, nparts) in enumerate(levels, 1):
-        objs = []
-        for w in words:
-            c = by_word[w]
-            head = c["senses"][0] if c["senses"] else None
-            objs.append({
-                "id": w,
-                "sq": w,
-                "en": head["gloss"] if head else "",
-                "glosses": [s["gloss"] for s in c["senses"]],
-                "pos": [s["pos"] for s in c["senses"]],
-                "pos_labels": [s["pos_label"] for s in c["senses"]],
-                # _score/_src are build-time only; the app never needs them
-                "sense_detail": [{k: v for k, v in s.items()
-                                  if k not in ("_score", "_src")}
-                                 for s in c["senses"]],
-                "rank": c["rank"],
-                "count": c["count"],
-                "family": c.get("family", w),
-                "is_root": c.get("family", w) == w,
-                "etymology": c["etymology"],
-                "etymology_class": c["etymology_class"],
-                "source_lang": c["source_lang"],
-                # Item 3: the source-language form, e.g. "from Latin soca".
-                # The deck already shows components this way ("from e- +
-                # sille"); a cognate is the historical equivalent.
-                "cognate": cognates.cognate_line(w, c["etymology"], c["source_lang"]),
-                "parents": c["parents"][:3],
-                "components": c.get("components") or [],
-                "derived": c["derived"][:8],
-                "related": c["related"][:5],
-                "forms": c["forms"],
-                # Corpus fallback, shaped like a sense example so the
-                # existing exampleForSense() logic reads it unchanged.
-                "corpus_example": corpus_examples.get(w),
-                "_tier": teaching_order.level_key(c, is_root=(w == root))[0],
-            })
-        # Order within a level is the teaching order assign_levels() chose
-        # (family members sorted by tense/register tier, then frequency).
-        # Re-sorting by raw rank here silently undid that work: the `jam`
-        # family came out byte-identical to the frequency order, which is
-        # how the tier sort was found to be a no-op in practice.
-        objs.sort(key=lambda o: (o["_tier"], o["rank"]))
-        # _tier exists only to drive that sort. The level-file contract is
-        # that no build-time field ships, so drop it before writing.
-        for o in objs:
-            del o["_tier"]
-        # A single-family level is named after its root, the way a Wanikani
-        # level is named after the radical it unlocks; a split family keeps
-        # the root and gains a "2/3" marker. A multi-family level lists the
-        # roots it contains, capped at two plus a count.
-        root_gloss = (by_word[root]["senses"][0]["gloss"]
-                      if root and by_word[root]["senses"] else "")
-        lvl = {
-            "level": i,
-            "title": title,
-            "root": root,
-            "root_gloss": root_gloss,
-            "part": part,
-            "parts": nparts,
-            "word_count": len(objs),
-            "families": sorted({o["family"] for o in objs}),
-            "pos_mix": dict(Counter(p for o in objs for p in o["pos"])),
-            "words": objs,
-        }
-        level_objs.append(lvl)
-
-    # Breakdown glosses, transparency and pattern notes need the whole course
-    # in order (a pattern lands on the level of its third clear example), so
-    # the level files are written only after every level exists.
-    patterns_at = affixes.annotate_levels(level_objs)
-    for lvl in level_objs:
-        with open(os.path.join(LEVELS_DIR, "level_%0*d.json"
-                               % (lvl_width, lvl["level"])),
-                  "w", encoding="utf-8") as fh:
-            json.dump(lvl, fh, ensure_ascii=False, indent=1)
-
-    course = {
-        "title": "Albanian Roots & Families",
-        "language": "sq",
-        "source": {
-            "dictionary": "Kaikki.org (wiktextract of English Wiktionary)",
-            "frequency": "hermitdave/FrequencyWords (OpenSubtitles2018, 2018 build)",
-        },
-        # The app derives level-file names from this width, so publishing it
-        # here keeps the two in lockstep (a hardcoded padStart broke at 1000).
-        "level_file_width": lvl_width,
-        "level_count": len(level_objs),
-        "word_count": sum(l["word_count"] for l in level_objs),
-        # title/root/part/parts ride along so the level map can label each
-        # level with its root without loading all 184 level files.
-        "levels": [{"level": l["level"], "word_count": l["word_count"],
-                    "families": len(l["families"]),
-                    "title": l["title"], "root": l["root"],
-                    "root_gloss": l["root_gloss"],
-                    "part": l["part"], "parts": l["parts"]}
-                   for l in level_objs],
-    }
-    affixes.set_index_patterns(course["levels"], patterns_at)
-    with open(os.path.join(OUT, "course.json"), "w", encoding="utf-8") as fh:
-        json.dump(course, fh, ensure_ascii=False, indent=1)
-    with open(os.path.join(OUT, "index.json"), "w", encoding="utf-8") as fh:
-        json.dump(course["levels"], fh, ensure_ascii=False, indent=1)
+    level_objs = write_levels(levels, by_word, corpus_examples)
 
     top = cards[:30]
     report = {
@@ -1996,7 +1968,7 @@ def main():
         "families": len(families),
         "families_multi": len(multi),
         "levels": len(level_objs),
-        "words": course["word_count"],
+        "words": sum(l["word_count"] for l in level_objs),
         "pos": dict(Counter(p for c in cards for p in [s["pos"] for s in c["senses"]])),
         "etymology_class": dict(Counter(str(c["etymology_class"]) for c in cards)),
         "source_lang": dict(Counter(str(c["source_lang"]) for c in cards)),
@@ -2004,7 +1976,9 @@ def main():
         "words_multi_pos": sum(1 for c in cards if len({s["pos"] for s in c["senses"]}) > 1),
         "largest_families": sorted(
             [{"root": r, "n": len(m)} for r, m in families.items() if len(m) > 1],
-            key=lambda d: -d["n"])[:15],
+            # Ties broken by root: family order is hash-seed dependent, and
+            # CI compares a rebuild to the committed data byte for byte.
+            key=lambda d: (-d["n"], d["root"]))[:15],
         "sample_first_30": [{"sq": c["word"],
                              "pos": "/".join(sorted({s["pos"] for s in c["senses"]})),
                              "en": " | ".join(s["gloss"] for s in c["senses"][:2])}
@@ -2014,7 +1988,8 @@ def main():
         json.dump(report, fh, ensure_ascii=False, indent=1)
 
     print("\nWrote data/course.json, data/index.json, data/report.json")
-    print("Wrote data/levels/level_01..%0*d.json" % (lvl_width, len(level_objs)))
+    print("Wrote data/levels/level_01..%0*d.json"
+          % (max(2, len(str(len(level_objs)))), len(level_objs)))
     print("First 12 levels (root, gloss, words):")
     for l in level_objs[:12]:
         print("  %2d  %-12s %-34s %d words" % (l["level"], l["title"],

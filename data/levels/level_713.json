@@ -1,90 +1,135 @@
 {
  "level": 713,
- "title": "aids, këmbësor, komunal +3",
+ "title": "kudër, atletik, ëmbëlsi +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "aids",
-  "komunal",
-  "këmbësor",
-  "troftë",
-  "trullos",
-  "zbritja"
+  "arterie",
+  "atletik",
+  "brohoritje",
+  "kudër",
+  "zbërthej",
+  "ëmbëlsi"
  ],
  "pos_mix": {
-  "noun": 4,
-  "adj": 2,
+  "noun": 6,
+  "adj": 1,
   "verb": 1
  },
  "words": [
   {
-   "id": "aids",
-   "sq": "aids",
-   "en": "AIDS (acquired immune deficiency syndrome)",
+   "id": "kudër",
+   "sq": "kudër",
+   "en": "female dog (or female fox, wolf, lynx, etc.)",
    "glosses": [
-    "AIDS (acquired immune deficiency syndrome)"
+    "female dog (or female fox, wolf, lynx, etc.)",
+    "bitch, whore"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "AIDS (acquired immune deficiency syndrome)",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "female dog (or female fox, wolf, lynx, etc.)",
+     "tags": [],
      "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "93 7"
       },
       {
-       "name": "Pages with 9 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "92 8"
       }
      ],
      "examples": [
       {
-       "sq": "sindromi i mungesës së imunitetit të fituar",
-       "en": "acquired immune deficiency syndrome",
+       "sq": "qeni dhe kudra",
+       "en": "the dog and the female dog (bitch)",
        "offsets": [
         [
-         0,
-         43
+         9,
+         14
         ]
        ]
       }
      ],
      "links": [
-      "AIDS",
-      "acquired immune deficiency syndrome"
+      "zoology",
+      "dog",
+      "fox"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bitch, whore",
+     "tags": [
+      "colloquial",
+      "derogatory",
+      "offensive",
+      "vulgar"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ik, moj kudër!",
+       "en": "Go away, bitch!",
+       "offsets": [
+        [
+         8,
+         13
+        ]
+       ]
+      },
+      {
+       "sq": "Pse po flet kjo kudër?",
+       "en": "Why is this bitch talking?",
+       "offsets": [
+        [
+         16,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "derogatory",
+      "bitch",
+      "whore"
      ]
     }
    ],
-   "rank": 35714,
-   "count": 11,
-   "family": "aids",
+   "rank": 31783,
+   "count": 13,
+   "family": "kudër",
    "is_root": true,
-   "etymology": "Borrowed from English AIDS (acquired immune deficiency syndrome).",
-   "etymology_class": "derived",
+   "etymology": "Probably derived from the same root as qen (male dog), Old Albanian kjèn/klen, ultimately from Proto-Indo-European ḱwṓ/ḱwṓn",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -95,23 +140,23 @@
    "corpus_example": null
   },
   {
-   "id": "këmbësor",
-   "sq": "këmbësor",
-   "en": "infantryman",
+   "id": "atletik",
+   "sq": "atletik",
+   "en": "athletic",
    "glosses": [
-    "infantryman"
+    "athletic"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "infantryman",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "athletic",
      "tags": [],
      "cats": [
       {
@@ -121,7 +166,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -135,13 +180,13 @@
      ],
      "examples": [],
      "links": [
-      "infantryman"
+      "athletic"
      ]
     }
    ],
-   "rank": 35746,
-   "count": 11,
-   "family": "këmbësor",
+   "rank": 31792,
+   "count": 13,
+   "family": "atletik",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -154,200 +199,136 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Most of those killed were pedestrians.",
+    "en": "How is the situation of the athletic trainer in Albania?",
     "score": [
-     1,
-     5,
+     4,
+     8,
      -4,
      10
     ],
-    "sq": "Shumica prej tyre janë këmbësor."
+    "sq": "Si paraqitet në Shqipëri gjendja e përgatitësit atletik?"
    }
   },
   {
-   "id": "komunal",
-   "sq": "komunal",
-   "en": "communal, shared locally",
+   "id": "ëmbëlsi",
+   "sq": "ëmbëlsi",
+   "en": "sweetness",
    "glosses": [
-    "communal, shared locally",
-    "Of or related to a commune, particularly (historical) Albania's former nahiyes and communes, which oversaw local government."
+    "sweetness",
+    "pleasantness"
    ],
    "pos": [
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "communal, shared locally",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "communal",
-      "shared",
-      "locally"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "Of or related to a commune, particularly (historical) Albania's former nahiyes and communes, which oversaw local government.",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 87 1 5"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 93 0 3"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "këshilli komunal",
-       "en": "the local council",
-       "offsets": [
-        [
-         9,
-         16
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "related",
-      "commune",
-      "particularly"
-     ]
-    }
-   ],
-   "rank": 35748,
-   "count": 11,
-   "family": "komunal",
-   "is_root": true,
-   "etymology": "Ultimately from Latin commūnālis (“communal”), from commūnis (“common, shared”) + -ālis (“-al”), with influence from komunë in reference to local government.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "communal"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [
-    "komunë"
-   ],
-   "forms": [
-    {
-     "form": "komunale",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "troftë",
-   "sq": "troftë",
-   "en": "trout",
-   "glosses": [
-    "trout"
-   ],
-   "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "trout",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "sweetness",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "trout"
+      "sweetness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pleasantness",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pleasantness"
      ]
     }
    ],
-   "rank": 35765,
-   "count": 11,
-   "family": "troftë",
+   "rank": 31820,
+   "count": 13,
+   "family": "ëmbëlsi",
    "is_root": true,
-   "etymology": "From Latin tructa.",
+   "etymology": "",
    "etymology_class": null,
-   "source_lang": "la",
-   "cognate": "from Latin tructa",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "trofta",
-     "tag": "plural"
+     "form": "ëmbëlsia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Has trout, so bring a pole.",
+    "en": "Taste for sweetness.",
     "score": [
      0,
-     7,
-     -7,
+     3,
+     -3,
      10
     ],
-    "sq": "Ka troftë, kështu që sill një shtyllë."
+    "sq": "Shije për ëmbëlsi."
    }
   },
   {
-   "id": "zbritja",
-   "sq": "zbritja",
-   "en": "subtraction",
+   "id": "brohoritje",
+   "sq": "brohoritje",
+   "en": "cheer; the act of cheering",
    "glosses": [
-    "subtraction"
+    "cheer; the act of cheering"
    ],
    "pos": [
     "noun"
@@ -359,7 +340,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "subtraction",
+     "gloss": "cheer; the act of cheering",
      "tags": [
       "feminine"
      ],
@@ -385,16 +366,15 @@
      ],
      "examples": [],
      "links": [
-      "mathematics",
-      "subtraction"
+      "cheer"
      ]
     }
    ],
-   "rank": 35792,
-   "count": 11,
-   "family": "zbritja",
+   "rank": 31856,
+   "count": 13,
+   "family": "brohoritje",
    "is_root": true,
-   "etymology": "From zbres.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -405,22 +385,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is the Sharing Discount?",
+    "en": "I was cheering on Li Na.",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Çfarë është zbritja e ndarjes?"
+    "sq": "Unë kam qenë brohoritje në Li Na."
    }
   },
   {
-   "id": "trullos",
-   "sq": "trullos",
-   "en": "to befuddle, deafen, make or beat unconscious",
+   "id": "zbërthej",
+   "sq": "zbërthej",
+   "en": "to pull apart, disintegrate, break down, decompose",
    "glosses": [
-    "to befuddle, deafen, make or beat unconscious"
+    "to pull apart, disintegrate, break down, decompose"
    ],
    "pos": [
     "verb"
@@ -432,10 +412,8 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to befuddle, deafen, make or beat unconscious",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to pull apart, disintegrate, break down, decompose",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -444,7 +422,98 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pull",
+      "apart",
+      "disintegrate"
+     ]
+    }
+   ],
+   "rank": 31899,
+   "count": 13,
+   "family": "zbërthej",
+   "is_root": true,
+   "etymology": "From z- (privative mobile prefix) + mbërthej.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "z",
+     "role": "prefix"
+    },
+    {
+     "word": "mbërthej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zbërtheva",
+     "tag": "aorist"
+    },
+    {
+     "form": "zbërthyer",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Through the performance, I started to deconstruct the image of Frida.",
+    "score": [
+     3,
+     9,
+     -6,
+     8
+    ],
+    "sq": "Nëpërmjet performancës, kam filluar të zbërthej imazhin e Fridës."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "arterie",
+   "sq": "arterie",
+   "en": "artery (efferent blood vessel from the heart)",
+   "glosses": [
+    "artery (efferent blood vessel from the heart)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "artery (efferent blood vessel from the heart)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 7 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -458,17 +527,15 @@
      ],
      "examples": [],
      "links": [
-      "befuddle",
-      "deafen",
-      "make"
+      "artery"
      ]
     }
    ],
-   "rank": 35819,
-   "count": 11,
-   "family": "trullos",
+   "rank": 31953,
+   "count": 13,
+   "family": "arterie",
    "is_root": true,
-   "etymology": "From tru, with the -l- doublet originating through contamination with truaj and further with truall.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -476,26 +543,17 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "trullosa",
-     "tag": "aorist"
-    },
-    {
-     "form": "trullosur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Dathcha can also stun the droids.",
+    "corpus": "QED",
+    "en": "Those are arteries. and then the blue ones are veins.",
     "score": [
      2,
-     6,
-     -4,
-     10
+     8,
+     -6,
+     5
     ],
-    "sq": "Dathcha gjithashtu mund të trullos droids."
+    "sq": "Këto janë arterie. dhe të kaltërtat janë vena."
    }
   }
  ]

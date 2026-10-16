@@ -96,6 +96,9 @@ def main():
             part, parts = lvl.get("part"), lvl.get("parts")
             if not isinstance(parts, int) or parts < 1 or not isinstance(part, int) or not 1 <= part <= parts:
                 struct.append("%s: bad part/part= %r/%r" % (fname, part, parts))
+            elif lvl.get("resumes") and part != 1:
+                struct.append("%s: resumes %r at part %d, not part 1"
+                              % (fname, f, part))
             elif parts > 1 and part > 1 and last_part.get(f, (0, None))[1] != i - 1:
                 # A continuation must sit IMMEDIATELY after the PREVIOUS
                 # part, not merely somewhere after part 1. Comparing
@@ -107,28 +110,50 @@ def main():
                               % (fname, part, parts, f, prev_part, prev_lvl))
             if parts > 1:
                 last_part[f] = (part, i)
+        if lvl.get("resumes") and nfam != 1:
+            struct.append("%s: a level that resumes a family must hold only "
+                          "that family" % fname)
         for w in lvl["words"]:
             fam_parts.setdefault(w["family"], set()).add(
-                (lvl.get("part", 1), lvl.get("parts", 1), i))
+                (lvl.get("part", 1), lvl.get("parts", 1), i,
+                 bool(lvl.get("resumes"))))
 
     # A split family must be consecutive 1/n, 2/n, ... AND every one of its
     # levels must agree on the total n. Checking each level on its own is not
     # enough: a level claiming part 2 of 10 while its sibling claims part 1 of
     # 7 is internally valid and slips straight through.
+    #
+    # "Root first, tail later": a family's rare tail may come back later in
+    # the course as a second run of levels, marked `resumes` on its first
+    # level. Each run is checked on its own, and a family has at most two:
+    # the head and the tail.
     for f, seen in fam_parts.items():
-        totals = {tot for _, tot, _ in seen}
-        if len(totals) > 1:
-            struct.append("family %r disagrees on its part count: %s"
-                          % (f, sorted(totals)))
-        lvls = sorted(x[2] for x in seen)
-        if len(lvls) <= 1:
-            continue
-        if lvls != list(range(lvls[0], lvls[0] + len(lvls))):
-            struct.append("family %r spans non-consecutive levels %s" % (f, lvls))
-        ordered = [x[0] for x in sorted(seen, key=lambda x: x[2])]
-        if ordered != list(range(1, len(ordered) + 1)):
-            struct.append("family %r has parts %s, expected 1..%d"
-                          % (f, ordered, len(ordered)))
+        runs = [[]]
+        for x in sorted(seen, key=lambda x: x[2]):
+            if x[3] and runs[-1]:
+                runs.append([])
+            runs[-1].append(x)
+        if len(runs) > 2:
+            struct.append("family %r resumes more than once: levels %s"
+                          % (f, [r[0][2] for r in runs]))
+        if runs[0] and runs[0][0][3]:
+            struct.append("family %r resumes on level %d before it is taught"
+                          % (f, runs[0][0][2]))
+        for run in runs:
+            totals = {tot for _, tot, _, _ in run}
+            if len(totals) > 1:
+                struct.append("family %r disagrees on its part count: %s"
+                              % (f, sorted(totals)))
+            lvls = [x[2] for x in run]
+            if len(lvls) <= 1:
+                continue
+            if lvls != list(range(lvls[0], lvls[0] + len(lvls))):
+                struct.append("family %r spans non-consecutive levels %s"
+                              % (f, lvls))
+            ordered = [x[0] for x in run]
+            if ordered != list(range(1, len(ordered) + 1)):
+                struct.append("family %r has parts %s, expected 1..%d"
+                              % (f, ordered, len(ordered)))
 
     check(not struct,
           "level structure violations:\n    " + "\n    ".join(struct[:20]))

@@ -1,32 +1,31 @@
 {
  "level": 626,
- "title": "flihet, bejsboll, rrjedhshëm +3",
+ "title": "shlyej, kok, pelerinë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "bejsboll",
-  "flihet",
-  "mysliman",
-  "mëlçi",
-  "rrjedhshëm",
-  "vutë"
+  "heshtë",
+  "kok",
+  "pelerinë",
+  "shlyej",
+  "spermë",
+  "trash"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 5,
-  "adj": 5
+  "verb": 4,
+  "noun": 6
  },
  "words": [
   {
-   "id": "flihet",
-   "sq": "flihet",
-   "en": "it caused sleep",
+   "id": "shlyej",
+   "sq": "shlyej",
+   "en": "to erase",
    "glosses": [
-    "it caused sleep",
-    "it is sleepable"
+    "to erase",
+    "to pay off (debts)"
    ],
    "pos": [
     "verb",
@@ -40,20 +39,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "it caused sleep",
+     "gloss": "to erase",
      "tags": [
-      "mediopassive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it is sleepable",
-     "tags": [
-      "mediopassive"
+      "transitive"
      ],
      "cats": [
       {
@@ -61,65 +49,241 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "42 58"
+       "_dis": "55 45"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "erase"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pay off (debts)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "42 58"
+       "_dis": "17 83"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "39 61"
+       "_dis": "15 85"
       }
      ],
      "examples": [],
-     "links": []
+     "links": [
+      "pay",
+      "off",
+      "debts"
+     ]
     }
    ],
-   "rank": 20342,
-   "count": 25,
-   "family": "flihet",
+   "rank": 18037,
+   "count": 30,
+   "family": "shlyej",
    "is_root": true,
-   "etymology": "See active voice form fle (“to sleep”).",
-   "etymology_class": null,
+   "etymology": "Probably from sh (“dis”) + lyej (“to varnish, paint”), with an expanded meaning.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "fle"
+   "parents": [
+    "dis"
    ],
+   "components": [
+    {
+     "word": "lyej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "fjetur",
+     "form": "shlyer",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "QED",
-    "en": "I want to sleep.",
+    "en": "We'll make up for it.",
     "score": [
-     1,
-     3,
-     -2,
+     2,
+     6,
+     -4,
      5
     ],
-    "sq": "Me flihet gjum."
+    "sq": "Po pres. Do te ta shlyej."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "kok",
+   "sq": "kok",
+   "en": "coconut",
+   "glosses": [
+    "coconut",
+    "coccus (bacterium)",
+    "cook"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coconut",
+     "tags": [
+      "Gheg",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Fruits",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Fruits",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 53 9 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "coconut"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coccus (bacterium)",
+     "tags": [
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Bacteria",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Bacteria",
+       "langcode": "sq"
+      },
+      {
+       "name": "Medicine",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Medicine",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian internationalisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "medicine",
+      "coccus"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cook",
+     "tags": [
+      "masculine",
+      "obsolete",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Occupations",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Occupations",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cook"
+     ]
+    }
+   ],
+   "rank": 18086,
+   "count": 30,
+   "family": "kok",
+   "is_root": true,
+   "etymology": "Borrowed from Italian cocco.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "cook"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "SETIMES",
+    "en": "This prompted the resignation the government of Prime Minister Wim Kok.",
+    "score": [
+     5,
+     9,
+     -4,
+     7
+    ],
+    "sq": "Kjo shkaktoi dorëheqjen e qeverisë së kryeministrit Vim Kok."
    }
   },
   {
-   "id": "bejsboll",
-   "sq": "bejsboll",
-   "en": "baseball",
+   "id": "pelerinë",
+   "sq": "pelerinë",
+   "en": "cape, cloak, coat",
    "glosses": [
-    "baseball"
+    "cape, cloak, coat"
    ],
    "pos": [
     "noun"
@@ -131,9 +295,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "baseball",
+     "gloss": "cape, cloak, coat",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -157,16 +321,18 @@
      ],
      "examples": [],
      "links": [
-      "baseball"
+      "cape",
+      "cloak",
+      "coat"
      ]
     }
    ],
-   "rank": 20387,
-   "count": 25,
-   "family": "bejsboll",
+   "rank": 18153,
+   "count": 30,
+   "family": "pelerinë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from French pèlerine.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -175,69 +341,130 @@
    "related": [],
    "forms": [
     {
-     "form": "bejsbolli",
-     "tag": "definite"
+     "form": "pelerina",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "As soon as he did that, he turned to baseball.",
+    "en": "Finally, add a protective cape.",
     "score": [
      2,
-     9,
-     -7,
+     6,
+     -4,
      10
     ],
-    "sq": "Sapo e bëri atë, ai u kthye në bejsboll."
+    "sq": "Në fund, shtoni një pelerinë mbrojtëse."
    }
   },
   {
-   "id": "rrjedhshëm",
-   "sq": "rrjedhshëm",
-   "en": "flowing",
+   "id": "heshtë",
+   "sq": "heshtë",
+   "en": "spear",
    "glosses": [
-    "flowing",
-    "fluent"
+    "spear"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "flowing",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spear",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "80 20"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "87 13"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "flowing"
+      "spear"
+     ]
+    }
+   ],
+   "rank": 18160,
+   "count": 30,
+   "family": "heshtë",
+   "is_root": true,
+   "etymology": "A derivative in -shtë, from earlier *hellshtë (cf. kashtë, gashtë), based on hell. Alternatively a substrate word along with Latin hasta, surviving in multiple forms; compare ushtë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I should live and be silent?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Te jetoj dhe të heshtë?"
+   }
+  },
+  {
+   "id": "trash",
+   "sq": "trash",
+   "en": "to thicken, to fatten, to plump up (something)",
+   "glosses": [
+    "to thicken, to fatten, to plump up (something)",
+    "to magnify, inflate (an object)"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to thicken, to fatten, to plump up (something)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "thicken",
+      "fatten",
+      "plump up"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "fluent",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to magnify, inflate (an object)",
      "tags": [
       "figuratively"
      ],
@@ -247,369 +474,154 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "28 72"
+       "_dis": "36 64"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "to exaggerate (a story)",
+       "en": "",
+       "offsets": []
+      },
+      {
+       "sq": "to strengthen, deepen (a friendship, relationship, conversation)",
+       "en": "",
+       "offsets": []
+      }
+     ],
      "links": [
-      "fluent"
+      "magnify",
+      "inflate"
      ]
     }
    ],
-   "rank": 20433,
-   "count": 25,
-   "family": "rrjedhshëm",
+   "rank": 18181,
+   "count": 30,
+   "family": "trash",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are both fluent in English.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Të dy flasin rrjedhshëm anglisht."
-   }
-  },
-  {
-   "id": "mysliman",
-   "sq": "mysliman",
-   "en": "Muslim",
-   "glosses": [
-    "Muslim",
-    "Muslim"
-   ],
-   "pos": [
-    "adj",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "Muslim",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      },
-      {
-       "name": "Islam",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Islam",
-       "langcode": "sq",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Muslim"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "Muslim",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Muslim"
-     ]
-    }
-   ],
-   "rank": 20455,
-   "count": 25,
-   "family": "mysliman",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish مسلمان (müsliman), from Classical Persian مسلمان (musalmān), from Arabic مُسْلِم (muslim).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "myslimanë",
-     "tag": "plural"
-    },
-    {
-     "form": "myslimani",
-     "tag": "definite"
-    },
-    {
-     "form": "myslimane",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This person could be a Muslim.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Ky person mund të jetë mysliman."
-   }
-  },
-  {
-   "id": "mëlçi",
-   "sq": "mëlçi",
-   "en": "liver",
-   "glosses": [
-    "liver",
-    "innards",
-    "lungs"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "liver",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "liver"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "innards",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "innards"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lungs",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 4 75"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 3 89"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 3 90"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lungs"
-     ]
-    }
-   ],
-   "rank": 20486,
-   "count": 25,
-   "family": "mëlçi",
-   "is_root": true,
-   "etymology": "From Italian milza or its variant, Italian milcia, with -ía suffix.",
-   "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian milza",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "mëlçi",
-     "tag": "plural"
-    },
-    {
-     "form": "mëlçia",
-     "tag": "definite"
-    },
-    {
-     "form": "mbëlçi",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "During life, they move to the heart, liver and lungs.",
-    "score": [
-     1,
-     9,
-     -8,
-     10
-    ],
-    "sq": "Gjatë jetës, ato lëvizin në zemër, mëlçi dhe mushkëri."
-   }
-  },
-  {
-   "id": "vutë",
-   "sq": "vutë",
-   "en": "flat, low",
-   "glosses": [
-    "flat, low",
-    "humble, modest"
-   ],
-   "pos": [
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "flat, low",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flat",
-      "low"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "humble, modest",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "humble",
-      "modest"
-     ]
-    }
-   ],
-   "rank": 20496,
-   "count": 25,
-   "family": "vutë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "See Albanian trashë (“thick, fat, massive”) (from Proto-Albanian *trauša, according to Vladimir Orel).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "vutësi"
+    "trashe",
+    "Trashe",
+    "Trashja",
+    "Trashaj",
+    "trashi",
+    "Trash",
+    "Trashi",
+    "trashje"
    ],
-   "related": [],
-   "forms": [],
+   "related": [
+    "trasha",
+    "trashaluq",
+    "trashaluqe",
+    "trashaluqi",
+    "trashamak"
+   ],
+   "forms": [
+    {
+     "form": "trasha",
+     "tag": "aorist"
+    },
+    {
+     "form": "trashur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "But you put one there. Why?",
+    "corpus": "HPLT",
+    "en": "Thicken it with low fire.",
     "score": [
      0,
      6,
      -6,
-     4
+     10
     ],
-    "sq": "Por ju e vutë një aty."
+    "sq": "Trash atë me zjarr të ulët."
    }
+  },
+  {
+   "id": "spermë",
+   "sq": "spermë",
+   "en": "semen; sperm",
+   "glosses": [
+    "semen; sperm"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "semen; sperm",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Kanalet e spermës dalin nga testikujt dhe bashkohen me uretrën.",
+       "en": "Sperm ducts emerge from the testicles and join the urethra.",
+       "offsets": [
+        [
+         10,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "semen",
+      "sperm"
+     ]
+    }
+   ],
+   "rank": 18204,
+   "count": 30,
+   "family": "spermë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "sperma",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
   }
  ]
 }

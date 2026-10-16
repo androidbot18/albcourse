@@ -1,37 +1,45 @@
 {
  "level": 39,
- "title": "as",
- "root": "as",
- "root_gloss": "not, neither, nor",
+ "title": "pres, ato",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "as"
+  "ato",
+  "pres"
  ],
  "pos_mix": {
-  "adv": 3
+  "verb": 3,
+  "pron": 1,
+  "noun": 7
  },
  "words": [
   {
-   "id": "as",
-   "sq": "as",
-   "en": "not, neither, nor",
+   "id": "prit",
+   "sq": "prit",
+   "en": "you (sg)! (from pres, to cut)",
    "glosses": [
-    "not, neither, nor"
+    "you (sg)! (from pres, to cut)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "not, neither, nor",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "you (sg)! (from pres, to cut)",
+     "tags": [
+      "form-of",
+      "imperative",
+      "second-person",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -40,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 63 entries",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -53,19 +61,240 @@
       }
      ],
      "examples": [],
+     "is_form_of": "pres"
+    }
+   ],
+   "rank": 135,
+   "count": 9569,
+   "family": "pres",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "But one moment.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Por prit pak."
+   }
+  },
+  {
+   "id": "ato",
+   "sq": "ato",
+   "en": "they",
+   "glosses": [
+    "they"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "they",
+     "tags": [
+      "feminine",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian personal pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
      "links": [
-      "not",
-      "neither",
-      "nor"
+      "they"
      ]
     }
    ],
-   "rank": 164,
-   "count": 7630,
-   "family": "as",
+   "rank": 136,
+   "count": 9524,
+   "family": "ato",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *(ne) h₂óyu kʷíd (“(not) ever, (not) on your life”). compare Ancient Greek οὐ (ou) and Armenian ոչ (očʻ) -ës",
+   "etymology": "From Proto-Albanian *a-tā(s), compound of proclitic particle a and demonstrative tās, from Proto-Indo-European *téh₂es, feminine plural of *tód (“that (one)”) (compare Latin istud, English that).\nThe accusative is from Proto-Albanian *a-tā(s), from earlier *a-tā(n)s, from *téh₂ns, and older and dialectal varieties retain ablative asosh, acosh, from a + Proto-Albanian *tsjāsu, from *ḱjéh₂su, locative of Proto-Indo-European *ḱís (“this (one)”) (compare English he).",
    "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ato",
+     "tag": "accusative"
+    },
+    {
+     "form": "atyre",
+     "tag": "dative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Where do they come from?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nga vijnë ato?"
+   }
+  },
+  {
+   "id": "pres",
+   "sq": "pres",
+   "en": "to cut, carve, slice, hew",
+   "glosses": [
+    "to cut, carve, slice, hew"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cut, carve, slice, hew",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "65 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cut",
+      "carve",
+      "slice"
+     ]
+    }
+   ],
+   "rank": 514,
+   "count": 2062,
+   "family": "pres",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *p(e)retja, from Proto-Indo-European *per- (“to strike, beat”) (compare Ancient Greek πρίω (príō, “to saw”), Lithuanian per̃ti (“to flog, beat with besom”), Avestan 𐬞𐬆𐬭𐬆𐬝 (pər^ət̰, “strife”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "strife"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "preva",
+     "tag": "aorist"
+    },
+    {
+     "form": "prerë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "This is it? Hey!",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Duhet te pres?"
+   }
+  },
+  {
+   "id": "pritur",
+   "sq": "pritur",
+   "en": "cut, past form (from pres, to cut)",
+   "glosses": [
+    "cut, past form (from pres, to cut)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "cut, past form (from pres, to cut)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "pres"
+    }
+   ],
+   "rank": 775,
+   "count": 1275,
+   "family": "pres",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -75,120 +304,226 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Not one.",
+    "en": "You have been waiting for this.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      8
     ],
-    "sq": "As edhe një."
+    "sq": "Ju e keni pritur këtë."
    }
   },
   {
-   "id": "atje",
-   "sq": "atje",
-   "en": "yonder",
+   "id": "presë",
+   "sq": "presë",
+   "en": "blade, cutting instrument",
    "glosses": [
-    "yonder",
-    "there"
+    "blade, cutting instrument",
+    "edge, cutting edge",
+    "turnout, place where irrigation canal bifurcates",
+    "each of the irrigation lines that spreads through the fields, out of a main line",
+    "fish barrier, fish weir",
+    "ship's bow, ship's prow",
+    "treachery, backstabbing"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "yonder",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "blade, cutting instrument",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "blade",
+      "cutting",
+      "instrument"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "edge, cutting edge",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "68 32"
+       "_dis": "2 36 28 8 14 8 3"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian terms suffixed with -ë",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "56 44"
+       "_dis": "5 26 13 16 17 16 7"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "56 44"
+       "_dis": "2 40 40 6 5 5 2"
       }
      ],
      "examples": [],
      "links": [
-      "yonder"
+      "edge",
+      "cutting edge"
      ]
     },
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "there",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "turnout, place where irrigation canal bifurcates",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "56 44"
+       "_dis": "3 22 47 9 8 9 3"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 40 40 6 5 5 2"
       }
      ],
      "examples": [],
      "links": [
-      "there"
+      "turnout",
+      "irrigation",
+      "canal"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "each of the irrigation lines that spreads through the fields, out of a main line",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "irrigation",
+      "spreads"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fish barrier, fish weir",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fish",
+      "barrier",
+      "fish"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ship's bow, ship's prow",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ship",
+      "bow",
+      "ship"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "treachery, backstabbing",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "treachery",
+      "backstabbing"
      ]
     }
    ],
-   "rank": 97,
-   "count": 14492,
-   "family": "as",
+   "rank": 3326,
+   "count": 242,
+   "family": "pres",
    "is_root": false,
-   "etymology": "Compound of a- (as in ai (“he”)) + -tje (as in tutje (“there, beyond”)).",
-   "etymology_class": null,
+   "etymology": "From pres (“to cut”) + -ë.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "he"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "a",
-     "role": "prefix"
+     "word": "pres",
+     "role": "base"
+    },
+    {
+     "word": "ë",
+     "role": "suffix"
     }
    ],
-   "derived": [
-    "atjeshëm"
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "presa",
+     "tag": "plural"
+    }
    ],
-   "related": [
-    "këtu"
-   ],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Be there.",
+    "en": "I want to host one!",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Të jetë atje."
+    "sq": "Unë dua të presë një!"
    },
    "breakdown": "historical"
   }

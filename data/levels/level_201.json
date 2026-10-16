@@ -1,281 +1,343 @@
 {
  "level": 201,
- "title": "a 1/2",
- "root": "a",
- "root_gloss": "or",
+ "title": "pranoj, ynë",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
- "parts": 2,
- "word_count": 3,
+ "parts": 1,
+ "word_count": 4,
  "families": [
-  "a"
+  "pranoj",
+  "ynë"
  ],
  "pos_mix": {
-  "conj": 2,
-  "adv": 2,
-  "prep": 1
+  "det": 1,
+  "verb": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "a",
-   "sq": "a",
-   "en": "or",
+   "id": "ynë",
+   "sq": "ynë",
+   "en": "our",
    "glosses": [
-    "or",
-    "there"
+    "our"
    ],
    "pos": [
-    "conj",
-    "conj"
+    "det"
    ],
    "pos_labels": [
-    "conjunction",
-    "conjunction"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "or",
-     "tags": [],
-     "cats": [],
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "our",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "or"
-     ]
-    },
-    {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "there",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "there"
+      "our"
      ]
     }
    ],
-   "rank": 48,
-   "count": 37340,
-   "family": "a",
+   "rank": 519,
+   "count": 2024,
+   "family": "ynë",
    "is_root": true,
-   "etymology": "* According to Orel, the particle and conjunction are etymologically identical. From Proto-Albanian *a and cognate to Ancient Greek ἦ (ê, “indeed”).\n* From Proto-Albanian *(h)au, from Proto-Indo-European *h₂ew (“that”). Cognate to Ancient Greek αὖ (aû, “on the other hand, again”). A proclitic disjunctive particle, used with one or more parts of the sentence.",
-   "etymology_class": "inherited",
+   "etymology": "From i (masculine definite article) + në (from ne, first person plural pronoun).\nCompare jonë, from jo (original form of the feminine definite article, weakened to -a) + në.\nOld accusative form tënë from të+në. Compare the accusative pronoun atë.\nOld dative-genitive masculine tinë from ti (today would've yielded ty, compare the possessive adjective for relatives tyt as in tyt vëllai and the dative pronoun atij.\nOld ablative masculine sinë from si (surviving in the antiquated pronoun asi) +në.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "në",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "jonë",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He is our Father.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Ai është Ati ynë."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "pranoj",
+   "sq": "pranoj",
+   "en": "to accept",
+   "glosses": [
+    "to accept"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to accept",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "accept"
+     ]
+    }
+   ],
+   "rank": 945,
+   "count": 1005,
+   "family": "pranoj",
+   "is_root": true,
+   "etymology": "Possibly from pranë (“close”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "close"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pranova",
+     "tag": "aorist"
+    },
+    {
+     "form": "pranuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I admit it.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Unë e pranoj atë."
+   }
+  },
+  {
+   "id": "pranuar",
+   "sq": "pranuar",
+   "en": "accept, past form (from pranoj, to accept)",
+   "glosses": [
+    "accept, past form (from pranoj, to accept)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "accept, past form (from pranoj, to accept)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "pranoj"
+    }
+   ],
+   "rank": 1910,
+   "count": 453,
+   "family": "pranoj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "a",
-     "tag": "canonical"
-    },
-    {
-     "form": "ha",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Are you in?",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "A jeni në?"
-   }
-  },
-  {
-   "id": "ashtu",
-   "sq": "ashtu",
-   "en": "so",
-   "glosses": [
-    "so",
-    "like that"
-   ],
-   "pos": [
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "so",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "so"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "like that",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "like"
-     ]
-    }
-   ],
-   "rank": 127,
-   "count": 10467,
-   "family": "a",
-   "is_root": false,
-   "etymology": "Compound a- (“that”) + Proto-Albanian *este, cognate to Latin iste (“that”), and Lepontic 𐌉𐌑𐌏𐌔 (iśos).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "that"
-   ],
-   "components": [
-    {
-     "word": "a",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
-   "related": [
-    "kështu"
-   ],
-   "forms": [
-    {
-     "form": "ashty",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "I don't think so.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Nuk mendoj ashtu."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "afër",
-   "sq": "afër",
-   "en": "at, beside, by, near, nearby, near to, next to",
-   "glosses": [
-    "at, beside, by, near, nearby, near to, next to"
-   ],
-   "pos": [
-    "prep"
-   ],
-   "pos_labels": [
-    "preposition"
-   ],
-   "sense_detail": [
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "at, beside, by, near, nearby, near to, next to",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "at",
-      "beside",
-      "by"
-     ]
-    }
-   ],
-   "rank": 382,
-   "count": 2724,
-   "family": "a",
-   "is_root": false,
-   "etymology": "From Proto-Albanian *apsera or *asper(a), perhaps representing a contamination of *aps, reflected in Ancient Greek ἄψ (áps, “backwards”), a variant of Proto-Indo-European *h₂epó (“off, away”), with Proto-Indo-European *h₂épero-. Cognate to Sanskrit अपर (ápara, “posterior, later, following”), Gothic 𐌰𐍆𐌰𐍂 (afar, “after”), Old Persian 𐎠𐎱𐎼 (a-p-r /⁠apara⁠/, “later, after”), Avestan 𐬀𐬞𐬀𐬭𐬀 (apara, “more behind, later”).\nOr possibly from Latin affīnis.\nAlternatively, from a + -fër.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "backwards"
-   ],
-   "components": [
-    {
-     "word": "a",
-     "role": "base"
-    },
-    {
-     "word": "fër",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I was very close.",
+    "en": "What is received?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Isha shumë afër."
+    "sq": "Çfarë është pranuar?"
+   }
+  },
+  {
+   "id": "pranim",
+   "sq": "pranim",
+   "en": "acceptance, approval, admission",
+   "glosses": [
+    "acceptance, approval, admission"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "acceptance, approval, admission",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "acceptance",
+      "approval",
+      "admission"
+     ]
+    }
+   ],
+   "rank": 8285,
+   "count": 82,
+   "family": "pranoj",
+   "is_root": false,
+   "etymology": "From pranoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pranoj",
+     "role": "base",
+     "en": "to accept"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Roger that.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Pranim. E kuptova."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   }
  ]
 }

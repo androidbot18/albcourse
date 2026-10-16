@@ -1,113 +1,144 @@
 {
  "level": 761,
- "title": "boj, dëboj, gjenetikë +3",
+ "title": "kom, ëndërrimtar, ap +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "arkitekturë",
-  "artrit",
-  "boj",
-  "dëboj",
-  "gjenetikë",
-  "kthetër"
+  "ap",
+  "kom",
+  "pipëz",
+  "stof",
+  "vodkë",
+  "ëndërrimtar"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 5
+  "noun": 10,
+  "verb": 1
  },
  "words": [
   {
-   "id": "dëboj",
-   "sq": "dëboj",
-   "en": "to throw out, drive away, expel, banish",
+   "id": "kom",
+   "sq": "kom",
+   "en": "hair, fur (of a horse)",
    "glosses": [
-    "to throw out, drive away, expel, banish"
+    "hair, fur (of a horse)",
+    "horse mane; horsetail",
+    "rope, fabric or cloth from goatskin"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to throw out, drive away, expel, banish",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hair, fur (of a horse)",
      "tags": [
-      "transitive"
+      "masculine",
+      "singular"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "singular",
+      "hair",
+      "fur"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "horse mane; horsetail",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with dë-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "16 55 30"
       }
      ],
      "examples": [],
      "links": [
-      "throw",
-      "out",
-      "drive"
+      "mane",
+      "horsetail"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rope, fabric or cloth from goatskin",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rope",
+      "fabric",
+      "cloth"
      ]
     }
    ],
-   "rank": 29882,
-   "count": 15,
-   "family": "dëboj",
+   "rank": 41898,
+   "count": 9,
+   "family": "kom",
    "is_root": true,
-   "etymology": "From dë- + boj, from Proto-Indo-European *bʰegʷ- (“to run”). Compare Ancient Greek φέβομαι (phébomai, “flee, be afraid”), φόβος (phóbos, “escape, fear”), Lithuanian bėgu (“run, flee”), Latvian bêgu (“flee”), Old Church Slavonic бѣгати (běgati, “flee”).",
-   "etymology_class": "affix",
+   "etymology": "Borrowed from Latin coma (“hair”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "dë",
-     "role": "prefix"
-    },
-    {
-     "word": "boj",
-     "role": "stem"
-    }
+   "parents": [
+    "hair"
    ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dëbova",
-     "tag": "aorist"
+     "form": "kome",
+     "tag": "plural"
     },
     {
-     "form": "dëbuar",
-     "tag": "participle"
+     "form": "komi",
+     "tag": "definite"
+    },
+    {
+     "form": "komë",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "So I was close.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Ashtu që kom qenë afër."
+   }
   },
   {
-   "id": "dëbim",
-   "sq": "dëbim",
-   "en": "expulsion, banishment, deportation",
+   "id": "ëndërrimtar",
+   "sq": "ëndërrimtar",
+   "en": "dreamer",
    "glosses": [
-    "expulsion, banishment, deportation"
+    "dreamer"
    ],
    "pos": [
     "noun"
@@ -119,10 +150,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "expulsion, banishment, deportation",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "dreamer",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -131,7 +160,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -tar",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -145,56 +174,41 @@
      ],
      "examples": [],
      "links": [
-      "expulsion",
-      "banishment",
-      "deportation"
+      "dreamer"
      ]
     }
    ],
-   "rank": 38278,
-   "count": 10,
-   "family": "dëboj",
-   "is_root": false,
-   "etymology": "From dëboj + -im.",
+   "rank": 41920,
+   "count": 9,
+   "family": "ëndërrimtar",
+   "is_root": true,
+   "etymology": "From ëndërrim + -tar.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "dëboj",
-     "role": "base",
-     "en": "to throw out"
-    },
-    {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Much more than death; do not say banishment.",
+    "corpus": "HPLT",
+    "en": "All my life I've been a daydreamer.",
     "score": [
-     0,
-     8,
+     1,
+     9,
      -8,
-     5
+     10
     ],
-    "sq": "Më shumë se vdekja, nuk e them dëbim."
-   },
-   "breakdown": "transparent"
+    "sq": "Të gjithë jetën time unë kam qenë një ëndërrimtar."
+   }
   },
   {
-   "id": "boj",
-   "sq": "boj",
-   "en": "to mate",
+   "id": "ap",
+   "sq": "ap",
+   "en": "to give",
    "glosses": [
-    "to mate"
+    "to give"
    ],
    "pos": [
     "verb"
@@ -206,8 +220,10 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to mate",
-     "tags": [],
+     "gloss": "to give",
+     "tags": [
+      "Gheg"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -216,13 +232,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
+       "name": "Gheg Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 19 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -230,15 +246,15 @@
      ],
      "examples": [],
      "links": [
-      "mate"
+      "give"
      ]
     }
    ],
-   "rank": 46421,
-   "count": 7,
-   "family": "boj",
+   "rank": 41944,
+   "count": 9,
+   "family": "ap",
    "is_root": true,
-   "etymology": "Metaphoric use of boj (“to drive”) (see dëboj), from Proto-Albanian *bāgnja, related to Lithuanian běgti (“to run”), Latvian bêgt (“id.”), Old Prussian begeyte (“id.”) and Greek φέβομαι (févomai, “to be put to flight, flee”), ultimately from Proto-Indo-European *bʰegʷ-. Usually attested in the passive form bohet.",
+   "etymology": "From Proto-Albanian *apa, from Proto-Indo-European *h₁op-eio/e-, from *h₁ep- (“to take”). The verb is suppletive with past dhashë and participle dhënë from Proto-Indo-European *deh₃-.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -248,298 +264,88 @@
    "related": [],
    "forms": [
     {
-     "form": "bova",
+     "form": "dhashë",
      "tag": "aorist"
     },
     {
-     "form": "buar",
+     "form": "dhënë",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Everything I do feels wrong.",
+    "corpus": "HPLT",
+    "en": "In return it offers a Apéwicube.",
     "score": [
-     2,
-     8,
-     -6,
-     8
+     3,
+     7,
+     -4,
+     10
     ],
-    "sq": "Çkado që të boj po më duket keq."
+    "sq": "Në kthim ai ofron një Apéwicube."
    }
   },
   {
-   "id": "gjenetikë",
-   "sq": "gjenetikë",
-   "en": "genetics",
+   "id": "stof",
+   "sq": "stof",
+   "en": "coating made of wool or cotton, usually for outerwear",
    "glosses": [
-    "genetics"
+    "coating made of wool or cotton, usually for outerwear",
+    "a person of substance, of valuable heritage or character"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "genetics",
+     "gloss": "coating made of wool or cotton, usually for outerwear",
      "tags": [
-      "feminine",
-      "uncountable"
+      "masculine"
      ],
      "cats": [
-      {
-       "name": "Biology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Biology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Genetics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Genetics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
+       "_dis": "85 12 3"
       }
      ],
      "examples": [],
      "links": [
-      "biology",
-      "genetics"
+      "coating",
+      "wool",
+      "cotton"
      ]
-    }
-   ],
-   "rank": 46508,
-   "count": 7,
-   "family": "gjenetikë",
-   "is_root": true,
-   "etymology": "Internationalism, compare French génétique, Italian genetica, ultimately from English genetics.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "what is meant by genetics?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "çfarë nënkuptohet me gjenetikë?"
-   }
-  },
-  {
-   "id": "artrit",
-   "sq": "artrit",
-   "en": "arthritis (inflammation of a joint)",
-   "glosses": [
-    "arthritis (inflammation of a joint)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "arthritis (inflammation of a joint)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "arthritis"
-     ]
-    }
-   ],
-   "rank": 46525,
-   "count": 7,
-   "family": "artrit",
-   "is_root": true,
-   "etymology": "Borrowed from French arthrite.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "She always assumed it was arthritis.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Ajo gjithmonë supozohet se ishte artrit."
-   }
-  },
-  {
-   "id": "arkitekturë",
-   "sq": "arkitekturë",
-   "en": "architecture (art and science of designing buildings and other structures)",
-   "glosses": [
-    "architecture (art and science of designing buildings and other structures)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "architecture (art and science of designing buildings and other structures)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "architecture"
-     ]
-    }
-   ],
-   "rank": 46573,
-   "count": 7,
-   "family": "arkitekturë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are built with a modern architecture.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Janë ndërtuar me një arkitekturë moderne."
-   }
-  },
-  {
-   "id": "kthetër",
-   "sq": "kthetër",
-   "en": "claw",
-   "glosses": [
-    "claw"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "claw",
+     "gloss": "a person of substance, of valuable heritage or character",
      "tags": [
-      "feminine"
+      "figuratively",
+      "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "claw"
+      "heritage",
+      "character"
      ]
     }
    ],
-   "rank": 46601,
-   "count": 7,
-   "family": "kthetër",
+   "rank": 41999,
+   "count": 9,
+   "family": "stof",
    "is_root": true,
-   "etymology": "Deverbative of kthej (“to turn”).",
-   "etymology_class": null,
+   "etymology": "Borrowed from German Stoff.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -548,7 +354,181 @@
    "related": [],
    "forms": [
     {
-     "form": "kthetra",
+     "form": "stofra",
+     "tag": "plural"
+    },
+    {
+     "form": "stofa",
+     "tag": "plural"
+    },
+    {
+     "form": "stofi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "vodkë",
+   "sq": "vodkë",
+   "en": "vodka",
+   "glosses": [
+    "vodka"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vodka",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "vodka"
+     ]
+    }
+   ],
+   "rank": 42025,
+   "count": 9,
+   "family": "vodkë",
+   "is_root": true,
+   "etymology": "Borrowed from Russian во́дка (vódka).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vodka",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pipëz",
+   "sq": "pipëz",
+   "en": "thin pipe, thin cane",
+   "glosses": [
+    "thin pipe, thin cane",
+    "pipe, resonator tube in aerophone instruments",
+    "pipette, glass tube"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "thin pipe, thin cane",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pipe",
+      "cane"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pipe, resonator tube in aerophone instruments",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pipe",
+      "resonator",
+      "tube"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pipette, glass tube",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 32 55"
+      },
+      {
+       "name": "Albanian terms suffixed with -ëz",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 36 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 36 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pipette",
+      "glass",
+      "tube"
+     ]
+    }
+   ],
+   "rank": 42030,
+   "count": 9,
+   "family": "pipëz",
+   "is_root": true,
+   "etymology": "From pipë + -ëz.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pipëza",
      "tag": "plural"
     }
    ],

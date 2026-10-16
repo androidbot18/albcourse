@@ -1,30 +1,31 @@
 {
  "level": 729,
- "title": "serë, asgjësoj, nofull +3",
+ "title": "anglishte, zvogëloj, postoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "asgjësoj",
-  "aviacion",
-  "idhull",
-  "nofull",
-  "serë",
-  "thaj"
+  "anglishte",
+  "brumbull",
+  "greminë",
+  "heteroseksual",
+  "postoj",
+  "zvogëloj"
  ],
  "pos_mix": {
-  "noun": 6,
-  "verb": 2
+  "noun": 5,
+  "verb": 4,
+  "adj": 1
  },
  "words": [
   {
-   "id": "serë",
-   "sq": "serë",
-   "en": "tar",
+   "id": "anglishte",
+   "sq": "anglishte",
+   "en": "English (language)",
    "glosses": [
-    "tar"
+    "English (language)"
    ],
    "pos": [
     "noun"
@@ -36,10 +37,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "tar",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "English (language)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -62,43 +61,176 @@
      ],
      "examples": [],
      "links": [
-      "tar"
+      "English"
      ]
     }
    ],
-   "rank": 39102,
-   "count": 10,
-   "family": "serë",
+   "rank": 35212,
+   "count": 11,
+   "family": "anglishte",
    "is_root": true,
-   "etymology": "From Proto-Slavic *sěra (“sulphur”). Cognate to Serbo-Croatian sjera, Bulgarian сяра (sjara).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "sulphur"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "anglishtja",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What will you grow in the greenhouse.",
+    "corpus": "SETIMES",
+    "en": "She speaks English and French.",
     "score": [
      1,
-     6,
-     -5,
-     10
+     5,
+     -4,
+     7
     ],
-    "sq": "Çfarë do të rriteni në serë."
+    "sq": "Ajo flet anglishte e frëngjisht."
    }
   },
   {
-   "id": "asgjësoj",
-   "sq": "asgjësoj",
-   "en": "to annihilate",
+   "id": "zvogëloj",
+   "sq": "zvogëloj",
+   "en": "to decrease",
    "glosses": [
-    "to annihilate"
+    "to decrease",
+    "to belittle",
+    "to disparage"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to decrease",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 25 25"
+      },
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 30 30"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 30 30"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "decrease"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to belittle",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "belittle"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to disparage",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "disparage"
+     ]
+    }
+   ],
+   "rank": 35223,
+   "count": 11,
+   "family": "zvogëloj",
+   "is_root": true,
+   "etymology": "From z- + vogël + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "z",
+     "role": "prefix"
+    },
+    {
+     "word": "vogël",
+     "role": "stem"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "zvogëlim",
+    "zvogëlues",
+    "zvogëlohet",
+    "zvogëluar",
+    "zvogëlushëm"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "zvogëlova",
+     "tag": "aorist"
+    },
+    {
+     "form": "zvogëluar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Can I Reduce the Size Of My Large Pores?",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "A mund të zvogëloj poret e mëdha?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "postoj",
+   "sq": "postoj",
+   "en": "to post",
+   "glosses": [
+    "to post"
    ],
    "pos": [
     "verb"
@@ -110,7 +242,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to annihilate",
+     "gloss": "to post",
      "tags": [
       "transitive"
      ],
@@ -122,7 +254,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -136,170 +268,98 @@
      ],
      "examples": [],
      "links": [
-      "annihilate"
+      "post"
      ]
     }
    ],
-   "rank": 39143,
-   "count": 10,
-   "family": "asgjësoj",
+   "rank": 35278,
+   "count": 11,
+   "family": "postoj",
    "is_root": true,
-   "etymology": "From the verbalization of asgjë (“nothing”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "nothing"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "asgjësova",
+     "form": "postova",
      "tag": "aorist"
     },
     {
-     "form": "asgjësuar",
+     "form": "postuar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Colonize and annihilate the enemy.",
+    "en": "I post because I gather a lot of pirates.",
     "score": [
-     2,
-     4,
-     -2,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Kolonizuar dhe asgjësoj armikun."
+    "sq": "Postoj sepse mbledh shumë piratë."
    }
   },
   {
-   "id": "nofull",
-   "sq": "nofull",
-   "en": "jaw, jawbone",
+   "id": "heteroseksual",
+   "sq": "heteroseksual",
+   "en": "heterosexual",
    "glosses": [
-    "jaw, jawbone",
-    "clamp"
+    "heterosexual",
+    "heterosexual"
    ],
    "pos": [
-    "noun",
+    "adj",
     "noun"
    ],
    "pos_labels": [
-    "noun",
+    "adjective",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "jaw, jawbone",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "heterosexual",
+     "tags": [],
      "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "89 11"
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "79 21"
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "jaw",
-      "jawbone"
+      "heterosexual"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "clamp",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "clamp"
-     ]
-    }
-   ],
-   "rank": 39160,
-   "count": 10,
-   "family": "nofull",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin in offulā, from offula (“small bit”); compare Neapolitan gnuòffele, guòffole (“jawbone”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "jawbone"
-   ],
-   "components": [],
-   "derived": [
-    "nofulldalë",
-    "nofullgjerë",
-    "nofullor",
-    "nofullshtrëmbër"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "nofulla",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Now I have no jaw left at all.",
-    "score": [
-     0,
-     7,
-     -7,
-     4
-    ],
-    "sq": "Tani nuk më ka mbetur më nofull."
-   }
-  },
-  {
-   "id": "idhull",
-   "sq": "idhull",
-   "en": "idol",
-   "glosses": [
-    "idol"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "idol",
+     "gloss": "heterosexual",
      "tags": [
       "masculine"
      ],
@@ -308,111 +368,35 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "idol"
+      "heterosexual"
      ]
     }
    ],
-   "rank": 39219,
-   "count": 10,
-   "family": "idhull",
+   "rank": 35289,
+   "count": 11,
+   "family": "heteroseksual",
    "is_root": true,
-   "etymology": "From Latin idolum, from Ancient Greek εἴδωλον (eídōlon, “image, idol”).",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin idolum",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "idhuj",
-     "tag": "plural"
-    },
-    {
-     "form": "idhulli",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I had him as an idol.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Atë e kam pasur si idhull."
-   }
-  },
-  {
-   "id": "thaj",
-   "sq": "thaj",
-   "en": "to dry up",
-   "glosses": [
-    "to dry up"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dry up",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Marrgu terms in nonstandard scripts",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "dry up"
-     ]
-    }
-   ],
-   "rank": 39226,
-   "count": 10,
-   "family": "thaj",
-   "is_root": true,
-   "etymology": "Perhaps from Proto-Albanian *ϑau-, from Proto-Indo-European *seh₂us- (“dry, arid”). Oryol relates the term to Lithuanian saũsas, Marrgu sōr, and Ancient Greek αὖος (aûos).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -422,32 +406,32 @@
    "related": [],
    "forms": [
     {
-     "form": "thava",
-     "tag": "aorist"
+     "form": "heteroseksualë",
+     "tag": "plural"
     },
     {
-     "form": "tharë",
-     "tag": "participle"
+     "form": "heteroseksuali",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Dry my feet, be quick!",
+    "corpus": "MaCoCu",
+    "en": "I want my child to be heterosexual.",
     "score": [
-     1,
-     5,
-     -4,
-     5
+     0,
+     8,
+     -8,
+     8
     ],
-    "sq": "Mi thaj kembet, shpejt, shpejt!"
+    "sq": "Unë dua që fëmija im të jetë heteroseksual."
    }
   },
   {
-   "id": "aviacion",
-   "sq": "aviacion",
-   "en": "aviation (art or science of flying)",
+   "id": "greminë",
+   "sq": "greminë",
+   "en": "steep gorge; deep ravine",
    "glosses": [
-    "aviation (art or science of flying)"
+    "steep gorge; deep ravine"
    ],
    "pos": [
     "noun"
@@ -459,8 +443,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "aviation (art or science of flying)",
-     "tags": [],
+     "gloss": "steep gorge; deep ravine",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -483,13 +469,15 @@
      ],
      "examples": [],
      "links": [
-      "aviation"
+      "steep",
+      "gorge",
+      "deep"
      ]
     }
    ],
-   "rank": 39251,
-   "count": 10,
-   "family": "aviacion",
+   "rank": 35305,
+   "count": 11,
+   "family": "greminë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -502,34 +490,37 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Mach is typically used in aviation and space exploration.",
+    "en": "Nonetheless, what is the way out of this abyss?",
     "score": [
-     4,
-     9,
+     2,
+     7,
      -5,
      10
     ],
-    "sq": "Mak zakonisht përdoret në aviacion dhe në eksplorimin hapësinor."
+    "sq": "Megjithëkëtë, cila është rrugëdalja prej kësaj greminë?"
    }
   },
   {
-   "id": "asgjësim",
-   "sq": "asgjësim",
-   "en": "annihilation, destruction",
+   "id": "brumbull",
+   "sq": "brumbull",
+   "en": "drone",
    "glosses": [
-    "annihilation, destruction"
+    "drone",
+    "beetle"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "annihilation, destruction",
+     "gloss": "drone",
      "tags": [
       "masculine"
      ],
@@ -538,74 +529,89 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "annihilation",
-      "destruction"
+      "drone"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beetle",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beetle"
      ]
     }
    ],
-   "rank": 45912,
-   "count": 7,
-   "family": "asgjësoj",
-   "is_root": false,
-   "etymology": "From asgjësoj + -im.",
-   "etymology_class": "affix",
+   "rank": 35335,
+   "count": 11,
+   "family": "brumbull",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *bʰrem- (“to buzz, drone”). Close to Middle High German brummen (“drone, grumble”), Old English brymm (“flood, see”), Latin fremo (“roar, murmur, growl”), Ancient Greek φόρμινξ (phórminx, “zither”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "asgjësoj",
-     "role": "base",
-     "en": "to annihilate"
-    },
-    {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "asgjësime",
-     "tag": "plural"
-    },
-    {
-     "form": "asgjësimi",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "to the authorized recycler for disposal.",
+    "corpus": "QED",
+    "en": "because I've turned into a beetle.",
     "score": [
-     3,
+     2,
      6,
-     -3,
-     10
+     -4,
+     5
     ],
-    "sq": "tek ricikluesi i autorizuar për asgjësim."
-   },
-   "breakdown": "transparent"
+    "sq": "-sepse jam transformuar ne nje brumbull."
+   }
   }
  ]
 }

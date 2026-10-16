@@ -1,49 +1,294 @@
 {
  "level": 512,
- "title": "mostër, padi, njëmijë +3",
+ "title": "arratis, vakt, hidhur +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "beqar",
-  "ligje",
-  "mostër",
-  "njëmijë",
-  "padi",
-  "shërbëtor"
+  "arratis",
+  "fshihem",
+  "gjoja",
+  "hidhur",
+  "kulm",
+  "vakt"
  ],
  "pos_mix": {
-  "noun": 8
+  "verb": 4,
+  "noun": 9,
+  "adj": 2,
+  "adv": 1
  },
  "words": [
   {
-   "id": "mostër",
-   "sq": "mostër",
-   "en": "sample, specimen",
+   "id": "arratis",
+   "sq": "arratis",
+   "en": "to cast out",
    "glosses": [
-    "sample, specimen",
-    "pattern",
-    "monster"
+    "to cast out",
+    "to scatter"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cast out",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 21"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "95 5"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "95 5"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cast out"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to scatter",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "scatter"
+     ]
+    }
+   ],
+   "rank": 8197,
+   "count": 83,
+   "family": "arratis",
+   "is_root": true,
+   "etymology": "From Greek αρατίζω (aratízo, “to eliminate”).",
+   "etymology_class": "borrowed",
+   "source_lang": "el",
+   "cognate": "from Greek αρατίζω",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "arrati",
+    "arratisem",
+    "arratisje"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "arratisa",
+     "tag": "aorist"
+    },
+    {
+     "form": "arratisur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He escaped from Albania.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Ai u arratis nga Shqipëria."
+   }
+  },
+  {
+   "id": "vakt",
+   "sq": "vakt",
+   "en": "due time (in which something expectedly happens)",
+   "glosses": [
+    "due time (in which something expectedly happens)",
+    "mealtime; meal",
+    "financial situation",
+    "free time, spare time",
+    "weather",
+    "interval, distance, duration",
+    "season",
+    "deadline",
+    "timely, well-timed, opportune"
    ],
    "pos": [
     "noun",
     "noun",
-    "noun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "adj"
    ],
    "pos_labels": [
     "noun",
     "noun",
-    "noun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sample, specimen",
+     "gloss": "due time (in which something expectedly happens)",
      "tags": [
-      "feminine"
+      "colloquial",
+      "dated",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "vakt për të fjetur",
+       "en": "time for sleeping",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "due",
+      "time"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mealtime; meal",
+     "tags": [
+      "colloquial",
+      "dated",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "në vakt të drekës",
+       "en": "at lunchtime",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      },
+      {
+       "sq": "tre vakte në ditë",
+       "en": "three meals a day",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mealtime",
+      "meal"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "financial situation",
+     "tags": [
+      "colloquial",
+      "dated",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ra nga vakti",
+       "en": "to land up in misery",
+       "offsets": [
+        [
+         7,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "mirë nga vakti",
+       "en": "well-off financially",
+       "offsets": [
+        [
+         9,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "financial",
+      "situation"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "free time, spare time",
+     "tags": [
+      "colloquial",
+      "dated",
+      "masculine"
      ],
      "cats": [
       {
@@ -51,216 +296,187 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "57 21 21"
+       "_dis": "2 7 12 1 50 10 6 10 3"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 7 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 33"
+       "_dis": "2 4 8 1 34 5 1 5 2 22 1 1 1 1 1 1 1 4 1 1 2 2 0 1 1"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "29 35 35"
+       "_dis": "1 5 9 0 40 8 0 8 1 15 0 0 0 0 0 0 1 3 0 1 1 1 0 0 1"
       }
      ],
      "examples": [],
      "links": [
-      "sample",
-      "specimen"
+      "free time",
+      "spare time"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pattern",
+     "gloss": "weather",
      "tags": [
-      "feminine"
+      "archaic",
+      "colloquial",
+      "dated",
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 35 35"
+       "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "vakt i keq",
+       "en": "bad weather",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      },
+      {
+       "sq": "vakt i mirë",
+       "en": "good weather",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
      "links": [
-      "pattern"
+      "weather"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "monster",
+     "gloss": "interval, distance, duration",
      "tags": [
-      "feminine",
-      "obsolete"
+      "archaic",
+      "colloquial",
+      "dated",
+      "masculine"
      ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 35 35"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "monster"
+      "interval",
+      "distance",
+      "duration"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "season",
+     "tags": [
+      "archaic",
+      "colloquial",
+      "dated",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "season"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "deadline",
+     "tags": [
+      "archaic",
+      "colloquial",
+      "dated",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deadline"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "timely, well-timed, opportune",
+     "tags": [
+      "archaic",
+      "colloquial",
+      "dated"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "timely",
+      "well-timed",
+      "opportune"
      ]
     }
    ],
-   "rank": 9234,
-   "count": 72,
-   "family": "mostër",
+   "rank": 8218,
+   "count": 82,
+   "family": "vakt",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin *mōstra, from Latin mōnstrum.",
+   "etymology": "Borrowed from Ottoman Turkish وقت (vakıt).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "i pavakt",
+    "vaksyz",
+    "vakt me vakti"
+   ],
    "forms": [
     {
-     "form": "mostra",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "these are but a sampling.",
-    "score": [
-     0,
-     5,
-     -5,
-     8
-    ],
-    "sq": "Këto janë vetëm një mostër."
-   }
-  },
-  {
-   "id": "padi",
-   "sq": "padi",
-   "en": "lawsuit",
-   "glosses": [
-    "lawsuit"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lawsuit",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian back-formations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 14 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lawsuit"
-     ]
-    }
-   ],
-   "rank": 9236,
-   "count": 72,
-   "family": "padi",
-   "is_root": true,
-   "etymology": "Back-formation from padit (“to accuse, sue”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "padi",
+     "form": "vakte",
      "tag": "plural"
     },
     {
-     "form": "padia",
+     "form": "vakti",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "And it is not even indictments.",
-    "score": [
-     0,
-     5,
-     -5,
-     8
-    ],
-    "sq": "Dhe nuk janë as padi."
-   }
+   "corpus_example": null
   },
   {
-   "id": "njëmijë",
-   "sq": "njëmijë",
-   "en": "one thousand",
+   "id": "hidhur",
+   "sq": "hidhur",
+   "en": "bitter",
    "glosses": [
-    "one thousand"
+    "bitter"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "one thousand",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "bitter",
      "tags": [],
      "cats": [
       {
@@ -270,13 +486,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -284,41 +500,52 @@
      ],
      "examples": [],
      "links": [
-      "one thousand"
+      "bitter"
      ]
     }
    ],
-   "rank": 9240,
-   "count": 72,
-   "family": "njëmijë",
+   "rank": 8223,
+   "count": 82,
+   "family": "hidhur",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From Proto-Indo-European *h₂eydʰ- (Ancient Greek αἴθω (aíthō, “to burn”), Lithuanian aitrùs (“id”)).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "id"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "hidhët",
+     "tag": "alternative"
+    },
+    {
+     "form": "idhtë",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What a thousand stories!",
+    "corpus": "MaCoCu",
+    "en": "This is bitter.",
     "score": [
      0,
      3,
      -3,
-     10
+     8
     ],
-    "sq": "Çfarë njëmijë histori!"
+    "sq": "Është e hidhur."
    }
   },
   {
-   "id": "beqar",
-   "sq": "beqar",
-   "en": "bachelor (a single or unmarried man)",
+   "id": "kulm",
+   "sq": "kulm",
+   "en": "top, highest point",
    "glosses": [
-    "bachelor (a single or unmarried man)"
+    "top, highest point"
    ],
    "pos": [
     "noun"
@@ -330,7 +557,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bachelor (a single or unmarried man)",
+     "gloss": "top, highest point",
      "tags": [
       "masculine"
      ],
@@ -342,6 +569,88 @@
        "source": "w"
       },
       {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "top",
+      "point"
+     ]
+    }
+   ],
+   "rank": 8245,
+   "count": 82,
+   "family": "kulm",
+   "is_root": true,
+   "etymology": "From Latin culmen.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin culmen",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kulme",
+     "tag": "plural"
+    },
+    {
+     "form": "kulmi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "A roof over their head.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Për kulm mbi kokë."
+   }
+  },
+  {
+   "id": "fshihem",
+   "sq": "fshihem",
+   "en": "to be concealed",
+   "glosses": [
+    "to be concealed"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be concealed",
+     "tags": [
+      "mediopassive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -356,67 +665,131 @@
      ],
      "examples": [],
      "links": [
-      "bachelor",
-      "single",
-      "unmarried"
+      "concealed"
      ]
     }
    ],
-   "rank": 9247,
-   "count": 72,
-   "family": "beqar",
+   "rank": 8250,
+   "count": 82,
+   "family": "fshihem",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بكار (bekâr, “bachelor”), from Arabic بِكَر (bikar, “virgin”).",
-   "etymology_class": "borrowed",
+   "etymology": "See fsheh (“to hide, conceal”), active voice.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "bachelor",
-    "virgin"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "beqarë",
-     "tag": "plural"
-    },
-    {
-     "form": "beqari",
-     "tag": "definite"
+     "form": "fshehur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And if you're single, be patient.",
+    "en": "I don't hide behind a fake nickname.",
     "score": [
-     0,
-     7,
+     1,
+     8,
      -7,
      10
     ],
-    "sq": "Dhe nëse jeni beqar, bëni pak durim."
+    "sq": "Unë nuk fshihem pas një pseudonimi të rremë."
    }
   },
   {
-   "id": "shërbëtor",
-   "sq": "shërbëtor",
-   "en": "servant",
+   "id": "gjoja",
+   "sq": "gjoja",
+   "en": "supposedly, allegedly",
    "glosses": [
-    "servant"
+    "supposedly, allegedly"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "servant",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "supposedly, allegedly",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "supposedly",
+      "allegedly"
+     ]
+    }
+   ],
+   "rank": 8252,
+   "count": 82,
+   "family": "gjoja",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish كویا (göya/gûya, “as if, supposedly”), from Classical Persian گویا (gōyā).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "as he supposedly is.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "si ai gjoja është."
+   }
+  },
+  {
+   "id": "arratisem",
+   "sq": "arratisem",
+   "en": "to escape (to get free)",
+   "glosses": [
+    "to escape (to get free)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to escape (to get free)",
      "tags": [],
      "cats": [
       {
@@ -426,7 +799,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -tor",
+       "name": "Albanian terms suffixed with -em",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -440,109 +813,49 @@
      ],
      "examples": [],
      "links": [
-      "servant"
+      "escape"
      ]
     }
    ],
-   "rank": 9264,
-   "count": 72,
-   "family": "shërbëtor",
-   "is_root": true,
-   "etymology": "From shërbet + -tor.",
+   "rank": 19513,
+   "count": 27,
+   "family": "arratis",
+   "is_root": false,
+   "etymology": "From arratis + -em.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who was this 'Servant'?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Kush ishte ky 'Shërbëtor'?"
-   }
-  },
-  {
-   "id": "ligje",
-   "sq": "ligje",
-   "en": "words of mourning said when a person dies, dirge",
-   "glosses": [
-    "words of mourning said when a person dies, dirge"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+   "components": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "words of mourning said when a person dies, dirge",
-     "tags": [
-      "masculine",
-      "plural",
-      "plural-only"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pluralia tantum",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "mourning",
-      "dirge"
-     ]
+     "word": "arratis",
+     "role": "base"
+    },
+    {
+     "word": "em",
+     "role": "suffix"
     }
    ],
-   "rank": 9279,
-   "count": 72,
-   "family": "ligje",
-   "is_root": true,
-   "etymology": "Pluralized form of ligj.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "arratisur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why so many laws?",
+    "en": "I decided, tomorrow I will escape.",
     "score": [
-     0,
-     4,
+     1,
+     5,
      -4,
      10
     ],
-    "sq": "Pse kaq shumë ligje?"
-   }
+    "sq": "E vendosa, nesër do arratisem."
+   },
+   "breakdown": "historical"
   }
  ]
 }

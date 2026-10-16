@@ -1,0 +1,73 @@
+# Rebuild the course from the pinned source snapshots and run every test.
+#
+# The sources are committed under data/sources/ and pinned by hash in
+# tools/fetch_sources.py, so this needs no network beyond checkout. A clean
+# rebuild must reproduce the committed data exactly: a PR that changes the
+# builder without committing the data it produces fails here.
+#
+# This never commits. On a mismatch it uploads the patch that would bring
+# data/ in line, so the diff can be reviewed.
+name: rebuild-data
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/rebuild-data.yml"
+      - "tools/**"
+      - "data/**"
+      - "run_tests.sh"
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: pip install -r tools/requirements.txt
+
+      - name: Unpack the pinned sources
+        run: python3 tools/fetch_sources.py
+
+      - name: Rebuild the course
+        run: |
+          python3 tools/build_course.py
+          python3 tools/build_words_index.py
+
+      - name: Does a clean rebuild reproduce the committed data?
+        shell: bash
+        run: |
+          git diff --binary -- data > rebuild.patch
+          git status --short -- data | tee rebuild-status.txt
+          if [ -s rebuild-status.txt ]; then
+            git diff --stat -- data | tail -20
+            echo "::error::data/ is not what the builder produces; commit a rebuild (see the rebuild.patch artifact)"
+            exit 1
+          fi
+
+      - name: Run every test
+        if: always()
+        run: ./run_tests.sh 2>&1 | tee test-output.txt; exit "${PIPESTATUS[0]}"
+        shell: bash
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: rebuild-output
+          retention-days: 14
+          path: |
+            test-output.txt
+            rebuild-status.txt
+            rebuild.patch

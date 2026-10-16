@@ -1,141 +1,202 @@
 {
  "level": 185,
- "title": "ftohtë, veçantë",
+ "title": "gjithë, edhe",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "ftohtë",
-  "veçantë"
+  "edhe",
+  "gjithë"
  ],
  "pos_mix": {
-  "adj": 3,
-  "noun": 2
+  "conj": 2,
+  "pron": 2,
+  "adj": 4,
+  "adv": 3
  },
  "words": [
   {
-   "id": "ftohtë",
-   "sq": "ftohtë",
-   "en": "cold",
+   "id": "edhe",
+   "sq": "edhe",
+   "en": "and",
    "glosses": [
-    "cold",
-    "cold"
+    "and",
+    "also; even"
    ],
    "pos": [
-    "adj",
-    "noun"
+    "conj",
+    "conj"
    ],
    "pos_labels": [
-    "adjective",
-    "noun"
+    "conjunction",
+    "conjunction"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "cold",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "cold"
+      "and"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cold",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "also; even",
      "tags": [],
      "cats": [],
-     "examples": [
-      {
-       "sq": "Ai u sëmur nga të ftohtit.",
-       "en": "He got sick from the cold.",
-       "offsets": [
-        [
-         15,
-         17
-        ],
-        [
-         18,
-         25
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "cold"
+      "also",
+      "even"
      ]
     }
    ],
-   "rank": 846,
-   "count": 1138,
-   "family": "ftohtë",
+   "rank": 57,
+   "count": 27329,
+   "family": "edhe",
    "is_root": true,
-   "etymology": "From ftoh.",
-   "etymology_class": null,
+   "etymology": "From an older form ênde (attested in F. Bardhi), from Proto-Indo-European *h₂énti (“facing opposite, near, in front of, before”). Compare Old Norse eða (“and”), Danish end (“but”), Swedish än (“yet, but”), Icelandic enn (“still, yet”), German und (“and”), English and.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [],
+   "related": [
+    "ende",
+    "andej",
+    "anë",
+    "dhe",
+    "e"
+   ],
+   "forms": [
+    {
+     "form": "ende",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "QED",
-    "en": "Just be cool.",
+    "en": "Twenty, I don't even know.",
     "score": [
      0,
-     3,
-     -3,
+     6,
+     -6,
      5
     ],
-    "sq": "Vetëm të ftohtë."
+    "sq": "Njëzet, unë nuk e di edhe."
    }
   },
   {
-   "id": "veçantë",
-   "sq": "veçantë",
-   "en": "specific, particular",
+   "id": "gjithë",
+   "sq": "gjithë",
+   "en": "all, everybody",
    "glosses": [
-    "specific, particular",
-    "unique; peculiar, distinctive"
+    "all, everybody",
+    "all, everything",
+    "whole, entire",
+    "all, all of, all the, the whole, the entire",
+    "every",
+    "just like + intimate kinship term"
    ],
    "pos": [
+    "pron",
+    "pron",
+    "adj",
+    "adj",
     "adj",
     "adj"
    ],
    "pos_labels": [
+    "pronoun",
+    "pronoun",
+    "adjective",
+    "adjective",
     "adjective",
     "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "specific, particular",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "all, everybody",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian terms suffixed with -antë",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 69"
+       "_dis": "12 9 6 10 32 32"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Të gjithë s’i kam shokë.",
+       "en": "Not all (of them) are my friends.",
+       "offsets": [
+        [
+         0,
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "Elona flet më mirë nga të gjithë.",
+       "en": "Elona speaks the best of all.",
+       "offsets": [
+        [
+         23,
+         32
+        ]
+       ]
+      }
+     ],
      "links": [
-      "specific",
-      "particular"
+      "everybody"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "all, everything",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 9 6 10 32 32"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "I bleu të gjitha.",
+       "en": "He bought everything / He bought them all.",
+       "offsets": [
+        [
+         7,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "everything"
      ]
     },
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "unique; peculiar, distinctive",
+     "gloss": "whole, entire",
      "tags": [],
      "cats": [
       {
@@ -143,82 +204,193 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "22 78"
+       "_dis": "49 25 6 20 0 0"
       },
       {
-       "name": "Albanian terms suffixed with -antë",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 69"
+       "_dis": "12 9 6 10 32 32"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "0 100"
+       "_dis": "27 12 0 62 0 0"
       }
      ],
      "examples": [],
      "links": [
-      "unique",
-      "peculiar",
-      "distinctive"
+      "whole",
+      "entire"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "all, all of, all the, the whole, the entire",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 12 0 62 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 28 0 32 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "all"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "every",
+     "tags": [
+      "regional"
+     ],
+     "cats": [
+      {
+       "name": "Regional Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "regional",
+      "every"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "just like + intimate kinship term",
+     "tags": [
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 9 6 10 32 32"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 12 0 62 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 28 0 32 0 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Gjithë e ëma.",
+       "en": "Just like his/her/their mother.",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      },
+      {
+       "sq": "Gjithë i ati.",
+       "en": "Just like his/her/their father.",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "singular"
      ]
     }
    ],
-   "rank": 849,
-   "count": 1131,
-   "family": "veçantë",
+   "rank": 62,
+   "count": 24302,
+   "family": "gjithë",
    "is_root": true,
-   "etymology": "From veç + -antë, the first element a widespread colloquial form of vetëm (“only”), from vetë (“self”).",
-   "etymology_class": "affix",
+   "etymology": "From dialectal gjidhë, from Proto-Albanian *semdza, from Proto-Indo-European *sem-ǵʰo- (compare Old Armenian եզ (ez), Latin singulus). The dialectal gji, with the same meaning, derives from simple Proto-Indo-European *sem-.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "only",
-    "self"
-   ],
+   "parents": [],
    "components": [],
    "derived": [
-    "veçanti"
+    "gjithandej",
+    "i gjithanshëm",
+    "gjithçka",
+    "gjithëbotërisht",
+    "gjithëpërfshirës",
+    "gjithësi",
+    "i gjithësisë",
+    "gjithëshikues"
    ],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Nothing special.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "asgjë të veçantë."
-   }
+   "forms": [
+    {
+     "form": "gji",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjidhë",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjillë",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjishë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "ftohtësi",
-   "sq": "ftohtësi",
-   "en": "coldness",
+   "id": "gjithmonë",
+   "sq": "gjithmonë",
+   "en": "always, all the time",
    "glosses": [
-    "coldness"
+    "always, all the time"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coldness",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "always, all the time",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -227,13 +399,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ësi",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -241,52 +413,129 @@
      ],
      "examples": [],
      "links": [
-      "coldness"
+      "always",
+      "all",
+      "the"
      ]
     }
    ],
-   "rank": 47634,
-   "count": 7,
-   "family": "ftohtë",
+   "rank": 206,
+   "count": 6123,
+   "family": "gjithë",
    "is_root": false,
-   "etymology": "From ftohtë + -ësi.",
-   "etymology_class": "affix",
+   "etymology": "Compound formation of gjithë (“whole, every”) + monë, the old accusative of mot (“weather, time”) (mot-në > monë; compare fshat > fshanë), literally meaning \"the whole time\".",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "ftohtë",
-     "role": "base",
-     "en": "cold"
-    },
-    {
-     "word": "ësi",
-     "role": "suffix",
-     "affix": "si",
-     "meaning": "-ness, -ity"
+     "word": "gjithë",
+     "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "ftohtësia",
-     "tag": "definite"
+     "form": "gjithnjë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Miranda felt a chill.",
+    "corpus": "QED",
+    "en": "They always have.",
     "score": [
-     2,
-     4,
-     -2,
-     10
+     0,
+     3,
+     -3,
+     5
     ],
-    "sq": "Miranda ndjeu një ftohtësi."
+    "sq": "Ata gjithmonë kanë."
    },
-   "breakdown": "transparent"
+   "breakdown": "historical"
+  },
+  {
+   "id": "gjithashtu",
+   "sq": "gjithashtu",
+   "en": "also, too",
+   "glosses": [
+    "also, too",
+    "likewise"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "also, too",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "also",
+      "too"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "likewise",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "likewise"
+     ]
+    }
+   ],
+   "rank": 328,
+   "count": 3193,
+   "family": "gjithë",
+   "is_root": false,
+   "etymology": "From gjithë (“whole”) + ashtu (“like that”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "whole"
+   ],
+   "components": [
+    {
+     "word": "gjithë",
+     "role": "prefix"
+    },
+    {
+     "word": "ashtu",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "ashtu",
+    "gjithaq",
+    "gjithë"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "So will we.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Gjithashtu edhe ne."
+   },
+   "breakdown": "historical"
   }
  ]
 }
