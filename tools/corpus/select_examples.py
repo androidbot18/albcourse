@@ -519,7 +519,7 @@ def main():
     for k in sorted(by_corpus, key=lambda x: -by_corpus[x]):
         print("  %-14s %d" % (k, by_corpus[k]))
 
-    # data/, not the repo root. build_words_index.CORPUS_EXAMPLES reads
+    # data/, not the repo root. build_course.CORPUS_EXAMPLES_PATH reads
     # data/corpus_examples.json, so writing anywhere else produced a file the
     # build never read: re-running selection changed nothing in the deck and
     # the stale examples persisted. Same failure shape as the earlier ROOT

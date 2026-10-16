@@ -258,7 +258,7 @@ A frequency list from OpenSubtitles makes a poor syllabus for the first weeks.
 Today:
 
 - `po` (*yes*) is **missing** from the deck, and `e` (rank 2: *and* plus the
-  linking article) was removed rather than fixed.
+  linking article) was removed rather than fixed. *`po` is now added (L5).*
 - Function words held out of the opening are not spread through the course:
   they all land together around **L192–L210** (`të`, `më`, `që`, `jo`, `ka`,
   `kjo`, `këtë`, `shumë`, `por`, `edhe`, `gjithë`, `pak`, `dy`, `pa`, `pas`,
@@ -326,6 +326,14 @@ the wrong thing.
 | `ishin` | they (used to) was | they were |
 | `errësirë`, `hua` | raw Wiktionary head-line (`errësirë f (plural…`) | darkness; loan |
 
+**Status:** all six rows fixed. `tools/gloss_overrides.py` is a small reviewed
+overrides layer applied after the build picks senses. It either moves an
+existing sense to the front (`në` → in, `botë` → world, planet) or replaces
+the headline (`do`, `qenë`, `ishin`, `errësirë`). Senses whose "gloss" is
+Wiktionary's head line (`húa f (plural …`) are dropped, which also fixed
+`hua`, `viç` and `krehër`. Levels are unchanged. A native speaker should
+confirm the `do` wording.
+
 40% of glosses (1,629) are comma lists of several senses. Headline **one**
 sense; put the rest behind a "more meanings" toggle.
 
@@ -347,6 +355,11 @@ Recommendations:
 
 - Run an **orthography gate**: reject sentences containing characters outside
   the Albanian alphabet, and frequent `ë`-less misspellings.
+  *Done:* `tools/orthography.py` runs on every Wiktionary and corpus example
+  at build time. A token counts as an `ë`-less typo when the dictionary does
+  not know it and an `ë`-spelling is a dictionary word at least 4 times as
+  frequent, so `te`, `ne`, `qe` and `veten` still pass. The gate also drops
+  the historical-spelling Wiktionary quotes (Buzuku, Budi).
 - Run a **translation-agreement gate**: the English side must contain a word
   from the selected sense's gloss (or a synonym). This would have caught
   `turi`, `jon`, `lej`, `babi` and `mami`.
@@ -479,12 +492,20 @@ not all fall due on the same day.
       Sources are pinned snapshots in `data/sources/`, the committed data is
       a clean rebuild, and CI fails if the two ever disagree.
 - [x] Fix README counts and level-title "+N" (1.7)
-- [ ] Orthography gate on examples; fix the glosses in §4.1. Not started: `në`
-      still ships as "if", `do` as "some", `botë` as "Earth", and `qenë` and
-      `ishin` keep their raw headlines.
+- [x] Orthography gate on examples; fix the glosses in §4.1. Every §4.1
+      headline is fixed through a reviewed overrides layer
+      (`tools/gloss_overrides.py`, pinned by `tools/test_gloss_overrides.py`).
+      The build also drops Wiktionary head-line senses, which fixed `hua`,
+      `viç` and `krehër` as well. The orthography gate (`tools/orthography.py`,
+      pinned by `tools/test_orthography.py`) rejects 77 Wiktionary and 69
+      corpus sentences; no shipped example now has a non-Albanian letter or
+      an ë-less typo. Example coverage is 90.9% (was 93.0%).
 
 **Phase 1: progression (1–2 weeks)**
-- [ ] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`
+- [ ] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`.
+      `po` (*yes*) is added (L5): its only Wiktionary entry is a particle,
+      now admitted through `pos_balance.INCLUDE_PARTICLES`. Still to do:
+      the overrides file and `e`.
 - [ ] "Root first, tail later" scheduling instead of unsplittable families.
       Partly done (1.6): rare tails (rank > 1,200) now come back in their own
       frequency band, for every opening family and for any family with 4+

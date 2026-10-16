@@ -30,6 +30,8 @@ Design rules:
 import json
 import form_gloss
 import form_senses
+import gloss_overrides
+import orthography
 import teaching_order
 import pack_shape
 import pos_balance
@@ -116,6 +118,7 @@ POS_LABEL = {
     "noun": "noun", "verb": "verb", "adj": "adjective", "adv": "adverb",
     "pron": "pronoun", "prep": "preposition", "conj": "conjunction",
     "det": "determiner", "num": "numeral", "intj": "interjection",
+    "particle": "particle",
 }
 
 ETY_CLASS = {
@@ -344,6 +347,12 @@ def gloss_score(text, tags):
     return score
 
 
+# The orthography gate (see orthography.py). main() binds it once the
+# dictionary and frequency list are loaded; None leaves examples ungated.
+ORTHO = None
+ORTHO_REJECTED = []
+
+
 def extract_examples(sense, limit=2, headword=None, own_rank=10**9, freq=None):
     """Flatten a Kaikki sense's example dicts into small JSON-safe objects.
 
@@ -359,6 +368,11 @@ def extract_examples(sense, limit=2, headword=None, own_rank=10**9, freq=None):
         text = (e.get("text") or "").strip()
         if not text:
             continue
+        if ORTHO is not None:
+            bad = ORTHO.problems(text, headword)
+            if bad:
+                ORTHO_REJECTED.append(("wiktionary", headword, text, bad))
+                continue
         tr = (e.get("translation") or e.get("english") or "").strip()
         out.append({
             "sq": text,
@@ -822,7 +836,9 @@ def load_dict(path, freq):
             stats["sq_total"] += 1
 
             pos = j.get("pos")
-            if pos not in CORE_POS:
+            if pos == "particle" and j.get("word") in pos_balance.INCLUDE_PARTICLES:
+                pass
+            elif pos not in CORE_POS:
                 stats["skipped_pos"] += 1
                 continue
             w = (j.get("word") or "").strip()
@@ -1768,8 +1784,15 @@ def main():
     freq = load_freq(freqp)
     print("  %d distinct words" % len(freq))
 
+    global ORTHO
+    with open(kaikki, encoding="utf-8") as fh:
+        known = orthography.known_words(json.loads(line) for line in fh if line.strip())
+    ORTHO = orthography.Gate(known, {w: r for w, (r, _) in freq.items()})
+
     print("parsing dictionary...", flush=True)
     cards, stats = load_dict(kaikki, freq)
+    print("  orthography gate: %d Wiktionary examples rejected"
+          % len(ORTHO_REJECTED))
     print("  %d cards from %d sq entries" % (stats["kept"], stats["sq_total"]))
     for k in ("skipped_pos", "skipped_shape", "skipped_nogloss", "skipped_notfreq", "skipped_excluded", "parse_error"):
         if stats.get(k):
@@ -1789,13 +1812,23 @@ def main():
     if n_rw:
         print("  learner glosses: %d rewritten, %d kept as-is" % (n_rw, n_keep))
 
+    n_fixed = gloss_overrides.apply(cards, lambda p: POS_LABEL.get(p, p))
+    print("  reviewed gloss fixes: %d headlines changed" % n_fixed)
+
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.
     corpus_examples = {}
     if os.path.exists(CORPUS_EXAMPLES_PATH):
         with open(CORPUS_EXAMPLES_PATH, encoding="utf-8") as fh:
             corpus_examples = json.load(fh)
+        for w in sorted(corpus_examples):
+            bad = ORTHO.problems(corpus_examples[w]["sq"], w)
+            if bad:
+                ORTHO_REJECTED.append(("corpus", w, corpus_examples[w]["sq"], bad))
+                del corpus_examples[w]
         print("corpus reference sentences: %d" % len(corpus_examples))
+        print("  orthography gate: %d corpus sentences rejected"
+              % sum(1 for r in ORTHO_REJECTED if r[0] == "corpus"))
     else:
         print("no corpus_examples.json - Wiktionary examples only")
 
@@ -1972,6 +2005,8 @@ def main():
         "pos": dict(Counter(p for c in cards for p in [s["pos"] for s in c["senses"]])),
         "etymology_class": dict(Counter(str(c["etymology_class"]) for c in cards)),
         "source_lang": dict(Counter(str(c["source_lang"]) for c in cards)),
+        # Example sentences the orthography gate turned away, by source.
+        "orthography_rejected": dict(sorted(Counter(r[0] for r in ORTHO_REJECTED).items())),
         "words_missing_etymology": sum(1 for c in cards if not c["etymology"]),
         "words_multi_pos": sum(1 for c in cards if len({s["pos"] for s in c["senses"]}) > 1),
         "largest_families": sorted(

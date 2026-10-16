@@ -97,7 +97,8 @@ if W:
     byw = {w["sq"]: w for w in W}
     opening = [w for w in W if w["level"] <= op.EARLY_LEVELS_DEFAULT]
 
-    check("the deck still has 4086 cards", len(W), 4086)
+    # 4086 plus `po` (pos_balance.INCLUDE_PARTICLES).
+    check("the deck still has 4087 cards", len(W), 4087)
 
     # The headline complaint: conjunctions must not open the course.
     # The gate defers FAMILY ROOTS, so a member of an admitted family is

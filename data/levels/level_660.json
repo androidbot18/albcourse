@@ -1,30 +1,144 @@
 {
  "level": 660,
- "title": "maçok, fyej, katrahurë +3",
+ "title": "vashë, udhëzoj, stinë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "afishe",
-  "fyej",
-  "katrahurë",
-  "macë",
-  "maçok",
-  "përtyp"
+  "arësye",
+  "ishalla",
+  "petull",
+  "stinë",
+  "udhëzoj",
+  "vashë"
  ],
  "pos_mix": {
   "noun": 7,
+  "intj": 1,
   "verb": 1
  },
  "words": [
   {
-   "id": "maçok",
-   "sq": "maçok",
-   "en": "male cat",
+   "id": "vashë",
+   "sq": "vashë",
+   "en": "young girl",
    "glosses": [
-    "male cat"
+    "young girl",
+    "synonym of vajzë"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "young girl",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Poetry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Poetry",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 28"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Vashë e bukur",
+       "en": "beautiful young girl",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Vashat e fshatit",
+       "en": "village young girls",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "poetry",
+      "young",
+      "girl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "synonym of vajzë",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vajzë"
+     ]
+    }
+   ],
+   "rank": 22322,
+   "count": 22,
+   "family": "vashë",
+   "is_root": true,
+   "etymology": "See vajzë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "vashëri",
+    "vashëror"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "vasha",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "udhëzim",
+   "sq": "udhëzim",
+   "en": "instruction",
+   "glosses": [
+    "instruction"
    ],
    "pos": [
     "noun"
@@ -36,7 +150,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "male cat",
+     "gloss": "instruction",
      "tags": [
       "masculine"
      ],
@@ -48,6 +162,175 @@
        "source": "w"
       },
       {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "instruction"
+     ]
+    }
+   ],
+   "rank": 22354,
+   "count": 22,
+   "family": "udhëzoj",
+   "is_root": false,
+   "etymology": "From udhëzoj + -im noun suffix.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "udhëzoj",
+     "role": "base",
+     "en": "to instruct"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "udhëzime",
+     "tag": "plural"
+    },
+    {
+     "form": "udhëzimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "That's it for this tutorial.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Kjo është ajo për këtë udhëzim."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "stinë",
+   "sq": "stinë",
+   "en": "season",
+   "glosses": [
+    "season"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "season",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Stinët e vitit",
+       "en": "Seasons of the year",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "season"
+     ]
+    }
+   ],
+   "rank": 22355,
+   "count": 22,
+   "family": "stinë",
+   "is_root": true,
+   "etymology": "Unclear. Maybe a late irregular borrowing from Latin stationem.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "stinë",
+     "tag": "plural"
+    },
+    {
+     "form": "stina",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "petull",
+   "sq": "petull",
+   "en": "pancake",
+   "glosses": [
+    "pancake"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pancake",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -62,13 +345,13 @@
      ],
      "examples": [],
      "links": [
-      "cat"
+      "pancake"
      ]
     }
    ],
-   "rank": 22494,
+   "rank": 22379,
    "count": 22,
-   "family": "maçok",
+   "family": "petull",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -78,35 +361,96 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "maç",
-     "tag": "alternative"
-    },
-    {
-     "form": "maqorr",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But some horny tomcat sure did.",
+    "en": "Flapjack puzzle games like younger players.",
     "score": [
      3,
-     9,
-     -6,
+     7,
+     -4,
      10
     ],
-    "sq": "Por disa maçok me brirë i sigurt e bëri."
+    "sq": "lojra puzzle petull si lojtarë të rinj."
    }
   },
   {
-   "id": "fyej",
-   "sq": "fyej",
-   "en": "offend, insult",
+   "id": "ishalla",
+   "sq": "ishalla",
+   "en": "inshallah (God willing)",
    "glosses": [
-    "offend, insult",
-    "hurt"
+    "inshallah (God willing)"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "inshallah (God willing)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "inshallah"
+     ]
+    }
+   ],
+   "rank": 22394,
+   "count": 22,
+   "family": "ishalla",
+   "is_root": true,
+   "etymology": "Borrowed from Arabic إِنْ شَاءَ ٱللَٰه (ʔin šāʔa llāh).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Inshallah.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Ishalla. Ishalla. Shpresoj."
+   }
+  },
+  {
+   "id": "arësye",
+   "sq": "arësye",
+   "en": "reason",
+   "glosses": [
+    "reason",
+    "rationale"
    ],
    "pos": [
     "noun",
@@ -120,9 +464,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "offend, insult",
+     "gloss": "reason",
      "tags": [
-      "transitive"
+      "feminine"
      ],
      "cats": [
       {
@@ -130,14 +474,14 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "84 16"
+       "_dis": "86 14"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "79 21"
+       "_dis": "80 20"
       },
       {
        "name": "Pages with entries",
@@ -149,29 +493,28 @@
      ],
      "examples": [],
      "links": [
-      "offend",
-      "insult"
+      "reason"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "hurt",
+     "gloss": "rationale",
      "tags": [
-      "transitive"
+      "feminine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "hurt"
+      "rationale"
      ]
     }
    ],
-   "rank": 22533,
+   "rank": 22412,
    "count": 22,
-   "family": "fyej",
+   "family": "arësye",
    "is_root": true,
-   "etymology": "From variant of thyej. Compare shaj.",
+   "etymology": "Form of arsye.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -179,119 +522,25 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "fyeva",
-     "tag": "aorist"
-    },
-    {
-     "form": "fyer",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "If so, do not quickly become offended.",
+    "en": "And why did he put him to death?",
     "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Nëse po, mos u fyej shpejt."
-   }
-  },
-  {
-   "id": "katrahurë",
-   "sq": "katrahurë",
-   "en": "chaos",
-   "glosses": [
-    "chaos"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chaos",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chaos"
-     ]
-    }
-   ],
-   "rank": 22554,
-   "count": 22,
-   "family": "katrahurë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "katrahurë",
-     "tag": "plural"
-    },
-    {
-     "form": "katrahura",
-     "tag": "definite"
-    },
-    {
-     "form": "katraurë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who is responsible today for this nonsense and abuse?",
-    "score": [
-     2,
-     9,
+     0,
+     7,
      -7,
      10
     ],
-    "sq": "Kush mban përgjegjësi sot për këtë katrahurë e abuzim?"
+    "sq": "Dhe për çfarë arësye e vrau atë?"
    }
   },
   {
-   "id": "përtyp",
-   "sq": "përtyp",
-   "en": "to chew, masticate, gulp down",
+   "id": "udhëzoj",
+   "sq": "udhëzoj",
+   "en": "to instruct",
    "glosses": [
-    "to chew, masticate, gulp down"
+    "to instruct"
    ],
    "pos": [
     "verb"
@@ -303,90 +552,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to chew, masticate, gulp down",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chew",
-      "masticate",
-      "gulp"
-     ]
-    }
-   ],
-   "rank": 22578,
-   "count": 22,
-   "family": "përtyp",
-   "is_root": true,
-   "etymology": "From Proto-Albanian * ̊tupi-, from Proto-Indo-European *(s)tewp- (“to push, beat”). Cognate to Ancient Greek τύππω (túppō, “to strike, beat”). A formation with the prefix për-. The root vowel has undergone umlaut. Alternatively from Proto-Indo-European *tewp- (“to get down, conceal oneself”). Compare Lithuanian tūpiù (“to get down, lay on one's knees”), Old Norse Þopta (“thwart”), Gothic 𐌸𐌹𐌿𐍆𐍃 (þiufs, “thief”). Or, simply onomatopoeic for chewing; cf. pështyj (“to spit”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përtypa",
-     "tag": "aorist"
-    },
-    {
-     "form": "përtypur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "not chew gum.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "nuk përtyp çamçakëz."
-   }
-  },
-  {
-   "id": "afishe",
-   "sq": "afishe",
-   "en": "poster (advertisement)",
-   "glosses": [
-    "poster (advertisement)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "poster (advertisement)",
+     "gloss": "to instruct",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -410,140 +578,43 @@
      ],
      "examples": [],
      "links": [
-      "poster"
+      "instruct"
      ]
     }
    ],
-   "rank": 22592,
-   "count": 22,
-   "family": "afishe",
+   "rank": 36752,
+   "count": 11,
+   "family": "udhëzoj",
    "is_root": true,
-   "etymology": "Borrowed from French affiche.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who creates these stickers?",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Kush i krijon këto afishe?"
-   }
-  },
-  {
-   "id": "macë",
-   "sq": "macë",
-   "en": "cat",
-   "glosses": [
-    "cat",
-    "belligerent, wild woman"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cat",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Zoology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "69 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "zoology",
-      "cat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "belligerent, wild woman",
-     "tags": [
-      "derogatory",
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "derogatory",
-      "belligerent",
-      "wild"
-     ]
-    }
-   ],
-   "rank": 22596,
-   "count": 22,
-   "family": "macë",
-   "is_root": true,
-   "etymology": "From Proto-Slavic *maca. See Albanian mace (“cat”) for more.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "mackë"
-   ],
-   "related": [
-    "mace",
-    "maç",
-    "maçok"
-   ],
    "forms": [
     {
-     "form": "maca",
-     "tag": "plural"
+     "form": "udhëzova",
+     "tag": "aorist"
     },
     {
-     "form": "mace",
-     "tag": "alternative"
-    },
-    {
-     "form": "mac",
-     "tag": "alternative"
+     "form": "udhëzuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I will guide you.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Unë do t'ju udhëzoj."
+   }
   }
  ]
 }

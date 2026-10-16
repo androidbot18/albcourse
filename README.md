@@ -17,12 +17,12 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 
 | | |
 |---|---|
-| Words | 4,086 |
-| Levels | 789 |
-| Word families | 3009 |
-| Families with more than one member | 523 |
+| Words | 4,087 |
+| Levels | 790 |
+| Word families | 3,013 |
+| Families with more than one member | 519 |
 | Words containing ë / ç | 1,643 |
-| Words with an example sentence | 3,751 (91.8%) |
+| Words with an example sentence | 3,715 (90.9%) |
 | Words with a cognate hook | 125 |
 
 (These figures were stale for several PRs -- the deck had already been
@@ -47,7 +47,7 @@ A level is a **session of whole word families**, not a frequency slice:
   ("I") out of the first ten levels; 37 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (584 of 789),
+  sessions; a level that mixes families is the normal case (584 of 790),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
@@ -142,7 +142,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        789 level descriptors, loaded first
+      index.json        790 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -183,7 +183,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (789 decks, 4,086 notes). It is
+That writes dist/albanian-roots-families.apkg (790 decks, 4,087 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

@@ -43,6 +43,15 @@ EXCLUDE_WORDS = {
     "e",  # rank 2: conjunction / article / clitic -- unresolvable out of context
 }
 
+# Particles are not a learnable part of speech in general (duke, le, dot
+# mark verb forms; o is a vocative), so build_course skips the POS. These
+# are the exceptions: words a learner needs from day one whose only
+# Wiktionary entry is a particle. `po` is "yes" (rank 9), and was missing
+# from the deck entirely.
+INCLUDE_PARTICLES = {
+    "po",
+}
+
 EARLY_LEVELS = 10
 TARGET_NOUN_SHARE = 0.30
 MAX_RANK = 2000
