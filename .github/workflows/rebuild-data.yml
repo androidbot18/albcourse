@@ -73,6 +73,17 @@ jobs:
             echo '```'; sed -n '/FAILED SUITES/,$p' test-output.txt 2>/dev/null || true; echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Digest (short, for reading the log tail)
+        if: always()
+        shell: bash
+        run: |
+          echo "=== DIGEST: rebuild vs committed ==="
+          cat rebuild-status.txt || true
+          for t in test_pos_balance test_opening_policy; do
+            echo "=== DIGEST: $t ==="
+            python3 tools/$t.py 2>&1 | grep -v '^  ok' | head -30 || true
+          done
+
       - uses: actions/upload-artifact@v4
         if: always()
         with:
