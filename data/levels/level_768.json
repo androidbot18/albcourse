@@ -1,44 +1,155 @@
 {
  "level": 768,
- "title": "hide, bukël, spango +3",
+ "title": "molekulë, kalb, ajkë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "bukël",
-  "hide",
-  "shtëllungë",
-  "spango",
-  "valutë",
-  "zhabë"
+  "ajkë",
+  "kalb",
+  "lagë",
+  "molekulë",
+  "rrëshqitëse",
+  "ter"
  ],
  "pos_mix": {
-  "noun": 11
+  "noun": 14,
+  "verb": 2,
+  "adj": 1
  },
  "words": [
   {
-   "id": "hide",
-   "sq": "hide",
-   "en": "jujube (Ziziphus jujuba)",
+   "id": "molekulë",
+   "sq": "molekulë",
+   "en": "molecule",
    "glosses": [
-    "jujube (Ziziphus jujuba)"
+    "molecule",
+    "very small part"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "jujube (Ziziphus jujuba)",
+     "gloss": "molecule",
      "tags": [
       "feminine"
      ],
+     "cats": [
+      {
+       "name": "Chemistry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Chemistry",
+       "langcode": "sq"
+      },
+      {
+       "name": "Physics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Physics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "94 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "physics",
+      "chemistry",
+      "molecule"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "very small part",
+     "tags": [
+      "excessive",
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian hyperboles",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "part"
+     ]
+    }
+   ],
+   "rank": 43119,
+   "count": 8,
+   "family": "molekulë",
+   "is_root": true,
+   "etymology": "Borrowed from French molécule.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "molekular"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "molekula",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "A molecule is not just a molecule.",
+    "score": [
+     0,
+     7,
+     -7,
+     4
+    ],
+    "sq": "Një molekulë nuk është thjesht një molekulë."
+   }
+  },
+  {
+   "id": "kalb",
+   "sq": "kalb",
+   "en": "to rot, go bad",
+   "glosses": [
+    "to rot, go bad"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rot, go bad",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,13 +158,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,67 +172,67 @@
      ],
      "examples": [],
      "links": [
-      "botany",
-      "jujube",
-      "Ziziphus jujuba"
+      "rot",
+      "go",
+      "bad"
      ]
     }
    ],
-   "rank": 48549,
-   "count": 7,
-   "family": "hide",
+   "rank": 43222,
+   "count": 8,
+   "family": "kalb",
    "is_root": true,
-   "etymology": "From Turkish iğde (“oleaster”).",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish iğde",
-   "parents": [
-    "oleaster"
-   ],
+   "etymology": "From Proto-Indo-European *golbʰ-, *gʷolbʰ- (“conglobate, swell”). Compare Latin globus (“a round body, ball, sphere, globe, heap, clump”), Old Norse kalfabōt (“hip area, hip joint of meat”), Old High German wazzarkalb (“swelling, tumescence through water”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "hide",
-     "tag": "plural"
+     "form": "kalba",
+     "tag": "aorist"
     },
     {
-     "form": "hidja",
-     "tag": "definite"
-    },
-    {
-     "form": "ide",
-     "tag": "alternative"
+     "form": "kalbur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "What's this new business? -It's not a business, but help.",
+    "corpus": "HPLT",
+    "en": "Old furniture often have rust or dry rot.",
     "score": [
-     1,
-     5,
-     -4,
-     5
+     2,
+     9,
+     -7,
+     10
     ],
-    "sq": "Hide vajzë për 2 ditë, amtare."
+    "sq": "Mobilje të vjetra shpesh kanë ndryshk ose kalb thatë."
    }
   },
   {
-   "id": "bukël",
-   "sq": "bukël",
-   "en": "least weasel (Mustela nivalis)",
+   "id": "ajkë",
+   "sq": "ajkë",
+   "en": "cream",
    "glosses": [
-    "least weasel (Mustela nivalis)",
-    "curly lock of hair",
-    "edible mushroom with sweet reddish flesh"
+    "cream",
+    "scum (of milk)",
+    "wool grease, hair grease",
+    "best part of something",
+    "clotted cream"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun",
     "noun",
     "noun"
@@ -130,7 +241,33 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "least weasel (Mustela nivalis)",
+     "gloss": "cream",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cream"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "scum (of milk)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "scum"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wool grease, hair grease",
      "tags": [
       "feminine"
      ],
@@ -140,59 +277,59 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "85 9 6"
+       "_dis": "1 4 4 56 35"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "90 5 5"
+       "_dis": "1 3 2 58 36"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "93 4 3"
+       "_dis": "1 2 2 58 37"
       }
      ],
-     "examples": [],
-     "links": [
-      "weasel",
-      "Mustela nivalis"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "curly lock of hair",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
      "examples": [],
      "links": []
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "edible mushroom with sweet reddish flesh",
+     "gloss": "best part of something",
      "tags": [
-      "feminine"
+      "feminine",
+      "figuratively"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "mushroom"
+      "best",
+      "part"
      ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "clotted cream",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
     }
    ],
-   "rank": 48713,
-   "count": 7,
-   "family": "bukël",
+   "rank": 43228,
+   "count": 8,
+   "family": "ajkë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *buklā, derivative of *buk- (“lush, lusty”), from Proto-Indo-European *bʰoHu- (“to grow, swell”). More at bukur (“beautiful”). For sense development, compare Latin lascivia (“mink”), from lascivus (“wanton”).",
+   "etymology": "From older dialectal alkë, from Proto-Albanian *alkā, from Proto-Indo-European *h₁olHk-. Compare Lithuanian álkti (“to be hungry”), Slovene lákati (“to be hungry, greedy, starving”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -202,29 +339,42 @@
    "related": [],
    "forms": [
     {
-     "form": "bukla",
+     "form": "ajka",
      "tag": "plural"
     },
     {
-     "form": "buklëz",
+     "form": "alkë",
+     "tag": "alternative"
+    },
+    {
+     "form": "hakë",
      "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "spango",
-   "sq": "spango",
-   "en": "cord, twine, string",
+   "id": "lagë",
+   "sq": "lagë",
+   "en": "raindrop",
    "glosses": [
-    "cord, twine, string",
-    "plumb line"
+    "raindrop",
+    "moisture, dampness",
+    "part of the globe covered with water",
+    "In the game of lagaterë, the wet side of a rock.",
+    "small amount, bit (of liquid), drop"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -232,39 +382,61 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cord, twine, string",
+     "gloss": "raindrop",
      "tags": [
-      "feminine"
+      "feminine",
+      "uncountable"
      ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "cord",
-      "twine",
-      "string"
+      "raindrop"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "plumb line",
+     "gloss": "moisture, dampness",
      "tags": [
-      "feminine"
+      "feminine",
+      "uncountable"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "moisture",
+      "dampness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "part of the globe covered with water",
+     "tags": [
+      "feminine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian requests for English equivalent term",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "globe",
+      "water"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "In the game of lagaterë, the wet side of a rock.",
+     "tags": [
+      "feminine",
+      "uncountable"
      ],
      "cats": [
       {
@@ -272,267 +444,209 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "35 65"
-      },
+       "_dis": "7 13 20 40 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lagaterë",
+      "wet",
+      "rock"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "small amount, bit (of liquid), drop",
+     "tags": [
+      "feminine",
+      "figuratively",
+      "uncountable"
+     ],
+     "cats": [
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "12 12 27 12 37"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "9 9 17 9 58"
       }
      ],
      "examples": [],
      "links": [
-      "plumb line"
+      "amount",
+      "bit",
+      "drop"
      ]
     }
    ],
-   "rank": 48742,
-   "count": 7,
-   "family": "spango",
+   "rank": 43234,
+   "count": 8,
+   "family": "lagë",
    "is_root": true,
-   "etymology": "In the -ng- forms, borrowed from Greek σπάγγος (spángos). In the -g- forms, borrowed from Italian spago directly.",
-   "etymology_class": "borrowed",
+   "etymology": "Akin to lag (“to wet, moisten”), lëgatë (“marsh”) and possibly laç (“wetland”). Likely a formation from Proto-Indo-European *welg- (“wet, damp”), akin to Proto-Slavic *vòlga (“moisture”). Alternatively borrowed from South Slavic descendants of it, compare Serbo-Croatian vlȁga /вла̏га, Aromanian vlagã (“moisture”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "marsh",
+    "wetland"
+   ],
+   "components": [],
+   "derived": [
+    "lagcë",
+    "lagësirë",
+    "lagësoj",
+    "i lagësht",
+    "i lagët",
+    "lagush"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "ter",
+   "sq": "ter",
+   "en": "uncastrated",
+   "glosses": [
+    "uncastrated",
+    "to dry, dry off",
+    "bull"
+   ],
+   "pos": [
+    "adj",
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "uncastrated",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "dem ter",
+       "en": "uncastrated bull",
+       "offsets": [
+        [
+         4,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "uncastrated"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to dry, dry off",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "dry",
+      "dry off"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bull",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 53 34"
+      },
+      {
+       "name": "Cattle",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Cattle",
+       "langcode": "sq",
+       "_dis": "0 100 0"
+      },
+      {
+       "name": "Male animals",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Male animals",
+       "langcode": "sq",
+       "_dis": "0 100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bull"
+     ]
+    }
+   ],
+   "rank": 43240,
+   "count": 8,
+   "family": "ter",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *taura, from Proto-Indo-European *táwros.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "dry"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "spango",
-     "tag": "plural"
+     "form": "tera",
+     "tag": "aorist"
     },
     {
-     "form": "spangoja",
-     "tag": "definite"
-    },
-    {
-     "form": "spagë",
-     "tag": "alternative"
+     "form": "terur",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "zhabë",
-   "sq": "zhabë",
-   "en": "frog",
+   "id": "rrëshqitëse",
+   "sq": "rrëshqitëse",
+   "en": "sledge",
    "glosses": [
-    "frog",
-    "toad"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "frog",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "frog"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "toad",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "toad"
-     ]
-    }
-   ],
-   "rank": 48746,
-   "count": 7,
-   "family": "zhabë",
-   "is_root": true,
-   "etymology": "Borrowed from Serbo-Croatian žȁba.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "zhaban"
-   ],
-   "related": [
-    "fulterëz"
-   ],
-   "forms": [
-    {
-     "form": "zhaba",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "shtëllungë",
-   "sq": "shtëllungë",
-   "en": "flock (of wool)",
-   "glosses": [
-    "flock (of wool)",
-    "column (of smoke)"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flock (of wool)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "89 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flock"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "column (of smoke)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "column"
-     ]
-    }
-   ],
-   "rank": 48891,
-   "count": 7,
-   "family": "shtëllungë",
-   "is_root": true,
-   "etymology": "Derivative in -ungë of shtjell.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "shtjell"
-   ],
-   "forms": [
-    {
-     "form": "shtëllunga",
-     "tag": "plural"
-    },
-    {
-     "form": "shllung",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "valutë",
-   "sq": "valutë",
-   "en": "currency",
-   "glosses": [
-    "currency"
+    "sledge"
    ],
    "pos": [
     "noun"
@@ -544,10 +658,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "currency",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "sledge",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -570,13 +682,13 @@
      ],
      "examples": [],
      "links": [
-      "currency"
+      "sledge"
      ]
     }
    ],
-   "rank": 49018,
-   "count": 7,
-   "family": "valutë",
+   "rank": 43300,
+   "count": 8,
+   "family": "rrëshqitëse",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -586,22 +698,17 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "valuta",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What Currency Pairs am I Able to Trade?",
+    "en": "What is a slip ring?",
     "score": [
      0,
-     8,
-     -8,
+     5,
+     -5,
      10
     ],
-    "sq": "Cilat palë valutë jam në gjendje të tregtoj?"
+    "sq": "Çfarë është një unazë rrëshqitëse?"
    }
   }
  ]

@@ -18,7 +18,7 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 | | |
 |---|---|
 | Words | 4,086 |
-| Levels | 771 |
+| Levels | 790 |
 | Word families | 3009 |
 | Families with more than one member | 523 |
 | Words containing ë / ç | 1,643 |
@@ -37,22 +37,25 @@ tab follows level order, and new cards are capped at 20 per day.
 
 A level is a **session of whole word families**, not a frequency slice:
 
-* A family is never split apart by the level boundaries. A root and its
-  derivations unlock together, so a level teaches a word group rather than an
+* A family is taught together: a root and its everyday derivations unlock
+  in the same session, so a level teaches a word group rather than an
   arbitrary slice of the frequency list.
+* Root first, tail later: a family's rare members (rank above 1,200) do not
+  ride the root into an early session. They come back as their own level,
+  "do (rarer words)", once the course reaches their frequency. Before this,
+  `do` (rank 4) taught `doemos` (rank 30,516) in level 2 and pushed `unë`
+  ("I") out of the first ten levels; 37 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (576 of 771),
+  sessions; a level that mixes families is the normal case (583 of 790),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
   enough to be worth teaching, not when one of its rare derivatives surfaces.
-* 15 families are larger than a single session. The biggest is `për`, a
-  productive prefix with 64 attested derivatives, which spans 8 levels
-  (`1/8`..`8/8`). Then `jam` (21, 3 levels), `pa` (16), `kam` (14), `dua`
-  (13), `shkoj` (13), `bashkë` (13), `di` (12), `vras` (12), `me` (11), `a`
-  (11), `vend` (11), `flas` (11), `vij` (10) and `mend` (10). A continuation
-  always gets a level to itself, so a part label is never misleading.
+* 13 families have more than 9 words. The biggest are `për` (23 words,
+  4 levels), `jam` (22, 3 levels), `kam` (14) and `dua` (13). A
+  continuation always gets a level to itself, so a part label is never
+  misleading.
 
 Levels are titled after the root they teach, the way a Wanikani level is named
 after the radical it unlocks.
@@ -139,7 +142,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        771 level descriptors, loaded first
+      index.json        790 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -173,7 +176,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (771 decks, 4,086 notes). It is
+That writes dist/albanian-roots-families.apkg (790 decks, 4,086 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

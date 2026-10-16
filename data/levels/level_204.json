@@ -1,46 +1,167 @@
 {
  "level": 204,
- "title": "dërgoj, tij",
+ "title": "pi, përveç",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 4,
  "families": [
-  "dërgoj",
-  "tij"
+  "pi",
+  "përveç"
  ],
  "pos_mix": {
-  "det": 1,
-  "verb": 4
+  "noun": 4,
+  "prep": 2,
+  "verb": 3
  },
  "words": [
   {
-   "id": "tij",
-   "sq": "tij",
-   "en": "his",
+   "id": "pije",
+   "sq": "pije",
+   "en": "drink",
    "glosses": [
-    "his"
+    "drink",
+    "alcohol"
    ],
    "pos": [
-    "det"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "determiner"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "his",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "drink",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
-       "name": "Albanian determiners",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "drink"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "alcohol",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "alcohol"
+     ]
+    }
+   ],
+   "rank": 682,
+   "count": 1489,
+   "family": "pi",
+   "is_root": false,
+   "etymology": "From pi + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pi",
+     "role": "base"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [
+    "pijesinë",
+    "pijeshitës",
+    "pijetore"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "pije",
+     "tag": "plural"
+    },
+    {
+     "form": "pija",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Have a drink, men!",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Kanë një pije, burra!"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "përveç",
+   "sq": "përveç",
+   "en": "except; apart from; besides",
+   "glosses": [
+    "except; apart from; besides"
+   ],
+   "pos": [
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "except; apart from; besides",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -48,7 +169,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 9 entries",
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -56,86 +183,16 @@
      ],
      "examples": [],
      "links": [
-      "his"
+      "except",
+      "apart from",
+      "besides"
      ]
     }
    ],
-   "rank": 71,
-   "count": 18884,
-   "family": "tij",
+   "rank": 686,
+   "count": 1475,
+   "family": "përveç",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We are His servants.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Ne jemi shërbëtorët e Tij."
-   }
-  },
-  {
-   "id": "dërguar",
-   "sq": "dërguar",
-   "en": "send, past form (from dërgoj, to send)",
-   "glosses": [
-    "send, past form (from dërgoj, to send)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "send, past form (from dërgoj, to send)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "dërgoj"
-    }
-   ],
-   "rank": 914,
-   "count": 1046,
-   "family": "dërgoj",
-   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -147,42 +204,45 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Why have you sent me?",
+    "en": "Except in North Macedonia.",
     "score": [
-     0,
-     4,
-     -4,
+     2,
+     5,
+     -3,
      8
     ],
-    "sq": "Pse më ke dërguar?"
+    "sq": "Përveç në Maqedoninë e Veriut."
    }
   },
   {
-   "id": "dërgoj",
-   "sq": "dërgoj",
-   "en": "to send, dispatch",
+   "id": "pi",
+   "sq": "pi",
+   "en": "from",
    "glosses": [
-    "to send, dispatch",
-    "to mail",
-    "to convey, carry, transport"
+    "from",
+    "to drink, to suck",
+    "to smoke (in use with duhan (“tobacco, cigarettes”))",
+    "to take (in use with drogë (“drug(s)”) and medicinë (“medicine”))"
    ],
    "pos": [
+    "prep",
     "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "preposition",
     "verb",
     "verb",
     "verb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to send, dispatch",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "from",
      "tags": [
-      "transitive"
+      "Gheg"
      ],
      "cats": [
       {
@@ -190,97 +250,255 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "65 18 18"
+       "_dis": "46 25 29 0"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 16 18 21"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Pi ku ije?",
+       "en": "Where are you from?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "from"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to drink, to suck",
+     "tags": [
+      "Gheg",
+      "Tosk",
+      "standard"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "drink",
+      "suck"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to smoke (in use with duhan (“tobacco, cigarettes”))",
+     "tags": [
+      "Gheg",
+      "Tosk",
+      "standard"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "smoke",
+      "duhan"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to take (in use with drogë (“drug(s)”) and medicinë (“medicine”))",
+     "tags": [
+      "Gheg",
+      "Tosk",
+      "standard"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "A pi drogë?",
+       "en": "Do you take drugs?",
+       "offsets": [
+        [
+         2,
+         10
+        ]
+       ]
+      },
+      {
+       "sq": "A i pive ilaçet?",
+       "en": "Did you take (your) medicine?",
+       "offsets": [
+        [
+         4,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "take",
+      "drogë",
+      "medicinë"
+     ]
+    }
+   ],
+   "rank": 805,
+   "count": 1229,
+   "family": "pi",
+   "is_root": true,
+   "etymology": "From Old Albanian pii, from Proto-Albanian *pīja, from Proto-Indo-European *pih₃-, *peh₃- probably via the reduplicated form *píph₃eti; compare Greek πίνω (píno), Serbo-Croatian pìti, Italian bere. Orel compares the similarity between Proto-Albanian *pīja and Proto-Slavic *pijǫ; Tomaschek compares Tosk pirë/Gheg pinë with Thracian πίνον (pínon, “beer”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pirë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pijetore",
+   "sq": "pijetore",
+   "en": "a meyhane",
+   "glosses": [
+    "a meyhane",
+    "a pub"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a meyhane",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "95 5"
+      },
+      {
+       "name": "Albanian terms suffixed with -tore",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "38 31 31"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 17 17"
+       "_dis": "79 21"
       }
      ],
      "examples": [],
      "links": [
-      "send",
-      "dispatch"
+      "meyhane"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to mail",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a pub",
      "tags": [
-      "transitive"
+      "feminine"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -tore",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      },
+      {
+       "name": "Bars",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Bars",
+       "langcode": "sq",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "mail"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to convey, carry, transport",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "convey",
-      "carry",
-      "transport"
+      "pub"
      ]
     }
    ],
-   "rank": 1085,
-   "count": 867,
-   "family": "dërgoj",
-   "is_root": true,
-   "etymology": "Explained as a borrowing from a Vulgar Latin verb derived from Latin dīrigō (“to lay straight, direct, distribute”) through an earlier Proto-Albanian *dər(ə)goɲ;. Orel suggests a borrowing from Latin dēlēgō (“to send”) with an irregular change of the liquid consonant.",
-   "etymology_class": "borrowed",
+   "rank": 40689,
+   "count": 9,
+   "family": "pi",
+   "is_root": false,
+   "etymology": "From pije (“drinking”) + -tore.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "dërgim",
-    "dërgesë",
-    "dërgatë",
-    "dërgues",
-    "dërgimtar"
+   "parents": [
+    "drinking"
    ],
+   "components": [
+    {
+     "word": "pije",
+     "role": "base"
+    },
+    {
+     "word": "tore",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dërgova",
-     "tag": "aorist"
+     "form": "pijetore",
+     "tag": "plural"
     },
     {
-     "form": "dërguar",
-     "tag": "participle"
+     "form": "pijetorja",
+     "tag": "definite"
+    },
+    {
+     "form": "pietore",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Shall I send to thee?",
+    "corpus": "HPLT",
+    "en": "Ivan wanted to chill out in a pub.",
     "score": [
-     0,
-     6,
-     -6,
-     5
+     2,
+     7,
+     -5,
+     10
     ],
-    "sq": "Do të të dërgoj te ti?"
-   }
+    "sq": "Ivan donte të qetësohuni në një pijetore."
+   },
+   "breakdown": "historical"
   }
  ]
 }

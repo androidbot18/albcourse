@@ -1,38 +1,43 @@
 {
  "level": 291,
- "title": "për 3/3",
- "root": "për",
- "root_gloss": "for",
- "part": 3,
- "parts": 3,
- "word_count": 5,
+ "title": "drejt (rarer words)",
+ "root": "drejt",
+ "root_gloss": "straight",
+ "part": 1,
+ "parts": 1,
+ "word_count": 4,
  "families": [
-  "për"
+  "drejt"
  ],
  "pos_mix": {
-  "adv": 3,
-  "noun": 4
+  "verb": 4,
+  "noun": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "përpjetë",
-   "sq": "përpjetë",
-   "en": "upside down, upwards",
+   "id": "drejtuar",
+   "sq": "drejtuar",
+   "en": "straighten, past form (from drejtoj, to straighten)",
    "glosses": [
-    "upside down, upwards"
+    "straighten, past form (from drejtoj, to straighten)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "upside down, upwards",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "straighten, past form (from drejtoj, to straighten)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -54,50 +59,40 @@
       }
      ],
      "examples": [],
-     "links": [
-      "upside",
-      "down",
-      "upwards"
-     ]
+     "is_form_of": "drejtoj"
     }
    ],
-   "rank": 22638,
-   "count": 22,
-   "family": "për",
+   "rank": 1498,
+   "count": 592,
+   "family": "drejt",
    "is_root": false,
-   "etymology": "From për + pjetë, literally 'for the sky'. From Proto-Indo-European *pro-peth₂-o-. It corresponds accurately to Greek προπετής (propetís, “falling forwards”).",
-   "etymology_class": "compound",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I jumped back.",
+    "corpus": "TED2020",
+    "en": "And where were they heading?",
     "score": [
-     2,
+     0,
      5,
-     -3,
-     10
+     -5,
+     4
     ],
-    "sq": "U hodha përpjetë nga gëzimi."
-   },
-   "breakdown": "historical"
+    "sq": "Dhe për ku ishin drejtuar?"
+   }
   },
   {
-   "id": "përhapje",
-   "sq": "përhapje",
-   "en": "spread, dissemination",
+   "id": "drejtim",
+   "sq": "drejtim",
+   "en": "direction",
    "glosses": [
-    "spread, dissemination"
+    "direction"
    ],
    "pos": [
     "noun"
@@ -109,8 +104,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "spread, dissemination",
-     "tags": [],
+     "gloss": "direction",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -119,7 +116,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -133,164 +130,24 @@
      ],
      "examples": [],
      "links": [
-      "spread",
-      "dissemination"
+      "direction"
      ]
     }
    ],
-   "rank": 34131,
-   "count": 12,
-   "family": "për",
+   "rank": 1696,
+   "count": 519,
+   "family": "drejt",
    "is_root": false,
-   "etymology": "From përhap + -je.",
+   "etymology": "Gerund of drejtoj; drejtoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "përhap",
+     "word": "drejtoj",
      "role": "base",
-     "en": "to spread"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përhapja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This difference is called the spread.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Ky ndryshim quhet përhapje."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "përcaktim",
-   "sq": "përcaktim",
-   "en": "specification, determination",
-   "glosses": [
-    "specification, determination",
-    "definition"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "specification, determination",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "specification",
-      "determination"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "definition",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Cili është përcaktimi i kësaj?",
-       "en": "What is the definition of this?",
-       "offsets": [
-        [
-         11,
-         21
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "definition"
-     ]
-    }
-   ],
-   "rank": 43865,
-   "count": 8,
-   "family": "për",
-   "is_root": false,
-   "etymology": "From përcaktoj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "përcaktoj",
-     "role": "base",
-     "en": "to determine"
+     "en": "to straighten"
     },
     {
      "word": "im",
@@ -300,209 +157,282 @@
     }
    ],
    "derived": [],
-   "related": [
-    "përcaktoj"
-   ],
-   "forms": [],
-   "corpus_example": null,
-   "breakdown": "transparent"
-  },
-  {
-   "id": "përkrenare",
-   "sq": "përkrenare",
-   "en": "helmet",
-   "glosses": [
-    "helmet"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "helmet",
-     "tags": [
-      "feminine",
-      "historical"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with për-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "helmet"
-     ]
-    }
-   ],
-   "rank": 45021,
-   "count": 8,
-   "family": "për",
-   "is_root": false,
-   "etymology": "From për- + krenarë, a derivative of krye (“head”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "head"
-   ],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    }
-   ],
-   "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "drejtime",
+     "tag": "plural"
+    },
+    {
+     "form": "drejtimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It was a brass helmet.",
+    "en": "Why do we need guidance?",
     "score": [
-     1,
-     6,
+     0,
+     5,
      -5,
      10
     ],
-    "sq": "Kjo ishte një përkrenare prej bronzi."
+    "sq": "Pse kemi nevojë për drejtim?"
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   },
   {
-   "id": "përnjëherësh",
-   "sq": "përnjëherësh",
-   "en": "at once",
+   "id": "drejtoj",
+   "sq": "drejtoj",
+   "en": "to straighten",
    "glosses": [
-    "at once",
-    "immediately"
+    "to straighten",
+    "to direct",
+    "to organize, to lead"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "at once",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to straighten",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "93 7"
+       "_dis": "32 30 38"
       },
       {
-       "name": "Albanian terms suffixed with -sh",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "46 27 27"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "81 19"
+       "_dis": "35 32 32"
       }
      ],
      "examples": [],
      "links": [
-      "at once"
+      "straighten"
      ]
     },
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "immediately",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to direct",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 30 38"
+      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "81 19"
+       "_dis": "35 32 32"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "49 51"
+       "_dis": "35 34 30"
       }
      ],
      "examples": [],
      "links": [
-      "immediately"
+      "direct"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to organize, to lead",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 30 38"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 32 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 34 30"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "organize",
+      "lead"
      ]
     }
    ],
-   "rank": 47983,
-   "count": 7,
-   "family": "për",
+   "rank": 3432,
+   "count": 232,
+   "family": "drejt",
    "is_root": false,
-   "etymology": "From për + një + herë + -sh (adverbial suffix), literally 'at one moment'.",
+   "etymology": "From drejt + -oj.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "për",
+     "word": "drejt",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "drejtim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "drejtuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Then I will guide the younger generation.",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "Më pas do të drejtoj brezin e ri."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "drejtpërdrejt",
+   "sq": "drejtpërdrejt",
+   "en": "in a direct, frank or straightforward manner",
+   "glosses": [
+    "in a direct, frank or straightforward manner"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in a direct, frank or straightforward manner",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Nuk i pëlqen të harxhojë kohën me broçkull. Ai parapëlqen të flasë drejtpërdrejt.",
+       "en": "He doesn't like to waste time with nonsense. He prefers to speak frankly.",
+       "offsets": [
+        [
+         67,
+         80
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "direct",
+      "frank",
+      "straightforward"
+     ]
+    }
+   ],
+   "rank": 7013,
+   "count": 100,
+   "family": "drejt",
+   "is_root": false,
+   "etymology": "drejt + për + drejt",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "drejt",
      "role": "prefix"
     },
     {
-     "word": "një",
+     "word": "për",
      "role": "stem"
-    },
-    {
-     "word": "sh",
-     "role": "suffix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He drank it at once and got up.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "E piu përnjëherësh dhe u ngrit."
-   },
+   "corpus_example": null,
    "breakdown": "historical"
   }
- ]
+ ],
+ "resumes": true
 }

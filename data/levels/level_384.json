@@ -1,29 +1,119 @@
 {
  "level": 384,
- "title": "varkë, çudi, bela +3",
+ "title": "dale, vepër, han +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 9,
  "families": [
-  "bela",
-  "gisht",
-  "perëndi",
-  "prift",
-  "varkë",
-  "çudi"
+  "dale",
+  "faj",
+  "han",
+  "vepër",
+  "çmuar"
  ],
  "pos_mix": {
-  "noun": 14
+  "intj": 2,
+  "noun": 11,
+  "verb": 5,
+  "adj": 1
  },
  "words": [
   {
-   "id": "varkë",
-   "sq": "varkë",
-   "en": "boat",
+   "id": "dale",
+   "sq": "dale",
+   "en": "wait, stay, hold up",
    "glosses": [
-    "boat"
+    "wait, stay, hold up",
+    "don't hurry, relax, chill"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "wait, stay, hold up",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wait",
+      "stay",
+      "hold up"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "don't hurry, relax, chill",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 60"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "don't",
+      "hurry",
+      "relax"
+     ]
+    }
+   ],
+   "rank": 3012,
+   "count": 269,
+   "family": "dale",
+   "is_root": true,
+   "etymology": "Short form of ndal (“I halt, stop, rest, hold up”). See ndal and dal for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "dal",
+    "dalë",
+    "dala",
+    "dalët",
+    "dalëngadalë"
+   ],
+   "forms": [
+    {
+     "form": "daleni",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "When is he getting dispatched?",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Kur do te dale?"
+   }
+  },
+  {
+   "id": "veprim",
+   "sq": "veprim",
+   "en": "action",
+   "glosses": [
+    "action"
    ],
    "pos": [
     "noun"
@@ -35,9 +125,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "boat",
+     "gloss": "action",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -47,13 +137,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,243 +151,347 @@
      ],
      "examples": [],
      "links": [
-      "boat"
+      "action"
      ]
     }
    ],
-   "rank": 3125,
-   "count": 259,
-   "family": "varkë",
+   "rank": 3022,
+   "count": 268,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "From veproj (“do something”) + -im noun ending.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "veproj",
+     "role": "base",
+     "en": "to do something"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "veprime",
+     "tag": "plural"
+    },
+    {
+     "form": "veprimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "No military action.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Jo veprim ushtarak."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "han",
+   "sq": "han",
+   "en": "khan",
+   "glosses": [
+    "khan",
+    "fleabag hotel",
+    "messy place with no control of who comes and who leaves, regular flophouse",
+    "roadside shelter for travellers and their animals: roadside hostelry, caravanserai, inn"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "khan",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "khan"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fleabag hotel",
+     "tags": [
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "fleabag",
+      "hotel"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "messy place with no control of who comes and who leaves, regular flophouse",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "messy",
+      "place",
+      "control"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "roadside shelter for travellers and their animals: roadside hostelry, caravanserai, inn",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 63 6 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "roadside",
+      "shelter",
+      "travellers"
+     ]
+    }
+   ],
+   "rank": 3025,
+   "count": 268,
+   "family": "han",
    "is_root": true,
-   "etymology": "Variant of barkë. Borrowed from Greek βάρκα (várka), from Late Latin barca.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "hane",
+     "tag": "plural"
+    },
+    {
+     "form": "hani",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Got a boat?",
+    "en": "Don't have Han yet for some reason?",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     8,
+     -7,
      10
     ],
-    "sq": "Ke një varkë?"
+    "sq": "Nuk e keni Han ende për ndonjë arsye?"
    }
   },
   {
-   "id": "çudi",
-   "sq": "çudi",
-   "en": "surprise",
+   "id": "faj",
+   "sq": "faj",
+   "en": "to sate (with food or drink), gorge, stuff",
    "glosses": [
-    "surprise",
-    "wonder",
-    "marvel",
-    "miracle"
+    "to sate (with food or drink), gorge, stuff",
+    "to surfeit, cloy",
+    "to saturate",
+    "misdeed, wrong; crime",
+    "guilt, blame",
+    "fault, cause"
    ],
    "pos": [
-    "noun",
+    "verb",
+    "verb",
+    "verb",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
+    "verb",
+    "verb",
+    "verb",
     "noun",
     "noun",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "surprise",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sate (with food or drink), gorge, stuff",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 7 31 32"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 7 30 32"
+       "_dis": "6 19 6 18 19 20 6 6"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "32 3 32 33"
+       "_dis": "6 19 6 18 19 20 6 6"
       }
      ],
      "examples": [],
      "links": [
-      "surprise"
+      "gorge",
+      "stuff"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to surfeit, cloy",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "surfeit",
+      "cloy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to saturate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 17 4 14 17 41"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "saturate"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wonder",
+     "gloss": "misdeed, wrong; crime",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "wonder"
+      "misdeed",
+      "wrong",
+      "crime"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "marvel",
+     "gloss": "guilt, blame",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 7 31 32"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 7 30 32"
+       "_dis": "6 19 6 18 19 20 6 6"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "32 3 32 33"
+       "_dis": "6 19 6 18 19 20 6 6"
       }
      ],
      "examples": [],
      "links": [
-      "marvel"
+      "guilt",
+      "blame"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "miracle",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 7 31 32"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 7 30 32"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 3 32 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "miracle"
-     ]
-    }
-   ],
-   "rank": 3132,
-   "count": 259,
-   "family": "çudi",
-   "is_root": true,
-   "etymology": "Borrowed from a South Slavic language, ultimately derived from Proto-Slavic *čudo (“miracle, wonder”). Compare Serbo-Croatian čudo (“miracle, wonder”) and Bulgarian чудо (čudo, “miracle”); compare also Romanian ciudă (“fury, grudge, envy”), Hungarian csoda (“miracle, wonder”). Initially rendered as çudë, while çudi is a back formation from the verb çudit (“to surprise”), itself derived from Proto-Slavic *čuditi (“to be surprised”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "çuditshëm",
-    "çudit",
-    "çuditëri",
-    "çudibërës",
-    "çuditërisht",
-    "përçudnoj"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "çudi",
-     "tag": "plural"
-    },
-    {
-     "form": "çudia",
-     "tag": "definite"
-    },
-    {
-     "form": "çudë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And no wonder.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Dhe nuk është çudi."
-   }
-  },
-  {
-   "id": "bela",
-   "sq": "bela",
-   "en": "trouble",
-   "glosses": [
-    "trouble",
-    "annoyance, nuisance"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "trouble",
+     "gloss": "fault, cause",
      "tags": [
       "colloquial",
       "masculine"
@@ -305,187 +499,117 @@
      "cats": [],
      "examples": [
       {
-       "sq": "Ç'na gjeti belaja!",
-       "en": "",
+       "sq": "për fajin e tij",
+       "en": "because of him",
        "offsets": [
         [
-         11,
-         17
+         4,
+         9
         ]
        ]
       }
      ],
      "links": [
-      "trouble"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "annoyance, nuisance",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "31 69"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "annoyance",
-      "nuisance"
+      "fault",
+      "cause"
      ]
     }
    ],
-   "rank": 3144,
-   "count": 257,
-   "family": "bela",
+   "rank": 3051,
+   "count": 266,
+   "family": "faj",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بلا (bela, “calamity, misfortune, evil, trouble”). from Arabic بَلَاء (balāʔ).",
+   "etymology": "From dialectal (Cham) fal, from Vulgar Latin *fallia, deverbal of Latin fallere; compare French faille (“fault”), Italian faglia (“fault”), Aromanian fai f (“fault, sin”). Less likely from Gothic 𐍆𐌰𐌹𐌰𐌽 (faian, “to blame”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "fault"
+   ],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "fajësi",
+    "fajësoj",
+    "i fajshëm",
+    "fajshlyes",
+    "fajtoj",
+    "i pafaj",
+    "fengem"
+   ],
+   "related": [
+    "fëjej"
+   ],
    "forms": [
     {
-     "form": "belatë",
-     "tag": "plural"
+     "form": "fajtur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Bela got into the program through me.",
+    "en": "But they are not to blame.",
     "score": [
      0,
-     7,
-     -7,
+     5,
+     -5,
      10
     ],
-    "sq": "Bela u fut në program nëpërmjet meje."
+    "sq": "Por ata nuk kanë faj."
    }
   },
   {
-   "id": "perëndi",
-   "sq": "perëndi",
-   "en": "God",
+   "id": "çmuar",
+   "sq": "çmuar",
+   "en": "precious, valued, worthy",
    "glosses": [
-    "God",
-    "god, deity",
-    "holy kingdom, kingdom"
+    "precious, valued, worthy"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "God",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "precious, valued, worthy",
+     "tags": [],
      "cats": [
-      {
-       "name": "Religion",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Religion",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "74 9 18"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 21 13"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "religion",
-      "God"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "god, deity",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
+       "source": "w"
+      },
       {
-       "name": "Mythology",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Mythology",
-       "langcode": "sq",
-       "_dis": "39 38 23"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "god",
-      "deity"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "holy kingdom, kingdom",
-     "tags": [
-      "dated",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Mythology",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Mythology",
-       "langcode": "sq",
-       "_dis": "39 38 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "holy",
-      "kingdom"
+      "precious",
+      "valued",
+      "worthy"
      ]
     }
    ],
-   "rank": 3147,
-   "count": 257,
-   "family": "perëndi",
+   "rank": 3058,
+   "count": 265,
+   "family": "çmuar",
    "is_root": true,
-   "etymology": "Disputed. Different interpretations have been proposed:\n# A possible reflection of the sky and thunder god (from Proto-Indo-European *per-en-, an extension of *per(H)- (“to strike”), confer Proto-Indo-European *PeruHnos and *Perkʷunos), attached to *di, the sky-god (*Dyḗws);\n# Derived from perëndoj (“to set (of the sun)”), which might be borrowed from Latin parentare (“to bring a sacrifice (to the dead); to satisfy”).\n# Latin imperantem (“ruling”); compare Albanian dielli perëndon (“the sun sets”), perhaps ultimately a calque of Ancient Greek ὁ ήλιος βασιλεύει (ho ḗlios basileúei, “the sun sets”, literally “the sun reigns”).",
-   "etymology_class": "derived",
+   "etymology": "From the participle form of çmoj.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -494,48 +618,28 @@
    "related": [],
    "forms": [
     {
-     "form": "perëndi",
-     "tag": "plural"
-    },
-    {
-     "form": "perëndia",
-     "tag": "definite"
-    },
-    {
-     "form": "perendi",
-     "tag": "alternative"
-    },
-    {
-     "form": "perundi",
-     "tag": "alternative"
-    },
-    {
-     "form": "perudi",
-     "tag": "alternative"
-    },
-    {
-     "form": "perndi",
-     "tag": "alternative"
+     "form": "çmuare",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I swear by God!",
+    "en": "Supremely precious.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Betohem për Perëndi!"
+    "sq": "Shumë e çmuar."
    }
   },
   {
-   "id": "prift",
-   "sq": "prift",
-   "en": "priest, pastor",
+   "id": "vepër",
+   "sq": "vepër",
+   "en": "piece (artistic), deed, creation",
    "glosses": [
-    "priest, pastor"
+    "piece (artistic), deed, creation"
    ],
    "pos": [
     "noun"
@@ -547,9 +651,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "priest, pastor",
+     "gloss": "piece (artistic), deed, creation",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -573,211 +677,346 @@
      ],
      "examples": [],
      "links": [
-      "priest",
-      "pastor"
+      "piece",
+      "deed",
+      "creation"
      ]
     }
    ],
-   "rank": 3152,
-   "count": 257,
-   "family": "prift",
+   "rank": 4815,
+   "count": 158,
+   "family": "vepër",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin *preptо̄ for *praebitor (compare Aromanian preftu, Romanian preot), from Latin presbyter.",
+   "etymology": "Borrowed from Latin opera (“id”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "id"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "priftërinj",
+     "form": "vepra",
      "tag": "plural"
-    },
-    {
-     "form": "prifti",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "I'm not a priest.",
+    "en": "The bad word is a bad deed.",
     "score": [
      0,
-     3,
-     -3,
+     7,
+     -7,
      8
     ],
-    "sq": "Nuk jam prift."
+    "sq": "Fjala e keqe është vepër e keqe."
    }
   },
   {
-   "id": "gisht",
-   "sq": "gisht",
-   "en": "finger",
+   "id": "veproj",
+   "sq": "veproj",
+   "en": "to do something",
    "glosses": [
-    "finger",
-    "pawl (for a ratchet wheel)",
-    "fingerwidth, small amount"
+    "to do something",
+    "to be active"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "finger",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Anatomy",
-       "langcode": "sq",
-       "_dis": "29 36 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "finger"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pawl (for a ratchet wheel)",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to do something",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "2 45 52"
+       "_dis": "50 50"
       },
       {
-       "name": "Anatomy",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "orig": "sq:Anatomy",
-       "langcode": "sq",
-       "_dis": "29 36 35"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "technical",
-      "pawl"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fingerwidth, small amount",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "2 45 52"
+       "_dis": "50 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "2 27 71"
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "do",
+      "something"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be active",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "be",
+      "active"
+     ]
+    }
+   ],
+   "rank": 8869,
+   "count": 75,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "From vepër + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vepër",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "veprim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "veprova",
+     "tag": "aorist"
+    },
+    {
+     "form": "vepruar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What should I do?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Si të veproj?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "kryevepër",
+   "sq": "kryevepër",
+   "en": "masterpiece",
+   "glosses": [
+    "masterpiece"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "masterpiece",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 24 73"
+       "source": "w"
       }
      ],
-     "examples": [],
-     "links": []
+     "examples": [
+      {
+       "sq": "Shumë njerëz e konsideronin një kryevepër lirike.",
+       "en": "Many people considered it a lyrical masterpiece.",
+       "offsets": [
+        [
+         32,
+         41
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "masterpiece"
+     ]
     }
    ],
-   "rank": 3156,
-   "count": 257,
-   "family": "gisht",
-   "is_root": true,
-   "etymology": "From older and dialectal glisht, from Proto-Albanian *glista, from Proto-Indo-European *gʷelH- (“to sting”) (compare German Kiel (“quill”), Lithuanian gãlas (“end, tip”), Greek βελόνα (velóna, “needle”)).",
-   "etymology_class": "inherited",
+   "rank": 19857,
+   "count": 26,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "Ultimately a calque of French chef-d’œuvre, with likely intermediate influence from Italian capolavoro and Turkish başyapıt (or indeed possibly a calque of either of the two instead), from krye (“head”) + vepër (“piece”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "quill",
-    "needle"
+    "head",
+    "piece"
    ],
-   "components": [],
-   "derived": [
-    "gisht i madh",
-    "gishte",
-    "gishtës",
-    "gishtëz"
+   "components": [
+    {
+     "word": "krye",
+     "role": "prefix"
+    },
+    {
+     "word": "vepër",
+     "role": "stem"
+    }
    ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "gishta",
+     "form": "kryevepra",
      "tag": "plural"
-    },
-    {
-     "form": "gishti",
-     "tag": "definite"
-    },
-    {
-     "form": "gjisht",
-     "tag": "alternative"
-    },
-    {
-     "form": "glisht",
-     "tag": "alternative"
-    },
-    {
-     "form": "gishtëra",
-     "tag": "alternative"
-    },
-    {
-     "form": "gishtërinj",
-     "tag": "alternative"
     }
    ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "veprimtari",
+   "sq": "veprimtari",
+   "en": "activity",
+   "glosses": [
+    "activity"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "activity",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -tari",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "activity"
+     ]
+    }
+   ],
+   "rank": 35887,
+   "count": 11,
+   "family": "vepër",
+   "is_root": false,
+   "etymology": "veprim + -tari.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "veprim",
+     "role": "base"
+    },
+    {
+     "word": "tari",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Football just one finger.",
+    "corpus": "TED2020",
+    "en": "There's a lot of activity in China.",
     "score": [
      1,
-     4,
-     -3,
-     10
+     5,
+     -4,
+     4
     ],
-    "sq": "Futboll vetëm një gisht."
-   }
+    "sq": "Ka shumë veprimtari në Kinë."
+   },
+   "breakdown": "historical"
   }
  ]
 }

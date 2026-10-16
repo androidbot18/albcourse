@@ -1,45 +1,41 @@
 {
  "level": 232,
- "title": "dhjetë",
- "root": "dhjetë",
- "root_gloss": "ten",
+ "title": "tej, borxh",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "dhjetë"
+  "borxh",
+  "tej"
  ],
  "pos_mix": {
-  "num": 1,
-  "noun": 1
+  "adv": 5,
+  "noun": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "dhjetë",
-   "sq": "dhjetë",
-   "en": "ten",
+   "id": "andej",
+   "sq": "andej",
+   "en": "thither, on that way, over there",
    "glosses": [
-    "ten"
+    "thither, on that way, over there"
    ],
    "pos": [
-    "num"
+    "adv"
    ],
    "pos_labels": [
-    "numeral"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "ten",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "thither, on that way, over there",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -51,45 +47,68 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "ten"
+      "thither",
+      "on",
+      "that"
      ]
     }
    ],
-   "rank": 890,
-   "count": 1073,
-   "family": "dhjetë",
-   "is_root": true,
-   "etymology": "From *djeth + -të, from Proto-Albanian *detsa, from Proto-Indo-European *déḱm̥. Initial dh- from decimal compounds like tridhjetë (“thirty”).",
-   "etymology_class": "derived",
+   "rank": 1080,
+   "count": 872,
+   "family": "tej",
+   "is_root": false,
+   "etymology": "From anë + tej (cf. këndej, përtej).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "anë",
+     "role": "prefix"
+    },
+    {
+     "word": "tej",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "anej",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "QED",
-    "en": "I was ten years old.",
+    "en": "Why, right?",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      5
     ],
-    "sq": "Isha dhjetë vjeç."
-   }
+    "sq": "Pse nuk iku prej andej?"
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "dhjetor",
-   "sq": "dhjetor",
-   "en": "December",
+   "id": "borxh",
+   "sq": "borxh",
+   "en": "loan (of money)",
    "glosses": [
-    "December"
+    "loan (of money)"
    ],
    "pos": [
     "noun"
@@ -101,7 +120,253 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "December",
+     "gloss": "loan (of money)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "loan"
+     ]
+    }
+   ],
+   "rank": 1083,
+   "count": 869,
+   "family": "borxh",
+   "is_root": true,
+   "etymology": "From Proto-Germanic *burgōną (“to pledge, take care of”). Compare Old English borgian (“to borrow, lend, pledge surety for”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "borxhe",
+     "tag": "plural"
+    },
+    {
+     "form": "borxhi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And you have this debt.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Dhe ti ke këtë borxh."
+   }
+  },
+  {
+   "id": "përtej",
+   "sq": "përtej",
+   "en": "beyond, on the other side",
+   "glosses": [
+    "beyond, on the other side"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beyond, on the other side",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beyond",
+      "on",
+      "the"
+     ]
+    }
+   ],
+   "rank": 1599,
+   "count": 548,
+   "family": "tej",
+   "is_root": false,
+   "etymology": "From për + tej.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "tej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "I did that, but I went even further.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Shkova përtej kësaj."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "tej",
+   "sq": "tej",
+   "en": "far",
+   "glosses": [
+    "far",
+    "beyond"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "far",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "far"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "beyond",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beyond"
+     ]
+    }
+   ],
+   "rank": 2026,
+   "count": 428,
+   "family": "tej",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tai e, a parallel formation to tëhu.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "përtej",
+    "përtejmë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "pertei",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Nothing further.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Asgjë më tej."
+   }
+  },
+  {
+   "id": "gjithandej",
+   "sq": "gjithandej",
+   "en": "everywhere, everyplace",
+   "glosses": [
+    "everywhere, everyplace"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "everywhere, everyplace",
      "tags": [],
      "cats": [
       {
@@ -111,7 +376,90 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -or (month)",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "everywhere",
+      "everyplace"
+     ]
+    }
+   ],
+   "rank": 2332,
+   "count": 359,
+   "family": "tej",
+   "is_root": false,
+   "etymology": "From gjithë + andej.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "gjithë",
+     "role": "prefix"
+    },
+    {
+     "word": "andej",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "So it was everywhere.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Kështu ajo ishte gjithandej."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "tejkaloj",
+   "sq": "tejkaloj",
+   "en": "to surpass, exceed",
+   "glosses": [
+    "to surpass, exceed"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to surpass, exceed",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with tej-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -125,50 +473,43 @@
      ],
      "examples": [],
      "links": [
-      "December"
+      "surpass",
+      "exceed"
      ]
     }
    ],
-   "rank": 6835,
-   "count": 103,
-   "family": "dhjetë",
+   "rank": 28122,
+   "count": 16,
+   "family": "tej",
    "is_root": false,
-   "etymology": "Calque of Latin December, from dhjetë (“ten”) + -or.",
+   "etymology": "From tej- + kaloj.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "ten"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "dhjetë",
-     "role": "base"
+     "word": "tej",
+     "role": "prefix"
     },
     {
-     "word": "or",
-     "role": "suffix"
+     "word": "kaloj",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dhjetori",
-     "tag": "definite"
+     "form": "tejkalova",
+     "tag": "aorist"
+    },
+    {
+     "form": "tejkaluar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What happened in December?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Çfarë ndodhi në dhjetor?"
-   },
+   "corpus_example": null,
    "breakdown": "historical"
   }
  ]

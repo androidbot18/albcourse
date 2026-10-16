@@ -1,31 +1,31 @@
 {
  "level": 599,
- "title": "geto, komunist, pasagjer +3",
+ "title": "derrkuc, varëse, pashmangshëm +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "geto",
-  "komunist",
-  "llum",
-  "pasagjer",
-  "qyqar",
-  "tradhtoj"
+  "derrkuc",
+  "gram",
+  "mbajtje",
+  "pashmangshëm",
+  "varëse",
+  "vej"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 1,
-  "adj": 3
+  "noun": 10,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "geto",
-   "sq": "geto",
-   "en": "ghetto (racially segregated neighbourhood, especially of Jews)",
+   "id": "derrkuc",
+   "sq": "derrkuc",
+   "en": "piglet",
    "glosses": [
-    "ghetto (racially segregated neighbourhood, especially of Jews)"
+    "piglet"
    ],
    "pos": [
     "noun"
@@ -37,10 +37,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ghetto (racially segregated neighbourhood, especially of Jews)",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "piglet",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -49,7 +47,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -63,65 +61,163 @@
      ],
      "examples": [],
      "links": [
-      "ghetto"
+      "piglet"
      ]
     }
    ],
-   "rank": 16950,
-   "count": 33,
-   "family": "geto",
+   "rank": 15237,
+   "count": 38,
+   "family": "derrkuc",
    "is_root": true,
-   "etymology": "Borrowed from Italian ghetto.",
-   "etymology_class": "borrowed",
+   "etymology": "From archaic and dialectal derk, from Proto-Albanian *darika, diminutive of *darja (“pig”) (modern derr). More at derr.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "pig"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "geto",
-     "tag": "plural"
+     "form": "derrk",
+     "tag": "alternative"
     },
     {
-     "form": "getoja",
-     "tag": "definite"
+     "form": "derk",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Believing in justice is ghettoised here.",
+    "en": "A piggy bank has different uses.",
     "score": [
      1,
-     8,
-     -7,
+     6,
+     -5,
      10
     ],
-    "sq": "Besimi në drejtësi këtu ka hyrë në geto."
+    "sq": "Një derrkuc ka përdorime të ndryshme."
    }
   },
   {
-   "id": "komunist",
-   "sq": "komunist",
-   "en": "communist",
+   "id": "varëse",
+   "sq": "varëse",
+   "en": "chain",
    "glosses": [
-    "communist"
+    "chain",
+    "necklace"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "communist",
-     "tags": [
-      "masculine"
+     "gloss": "chain",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "chain"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "necklace",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 86"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 83"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 92"
+      }
      ],
+     "examples": [],
+     "links": [
+      "necklace"
+     ]
+    }
+   ],
+   "rank": 15239,
+   "count": 38,
+   "family": "varëse",
+   "is_root": true,
+   "etymology": "Derivative of var.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "var"
+   ],
+   "forms": [
+    {
+     "form": "varëse",
+     "tag": "plural"
+    },
+    {
+     "form": "varësja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "* Hangers in the closets.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "* Varëse në dollapë."
+   }
+  },
+  {
+   "id": "pashmangshëm",
+   "sq": "pashmangshëm",
+   "en": "inevitable",
+   "glosses": [
+    "inevitable"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "inevitable",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -130,7 +226,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -144,13 +240,13 @@
      ],
      "examples": [],
      "links": [
-      "communist"
+      "inevitable"
      ]
     }
    ],
-   "rank": 16975,
-   "count": 33,
-   "family": "komunist",
+   "rank": 15260,
+   "count": 37,
+   "family": "pashmangshëm",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -162,36 +258,28 @@
    "related": [],
    "forms": [
     {
-     "form": "komunistë",
-     "tag": "plural"
-    },
-    {
-     "form": "komunisti",
-     "tag": "definite"
-    },
-    {
-     "form": "komuniste",
+     "form": "pashmangshëme",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This country is a communist country.",
+    "en": "Rejection is inevitable.",
     "score": [
-     0,
-     5,
-     -5,
+     2,
+     4,
+     -2,
      10
     ],
-    "sq": "Ky vend është vend komunist."
+    "sq": "Refuzimi është i pashmangshëm."
    }
   },
   {
-   "id": "pasagjer",
-   "sq": "pasagjer",
-   "en": "passenger",
+   "id": "përmbajtje",
+   "sq": "përmbajtje",
+   "en": "containment",
    "glosses": [
-    "passenger"
+    "containment"
    ],
    "pos": [
     "noun"
@@ -203,13 +291,19 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "passenger",
+     "gloss": "containment",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -219,132 +313,265 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "passenger"
+      "containment"
      ]
     }
    ],
-   "rank": 17029,
-   "count": 32,
-   "family": "pasagjer",
-   "is_root": true,
-   "etymology": "Borrowed from French passager.",
-   "etymology_class": "borrowed",
+   "rank": 15269,
+   "count": 37,
+   "family": "mbajtje",
+   "is_root": false,
+   "etymology": "From për- + mbajtje.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "mbajtje",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pasagjerë",
-     "tag": "plural"
-    },
-    {
-     "form": "pasagjere",
-     "tag": "feminine"
+     "form": "përmbajtja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "He had only six passengers.",
+    "en": "It is listed in the content.",
     "score": [
      0,
-     6,
-     -6,
+     5,
+     -5,
      10
     ],
-    "sq": "Ai ka pasur vetëm gjashtë pasagjer."
-   }
+    "sq": "Është e shënuar në përmbajtje."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "llum",
-   "sq": "llum",
-   "en": "mud",
+   "id": "gram",
+   "sq": "gram",
+   "en": "couch grass",
    "glosses": [
-    "mud"
+    "couch grass",
+    "knotgrass",
+    "gram (measurement unit)",
+    "bit, crumb, particle"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mud",
+     "gloss": "couch grass",
      "tags": [
-      "masculine"
+      "masculine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian internationalisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 28 24 24"
+      },
+      {
+       "name": "Caryophyllales order plants",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Caryophyllales order plants",
+       "langcode": "sq",
+       "_dis": "24 28 24 24"
+      },
+      {
+       "name": "Grasses",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Grasses",
+       "langcode": "sq",
+       "_dis": "65 19 8 8"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "couch grass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knotgrass",
+     "tags": [
+      "masculine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian internationalisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 28 24 24"
+      },
+      {
+       "name": "Caryophyllales order plants",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Caryophyllales order plants",
+       "langcode": "sq",
+       "_dis": "24 28 24 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "knotgrass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gram (measurement unit)",
+     "tags": [
+      "masculine",
+      "uncountable"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "19 21 41 19"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian internationalisms",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "24 28 24 24"
       },
       {
-       "name": "Pages with entries",
+       "name": "Caryophyllales order plants",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "orig": "sq:Caryophyllales order plants",
+       "langcode": "sq",
+       "_dis": "24 28 24 24"
       }
      ],
      "examples": [],
      "links": [
-      "mud"
+      "gram"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bit, crumb, particle",
+     "tags": [
+      "figuratively",
+      "masculine",
+      "uncountable"
+     ],
+     "cats": [
+      {
+       "name": "Albanian internationalisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 28 24 24"
+      },
+      {
+       "name": "Caryophyllales order plants",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Caryophyllales order plants",
+       "langcode": "sq",
+       "_dis": "24 28 24 24"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bit",
+      "crumb",
+      "particle"
      ]
     }
    ],
-   "rank": 17065,
-   "count": 32,
-   "family": "llum",
+   "rank": 15275,
+   "count": 37,
+   "family": "gram",
    "is_root": true,
-   "etymology": "A formation of lym with expressive anlaut, which in its turn has caused the velarization of the following vowel.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Vulgar Latin *grāma (see Spanish grama) from earlier Latin grāmĭna, plural of grāmen.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin grāma",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "grama",
+     "tag": "alternative"
+    },
+    {
+     "form": "gramra",
+     "tag": "alternative"
+    },
+    {
+     "form": "gramna",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "into the scum, into the black sludge.",
+    "en": "More than 5 grams.",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "në llum, në llagëmin e zi."
+    "sq": "Më shumë se 5 gram."
    }
   },
   {
-   "id": "tradhtoj",
-   "sq": "tradhtoj",
-   "en": "to betray",
+   "id": "vej",
+   "sq": "vej",
+   "en": "to weave",
    "glosses": [
-    "to betray"
+    "to weave"
    ],
    "pos": [
     "verb"
@@ -356,10 +583,8 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to betray",
-     "tags": [
-      "transitive"
-     ],
+     "gloss": "to weave",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -368,7 +593,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 6 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -380,39 +605,18 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Më ke tradhtuar, tani të lë unë!",
-       "en": "You betrayed me, I leave you now!",
-       "offsets": [
-        [
-         3,
-         15
-        ]
-       ]
-      },
-      {
-       "sq": "Gabim me ty qe rrija, se dija qe më tradhtove.",
-       "en": "It was a mistake that I stood with you, because I knew that you betrayed me.",
-       "offsets": [
-        [
-         36,
-         45
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "betray"
+      "weave"
      ]
     }
    ],
-   "rank": 17072,
-   "count": 32,
-   "family": "tradhtoj",
+   "rank": 15301,
+   "count": 37,
+   "family": "vej",
    "is_root": true,
-   "etymology": "Ultimately from Latin trādō. Compare Romanian trăda.",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *webnja, from Proto-Indo-European *webʰ- (“to weave”). Cognate with Sanskrit उनब्द्धि (unábddhi, “to bind, compress”), Old High German weban (“to weave”), Tocharian B wāp- (“to weave”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -421,140 +625,189 @@
    "related": [],
    "forms": [
     {
-     "form": "tradhtova",
+     "form": "vejta",
      "tag": "aorist"
     },
     {
-     "form": "tradhtuar",
+     "form": "vejtur",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Who has the courage to question tradition?",
+    "score": [
+     2,
+     8,
+     -6,
+     10
+    ],
+    "sq": "Kush ka guximin të vej traditën në dyshim?"
+   }
   },
   {
-   "id": "qyqar",
-   "sq": "qyqar",
-   "en": "poor, miserable, wretched, hapless",
+   "id": "mbajtje",
+   "sq": "mbajtje",
+   "en": "retention",
    "glosses": [
-    "poor, miserable, wretched, hapless",
-    "alone, desolate, forsaken",
-    "incapable, helpless, weak"
+    "retention"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "poor, miserable, wretched, hapless",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "retention",
      "tags": [
-      "also",
-      "noun"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "poor",
-      "miserable",
-      "wretched"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "alone, desolate, forsaken",
-     "tags": [
-      "also",
-      "noun"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 52 34"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 68 32"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 87 13"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "alone",
-      "desolate",
-      "forsaken"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "incapable, helpless, weak",
-     "tags": [
-      "also",
-      "noun"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -ar",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 40 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "incapable",
-      "helpless",
-      "weak"
+      "retention"
      ]
     }
    ],
-   "rank": 17075,
-   "count": 32,
-   "family": "qyqar",
+   "rank": 20568,
+   "count": 25,
+   "family": "mbajtje",
    "is_root": true,
-   "etymology": "From qyq (“wretched, miserable”) + -ar.",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "qyq",
-    "qyqan",
-    "qyqatoj",
-    "qyqe",
-    "qyqohem"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "qyqare",
-     "tag": "feminine"
+     "form": "mbajtja",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "By decision of the prosecutor, he was sent to detention.",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "Me vendim të prokurorit, ai është dërguar në mbajtje."
+   }
+  },
+  {
+   "id": "mirëmbajtje",
+   "sq": "mirëmbajtje",
+   "en": "maintenance",
+   "glosses": [
+    "maintenance"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "maintenance",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "maintenance"
+     ]
+    }
+   ],
+   "rank": 42626,
+   "count": 8,
+   "family": "mbajtje",
+   "is_root": false,
+   "etymology": "mirë + mbajtje",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "prefix"
+    },
+    {
+     "word": "mbajtje",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mirëmbajtja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "◆ Free of maintenance.",
+    "score": [
+     0,
+     2,
+     -2,
+     10
+    ],
+    "sq": "◆ Pa mirëmbajtje."
+   },
+   "breakdown": "historical"
   }
  ]
 }

@@ -1,27 +1,26 @@
 {
  "level": 280,
- "title": "turp, hotel, film",
- "root": "",
- "root_gloss": "",
+ "title": "ditë (rarer words)",
+ "root": "ditë",
+ "root_gloss": "day",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "film",
-  "hotel",
-  "turp"
+  "ditë"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 2
+  "noun": 3,
+  "intj": 1,
+  "adj": 2
  },
  "words": [
   {
-   "id": "turp",
-   "sq": "turp",
-   "en": "shame",
+   "id": "ditës",
+   "sq": "ditës",
+   "en": "the day, singular (from ditë)",
    "glosses": [
-    "shame"
+    "the day, singular (from ditë)"
    ],
    "pos": [
     "noun"
@@ -33,9 +32,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "shame",
+     "gloss": "the day, singular (from ditë)",
      "tags": [
-      "masculine"
+      "ablative",
+      "dative",
+      "definite",
+      "form-of",
+      "singular"
      ],
      "cats": [
       {
@@ -45,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,42 +61,40 @@
       }
      ],
      "examples": [],
-     "links": [
-      "shame"
-     ]
+     "is_form_of": "ditë"
     }
    ],
-   "rank": 1311,
-   "count": 685,
-   "family": "turp",
-   "is_root": true,
-   "etymology": "From Latin turpis.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin turpis",
+   "rank": 1426,
+   "count": 621,
+   "family": "ditë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I was ashamed.",
+    "corpus": "HPLT",
+    "en": "time of the day.",
     "score": [
      0,
      3,
      -3,
-     8
+     10
     ],
-    "sq": "Më vinte turp."
+    "sq": "kohë të ditës."
    }
   },
   {
-   "id": "hotel",
-   "sq": "hotel",
-   "en": "hotel",
+   "id": "ditët",
+   "sq": "ditët",
+   "en": "the day, plural (from ditë)",
    "glosses": [
-    "hotel"
+    "the day, plural (from ditë)"
    ],
    "pos": [
     "noun"
@@ -105,9 +106,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "hotel",
+     "gloss": "the day, plural (from ditë)",
      "tags": [
-      "masculine"
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
      ],
      "cats": [
       {
@@ -117,7 +122,75 @@
        "source": "w"
       },
       {
-       "name": "Pages with 23 entries",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "ditë"
+    }
+   ],
+   "rank": 1461,
+   "count": 606,
+   "family": "ditë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Those were the days.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ato ishin ditët."
+   }
+  },
+  {
+   "id": "mirëdita",
+   "sq": "mirëdita",
+   "en": "good day",
+   "glosses": [
+    "good day"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good day",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -131,265 +204,246 @@
      ],
      "examples": [],
      "links": [
-      "hotel"
+      "good day"
      ]
     }
    ],
-   "rank": 1316,
-   "count": 680,
-   "family": "hotel",
-   "is_root": true,
-   "etymology": "Borrowed from French hôtel.",
-   "etymology_class": "borrowed",
+   "rank": 2159,
+   "count": 397,
+   "family": "ditë",
+   "is_root": false,
+   "etymology": "From mirë (“good”) + ditë (“day”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "parents": [
+    "good",
+    "day"
+   ],
+   "components": [
     {
-     "form": "hotele",
-     "tag": "plural"
+     "word": "mirë",
+     "role": "prefix"
     },
     {
-     "form": "hoteli",
-     "tag": "definite"
+     "word": "ditë",
+     "role": "stem"
     }
    ],
+   "derived": [],
+   "related": [],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "We're in our hotel now.",
+    "corpus": "HPLT",
+    "en": "Good morning and thank you for coming here.",
     "score": [
      0,
-     4,
-     -4,
-     5
+     6,
+     -6,
+     10
     ],
-    "sq": "Jemi ne hotel tani."
-   }
+    "sq": "Mirëdita dhe faleminderit që keni ardhur."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "film",
-   "sq": "film",
-   "en": "film",
+   "id": "mesditë",
+   "sq": "mesditë",
+   "en": "midday",
    "glosses": [
-    "film",
-    "movie"
+    "midday"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "film",
+     "gloss": "midday",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "film"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "movie",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "movie"
+      "midday"
      ]
     }
    ],
-   "rank": 1318,
-   "count": 679,
-   "family": "film",
-   "is_root": true,
-   "etymology": "Borrowed from French film, from English film.",
-   "etymology_class": "borrowed",
+   "rank": 6608,
+   "count": 107,
+   "family": "ditë",
+   "is_root": false,
+   "etymology": "Compound of mes (“middle”) + ditë (“day”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "middle",
+    "day"
+   ],
+   "components": [
+    {
+     "word": "mes",
+     "role": "prefix"
+    },
+    {
+     "word": "ditë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "filma",
+     "form": "mesdita",
      "tag": "plural"
     },
     {
-     "form": "filmi",
-     "tag": "definite"
+     "form": "mjezditë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It looks like a movie!",
+    "en": "It's Friday, noon.",
     "score": [
-     0,
+     1,
      4,
-     -4,
+     -3,
      10
     ],
-    "sq": "Duket si një film!"
-   }
+    "sq": "Është e premte, mesditë."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "turpëroj",
-   "sq": "turpëroj",
-   "en": "to humiliate, embarrass",
+   "id": "ditor",
+   "sq": "ditor",
+   "en": "of or pertaining to the day, daytime or daylight",
    "glosses": [
-    "to humiliate, embarrass",
-    "to mortify"
+    "of or pertaining to the day, daytime or daylight",
+    "daily"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to humiliate, embarrass",
-     "tags": [
-      "transitive"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "of or pertaining to the day, daytime or daylight",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "71 29"
+       "_dis": "98 2"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -or",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "88 12"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "48 52"
+       "_dis": "100 0"
       }
      ],
      "examples": [],
      "links": [
-      "humiliate",
-      "embarrass"
+      "day",
+      "daytime",
+      "daylight"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to mortify",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
-      }
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "daily",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "mortify"
+      "daily"
      ]
     }
    ],
-   "rank": 29114,
-   "count": 15,
-   "family": "turp",
+   "rank": 24546,
+   "count": 19,
+   "family": "ditë",
    "is_root": false,
-   "etymology": "From turp (“shame”) + ër + oj (“I”).",
+   "etymology": "From ditë + -or.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "shame"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "turp",
-     "role": "prefix"
+     "word": "ditë",
+     "role": "base"
+    },
+    {
+     "word": "or",
+     "role": "suffix"
     }
    ],
    "derived": [],
-   "related": [
-    "kori",
-    "marre",
-    "veprim"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "turpëruar",
-     "tag": "participle"
+     "form": "ditore",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": null,
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This was the daily ritual.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Ky ishte rituali ditor."
+   },
    "breakdown": "historical"
   }
- ]
+ ],
+ "resumes": true
 }

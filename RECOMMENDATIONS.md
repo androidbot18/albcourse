@@ -49,13 +49,18 @@ These are defects in the current app. Fix them before any redesign.
 | 1.7 | **Stale metadata.** README says 4,087 words / 767 levels; the data has 4,086 / 771. Level titles have wrong "+N" counts (L1 `babi, zemër, në, re +2` has 4 words; L6 lists 6 words "+4" and has 6). README also says "level 1 is genuinely the first thing you should learn", which is no longer true. | `data/index.json`, `README.md` | Erodes trust; the level map looks broken. |
 
 
-**Status (P0 pass):** 1.1 to 1.5 and 1.7 are fixed in code; 1.6 is partly fixed.
+**Status (P0 pass):** 1.1 to 1.7 are fixed in code. The one suite left
+needs the raw Kaikki dump and is checked in CI (see 1.6).
 - 1.1 `startStudy()` now orders new cards by level, then rank.
 - 1.2 "Again" cards are re-queued at the end of the session.
 - 1.3 the 20-new-cards cap is per calendar day (`stats.newToday`, persisted).
 - 1.4 `due = startOfDay + interval*DAY` (a 1-day card is due tomorrow).
 - 1.5 direction is persisted and restarts the queue; reverse mode skips cards that fail `isReverseFriendly()` and has its own SRS items (`<id>~r`). Existing progress is unaffected.
-- 1.6 `run_tests.sh` no longer aborts on the first failure; it runs every suite and lists the failed ones. The data failures themselves remain, because they need a rebuild from the Kaikki dump, which was not reachable from this environment: `test_pos_balance` (`unë` on L11), `test_opening_policy` (rare-tail strays; it was hidden by the old abort) and `test_determinism` (needs `data/raw/`). The proper fix for the first two is the hand-curated opening in section 3.
+- 1.6 `run_tests.sh` no longer aborts on the first failure; it runs every suite and lists the failed ones. The two data failures had one cause: a family was always taught in consecutive levels, so `do` (rank 4) carried `doemos` (rank 30,516) and five other rare words into L2, and `jam`, `një` and `me` did the same. That used up opening slots and pushed `unë` to L11. The scheduler now applies "root first, tail later" (§3.1): a family's rank > 1,200 members come back later as "do (rarer words)", in their own frequency band. Results: `unë` is on L9, levels 1–10 hold no rare-tail words (there were 18), and the course has 790 levels (ceiling 800). `test_pos_balance` and `test_opening_policy` pass, and so do all the other suites, including the Anki export.
+  - New: `tools/relevel.py` re-runs level assignment on the shipped cards without the raw sources. The shipped data was re-levelled this way, and `relevel.py --check` (now in `run_tests.sh`) fails when `data/` is stale against the scheduler. `tools/test_tail_later.py` pins the rule with a negative control, and the validator accepts a family that `resumes` once.
+  - `test_determinism` rebuilds from `data/raw/`, so it runs in the `rebuild-data` GitHub Actions workflow. That workflow fetches the Kaikki dump, rebuilds, and runs every suite; it passed all 7 seeds.
+  - Still open: the CI rebuild and the committed data differ by a one-level shift (770 vs 771 levels before this change, with identical cards). The committed data should be replaced by a clean CI rebuild once there is a way to get it back into the repo.
+  - The hand-curated opening (§3.2) is still worth doing. This fixes the mechanical defect, not the choice of first words.
 - 1.7 level titles now name three roots and count only the hidden ones (`tools/build_course.py` and the shipped JSON patched to match); README figures and the "level 1" claim corrected.
 
 ---
@@ -240,6 +245,14 @@ Proposed rule:
 
 This keeps what is good about grouping (the root is always taught first, and
 the connection is always shown) without front-loading rare vocabulary.
+
+**Status:** partly implemented as part of 1.6. A family's members ranked
+above 1,200 are held back and return as a "(rarer words)" level once the
+frequency frontier reaches the most common of them, after their stems have
+been taught. Opening families shed any rare tail; other families do so only
+when they have 4 or more rare members, to stay under 800 levels. 37 families
+resume this way. Still to do: rule 2's per-derivative band, and rule 3's
+family-tree view.
 
 ### 3.2 Hand-curate the opening (~first 300 words)
 
@@ -463,10 +476,11 @@ not all fall due on the same day.
 - [x] Daily new-card limit (1.3)
 - [x] Off-by-one due date (1.4)
 - [x] Direction: persist it, use `isReverseFriendly`, separate SRS items (1.5)
-- [ ] Green test suite (1.6). Partly done: `run_tests.sh` now runs every suite
-      and lists failures, but three are still red (`test_pos_balance`,
-      `test_opening_policy`, `test_determinism`). They need a rebuild from the
-      Kaikki dump and the hand-curated opening (§3.2).
+- [x] Green test suite (1.6). Every suite passes. "Root first, tail later"
+      cleared the opening (`unë` is on L9, with no rare-tail words in L1–10).
+      `test_determinism` runs in the `rebuild-data` CI workflow, which has the
+      Kaikki dump. Follow-up: replace the committed data with a clean CI
+      rebuild.
 - [x] Fix README counts and level-title "+N" (1.7)
 - [ ] Orthography gate on examples; fix the glosses in §4.1. Not started: `në`
       still ships as "if", `do` as "some", `botë` as "Earth", and `qenë` and
@@ -474,7 +488,11 @@ not all fall due on the same day.
 
 **Phase 1: progression (1–2 weeks)**
 - [ ] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`
-- [ ] "Root first, tail later" scheduling instead of unsplittable families
+- [ ] "Root first, tail later" scheduling instead of unsplittable families.
+      Partly done (1.6): rare tails (rank > 1,200) now come back in their own
+      frequency band, for every opening family and for any family with 4+
+      rare members. Still to do: the ~2,000-rank band for every derivative,
+      and the family-tree view when a tail unlocks.
 - [ ] Spread deferred function words across levels instead of L192–210
 - [ ] Collapse inflected-form cards into paradigm cards; minimal grammar spine
 - [ ] Fix homograph example mismatches; add bridging root senses (`do`, `mund`)

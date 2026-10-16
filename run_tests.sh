@@ -49,6 +49,20 @@ echo "== opening policy =="
 # budget that admitted exactly the words it was meant to exclude.
 step python3 tools/test_opening_policy.py
 
+echo
+echo "== root first, tail later =="
+# A family's rare members used to follow the root in the next level, so do
+# (rank 4) taught doemos (rank 30516) in level 2 and pushed une past level
+# 10. The tail now comes back at its own frequency; this pins that, with a
+# negative control, and checks the opening holds no rare-tail word.
+step python3 tools/test_tail_later.py
+
+echo
+echo "== shipped levels match the scheduler =="
+# Re-runs assign_levels() on the shipped cards (no raw sources needed) and
+# fails if any level file would change. Catches a scheduler change committed
+# without the data it produces. Restores data/ afterwards.
+step python3 tools/relevel.py --check
 
 echo
 echo "== cognate hooks =="

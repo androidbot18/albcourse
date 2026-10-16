@@ -1,115 +1,177 @@
 {
  "level": 300,
- "title": "blej, detyrë",
- "root": "",
- "root_gloss": "",
+ "title": "çel",
+ "root": "çel",
+ "root_gloss": "to open up, undo",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "blej",
-  "detyrë"
+  "çel"
  ],
  "pos_mix": {
-  "verb": 1,
+  "verb": 4,
   "noun": 2
  },
  "words": [
   {
-   "id": "blej",
-   "sq": "blej",
-   "en": "to purchase; to cheat; to barter",
+   "id": "çel",
+   "sq": "çel",
+   "en": "to open up, undo",
    "glosses": [
-    "to purchase; to cheat; to barter"
+    "to open up, undo",
+    "to sprout, come out",
+    "to hatch out",
+    "to rise (of the sun)"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to purchase; to cheat; to barter",
+     "gloss": "to open up, undo",
      "tags": [
-      "Gheg",
-      "Standard",
-      "Tosk"
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "open",
+      "undo"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sprout, come out",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sprout"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hatch out",
+     "tags": [
+      "transitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "22 17 48 13"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "17 9 57 17"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "17 5 62 16"
       }
      ],
      "examples": [],
      "links": [
-      "purchase",
-      "cheat",
-      "barter"
+      "hatch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rise (of the sun)",
+     "tags": [
+      "Gheg",
+      "Southern",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U çil dilli.",
+       "en": "The sun rose up.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "Kavajë",
+      "rise"
      ]
     }
    ],
-   "rank": 1495,
-   "count": 593,
-   "family": "blej",
+   "rank": 39739,
+   "count": 9,
+   "family": "çel",
    "is_root": true,
-   "etymology": "First attested in 1497. The short nasal vowel in the 3rd sg. blê \"to buy\" and the long nasal in the 1st-3rd sg. blẽ \"id.\" point to a Common Albanian *blên, inherited from Proto-Albanian *blêna/i-, from Pre-Proto-Albanian *blena/e-, from either Proto-Indo-European *h₃bʰloi̯éi̯e/o- (“to buy”) or Proto-Indo-European *bʰl̥nh₂énti (“to buy”). A reasonable formal and semantic match is found in Ancient Greek ὄφελος (óphelos, “advantage, help”).",
+   "etymology": "From Proto-Albanian *štšela, from Proto-Indo-European *(s)kelH- (“split (apart)”) (compare Lithuanian skélti, Old Norse skilja, Ancient Greek σκάλλω (skállō, “to hoe, stir up”)).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "çelur",
+    "çelës",
+    "çeltë"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "bleva",
+     "form": "çela",
      "tag": "aorist"
     },
     {
-     "form": "blerë",
+     "form": "çelur",
      "tag": "participle"
     },
     {
-     "form": "blenë",
-     "tag": "participle"
+     "form": "çil",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Which one should I buy?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Cilin duhet të blej?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "detyrë",
-   "sq": "detyrë",
-   "en": "duty, task, assignment",
+   "id": "çelësat",
+   "sq": "çelësat",
+   "en": "the key, plural (from çelës)",
    "glosses": [
-    "duty, task, assignment"
+    "the key, plural (from çelës)"
    ],
    "pos": [
     "noun"
@@ -121,9 +183,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "duty, task, assignment",
+     "gloss": "the key, plural (from çelës)",
      "tags": [
-      "feminine"
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
      ],
      "cats": [
       {
@@ -146,19 +212,15 @@
       }
      ],
      "examples": [],
-     "links": [
-      "duty",
-      "task",
-      "assignment"
-     ]
+     "is_form_of": "çelës"
     }
    ],
-   "rank": 1496,
-   "count": 592,
-   "family": "detyrë",
-   "is_root": true,
-   "etymology": "Borrowed from a Vulgar Latin root *dēbitura, from Latin dēbitus. Also possibly through the intermediate of an Eastern Romance language; compare Romanian datorie.",
-   "etymology_class": "borrowed",
+   "rank": 1596,
+   "count": 549,
+   "family": "çel",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -168,22 +230,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "With a task.",
+    "en": "Where are the keys?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Me një detyrë."
+    "sq": "Ku janë çelësat?"
    }
   },
   {
-   "id": "blerës",
-   "sq": "blerës",
-   "en": "customer, buyer",
+   "id": "çelës",
+   "sq": "çelës",
+   "en": "key",
    "glosses": [
-    "customer, buyer"
+    "key"
    ],
    "pos": [
     "noun"
@@ -195,10 +257,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "customer, buyer",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "key",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -221,23 +281,22 @@
      ],
      "examples": [],
      "links": [
-      "customer",
-      "buyer"
+      "key"
      ]
     }
    ],
-   "rank": 12330,
-   "count": 50,
-   "family": "blej",
+   "rank": 3391,
+   "count": 235,
+   "family": "çel",
    "is_root": false,
-   "etymology": "From blej + -ës.",
-   "etymology_class": "affix",
+   "etymology": "From çel (“to open”) + -ës.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "blej",
+     "word": "çel",
      "role": "base"
     },
     {
@@ -249,24 +308,24 @@
    "related": [],
    "forms": [
     {
-     "form": "blerës",
+     "form": "çelësa",
      "tag": "plural"
     },
     {
-     "form": "blerësi",
+     "form": "çelësi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What does this mean for you as buyer?",
+    "en": "Another clue?",
     "score": [
      0,
-     9,
-     -9,
+     3,
+     -3,
      10
     ],
-    "sq": "Çfarë do të thotë kjo për ju si blerës?"
+    "sq": "Një çelës tjetër?"
    },
    "breakdown": "historical"
   }
