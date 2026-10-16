@@ -1976,7 +1976,9 @@ def main():
         "words_multi_pos": sum(1 for c in cards if len({s["pos"] for s in c["senses"]}) > 1),
         "largest_families": sorted(
             [{"root": r, "n": len(m)} for r, m in families.items() if len(m) > 1],
-            key=lambda d: -d["n"])[:15],
+            # Ties broken by root: family order is hash-seed dependent, and
+            # CI compares a rebuild to the committed data byte for byte.
+            key=lambda d: (-d["n"], d["root"]))[:15],
         "sample_first_30": [{"sq": c["word"],
                              "pos": "/".join(sorted({s["pos"] for s in c["senses"]})),
                              "en": " | ".join(s["gloss"] for s in c["senses"][:2])}
