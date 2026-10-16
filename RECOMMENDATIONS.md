@@ -188,6 +188,30 @@ are not.
   (which now runs the real `componentsLine()` and `isGuessCard()`) pin all of
   this, with negative controls.
 
+Results and decisions from that pass:
+- **Counts.** 487 cards now show a suffix (none did before). Of the 768
+  cards with a breakdown, 191 are marked *transparent* (meaning can be
+  worked out from the parts) and 577 *historical* (true, but not guessable:
+  `përdor` is `për-` + `dorë` "hand"). A word nobody has reviewed defaults
+  to historical.
+- **Historical breakdowns are muted and never show the stem's meaning.** The
+  stem is often a different word with the same spelling (`pije` would show
+  `pi` as "from"). Fixing that properly is 2.3.
+- **`zh-` is not taught.** It has only two clear examples in the deck, below
+  the three needed.
+- **One prerequisite removed on purpose:** `atje -> as`. It came from the
+  English "as" in the etymology text ("as in ai..."), not from Albanian.
+- **Shipped data was patched in place** from the etymology text the level
+  files already carry, because the Kaikki dump is unreachable from the build
+  environment (403). A full rebuild applies the same logic. The determinism
+  test still needs `data/raw`.
+- **Tests.** All suites pass except the three that were already red before
+  this pass: `test_pos_balance` (`unë` on L11), `test_opening_policy`
+  (rare-tail strays) and `test_determinism` (needs `data/raw`).
+- **Needs a human:** the transparent list is one reviewer's judgement. A
+  native speaker should check the `TRANSPARENT` set in `tools/affixes.py`
+  before learners rely on the guess-from-the-parts cards.
+
 ---
 
 ## 3. Course progression
