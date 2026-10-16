@@ -1,30 +1,108 @@
 {
  "level": 554,
- "title": "shtirem, skenar, faturë +3",
+ "title": "pitër, këpus, tërmet +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "faturë",
-  "parim",
-  "recetë",
-  "shtirem",
-  "skenar",
-  "vegël"
+  "kapelë",
+  "këpus",
+  "pitër",
+  "reputacion",
+  "theks",
+  "tërmet"
  ],
  "pos_mix": {
+  "adj": 1,
   "verb": 1,
-  "noun": 9
+  "noun": 6
  },
  "words": [
   {
-   "id": "shtirem",
-   "sq": "shtirem",
-   "en": "to feign, simulate",
+   "id": "pitër",
+   "sq": "pitër",
+   "en": "frequent",
    "glosses": [
-    "to feign, simulate"
+    "frequent"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "frequent",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "frequent"
+     ]
+    }
+   ],
+   "rank": 10615,
+   "count": 60,
+   "family": "pitër",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *pi(m)ita, related to Old Irish éim (“quick, fast”), Old Norse fimr (“id”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "id"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pitëre",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Peter Murphy singing from a cage.",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Pitër Mërfi këndon nga prapa hekurave."
+   }
+  },
+  {
+   "id": "këpus",
+   "sq": "këpus",
+   "en": "to tear off, to pluck",
+   "glosses": [
+    "to tear off, to pluck"
    ],
    "pos": [
     "verb"
@@ -36,8 +114,101 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to feign, simulate",
+     "gloss": "to tear off, to pluck",
      "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "tear",
+      "off",
+      "pluck"
+     ]
+    }
+   ],
+   "rank": 10620,
+   "count": 60,
+   "family": "këpus",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *karputja, a derivative verb from këputë (“sole”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "sole"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "këputa",
+     "tag": "aorist"
+    },
+    {
+     "form": "këputur",
+     "tag": "participle"
+    },
+    {
+     "form": "këput",
+     "tag": "alternative"
+    },
+    {
+     "form": "kërpuc",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I will snap a branch.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Do të këpus një degë."
+   }
+  },
+  {
+   "id": "tërmet",
+   "sq": "tërmet",
+   "en": "earthquake",
+   "glosses": [
+    "earthquake"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "earthquake",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -60,17 +231,16 @@
      ],
      "examples": [],
      "links": [
-      "feign",
-      "simulate"
+      "earthquake"
      ]
     }
    ],
-   "rank": 10870,
-   "count": 59,
-   "family": "shtirem",
+   "rank": 10651,
+   "count": 60,
+   "family": "tërmet",
    "is_root": true,
-   "etymology": "From Proto-Albanian *śter-, from Proto-Indo-European *sterh₃- (“to spread, scatter, bring down”).",
-   "etymology_class": "inherited",
+   "etymology": "From Old Albanian terëmet, borrowed from Latin terrae mōtus, an archaic borrowing considering the /oː/ → /e/ shift. Borrowed from Romance in its /o/ variants.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -79,28 +249,38 @@
    "related": [],
    "forms": [
     {
-     "form": "shtirë",
-     "tag": "participle"
+     "form": "tërmete",
+     "tag": "plural"
+    },
+    {
+     "form": "tërmeti",
+     "tag": "definite"
+    },
+    {
+     "form": "turmeq",
+     "tag": "alternative"
+    },
+    {
+     "form": "terëmot",
+     "tag": "alternative"
+    },
+    {
+     "form": "terremot",
+     "tag": "alternative"
+    },
+    {
+     "form": "terramot",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Should I pretend not to understand why?",
-    "score": [
-     1,
-     9,
-     -8,
-     8
-    ],
-    "sq": "A duhet të shtirem se nuk e kuptoj arsyen?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "skenar",
-   "sq": "skenar",
-   "en": "scenario",
+   "id": "reputacion",
+   "sq": "reputacion",
+   "en": "reputation",
    "glosses": [
-    "scenario"
+    "reputation"
    ],
    "pos": [
     "noun"
@@ -112,10 +292,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "scenario",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "reputation",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -138,13 +316,13 @@
      ],
      "examples": [],
      "links": [
-      "scenario"
+      "reputation"
      ]
     }
    ],
-   "rank": 10875,
-   "count": 59,
-   "family": "skenar",
+   "rank": 10672,
+   "count": 60,
+   "family": "reputacion",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -157,24 +335,24 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It was a scenario.",
+    "en": "Good reputation in the market.",
     "score": [
      0,
-     4,
-     -4,
+     5,
+     -5,
      10
     ],
-    "sq": "Ka qenë një skenar."
+    "sq": "Reputacion të mirë në treg."
    }
   },
   {
-   "id": "faturë",
-   "sq": "faturë",
-   "en": "bill",
+   "id": "kapelë",
+   "sq": "kapelë",
+   "en": "hat",
    "glosses": [
-    "bill",
-    "receipt",
-    "invoice"
+    "hat",
+    "hat-like object",
+    "chapel"
    ],
    "pos": [
     "noun",
@@ -190,123 +368,112 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bill",
-     "tags": [
-      "feminine"
+     "gloss": "hat",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Headwear",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Headwear",
+       "langcode": "sq",
+       "_dis": "44 3 52"
+      }
      ],
+     "examples": [
+      {
+       "sq": "Më pëlqen kapela jote.",
+       "en": "I like your hat.",
+       "offsets": [
+        [
+         10,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hat-like object",
+     "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "bill"
+      "hat",
+      "-like"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "receipt",
+     "gloss": "chapel",
      "tags": [
-      "feminine"
+      "dated"
      ],
      "cats": [
+      {
+       "name": "Christianity",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Christianity",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 44 46"
+       "_dis": "9 9 81"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "10 44 47"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 47 48"
+       "_dis": "10 10 79"
       }
      ],
      "examples": [],
      "links": [
-      "receipt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "invoice",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 44 46"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 44 47"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 47 48"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "invoice"
+      "Christianity",
+      "chapel"
      ]
     }
    ],
-   "rank": 10888,
-   "count": 58,
-   "family": "faturë",
+   "rank": 10689,
+   "count": 60,
+   "family": "kapelë",
    "is_root": true,
-   "etymology": "From Italian fattura.",
+   "etymology": "Either from Latin cappellus (“hat”) or its derivative Italian cappello (via the feminine cappella).",
    "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian fattura",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fatura",
-     "tag": "plural"
-    }
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "hat",
+    "chapel"
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do I get an invoice?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "A marr një faturë?"
-   }
+   "components": [],
+   "derived": [
+    "kapelabërë",
+    "kapelapunues"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
   },
   {
-   "id": "parim",
-   "sq": "parim",
-   "en": "principle",
+   "id": "theks",
+   "sq": "theks",
+   "en": "accent, sign, tone",
    "glosses": [
-    "principle"
+    "accent, sign, tone"
    ],
    "pos": [
     "noun"
@@ -318,7 +485,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "principle",
+     "gloss": "accent, sign, tone",
      "tags": [
       "masculine"
      ],
@@ -330,7 +497,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -344,15 +511,17 @@
      ],
      "examples": [],
      "links": [
-      "principle"
+      "accent",
+      "sign",
+      "tone"
      ]
     }
    ],
-   "rank": 10899,
-   "count": 58,
-   "family": "parim",
+   "rank": 10704,
+   "count": 60,
+   "family": "theks",
    "is_root": true,
-   "etymology": "Calque of Latin princeps, using parë.",
+   "etymology": "Derivative of thek.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -362,282 +531,25 @@
    "related": [],
    "forms": [
     {
-     "form": "parime",
+     "form": "theksa",
      "tag": "plural"
     },
     {
-     "form": "parimi",
+     "form": "theksi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Generally, no.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Në parim, jo."
-   }
-  },
-  {
-   "id": "recetë",
-   "sq": "recetë",
-   "en": "prescription",
-   "glosses": [
-    "prescription",
-    "recipe"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "prescription",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Medicine",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Medicine",
-       "langcode": "sq"
-      },
-      {
-       "name": "Pharmacology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Pharmacology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Pharmacy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Pharmacy",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "medicine",
-      "pharmacy",
-      "pharmacology"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "recipe",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "recipe"
-     ]
-    }
-   ],
-   "rank": 10906,
-   "count": 58,
-   "family": "recetë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Very good recipe!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Recetë shumë e mirë!"
-   }
-  },
-  {
-   "id": "vegël",
-   "sq": "vegël",
-   "en": "tool, instrument, device",
-   "glosses": [
-    "tool, instrument, device"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tool, instrument, device",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ël",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tool",
-      "instrument",
-      "device"
-     ]
-    }
-   ],
-   "rank": 10925,
-   "count": 58,
-   "family": "vegël",
-   "is_root": true,
-   "etymology": "From vegë + -ël (enlargement suffix).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vegla",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Great gadget for you.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Vegël e shkëlqyer për ju."
-   }
-  },
-  {
-   "id": "shtirje",
-   "sq": "shtirje",
-   "en": "faking, simulation",
-   "glosses": [
-    "faking, simulation"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "faking, simulation",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "faking",
-      "simulation"
-     ]
-    }
-   ],
-   "rank": 37775,
-   "count": 10,
-   "family": "shtirem",
-   "is_root": false,
-   "etymology": "From shtirem + -je.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "shtirem",
-     "role": "base",
-     "en": "to feign"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This was no diplomatic pretence.",
+    "en": "it is an Australian accent.",
     "score": [
      1,
      5,
      -4,
      10
     ],
-    "sq": "Kjo nuk ishte shtirje diplomatike."
-   },
-   "breakdown": "transparent"
+    "sq": "ajo është një theks Australian."
+   }
   }
  ]
 }

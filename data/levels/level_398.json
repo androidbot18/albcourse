@@ -1,42 +1,74 @@
 {
  "level": 398,
- "title": "shofer, peng, kërcej +3",
+ "title": "raport, plas, ofertë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "kërcej",
-  "peng",
-  "plagë",
-  "restorant",
-  "shofer",
-  "tufë"
+  "arratisur",
+  "kompjuter",
+  "ofertë",
+  "plas",
+  "raport",
+  "rus"
  ],
  "pos_mix": {
-  "noun": 9,
-  "verb": 2
+  "noun": 6,
+  "verb": 1,
+  "adj": 2
  },
  "words": [
   {
-   "id": "shofer",
-   "sq": "shofer",
-   "en": "chauffeur, driver",
+   "id": "raport",
+   "sq": "raport",
+   "en": "report",
    "glosses": [
-    "chauffeur, driver"
+    "report",
+    "relationship, relation"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chauffeur, driver",
+     "gloss": "report",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "report"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "relationship, relation",
      "tags": [
       "masculine"
      ],
@@ -45,10 +77,84 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Pages with 7 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "relationship",
+      "relation"
+     ]
+    }
+   ],
+   "rank": 3408,
+   "count": 233,
+   "family": "raport",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Whether this report!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nëse ky raport!"
+   }
+  },
+  {
+   "id": "plas",
+   "sq": "plas",
+   "en": "to crack, burst, break through",
+   "glosses": [
+    "to crack, burst, break through"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to crack, burst, break through",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,17 +168,18 @@
      ],
      "examples": [],
      "links": [
-      "chauffeur",
-      "driver"
+      "crack",
+      "burst",
+      "break through"
      ]
     }
    ],
-   "rank": 3511,
-   "count": 226,
-   "family": "shofer",
+   "rank": 3409,
+   "count": 233,
+   "family": "plas",
    "is_root": true,
-   "etymology": "Ultimately from French chauffeur.",
-   "etymology_class": "derived",
+   "etymology": "Inherited from Proto-Albanian *platˢ̌a-, from Pre-Proto-Albanian *plača-, from Proto-Indo-European *pl̥Hḱyé-, with a semantic change from \"to tear\" to \"to burst\". Etymologically close to pëlcas (“to burst”). Cognate to Lithuanian plė́šti (“to burst, crack”), Latvian plêst (“to tear”) and perhaps German platzen (“to blow, explode”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -81,397 +188,239 @@
    "related": [],
    "forms": [
     {
-     "form": "shoferë",
-     "tag": "plural"
+     "form": "plasa",
+     "tag": "aorist"
     },
     {
-     "form": "shoferi",
-     "tag": "definite"
+     "form": "plasur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is a Driver?",
+    "en": "and some also crack.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Çfarë është një shofer?"
+    "sq": "dhe disa gjithashtu plas."
    }
   },
   {
-   "id": "peng",
-   "sq": "peng",
-   "en": "pledge, pawn",
+   "id": "ofertë",
+   "sq": "ofertë",
+   "en": "offer",
    "glosses": [
-    "pledge, pawn",
-    "hostage",
-    "feeling of regret, unfulfilled desire, wishful thinking",
-    "token of assurance"
+    "offer"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pledge, pawn",
+     "gloss": "offer",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
-      {
-       "name": "Law",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Law",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 27 25 12"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "law",
-      "pledge",
-      "pawn"
+      "economics",
+      "offer"
      ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hostage",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hostage"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "feeling of regret, unfulfilled desire, wishful thinking",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "token of assurance",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
     }
    ],
-   "rank": 3516,
-   "count": 226,
-   "family": "peng",
+   "rank": 3416,
+   "count": 233,
+   "family": "ofertë",
    "is_root": true,
-   "etymology": "From Latin pignus.",
+   "etymology": "Borrowed from a Romance language; cf. Italian offerta, or from Late Latin offerta, ultimately from Latin offerō.",
    "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin pignus",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "pengcë"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pengje",
+     "form": "oferta",
      "tag": "plural"
-    },
-    {
-     "form": "pengu",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Who has taken hostage whom?",
+    "en": "Make an offer!",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Kush ka marrë peng kë?"
+    "sq": "Bëni një ofertë!"
    }
   },
   {
-   "id": "kërcej",
-   "sq": "kërcej",
-   "en": "to dance",
+   "id": "arratisur",
+   "sq": "arratisur",
+   "en": "fugitive (a person who is fleeing or escaping from something)",
    "glosses": [
-    "to dance",
-    "to crack, to snap"
+    "fugitive (a person who is fleeing or escaping from something)",
+    "escaper"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dance",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fugitive (a person who is fleeing or escaping from something)",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "74 26"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "53 47"
+       "_dis": "86 14"
       }
      ],
      "examples": [],
      "links": [
-      "dance"
+      "fugitive"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to crack, to snap",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "escaper",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
+       "_dis": "35 65"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "I dëgjove lajmet për dy aktor të arratisur? Të arratisur ka shumë, por jo dy aktor të arratisur nga një teatër komfort.",
+       "en": "",
+       "offsets": [
+        [
+         33,
+         42
+        ],
+        [
+         47,
+         56
+        ],
+        [
+         86,
+         95
+        ]
+       ]
+      }
+     ],
      "links": [
-      "crack",
-      "snap"
+      "escaper"
      ]
     }
    ],
-   "rank": 3543,
-   "count": 224,
-   "family": "kërcej",
+   "rank": 3425,
+   "count": 232,
+   "family": "arratisur",
    "is_root": true,
-   "etymology": "A derivative of kërcas, originally meaning 'to crack, to snap', thus 'to jump, to dance'. A descriptive term.\nAlternatively, from Dacian or Paleo-Balkan substrate, cognate to Romanian cățăra.",
-   "etymology_class": "derived",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [
-    "kërcas",
-    "kërce",
-    "kërcell"
+    "arrati",
+    "arratis",
+    "arratisem",
+    "arratisje"
    ],
-   "forms": [
-    {
-     "form": "kërceva",
-     "tag": "aorist"
-    },
-    {
-     "form": "kërcyer",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "bounce them back into the sky.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "kërcej ata përsëri në qiell."
-   }
-  },
-  {
-   "id": "tufë",
-   "sq": "tufë",
-   "en": "flock, herd",
-   "glosses": [
-    "flock, herd",
-    "bunch, mass, crowd"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flock, herd",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 21"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 21"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "90 10"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "flock",
-      "herd"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bunch, mass, crowd",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bunch",
-      "mass",
-      "crowd"
-     ]
-    }
-   ],
-   "rank": 3554,
-   "count": 223,
-   "family": "tufë",
-   "is_root": true,
-   "etymology": "From Latin tufa. Compare Romanian tufă, Aromanian tufã.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin tufa",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "tufëz",
-    "tufëzoj",
-    "tufëzim",
-    "tufëzues",
-    "tufshak"
-   ],
-   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is a tough clutch.",
+    "en": "He is a fugitive.",
     "score": [
-     0,
-     6,
-     -6,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Kjo është një tufë e fortë."
+    "sq": "Është i arratisur."
    }
   },
   {
-   "id": "plagë",
-   "sq": "plagë",
-   "en": "wound",
+   "id": "rus",
+   "sq": "rus",
+   "en": "Russian",
    "glosses": [
-    "wound"
+    "Russian"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wound",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "Russian",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -480,7 +429,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 20 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -492,18 +441,29 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "gjuha ruse",
+       "en": "the Russian language",
+       "offsets": [
+        [
+         6,
+         10
+        ]
+       ]
+      }
+     ],
      "links": [
-      "wound"
+      "Russian"
      ]
     }
    ],
-   "rank": 3574,
-   "count": 222,
-   "family": "plagë",
+   "rank": 3430,
+   "count": 232,
+   "family": "rus",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin plāga. Compare Romanian plagă, Aromanian pleagã.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -512,32 +472,18 @@
    "related": [],
    "forms": [
     {
-     "form": "plagë",
-     "tag": "plural"
-    },
-    {
-     "form": "plaga",
-     "tag": "definite"
+     "form": "ruse",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No one was wound.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Askush nuk ishte plagë."
-   }
+   "corpus_example": null
   },
   {
-   "id": "restorant",
-   "sq": "restorant",
-   "en": "restaurant",
+   "id": "kompjuter",
+   "sq": "kompjuter",
+   "en": "computer",
    "glosses": [
-    "restaurant"
+    "computer"
    ],
    "pos": [
     "noun"
@@ -549,41 +495,52 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "restaurant",
+     "gloss": "computer",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages using etymon with no ID",
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "ekran kompjuteri",
+       "en": "computer screen",
+       "offsets": [
+        [
+         6,
+         16
+        ]
+       ]
+      }
+     ],
      "links": [
-      "restaurant"
+      "computer"
      ]
     }
    ],
-   "rank": 3578,
-   "count": 221,
-   "family": "restorant",
+   "rank": 3431,
+   "count": 232,
+   "family": "kompjuter",
    "is_root": true,
-   "etymology": "Borrowed from French restaurant.",
+   "etymology": "Borrowed from English computer.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -591,18 +548,116 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "only 9 Restaurant.",
-    "score": [
-     0,
-     2,
-     -2,
-     10
-    ],
-    "sq": "vetëm 9 Restorant."
-   }
+   "forms": [
+    {
+     "form": "kompjutera",
+     "tag": "plural"
+    },
+    {
+     "form": "kompjuteri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kompjuterik",
+   "sq": "kompjuterik",
+   "en": "digital, of computers",
+   "glosses": [
+    "digital, of computers"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "digital, of computers",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ik",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ekran kompjuterik",
+       "en": "computer screen",
+       "offsets": [
+        [
+         6,
+         17
+        ]
+       ]
+      },
+      {
+       "sq": "program kompjuterik",
+       "en": "computer program",
+       "offsets": [
+        [
+         8,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "digital",
+      "computer"
+     ]
+    }
+   ],
+   "rank": 17768,
+   "count": 31,
+   "family": "kompjuter",
+   "is_root": false,
+   "etymology": "From kompjuter (“computer”) + -ik.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "computer"
+   ],
+   "components": [
+    {
+     "word": "kompjuter",
+     "role": "base"
+    },
+    {
+     "word": "ik",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kompjuterike",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ]
 }

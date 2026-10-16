@@ -1,52 +1,54 @@
 {
  "level": 361,
- "title": "fshat, mace, sinjal +1",
- "root": "",
- "root_gloss": "",
+ "title": "fajtor",
+ "root": "fajtor",
+ "root_gloss": "guilty (also law)",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 2,
  "families": [
-  "ecur",
-  "fshat",
-  "mace",
-  "sinjal"
+  "fajtor"
  ],
  "pos_mix": {
-  "noun": 7
+  "adj": 1,
+  "noun": 4
  },
  "words": [
   {
-   "id": "fshat",
-   "sq": "fshat",
-   "en": "village, especially as a unit of local government in Albania",
+   "id": "fajtor",
+   "sq": "fajtor",
+   "en": "guilty (also law)",
    "glosses": [
-    "village, especially as a unit of local government in Albania",
-    "rural area, countryside"
+    "guilty (also law)",
+    "culprit, offender (also law)",
+    "criminal, wrongdoer",
+    "sinner"
    ],
    "pos": [
+    "adj",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "adjective",
+    "noun",
     "noun",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "village, especially as a unit of local government in Albania",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "guilty (also law)",
+     "tags": [],
      "cats": [
       {
-       "name": "Politics",
+       "name": "Law",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Politics",
+       "orig": "sq:Law",
        "langcode": "sq"
       },
       {
@@ -54,202 +56,149 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "94 6"
+       "_dis": "37 35 8 20"
+      },
+      {
+       "name": "Albanian terms suffixed with -or",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 31 13 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guilty",
+      "law"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "culprit, offender (also law)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Law",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Law",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 35 8 20"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "97 3"
+       "_dis": "40 40 9 11"
       }
      ],
      "examples": [],
      "links": [
-      "politics",
-      "village",
-      "unit"
+      "culprit",
+      "offender",
+      "law"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "rural area, countryside",
+     "gloss": "criminal, wrongdoer",
      "tags": [
       "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "rural",
-      "area",
-      "countryside"
+      "criminal",
+      "wrongdoer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sinner",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 35 8 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 40 9 11"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 32 4 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sinner"
      ]
     }
    ],
-   "rank": 2419,
-   "count": 346,
-   "family": "fshat",
+   "rank": 2405,
+   "count": 349,
+   "family": "fajtor",
    "is_root": true,
-   "etymology": "It was linked by Çabej with Bushat and reconducted to an Indo-European root. There also have been proposal of a borrowing from Byzantine Greek φοσσᾶτον (phossâton), φουσσᾶτον (phoussâton, “encampment”) (whence modern φουσάτο (fousáto, “army unit; encampment”)), from Late Latin fossātum (“entrenchment, place enclosed by a ditch”).",
-   "etymology_class": "borrowed",
+   "etymology": "From fajtoj + -or.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "bashkëfajtor"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "fshatra",
+     "form": "fajtorë",
      "tag": "plural"
-    },
-    {
-     "form": "fshati",
-     "tag": "definite"
-    },
-    {
-     "form": "pshat",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Hot tub. Walk to village.",
+    "en": "I'm guilty, too.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Ec deri në fshat."
+    "sq": "Edhe unë jam fajtor."
    }
   },
   {
-   "id": "mace",
-   "sq": "mace",
-   "en": "cat",
+   "id": "bashkëfajtor",
+   "sq": "bashkëfajtor",
+   "en": "accomplice; accessory",
    "glosses": [
-    "cat",
-    "belligerent, wild woman"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cat",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Zoology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "52 24 24"
-      },
-      {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "38 42 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "zoology",
-      "cat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "belligerent, wild woman",
-     "tags": [
-      "derogatory",
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "38 42 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "derogatory",
-      "belligerent",
-      "wild"
-     ]
-    }
-   ],
-   "rank": 2424,
-   "count": 346,
-   "family": "mace",
-   "is_root": true,
-   "etymology": "Alternative variant of macë (“cat”), ultimately derived from Proto-Slavic *maca, likely an onomatopoeic expression.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "cat"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [
-    "macë",
-    "mackë",
-    "maç",
-    "maçok",
-    "dac"
-   ],
-   "forms": [
-    {
-     "form": "maçe",
-     "tag": "alternative"
-    },
-    {
-     "form": "macë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I have two cats.",
-    "score": [
-     0,
-     3,
-     -3,
-     0
-    ],
-    "sq": "Kam dy mace."
-   }
-  },
-  {
-   "id": "sinjal",
-   "sq": "sinjal",
-   "en": "signal",
-   "glosses": [
-    "signal"
+    "accomplice; accessory"
    ],
    "pos": [
     "noun"
@@ -261,7 +210,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "signal",
+     "gloss": "accomplice; accessory",
      "tags": [],
      "cats": [
       {
@@ -271,133 +220,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "signal"
-     ]
-    }
-   ],
-   "rank": 2439,
-   "count": 343,
-   "family": "sinjal",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It was a signal that came from outside.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Ishte një sinjal që vinte nga jashtë."
-   }
-  },
-  {
-   "id": "ecur",
-   "sq": "ecur",
-   "en": "walking",
-   "glosses": [
-    "walking"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "walking",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "walking"
-     ]
-    }
-   ],
-   "rank": 2447,
-   "count": 342,
-   "family": "ecur",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ecurit",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It takes about two hours to walk here.",
-    "score": [
-     0,
-     9,
-     -9,
-     10
-    ],
-    "sq": "Ajo merr rreth dy orë për të ecur këtu."
-   }
-  },
-  {
-   "id": "fshatar",
-   "sq": "fshatar",
-   "en": "peasant",
-   "glosses": [
-    "peasant"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "peasant",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ar",
+       "name": "Albanian terms prefixed with bashkë-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -411,58 +234,34 @@
      ],
      "examples": [],
      "links": [
-      "peasant"
+      "accomplice",
+      "accessory"
      ]
     }
    ],
-   "rank": 9278,
-   "count": 72,
-   "family": "fshat",
+   "rank": 32228,
+   "count": 13,
+   "family": "fajtor",
    "is_root": false,
-   "etymology": "From fshat (“village”) + -ar.",
+   "etymology": "From bashkë- + fajtor.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "village"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "fshat",
-     "role": "base"
+     "word": "bashkë",
+     "role": "prefix"
     },
     {
-     "word": "ar",
-     "role": "suffix"
+     "word": "fajtor",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "fshatarë",
-     "tag": "plural"
-    },
-    {
-     "form": "fshatari",
-     "tag": "definite"
-    },
-    {
-     "form": "fshatare",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And gradually, they passed the peasant way of life.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Dhe gradualisht, ata kaluan rrugën fshatar e jetës."
-   },
+   "forms": [],
+   "corpus_example": null,
    "breakdown": "historical"
   }
  ]

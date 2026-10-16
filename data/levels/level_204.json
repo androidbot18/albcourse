@@ -1,85 +1,203 @@
 {
  "level": 204,
- "title": "vjedh",
- "root": "vjedh",
- "root_gloss": "to steal",
+ "title": "kënaq, përgjatë, pesëdhjetë +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 9,
  "families": [
-  "vjedh"
+  "anës",
+  "kënaq",
+  "pesëdhjetë",
+  "përgjatë",
+  "shokë"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 1
+  "noun": 3,
+  "verb": 5,
+  "prep": 2,
+  "num": 1
  },
  "words": [
   {
-   "id": "vjedh",
-   "sq": "vjedh",
-   "en": "to steal",
+   "id": "kënaqësi",
+   "sq": "kënaqësi",
+   "en": "pleasure, gratification, satisfaction",
    "glosses": [
-    "to steal"
+    "pleasure, gratification, satisfaction"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to steal",
-     "tags": [],
-     "cats": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pleasure, gratification, satisfaction",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -si",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "steal"
+      "pleasure",
+      "gratification",
+      "satisfaction"
      ]
     }
    ],
-   "rank": 2546,
-   "count": 327,
-   "family": "vjedh",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
-   "etymology_class": "root",
+   "rank": 950,
+   "count": 1003,
+   "family": "kënaq",
+   "is_root": false,
+   "etymology": "From kënaq (“to enjoy”) + -si.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "kënaq",
+     "role": "base",
+     "en": "to make (someone) happy"
+    },
+    {
+     "word": "si",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vodha",
-     "tag": "aorist"
+     "form": "kënaqësi",
+     "tag": "plural"
     },
     {
-     "form": "vjedhur",
-     "tag": "participle"
+     "form": "kënaqësia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It steals data from you.",
+    "en": "That was fun!",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Ajo vjedh të dhëna nga ju."
+    "sq": "Kjo ishte kënaqësi!"
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "shokë",
+   "sq": "shokë",
+   "en": "wool belt, girdle",
+   "glosses": [
+    "wool belt, girdle"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wool belt, girdle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "86 14"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "96 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Fushë Kosovë",
+      "Gjakova",
+      "belt"
+     ]
+    }
+   ],
+   "rank": 952,
+   "count": 1001,
+   "family": "shokë",
+   "is_root": true,
+   "etymology": "From Vulgar Latin *soca (“rope, cable”) (see Italian soga).",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin soca",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We were three friends.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ishim tre shokë."
    }
   },
   {
-   "id": "vjedhur",
-   "sq": "vjedhur",
-   "en": "steal, past form (from vjedh, to steal)",
+   "id": "kënaqur",
+   "sq": "kënaqur",
+   "en": "make (someone) happy, past form (from kënaq, to make (someone) happy)",
    "glosses": [
-    "steal, past form (from vjedh, to steal)"
+    "make (someone) happy, past form (from kënaq, to make (someone) happy)"
    ],
    "pos": [
     "verb"
@@ -91,7 +209,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "steal, past form (from vjedh, to steal)",
+     "gloss": "make (someone) happy, past form (from kënaq, to make (someone) happy)",
      "tags": [
       "form-of",
       "participle",
@@ -118,12 +236,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vjedh"
+     "is_form_of": "kënaq"
     }
    ],
-   "rank": 948,
-   "count": 1004,
-   "family": "vjedh",
+   "rank": 1264,
+   "count": 714,
+   "family": "kënaq",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -135,37 +253,37 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Have you ever stolen?",
+    "corpus": "TED2020",
+    "en": "They were so happy.",
     "score": [
      0,
-     3,
-     -3,
-     10
+     4,
+     -4,
+     4
     ],
-    "sq": "Ke vjedhur ndonjëherë?"
+    "sq": "Qenë kaq të kënaqur."
    }
   },
   {
-   "id": "vjedhës",
-   "sq": "vjedhës",
-   "en": "thief",
+   "id": "përgjatë",
+   "sq": "përgjatë",
+   "en": "alongside",
    "glosses": [
-    "thief"
+    "alongside"
    ],
    "pos": [
-    "noun"
+    "prep"
    ],
    "pos_labels": [
-    "noun"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thief",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "alongside",
      "tags": [
-      "masculine"
+      "with-ablative"
      ],
      "cats": [
       {
@@ -175,7 +293,77 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ës",
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "alongside"
+     ]
+    }
+   ],
+   "rank": 3842,
+   "count": 203,
+   "family": "përgjatë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "over one year.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "përgjatë një viti."
+   }
+  },
+  {
+   "id": "pesëdhjetë",
+   "sq": "pesëdhjetë",
+   "en": "fifty",
+   "glosses": [
+    "fifty"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "fifty",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -189,51 +377,418 @@
      ],
      "examples": [],
      "links": [
-      "thief"
+      "fifty"
      ]
     }
    ],
-   "rank": 17203,
-   "count": 32,
-   "family": "vjedh",
+   "rank": 5582,
+   "count": 132,
+   "family": "pesëdhjetë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "One hundred and fifty years old.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Njëqind e pesëdhjetë vjeç."
+   }
+  },
+  {
+   "id": "anës",
+   "sq": "anës",
+   "en": "along, beside, by",
+   "glosses": [
+    "along, beside, by"
+   ],
+   "pos": [
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "along, beside, by",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "along",
+      "beside",
+      "by"
+     ]
+    }
+   ],
+   "rank": 5794,
+   "count": 126,
+   "family": "anës",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I walked by the canal.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Unë ecja anës kanalit."
+   }
+  },
+  {
+   "id": "kënaqem",
+   "sq": "kënaqem",
+   "en": "to be pleased, rejoiced",
+   "glosses": [
+    "to be pleased, rejoiced",
+    "to make (someone) happy; to fulfill a wish; to gratify, please, satisfy",
+    "it satisfies"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be pleased, rejoiced",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pleased",
+      "rejoiced"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make (someone) happy; to fulfill a wish; to gratify, please, satisfy",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -em",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 40 29"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "make",
+      "happy",
+      "fulfill"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it satisfies",
+     "tags": [
+      "active",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 16 71"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 21 62"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 8 86"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "satisfies"
+     ]
+    }
+   ],
+   "rank": 7193,
+   "count": 97,
+   "family": "kënaq",
    "is_root": false,
-   "etymology": "From vjedh + -ës.",
+   "etymology": "kënaq + -em; see active form kënaq for more.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "vjedh",
+     "word": "kënaq",
      "role": "base"
     },
     {
-     "word": "ës",
+     "word": "em",
      "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "kënaq",
+    "kënaqës",
+    "me kënaqësi",
+    "pa kënaqësi",
+    "pakënaqësi"
+   ],
+   "forms": [
+    {
+     "form": "kënaqur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Fit and flatter.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Fit dhe kënaqem."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "kënaq",
+   "sq": "kënaq",
+   "en": "to make (someone) happy; to fulfill a wish; to gratify, please, satisfy",
+   "glosses": [
+    "to make (someone) happy; to fulfill a wish; to gratify, please, satisfy"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make (someone) happy; to fulfill a wish; to gratify, please, satisfy",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "make",
+      "happy",
+      "fulfill"
+     ]
+    }
+   ],
+   "rank": 7638,
+   "count": 90,
+   "family": "kënaq",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *h₂eh₂nóḱe (“he has reached, attained”), perfective of *h₂neḱ- (“to reach”). Cognate with Old Irish tánaic (“he arrived”), Latin nancisci (“to get”), Old English ġenōg (“enough”), German genug, Swedish nog. Alternatively from the compound *ka + *ānda, literally meaning 'having pleasure'.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ka",
+     "role": "prefix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vjedhës",
-     "tag": "plural"
-    },
-    {
-     "form": "vjedhësi",
-     "tag": "definite"
+     "form": "kënaqur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Also if you will be a thief.",
+    "en": "Both partners are satisfied with this.",
     "score": [
      1,
-     6,
-     -5,
+     5,
+     -4,
      10
     ],
-    "sq": "Gjithashtu nëse do të jeni vjedhës."
+    "sq": "Kjo kënaq të dy partnerët."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "kënaqë",
+   "sq": "kënaqë",
+   "en": "pleasure, enjoyment, contentment",
+   "glosses": [
+    "pleasure, enjoyment, contentment"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pleasure, enjoyment, contentment",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pleasure",
+      "enjoyment",
+      "contentment"
+     ]
+    }
+   ],
+   "rank": 21596,
+   "count": 23,
+   "family": "kënaq",
+   "is_root": false,
+   "etymology": "From kënaq (“to enjoy”) + -ë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kënaq",
+     "role": "base"
+    },
+    {
+     "word": "ë",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He can satisfy me at any time.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Ai mund të më kënaqë në çdo kohë."
    },
    "breakdown": "historical"
   }

@@ -1,36 +1,37 @@
 {
  "level": 382,
- "title": "di (rarer words)",
- "root": "di",
- "root_gloss": "to know",
+ "title": "lëndoj",
+ "root": "lëndoj",
+ "root_gloss": "to hurt, touch",
  "part": 1,
  "parts": 1,
- "word_count": 1,
+ "word_count": 2,
  "families": [
-  "di"
+  "lëndoj"
  ],
  "pos_mix": {
-  "pron": 1
+  "verb": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "diç",
-   "sq": "diç",
-   "en": "something",
+   "id": "lëndoj",
+   "sq": "lëndoj",
+   "en": "to hurt, touch",
    "glosses": [
-    "something"
+    "to hurt, touch"
    ],
    "pos": [
-    "pron"
+    "verb"
    ],
    "pos_labels": [
-    "pronoun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "something",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hurt, touch",
      "tags": [],
      "cats": [
       {
@@ -40,13 +41,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with di-",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,41 +55,139 @@
      ],
      "examples": [],
      "links": [
-      "something"
+      "hurt",
+      "touch"
      ]
     }
    ],
-   "rank": 3009,
-   "count": 270,
-   "family": "di",
+   "rank": 2956,
+   "count": 275,
+   "family": "lëndoj",
+   "is_root": true,
+   "etymology": "From an unattested *lënd < Proto-Albanian *lenta (cf. lëndë), from Proto-Indo-European *lento- (“bendsome, resilient”). Akin to Lithuanian leñtas (“still, quite”), Latin lentus (“supple”), English lithe (“supple”), German lind (“mild”). Possibly a nasal variant of ledh (“to caress, stroke”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "lëndova",
+     "tag": "aorist"
+    },
+    {
+     "form": "lënduar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I'm not gonna hurt you.",
+    "score": [
+     0,
+     5,
+     -5,
+     8
+    ],
+    "sq": "Nuk do të të lëndoj."
+   }
+  },
+  {
+   "id": "lëndim",
+   "sq": "lëndim",
+   "en": "wound, injury",
+   "glosses": [
+    "wound, injury"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wound, injury",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "wound",
+      "injury"
+     ]
+    }
+   ],
+   "rank": 25201,
+   "count": 19,
+   "family": "lëndoj",
    "is_root": false,
-   "etymology": "From di- + ç'.",
+   "etymology": "Gerund of lëndoj; lëndoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "di",
-     "role": "prefix"
+     "word": "lëndoj",
+     "role": "base",
+     "en": "to hurt"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "lëndime",
+     "tag": "plural"
+    },
+    {
+     "form": "lëndimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It's good for us.",
+    "corpus": "HPLT",
+    "en": "It's not an injury.",
     "score": [
-     1,
-     6,
-     -5,
-     8
+     0,
+     3,
+     -3,
+     10
     ],
-    "sq": "Është diç e mirë për ne."
+    "sq": "Nuk është lëndim."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   }
- ],
- "resumes": true
+ ]
 }

@@ -66,6 +66,7 @@ def main():
     # so a future change to the packer cannot quietly re-scatter families.
     struct = []
     fam_parts = defaultdict(list)   # family -> [(part, parts, level)]
+    opening_levels = set()          # curated levels (tools/opening_levels.py)
     last_part = {}   # family -> (last part seen, the level it was on)
     for i, fname in enumerate(files, 1):
         lvl = json.load(open(os.path.join(LEVELS_DIR, fname), encoding="utf-8"))
@@ -113,10 +114,19 @@ def main():
         if lvl.get("resumes") and nfam != 1:
             struct.append("%s: a level that resumes a family must hold only "
                           "that family" % fname)
+        # A family the curated opening began comes back on a level that
+        # lists it under `continues`; that starts a new run, like `resumes`.
+        bad_cont = set(lvl.get("continues") or []) - set(lvl["families"])
+        if bad_cont:
+            struct.append("%s: continues %s, which it does not teach"
+                          % (fname, sorted(bad_cont)))
+        if lvl.get("opening"):
+            opening_levels.add(i)
         for w in lvl["words"]:
             fam_parts.setdefault(w["family"], set()).add(
                 (lvl.get("part", 1), lvl.get("parts", 1), i,
-                 bool(lvl.get("resumes"))))
+                 bool(lvl.get("resumes"))
+                 or w["family"] in (lvl.get("continues") or ())))
 
     # A split family must be consecutive 1/n, 2/n, ... AND every one of its
     # levels must agree on the total n. Checking each level on its own is not
@@ -133,7 +143,10 @@ def main():
             if x[3] and runs[-1]:
                 runs.append([])
             runs[-1].append(x)
-        if len(runs) > 2:
+        # Head and tail; or, for a family the curated opening began, the
+        # opening, the rest of the head, and the tail.
+        max_runs = 3 if runs[0] and runs[0][0][2] in opening_levels else 2
+        if len(runs) > max_runs:
             struct.append("family %r resumes more than once: levels %s"
                           % (f, [r[0][2] for r in runs]))
         if runs[0] and runs[0][0][3]:

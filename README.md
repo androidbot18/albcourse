@@ -17,23 +17,35 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 
 | | |
 |---|---|
-| Words | 4,087 |
-| Levels | 790 |
-| Word families | 3,013 |
+| Words | 4,088 |
+| Levels | 799 |
+| Word families | 3,015 |
 | Families with more than one member | 519 |
 | Words containing ë / ç | 1,643 |
-| Words with an example sentence | 3,715 (90.9%) |
+| Words with an example sentence | 3,714 (90.9%) |
 | Words with a cognate hook | 125 |
 
 (These figures were stale for several PRs -- the deck had already been
 rebuilt twice. They now come from `data/words.json`; check with
 `python3 tools/measure_learnability.py`.)
 
-Levels are ordered by when a word family's root becomes common enough to
-teach, with grammar words held back and some pictureable nouns pulled forward.
-This is an approximation, not a hand-built curriculum: the opening levels are
-not yet the ideal first words (see RECOMMENDATIONS.md, section 3). The Review
-tab follows level order, and new cards are capped at 20 per day.
+The first 21 levels are **hand-curated by theme**: greetings and yes/no,
+pronouns, `jam` and `kam` in the present, the little words (`nuk`, `dhe`,
+`e`, `në`, `me`, `për`), numbers 1-10, family, food and drink, time, question
+words, the core verbs, everyday adjectives, home and work. They live in
+`tools/opening_levels.py`, a small reviewed list the build checks (every
+word in the deck, a family on one level only, a stem never after its word).
+A family the opening only begins comes back later at its own frequency:
+`jam` opens with its present tense, and `ishte`, `qenë`, `isha`... return as
+"jam (continued)" on level 27. Glosses and examples for these first words
+were reviewed in `tools/gloss_overrides.py` (`pi` is "to drink", not the
+Gheg preposition "from"; `e` is back, see RECOMMENDATIONS.md section 3.2).
+
+After the opening, levels are ordered by when a word family's root becomes
+common enough to teach, with grammar words held back and some pictureable
+nouns pulled forward. That part is an approximation, not a hand-built
+curriculum. The Review tab follows level order, and new cards are capped at
+20 per day.
 
 A level is a **session of whole word families**, not a frequency slice:
 
@@ -44,10 +56,10 @@ A level is a **session of whole word families**, not a frequency slice:
   ride the root into an early session. They come back as their own level,
   "do (rarer words)", once the course reaches their frequency. Before this,
   `do` (rank 4) taught `doemos` (rank 30,516) in level 2 and pushed `unë`
-  ("I") out of the first ten levels; 37 families now resume this way.
+  ("I") out of the first ten levels; 43 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (584 of 790),
+  sessions; a level that mixes families is the normal case (582 of 799),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
@@ -142,7 +154,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        790 level descriptors, loaded first
+      index.json        799 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -183,7 +195,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (790 decks, 4,087 notes). It is
+That writes dist/albanian-roots-families.apkg (799 decks, 4,088 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

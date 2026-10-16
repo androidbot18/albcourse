@@ -1,25 +1,25 @@
 {
  "level": 268,
- "title": "larg (rarer words)",
- "root": "larg",
- "root_gloss": "away (from). in space or time",
+ "title": "vras (rarer words)",
+ "root": "vras",
+ "root_gloss": "to kill",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "larg"
+  "vras"
  ],
  "pos_mix": {
-  "verb": 2,
-  "adj": 2
+  "verb": 5,
+  "noun": 1
  },
  "words": [
   {
-   "id": "larguar",
-   "sq": "larguar",
-   "en": "leave, past form (from largoj, to leave)",
+   "id": "vrave",
+   "sq": "vrave",
+   "en": "I (once did) killed (from vras, to kill)",
    "glosses": [
-    "leave, past form (from largoj, to leave)"
+    "I (once did) killed (from vras, to kill)"
    ],
    "pos": [
     "verb"
@@ -31,11 +31,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "leave, past form (from largoj, to leave)",
+     "gloss": "I (once did) killed (from vras, to kill)",
      "tags": [
+      "aorist",
+      "first-person",
       "form-of",
-      "participle",
-      "past"
+      "indicative",
+      "singular"
      ],
      "cats": [
       {
@@ -58,12 +60,86 @@
       }
      ],
      "examples": [],
-     "is_form_of": "largoj"
+     "is_form_of": "vras"
     }
    ],
-   "rank": 1364,
-   "count": 651,
-   "family": "larg",
+   "rank": 1345,
+   "count": 663,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "I didn't do anything!",
+    "score": [
+     1,
+     3,
+     -2,
+     5
+    ],
+    "sq": "Ti e vrave!"
+   }
+  },
+  {
+   "id": "vrasim",
+   "sq": "vrasim",
+   "en": "we kill (from vras, to kill)",
+   "glosses": [
+    "we kill (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we kill (from vras, to kill)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "indicative",
+      "plural",
+      "present"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 1575,
+   "count": 554,
+   "family": "vras",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -76,106 +152,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They're gone.",
+    "en": "And we won't kill you.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Ata janë larguar."
+    "sq": "E nuk të vrasim."
    }
   },
   {
-   "id": "largë",
-   "sq": "largë",
-   "en": "far, far-off, distant",
+   "id": "vranë",
+   "sq": "vranë",
+   "en": "they (once did) killed (from vras, to kill)",
    "glosses": [
-    "far, far-off, distant"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "far, far-off, distant",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ë (adjective)",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "far",
-      "far-off",
-      "distant"
-     ]
-    }
-   ],
-   "rank": 3140,
-   "count": 258,
-   "family": "larg",
-   "is_root": false,
-   "etymology": "From larg (“far”) + -ë.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "far"
-   ],
-   "components": [
-    {
-     "word": "larg",
-     "role": "base"
-    },
-    {
-     "word": "ë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Large ships were moored away.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Anijet e mëdha ankoroheshin largë."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "largoj",
-   "sq": "largoj",
-   "en": "to leave",
-   "glosses": [
-    "to leave"
+    "they (once did) killed (from vras, to kill)"
    ],
    "pos": [
     "verb"
@@ -187,9 +179,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to leave",
+     "gloss": "they (once did) killed (from vras, to kill)",
      "tags": [
-      "transitive"
+      "aorist",
+      "form-of",
+      "indicative",
+      "plural",
+      "third-person"
      ],
      "cats": [
       {
@@ -199,7 +195,212 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 1668,
+   "count": 528,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Why were they killed?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pse u vranë?"
+   }
+  },
+  {
+   "id": "vrava",
+   "sq": "vrava",
+   "en": "kill, past form (from vras, to kill)",
+   "glosses": [
+    "kill, past form (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "kill, past form (from vras, to kill)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 1723,
+   "count": 507,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "vriste",
+   "sq": "vriste",
+   "en": "he/she/it (used to) killed (from vras, to kill)",
+   "glosses": [
+    "he/she/it (used to) killed (from vras, to kill)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (used to) killed (from vras, to kill)",
+     "tags": [
+      "form-of",
+      "imperfect",
+      "singular",
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vras"
+    }
+   ],
+   "rank": 1794,
+   "count": 485,
+   "family": "vras",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "but he could only swallow with an effort.",
+    "score": [
+     0,
+     9,
+     -9,
+     10
+    ],
+    "sq": "Ai mund të më vriste, por nuk e bëri."
+   }
+  },
+  {
+   "id": "vetëvrasje",
+   "sq": "vetëvrasje",
+   "en": "suicide",
+   "glosses": [
+    "suicide"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "suicide",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with vetë-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -213,133 +414,51 @@
      ],
      "examples": [],
      "links": [
-      "leave"
+      "suicide"
      ]
     }
    ],
-   "rank": 3271,
-   "count": 246,
-   "family": "larg",
+   "rank": 4354,
+   "count": 176,
+   "family": "vras",
    "is_root": false,
-   "etymology": "From larg (“far, far away”) + -oj.",
+   "etymology": "From vetë- + vrasje, literally “self-killing”.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "larg",
-     "role": "base"
+     "word": "vetë",
+     "role": "prefix"
     },
     {
-     "word": "oj",
-     "role": "suffix"
+     "word": "vrasje",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "largova",
-     "tag": "aorist"
+     "form": "vetëvrasje",
+     "tag": "plural"
     },
     {
-     "form": "larguar",
-     "tag": "participle"
+     "form": "vetëvrasja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I don't want it, but I can't get rid of it.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Nuk e dua, po nuk e largoj dot."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "largët",
-   "sq": "largët",
-   "en": "distant, faraway, remote",
-   "glosses": [
-    "distant, faraway, remote"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "distant, faraway, remote",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ët",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "distant",
-      "faraway",
-      "remote"
-     ]
-    }
-   ],
-   "rank": 4752,
-   "count": 160,
-   "family": "larg",
-   "is_root": false,
-   "etymology": "From larg + -ët.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "larg",
-     "role": "base"
-    },
-    {
-     "word": "ët",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's not so far-fetched.",
+    "en": "She later committed suicide.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Nuk është aq e largët."
+    "sq": "Ajo më pas bëri vetëvrasje."
    },
    "breakdown": "historical"
   }

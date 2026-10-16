@@ -1,88 +1,253 @@
 {
  "level": 195,
- "title": "tre, mbi",
+ "title": "nën, pasi, prapa +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "mbi",
-  "tre"
+  "kundër",
+  "nën",
+  "pasi",
+  "prapa",
+  "shkruaj",
+  "ynë"
  ],
  "pos_mix": {
-  "num": 3,
-  "prep": 2,
-  "noun": 1
+  "prep": 7,
+  "conj": 4,
+  "det": 1,
+  "verb": 4
  },
  "words": [
   {
-   "id": "tre",
-   "sq": "tre",
-   "en": "three",
+   "id": "nën",
+   "sq": "nën",
+   "en": "under",
    "glosses": [
-    "three"
+    "under"
    ],
    "pos": [
-    "num"
+    "prep"
    ],
    "pos_labels": [
-    "numeral"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "three",
-     "tags": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "under",
+     "tags": [
+      "with-accusative"
+     ],
      "cats": [
       {
-       "name": "Albanian cardinal numbers",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb"
       },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian prepositions governing the accusative",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 29 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb"
       }
      ],
      "examples": [],
      "links": [
-      "three"
+      "under"
      ]
     }
    ],
-   "rank": 230,
-   "count": 5419,
-   "family": "tre",
+   "rank": 409,
+   "count": 2561,
+   "family": "nën",
    "is_root": true,
-   "etymology": "From Proto-Albanian *treje, from Proto-Indo-European *tréyes. Cognate to Latin trēs (“three”) and Sanskrit त्रि (tri, “three”).",
-   "etymology_class": "inherited",
+   "etymology": "An extended form of ndë.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "ndën",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Children under 3 years free of charge.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Fëmijët nën 3 vjet pa pagesë."
+   }
+  },
+  {
+   "id": "pasi",
+   "sq": "pasi",
+   "en": "after (then)",
+   "glosses": [
+    "after (then)",
+    "when, since",
+    "because",
+    "as, if"
+   ],
+   "pos": [
+    "conj",
+    "conj",
+    "conj",
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "conjunction",
+    "conjunction",
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "after (then)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46 0 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Pasi erdhën të gjithë, filloi mbledhja.",
+       "en": "After everyone came, the meeting began",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "after",
+      "then"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "when, since",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46 0 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Pasi qenka puna kështu, unë po iki.",
+       "en": "Since this is (apparently) the case, then I'm leaving.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "when",
+      "since"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "because",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "because"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "as, if",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pasi ajo nuk po vjen edhe unë do të rri.",
+       "en": "If she is not coming then I'll stay too.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "as",
+      "if"
+     ]
+    }
+   ],
+   "rank": 429,
+   "count": 2446,
+   "family": "pasi",
+   "is_root": true,
+   "etymology": "From pas (“after, behind, at, beyond”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "masi",
+    "mbasi",
+    "pas",
+    "pastaj"
+   ],
+   "forms": [
+    {
+     "form": "mbasi",
+     "tag": "alternative"
+    },
+    {
+     "form": "masi",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": null
   },
   {
-   "id": "mbi",
-   "sq": "mbi",
-   "en": "on, onto, upon",
+   "id": "prapa",
+   "sq": "prapa",
+   "en": "behind",
    "glosses": [
-    "on, onto, upon",
-    "over, above"
+    "behind",
+    "after"
    ],
    "pos": [
     "prep",
@@ -96,60 +261,212 @@
     {
      "pos": "prep",
      "pos_label": "preposition",
-     "gloss": "on, onto, upon",
+     "gloss": "behind",
      "tags": [
-      "with-accusative"
+      "with-ablative"
      ],
      "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
       {
        "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "63 37"
       },
       {
-       "name": "Albanian prepositions governing the accusative",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "91 9"
       }
      ],
-     "examples": [
-      {
-       "sq": "doli mbi ujë",
-       "en": "(came out) appeared on the water's surface",
-       "offsets": [
-        [
-         5,
-         8
-        ]
-       ]
-      },
-      {
-       "sq": "hipi mbi çati",
-       "en": "climbed on the roof",
-       "offsets": [
-        [
-         5,
-         8
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "on",
-      "onto",
-      "upon"
+      "behind"
      ]
     },
     {
      "pos": "prep",
      "pos_label": "preposition",
-     "gloss": "over, above",
+     "gloss": "after",
      "tags": [
-      "with-accusative"
+      "with-ablative"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "after"
+     ]
+    }
+   ],
+   "rank": 449,
+   "count": 2336,
+   "family": "prapa",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *per apa, *pra apa, the second element being identical with pa.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "prapë",
+    "pa"
+   ],
+   "forms": [
+    {
+     "form": "mbrapa",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They're back!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ata janë prapa!"
+   }
+  },
+  {
+   "id": "kundër",
+   "sq": "kundër",
+   "en": "opposite",
+   "glosses": [
+    "opposite",
+    "against",
+    "opposing",
+    "facing"
+   ],
+   "pos": [
+    "prep",
+    "prep",
+    "prep",
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition",
+    "preposition",
+    "preposition",
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "opposite",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 15 27 33"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 21 23 31"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 0 39 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "opposite"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "against",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 15 27 33"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 21 23 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "against"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "opposing",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 15 27 33"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 21 23 31"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 0 39 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "opposing"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "facing",
+     "tags": [
+      "with-ablative"
      ],
      "cats": [
       {
@@ -157,227 +474,183 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "30 70"
+       "_dis": "28 0 15 57"
       },
       {
        "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "25 15 27 33"
       },
       {
-       "name": "Albanian prepositions governing the accusative",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "25 21 23 31"
       }
      ],
-     "examples": [
-      {
-       "sq": "dy gradë mbi zero",
-       "en": "two degrees above zero",
-       "offsets": [
-        [
-         9,
-         12
-        ]
-       ]
-      },
-      {
-       "sq": "mbi ujë",
-       "en": "above the water('s surface)",
-       "offsets": [
-        [
-         0,
-         3
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "over",
-      "above"
+      "facing"
      ]
     }
    ],
-   "rank": 241,
-   "count": 4915,
-   "family": "mbi",
+   "rank": 484,
+   "count": 2171,
+   "family": "kundër",
    "is_root": true,
-   "etymology": "From Proto-Albanian *(V)(m)pi, perhaps from a compound of Proto-Indo-European *h₂en-h₁pi (“up, on, upon, (on-to, un-to)”), from *h₂én (“on”) + *h₁(é)pi, *h₁ópi (“by, near, at”); otherwise just the latter component and phonetically influenced by mbë. Compare Ancient Greek ἐπί (epí, “on, to, towards”), Sanskrit अपि (ápi), Avestan 𐬀𐬌𐬞𐬌 (aⁱpi), Old Persian [script needed] (apiy), Old Armenian եւ (ew), Latin ob, and Old English bī (English by).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Latin contrā.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "on"
-   ],
+   "parents": [],
    "components": [],
    "derived": [
-    "mbiçmim",
-    "mbiçmoj",
-    "mbidermë",
-    "mbidetar",
-    "mbidialektor",
-    "mbidheshëm",
-    "mbiemër",
-    "mbiemërim"
+    "kundërt",
+    "kundërti",
+    "kundroj",
+    "kundrim",
+    "përkundër",
+    "kundërshtoj",
+    "përkundrazi",
+    "kundrinë"
    ],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "trembëdhjetë",
-   "sq": "trembëdhjetë",
-   "en": "thirteen",
-   "glosses": [
-    "thirteen",
-    "thirty"
+   "related": [
+    "kundër-"
    ],
-   "pos": [
-    "num",
-    "num"
-   ],
-   "pos_labels": [
-    "numeral",
-    "numeral"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "thirteen",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thirteen"
-     ]
+     "form": "kundra",
+     "tag": "alternative"
     },
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "thirty",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Molise Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thirty",
-      "Mouton de Gruyter"
-     ]
+     "form": "kontra",
+     "tag": "alternative"
     }
    ],
-   "rank": 15783,
-   "count": 36,
-   "family": "tre",
-   "is_root": false,
-   "etymology": "From tre (“three”) + -mbëdhjetë (“-teen”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "three"
-   ],
-   "components": [
-    {
-     "word": "tre",
-     "role": "base"
-    },
-    {
-     "word": "mbëdhjetë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I was only thirteen years old.",
+    "en": "Testify against Me.",
     "score": [
      1,
-     4,
-     -3,
+     3,
+     -2,
      10
     ],
-    "sq": "Isha vetëm trembëdhjetë vjeç."
-   },
-   "breakdown": "historical"
+    "sq": "Dëshmo kundër meje."
+   }
   },
   {
-   "id": "trekëndësh",
-   "sq": "trekëndësh",
-   "en": "triangle",
+   "id": "ynë",
+   "sq": "ynë",
+   "en": "our",
    "glosses": [
-    "triangle"
+    "our"
    ],
    "pos": [
-    "noun"
+    "det"
    ],
    "pos_labels": [
-    "noun"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "triangle",
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "our",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -këndësh",
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "our"
+     ]
+    }
+   ],
+   "rank": 519,
+   "count": 2024,
+   "family": "ynë",
+   "is_root": true,
+   "etymology": "From i (masculine definite article) + në (from ne, first person plural pronoun).\nCompare jonë, from jo (original form of the feminine definite article, weakened to -a) + në.\nOld accusative form tënë from të+në. Compare the accusative pronoun atë.\nOld dative-genitive masculine tinë from ti (today would've yielded ty, compare the possessive adjective for relatives tyt as in tyt vëllai and the dative pronoun atij.\nOld ablative masculine sinë from si (surviving in the antiquated pronoun asi) +në.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "në",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "jonë",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He is our Father.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Ai është Ati ynë."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "shkruar",
+   "sq": "shkruar",
+   "en": "write, past form (from shkruaj, to write)",
+   "glosses": [
+    "write, past form (from shkruaj, to write)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "write, past form (from shkruaj, to write)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -387,58 +660,184 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "shkruaj"
+    }
+   ],
+   "rank": 933,
+   "count": 1025,
+   "family": "shkruaj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Very well written.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Shumë mirë shkruar."
+   }
+  },
+  {
+   "id": "shkruaj",
+   "sq": "shkruaj",
+   "en": "to write",
+   "glosses": [
+    "to write",
+    "to express",
+    "to compose, draw, draw up, mark, record"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to write",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "write"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to express",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "express"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to compose, draw, draw up, mark, record",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 28 44"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 28 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 18 63"
       }
      ],
      "examples": [],
      "links": [
-      "geometry",
-      "triangle"
+      "compose",
+      "draw",
+      "draw up"
      ]
     }
    ],
-   "rank": 23541,
-   "count": 21,
-   "family": "tre",
-   "is_root": false,
-   "etymology": "From tre (“three”) + -këndësh polygon name suffix.",
+   "rank": 1422,
+   "count": 625,
+   "family": "shkruaj",
+   "is_root": true,
+   "etymology": "* From sh- (“off”) + kruaj (“to scratch”) q.v.; for sense development, compare English write from Old English wrītan (“to incise, engrave”). The noun form shkrim was probably influenced by Latin scrībō (“write”).\n* From earlier shkruon (“he/she writes”), from Proto-Albanian *śkrɔ̄n < *śkrə.on < *śkriwɔnit. More likely borrowed from Vulgar Latin *skrīβō, from Latin scrībō.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "three"
+    "off"
    ],
    "components": [
     {
-     "word": "tre",
-     "role": "base"
+     "word": "sh",
+     "role": "prefix"
     },
     {
-     "word": "këndësh",
-     "role": "suffix"
+     "word": "kruaj",
+     "role": "stem"
     }
    ],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "nënshkrim, nënshkrimi",
+    "nënshkruaj, nënshkruhet",
+    "nënshkruar, nënshkruara",
+    "nënshkruari",
+    "nënshkrues, nënshkruesi",
+    "parashkruaj, parashkruhet",
+    "parashkruar",
+    "pashkruar, pashkruara"
+   ],
+   "related": [
+    "kruaj",
+    "sh-",
+    "shkruhem",
+    "shkruar"
+   ],
    "forms": [
     {
-     "form": "trekëndësha",
-     "tag": "plural"
+     "form": "shkrova",
+     "tag": "aorist"
     },
     {
-     "form": "trekëndëshi",
-     "tag": "definite"
+     "form": "shkruar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "By a kind of triangular pattern.",
+    "corpus": "MaCoCu",
+    "en": "I am writing history!",
     "score": [
-     2,
-     5,
+     0,
+     3,
      -3,
-     10
+     8
     ],
-    "sq": "Nga një lloj model trekëndësh."
+    "sq": "Unë shkruaj historinë!"
    },
    "breakdown": "historical"
   }

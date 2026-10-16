@@ -58,7 +58,7 @@ These are defects in the current app. Fix them before any redesign.
 - 1.6 `run_tests.sh` no longer aborts on the first failure; it runs every suite and lists the failed ones. The two data failures had one cause: a family was always taught in consecutive levels, so `do` (rank 4) carried `doemos` (rank 30,516) and five other rare words into L2, and `jam`, `një` and `me` did the same. That used up opening slots and pushed `unë` to L11. The scheduler now applies "root first, tail later" (§3.1): a family's rank > 1,200 members come back later as "do (rarer words)", in their own frequency band. Results: `unë` is on L9, levels 1–10 hold no rare-tail words (there were 18), and the course has 789 levels (ceiling 800). `test_pos_balance` and `test_opening_policy` pass, and so do all the other suites, including the Anki export.
   - New: `tools/relevel.py` re-runs level assignment on the shipped cards without the raw sources. The shipped data was re-levelled this way, and `relevel.py --check` (now in `run_tests.sh`) fails when `data/` is stale against the scheduler. `tools/test_tail_later.py` pins the rule with a negative control, and the validator accepts a family that `resumes` once.
   - The sources are now pinned snapshots in `data/sources/` (Kaikki of 2026-10-15 and the frequency list, verified by SHA-256 in `tools/fetch_sources.py`), so the full build and `test_determinism` run anywhere with no network. Fetching Kaikki's weekly "latest" was why a rebuild drifted one level from the committed data. The committed data is now a clean rebuild from the snapshot, and the `rebuild-data` CI workflow fails if `data/` ever differs from one. All 7 determinism seeds give identical level files.
-  - The hand-curated opening (§3.2) is still worth doing. This fixes the mechanical defect, not the choice of first words.
+  - This fixed the mechanical defect, not the choice of first words. The hand-curated opening (§3.2) is now done as well.
 - 1.7 level titles now name three roots and count only the hidden ones (`tools/build_course.py` and the shipped JSON patched to match); README figures and the "level 1" claim corrected.
 
 ---
@@ -258,7 +258,8 @@ A frequency list from OpenSubtitles makes a poor syllabus for the first weeks.
 Today:
 
 - `po` (*yes*) is **missing** from the deck, and `e` (rank 2: *and* plus the
-  linking article) was removed rather than fixed. *`po` is now added (L5).*
+  linking article) was removed rather than fixed. *Both are now in the
+  curated opening (L1 and L6).*
 - Function words held out of the opening are not spread through the course:
   they all land together around **L192–L210** (`të`, `më`, `që`, `jo`, `ka`,
   `kjo`, `këtë`, `shumë`, `por`, `edhe`, `gjithë`, `pak`, `dy`, `pa`, `pas`,
@@ -277,6 +278,33 @@ The README's rule that "nothing is written by hand" is the main thing
 preventing this. Drop it. A small, reviewed **overrides layer** (glosses,
 opening order, example picks) on top of the generated data is normal for any
 serious course.
+
+**Status: done.** The first 21 levels (121 words) are set by theme in
+`tools/opening_levels.py`, a Python list beside `tools/gloss_overrides.py`
+rather than YAML, so the build needs no new dependency. The themes are
+greetings and yes/no, pronouns, `jam`, `kam`, the little words, numbers
+1–10, family, food and drink, time, question words, core verbs, adjectives,
+and home and work. Days of the week are left out: only `martë` and `enjte`
+are in the deck.
+- **The build enforces the list.** `assign_levels()` raises if a curated word is not in the deck, if a family is curated on two levels, if a stem comes after its word (`mirëdita` sits with `ditë`, `çfarë` with `farë`), or if a level exceeds 9 words or 6 families.
+- **A family can be curated in part.** `jam` opens with its present tense. The rest of the family comes back at its own frequency on a level marked `continues` ("jam (continued)", L27), and its rare tail still comes back after that. The validator allows that third run only for families the opening began.
+- **Placements:**
+
+  | Word | Before | Now |
+  |---|---|---|
+  | `përshëndetje` | L68 | L1 |
+  | `mirëdita` | L279 | L1 |
+  | `jo` | L177 | L1 |
+  | numbers 1–10 | L181–210 | L7–8 |
+  | `nënë` | L164 | L9 |
+  | `bukë` | L393 | L11 |
+  | `ujë` | L128 | L11 |
+
+- **`e` is restored (L6).** It headlines "and". Its other senses are reworded as "it, him, her (before a verb)" and "the linking article: of". It carries a reviewed example, *Punoj ditë e natë.* ("I work day and night."), where `e` joins two nouns, so it cannot be read as the article; the article-sense corpus sentence is dropped. The privative prefix `e-` no longer files `esëll` in the family of "and" (`pos_balance.NOT_A_FAMILY_BASE`).
+- **The opening's glosses are reviewed.** `pi` now headlines "to drink" (it was the Gheg "from"), `kafe` "coffee" (it was "a plant of the genus Coffea"), and `qumësht` "milk". `ka` gained "he/she/it has", `farë` gained "kind, sort", and `lutem` now reads "please (ju lutem)".
+- **`tetë` is fixed.** The parser read `*(a)te + -të` as the preposition `te`, which filed *eight* in the family of *at*. It now has its own family.
+- **Results:** 4,088 words and 799 levels, inside the 800-level ceiling with one level to spare. Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
+- Pinned by `tools/test_opening_levels.py`.
 
 ### 3.3 Take inflected forms out of the vocabulary deck
 
@@ -502,10 +530,11 @@ not all fall due on the same day.
       an ë-less typo. Example coverage is 90.9% (was 93.0%).
 
 **Phase 1: progression (1–2 weeks)**
-- [ ] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`.
-      `po` (*yes*) is added (L5): its only Wiktionary entry is a particle,
-      now admitted through `pos_balance.INCLUDE_PARTICLES`. Still to do:
-      the overrides file and `e`.
+- [x] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`.
+      21 themed levels in `tools/opening_levels.py`, enforced by the build.
+      A family the opening only begins comes back marked `continues`.
+      `po` (*yes*) is on L1, and `e` is restored on L6 with a reviewed gloss
+      and example. The opening's glosses are reviewed. See §3.2.
 - [ ] "Root first, tail later" scheduling instead of unsplittable families.
       Partly done (1.6): rare tails (rank > 1,200) now come back in their own
       frequency band, for every opening family and for any family with 4+

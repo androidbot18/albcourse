@@ -1,34 +1,207 @@
 {
  "level": 492,
- "title": "koncert, nxë, tempull",
+ "title": "vëzhgoj, sherr, strehë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 8,
  "families": [
-  "koncert",
-  "nxë",
-  "tempull"
+  "gjithësesi",
+  "hu",
+  "peshqir",
+  "sherr",
+  "strehë",
+  "vëzhgoj"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 3
+  "noun": 13,
+  "adv": 2,
+  "adj": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "koncert",
-   "sq": "koncert",
-   "en": "concert (show)",
+   "id": "vëzhgim",
+   "sq": "vëzhgim",
+   "en": "observation",
    "glosses": [
-    "concert (show)",
-    "concerto"
+    "observation"
    ],
    "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "observation",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "observation"
+     ]
+    }
+   ],
+   "rank": 7149,
+   "count": 98,
+   "family": "vëzhgoj",
+   "is_root": false,
+   "etymology": "From vëzhgoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vëzhgoj",
+     "role": "base",
+     "en": "to monitor"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Thanks for making a good observation.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Faleminderit për të bërë një vëzhgim të mirë."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "sherr",
+   "sq": "sherr",
+   "en": "brawl, fight, argument",
+   "glosses": [
+    "brawl, fight, argument"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brawl, fight, argument",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "brawl",
+      "fight",
+      "argument"
+     ]
+    }
+   ],
+   "rank": 7169,
+   "count": 98,
+   "family": "sherr",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish [script needed] (șer).\nAlternatively a formation from shaj (“to insult, slander”), with r doubling for expressive reasons. Compare German Schererei (“nuisance, annoyance, vexation”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Less hassle, more flavor.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Më pak sherr, më shumë shije."
+   }
+  },
+  {
+   "id": "strehë",
+   "sq": "strehë",
+   "en": "eaves (of a roof)",
+   "glosses": [
+    "eaves (of a roof)",
+    "shelter, shed",
+    "house, place to live",
+    "bill, brim (of a hat)",
+    "shelter, protection"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -36,30 +209,30 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "concert (show)",
+     "gloss": "eaves (of a roof)",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "concert"
+      "eaves"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "concerto",
+     "gloss": "shelter, shed",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
-       "name": "Music",
+       "name": "Buildings",
        "kind": "other",
        "parents": [],
        "source": "w",
-       "orig": "sq:Music",
+       "orig": "sq:Buildings",
        "langcode": "sq"
       },
       {
@@ -67,93 +240,61 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "13 87"
+       "_dis": "5 65 5 5 20"
       },
       {
-       "name": "Albanian internationalisms",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "8 92"
+       "_dis": "8 50 8 8 26"
       }
      ],
      "examples": [],
      "links": [
-      "music",
-      "concerto"
+      "shelter",
+      "shed"
      ]
-    }
-   ],
-   "rank": 7203,
-   "count": 97,
-   "family": "koncert",
-   "is_root": true,
-   "etymology": "Internationalism, from Italian concerto.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "koncerte",
-     "tag": "plural"
     },
-    {
-     "form": "koncerti",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's a concert.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Është një koncert."
-   }
-  },
-  {
-   "id": "nxënës",
-   "sq": "nxënës",
-   "en": "pupil, student",
-   "glosses": [
-    "pupil, student"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pupil, student",
+     "gloss": "house, place to live",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "house",
+      "live"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bill, brim (of a hat)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bill",
+      "brim"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "shelter, protection",
+     "tags": [
+      "feminine",
+      "figuratively"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ës",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -161,64 +302,61 @@
      ],
      "examples": [
       {
-       "sq": "Jam nxënësi më i mirë.",
-       "en": "I'm the best student.",
+       "sq": "kërkoj strehë",
+       "en": "to seek shelter",
        "offsets": [
         [
-         4,
-         11
+         7,
+         13
         ]
        ]
       }
      ],
      "links": [
-      "pupil",
-      "student"
+      "protection"
      ]
     }
    ],
-   "rank": 7209,
+   "rank": 7174,
    "count": 97,
-   "family": "nxë",
-   "is_root": false,
-   "etymology": "From nxë (“learn”) + -ës. Attested in Francesco Maria da Lecce as xâsi.",
-   "etymology_class": "affix",
+   "family": "strehë",
+   "is_root": true,
+   "etymology": "Borrowed from South Slavic, ultimately from Proto-Slavic *strěxa.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "learn"
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pastrehë"
    ],
-   "components": [
-    {
-     "word": "nxë",
-     "role": "base"
-    },
-    {
-     "word": "ës",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "nxënës",
+     "form": "strehë",
      "tag": "plural"
     },
     {
-     "form": "nxënësi",
+     "form": "streha",
      "tag": "definite"
+    },
+    {
+     "form": "strejë",
+     "tag": "alternative"
+    },
+    {
+     "form": "stre",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "corpus_example": null
   },
   {
-   "id": "tempull",
-   "sq": "tempull",
-   "en": "chapel, temple",
+   "id": "peshqir",
+   "sq": "peshqir",
+   "en": "towel",
    "glosses": [
-    "chapel, temple"
+    "towel"
    ],
    "pos": [
     "noun"
@@ -230,7 +368,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chapel, temple",
+     "gloss": "towel",
      "tags": [
       "masculine"
      ],
@@ -256,16 +394,15 @@
      ],
      "examples": [],
      "links": [
-      "chapel",
-      "temple"
+      "towel"
      ]
     }
    ],
-   "rank": 7221,
+   "rank": 7176,
    "count": 97,
-   "family": "tempull",
+   "family": "peshqir",
    "is_root": true,
-   "etymology": "Borrowed from Latin templum.",
+   "etymology": "Borrowed from Ottoman Turkish پیشگیر (pîşgîr), from Classical Persian پیشگیر (pēšgīr).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -275,179 +412,420 @@
    "related": [],
    "forms": [
     {
-     "form": "tempuj",
+     "form": "peshqirë",
      "tag": "plural"
     },
     {
-     "form": "tempulli",
+     "form": "peshqiri",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This occurs in a special temple.",
+    "en": "Do not rub too vigorously with a towel.",
     "score": [
      0,
-     7,
-     -7,
+     9,
+     -9,
      10
     ],
-    "sq": "Kjo ndodh në një tempull të veçantë."
+    "sq": "Mos e fshij shumë të fuqishëm me një peshqir."
    }
   },
   {
-   "id": "nxë",
-   "sq": "nxë",
-   "en": "to learn, study",
+   "id": "hu",
+   "sq": "hu",
+   "en": "wooden post, fencepost",
    "glosses": [
-    "to learn, study",
-    "to grasp, snatch",
-    "to fit"
+    "wooden post, fencepost",
+    "stake, picket",
+    "pole, stilt",
+    "penis"
    ],
    "pos": [
-    "verb",
-    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wooden post, fencepost",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "62 21 13 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "post",
+      "fencepost"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "stake, picket",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "stake",
+      "picket"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pole, stilt",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pole",
+      "stilt"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "penis",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "penis"
+     ]
+    }
+   ],
+   "rank": 7188,
+   "count": 97,
+   "family": "hu",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *skuna < *skuja + *-na, from Proto-Indo-European *skuy-os < *skwey-.\nCompare Norwegian/Faroese skon (“snout”), from Proto-Indo-European *skewd-. More at hedh. For the 4th meaning, compare also Proto-Slavic *xȗjь.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "hundë"
+   ],
+   "forms": [
+    {
+     "form": "hunj",
+     "tag": "plural"
+    },
+    {
+     "form": "huri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Hu Jintao reluctantly left.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Hu Jintao u largua pa dëshirë."
+   }
+  },
+  {
+   "id": "gjithësesi",
+   "sq": "gjithësesi",
+   "en": "somehow",
+   "glosses": [
+    "somehow",
+    "however"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "somehow",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "somehow"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "however",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "however"
+     ]
+    }
+   ],
+   "rank": 7190,
+   "count": 97,
+   "family": "gjithësesi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "That being said, more research needs to be done.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Gjithësesi, duhet bërë më shumë kërkime."
+   }
+  },
+  {
+   "id": "vëzhgues",
+   "sq": "vëzhgues",
+   "en": "observer",
+   "glosses": [
+    "observer",
+    "observant"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "observer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "observer"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "observant",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "observant"
+     ]
+    }
+   ],
+   "rank": 9529,
+   "count": 69,
+   "family": "vëzhgoj",
+   "is_root": false,
+   "etymology": "From vëzhgoj + -ues (agent suffix).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vëzhgoj",
+     "role": "base",
+     "en": "to monitor"
+    },
+    {
+     "word": "ues",
+     "role": "suffix",
+     "affix": "ues",
+     "meaning": "one who does it"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vëzhguese",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "What did you learn from the observer?",
+    "score": [
+     0,
+     5,
+     -5,
+     8
+    ],
+    "sq": "Çfarë ke mësuar si vëzhgues?"
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "vëzhgoj",
+   "sq": "vëzhgoj",
+   "en": "to monitor, observe, survey",
+   "glosses": [
+    "to monitor, observe, survey"
+   ],
+   "pos": [
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to learn, study",
+     "gloss": "to monitor, observe, survey",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 28"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 28"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "learn",
-      "study"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to grasp, snatch",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 28"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "grasp",
-      "snatch"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to fit",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 36 28"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 33 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fit"
+      "monitor",
+      "observe",
+      "survey"
      ]
     }
    ],
-   "rank": 27487,
-   "count": 16,
-   "family": "nxë",
+   "rank": 12655,
+   "count": 48,
+   "family": "vëzhgoj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *džeina, from Proto-Indo-European *gʰendʰe/o (compare English begin, Ancient Greek χανδάνω (khandánō, “to hold, contain”)).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Latin vestīgō.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "nxënës"
-   ],
-   "related": [
-    "gjej"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "nxura",
-     "tag": "aorist"
-    },
-    {
-     "form": "nxënë",
+     "form": "vëzhguar",
      "tag": "participle"
-    },
-    {
-     "form": "zan",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "And I see you.",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Dhe unë të vëzhgoj ty."
+   }
   }
  ]
 }

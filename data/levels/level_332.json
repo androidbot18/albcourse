@@ -1,42 +1,44 @@
 {
  "level": 332,
- "title": "atë (rarer words)",
- "root": "atë",
- "root_gloss": "it, that, him, her (accusative)",
+ "title": "ngre, hir, vënd +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 5,
  "families": [
-  "atë"
+  "futem",
+  "hir",
+  "ngre",
+  "vënd"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adv": 2
+  "verb": 6,
+  "noun": 5
  },
  "words": [
   {
-   "id": "ati",
-   "sq": "ati",
-   "en": "the it, singular (from atë)",
+   "id": "ngritur",
+   "sq": "ngritur",
+   "en": "raise, past form (from ngre, to raise)",
    "glosses": [
-    "the it, singular (from atë)"
+    "raise, past form (from ngre, to raise)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the it, singular (from atë)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "raise, past form (from ngre, to raise)",
      "tags": [
-      "definite",
       "form-of",
-      "nominative",
-      "singular"
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -46,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 28 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -59,12 +61,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "atë"
+     "is_form_of": "ngre"
     }
    ],
-   "rank": 1963,
-   "count": 441,
-   "family": "atë",
+   "rank": 1934,
+   "count": 447,
+   "family": "ngre",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -76,160 +78,363 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "bible-uedin",
-    "en": "I and my Father are one.",
+    "corpus": "HPLT",
+    "en": "And then you are set up.",
     "score": [
      0,
      5,
      -5,
-     9
+     10
     ],
-    "sq": "Unë dhe Ati jemi një''."
+    "sq": "Dhe atëherë ju jeni ngritur."
    }
   },
   {
-   "id": "matanë",
-   "sq": "matanë",
-   "en": "on the other side",
+   "id": "hir",
+   "sq": "hir",
+   "en": "kindness, favor, sake",
    "glosses": [
-    "on the other side",
-    "beyond"
+    "kindness, favor, sake",
+    "willingness, goodwill",
+    "beauty, grace, charm, dignity",
+    "heavenly grace"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "on the other side",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "kindness, favor, sake",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "willingness, goodwill",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "willingness",
+      "goodwill"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beauty, grace, charm, dignity",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beauty",
+      "grace",
+      "charm"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "heavenly grace",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "65 35"
-      },
+       "_dis": "17 22 27 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "grace"
+     ]
+    }
+   ],
+   "rank": 1936,
+   "count": 446,
+   "family": "hir",
+   "is_root": true,
+   "etymology": "Possibly from Proto-Albanian *skīra, from a Proto-Indo-European *sḱeyr-o- (“shine, reflex”), whence German schier (“pure, clear”), Polish szczery (“sincere, earnest”), Ancient Greek σκίρον (skíron, “parasol”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "parasol"
+   ],
+   "components": [],
+   "derived": [
+    "hire",
+    "hirës",
+    "hirësi",
+    "hirësisht",
+    "hirmadh",
+    "hiroj",
+    "hirplotë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "hire",
+     "tag": "plural"
+    },
+    {
+     "form": "hiri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "full of grace and truth.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "plot hir dhe të vërtetë."
+   }
+  },
+  {
+   "id": "vënd",
+   "sq": "vënd",
+   "en": "place",
+   "glosses": [
+    "place"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "place",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
       {
-       "name": "Albanian univerbations",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 35"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 35"
-      }
-     ],
-     "examples": [
+       "source": "w"
+      },
       {
-       "sq": "Shko matanë!",
-       "en": "Go on the other side!",
-       "offsets": [
-        [
-         5,
-         11
-        ]
-       ]
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
-     "links": []
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "beyond",
-     "tags": [],
-     "cats": [],
      "examples": [],
      "links": [
-      "beyond"
+      "place"
      ]
     }
    ],
-   "rank": 4013,
-   "count": 194,
-   "family": "atë",
-   "is_root": false,
-   "etymology": "Univerbation of më (“at”) + atë (“that”) + anë (“side”).",
-   "etymology_class": null,
+   "rank": 1945,
+   "count": 444,
+   "family": "vënd",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wenta, derivative of vë (“to put”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "at",
-    "that",
-    "side"
-   ],
-   "components": [
-    {
-     "word": "më",
-     "role": "prefix"
-    },
-    {
-     "word": "atë",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "mbatanë",
+     "form": "vënde",
+     "tag": "plural"
+    },
+    {
+     "form": "vëndi",
+     "tag": "definite"
+    },
+    {
+     "form": "vend",
      "tag": "alternative"
     }
    ],
-   "corpus_example": null,
-   "breakdown": "historical"
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "All is in place.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Gjithçka është në vënd."
+   }
   },
   {
-   "id": "atdhe",
-   "sq": "atdhe",
-   "en": "homeland, fatherland",
+   "id": "futem",
+   "sq": "futem",
+   "en": "to go in, to enter",
    "glosses": [
-    "homeland, fatherland",
-    "cradle (place of origin)"
+    "to go in, to enter"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "homeland, fatherland",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to go in, to enter",
      "tags": [
-      "uncountable"
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "go",
+      "in",
+      "enter"
+     ]
+    }
+   ],
+   "rank": 1954,
+   "count": 442,
+   "family": "futem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But do I have to enter this?",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Por a duhet të futem në këtë?"
+   }
+  },
+  {
+   "id": "ngre",
+   "sq": "ngre",
+   "en": "to raise, to elevate, to lift",
+   "glosses": [
+    "to raise, to elevate, to lift",
+    "to erect",
+    "to awaken, wake up",
+    "to arouse (to cause to have an erection)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to raise, to elevate, to lift",
+     "tags": [
+      "transitive"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "homeland",
-      "fatherland"
+      "raise",
+      "elevate",
+      "lift"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cradle (place of origin)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to erect",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "erect"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to awaken, wake up",
      "tags": [
       "figuratively",
-      "uncountable"
+      "transitive"
      ],
      "cats": [
       {
@@ -237,76 +442,90 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "8 92"
+       "_dis": "17 17 39 26"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "26 74"
+       "_dis": "19 19 39 22"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 86"
+       "_dis": "14 14 57 16"
       }
      ],
+     "examples": [
+      {
+       "sq": "Skënderbeu ngriti popullin në luftë.",
+       "en": "Skanderbeg woke the people up in the war.",
+       "offsets": [
+        [
+         11,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "awaken",
+      "wake up"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arouse (to cause to have an erection)",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "cradle"
+      "arouse"
      ]
     }
    ],
-   "rank": 21103,
-   "count": 24,
-   "family": "atë",
-   "is_root": false,
-   "etymology": "From atë (“father”) + dhe (“land”). Coined by Albanian linguist Faik Konica.",
-   "etymology_class": "affix",
+   "rank": 2565,
+   "count": 323,
+   "family": "ngre",
+   "is_root": true,
+   "etymology": "First attested in 1555 by Buzuku as ëngre, allowing the dissection of ën- + *gre. Ultimately from Proto-Indo-European *h₁ger- (“to awaken”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "father",
-    "land"
+   "parents": [],
+   "components": [],
+   "derived": [
+    "shkreh"
    ],
-   "components": [
+   "related": [
+    "ngrihem"
+   ],
+   "forms": [
     {
-     "word": "atë",
-     "role": "prefix"
+     "form": "ngrita",
+     "tag": "aorist"
     },
     {
-     "word": "dhe",
-     "role": "stem"
+     "form": "ngritur",
+     "tag": "participle"
+    },
+    {
+     "form": "ngredh",
+     "tag": "alternative"
+    },
+    {
+     "form": "ngreh",
+     "tag": "alternative"
     }
    ],
-   "derived": [
-    "atdhedashës",
-    "atdhedashje",
-    "atdhedashuri",
-    "atdhemohues",
-    "atdhesi",
-    "atdhesor",
-    "i atdheshëm",
-    "atdheshitës"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Photography by Atdhe Mulla.",
-    "score": [
-     2,
-     4,
-     -2,
-     8
-    ],
-    "sq": "Fotografitë nga Atdhe Mulla."
-   },
-   "breakdown": "historical"
+   "corpus_example": null
   }
- ],
- "resumes": true
+ ]
 }

@@ -68,7 +68,8 @@ def main(argv):
                        if c.get("corpus_example") is not None}
 
     levels = bc.assign_levels(cards, families,
-                              components=bc.by_word_components(cards))
+                              components=bc.by_word_components(cards),
+                              opening=bc.opening_levels.LEVELS)
     level_objs = bc.write_levels(levels, by_word, corpus_examples)
 
     report_path = os.path.join(bc.OUT, "report.json")

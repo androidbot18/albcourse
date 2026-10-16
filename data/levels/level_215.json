@@ -1,111 +1,161 @@
 {
  "level": 215,
- "title": "paguaj, shtatëdhjetë, gjashtëdhjetë +3",
- "root": "",
- "root_gloss": "",
+ "title": "arrij",
+ "root": "arrij",
+ "root_gloss": "to arrive",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 2,
  "families": [
-  "gjashtëdhjetë",
-  "mas",
-  "nëntëdhjetë",
-  "paguaj",
-  "shtatëdhjetë",
-  "tetëdhjetë"
+  "arrij"
  ],
  "pos_mix": {
-  "verb": 5,
-  "num": 4,
-  "prep": 4,
-  "adv": 2
+  "verb": 4
  },
  "words": [
   {
-   "id": "paguaj",
-   "sq": "paguaj",
-   "en": "to pay",
+   "id": "arrij",
+   "sq": "arrij",
+   "en": "to arrive",
    "glosses": [
-    "to pay"
+    "to arrive",
+    "to reach, catch up with",
+    "to attain, achieve"
    ],
    "pos": [
+    "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to pay",
+     "gloss": "to arrive",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "arrive"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to reach, catch up with",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 43 33"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 43 33"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "16 62 23"
       }
      ],
      "examples": [],
      "links": [
-      "pay"
+      "reach",
+      "catch up"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to attain, achieve",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attain",
+      "achieve"
      ]
     }
    ],
-   "rank": 973,
-   "count": 977,
-   "family": "paguaj",
+   "rank": 1367,
+   "count": 649,
+   "family": "arrij",
    "is_root": true,
-   "etymology": "Ultimately from Latin pācāre. Source language is uncertain, as is the possibility of a direct borrowing. Possibly from Italian pagare or alternatively a derivative of pagë, also from Italian.",
-   "etymology_class": "derived",
+   "etymology": "Hamp suggests a connection with rri (“stand”) (see related mbërrij (“arrive”). Alternatively from Early Medieval Latin adrīpāre, derived from Latin ad (“to”) + rīpa (“shore”). Compare Italian arrivare.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "stand",
+    "arrive"
+   ],
    "components": [],
-   "derived": [],
+   "derived": [
+    "arritje",
+    "arritur",
+    "pikarritje",
+    "arritshëm",
+    "mosarritje"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "pagova",
+     "form": "arrita",
      "tag": "aorist"
     },
     {
-     "form": "paguar",
+     "form": "arritur",
      "tag": "participle"
+    },
+    {
+     "form": "harrij",
+     "tag": "alternative"
+    },
+    {
+     "form": "errij",
+     "tag": "alternative"
+    },
+    {
+     "form": "arrënj",
+     "tag": "alternative"
+    },
+    {
+     "form": "mrrij",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "How much do I need to pay?",
+    "corpus": "TED2020",
+    "en": "So how do you get there?",
     "score": [
      0,
-     4,
-     -4,
-     8
+     5,
+     -5,
+     4
     ],
-    "sq": "Sa duhet të paguaj?"
+    "sq": "Si do të arrij atje?"
    }
   },
   {
-   "id": "paguar",
-   "sq": "paguar",
-   "en": "pay, past form (from paguaj, to pay)",
+   "id": "arritur",
+   "sq": "arritur",
+   "en": "arrive, past form (from arrij, to arrive)",
    "glosses": [
-    "pay, past form (from paguaj, to pay)"
+    "arrive, past form (from arrij, to arrive)"
    ],
    "pos": [
     "verb"
@@ -117,7 +167,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "pay, past form (from paguaj, to pay)",
+     "gloss": "arrive, past form (from arrij, to arrive)",
      "tags": [
       "form-of",
       "participle",
@@ -144,12 +194,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "paguaj"
+     "is_form_of": "arrij"
     }
    ],
-   "rank": 1079,
-   "count": 873,
-   "family": "paguaj",
+   "rank": 991,
+   "count": 956,
+   "family": "arrij",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -162,584 +212,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Paid killers.",
+    "en": "This is easily accomplished.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Vrasës të paguar."
-   }
-  },
-  {
-   "id": "shtatëdhjetë",
-   "sq": "shtatëdhjetë",
-   "en": "seventy",
-   "glosses": [
-    "seventy"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "seventy",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "seventy"
-     ]
-    }
-   ],
-   "rank": 20147,
-   "count": 26,
-   "family": "shtatëdhjetë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I'm only fifty years old, but I look seventy.",
-    "score": [
-     0,
-     8,
-     -8,
-     10
-    ],
-    "sq": "Jam vetëm pesëdhjetë vjeç, por dukem si shtatëdhjetë."
-   }
-  },
-  {
-   "id": "gjashtëdhjetë",
-   "sq": "gjashtëdhjetë",
-   "en": "sixty",
-   "glosses": [
-    "sixty"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "sixty",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sixty"
-     ]
-    }
-   ],
-   "rank": 24703,
-   "count": 19,
-   "family": "gjashtëdhjetë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I'm sixty years of age.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Jam gjashtëdhjetë vjeç."
-   }
-  },
-  {
-   "id": "mas",
-   "sq": "mas",
-   "en": "at",
-   "glosses": [
-    "at",
-    "behind, after, beyond",
-    "over",
-    "against",
-    "to measure",
-    "to estimate, assess",
-    "to consider",
-    "behind, after",
-    "hence"
-   ],
-   "pos": [
-    "prep",
-    "prep",
-    "prep",
-    "prep",
-    "verb",
-    "verb",
-    "verb",
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "preposition",
-    "preposition",
-    "preposition",
-    "preposition",
-    "verb",
-    "verb",
-    "verb",
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "at",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 16 22 14 14 0 0 26 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "at"
-     ]
-    },
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "behind, after, beyond",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 16 22 14 14 0 0 26 0"
-      },
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 8 18 7 7 11 9 19 9"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 2 21 2 2 25 3 22 3"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "behind",
-      "after",
-      "beyond"
-     ]
-    },
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "over",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 16 22 14 14 0 0 26 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "over"
-     ]
-    },
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "against",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 8 18 7 7 11 9 19 9"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 2 21 2 2 25 3 22 3"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "against"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to measure",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "measure"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to estimate, assess",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 16 22 14 14 0 0 26 0"
-      },
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 8 18 7 7 11 9 19 9"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 2 21 2 2 25 3 22 3"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "estimate",
-      "assess"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to consider",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "consider"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "behind, after",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 8 18 7 7 11 9 19 9"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 2 21 2 2 25 3 22 3"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "behind",
-      "after"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "hence",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 16 22 14 14 0 0 26 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hence"
-     ]
-    }
-   ],
-   "rank": 25313,
-   "count": 19,
-   "family": "mas",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *matja, from *mh̥₁ti̯-e-, from Proto-Indo-European *meh₁- (compare Old English mǣd, Latin mētior).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "matem",
-    "matje",
-    "matshëm",
-    "masanej",
-    "masi"
-   ],
-   "related": [
-    "mot",
-    "mbas",
-    "mbasi",
-    "pas",
-    "përmasë"
-   ],
-   "forms": [
-    {
-     "form": "mat",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "After a week the bombing started.",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Mas ni jave fillunë bombardimet."
-   }
-  },
-  {
-   "id": "tetëdhjetë",
-   "sq": "tetëdhjetë",
-   "en": "eighty",
-   "glosses": [
-    "eighty"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "eighty",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "eighty"
-     ]
-    }
-   ],
-   "rank": 26467,
-   "count": 17,
-   "family": "tetëdhjetë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Eighty five?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Tetëdhjetë e pesë?"
-   }
-  },
-  {
-   "id": "nëntëdhjetë",
-   "sq": "nëntëdhjetë",
-   "en": "ninety",
-   "glosses": [
-    "ninety"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "ninety",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ninety"
-     ]
-    }
-   ],
-   "rank": 28087,
-   "count": 16,
-   "family": "nëntëdhjetë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why insist, would be ninety.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Pse këmbëngulin, do të ishte nëntëdhjetë."
+    "sq": "Kjo është arritur lehtë."
    }
   }
  ]

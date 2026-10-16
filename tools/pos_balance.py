@@ -16,31 +16,32 @@
 
 # Words that are real Albanian, and that the frequency list proves are very
 # common, but that still do not belong in a beginner deck as standalone
-# vocabulary.
+# vocabulary. Empty at present; the set stays so a future exclusion has one
+# reviewed, testable home.
 #
-# "e" is the case. It is rank 2 -- the second most frequent token in the corpus
-# -- and it is a conjunction, so it opened level 1. But Albanian "e" is
-# POLYSEMOUS in the one place a learner looks first: alongside "dhe" it is
-# "and", before a noun or adjective it is the definite article ("e shtëpisë" =
-# the house), and after a verb it is a clitic pronoun. The card cannot show
-# which one it is, and its shipped example was worse than ambiguous:
+# "e" used to be here. It is rank 2, and Albanian "e" is POLYSEMOUS: beside
+# "dhe" it is "and", before an adjective or a genitive it is the linking
+# article ("vajza e mirë", the good girl), and before a verb it is the clitic
+# "it, him, her". Its card could not say which it taught, and its corpus
+# example showed the article under the gloss "and":
 #
-#     sq: Per te rikthyer jeten e gezuar dhe te hareshme.
+#     sq: Për të rikthyer jetën e gëzuar dhe të hareshme.
 #     en: To bring back the happy and joyful life.
 #
-# The English "and" comes from "dhe"; the "e" in the Albanian is the ARTICLE
-# modifying "gezuar". So the example teaches the wrong sense while looking
-# perfectly plausible. Three earlier attempts to fix the SELECTION (whole-
-# sentence and, forbid-patterns, accept-only-if-proven) all failed for the
-# same reason: this is not a selection bug, it is a WORD bug. "dhe" is the
-# conjunction a learner should meet; "e" is grammatical furniture that only
-# makes sense once the noun phrase around it is understood. Remove the card and
-# the defect cannot occur.
-#
-# Kept here rather than hard-coded in the builder so that the policy is
-# testable and greppable, and so the reason survives the next rebuild.
-EXCLUDE_WORDS = {
-    "e",  # rank 2: conjunction / article / clitic -- unresolvable out of context
+# Removing the card was the wrong fix (RECOMMENDATIONS.md section 3.2): the
+# word is unavoidable, and a learner meets it in the first sentence they
+# read. It is back, taught on purpose in the curated opening, with a
+# reviewed headline that names all three readings and a reviewed example
+# that is provably the conjunction (tools/gloss_overrides.py).
+EXCLUDE_WORDS = set()
+
+# Words that are never the BASE of a derivation in this deck, because the
+# words "built on" them are built on a homograph prefix. esëll is "e- +
+# sillë" with the privative prefix e-, not the conjunction e ("and"). While
+# e was excluded the edge could not form; now it is a card, it would file
+# esëll and egjell in the family of "and".
+NOT_A_FAMILY_BASE = {
+    "e",
 }
 
 # Particles are not a learnable part of speech in general (duke, le, dot

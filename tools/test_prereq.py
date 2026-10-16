@@ -44,11 +44,10 @@ def main():
     #
     # The rule exists because dropping it lets prose into the component line
     # ("behind", "appearance", Latin "communis"). pos_balance.EXCLUDE_WORDS
-    # is the single deliberate exception: "e" is not a card because its own
-    # senses are unresolvable out of context, but the privative PREFIX e- is
-    # real and is what the etymology is explaining (esell = e- + sille). It is
-    # a prefix, so it never creates a prerequisite edge below -- it is a label
-    # on the derivation, not a word to learn first.
+    # is the single deliberate exception (empty since "e" was restored). An
+    # excluded word may still label a PREFIX (esell = e- + sille), which
+    # never creates a prerequisite edge below -- a label on the derivation,
+    # not a word to learn first.
     import pos_balance
     allowed = set(pos_balance.EXCLUDE_WORDS)
     #

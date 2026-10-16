@@ -1,25 +1,181 @@
 {
  "level": 49,
- "title": "vdes",
- "root": "vdes",
- "root_gloss": "to die (used only for humans and bees)",
+ "title": "vend, le, thjesht +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "vdes"
+  "akoma",
+  "le",
+  "thjesht",
+  "vend"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 2
+  "noun": 5,
+  "verb": 4,
+  "adv": 1
  },
  "words": [
   {
-   "id": "vdes",
-   "sq": "vdes",
-   "en": "to die (used only for humans and bees)",
+   "id": "vend",
+   "sq": "vend",
+   "en": "place",
    "glosses": [
-    "to die (used only for humans and bees)"
+    "place",
+    "location",
+    "land"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "place",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "place"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "location",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "location"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "land",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "land"
+     ]
+    }
+   ],
+   "rank": 172,
+   "count": 7442,
+   "family": "vend",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wen-ta, an adjectival formation from earlier *wena, itself a gerund formation from vë. The term has been compared to the Illyrian-derived toponyms Vendum and Avendius (compare Οὐένδων (Ouéndōn)); note also Proto-Celtic *wentā (“place, town”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "vendos",
+    "vendor",
+    "vendim",
+    "kryevend"
+   ],
+   "related": [
+    "vë",
+    "vis",
+    "visele"
+   ],
+   "forms": [
+    {
+     "form": "vende",
+     "tag": "plural"
+    },
+    {
+     "form": "vendi",
+     "tag": "definite"
+    },
+    {
+     "form": "ven",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They were spot on.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Ata ishin në vend."
+   }
+  },
+  {
+   "id": "le",
+   "sq": "le",
+   "en": "to give birth, bear",
+   "glosses": [
+    "to give birth, bear"
    ],
    "pos": [
     "verb"
@@ -31,7 +187,70 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to die (used only for humans and bees)",
+     "gloss": "to give birth, bear",
+     "tags": [
+      "dialectal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 9 27 8 8 41"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "u le",
+       "en": "to be born",
+       "offsets": []
+      },
+      {
+       "sq": "lehet",
+       "en": "is born",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "give birth",
+      "bear"
+     ]
+    }
+   ],
+   "rank": 173,
+   "count": 7417,
+   "family": "le",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laida, an ostensibly o-grade thematic present from the root *leyd- (“to let go, release”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "thjesht",
+   "sq": "thjesht",
+   "en": "simply",
+   "glosses": [
+    "simply"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "simply",
      "tags": [],
      "cats": [
       {
@@ -55,100 +274,14 @@
      ],
      "examples": [],
      "links": [
-      "die"
+      "simply"
      ]
     }
    ],
-   "rank": 471,
-   "count": 2244,
-   "family": "vdes",
+   "rank": 176,
+   "count": 7354,
+   "family": "thjesht",
    "is_root": true,
-   "etymology": "A formation in -s of Proto-Albanian *awa-deja, from earlier *dej, continuing Proto-Indo-European *dʰew-. Compare Old Church Slavonic давити (daviti, “suffocate”), Gothic 𐌰𐍆𐌳𐌰𐌿𐌹𐌸𐍃 (afdauiþs, “troubled”), Old Irish díth (“end, death”), Avestan 𐬛𐬎𐬎𐬀𐬌𐬛𐬍 (duuaidī, “we press”), Latin fūnus (“death”) and English die.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "vdiqa",
-     "tag": "aorist"
-    },
-    {
-     "form": "vdekur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I want to die.",
-    "score": [
-     0,
-     3,
-     -3,
-     0
-    ],
-    "sq": "Dua të vdes."
-   }
-  },
-  {
-   "id": "vdekur",
-   "sq": "vdekur",
-   "en": "die, past form (from vdes, to die)",
-   "glosses": [
-    "die, past form (from vdes, to die)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "die, past form (from vdes, to die)",
-     "tags": [
-      "participle"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "89 11"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "94 6"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "vdes",
-      "died"
-     ],
-     "is_form_of": "vdes"
-    }
-   ],
-   "rank": 170,
-   "count": 7497,
-   "family": "vdes",
-   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -159,23 +292,23 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "people dead.",
+    "corpus": "QED",
+    "en": "Just do that.",
     "score": [
      0,
      3,
      -3,
-     10
+     5
     ],
-    "sq": "njerëz të vdekur."
+    "sq": "Thjesht bëj këtë."
    }
   },
   {
-   "id": "vdekje",
-   "sq": "vdekje",
-   "en": "death",
+   "id": "akoma",
+   "sq": "akoma",
+   "en": "still",
    "glosses": [
-    "death"
+    "still"
    ],
    "pos": [
     "noun"
@@ -187,9 +320,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "death",
+     "gloss": "still",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -199,13 +332,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Arbëresh Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -213,73 +346,50 @@
      ],
      "examples": [],
      "links": [
-      "death"
+      "still"
      ]
     }
    ],
-   "rank": 811,
-   "count": 1211,
-   "family": "vdes",
-   "is_root": false,
-   "etymology": "From Old Albanian vdekëlë, derivative built from vdekur (“dead”), past participle of vdes; vdes + -je.",
-   "etymology_class": "affix",
+   "rank": 178,
+   "count": 7235,
+   "family": "akoma",
+   "is_root": true,
+   "etymology": "Derives from Greek ακόμα (akóma).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "dead"
-   ],
-   "components": [
-    {
-     "word": "vdes",
-     "role": "base",
-     "en": "to die (used only for humans and bees)"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vdekje",
+     "form": "akoma",
      "tag": "plural"
     },
     {
-     "form": "vdekja",
+     "form": "akoman",
      "tag": "definite"
-    },
-    {
-     "form": "vdekë",
-     "tag": "alternative"
-    },
-    {
-     "form": "dekë",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Another death.",
+    "corpus": "QED",
+    "en": "No, not yet.",
     "score": [
      0,
      3,
      -3,
-     8
+     5
     ],
-    "sq": "Edhe një vdekje."
-   },
-   "breakdown": "transparent"
+    "sq": "Jo, akoma jo."
+   }
   },
   {
-   "id": "vdekja",
-   "sq": "vdekja",
-   "en": "the death, singular (from vdekje)",
+   "id": "vendin",
+   "sq": "vendin",
+   "en": "the place, singular (from vend)",
    "glosses": [
-    "the death, singular (from vdekje)"
+    "the place, singular (from vend)"
    ],
    "pos": [
     "noun"
@@ -291,11 +401,11 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the death, singular (from vdekje)",
+     "gloss": "the place, singular (from vend)",
      "tags": [
+      "accusative",
       "definite",
       "form-of",
-      "nominative",
       "singular"
      ],
      "cats": [
@@ -319,12 +429,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "vdekje"
+     "is_form_of": "vend"
     }
    ],
-   "rank": 1220,
-   "count": 746,
-   "family": "vdes",
+   "rank": 399,
+   "count": 2640,
+   "family": "vend",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -336,45 +446,225 @@
    "related": [],
    "forms": [],
    "corpus_example": {
+    "corpus": "QED",
+    "en": "It's illuminating the space.",
+    "score": [
+     1,
+     3,
+     -2,
+     5
+    ],
+    "sq": "Ajo ndricon vendin ."
+   }
+  },
+  {
+   "id": "vendosur",
+   "sq": "vendosur",
+   "en": "decide, past form (from vendos, to decide)",
+   "glosses": [
+    "decide, past form (from vendos, to decide)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "decide, past form (from vendos, to decide)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vendos"
+    }
+   ],
+   "rank": 703,
+   "count": 1437,
+   "family": "vend",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "SETIMES",
+    "en": "We're very determined.",
+    "score": [
+     0,
+     4,
+     -4,
+     7
+    ],
+    "sq": "Jemi shumë të vendosur."
+   }
+  },
+  {
+   "id": "vendos",
+   "sq": "vendos",
+   "en": "to decide",
+   "glosses": [
+    "to decide",
+    "to place"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to decide",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 21"
+      },
+      {
+       "name": "Albanian terms suffixed with -os",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "decide"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to place",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -os",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "place"
+     ]
+    }
+   ],
+   "rank": 790,
+   "count": 1253,
+   "family": "vend",
+   "is_root": false,
+   "etymology": "From vend + -os.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "vend",
+     "role": "base"
+    },
+    {
+     "word": "os",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "vendosje",
+    "vetëvendos",
+    "zhvendos"
+   ],
+   "related": [
+    "vendoj",
+    "zëvendës"
+   ],
+   "forms": [
+    {
+     "form": "vendosa",
+     "tag": "aorist"
+    },
+    {
+     "form": "vendosur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
     "corpus": "HPLT",
-    "en": "This was death.",
+    "en": "And who decides?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Kjo ishte vdekja."
-   }
-  }
- ],
- "patterns": [
-  {
-   "id": "je",
-   "label": "-je",
-   "meaning": "the act of (noun)",
-   "summary": "Turns a verb into the noun for doing it, mostly verbs that do not end in -oj: lidh (to tie) → lidhje (connection).",
-   "note": "Not every word ending in -je is built this way: anije (ship) is not.",
-   "examples": [
-    {
-     "sq": "mendje",
-     "en": "mind",
-     "stem": "mend",
-     "stem_en": "mind"
-    },
-    {
-     "sq": "dukje",
-     "en": "look",
-     "stem": "dukem",
-     "stem_en": "to seem"
-    },
-    {
-     "sq": "vdekje",
-     "en": "death",
-     "stem": "vdes",
-     "stem_en": "to die (used only for humans and bees)"
-    }
-   ]
+    "sq": "Dhe kush vendos?"
+   },
+   "breakdown": "historical"
   }
  ]
 }

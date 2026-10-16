@@ -58,6 +58,15 @@ echo "== root first, tail later =="
 step python3 tools/test_tail_later.py
 
 echo
+echo "== hand-curated opening =="
+# Section 3.2: the first levels are set by theme in tools/opening_levels.py
+# (greetings, pronouns, jam/kam, numbers, family, food...), then the
+# scheduler takes over. Pins the plan's rules with negative controls, the
+# "continues" marking on families the opening only began, and the shipped
+# opening itself, including the restored "e".
+step python3 tools/test_opening_levels.py
+
+echo
 echo "== shipped levels match the scheduler =="
 # Re-runs assign_levels() on the shipped cards (no raw sources needed) and
 # fails if any level file would change. Catches a scheduler change committed

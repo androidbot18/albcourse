@@ -1,53 +1,68 @@
 {
  "level": 160,
- "title": "premtoj",
- "root": "premtoj",
- "root_gloss": "to promise",
+ "title": "dije",
+ "root": "dije",
+ "root_gloss": "knowledge, learning",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "premtoj"
+  "dije"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 1
+  "noun": 3
  },
  "words": [
   {
-   "id": "premtoj",
-   "sq": "premtoj",
-   "en": "to promise",
+   "id": "dije",
+   "sq": "dije",
+   "en": "knowledge, learning",
    "glosses": [
-    "to promise"
+    "knowledge, learning",
+    "news, information"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to promise",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knowledge, learning",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "78 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "knowledge",
+      "learning"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "news, information",
+     "tags": [
+      "feminine",
+      "regional"
+     ],
+     "cats": [
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Regional Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -55,52 +70,50 @@
      ],
      "examples": [],
      "links": [
-      "promise"
+      "regional",
+      "news",
+      "information"
      ]
     }
    ],
-   "rank": 758,
-   "count": 1304,
-   "family": "premtoj",
+   "rank": 748,
+   "count": 1331,
+   "family": "dije",
    "is_root": true,
-   "etymology": "From Italian promettere (“promise”). Compare Romanian promite, French promettre.",
-   "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian promettere",
-   "parents": [
-    "promise"
-   ],
+   "etymology": "From di (“to know”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "premtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "premtuar",
-     "tag": "participle"
-    }
+   "derived": [
+    "dijedashës",
+    "dijekeqësi",
+    "dijekeq",
+    "dijeni",
+    "dijetar",
+    "dijetplotë"
    ],
+   "related": [],
+   "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "I promise you.",
+    "en": "How did you know?",
     "score": [
      0,
      3,
      -3,
      5
     ],
-    "sq": "Unë ju premtoj."
+    "sq": "Si e dije?"
    }
   },
   {
-   "id": "premtim",
-   "sq": "premtim",
-   "en": "promise",
+   "id": "dijetar",
+   "sq": "dijetar",
+   "en": "scientist",
    "glosses": [
-    "promise"
+    "scientist"
    ],
    "pos": [
     "noun"
@@ -112,10 +125,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "promise",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "scientist",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -124,7 +135,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -tar",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -138,54 +149,54 @@
      ],
      "examples": [],
      "links": [
-      "promise"
+      "scientist"
      ]
     }
    ],
-   "rank": 4686,
-   "count": 162,
-   "family": "premtoj",
+   "rank": 41155,
+   "count": 9,
+   "family": "dije",
    "is_root": false,
-   "etymology": "From premtoj + -im noun suffix.",
+   "etymology": "From dije + -tar.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "premtoj",
+     "word": "dije",
      "role": "base",
-     "en": "to promise"
+     "en": "knowledge"
     },
     {
-     "word": "im",
+     "word": "tar",
      "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "affix": "tar",
+     "meaning": "person / of"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "premtime",
+     "form": "dijetarë",
      "tag": "plural"
     },
     {
-     "form": "premtimi",
+     "form": "dijetari",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "It's a promise.",
+    "corpus": "HPLT",
+    "en": "What does distinguish this great scholar?",
     "score": [
-     0,
-     3,
-     -3,
-     4
+     2,
+     8,
+     -6,
+     10
     ],
-    "sq": "Është një premtim."
+    "sq": "Mirëpo çfarë e dallon këtë dijetar të madh?"
    },
    "breakdown": "transparent"
   }

@@ -1,28 +1,32 @@
 {
  "level": 320,
- "title": "shpëtoj, xhaxha, gojë +1",
+ "title": "bisedë, hip, dore +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 8,
  "families": [
-  "dyqan",
-  "gojë",
-  "shpëtoj",
-  "xhaxha"
+  "anglisht",
+  "bisedë",
+  "dore",
+  "errët",
+  "hip",
+  "kalojë"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 5
+  "verb": 4,
+  "noun": 5,
+  "adj": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "shpëtoj",
-   "sq": "shpëtoj",
-   "en": "to save, rescue",
+   "id": "biseduar",
+   "sq": "biseduar",
+   "en": "talk, past form (from bisedoj, to talk)",
    "glosses": [
-    "to save, rescue"
+    "talk, past form (from bisedoj, to talk)"
    ],
    "pos": [
     "verb"
@@ -34,9 +38,11 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to save, rescue",
+     "gloss": "talk, past form (from bisedoj, to talk)",
      "tags": [
-      "transitive"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -59,96 +65,192 @@
       }
      ],
      "examples": [],
-     "links": [
-      "save",
-      "rescue"
-     ]
+     "is_form_of": "bisedoj"
     }
    ],
-   "rank": 1832,
-   "count": 472,
-   "family": "shpëtoj",
-   "is_root": true,
-   "etymology": "From Vulgar Latin *expedītāre, from Latin expedīre (“to entrict, disengage”). Alternatively, a verbal formation with a prefix denoting the movement away from something from Proto-Indo-European *peth₂- (“to spread out; to fly”), connected to pjetë (“upwards”).",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin expedītāre",
+   "rank": 1782,
+   "count": 489,
+   "family": "bisedë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "That's how we talked together.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Kaq kemi biseduar bashkë."
+   }
+  },
+  {
+   "id": "hip",
+   "sq": "hip",
+   "en": "to get on, ride, straddle",
+   "glosses": [
+    "to get on, ride, straddle",
+    "to rise, go up, climb into"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get on, ride, straddle",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "get",
+      "on",
+      "ride"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rise, go up, climb into",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rise",
+      "go",
+      "up"
+     ]
+    }
+   ],
+   "rank": 1788,
+   "count": 487,
+   "family": "hip",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *skūpa, from Proto-Indo-European *skewbʰ- (“to push”). Compare German schieben (“to push”), English shove, Lithuanian skùbti (“to hurry”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "humb"
+   ],
    "forms": [
     {
-     "form": "shpëtova",
+     "form": "hipa",
      "tag": "aorist"
     },
     {
-     "form": "shpëtuar",
+     "form": "hipur",
      "tag": "participle"
+    },
+    {
+     "form": "hyp",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to get rid of it completely?",
+    "en": "Don't get on the bus.",
     "score": [
-     0,
-     7,
-     -7,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "Se si të shpëtoj prej tij plotësisht?"
+    "sq": "Mos hip në autobus."
    }
   },
   {
-   "id": "xhaxha",
-   "sq": "xhaxha",
-   "en": "paternal uncle (father's brother)",
+   "id": "dore",
+   "sq": "dore",
+   "en": "embroidered sleeve cuff",
    "glosses": [
-    "paternal uncle (father's brother)"
+    "embroidered sleeve cuff",
+    "handle of a knife or another tool"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "paternal uncle (father's brother)",
+     "gloss": "embroidered sleeve cuff",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "81 19"
       }
      ],
      "examples": [],
      "links": [
-      "paternal uncle"
+      "embroidered",
+      "cuff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "handle of a knife or another tool",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "handle",
+      "knife",
+      "tool"
      ]
     }
    ],
-   "rank": 1833,
-   "count": 472,
-   "family": "xhaxha",
+   "rank": 1791,
+   "count": 486,
+   "family": "dore",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -160,32 +262,174 @@
    "related": [],
    "forms": [
     {
-     "form": "xhaxhallarë",
+     "form": "dore",
      "tag": "plural"
     },
     {
-     "form": "xhaxhai",
+     "form": "dorja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I had an uncle.",
+    "en": "We go forward hand in hand.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Ne shkojmë dorë për dore."
+   }
+  },
+  {
+   "id": "errët",
+   "sq": "errët",
+   "en": "dark",
+   "glosses": [
+    "dark"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "dark",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dark"
+     ]
+    }
+   ],
+   "rank": 1797,
+   "count": 484,
+   "family": "errët",
+   "is_root": true,
+   "etymology": "From err (“darkness”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "darkness"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Road is Dark!",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Kam pasur një xhaxha."
+    "sq": "Rruga është e errët!"
    }
   },
   {
-   "id": "gojë",
-   "sq": "gojë",
-   "en": "mouth",
+   "id": "anglisht",
+   "sq": "anglisht",
+   "en": "in English",
    "glosses": [
-    "mouth"
+    "in English"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in English",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "English"
+     ]
+    }
+   ],
+   "rank": 1801,
+   "count": 482,
+   "family": "anglisht",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "Tatoeba",
+    "en": "Do you speak English?",
+    "score": [
+     0,
+     3,
+     -3,
+     0
+    ],
+    "sq": "A flisni anglisht?"
+   }
+  },
+  {
+   "id": "kalojë",
+   "sq": "kalojë",
+   "en": "passageway",
+   "glosses": [
+    "passageway"
    ],
    "pos": [
     "noun"
@@ -197,7 +441,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mouth",
+     "gloss": "passageway",
      "tags": [
       "feminine"
      ],
@@ -221,182 +465,180 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Dramburi te clofto goglie!",
-       "en": "May your mouth tremble!",
-       "offsets": [
-        [
-         19,
-         25
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "mouth"
+      "passageway"
      ]
     }
    ],
-   "rank": 1838,
-   "count": 471,
-   "family": "gojë",
+   "rank": 1803,
+   "count": 482,
+   "family": "kalojë",
    "is_root": true,
-   "etymology": "From variant golë, borrowed from Italian gola.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "gojë",
-     "tag": "plural"
-    },
-    {
-     "form": "goja",
-     "tag": "definite"
-    },
-    {
-     "form": "golë",
-     "tag": "alternative"
-    },
-    {
-     "form": "goljë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "dyqan",
-   "sq": "dyqan",
-   "en": "shop, store",
-   "glosses": [
-    "shop, store",
-    "workshop, shop"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shop, store",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "shop",
-      "store"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "workshop, shop",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 85"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 79"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 90"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "workshop",
-      "shop"
-     ]
-    }
-   ],
-   "rank": 1842,
-   "count": 470,
-   "family": "dyqan",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish دكان (dükkân).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "autodyqan",
-    "dyqan-shtëpi",
-    "dyqanxhi"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "dyqane",
-     "tag": "plural"
-    },
-    {
-     "form": "duqan",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "words in the store.",
+    "en": "Will pass.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "fjalët në dyqan."
+    "sq": "Do të kalojë."
    }
   },
   {
-   "id": "shpëtim",
-   "sq": "shpëtim",
-   "en": "salvage",
+   "id": "bisedë",
+   "sq": "bisedë",
+   "en": "conversation",
    "glosses": [
-    "salvage"
+    "conversation",
+    "discussion"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "salvage",
+     "gloss": "conversation",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "conversation"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "discussion",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discussion"
+     ]
+    }
+   ],
+   "rank": 2017,
+   "count": 430,
+   "family": "bisedë",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, ultimately from Proto-Slavic *besěda (“sitting outside, gathering, conversation”). Compare Old Church Slavonic бесѣда (besěda, “conversation, word”) Serbo-Croatian beseda (“word, speech”), Macedonian беседа (beseda).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "bisedoj",
+    "bisedues",
+    "bisedor",
+    "bisedar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "biseda",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "This is what politics looks like today.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Nuk ka më bisedë."
+   }
+  },
+  {
+   "id": "bisedoj",
+   "sq": "bisedoj",
+   "en": "to talk, to converse",
+   "glosses": [
+    "to talk, to converse"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to talk, to converse",
+     "tags": [
+      "intransitive"
      ],
      "cats": [
       {
@@ -406,7 +648,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -420,56 +662,56 @@
      ],
      "examples": [],
      "links": [
-      "salvage"
+      "talk",
+      "converse"
      ]
     }
    ],
-   "rank": 6448,
-   "count": 110,
-   "family": "shpëtoj",
+   "rank": 2690,
+   "count": 306,
+   "family": "bisedë",
    "is_root": false,
-   "etymology": "Gerund of shpëtoj; shpëtoj + -im.",
-   "etymology_class": null,
+   "etymology": "From bisedë (“conversation”) + -oj (verb suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "conversation"
+   ],
    "components": [
     {
-     "word": "shpëtoj",
-     "role": "base",
-     "en": "to save"
+     "word": "bisedë",
+     "role": "base"
     },
     {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "word": "oj",
+     "role": "suffix"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shpëtime",
-     "tag": "plural"
+     "form": "bisedova",
+     "tag": "aorist"
     },
     {
-     "form": "shpëtimi",
-     "tag": "definite"
+     "form": "biseduar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There is already no chance of salvation.",
+    "en": "But I don't even talk to anyone here…!",
     "score": [
      0,
-     6,
-     -6,
+     8,
+     -8,
      10
     ],
-    "sq": "Nuk ka tashmë shans për shpëtim."
+    "sq": "-Por unë as këtu nuk bisedoj me njeri…!"
    },
-   "breakdown": "transparent"
+   "breakdown": "historical"
   }
  ]
 }

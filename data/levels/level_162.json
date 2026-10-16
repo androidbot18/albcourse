@@ -1,126 +1,106 @@
 {
  "level": 162,
- "title": "erë",
- "root": "erë",
- "root_gloss": "wind",
+ "title": "premtoj",
+ "root": "premtoj",
+ "root_gloss": "to promise",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "erë"
+  "premtoj"
  ],
  "pos_mix": {
-  "noun": 3
+  "verb": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "erë",
-   "sq": "erë",
-   "en": "wind",
+   "id": "premtoj",
+   "sq": "premtoj",
+   "en": "to promise",
    "glosses": [
-    "wind",
-    "smell"
+    "to promise"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wind",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "wind"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "smell",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to promise",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 85"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "smell"
+      "promise"
      ]
     }
    ],
-   "rank": 762,
-   "count": 1298,
-   "family": "erë",
+   "rank": 758,
+   "count": 1304,
+   "family": "premtoj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ōd-r-, from Proto-Indo-European *h₃ed- (“to smell, stink”). Alternatively, from Latin āēr.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "erëzë"
+   "etymology": "From Italian promettere (“promise”). Compare Romanian promite, French promettre.",
+   "etymology_class": "borrowed",
+   "source_lang": "it",
+   "cognate": "from Italian promettere",
+   "parents": [
+    "promise"
    ],
+   "components": [],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "erëra",
-     "tag": "plural"
+     "form": "premtova",
+     "tag": "aorist"
     },
     {
-     "form": "era",
-     "tag": "definite"
+     "form": "premtuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "QED",
-    "en": "Smells good.",
+    "en": "I promise you.",
     "score": [
      0,
      3,
      -3,
      5
     ],
-    "sq": "Erë të mirë."
+    "sq": "Unë ju premtoj."
    }
   },
   {
-   "id": "era",
-   "sq": "era",
-   "en": "the wind, singular (from erë)",
+   "id": "premtim",
+   "sq": "premtim",
+   "en": "promise",
    "glosses": [
-    "the wind, singular (from erë)"
+    "promise"
    ],
    "pos": [
     "noun"
@@ -132,12 +112,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the wind, singular (from erë)",
+     "gloss": "promise",
      "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
+      "masculine"
      ],
      "cats": [
       {
@@ -147,46 +124,70 @@
        "source": "w"
       },
       {
-       "name": "Pages with 40 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "erë"
+     "links": [
+      "promise"
+     ]
     }
    ],
-   "rank": 1366,
-   "count": 650,
-   "family": "erë",
+   "rank": 4686,
+   "count": 162,
+   "family": "premtoj",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From premtoj + -im noun suffix.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "premtoj",
+     "role": "base",
+     "en": "to promise"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "premtime",
+     "tag": "plural"
+    },
+    {
+     "form": "premtimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The wind is free.",
+    "corpus": "TED2020",
+    "en": "It's a promise.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     4
     ],
-    "sq": "Era është e lirë."
-   }
+    "sq": "Është një premtim."
+   },
+   "breakdown": "transparent"
   }
  ]
 }

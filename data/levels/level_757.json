@@ -1,45 +1,45 @@
 {
  "level": 757,
- "title": "puçërr, korr, dang +3",
+ "title": "shpall, cilindër, boshatis +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "avaz",
-  "dang",
-  "gjallesë",
-  "koprac",
-  "korr",
-  "puçërr"
+  "besa",
+  "boshatis",
+  "cilindër",
+  "edh",
+  "noçkë",
+  "shpall"
  ],
  "pos_mix": {
-  "noun": 5,
-  "verb": 3,
-  "adj": 1
+  "verb": 2,
+  "noun": 6,
+  "intj": 1
  },
  "words": [
   {
-   "id": "puçërr",
-   "sq": "puçërr",
-   "en": "pimple",
+   "id": "shpall",
+   "sq": "shpall",
+   "en": "to announce, to declare",
    "glosses": [
-    "pimple"
+    "to announce, to declare"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pimple",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to announce, to declare",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -63,171 +63,65 @@
      ],
      "examples": [],
      "links": [
-      "pimple"
+      "announce",
+      "declare"
      ]
     }
    ],
-   "rank": 40738,
-   "count": 9,
-   "family": "puçërr",
+   "rank": 7119,
+   "count": 99,
+   "family": "shpall",
    "is_root": true,
-   "etymology": "From an expressive variant in -rr of Proto-Albanian *putso, from Proto-Indo-European *puH- (“rotten, foul”); compare Sanskrit पूयति (pūyati, “stinks, rots”), Latin pus (“discharge from a sore”), Ancient Greek πύθω (púthō, “to rot”). Doublet of fëlliq.",
-   "etymology_class": "derived",
+   "etymology": "Albanian formation with the prefix sh- + pall.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "sh",
+     "role": "prefix"
+    },
+    {
+     "word": "pall",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "puçrra",
-     "tag": "plural"
+     "form": "shpalla",
+     "tag": "aorist"
+    },
+    {
+     "form": "shpallur",
+     "tag": "participle"
+    },
+    {
+     "form": "çpall",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How to get rid of bad breath?",
+    "en": "and proclaim in it!",
     "score": [
      0,
-     6,
-     -6,
+     4,
+     -4,
      10
     ],
-    "sq": "Si të shpëtoj nga një puçërr."
-   }
+    "sq": "dhe shpall në të!"
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "korr",
-   "sq": "korr",
-   "en": "to harvest, reap",
+   "id": "cilindër",
+   "sq": "cilindër",
+   "en": "cylinder",
    "glosses": [
-    "to harvest, reap",
-    "to kill en masse, to annihilate, to exterminate",
-    "to win (money), to secure victory, to achieve"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to harvest, reap",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 39 23 11"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Mbjell me lot, korr me gëzim.",
-       "en": "Sow with tears, reap with joy.",
-       "offsets": [
-        [
-         15,
-         19
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "harvest",
-      "reap"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to kill en masse, to annihilate, to exterminate",
-     "tags": [
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "kill",
-      "en masse",
-      "annihilate"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to win (money), to secure victory, to achieve",
-     "tags": [
-      "also",
-      "figuratively",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "win",
-      "secure",
-      "achieve"
-     ]
-    }
-   ],
-   "rank": 40771,
-   "count": 9,
-   "family": "korr",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kāra, from earlier *kasra, from Proto-Indo-European *kes- (compare Lithuanian kàsti (“to dig, scrape”), Latin raccogliere (“to harvest, reap”), Serbo-Croatian kòsa (“scythe”)).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "scythe"
-   ],
-   "components": [],
-   "derived": [
-    "korrë",
-    "korrik",
-    "korriqe"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "korra",
-     "tag": "aorist"
-    },
-    {
-     "form": "korrur",
-     "tag": "participle"
-    },
-    {
-     "form": "kuarr",
-     "tag": "alternative"
-    },
-    {
-     "form": "kuor",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "dang",
-   "sq": "dang",
-   "en": "bite, nip",
-   "glosses": [
-    "bite, nip"
+    "cylinder"
    ],
    "pos": [
     "noun"
@@ -239,10 +133,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bite, nip",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "cylinder",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -251,7 +143,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 15 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -265,16 +157,16 @@
      ],
      "examples": [],
      "links": [
-      "bite",
-      "nip"
+      "geometry",
+      "cylinder"
      ]
     }
    ],
-   "rank": 40809,
-   "count": 9,
-   "family": "dang",
+   "rank": 39490,
+   "count": 10,
+   "family": "cilindër",
    "is_root": true,
-   "etymology": "A lengthening of danë, Gheg variant of darë. Compare Old High German zanga (“tongs”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -285,44 +177,41 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Those discoveries range from the hysterical to the dang-right chilling.",
+    "en": "to have it go into the cylinder.",
     "score": [
-     5,
-     9,
-     -4,
+     0,
+     6,
+     -6,
      10
     ],
-    "sq": "Këto zbulime variojnë nga histerike te ftohja dang-djathtas."
+    "sq": "që kanë të shkojnë në cilindër."
    }
   },
   {
-   "id": "koprac",
-   "sq": "koprac",
-   "en": "stingy, scrooge, cheapskate",
+   "id": "boshatis",
+   "sq": "boshatis",
+   "en": "to empty",
    "glosses": [
-    "stingy, scrooge, cheapskate"
+    "to empty"
    ],
    "pos": [
-    "adj"
+    "verb"
    ],
    "pos_labels": [
-    "adjective"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "stingy, scrooge, cheapskate",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to empty",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -332,22 +221,109 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "stingy",
-      "scrooge",
-      "cheapskate"
+      "empty"
      ]
     }
    ],
-   "rank": 40861,
-   "count": 9,
-   "family": "koprac",
+   "rank": 39506,
+   "count": 10,
+   "family": "boshatis",
    "is_root": true,
-   "etymology": "Probably from the same root of kap, from Proto-Indo-European *kap- (“to grasp, take”).",
+   "etymology": "From bosh (“empty”).",
    "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "empty"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "boshatisa",
+     "tag": "aorist"
+    },
+    {
+     "form": "boshatisur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Finally, the square was empty.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Ma në fund sheshi u boshatis."
+   }
+  },
+  {
+   "id": "edh",
+   "sq": "edh",
+   "en": "goat kid (under a year old)",
+   "glosses": [
+    "goat kid (under a year old)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "goat kid (under a year old)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kid"
+     ]
+    }
+   ],
+   "rank": 39524,
+   "count": 10,
+   "family": "edh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ayð(iy)a-, from Proto-Indo-European *h₂eyǵ- (compare Ancient Greek αἴξ (aíx), Armenian այծ (ayc), Lithuanian ožỹs).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -356,25 +332,39 @@
    "related": [],
    "forms": [
     {
-     "form": "koprace",
-     "tag": "feminine"
+     "form": "edha",
+     "tag": "plural"
+    },
+    {
+     "form": "edhi",
+     "tag": "definite"
+    },
+    {
+     "form": "hedh",
+     "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "avaz",
-   "sq": "avaz",
-   "en": "vice, bad habit",
+   "id": "noçkë",
+   "sq": "noçkë",
+   "en": "protruding part of a bone, e.g. ankle, knuckle, fetlock",
    "glosses": [
-    "vice, bad habit",
-    "refrain, tune, melody, song"
+    "protruding part of a bone, e.g. ankle, knuckle, fetlock",
+    "knob, nodule, protuberance",
+    "knot in wood",
+    "snout, trunk (elephant)"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -382,10 +372,127 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vice, bad habit",
+     "gloss": "protruding part of a bone, e.g. ankle, knuckle, fetlock",
      "tags": [
-      "derogatory",
-      "masculine"
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 8 4 15"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "60 17 11 11"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "ankle",
+      "knuckle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knob, nodule, protuberance",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "knob",
+      "nodule"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knot in wood",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "knot"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "snout, trunk (elephant)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "snout",
+      "trunk"
+     ]
+    }
+   ],
+   "rank": 39573,
+   "count": 10,
+   "family": "noçkë",
+   "is_root": true,
+   "etymology": "From South Slavic; cf. Serbo-Croatian њу̏шка / njȕška (“snout, muzzle, neb”), Bulgarian нюшка (njuška). Alternatively from Albanian noçë, of unclear origin. Possibly from an older *noshë, continuing Proto-Indo-European *néh₂s, *nh₂es (“nose, nostrils”), with the affricatization of the original final fricative (cf. çaj ~ shaj etc.).",
+   "etymology_class": null,
+   "source_lang": "sr",
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "noçka",
+     "tag": "plural"
+    },
+    {
+     "form": "noçë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "besa",
+   "sq": "besa",
+   "en": "really, to tell the truth",
+   "glosses": [
+    "really, to tell the truth"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "really, to tell the truth",
+     "tags": [
+      "colloquial"
      ],
      "cats": [
       {
@@ -393,136 +500,41 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "27 73"
+       "_dis": "74 26"
       }
      ],
      "examples": [],
      "links": [
-      "derogatory",
-      "vice",
-      "bad"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "refrain, tune, melody, song",
-     "tags": [
-      "colloquial",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "refrain",
-      "tune",
-      "melody"
+      "really",
+      "to tell the truth"
      ]
     }
    ],
-   "rank": 40931,
+   "rank": 39674,
    "count": 9,
-   "family": "avaz",
+   "family": "besa",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish آواز (avaz, “cry, shout; voice, sound; tone, note”), from Classical Persian آواز (āwāz).",
-   "etymology_class": "borrowed",
+   "etymology": "From besë (“faith”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "faith"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "avaze",
-     "tag": "plural"
-    },
-    {
-     "form": "avazi",
-     "tag": "definite"
-    },
-    {
-     "form": "havaz",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "gjallesë",
-   "sq": "gjallesë",
-   "en": "creature",
-   "glosses": [
-    "creature"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "creature",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -e",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "creature"
-     ]
-    }
-   ],
-   "rank": 40992,
-   "count": 9,
-   "family": "gjallesë",
-   "is_root": true,
-   "etymology": "From gjalles + -e.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gjallesa",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "He created the heavens, the earth, and all living things.",
+    "corpus": "HPLT",
+    "en": "Besa Albanian is the Albanian word of honor.",
     "score": [
-     3,
+     1,
      7,
-     -4,
-     8
+     -6,
+     10
     ],
-    "sq": "Ai krijoi qiejt, tokën dhe çdo gjallesë."
+    "sq": "Besa shqiptare është fjala shqiptare e nderit."
    }
   }
  ]

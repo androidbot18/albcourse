@@ -1,31 +1,43 @@
 {
  "level": 153,
- "title": "mbet",
- "root": "mbet",
- "root_gloss": "to stay, remain",
+ "title": "bie",
+ "root": "bie",
+ "root_gloss": "to fall (off)",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "mbet"
+  "bie"
  ],
  "pos_mix": {
-  "verb": 3
+  "verb": 9
  },
  "words": [
   {
-   "id": "mbet",
-   "sq": "mbet",
-   "en": "to stay, remain",
+   "id": "bie",
+   "sq": "bie",
+   "en": "to fall (off)",
    "glosses": [
-    "to stay, remain",
-    "to be stunned, surprised"
+    "to fall (off)",
+    "to tumble, flop",
+    "to beat, punch",
+    "to strike, punch",
+    "to bring",
+    "to deliver"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
@@ -33,7 +45,66 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to stay, remain",
+     "gloss": "to fall (off)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po bie në gjumë.",
+       "en": "I'm going to fall asleep.",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fall",
+      "off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tumble, flop",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tumble",
+      "flop"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to beat, punch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beat",
+      "punch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to strike, punch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "strike",
+      "punch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bring",
      "tags": [],
      "cats": [
       {
@@ -41,86 +112,62 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "58 42"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "70 30"
+       "_dis": "11 11 11 11 35 19"
       }
      ],
      "examples": [],
      "links": [
-      "stay",
-      "remain"
+      "bring"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to be stunned, surprised",
+     "gloss": "to deliver",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "stunned",
-      "surprised"
+      "deliver"
      ]
     }
    ],
-   "rank": 15491,
-   "count": 37,
-   "family": "mbet",
+   "rank": 699,
+   "count": 1445,
+   "family": "bie",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ambi-etja, a denominative of jetë.",
-   "etymology_class": null,
+   "etymology": "From dialectal bjej, bjer, from Proto-Albanian *bera, from Proto-Indo-European *bʰerH- (“to strike”) (compare Old English berian, Latin ferīre).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "mbetje",
-    "mbeturinë"
+    "bie me dorë"
    ],
-   "related": [],
+   "related": [
+    "mbaj",
+    "mbar",
+    "mbaroj"
+   ],
    "forms": [
     {
-     "form": "mbeta",
+     "form": "prura",
      "tag": "aorist"
     },
     {
-     "form": "mbetur",
+     "form": "prurë",
      "tag": "participle"
-    },
-    {
-     "form": "mbes",
-     "tag": "alternative"
-    },
-    {
-     "form": "met",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We always have families.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Ne gjithmonë kemi me mbet familje."
-   }
+   "corpus_example": null
   },
   {
-   "id": "mbetur",
-   "sq": "mbetur",
-   "en": "stay, past form (from mbet, to stay)",
+   "id": "rënë",
+   "sq": "rënë",
+   "en": "fall, past form (from bie, to fall)",
    "glosses": [
-    "stay, past form (from mbet, to stay)"
+    "fall, past form (from bie, to fall)"
    ],
    "pos": [
     "verb"
@@ -132,7 +179,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "stay, past form (from mbet, to stay)",
+     "gloss": "fall, past form (from bie, to fall)",
      "tags": [
       "form-of",
       "participle",
@@ -159,12 +206,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "mbet"
+     "is_form_of": "bie"
     }
    ],
-   "rank": 701,
-   "count": 1439,
-   "family": "mbet",
+   "rank": 928,
+   "count": 1028,
+   "family": "bie",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -176,15 +223,157 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Few people remain.",
+    "corpus": "HPLT",
+    "en": "You have fallen too low.",
     "score": [
      0,
      4,
      -4,
-     8
+     10
     ],
-    "sq": "Pak njerëz kanë mbetur."
+    "sq": "Ke rënë shumë poshtë."
+   }
+  },
+  {
+   "id": "ramë",
+   "sq": "ramë",
+   "en": "we (have done) fall (from bie, to fall)",
+   "glosses": [
+    "we (have done) fall (from bie, to fall)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "we (have done) fall (from bie, to fall)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bie"
+     ],
+     "is_form_of": "bie"
+    }
+   ],
+   "rank": 5646,
+   "count": 130,
+   "family": "bie",
+   "is_root": false,
+   "etymology": "Inflection of bie.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We disagreed on many points.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Në shumë pika nuk ramë dakord."
+   }
+  },
+  {
+   "id": "ranë",
+   "sq": "ranë",
+   "en": "they (have done) fall (from bie, to fall)",
+   "glosses": [
+    "they (have done) fall (from bie, to fall)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "they (have done) fall (from bie, to fall)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bie"
+     ],
+     "is_form_of": "bie"
+    }
+   ],
+   "rank": 6670,
+   "count": 106,
+   "family": "bie",
+   "is_root": false,
+   "etymology": "Inflection of bie.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Many people agreed.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Shumë njerëz ranë dakord."
    }
   }
  ]

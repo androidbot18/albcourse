@@ -97,8 +97,15 @@ if W:
     byw = {w["sq"]: w for w in W}
     opening = [w for w in W if w["level"] <= op.EARLY_LEVELS_DEFAULT]
 
-    # 4086 plus `po` (pos_balance.INCLUDE_PARTICLES).
-    check("the deck still has 4087 cards", len(W), 4087)
+    # 4086, plus `po` (pos_balance.INCLUDE_PARTICLES) and `e`, restored
+    # for the curated opening (RECOMMENDATIONS.md section 3.2).
+    check("the deck has 4088 cards", len(W), 4088)
+
+    # The policy governs the SCHEDULER, which starts after the curated
+    # opening (tools/opening_levels.py). That opening teaches `jo` and the
+    # numbers on purpose; tools/test_opening_levels.py pins it.
+    import opening_levels  # noqa: E402
+    n_cur = len(opening_levels.LEVELS)
 
     # The headline complaint: conjunctions must not open the course.
     # The gate defers FAMILY ROOTS, so a member of an admitted family is
@@ -108,12 +115,12 @@ if W:
     # Testing membership of the allowlist per-word produced a false failure
     # on it. What must not happen is a deferred ROOT opening the course.
     early_blocked_roots = [w["sq"] for w in opening
-                           if w["level"] <= 2
+                           if n_cur < w["level"] <= n_cur + 2
                            and w.get("is_root")
                            and op.is_function_word(w)
                            and not op.admits_to_opening(w["sq"])
                            and not op.admits_family_to_opening(w["sq"])]
-    check("no deferred closed-class root in levels 1-2",
+    check("no deferred closed-class root in the scheduler's first 2 levels",
           early_blocked_roots, [])
 
     check("te is not in level 1",

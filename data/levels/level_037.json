@@ -1,125 +1,107 @@
 {
  "level": 37,
- "title": "zotëri, kurrë, dreqin",
+ "title": "së, tek, vërtetë",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 4,
  "families": [
-  "dreqin",
-  "kurrë",
-  "zotëri"
+  "së",
+  "tek",
+  "vërtetë"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adv": 1,
-  "intj": 1
+  "adv": 4,
+  "adj": 2
  },
  "words": [
   {
-   "id": "zotëri",
-   "sq": "zotëri",
-   "en": "mister, gentleman",
+   "id": "së",
+   "sq": "së",
+   "en": "not, don't",
    "glosses": [
-    "mister, gentleman",
-    "lord, sir"
+    "not, don't",
+    "Negates the meaning of the modified verb."
    ],
    "pos": [
-    "noun",
-    "noun"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mister, gentleman",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "not, don't",
+     "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "mister",
-      "gentleman"
+      "not",
+      "don't"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "lord, sir",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "Negates the meaning of the modified verb.",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 63"
+       "sq": "A s'është ai...?",
+       "en": "Isn't he ...?",
+       "offsets": [
+        [
+         2,
+         4
+        ]
+       ]
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 68"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 89"
+       "sq": "Unë di. Unë s'di.",
+       "en": "I know. I don't know.",
+       "offsets": [
+        [
+         12,
+         14
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "links": [
-      "lord",
-      "sir"
-     ]
+     "links": []
     }
    ],
-   "rank": 124,
-   "count": 10845,
-   "family": "zotëri",
+   "rank": 103,
+   "count": 13822,
+   "family": "së",
    "is_root": true,
-   "etymology": "From zotër, plural form of zot.",
+   "etymology": "See alternative form s' (“not, don't”) for adverb së for etymology.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "zot",
-    "zoti",
-    "zotëni"
+   "related": [],
+   "forms": [
+    {
+     "form": "nuk",
+     "tag": "alternative"
+    }
    ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Thank you sir.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Ju faleminderit zotëri."
-   }
+   "corpus_example": null
   },
   {
-   "id": "kurrë",
-   "sq": "kurrë",
-   "en": "never",
+   "id": "tek",
+   "sq": "tek",
+   "en": "there, where",
    "glosses": [
-    "never"
+    "there, where"
    ],
    "pos": [
     "adv"
@@ -131,7 +113,179 @@
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "never",
+     "gloss": "there, where",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 22 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "over",
+      "there",
+      "where"
+     ]
+    }
+   ],
+   "rank": 104,
+   "count": 13539,
+   "family": "tek",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *tai ̊, from *te ku (< *tóy- kʷu- (“there where”)), from Proto-Indo-European *to- (“it”). Also occurs as a preposition with the meaning ‘ad, apud, prope, versus’. See also te.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "it"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "te",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We come to you!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Ne vijmë tek ju!"
+   }
+  },
+  {
+   "id": "vërtetë",
+   "sq": "vërtetë",
+   "en": "true, real",
+   "glosses": [
+    "true, real",
+    "genuine, authentic"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "true, real",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "true",
+      "real"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "genuine, authentic",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "genuine",
+      "authentic"
+     ]
+    }
+   ],
+   "rank": 107,
+   "count": 13193,
+   "family": "vërtetë",
+   "is_root": true,
+   "etymology": "From Latin vēritās, vēritātem.",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "cognate": "from Latin vēritās",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "vërtetësi"
+   ],
+   "related": [
+    "vërteta"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "It's true.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Është e vërtetë."
+   }
+  },
+  {
+   "id": "përsëri",
+   "sq": "përsëri",
+   "en": "again",
+   "glosses": [
+    "again"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "again",
      "tags": [],
      "cats": [
       {
@@ -155,184 +309,44 @@
      ],
      "examples": [],
      "links": [
-      "never"
+      "again"
      ]
     }
    ],
-   "rank": 129,
-   "count": 10186,
-   "family": "kurrë",
-   "is_root": true,
-   "etymology": "Compound of Proto-Albanian *kur + *ne/o- negative particle. More at kur.",
-   "etymology_class": null,
+   "rank": 231,
+   "count": 5372,
+   "family": "së",
+   "is_root": false,
+   "etymology": "From për- + së + ri.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "kur",
+     "word": "për",
      "role": "prefix"
+    },
+    {
+     "word": "së",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It never was.",
+    "corpus": "QED",
+    "en": "Come back!",
     "score": [
      0,
      3,
      -3,
-     10
+     5
     ],
-    "sq": "Kurrë nuk ishte."
+    "sq": "Të vijnë përsëri!"
    },
    "breakdown": "historical"
-  },
-  {
-   "id": "dreqin",
-   "sq": "dreqin",
-   "en": "damnit",
-   "glosses": [
-    "damnit"
-   ],
-   "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "damnit",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "damnit"
-     ]
-    }
-   ],
-   "rank": 130,
-   "count": 10163,
-   "family": "dreqin",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Where the hell is it?",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Ku dreqin është kjo?"
-   }
-  },
-  {
-   "id": "zotërinj",
-   "sq": "zotërinj",
-   "en": "mister, plural (from zotëri)",
-   "glosses": [
-    "mister, plural (from zotëri)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mister, plural (from zotëri)",
-     "tags": [
-      "accusative",
-      "form-of",
-      "indefinite",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "zotëri"
-    }
-   ],
-   "rank": 716,
-   "count": 1415,
-   "family": "zotëri",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Welcome, gentlemen!",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Mirë se vini, zotërinj!"
-   }
   }
  ]
 }

@@ -1,29 +1,245 @@
 {
  "level": 790,
- "title": "haber, mëshoj, forcohem +2",
+ "title": "mpreh, pasiv, rrjedhim +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 6,
  "families": [
-  "forcohem",
-  "haber",
-  "mëshoj",
-  "ngjesh",
-  "nyjë"
+  "gamë",
+  "inflacion",
+  "krip",
+  "mpreh",
+  "pasiv",
+  "rrjedhim"
  ],
  "pos_mix": {
-  "noun": 7,
-  "verb": 6
+  "verb": 1,
+  "adj": 2,
+  "noun": 5
  },
  "words": [
   {
-   "id": "haber",
-   "sq": "haber",
-   "en": "news, information, report",
+   "id": "mpreh",
+   "sq": "mpreh",
+   "en": "to sharpen, whet, hone",
    "glosses": [
-    "news, information, report"
+    "to sharpen, whet, hone"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sharpen, whet, hone",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with n-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sharpen",
+      "whet",
+      "hone"
+     ]
+    }
+   ],
+   "rank": 46832,
+   "count": 7,
+   "family": "mpreh",
+   "is_root": true,
+   "etymology": "From n- + preh.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mpreha",
+     "tag": "aorist"
+    },
+    {
+     "form": "mprehur",
+     "tag": "participle"
+    },
+    {
+     "form": "mbreh",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My mantra is: sharpen your body to sharpen your mind.",
+    "score": [
+     5,
+     9,
+     -4,
+     10
+    ],
+    "sq": "Mantra ime është: mpreh trupin për të mprehur mendjen."
+   }
+  },
+  {
+   "id": "pasiv",
+   "sq": "pasiv",
+   "en": "passive",
+   "glosses": [
+    "passive",
+    "pertaining to liabilities",
+    "liability"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "passive",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "passive"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "pertaining to liabilities",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Finance",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Finance",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 42 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "finance",
+      "liabilities"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "liability",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Accounting",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Accounting",
+       "langcode": "sq"
+      },
+      {
+       "name": "Finance",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Finance",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 42 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "finance",
+      "accounting",
+      "liability"
+     ]
+    }
+   ],
+   "rank": 46897,
+   "count": 7,
+   "family": "pasiv",
+   "is_root": true,
+   "etymology": "A modern borrowing, from English passive.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pasive",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It will be so very passive.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Ajo do të jetë aq shumë pasiv."
+   }
+  },
+  {
+   "id": "rrjedhim",
+   "sq": "rrjedhim",
+   "en": "consequence",
+   "glosses": [
+    "consequence"
    ],
    "pos": [
     "noun"
@@ -35,211 +251,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "news, information, report",
+     "gloss": "consequence",
      "tags": [
-      "colloquial"
+      "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "news",
-      "information",
-      "report"
-     ]
-    }
-   ],
-   "rank": 49711,
-   "count": 7,
-   "family": "haber",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish خبر (haber), from Arabic خَبَر (ḵabar).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I thought now that there is no good news.",
-    "score": [
-     1,
-     8,
-     -7,
-     10
-    ],
-    "sq": "Mendova tani se mos ka haber të mirë."
-   }
-  },
-  {
-   "id": "mëshoj",
-   "sq": "mëshoj",
-   "en": "to squeeze, press, hit, lean",
-   "glosses": [
-    "to squeeze, press, hit, lean",
-    "to weigh down",
-    "to emphasize",
-    "to use forcefully"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to squeeze, press, hit, lean",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "squeeze",
-      "press",
-      "hit"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to weigh down",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 48 17 17"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 48 17 17"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 63 12 12"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weigh down"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to emphasize",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "emphasize"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to use forcefully",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "use",
-      "forcefully"
-     ]
-    }
-   ],
-   "rank": 49723,
-   "count": 7,
-   "family": "mëshoj",
-   "is_root": true,
-   "etymology": "First attested in Matrënga's catechism as të mbëshuarë (“load, burden”). A prefixed form of pëshoj, a variation of the standard peshoj (“to weigh”), itself verbalized from peshë (“weight”), from Latin pēnsum (“id.”). Compare mësoj and pësoj for morphological development.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "mëshim"
-   ],
-   "related": [
-    "peshë"
-   ],
-   "forms": [
-    {
-     "form": "mëshova",
-     "tag": "aorist"
-    },
-    {
-     "form": "mëshuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "forcohem",
-   "sq": "forcohem",
-   "en": "to strengthen oneself",
-   "glosses": [
-    "to strengthen oneself"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to strengthen oneself",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -262,14 +277,13 @@
      ],
      "examples": [],
      "links": [
-      "strengthen",
-      "oneself"
+      "consequence"
      ]
     }
    ],
-   "rank": 49853,
+   "rank": 46909,
    "count": 7,
-   "family": "forcohem",
+   "family": "rrjedhim",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -279,32 +293,195 @@
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Therefore, I was also an enemy.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Si rrjedhim, edhe unë isha armik."
+   }
+  },
+  {
+   "id": "krip",
+   "sq": "krip",
+   "en": "head of hair",
+   "glosses": [
+    "head of hair"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "head of hair",
+     "tags": [
+      "Arbëresh",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "head of hair"
+     ]
+    }
+   ],
+   "rank": 46967,
+   "count": 7,
+   "family": "krip",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kripa, from Proto-Indo-European *ḱripo- (“headhair”). Compare Avestan 𐬯𐬭𐬌𐬟𐬁 (srifā, “plume”), Sanskrit शिप्रा (śíprā, “mustache and beard”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "headhair"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "forcuar",
-     "tag": "participle"
+     "form": "kripi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is prepared with grated potatoes, onions, salt and spearmint.",
+    "score": [
+     3,
+     8,
+     -5,
+     10
+    ],
+    "sq": "Ajo gatuhet me patate, qep, krip dhe nenexhik."
+   }
+  },
+  {
+   "id": "gamë",
+   "sq": "gamë",
+   "en": "range",
+   "glosses": [
+    "range"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "range",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ne shesim një gamë të madhe makinash.",
+       "en": "We sell a large range of cars.",
+       "offsets": [
+        [
+         14,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "range"
+     ]
+    }
+   ],
+   "rank": 46992,
+   "count": 7,
+   "family": "gamë",
+   "is_root": true,
+   "etymology": "Ultimately from Ancient Greek γάμμα (gámma). Possibly through Medieval Latin gamma or through one of its descendants.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gama",
+     "tag": "definite"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "ngjesh",
-   "sq": "ngjesh",
-   "en": "to press on, compress, knead (dough)",
+   "id": "inflacion",
+   "sq": "inflacion",
+   "en": "inflation",
    "glosses": [
-    "to press on, compress, knead (dough)"
+    "inflation"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to press on, compress, knead (dough)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "inflation",
      "tags": [],
      "cats": [
       {
@@ -314,13 +491,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -328,17 +505,16 @@
      ],
      "examples": [],
      "links": [
-      "press",
-      "on",
-      "compress"
+      "finance",
+      "inflation"
      ]
     }
    ],
-   "rank": 49921,
+   "rank": 47010,
    "count": 7,
-   "family": "ngjesh",
+   "family": "inflacion",
    "is_root": true,
-   "etymology": "From Proto-Albanian * ̊gneś-, from Proto-Indo-European *gen- (“to compress”). Cognate with Old Church Slavonic гнєсти (gnesti, “to press on”). Formed using the intensive prefix (a)n-.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -346,202 +522,17 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "ngjesha",
-     "tag": "aorist"
-    },
-    {
-     "form": "ngjeshur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "nyjë",
-   "sq": "nyjë",
-   "en": "knot, gnarl",
-   "glosses": [
-    "knot, gnarl",
-    "bond, tie, joint",
-    "junction point, node",
-    "hub, server",
-    "article (part of speech that specifies a noun)",
-    "nub, crux"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knot, gnarl",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "knot",
-      "gnarl"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bond, tie, joint",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bond",
-      "tie",
-      "joint"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "junction point, node",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 1 58 3 21 15"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 1 68 1 10 17"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 1 70 1 11 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "node"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hub, server",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Computing",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Computing",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "computing",
-      "hub",
-      "server"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "article (part of speech that specifies a noun)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Grammar",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Grammar",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "grammar",
-      "article"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "nub, crux",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "nub",
-      "crux"
-     ]
-    }
-   ],
-   "rank": 49967,
-   "count": 7,
-   "family": "nyjë",
-   "is_root": true,
-   "etymology": "Variant of nyje, singularized plural of Old Albanian nye, neu, borrowed through Vulgar Latin from Latin nōdus.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "nyja",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Make a knot.",
+    "en": "There is only inflation.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Bëni një nyjë."
+    "sq": "Ka vetëm inflacion."
    }
   }
  ]

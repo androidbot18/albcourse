@@ -1,27 +1,26 @@
 {
  "level": 329,
- "title": "ngre, hir, vënd",
- "root": "",
- "root_gloss": "",
+ "title": "sjell (rarer words)",
+ "root": "sjell",
+ "root_gloss": "to bring",
  "part": 1,
  "parts": 1,
  "word_count": 4,
  "families": [
-  "hir",
-  "ngre",
-  "vënd"
+  "sjell"
  ],
  "pos_mix": {
-  "verb": 5,
-  "noun": 5
+  "verb": 3,
+  "adj": 1,
+  "noun": 1
  },
  "words": [
   {
-   "id": "ngritur",
-   "sq": "ngritur",
-   "en": "raise, past form (from ngre, to raise)",
+   "id": "solla",
+   "sq": "solla",
+   "en": "we (once did) brought (from sjell, to bring)",
    "glosses": [
-    "raise, past form (from ngre, to raise)"
+    "we (once did) brought (from sjell, to bring)"
    ],
    "pos": [
     "verb"
@@ -33,11 +32,13 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "raise, past form (from ngre, to raise)",
+     "gloss": "we (once did) brought (from sjell, to bring)",
      "tags": [
+      "aorist",
+      "first-person",
       "form-of",
-      "participle",
-      "past"
+      "indicative",
+      "plural"
      ],
      "cats": [
       {
@@ -47,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,12 +61,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "ngre"
+     "is_form_of": "sjell"
     }
    ],
-   "rank": 1934,
-   "count": 447,
-   "family": "ngre",
+   "rank": 1904,
+   "count": 454,
+   "family": "sjell",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -78,169 +79,44 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And then you are set up.",
+    "en": "It meant: I came and brought them.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     7,
+     -6,
      10
     ],
-    "sq": "Dhe atëherë ju jeni ngritur."
+    "sq": "Do të thoshte: Erdha dhe ua solla."
    }
   },
   {
-   "id": "hir",
-   "sq": "hir",
-   "en": "kindness, favor, sake",
+   "id": "sjellshëm",
+   "sq": "sjellshëm",
+   "en": "kind, polite",
    "glosses": [
-    "kindness, favor, sake",
-    "willingness, goodwill",
-    "beauty, grace, charm, dignity",
-    "heavenly grace"
+    "kind, polite"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kindness, favor, sake",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "willingness, goodwill",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "willingness",
-      "goodwill"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "beauty, grace, charm, dignity",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "beauty",
-      "grace",
-      "charm"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "heavenly grace",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "kind, polite",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 22 27 34"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "grace"
-     ]
-    }
-   ],
-   "rank": 1936,
-   "count": 446,
-   "family": "hir",
-   "is_root": true,
-   "etymology": "Possibly from Proto-Albanian *skīra, from a Proto-Indo-European *sḱeyr-o- (“shine, reflex”), whence German schier (“pure, clear”), Polish szczery (“sincere, earnest”), Ancient Greek σκίρον (skíron, “parasol”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "parasol"
-   ],
-   "components": [],
-   "derived": [
-    "hire",
-    "hirës",
-    "hirësi",
-    "hirësisht",
-    "hirmadh",
-    "hiroj",
-    "hirplotë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "hire",
-     "tag": "plural"
-    },
-    {
-     "form": "hiri",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "full of grace and truth.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "plot hir dhe të vërtetë."
-   }
-  },
-  {
-   "id": "vënd",
-   "sq": "vënd",
-   "en": "place",
-   "glosses": [
-    "place"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "place",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
+       "source": "w"
+      },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -250,9 +126,88 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kind",
+      "polite"
+     ]
+    }
+   ],
+   "rank": 2567,
+   "count": 323,
+   "family": "sjell",
+   "is_root": false,
+   "etymology": "From sjell + -shëm.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "sjell",
+     "role": "base"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The people are extremely kind.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Njerëzit janë jashtëzakonisht të sjellshëm."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "sjellje",
+   "sq": "sjellje",
+   "en": "behaviour, demeanor",
+   "glosses": [
+    "behaviour, demeanor"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "behaviour, demeanor",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -260,67 +215,70 @@
      ],
      "examples": [],
      "links": [
-      "place"
+      "behaviour",
+      "demeanor"
      ]
     }
    ],
-   "rank": 1945,
-   "count": 444,
-   "family": "vënd",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *wenta, derivative of vë (“to put”).",
-   "etymology_class": "inherited",
+   "rank": 2725,
+   "count": 302,
+   "family": "sjell",
+   "is_root": false,
+   "etymology": "Gerund of sjell; sjell + -je (feminine suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "sjell",
+     "role": "base"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vënde",
+     "form": "sjellje",
      "tag": "plural"
     },
     {
-     "form": "vëndi",
+     "form": "sjellja",
      "tag": "definite"
-    },
-    {
-     "form": "vend",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "All is in place.",
+    "corpus": "QED",
+    "en": "First some behavior.",
     "score": [
      0,
      4,
      -4,
-     10
+     5
     ],
-    "sq": "Gjithçka është në vënd."
-   }
+    "sq": "Si fillim disa sjellje."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "ngre",
-   "sq": "ngre",
-   "en": "to raise, to elevate, to lift",
+   "id": "përcjell",
+   "sq": "përcjell",
+   "en": "to carry, to transport",
    "glosses": [
-    "to raise, to elevate, to lift",
-    "to erect",
-    "to awaken, wake up",
-    "to arouse (to cause to have an erection)"
+    "to carry, to transport",
+    "to escort, to accompany"
    ],
    "pos": [
-    "verb",
-    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
     "verb",
     "verb"
    ],
@@ -328,37 +286,22 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to raise, to elevate, to lift",
+     "gloss": "to carry, to transport",
      "tags": [
       "transitive"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "raise",
-      "elevate",
-      "lift"
+      "carry",
+      "transport"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to erect",
+     "gloss": "to escort, to accompany",
      "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "erect"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to awaken, wake up",
-     "tags": [
-      "figuratively",
       "transitive"
      ],
      "cats": [
@@ -367,90 +310,78 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "17 17 39 26"
+       "_dis": "38 62"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "19 19 39 22"
+       "_dis": "43 57"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "14 14 57 16"
+       "_dis": "22 78"
       }
      ],
-     "examples": [
-      {
-       "sq": "Skënderbeu ngriti popullin në luftë.",
-       "en": "Skanderbeg woke the people up in the war.",
-       "offsets": [
-        [
-         11,
-         17
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "awaken",
-      "wake up"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to arouse (to cause to have an erection)",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [],
      "examples": [],
      "links": [
-      "arouse"
+      "escort",
+      "accompany"
      ]
     }
    ],
-   "rank": 2565,
-   "count": 323,
-   "family": "ngre",
-   "is_root": true,
-   "etymology": "First attested in 1555 by Buzuku as ëngre, allowing the dissection of ën- + *gre. Ultimately from Proto-Indo-European *h₁ger- (“to awaken”).",
-   "etymology_class": "inherited",
+   "rank": 4772,
+   "count": 159,
+   "family": "sjell",
+   "is_root": false,
+   "etymology": "From për + sjell.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "sjell",
+     "role": "stem"
+    }
+   ],
    "derived": [
-    "shkreh"
+    "përcjellë"
    ],
    "related": [
-    "ngrihem"
+    "sjell"
    ],
    "forms": [
     {
-     "form": "ngrita",
+     "form": "përcolla",
      "tag": "aorist"
     },
     {
-     "form": "ngritur",
+     "form": "përcjellë",
      "tag": "participle"
-    },
-    {
-     "form": "ngredh",
-     "tag": "alternative"
-    },
-    {
-     "form": "ngreh",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A watch that conveys the joy of life.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Një orë që përcjell gëzimin e jetës."
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "resumes": true
 }

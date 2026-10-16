@@ -1,31 +1,44 @@
 {
  "level": 218,
- "title": "fut",
- "root": "fut",
- "root_gloss": "to insert, to put (something) in",
+ "title": "pushoj",
+ "root": "pushoj",
+ "root_gloss": "to rest, relax",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 3,
  "families": [
-  "fut"
+  "pushoj"
  ],
  "pos_mix": {
-  "verb": 3
+  "verb": 6,
+  "noun": 2
  },
  "words": [
   {
-   "id": "fut",
-   "sq": "fut",
-   "en": "to insert, to put (something) in",
+   "id": "pushoj",
+   "sq": "pushoj",
+   "en": "to rest, relax",
    "glosses": [
-    "to insert, to put (something) in",
-    "to fuck"
+    "to rest, relax",
+    "to vacation",
+    "to rest (in grave)",
+    "to cease",
+    "to stop talking",
+    "to dismiss from duty"
    ],
    "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
     "verb",
     "verb"
    ],
@@ -33,7 +46,64 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to insert, to put (something) in",
+     "gloss": "to rest, relax",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rest",
+      "relax"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to vacation",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vacation"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rest (in grave)",
+     "tags": [
+      "third-person"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rest"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cease",
+     "tags": [
+      "third-person"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 10 10 13 27 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cease"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to stop talking",
      "tags": [],
      "cats": [
       {
@@ -41,92 +111,104 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "78 22"
+       "_dis": "10 10 10 13 27 32"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 12 12 16 34 13"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 9 9 13 49 10"
       }
      ],
      "examples": [],
      "links": [
-      "insert",
-      "put"
+      "talking"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to fuck",
-     "tags": [
-      "slang",
-      "vulgar"
-     ],
-     "cats": [],
-     "examples": [
+     "gloss": "to dismiss from duty",
+     "tags": [],
+     "cats": [
       {
-       "sq": "Futja (karin) morë.",
-       "en": "Fuck it man.",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 10 10 13 27 32"
       }
      ],
+     "examples": [],
      "links": [
-      "fuck"
+      "dismiss"
      ]
     }
    ],
-   "rank": 1314,
-   "count": 683,
-   "family": "fut",
+   "rank": 4802,
+   "count": 158,
+   "family": "pushoj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *sputja, from Proto-Indo-European *pHu-tó- (compare Serbo-Croatian pítati (“to ask”), Tocharian B putk- (“to divide, share”), Latin putāre (“to prune”)).",
-   "etymology_class": "derived",
+   "etymology": "Borrowed from a Vulgar Latin *posāre, from Latin pausāre (“I halt, cease, pause”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "pushues",
+    "pushim"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "futa",
+     "form": "pushova",
      "tag": "aorist"
     },
     {
-     "form": "futur",
+     "form": "pushuar",
      "tag": "participle"
-    },
-    {
-     "form": "fus",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I rest and eat well.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Pushoj dhe ushqehem mirë."
+   }
   },
   {
-   "id": "futur",
-   "sq": "futur",
-   "en": "insert, past form (from fut, to insert)",
+   "id": "pushim",
+   "sq": "pushim",
+   "en": "vacation",
    "glosses": [
-    "insert, past form (from fut, to insert)"
+    "vacation"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "insert, past form (from fut, to insert)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vacation",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -135,7 +217,90 @@
        "source": "w"
       },
       {
-       "name": "Pages with 11 entries",
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "vacation"
+     ]
+    }
+   ],
+   "rank": 1002,
+   "count": 940,
+   "family": "pushoj",
+   "is_root": false,
+   "etymology": "From pushoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pushoj",
+     "role": "base",
+     "en": "to rest"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "Tatoeba",
+    "en": "Today is a holiday.",
+    "score": [
+     0,
+     3,
+     -3,
+     0
+    ],
+    "sq": "Sot është pushim."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "armëpushim",
+   "sq": "armëpushim",
+   "en": "armistice",
+   "glosses": [
+    "armistice"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "armistice",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -148,33 +313,45 @@
       }
      ],
      "examples": [],
-     "is_form_of": "fut"
+     "links": [
+      "armistice"
+     ]
     }
    ],
-   "rank": 990,
-   "count": 957,
-   "family": "fut",
+   "rank": 13544,
+   "count": 44,
+   "family": "pushoj",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From armë (“arm, gun, weapon”) + pushim (“break, cessation, desistance, pause, rest, recess”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "armë",
+     "role": "prefix"
+    },
+    {
+     "word": "pushim",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Why did they put him in prison?!",
+    "en": "An immediate ceasefire is needed, now.",
     "score": [
-     0,
+     3,
      6,
-     -6,
+     -3,
      10
     ],
-    "sq": "Pse e kanë futur në burg?!"
-   }
+    "sq": "Tani nevojitet një armëpushim i menjëhershëm."
+   },
+   "breakdown": "historical"
   }
  ]
 }

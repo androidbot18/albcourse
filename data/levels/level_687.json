@@ -1,45 +1,117 @@
 {
  "level": 687,
- "title": "pacaktuar, leverdis, op +3",
+ "title": "fell, pështymë, sakrifikoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "adoptim",
-  "bend",
-  "daulle",
-  "leverdis",
-  "op",
-  "pacaktuar"
+  "fell",
+  "loke",
+  "pështymë",
+  "qytetërim",
+  "sakrifikoj",
+  "spec"
  ],
  "pos_mix": {
-  "adj": 1,
-  "verb": 1,
-  "intj": 1,
-  "noun": 5
+  "adv": 1,
+  "noun": 9,
+  "verb": 1
  },
  "words": [
   {
-   "id": "pacaktuar",
-   "sq": "pacaktuar",
-   "en": "indeterminate, unspecified",
+   "id": "fell",
+   "sq": "fell",
+   "en": "deep, shallow",
    "glosses": [
-    "indeterminate, unspecified"
+    "deep, shallow"
    ],
    "pos": [
-    "adj"
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "indeterminate, unspecified",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "deep, shallow",
      "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 10 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "deep",
+      "shallow"
+     ]
+    }
+   ],
+   "rank": 25260,
+   "count": 19,
+   "family": "fell",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *spesla, metathesized form of *spelsa, from Proto-Indo-European *pels- (“rock, boulder”), variant of *spel- (“to cleave, break”). Compare Latin hydronym Pelso, Latin Palatium, Pashto پرښه (parša, “rock, rocky ledge”), Ancient Greek πέλλα (pélla, “stone”), German Felsen (“boulder, cliff”). Mostly dialectal, used in Gheg Albanian.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The Name is Fell.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Emri është Fell."
+   }
+  },
+  {
+   "id": "pështymë",
+   "sq": "pështymë",
+   "en": "saliva, spit, vomit, eruption (from volcano etc)",
+   "glosses": [
+    "saliva, spit, vomit, eruption (from volcano etc)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "saliva, spit, vomit, eruption (from volcano etc)",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -62,16 +134,17 @@
      ],
      "examples": [],
      "links": [
-      "indeterminate",
-      "unspecified"
+      "saliva",
+      "spit",
+      "vomit"
      ]
     }
    ],
-   "rank": 26752,
-   "count": 17,
-   "family": "pacaktuar",
+   "rank": 25278,
+   "count": 19,
+   "family": "pështymë",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From pështyj (“to spit”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -79,25 +152,30 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "pështyma",
+     "tag": "plural"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "indefinite period contracts.",
+    "en": "What if there is blood in the saliva collected?",
     "score": [
-     0,
-     7,
-     -7,
+     1,
+     9,
+     -8,
      10
     ],
-    "sq": "kanë marrëdhënie pune në periudhë të pacaktuar."
+    "sq": "Çka në qoftë se ka gjak në pështymë mbledhura?"
    }
   },
   {
-   "id": "leverdis",
-   "sq": "leverdis",
-   "en": "to benefit, to be profitable, to be advantageous or fruitful",
+   "id": "sakrifikoj",
+   "sq": "sakrifikoj",
+   "en": "to sacrifice",
    "glosses": [
-    "to benefit, to be profitable, to be advantageous or fruitful"
+    "to sacrifice"
    ],
    "pos": [
     "verb"
@@ -109,10 +187,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to benefit, to be profitable, to be advantageous or fruitful",
+     "gloss": "to sacrifice",
      "tags": [
-      "colloquial",
-      "intransitive"
+      "transitive"
      ],
      "cats": [
       {
@@ -134,135 +211,63 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Për ty sakrifikova çka pata",
+       "en": "I sacrificed all I had for you",
+       "offsets": [
+        [
+         7,
+         18
+        ]
+       ]
+      }
+     ],
      "links": [
-      "benefit",
-      "profitable",
-      "advantageous"
+      "sacrifice"
      ]
     }
    ],
-   "rank": 26766,
-   "count": 17,
-   "family": "leverdis",
+   "rank": 25344,
+   "count": 19,
+   "family": "sakrifikoj",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish الویرمك (elvermek, “to be convenient, to be suitable”) (see Turkish elverişli).",
-   "etymology_class": "borrowed",
+   "etymology": "Learned borrowing from Latin sacrificō; sakrificë (“sacrifice”) + oj (“I”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "sacrifice"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "leverdisa",
-     "tag": "aorist"
-    },
-    {
-     "form": "leverdisur",
+     "form": "sakrifikuar",
      "tag": "participle"
-    },
-    {
-     "form": "levërdis",
-     "tag": "alternative"
-    },
-    {
-     "form": "levertis",
-     "tag": "alternative"
-    },
-    {
-     "form": "levërtis",
-     "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "op",
-   "sq": "op",
-   "en": "back slang form of po",
+   "id": "loke",
+   "sq": "loke",
+   "en": "mom",
    "glosses": [
-    "back slang form of po"
+    "mom",
+    "dear (addressed to a mother)",
+    "father's mother",
+    "term of respectful address for an old woman"
    ],
    "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "back slang form of po",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "po"
-     ]
-    }
-   ],
-   "rank": 26781,
-   "count": 17,
-   "family": "op",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Received from P.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Marrë nga P.Op."
-   }
-  },
-  {
-   "id": "bend",
-   "sq": "bend",
-   "en": "pond, water reservoir",
-   "glosses": [
-    "pond, water reservoir",
-    "idle or provocative words",
-    "servant, henchman"
-   ],
-   "pos": [
+    "noun",
     "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun",
     "noun"
@@ -271,9 +276,22 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "pond, water reservoir",
+     "gloss": "mom",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mom"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dear (addressed to a mother)",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -281,154 +299,186 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "53 19 28"
+       "_dis": "45 16 16 24"
       }
      ],
      "examples": [],
      "links": [
-      "pond",
-      "water",
-      "reservoir"
+      "dear"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "idle or provocative words",
+     "gloss": "father's mother",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [],
      "examples": [],
-     "links": [
-      "idle",
-      "provocative",
-      "words"
-     ]
+     "links": []
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "servant, henchman",
+     "gloss": "term of respectful address for an old woman",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [],
      "examples": [],
-     "links": [
-      "servant",
-      "henchman"
-     ]
+     "links": []
     }
    ],
-   "rank": 26801,
-   "count": 17,
-   "family": "bend",
+   "rank": 25361,
+   "count": 18,
+   "family": "loke",
    "is_root": true,
-   "etymology": "From Proto-Indo-European *band (“drop”). Compare Phrygian βεδυ (bedu, “water”), Sanskrit बिन्दु (bindú, “drop”), Middle Irish banna, baina (“drop”) and possibly Latin Fōns Bandusiae.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "drop"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [
-    "përbindësh"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Bend your right knee.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Bend gjurin e djathtë."
-   }
-  },
-  {
-   "id": "adoptim",
-   "sq": "adoptim",
-   "en": "adoption",
-   "glosses": [
-    "adoption"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "adoption",
-     "tags": [
-      "literary",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "adoption"
-     ]
-    }
-   ],
-   "rank": 26803,
-   "count": 17,
-   "family": "adoptim",
-   "is_root": true,
-   "etymology": "",
+   "etymology": "A derivative of loc.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
+   "related": [
+    "loc",
+    "loçkë",
+    "lot"
+   ],
+   "forms": [
+    {
+     "form": "loke",
+     "tag": "plural"
+    },
+    {
+     "form": "lokja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "spec",
+   "sq": "spec",
+   "en": "pepper (Capsicum annuum)",
+   "glosses": [
+    "pepper (Capsicum annuum)",
+    "paprika",
+    "(adjective) cranky"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pepper (Capsicum annuum)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Botany",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Botany",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "88 7 5"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "botany",
+      "pepper",
+      "Capsicum annuum"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "paprika",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "paprika"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "(adjective) cranky",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cranky"
+     ]
+    }
+   ],
+   "rank": 25363,
+   "count": 18,
+   "family": "spec",
+   "is_root": true,
+   "etymology": "Borrowed from Italian spezie (“spices”), ultimately from Latin speciēs.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "spices"
+   ],
+   "components": [],
+   "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "speca",
+     "tag": "plural"
+    },
+    {
+     "form": "speci",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "She refused to sign the final adoption papers.",
+    "corpus": "HPLT",
+    "en": "Add soy sauce, sugar, garlic, and ginger.",
     "score": [
-     4,
+     2,
      8,
-     -4,
-     5
+     -6,
+     10
     ],
-    "sq": "Ajo refuzoi të firmoste dokumentat përfundimtare për adoptim."
+    "sq": "Shto qepë, hudhër, spec i gjelbër, dhe domate."
    }
   },
   {
-   "id": "daulle",
-   "sq": "daulle",
-   "en": "drum",
+   "id": "qytetërim",
+   "sq": "qytetërim",
+   "en": "civilization",
    "glosses": [
-    "drum"
+    "civilization"
    ],
    "pos": [
     "noun"
@@ -440,7 +490,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "drum",
+     "gloss": "civilization",
      "tags": [],
      "cats": [
       {
@@ -464,44 +514,33 @@
      ],
      "examples": [],
      "links": [
-      "drum"
+      "civilization"
      ]
     }
    ],
-   "rank": 26823,
-   "count": 17,
-   "family": "daulle",
+   "rank": 25375,
+   "count": 18,
+   "family": "qytetërim",
    "is_root": true,
-   "etymology": "From Ottoman Turkish طاول (davul, “drum”), from Arabic طَبْل (ṭabl). Compare Greek νταούλι (ntaoúli).",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish davul (\"drum\")",
-   "parents": [
-    "drum"
-   ],
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "daulle",
-     "tag": "plural"
-    },
-    {
-     "form": "daullja",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Many faces, and current still drum.",
+    "en": "You have created a civilization in the world.",
     "score": [
-     2,
+     0,
      6,
-     -4,
+     -6,
      10
     ],
-    "sq": "Shumë fytyra, dhe aktuale akoma daulle."
+    "sq": "Keni ndërtuar një qytetërim në botë."
    }
   }
  ]

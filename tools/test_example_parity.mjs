@@ -40,14 +40,27 @@ ok(Object.keys(levels).length > 0, 'level files loaded', String(Object.keys(leve
 const byId = {};
 for (const w of words) byId[w.id] = w;
 
-// "e" must never come back. It was rank 2 and opened level 1, but it is a
-// conjunction in one reading and the definite article in another, so the card
-// cannot say which sense it teaches. Its shipped example made that concrete:
-// the Albanian "e" was the article while the English "and" came from "dhe".
-// Three attempts to fix example SELECTION all failed; the word is excluded
-// instead (pos_balance.EXCLUDE_WORDS). This pins that decision.
-ok(!levels['e'], '"e" is not a card in the level data');
-ok(!byId['e'], '"e" is not in the flat index');
+// "e" is back (RECOMMENDATIONS.md section 3.2). It was removed because its
+// card could not say which sense it taught, and its corpus example showed
+// the ARTICLE ("jetën e gëzuar") under the gloss "and", whose English "and"
+// came from "dhe". It now headlines "and" with a reviewed example in which
+// e joins two nouns (tools/gloss_overrides.EXAMPLES), and the corpus
+// sentence is dropped. Pin both, in both the lesson view and the index.
+const E_DEFECT = 'Për të rikthyer jetën e gëzuar dhe të hareshme.';
+const E_REVIEWED = 'Punoj ditë e natë.';
+ok(!!levels['e'] && levels['e'].en === 'and', '"e" is a card headlining "and"',
+   levels['e'] ? levels['e'].en : 'missing');
+{
+  const shown = levels['e'] ? exampleForSense(levels['e']) : null;
+  ok(shown && shown.sq === E_REVIEWED, 'lesson view: "e" shows the reviewed example',
+     shown ? shown.sq : 'none');
+  const idx = byId['e'];
+  ok(idx && idx.ex && idx.ex.sq === E_REVIEWED, 'flat index: "e" shows the reviewed example',
+     idx && idx.ex ? idx.ex.sq : 'none');
+  ok(!levels['e'] || !levels['e'].corpus_example
+     || levels['e'].corpus_example.sq !== E_DEFECT,
+     'the article-sense corpus sentence is gone');
+}
 
 // The same defect, on a word that still ships. "lis" headlines the adjective
 // "strong and tall", which has no example, while its noun sense "lineage"
