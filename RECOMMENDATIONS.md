@@ -458,13 +458,19 @@ not all fall due on the same day.
 ## 7. Suggested roadmap
 
 **Phase 0: fix what is broken (days)**
-- [ ] Queue new cards in level order, not rank order (1.1)
-- [ ] Re-queue "Again" cards in the same session (1.2)
-- [ ] Daily new-card limit (1.3)
-- [ ] Off-by-one due date (1.4)
-- [ ] Direction: persist it, use `isReverseFriendly`, separate SRS items (1.5)
-- [ ] Green test suite; fix README counts and level-title "+N" (1.6, 1.7)
-- [ ] Orthography gate on examples; fix the glosses in §4.1
+- [x] Queue new cards in level order, not rank order (1.1)
+- [x] Re-queue "Again" cards in the same session (1.2)
+- [x] Daily new-card limit (1.3)
+- [x] Off-by-one due date (1.4)
+- [x] Direction: persist it, use `isReverseFriendly`, separate SRS items (1.5)
+- [ ] Green test suite (1.6). Partly done: `run_tests.sh` now runs every suite
+      and lists failures, but three are still red (`test_pos_balance`,
+      `test_opening_policy`, `test_determinism`). They need a rebuild from the
+      Kaikki dump and the hand-curated opening (§3.2).
+- [x] Fix README counts and level-title "+N" (1.7)
+- [ ] Orthography gate on examples; fix the glosses in §4.1. Not started: `në`
+      still ships as "if", `do` as "some", `botë` as "Earth", and `qenë` and
+      `ishin` keep their raw headlines.
 
 **Phase 1: progression (1–2 weeks)**
 - [ ] Hand-curated opening (~25 levels) via an overrides file; add `po`, restore `e`
