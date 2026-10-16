@@ -1,127 +1,273 @@
 {
  "level": 749,
- "title": "shpall, cilindër, boshatis +3",
+ "title": "padit, incizoj, glasë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "besa",
-  "boshatis",
-  "cilindër",
-  "edh",
-  "noçkë",
-  "shpall"
+  "glasë",
+  "incizoj",
+  "kometë",
+  "padit",
+  "pall",
+  "përparëse"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 6,
-  "intj": 1
+  "verb": 3,
+  "noun": 10
  },
  "words": [
   {
-   "id": "shpall",
-   "sq": "shpall",
-   "en": "to announce, to declare",
+   "id": "padit",
+   "sq": "padit",
+   "en": "to sue, file a lawsuit",
    "glosses": [
-    "to announce, to declare"
+    "to sue, file a lawsuit",
+    "to accuse"
    ],
    "pos": [
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to announce, to declare",
+     "gloss": "to sue, file a lawsuit",
      "tags": [
       "transitive"
      ],
      "cats": [
       {
+       "name": "Law",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Law",
+       "langcode": "sq"
+      },
+      {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "83 17"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "74 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "law",
+      "sue",
+      "lawsuit"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to accuse",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "accuse"
+     ]
+    }
+   ],
+   "rank": 39294,
+   "count": 10,
+   "family": "padit",
+   "is_root": true,
+   "etymology": "Borrowed from South Slavic, ultimately either from Proto-Slavic *pàdati (“fall”) whence Serbo-Croatian nà-padati /на̀-падати (“to attack”) or from Proto-Slavic *pǫditi (“to chase”) whence Macedonian пади (padi, “to chase out”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "fall"
+   ],
+   "components": [],
+   "derived": [
+    "padi",
+    "paditës",
+    "paditje",
+    "paditur"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "padita",
+     "tag": "aorist"
+    },
+    {
+     "form": "paditur",
+     "tag": "participle"
+    },
+    {
+     "form": "padis",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "It sues a process that Democrats have accepted.",
+    "score": [
+     2,
+     8,
+     -6,
+     8
+    ],
+    "sq": "Padit një proces që demokratet e kanë pranuar."
+   }
+  },
+  {
+   "id": "incizim",
+   "sq": "incizim",
+   "en": "recording (e.g. a song, speech, etc.)",
+   "glosses": [
+    "recording (e.g. a song, speech, etc.)",
+    "mark, scar, incision",
+    "engraving"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "recording (e.g. a song, speech, etc.)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "recording"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mark, scar, incision",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 15 48 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mark",
+      "scar",
+      "incision"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "engraving",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 24 26 36"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 24 26 36"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 14 15 61"
       }
      ],
      "examples": [],
      "links": [
-      "announce",
-      "declare"
+      "engraving"
      ]
     }
    ],
-   "rank": 7119,
-   "count": 99,
-   "family": "shpall",
-   "is_root": true,
-   "etymology": "Albanian formation with the prefix sh- + pall.",
-   "etymology_class": null,
+   "rank": 39368,
+   "count": 10,
+   "family": "incizoj",
+   "is_root": false,
+   "etymology": "From incizoj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "sh",
-     "role": "prefix"
+     "word": "incizoj",
+     "role": "base",
+     "en": "to record on a tape or disk"
     },
     {
-     "word": "pall",
-     "role": "stem"
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shpalla",
-     "tag": "aorist"
-    },
-    {
-     "form": "shpallur",
-     "tag": "participle"
-    },
-    {
-     "form": "çpall",
-     "tag": "alternative"
+     "form": "incizime",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "and proclaim in it!",
+    "en": "Without it, there is no recording.",
     "score": [
      0,
-     4,
-     -4,
+     5,
+     -5,
      10
     ],
-    "sq": "dhe shpall në të!"
+    "sq": "Pa të, nuk ka incizim."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   },
   {
-   "id": "cilindër",
-   "sq": "cilindër",
-   "en": "cylinder",
+   "id": "glasë",
+   "sq": "glasë",
+   "en": "bird poop",
    "glosses": [
-    "cylinder"
+    "bird poop"
    ],
    "pos": [
     "noun"
@@ -133,7 +279,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cylinder",
+     "gloss": "bird poop",
      "tags": [],
      "cats": [
       {
@@ -157,14 +303,13 @@
      ],
      "examples": [],
      "links": [
-      "geometry",
-      "cylinder"
+      "poop"
      ]
     }
    ],
-   "rank": 39490,
+   "rank": 39387,
    "count": 10,
-   "family": "cilindër",
+   "family": "glasë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -175,39 +320,28 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "to have it go into the cylinder.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "që kanë të shkojnë në cilindër."
-   }
+   "corpus_example": null
   },
   {
-   "id": "boshatis",
-   "sq": "boshatis",
-   "en": "to empty",
+   "id": "kometë",
+   "sq": "kometë",
+   "en": "comet",
    "glosses": [
-    "to empty"
+    "comet"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to empty",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "comet",
      "tags": [
-      "colloquial",
-      "transitive"
+      "feminine"
      ],
      "cats": [
       {
@@ -231,67 +365,169 @@
      ],
      "examples": [],
      "links": [
-      "empty"
+      "astronomy",
+      "comet"
      ]
     }
    ],
-   "rank": 39506,
+   "rank": 39399,
    "count": 10,
-   "family": "boshatis",
+   "family": "kometë",
    "is_root": true,
-   "etymology": "From bosh (“empty”).",
-   "etymology_class": null,
+   "etymology": "Learned borrowing from Latin comēta, from Ancient Greek κομήτης (komḗtēs, “long-haired”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "empty"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "boshatisa",
-     "tag": "aorist"
-    },
-    {
-     "form": "boshatisur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Finally, the square was empty.",
+    "en": "How likely are we to be hit by a comet?",
     "score": [
-     2,
+     1,
      6,
-     -4,
+     -5,
      10
     ],
-    "sq": "Ma në fund sheshi u boshatis."
+    "sq": "Kur do të shohim një kometë?"
    }
   },
   {
-   "id": "edh",
-   "sq": "edh",
-   "en": "goat kid (under a year old)",
+   "id": "përparëse",
+   "sq": "përparëse",
+   "en": "apron",
    "glosses": [
-    "goat kid (under a year old)"
+    "apron",
+    "overall, coverall; scrubs; smock",
+    "each of the two halves of the front of a jacket, sweater, etc."
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "goat kid (under a year old)",
+     "gloss": "apron",
      "tags": [
-      "masculine"
+      "feminine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "apron"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "overall, coverall; scrubs; smock",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 55 8"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 77 8"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 81 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "overall",
+      "coverall",
+      "scrubs"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "each of the two halves of the front of a jacket, sweater, etc.",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "halves",
+      "front",
+      "jacket"
+     ]
+    }
+   ],
+   "rank": 39421,
+   "count": 10,
+   "family": "përparëse",
+   "is_root": true,
+   "etymology": "From përpara (“in front”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "përparëse",
+     "tag": "plural"
+    },
+    {
+     "form": "përparësja",
+     "tag": "definite"
+    },
+    {
+     "form": "përparëcë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "pall",
+   "sq": "pall",
+   "en": "to cry, hee-haw",
+   "glosses": [
+    "to cry, hee-haw"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cry, hee-haw",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -300,7 +536,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 9 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -314,16 +550,17 @@
      ],
      "examples": [],
      "links": [
-      "kid"
+      "cry",
+      "hee-haw"
      ]
     }
    ],
-   "rank": 39524,
+   "rank": 39473,
    "count": 10,
-   "family": "edh",
+   "family": "pall",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ayð(iy)a-, from Proto-Indo-European *h₂eyǵ- (compare Ancient Greek αἴξ (aíx), Armenian այծ (ayc), Lithuanian ožỹs).",
-   "etymology_class": "root",
+   "etymology": "From Proto-Albanian *palei-, from Proto-Indo-European *(s)pel- (“to speak with a loud voice”). Cognate to Gothic 𐍃𐍀𐌹𐌻𐌻𐍉𐌽 (spillōn, “to proclaim”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -332,49 +569,39 @@
    "related": [],
    "forms": [
     {
-     "form": "edha",
-     "tag": "plural"
+     "form": "palla",
+     "tag": "aorist"
     },
     {
-     "form": "edhi",
-     "tag": "definite"
-    },
-    {
-     "form": "hedh",
-     "tag": "alternative"
+     "form": "pallur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "You should give us some attention, too.",
+    "corpus": "HPLT",
+    "en": "Paeoniflorin is abstruse from the basis of Paeonia albiflora Pall.",
     "score": [
-     2,
+     5,
      9,
-     -7,
-     5
+     -4,
+     10
     ],
-    "sq": "Duhet te na japesh edh neve pa vemendje, tani."
+    "sq": "Paeoniflorin është abstruse nga baza e Paeonia albiflora Pall."
    }
   },
   {
-   "id": "noçkë",
-   "sq": "noçkë",
-   "en": "protruding part of a bone, e.g. ankle, knuckle, fetlock",
+   "id": "incizoj",
+   "sq": "incizoj",
+   "en": "to record on a tape or disk",
    "glosses": [
-    "protruding part of a bone, e.g. ankle, knuckle, fetlock",
-    "knob, nodule, protuberance",
-    "knot in wood",
-    "snout, trunk (elephant)"
+    "to record on a tape or disk",
+    "to engrave, carve, incise"
    ],
    "pos": [
-    "noun",
-    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun",
     "noun"
    ],
@@ -382,170 +609,81 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "protruding part of a bone, e.g. ankle, knuckle, fetlock",
+     "gloss": "to record on a tape or disk",
      "tags": [
-      "feminine"
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "record",
+      "tape",
+      "disk"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "to engrave, carve, incise",
+     "tags": [
+      "transitive"
      ],
      "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "73 8 4 15"
+       "_dis": "6 94"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "60 17 11 11"
+       "_dis": "11 89"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
       }
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "ankle",
-      "knuckle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knob, nodule, protuberance",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "knob",
-      "nodule"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knot in wood",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "knot"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "snout, trunk (elephant)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "snout",
-      "trunk"
+      "engrave",
+      "carve",
+      "incise"
      ]
     }
    ],
-   "rank": 39573,
-   "count": 10,
-   "family": "noçkë",
+   "rank": 47003,
+   "count": 7,
+   "family": "incizoj",
    "is_root": true,
-   "etymology": "From South Slavic; cf. Serbo-Croatian њу̏шка / njȕška (“snout, muzzle, neb”), Bulgarian нюшка (njuška). Alternatively from Albanian noçë, of unclear origin. Possibly from an older *noshë, continuing Proto-Indo-European *néh₂s, *nh₂es (“nose, nostrils”), with the affricatization of the original final fricative (cf. çaj ~ shaj etc.).",
-   "etymology_class": null,
-   "source_lang": "sr",
+   "etymology": "Borrowed from French inciser.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "incizim"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "noçka",
-     "tag": "plural"
+     "form": "incizova",
+     "tag": "aorist"
     },
     {
-     "form": "noçë",
-     "tag": "alternative"
+     "form": "incizuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
-  },
-  {
-   "id": "besa",
-   "sq": "besa",
-   "en": "really, to tell the truth",
-   "glosses": [
-    "really, to tell the truth"
-   ],
-   "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "really, to tell the truth",
-     "tags": [
-      "colloquial"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "74 26"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "really",
-      "to tell the truth"
-     ]
-    }
-   ],
-   "rank": 39674,
-   "count": 9,
-   "family": "besa",
-   "is_root": true,
-   "etymology": "From besë (“faith”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "faith"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Besa Albanian is the Albanian word of honor.",
-    "score": [
-     1,
-     7,
-     -6,
-     10
-    ],
-    "sq": "Besa shqiptare është fjala shqiptare e nderit."
-   }
   }
  ]
 }

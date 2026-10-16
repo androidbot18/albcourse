@@ -16,11 +16,11 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 LEVELS = DATA / "levels"
 
-# Reference sentences mined from human-translated parallel corpora (OPUS).
+# Reference sentences mined from human-translated parallel corpora (OPUS)
+# reach this script through the level files, as each word's corpus_example.
 # Wiktionary examples always win: they are authored for the headword and
-# aligned to the exact sense. This file only fills gaps. See
-# tools/select_examples.py for the selection gates and their rationale.
-CORPUS_EXAMPLES = pathlib.Path(__file__).resolve().parent.parent / "data" / "corpus_examples.json"
+# aligned to the exact sense. The corpus only fills gaps. See
+# tools/corpus/select_examples.py for the selection gates and their rationale.
 
 
 def dedup_labels(word):
@@ -119,13 +119,6 @@ def main():
         print(f"no level files in {LEVELS}")
         return 1
 
-    corpus = {}
-    if CORPUS_EXAMPLES.exists():
-        corpus = json.loads(CORPUS_EXAMPLES.read_text(encoding="utf-8"))
-        print("corpus examples available: %d" % len(corpus))
-    else:
-        print("no corpus_examples.json -- Wiktionary examples only")
-
     words = []
     for path in files:
         level = json.loads(path.read_text(encoding="utf-8"))
@@ -154,10 +147,13 @@ def main():
                     # memory aid only. See tools/affixes.py.
                     "breakdown": w.get("breakdown"),
                     # Wiktionary first; corpus only fills a genuine gap.
+                    # The corpus sentence is the level file's own, which
+                    # has passed the build's gates (orthography.py), not
+                    # the raw data/corpus_examples.json.
                     # Only sq/en ship. The corpus record also carries
                     # "corpus" and "score", which are build-time provenance
                     # the app never reads; leaking them bloats every card.
-                    "ex": (pair["ex"] if pair else _slim(corpus.get(w["sq"]))),
+                    "ex": (pair["ex"] if pair else _slim(w.get("corpus_example"))),
                     # Set when the example came from a sibling sense of the
                     # same POS, so the app can show that sense's gloss and the
                     # sentence is never read as illustrating the headline gloss.
