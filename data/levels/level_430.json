@@ -1,43 +1,41 @@
 {
  "level": 430,
- "title": "shkruaj (more), fizik, frymëmarrje",
+ "title": "jam (more), shpërthej, pothuaj",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 4,
  "families": [
-  "fizik",
-  "frymëmarrje",
-  "shkruaj"
+  "jam",
+  "pothuaj",
+  "shpërthej"
  ],
  "pos_mix": {
-  "noun": 6,
-  "adj": 1,
-  "verb": 2
+  "conj": 1,
+  "verb": 4,
+  "adv": 1
  },
  "words": [
   {
-   "id": "shkrim",
-   "sq": "shkrim",
-   "en": "writing",
+   "id": "meqenëse",
+   "sq": "meqenëse",
+   "en": "since",
    "glosses": [
-    "writing"
+    "since"
    ],
    "pos": [
-    "noun"
+    "conj"
    ],
    "pos_labels": [
-    "noun"
+    "conjunction"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "writing",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "since",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,13 +44,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian univerbations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Latin links with redundant target parameters",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,75 +58,188 @@
      ],
      "examples": [],
      "links": [
-      "writing"
+      "since"
      ]
     }
    ],
-   "rank": 7451,
-   "count": 93,
-   "family": "shkruaj",
+   "rank": 7529,
+   "count": 92,
+   "family": "jam",
    "is_root": false,
-   "etymology": "Gerund of shkruaj; shkruaj + -im. Possibly influenced by Latin scrībō (“to write”).",
+   "etymology": "Univerbation of me + qenë + se.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "me",
+     "role": "prefix"
+    },
+    {
+     "word": "qenë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "meqë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "since it was built on grandfather's land.",
+    "score": [
+     3,
+     7,
+     -4,
+     10
+    ],
+    "sq": "meqenëse ishte ndërtuar në tokën e gjyshit."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "shpërthej",
+   "sq": "shpërthej",
+   "en": "to pop open",
+   "glosses": [
+    "to pop open",
+    "to puncture, lance",
+    "to (make) explode, blow up, blast, implode (\"to explode, to blast\", etc. - meaning in medio-passive voice)"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pop open",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pop",
+      "open"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to puncture, lance",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "puncture",
+      "lance"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to (make) explode, blow up, blast, implode (\"to explode, to blast\", etc. - meaning in medio-passive voice)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 27 65"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 25 56"
+      },
+      {
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 25 56"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "explode",
+      "blow up",
+      "blast"
+     ]
+    }
+   ],
+   "rank": 7541,
+   "count": 92,
+   "family": "shpërthej",
+   "is_root": true,
+   "etymology": "From sh- + për- + thyej, from Proto-Indo-European *ḱeh₃i- (“to sharpen”). Alternatively from Proto-Indo-European *sperǵʰ- (“to spring, jump”). Compare Lithuanian spreñgti (“to push in”), Old Church Slavonic прѧсти (pręsti, “to spin, stretch”), Ancient Greek σπέρχω (spérkhō, “to hasten”), Sanskrit स्पृहयति (spṛhayati, “is eager”), Old English springan (“to spring”).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "shkruaj",
-     "role": "base",
-     "en": "to write"
+     "word": "sh",
+     "role": "prefix"
     },
     {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "word": "për",
+     "role": "stem"
     }
    ],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "shpërthim"
+   ],
+   "related": [
+    "sh-",
+    "për-",
+    "thyej"
+   ],
    "forms": [
     {
-     "form": "shkrime",
-     "tag": "plural"
+     "form": "shpërtheu",
+     "tag": "aorist"
     },
     {
-     "form": "shkrimi",
-     "tag": "definite"
+     "form": "shpërthyer",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Thanks for writing.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Faleminderit për shkrim."
-   },
-   "breakdown": "transparent"
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
-   "id": "fizik",
-   "sq": "fizik",
-   "en": "physical",
+   "id": "pothuaj",
+   "sq": "pothuaj",
+   "en": "nearly, almost",
    "glosses": [
-    "physical"
+    "nearly, almost"
    ],
    "pos": [
-    "adj"
+    "adv"
    ],
    "pos_labels": [
-    "adjective"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "physical",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "nearly, almost",
      "tags": [],
      "cats": [
       {
@@ -136,147 +247,32 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "physical"
-     ]
-    }
-   ],
-   "rank": 7452,
-   "count": 93,
-   "family": "fizik",
-   "is_root": true,
-   "etymology": "Borrowed from French physique, from Latin physicus, from Ancient Greek φυσικός (phusikós, “natural”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "natural"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "fizike",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "That's physical activity.",
-    "score": [
-     1,
-     4,
-     -3,
-     4
-    ],
-    "sq": "Ky është aktivitet fizik."
-   }
-  },
-  {
-   "id": "frymëmarrje",
-   "sq": "frymëmarrje",
-   "en": "breath",
-   "glosses": [
-    "breath",
-    "breathing"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breath",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "breath"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breathing",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "breathing"
+      "nearly",
+      "almost"
      ]
     }
    ],
-   "rank": 7493,
-   "count": 93,
-   "family": "frymëmarrje",
+   "rank": 7542,
+   "count": 92,
+   "family": "pothuaj",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Univerbation of po and thuaj.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -284,25 +280,30 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "pothue",
+     "tag": "alternative"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Take a deep breath.",
+    "en": "I went there almost every day.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Bëj një frymëmarrje të thellë."
+    "sq": "Shkoja atje pothuaj çdo ditë."
    }
   },
   {
-   "id": "nënshkruaj",
-   "sq": "nënshkruaj",
-   "en": "to sign",
+   "id": "qeshë",
+   "sq": "qeshë",
+   "en": "I am (from jam, to be)",
    "glosses": [
-    "to sign"
+    "I am (from jam, to be)"
    ],
    "pos": [
     "verb"
@@ -314,98 +315,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to sign",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with nën-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sign"
-     ]
-    }
-   ],
-   "rank": 8557,
-   "count": 79,
-   "family": "shkruaj",
-   "is_root": false,
-   "etymology": "From nën- + shkruaj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "nën",
-     "role": "prefix"
-    },
-    {
-     "word": "shkruaj",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "nënshkrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "nënshkruar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I sign every word.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Unë nënshkruaj çdo fjalë."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "përshkruaj",
-   "sq": "përshkruaj",
-   "en": "to describe",
-   "glosses": [
-    "to describe"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to describe",
+     "gloss": "I am (from jam, to be)",
      "tags": [],
      "cats": [
       {
@@ -415,273 +325,49 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with për-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "describe"
-     ]
-    }
-   ],
-   "rank": 10618,
-   "count": 60,
-   "family": "shkruaj",
-   "is_root": false,
-   "etymology": "From për- + shkruaj.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    },
-    {
-     "word": "shkruaj",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përshkrova",
-     "tag": "aorist"
-    },
-    {
-     "form": "përshkruar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why didn't I paint more?",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Pse nuk mundem të përshkruaj më shumë?"
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "shkronjë",
-   "sq": "shkronjë",
-   "en": "letter (symbol)",
-   "glosses": [
-    "letter (symbol)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "letter (symbol)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -onjë",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "letter"
-     ]
-    }
-   ],
-   "rank": 31123,
-   "count": 14,
-   "family": "shkruaj",
-   "is_root": false,
-   "etymology": "From shkruaj (“to write”) + -onjë (feminine suffix).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "shkruaj",
-     "role": "base"
-    },
-    {
-     "word": "onjë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shkronja",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Which letter does it cover up?",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Cila shkronjë është fshehur?"
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "dorëshkrim",
-   "sq": "dorëshkrim",
-   "en": "manuscript",
-   "glosses": [
-    "manuscript",
-    "document"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "manuscript",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "69 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "manuscript"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "document",
-     "tags": [
-      "masculine"
+      "jam"
      ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "document"
-     ]
+     "is_form_of": "jam"
     }
    ],
-   "rank": 33003,
-   "count": 13,
-   "family": "shkruaj",
+   "rank": 15706,
+   "count": 36,
+   "family": "jam",
    "is_root": false,
-   "etymology": "From dorë (“hand”) + shkrim (“writing”).",
-   "etymology_class": "affix",
+   "etymology": "from Proto-Albanian *kl-esa from Proto-Indo-European *kʷel-",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "hand",
-    "writing"
-   ],
-   "components": [
-    {
-     "word": "dorë",
-     "role": "prefix"
-    },
-    {
-     "word": "shkrim",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How can I submit manuscript?",
+    "en": "The mother started to laugh.",
     "score": [
-     0,
-     5,
-     -5,
+     2,
+     4,
+     -2,
      10
     ],
-    "sq": "Si mund të dorëzoj dorëshkrim?"
-   },
-   "breakdown": "historical"
+    "sq": "Nëna filloi të qeshë."
+   }
   }
  ],
  "extended": true

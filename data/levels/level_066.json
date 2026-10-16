@@ -1,43 +1,91 @@
 {
  "level": 66,
- "title": "kam (continued)",
- "root": "kam",
- "root_gloss": "to have",
+ "title": "shpejt, ndonjë, poshtë",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 4,
  "families": [
-  "kam"
+  "ndonjë",
+  "poshtë",
+  "shpejt"
  ],
  "pos_mix": {
-  "verb": 5
+  "det": 1,
+  "adv": 2,
+  "noun": 1
  },
  "words": [
   {
-   "id": "ketë",
-   "sq": "ketë",
-   "en": "he/she/it have (from kam, to have)",
+   "id": "ndonjë",
+   "sq": "ndonjë",
+   "en": "any, some (one or other)",
    "glosses": [
-    "he/she/it have (from kam, to have)"
+    "any, some (one or other)"
    ],
    "pos": [
-    "verb"
+    "det"
    ],
    "pos_labels": [
-    "verb"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "any, some (one or other)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "A ke ndonjë pyetje?",
+       "en": "Do you have any questions?",
+       "offsets": [
+        [
+         5,
+         11
+        ]
+       ]
+      }
      ],
+     "links": []
+    }
+   ],
+   "rank": 114,
+   "count": 11958,
+   "family": "ndonjë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "shpejt",
+   "sq": "shpejt",
+   "en": "quickly, fast",
+   "glosses": [
+    "quickly, fast"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "quickly, fast",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -59,15 +107,94 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "quickly",
+      "fast"
+     ]
     }
    ],
-   "rank": 245,
-   "count": 4862,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
+   "rank": 199,
+   "count": 6414,
+   "family": "shpejt",
+   "is_root": true,
+   "etymology": "Borrowed from Latin *expeditus",
    "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpjertë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "Not so fast.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Jo kaq shpejt."
+   }
+  },
+  {
+   "id": "poshtë",
+   "sq": "poshtë",
+   "en": "down, downwards",
+   "glosses": [
+    "down, downwards"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "down, downwards",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "down",
+      "downwards"
+     ]
+    }
+   ],
+   "rank": 200,
+   "count": 6390,
+   "family": "poshtë",
+   "is_root": true,
+   "etymology": "A formation in -shtë > *-est, from posh, from Proto-Indo-European *pṓds. Compare Hittite [script needed] (pata), Ancient Greek πούς, ποδός (poús, podós), Old English fōt (“foot”). Orel suggests a borrowing from Latin post, poste (“behind, back”), but phonetic problems and a radical change in meaning makes it unlikely.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -77,204 +204,36 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There may be.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Mund të ketë."
-   }
-  },
-  {
-   "id": "pasur",
-   "sq": "pasur",
-   "en": "have, past form (from kam, to have)",
-   "glosses": [
-    "have, past form (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "have, past form (from kam, to have)",
-     "tags": [
-      "form-of",
-      "participle"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 264,
-   "count": 4416,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "Standard Albanian variant of alternative participles patur, pasë, pat. Compound of pasë + -ur (Tosk participle suffix). See pata (“I had”) (aorist form of kam (“I have”)) for more.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "pasë",
-     "role": "base"
-    },
-    {
-     "word": "ur",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pasun",
-     "tag": "alternative"
-    },
-    {
-     "form": "patur",
-     "tag": "alternative"
-    },
-    {
-     "form": "pat",
-     "tag": "alternative"
-    },
-    {
-     "form": "pas",
-     "tag": "alternative"
-    },
-    {
-     "form": "pasë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have had enough.",
+    "en": "It looks like below.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Unë kam pasur mjaft."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "kesh",
-   "sq": "kesh",
-   "en": "you (sg) have (from kam, to have)",
-   "glosses": [
-    "you (sg) have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 349,
-   "count": 2975,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "You need to have incentives.",
-    "score": [
-     1,
-     4,
-     -3,
-     4
-    ],
-    "sq": "Duhet te kesh nxitje."
+    "sq": "Duket si më poshtë."
    }
   },
   {
-   "id": "ki",
-   "sq": "ki",
-   "en": "you (sg)! (from kam, to have)",
+   "id": "shpejtësi",
+   "sq": "shpejtësi",
+   "en": "speed",
    "glosses": [
-    "you (sg)! (from kam, to have)"
+    "speed"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "speed",
      "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
+      "feminine"
      ],
      "cats": [
       {
@@ -284,75 +243,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 57 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kam"
-    }
-   ],
-   "rank": 869,
-   "count": 1107,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "You won't.",
-    "score": [
-     1,
-     3,
-     -2,
-     5
-    ],
-    "sq": "Jo. Ki besim!"
-   }
-  },
-  {
-   "id": "kenë",
-   "sq": "kenë",
-   "en": "they have (from kam, to have)",
-   "glosses": [
-    "they have (from kam, to have)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they have (from kam, to have)",
-     "tags": [
-      "form-of",
-      "plural",
-      "present",
-      "subjunctive",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -ësi",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -362,45 +253,60 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "speed"
+     ]
     }
    ],
-   "rank": 1102,
-   "count": 852,
-   "family": "kam",
+   "rank": 2491,
+   "count": 334,
+   "family": "shpejt",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From shpejt + -ësi.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "shpejt",
+     "role": "base",
+     "en": "quickly"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "shpejtësi",
+     "tag": "plural"
+    },
+    {
+     "form": "shpejtësia",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "They may.",
+    "corpus": "HPLT",
+    "en": "is encouraging speed?",
     "score": [
      1,
-     4,
-     -3,
-     5
+     3,
+     -2,
+     10
     ],
-    "sq": "Edhe mund të kenë."
-   }
+    "sq": "është inkurajuese shpejtësi?"
+   },
+   "breakdown": "transparent"
   }
- ],
- "continues": [
-  "kam"
  ]
 }

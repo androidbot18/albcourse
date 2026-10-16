@@ -28,6 +28,7 @@ Design rules:
 """
 
 import json
+import added_words
 import form_gloss
 import form_senses
 import gloss_overrides
@@ -102,6 +103,12 @@ MAIN_MAX_RANK = 5000
 # Closed-class roots deferred past the opening get a synthetic rank just
 # beyond this one, so they are taught after the opening rather than dropped.
 DEFER_MAX_ROOT_RANK = 900
+# ...and are then spread through the course rather than stacked there: the
+# first after this many scheduled families (two levels' worth, so the
+# scheduler's first levels stay content words), then one every
+# DEFER_SPREAD_EVERY families, about one per level.
+DEFER_SPREAD_AFTER = 10
+DEFER_SPREAD_EVERY = 4
 
 # Order in which a multi-POS word should be presented.
 #
@@ -1309,6 +1316,21 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         # The word is still taught, just later: nothing is dropped.
         score[root] = DEFER_MAX_ROOT_RANK + 1 + len(beyond)
         beyond.append(root)
+    # Spread, not stacked. Every deferred root used to get a rank just past
+    # DEFER_MAX_ROOT_RANK, so all of them -- të, që, nga, kjo, ky, pa, pas,
+    # deri, prej... 38 top-200 words -- arrived together at L165-179, a
+    # wall of grammar after a hundred levels without it (RECOMMENDATIONS.md
+    # section 3.2). Each is now woven into the natural order instead: after
+    # the scheduler's first DEFER_SPREAD_AFTER families, one every
+    # DEFER_SPREAD_EVERY families, most frequent first. That is about one
+    # per level. A root with nothing left to follow keeps its old rank.
+    natural = sorted((r for r in families if r not in set(beyond)
+                      and r in score),
+                     key=lambda r: (score[r], r))
+    for i, root in enumerate(beyond):
+        at = DEFER_SPREAD_AFTER + i * DEFER_SPREAD_EVERY
+        if at < len(natural):
+            score[root] = score[natural[at]] + 0.5
     if beyond:
         print("  %d closed-class roots deferred past the opening: %s"
               % (len(beyond), " ".join(sorted(beyond))))
@@ -1937,6 +1959,13 @@ def main():
 
     n_fixed = gloss_overrides.apply(cards, lambda p: POS_LABEL.get(p, p))
     print("  reviewed gloss fixes: %d headlines changed" % n_fixed)
+
+    # Core words Wiktionary has no entry for (pra, ndonjë, sikur...). After
+    # the form cards and gloss fixes, which only rewrite Wiktionary data, and
+    # before families, so a hand-added form (falni) joins its lemma's family.
+    hand = added_words.apply(cards, freq, lambda p: POS_LABEL.get(p, p),
+                             ALPHABET_RE)
+    print("  +%d hand-added core words, now %d cards" % (len(hand), len(cards)))
 
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.

@@ -99,8 +99,9 @@ if W:
 
     # 4086, plus `po` (pos_balance.INCLUDE_PARTICLES) and `e`, restored
     # for the curated opening (RECOMMENDATIONS.md section 3.2), and the four
-    # days Wiktionary files under their article (pos_balance.ARTICLED_ENTRIES).
-    check("the deck has 4092 cards", len(W), 4092)
+    # days Wiktionary files under their article (pos_balance.ARTICLED_ENTRIES),
+    # plus the 41 core words Wiktionary lacks (tools/added_words.py).
+    check("the deck has 4133 cards", len(W), 4133)
 
     # The policy governs the SCHEDULER, which starts after the curated
     # opening (tools/opening_levels.py). That opening teaches `jo` and the
@@ -149,6 +150,35 @@ if W:
     strays = sorted(w["sq"] for w in opening if op.is_rare_tail(w))
     check("rare-tail strays stay at or below the pre-existing count",
           len(strays) <= 16, True)
+
+    # Spread, not stacked (RECOMMENDATIONS.md section 3.2). Every deferred
+    # root once arrived together at L165-179: 38 top-200 words in one wall.
+    def deferred_per_level(words):
+        per = {}
+        for w in words:
+            if (w["level"] > n_cur and w.get("is_root")
+                    and not w.get("extended") and op.is_function_word(w)
+                    and not op.admits_to_opening(w["sq"])
+                    and not op.admits_family_to_opening(w["sq"])):
+                per[w["level"]] = per.get(w["level"], 0) + 1
+        return per
+
+    per = deferred_per_level(W)
+    check("no level teaches more than 2 deferred function-word roots "
+          "(worst: %r)" % ((max(per.items(), key=lambda kv: kv[1])
+                            if per else None),),
+          max(per.values() or [0]) <= 2, True)
+    stacked = [dict(w, level=170) for w in W
+               if w["sq"] in ("të", "që", "nga", "kjo", "ky")]
+    check("control: a stacked block is detected",
+          max(deferred_per_level(stacked).values()) > 2, True)
+
+    # The top-200 words are taught by L100. One exception is pinned by
+    # name: pastaj (rank 174) is built on ndaj (rank 631), a real stem
+    # edge ("pas + ndaj") that the prerequisite rule must honour.
+    late = sorted(w["sq"] for w in W if w["rank"] <= 200 and w["level"] > 100)
+    check("top-200 words after L100 are only %r (got %r)"
+          % (["pastaj"], late), late, ["pastaj"])
 
     # Level 1 is the headline defect: it opened with te (rank 1,
     # conjunction) and ne (rank 3, conjunction), two of five cards.

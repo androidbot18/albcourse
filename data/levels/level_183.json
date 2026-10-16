@@ -1,107 +1,39 @@
 {
  "level": 183,
- "title": "qind",
- "root": "qind",
- "root_gloss": "hundred",
+ "title": "pranoj",
+ "root": "pranoj",
+ "root_gloss": "to accept",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "qind"
+  "pranoj"
  ],
  "pos_mix": {
-  "num": 2
+  "verb": 2
  },
  "words": [
   {
-   "id": "qind",
-   "sq": "qind",
-   "en": "hundred",
+   "id": "pranoj",
+   "sq": "pranoj",
+   "en": "to accept",
    "glosses": [
-    "hundred"
+    "to accept"
    ],
    "pos": [
-    "num"
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "hundred",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to accept",
+     "tags": [
+      "transitive"
      ],
-     "examples": [],
-     "links": [
-      "hundred"
-     ]
-    }
-   ],
-   "rank": 5783,
-   "count": 127,
-   "family": "qind",
-   "is_root": true,
-   "etymology": "From Latin centum, possibly borrowed through Vulgar Latin.",
-   "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin centum",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "0 percent risk!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "0 për qind rrezik!"
-   }
-  },
-  {
-   "id": "njëqind",
-   "sq": "njëqind",
-   "en": "one hundred",
-   "glosses": [
-    "one hundred"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "one hundred",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -124,44 +56,117 @@
      ],
      "examples": [],
      "links": [
-      "one hundred"
+      "accept"
      ]
     }
    ],
-   "rank": 3525,
-   "count": 225,
-   "family": "qind",
+   "rank": 945,
+   "count": 1005,
+   "family": "pranoj",
+   "is_root": true,
+   "etymology": "Possibly from pranë (“close”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "close"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pranova",
+     "tag": "aorist"
+    },
+    {
+     "form": "pranuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I admit it.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Unë e pranoj atë."
+   }
+  },
+  {
+   "id": "pranuar",
+   "sq": "pranuar",
+   "en": "accept, past form (from pranoj, to accept)",
+   "glosses": [
+    "accept, past form (from pranoj, to accept)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "accept, past form (from pranoj, to accept)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "pranoj"
+    }
+   ],
+   "rank": 1910,
+   "count": 453,
+   "family": "pranoj",
    "is_root": false,
-   "etymology": "Equivalent to një + qind.",
-   "etymology_class": "compound",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "një",
-     "role": "prefix"
-    },
-    {
-     "word": "qind",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "One hundred years of experience.",
+    "en": "What is received?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Njëqind vjet përvojë."
-   },
-   "breakdown": "historical"
+    "sq": "Çfarë është pranuar?"
+   }
   }
  ]
 }

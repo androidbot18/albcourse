@@ -1,108 +1,162 @@
 {
  "level": 382,
- "title": "dy (more), dollap",
+ "title": "shëndet, xhami",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 3,
  "families": [
-  "dollap",
-  "dy"
+  "shëndet",
+  "xhami"
  ],
  "pos_mix": {
-  "num": 2,
-  "noun": 1
+  "intj": 1,
+  "noun": 5
  },
  "words": [
   {
-   "id": "dymbëdhjetë",
-   "sq": "dymbëdhjetë",
-   "en": "twelve",
+   "id": "shëndet",
+   "sq": "shëndet",
+   "en": "bless you! (said when someone sneezes)",
    "glosses": [
-    "twelve"
+    "bless you! (said when someone sneezes)",
+    "health",
+    "greeting",
+    "toast"
    ],
    "pos": [
-    "num"
+    "intj",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "interjection",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "twelve",
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "bless you! (said when someone sneezes)",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "57 2 9 32"
       },
       {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
+       "name": "Albanian responses to sneezing",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "54 4 20 21"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "78 2 10 10"
       }
      ],
      "examples": [],
      "links": [
-      "twelve"
+      "bless you"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "health",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "health"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "greeting",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "greeting"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "toast",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "toast"
      ]
     }
    ],
-   "rank": 6015,
+   "rank": 6018,
    "count": 120,
-   "family": "dy",
-   "is_root": false,
-   "etymology": "From dy (“two”) + -mbëdhjetë (“-teen”).",
-   "etymology_class": "affix",
+   "family": "shëndet",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin *sanitātis (nominative singular), from Latin sānitās (“health”). Compare Romanian sănătate.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "two"
+    "health"
    ],
-   "components": [
+   "components": [],
+   "derived": [
+    "përshëndetje",
+    "shëndetdobët",
+    "shëndetësi",
+    "i shëndetshëm"
+   ],
+   "related": [
+    "shëndoshë",
+    "shëroj"
+   ],
+   "forms": [
     {
-     "word": "dy",
-     "role": "base"
-    },
-    {
-     "word": "mbëdhjetë",
-     "role": "suffix"
+     "form": "shëndeti",
+     "tag": "definite"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "it was twelve men.",
+    "en": "Good health and good luck!",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
      10
     ],
-    "sq": "ajo ishte dymbëdhjetë burra."
-   },
-   "breakdown": "historical"
+    "sq": "Shëndet dhe fat!"
+   }
   },
   {
-   "id": "dollap",
-   "sq": "dollap",
-   "en": "closet, cupboard",
+   "id": "xhami",
+   "sq": "xhami",
+   "en": "mosque",
    "glosses": [
-    "closet, cupboard"
+    "mosque"
    ],
    "pos": [
     "noun"
@@ -114,9 +168,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "closet, cupboard",
+     "gloss": "mosque",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -140,71 +194,64 @@
      ],
      "examples": [],
      "links": [
-      "closet",
-      "cupboard"
+      "mosque"
      ]
     }
    ],
-   "rank": 6016,
+   "rank": 6029,
    "count": 120,
-   "family": "dollap",
+   "family": "xhami",
    "is_root": true,
-   "etymology": "From Turkish dolap.",
+   "etymology": "Borrowed from Ottoman Turkish جامع (cami), from Arabic جَامِع (jāmiʕ).",
    "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish dolap",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dollapë",
+     "form": "xhami",
      "tag": "plural"
     },
     {
-     "form": "dollapi",
+     "form": "xhamia",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "She went to the closet and looked it up.",
+    "en": "From the glass I saw a face.",
     "score": [
      0,
-     7,
-     -7,
+     5,
+     -5,
      10
     ],
-    "sq": "Ajo shkoi në dollap dhe shikuar atë."
+    "sq": "Nga xhami pashë një fytyrë."
    }
   },
   {
-   "id": "dyzet",
-   "sq": "dyzet",
-   "en": "forty",
+   "id": "shëndetshëm",
+   "sq": "shëndetshëm",
+   "en": "healthy (in good health or conducive to good health)",
    "glosses": [
-    "forty"
+    "healthy (in good health or conducive to good health)"
    ],
    "pos": [
-    "num"
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "forty",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "healthy (in good health or conducive to good health)",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -212,7 +259,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -zet",
+       "name": "Albanian terms suffixed with -shëm",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -220,30 +273,29 @@
      ],
      "examples": [],
      "links": [
-      "forty"
+      "healthy"
      ]
     }
    ],
-   "rank": 11203,
-   "count": 57,
-   "family": "dy",
+   "rank": 6458,
+   "count": 110,
+   "family": "shëndet",
    "is_root": false,
-   "etymology": "From dy (“two”) + -zet (“twenty”).",
+   "etymology": "shëndet + -shëm",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "two",
-    "twenty"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "dy",
+     "word": "shëndet",
      "role": "base"
     },
     {
-     "word": "zet",
-     "role": "suffix"
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
     }
    ],
    "derived": [],
@@ -251,14 +303,14 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "for these forty days.",
+    "en": "Healthy eyes.",
     "score": [
-     2,
-     4,
-     -2,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "për këto dyzet ditë."
+    "sq": "Sy të shëndetshëm."
    },
    "breakdown": "historical"
   }

@@ -1,39 +1,398 @@
 {
  "level": 128,
- "title": "burg",
- "root": "burg",
- "root_gloss": "jail, prison",
+ "title": "pak, ku, bashku +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 7,
  "families": [
-  "burg"
+  "bashku",
+  "falë",
+  "ku",
+  "pak",
+  "seriozisht",
+  "zgjuar"
  ],
  "pos_mix": {
-  "noun": 1,
-  "verb": 1
+  "adv": 5,
+  "adj": 2,
+  "prep": 1
  },
  "words": [
   {
-   "id": "burg",
-   "sq": "burg",
-   "en": "jail, prison",
+   "id": "diku",
+   "sq": "diku",
+   "en": "somewhere",
    "glosses": [
-    "jail, prison"
+    "somewhere"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "jail, prison",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "somewhere",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with di-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "somewhere"
+     ]
+    }
+   ],
+   "rank": 536,
+   "count": 1936,
+   "family": "ku",
+   "is_root": false,
+   "etymology": "di- + ku.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "di",
+     "role": "prefix"
+    },
+    {
+     "word": "ku",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Somewhere better.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Diku më mirë."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "bashku",
+   "sq": "bashku",
+   "en": "together (së bashku)",
+   "glosses": [
+    "together (së bashku)"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "together (së bashku)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Shkojmë së bashku.",
+       "en": "Let's go together.",
+       "offsets": [
+        [
+         11,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 539,
+   "count": 1926,
+   "family": "bashku",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "zgjuar",
+   "sq": "zgjuar",
+   "en": "awake",
+   "glosses": [
+    "awake",
+    "clever, witty, intelligent, smart"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "awake",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 8 29 29"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 4 29 29"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "awake"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "clever, witty, intelligent, smart",
      "tags": [
-      "masculine"
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 43 16 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "clever",
+      "witty",
+      "intelligent"
+     ]
+    }
+   ],
+   "rank": 540,
+   "count": 1921,
+   "family": "zgjuar",
+   "is_root": true,
+   "etymology": "From the participle of zgjoj, literally 'awaken, vivid'. Same sense development in Italian sveglio, meaning both 'awaken' and 'smart'.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "Tatoeba",
+    "en": "She is awake.",
+    "score": [
+     0,
+     3,
+     -3,
+     0
+    ],
+    "sq": "Ajo është zgjuar."
+   }
+  },
+  {
+   "id": "seriozisht",
+   "sq": "seriozisht",
+   "en": "seriously",
+   "glosses": [
+    "seriously"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "seriously",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Flas seriozisht.",
+       "en": "I'm serious.",
+       "offsets": [
+        [
+         5,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 545,
+   "count": 1901,
+   "family": "seriozisht",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "aspak",
+   "sq": "aspak",
+   "en": "absolutely not, not at all",
+   "glosses": [
+    "absolutely not, not at all"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "absolutely not, not at all",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with as-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "absolutely",
+      "not"
+     ]
+    }
+   ],
+   "rank": 1056,
+   "count": 893,
+   "family": "pak",
+   "is_root": false,
+   "etymology": "From as- (“not, neither”) + pak (“a little”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "as",
+     "role": "prefix"
+    },
+    {
+     "word": "pak",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Not friendly at all.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Aspak të mirë."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "falë",
+   "sq": "falë",
+   "en": "thanks to, owing to",
+   "glosses": [
+    "thanks to, owing to"
+   ],
+   "pos": [
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "thanks to, owing to",
+     "tags": [
+      "with-ablative"
      ],
      "cats": [
       {
@@ -43,7 +402,78 @@
        "source": "w"
       },
       {
-       "name": "Pages with 12 entries",
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thanks to",
+      "owing to"
+     ]
+    }
+   ],
+   "rank": 1227,
+   "count": 741,
+   "family": "falë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And it happened thanks to her!",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Dhe kjo ndodhi falë saj!"
+   }
+  },
+  {
+   "id": "paksa",
+   "sq": "paksa",
+   "en": "a little, a bit",
+   "glosses": [
+    "a little, a bit"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "a little, a bit",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 6 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,118 +487,49 @@
      ],
      "examples": [],
      "links": [
-      "jail",
-      "prison"
+      "a little",
+      "a bit"
      ]
     }
    ],
-   "rank": 622,
-   "count": 1652,
-   "family": "burg",
-   "is_root": true,
-   "etymology": "Possibly borrowed from Late Latin burgus (“fortress, watchtower”), perhaps ultimately from Proto-Germanic *burgz (“fortress”), or possibly borrowed from Ancient Greek πύργος (púrgos, “watchtower, fortress”), although this is difficult given the initial b- in Albanian.",
-   "etymology_class": "root",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "fortress"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "burgje",
-     "tag": "plural"
-    },
-    {
-     "form": "burgu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He dies in prison.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Vdes në burg."
-   }
-  },
-  {
-   "id": "burgosur",
-   "sq": "burgosur",
-   "en": "imprison, past form (from burgos, to imprison)",
-   "glosses": [
-    "imprison, past form (from burgos, to imprison)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "imprison, past form (from burgos, to imprison)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "burgos"
-    }
-   ],
-   "rank": 1992,
-   "count": 435,
-   "family": "burg",
+   "rank": 1607,
+   "count": 546,
+   "family": "pak",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From pak (“little, a few”) + sa (“how much”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "pak",
+     "role": "prefix"
+    },
+    {
+     "word": "sa",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "That is, you were a prisoner!",
+    "en": "slightly lower.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "E paske të burgosur domethënë!"
-   }
+    "sq": "paksa më e ulët."
+   },
+   "breakdown": "historical"
   }
+ ],
+ "continues": [
+  "ku",
+  "pak"
  ]
 }

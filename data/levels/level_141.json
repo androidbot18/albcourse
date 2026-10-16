@@ -1,24 +1,31 @@
 {
  "level": 141,
- "title": "luftë",
- "root": "luftë",
- "root_gloss": "war, fight",
+ "title": "dhomë, shaka, pret +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "luftë"
+  "dhomë",
+  "ndër",
+  "prapë",
+  "pret",
+  "shaka"
  ],
  "pos_mix": {
-  "noun": 2
+  "noun": 3,
+  "verb": 1,
+  "adv": 1,
+  "prep": 3
  },
  "words": [
   {
-   "id": "luftë",
-   "sq": "luftë",
-   "en": "war, fight",
+   "id": "dhomën",
+   "sq": "dhomën",
+   "en": "the room, singular (from dhomë)",
    "glosses": [
-    "war, fight"
+    "the room, singular (from dhomë)"
    ],
    "pos": [
     "noun"
@@ -30,7 +37,305 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "war, fight",
+     "gloss": "the room, singular (from dhomë)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "dhomë"
+    }
+   ],
+   "rank": 623,
+   "count": 1651,
+   "family": "dhomë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "In the room.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "në dhomën e."
+   }
+  },
+  {
+   "id": "shaka",
+   "sq": "shaka",
+   "en": "joke, prank",
+   "glosses": [
+    "joke, prank"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "joke, prank",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "joke",
+      "prank"
+     ]
+    }
+   ],
+   "rank": 624,
+   "count": 1650,
+   "family": "shaka",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish شقا (şaka, “joke”). Compare Turkish şaka.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "joke"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shaka",
+     "tag": "plural"
+    },
+    {
+     "form": "shakaja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "I'm not kidding.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Nuk bej shaka."
+   }
+  },
+  {
+   "id": "pret",
+   "sq": "pret",
+   "en": "wait expectantly, expect",
+   "glosses": [
+    "wait expectantly, expect"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "wait expectantly, expect",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with 8 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 67 0 8 5"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 80 0 5 3"
+      }
+     ],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 625,
+   "count": 1649,
+   "family": "pret",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "So, what are you waiting for?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Çfarë pret akoma?"
+   }
+  },
+  {
+   "id": "prapë",
+   "sq": "prapë",
+   "en": "again, back, anew, afresh",
+   "glosses": [
+    "again, back, anew, afresh"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "again, back, anew, afresh",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "again",
+      "back",
+      "anew"
+     ]
+    }
+   ],
+   "rank": 626,
+   "count": 1648,
+   "family": "prapë",
+   "is_root": true,
+   "etymology": "A combination of two contiguous particles, from Proto-Albanian *pər apə. Compare Proto-Albanian *pər-parə-a > modern përpara (> para).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Yet nothing has been done.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Por prapë nuk është bërë asgjë."
+   }
+  },
+  {
+   "id": "dhomë",
+   "sq": "dhomë",
+   "en": "room, chamber",
+   "glosses": [
+    "room, chamber"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "room, chamber",
      "tags": [
       "feminine"
      ],
@@ -56,17 +361,17 @@
      ],
      "examples": [],
      "links": [
-      "war",
-      "fight"
+      "room",
+      "chamber"
      ]
     }
    ],
-   "rank": 691,
-   "count": 1461,
-   "family": "luftë",
+   "rank": 708,
+   "count": 1432,
+   "family": "dhomë",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Late Latin lucta, from Latin luctor; cognate with Romanian luptă, Aromanian ljuftã.",
-   "etymology_class": "borrowed",
+   "etymology": "Ultimately from Proto-Indo-European *dem- (“to build; house”). Compare Ancient Greek δόμος (dómos, “house”), Latin domus, and English timber.",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -75,97 +380,151 @@
    "related": [],
    "forms": [
     {
-     "form": "luftëra",
+     "form": "dhoma",
      "tag": "plural"
-    },
-    {
-     "form": "lufta",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Who wants a war?",
+    "corpus": "HPLT",
+    "en": "Room as you.",
     "score": [
      0,
      3,
      -3,
-     8
+     10
     ],
-    "sq": "Kush do luftë?"
+    "sq": "Dhomë si ju."
    }
   },
   {
-   "id": "lufta",
-   "sq": "lufta",
-   "en": "the war, singular (from luftë)",
+   "id": "ndër",
+   "sq": "ndër",
+   "en": "between",
    "glosses": [
-    "the war, singular (from luftë)"
+    "between",
+    "among, in, amidst",
+    "through, throughout"
    ],
    "pos": [
-    "noun"
+    "prep",
+    "prep",
+    "prep"
    ],
    "pos_labels": [
-    "noun"
+    "preposition",
+    "preposition",
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the war, singular (from luftë)",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "between",
      "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
+      "with-accusative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 30 29"
+      },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "77 15 8"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "between"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "among, in, amidst",
+     "tags": [
+      "with-accusative"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 81 10"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 93 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 94 0"
       }
      ],
      "examples": [],
-     "is_form_of": "luftë"
+     "links": [
+      "among",
+      "in",
+      "amidst"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "through, throughout",
+     "tags": [
+      "with-accusative"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "through",
+      "throughout"
+     ]
     }
    ],
-   "rank": 1167,
-   "count": 794,
-   "family": "luftë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 3137,
+   "count": 258,
+   "family": "ndër",
+   "is_root": true,
+   "etymology": "Attested by Buzuku as ëndër. From Proto-Albanian *enter, from Proto-Indo-European *h₁entér (“between”); or borrowed from Latin inter. See also ndë (“in”), ndën, nën (“under”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "ndër-",
+    "ndërmjet",
+    "ndërkohë",
+    "ndërkaq",
+    "ndërsa"
+   ],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "This is the war.",
+    "corpus": "HPLT",
+    "en": "Talk about cross-selling!",
     "score": [
      0,
-     3,
-     -3,
-     5
+     4,
+     -4,
+     10
     ],
-    "sq": "Kjo është lufta."
+    "sq": "Flisni për ndër-shitje!"
    }
   }
  ]

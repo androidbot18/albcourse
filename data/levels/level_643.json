@@ -1,43 +1,47 @@
 {
  "level": 643,
- "title": "prej (more), abuzim, akuarium +3",
+ "title": "lëndoj (more), vyer, projektligj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "abuzim",
-  "akuarium",
-  "lisë",
-  "mitër",
-  "mërzi",
-  "prej"
+  "fell",
+  "lëndoj",
+  "njihem",
+  "projektligj",
+  "vyer",
+  "zhyt"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 9
+  "noun": 2,
+  "adj": 1,
+  "verb": 3,
+  "adv": 1
  },
  "words": [
   {
-   "id": "ndërprej",
-   "sq": "ndërprej",
-   "en": "to interrupt something",
+   "id": "lëndim",
+   "sq": "lëndim",
+   "en": "wound, injury",
    "glosses": [
-    "to interrupt something"
+    "wound, injury"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to interrupt something",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "wound, injury",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +50,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with ndër-",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,126 +64,77 @@
      ],
      "examples": [],
      "links": [
-      "interrupt"
+      "wound",
+      "injury"
      ]
     }
    ],
-   "rank": 25094,
+   "rank": 25201,
    "count": 19,
-   "family": "prej",
+   "family": "lëndoj",
    "is_root": false,
-   "etymology": "From ndër- (“among, between”) + prej (“to cut”).",
+   "etymology": "Gerund of lëndoj; lëndoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "ndër",
-     "role": "prefix"
+     "word": "lëndoj",
+     "role": "base",
+     "en": "to hurt"
     },
     {
-     "word": "prej",
-     "role": "stem"
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": null,
-   "breakdown": "historical"
-  },
-  {
-   "id": "abuzim",
-   "sq": "abuzim",
-   "en": "abuse",
-   "glosses": [
-    "abuse"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "abuse",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "abuse"
-     ]
+     "form": "lëndime",
+     "tag": "plural"
+    },
+    {
+     "form": "lëndimi",
+     "tag": "definite"
     }
    ],
-   "rank": 25116,
-   "count": 19,
-   "family": "abuzim",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Then I realised it was child abuse.",
+    "en": "It's not an injury.",
     "score": [
      0,
-     7,
-     -7,
+     3,
+     -3,
      10
     ],
-    "sq": "Pastaj kuptova se ishte abuzim me fëmijët."
-   }
+    "sq": "Nuk është lëndim."
+   },
+   "breakdown": "transparent"
   },
   {
-   "id": "akuarium",
-   "sq": "akuarium",
-   "en": "aquarium",
+   "id": "vyer",
+   "sq": "vyer",
+   "en": "precious, valued, worthy",
    "glosses": [
-    "aquarium"
+    "precious, valued, worthy"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "aquarium",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "precious, valued, worthy",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -202,13 +157,93 @@
      ],
      "examples": [],
      "links": [
-      "aquarium"
+      "precious",
+      "valued",
+      "worthy"
      ]
     }
    ],
-   "rank": 25145,
+   "rank": 25202,
    "count": 19,
-   "family": "akuarium",
+   "family": "vyer",
+   "is_root": true,
+   "etymology": "From vyej.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vyere",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My relationship with Jehovah is most precious to me.",
+    "score": [
+     2,
+     9,
+     -7,
+     10
+    ],
+    "sq": "Marrëdhënia me Jehovain është shumë e vyer për mua."
+   }
+  },
+  {
+   "id": "projektligj",
+   "sq": "projektligj",
+   "en": "draft law",
+   "glosses": [
+    "draft law"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "draft law",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "draft",
+      "law"
+     ]
+    }
+   ],
+   "rank": 25231,
+   "count": 19,
+   "family": "projektligj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -221,82 +256,39 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Put them in an aquarium.",
+    "en": "But how many pensioners benefit from this bill?",
     "score": [
-     0,
-     5,
+     2,
+     7,
      -5,
      10
     ],
-    "sq": "Vendos ato në një akuarium."
+    "sq": "Por sa pensionistë përfitojnë nga ky projektligj?"
    }
   },
   {
-   "id": "mërzi",
-   "sq": "mërzi",
-   "en": "depression",
+   "id": "zhyt",
+   "sq": "zhyt",
+   "en": "to immerse, dunk, sink, to dip",
    "glosses": [
-    "depression",
-    "boredom",
-    "a yearning to leave",
-    "spleen"
+    "to immerse, dunk, sink, to dip",
+    "to put someone into a difficult situation"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "depression",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to immerse, dunk, sink, to dip",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "depression"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "boredom",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "boredom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a yearning to leave",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spleen",
-     "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -304,195 +296,179 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "9 11 25 54"
-      },
+       "_dis": "66 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "immerse",
+      "dunk",
+      "sink"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put someone into a difficult situation",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "11 12 28 49"
+       "_dis": "43 57"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 8 15 71"
+       "_dis": "28 72"
       }
      ],
      "examples": [],
      "links": [
-      "spleen"
+      "put",
+      "difficult",
+      "situation"
      ]
     }
    ],
-   "rank": 25158,
+   "rank": 25235,
    "count": 19,
-   "family": "mërzi",
+   "family": "zhyt",
    "is_root": true,
-   "etymology": "from mërzit, mërzis. close to marrë, marr",
+   "etymology": "From Proto-Albanian *diš-ūd-tja, a similar formation to mbys, from Proto-Indo-European *wed- (“water”). Alternatively, to be compared with Lithuanian žū́ti (“perish”), žudýti (“slay”), Latvian zùdu (“disappear, get lost”), zaudêt (“lose”), Middle Irish gúas (“danger, peril, jeopardy”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "water"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zhyta",
+     "tag": "aorist"
+    },
+    {
+     "form": "zhytur",
+     "tag": "participle"
+    },
+    {
+     "form": "zhys",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "He dives in to try to help me.",
+    "score": [
+     0,
+     7,
+     -7,
+     5
+    ],
+    "sq": "Ai u zhyt për të më ndihmuar."
+   }
+  },
+  {
+   "id": "njihem",
+   "sq": "njihem",
+   "en": "to meet, to become acquainted",
+   "glosses": [
+    "to meet, to become acquainted"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to meet, to become acquainted",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-verb",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Gëzohem që u njohëm.",
+       "en": "Pleased to meet you. (lit. I am pleased that we have met)",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "meet",
+      "acquainted"
+     ]
+    }
+   ],
+   "rank": 25238,
+   "count": 19,
+   "family": "njihem",
+   "is_root": true,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "mërzitur",
-    "shpretkë"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "GlobalVoices",
-    "en": "and enjoys the boredom.",
-    "score": [
-     1,
-     4,
-     -3,
-     3
-    ],
-    "sq": "dhe kënaqet në mërzi."
-   }
-  },
-  {
-   "id": "lisë",
-   "sq": "lisë",
-   "en": "woof, weft",
-   "glosses": [
-    "woof, weft",
-    "heddle"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "woof, weft",
-     "tags": [
-      "feminine",
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Weaving",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Weaving",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weaving",
-      "regional",
-      "woof"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "heddle",
-     "tags": [
-      "feminine",
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Weaving",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Weaving",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weaving",
-      "regional",
-      "heddle"
-     ]
-    }
-   ],
-   "rank": 25167,
-   "count": 19,
-   "family": "lisë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *litšā, from Proto-Indo-European *leykʷyeh₂, derivative of *leykʷ- (“to leave, to remain”); related to liq.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "liq",
-    "lismë"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "lisa",
-     "tag": "plural"
+     "form": "njohur",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "mitër",
-   "sq": "mitër",
-   "en": "womb, uterus",
+   "id": "fell",
+   "sq": "fell",
+   "en": "deep, shallow",
    "glosses": [
-    "womb, uterus"
+    "deep, shallow"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "womb, uterus",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "deep, shallow",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -501,7 +477,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -515,40 +491,34 @@
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "womb",
-      "uterus"
+      "deep",
+      "shallow"
      ]
     }
    ],
-   "rank": 25174,
+   "rank": 25260,
    "count": 19,
-   "family": "mitër",
+   "family": "fell",
    "is_root": true,
-   "etymology": "From Greek μήτρα (mítra, “womb, uterus”).",
-   "etymology_class": "borrowed",
-   "source_lang": "el",
-   "cognate": "from Greek μήτρα",
+   "etymology": "From Proto-Albanian *spesla, metathesized form of *spelsa, from Proto-Indo-European *pels- (“rock, boulder”), variant of *spel- (“to cleave, break”). Compare Latin hydronym Pelso, Latin Palatium, Pashto پرښه (parša, “rock, rocky ledge”), Ancient Greek πέλλα (pélla, “stone”), German Felsen (“boulder, cliff”). Mostly dialectal, used in Gheg Albanian.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "mitra",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is then implanted in the womb.",
+    "en": "The Name is Fell.",
     "score": [
      1,
-     6,
-     -5,
+     3,
+     -2,
      10
     ],
-    "sq": "Kjo më pas implantohet në mitër."
+    "sq": "Emri është Fell."
    }
   }
  ],

@@ -127,37 +127,18 @@ else:
     if not (os.path.exists(freq_path) and os.path.exists(dict_path)):
         print("  skip coverage: data/raw not present")
     else:
-        count = {}
-        for line in open(freq_path, encoding="utf-8"):
-            w, c = line.rsplit(" ", 1)
-            count[w.lower()] = count.get(w.lower(), 0) + int(c)
-        lemmas_of = {}
-        for line in open(dict_path, encoding="utf-8"):
-            j = json.loads(line)
-            if j.get("lang_code") != "sq":
-                continue
-            lemma = j["word"].lower()
-            for f in j.get("forms") or []:
-                form = (f.get("form") or "").lower()
-                if form and " " not in form and not {
-                        "table-tags", "inflection-template",
-                        "romanization"} & set(f.get("tags") or []):
-                    lemmas_of.setdefault(form, set()).add(lemma)
-            for s in j.get("senses") or []:
-                for fo in s.get("form_of") or []:
-                    lemmas_of.setdefault(lemma, set()).add(
-                        (fo.get("word") or "").lower())
-        known = {w.lower() for w in main_words}
-        total = sum(count.values())
+        import measure_coverage as mc
+        count = mc.frequency_counts(freq_path)
+        lemmas_of = mc.lemma_index(dict_path)
+        known = set(main_words)
 
         def covered(deck):
-            return sum(c for w, c in count.items()
-                       if w in deck or lemmas_of.get(w, set()) & deck) / total
+            return mc.coverage(deck, count, lemmas_of)
 
         share = covered(known)
         check("the main course covers %.1f%% of tokens (goal %.0f%%)"
               % (100 * share, 100 * COVERAGE_GOAL), share >= COVERAGE_GOAL)
-        everything = {w["sq"].lower() for w in words}
+        everything = {w["sq"] for w in words}
         print("  info whole course, extended track included: %.1f%%"
               % (100 * covered(everything)))
 

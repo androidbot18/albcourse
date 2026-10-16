@@ -1,42 +1,263 @@
 {
  "level": 635,
- "title": "buf, ujë (more), kinez (more)",
+ "title": "verbër (more), thur, kërcënoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "buf",
-  "kinez",
-  "ujë"
+  "fal",
+  "kërcënoj",
+  "shiringë",
+  "thur",
+  "verbër",
+  "zanor"
  ],
  "pos_mix": {
-  "noun": 2,
   "adv": 1,
-  "adj": 3
+  "verb": 4,
+  "noun": 4,
+  "adj": 2
  },
  "words": [
   {
-   "id": "buf",
-   "sq": "buf",
-   "en": "owl",
+   "id": "verbërisht",
+   "sq": "verbërisht",
+   "en": "blindly",
    "glosses": [
-    "owl"
+    "blindly"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "owl",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "blindly",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -isht",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "blindly"
+     ]
+    }
+   ],
+   "rank": 24012,
+   "count": 20,
+   "family": "verbër",
+   "is_root": false,
+   "etymology": "From verbër + -isht.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "verbër",
+     "role": "base",
+     "en": "blind"
+    },
+    {
+     "word": "isht",
+     "role": "suffix",
+     "affix": "isht",
+     "meaning": "-ly"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We don't work blindly!",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Ne nuk punojmë verbërisht!"
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "thur",
+   "sq": "thur",
+   "en": "to plait, braid, interweave, to knit",
+   "glosses": [
+    "to plait, braid, interweave, to knit",
+    "to fence in, enclose",
+    "to devise, make up, create"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to plait, braid, interweave, to knit",
      "tags": [
-      "masculine"
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 37 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "plait",
+      "braid",
+      "interweave"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fence in, enclose",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 37 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fence in",
+      "enclose"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to devise, make up, create",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 8 11 39 39"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 37 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "devise",
+      "make up",
+      "create"
+     ]
+    }
+   ],
+   "rank": 24015,
+   "count": 20,
+   "family": "thur",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tsurja, from Proto-Indo-European *ḱr̥H-, zero-grade of *ḱer- (“to tie, plait”) (compare Ancient Greek καῖρος (kaîros, “row of thrums on the loom”), Armenian սարդ (sard, “spider”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "spider"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "thark"
+   ],
+   "forms": [
+    {
+     "form": "thura",
+     "tag": "aorist"
+    },
+    {
+     "form": "thurur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What did you knit this weekend?",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Çfarë keni thur këtë fundjavë?"
+   }
+  },
+  {
+   "id": "kërcënoj",
+   "sq": "kërcënoj",
+   "en": "to threaten",
+   "glosses": [
+    "to threaten"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to threaten",
+     "tags": [
+      "transitive"
      ],
      "cats": [
       {
@@ -46,13 +267,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian onomatopoeias",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 9 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,52 +281,174 @@
      ],
      "examples": [],
      "links": [
-      "owl"
+      "threaten"
      ]
     }
    ],
-   "rank": 23989,
+   "rank": 24053,
    "count": 20,
-   "family": "buf",
+   "family": "kërcënoj",
    "is_root": true,
-   "etymology": "Borrowed from Late Latin būfus (“owl”), probably of onomatopoeic origin; see also Ancient Greek βοῦφος (boûphos). Compare archaic Romanian buf, Spanish búho.",
-   "etymology_class": "borrowed",
+   "etymology": "From kërce, with a semantic development to 'gnash one's teeth', to 'tremble, shiver'.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "owl"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "bufë",
+     "form": "kërcënova",
+     "tag": "aorist"
+    },
+    {
+     "form": "kërcënuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "faltore",
+   "sq": "faltore",
+   "en": "temple",
+   "glosses": [
+    "temple",
+    "seer"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "temple",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Albanian terms suffixed with -tore",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "temple"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "seer",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Albanian terms suffixed with -tore",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "seer"
+     ]
+    }
+   ],
+   "rank": 24093,
+   "count": 20,
+   "family": "fal",
+   "is_root": false,
+   "etymology": "From fal (“pray”) + -tore.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "pray"
+   ],
+   "components": [
+    {
+     "word": "fal",
+     "role": "base"
+    },
+    {
+     "word": "tore",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "faltore",
      "tag": "plural"
     },
     {
-     "form": "bufi",
+     "form": "faltorja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Let's look for an owl in the forest.",
+    "en": "So, the next time one goes to a shrine.",
     "score": [
-     0,
+     2,
      7,
-     -7,
+     -5,
      10
     ],
-    "sq": "Le të shikojmë një buf në pyll."
-   }
+    "sq": "Pra, herën tjetër shkon në një faltore."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "ujore",
-   "sq": "ujore",
-   "en": "watering site for livestock; horse-pond, water hole; water trough",
+   "id": "shiringë",
+   "sq": "shiringë",
+   "en": "syringe",
    "glosses": [
-    "watering site for livestock; horse-pond, water hole; water trough"
+    "syringe"
    ],
    "pos": [
     "noun"
@@ -117,7 +460,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "watering site for livestock; horse-pond, water hole; water trough",
+     "gloss": "syringe",
      "tags": [
       "feminine"
      ],
@@ -143,146 +486,48 @@
      ],
      "examples": [],
      "links": [
-      "watering",
-      "site",
-      "livestock"
+      "syringe"
      ]
     }
    ],
-   "rank": 24005,
+   "rank": 24107,
    "count": 20,
-   "family": "ujë",
-   "is_root": false,
-   "etymology": "From ujë + -ore.",
-   "etymology_class": null,
+   "family": "shiringë",
+   "is_root": true,
+   "etymology": "borrowed from Latin syrinx, from Ancient Greek σῦριγξ (sûrinx)",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "ujë",
-     "role": "base"
-    },
-    {
-     "word": "ore",
-     "role": "suffix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "water sports and sauna.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "sporte ujore dhe sauna."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "kinezisht",
-   "sq": "kinezisht",
-   "en": "in Chinese",
-   "glosses": [
-    "in Chinese"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "in Chinese",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -isht",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Chinese"
-     ]
-    }
-   ],
-   "rank": 24007,
-   "count": 20,
-   "family": "kinez",
-   "is_root": false,
-   "etymology": "From kinez + -isht.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "kinez",
-     "role": "base",
-     "en": "Chinese"
-    },
-    {
-     "word": "isht",
-     "role": "suffix",
-     "affix": "isht",
-     "meaning": "-ly"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Can choose Chinese or English.",
+    "en": "This is done with a syringe.",
     "score": [
      1,
-     6,
-     -5,
+     5,
+     -4,
      10
     ],
-    "sq": "Mund të zgjedhë kinezisht ose anglisht."
-   },
-   "breakdown": "transparent"
+    "sq": "Kjo bëhet me një shiringë."
+   }
   },
   {
-   "id": "ujor",
-   "sq": "ujor",
-   "en": "of or pertaining to water, watery",
+   "id": "zanor",
+   "sq": "zanor",
+   "en": "vocal",
    "glosses": [
-    "of or pertaining to water, watery",
-    "of, for, or pertaining to irrigation",
-    "living in water; aquatic, marine"
+    "vocal",
+    "voiced"
    ],
    "pos": [
-    "adj",
     "adj",
     "adj"
    ],
    "pos_labels": [
-    "adjective",
     "adjective",
     "adjective"
    ],
@@ -290,79 +535,147 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "of or pertaining to water, watery",
+     "gloss": "vocal",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "pertaining",
-      "water",
-      "watery"
+      "vocal"
      ]
     },
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "of, for, or pertaining to irrigation",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "irrigation"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "living in water; aquatic, marine",
+     "gloss": "voiced",
      "tags": [],
      "cats": [
+      {
+       "name": "Linguistics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Linguistics",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "2 2 95"
-      },
-      {
-       "name": "Albanian terms suffixed with -or",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 9 82"
+       "_dis": "14 86"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "0 0 100"
+       "_dis": "16 84"
       }
      ],
      "examples": [],
      "links": [
-      "living",
-      "water",
-      "aquatic"
+      "linguistics",
+      "voiced"
      ]
     }
    ],
-   "rank": 25274,
-   "count": 19,
-   "family": "ujë",
+   "rank": 24148,
+   "count": 20,
+   "family": "zanor",
+   "is_root": true,
+   "etymology": "From zë /zâ (“voice”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "voice"
+   ],
+   "components": [],
+   "derived": [
+    "zanore"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "zanore",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Its coming in a sonic boom of glory.",
+    "score": [
+     1,
+     9,
+     -8,
+     10
+    ],
+    "sq": "vjen e saj në një bum zanor të lavdisë."
+   }
+  },
+  {
+   "id": "verbëri",
+   "sq": "verbëri",
+   "en": "blindness",
+   "glosses": [
+    "blindness"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "blindness",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ëri",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "blindness"
+     ]
+    }
+   ],
+   "rank": 37273,
+   "count": 10,
+   "family": "verbër",
    "is_root": false,
-   "etymology": "From ujë + -or.",
+   "etymology": "From verbër + -ëri.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "ujë",
+     "word": "verbër",
      "role": "base"
     },
     {
-     "word": "or",
+     "word": "ëri",
      "role": "suffix"
     }
    ],
@@ -370,20 +683,20 @@
    "related": [],
    "forms": [
     {
-     "form": "ujore",
-     "tag": "feminine"
+     "form": "verbëria",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The past is no longer here, Aquarius.",
+    "en": "Love is chaos.",
     "score": [
-     1,
-     7,
-     -6,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "E kaluara nuk është më këtu, Ujor."
+    "sq": "Dashuria është verbëri."
    },
    "breakdown": "historical"
   }

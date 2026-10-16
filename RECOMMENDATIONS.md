@@ -268,6 +268,18 @@ Today:
   food (`bukë` L390).
 - `unë` (*I*) fails the existing test and sits at L11.
 
+**Spreading the deferred function words: done.** Every deferred root used
+to get a synthetic rank just past 900, so `të`, `që`, `nga`, `kjo`, `ky`,
+`pa`, `pas`, `deri`, `prej`… all arrived together at L165–179. They are now
+woven into the natural order instead (`DEFER_SPREAD_AFTER`,
+`DEFER_SPREAD_EVERY` in `tools/build_course.py`): the first after the
+scheduler's first two levels, then one every four families, most frequent
+first. They land from L31 (`të`) to L144, never more than two to a level.
+Top-200 words taught after L100 fell from 27 to 1: `pastaj` (rank 174),
+which Wiktionary derives from `pas` + `ndaj`, so it waits for `ndaj`
+(rank 631). The course is 765 levels, with a 348-level main course.
+Pinned by `tools/test_opening_policy.py`, with a negative control.
+
 Recommendation: a small hand-written `opening.yaml` that sets the first ~25
 levels by theme (greetings and yes/no; pronouns plus `jam`/`kam`; numbers 1–10;
 family; food and drink; time and days; question words; the 10 core verbs).
@@ -303,7 +315,7 @@ home and work, conjunctions, and the days of the week.
 - **The opening's glosses are reviewed.** `pi` now headlines "to drink" (it was the Gheg "from"), `kafe` "coffee" (it was "a plant of the genus Coffea"), and `qumësht` "milk". `pi`'s example is *Unë pi kafe me qumësht.* (it was *A pi drogë?*, "Do you take drugs?"). `ka` gained "he/she/it has", `farë` gained "kind, sort", and `lutem` now reads "please (ju lutem)".
 - **`tetë` is fixed.** The parser read `*(a)te + -të` as the preposition `te`, which filed *eight* in the family of *at*. It now has its own family.
 - **Days of the week.** Wiktionary files four of them under the article (`e mërkurë`, `e premte`, `e shtunë`, `e diel`), so the one-word deck had only `martë` and `enjte`. `pos_balance.ARTICLED_ENTRIES` reads those entries as senses of the bare word, and each day's reviewed gloss gives the article and the "on Monday" form: "Wednesday (e mërkurë; të mërkurën, on Wednesday)". `hënë` now headlines Monday, with "moon" second. The days close the opening (L22–23), after `e`.
-- **Results:** 4,092 words. With the days the course reached 801 levels, one over the 800-level ceiling; §3.6 then split it into a 348-level main course and an extended track (766 levels in all). Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
+- **Results:** 4,092 words. With the days the course reached 801 levels, one over the 800-level ceiling; §3.6 then split it into a 348-level main course and an extended track (766 levels in all). Top-200 words after L100 fell from 38 to 27. The remaining ones were the L165–179 function-word block, which the "spread deferred function words" item below then removed.
 - Pinned by `tools/test_opening_levels.py`.
 
 ### 3.3 Take inflected forms out of the vocabulary deck
@@ -354,7 +366,43 @@ once the learner turns it on. The Anki decks are named "Albanian extended
 `tools/test_scope.py` pins the split and measures that the main course
 still reaches 80%; the main course may not exceed 360 levels. The whole
 course is 766 levels, down from 801, because tails no longer interleave.
-Recommendations 2 and 3 are still open.
+
+**Recommendations 2 and 3: done.** `tools/added_words.py` adds 41 core
+words Wiktionary has no entry for, each with a reviewed part of speech,
+gloss, example and forms. The build adds one only when Wiktionary gave
+the word no card and the frequency list has it; otherwise it fails.
+- **What was added:** discourse words (`pra`, `ndonjë`, `sikur`, `vërtet`,
+  `sigurisht`, `natyrisht`, `epo`, `sapo`, `derisa`, `sesa`, `madje`…),
+  place and time (`lart`, `përpara`, `kudo`, `përmes`, `njëherë`,
+  `asnjëherë`), set phrases counted by their second word (`së bashku`,
+  `të paktën`, `së shpejti`), `mirupafshim` and `më falni`, and common
+  nouns and adjectives (`problem`, `fakt`, `ide`, `moment`, `plan`,
+  `sigurt`…). `falni` is filed as a form of `fal`, so it joins that family.
+  `mirupafshim` (*goodbye*) joins the curated opening on L3, and its
+  example uses only L1–3 words.
+- **What was not:** forms of words the deck already teaches (`gjitha`,
+  `djema`, `veten`), clitic clusters (`ma`, `ia`, `ua`), misspellings,
+  names, English, interjections and insults.
+- **Coverage is counted the learner's way.** `tools/measure_coverage.py`
+  now reports exact-form and form-or-lemma coverage against the pinned
+  frequency list, and `tools/test_scope.py` uses the same code. Wiktionary
+  lists adjective and pronoun forms with their article (`të gjitha`,
+  `e rëndësishme`); the count now reads those as the token a learner sees,
+  which was worth 0.8 points the old count missed.
+
+  | | exact form | form or lemma | top-1,411 forms not covered |
+  |---|---|---|---|
+  | main course before | 68.9% | 81.8% | 302 |
+  | main course now | 70.0% | **83.1%** | 252 |
+  | whole course now | 70.9% | 86.0% | |
+
+  The deck is 4,133 words in 768 levels; the main course is 350 levels
+  (765 and 348 once the function words were spread, below).
+  Most of the 252 forms still uncovered are not vocabulary: `s`, `t`, `oh`,
+  `hej`, clitic clusters, and ë-less spellings (`mire`, `cfare`, `kete`).
+  The rest are inflections Wiktionary does not list (`veten`, `djema`,
+  `duhej`), which the grammar spine (§3.3) should teach.
+- Pinned by `tools/test_added_words.py`.
 
 The 800-level ceiling (`tools/test_prereq.py`) is a soft cap, set when
 families were first given their own sessions. The question is whether a
@@ -625,15 +673,20 @@ not all fall due on the same day.
       week are taught (L22–23). See §3.2.
 - [x] Scope the course to 80% (§3.6): a 348-level main course (rank ≤
       5,000, 81.0% coverage), then an optional extended track to 766.
-- [ ] Hand-add the core words Wiktionary lacks (`pra`, `ndonjë`, `gjitha`,
+- [x] Hand-add the core words Wiktionary lacks (`pra`, `ndonjë`, `gjitha`,
       `vërtet`…), and report form-or-lemma coverage in
       `tools/measure_coverage.py` (§3.6, recommendations 2 and 3).
+      41 words in `tools/added_words.py`; the main course now covers 83.1%
+      (form or lemma), up from 81.8%. `mirupafshim` (*goodbye*) is on L3.
 - [ ] "Root first, tail later" scheduling instead of unsplittable families.
       Partly done (1.6): rare tails (rank > 1,200) now come back in their own
       frequency band, for every opening family and for any family with 4+
       rare members. Still to do: the ~2,000-rank band for every derivative,
       and the family-tree view when a tail unlocks.
-- [ ] Spread deferred function words across levels instead of L192–210
+- [x] Spread deferred function words across levels instead of L192–210.
+      They are woven into the frequency order about one per level, L31–L144,
+      instead of all arriving at L165–179. Top-200 words after L100: 27 → 1
+      (`pastaj`, held by its real stem `ndaj`).
 - [ ] Collapse inflected-form cards into paradigm cards; minimal grammar spine
 - [ ] Fix homograph example mismatches; add bridging root senses (`do`, `mund`)
 - [ ] Mastery gating between levels

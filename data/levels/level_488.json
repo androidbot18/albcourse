@@ -1,46 +1,44 @@
 {
  "level": 488,
- "title": "matematikë, bre, gji +3",
+ "title": "herë (more), deklaroj, verore +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "bre",
-  "dhuroj",
-  "gji",
-  "gjobë",
-  "matematikë",
-  "ëngjëll"
+  "deklaroj",
+  "herë",
+  "hyp",
+  "var",
+  "verore",
+  "zanë"
  ],
  "pos_mix": {
-  "noun": 10,
-  "intj": 2,
-  "verb": 1
+  "adv": 1,
+  "verb": 6,
+  "noun": 7
  },
  "words": [
   {
-   "id": "matematikë",
-   "sq": "matematikë",
-   "en": "mathematics",
+   "id": "çdoherë",
+   "sq": "çdoherë",
+   "en": "everytime, each time, always",
    "glosses": [
-    "mathematics"
+    "everytime, each time, always"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mathematics",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "everytime, each time, always",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -63,425 +61,55 @@
      ],
      "examples": [],
      "links": [
-      "mathematics"
+      "everytime",
+      "each",
+      "time"
      ]
     }
    ],
-   "rank": 10096,
-   "count": 64,
-   "family": "matematikë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 10204,
+   "count": 63,
+   "family": "herë",
+   "is_root": false,
+   "etymology": "From çdo (“all, every”) + herë (“time”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "time"
+   ],
+   "components": [
+    {
+     "word": "çdo",
+     "role": "prefix"
+    },
+    {
+     "word": "herë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "matematika",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "This is math.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Kjo është matematikë."
-   }
-  },
-  {
-   "id": "bre",
-   "sq": "bre",
-   "en": "A friendly exclamation to a person.",
-   "glosses": [
-    "A friendly exclamation to a person.",
-    "An exclamation of surprise."
-   ],
-   "pos": [
-    "intj",
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection",
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "A friendly exclamation to a person.",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Folni bre, burra!",
-       "en": "Speak, therefore, men!",
-       "offsets": [
-        [
-         6,
-         9
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "exclamation",
-      "person"
-     ]
-    },
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "An exclamation of surprise.",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Bre! Po ç'është kjo?",
-       "en": "Man! What is this?",
-       "offsets": [
-        [
-         0,
-         3
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "exclamation",
-      "surprise"
-     ]
-    }
-   ],
-   "rank": 10152,
-   "count": 64,
-   "family": "bre",
-   "is_root": true,
-   "etymology": "From Greek βρε (vre), from Greek μωρέ (moré, “stupid”, vocative). Doublet of more.",
-   "etymology_class": "derived",
-   "source_lang": "el",
-   "cognate": "from Greek βρε",
-   "parents": [
-    "stupid"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [
-    "brez",
-    "pra"
-   ],
    "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "gji",
-   "sq": "gji",
-   "en": "breast",
-   "glosses": [
-    "breast",
-    "bosom",
-    "udder",
-    "teat",
-    "mastitis",
-    "bay, gulf, inlet"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "breast",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "breast"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bosom",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bosom"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "udder",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "udder"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "teat",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "teat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "mastitis",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 18 3 6 37 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "veterinary",
-      "mastitis"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bay, gulf, inlet",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Bodies of water",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Bodies of water",
-       "langcode": "sq",
-       "_dis": "14 14 8 8 25 32"
-      },
-      {
-       "name": "Landforms",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Landforms",
-       "langcode": "sq",
-       "_dis": "6 6 6 6 17 59"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bay",
-      "gulf",
-      "inlet"
-     ]
-    }
-   ],
-   "rank": 10157,
-   "count": 64,
-   "family": "gji",
-   "is_root": true,
-   "etymology": "From (pre-)Proto-Albanian *źinu (“bosom”), from Proto-Indo-European *s(e)i-nu (“curved body part”). Similar development to Latin sinus (“breast; curve”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "bosom"
-   ],
-   "components": [],
-   "derived": [
-    "gjinjës",
-    "gjitar",
-    "zgjiç"
-   ],
-   "related": [
-    "gjizë"
-   ],
-   "forms": [
-    {
-     "form": "gjinj",
-     "tag": "plural"
-    },
-    {
-     "form": "gjiri",
-     "tag": "definite"
-    },
-    {
-     "form": "gjire",
-     "tag": "alternative"
-    }
-   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'm pregnant or breastfeeding.",
+    "en": "The answer from Skopje has always been – nothing.",
     "score": [
-     0,
-     7,
-     -7,
+     2,
+     6,
+     -4,
      10
     ],
-    "sq": "Unë jam shtatzënë ose ushqej me gji."
-   }
+    "sq": "Përgjigja nga Shkupi çdoherë ishte- asgjë."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "ëngjëll",
-   "sq": "ëngjëll",
-   "en": "angel",
+   "id": "deklaroj",
+   "sq": "deklaroj",
+   "en": "to declare",
    "glosses": [
-    "angel"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "angel",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "angel"
-     ]
-    }
-   ],
-   "rank": 10171,
-   "count": 64,
-   "family": "ëngjëll",
-   "is_root": true,
-   "etymology": "See engjëll.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ëngjëj",
-     "tag": "plural"
-    },
-    {
-     "form": "ëngjëlli",
-     "tag": "definite"
-    },
-    {
-     "form": "engjëll",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Hotngjëll Hoti is officially part of the Partizan club.",
-    "score": [
-     3,
-     9,
-     -6,
-     8
-    ],
-    "sq": "Ëngjëll Hoti është zyrtarisht pjesë e klubit të Partizanit."
-   }
-  },
-  {
-   "id": "dhuroj",
-   "sq": "dhuroj",
-   "en": "to bestow, grant, donate",
-   "glosses": [
-    "to bestow, grant, donate"
+    "to declare"
    ],
    "pos": [
     "verb"
@@ -493,7 +121,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to bestow, grant, donate",
+     "gloss": "to declare",
      "tags": [
       "transitive"
      ],
@@ -505,7 +133,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -519,18 +147,16 @@
      ],
      "examples": [],
      "links": [
-      "bestow",
-      "grant",
-      "donate"
+      "declare"
      ]
     }
    ],
-   "rank": 10172,
-   "count": 64,
-   "family": "dhuroj",
+   "rank": 10206,
+   "count": 63,
+   "family": "deklaroj",
    "is_root": true,
-   "etymology": "Possibly borrowed through Vulgar Latin from Latin dōnō. Otherwise related to Proto-Albanian *dhu̯onti (dhunti), from Proto-Indo-European *deh₃- (“to give”).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -539,44 +165,399 @@
    "related": [],
    "forms": [
     {
-     "form": "dhurova",
+     "form": "deklarova",
      "tag": "aorist"
     },
     {
-     "form": "dhuruar",
+     "form": "deklaruar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "For every girl who follows me I give a?",
+    "en": "Do I need to declare my financial situation?",
     "score": [
-     1,
-     8,
-     -7,
+     3,
+     7,
+     -4,
      10
     ],
-    "sq": "Për çdo vajzë që më ndjek dhuroj një?"
+    "sq": "A duhet të deklaroj gjendjen time financiare?"
    }
   },
   {
-   "id": "gjobë",
-   "sq": "gjobë",
-   "en": "fine (penalty)",
+   "id": "verore",
+   "sq": "verore",
+   "en": "fan (for fanning oneself) in summer",
    "glosses": [
-    "fine (penalty)"
+    "fan (for fanning oneself) in summer",
+    "bracelet or necklace of red and white yarn worn by children on the first day of spring",
+    "the European tree frog (Hyla arborea)"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fine (penalty)",
+     "gloss": "fan (for fanning oneself) in summer",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fan",
+      "summer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bracelet or necklace of red and white yarn worn by children on the first day of spring",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Ethnography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Ethnography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 41 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 50 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ethnography",
+      "bracelet",
+      "necklace"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the European tree frog (Hyla arborea)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 41 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -e",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 35 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "Hyla arborea"
+     ]
+    }
+   ],
+   "rank": 10225,
+   "count": 63,
+   "family": "verore",
+   "is_root": true,
+   "etymology": "From veror (“relating to summer”) + -e, from verë (“summer”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "summer"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Hot summer night.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Natë e nxehtë verore."
+   }
+  },
+  {
+   "id": "var",
+   "sq": "var",
+   "en": "to hang",
+   "glosses": [
+    "to hang",
+    "to depend on",
+    "to bring down"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hang",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hang"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to depend on",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "depend"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bring down",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 30 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bring down"
+     ]
+    }
+   ],
+   "rank": 10229,
+   "count": 63,
+   "family": "var",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *werja, from Proto-Indo-European *h₂wer- (“to bind, hang”) (compare Ancient Greek ἀείρω (aeírō, “to heave, hoist up”), Lithuanian vérti (“to weigh”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "avari",
+    "varëse",
+    "varg"
+   ],
+   "related": [
+    "vjerr",
+    "zverk"
+   ],
+   "forms": [
+    {
+     "form": "vara",
+     "tag": "aorist"
+    },
+    {
+     "form": "varur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do not count on someone else.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Mos u var në dikë tjetër."
+   }
+  },
+  {
+   "id": "hyp",
+   "sq": "hyp",
+   "en": "to get on, ride, straddle",
+   "glosses": [
+    "to get on, ride, straddle",
+    "to rise, go up, climb into"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get on, ride, straddle",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "get",
+      "on",
+      "ride"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to rise, go up, climb into",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rise",
+      "go",
+      "up"
+     ]
+    }
+   ],
+   "rank": 10245,
+   "count": 63,
+   "family": "hyp",
+   "is_root": true,
+   "etymology": "A variant of hip.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "hypa",
+     "tag": "aorist"
+    },
+    {
+     "form": "hypur",
+     "tag": "participle"
+    },
+    {
+     "form": "hip",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "zanë",
+   "sq": "zanë",
+   "en": "mountain fairy, woodnymph",
+   "glosses": [
+    "mountain fairy, woodnymph",
+    "muse of heroes"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mountain fairy, woodnymph",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Mythology",
+       "langcode": "sq",
+       "_dis": "84 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fairy",
+      "woodnymph"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "muse of heroes",
      "tags": [
       "feminine"
      ],
@@ -585,166 +566,187 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 91"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 91"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 96"
       }
      ],
-     "examples": [
-      {
-       "sq": "Të shkruehej ndë giobë o haraç.",
-       "en": "",
-       "offsets": [
-        [
-         17,
-         22
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "fine"
+      "muse"
      ]
     }
    ],
-   "rank": 10199,
-   "count": 64,
-   "family": "gjobë",
+   "rank": 10246,
+   "count": 63,
+   "family": "zanë",
    "is_root": true,
-   "etymology": "Borrowed from a South Slavic language, derived from Proto-Slavic *globa (“fine”). Compare Serbo-Croatian globa (“fine, penalty”) and Bulgarian глоба (globa, “fine”).",
+   "etymology": "Identical to and derived from zë (“voice”), with a sense development motivated by the main characteristic of these mythological figures. The term might have been contaminated with Latin Diāna (compare Romanian zână, Aromanian dzãnã, Asturian xana, Sardinian giàna). Another hypothesis, given her characteristics of muse of heroes and warrior, is the relationship with Ἀθηνᾶ (Athēnâ) (Mycenean a-ta-na) which, according to Beekes, has a Pre-Greek origin.",
    "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "fine"
+    "voice"
    ],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "zë"
+   ],
    "forms": [
     {
-     "form": "gjoba",
+     "form": "zana",
      "tag": "plural"
     },
     {
-     "form": "giobë",
-     "tag": "alternative"
-    },
-    {
-     "form": "gobë",
+     "form": "zërë",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Can I get a fine?",
+    "en": "fairy and return to your ship.",
     "score": [
-     0,
-     6,
-     -6,
+     2,
+     7,
+     -5,
      10
     ],
-    "sq": "A mund të marr një gjobë?"
+    "sq": "zanë dhe të kthehet në anije tuaj."
    }
   },
   {
-   "id": "matematikan",
-   "sq": "matematikan",
-   "en": "mathematician",
+   "id": "ujëvarë",
+   "sq": "ujëvarë",
+   "en": "waterfall, cascade",
    "glosses": [
-    "mathematician"
+    "waterfall, cascade",
+    "cataract"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "mathematician",
+     "gloss": "waterfall, cascade",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "57 43"
       },
       {
-       "name": "Albanian terms suffixed with -an",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "45 55"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "46 54"
       }
      ],
      "examples": [],
      "links": [
-      "mathematician"
+      "waterfall",
+      "cascade"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cataract",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cataract"
      ]
     }
    ],
-   "rank": 41219,
-   "count": 9,
-   "family": "matematikë",
+   "rank": 27960,
+   "count": 16,
+   "family": "var",
    "is_root": false,
-   "etymology": "From matematikë + -an.",
-   "etymology_class": "affix",
+   "etymology": "From ujë + var.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "matematikë",
-     "role": "base"
+     "word": "ujë",
+     "role": "prefix"
     },
     {
-     "word": "an",
-     "role": "suffix"
+     "word": "var",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "matematikanë",
-     "tag": "plural"
-    },
-    {
-     "form": "matematikani",
+     "form": "ujëvara",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Why did you become a mathematician?",
+    "corpus": "HPLT",
+    "en": "This waterfall also has a legend.",
     "score": [
      0,
-     4,
-     -4,
-     8
+     6,
+     -6,
+     10
     ],
-    "sq": "Pse u bëre matematikan?"
+    "sq": "Kjo ujëvarë ka dhe një legjendë."
    },
    "breakdown": "historical"
   }

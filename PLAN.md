@@ -264,6 +264,17 @@ a slot gloss, and upstream carries no English for it in any entry.
 These need a hand-written gloss or a native speaker, not another heuristic.
 The decision to route them to a native speaker (2026-10-02) stands.
 
+### Native-speaker review queue
+
+The hand-written content a native speaker should check, in one place:
+
+- `tools/added_words.py`: 41 core words Wiktionary lacks (`pra`, `ndonjë`,
+  `sikur`, `vërtet`, `problem`, `mirupafshim`...). Every gloss, example and
+  listed form there was written without a native speaker.
+- `tools/gloss_overrides.py`: the reviewed headlines and examples,
+  especially the wording of `do`.
+- The four cards routed above (`vendore`, `qetë`, `zgjedhim`, `qen`).
+
 ## Explicitly NOT problems
 
 - **Thin levels.** 85 levels hold 1-2 words; 7 are family continuations and 78

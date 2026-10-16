@@ -1,125 +1,37 @@
 {
  "level": 374,
- "title": "tel, duk (more), ftoj",
+ "title": "fat (more), nisi",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 3,
  "families": [
-  "duk",
-  "ftoj",
-  "tel"
+  "fat",
+  "nisi"
  ],
  "pos_mix": {
-  "noun": 2,
-  "adj": 3,
-  "verb": 1
+  "noun": 3
  },
  "words": [
   {
-   "id": "tel",
-   "sq": "tel",
-   "en": "thread",
+   "id": "fatkeqësi",
+   "sq": "fatkeqësi",
+   "en": "misfortune",
    "glosses": [
-    "thread",
-    "chord, string"
+    "misfortune"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "thread",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "thread"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chord, string",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Music",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Music",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 95"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "music",
-      "chord",
-      "string"
-     ]
-    }
-   ],
-   "rank": 5670,
-   "count": 130,
-   "family": "tel",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish تل (tel).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "tejzë"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Another issue has been the wireless.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Një çështje tjetër ka qenë pa tel."
-   }
-  },
-  {
-   "id": "padukshëm",
-   "sq": "padukshëm",
-   "en": "invisible",
-   "glosses": [
-    "invisible"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "invisible",
+     "gloss": "misfortune",
      "tags": [],
      "cats": [
       {
@@ -129,7 +41,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with pa-",
+       "name": "Albanian terms suffixed with -ësi",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -143,68 +55,82 @@
      ],
      "examples": [],
      "links": [
-      "invisible"
+      "misfortune"
      ]
     }
    ],
-   "rank": 5704,
+   "rank": 5725,
    "count": 129,
-   "family": "duk",
+   "family": "fat",
    "is_root": false,
-   "etymology": "pa- + dukshëm",
+   "etymology": "From fatkeq (“unfortunate”) + -ësi.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "unfortunate"
+   ],
    "components": [
     {
-     "word": "pa",
-     "role": "prefix",
-     "affix": "pa",
-     "meaning": "un-, without"
+     "word": "fatkeq",
+     "role": "base",
+     "en": "unfortunate"
     },
     {
-     "word": "dukshëm",
-     "role": "stem",
-     "en": "visible"
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "fatkeqësi",
+     "tag": "plural"
+    },
+    {
+     "form": "fatkeqësia",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You got an invisible ending.",
+    "en": "It would be a disaster.",
     "score": [
      0,
-     5,
-     -5,
+     4,
+     -4,
      10
     ],
-    "sq": "Ke një fund të padukshëm."
+    "sq": "Do të ishte fatkeqësi."
    },
    "breakdown": "transparent"
   },
   {
-   "id": "ftoj",
-   "sq": "ftoj",
-   "en": "to invite",
+   "id": "nisi",
+   "sq": "nisi",
+   "en": "island",
    "glosses": [
-    "to invite"
+    "island"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to invite",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "island",
      "tags": [
-      "transitive"
+      "Arvanitika",
+      "Tosk",
+      "archaic",
+      "feminine"
      ],
      "cats": [
       {
@@ -214,13 +140,13 @@
        "source": "w"
       },
       {
-       "name": "Latin links with redundant target parameters",
+       "name": "Arvanitika Albanian",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 6 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -228,15 +154,15 @@
      ],
      "examples": [],
      "links": [
-      "invite"
+      "island"
      ]
     }
    ],
-   "rank": 5716,
-   "count": 129,
-   "family": "ftoj",
+   "rank": 5729,
+   "count": 128,
+   "family": "nisi",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin invitō.",
+   "etymology": "Borrowed from Greek νησί (nisí).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -246,163 +172,111 @@
    "related": [],
    "forms": [
     {
-     "form": "ftova",
-     "tag": "aorist"
+     "form": "nisi",
+     "tag": "plural"
     },
     {
-     "form": "ftuar",
-     "tag": "participle"
+     "form": "nisia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "If I invite you in, fine.",
+    "corpus": "MaCoCu",
+    "en": "How did it all begin?",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     8
     ],
-    "sq": "Nëse ju ftoj, mirë."
+    "sq": "Si nisi gjithçka?"
    }
   },
   {
-   "id": "dukshëm",
-   "sq": "dukshëm",
-   "en": "visible",
+   "id": "fatkeq",
+   "sq": "fatkeq",
+   "en": "unfortunate",
    "glosses": [
-    "visible",
-    "evident, apparent"
+    "unfortunate"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "visible",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "unfortunate",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "visible"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "evident, apparent",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      },
-      {
-       "name": "Albanian terms suffixed with -shëm",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 78"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "evident",
-      "apparent"
+      "unfortunate"
      ]
     }
    ],
-   "rank": 9067,
-   "count": 74,
-   "family": "duk",
+   "rank": 13900,
+   "count": 43,
+   "family": "fat",
    "is_root": false,
-   "etymology": "From duk + -shëm.",
-   "etymology_class": "affix",
+   "etymology": "From fat + keq.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "duk",
-     "role": "base"
+     "word": "fat",
+     "role": "prefix"
     },
     {
-     "word": "shëm",
-     "role": "suffix",
-     "affix": "shem",
-     "meaning": "-ful, -able"
+     "word": "keq",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "fatkeqe",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There will be no visible difference.",
+    "en": "This is an unfortunate fact.",
     "score": [
-     0,
-     7,
-     -7,
+     1,
+     5,
+     -4,
      10
     ],
-    "sq": "Nuk do të ketë ndryshim të dukshëm."
+    "sq": "Ky është një fakt fatkeq."
    },
    "breakdown": "historical"
   }
  ],
- "extended": true,
- "patterns": [
-  {
-   "id": "pa",
-   "label": "pa-",
-   "meaning": "un-, without",
-   "summary": "Negates a word: fund (end) → pafund (endless), dukshëm (visible) → padukshëm (invisible).",
-   "note": "pa is also the preposition 'without' (pa ty = without you). Many words just start with pa- by chance: palloj (to beat) has nothing to do with lloj.",
-   "examples": [
-    {
-     "sq": "panjohur",
-     "en": "unknown",
-     "stem": "njohur",
-     "stem_en": "know"
-    },
-    {
-     "sq": "pafund",
-     "en": "endless",
-     "stem": "fund",
-     "stem_en": "end"
-    },
-    {
-     "sq": "padukshëm",
-     "en": "invisible",
-     "stem": "dukshëm",
-     "stem_en": "visible"
-    }
-   ]
-  }
- ]
+ "extended": true
 }

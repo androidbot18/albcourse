@@ -1,37 +1,415 @@
 {
  "level": 149,
- "title": "premtoj",
- "root": "premtoj",
- "root_gloss": "to promise",
+ "title": "familje, del, njëherë +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "premtoj"
+  "del",
+  "familje",
+  "njëherë",
+  "pikërisht",
+  "ra"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 1
+  "noun": 2,
+  "verb": 7,
+  "adv": 3
  },
  "words": [
   {
-   "id": "premtoj",
-   "sq": "premtoj",
-   "en": "to promise",
+   "id": "familjen",
+   "sq": "familjen",
+   "en": "the family, singular (from familje)",
    "glosses": [
-    "to promise"
+    "the family, singular (from familje)"
    ],
    "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the family, singular (from familje)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "familje"
+    }
+   ],
+   "rank": 662,
+   "count": 1539,
+   "family": "familje",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The Entire Family!",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Të gjithë familjen!"
+   }
+  },
+  {
+   "id": "del",
+   "sq": "del",
+   "en": "to exit",
+   "glosses": [
+    "to exit",
+    "to go out"
+   ],
+   "pos": [
+    "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to promise",
+     "gloss": "to exit",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "exit"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to go out",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 80"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "go",
+      "out"
+     ]
+    }
+   ],
+   "rank": 668,
+   "count": 1529,
+   "family": "del",
+   "is_root": true,
+   "etymology": "Variant of standard dal.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And it doesn't come out.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Dhe nuk del."
+   }
+  },
+  {
+   "id": "njëherë",
+   "sq": "njëherë",
+   "en": "once",
+   "glosses": [
+    "once",
+    "for a moment, first"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "once",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E pashë vetëm njëherë.",
+       "en": "I saw it only once.",
+       "offsets": [
+        [
+         14,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "for a moment, first",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 669,
+   "count": 1528,
+   "family": "njëherë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "ra",
+   "sq": "ra",
+   "en": "it fell (off)",
+   "glosses": [
+    "it fell (off)",
+    "it tumbled, flopped",
+    "it struck, punched",
+    "it rained (combined with shi (“rain”))",
+    "it snowed (combined with borë (“snow”))"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it fell (off)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "it",
+      "fell",
+      "off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it tumbled, flopped",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 25 23 26 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "it",
+      "tumbled",
+      "flopped"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it struck, punched",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 25 23 26 23"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "it",
+      "struck",
+      "punched"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it rained (combined with shi (“rain”))",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 25 23 26 23"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ra shi.",
+       "en": "It rained.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "rained",
+      "shi"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it snowed (combined with borë (“snow”))",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 25 23 26 23"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ra borë.",
+       "en": "It snowed.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "snowed",
+      "borë"
+     ]
+    }
+   ],
+   "rank": 673,
+   "count": 1520,
+   "family": "ra",
+   "is_root": true,
+   "etymology": "Inflection of bie.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "rashë",
+    "bie"
+   ],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "pikërisht",
+   "sq": "pikërisht",
+   "en": "precisely, exactly",
+   "glosses": [
+    "precisely, exactly"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "precisely, exactly",
      "tags": [],
      "cats": [
       {
@@ -55,52 +433,42 @@
      ],
      "examples": [],
      "links": [
-      "promise"
+      "precisely",
+      "exactly"
      ]
     }
    ],
-   "rank": 758,
-   "count": 1304,
-   "family": "premtoj",
+   "rank": 675,
+   "count": 1517,
+   "family": "pikërisht",
    "is_root": true,
-   "etymology": "From Italian promettere (“promise”). Compare Romanian promite, French promettre.",
-   "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian promettere",
-   "parents": [
-    "promise"
-   ],
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "premtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "premtuar",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "I promise you.",
+    "corpus": "MaCoCu",
+    "en": "That's exactly what happened.",
     "score": [
      0,
      3,
      -3,
-     5
+     8
     ],
-    "sq": "Unë ju premtoj."
+    "sq": "Pikërisht kjo ndodhi."
    }
   },
   {
-   "id": "premtim",
-   "sq": "premtim",
-   "en": "promise",
+   "id": "familje",
+   "sq": "familje",
+   "en": "family",
    "glosses": [
-    "promise"
+    "family"
    ],
    "pos": [
     "noun"
@@ -112,9 +480,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "promise",
+     "gloss": "family",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -124,13 +492,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -138,56 +506,43 @@
      ],
      "examples": [],
      "links": [
-      "promise"
+      "family"
      ]
     }
    ],
-   "rank": 4686,
-   "count": 162,
-   "family": "premtoj",
-   "is_root": false,
-   "etymology": "From premtoj + -im noun suffix.",
-   "etymology_class": "affix",
+   "rank": 737,
+   "count": 1361,
+   "family": "familje",
+   "is_root": true,
+   "etymology": "Learned borrowing from Latin familia; cf. Italian famiglia. Doublet of fëmijë, an older borrowing from Vulgar Latin.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "premtoj",
-     "role": "base",
-     "en": "to promise"
-    },
-    {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "premtime",
+     "form": "familje",
      "tag": "plural"
     },
     {
-     "form": "premtimi",
+     "form": "familja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "It's a promise.",
+    "corpus": "HPLT",
+    "en": "In every family.",
     "score": [
      0,
      3,
      -3,
-     4
+     10
     ],
-    "sq": "Është një premtim."
-   },
-   "breakdown": "transparent"
+    "sq": "Në çdo familje."
+   }
   }
  ]
 }

@@ -1,43 +1,46 @@
 {
  "level": 640,
- "title": "shtroj, shkrumb, litër +3",
+ "title": "biologji, ha (more), riparoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "kult",
-  "litër",
-  "pëllumb",
-  "shkrumb",
-  "shtroj",
-  "zogëz"
+  "biologji",
+  "gjashtë",
+  "ha",
+  "kollë",
+  "riparoj",
+  "ruajtje"
  ],
  "pos_mix": {
+  "noun": 5,
   "verb": 2,
-  "noun": 6
+  "num": 1
  },
  "words": [
   {
-   "id": "vështroj",
-   "sq": "vështroj",
-   "en": "to observe, watch, analyze",
+   "id": "biologji",
+   "sq": "biologji",
+   "en": "biology",
    "glosses": [
-    "to observe, watch, analyze"
+    "biology"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to observe, watch, analyze",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "biology",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +49,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with vë-",
+       "name": "Albanian terms suffixed with -logji",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,28 +63,124 @@
      ],
      "examples": [],
      "links": [
-      "observe",
-      "watch",
-      "analyze"
+      "biology"
      ]
     }
    ],
-   "rank": 24815,
+   "rank": 24886,
    "count": 19,
-   "family": "shtroj",
+   "family": "biologji",
+   "is_root": true,
+   "etymology": "Ancient Greek βιολογία (viología, “biologia”).\nFrom bio + -logji.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "biologia"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "biologjia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "That does not happen in biology.",
+    "score": [
+     0,
+     5,
+     -5,
+     5
+    ],
+    "sq": "Kjo nuk ndodh në biologji."
+   }
+  },
+  {
+   "id": "hamendje",
+   "sq": "hamendje",
+   "en": "guess",
+   "glosses": [
+    "guess",
+    "hypothesis"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guess",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "67 33"
+      },
+      {
+       "name": "Albanian terms prefixed with ha-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "80 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guess"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hypothesis",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hypothesis"
+     ]
+    }
+   ],
+   "rank": 24907,
+   "count": 19,
+   "family": "ha",
    "is_root": false,
-   "etymology": "From vë- + shtroj, used in contexts with a similar meaning.",
+   "etymology": "From ha- + mendje.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "vë",
+     "word": "ha",
      "role": "prefix"
     },
     {
-     "word": "shtroj",
+     "word": "mendje",
      "role": "stem"
     }
    ],
@@ -89,33 +188,100 @@
    "related": [],
    "forms": [
     {
-     "form": "vështrova",
-     "tag": "aorist"
+     "form": "hamendje",
+     "tag": "plural"
     },
     {
-     "form": "vështruar",
-     "tag": "participle"
+     "form": "hamendja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I feel hypnotised when I look at his work!",
+    "en": "No more guessing.",
     "score": [
-     2,
-     8,
-     -6,
+     1,
+     4,
+     -3,
      10
     ],
-    "sq": "Ndihem e hipnotizuar kur vështroj punën e tij!"
+    "sq": "Nuk ka më hamendje."
    },
    "breakdown": "historical"
   },
   {
-   "id": "shkrumb",
-   "sq": "shkrumb",
-   "en": "ashes, embers",
+   "id": "riparoj",
+   "sq": "riparoj",
+   "en": "to repair",
    "glosses": [
-    "ashes, embers"
+    "to repair"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to repair",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "repair"
+     ]
+    }
+   ],
+   "rank": 24908,
+   "count": 19,
+   "family": "riparoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "riparuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kollë",
+   "sq": "kollë",
+   "en": "cough",
+   "glosses": [
+    "cough"
    ],
    "pos": [
     "noun"
@@ -127,9 +293,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ashes, embers",
+     "gloss": "cough",
      "tags": [
-      "masculine"
+      "uncountable"
      ],
      "cats": [
       {
@@ -153,65 +319,68 @@
      ],
      "examples": [],
      "links": [
-      "ashes",
-      "embers"
+      "cough"
      ]
     }
    ],
-   "rank": 24823,
+   "rank": 24975,
    "count": 19,
-   "family": "shkrumb",
+   "family": "kollë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *iš-kruma, with a non etymological -mb-<*m (cf. Romanian scrum, from Albanian) from Proto-Indo-European *krem, attested in Latin cremō (“to burn”), or from Proto-Indo-European *skremb, *skr̥mb (cf. Lithuanian skrembti (“to crust over, stiffen”), Swedish skrympa (“to shrink”), English shrimp). Compare also Romanian scrum (“ashes”).",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *kāslā, from Proto-Indo-European *kʷeh₂s- (“cough”) (compare English wheeze, Lithuanian kosulỹs, Serbo-Croatian kašalj).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "cough"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shkrumbi",
+     "form": "kolla",
      "tag": "definite"
-    },
-    {
-     "form": "shkrum",
-     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Praise you for streams in the desert.",
+    "en": "A dry cough appears.",
     "score": [
      1,
-     6,
-     -5,
+     5,
+     -4,
      10
     ],
-    "sq": "shkrumb u bënë kullotat në shkretëtirë."
+    "sq": "Shfaqet një kollë e thatë."
    }
   },
   {
-   "id": "litër",
-   "sq": "litër",
-   "en": "liter",
+   "id": "gjashtëmbëdhjetë",
+   "sq": "gjashtëmbëdhjetë",
+   "en": "sixteen",
    "glosses": [
-    "liter"
+    "sixteen"
    ],
    "pos": [
-    "noun"
+    "num"
    ],
    "pos_labels": [
-    "noun"
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "liter",
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "sixteen",
      "tags": [],
      "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -219,13 +388,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Albanian terms suffixed with -mbëdhjetë",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -233,158 +396,53 @@
      ],
      "examples": [],
      "links": [
-      "liter"
+      "sixteen"
      ]
     }
    ],
-   "rank": 24839,
+   "rank": 24989,
    "count": 19,
-   "family": "litër",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "family": "gjashtë",
+   "is_root": false,
+   "etymology": "From gjashtë (“six”) + -mbëdhjetë (“-teen”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "six"
+   ],
+   "components": [
+    {
+     "word": "gjashtë",
+     "role": "base"
+    },
+    {
+     "word": "mbëdhjetë",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "How long does 1 liter of bioethanol last?",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Sa zgjat 1 litër bioetanol?"
-   }
-  },
-  {
-   "id": "pëllumb",
-   "sq": "pëllumb",
-   "en": "dove, pigeon (taxonomic family: Columbidae)",
-   "glosses": [
-    "dove, pigeon (taxonomic family: Columbidae)",
-    "child, son"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "dove, pigeon (taxonomic family: Columbidae)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "93 7"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "86 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "95 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "dove",
-      "pigeon",
-      "taxonomic"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "child, son",
-     "tags": [
-      "endearing",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "endearing",
-      "child",
-      "son"
-     ]
-    }
-   ],
-   "rank": 24861,
-   "count": 19,
-   "family": "pëllumb",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin palumbus. Compare Italian palombo, Aromanian pãrumbu, Romanian porumb.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "pëllumbeshë"
-   ],
-   "related": [
-    "bisht pëllumbi"
-   ],
-   "forms": [
-    {
-     "form": "pëllumba",
-     "tag": "plural"
-    },
-    {
-     "form": "pëllumbi",
-     "tag": "definite"
-    },
-    {
-     "form": "pllumb",
-     "tag": "alternative"
-    },
-    {
-     "form": "pllum",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But it is not a real dove.",
+    "en": "She was so young, only sixteen.",
     "score": [
      1,
      7,
      -6,
      10
     ],
-    "sq": "Por nuk është një pëllumb i vërtetë."
-   }
+    "sq": "Ajo ishte aq i ri, vetëm gjashtëmbëdhjetë."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "kult",
-   "sq": "kult",
-   "en": "cult",
+   "id": "ruajtje",
+   "sq": "ruajtje",
+   "en": "preservation, storage",
    "glosses": [
-    "cult"
+    "preservation, storage"
    ],
    "pos": [
     "noun"
@@ -396,11 +454,15 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cult",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "preservation, storage",
+     "tags": [],
      "cats": [
+      {
+       "name": "Albanian deverbals",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -408,13 +470,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -422,15 +478,16 @@
      ],
      "examples": [],
      "links": [
-      "cult"
+      "preservation",
+      "storage"
      ]
     }
    ],
-   "rank": 24865,
+   "rank": 24994,
    "count": 19,
-   "family": "kult",
+   "family": "ruajtje",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Deverbal from ruaj.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -441,71 +498,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Like in a cult.",
+    "en": "Now for storage.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Si në një kult."
+    "sq": "Tani për ruajtje."
    }
   },
   {
-   "id": "zogëz",
-   "sq": "zogëz",
-   "en": "young girl",
+   "id": "hamendësoj",
+   "sq": "hamendësoj",
+   "en": "to guess; speculate",
    "glosses": [
-    "young girl"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "young girl",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 24871,
-   "count": 19,
-   "family": "zogëz",
-   "is_root": true,
-   "etymology": "From zogë + -ëz.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "zogë",
-    "zogël"
-   ],
-   "forms": [
-    {
-     "form": "zogëzë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "shtroj",
-   "sq": "shtroj",
-   "en": "to spread, scatter, lay down",
-   "glosses": [
-    "to spread, scatter, lay down"
+    "to guess; speculate"
    ],
    "pos": [
     "verb"
@@ -517,11 +525,19 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to spread, scatter, lay down",
-     "tags": [],
+     "gloss": "to guess; speculate",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -531,55 +547,58 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "spread",
-      "scatter",
-      "lay"
+      "guess",
+      "speculate"
      ]
     }
    ],
-   "rank": 35856,
-   "count": 11,
-   "family": "shtroj",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *śt(a)rē-, from Proto-Indo-European *sterh₃- (“to spread, scatter, floar”). Cognate to Old Church Slavonic прострѣти (prostrěti, “to spread”).",
-   "etymology_class": "inherited",
+   "rank": 32764,
+   "count": 13,
+   "family": "ha",
+   "is_root": false,
+   "etymology": "From hamendje + -oj (verb suffix).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "hamendje",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shtrova",
+     "form": "hamendësova",
      "tag": "aorist"
     },
     {
-     "form": "shtruar",
+     "form": "hamendësuar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do I have the right to put the problem this way?",
+    "en": "how i can guess about wining numbers?",
     "score": [
-     2,
+     3,
      7,
-     -5,
+     -4,
      10
     ],
-    "sq": "Kam të drejtë ta shtroj kështu problemin?"
-   }
+    "sq": "si mund të hamendësoj për numrat fitues?"
+   },
+   "breakdown": "historical"
   }
  ],
  "extended": true

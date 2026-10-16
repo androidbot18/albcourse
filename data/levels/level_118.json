@@ -1,44 +1,94 @@
 {
  "level": 118,
- "title": "cila, saktë",
+ "title": "armë, përveç, lartë +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "cila",
-  "saktë"
+  "armë",
+  "lartë",
+  "lloj",
+  "përveç",
+  "tung"
  ],
  "pos_mix": {
-  "pron": 2,
-  "adj": 3
+  "noun": 7,
+  "adj": 2,
+  "adv": 1,
+  "intj": 2,
+  "prep": 1
  },
  "words": [
   {
-   "id": "cilën",
-   "sq": "cilën",
-   "en": "which, singular (from cila)",
+   "id": "armë",
+   "sq": "armë",
+   "en": "gun",
    "glosses": [
-    "which, singular (from cila)"
+    "gun",
+    "weapon",
+    "combat arms",
+    "army",
+    "tool"
    ],
    "pos": [
-    "pron"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "which, singular (from cila)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gun",
      "tags": [
-      "accusative",
-      "feminine",
-      "form-of",
-      "interrogative",
-      "singular"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "gun"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "weapon",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Weapons",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Weapons",
+       "langcode": "sq",
+       "_dis": "74 4 15 4 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "weapon"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "combat arms",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -46,32 +96,286 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "10 10 58 10 12"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "12 12 48 12 14"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "8 8 68 8 9"
       }
      ],
      "examples": [],
-     "is_form_of": "cila"
+     "links": [
+      "combat",
+      "arms"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "army",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "army"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tool",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tool"
+     ]
     }
    ],
-   "rank": 550,
-   "count": 1882,
-   "family": "cila",
-   "is_root": false,
-   "etymology": "Form of cila. See there for more details.",
+   "rank": 451,
+   "count": 2335,
+   "family": "armë",
+   "is_root": true,
+   "etymology": "Borrowed from Late Latin arma (“weapon”). A later loan from Italian arma (“weapon”) is also plausible.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "weapon"
+   ],
+   "components": [],
+   "derived": [
+    "armatë",
+    "armatis",
+    "armatos",
+    "armëlarë",
+    "armëmbajtës",
+    "armëmbajtje",
+    "armëndreqës",
+    "armëngrirë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "armë",
+     "tag": "plural"
+    },
+    {
+     "form": "arma",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They have guns.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ata kanë armë."
+   }
+  },
+  {
+   "id": "lartë",
+   "sq": "lartë",
+   "en": "tall",
+   "glosses": [
+    "tall",
+    "high",
+    "high"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adv"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "tall",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27 0"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 28 0"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "tall"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "high",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "high"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "high",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "high"
+     ]
+    }
+   ],
+   "rank": 455,
+   "count": 2314,
+   "family": "lartë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laudra, from Proto-Indo-European *h₁lewdʰ- (“to grow”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "lartësoj",
+    "lartësi"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is high.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Kjo është e lartë."
+   }
+  },
+  {
+   "id": "tung",
+   "sq": "tung",
+   "en": "hi, hello",
+   "glosses": [
+    "hi, hello",
+    "good bye"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "hi, hello",
+     "tags": [
+      "informal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian greetings",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hi",
+      "hello"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good bye",
+     "tags": [
+      "informal"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 12 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 51 0 2 0 0 17 7 3 3 0 3 0 4 4 2 0 0 2"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 67 0 1 0 0 10 8 2 2 0 2 0 2 3 1 0 0 1"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "good bye"
+     ]
+    }
+   ],
+   "rank": 465,
+   "count": 2261,
+   "family": "tung",
+   "is_root": true,
+   "etymology": "Shortened from tungjatjeta.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -82,178 +386,197 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "In which municipality?",
+    "en": "How to switch to Tung tariff?",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Në cilën Bashki?"
+    "sq": "Si të kaloj në pakon Tung?"
    }
   },
   {
-   "id": "saktë",
-   "sq": "saktë",
-   "en": "flawless, perfect",
+   "id": "lloj",
+   "sq": "lloj",
+   "en": "sort, kind, type",
    "glosses": [
-    "flawless, perfect",
-    "exact, accurate",
-    "reliable, trustworthy"
+    "sort, kind, type"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "flawless, perfect",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 45 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 35 31"
-      }
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sort, kind, type",
+     "tags": [
+      "masculine"
      ],
-     "examples": [],
-     "links": [
-      "flawless",
-      "perfect"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "exact, accurate",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 45 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 35 31"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "exact",
-      "accurate"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "reliable, trustworthy",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 25 53"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 45 14"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 35 31"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "reliable",
-      "trustworthy"
+      "sort",
+      "kind",
+      "type"
      ]
     }
    ],
-   "rank": 553,
-   "count": 1868,
-   "family": "saktë",
+   "rank": 466,
+   "count": 2258,
+   "family": "lloj",
    "is_root": true,
-   "etymology": "From Ottoman Turkish [script needed] (sahi, “really, truly”) + -të.",
+   "etymology": "From Greek λογή (logí, “sort”). Related to llogaris.",
    "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": "from Turkish sahi (\"really, truly\")",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "pasaktë",
-    "saktas",
-    "saktësi",
-    "saktësoj"
+   "source_lang": "el",
+   "cognate": "from Greek λογή",
+   "parents": [
+    "sort"
    ],
+   "components": [],
+   "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "lloje",
+     "tag": "plural"
+    },
+    {
+     "form": "lloji",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Four times, right?",
+    "corpus": "HPLT",
+    "en": "She's not just one type.",
     "score": [
      0,
-     3,
-     -3,
-     5
+     6,
+     -6,
+     10
     ],
-    "sq": "Katër herë, saktë?"
+    "sq": "Ajo nuk është vetëm një lloj."
    }
   },
   {
-   "id": "cilat",
-   "sq": "cilat",
-   "en": "which, plural (from cila)",
+   "id": "përveç",
+   "sq": "përveç",
+   "en": "except; apart from; besides",
    "glosses": [
-    "which, plural (from cila)"
+    "except; apart from; besides"
    ],
    "pos": [
-    "pron"
+    "prep"
    ],
    "pos_labels": [
-    "pronoun"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "which, plural (from cila)",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "except; apart from; besides",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "except",
+      "apart from",
+      "besides"
+     ]
+    }
+   ],
+   "rank": 686,
+   "count": 1475,
+   "family": "përveç",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Except in North Macedonia.",
+    "score": [
+     2,
+     5,
+     -3,
+     8
+    ],
+    "sq": "Përveç në Maqedoninë e Veriut."
+   }
+  },
+  {
+   "id": "armët",
+   "sq": "armët",
+   "en": "the gun, plural (from armë)",
+   "glosses": [
+    "the gun, plural (from armë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the gun, plural (from armë)",
      "tags": [
       "accusative",
-      "feminine",
+      "definite",
       "form-of",
-      "interrogative",
       "nominative",
       "plural"
      ],
@@ -262,33 +585,30 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
+       "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
+       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "cila"
+     "is_form_of": "armë"
     }
    ],
-   "rank": 791,
-   "count": 1252,
-   "family": "cila",
+   "rank": 904,
+   "count": 1052,
+   "family": "armë",
    "is_root": false,
-   "etymology": "See the etymology of the corresponding lemma form.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -299,18 +619,15 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What are these words?",
+    "en": "Guns don't kill people.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Cilat janë këto fjalë?"
+    "sq": "Armët nuk vrasin njerëz."
    }
   }
- ],
- "continues": [
-  "cila"
  ]
 }

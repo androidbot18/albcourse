@@ -1,36 +1,39 @@
 {
  "level": 110,
- "title": "dashuri",
- "root": "dashuri",
- "root_gloss": "love",
+ "title": "andaj, nën",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 3,
  "families": [
-  "dashuri"
+  "andaj",
+  "nën"
  ],
  "pos_mix": {
-  "noun": 2
+  "conj": 1,
+  "prep": 1,
+  "adv": 1
  },
  "words": [
   {
-   "id": "dashuri",
-   "sq": "dashuri",
-   "en": "love",
+   "id": "prandaj",
+   "sq": "prandaj",
+   "en": "therefore, thus",
    "glosses": [
-    "love"
+    "therefore, thus"
    ],
    "pos": [
-    "noun"
+    "conj"
    ],
    "pos_labels": [
-    "noun"
+    "conjunction"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "love",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "therefore, thus",
      "tags": [],
      "cats": [
       {
@@ -54,15 +57,97 @@
      ],
      "examples": [],
      "links": [
-      "love"
+      "therefore",
+      "thus"
      ]
     }
    ],
-   "rank": 475,
-   "count": 2217,
-   "family": "dashuri",
+   "rank": 401,
+   "count": 2626,
+   "family": "andaj",
+   "is_root": false,
+   "etymology": "From për + andaj.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "andaj",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "andaj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "So be very careful!",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Prandaj ki shumë kujdes!"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "nën",
+   "sq": "nën",
+   "en": "under",
+   "glosses": [
+    "under"
+   ],
+   "pos": [
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "under",
+     "tags": [
+      "with-accusative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "under"
+     ]
+    }
+   ],
+   "rank": 409,
+   "count": 2561,
+   "family": "nën",
    "is_root": true,
-   "etymology": "From dashur, participle of dua (“to love”).",
+   "etymology": "An extended form of ndë.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -72,50 +157,41 @@
    "related": [],
    "forms": [
     {
-     "form": "dashuria",
-     "tag": "definite"
-    },
-    {
-     "form": "dashni",
+     "form": "ndën",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Courtship is courtship.",
+    "corpus": "HPLT",
+    "en": "Children under 3 years free of charge.",
     "score": [
-     0,
-     3,
-     -3,
-     4
+     1,
+     5,
+     -4,
+     10
     ],
-    "sq": "Dashuria është dashuri."
+    "sq": "Fëmijët nën 3 vjet pa pagesë."
    }
   },
   {
-   "id": "dashuria",
-   "sq": "dashuria",
-   "en": "the love, singular (from dashuri)",
+   "id": "andaj",
+   "sq": "andaj",
+   "en": "therefore, thus",
    "glosses": [
-    "the love, singular (from dashuri)"
+    "therefore, thus"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the love, singular (from dashuri)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "therefore, thus",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -137,14 +213,17 @@
       }
      ],
      "examples": [],
-     "is_form_of": "dashuri"
+     "links": [
+      "therefore",
+      "thus"
+     ]
     }
    ],
-   "rank": 1152,
-   "count": 811,
-   "family": "dashuri",
-   "is_root": false,
-   "etymology": "",
+   "rank": 3986,
+   "count": 195,
+   "family": "andaj",
+   "is_root": true,
+   "etymology": "From andej.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -154,15 +233,15 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Life is Love.",
+    "corpus": "TED2020",
+    "en": "So here it is.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
-     10
+     4
     ],
-    "sq": "Jeta është Dashuria."
+    "sq": "Andaj ja ku është."
    }
   }
  ]

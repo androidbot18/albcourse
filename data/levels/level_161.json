@@ -1,24 +1,25 @@
 {
  "level": 161,
- "title": "sekondë",
- "root": "sekondë",
- "root_gloss": "second (unit of time)",
+ "title": "mrekulli",
+ "root": "mrekulli",
+ "root_gloss": "miracle",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "sekondë"
+  "mrekulli"
  ],
  "pos_mix": {
-  "noun": 2
+  "noun": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "sekondë",
-   "sq": "sekondë",
-   "en": "second (unit of time)",
+   "id": "mrekulli",
+   "sq": "mrekulli",
+   "en": "miracle",
    "glosses": [
-    "second (unit of time)"
+    "miracle"
    ],
    "pos": [
     "noun"
@@ -30,10 +31,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "second (unit of time)",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "miracle",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -56,15 +55,15 @@
      ],
      "examples": [],
      "links": [
-      "second"
+      "miracle"
      ]
     }
    ],
-   "rank": 1023,
-   "count": 918,
-   "family": "sekondë",
+   "rank": 757,
+   "count": 1306,
+   "family": "mrekulli",
    "is_root": true,
-   "etymology": "Borrowed from Latin secundus directly or from Italian secondo.",
+   "etymology": "From Old Albanian mërekull, borrowed from Latin mīrāculum.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -74,45 +73,45 @@
    "related": [],
    "forms": [
     {
-     "form": "sekonda",
+     "form": "mrekulli",
      "tag": "plural"
+    },
+    {
+     "form": "mrekullia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "In a second!",
+    "corpus": "TED2020",
+    "en": "Okay? Great.",
     "score": [
      0,
      3,
      -3,
-     10
+     4
     ],
-    "sq": "Në një sekondë!"
+    "sq": "Ne rregull? Mrekulli."
    }
   },
   {
-   "id": "sekonda",
-   "sq": "sekonda",
-   "en": "second, plural (from sekondë)",
+   "id": "mrekullueshëm",
+   "sq": "mrekullueshëm",
+   "en": "miraculous",
    "glosses": [
-    "second, plural (from sekondë)"
+    "miraculous"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "second, plural (from sekondë)",
-     "tags": [
-      "feminine",
-      "form-of",
-      "plural"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "miraculous",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -121,46 +120,90 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "sekondë"
+     "links": [
+      "miraculous"
+     ]
     }
    ],
-   "rank": 876,
-   "count": 1100,
-   "family": "sekondë",
+   "rank": 1109,
+   "count": 847,
+   "family": "mrekulli",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "mrekulli + -shëm",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "mrekulli",
+     "role": "base",
+     "en": "miracle"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "We are just taking five seconds.",
+    "en": "They are just magnificent.",
     "score": [
      0,
-     2,
-     -2,
+     3,
+     -3,
      5
     ],
-    "sq": "Vetëm 5 sekonda."
-   }
+    "sq": "Janë të mrekullueshëm."
+   },
+   "breakdown": "transparent"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "shem",
+   "label": "-shëm",
+   "meaning": "-ful, -able",
+   "summary": "Makes an adjective from a noun or verb: fuqi (strength) → i fuqishëm (powerful), kuptoj (to understand) → i kuptueshëm (understandable).",
+   "note": "The feminine is -shme (e fuqishme). After a verb in -oj it becomes -ueshëm.",
+   "examples": [
+    {
+     "sq": "gatshëm",
+     "en": "ready",
+     "stem": "gati",
+     "stem_en": "ready"
+    },
+    {
+     "sq": "kujdesshëm",
+     "en": "careful",
+     "stem": "kujdes",
+     "stem_en": "regard"
+    },
+    {
+     "sq": "mrekullueshëm",
+     "en": "miraculous",
+     "stem": "mrekulli",
+     "stem_en": "miracle"
+    }
+   ]
   }
  ]
 }

@@ -75,6 +75,14 @@ echo "== main course and extended track =="
 step python3 tools/test_scope.py
 
 echo
+echo "== core words Wiktionary lacks =="
+# Section 3.6: pra, ndonjë, sikur, vërtet, problem... had no Wiktionary entry,
+# so the deck could never teach them. tools/added_words.py adds them by
+# hand; this pins the entries, refuses one that would shadow real data, and
+# checks the form-or-lemma coverage count reads "të gjitha" as gjithë.
+step python3 tools/test_added_words.py
+
+echo
 echo "== shipped levels match the scheduler =="
 # Re-runs assign_levels() on the shipped cards (no raw sources needed) and
 # fails if any level file would change. Catches a scheduler change committed

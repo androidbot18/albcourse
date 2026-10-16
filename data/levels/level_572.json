@@ -1,29 +1,30 @@
 {
  "level": 572,
- "title": "psikolog, frekuencë, bazen +3",
+ "title": "bole, qarkullim, magnet +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "astronaut",
-  "bazen",
-  "frekuencë",
-  "kilometër",
-  "psikolog",
-  "ri"
+  "bole",
+  "lakmi",
+  "llafazan",
+  "magnet",
+  "qarkullim",
+  "shuplakë"
  ],
  "pos_mix": {
-  "noun": 7
+  "noun": 11,
+  "adj": 1
  },
  "words": [
   {
-   "id": "psikolog",
-   "sq": "psikolog",
-   "en": "psychologist",
+   "id": "bole",
+   "sq": "bole",
+   "en": "testicles",
    "glosses": [
-    "psychologist"
+    "testicles"
    ],
    "pos": [
     "noun"
@@ -35,7 +36,75 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "psychologist",
+     "gloss": "testicles",
+     "tags": [
+      "masculine",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pluralia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 16 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "testicles"
+     ]
+    }
+   ],
+   "rank": 16817,
+   "count": 33,
+   "family": "bole",
+   "is_root": true,
+   "etymology": "Variant of bolle. Occurs exclusively in the plural form.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "bolle",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "qarkullim",
+   "sq": "qarkullim",
+   "en": "circulation",
+   "glosses": [
+    "circulation"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "circulation",
      "tags": [
       "masculine"
      ],
@@ -47,82 +116,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "psychologist"
-     ]
-    }
-   ],
-   "rank": 16598,
-   "count": 33,
-   "family": "psikolog",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "psikologë",
-     "tag": "plural"
-    },
-    {
-     "form": "psikologu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Find a psychologist.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Gjej një psikolog."
-   }
-  },
-  {
-   "id": "frekuencë",
-   "sq": "frekuencë",
-   "en": "frequency",
-   "glosses": [
-    "frequency"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "frequency",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -132,27 +126,20 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "physics",
-      "frequency"
+      "circulation"
      ]
     }
    ],
-   "rank": 16600,
+   "rank": 16819,
    "count": 33,
-   "family": "frekuencë",
+   "family": "qarkullim",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Gerund of qarkulloj; qarkulloj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -161,28 +148,32 @@
    "related": [],
    "forms": [
     {
-     "form": "frekuenca",
+     "form": "qarkullime",
+     "tag": "plural"
+    },
+    {
+     "form": "qarkullimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There is a lot of high-frequency trading.",
+    "en": "Their time in circulation is fleeting.",
     "score": [
      0,
-     7,
-     -7,
+     8,
+     -8,
      10
     ],
-    "sq": "Ka shumë tregti me frekuencë të lartë."
+    "sq": "Koha e tyre në qarkullim është e shkurtër."
    }
   },
   {
-   "id": "bazen",
-   "sq": "bazen",
-   "en": "swimming pool",
+   "id": "magnet",
+   "sq": "magnet",
+   "en": "magnet",
    "glosses": [
-    "swimming pool"
+    "magnet"
    ],
    "pos": [
     "noun"
@@ -194,7 +185,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "swimming pool",
+     "gloss": "magnet",
      "tags": [
       "masculine"
      ],
@@ -206,7 +197,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 20 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -220,304 +211,383 @@
      ],
      "examples": [],
      "links": [
-      "swimming pool"
+      "magnet"
      ]
     }
    ],
-   "rank": 16694,
+   "rank": 16884,
    "count": 33,
-   "family": "bazen",
+   "family": "magnet",
    "is_root": true,
-   "etymology": "From Serbo-Croatian bazen, from French bassin.",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "magnete",
+     "tag": "plural"
+    },
+    {
+     "form": "magneti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Use Caution with Magnets.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Përdorni Kujdes me Magnet."
+   }
+  },
+  {
+   "id": "llafazan",
+   "sq": "llafazan",
+   "en": "chatty, loquacious, talkative",
+   "glosses": [
+    "chatty, loquacious, talkative",
+    "chatterer, chatterbox (talkative person)"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "chatty, loquacious, talkative",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chatty",
+      "loquacious",
+      "talkative"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chatterer, chatterbox (talkative person)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chatterer",
+      "chatterbox"
+     ]
+    }
+   ],
+   "rank": 16898,
+   "count": 33,
+   "family": "llafazan",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish لافزن (lafazan, “braggart, boaster”), from Classical Persian لافزن (lāfazan).",
    "etymology_class": "borrowed",
-   "source_lang": "sr",
-   "cognate": "from Serbian bassin",
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "bazene",
+     "form": "llafazana",
      "tag": "plural"
     },
     {
-     "form": "bazeni",
+     "form": "llafazani",
      "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "We set up a foundation.",
-    "score": [
-     1,
-     4,
-     -3,
-     4
-    ],
-    "sq": "Ne kemi krijuar bazen."
-   }
-  },
-  {
-   "id": "risi",
-   "sq": "risi",
-   "en": "innovation",
-   "glosses": [
-    "innovation"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "innovation",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -si",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "innovation"
-     ]
-    }
-   ],
-   "rank": 16711,
-   "count": 33,
-   "family": "ri",
-   "is_root": false,
-   "etymology": "From ri (“new”) + -si.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "new"
-   ],
-   "components": [
-    {
-     "word": "ri",
-     "role": "base",
-     "en": "new"
     },
     {
-     "word": "si",
-     "role": "suffix",
-     "affix": "si",
-     "meaning": "-ness, -ity"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "risi",
-     "tag": "plural"
+     "form": "llafezan",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Anyway, onto newness!",
+    "en": "They were very chatty and friendly.",
     "score": [
      1,
-     3,
-     -2,
+     6,
+     -5,
      10
     ],
-    "sq": "Gjithsesi, mbi risi!"
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "astronaut",
-   "sq": "astronaut",
-   "en": "astronaut, cosmonaut",
-   "glosses": [
-    "astronaut, cosmonaut"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "astronaut, cosmonaut",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 11 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "astronaut",
-      "cosmonaut"
-     ]
-    }
-   ],
-   "rank": 16723,
-   "count": 33,
-   "family": "astronaut",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I want to become an astronaut.",
-    "score": [
-     0,
-     4,
-     -4,
-     0
-    ],
-    "sq": "Dua të bëhem astronaut."
+    "sq": "Ata ishin shumë llafazan dhe miqësore."
    }
   },
   {
-   "id": "kilometër",
-   "sq": "kilometër",
-   "en": "kilometer, kilometre",
+   "id": "lakmi",
+   "sq": "lakmi",
+   "en": "greed",
    "glosses": [
-    "kilometer, kilometre"
+    "greed",
+    "ambition",
+    "envy"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "kilometer, kilometre",
+     "gloss": "greed",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with kilo-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "33 33 33"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
       }
      ],
      "examples": [],
      "links": [
-      "kilometer",
-      "kilometre"
+      "greed"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ambition",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ambition"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "envy",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "envy"
      ]
     }
    ],
-   "rank": 16765,
+   "rank": 16917,
    "count": 33,
-   "family": "kilometër",
+   "family": "lakmi",
    "is_root": true,
-   "etymology": "kilo- + metër",
-   "etymology_class": "affix",
+   "etymology": "Suffixed form of an unattested noun *lakëm, from a South Slavic language, compare Old Church Slavonic лакомъ (lakomŭ, “hungry”), Serbo-Croatian лаком (“greedy, covetous”). Ultimately from Proto-Slavic *olkomъ (“greedy”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [
+   "parents": [
+    "hungry"
+   ],
+   "components": [],
+   "derived": [
+    "lakmoj",
+    "lakmesë",
+    "lakmitar",
+    "lakmues",
+    "lakmim"
+   ],
+   "related": [],
+   "forms": [
     {
-     "word": "kilo",
-     "role": "prefix"
+     "form": "lakmi",
+     "tag": "plural"
     },
     {
-     "word": "metër",
-     "role": "stem"
+     "form": "lakmia",
+     "tag": "definite"
+    },
+    {
+     "form": "lakëmi",
+     "tag": "alternative"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's not far, maybe a kilometer.",
+    "en": "full of worldly sin and greed.",
     "score": [
      0,
      7,
      -7,
      10
     ],
-    "sq": "Ajo nuk është larg, ndoshta një kilometër."
-   },
-   "breakdown": "historical"
+    "sq": "plot mëkat dhe lakmi të kësaj bote."
+   }
   },
   {
-   "id": "rini",
-   "sq": "rini",
-   "en": "youth",
+   "id": "shuplakë",
+   "sq": "shuplakë",
+   "en": "slap",
    "glosses": [
-    "youth"
+    "slap",
+    "palm",
+    "measure across the four fingers of one hand, hand width",
+    "punishment inflicted by mountain spirits on a person who happens to interrupt their dancing or eating"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "youth",
+     "gloss": "slap",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "slap"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "palm",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "palm"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "measure across the four fingers of one hand, hand width",
      "tags": [
       "feminine"
      ],
@@ -526,68 +596,81 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "2 2 64 32"
       },
       {
-       "name": "Albanian terms suffixed with -ni",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "2 2 68 28"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "2 2 68 28"
       }
      ],
      "examples": [],
      "links": [
-      "youth"
+      "hand",
+      "width"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "punishment inflicted by mountain spirits on a person who happens to interrupt their dancing or eating",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "punishment"
      ]
     }
    ],
-   "rank": 20504,
-   "count": 25,
-   "family": "ri",
-   "is_root": false,
-   "etymology": "From ri (“young”) + -ni.",
-   "etymology_class": "affix",
+   "rank": 16919,
+   "count": 33,
+   "family": "shuplakë",
+   "is_root": true,
+   "etymology": "Unclear. Possibly a prefixed derivative of Italian placca (“plate, plaque”) in sh-. Another possibility is a borrowing from a South Slavic language, ultimately from Proto-Slavic *šuplь (“howllow”); compare Serbo-Croatian šupalj. Dizdari suggests a borrowing from Turkish şaplak, of onomatopoeic origin. Based on Meyer, Orel suggests a borrowing from Serbo-Croatian šupljača.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "young"
-   ],
-   "components": [
-    {
-     "word": "ri",
-     "role": "base"
-    },
-    {
-     "word": "ni",
-     "role": "suffix"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "rinia",
-     "tag": "definite"
+     "form": "shuplaka",
+     "tag": "plural"
+    },
+    {
+     "form": "shëplakë",
+     "tag": "alternative"
+    },
+    {
+     "form": "shplakë",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "What teachings were you exposed to as a youth?",
+    "corpus": "HPLT",
+    "en": "That was a slap in the face for me.",
     "score": [
-     1,
-     5,
-     -4,
-     8
+     0,
+     6,
+     -6,
+     10
     ],
-    "sq": "Çfarë të mësuan në rini?"
-   },
-   "breakdown": "historical"
+    "sq": "Kjo ishte një shuplakë për mua."
+   }
   }
  ],
  "extended": true

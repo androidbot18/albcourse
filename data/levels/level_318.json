@@ -1,13 +1,13 @@
 {
  "level": 318,
- "title": "çati, drejtësi, pazar +3",
+ "title": "alarm, çati, drejtësi +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "ardhme",
+  "alarm",
   "drejtësi",
   "gjykatës",
   "moj",
@@ -15,10 +15,103 @@
   "çati"
  ],
  "pos_mix": {
-  "noun": 7,
+  "noun": 8,
   "intj": 1
  },
  "words": [
+  {
+   "id": "alarm",
+   "sq": "alarm",
+   "en": "alarm",
+   "glosses": [
+    "alarm",
+    "anxiety"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "alarm",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Military",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Military",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "military",
+      "alarm"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "anxiety",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 72"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anxiety"
+     ]
+    }
+   ],
+   "rank": 3734,
+   "count": 210,
+   "family": "alarm",
+   "is_root": true,
+   "etymology": "From French alarme (“alarm”).",
+   "etymology_class": "derived",
+   "source_lang": "fr",
+   "cognate": "from French alarme",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "alarmim",
+    "alarmohem",
+    "alarmoj",
+    "alarmonjës",
+    "alarmuar",
+    "alarmues",
+    "alarmuese"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is an alarm.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ky është alarm."
+   }
+  },
   {
    "id": "çati",
    "sq": "çati",
@@ -478,87 +571,6 @@
      10
     ],
     "sq": "Megjithatë, ju do të jeni gjykatës."
-   }
-  },
-  {
-   "id": "ardhme",
-   "sq": "ardhme",
-   "en": "future",
-   "glosses": [
-    "future"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "future",
-     "tags": [
-      "future"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "future"
-     ]
-    }
-   ],
-   "rank": 3798,
-   "count": 206,
-   "family": "ardhme",
-   "is_root": true,
-   "etymology": "From ardhje.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ardhme",
-     "tag": "plural"
-    },
-    {
-     "form": "ardhmja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Two futures.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Dy të ardhme."
    }
   }
  ]
