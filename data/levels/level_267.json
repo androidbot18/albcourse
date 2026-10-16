@@ -1,26 +1,29 @@
 {
  "level": 267,
- "title": "zgjedh, gjuaj",
+ "title": "ngre, hir, vënd +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "gjuaj",
-  "zgjedh"
+  "futem",
+  "hir",
+  "ngre",
+  "vëlla",
+  "vënd"
  ],
  "pos_mix": {
-  "verb": 5,
-  "noun": 2
+  "verb": 6,
+  "noun": 6
  },
  "words": [
   {
-   "id": "zgjedhur",
-   "sq": "zgjedhur",
-   "en": "choose, past form (from zgjedh, to choose)",
+   "id": "ngritur",
+   "sq": "ngritur",
+   "en": "raise, past form (from ngre, to raise)",
    "glosses": [
-    "choose, past form (from zgjedh, to choose)"
+    "raise, past form (from ngre, to raise)"
    ],
    "pos": [
     "verb"
@@ -32,7 +35,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "choose, past form (from zgjedh, to choose)",
+     "gloss": "raise, past form (from ngre, to raise)",
      "tags": [
       "form-of",
       "participle",
@@ -59,12 +62,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "zgjedh"
+     "is_form_of": "ngre"
     }
    ],
-   "rank": 1326,
-   "count": 675,
-   "family": "zgjedh",
+   "rank": 1934,
+   "count": 447,
+   "family": "ngre",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -77,31 +80,396 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What did you choose?",
+    "en": "And then you are set up.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Dhe atëherë ju jeni ngritur."
+   }
+  },
+  {
+   "id": "hir",
+   "sq": "hir",
+   "en": "kindness, favor, sake",
+   "glosses": [
+    "kindness, favor, sake",
+    "willingness, goodwill",
+    "beauty, grace, charm, dignity",
+    "heavenly grace"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "kindness, favor, sake",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "willingness, goodwill",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "willingness",
+      "goodwill"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beauty, grace, charm, dignity",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beauty",
+      "grace",
+      "charm"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "heavenly grace",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 22 27 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "grace"
+     ]
+    }
+   ],
+   "rank": 1936,
+   "count": 446,
+   "family": "hir",
+   "is_root": true,
+   "etymology": "Possibly from Proto-Albanian *skīra, from a Proto-Indo-European *sḱeyr-o- (“shine, reflex”), whence German schier (“pure, clear”), Polish szczery (“sincere, earnest”), Ancient Greek σκίρον (skíron, “parasol”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "parasol"
+   ],
+   "components": [],
+   "derived": [
+    "hire",
+    "hirës",
+    "hirësi",
+    "hirësisht",
+    "hirmadh",
+    "hiroj",
+    "hirplotë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "hire",
+     "tag": "plural"
+    },
+    {
+     "form": "hiri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "full of grace and truth.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "plot hir dhe të vërtetë."
+   }
+  },
+  {
+   "id": "vënd",
+   "sq": "vënd",
+   "en": "place",
+   "glosses": [
+    "place"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "place",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "place"
+     ]
+    }
+   ],
+   "rank": 1945,
+   "count": 444,
+   "family": "vënd",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wenta, derivative of vë (“to put”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vënde",
+     "tag": "plural"
+    },
+    {
+     "form": "vëndi",
+     "tag": "definite"
+    },
+    {
+     "form": "vend",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "All is in place.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Gjithçka është në vënd."
+   }
+  },
+  {
+   "id": "futem",
+   "sq": "futem",
+   "en": "to go in, to enter",
+   "glosses": [
+    "to go in, to enter"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to go in, to enter",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "go",
+      "in",
+      "enter"
+     ]
+    }
+   ],
+   "rank": 1954,
+   "count": 442,
+   "family": "futem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But do I have to enter this?",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Por a duhet të futem në këtë?"
+   }
+  },
+  {
+   "id": "vëllezërit",
+   "sq": "vëllezërit",
+   "en": "the brother, plural (from vëlla)",
+   "glosses": [
+    "the brother, plural (from vëlla)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the brother, plural (from vëlla)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "vëlla"
+    }
+   ],
+   "rank": 1961,
+   "count": 441,
+   "family": "vëlla",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "his brothers.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Çfarë keni zgjedhur?"
+    "sq": "vëllezërit e tij."
    }
   },
   {
-   "id": "gjuaj",
-   "sq": "gjuaj",
-   "en": "to hunt",
+   "id": "ngre",
+   "sq": "ngre",
+   "en": "to raise, to elevate, to lift",
    "glosses": [
-    "to hunt",
-    "to impel an aimed projectile: shoot, throw",
-    "to lie in wait for"
+    "to raise, to elevate, to lift",
+    "to erect",
+    "to awaken, wake up",
+    "to arouse (to cause to have an erection)"
    ],
    "pos": [
+    "verb",
     "verb",
     "verb",
     "verb"
    ],
    "pos_labels": [
+    "verb",
     "verb",
     "verb",
     "verb"
@@ -110,336 +478,132 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to hunt",
-     "tags": [],
+     "gloss": "to raise, to elevate, to lift",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "raise",
+      "elevate",
+      "lift"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to erect",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "erect"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to awaken, wake up",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "48 23 28"
+       "_dis": "17 17 39 26"
       },
-      {
-       "name": "Hunting",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Hunting",
-       "langcode": "sq",
-       "_dis": "69 31 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hunt"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to impel an aimed projectile: shoot, throw",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "impel",
-      "projectile",
-      "shoot"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to lie in wait for",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "32 40 28"
+       "_dis": "19 19 39 22"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "25 55 20"
+       "_dis": "14 14 57 16"
       }
      ],
+     "examples": [
+      {
+       "sq": "Skënderbeu ngriti popullin në luftë.",
+       "en": "Skanderbeg woke the people up in the war.",
+       "offsets": [
+        [
+         11,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "awaken",
+      "wake up"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to arouse (to cause to have an erection)",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "lie in wait"
+      "arouse"
      ]
     }
    ],
-   "rank": 1327,
-   "count": 673,
-   "family": "gjuaj",
+   "rank": 2565,
+   "count": 323,
+   "family": "ngre",
    "is_root": true,
-   "etymology": "Uncertain; perhaps from Proto-Albanian:\n* *jāgnja, from *jaga (whence gjah (“a hunt, chase”)) + *-nja, from Proto-Indo-European *h₁yoǵʰ-ó-s, from metathesized *h₁eyǵʰ- (“to desire, long for”) + *-ós;\n* *sāgnja, from *sāgna (whence gjah (“a hunt, chase”)) + *-ja, from Proto-Indo-European *seh₂g-no-s, from *seh₂g- (“to trace, follow”) + *-nós;\n* or *gānja, from Proto-Indo-European *gʷʰén-ye-ti, from *gʷʰen- (“to strike, slay”) + *-yeti.",
+   "etymology": "First attested in 1555 by Buzuku as ëngre, allowing the dissection of ën- + *gre. Ultimately from Proto-Indo-European *h₁ger- (“to awaken”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "gjoj",
-    "gjuajtës",
-    "gjuajtje",
-    "gjuetar",
-    "gjueti"
+    "shkreh"
    ],
    "related": [
-    "gjah"
+    "ngrihem"
    ],
    "forms": [
     {
-     "form": "gjuajta",
+     "form": "ngrita",
      "tag": "aorist"
     },
     {
-     "form": "gjuajtur",
+     "form": "ngritur",
      "tag": "participle"
     },
     {
-     "form": "gjuej",
+     "form": "ngredh",
      "tag": "alternative"
     },
     {
-     "form": "gjuj",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjuoj",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjuonj",
+     "form": "ngreh",
      "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Play more, Shoot more.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Luaj më shumë, Gjuaj më shumë."
-   }
-  },
-  {
-   "id": "zgjedhje",
-   "sq": "zgjedhje",
-   "en": "choice, selection",
-   "glosses": [
-    "choice, selection",
-    "election"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "choice, selection",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "choice",
-      "selection"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "election",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 70"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "election"
-     ]
-    }
-   ],
-   "rank": 1395,
-   "count": 635,
-   "family": "zgjedh",
-   "is_root": false,
-   "etymology": "From zgjedh (“to choose, select”) + -je feminine suffix.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "zgjedh",
-     "role": "base",
-     "en": "to choose"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [
-    "zgjedhjesor"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "You've got a choice.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Ke një zgjedhje."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "zgjedh",
-   "sq": "zgjedh",
-   "en": "to choose",
-   "glosses": [
-    "to choose"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to choose",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "choose"
-     ]
-    }
-   ],
-   "rank": 1886,
-   "count": 459,
-   "family": "zgjedh",
-   "is_root": true,
-   "etymology": "From Old Albanian zgëledh, zgledh, from zga (“out”) + *ledh (in mbledh), from Proto-Indo-European *leǵ-. More at mbledh. Also see related zgledh.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "out"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "zgjodha",
-     "tag": "aorist"
-    },
-    {
-     "form": "zgjedhur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why chooses us?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Pse na zgjedh?"
-   }
+   "corpus_example": null
   }
+ ],
+ "continues": [
+  "vëlla"
  ]
 }

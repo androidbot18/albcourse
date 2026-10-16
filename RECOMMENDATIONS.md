@@ -303,7 +303,7 @@ home and work, conjunctions, and the days of the week.
 - **The opening's glosses are reviewed.** `pi` now headlines "to drink" (it was the Gheg "from"), `kafe` "coffee" (it was "a plant of the genus Coffea"), and `qumësht` "milk". `pi`'s example is *Unë pi kafe me qumësht.* (it was *A pi drogë?*, "Do you take drugs?"). `ka` gained "he/she/it has", `farë` gained "kind, sort", and `lutem` now reads "please (ju lutem)".
 - **`tetë` is fixed.** The parser read `*(a)te + -të` as the preposition `te`, which filed *eight* in the family of *at*. It now has its own family.
 - **Days of the week.** Wiktionary files four of them under the article (`e mërkurë`, `e premte`, `e shtunë`, `e diel`), so the one-word deck had only `martë` and `enjte`. `pos_balance.ARTICLED_ENTRIES` reads those entries as senses of the bare word, and each day's reviewed gloss gives the article and the "on Monday" form: "Wednesday (e mërkurë; të mërkurën, on Wednesday)". `hënë` now headlines Monday, with "moon" second. The days close the opening (L22–23), after `e`.
-- **Results:** 4,092 words and 801 levels. That is one over the 800-level ceiling, which is raised to 810 while §3.6 decides the course's scope. Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
+- **Results:** 4,092 words. With the days the course reached 801 levels, one over the 800-level ceiling; §3.6 then split it into a 348-level main course and an extended track (766 levels in all). Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
 - Pinned by `tools/test_opening_levels.py`.
 
 ### 3.3 Take inflected forms out of the vocabulary deck
@@ -339,6 +339,22 @@ what makes levelling up feel like an achievement.
 ---
 
 ### 3.6 Scope: the course does not need 800 levels to reach 80%
+
+**Status: done** (recommendation 1). The main course is everything ranked
+up to 5,000 (`build_course.MAIN_MAX_RANK`), plus the curated opening and,
+transitively, the stems those words are built on, so the prerequisite rule
+holds inside it. That makes 1,624 words in **348 levels** covering 81.0%.
+`schedule_course()` then schedules the other 2,468 words as an
+**extended track**, levels 349–766, marked `extended` in the level files,
+`index.json`, `course.json` (`main_level_count`) and `words.json`. A
+family the main course began is titled "root (more)" there. The app
+lists the track under its own heading and adds its words to Review only
+once the learner turns it on. The Anki decks are named "Albanian extended
+…". The validator checks each track's family runs separately.
+`tools/test_scope.py` pins the split and measures that the main course
+still reaches 80%; the main course may not exceed 360 levels. The whole
+course is 766 levels, down from 801, because tails no longer interleave.
+Recommendations 2 and 3 are still open.
 
 The 800-level ceiling (`tools/test_prereq.py`) is a soft cap, set when
 families were first given their own sessions. The question is whether a
@@ -607,8 +623,11 @@ not all fall due on the same day.
       `po` (*yes*) is on L1, and `e` is restored on L21 with a reviewed gloss
       and example. The opening's glosses are reviewed, and the days of the
       week are taught (L22–23). See §3.2.
-- [ ] Decide the course's scope (§3.6): a rank cap of 5,000 gives 340
-      levels at 81% coverage, against 801 levels at 84%.
+- [x] Scope the course to 80% (§3.6): a 348-level main course (rank ≤
+      5,000, 81.0% coverage), then an optional extended track to 766.
+- [ ] Hand-add the core words Wiktionary lacks (`pra`, `ndonjë`, `gjitha`,
+      `vërtet`…), and report form-or-lemma coverage in
+      `tools/measure_coverage.py` (§3.6, recommendations 2 and 3).
 - [ ] "Root first, tail later" scheduling instead of unsplittable families.
       Partly done (1.6): rare tails (rank > 1,200) now come back in their own
       frequency band, for every opening family and for any family with 4+

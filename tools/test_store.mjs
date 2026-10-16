@@ -212,6 +212,8 @@ function throwingLS() {
   eq(n.stats.newToday.count, 7, 'the daily new-card count survives a reload');
   eq(n.prefs.direction, 'en2sq', 'the direction preference survives a reload');
   eq(normalise({ prefs: { direction: 'bogus' } }).prefs.direction, undefined, 'a bad direction is dropped');
+  eq(normalise({ prefs: { extended: true } }).prefs.extended, true, 'opting into the extended track survives a reload');
+  eq(normalise({ prefs: { extended: 'yes' } }).prefs.extended, undefined, 'a non-boolean extended flag is dropped');
 }
 
 console.log('');

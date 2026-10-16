@@ -92,6 +92,13 @@ TITLE_ROOTS = 3
 # assign_levels(), "root first, tail later").
 OPENING_MIN_DEFERRED = 4
 
+# The main course teaches the words ranked up to here; the rest is an
+# optional extended track that follows it (RECOMMENDATIONS.md section 3.6).
+# Measured on the pinned sources: 340 levels reach 80.9% of tokens counted
+# by form or lemma, against 83.8% for all 801 levels. The curated opening
+# and the stems of main-course words are main course whatever their rank.
+MAIN_MAX_RANK = 5000
+
 # Closed-class roots deferred past the opening get a synthetic rank just
 # beyond this one, so they are taught after the opening rather than dropped.
 DEFER_MAX_ROOT_RANK = 900
@@ -1122,8 +1129,49 @@ def by_word_components(cards):
             if c.get("components")}
 
 
+def schedule_course(cards, families, components=None, opening=None,
+                    main_max_rank=MAIN_MAX_RANK):
+    """The main course, then the extended track, as assign_levels() levels.
+
+    The main course is every card ranked up to `main_max_rank`, the curated
+    opening, and (transitively) the stems those words are built on, so the
+    prerequisite rule holds inside it. Everything else is the extended
+    track: scheduled by the same rules, numbered after the main course, and
+    marked `extended`. Its stems are all taught already, either in the main
+    course or earlier in the track. No card is dropped.
+    """
+    components = components or {}
+    rank_of = {c["word"]: c["rank"] for c in cards}
+    main = {w for w, r in rank_of.items() if r <= main_max_rank}
+    main |= {w for _, ws in (opening or ()) for w in ws if w in rank_of}
+    todo = sorted(main)
+    while todo:
+        w = todo.pop()
+        for c in components.get(w, ()):
+            s = c.get("word")
+            if c.get("role") == "stem" and s in rank_of and s not in main:
+                main.add(s)
+                todo.append(s)
+
+    def part(keep):
+        fams = {r: [m for m in ms if m in keep] for r, ms in families.items()}
+        return ([c for c in cards if c["word"] in keep],
+                {r: ms for r, ms in fams.items() if ms})
+
+    main_cards, main_fams = part(main)
+    levels = assign_levels(main_cards, main_fams, components=components,
+                           opening=opening)
+    ext_cards, ext_fams = part(set(rank_of) - main)
+    if ext_cards:
+        for lvl in assign_levels(ext_cards, ext_fams, components=components,
+                                 begun=set(main_fams)):
+            lvl[7]["extended"] = True
+            levels.append(lvl)
+    return levels
+
+
 def assign_levels(cards, families, per_level=9, max_families=6,
-                  components=None, opening=None):
+                  components=None, opening=None, begun=()):
     """Levels are sessions of whole word families, in prerequisite order.
 
     Three rules, in priority order:
@@ -1157,6 +1205,9 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     runs on what is left. A family the opening only partly teaches comes
     back later at its own frequency, on a level that lists it under
     `continues`.
+
+    `begun` names families an earlier track already taught (see
+    schedule_course()); their levels here are titled "root (more)".
     """
     rank_of = {c["word"]: c["rank"] for c in cards}
 
@@ -1630,11 +1681,19 @@ def assign_levels(cards, families, per_level=9, max_families=6,
             title = "%s (continued)" % root
             if nparts > 1:
                 title += " %d/%d" % (part, nparts)
+        elif root in begun:
+            # More of a family the main course taught; the root itself is
+            # not on this level.
+            title = "%s (more)" % root
+            if nparts > 1:
+                title += " %d/%d" % (part, nparts)
         elif nparts == 1:
             # Name at most TITLE_ROOTS roots and count only the ones left out,
             # so "+N" is the number actually hidden (it used to be len - 2
             # while every root was still listed).
-            title = root if root else ", ".join(cur_roots[:TITLE_ROOTS])
+            title = root if root else ", ".join(
+                "%s (more)" % r if r in begun else r
+                for r in cur_roots[:TITLE_ROOTS])
         else:
             title = "%s %d/%d" % (root, part, nparts)
         if not root and len(cur_roots) > TITLE_ROOTS:
@@ -1785,6 +1844,9 @@ def write_levels(levels, by_word, corpus_examples):
             lvl["opening"] = True
         if meta.get("continues"):
             lvl["continues"] = meta["continues"]
+        # The optional extended track after the main course (schedule_course).
+        if meta.get("extended"):
+            lvl["extended"] = True
         level_objs.append(lvl)
 
     # Breakdown glosses, transparency and pattern notes need the whole course
@@ -1808,6 +1870,10 @@ def write_levels(levels, by_word, corpus_examples):
         # here keeps the two in lockstep (a hardcoded padStart broke at 1000).
         "level_file_width": lvl_width,
         "level_count": len(level_objs),
+        # Levels 1..main_level_count are the main course; the rest are the
+        # optional extended track.
+        "main_level_count": sum(1 for l in level_objs
+                                if not l.get("extended")),
         "word_count": sum(l["word_count"] for l in level_objs),
         # title/root/part/parts ride along so the level map can label each
         # level with its root without loading all 184 level files.
@@ -1815,7 +1881,8 @@ def write_levels(levels, by_word, corpus_examples):
                     "families": len(l["families"]),
                     "title": l["title"], "root": l["root"],
                     "root_gloss": l["root_gloss"],
-                    "part": l["part"], "parts": l["parts"]}
+                    "part": l["part"], "parts": l["parts"],
+                    **({"extended": True} if l.get("extended") else {})}
                    for l in level_objs],
     }
     affixes.set_index_patterns(course["levels"], patterns_at)
@@ -2049,9 +2116,12 @@ def main():
               % (rehomed, detached))
 
     print("assigning levels...", flush=True)
-    levels = assign_levels(cards, families, components=by_word_components(cards),
-                           opening=opening_levels.LEVELS)
-    print("  %d levels" % len(levels))
+    levels = schedule_course(cards, families,
+                             components=by_word_components(cards),
+                             opening=opening_levels.LEVELS)
+    n_main = sum(1 for l in levels if not l[7].get("extended"))
+    print("  %d levels: %d main course (rank <= %d), %d extended"
+          % (len(levels), n_main, MAIN_MAX_RANK, len(levels) - n_main))
 
     level_objs = write_levels(levels, by_word, corpus_examples)
 
@@ -2061,6 +2131,7 @@ def main():
         "families": len(families),
         "families_multi": len(multi),
         "levels": len(level_objs),
+        "main_levels": sum(1 for l in level_objs if not l.get("extended")),
         "words": sum(l["word_count"] for l in level_objs),
         "pos": dict(Counter(p for c in cards for p in [s["pos"] for s in c["senses"]])),
         "etymology_class": dict(Counter(str(c["etymology_class"]) for c in cards)),

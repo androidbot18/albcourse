@@ -67,6 +67,7 @@ def main():
     struct = []
     fam_parts = defaultdict(list)   # family -> [(part, parts, level)]
     opening_levels = set()          # curated levels (tools/opening_levels.py)
+    extended_seen = False
     last_part = {}   # family -> (last part seen, the level it was on)
     for i, fname in enumerate(files, 1):
         lvl = json.load(open(os.path.join(LEVELS_DIR, fname), encoding="utf-8"))
@@ -122,8 +123,18 @@ def main():
                           % (fname, sorted(bad_cont)))
         if lvl.get("opening"):
             opening_levels.add(i)
+        # The extended track follows the main course and never interleaves
+        # with it (build_course.schedule_course).
+        if lvl.get("extended"):
+            extended_seen = True
+        elif extended_seen:
+            struct.append("%s: a main-course level after the extended track"
+                          % fname)
+        # Each track schedules a family on its own, so its runs are checked
+        # per track: the extended track may bring a family back once more.
+        track = "extended" if lvl.get("extended") else "main"
         for w in lvl["words"]:
-            fam_parts.setdefault(w["family"], set()).add(
+            fam_parts.setdefault((w["family"], track), set()).add(
                 (lvl.get("part", 1), lvl.get("parts", 1), i,
                  bool(lvl.get("resumes"))
                  or w["family"] in (lvl.get("continues") or ())))
@@ -137,7 +148,9 @@ def main():
     # the course as a second run of levels, marked `resumes` on its first
     # level. Each run is checked on its own, and a family has at most two:
     # the head and the tail.
-    for f, seen in fam_parts.items():
+    for (f, track), seen in fam_parts.items():
+        if track == "extended":
+            f = "%s (extended)" % f
         runs = [[]]
         for x in sorted(seen, key=lambda x: x[2]):
             if x[3] and runs[-1]:

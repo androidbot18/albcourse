@@ -1,38 +1,42 @@
 {
  "level": 105,
- "title": "andaj",
- "root": "andaj",
- "root_gloss": "therefore, thus",
+ "title": "grua (continued)",
+ "root": "grua",
+ "root_gloss": "woman (mature female human)",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "andaj"
+  "grua"
  ],
  "pos_mix": {
-  "adv": 1,
-  "conj": 1
+  "noun": 2
  },
  "words": [
   {
-   "id": "andaj",
-   "sq": "andaj",
-   "en": "therefore, thus",
+   "id": "gruaja",
+   "sq": "gruaja",
+   "en": "the woman, singular (from grua)",
    "glosses": [
-    "therefore, thus"
+    "the woman, singular (from grua)"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "therefore, thus",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the woman, singular (from grua)",
+     "tags": [
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -54,17 +58,14 @@
       }
      ],
      "examples": [],
-     "links": [
-      "therefore",
-      "thus"
-     ]
+     "is_form_of": "grua"
     }
    ],
-   "rank": 3986,
-   "count": 195,
-   "family": "andaj",
-   "is_root": true,
-   "etymology": "From andej.",
+   "rank": 428,
+   "count": 2447,
+   "family": "grua",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -74,36 +75,42 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "So here it is.",
+    "corpus": "HPLT",
+    "en": "The wife is happy.",
     "score": [
-     1,
+     0,
      4,
-     -3,
-     4
+     -4,
+     10
     ],
-    "sq": "Andaj ja ku është."
+    "sq": "Gruaja është e lumtur."
    }
   },
   {
-   "id": "prandaj",
-   "sq": "prandaj",
-   "en": "therefore, thus",
+   "id": "gratë",
+   "sq": "gratë",
+   "en": "the woman, plural (from grua)",
    "glosses": [
-    "therefore, thus"
+    "the woman, plural (from grua)"
    ],
    "pos": [
-    "conj"
+    "noun"
    ],
    "pos_labels": [
-    "conjunction"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "therefore, thus",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the woman, plural (from grua)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -125,51 +132,36 @@
       }
      ],
      "examples": [],
-     "links": [
-      "therefore",
-      "thus"
-     ]
+     "is_form_of": "grua"
     }
    ],
-   "rank": 401,
-   "count": 2626,
-   "family": "andaj",
+   "rank": 1257,
+   "count": 718,
+   "family": "grua",
    "is_root": false,
-   "etymology": "From për + andaj.",
-   "etymology_class": "compound",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    },
-    {
-     "word": "andaj",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "andaj",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "So be very careful!",
+    "corpus": "MaCoCu",
+    "en": "Where are the women?",
     "score": [
      0,
-     4,
-     -4,
-     10
+     3,
+     -3,
+     8
     ],
-    "sq": "Prandaj ki shumë kujdes!"
-   },
-   "breakdown": "historical"
+    "sq": "Ku janë gratë?"
+   }
   }
+ ],
+ "continues": [
+  "grua"
  ]
 }

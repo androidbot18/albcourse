@@ -1,25 +1,156 @@
 {
  "level": 457,
- "title": "përjashtoj",
- "root": "përjashtoj",
- "root_gloss": "to exclude",
+ "title": "mirë (more)",
+ "root": "mirë",
+ "root_gloss": "good",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 3,
  "families": [
-  "përjashtoj"
+  "mirë"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 1
+  "noun": 2,
+  "verb": 2
  },
  "words": [
   {
-   "id": "përjashtoj",
-   "sq": "përjashtoj",
-   "en": "to exclude",
+   "id": "mirësi",
+   "sq": "mirësi",
+   "en": "goodness",
    "glosses": [
-    "to exclude"
+    "goodness",
+    "kindness"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "goodness",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësi",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "goodness"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "kindness",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësi",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "kindness"
+     ]
+    }
+   ],
+   "rank": 8432,
+   "count": 80,
+   "family": "mirë",
+   "is_root": false,
+   "etymology": "From mirë + -ësi.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "base",
+     "en": "good"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mirësi",
+     "tag": "plural"
+    },
+    {
+     "form": "mirësia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Thank you kindly.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Faleminderit me mirësi."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "përmirësoj",
+   "sq": "përmirësoj",
+   "en": "to improve",
+   "glosses": [
+    "to improve"
    ],
    "pos": [
     "verb"
@@ -31,7 +162,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to exclude",
+     "gloss": "to improve",
      "tags": [
       "transitive"
      ],
@@ -43,13 +174,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,61 +188,73 @@
      ],
      "examples": [],
      "links": [
-      "exclude"
+      "improve"
      ]
     }
    ],
-   "rank": 22077,
-   "count": 23,
-   "family": "përjashtoj",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 19135,
+   "count": 28,
+   "family": "mirë",
+   "is_root": false,
+   "etymology": "From për + mirë + soj.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "mirë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "përjashtuar",
+     "form": "përmirësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përmirësuar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The opposition does not have the luxury of excluding anyone.",
+    "corpus": "TED2020",
+    "en": "I'm trying to improve infrastructure.",
     "score": [
      3,
-     7,
-     -4,
-     10
+     5,
+     -2,
+     4
     ],
-    "sq": "Opozita nuk ka luksin të përjashtoj askënd."
-   }
+    "sq": "Po mundohem të përmirësoj infrastrukturën."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "përjashtim",
-   "sq": "përjashtim",
-   "en": "exception",
+   "id": "miratoj",
+   "sq": "miratoj",
+   "en": "to approve",
    "glosses": [
-    "exception"
+    "to approve"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "exception",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to approve",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -120,13 +263,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Albanian terms suffixed with -toj",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -134,47 +277,44 @@
      ],
      "examples": [],
      "links": [
-      "exception"
+      "approve"
      ]
     }
    ],
-   "rank": 5534,
-   "count": 133,
-   "family": "përjashtoj",
+   "rank": 35402,
+   "count": 11,
+   "family": "mirë",
    "is_root": false,
-   "etymology": "From përjashtoj + -im.",
+   "etymology": "From mirë (“good, well”) + -toj.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "përjashtoj",
-     "role": "base",
-     "en": "to exclude"
+     "word": "mirë",
+     "role": "base"
     },
     {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "word": "toj",
+     "role": "suffix"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No one, without exception.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Askush, pa përjashtim."
-   },
-   "breakdown": "transparent"
+   "forms": [
+    {
+     "form": "miratova",
+     "tag": "aorist"
+    },
+    {
+     "form": "miratuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

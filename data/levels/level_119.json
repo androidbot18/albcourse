@@ -1,39 +1,42 @@
 {
  "level": 119,
- "title": "shpirt",
- "root": "shpirt",
- "root_gloss": "soul, spirit",
+ "title": "për, intereson, zonjë",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "shpirt"
+  "intereson",
+  "për",
+  "zonjë"
  ],
  "pos_mix": {
-  "noun": 2,
-  "adj": 1
+  "prep": 1,
+  "verb": 2,
+  "noun": 3
  },
  "words": [
   {
-   "id": "shpirt",
-   "sq": "shpirt",
-   "en": "soul, spirit",
+   "id": "nëpër",
+   "sq": "nëpër",
+   "en": "among; through, throughout",
    "glosses": [
-    "soul, spirit"
+    "among; through, throughout"
    ],
    "pos": [
-    "noun"
+    "prep"
    ],
    "pos_labels": [
-    "noun"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "soul, spirit",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "among; through, throughout",
      "tags": [
-      "masculine"
+      "with-accusative"
      ],
      "cats": [
       {
@@ -43,7 +46,91 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "among",
+      "through",
+      "throughout"
+     ]
+    }
+   ],
+   "rank": 556,
+   "count": 1857,
+   "family": "për",
+   "is_root": false,
+   "etymology": "From në + për.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "në",
+     "role": "prefix"
+    },
+    {
+     "word": "për",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "I was chased across the city.",
+    "score": [
+     1,
+     3,
+     -2,
+     8
+    ],
+    "sq": "Ndiqesha nëpër qytet."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "intereson",
+   "sq": "intereson",
+   "en": "to attract attention",
+   "glosses": [
+    "to attract attention"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to attract attention",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -57,65 +144,72 @@
      ],
      "examples": [],
      "links": [
-      "soul",
-      "spirit"
+      "attention"
      ]
     }
    ],
-   "rank": 497,
-   "count": 2116,
-   "family": "shpirt",
+   "rank": 557,
+   "count": 1853,
+   "family": "intereson",
    "is_root": true,
-   "etymology": "Borrowed from Latin spiritus.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shpyrt",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Adam was a soul.",
+    "corpus": "QED",
+    "en": "The gun that was used to commit the murder.",
     "score": [
      0,
-     4,
-     -4,
-     8
+     3,
+     -3,
+     5
     ],
-    "sq": "Ai ishte një shpirt."
+    "sq": "Kjo me intereson."
    }
   },
   {
-   "id": "shpirtkeq",
-   "sq": "shpirtkeq",
-   "en": "evil, wicked person",
+   "id": "zonjë",
+   "sq": "zonjë",
+   "en": "lady in a wealthy family with servants",
    "glosses": [
-    "evil, wicked person",
-    "evil, wicked"
+    "lady in a wealthy family with servants",
+    "Mrs., ma'am"
    ],
    "pos": [
     "noun",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
     "noun",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "evil, wicked person",
+     "gloss": "lady in a wealthy family with servants",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lady"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Mrs., ma'am",
      "tags": [
       "feminine",
-      "masculine"
+      "term-of-address"
      ],
      "cats": [
       {
@@ -123,72 +217,225 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "evil",
-      "wicked"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "evil, wicked",
-     "tags": [],
-     "cats": [
+       "_dis": "10 90"
+      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "7 93"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "5 95"
       }
      ],
      "examples": [],
      "links": [
-      "evil",
-      "wicked"
+      "Mrs.",
+      "ma'am"
      ]
     }
    ],
-   "rank": 49152,
-   "count": 7,
-   "family": "shpirt",
+   "rank": 559,
+   "count": 1848,
+   "family": "zonjë",
+   "is_root": true,
+   "etymology": "From *džotnja, from Proto-Albanian *dzwāptnjā, from earlier *w(i)tspátnjā, from Proto-Indo-European *wiḱ-pót-nih₂ (“clan matriarch”), from *wiḱpótis (compare Lithuanian viešpatni (“lady”)), compound of *weyḱ- (“clan, kindred”) (compare Ancient Greek οἰκία (oikía, “house (clan)”), Avestan 𐬬𐬌𐬚 (viθ, “royal court”)) and *pótnih₂ (compare Ancient Greek πότνια (pótnia)), feminine of *pótis (“master”). More at zot.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "lady",
+    "master"
+   ],
+   "components": [],
+   "derived": [
+    "zonjë e bukur",
+    "zonjë e bekuar",
+    "zonjë e mirë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "zonja",
+     "tag": "plural"
+    },
+    {
+     "form": "zoj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Who is this lady?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Kush është kjo zonjë?"
+   }
+  },
+  {
+   "id": "përdorur",
+   "sq": "përdorur",
+   "en": "use, past form (from përdor, to use)",
+   "glosses": [
+    "use, past form (from përdor, to use)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "use, past form (from përdor, to use)",
+     "tags": [
+      "form-of",
+      "participle"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "përdor"
+    }
+   ],
+   "rank": 1040,
+   "count": 905,
+   "family": "për",
    "is_root": false,
-   "etymology": "From shpirt (“soul, spirit”) + keq (“evil, wicked”).",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Which ones are used?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Cilat janë përdorur?"
+   }
+  },
+  {
+   "id": "përgjigje",
+   "sq": "përgjigje",
+   "en": "answer",
+   "glosses": [
+    "answer"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "answer",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "answer"
+     ]
+    }
+   ],
+   "rank": 1190,
+   "count": 774,
+   "family": "për",
+   "is_root": false,
+   "etymology": "A compound formation with për-; për- + gjegje.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "shpirt",
+     "word": "për",
      "role": "prefix"
-    },
-    {
-     "word": "keq",
-     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shpirtkeqe",
-     "tag": "feminine"
+     "form": "gjegj",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": null,
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Unanswered questions!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pyetje pa përgjigje!"
+   },
    "breakdown": "historical"
   }
+ ],
+ "continues": [
+  "për"
  ]
 }

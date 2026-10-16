@@ -1,30 +1,30 @@
 {
  "level": 497,
- "title": "rajon, batanije, grackë +3",
+ "title": "arkitekt, vallëzoj, imagjinatë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "batanije",
-  "grackë",
-  "rajon",
-  "rrip",
-  "shurdhër",
-  "zgjua"
+  "arkitekt",
+  "has",
+  "imagjinatë",
+  "kandidat",
+  "vallëzoj",
+  "çekiç"
  ],
  "pos_mix": {
-  "noun": 6,
-  "adj": 3
+  "noun": 7,
+  "verb": 3
  },
  "words": [
   {
-   "id": "rajon",
-   "sq": "rajon",
-   "en": "region",
+   "id": "arkitekt",
+   "sq": "arkitekt",
+   "en": "architect (a designer of buildings)",
    "glosses": [
-    "region"
+    "architect (a designer of buildings)"
    ],
    "pos": [
     "noun"
@@ -36,7 +36,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "region",
+     "gloss": "architect (a designer of buildings)",
      "tags": [
       "masculine"
      ],
@@ -62,15 +62,76 @@
      ],
      "examples": [],
      "links": [
-      "region"
+      "architect"
      ]
     }
    ],
-   "rank": 7280,
-   "count": 96,
-   "family": "rajon",
+   "rank": 10783,
+   "count": 59,
+   "family": "arkitekt",
    "is_root": true,
-   "etymology": "Borrowed from Latin regiō, regiōnem. Cf. Italian regione, Venetan rejon.",
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "vallëzoj",
+   "sq": "vallëzoj",
+   "en": "to dance, especially in ballroom style",
+   "glosses": [
+    "to dance, especially in ballroom style"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to dance, especially in ballroom style",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dance",
+      "ballroom"
+     ]
+    }
+   ],
+   "rank": 10785,
+   "count": 59,
+   "family": "vallëzoj",
+   "is_root": true,
+   "etymology": "Borrowed from Byzantine Greek βαλλίζω (ballízō, “to dance”).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -80,32 +141,22 @@
    "related": [],
    "forms": [
     {
-     "form": "rajone",
-     "tag": "plural"
+     "form": "vallëzova",
+     "tag": "aorist"
     },
     {
-     "form": "rajoni",
-     "tag": "definite"
+     "form": "vallëzuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "in the region!",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "të mëdha në rajon."
-   }
+   "corpus_example": null
   },
   {
-   "id": "batanije",
-   "sq": "batanije",
-   "en": "fluffy blanket (cotton or thin wool)",
+   "id": "imagjinatë",
+   "sq": "imagjinatë",
+   "en": "imagination",
    "glosses": [
-    "fluffy blanket (cotton or thin wool)"
+    "imagination"
    ],
    "pos": [
     "noun"
@@ -117,7 +168,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fluffy blanket (cotton or thin wool)",
+     "gloss": "imagination",
      "tags": [
       "feminine"
      ],
@@ -141,109 +192,17 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "Hodhi mbi krahë një batanije dhe tasin ia vuri përpara këlyshit .",
-       "en": "",
-       "offsets": [
-        [
-         20,
-         28
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "blanket"
-     ]
-    }
-   ],
-   "rank": 7313,
-   "count": 95,
-   "family": "batanije",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بطانیه (battaniye, “blanket”), itself from Arabic بَطَّانِيَّة (baṭṭāniyya, “blanket”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "blanket"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "batanije",
-     "tag": "plural"
-    },
-    {
-     "form": "batanija",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "in bed under the blanket.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "në krevat, nën batanije."
-   }
-  },
-  {
-   "id": "grackë",
-   "sq": "grackë",
-   "en": "trap",
-   "glosses": [
-    "trap"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "trap",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
      "examples": [],
      "links": [
-      "trap"
+      "imagination"
      ]
     }
    ],
-   "rank": 7317,
-   "count": 95,
-   "family": "grackë",
+   "rank": 10794,
+   "count": 59,
+   "family": "imagjinatë",
    "is_root": true,
-   "etymology": "From ngrac, dialectal form of ngec (“to get stuck”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -251,321 +210,346 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This can be a trap.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Kjo mund të jetë një grackë."
-   }
-  },
-  {
-   "id": "rrip",
-   "sq": "rrip",
-   "en": "belt",
-   "glosses": [
-    "belt"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "belt",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "belt"
-     ]
-    }
-   ],
-   "rank": 7350,
-   "count": 95,
-   "family": "rrip",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *wrīpa. Compare Ancient Greek ῥάπτω (rháptō, “to sew together, to stitch”), Lithuanian verpti (“to spin”). Alternatively from Proto-Albanian *reipa, to be connected with Proto-Germanic *raipaz (“rope”), in Old High German reif (“rope, cord”), Middle Low German rēp (“sling, rope”), Old Norse reipa (“to fasten with a rope”), and ultimately from Proto-Indo-European *roypnós. Also ultimately a doublet of repë through this theory.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
    "forms": [
     {
-     "form": "rripa",
-     "tag": "plural"
-    },
-    {
-     "form": "rripi",
-     "tag": "definite"
-    },
-    {
-     "form": "rryp",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "to the other access on belt.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "te aksesi tjetër në rrip."
-   }
-  },
-  {
-   "id": "zgjua",
-   "sq": "zgjua",
-   "en": "beehive (box where bees live)",
-   "glosses": [
-    "beehive (box where bees live)",
-    "all the bees that live in such box"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "beehive (box where bees live)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "58 42"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "beehive"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "all the bees that live in such box",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms prefixed with z-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "43 57"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 59"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "35 65"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bee"
-     ]
-    }
-   ],
-   "rank": 7365,
-   "count": 95,
-   "family": "zgjua",
-   "is_root": true,
-   "etymology": "Possibly from Latin iānua (“door, entrance”), prefixed with z-. Alternatively related to gëloj (“to burst out”). Çabej analyses a possible older form of Proto-Albanian *glon-.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "zgjoje",
-     "tag": "plural"
-    },
-    {
-     "form": "zgjoi",
+     "form": "imagjinata",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "And he sat up.",
+    "corpus": "HPLT",
+    "en": "Not just in the imagination.",
     "score": [
      0,
      4,
      -4,
-     4
+     10
     ],
-    "sq": "Dhe ai u zgjua."
+    "sq": "Jo vetëm në imagjinatë."
    }
   },
   {
-   "id": "shurdhër",
-   "sq": "shurdhër",
-   "en": "deaf",
+   "id": "kandidat",
+   "sq": "kandidat",
+   "en": "candidate",
    "glosses": [
-    "deaf",
-    "indifferent",
-    "muffled"
+    "candidate"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "deaf",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "candidate",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 8 41"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 8 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 0 43"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 0 19"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "deaf"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "indifferent",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "indifferent"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "muffled",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "muffled"
+      "candidate"
      ]
     }
    ],
-   "rank": 7378,
-   "count": 94,
-   "family": "shurdhër",
+   "rank": 10810,
+   "count": 59,
+   "family": "kandidat",
    "is_root": true,
-   "etymology": "From Latin surdus with the native -ër/-ën suffix.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin surdus",
+   "etymology": "Learned borrowing from Latin candidatus.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "shurdhët",
-     "tag": "alternative"
+     "form": "kandidatë",
+     "tag": "plural"
     },
     {
-     "form": "shurdhën",
-     "tag": "alternative"
+     "form": "kandidati",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Everyone is deaf.",
+    "en": "I will be a candidate.",
     "score": [
      0,
      5,
      -5,
      10
     ],
-    "sq": "Të gjithë janë të shurdhër."
+    "sq": "Unë do të jem kandidat."
    }
+  },
+  {
+   "id": "çekiç",
+   "sq": "çekiç",
+   "en": "mallet, spalling mallet",
+   "glosses": [
+    "mallet, spalling mallet",
+    "machine hammer",
+    "malleus, hammer bone",
+    "object thrown in a hammer throw"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mallet, spalling mallet",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mallet"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "machine hammer",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "technical"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "malleus, hammer bone",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "malleus"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "object thrown in a hammer throw",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Sports",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Sports",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 28 7 49"
+      },
+      {
+       "name": "Pages with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 14 6 46 18 2 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sports",
+      "hammer throw"
+     ]
+    }
+   ],
+   "rank": 10814,
+   "count": 59,
+   "family": "çekiç",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish چكیچ (çekiç).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "çekiçë",
+     "tag": "plural"
+    },
+    {
+     "form": "çekiçi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What is a Hammer Mill Machine?",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Çfarë është një makinë mulliri me çekiç?"
+   }
+  },
+  {
+   "id": "has",
+   "sq": "has",
+   "en": "to (accidentally) meet, encounter, face, come across",
+   "glosses": [
+    "to (accidentally) meet, encounter, face, come across",
+    "to walk/run into; to fall in with"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to (accidentally) meet, encounter, face, come across",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "has vuajtje",
+       "en": "I experience hardship",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "accidentally",
+      "meet",
+      "encounter"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to walk/run into; to fall in with",
+     "tags": [
+      "figuratively",
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 76"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "walk",
+      "run into",
+      "fall in with"
+     ]
+    }
+   ],
+   "rank": 10818,
+   "count": 59,
+   "family": "has",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "hasur",
+    "hasem",
+    "hasje",
+    "hasja"
+   ],
+   "forms": [
+    {
+     "form": "hasa",
+     "tag": "aorist"
+    },
+    {
+     "form": "hasur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
- ]
+ ],
+ "extended": true
 }

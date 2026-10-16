@@ -1,41 +1,45 @@
 {
  "level": 237,
- "title": "tretë, imi, zhduk",
+ "title": "dyshoj, shans, marrtë +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "imi",
-  "tretë",
-  "zhduk"
+  "dyshoj",
+  "marrtë",
+  "planet",
+  "provoj",
+  "shans"
  ],
  "pos_mix": {
-  "adj": 1,
-  "pron": 1,
-  "verb": 2
+  "noun": 3,
+  "adj": 4,
+  "verb": 3
  },
  "words": [
   {
-   "id": "tretë",
-   "sq": "tretë",
-   "en": "third",
+   "id": "dyshim",
+   "sq": "dyshim",
+   "en": "suspicion, doubt",
    "glosses": [
-    "third"
+    "suspicion, doubt"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "third",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "suspicion, doubt",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -44,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian ordinal numbers",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,138 +62,78 @@
      ],
      "examples": [],
      "links": [
-      "third"
+      "suspicion",
+      "doubt"
      ]
     }
    ],
-   "rank": 1150,
-   "count": 812,
-   "family": "tretë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 1466,
+   "count": 605,
+   "family": "dyshoj",
+   "is_root": false,
+   "etymology": "From dyshoj (“to doubt”) + -im. For sense development, compare Latin dubitō, from duo + habeō.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "dyshoj",
+     "role": "base",
+     "en": "to doubt"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "dyshime",
+     "tag": "plural"
+    },
+    {
+     "form": "dyshimi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A third way.",
+    "en": "I have a doubt.",
     "score": [
      0,
-     4,
-     -4,
+     3,
+     -3,
      10
     ],
-    "sq": "Një mënyrë e tretë."
-   }
+    "sq": "Kam një dyshim."
+   },
+   "breakdown": "transparent"
   },
   {
-   "id": "imi",
-   "sq": "imi",
-   "en": "mine",
+   "id": "shans",
+   "sq": "shans",
+   "en": "chance",
    "glosses": [
-    "mine"
+    "chance"
    ],
    "pos": [
-    "pron"
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "mine",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian links with redundant alt parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian links with redundant wikilinks",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Ky libër është imi.",
-       "en": "This book is mine.",
-       "offsets": [
-        [
-         15,
-         18
-        ]
-       ]
-      },
-      {
-       "sq": "Këta libra janë të mitë.",
-       "en": "These books are mine.",
-       "offsets": [
-        [
-         16,
-         23
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "mine"
-     ]
-    }
-   ],
-   "rank": 1157,
-   "count": 799,
-   "family": "imi",
-   "is_root": true,
-   "etymology": "Variant of im.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "zhdukur",
-   "sq": "zhdukur",
-   "en": "disappear, past form (from zhduk, to disappear)",
-   "glosses": [
-    "disappear, past form (from zhduk, to disappear)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "disappear, past form (from zhduk, to disappear)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "chance",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "masculine"
      ],
      "cats": [
       {
@@ -212,13 +156,345 @@
       }
      ],
      "examples": [],
-     "is_form_of": "zhduk"
+     "links": [
+      "chance"
+     ]
     }
    ],
-   "rank": 1162,
-   "count": 799,
-   "family": "zhduk",
-   "is_root": false,
+   "rank": 1467,
+   "count": 603,
+   "family": "shans",
+   "is_root": true,
+   "etymology": "Borrowed from French chance.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shanse",
+     "tag": "plural"
+    },
+    {
+     "form": "shansi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "This is an opportunity.",
+    "score": [
+     0,
+     4,
+     -4,
+     4
+    ],
+    "sq": "Kjo është një shans."
+   }
+  },
+  {
+   "id": "marrtë",
+   "sq": "marrtë",
+   "en": "twilight, dim; weak (light)",
+   "glosses": [
+    "twilight, dim; weak (light)",
+    "blurred, dizzy (vision)",
+    "opaque, turbid, muddy (glass)",
+    "leprous"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "twilight, dim; weak (light)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 13 35 3 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 24 22 0 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "twilight",
+      "dim",
+      "weak"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "blurred, dizzy (vision)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 13 35 3 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 24 22 0 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "blurred",
+      "dizzy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "opaque, turbid, muddy (glass)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 13 35 3 29"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 24 22 0 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "opaque",
+      "turbid",
+      "muddy"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "leprous",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leprous"
+     ]
+    }
+   ],
+   "rank": 1471,
+   "count": 602,
+   "family": "marrtë",
+   "is_root": true,
+   "etymology": "Cognate to Albanian marrë; both from Proto-Albanian *marsa (from Proto-Indo-European *mergʷ- (“to flicker; to darken; to be dark”); Proto-Indo-European *h₂mergʷ- (“dark”)).\nCognate to Proto-Slavic *morkъ (“darkness”), *morxъ (“dusk, fog”), Proto-Slavic *mergъ (“brown”), Proto-Germanic *merkuz (“dark”), Ancient Greek ἀμορβός (amorbós, “dark”), Lithuanian márgas (“colorful”).\nAlso related to Albanian murg (“dark”), murgët (also derived from Proto-Indo-European *mergʷ- (“to flicker; to darken; to be dark”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "dark"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "marrë",
+    "marrëzi"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Damn it.",
+    "score": [
+     1,
+     3,
+     -2,
+     5
+    ],
+    "sq": "E marrtë djalli!"
+   }
+  },
+  {
+   "id": "provoj",
+   "sq": "provoj",
+   "en": "to try; to try out; to try on",
+   "glosses": [
+    "to try; to try out; to try on",
+    "to prove (through testing); to test, to put to the test"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to try; to try out; to try on",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po provoj të interesohem për problemet e tu, por sapo e kujtova që të urrej.",
+       "en": "I'm trying to take interest in your problems, but I just remembered that I hate you.",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "try",
+      "try out",
+      "try on"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to prove (through testing); to test, to put to the test",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 82"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 87"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "prove",
+      "test",
+      "put to the test"
+     ]
+    }
+   ],
+   "rank": 1477,
+   "count": 600,
+   "family": "provoj",
+   "is_root": true,
+   "etymology": "Borrowed from Italian provare. Compare Serbo-Croatian probati (“id.”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "provova",
+     "tag": "aorist"
+    },
+    {
+     "form": "provuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "planet",
+   "sq": "planet",
+   "en": "planet",
+   "glosses": [
+    "planet"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "planet",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 16 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "planet"
+     ]
+    }
+   ],
+   "rank": 1491,
+   "count": 594,
+   "family": "planet",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -227,25 +503,34 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "planete",
+     "tag": "plural"
+    },
+    {
+     "form": "planeti",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Everything was gone.",
+    "en": "planet is in danger.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Çdo gjë ishte zhdukur."
+    "sq": "planet është në rrezik."
    }
   },
   {
-   "id": "zhduk",
-   "sq": "zhduk",
-   "en": "to disappear, to hide",
+   "id": "dyshoj",
+   "sq": "dyshoj",
+   "en": "to doubt, suspect",
    "glosses": [
-    "to disappear, to hide"
+    "to doubt, suspect"
    ],
    "pos": [
     "verb"
@@ -257,9 +542,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to disappear, to hide",
+     "gloss": "to doubt, suspect",
      "tags": [
-      "transitive"
+      "intransitive"
      ],
      "cats": [
       {
@@ -269,13 +554,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with zh-",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -283,56 +568,40 @@
      ],
      "examples": [],
      "links": [
-      "disappear",
-      "hide"
+      "doubt",
+      "suspect"
      ]
     }
    ],
-   "rank": 2039,
-   "count": 426,
-   "family": "zhduk",
+   "rank": 2670,
+   "count": 308,
+   "family": "dyshoj",
    "is_root": true,
-   "etymology": "From zh- + duk.",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "zh",
-     "role": "prefix",
-     "affix": "zh",
-     "meaning": "undo"
-    },
-    {
-     "word": "duk",
-     "role": "stem"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "zhduka",
-     "tag": "aorist"
-    },
-    {
-     "form": "zhdukur",
+     "form": "dyshuar",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "She disappeared.",
+    "corpus": "HPLT",
+    "en": "I doubt that.",
     "score": [
      0,
      3,
      -3,
-     0
+     10
     ],
-    "sq": "Ajo u zhduk."
-   },
-   "breakdown": "historical"
+    "sq": "Dyshoj në këtë."
+   }
   }
  ]
 }

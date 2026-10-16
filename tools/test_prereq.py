@@ -108,8 +108,8 @@ def main():
     # derivations are no longer buried among six strangers. Sessions still
     # pack to 9 words where a family allows it.
     # 810 since the days of the week (RECOMMENDATIONS.md section 3.2) took
-    # the course to 801. Whether the course needs this many levels at all is
-    # section 3.6: a rank cap of 5,000 reaches the same 80% goal in 340.
+    # the course to 801. This bounds the whole course, extended track
+    # included; tools/test_scope.py bounds the main course (section 3.6).
     CEILING = 810
     print("5. level count %d within ceiling %d: %s"
           % (nlev, CEILING, "OK" if nlev <= CEILING else "FAIL"))

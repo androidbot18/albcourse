@@ -1,67 +1,86 @@
 {
  "level": 260,
- "title": "kam (rarer words)",
- "root": "kam",
- "root_gloss": "to have",
+ "title": "gojë, dyqan, gjuhë +2",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "kam"
+  "dyqan",
+  "gjuhë",
+  "gojë",
+  "listë",
+  "ngjyrë"
  ],
  "pos_mix": {
-  "verb": 3,
-  "noun": 2
+  "noun": 10
  },
  "words": [
   {
-   "id": "patur",
-   "sq": "patur",
-   "en": "have, past form (from kam, to have)",
+   "id": "gojë",
+   "sq": "gojë",
+   "en": "mouth",
    "glosses": [
-    "have, past form (from kam, to have)"
+    "mouth"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "have, past form (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mouth",
      "tags": [
-      "form-of",
-      "participle"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "47 53"
+       "source": "w"
       }
      ],
-     "examples": [],
-     "is_form_of": "kam"
+     "examples": [
+      {
+       "sq": "Dramburi te clofto goglie!",
+       "en": "May your mouth tremble!",
+       "offsets": [
+        [
+         19,
+         25
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mouth"
+     ]
     }
    ],
-   "rank": 1304,
-   "count": 688,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "Alternative variant of participle pasur. Compound of pat + -ur (Tosk participle suffix). See pata (“I had”) (aorist form of kam (“I have”)) for more.",
-   "etymology_class": null,
+   "rank": 1838,
+   "count": 471,
+   "family": "gojë",
+   "is_root": true,
+   "etymology": "From variant golë, borrowed from Italian gola.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -70,57 +89,154 @@
    "related": [],
    "forms": [
     {
-     "form": "pasur",
+     "form": "gojë",
+     "tag": "plural"
+    },
+    {
+     "form": "goja",
+     "tag": "definite"
+    },
+    {
+     "form": "golë",
      "tag": "alternative"
     },
     {
-     "form": "pat",
+     "form": "goljë",
      "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "dyqan",
+   "sq": "dyqan",
+   "en": "shop, store",
+   "glosses": [
+    "shop, store",
+    "workshop, shop"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "shop, store",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "shop",
+      "store"
+     ]
     },
     {
-     "form": "pas",
-     "tag": "alternative"
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "workshop, shop",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 85"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 90"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "workshop",
+      "shop"
+     ]
+    }
+   ],
+   "rank": 1842,
+   "count": 470,
+   "family": "dyqan",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish دكان (dükkân).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "autodyqan",
+    "dyqan-shtëpi",
+    "dyqanxhi"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "dyqane",
+     "tag": "plural"
     },
     {
-     "form": "pasë",
+     "form": "duqan",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "I had great teachers.",
+    "corpus": "HPLT",
+    "en": "words in the store.",
     "score": [
-     2,
-     5,
+     0,
+     3,
      -3,
-     4
+     10
     ],
-    "sq": "kam patur mësues të shkëlqyer."
+    "sq": "fjalët në dyqan."
    }
   },
   {
-   "id": "paske",
-   "sq": "paske",
-   "en": "you (sg) have (from kam, to have)",
+   "id": "gjuhën",
+   "sq": "gjuhën",
+   "en": "the tongue, singular (from gjuhë)",
    "glosses": [
-    "you (sg) have (from kam, to have)"
+    "the tongue, singular (from gjuhë)"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) have (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the tongue, singular (from gjuhë)",
      "tags": [
-      "admirative",
+      "accusative",
+      "definite",
+      "feminine",
       "form-of",
-      "present",
-      "second-person",
       "singular"
      ],
      "cats": [
@@ -131,7 +247,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -144,12 +260,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "is_form_of": "gjuhë"
     }
    ],
-   "rank": 1493,
-   "count": 594,
-   "family": "kam",
+   "rank": 1844,
+   "count": 470,
+   "family": "gjuhë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -162,40 +278,175 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "That is, you were a prisoner!",
+    "en": "Sorry for the language too.",
     "score": [
-     1,
+     0,
      5,
-     -4,
+     -5,
      10
     ],
-    "sq": "E paske të burgosur domethënë!"
+    "sq": "Më fal edhe për gjuhën."
    }
   },
   {
-   "id": "pata",
-   "sq": "pata",
-   "en": "I (once did) had (from kam, to have)",
+   "id": "ngjyrë",
+   "sq": "ngjyrë",
+   "en": "color",
    "glosses": [
-    "I (once did) had (from kam, to have)"
+    "color",
+    "coloring liquid, e.g. dye, paint, ink",
+    "complexion"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (once did) had (from kam, to have)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "color",
      "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "indicative",
-      "singular"
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 40 49"
+      },
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Colors",
+       "langcode": "sq",
+       "_dis": "61 14 25"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "color"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coloring liquid, e.g. dye, paint, ink",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 40 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dye",
+      "paint",
+      "ink"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "complexion",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 40 49"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 30 57"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 15 78"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "complexion"
+     ]
+    }
+   ],
+   "rank": 1855,
+   "count": 465,
+   "family": "ngjyrë",
+   "is_root": true,
+   "etymology": "Deverbative based on ngjyer, past participle of ngjyej (“to color, dye”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ngjyra",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "For colored hair.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Për flokët me ngjyrë."
+   }
+  },
+  {
+   "id": "listë",
+   "sq": "listë",
+   "en": "list",
+   "glosses": [
+    "list"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "list",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -205,7 +456,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 32 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -218,15 +469,17 @@
       }
      ],
      "examples": [],
-     "is_form_of": "kam"
+     "links": [
+      "list"
+     ]
     }
    ],
-   "rank": 1573,
-   "count": 556,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "From Proto-Albanian *pat(i)-, derivative of Proto-Indo-European *pótis (“owner, master, host, husband”). Cognate to Latin potis (“able, capable”), Ancient Greek πόσις (pósis), Sanskrit पति (páti). A suppletive verb, which occurs in the participle and the aorist, as well as in the tenses and moods derived from these stems.",
-   "etymology_class": "inherited",
+   "rank": 1856,
+   "count": 465,
+   "family": "listë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -235,24 +488,24 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "I didn't have children.",
+    "corpus": "HPLT",
+    "en": "Have A List?",
     "score": [
-     1,
+     0,
      3,
-     -2,
-     8
+     -3,
+     10
     ],
-    "sq": "Nuk pata fëmijë."
+    "sq": "Kanë një listë?"
    }
   },
   {
-   "id": "pasuri",
-   "sq": "pasuri",
-   "en": "wealth",
+   "id": "gjuhë",
+   "sq": "gjuhë",
+   "en": "tongue (organ)",
    "glosses": [
-    "wealth",
-    "fortune"
+    "tongue (organ)",
+    "language, tongue"
    ],
    "pos": [
     "noun",
@@ -266,92 +519,135 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "wealth",
-     "tags": [],
-     "cats": [],
-     "examples": [],
+     "gloss": "tongue (organ)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Body parts",
+       "kind": "other",
+       "parents": [
+        "Anatomy"
+       ],
+       "source": "w",
+       "orig": "sq:Body parts",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjuhë lope e zier",
+       "en": "boiled beef tongue",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Dogji gjuhën.",
+       "en": "Burned its tongue.",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
      "links": [
-      "wealth"
+      "tongue"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fortune",
-     "tags": [],
+     "gloss": "language, tongue",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 68"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 78"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 78"
+       "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "gjuha shqipe",
+       "en": "the Albanian language",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
      "links": [
-      "fortune"
+      "language",
+      "tongue"
      ]
     }
    ],
-   "rank": 3302,
-   "count": 243,
-   "family": "kam",
-   "is_root": false,
-   "etymology": "From pasur (participle) + -i (noun suffix); pasur from pasë.\nCognate to Gheg Albanian pasoni (“wealth, fortune”).",
-   "etymology_class": null,
+   "rank": 2674,
+   "count": 308,
+   "family": "gjuhë",
+   "is_root": true,
+   "etymology": "Unclear. From Old Albanian gluhë, most likely from earlier *glu.a, with sporadic loss of intervocalic b (see pi, det, and dra) and insertion of a hiatus-filling h (see bahe, kohë, and pah), from Proto-Albanian *glubā (“tip”), from Proto-Indo-European *ǵlubʰeh₂- (“point”), albeit with no adduced cognates. Alternatively, from a Proto-Albanian *glusā, from Proto-Indo-European *gl̥H-so-s, a zero-grade variant of *golH-so-s, from *gelH- (“to call”); compare Proto-Balto-Slavic *galsás (“voice”).\nA loan from Ancient Greek γλῶσσα (glôssa) is improbable from a semantic and phonetic standpoint, as Ancient Greek loans involved terms of trade and agriculture, not body parts, and would have given **gluśa in Proto-Albanian.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
+   "components": [],
+   "derived": [
+    "dygjuhësi",
+    "dygjuhësh",
+    "gjuhcë",
+    "gjuhësi",
+    "gjuhësisht",
+    "gjuhësor",
+    "gjuhëtar",
+    "gjuhëz"
+   ],
+   "related": [],
+   "forms": [
     {
-     "word": "pasur",
-     "role": "base"
+     "form": "gjuhë",
+     "tag": "plural"
     },
     {
-     "word": "i",
-     "role": "suffix"
+     "form": "gjuha",
+     "tag": "definite"
+    },
+    {
+     "form": "gju",
+     "tag": "alternative"
+    },
+    {
+     "form": "gëluhë",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjufë",
+     "tag": "alternative"
+    },
+    {
+     "form": "glufë",
+     "tag": "alternative"
     }
    ],
-   "derived": [
-    "pasuria",
-    "pasurtë"
-   ],
-   "related": [
-    "pasuroj",
-    "pasurohem",
-    "pasuruar",
-    "pasur",
-    "patur"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Heritage is wealth.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Trashëgimia është pasuri."
-   },
-   "breakdown": "historical"
+   "corpus_example": null
   }
- ],
- "resumes": true
+ ]
 }

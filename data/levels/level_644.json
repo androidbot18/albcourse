@@ -1,31 +1,32 @@
 {
  "level": 644,
- "title": "fizikë, pshurr, asistente +3",
+ "title": "lëndoj (more), vyer, projektligj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "asistente",
-  "end",
-  "fizikë",
-  "pshurr",
-  "qaraman",
-  "realizoj"
+  "fell",
+  "lëndoj",
+  "njihem",
+  "projektligj",
+  "vyer",
+  "zhyt"
  ],
  "pos_mix": {
-  "noun": 4,
-  "verb": 5,
-  "adj": 3
+  "noun": 2,
+  "adj": 1,
+  "verb": 3,
+  "adv": 1
  },
  "words": [
   {
-   "id": "fizikë",
-   "sq": "fizikë",
-   "en": "physics",
+   "id": "lëndim",
+   "sq": "lëndim",
+   "en": "wound, injury",
    "glosses": [
-    "physics"
+    "wound, injury"
    ],
    "pos": [
     "noun"
@@ -37,9 +38,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "physics",
+     "gloss": "wound, injury",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -49,13 +50,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -63,60 +64,155 @@
      ],
      "examples": [],
      "links": [
-      "physics"
+      "wound",
+      "injury"
      ]
     }
    ],
-   "rank": 19580,
-   "count": 27,
-   "family": "fizikë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 25201,
+   "count": 19,
+   "family": "lëndoj",
+   "is_root": false,
+   "etymology": "Gerund of lëndoj; lëndoj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "lëndoj",
+     "role": "base",
+     "en": "to hurt"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "fizika",
+     "form": "lëndime",
+     "tag": "plural"
+    },
+    {
+     "form": "lëndimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "physics strategy game.",
+    "en": "It's not an injury.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "fizikë lojë strategji."
-   }
+    "sq": "Nuk është lëndim."
+   },
+   "breakdown": "transparent"
   },
   {
-   "id": "pshurr",
-   "sq": "pshurr",
-   "en": "to piss, to pee",
+   "id": "vyer",
+   "sq": "vyer",
+   "en": "precious, valued, worthy",
    "glosses": [
-    "to piss, to pee"
+    "precious, valued, worthy"
    ],
    "pos": [
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to piss, to pee",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "precious, valued, worthy",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "precious",
+      "valued",
+      "worthy"
+     ]
+    }
+   ],
+   "rank": 25202,
+   "count": 19,
+   "family": "vyer",
+   "is_root": true,
+   "etymology": "From vyej.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vyere",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My relationship with Jehovah is most precious to me.",
+    "score": [
+     2,
+     9,
+     -7,
+     10
+    ],
+    "sq": "Marrëdhënia me Jehovain është shumë e vyer për mua."
+   }
+  },
+  {
+   "id": "projektligj",
+   "sq": "projektligj",
+   "en": "draft law",
+   "glosses": [
+    "draft law"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "draft law",
      "tags": [
-      "slang"
+      "masculine"
      ],
      "cats": [
       {
@@ -140,95 +236,14 @@
      ],
      "examples": [],
      "links": [
-      "piss",
-      "pee"
+      "draft",
+      "law"
      ]
     }
    ],
-   "rank": 19615,
-   "count": 27,
-   "family": "pshurr",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "pshurra",
-     "tag": "aorist"
-    },
-    {
-     "form": "pshurrur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Pants full of shit and piss.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Pantallona plot mut dhe pshurr."
-   }
-  },
-  {
-   "id": "asistente",
-   "sq": "asistente",
-   "en": "assistant",
-   "glosses": [
-    "assistant"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "assistant",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "assistant"
-     ]
-    }
-   ],
-   "rank": 19616,
-   "count": 27,
-   "family": "asistente",
+   "rank": 25231,
+   "count": 19,
+   "family": "projektligj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -240,23 +255,135 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "I meant, as their assistant?",
+    "corpus": "HPLT",
+    "en": "But how many pensioners benefit from this bill?",
     "score": [
-     0,
-     4,
-     -4,
-     5
+     2,
+     7,
+     -5,
+     10
     ],
-    "sq": "Dua te them, asistente?"
+    "sq": "Por sa pensionistë përfitojnë nga ky projektligj?"
    }
   },
   {
-   "id": "realizoj",
-   "sq": "realizoj",
-   "en": "to achieve, fulfill",
+   "id": "zhyt",
+   "sq": "zhyt",
+   "en": "to immerse, dunk, sink, to dip",
    "glosses": [
-    "to achieve, fulfill"
+    "to immerse, dunk, sink, to dip",
+    "to put someone into a difficult situation"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to immerse, dunk, sink, to dip",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "66 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "immerse",
+      "dunk",
+      "sink"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to put someone into a difficult situation",
+     "tags": [
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 72"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "put",
+      "difficult",
+      "situation"
+     ]
+    }
+   ],
+   "rank": 25235,
+   "count": 19,
+   "family": "zhyt",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *diš-ūd-tja, a similar formation to mbys, from Proto-Indo-European *wed- (“water”). Alternatively, to be compared with Lithuanian žū́ti (“perish”), žudýti (“slay”), Latvian zùdu (“disappear, get lost”), zaudêt (“lose”), Middle Irish gúas (“danger, peril, jeopardy”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "water"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zhyta",
+     "tag": "aorist"
+    },
+    {
+     "form": "zhytur",
+     "tag": "participle"
+    },
+    {
+     "form": "zhys",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "He dives in to try to help me.",
+    "score": [
+     0,
+     7,
+     -7,
+     5
+    ],
+    "sq": "Ai u zhyt për të më ndihmuar."
+   }
+  },
+  {
+   "id": "njihem",
+   "sq": "njihem",
+   "en": "to meet, to become acquainted",
+   "glosses": [
+    "to meet, to become acquainted"
    ],
    "pos": [
     "verb"
@@ -268,7 +395,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to achieve, fulfill",
+     "gloss": "to meet, to become acquainted",
      "tags": [],
      "cats": [
       {
@@ -278,7 +405,79 @@
        "source": "w"
       },
       {
+       "name": "Pages using invalid parameters when calling Template:sq-verb",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Gëzohem që u njohëm.",
+       "en": "Pleased to meet you. (lit. I am pleased that we have met)",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "meet",
+      "acquainted"
+     ]
+    }
+   ],
+   "rank": 25238,
+   "count": 19,
+   "family": "njihem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "njohur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "fell",
+   "sq": "fell",
+   "en": "deep, shallow",
+   "glosses": [
+    "deep, shallow"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "deep, shallow",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -292,311 +491,36 @@
      ],
      "examples": [],
      "links": [
-      "achieve",
-      "fulfill"
+      "deep",
+      "shallow"
      ]
     }
    ],
-   "rank": 19623,
-   "count": 27,
-   "family": "realizoj",
+   "rank": 25260,
+   "count": 19,
+   "family": "fell",
    "is_root": true,
-   "etymology": "Borrowed from French réaliser.",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *spesla, metathesized form of *spelsa, from Proto-Indo-European *pels- (“rock, boulder”), variant of *spel- (“to cleave, break”). Compare Latin hydronym Pelso, Latin Palatium, Pashto پرښه (parša, “rock, rocky ledge”), Ancient Greek πέλλα (pélla, “stone”), German Felsen (“boulder, cliff”). Mostly dialectal, used in Gheg Albanian.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "realizova",
-     "tag": "aorist"
-    },
-    {
-     "form": "realizuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "But how do I do that?",
-    "score": [
-     1,
-     4,
-     -3,
-     5
-    ],
-    "sq": "Por si ta realizoj?"
-   }
-  },
-  {
-   "id": "end",
-   "sq": "end",
-   "en": "to weave",
-   "glosses": [
-    "to weave",
-    "to bloom, blossom",
-    "to flyblow"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to weave",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "39 30 31"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "weave"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to bloom, blossom",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bloom",
-      "blossom"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to flyblow",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "flyblow"
-     ]
-    }
-   ],
-   "rank": 19629,
-   "count": 27,
-   "family": "end",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *antis/t, from Proto-Indo-European *h₂n̥t-jes/t (“to plait, weave”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "endëc"
-   ],
-   "related": [
-    "endë"
-   ],
-   "forms": [
-    {
-     "form": "enda",
-     "tag": "aorist"
-    },
-    {
-     "form": "endur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Masonry long wandered in error.",
+    "en": "The Name is Fell.",
     "score": [
      1,
-     6,
-     -5,
+     3,
+     -2,
      10
     ],
-    "sq": "Masoneria u end gjatë në gabim."
+    "sq": "Emri është Fell."
    }
-  },
-  {
-   "id": "qaraman",
-   "sq": "qaraman",
-   "en": "always crying (of a baby)",
-   "glosses": [
-    "always crying (of a baby)",
-    "always complaining, whining",
-    "plaintive, mournful",
-    "baby that always cries",
-    "whiner, cry-baby, bellyacher"
-   ],
-   "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "always crying (of a baby)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -man",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 27 5 22 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cry"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "always complaining, whining",
-     "tags": [
-      "derogatory"
-     ],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -man",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 27 5 22 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "derogatory",
-      "complain",
-      "whining"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "plaintive, mournful",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "plaintive",
-      "mournful"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "baby that always cries",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -man",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 27 5 22 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "baby",
-      "cries"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "whiner, cry-baby, bellyacher",
-     "tags": [
-      "derogatory"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 15 3 11 57"
-      },
-      {
-       "name": "Albanian terms interfixed with -a-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 22 4 18 35"
-      },
-      {
-       "name": "Albanian terms suffixed with -man",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 27 5 22 23"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "derogatory",
-      "whiner",
-      "cry-baby"
-     ]
-    }
-   ],
-   "rank": 19679,
-   "count": 27,
-   "family": "qaraman",
-   "is_root": true,
-   "etymology": "From qarë (“cry, complaint”) + -a- + -man.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qaramane",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": null
   }
- ]
+ ],
+ "extended": true
 }

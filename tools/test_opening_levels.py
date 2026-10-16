@@ -133,10 +133,17 @@ else:
     lvl_of = {w["sq"]: L["level"] for L in shipped for w in L["words"]}
     fam_of = {w["sq"]: w["family"] for L in shipped for w in L["words"]}
     curated = {w for _, ws in ol.LEVELS for w in ws}
+    # The main course brings a curated family back marked `continues`; its
+    # rarer members may instead wait for the extended track, which says
+    # "(more)" (build_course.schedule_course).
+    main_words = {w["sq"] for L in shipped if not L.get("extended")
+                  for w in L["words"]}
     partial = {fam_of[w] for w in curated} & {
-        fam_of[w] for w in lvl_of if w not in curated}
+        fam_of[w] for w in main_words if w not in curated}
     first_back = {}
     for L in shipped[n:]:
+        if L.get("extended"):
+            continue
         for f in L["families"]:
             first_back.setdefault(f, L)
     missing = sorted(f for f in partial

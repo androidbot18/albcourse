@@ -1,40 +1,43 @@
 {
  "level": 489,
- "title": "tregti, proshutë, sfidë +1",
+ "title": "herë (more), deklaroj, verore +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "proshutë",
-  "rrjedhje",
-  "sfidë",
-  "tregti"
+  "deklaroj",
+  "herë",
+  "hyp",
+  "var",
+  "verore",
+  "zanë"
  ],
  "pos_mix": {
-  "noun": 7,
-  "verb": 2
+  "adv": 1,
+  "verb": 6,
+  "noun": 7
  },
  "words": [
   {
-   "id": "tregti",
-   "sq": "tregti",
-   "en": "trade, business, sale",
+   "id": "çdoherë",
+   "sq": "çdoherë",
+   "en": "everytime, each time, always",
    "glosses": [
-    "trade, business, sale"
+    "everytime, each time, always"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "trade, business, sale",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "everytime, each time, always",
      "tags": [],
      "cats": [
       {
@@ -58,57 +61,69 @@
      ],
      "examples": [],
      "links": [
-      "trade",
-      "business",
-      "sale"
+      "everytime",
+      "each",
+      "time"
      ]
     }
    ],
-   "rank": 6975,
-   "count": 101,
-   "family": "tregti",
-   "is_root": true,
-   "etymology": "A formation from treg, with feminine -ti suffix.",
-   "etymology_class": null,
+   "rank": 10204,
+   "count": 63,
+   "family": "herë",
+   "is_root": false,
+   "etymology": "From çdo (“all, every”) + herë (“time”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "time"
+   ],
+   "components": [
+    {
+     "word": "çdo",
+     "role": "prefix"
+    },
+    {
+     "word": "herë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "pulling the trigger on the trade.",
+    "en": "The answer from Skopje has always been – nothing.",
     "score": [
-     0,
-     4,
+     2,
+     6,
      -4,
      10
     ],
-    "sq": "ka qëlluar në tregti."
-   }
+    "sq": "Përgjigja nga Shkupi çdoherë ishte- asgjë."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "proshutë",
-   "sq": "proshutë",
-   "en": "ham",
+   "id": "deklaroj",
+   "sq": "deklaroj",
+   "en": "to declare",
    "glosses": [
-    "ham"
+    "to declare"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ham",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to declare",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -118,7 +133,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -132,221 +147,13 @@
      ],
      "examples": [],
      "links": [
-      "ham"
+      "declare"
      ]
     }
    ],
-   "rank": 6977,
-   "count": 101,
-   "family": "proshutë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian prosciutto.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I could have sobbed into the bacon and eggs.",
-    "score": [
-     1,
-     9,
-     -8,
-     5
-    ],
-    "sq": "Unë mund të ketë sobbed në proshutë dhe vezë."
-   }
-  },
-  {
-   "id": "sfidë",
-   "sq": "sfidë",
-   "en": "challenge",
-   "glosses": [
-    "challenge"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "challenge",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "challenge"
-     ]
-    }
-   ],
-   "rank": 6978,
-   "count": 101,
-   "family": "sfidë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian sfida.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "sfida",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Absolutely, it's a challenge.",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Absolutisht, është sfidë."
-   }
-  },
-  {
-   "id": "rrjedhje",
-   "sq": "rrjedhje",
-   "en": "flow",
-   "glosses": [
-    "flow",
-    "stream",
-    "leak",
-    "semen, ejaculation (the flow of seed)"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flow",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "flow"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stream",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "stream"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "leak",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 4 78 13"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 13 61 13"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 7 79 7"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "leak"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "semen, ejaculation (the flow of seed)",
-     "tags": [
-      "euphemistic",
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Mori zjarr për dashnorët e saj, mishi i të cilëve është si mishi i gomarëve dhe rrjedhja e të cilëve është si rrjedhja e kuajve.",
-       "en": "She lusted for her lovers, the penises of whom were like the penises of donkeys and whose ejaculations were like the ejaculations of horses.",
-       "offsets": []
-      }
-     ],
-     "links": [
-      "semen",
-      "ejaculation"
-     ]
-    }
-   ],
-   "rank": 6985,
-   "count": 101,
-   "family": "rrjedhje",
+   "rank": 10206,
+   "count": 63,
+   "family": "deklaroj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -358,23 +165,273 @@
    "related": [],
    "forms": [
     {
-     "form": "rrjedhje",
-     "tag": "plural"
+     "form": "deklarova",
+     "tag": "aorist"
     },
     {
-     "form": "rrjedhja",
-     "tag": "definite"
+     "form": "deklaruar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do I need to declare my financial situation?",
+    "score": [
+     3,
+     7,
+     -4,
+     10
+    ],
+    "sq": "A duhet të deklaroj gjendjen time financiare?"
+   }
   },
   {
-   "id": "sfidoj",
-   "sq": "sfidoj",
-   "en": "to challenge",
+   "id": "verore",
+   "sq": "verore",
+   "en": "fan (for fanning oneself) in summer",
    "glosses": [
-    "to challenge",
-    "to defy"
+    "fan (for fanning oneself) in summer",
+    "bracelet or necklace of red and white yarn worn by children on the first day of spring",
+    "the European tree frog (Hyla arborea)"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fan (for fanning oneself) in summer",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fan",
+      "summer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bracelet or necklace of red and white yarn worn by children on the first day of spring",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Ethnography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Ethnography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 41 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 50 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ethnography",
+      "bracelet",
+      "necklace"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the European tree frog (Hyla arborea)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 41 50"
+      },
+      {
+       "name": "Albanian terms suffixed with -e",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 35 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "Hyla arborea"
+     ]
+    }
+   ],
+   "rank": 10225,
+   "count": 63,
+   "family": "verore",
+   "is_root": true,
+   "etymology": "From veror (“relating to summer”) + -e, from verë (“summer”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "summer"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Hot summer night.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Natë e nxehtë verore."
+   }
+  },
+  {
+   "id": "var",
+   "sq": "var",
+   "en": "to hang",
+   "glosses": [
+    "to hang",
+    "to depend on",
+    "to bring down"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hang",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "hang"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to depend on",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "depend"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bring down",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 30 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bring down"
+     ]
+    }
+   ],
+   "rank": 10229,
+   "count": 63,
+   "family": "var",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *werja, from Proto-Indo-European *h₂wer- (“to bind, hang”) (compare Ancient Greek ἀείρω (aeírō, “to heave, hoist up”), Lithuanian vérti (“to weigh”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "avari",
+    "varëse",
+    "varg"
+   ],
+   "related": [
+    "vjerr",
+    "zverk"
+   ],
+   "forms": [
+    {
+     "form": "vara",
+     "tag": "aorist"
+    },
+    {
+     "form": "varur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do not count on someone else.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Mos u var në dikë tjetër."
+   }
+  },
+  {
+   "id": "hyp",
+   "sq": "hyp",
+   "en": "to get on, ride, straddle",
+   "glosses": [
+    "to get on, ride, straddle",
+    "to rise, go up, climb into"
    ],
    "pos": [
     "verb",
@@ -388,7 +445,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to challenge",
+     "gloss": "to get on, ride, straddle",
      "tags": [],
      "cats": [
       {
@@ -396,105 +453,303 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "68 32"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "47 53"
       }
      ],
      "examples": [],
      "links": [
-      "challenge"
+      "get",
+      "on",
+      "ride"
      ]
     },
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to defy",
+     "gloss": "to rise, go up, climb into",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian terms suffixed with -oj",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rise",
+      "go",
+      "up"
+     ]
+    }
+   ],
+   "rank": 10245,
+   "count": 63,
+   "family": "hyp",
+   "is_root": true,
+   "etymology": "A variant of hip.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "hypa",
+     "tag": "aorist"
+    },
+    {
+     "form": "hypur",
+     "tag": "participle"
+    },
+    {
+     "form": "hip",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "zanë",
+   "sq": "zanë",
+   "en": "mountain fairy, woodnymph",
+   "glosses": [
+    "mountain fairy, woodnymph",
+    "muse of heroes"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mountain fairy, woodnymph",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Mythology",
+       "langcode": "sq",
+       "_dis": "84 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fairy",
+      "woodnymph"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "muse of heroes",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 91"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "9 91"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "4 96"
       }
      ],
      "examples": [],
      "links": [
-      "defy"
+      "muse"
      ]
     }
    ],
-   "rank": 10121,
-   "count": 64,
-   "family": "sfidë",
+   "rank": 10246,
+   "count": 63,
+   "family": "zanë",
+   "is_root": true,
+   "etymology": "Identical to and derived from zë (“voice”), with a sense development motivated by the main characteristic of these mythological figures. The term might have been contaminated with Latin Diāna (compare Romanian zână, Aromanian dzãnã, Asturian xana, Sardinian giàna). Another hypothesis, given her characteristics of muse of heroes and warrior, is the relationship with Ἀθηνᾶ (Athēnâ) (Mycenean a-ta-na) which, according to Beekes, has a Pre-Greek origin.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "voice"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "zë"
+   ],
+   "forms": [
+    {
+     "form": "zana",
+     "tag": "plural"
+    },
+    {
+     "form": "zërë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "fairy and return to your ship.",
+    "score": [
+     2,
+     7,
+     -5,
+     10
+    ],
+    "sq": "zanë dhe të kthehet në anije tuaj."
+   }
+  },
+  {
+   "id": "ujëvarë",
+   "sq": "ujëvarë",
+   "en": "waterfall, cascade",
+   "glosses": [
+    "waterfall, cascade",
+    "cataract"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "waterfall, cascade",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "57 43"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "waterfall",
+      "cascade"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cataract",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cataract"
+     ]
+    }
+   ],
+   "rank": 27960,
+   "count": 16,
+   "family": "var",
    "is_root": false,
-   "etymology": "From sfidë + -oj.",
-   "etymology_class": "affix",
+   "etymology": "From ujë + var.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "sfidë",
-     "role": "base"
+     "word": "ujë",
+     "role": "prefix"
     },
     {
-     "word": "oj",
-     "role": "suffix"
+     "word": "var",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "sfidova",
-     "tag": "aorist"
-    },
-    {
-     "form": "sfiduar",
-     "tag": "participle"
+     "form": "ujëvara",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I can always challenge what I said.",
+    "en": "This waterfall also has a legend.",
     "score": [
      0,
-     8,
-     -8,
+     6,
+     -6,
      10
     ],
-    "sq": "Unë gjithmonë mund të sfidoj atë që thashë."
+    "sq": "Kjo ujëvarë ka dhe një legjendë."
    },
    "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

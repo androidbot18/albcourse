@@ -1,61 +1,48 @@
 {
  "level": 682,
- "title": "demet, zuskë, papërcaktuar +3",
+ "title": "vihem, gjithë (more), kadife +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "demet",
-  "karkalec",
-  "papërcaktuar",
-  "përmbytje",
-  "shpallje",
-  "zuskë"
+  "gjithë",
+  "kadife",
+  "kudër",
+  "mamuth",
+  "matematik",
+  "vihem"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 1
+  "verb": 2,
+  "noun": 5,
+  "adj": 2
  },
  "words": [
   {
-   "id": "demet",
-   "sq": "demet",
-   "en": "sheaf of grain",
+   "id": "vihem",
+   "sq": "vihem",
+   "en": "to be placed",
    "glosses": [
-    "sheaf of grain",
-    "bundle of corn or oak leaves used as rain cover for a haystack"
+    "to be placed",
+    "to be placing oneself"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sheaf of grain",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be placed",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "sheaf",
-      "grain"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bundle of corn or oak leaves used as rain cover for a haystack",
-     "tags": [
-      "masculine"
+      "mediopassive"
      ],
      "cats": [
       {
@@ -63,53 +50,73 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "16 84"
+       "_dis": "83 17"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "91 9"
       }
      ],
      "examples": [],
      "links": [
-      "bundle",
-      "corn",
-      "oak"
+      "placed"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be placing oneself",
+     "tags": [
+      "mediopassive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "placing"
      ]
     }
    ],
-   "rank": 24301,
-   "count": 20,
-   "family": "demet",
+   "rank": 31696,
+   "count": 13,
+   "family": "vihem",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish دمت (demet). Doublet of dhemat.",
-   "etymology_class": "borrowed",
+   "etymology": "See vë (“to place, put”), active voice.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "vë",
+    "vend",
+    "vendos",
+    "vuth"
+   ],
    "forms": [
     {
-     "form": "demete",
-     "tag": "plural"
+     "form": "vënë",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "You told me to trust you.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Demet, ne rregull."
-   }
+   "corpus_example": null
   },
   {
-   "id": "zuskë",
-   "sq": "zuskë",
-   "en": "slut (a promiscuous woman)",
+   "id": "gjithësi",
+   "sq": "gjithësi",
+   "en": "universe",
    "glosses": [
-    "slut (a promiscuous woman)"
+    "universe"
    ],
    "pos": [
     "noun"
@@ -121,9 +128,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "slut (a promiscuous woman)",
+     "gloss": "universe",
      "tags": [
-      "derogatory",
       "feminine"
      ],
      "cats": [
@@ -134,13 +140,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -ësi",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -148,42 +154,142 @@
      ],
      "examples": [],
      "links": [
-      "derogatory",
-      "slut"
+      "universe"
      ]
     }
    ],
-   "rank": 24327,
-   "count": 20,
-   "family": "zuskë",
+   "rank": 31705,
+   "count": 13,
+   "family": "gjithë",
+   "is_root": false,
+   "etymology": "From gjithë + -ësi.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "gjithë",
+     "role": "base"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjithësi",
+     "tag": "plural"
+    },
+    {
+     "form": "gjithësia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "kadife",
+   "sq": "kadife",
+   "en": "velvet",
+   "glosses": [
+    "velvet",
+    "velvety: soft and smooth"
+   ],
+   "pos": [
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "velvet",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 87"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "velvet"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "velvety: soft and smooth",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "velvety",
+      "soft",
+      "smooth"
+     ]
+    }
+   ],
+   "rank": 31773,
+   "count": 13,
+   "family": "kadife",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish قطیفه (katife, kadife).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "kadife",
+     "tag": "plural"
+    },
+    {
+     "form": "kadifeja",
+     "tag": "definite"
+    },
+    {
+     "form": "kadifja",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Simply divine: hot slut!",
+    "en": "fabric, velvet or leather.",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
      10
     ],
-    "sq": "Thjesht hyjnore: zuskë e nxehtë!"
+    "sq": "pëlhurë, kadife ose lëkurë."
    }
   },
   {
-   "id": "papërcaktuar",
-   "sq": "papërcaktuar",
-   "en": "indeterminate, unspecified",
+   "id": "matematik",
+   "sq": "matematik",
+   "en": "mathematical",
    "glosses": [
-    "indeterminate, unspecified"
+    "mathematical"
    ],
    "pos": [
     "adj"
@@ -195,7 +301,82 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "indeterminate, unspecified",
+     "gloss": "mathematical",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mathematical"
+     ]
+    }
+   ],
+   "rank": 31776,
+   "count": 13,
+   "family": "matematik",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "matematike",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "GNOME",
+    "en": "Symbol mathspace .",
+    "score": [
+     1,
+     2,
+     -1,
+     6
+    ],
+    "sq": "Simboli matematik: ."
+   }
+  },
+  {
+   "id": "mamuth",
+   "sq": "mamuth",
+   "en": "mammoth, an extinct elephant-like mammal",
+   "glosses": [
+    "mammoth, an extinct elephant-like mammal"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mammoth, an extinct elephant-like mammal",
      "tags": [],
      "cats": [
       {
@@ -219,14 +400,15 @@
      ],
      "examples": [],
      "links": [
-      "indeterminate",
-      "unspecified"
+      "mammoth",
+      "extinct",
+      "elephant"
      ]
     }
    ],
-   "rank": 24336,
-   "count": 20,
-   "family": "papërcaktuar",
+   "rank": 31782,
+   "count": 13,
+   "family": "mamuth",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -239,150 +421,125 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "They are impersonal, tasteless.",
+    "en": "Because of this he got the name Mammoth.",
     "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Ata janë të papërcaktuar, pa shije."
-   }
-  },
-  {
-   "id": "shpallje",
-   "sq": "shpallje",
-   "en": "announcement, declaration",
-   "glosses": [
-    "announcement, declaration"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "announcement, declaration",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "announcement",
-      "declaration"
-     ]
-    }
-   ],
-   "rank": 24369,
-   "count": 20,
-   "family": "shpallje",
-   "is_root": true,
-   "etymology": "Gerund of shpall.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shpallje",
-     "tag": "plural"
-    },
-    {
-     "form": "shpallja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is a great Revelation for you.",
-    "score": [
-     0,
-     7,
+     1,
+     8,
      -7,
      10
     ],
-    "sq": "Është një Shpallje e madhe për ju."
+    "sq": "Për shkak të kësaj ai mori emrin Mamuth."
    }
   },
   {
-   "id": "përmbytje",
-   "sq": "përmbytje",
-   "en": "flood",
+   "id": "kudër",
+   "sq": "kudër",
+   "en": "female dog (or female fox, wolf, lynx, etc.)",
    "glosses": [
-    "flood"
+    "female dog (or female fox, wolf, lynx, etc.)",
+    "bitch, whore"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "flood",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "female dog (or female fox, wolf, lynx, etc.)",
+     "tags": [],
      "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "93 7"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "92 8"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "qeni dhe kudra",
+       "en": "the dog and the female dog (bitch)",
+       "offsets": [
+        [
+         9,
+         14
+        ]
+       ]
+      }
+     ],
      "links": [
-      "flood"
+      "zoology",
+      "dog",
+      "fox"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bitch, whore",
+     "tags": [
+      "colloquial",
+      "derogatory",
+      "offensive",
+      "vulgar"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ik, moj kudër!",
+       "en": "Go away, bitch!",
+       "offsets": [
+        [
+         8,
+         13
+        ]
+       ]
+      },
+      {
+       "sq": "Pse po flet kjo kudër?",
+       "en": "Why is this bitch talking?",
+       "offsets": [
+        [
+         16,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "derogatory",
+      "bitch",
+      "whore"
      ]
     }
    ],
-   "rank": 24384,
-   "count": 20,
-   "family": "përmbytje",
+   "rank": 31783,
+   "count": 13,
+   "family": "kudër",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Probably derived from the same root as qen (male dog), Old Albanian kjèn/klen, ultimately from Proto-Indo-European ḱwṓ/ḱwṓn",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -391,124 +548,8 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "In a flood.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Kur ndodh një përmbytje."
-   }
-  },
-  {
-   "id": "karkalec",
-   "sq": "karkalec",
-   "en": "grasshopper, locust",
-   "glosses": [
-    "grasshopper, locust",
-    "prawn"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "grasshopper, locust",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "grasshopper",
-      "locust"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "prawn",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 78"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "prawn"
-     ]
-    }
-   ],
-   "rank": 24462,
-   "count": 19,
-   "family": "karkalec",
-   "is_root": true,
-   "etymology": "From Bulgarian скакалец (skakalec, “grasshopper”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "grasshopper"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "karkaleca",
-     "tag": "plural"
-    },
-    {
-     "form": "karkaleci",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Prawn biriyani Recipe: Ingredients: 1.",
-    "score": [
-     3,
-     5,
-     -2,
-     10
-    ],
-    "sq": "Karkalec deti biriyani recetë: Përbërësit: 1."
-   }
+   "corpus_example": null
   }
- ]
+ ],
+ "extended": true
 }

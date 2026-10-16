@@ -1,80 +1,194 @@
 {
  "level": 174,
- "title": "ftohtë, veçantë",
+ "title": "juaj, gjatë, kap +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 3,
+ "word_count": 6,
  "families": [
-  "ftohtë",
-  "veçantë"
+  "gjatë",
+  "juaj",
+  "kap",
+  "mbi",
+  "mik"
  ],
  "pos_mix": {
-  "adj": 3,
-  "noun": 2
+  "det": 1,
+  "prep": 3,
+  "adj": 2,
+  "noun": 3,
+  "verb": 13
  },
  "words": [
   {
-   "id": "ftohtë",
-   "sq": "ftohtë",
-   "en": "cold",
+   "id": "juaj",
+   "sq": "juaj",
+   "en": "your (plural or polite)",
    "glosses": [
-    "cold",
-    "cold"
+    "your (plural or polite)"
    ],
    "pos": [
-    "adj",
-    "noun"
+    "det"
    ],
    "pos_labels": [
-    "adjective",
-    "noun"
+    "determiner"
    ],
    "sense_detail": [
     {
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "your (plural or polite)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "your"
+     ]
+    }
+   ],
+   "rank": 201,
+   "count": 6340,
+   "family": "juaj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "juaj",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "From your own home.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Nga shtëpia juaj."
+   }
+  },
+  {
+   "id": "gjatë",
+   "sq": "gjatë",
+   "en": "during",
+   "glosses": [
+    "during",
+    "tall",
+    "long"
+   ],
+   "pos": [
+    "prep",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "preposition",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "during",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 13 51"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "20 8 72"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 3 91"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "during"
+     ]
+    },
+    {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "cold",
+     "gloss": "tall",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 28 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "tall"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "long",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "cold"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cold",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ai u sëmur nga të ftohtit.",
-       "en": "He got sick from the cold.",
-       "offsets": [
-        [
-         15,
-         17
-        ],
-        [
-         18,
-         25
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "cold"
+      "long"
      ]
     }
    ],
-   "rank": 846,
-   "count": 1138,
-   "family": "ftohtë",
+   "rank": 217,
+   "count": 5790,
+   "family": "gjatë",
    "is_root": true,
-   "etymology": "From ftoh.",
+   "etymology": "From dialectal and archaic glatë, from Proto-Albanian *dlata, from pre-Albanian *dl̥h₁gʰto, from Proto-Indo-European *dl̥h₁gʰós and suffix *-to.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -84,126 +198,175 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Just be cool.",
+    "corpus": "HPLT",
+    "en": "The service before, during and after was great.",
     "score": [
-     0,
      3,
-     -3,
-     5
+     8,
+     -5,
+     10
     ],
-    "sq": "Vetëm të ftohtë."
+    "sq": "Shërbimi para, gjatë dhe pas ishte i shkëlqyeshëm."
    }
   },
   {
-   "id": "veçantë",
-   "sq": "veçantë",
-   "en": "specific, particular",
+   "id": "mbi",
+   "sq": "mbi",
+   "en": "on, onto, upon",
    "glosses": [
-    "specific, particular",
-    "unique; peculiar, distinctive"
+    "on, onto, upon",
+    "over, above"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "prep",
+    "prep"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "preposition",
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "specific, particular",
-     "tags": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "on, onto, upon",
+     "tags": [
+      "with-accusative"
+     ],
      "cats": [
       {
-       "name": "Albanian terms suffixed with -antë",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 69"
+       "_dis": "47 53"
+      },
+      {
+       "name": "Albanian prepositions governing the accusative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "doli mbi ujë",
+       "en": "(came out) appeared on the water's surface",
+       "offsets": [
+        [
+         5,
+         8
+        ]
+       ]
+      },
+      {
+       "sq": "hipi mbi çati",
+       "en": "climbed on the roof",
+       "offsets": [
+        [
+         5,
+         8
+        ]
+       ]
+      }
+     ],
      "links": [
-      "specific",
-      "particular"
+      "on",
+      "onto",
+      "upon"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "unique; peculiar, distinctive",
-     "tags": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "over, above",
+     "tags": [
+      "with-accusative"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "22 78"
+       "_dis": "30 70"
       },
       {
-       "name": "Albanian terms suffixed with -antë",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "31 69"
+       "_dis": "47 53"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions governing the accusative",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "0 100"
+       "_dis": "47 53"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "dy gradë mbi zero",
+       "en": "two degrees above zero",
+       "offsets": [
+        [
+         9,
+         12
+        ]
+       ]
+      },
+      {
+       "sq": "mbi ujë",
+       "en": "above the water('s surface)",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
      "links": [
-      "unique",
-      "peculiar",
-      "distinctive"
+      "over",
+      "above"
      ]
     }
    ],
-   "rank": 849,
-   "count": 1131,
-   "family": "veçantë",
+   "rank": 241,
+   "count": 4915,
+   "family": "mbi",
    "is_root": true,
-   "etymology": "From veç + -antë, the first element a widespread colloquial form of vetëm (“only”), from vetë (“self”).",
-   "etymology_class": "affix",
+   "etymology": "From Proto-Albanian *(V)(m)pi, perhaps from a compound of Proto-Indo-European *h₂en-h₁pi (“up, on, upon, (on-to, un-to)”), from *h₂én (“on”) + *h₁(é)pi, *h₁ópi (“by, near, at”); otherwise just the latter component and phonetically influenced by mbë. Compare Ancient Greek ἐπί (epí, “on, to, towards”), Sanskrit अपि (ápi), Avestan 𐬀𐬌𐬞𐬌 (aⁱpi), Old Persian [script needed] (apiy), Old Armenian եւ (ew), Latin ob, and Old English bī (English by).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "only",
-    "self"
+    "on"
    ],
    "components": [],
    "derived": [
-    "veçanti"
+    "mbiçmim",
+    "mbiçmoj",
+    "mbidermë",
+    "mbidetar",
+    "mbidialektor",
+    "mbidheshëm",
+    "mbiemër",
+    "mbiemërim"
    ],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Nothing special.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "asgjë të veçantë."
-   }
+   "corpus_example": null
   },
   {
-   "id": "ftohtësi",
-   "sq": "ftohtësi",
-   "en": "coldness",
+   "id": "miq",
+   "sq": "miq",
+   "en": "friend, plural (from mik)",
    "glosses": [
-    "coldness"
+    "friend, plural (from mik)"
    ],
    "pos": [
     "noun"
@@ -215,9 +378,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "coldness",
+     "gloss": "friend, plural (from mik)",
      "tags": [
-      "feminine"
+      "accusative",
+      "form-of",
+      "indefinite",
+      "nominative",
+      "plural"
      ],
      "cats": [
       {
@@ -227,7 +394,75 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ësi",
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "mik"
+    }
+   ],
+   "rank": 925,
+   "count": 1034,
+   "family": "mik",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Dear friends!",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Të dashur miq!"
+   }
+  },
+  {
+   "id": "miqtë",
+   "sq": "miqtë",
+   "en": "the friend, plural (from mik)",
+   "glosses": [
+    "the friend, plural (from mik)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the friend, plural (from mik)",
+     "tags": [
+      "accusative",
+      "definite",
+      "form-of",
+      "nominative",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -237,56 +472,372 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "mik"
+    }
+   ],
+   "rank": 947,
+   "count": 1005,
+   "family": "mik",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My friends!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Miqtë e mi!"
+   }
+  },
+  {
+   "id": "kap",
+   "sq": "kap",
+   "en": "kap (aorist kapa, participle kapur)",
+   "glosses": [
+    "kap (aorist kapa, participle kapur)",
+    "to grab, grip (someone or something)",
+    "(you) catch (an object or feelings)",
+    "to seize, keep, hold (something, someone); to take or occupy (land, position)",
+    "to find, surprise (a person in a situation, act)",
+    "to understand, see, hear immediately (a problem, issue, mission, task)",
+    "to reach (to); meet (someone or something that walks in front)",
+    "to tan, warm up (by the sun); to capture (by wind; military service)",
+    "to determine, constitute; to reach, cost (a high sum)",
+    "to tie, bind, braid (hair)",
+    "to possess, overwhelm, scare (by a feeling, illness, demon)",
+    "to start, begin (work, job, path)",
+    "to snatch, pull off (hat, wig)",
+    "lid, cover"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "kap (aorist kapa, participle kapur)",
+     "tags": [
+      "active"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 21 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "coldness"
+      "kapa",
+      "kapur"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to grab, grip (someone or something)",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kape për flokësh!",
+       "en": "Grab her/him by the hair!",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "grab",
+      "grip"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "(you) catch (an object or feelings)",
+     "tags": [
+      "second-person"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "catch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to seize, keep, hold (something, someone); to take or occupy (land, position)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "seize",
+      "keep",
+      "hold"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to find, surprise (a person in a situation, act)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "find",
+      "surprise"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to understand, see, hear immediately (a problem, issue, mission, task)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "understand",
+      "see",
+      "hear"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to reach (to); meet (someone or something that walks in front)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "reach",
+      "meet"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tan, warm up (by the sun); to capture (by wind; military service)",
+     "tags": [
+      "third-person"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E ka kap dielli.",
+       "en": "The sun had captured her/him. (meaning “He/she's got a sunburn/tan.”)",
+       "offsets": [
+        [
+         5,
+         8
+        ]
+       ]
+      },
+      {
+       "sq": "E rreh dielli ujët.",
+       "en": "The sun warms up (beats up) the water(s).",
+       "offsets": [
+        [
+         2,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "tan",
+      "warm up",
+      "capture"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to determine, constitute; to reach, cost (a high sum)",
+     "tags": [
+      "third-person"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "determine",
+      "constitute",
+      "reach"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tie, bind, braid (hair)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tie",
+      "bind",
+      "braid"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to possess, overwhelm, scare (by a feeling, illness, demon)",
+     "tags": [
+      "figuratively",
+      "third-person"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "possess",
+      "overwhelm",
+      "scare"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to start, begin (work, job, path)",
+     "tags": [
+      "figuratively",
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "start",
+      "begin"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to snatch, pull off (hat, wig)",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "snatch",
+      "pull off"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lid, cover",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lid",
+      "cover"
      ]
     }
    ],
-   "rank": 47634,
-   "count": 7,
-   "family": "ftohtë",
-   "is_root": false,
-   "etymology": "From ftohtë + -ësi.",
-   "etymology_class": "affix",
+   "rank": 923,
+   "count": 1039,
+   "family": "kap",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kapa, from Proto-Indo-European *kap-. Cognate to (Baltic) Latvian kàmpju, kàmpt; Proto-Celtic *kawnos (Old Irish cúan, Irish cuan, Scottish Gaelic cuan); Proto-Germanic *habnō, Proto-Germanic *habjaną (“to have, lift”); Proto-Hellenic *kapt͏̌ō (Ancient Greek κάπτω (káptō)), Proto-Hellenic *kṓpā (Ancient Greek κώπη (kṓpē)); Proto-Italic *kapiō (Latin capiō) and (perhaps) also Old Armenian խափ (xapʻ), Old Armenian խափանեմ (xapʻanem) (perhaps) and Latin capsa.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "ftohtë",
-     "role": "base",
-     "en": "cold"
-    },
-    {
-     "word": "ësi",
-     "role": "suffix",
-     "affix": "si",
-     "meaning": "-ness, -ity"
-    }
+   "components": [],
+   "derived": [
+    "kapem",
+    "kapur",
+    "kapje",
+    "kapja",
+    "kapës",
+    "kapësi",
+    "kapëse",
+    "kapësja"
    ],
-   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "ftohtësia",
-     "tag": "definite"
+     "form": "kapur",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Miranda felt a chill.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "Miranda ndjeu një ftohtësi."
-   },
-   "breakdown": "transparent"
+   "corpus_example": null
   }
+ ],
+ "continues": [
+  "mik"
  ]
 }

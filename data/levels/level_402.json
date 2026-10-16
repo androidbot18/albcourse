@@ -1,30 +1,31 @@
 {
  "level": 402,
- "title": "fantazmë, buzëqeshje, grusht +3",
+ "title": "xham, druaj, mjek (more) +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "buzëqeshje",
-  "fantazmë",
-  "grusht",
-  "kërcej",
-  "peng",
-  "shofer"
+  "druaj",
+  "ekran",
+  "mjek",
+  "shënuar",
+  "xham",
+  "çmend"
  ],
  "pos_mix": {
-  "noun": 10,
-  "verb": 2
+  "noun": 2,
+  "verb": 2,
+  "adj": 2
  },
  "words": [
   {
-   "id": "fantazmë",
-   "sq": "fantazmë",
-   "en": "ghost",
+   "id": "xham",
+   "sq": "xham",
+   "en": "glass (material)",
    "glosses": [
-    "ghost"
+    "glass (material)"
    ],
    "pos": [
     "noun"
@@ -36,9 +37,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ghost",
+     "gloss": "glass (material)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -62,15 +63,15 @@
      ],
      "examples": [],
      "links": [
-      "ghost"
+      "glass"
      ]
     }
    ],
-   "rank": 3497,
-   "count": 228,
-   "family": "fantazmë",
+   "rank": 6575,
+   "count": 108,
+   "family": "xham",
    "is_root": true,
-   "etymology": "Borrowed from Latin phantasma, from Ancient Greek φάντασμα (phántasma, “image, phantom”), from φαντάζω (phantázō, “to make visible”), from φαίνω (phaínō, “to cause to appear, bring to light”).",
+   "etymology": "Borrowed from Ottoman Turkish جام (cam), from Classical Persian جام (jām).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -80,43 +81,49 @@
    "related": [],
    "forms": [
     {
-     "form": "fantazma",
+     "form": "xhama",
      "tag": "plural"
+    },
+    {
+     "form": "xhame",
+     "tag": "plural"
+    },
+    {
+     "form": "xhami",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But it was no ghost.",
+    "corpus": "MaCoCu",
+    "en": "They got me.",
     "score": [
-     0,
-     4,
+     1,
+     5,
      -4,
-     10
+     8
     ],
-    "sq": "Por nuk ishte fantazmë."
+    "sq": "Ata vunë xham për mua."
    }
   },
   {
-   "id": "buzëqeshje",
-   "sq": "buzëqeshje",
-   "en": "smile",
+   "id": "druaj",
+   "sq": "druaj",
+   "en": "to be afraid, to fear",
    "glosses": [
-    "smile"
+    "to be afraid, to fear"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "smile",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be afraid, to fear",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -139,15 +146,250 @@
      ],
      "examples": [],
      "links": [
-      "smile"
+      "be",
+      "afraid",
+      "fear"
      ]
     }
    ],
-   "rank": 3500,
-   "count": 228,
-   "family": "buzëqeshje",
+   "rank": 6589,
+   "count": 107,
+   "family": "druaj",
    "is_root": true,
-   "etymology": "Gerund of buzëqesh.",
+   "etymology": "From Proto-Albanian *drāunja, a derivative of droe.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "druajta",
+     "tag": "aorist"
+    },
+    {
+     "form": "druajtur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "mjekësor",
+   "sq": "mjekësor",
+   "en": "medical",
+   "glosses": [
+    "medical"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "medical",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësor",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "medical"
+     ]
+    }
+   ],
+   "rank": 6590,
+   "count": 107,
+   "family": "mjek",
+   "is_root": false,
+   "etymology": "From mjek + -ësor.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mjek",
+     "role": "base"
+    },
+    {
+     "word": "ësor",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "mjekësore",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Get medical attention immediately.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Merr menjëherë kujdes mjekësor."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "ekran",
+   "sq": "ekran",
+   "en": "screen (in a cinema or on a technological device)",
+   "glosses": [
+    "screen (in a cinema or on a technological device)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "screen (in a cinema or on a technological device)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymology trees",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ekran telefoni",
+       "en": "phone screen",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "screen"
+     ]
+    }
+   ],
+   "rank": 6591,
+   "count": 107,
+   "family": "ekran",
+   "is_root": true,
+   "etymology": "Etymology tree\nProto-Indo-European *(s)ker-der.\nProto-Germanic *skirmiz\nProto-West Germanic *skirmi\nOld Dutch skirm\nMiddle Dutch schermbor.\nOld French escran\nMiddle French écran\nFrench écranbor.\nAlbanian ekran\nBorrowed from French écran. Ultimately from Proto-West Germanic *skirmi.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ekrane",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "shënuar",
+   "sq": "shënuar",
+   "en": "special, distinguished",
+   "glosses": [
+    "special, distinguished"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "special, distinguished",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "special",
+      "distinguished"
+     ]
+    }
+   ],
+   "rank": 6595,
+   "count": 107,
+   "family": "shënuar",
+   "is_root": true,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -155,490 +397,106 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "buzëqeshje",
-     "tag": "plural"
-    },
-    {
-     "form": "buzëqeshja",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "smile on the cheek.",
+    "en": "How much did you score?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "buzëqeshje në faqe."
+    "sq": "Sa keni shënuar?"
    }
   },
   {
-   "id": "grusht",
-   "sq": "grusht",
-   "en": "fist, handful",
+   "id": "çmendem",
+   "sq": "çmendem",
+   "en": "to go mad",
    "glosses": [
-    "fist, handful",
-    "punch",
-    "attack, offensive"
+    "to go mad"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fist, handful",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 9 47"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "62 19 19"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "61 20 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "fist",
-      "handful"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "punch",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "punch"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "attack, offensive",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 9 47"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "attack",
-      "offensive"
-     ]
-    }
-   ],
-   "rank": 3503,
-   "count": 227,
-   "family": "grusht",
-   "is_root": true,
-   "etymology": "Borrowed from a South Slavic language, ultimately from Proto-Slavic *gъrstь; compare Old Church Slavonic гръсть (grŭstĭ, “fist, handful”), Serbo-Croatian grst (“handful”), Bulgarian гръст (grăst). An old borrowing, considering the rendering of *-s- as -sh- and *-ъ- as -u-.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "handful"
-   ],
-   "components": [],
-   "derived": [
-    "grushtoj",
-    "grusht shteti"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "grushte",
-     "tag": "plural"
-    },
-    {
-     "form": "grushti",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Talk about a one-two punch!",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Flisni për një grusht një-dy!"
-   }
-  },
-  {
-   "id": "shofer",
-   "sq": "shofer",
-   "en": "chauffeur, driver",
-   "glosses": [
-    "chauffeur, driver"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chauffeur, driver",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "chauffeur",
-      "driver"
-     ]
-    }
-   ],
-   "rank": 3511,
-   "count": 226,
-   "family": "shofer",
-   "is_root": true,
-   "etymology": "Ultimately from French chauffeur.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "shoferë",
-     "tag": "plural"
-    },
-    {
-     "form": "shoferi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What is a Driver?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Çfarë është një shofer?"
-   }
-  },
-  {
-   "id": "peng",
-   "sq": "peng",
-   "en": "pledge, pawn",
-   "glosses": [
-    "pledge, pawn",
-    "hostage",
-    "feeling of regret, unfulfilled desire, wishful thinking",
-    "token of assurance"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "pledge, pawn",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Law",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Law",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "36 27 25 12"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "law",
-      "pledge",
-      "pawn"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hostage",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hostage"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "feeling of regret, unfulfilled desire, wishful thinking",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "token of assurance",
-     "tags": [
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 3516,
-   "count": 226,
-   "family": "peng",
-   "is_root": true,
-   "etymology": "From Latin pignus.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin pignus",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "pengcë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "pengje",
-     "tag": "plural"
-    },
-    {
-     "form": "pengu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who has taken hostage whom?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kush ka marrë peng kë?"
-   }
-  },
-  {
-   "id": "kërcej",
-   "sq": "kërcej",
-   "en": "to dance",
-   "glosses": [
-    "to dance",
-    "to crack, to snap"
-   ],
-   "pos": [
-    "verb",
     "verb"
    ],
    "pos_labels": [
-    "verb",
     "verb"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to dance",
-     "tags": [],
+     "gloss": "to go mad",
+     "tags": [
+      "reflexive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -em",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "dance"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to crack, to snap",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "53 47"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "crack",
-      "snap"
+      "mad"
      ]
     }
    ],
-   "rank": 3543,
-   "count": 224,
-   "family": "kërcej",
-   "is_root": true,
-   "etymology": "A derivative of kërcas, originally meaning 'to crack, to snap', thus 'to jump, to dance'. A descriptive term.\nAlternatively, from Dacian or Paleo-Balkan substrate, cognate to Romanian cățăra.",
-   "etymology_class": "derived",
+   "rank": 6599,
+   "count": 107,
+   "family": "çmend",
+   "is_root": false,
+   "etymology": "From çmend + -em.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "kërcas",
-    "kërce",
-    "kërcell"
-   ],
-   "forms": [
+   "components": [
     {
-     "form": "kërceva",
-     "tag": "aorist"
+     "word": "çmend",
+     "role": "base"
     },
     {
-     "form": "kërcyer",
+     "word": "em",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "çmendur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "bounce them back into the sky.",
+    "en": "Anyone feeling the burning and pain will go crazy.",
     "score": [
-     0,
-     5,
+     3,
+     8,
      -5,
      10
     ],
-    "sq": "kërcej ata përsëri në qiell."
-   }
+    "sq": "Çdokush ndjenja djegien dhe dhimbje do të çmendem."
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

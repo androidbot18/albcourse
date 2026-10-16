@@ -1,24 +1,30 @@
 {
  "level": 75,
- "title": "gjej",
- "root": "gjej",
- "root_gloss": "to find",
+ "title": "di, dakord, shkuar",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 9,
  "families": [
-  "gjej"
+  "dakord",
+  "di",
+  "shkuar"
  ],
  "pos_mix": {
-  "verb": 5
+  "verb": 4,
+  "intj": 1,
+  "noun": 1,
+  "adv": 2,
+  "pron": 2
  },
  "words": [
   {
-   "id": "gjej",
-   "sq": "gjej",
-   "en": "to find",
+   "id": "dija",
+   "sq": "dija",
+   "en": "I (used to) knew (from di, to know)",
    "glosses": [
-    "to find"
+    "I (used to) knew (from di, to know)"
    ],
    "pos": [
     "verb"
@@ -30,7 +36,80 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to find",
+     "gloss": "I (used to) knew (from di, to know)",
+     "tags": [
+      "first-person",
+      "form-of",
+      "imperfect",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "di"
+    }
+   ],
+   "rank": 318,
+   "count": 3267,
+   "family": "di",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "And that's what I had known.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Dhe këtë e dija."
+   }
+  },
+  {
+   "id": "dakord",
+   "sq": "dakord",
+   "en": "agreed, OK",
+   "glosses": [
+    "agreed, OK"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "agreed, OK",
      "tags": [],
      "cats": [
       {
@@ -40,13 +119,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,52 +133,101 @@
      ],
      "examples": [],
      "links": [
-      "find"
+      "agreed",
+      "OK"
      ]
     }
    ],
-   "rank": 298,
-   "count": 3520,
-   "family": "gjej",
+   "rank": 319,
+   "count": 3264,
+   "family": "dakord",
    "is_root": true,
-   "etymology": "From dialectal Tosk gjenj, from Old Albanian gjãnj (Bogdani), from Proto-Albanian *gadnja, from *gʰédnje/o, from Proto-Indo-European *gʰed- (compare English get, Greek κτήση (ktísi, “possession”), Slovene gádati (“to guess”)). First attested in Buzuku's work Meshari as E ju të më lypëni e të mos më vgjani (And you to search for me and not find me).",
+   "etymology": "Variant of dakort.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "possession"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "gjeta",
-     "tag": "aorist"
-    },
-    {
-     "form": "gjetur",
-     "tag": "participle"
+     "form": "dakort",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
+    "corpus": "TED2020",
+    "en": "So far so good?",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Dakord deri tani?"
+   }
+  },
+  {
+   "id": "shkuar",
+   "sq": "shkuar",
+   "en": "past",
+   "glosses": [
+    "past"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "past",
+     "tags": [
+      "feminine",
+      "past"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "past"
+     ]
+    }
+   ],
+   "rank": 320,
+   "count": 3251,
+   "family": "shkuar",
+   "is_root": true,
+   "etymology": "Denominative formation from shkoj.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
     "corpus": "QED",
-    "en": "Find him!",
+    "en": "Where did you go?",
     "score": [
      0,
      3,
      -3,
      5
     ],
-    "sq": "Gjej të tij!"
+    "sq": "Ku keni shkuar?"
    }
   },
   {
-   "id": "gjetur",
-   "sq": "gjetur",
-   "en": "find, past form (from gjej, to find)",
+   "id": "ditur",
+   "sq": "ditur",
+   "en": "know, past form (from di, to know)",
    "glosses": [
-    "find, past form (from gjej, to find)"
+    "know, past form (from di, to know)"
    ],
    "pos": [
     "verb"
@@ -111,7 +239,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "find, past form (from gjej, to find)",
+     "gloss": "know, past form (from di, to know)",
      "tags": [
       "form-of",
       "participle",
@@ -138,12 +266,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "gjej"
+     "is_form_of": "di"
     }
    ],
-   "rank": 313,
-   "count": 3317,
-   "family": "gjej",
+   "rank": 678,
+   "count": 1495,
+   "family": "di",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -156,22 +284,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You've found it!",
+    "en": "How did they know?",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "E keni gjetur!"
+    "sq": "Nga e kanë ditur?"
    }
   },
   {
-   "id": "gjeta",
-   "sq": "gjeta",
-   "en": "I (once did) found (from gjej, to find)",
+   "id": "dita",
+   "sq": "dita",
+   "en": "I (once did) knew (from di, to know)",
    "glosses": [
-    "I (once did) found (from gjej, to find)"
+    "I (once did) knew (from di, to know)"
    ],
    "pos": [
     "verb"
@@ -183,7 +311,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "I (once did) found (from gjej, to find)",
+     "gloss": "I (once did) knew (from di, to know)",
      "tags": [
       "aorist",
       "first-person",
@@ -196,28 +324,17 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 75"
       }
      ],
      "examples": [],
-     "is_form_of": "gjej"
+     "is_form_of": "di"
     }
    ],
-   "rank": 558,
-   "count": 1853,
-   "family": "gjej",
+   "rank": 694,
+   "count": 1452,
+   "family": "di",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -230,22 +347,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I found this.",
+    "en": "The day flew by.",
     "score": [
-     0,
-     4,
-     -4,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Unë e gjeta këtë."
+    "sq": "Dita kaloi menjëherë."
    }
   },
   {
-   "id": "gjeti",
-   "sq": "gjeti",
-   "en": "he/she/it (once did) found (from gjej, to find)",
+   "id": "dinte",
+   "sq": "dinte",
+   "en": "he/she/it (used to) knew (from di, to know)",
    "glosses": [
-    "he/she/it (once did) found (from gjej, to find)"
+    "he/she/it (used to) knew (from di, to know)"
    ],
    "pos": [
     "verb"
@@ -257,44 +374,42 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "he/she/it (once did) found (from gjej, to find)",
+     "gloss": "he/she/it (used to) knew (from di, to know)",
      "tags": [
-      "aorist",
       "form-of",
+      "imperfect",
       "singular",
       "third-person"
      ],
      "cats": [
       {
-       "name": "Albanian terms with collocations",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 95"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93"
+       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "gjej"
+     "is_form_of": "di"
     }
    ],
-   "rank": 1484,
-   "count": 596,
-   "family": "gjej",
+   "rank": 885,
+   "count": 1086,
+   "family": "di",
    "is_root": false,
-   "etymology": "Conjugation form of gjej (“to find”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -304,40 +419,116 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Beau Lotto: He finds it.",
+    "corpus": "HPLT",
+    "en": "He didn't know anything.",
     "score": [
-     0,
+     1,
      3,
-     -3,
-     5
+     -2,
+     10
     ],
-    "sq": "Ai e gjeti."
+    "sq": "Nuk dinte asgjë."
    }
   },
   {
-   "id": "gjeja",
-   "sq": "gjeja",
-   "en": "I (used to) found (from gjej, to find)",
+   "id": "disi",
+   "sq": "disi",
+   "en": "somehow, in some way",
    "glosses": [
-    "I (used to) found (from gjej, to find)"
+    "somehow, in some way",
+    "somewhat, to some degree"
    ],
    "pos": [
-    "verb"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) found (from gjej, to find)",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "somehow, in some way",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "somehow"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "somewhat, to some degree",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "somewhat"
+     ]
+    }
+   ],
+   "rank": 1011,
+   "count": 930,
+   "family": "di",
+   "is_root": false,
+   "etymology": "From di- + si.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "di",
+     "role": "prefix"
+    },
+    {
+     "word": "si",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "diqysh"
+   ],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "GlobalVoices",
+    "en": "It kind of blows my mind.",
+    "score": [
+     1,
+     3,
+     -2,
+     3
+    ],
+    "sq": "Disi më çmend."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "dikujt",
+   "sq": "dikujt",
+   "en": "someone (from dikush)",
+   "glosses": [
+    "someone (from dikush)"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "someone (from dikush)",
      "tags": [
-      "first-person",
-      "form-of",
-      "imperfect",
-      "singular"
+      "ablative",
+      "dative",
+      "form-of"
      ],
      "cats": [
       {
@@ -360,12 +551,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "gjej"
+     "is_form_of": "dikush"
     }
    ],
-   "rank": 1509,
-   "count": 587,
-   "family": "gjej",
+   "rank": 1130,
+   "count": 831,
+   "family": "di",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -378,15 +569,94 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I wanted to find a better life there.",
+    "en": "Would you recommend it to someone?",
     "score": [
-     0,
-     9,
-     -9,
+     2,
+     4,
+     -2,
      10
     ],
-    "sq": "Doja të gjeja atje një jetë më të mirë."
+    "sq": "Do ia rekomandonit dikujt?"
    }
+  },
+  {
+   "id": "diç",
+   "sq": "diç",
+   "en": "something",
+   "glosses": [
+    "something"
+   ],
+   "pos": [
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "something",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with di-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "something"
+     ]
+    }
+   ],
+   "rank": 3009,
+   "count": 270,
+   "family": "di",
+   "is_root": false,
+   "etymology": "From di- + ç'.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "di",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "It's good for us.",
+    "score": [
+     1,
+     6,
+     -5,
+     8
+    ],
+    "sq": "Është diç e mirë për ne."
+   },
+   "breakdown": "historical"
   }
+ ],
+ "continues": [
+  "di"
  ]
 }

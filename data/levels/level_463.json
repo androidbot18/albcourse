@@ -1,100 +1,42 @@
 {
  "level": 463,
- "title": "paq, afërsisht",
+ "title": "kafshë (more), qind (more), shmang",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "afërsisht",
-  "paq"
+  "kafshë",
+  "qind",
+  "shmang"
  ],
  "pos_mix": {
-  "adv": 2
+  "verb": 2,
+  "noun": 3
  },
  "words": [
   {
-   "id": "paq",
-   "sq": "paq",
-   "en": "clean, quite, well",
+   "id": "kafshoj",
+   "sq": "kafshoj",
+   "en": "to bite",
    "glosses": [
-    "clean, quite, well"
+    "to bite"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "clean, quite, well",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bite",
+     "tags": [
+      "transitive"
      ],
-     "examples": [],
-     "links": [
-      "clean",
-      "quite",
-      "well"
-     ]
-    }
-   ],
-   "rank": 5845,
-   "count": 125,
-   "family": "paq",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "afërsisht",
-   "sq": "afërsisht",
-   "en": "about, approximately",
-   "glosses": [
-    "about, approximately"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "about, approximately",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -117,14 +59,204 @@
      ],
      "examples": [],
      "links": [
-      "about",
-      "approximately"
+      "bite"
      ]
     }
    ],
-   "rank": 5862,
-   "count": 125,
-   "family": "afërsisht",
+   "rank": 8585,
+   "count": 78,
+   "family": "kafshë",
+   "is_root": false,
+   "etymology": "A derivative of kafshë + -oj. Alternatively (according to Meyer-Lübke) borrowed through Vulgar Latin from Late Latin captiō, from Latin captō. Other Latin proposals include Late Latin capsāre (Meyer) and most recently Late Latin capissere by Oryol. Given the two forms, dialectal ajsonj and Old Tosk najsonj, the older form of this word could have been *knavshonj.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kafshë",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kafshova",
+     "tag": "aorist"
+    },
+    {
+     "form": "kafshuar",
+     "tag": "participle"
+    },
+    {
+     "form": "ajsonj",
+     "tag": "alternative"
+    },
+    {
+     "form": "najsonj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is not like a dog's bite.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Kjo nuk është si një qen të kafshoj."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "qindarkë",
+   "sq": "qindarkë",
+   "en": "qindarkë, a hundredth of a lek",
+   "glosses": [
+    "qindarkë, a hundredth of a lek"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "qindarkë, a hundredth of a lek",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ar",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -kë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "nuk vlen asnjë qindarkë",
+       "en": "not worth a penny",
+       "offsets": [
+        [
+         15,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "qindarkë",
+      "lek"
+     ]
+    }
+   ],
+   "rank": 8587,
+   "count": 78,
+   "family": "qind",
+   "is_root": false,
+   "etymology": "From qind (“hundred”) + -ar + -kë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "hundred"
+   ],
+   "components": [
+    {
+     "word": "qind",
+     "role": "base"
+    },
+    {
+     "word": "ar",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qindarka",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "shmang",
+   "sq": "shmang",
+   "en": "to avoid, to prevent",
+   "glosses": [
+    "to avoid, to prevent"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to avoid, to prevent",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "avoid",
+      "prevent"
+     ]
+    }
+   ],
+   "rank": 8596,
+   "count": 78,
+   "family": "shmang",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -134,18 +266,196 @@
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [
+    {
+     "form": "shmangur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "So I tend to avoid that.",
+    "score": [
+     1,
+     4,
+     -3,
+     4
+    ],
+    "sq": "Ndaj përpiqem ta shmang."
+   }
+  },
+  {
+   "id": "kafshim",
+   "sq": "kafshim",
+   "en": "bite",
+   "glosses": [
+    "bite"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bite",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bite"
+     ]
+    }
+   ],
+   "rank": 12574,
+   "count": 49,
+   "family": "kafshë",
+   "is_root": false,
+   "etymology": "kafshoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kafshoj",
+     "role": "base",
+     "en": "to bite"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Approximately 1 hour.",
+    "en": "Not even a bite.",
     "score": [
      0,
-     2,
-     -2,
+     4,
+     -4,
      10
     ],
-    "sq": "Afërsisht 1 orë."
-   }
+    "sq": "As edhe një kafshim."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "kafshatë",
+   "sq": "kafshatë",
+   "en": "bite",
+   "glosses": [
+    "bite"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bite",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bite"
+     ]
+    }
+   ],
+   "rank": 15308,
+   "count": 37,
+   "family": "kafshë",
+   "is_root": false,
+   "etymology": "From kafshoj (“to bite”) + -atë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kafshoj",
+     "role": "base"
+    },
+    {
+     "word": "atë",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kafshata",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How's that for a mouthful?",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Si është kjo për një kafshatë?"
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

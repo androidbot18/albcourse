@@ -1,26 +1,24 @@
 {
  "level": 181,
- "title": "ha, gjendje",
- "root": "",
- "root_gloss": "",
+ "title": "vjedh",
+ "root": "vjedh",
+ "root_gloss": "to steal",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 2,
  "families": [
-  "gjendje",
-  "ha"
+  "vjedh"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 3
+  "verb": 2
  },
  "words": [
   {
-   "id": "ngrënë",
-   "sq": "ngrënë",
-   "en": "eat, past form (from ha, to eat)",
+   "id": "vjedh",
+   "sq": "vjedh",
+   "en": "to steal",
    "glosses": [
-    "eat, past form (from ha, to eat)"
+    "to steal"
    ],
    "pos": [
     "verb"
@@ -32,40 +30,20 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "eat, past form (from ha, to eat)",
-     "tags": [
-      "form-of",
-      "participle"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "gloss": "to steal",
+     "tags": [],
+     "cats": [],
      "examples": [],
-     "is_form_of": "ha"
+     "links": [
+      "steal"
+     ]
     }
    ],
-   "rank": 889,
-   "count": 1073,
-   "family": "ha",
-   "is_root": false,
-   "etymology": "Standard Tosk form of Gheg hangër. From Proto-Albanian *engranti, from Proto-Indo-European *gʷerh₃- (“to swallow, devour, eat”).",
+   "rank": 2546,
+   "count": 327,
+   "family": "vjedh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
    "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
@@ -75,42 +53,48 @@
    "related": [],
    "forms": [
     {
-     "form": "ngranë",
-     "tag": "alternative"
+     "form": "vodha",
+     "tag": "aorist"
+    },
+    {
+     "form": "vjedhur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A year without eating.",
+    "en": "It steals data from you.",
     "score": [
-     0,
-     4,
-     -4,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Një vit pa ngrënë."
+    "sq": "Ajo vjedh të dhëna nga ju."
    }
   },
   {
-   "id": "gjendje",
-   "sq": "gjendje",
-   "en": "situation, state, condition",
+   "id": "vjedhur",
+   "sq": "vjedhur",
+   "en": "steal, past form (from vjedh, to steal)",
    "glosses": [
-    "situation, state, condition"
+    "steal, past form (from vjedh, to steal)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "situation, state, condition",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "steal, past form (from vjedh, to steal)",
      "tags": [
-      "feminine"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -133,18 +117,14 @@
       }
      ],
      "examples": [],
-     "links": [
-      "situation",
-      "state",
-      "condition"
-     ]
+     "is_form_of": "vjedh"
     }
    ],
-   "rank": 892,
-   "count": 1072,
-   "family": "gjendje",
-   "is_root": true,
-   "etymology": "A gerund gjej.",
+   "rank": 948,
+   "count": 1004,
+   "family": "vjedh",
+   "is_root": false,
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -152,232 +132,18 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "gjendje",
-     "tag": "plural"
-    },
-    {
-     "form": "gjendja",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "is in poor condition.",
+    "en": "Have you ever stolen?",
     "score": [
      0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "është në gjendje të keqe."
-   }
-  },
-  {
-   "id": "hamendje",
-   "sq": "hamendje",
-   "en": "guess",
-   "glosses": [
-    "guess",
-    "hypothesis"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "guess",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "67 33"
-      },
-      {
-       "name": "Albanian terms prefixed with ha-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "80 20"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "80 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "guess"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hypothesis",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hypothesis"
-     ]
-    }
-   ],
-   "rank": 24907,
-   "count": 19,
-   "family": "ha",
-   "is_root": false,
-   "etymology": "From ha- + mendje.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ha",
-     "role": "prefix"
-    },
-    {
-     "word": "mendje",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hamendje",
-     "tag": "plural"
-    },
-    {
-     "form": "hamendja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No more guessing.",
-    "score": [
-     1,
-     4,
+     3,
      -3,
      10
     ],
-    "sq": "Nuk ka më hamendje."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "hamendësoj",
-   "sq": "hamendësoj",
-   "en": "to guess; speculate",
-   "glosses": [
-    "to guess; speculate"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to guess; speculate",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "guess",
-      "speculate"
-     ]
-    }
-   ],
-   "rank": 32764,
-   "count": 13,
-   "family": "ha",
-   "is_root": false,
-   "etymology": "From hamendje + -oj (verb suffix).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "hamendje",
-     "role": "base"
-    },
-    {
-     "word": "oj",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "hamendësova",
-     "tag": "aorist"
-    },
-    {
-     "form": "hamendësuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "how i can guess about wining numbers?",
-    "score": [
-     3,
-     7,
-     -4,
-     10
-    ],
-    "sq": "si mund të hamendësoj për numrat fitues?"
-   },
-   "breakdown": "historical"
+    "sq": "Ke vjedhur ndonjëherë?"
+   }
   }
- ],
- "continues": [
-  "ha"
  ]
 }

@@ -1,41 +1,45 @@
 {
  "level": 207,
- "title": "mesazh, tridhjetë, dy",
+ "title": "lexoj, ferr, luan +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 5,
  "families": [
-  "dy",
-  "mesazh",
-  "tridhjetë"
+  "ferr",
+  "lexoj",
+  "luan",
+  "plotësisht"
  ],
  "pos_mix": {
-  "noun": 1,
-  "num": 3
+  "verb": 2,
+  "noun": 3,
+  "adv": 1
  },
  "words": [
   {
-   "id": "mesazh",
-   "sq": "mesazh",
-   "en": "message",
+   "id": "lexuar",
+   "sq": "lexuar",
+   "en": "read, past form (from lexoj, to read)",
    "glosses": [
-    "message"
+    "read, past form (from lexoj, to read)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "message",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "read, past form (from lexoj, to read)",
      "tags": [
-      "masculine"
+      "form-of",
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -57,28 +61,88 @@
        "source": "w"
       }
      ],
-     "examples": [
+     "examples": [],
+     "is_form_of": "lexoj"
+    }
+   ],
+   "rank": 1170,
+   "count": 794,
+   "family": "lexoj",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I read on.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Kam lexuar në."
+   }
+  },
+  {
+   "id": "ferr",
+   "sq": "ferr",
+   "en": "hell, heck",
+   "glosses": [
+    "hell, heck"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hell, heck",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
       {
-       "sq": "I dërgova mesazh.",
-       "en": "I sent them a message.",
-       "offsets": [
-        [
-         10,
-         16
-        ]
-       ]
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
+     "examples": [],
      "links": [
-      "message"
+      "hell",
+      "heck"
      ]
     }
    ],
-   "rank": 953,
-   "count": 1001,
-   "family": "mesazh",
+   "rank": 1171,
+   "count": 794,
+   "family": "ferr",
    "is_root": true,
-   "etymology": "Borrowed from French message.",
+   "etymology": "Borrowed through Vulgar Latin from Latin īnfernus.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -88,44 +152,228 @@
    "related": [],
    "forms": [
     {
-     "form": "mesazhe",
-     "tag": "plural"
-    },
-    {
-     "form": "mesazhi",
+     "form": "ferri",
      "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Go to hell.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Shkojnë në ferr."
+   }
   },
   {
-   "id": "tridhjetë",
-   "sq": "tridhjetë",
-   "en": "thirty",
+   "id": "luan",
+   "sq": "luan",
+   "en": "lion",
    "glosses": [
-    "thirty"
+    "lion",
+    "brave, valiant, courageous"
    ],
    "pos": [
-    "num"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "thirty",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lion",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "87 13"
+      },
+      {
+       "name": "Pages with 6 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 4 20 20 20 7 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "zoology",
+      "lion"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brave, valiant, courageous",
+     "tags": [
+      "also",
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "brave",
+      "valiant",
+      "courageous"
+     ]
+    }
+   ],
+   "rank": 1173,
+   "count": 792,
+   "family": "luan",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin leō, leōnem.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "luanë",
+     "tag": "plural"
+    },
+    {
+     "form": "luani",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "She's playing with her food.",
+    "score": [
+     1,
+     4,
+     -3,
+     5
+    ],
+    "sq": "Po luan me ushqimin."
+   }
+  },
+  {
+   "id": "plotësisht",
+   "sq": "plotësisht",
+   "en": "fully, completely, entirely, totally, thoroughly, wholly",
+   "glosses": [
+    "fully, completely, entirely, totally, thoroughly, wholly"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "fully, completely, entirely, totally, thoroughly, wholly",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian cardinal numbers",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fully",
+      "completely",
+      "entirely"
+     ]
+    }
+   ],
+   "rank": 1174,
+   "count": 791,
+   "family": "plotësisht",
+   "is_root": true,
+   "etymology": "From plotësi + -sht.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He was fully human.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Ai ishte plotësisht njeri."
+   }
+  },
+  {
+   "id": "lexoj",
+   "sq": "lexoj",
+   "en": "to read",
+   "glosses": [
+    "to read"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to read",
+     "tags": [],
+     "cats": [
+      {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -139,211 +387,43 @@
      ],
      "examples": [],
      "links": [
-      "thirty"
+      "read"
      ]
     }
    ],
-   "rank": 5856,
-   "count": 125,
-   "family": "tridhjetë",
+   "rank": 1814,
+   "count": 478,
+   "family": "lexoj",
    "is_root": true,
-   "etymology": "From tri f (“three”) + dhjetë (“ten”). This forms confirms the feminine gender of dhjetë, also shown in Romanian douăzeci.",
-   "etymology_class": "affix",
+   "etymology": "From Venetan lezer, compare Italian leggere.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "three",
-    "ten"
-   ],
-   "components": [
-    {
-     "word": "dhjetë",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "lexova",
+     "tag": "aorist"
+    },
+    {
+     "form": "lexuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's been round as thirty days.",
+    "corpus": "QED",
+    "en": "Can I not read?",
     "score": [
      0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kanë kaluar rreth tridhjetë ditë."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "dymbëdhjetë",
-   "sq": "dymbëdhjetë",
-   "en": "twelve",
-   "glosses": [
-    "twelve"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "twelve",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -mbëdhjetë",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "twelve"
-     ]
-    }
-   ],
-   "rank": 6015,
-   "count": 120,
-   "family": "dy",
-   "is_root": false,
-   "etymology": "From dy (“two”) + -mbëdhjetë (“-teen”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "two"
-   ],
-   "components": [
-    {
-     "word": "dy",
-     "role": "base"
-    },
-    {
-     "word": "mbëdhjetë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "it was twelve men.",
-    "score": [
-     1,
      4,
-     -3,
-     10
+     -4,
+     5
     ],
-    "sq": "ajo ishte dymbëdhjetë burra."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "dyzet",
-   "sq": "dyzet",
-   "en": "forty",
-   "glosses": [
-    "forty"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "forty",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -zet",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "forty"
-     ]
-    }
-   ],
-   "rank": 11203,
-   "count": 57,
-   "family": "dy",
-   "is_root": false,
-   "etymology": "From dy (“two”) + -zet (“twenty”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "two",
-    "twenty"
-   ],
-   "components": [
-    {
-     "word": "dy",
-     "role": "base"
-    },
-    {
-     "word": "zet",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "for these forty days.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "për këto dyzet ditë."
-   },
-   "breakdown": "historical"
+    "sq": "Nuk mund të lexoj?"
+   }
   }
- ],
- "continues": [
-  "dy"
  ]
 }

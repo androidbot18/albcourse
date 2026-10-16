@@ -67,15 +67,16 @@ def main(argv):
     corpus_examples = {c["word"]: c["corpus_example"] for c in cards
                        if c.get("corpus_example") is not None}
 
-    levels = bc.assign_levels(cards, families,
-                              components=bc.by_word_components(cards),
-                              opening=bc.opening_levels.LEVELS)
+    levels = bc.schedule_course(cards, families,
+                                components=bc.by_word_components(cards),
+                                opening=bc.opening_levels.LEVELS)
     level_objs = bc.write_levels(levels, by_word, corpus_examples)
 
     report_path = os.path.join(bc.OUT, "report.json")
     with open(report_path, encoding="utf-8") as fh:
         report = json.load(fh)
     report["levels"] = len(level_objs)
+    report["main_levels"] = sum(1 for l in level_objs if not l.get("extended"))
     with open(report_path, "w", encoding="utf-8") as fh:
         json.dump(report, fh, ensure_ascii=False, indent=1)
 

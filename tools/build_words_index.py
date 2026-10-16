@@ -131,6 +131,9 @@ def main():
                     "en": w["en"],
                     "rank": w.get("rank"),
                     "level": w.get("level") or level.get("level"),
+                    # The optional extended track (RECOMMENDATIONS.md 3.6):
+                    # the app introduces these only when the learner opts in.
+                    **({"extended": True} if level.get("extended") else {}),
                     "family": w.get("family"),
                     "is_root": bool(w.get("is_root")),
                     # A card never ships a repeated label like

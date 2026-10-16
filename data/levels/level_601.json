@@ -1,30 +1,143 @@
 {
  "level": 601,
- "title": "ryshfet, platformë, sirtar +3",
+ "title": "mbart, nofkë, gjellë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "dembel",
-  "komshi",
-  "platformë",
-  "prajs",
-  "ryshfet",
-  "sirtar"
+  "gjellë",
+  "gjymtyrë",
+  "kikirik",
+  "mbart",
+  "nofkë",
+  "theksoj"
  ],
  "pos_mix": {
-  "noun": 10,
-  "adj": 2
+  "verb": 4,
+  "noun": 6
  },
  "words": [
   {
-   "id": "ryshfet",
-   "sq": "ryshfet",
-   "en": "bribe",
+   "id": "mbart",
+   "sq": "mbart",
+   "en": "to carry, transport, convey",
    "glosses": [
-    "bribe"
+    "to carry, transport, convey",
+    "to carry over",
+    "to possess, hold"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to carry, transport, convey",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "carry",
+      "transport",
+      "convey"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to carry over",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "16 68 16"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 57 21"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 71 14"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to possess, hold",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 20040,
+   "count": 26,
+   "family": "mbart",
+   "is_root": true,
+   "etymology": "Prefixed form of bart, from Proto-Albanian *bar-, from Proto-Indo-European *bʰor-eyō, further from *bʰer- (“to bear, to carry”). Compare Ancient Greek φορέω (phoréō).\nCognate to Illyrian *bardia (“id”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "mbaroj",
+    "mbarë"
+   ],
+   "forms": [
+    {
+     "form": "mbarta",
+     "tag": "aorist"
+    },
+    {
+     "form": "mbartur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "carries the message of joy.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "mbart mesazhin e gëzim."
+   }
+  },
+  {
+   "id": "nofkë",
+   "sq": "nofkë",
+   "en": "nickname",
+   "glosses": [
+    "nickname"
    ],
    "pos": [
     "noun"
@@ -36,9 +149,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bribe",
+     "gloss": "nickname",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -62,17 +175,17 @@
      ],
      "examples": [],
      "links": [
-      "bribe"
+      "nickname"
      ]
     }
    ],
-   "rank": 14868,
-   "count": 39,
-   "family": "ryshfet",
+   "rank": 20049,
+   "count": 26,
+   "family": "nofkë",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish رشوت (rüşvet), from Arabic رِشْوَة (rišwa).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
+   "etymology": "From South Slavic *novъka (“new (name)”); compare Serbo-Croatian Novka (a woman's first name)).",
+   "etymology_class": null,
+   "source_lang": "sr",
    "cognate": null,
    "parents": [],
    "components": [],
@@ -80,340 +193,175 @@
    "related": [],
    "forms": [
     {
-     "form": "ryshfete",
+     "form": "nofka",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It is a nickname for us.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Është një nofkë për ne."
+   }
+  },
+  {
+   "id": "gjellë",
+   "sq": "gjellë",
+   "en": "food",
+   "glosses": [
+    "food",
+    "life"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "food",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "food"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "life",
+     "tags": [
+      "dated",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "life"
+     ]
+    }
+   ],
+   "rank": 20059,
+   "count": 26,
+   "family": "gjellë",
+   "is_root": true,
+   "etymology": "Singularized plural of gjallë (“alive”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "alive"
+   ],
+   "components": [],
+   "derived": [
+    "egjëll",
+    "gjellëbërës",
+    "gjellëtar",
+    "gjellëtari",
+    "gjellëtore",
+    "gjellëz",
+    "gjëllij"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjellë",
      "tag": "plural"
     },
     {
-     "form": "ryshfeti",
+     "form": "gjella",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "If someone demands a bribe, resist.",
-    "score": [
-     1,
-     5,
-     -4,
-     8
-    ],
-    "sq": "Nëse dikush kërkon ryshfet, rezistoni."
-   }
-  },
-  {
-   "id": "platformë",
-   "sq": "platformë",
-   "en": "platform; podium",
-   "glosses": [
-    "platform; podium",
-    "platform (for railroads, etc.)",
-    "landing (of a staircase)",
-    "running board (of a car)",
-    "platform, programme"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "platform; podium",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 12 16 22 9"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 19 22 23 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 18 20 23 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "platform",
-      "podium"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "platform (for railroads, etc.)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 19 22 23 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 18 20 23 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "platform"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "landing (of a staircase)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 19 22 23 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 18 20 23 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "landing"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "running board (of a car)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 19 22 23 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 18 20 23 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "running board"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "platform, programme",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Politics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Politics",
-       "langcode": "sq"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 19 22 23 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 18 20 23 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "politics",
-      "platform",
-      "programme"
-     ]
-    }
-   ],
-   "rank": 14873,
-   "count": 39,
-   "family": "platformë",
-   "is_root": true,
-   "etymology": "Borrowed from French plate-forme.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "platforma",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
     "corpus": "HPLT",
-    "en": "any other platform.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "çdo platformë tjetër."
-   }
-  },
-  {
-   "id": "sirtar",
-   "sq": "sirtar",
-   "en": "drawer (in furniture)",
-   "glosses": [
-    "drawer (in furniture)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "drawer (in furniture)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "drawer"
-     ]
-    }
-   ],
-   "rank": 14878,
-   "count": 39,
-   "family": "sirtar",
-   "is_root": true,
-   "etymology": "Borrowed from Greek συρτάρι (syrtári).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "sirtarë",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is difficult to put in a drawer.",
+    "en": "What kind of dish you want to cook today?",
     "score": [
      0,
      9,
      -9,
      10
     ],
-    "sq": "Është e vështirë për të vënë në një sirtar."
+    "sq": "Çfarë lloj gjellë që ju doni të gatuaj sot?"
    }
   },
   {
-   "id": "komshi",
-   "sq": "komshi",
-   "en": "neighbour",
+   "id": "theksoj",
+   "sq": "theksoj",
+   "en": "to emphasize, to accentuate",
    "glosses": [
-    "neighbour"
+    "to emphasize, to accentuate"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "neighbour",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to emphasize, to accentuate",
      "tags": [
-      "colloquial",
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
@@ -437,13 +385,14 @@
      ],
      "examples": [],
      "links": [
-      "neighbour"
+      "emphasize",
+      "accentuate"
      ]
     }
    ],
-   "rank": 14908,
-   "count": 39,
-   "family": "komshi",
+   "rank": 20063,
+   "count": 26,
+   "family": "theksoj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -455,57 +404,45 @@
    "related": [],
    "forms": [
     {
-     "form": "komshinj",
-     "tag": "plural"
-    },
-    {
-     "form": "komshiu",
-     "tag": "definite"
+     "form": "theksuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "I mean zero.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "E theksoj zero."
+   }
   },
   {
-   "id": "prajs",
-   "sq": "prajs",
-   "en": "resting place for cattle during heat; shady spot for resting (see mriz)",
+   "id": "gjymtyrë",
+   "sq": "gjymtyrë",
+   "en": "limb",
    "glosses": [
-    "resting place for cattle during heat; shady spot for resting (see mriz)",
-    "a short resting place, usually near a water source or spring",
-    "infectious, contagious"
+    "limb",
+    "extremity"
    ],
    "pos": [
     "noun",
-    "noun",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
     "noun",
-    "noun",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "resting place for cattle during heat; shady spot for resting (see mriz)",
+     "gloss": "limb",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "resting place",
-      "shady spot",
-      "mriz"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a short resting place, usually near a water source or spring",
-     "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -513,82 +450,100 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "28 31 41"
-      },
-      {
-       "name": "Pages using invalid parameters when calling Template:sq-adj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "25 29 46"
+       "_dis": "91 9"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "11 27 61"
+       "_dis": "80 20"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "90 10"
       }
      ],
      "examples": [],
      "links": [
-      "resting",
-      "water source",
-      "spring"
+      "limb"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "infectious, contagious",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "extremity",
+     "tags": [
+      "feminine"
+     ],
      "cats": [],
      "examples": [],
      "links": [
-      "infectious",
-      "contagious"
+      "extremity"
      ]
     }
    ],
-   "rank": 14935,
-   "count": 39,
-   "family": "prajs",
+   "rank": 20076,
+   "count": 26,
+   "family": "gjymtyrë",
    "is_root": true,
-   "etymology": "? Derived from praj",
-   "etymology_class": null,
+   "etymology": "Borrowed through Vulgar Latin from Latin jūnctūra.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "i gjymtë",
+    "gjymtoj"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "prajs",
-     "tag": "feminine"
+     "form": "gjymtyrë",
+     "tag": "plural"
+    },
+    {
+     "form": "gjymtyra",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Life Without Limbs.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Jeta Pa gjymtyrë."
+   }
   },
   {
-   "id": "dembel",
-   "sq": "dembel",
-   "en": "lazy",
+   "id": "kikirik",
+   "sq": "kikirik",
+   "en": "peanut",
    "glosses": [
-    "lazy"
+    "peanut"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "lazy",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "peanut",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -611,16 +566,16 @@
      ],
      "examples": [],
      "links": [
-      "lazy"
+      "peanut"
      ]
     }
    ],
-   "rank": 14947,
-   "count": 39,
-   "family": "dembel",
+   "rank": 20082,
+   "count": 26,
+   "family": "kikirik",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish تنبل (tembel, dembel), from Classical Persian تنبل (tanbal).",
-   "etymology_class": "borrowed",
+   "etymology": "Ultimately from Italian chicchi ricchi (\"rich grains\"), compare Serbo-Croatian kikiriki.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -629,25 +584,26 @@
    "related": [],
    "forms": [
     {
-     "form": "dembele",
-     "tag": "feminine"
+     "form": "kikirikë",
+     "tag": "plural"
     },
     {
-     "form": "demel",
-     "tag": "alternative"
+     "form": "kikiriku",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Is there such a thing as lazy money?",
+    "en": "Equal mix groundnut oil and fresh lemon juice.",
     "score": [
-     0,
+     4,
      9,
-     -9,
+     -5,
      10
     ],
-    "sq": "A ka një gjë të tillë si para dembel?"
+    "sq": "barabartë përzierje vaj kikirik dhe lëng i freskët limoni."
    }
   }
- ]
+ ],
+ "extended": true
 }

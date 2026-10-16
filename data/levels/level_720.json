@@ -1,30 +1,30 @@
 {
  "level": 720,
- "title": "hambar, vendimtar, hardhi +3",
+ "title": "serë, uroj (more), asgjësoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "hambar",
-  "hardhi",
-  "imam",
-  "pajtim",
-  "rrepë",
-  "vendimtar"
+  "asgjësoj",
+  "flas",
+  "idhull",
+  "nofull",
+  "serë",
+  "uroj"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 1
+  "noun": 8,
+  "verb": 1
  },
  "words": [
   {
-   "id": "hambar",
-   "sq": "hambar",
-   "en": "granary",
+   "id": "serë",
+   "sq": "serë",
+   "en": "tar",
    "glosses": [
-    "granary"
+    "tar"
    ],
    "pos": [
     "noun"
@@ -36,8 +36,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "granary",
-     "tags": [],
+     "gloss": "tar",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -46,7 +48,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,47 +62,67 @@
      ],
      "examples": [],
      "links": [
-      "granary"
+      "tar"
      ]
     }
    ],
-   "rank": 31013,
-   "count": 14,
-   "family": "hambar",
+   "rank": 39102,
+   "count": 10,
+   "family": "serë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Slavic *sěra (“sulphur”). Cognate to Serbo-Croatian sjera, Bulgarian сяра (sjara).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "sulphur"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What will you grow in the greenhouse.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Çfarë do të rriteni në serë."
+   }
   },
   {
-   "id": "vendimtar",
-   "sq": "vendimtar",
-   "en": "decisive, determining",
+   "id": "urim",
+   "sq": "urim",
+   "en": "congratulation",
    "glosses": [
-    "decisive, determining"
+    "congratulation"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "decisive, determining",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "congratulation",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -110,70 +132,82 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "decisive",
-      "determining"
+      "congratulation"
      ]
     }
    ],
-   "rank": 31141,
-   "count": 14,
-   "family": "vendimtar",
-   "is_root": true,
-   "etymology": "",
+   "rank": 39135,
+   "count": 10,
+   "family": "uroj",
+   "is_root": false,
+   "etymology": "From uroj + -im.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "uroj",
+     "role": "base",
+     "en": "to congratulate"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vendimtare",
-     "tag": "feminine"
+     "form": "urime",
+     "tag": "plural"
+    },
+    {
+     "form": "urimi",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Testing is crucial!",
+    "en": "Especially when this wish comes from Kosovo.",
     "score": [
      1,
-     3,
-     -2,
+     9,
+     -8,
      10
     ],
-    "sq": "Testimi është vendimtar!"
-   }
+    "sq": "Aq më shumë kur ky urim vjen nga Kosova."
+   },
+   "breakdown": "transparent"
   },
   {
-   "id": "hardhi",
-   "sq": "hardhi",
-   "en": "vine-branch, grape-vine, shot of a vine",
+   "id": "asgjësoj",
+   "sq": "asgjësoj",
+   "en": "to annihilate",
    "glosses": [
-    "vine-branch, grape-vine, shot of a vine"
+    "to annihilate"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "vine-branch, grape-vine, shot of a vine",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to annihilate",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -196,47 +230,53 @@
      ],
      "examples": [],
      "links": [
-      "vine",
-      "branch",
-      "grape"
+      "annihilate"
      ]
     }
    ],
-   "rank": 31212,
-   "count": 14,
-   "family": "hardhi",
+   "rank": 39143,
+   "count": 10,
+   "family": "asgjësoj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *harδ, the etymology is unknown.",
-   "etymology_class": "inherited",
+   "etymology": "From the verbalization of asgjë (“nothing”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "nothing"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "hardhi",
-     "tag": "plural"
+     "form": "asgjësova",
+     "tag": "aorist"
     },
     {
-     "form": "hardhia",
-     "tag": "definite"
-    },
-    {
-     "form": "ardhi",
-     "tag": "alternative"
+     "form": "asgjësuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Colonize and annihilate the enemy.",
+    "score": [
+     2,
+     4,
+     -2,
+     10
+    ],
+    "sq": "Kolonizuar dhe asgjësoj armikun."
+   }
   },
   {
-   "id": "pajtim",
-   "sq": "pajtim",
-   "en": "accord, accordance, placation, conciliation",
+   "id": "nofull",
+   "sq": "nofull",
+   "en": "jaw, jawbone",
    "glosses": [
-    "accord, accordance, placation, conciliation",
-    "subscription"
+    "jaw, jawbone",
+    "clamp"
    ],
    "pos": [
     "noun",
@@ -250,7 +290,235 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "accord, accordance, placation, conciliation",
+     "gloss": "jaw, jawbone",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "89 11"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "jaw",
+      "jawbone"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "clamp",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "clamp"
+     ]
+    }
+   ],
+   "rank": 39160,
+   "count": 10,
+   "family": "nofull",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin in offulā, from offula (“small bit”); compare Neapolitan gnuòffele, guòffole (“jawbone”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "jawbone"
+   ],
+   "components": [],
+   "derived": [
+    "nofulldalë",
+    "nofullgjerë",
+    "nofullor",
+    "nofullshtrëmbër"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "nofulla",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "Now I have no jaw left at all.",
+    "score": [
+     0,
+     7,
+     -7,
+     4
+    ],
+    "sq": "Tani nuk më ka mbetur më nofull."
+   }
+  },
+  {
+   "id": "folje",
+   "sq": "folje",
+   "en": "utterance, speaking, speech, talk",
+   "glosses": [
+    "utterance, speaking, speech, talk",
+    "verb"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "utterance, speaking, speech, talk",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "utterance",
+      "speaking",
+      "speech"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "verb",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Linguistics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Linguistics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 69"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "linguistics",
+      "verb"
+     ]
+    }
+   ],
+   "rank": 39206,
+   "count": 10,
+   "family": "flas",
+   "is_root": false,
+   "etymology": "From fol (“speak”) + -je. Same sense as English speaking, from speak + -ing.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "speak"
+   ],
+   "components": [
+    {
+     "word": "fol",
+     "role": "base",
+     "en": "you (sg)! (from flas"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [
+    "fjalë",
+    "fjalim",
+    "fjalor",
+    "flas",
+    "fol"
+   ],
+   "forms": [
+    {
+     "form": "folje",
+     "tag": "plural"
+    },
+    {
+     "form": "folja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "It's a verb.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Ajo është folje."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "idhull",
+   "sq": "idhull",
+   "en": "idol",
+   "glosses": [
+    "idol"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "idol",
      "tags": [
       "masculine"
      ],
@@ -259,264 +527,156 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "92 8"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "94 6"
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "accord",
-      "accordance",
-      "placation"
+      "idol"
      ]
+    }
+   ],
+   "rank": 39219,
+   "count": 10,
+   "family": "idhull",
+   "is_root": true,
+   "etymology": "From Latin idolum, from Ancient Greek εἴδωλον (eídōlon, “image, idol”).",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "cognate": "from Latin idolum",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "idhuj",
+     "tag": "plural"
     },
+    {
+     "form": "idhulli",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I had him as an idol.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Atë e kam pasur si idhull."
+   }
+  },
+  {
+   "id": "asgjësim",
+   "sq": "asgjësim",
+   "en": "annihilation, destruction",
+   "glosses": [
+    "annihilation, destruction"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "subscription",
+     "gloss": "annihilation, destruction",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
        "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "subscription"
+      "annihilation",
+      "destruction"
      ]
     }
    ],
-   "rank": 31227,
-   "count": 14,
-   "family": "pajtim",
-   "is_root": true,
-   "etymology": "From pajtoj + -im.",
+   "rank": 45912,
+   "count": 7,
+   "family": "asgjësoj",
+   "is_root": false,
+   "etymology": "From asgjësoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Compliance is key here.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Pajtim është kyç këtu."
-   }
-  },
-  {
-   "id": "rrepë",
-   "sq": "rrepë",
-   "en": "turnip",
-   "glosses": [
-    "turnip",
-    "beet"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
+   "components": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "turnip",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Crucifers",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Crucifers",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "85 15"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "turnip"
-     ]
+     "word": "asgjësoj",
+     "role": "base",
+     "en": "to annihilate"
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "beet",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Caryophyllales order plants",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Caryophyllales order plants",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "beet"
-     ]
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
-   "rank": 31329,
-   "count": 14,
-   "family": "rrepë",
-   "is_root": true,
-   "etymology": "A term with multiple plausible etymologies. Either from Latin rāpum (“turnip”), Ancient Greek ῥάπυς (rhápus, “turnip”), or Proto-Slavic *rěpa (“turnip, beet”), or natively from Proto-Indo-European *(s)rā́ps. First attested as rrap, producing the contemporary form through plural metaphony and the Arberësh form rrapë. Due to the variant between e and a between standard and archaic, it supports a non-slavic origin.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "rrepa",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It can be potatoes, onions, mushrooms, carrots, turnips.",
-    "score": [
-     3,
-     8,
-     -5,
-     10
-    ],
-    "sq": "Mund të jenë patate, qepë, kërpudha, karrota, rrepë."
-   }
-  },
-  {
-   "id": "imam",
-   "sq": "imam",
-   "en": "imam",
-   "glosses": [
-    "imam"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "imam",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "imam"
-     ]
-    }
-   ],
-   "rank": 31374,
-   "count": 14,
-   "family": "imam",
-   "is_root": true,
-   "etymology": "From Ottoman Turkish امام (imam), from Arabic إِمَام (ʔimām).",
-   "etymology_class": "borrowed",
-   "source_lang": "tr",
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "imamë",
+     "form": "asgjësime",
      "tag": "plural"
     },
     {
-     "form": "imami",
+     "form": "asgjësimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Is he the Imam Mahdi?",
+    "en": "to the authorized recycler for disposal.",
     "score": [
-     1,
-     5,
-     -4,
+     3,
+     6,
+     -3,
      10
     ],
-    "sq": "A është ai Imam Mehdiu?"
-   }
+    "sq": "tek ricikluesi i autorizuar për asgjësim."
+   },
+   "breakdown": "transparent"
   }
- ]
+ ],
+ "extended": true
 }

@@ -1,40 +1,43 @@
 {
  "level": 470,
- "title": "pengesë, këmishë, qershi +1",
+ "title": "parë (more), negativ, barazim +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 8,
  "families": [
-  "këmishë",
-  "pengesë",
-  "qershi",
-  "udhëtoj"
+  "adhurues",
+  "barazim",
+  "bimë",
+  "ditar",
+  "negativ",
+  "parë"
  ],
  "pos_mix": {
-  "noun": 7,
-  "verb": 2
+  "adj": 3,
+  "noun": 5,
+  "verb": 3
  },
  "words": [
   {
-   "id": "pengesë",
-   "sq": "pengesë",
-   "en": "hindrance, obstacle, hurdle, impediment, barrier, encumbrance, impasse",
+   "id": "mëparshëm",
+   "sq": "mëparshëm",
+   "en": "former",
    "glosses": [
-    "hindrance, obstacle, hurdle, impediment, barrier, encumbrance, impasse"
+    "former"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hindrance, obstacle, hurdle, impediment, barrier, encumbrance, impasse",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "former",
      "tags": [],
      "cats": [
       {
@@ -58,357 +61,99 @@
      ],
      "examples": [],
      "links": [
-      "hindrance",
-      "obstacle",
-      "hurdle"
+      "former"
      ]
     }
    ],
-   "rank": 6186,
-   "count": 116,
-   "family": "pengesë",
-   "is_root": true,
-   "etymology": "Borrowed from a Vulgar Latin derivative of Latin pedica.",
-   "etymology_class": "borrowed",
+   "rank": 8964,
+   "count": 75,
+   "family": "parë",
+   "is_root": false,
+   "etymology": "From më + parë + -shëm.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "më",
+     "role": "prefix"
+    },
+    {
+     "word": "parë",
+     "role": "stem"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But there is also a drawback.",
+    "en": "previous level.",
     "score": [
-     0,
-     5,
-     -5,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Por ka edhe një pengesë."
-   }
-  },
-  {
-   "id": "këmishë",
-   "sq": "këmishë",
-   "en": "shirt",
-   "glosses": [
-    "shirt",
-    "placenta",
-    "wrapping"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "shirt",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Këmishën ta lashë në dollap.",
-       "en": "I left your shirt in the wardrobe.",
-       "offsets": [
-        [
-         0,
-         8
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "shirt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "placenta",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "placenta"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wrapping",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 24 73"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 19 74"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 13 83"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "technical",
-      "wrapping"
-     ]
-    }
-   ],
-   "rank": 6187,
-   "count": 116,
-   "family": "këmishë",
-   "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin camisia (“shirt”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "shirt"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "këmishë",
-     "tag": "plural"
-    },
-    {
-     "form": "këmisha",
-     "tag": "definite"
-    },
-    {
-     "form": "kmishë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "qershor",
-   "sq": "qershor",
-   "en": "June",
-   "glosses": [
-    "June",
-    "The first month in the Albanian pagan calendar"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "June",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 34"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "June"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "The first month in the Albanian pagan calendar",
-     "tags": [
-      "archaic",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 83"
-      },
-      {
-       "name": "Albanian terms suffixed with -or (month)",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 86"
-      }
-     ],
-     "examples": [],
-     "links": []
-    }
-   ],
-   "rank": 6188,
-   "count": 116,
-   "family": "qershi",
-   "is_root": false,
-   "etymology": "Borrowed from Vulgar Latin *cerasiārium (“June”). By surface analysis, qershi (“cherry”) + -or.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "June"
-   ],
-   "components": [
-    {
-     "word": "qershi",
-     "role": "base"
-    },
-    {
-     "word": "or",
-     "role": "suffix"
-    }
-   ],
-   "derived": [
-    "qershore"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "qershori",
-     "tag": "definite"
-    },
-    {
-     "form": "qërshor",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "June to decide the shades.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Qershor për të vendosur hije."
+    "sq": "nivelin e mëparshëm."
    },
    "breakdown": "historical"
   },
   {
-   "id": "udhëtoj",
-   "sq": "udhëtoj",
-   "en": "to travel",
+   "id": "negativ",
+   "sq": "negativ",
+   "en": "negative",
    "glosses": [
-    "to travel",
-    "to commute"
+    "negative"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to travel",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "travel"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to commute",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "negative",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 70"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "19 81"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "commute"
+      "negative"
      ]
     }
    ],
-   "rank": 6202,
-   "count": 116,
-   "family": "udhëtoj",
+   "rank": 8973,
+   "count": 75,
+   "family": "negativ",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -417,39 +162,31 @@
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "udhëtar",
-    "udhëtim",
-    "udhëtues"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "udhëtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "udhëtuar",
-     "tag": "participle"
+     "form": "negative",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have been able to travel.",
+    "corpus": "QED",
+    "en": "How far is negative 3 from 0?",
     "score": [
      0,
-     4,
-     -4,
-     10
+     5,
+     -5,
+     5
     ],
-    "sq": "Kam mundur të udhëtoj."
+    "sq": "Sa larg është negativ 3 nga 0?"
    }
   },
   {
-   "id": "qershi",
-   "sq": "qershi",
-   "en": "cherry",
+   "id": "barazim",
+   "sq": "barazim",
+   "en": "identity",
    "glosses": [
-    "cherry"
+    "identity"
    ],
    "pos": [
     "noun"
@@ -461,8 +198,170 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "cherry",
-     "tags": [],
+     "gloss": "identity",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "barazim i gradës së dytë",
+       "en": "quadratics equation",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mathematics",
+      "identity"
+     ]
+    }
+   ],
+   "rank": 8978,
+   "count": 75,
+   "family": "barazim",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "barazimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ditar",
+   "sq": "ditar",
+   "en": "diary",
+   "glosses": [
+    "diary"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "diary",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "diary"
+     ]
+    }
+   ],
+   "rank": 8992,
+   "count": 74,
+   "family": "ditar",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ditarë",
+     "tag": "plural"
+    },
+    {
+     "form": "ditari",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Maybe even a diary.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Mbase edhe ditar."
+   }
+  },
+  {
+   "id": "adhurues",
+   "sq": "adhurues",
+   "en": "admirer",
+   "glosses": [
+    "admirer"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "admirer",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -485,53 +384,415 @@
      ],
      "examples": [],
      "links": [
-      "cherry"
+      "admirer"
      ]
     }
    ],
-   "rank": 12817,
-   "count": 47,
-   "family": "qershi",
+   "rank": 8999,
+   "count": 74,
+   "family": "adhurues",
    "is_root": true,
-   "etymology": "From Ancient Greek κεράσιον (kerásion, “cherry”), from κερασός (kerasós, “bird cherry”). Alternatively possibly partly through Vulgar Latin and Late Latin ceresia, from Latin ceresium, from the same Greek root. Compare Romanian cireașă, Aromanian cireashi.",
-   "etymology_class": "derived",
-   "source_lang": "el",
-   "cognate": "from Greek κεράσιον",
-   "parents": [
-    "cherry"
-   ],
+   "etymology": "From adhuroj.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qershi",
+     "form": "adhurues",
      "tag": "plural"
     },
     {
-     "form": "qershia",
+     "form": "adhuruesi",
      "tag": "definite"
     },
     {
-     "form": "qërrshi",
-     "tag": "alternative"
-    },
-    {
-     "form": "qurrshi",
-     "tag": "alternative"
+     "form": "adhuruese",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "And the cherry on top?",
+    "en": "Welcome, steak lovers.",
     "score": [
-     0,
-     4,
-     -4,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Dhe qershi në krye?"
+    "sq": "Mirë se vini, adhurues të biftekut."
    }
+  },
+  {
+   "id": "bimë",
+   "sq": "bimë",
+   "en": "plant",
+   "glosses": [
+    "plant",
+    "girl"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "plant",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "plant"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "girl",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Dogançe Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "girl"
+     ]
+    }
+   ],
+   "rank": 9006,
+   "count": 74,
+   "family": "bimë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *būmā, from Proto-Indo-European *bʰuH- (“to grow”) (compare Ancient Greek φῦμα (phûma), German Baum (“tree”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "tree"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [
+    "bij",
+    "mbij",
+    "bisht",
+    "bisk"
+   ],
+   "forms": [
+    {
+     "form": "bimë",
+     "tag": "plural"
+    },
+    {
+     "form": "bima",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "plant is back!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "bimë është kthyer!"
+   }
+  },
+  {
+   "id": "përparoj",
+   "sq": "përparoj",
+   "en": "to advance",
+   "glosses": [
+    "to advance",
+    "to progress",
+    "to improve"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to advance",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 33 25"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 29 22"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 29 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "advance"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to progress",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 35 27"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 34 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "progress"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to improve",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "38 35 27"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 34 31"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "improve"
+     ]
+    }
+   ],
+   "rank": 33251,
+   "count": 12,
+   "family": "parë",
+   "is_root": false,
+   "etymology": "From për- + parë + -oj verb suffix.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "parë",
+     "role": "stem"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "përparim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "përparova",
+     "tag": "aorist"
+    },
+    {
+     "form": "përparuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "parësor",
+   "sq": "parësor",
+   "en": "primary",
+   "glosses": [
+    "primary"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "primary",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësor",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "primary"
+     ]
+    }
+   ],
+   "rank": 44089,
+   "count": 8,
+   "family": "parë",
+   "is_root": false,
+   "etymology": "From parë (“first”) + -ësor.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "first"
+   ],
+   "components": [
+    {
+     "word": "parë",
+     "role": "base"
+    },
+    {
+     "word": "ësor",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "parësore",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "You can only have one primary residence.",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "Ju mund të keni vetëm një banim parësor."
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

@@ -1,41 +1,38 @@
 {
  "level": 150,
- "title": "zë",
- "root": "zë",
- "root_gloss": "to take, occupy",
+ "title": "zjarr, bardhë",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 3,
  "families": [
-  "zë"
+  "bardhë",
+  "zjarr"
  ],
  "pos_mix": {
-  "verb": 6,
-  "noun": 9
+  "noun": 17,
+  "adj": 4
  },
  "words": [
   {
-   "id": "zë",
-   "sq": "zë",
-   "en": "to take, occupy",
+   "id": "zjarr",
+   "sq": "zjarr",
+   "en": "fire",
    "glosses": [
-    "to take, occupy",
-    "to do, make",
-    "to grab, snatch, seize",
-    "to catch",
-    "soul, mind",
-    "willpower",
-    "voice",
-    "characteristic sound of something",
-    "vote",
-    "item (of goods, on a list), entry (in a ledger or dictionary)",
-    "reputation"
+    "fire",
+    "family, house, clan",
+    "fever",
+    "fire (a gun or shells)",
+    "in heat (of animals)",
+    "uncontrollable, impulsive",
+    "to express peak quality of a verb or adjective",
+    "passion, desire, fervor",
+    "peak of an activity"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
+    "noun",
+    "noun",
     "noun",
     "noun",
     "noun",
@@ -45,10 +42,8 @@
     "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
+    "noun",
+    "noun",
     "noun",
     "noun",
     "noun",
@@ -59,146 +54,175 @@
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to take, occupy",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "take",
-      "occupy"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to do, make",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "do",
-      "make"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to grab, snatch, seize",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "grab",
-      "snatch",
-      "seize"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to catch",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "catch"
-     ]
-    },
-    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "soul, mind",
-     "tags": [
-      "Arbëresh"
-     ],
-     "cats": [
-      {
-       "name": "Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "soul",
-      "mind"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "willpower",
-     "tags": [
-      "Arbëresh"
-     ],
-     "cats": [
-      {
-       "name": "Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "willpower"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "voice",
+     "gloss": "fire",
      "tags": [
       "masculine"
      ],
      "cats": [],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Near-synonym: flakë",
+       "en": "",
+       "offsets": []
+      }
+     ],
      "links": [
-      "voice"
+      "fire"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "characteristic sound of something",
+     "gloss": "family, house, clan",
      "tags": [
       "masculine"
      ],
      "cats": [
       {
-       "name": "Albanian undefined derivations",
+       "name": "Ethnography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Ethnography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "9 24 9 9 18 0 0 12 0 10 9"
+       "_dis": "3 17 7 7 10 3 27 22 3"
       }
      ],
+     "examples": [],
+     "links": [
+      "ethnography",
+      "family",
+      "house"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fever",
+     "tags": [
+      "masculine",
+      "singular"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "singular",
+      "fever"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fire (a gun or shells)",
+     "tags": [
+      "masculine",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Military",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Military",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "singular",
+      "military",
+      "fire"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "in heat (of animals)",
+     "tags": [
+      "masculine",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 17 7 7 10 3 27 22 3"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 14 7 12 19 6 25 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 8 5 7 10 4 57 4 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "singular",
+      "heat"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "uncontrollable, impulsive",
+     "tags": [
+      "adjective",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 17 7 7 10 3 27 22 3"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "uncontrollable",
+      "impulsive"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "to express peak quality of a verb or adjective",
+     "tags": [
+      "adverb",
+      "masculine"
+     ],
+     "cats": [],
      "examples": [],
      "links": []
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vote",
+     "gloss": "passion, desire, fervor",
      "tags": [
-      "dated",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "vote"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "item (of goods, on a list), entry (in a ledger or dictionary)",
-     "tags": [
-      "masculine"
+      "figuratively",
+      "masculine",
+      "singular"
      ],
      "cats": [
       {
@@ -206,163 +230,416 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 8 3 3 25 9 9 16 9 12 3"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "3 3 3 3 39 9 9 9 9 10 3"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 4 4 4 38 8 8 8 8 11 4"
+       "_dis": "3 17 7 7 10 3 27 22 3"
       }
      ],
      "examples": [],
      "links": [
-      "item",
-      "entry"
+      "singular",
+      "passion",
+      "desire"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "reputation",
+     "gloss": "peak of an activity",
      "tags": [
       "figuratively",
-      "masculine"
+      "masculine",
+      "singular"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "reputation"
+      "singular",
+      "peak"
      ]
     }
    ],
-   "rank": 934,
-   "count": 1025,
-   "family": "zë",
+   "rank": 759,
+   "count": 1303,
+   "family": "zjarr",
    "is_root": true,
-   "etymology": "From Proto-Albanian *j́u̯anʉh, from Proto-Indo-European *ǵʰwonos. Compare Messapic den (“voice”) Serbo-Croatian zvono (“bell”), Armenian ձայն (jayn, “voice”).",
-   "etymology_class": "inherited",
+   "etymology": "From Proto-Albanian *dźerm-, from Proto-Indo-European *gʷʰer-mós (whence Ancient Greek θερμός (thermós), Old Armenian ջերմ (ǰerm)), from *gʷʰer- (“hot, warm”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "zënkë"
+    "kundërzjarr",
+    "zjarrdurues",
+    "zjarrdurueshmëri",
+    "zjarrfikës",
+    "zjarrfikëse",
+    "zjarrim",
+    "zjarrisht",
+    "zjarrishtë"
    ],
-   "related": [
-    "i zënë",
-    "zihem",
-    "nxë",
-    "zeje"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "zura",
-     "tag": "aorist"
+     "form": "zjarm",
+     "tag": "alternative"
     },
     {
-     "form": "zënë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I didn't make a sound.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Nuk bëra zë."
-   }
-  },
-  {
-   "id": "zënë",
-   "sq": "zënë",
-   "en": "take, past form (from zë, to take)",
-   "glosses": [
-    "take, past form (from zë, to take)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
+     "form": "zjerëm",
+     "tag": "alternative"
+    },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "take, past form (from zë, to take)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "zë"
+     "form": "zjem",
+     "tag": "alternative"
     }
    ],
-   "rank": 680,
-   "count": 1492,
-   "family": "zë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "You are busy.",
+    "en": "It s a fire.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Ju jeni të zënë."
+    "sq": "Ajo është një zjarr."
    }
   },
   {
-   "id": "zërin",
-   "sq": "zërin",
-   "en": "the to take, singular (from zë, to take)",
+   "id": "bardhë",
+   "sq": "bardhë",
+   "en": "white",
    "glosses": [
-    "the to take, singular (from zë, to take)"
+    "white",
+    "blank, unwritten",
+    "lucky, fortunate",
+    "pure, clean, immaculate",
+    "white animal",
+    "fair-skinned girl",
+    "white (colour)",
+    "white (of the eye). sclera",
+    "egg white, albumen",
+    "good deed",
+    "Characters from folklore resembling girls living in forests, often mischievous when angry."
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "white",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Colors",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "kalë i bardhë",
+       "en": "white horse",
+       "offsets": [
+        [
+         7,
+         13
+        ]
+       ]
+      },
+      {
+       "sq": "verë e bardhë",
+       "en": "white wine",
+       "offsets": [
+        [
+         7,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "white"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "blank, unwritten",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "çek i bardhë",
+       "en": "blank cheque",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "blank",
+      "unwritten"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "lucky, fortunate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ditë të bardha",
+       "en": "white days",
+       "offsets": [
+        [
+         8,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "lucky",
+      "fortunate"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "pure, clean, immaculate",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "pure",
+      "clean",
+      "immaculate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "white animal",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "white",
+      "animal"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fair-skinned girl",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "fair-skinned",
+      "girl"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "white (colour)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "white"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "white (of the eye). sclera",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "In full: e bardha e syrit",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "white",
+      "sclera"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "egg white, albumen",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "In full: e bardha e vezës",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "egg white",
+      "albumen"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "good deed",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "good",
+      "deed"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Characters from folklore resembling girls living in forests, often mischievous when angry.",
+     "tags": [
+      "feminine",
+      "in-plural"
+     ],
+     "cats": [
+      {
+       "name": "Characters from folklore",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Characters from folklore",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 5 4 4 1 25 1 1 4 7 40"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 4 1 0 1 30 1 1 3 5 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "girl",
+      "mischievous"
+     ]
+    }
+   ],
+   "rank": 760,
+   "count": 1303,
+   "family": "bardhë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *bardza, from Proto-Indo-European *bʰórh₁ǵos, from Proto-Indo-European *bʰerHǵ- (“to shine, whiten”), whence also Lithuanian brėkšti (“to dawn”), Proto-Slavic *brězgъ (“dawn, daybreak”), Proto-Germanic *berhtaz (“bright, shining”), Persian برازیدن (barâzidan, “to beautify”), Sanskrit भ्राजते (bhrājate, “he shines”) or Sanskrit ब्रध्न (bradhna, “yellowish, ruddy”). Possibly closely related to Illyrian Βάρδυλις (Bárdulis) and Messapic barzidihi, see the entries for more.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "bardho",
+    "bardhol",
+    "bardhosh",
+    "bardhulin",
+    "dhebardhë",
+    "fatbardhë",
+    "zbardhëllemë",
+    "zbardhues"
+   ],
+   "related": [
+    "Bardh",
+    "Bardhyl"
+   ],
+   "forms": [
+    {
+     "form": "bardha",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "zjarrit",
+   "sq": "zjarrit",
+   "en": "the fire, singular (from zjarr)",
+   "glosses": [
+    "the fire, singular (from zjarr)"
    ],
    "pos": [
     "noun"
@@ -374,9 +651,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the to take, singular (from zë, to take)",
+     "gloss": "the fire, singular (from zjarr)",
      "tags": [
-      "accusative",
+      "ablative",
+      "dative",
       "definite",
       "form-of",
       "singular"
@@ -402,12 +680,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "zë"
+     "is_form_of": "zjarr"
     }
    ],
-   "rank": 1698,
-   "count": 518,
-   "family": "zë",
+   "rank": 1799,
+   "count": 484,
+   "family": "zjarr",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -420,194 +698,15 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "said the voice.",
+    "en": "It is fire resistant.",
     "score": [
      1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "E njohu zërin."
-   }
-  },
-  {
-   "id": "zëvendës",
-   "sq": "zëvendës",
-   "en": "deputy, vice-",
-   "glosses": [
-    "deputy, vice-"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "deputy, vice-",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "politics",
-      "deputy",
-      "vice-"
-     ]
-    }
-   ],
-   "rank": 6237,
-   "count": 115,
-   "family": "zë",
-   "is_root": false,
-   "etymology": "zë (“take”) + vend (“place”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "take",
-    "place"
-   ],
-   "components": [
-    {
-     "word": "zë",
-     "role": "prefix"
-    },
-    {
-     "word": "vend",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "zëvendës",
-     "tag": "plural"
-    },
-    {
-     "form": "zëvendësi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "His deputy was Squirrelflight.",
-    "score": [
-     2,
-     5,
+     4,
      -3,
      10
     ],
-    "sq": "Zëvendës i tij ishte Squirrelflight."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "përzë",
-   "sq": "përzë",
-   "en": "to cast out, expel, remove",
-   "glosses": [
-    "to cast out, expel, remove"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cast out, expel, remove",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with për-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cast out",
-      "expel",
-      "remove"
-     ]
-    }
-   ],
-   "rank": 32802,
-   "count": 13,
-   "family": "zë",
-   "is_root": false,
-   "etymology": "From për- + zë.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "për",
-     "role": "prefix"
-    },
-    {
-     "word": "zë",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përzura",
-     "tag": "aorist"
-    },
-    {
-     "form": "përzënë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null,
-   "breakdown": "historical"
+    "sq": "Është rezistent ndaj zjarrit."
+   }
   }
  ]
 }

@@ -1,45 +1,45 @@
 {
  "level": 695,
- "title": "pusht, gravitet, kanoçe +3",
+ "title": "zyrë (more), brumë, grumbull (more) +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "emigrant",
-  "gravitet",
-  "kanoçe",
-  "mjellmë",
-  "orkestër",
-  "pusht"
+  "botues",
+  "brumë",
+  "grumbull",
+  "këmbej",
+  "trysni",
+  "zyrë"
  ],
  "pos_mix": {
-  "noun": 7
+  "adj": 2,
+  "noun": 4,
+  "verb": 3,
+  "adv": 1
  },
  "words": [
   {
-   "id": "pusht",
-   "sq": "pusht",
-   "en": "bastard, playboy, womanizer",
+   "id": "jozyrtar",
+   "sq": "jozyrtar",
+   "en": "unofficial",
    "glosses": [
-    "bastard, playboy, womanizer"
+    "unofficial"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bastard, playboy, womanizer",
-     "tags": [
-      "masculine",
-      "vulgar"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "unofficial",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -48,13 +48,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian terms prefixed with jo-",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,48 +62,56 @@
      ],
      "examples": [],
      "links": [
-      "bastard",
-      "playboy",
-      "womanizer"
+      "unofficial"
      ]
     }
    ],
-   "rank": 26452,
-   "count": 17,
-   "family": "pusht",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 34071,
+   "count": 12,
+   "family": "zyrë",
+   "is_root": false,
+   "etymology": "From jo- + zyrtar.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "jo",
+     "role": "prefix"
+    },
+    {
+     "word": "zyrtar",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pushti",
-     "tag": "definite"
+     "form": "jozyrtare",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This PushtEd is the power-regime we touch every day.",
+    "en": "Sending us an informal email is sufficient.",
     "score": [
      3,
      9,
      -6,
      10
     ],
-    "sq": "Ky PushtEd është regjimi-pusht që prekim çdo ditë."
-   }
+    "sq": "Një mesazh jozyrtar me E-mail është i mjaftueshëm."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "gravitet",
-   "sq": "gravitet",
-   "en": "gravity",
+   "id": "brumë",
+   "sq": "brumë",
+   "en": "dough",
    "glosses": [
-    "gravity"
+    "dough"
    ],
    "pos": [
     "noun"
@@ -115,7 +123,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "gravity",
+     "gloss": "dough",
      "tags": [
       "masculine"
      ],
@@ -127,7 +135,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -141,38 +149,136 @@
      ],
      "examples": [],
      "links": [
-      "physics",
-      "gravity"
+      "dough"
      ]
     }
    ],
-   "rank": 26485,
-   "count": 17,
-   "family": "gravitet",
+   "rank": 34072,
+   "count": 12,
+   "family": "brumë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *bruma, from Proto-Indo-European *bʰréwmn̥, from the root *bʰrew(h₁)- (compare Old English burme (“leaven”), Latin fermentum (“leaven, yeast”)), from *bʰrewh₁- (“to boil, seethe”) (compare English brew). The term is based on a Proto-Albanian *-bru- (“to knead\"”), seen also in mbruj (“to knead”), zbruj (“to soak, soften; become soft”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "leaven"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "graviteti",
+     "form": "brumëra",
      "tag": "plural"
+    },
+    {
+     "form": "brumi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Discard all this dough.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Hedh gjithë këtë brumë."
+   }
   },
   {
-   "id": "kanoçe",
-   "sq": "kanoçe",
-   "en": "a small hut",
+   "id": "grumbulloj",
+   "sq": "grumbulloj",
+   "en": "to pile up, to gather up, to amass",
    "glosses": [
-    "a small hut",
-    "tin, can (metal drinking container)"
+    "to pile up, to gather up, to amass"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pile up, to gather up, to amass",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pile up",
+      "gather",
+      "amass"
+     ]
+    }
+   ],
+   "rank": 34102,
+   "count": 12,
+   "family": "grumbull",
+   "is_root": false,
+   "etymology": "From grumbull + -oj.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "grumbull",
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "grumbullova",
+     "tag": "aorist"
+    },
+    {
+     "form": "grumbulluar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "trysni",
+   "sq": "trysni",
+   "en": "pressure",
+   "glosses": [
+    "pressure",
+    "pressure, influence"
    ],
    "pos": [
     "noun",
@@ -186,7 +292,123 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "a small hut",
+     "gloss": "pressure",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Physics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Physics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "73 27"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "trysnia e ajrit",
+       "en": "air's pressure",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "physics",
+      "pressure"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pressure, influence",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ni",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pressure",
+      "influence"
+     ]
+    }
+   ],
+   "rank": 34144,
+   "count": 12,
+   "family": "trysni",
+   "is_root": true,
+   "etymology": "From trys + -ni.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "trys",
+    "ndrys"
+   ],
+   "forms": [
+    {
+     "form": "trysni",
+     "tag": "plural"
+    },
+    {
+     "form": "trysnia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "këmbej",
+   "sq": "këmbej",
+   "en": "to exchange, trade off",
+   "glosses": [
+    "to exchange, trade off",
+    "to reciprocate"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to exchange, trade off",
      "tags": [],
      "cats": [
       {
@@ -194,157 +416,205 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "78 22"
+       "_dis": "67 33"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "61 39"
+       "_dis": "67 33"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "80 20"
+       "_dis": "81 19"
       }
      ],
      "examples": [],
      "links": [
-      "hut"
+      "exchange",
+      "trade",
+      "off"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "tin, can (metal drinking container)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to reciprocate",
      "tags": [],
      "cats": [],
+     "examples": [],
+     "links": [
+      "reciprocate"
+     ]
+    }
+   ],
+   "rank": 34179,
+   "count": 12,
+   "family": "këmbej",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kambjɔnit (> third person singular këmben), borrowed from Vulgar Latin *cambiō, from Late Latin cambīre, from Latin cambium, from Gaulish cambion.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "këmbim"
+   ],
+   "related": [
+    "shkëmbej",
+    "shkëmbim"
+   ],
+   "forms": [
+    {
+     "form": "këmbeva",
+     "tag": "aorist"
+    },
+    {
+     "form": "këmbyer",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How can I pay for my order?",
+    "score": [
+     3,
+     6,
+     -3,
+     10
+    ],
+    "sq": "Si mund ta këmbej porosinë time?"
+   }
+  },
+  {
+   "id": "botues",
+   "sq": "botues",
+   "en": "publishing",
+   "glosses": [
+    "publishing",
+    "publisher"
+   ],
+   "pos": [
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "publishing",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -ues",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "82 18"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "91 9"
+      }
+     ],
      "examples": [
       {
-       "sq": "piu një kanoçe birrë",
-       "en": "he drank a can of beer",
+       "sq": "shtëpi botuese",
+       "en": "publishing house",
        "offsets": [
         [
-         8,
+         7,
          14
         ]
        ]
       }
      ],
      "links": [
-      "tin",
-      "can"
+      "publishing"
      ]
-    }
-   ],
-   "rank": 26605,
-   "count": 17,
-   "family": "kanoçe",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "orkestër",
-   "sq": "orkestër",
-   "en": "orchestra",
-   "glosses": [
-    "orchestra"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "orchestra",
+     "gloss": "publisher",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "27 73"
       }
      ],
      "examples": [],
      "links": [
-      "orchestra"
+      "publisher"
      ]
     }
    ],
-   "rank": 26649,
-   "count": 17,
-   "family": "orkestër",
+   "rank": 34224,
+   "count": 12,
+   "family": "botues",
    "is_root": true,
-   "etymology": "Borrowed from English orchestra.",
-   "etymology_class": "borrowed",
+   "etymology": "From botoj + -ues.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Entire orchestras can be created in this way.",
-    "score": [
-     1,
-     8,
-     -7,
-     10
-    ],
-    "sq": "Një orkestër e tërë mund të krijohet kështu."
-   }
+   "forms": [
+    {
+     "form": "botues",
+     "tag": "plural"
+    },
+    {
+     "form": "botuesi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "emigrant",
-   "sq": "emigrant",
-   "en": "emigrant",
+   "id": "jozyrtarisht",
+   "sq": "jozyrtarisht",
+   "en": "unofficially",
    "glosses": [
-    "emigrant"
+    "unofficially"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "emigrant",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "unofficially",
      "tags": [],
      "cats": [
       {
@@ -354,79 +624,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 14 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "emigrant"
-     ]
-    }
-   ],
-   "rank": 26659,
-   "count": 17,
-   "family": "emigrant",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Today I feel like an immigrant worker!",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Infantino: Sot ndihem punëtor emigrant!"
-   }
-  },
-  {
-   "id": "mjellmë",
-   "sq": "mjellmë",
-   "en": "swan (Cygnus)",
-   "glosses": [
-    "swan (Cygnus)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "swan (Cygnus)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
+       "name": "Albanian terms prefixed with jo-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -440,57 +638,45 @@
      ],
      "examples": [],
      "links": [
-      "swan"
+      "unofficially"
      ]
     }
    ],
-   "rank": 26705,
-   "count": 17,
-   "family": "mjellmë",
-   "is_root": true,
-   "etymology": "From miell, because of its color; from Proto-Indo-European *h₂élbʰos (“white”). Structurally identical with Lithuanian melmuõ (“kidney stone”), Old Saxon melm (“sand, dust”) and Old High German melm (“dust”), both Proto-Germanic forms from *malmaz, *malmōn.",
-   "etymology_class": null,
+   "rank": 49248,
+   "count": 7,
+   "family": "zyrë",
+   "is_root": false,
+   "etymology": "From jo- + zyrtarisht.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "white"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
+   "parents": [],
+   "components": [
     {
-     "form": "mjellma",
-     "tag": "plural"
+     "word": "jo",
+     "role": "prefix"
     },
     {
-     "form": "mjelmë",
-     "tag": "alternative"
-    },
-    {
-     "form": "mjellme",
-     "tag": "alternative"
-    },
-    {
-     "form": "mjellemë",
-     "tag": "alternative"
-    },
-    {
-     "form": "mjelleme",
-     "tag": "alternative"
+     "word": "zyrtarisht",
+     "role": "stem"
     }
    ],
+   "derived": [],
+   "related": [],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "However, individuals cannot derive swan from ice.",
+    "en": "Unofficially it is claimed that there was a quarrel between them.",
     "score": [
-     3,
+     2,
      9,
-     -6,
+     -7,
      10
     ],
-    "sq": "Megjithatë, individët nuk mund të nxjerrin mjellmë nga akulli."
-   }
+    "sq": "Jozyrtarisht pretendohet se ka pasur një grindje mes tyre."
+   },
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

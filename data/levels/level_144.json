@@ -1,118 +1,192 @@
 {
  "level": 144,
- "title": "histori, sërish",
+ "title": "bie, mbet, gjesh",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 4,
  "families": [
-  "histori",
-  "sërish"
+  "bie",
+  "gjesh",
+  "mbet"
  ],
  "pos_mix": {
-  "noun": 4,
-  "adv": 1
+  "verb": 9
  },
  "words": [
   {
-   "id": "histori",
-   "sq": "histori",
-   "en": "history",
+   "id": "bie",
+   "sq": "bie",
+   "en": "to fall (off)",
    "glosses": [
-    "history"
+    "to fall (off)",
+    "to tumble, flop",
+    "to beat, punch",
+    "to strike, punch",
+    "to bring",
+    "to deliver"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "history",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fall (off)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po bie në gjumë.",
+       "en": "I'm going to fall asleep.",
+       "offsets": [
+        [
+         3,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fall",
+      "off"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tumble, flop",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "tumble",
+      "flop"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to beat, punch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beat",
+      "punch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to strike, punch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "strike",
+      "punch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bring",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 11 11 11 35 19"
       }
      ],
      "examples": [],
      "links": [
-      "history"
+      "bring"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to deliver",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "deliver"
      ]
     }
    ],
-   "rank": 651,
-   "count": 1573,
-   "family": "histori",
+   "rank": 699,
+   "count": 1445,
+   "family": "bie",
    "is_root": true,
-   "etymology": "Learned borrowing from Latin historia.",
-   "etymology_class": null,
+   "etymology": "From dialectal bjej, bjer, from Proto-Albanian *bera, from Proto-Indo-European *bʰerH- (“to strike”) (compare Old English berian, Latin ferīre).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
+   "derived": [
+    "bie me dorë"
+   ],
+   "related": [
+    "mbaj",
+    "mbar",
+    "mbaroj"
+   ],
    "forms": [
     {
-     "form": "histori",
-     "tag": "plural"
+     "form": "prura",
+     "tag": "aorist"
     },
     {
-     "form": "historia",
-     "tag": "definite"
+     "form": "prurë",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "more stories.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Të tjera histori."
-   }
+   "corpus_example": null
   },
   {
-   "id": "sërish",
-   "sq": "sërish",
-   "en": "again, anew",
+   "id": "mbetur",
+   "sq": "mbetur",
+   "en": "stay, past form (from mbet, to stay)",
    "glosses": [
-    "again, anew"
+    "stay, past form (from mbet, to stay)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "again, anew",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "stay, past form (from mbet, to stay)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -134,17 +208,84 @@
       }
      ],
      "examples": [],
+     "is_form_of": "mbet"
+    }
+   ],
+   "rank": 701,
+   "count": 1439,
+   "family": "mbet",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Few people remain.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Pak njerëz kanë mbetur."
+   }
+  },
+  {
+   "id": "gjesh",
+   "sq": "gjesh",
+   "en": "to gird",
+   "glosses": [
+    "to gird"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gird",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
      "links": [
-      "again",
-      "anew"
+      "gird"
      ]
     }
    ],
-   "rank": 653,
-   "count": 1568,
-   "family": "sërish",
+   "rank": 709,
+   "count": 1432,
+   "family": "gjesh",
    "is_root": true,
-   "etymology": "",
+   "etymology": "From Proto-Albanian *(V)iōś-, from Proto-Indo-European *yeh₃s- (“to gird”). Cognate to Ancient Greek ζώννυμι (zṓnnumi, “to gird”) and Old Church Slavonic по-ꙗсати (po-jasati, “to gird”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -154,45 +295,48 @@
    "related": [],
    "forms": [
     {
-     "form": "sërishmi",
-     "tag": "alternative"
+     "form": "gjesha",
+     "tag": "aorist"
+    },
+    {
+     "form": "gjeshur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "He was at work again.",
+    "corpus": "HPLT",
+    "en": "Can't find anything?",
     "score": [
      0,
      5,
      -5,
-     5
+     10
     ],
-    "sq": "Ai ishte në punë sërish."
+    "sq": "Nuk mund të gjesh asgjë?"
    }
   },
   {
-   "id": "historinë",
-   "sq": "historinë",
-   "en": "the history, singular (from histori)",
+   "id": "rënë",
+   "sq": "rënë",
+   "en": "fall, past form (from bie, to fall)",
    "glosses": [
-    "the history, singular (from histori)"
+    "fall, past form (from bie, to fall)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the history, singular (from histori)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "fall, past form (from bie, to fall)",
      "tags": [
-      "accusative",
-      "definite",
       "form-of",
-      "singular"
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -215,12 +359,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "histori"
+     "is_form_of": "bie"
     }
    ],
-   "rank": 1313,
-   "count": 684,
-   "family": "histori",
+   "rank": 928,
+   "count": 1028,
+   "family": "bie",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -233,168 +377,15 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I just know the history.",
+    "en": "You have fallen too low.",
     "score": [
      0,
-     5,
-     -5,
+     4,
+     -4,
      10
     ],
-    "sq": "Unë vetëm e di historinë."
+    "sq": "Ke rënë shumë poshtë."
    }
-  },
-  {
-   "id": "historia",
-   "sq": "historia",
-   "en": "the history, singular (from histori)",
-   "glosses": [
-    "the history, singular (from histori)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the history, singular (from histori)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 18 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "histori"
-    }
-   ],
-   "rank": 1501,
-   "count": 590,
-   "family": "histori",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "That's the story.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Kjo është historia."
-   }
-  },
-  {
-   "id": "historian",
-   "sq": "historian",
-   "en": "historian",
-   "glosses": [
-    "historian"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "historian",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -an",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "historian"
-     ]
-    }
-   ],
-   "rank": 39671,
-   "count": 9,
-   "family": "histori",
-   "is_root": false,
-   "etymology": "From histori + -an.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "histori",
-     "role": "base"
-    },
-    {
-     "word": "an",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I am a historian and I know a lot about the sights.",
-    "score": [
-     2,
-     8,
-     -6,
-     10
-    ],
-    "sq": "Jam historian dhe i njoh shumë mirë pamjet."
-   },
-   "breakdown": "historical"
   }
  ]
 }
