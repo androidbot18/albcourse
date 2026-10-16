@@ -1,6 +1,6 @@
 {
  "level": 358,
- "title": "shfaq, publik, patë, shtyp, energji +3",
+ "title": "shfaq, publik, patë +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -131,7 +131,14 @@
    "components": [
     {
      "word": "shfaq",
-     "role": "prefix"
+     "role": "base",
+     "en": "to show"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [
@@ -151,7 +158,8 @@
      "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "transparent"
   },
   {
    "id": "publik",
@@ -683,6 +691,10 @@
    "parents": [],
    "components": [
     {
+     "word": "sh",
+     "role": "prefix"
+    },
+    {
      "word": "faqe",
      "role": "stem"
     }
@@ -712,7 +724,8 @@
      6
     ],
     "sq": "Shfaq dy nga."
-   }
+   },
+   "breakdown": "historical"
   }
  ]
 }

@@ -4,9 +4,17 @@
  * stats (progress dashboard). Progress lives in localStorage only.
  */
 
-import { GRADES, review, stage, STAGE_NAMES, summarise, buildQueue, newItem } from './srs.js';
+import { GRADES, review, isNew, stage, STAGE_NAMES, summarise, buildQueue, newItem } from './srs.js';
 import { createStore, exportProgress, importProgress } from './store.js';
-import { loadIndex, loadLevel, groupByFamily, sensesOf, firstExample, displayPosLabels } from './course.js';
+import { loadIndex, loadLevel, groupByFamily, sensesOf, firstExample, displayPosLabels, isReverseFriendly } from './course.js';
+
+/* New cards introduced per calendar day, across all presses of Review. */
+const NEW_PER_DAY = 20;
+/* English -> Albanian reviews are scheduled separately from Albanian -> English
+ * ones: recognising a word and producing it are different memories. The reverse
+ * item for word `x` is stored under `x~r`. */
+const REVERSE = '~r';
+const baseId = (key) => (key.endsWith(REVERSE) ? key.slice(0, -REVERSE.length) : key);
 
 const store = createStore(typeof localStorage !== 'undefined' ? localStorage : null);
 
@@ -14,6 +22,7 @@ const state = {
   progress: store.load(),
   index: [],
   words: new Map(),
+  teachingOrder: [],
   levelCache: new Map(),
   view: 'map',
   queue: [],
@@ -46,6 +55,20 @@ function itemFor(id) {
   return state.progress.items[id] || newItem(id);
 }
 
+function today() {
+  const t = new Date();
+  return t.getFullYear() * 10000 + (t.getMonth() + 1) * 100 + t.getDate();
+}
+
+function newIntroducedToday() {
+  const n = state.progress.stats.newToday;
+  return n && n.day === today() ? n.count : 0;
+}
+
+function startedWordCount() {
+  return new Set(Object.keys(state.progress.items).map(baseId)).size;
+}
+
 /* ------------------------------------------------------------ rendering */
 
 function render() {
@@ -57,7 +80,7 @@ function render() {
     b.classList.toggle('active', active);
     b.setAttribute('aria-current', active ? 'page' : 'false');
   }
-  const seen = Object.keys(state.progress.items).length;
+  const seen = startedWordCount();
   $('#seen-count').textContent = seen + ' words started';
 }
 
@@ -71,7 +94,7 @@ function viewMap(root) {
   root.append(head);
 
   const total = state.index.reduce((a, l) => a + l.word_count, 0);
-  const started = Object.keys(state.progress.items).length;
+  const started = startedWordCount();
   const track = el('div', 'progress-line');
   const fill = el('div', 'progress-fill');
   fill.style.width = Math.min(100, (started / Math.max(1, total)) * 100) + '%';
@@ -87,6 +110,10 @@ function viewMap(root) {
     // is secondary. "të, e, në +1" is meaningful, "3 fam" is not.
     b.append(el('span', 'lvl-root', l.title || String(l.level)));
     b.append(el('span', 'lvl-meta', l.word_count + 'w'));
+    if (l.patterns && l.patterns.length) {
+      b.append(el('span', 'lvl-pattern', l.patterns.join(' ')));
+      b.title = 'Introduces the pattern ' + l.patterns.join(', ');
+    }
     b.addEventListener('click', () => openLevel(l.level));
     grid.append(b);
   }
@@ -124,6 +151,7 @@ function viewLevel(root) {
   if (data.parts > 1) bits.push('part ' + data.part + ' of ' + data.parts);
   head.append(el('p', 'sub', bits.join(' \u00b7 ')));
   root.append(head);
+  for (const p of data.patterns || []) root.append(patternBox(p));
 
   for (const [family, words] of groupByFamily(data.words)) {
     const card = el('section', 'family');
@@ -133,21 +161,77 @@ function viewLevel(root) {
   }
 }
 
-/* The words a card is built from, rendered as e- + sille.
-   Only a real stem is worth teaching on, so a prefix-only card shows
-   the prefix alone. Returns null when the card has no components. */
-function componentsLine(w) {
+/* The words a card is built from, rendered as pa- + fund or mund + -ësi.
+   Roles: prefix (pa-), stem/base (fund, mund), suffix (-ësi).
+
+   A "transparent" breakdown predicts the meaning, so it is drawn as parts
+   with a gloss under each when `glosses` is set (pa- "un-, without" + fund
+   "end"). A "historical" one is a memory aid only -- përdor is për- + dorë
+   "hand", which nobody could guess -- so it is labelled as history and never
+   glossed: the stem's gloss there is often a long-lost sense.
+   Returns null when the card has no components. */
+const LEXICAL = new Set(['stem', 'base']);
+
+function partText(c) {
+  if (c.role === 'prefix') return c.word + '-';
+  if (c.role === 'suffix') return '-' + c.word;
+  return c.word;
+}
+
+function componentsLine(w, opts = {}) {
   const comps = (w && w.components) || [];
   if (!comps.length) return null;
-  const line = el('div', 'components');
-  line.append(document.createTextNode('from '));
+  const transparent = w.breakdown === 'transparent';
+  const line = el('div', 'components' + (transparent ? ' transparent' : ' historical'));
+  line.append(document.createTextNode(transparent ? 'built from ' : 'historically from '));
   comps.forEach((c, i) => {
     if (i) line.append(document.createTextNode(' + '));
-    const cls = c.role === 'stem' ? 'stem' : null;
-    const txt = c.role === 'stem' ? c.word : c.word + '-';
-    line.append(el('span', cls, txt));
+    const cls = 'part ' + (LEXICAL.has(c.role) ? 'stem' : 'affix');
+    const part = el('span', cls);
+    part.append(el('span', 'part-sq', partText(c)));
+    const gloss = LEXICAL.has(c.role) ? c.en : c.meaning;
+    if (transparent && gloss) {
+      if (opts.glosses) part.append(el('span', 'part-en', gloss));
+      else part.title = gloss;
+    }
+    line.append(part);
   });
   return line;
+}
+
+/* "Guess from the parts": the first time a transparent word comes up, and
+   the learner already knows the word it is built on, the prompt shows each
+   part's meaning and asks for the whole before revealing it. This is the
+   moment the roots idea pays off, so it is reserved for words where the
+   guess is actually possible. */
+function isGuessCard(w, id) {
+  if (!w || w.breakdown !== 'transparent' || id !== w.id) return false;
+  if (!isNew(state.progress.items[id])) return false;
+  const lex = (w.components || []).find((c) => LEXICAL.has(c.role));
+  return !!lex && !isNew(state.progress.items[lex.word]);
+}
+
+/* A pattern note: shown on the level where the learner meets the third
+   clear example of an affix, naming what they have been seeing. */
+function patternBox(p) {
+  const box = el('section', 'pattern');
+  const h = el('h2', null, 'Pattern: ' + p.label);
+  h.append(el('span', 'pattern-meaning', ' ' + p.meaning));
+  box.append(h);
+  box.append(el('p', null, p.summary));
+  const ex = el('ul', 'pattern-examples');
+  for (const e of p.examples) {
+    const li = el('li');
+    li.append(el('span', 'stem', e.stem));
+    if (e.stem_en) li.append(el('span', 'pattern-gloss', ' (' + e.stem_en + ')'));
+    li.append(document.createTextNode(' \u2192 '));
+    li.append(el('span', 'sq', e.sq));
+    li.append(el('span', 'pattern-gloss', ' (' + e.en + ')'));
+    ex.append(li);
+  }
+  box.append(ex);
+  box.append(el('p', 'pattern-note', p.note));
+  return box;
 }
 
 /* The source-language form, e.g. "from Latin soca".
@@ -168,7 +252,7 @@ function wordRow(w) {
   top.append(el('span', 'pos', displayPosLabels(w, 2).join(', ')));
   row.append(top);
   row.append(el('div', 'en', w.en));
-  const comps = componentsLine(w);
+  const comps = componentsLine(w, { glosses: true });
   if (comps) row.append(comps);
   const cog = cognateLine(w);
   if (cog) row.append(cog);
@@ -191,12 +275,19 @@ function wordRow(w) {
 /* ------------------------------------------------------------- reviewing */
 
 function startStudy() {
-  // The queue is built from every word in the deck, not just what has been
-  // seen: buildQueue treats an untracked word as new, which is how a learner
-  // gets their first twenty cards without having to open a level first.
+  // New cards follow the course: level by level, then by frequency inside a
+  // level. state.words alone is in frequency order, which scattered a first
+  // session across levels 1, 2, 192, 193 and 289.
+  const reverse = state.direction === 'en2sq';
   const pool = [];
-  for (const w of state.words.values()) pool.push(state.progress.items[w.id] || newItem(w.id));
-  const { due, fresh, truncatedNew } = buildQueue(pool, { newPerSession: 20 });
+  for (const w of state.teachingOrder) {
+    if (reverse && !isReverseFriendly(w)) continue;
+    const key = reverse ? w.id + REVERSE : w.id;
+    pool.push(state.progress.items[key] || newItem(key));
+  }
+  // The cap is per day, not per press: subtract what was already introduced.
+  const allowance = Math.max(0, NEW_PER_DAY - newIntroducedToday());
+  const { due, fresh, truncatedNew } = buildQueue(pool, { newPerSession: allowance });
   // buildQueue hands back scheduler items; the study view looks cards up by id,
   // so translate here rather than in the view where the mismatch hides.
   state.queue = [...due, ...fresh].map((it) => it.id);
@@ -204,27 +295,32 @@ function startStudy() {
   state.revealed = false;
   state.view = 'study';
   render();
-  if (!state.queue.length) flash('Nothing due right now.');
-  if (truncatedNew > 0) flash('Session capped at 20 new words. The rest wait for tomorrow.');
+  if (!state.queue.length) {
+    flash(allowance === 0 ? 'Daily limit of ' + NEW_PER_DAY + ' new words reached. Come back tomorrow.' : 'Nothing due right now.');
+  } else if (truncatedNew > 0) {
+    flash('Capped at ' + NEW_PER_DAY + ' new words a day. The rest wait for tomorrow.');
+  }
 }
 
 function viewStudy(root) {
   const id = state.queue[state.queuePos];
   if (!id) return viewDone(root);
 
-  const w = state.words.get(id);
+  const w = state.words.get(baseId(id));
   const bar = el('div', 'session-bar');
   bar.append(el('span', null, (state.queuePos + 1) + ' / ' + state.queue.length));
   const again = state.queue.filter((x, i) => x === id && i > state.queuePos).length;
   if (again) bar.append(el('span', 'sub', again + ' still to come today'));
   root.append(bar);
 
-  const forward = state.direction === 'sq2en';
+  const forward = !id.endsWith(REVERSE);
   const card = el('div', 'card' + (forward ? '' : ' reverse'));
   card.append(el('div', 'prompt-label', forward ? 'Albanian' : 'English'));
   card.append(el('div', 'prompt', forward ? w.sq : w.en));
+  const guess = forward && isGuessCard(w, id);
+  if (guess && !state.revealed) card.append(el('div', 'guess-label', 'New word. Guess it from the parts:'));
   if (forward) {
-    const sc = componentsLine(w);
+    const sc = componentsLine(w, { glosses: guess || state.revealed });
     if (sc) card.append(sc);
   }
 
@@ -307,11 +403,18 @@ function preview(item, grade) {
 }
 
 function grade(id, g) {
-  state.progress.items[id] = review(itemFor(id), g);
+  const before = itemFor(id);
+  if (isNew(before)) {
+    const n = newIntroducedToday();
+    state.progress.stats.newToday = { day: today(), count: n + 1 };
+  }
+  state.progress.items[id] = review(before, g);
   state.progress.stats.reviews += 1;
-  const t = new Date();
-  const day = t.getFullYear() * 10000 + (t.getMonth() + 1) * 100 + t.getDate();
+  const day = today();
   if (!state.progress.stats.days.includes(day)) state.progress.stats.days.push(day);
+  // A forgotten card comes back before the session ends. The scheduler only
+  // sets it due in 10 minutes; without this it vanished until the next visit.
+  if (g === GRADES.AGAIN) state.queue.push(id);
   commit();
   state.revealed = false;
   state.queuePos += 1;
@@ -326,7 +429,7 @@ function viewStats(root) {
   const head = el('div', 'view-head');
   head.append(el('h1', null, 'Progress'));
   head.append(el('p', 'sub', 'Saved on this device only. Nothing is uploaded.'));
-  head.append(el('div', 'big-stat', items.length + ' of ' + totalWords() + ' words started'));
+  head.append(el('div', 'big-stat', startedWordCount() + ' of ' + totalWords() + ' words started'));
   root.append(head);
 
   const list = el('div', 'stage-list');
@@ -398,11 +501,11 @@ function importBackup() {
 }
 
 function resetProgress() {
-  const seen = Object.keys(state.progress.items).length;
+  const seen = startedWordCount();
   if (!seen) return flash('There is nothing to reset.');
   if (!window.confirm('Delete all progress for ' + seen + ' words on this device? This cannot be undone.')) return;
   store.clear();
-  state.progress = { version: 1, items: {}, stats: { reviews: 0, days: [] } };
+  state.progress = store.load();
   state.levelCache.clear();
   flash('Progress cleared.');
   render();
@@ -428,17 +531,28 @@ function wire() {
     });
   }
   const dir = $('#direction');
-  if (dir) dir.addEventListener('change', () => { state.direction = dir.value; });
+  if (dir) {
+    dir.value = state.direction;
+    dir.addEventListener('change', () => {
+      state.direction = dir.value;
+      state.progress.prefs.direction = dir.value;
+      commit();
+      if (state.view === 'study') startStudy();
+    });
+  }
 }
 
 /* ----------------------------------------------------------------- boot */
 
 async function boot() {
+  state.direction = state.progress.prefs.direction === 'en2sq' ? 'en2sq' : 'sq2en';
   wire();
   try {
     const [idx, all] = await Promise.all([loadIndex(), loadWords()]);
     state.index = idx;
     for (const w of all.words) state.words.set(w.id, w);
+    state.teachingOrder = [...all.words].sort(
+      (a, b) => (a.level - b.level) || (a.rank - b.rank));
   } catch (err) {
     flash('Could not load the course. Serve this over http, not file://.');
   }

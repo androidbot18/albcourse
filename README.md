@@ -17,8 +17,8 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 
 | | |
 |---|---|
-| Words | 4,087 |
-| Levels | 767 |
+| Words | 4,086 |
+| Levels | 771 |
 | Word families | 3009 |
 | Families with more than one member | 523 |
 | Words containing ë / ç | 1,643 |
@@ -29,8 +29,11 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 rebuilt twice. They now come from `data/words.json`; check with
 `python3 tools/measure_learnability.py`.)
 
-Levels are ordered by corpus frequency, so level 1 is genuinely the first thing
-you should learn.
+Levels are ordered by when a word family's root becomes common enough to
+teach, with grammar words held back and some pictureable nouns pulled forward.
+This is an approximation, not a hand-built curriculum: the opening levels are
+not yet the ideal first words (see RECOMMENDATIONS.md, section 3). The Review
+tab follows level order, and new cards are capped at 20 per day.
 
 A level is a **session of whole word families**, not a frequency slice:
 
@@ -39,7 +42,7 @@ A level is a **session of whole word families**, not a frequency slice:
   arbitrary slice of the frequency list.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (572 of 767),
+  sessions; a level that mixes families is the normal case (576 of 771),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
@@ -53,6 +56,21 @@ A level is a **session of whole word families**, not a frequency slice:
 
 Levels are titled after the root they teach, the way a Wanikani level is named
 after the radical it unlocks.
+
+### Word parts and affix patterns
+
+The same `+` equations give each card its breakdown: `pa- + fund`,
+`mund + -ësi`. A breakdown is **transparent** when the parts predict the
+meaning (hand-reviewed; 191 words) and **historical** otherwise (`përdor` is
+`për-` + `dorë` "hand"; 577 words). Transparent ones are colour-coded with a
+meaning under each part, and the first review of one, once its base is known,
+asks you to guess the word from its parts.
+
+Eight affixes are taught as patterns (`-im`, `-je`, `-(ë)si`, `-shëm`,
+`-tar`, `pa-`, `-isht`, `-ues`), each on the level where you meet its third
+clear example. Most of the vocabulary is opaque roots and loans, so this is a
+layer on top of the deck, not its backbone. See `tools/affixes.py` and
+RECOMMENDATIONS.md section 2.
 
 ### How a word joins a family
 
@@ -121,7 +139,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        767 level descriptors, loaded first
+      index.json        771 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -155,7 +173,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (767 decks, 4,087 notes). It is
+That writes dist/albanian-roots-families.apkg (771 decks, 4,086 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

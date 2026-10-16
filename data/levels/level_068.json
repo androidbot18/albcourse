@@ -225,7 +225,14 @@
    "components": [
     {
      "word": "besoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to believe"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -241,7 +248,8 @@
      5
     ],
     "sq": "Jo. Ki besim!"
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "beso",
@@ -467,7 +475,37 @@
      10
     ],
     "sq": "Domethënë, ka akoma njerëz që e kanë këtë mosbesim."
-   }
+   },
+   "breakdown": "historical"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "im",
+   "label": "-im",
+   "meaning": "the act of (noun)",
+   "summary": "Turns a verb into the noun for doing it: mendoj (to think) → mendim (thought).",
+   "note": "-im is also the 'we' ending on verbs: flasim = we speak, ishim = we were. A word in -im is only a noun if a verb in -oj/-ej sits behind it.",
+   "examples": [
+    {
+     "sq": "mendim",
+     "en": "thought",
+     "stem": "mendoj",
+     "stem_en": "to think"
+    },
+    {
+     "sq": "vendim",
+     "en": "decision",
+     "stem": "vendos",
+     "stem_en": "to decide"
+    },
+    {
+     "sq": "besim",
+     "en": "belief",
+     "stem": "besoj",
+     "stem_en": "to believe"
+    }
+   ]
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "level": 380,
- "title": "kuzhinë, karrige, shkallë, dale, vepër +3",
+ "title": "kuzhinë, karrige, shkallë +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -540,7 +540,14 @@
    "components": [
     {
      "word": "veproj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to do something"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -565,7 +572,8 @@
      8
     ],
     "sq": "Jo veprim ushtarak."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "vepër",
@@ -746,7 +754,11 @@
    "components": [
     {
      "word": "vepër",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "oj",
+     "role": "suffix"
     }
    ],
    "derived": [
@@ -773,7 +785,8 @@
      10
     ],
     "sq": "Si të veproj?"
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "kryevepër",
@@ -863,7 +876,8 @@
      "tag": "plural"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
    "id": "veprimtari",
@@ -922,7 +936,11 @@
    "components": [
     {
      "word": "veprim",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "tari",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -938,7 +956,8 @@
      4
     ],
     "sq": "Ka shumë veprimtari në Kinë."
-   }
+   },
+   "breakdown": "historical"
   }
  ]
 }

@@ -38,6 +38,15 @@ const T0 = Date.UTC(2026, 0, 15, 12, 0, 0); // fixed clock, local time varies
 
 console.log('srs.js tests');
 
+// ------------------------------------------- a "1 day" card is due tomorrow
+{
+  const it = review(newItem('x'), GRADES.GOOD, T0);
+  eq(it.interval, 1, 'first Good pass is a 1 day interval');
+  const d = new Date(T0); d.setHours(0, 0, 0, 0);
+  const tomorrow = new Date(d); tomorrow.setDate(tomorrow.getDate() + 1);
+  eq(it.due, tomorrow.getTime(), '1 day interval is due at the start of tomorrow, not the day after');
+}
+
 // ---------------------------------------------------------------- basics
 {
   const it = newItem('marr');

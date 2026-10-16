@@ -75,7 +75,11 @@
    "components": [
     {
      "word": "përkthej",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "s",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -100,7 +104,8 @@
      8
     ],
     "sq": "Mund të mos kemi një përkthyes."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "përqafim",
@@ -162,7 +167,14 @@
    "components": [
     {
      "word": "përqafoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to embrace"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -187,7 +199,8 @@
      10
     ],
     "sq": "Asgjë më shumë se një përqafim plot dashuri."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "pranverë",
@@ -320,7 +333,8 @@
      10
     ],
     "sq": "Ejani në pranverë!"
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "përfaqësues",
@@ -420,7 +434,14 @@
    "components": [
     {
      "word": "përfaqësoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to represent"
+    },
+    {
+     "word": "ues",
+     "role": "suffix",
+     "affix": "ues",
+     "meaning": "one who does it"
     }
    ],
    "derived": [],
@@ -441,7 +462,8 @@
      8
     ],
     "sq": "A keni folur me njerëz, me përfaqësues?"
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "përcjellë",
@@ -504,7 +526,11 @@
    "components": [
     {
      "word": "përcjell",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "ë",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -525,7 +551,8 @@
      10
     ],
     "sq": "Si e keni përcjellë atë?"
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "përshkrim",
@@ -586,7 +613,14 @@
    "components": [
     {
      "word": "përshkruaj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to describe"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -611,7 +645,8 @@
      10
     ],
     "sq": "Përshkrim: Udhëtim epik."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "përkthim",
@@ -672,7 +707,14 @@
    "components": [
     {
      "word": "përkthej",
-     "role": "prefix"
+     "role": "base",
+     "en": "to translate"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -697,7 +739,8 @@
      8
     ],
     "sq": "*Do të ketë përkthim."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "përbërje",
@@ -780,7 +823,8 @@
      10
     ],
     "sq": "Por ata nuk kanë një përbërje të tillë."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "përgjithësisht",
@@ -834,7 +878,14 @@
    "components": [
     {
      "word": "përgjithshëm",
-     "role": "prefix"
+     "role": "base",
+     "en": "general"
+    },
+    {
+     "word": "isht",
+     "role": "suffix",
+     "affix": "isht",
+     "meaning": "-ly"
     }
    ],
    "derived": [],
@@ -854,7 +905,37 @@
      10
     ],
     "sq": "Përgjithësisht ashtu ndodhi."
-   }
+   },
+   "breakdown": "transparent"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "ues",
+   "label": "-ues",
+   "meaning": "one who does it",
+   "summary": "The person who does a verb in -oj: mësoj (to teach) → mësues (teacher), lexoj (to read) → lexues (reader).",
+   "note": "The feminine is -uese (mësuese). Do not confuse it with -ueshëm (-able), which is -shëm on the same stem.",
+   "examples": [
+    {
+     "sq": "mësues",
+     "en": "teacher",
+     "stem": "mësoj",
+     "stem_en": "to teach"
+    },
+    {
+     "sq": "lexues",
+     "en": "reader",
+     "stem": "lexoj",
+     "stem_en": "to read"
+    },
+    {
+     "sq": "përfaqësues",
+     "en": "representative",
+     "stem": "përfaqësoj",
+     "stem_en": "to represent"
+    }
+   ]
   }
  ]
 }

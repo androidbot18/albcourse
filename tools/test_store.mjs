@@ -207,6 +207,13 @@ function throwingLS() {
   eq(res.progress.items.x.reps, 1, 'import keeps the fields it understands');
 }
 
+{
+  const n = normalise({ stats: { reviews: 1, days: [], newToday: { day: 20260115, count: 7 } }, prefs: { direction: 'en2sq' } });
+  eq(n.stats.newToday.count, 7, 'the daily new-card count survives a reload');
+  eq(n.prefs.direction, 'en2sq', 'the direction preference survives a reload');
+  eq(normalise({ prefs: { direction: 'bogus' } }).prefs.direction, undefined, 'a bad direction is dropped');
+}
+
 console.log('');
 if (fail) {
   console.log('FAILURES (' + fail + '): ' + pass + ' passed, ' + fail + ' failed');

@@ -1,6 +1,6 @@
 {
  "level": 405,
- "title": "nen, qese, kafaz, gjerman, flitet, çokollatë +4",
+ "title": "nen, qese, kafaz +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -1288,7 +1288,11 @@
    "components": [
     {
      "word": "gjerman",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "e",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -1299,7 +1303,8 @@
      "tag": "masculine"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
    "id": "gjermanisht",
@@ -1390,7 +1395,14 @@
    "components": [
     {
      "word": "gjerman",
-     "role": "prefix"
+     "role": "base",
+     "en": "German (male person)"
+    },
+    {
+     "word": "isht",
+     "role": "suffix",
+     "affix": "isht",
+     "meaning": "-ly"
     }
    ],
    "derived": [
@@ -1412,7 +1424,8 @@
      10
     ],
     "sq": "Nuk flisni gjermanisht?"
-   }
+   },
+   "breakdown": "transparent"
   }
  ]
 }

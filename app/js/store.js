@@ -12,7 +12,7 @@ export const STORAGE_KEY = 'albcourse.progress.v1';
 export const SCHEMA_VERSION = 1;
 
 export function emptyProgress() {
-  return { version: SCHEMA_VERSION, items: {}, stats: { reviews: 0, days: [] } };
+  return { version: SCHEMA_VERSION, items: {}, stats: { reviews: 0, days: [] }, prefs: {} };
 }
 
 /* Tolerate anything that came out of localStorage: a missing key, a half
@@ -47,7 +47,15 @@ export function normalise(raw) {
     }
   }
 
-  return { version: SCHEMA_VERSION, items, stats };
+  const nt = raw.stats && raw.stats.newToday;
+  if (nt && Number.isFinite(nt.day) && Number.isFinite(nt.count)) {
+    stats.newToday = { day: nt.day, count: nt.count };
+  }
+
+  const prefs = {};
+  if (raw.prefs && raw.prefs.direction === 'en2sq') prefs.direction = 'en2sq';
+
+  return { version: SCHEMA_VERSION, items, stats, prefs };
 }
 
 /* A thin wrapper so the tests can swap in a fake and so every call site goes

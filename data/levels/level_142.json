@@ -1,6 +1,6 @@
 {
  "level": 142,
- "title": "qytet, thjeshtë, ah, tashmë +2",
+ "title": "qytet, thjeshtë, ah +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -448,7 +448,14 @@
    "components": [
     {
      "word": "qytet",
-     "role": "prefix"
+     "role": "base",
+     "en": "city"
+    },
+    {
+     "word": "tar",
+     "role": "suffix",
+     "affix": "tar",
+     "meaning": "person / of"
     }
    ],
    "derived": [],
@@ -477,7 +484,8 @@
      10
     ],
     "sq": "Ju nuk duhet të jetë një qytetar."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "kryeqytet",
@@ -569,7 +577,8 @@
      10
     ],
     "sq": "Shkova në kryeqytet."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "qytezë",
@@ -651,7 +660,11 @@
    "components": [
     {
      "word": "qytet",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "zë",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -672,7 +685,37 @@
      8
     ],
     "sq": "Një qytezë brenda një qyteti!"
-   }
+   },
+   "breakdown": "historical"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "tar",
+   "label": "-tar",
+   "meaning": "person / of",
+   "summary": "A person who deals with something, or an adjective 'of it': këngë (song) → këngëtar (singer), komb (nation) → kombëtar (national).",
+   "note": "Often -ëtar after a consonant. The feminine is -tare (këngëtare, shqiptare).",
+   "examples": [
+    {
+     "sq": "kujdestar",
+     "en": "supervisor",
+     "stem": "kujdes",
+     "stem_en": "regard"
+    },
+    {
+     "sq": "tregtar",
+     "en": "merchant",
+     "stem": "treg",
+     "stem_en": "market"
+    },
+    {
+     "sq": "qytetar",
+     "en": "citizen",
+     "stem": "qytet",
+     "stem_en": "city"
+    }
+   ]
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "level": 702,
- "title": "ngatërroj, shkatërroj, rrënoj, idealist, regjiment, feje +4",
+ "title": "ngatërroj, shkatërroj, rrënoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
@@ -77,6 +77,10 @@
    "parents": [],
    "components": [
     {
+     "word": "sh",
+     "role": "prefix"
+    },
+    {
      "word": "ngatërroj",
      "role": "stem"
     }
@@ -103,7 +107,8 @@
      10
     ],
     "sq": "Unë shkatërroj çdo formë të vdekjes."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "ngatërroj",
@@ -351,7 +356,11 @@
    "components": [
     {
      "word": "rrënoj",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "ë",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -372,7 +381,8 @@
      10
     ],
     "sq": "Sot ajo është vetëm rrënojë."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "idealist",
@@ -935,7 +945,14 @@
    "components": [
     {
      "word": "rrënoj",
-     "role": "prefix"
+     "role": "base",
+     "en": "to raze to the ground"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
@@ -960,7 +977,8 @@
      10
     ],
     "sq": "Rrënim i asaj që përfaqësoje."
-   }
+   },
+   "breakdown": "transparent"
   }
  ]
 }

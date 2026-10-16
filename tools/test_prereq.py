@@ -51,8 +51,14 @@ def main():
     # on the derivation, not a word to learn first.
     import pos_balance
     allowed = set(pos_balance.EXCLUDE_WORDS)
+    #
+    # Affixes are the other kind of label. A suffix ("-ësi") is never a card,
+    # and a prefix the etymology marks with a hyphen ("zh- + vesh") need not
+    # be one. Neither creates an edge, so neither is checked here; the
+    # lexical side (stem/base) still must be a real card.
     missing = [(w, c["word"]) for w, cs in comp.items()
-               for c in cs if c["word"] not in lev and c["word"] not in allowed]
+               for c in cs if c["role"] in ("stem", "base")
+               and c["word"] not in lev and c["word"] not in allowed]
     print("1. components resolve to real cards: %s"
           % ("OK" if not missing else "FAIL %d" % len(missing)))
     for w, s in missing[:5]:
@@ -62,7 +68,8 @@ def main():
     # STEM it would silently stop being taught-before-its-word, which is the
     # ordering guarantee test 2 exists to protect.
     as_stem = [(w, c["word"]) for w, cs in comp.items()
-               for c in cs if c["word"] in allowed and c["role"] == "stem"]
+               for c in cs if c["word"] in allowed
+               and c["role"] in ("stem", "base")]
     print("1b. curated non-card components are prefixes only: %s"
           % ("OK" if not as_stem else "FAIL %d" % len(as_stem)))
     for w, s in as_stem[:5]:

@@ -212,7 +212,14 @@
    "components": [
     {
      "word": "mirë",
-     "role": "prefix"
+     "role": "base",
+     "en": "good"
+    },
+    {
+     "word": "ësi",
+     "role": "suffix",
+     "affix": "si",
+     "meaning": "-ness, -ity"
     }
    ],
    "derived": [],
@@ -237,7 +244,8 @@
      10
     ],
     "sq": "Faleminderit me mirësi."
-   }
+   },
+   "breakdown": "transparent"
   },
   {
    "id": "përmirësoj",
@@ -327,7 +335,8 @@
      4
     ],
     "sq": "Po mundohem të përmirësoj infrastrukturën."
-   }
+   },
+   "breakdown": "historical"
   },
   {
    "id": "miratoj",
@@ -386,7 +395,11 @@
    "components": [
     {
      "word": "mirë",
-     "role": "prefix"
+     "role": "base"
+    },
+    {
+     "word": "toj",
+     "role": "suffix"
     }
    ],
    "derived": [],
@@ -401,7 +414,8 @@
      "tag": "participle"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ]
 }

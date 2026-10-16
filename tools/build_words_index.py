@@ -149,6 +149,10 @@ def main():
                     # component line ("from e- + sille") as "from Latin soca".
                     "cognate": w.get("cognate"),
                     "components": w.get("components") or [],
+                    # "transparent": the parts predict the meaning, so the
+                    # card can ask the learner to guess it. "historical": a
+                    # memory aid only. See tools/affixes.py.
+                    "breakdown": w.get("breakdown"),
                     # Wiktionary first; corpus only fills a genuine gap.
                     # Only sq/en ship. The corpus record also carries
                     # "corpus" and "score", which are build-time provenance
