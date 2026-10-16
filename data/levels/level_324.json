@@ -1,30 +1,28 @@
 {
  "level": 324,
- "title": "tigër, sugjeroj, bythë +3",
+ "title": "peshë, interes, udhë +1",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 5,
  "families": [
-  "aksion",
-  "bythë",
-  "nen",
-  "qese",
-  "sugjeroj",
-  "tigër"
+  "durim",
+  "interes",
+  "peshë",
+  "udhë"
  ],
  "pos_mix": {
-  "noun": 16,
+  "noun": 4,
   "verb": 1
  },
  "words": [
   {
-   "id": "tigër",
-   "sq": "tigër",
-   "en": "tiger",
+   "id": "peshë",
+   "sq": "peshë",
+   "en": "weight, blubber",
    "glosses": [
-    "tiger"
+    "weight, blubber"
    ],
    "pos": [
     "noun"
@@ -36,8 +34,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "tiger",
-     "tags": [],
+     "gloss": "weight, blubber",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -60,13 +60,91 @@
      ],
      "examples": [],
      "links": [
-      "tiger"
+      "weight",
+      "blubber"
      ]
     }
    ],
-   "rank": 3884,
-   "count": 201,
-   "family": "tigër",
+   "rank": 3971,
+   "count": 196,
+   "family": "peshë",
+   "is_root": true,
+   "etymology": "From earlier *penshë, borrowed through Vulgar Latin from Latin pensum. For the loss of /s, ʃ/ before /n/, cf. pesë < older *pensë.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pesha",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Slightly overweight.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pak mbi peshë."
+   }
+  },
+  {
+   "id": "interes",
+   "sq": "interes",
+   "en": "interest",
+   "glosses": [
+    "interest"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "interest",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "interest"
+     ]
+    }
+   ],
+   "rank": 3984,
+   "count": 195,
+   "family": "interes",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -76,25 +154,34 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "interesa",
+     "tag": "plural"
+    },
+    {
+     "form": "interesi",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You are not a tiger!",
+    "corpus": "MaCoCu",
+    "en": "Why the interest?",
     "score": [
      0,
-     5,
-     -5,
-     10
+     4,
+     -4,
+     8
     ],
-    "sq": "Ju nuk jeni një tigër!"
+    "sq": "Pse gjithë ky interes?"
    }
   },
   {
-   "id": "sugjeroj",
-   "sq": "sugjeroj",
-   "en": "to suggest",
+   "id": "udhëheq",
+   "sq": "udhëheq",
+   "en": "to lead, to guide",
    "glosses": [
-    "to suggest"
+    "to lead, to guide"
    ],
    "pos": [
     "verb"
@@ -106,7 +193,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to suggest",
+     "gloss": "to lead, to guide",
      "tags": [
       "transitive"
      ],
@@ -132,46 +219,61 @@
      ],
      "examples": [],
      "links": [
-      "suggest"
+      "lead",
+      "guide"
      ]
     }
    ],
-   "rank": 3911,
-   "count": 199,
-   "family": "sugjeroj",
-   "is_root": true,
-   "etymology": "",
+   "rank": 3993,
+   "count": 195,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "From udhë + heq.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "udhë",
+     "role": "prefix"
+    },
+    {
+     "word": "heq",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "sugjeruar",
+     "form": "udhëhoqa",
+     "tag": "aorist"
+    },
+    {
+     "form": "udhëhequr",
      "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I suggest we end here.",
+    "en": "Who guides you?",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
      10
     ],
-    "sq": "Unë sugjeroj të përfundojmë këtu."
-   }
+    "sq": "Unë: Kush ju udhëheq?"
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "bythë",
-   "sq": "bythë",
-   "en": "ass, butt",
+   "id": "durim",
+   "sq": "durim",
+   "en": "patience",
    "glosses": [
-    "ass, butt"
+    "patience"
    ],
    "pos": [
     "noun"
@@ -183,10 +285,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ass, butt",
+     "gloss": "patience",
      "tags": [
-      "feminine",
-      "slang"
+      "masculine"
      ],
      "cats": [
       {
@@ -210,200 +311,13 @@
      ],
      "examples": [],
      "links": [
-      "ass",
-      "butt"
+      "patience"
      ]
     }
    ],
-   "rank": 3914,
-   "count": 199,
-   "family": "bythë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *būtsā, or Proto-Albanian *būðā, from Proto-Indo-European *bʰudʰmḗn (“bottom”), possibly from *dʰewb- (“deep”). Cognate to Sanskrit बुध्न (budhna, “bottom”), Ancient Greek πυθμήν (puthmḗn, “bottom”), and Old English botm (English bottom).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "bottom",
-    "deep"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "bythë",
-     "tag": "plural"
-    },
-    {
-     "form": "bytha",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Free to play cards in the bum every day.",
-    "score": [
-     1,
-     9,
-     -8,
-     10
-    ],
-    "sq": "Lirë për të luajtur kartat në bythë çdo ditë."
-   }
-  },
-  {
-   "id": "aksion",
-   "sq": "aksion",
-   "en": "group work project carried out by volunteers",
-   "glosses": [
-    "group work project carried out by volunteers",
-    "military action",
-    "play",
-    "action, undertaking",
-    "share of stock"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "group work project carried out by volunteers",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 2 37 6 7"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "76 2 10 7 5"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "65 2 24 5 4"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "group",
-      "project",
-      "volunteers"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "military action",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Military",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Military",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "military",
-      "military",
-      "action"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "play",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Sports",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Sports",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sports",
-      "play"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "action, undertaking",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "action",
-      "undertaking"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "share of stock",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Finance",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Finance",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "finance",
-      "share",
-      "stock"
-     ]
-    }
-   ],
-   "rank": 3920,
-   "count": 199,
-   "family": "aksion",
+   "rank": 4004,
+   "count": 194,
+   "family": "durim",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -411,57 +325,44 @@
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "aksionar",
-    "aksionist"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "aksione",
-     "tag": "plural"
-    },
-    {
-     "form": "aksioni",
+     "form": "durimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There is love, and lots of action.",
+    "en": "What patience you have.",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Ka dashuri dhe shumë aksion."
+    "sq": "Çfarë durim keni."
    }
   },
   {
-   "id": "nen",
-   "sq": "nen",
-   "en": "paragraph, article, section, clause (of a law, statute or contract)",
+   "id": "udhëheqës",
+   "sq": "udhëheqës",
+   "en": "leader",
    "glosses": [
-    "paragraph, article, section, clause (of a law, statute or contract)",
-    "ankle",
-    "fragrant plant, perhaps thyme, or mint"
+    "leader"
    ],
    "pos": [
-    "noun",
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "paragraph, article, section, clause (of a law, statute or contract)",
+     "gloss": "leader",
      "tags": [
       "masculine"
      ],
@@ -470,333 +371,70 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 34 24 5"
+       "source": "w"
       },
       {
-       "name": "Body parts",
-       "kind": "other",
-       "parents": [
-        "Anatomy"
-       ],
-       "source": "w+disamb",
-       "orig": "sq:Body parts",
-       "langcode": "sq",
-       "_dis": "34 17 40 9"
-      },
-      {
-       "name": "Law",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Law",
-       "langcode": "sq",
-       "_dis": "9 84 7 1"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "paragraph",
-      "article",
-      "section"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "ankle",
-     "tags": [
-      "masculine",
-      "regional"
-     ],
-     "cats": [
-      {
-       "name": "Regional Albanian",
+       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "37 34 24 5"
-      },
-      {
-       "name": "Body parts",
-       "kind": "other",
-       "parents": [
-        "Anatomy"
-       ],
-       "source": "w+disamb",
-       "orig": "sq:Body parts",
-       "langcode": "sq",
-       "_dis": "34 17 40 9"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "regional",
-      "ankle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fragrant plant, perhaps thyme, or mint",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Plants",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Plants",
-       "langcode": "sq",
-       "_dis": "12 26 25 37"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thyme",
-      "mint"
+      "leader"
      ]
     }
    ],
-   "rank": 3940,
-   "count": 198,
-   "family": "nen",
-   "is_root": true,
-   "etymology": "Variant of nyjë, nye (“article; joint”), whose stem was originally nen-.",
-   "etymology_class": null,
+   "rank": 4941,
+   "count": 153,
+   "family": "udhë",
+   "is_root": false,
+   "etymology": "From udhëheq + -ës.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "amaranth",
-    "mint"
+   "parents": [],
+   "components": [
+    {
+     "word": "udhëheq",
+     "role": "base"
+    },
+    {
+     "word": "ës",
+     "role": "suffix"
+    }
    ],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "nene",
+     "form": "udhëheqës",
      "tag": "plural"
     },
     {
-     "form": "neni",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Put your book beneath it and you can read.",
-    "score": [
-     1,
-     6,
-     -5,
-     4
-    ],
-    "sq": "Vendos librin nen te dhe lexon."
-   }
-  },
-  {
-   "id": "qese",
-   "sq": "qese",
-   "en": "bag, pouch",
-   "glosses": [
-    "bag, pouch",
-    "purse, wallet (for money)",
-    "sac, bag (containing liquid)",
-    "washcloth, flannel",
-    "money, one's income, one's assets",
-    "a sum amounting to 500 groshë"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bag, pouch",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Bags",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Bags",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "bag",
-      "pouch"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "purse, wallet (for money)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "purse",
-      "wallet"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sac, bag (containing liquid)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "sac",
-      "bag"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "washcloth, flannel",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "washcloth",
-      "flannel"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "money, one's income, one's assets",
-     "tags": [
-      "colloquial",
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "money",
-      "income",
-      "assets"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "a sum amounting to 500 groshë",
-     "tags": [
-      "archaic",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Currency",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Currency",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 24 9 35 9 10"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "12 12 4 52 8 12"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "groshë"
-     ]
-    }
-   ],
-   "rank": 3944,
-   "count": 197,
-   "family": "qese",
-   "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish كیسه (kise, kese).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "qeselidhur",
-    "qeseshpuar",
-    "qeskë"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "qese",
-     "tag": "plural"
-    },
-    {
-     "form": "qesja",
+     "form": "udhëheqësi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "1 capsule per day.",
+    "en": "He was the leader.",
     "score": [
      0,
-     7,
-     -7,
+     3,
+     -3,
      10
     ],
-    "sq": "Fëmijët nga 4 vjeç: 1 qese gjatë gjithë ditës."
-   }
+    "sq": "Ai ishte udhëheqës."
+   },
+   "breakdown": "historical"
   }
  ]
 }

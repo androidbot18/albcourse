@@ -1,128 +1,75 @@
 {
  "level": 73,
- "title": "fat, vjet, ca",
+ "title": "shok, ende, tyre +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 9,
  "families": [
-  "ca",
-  "fat",
-  "vjet"
+  "ende",
+  "ndodhi",
+  "shok",
+  "tyre",
+  "vonë"
  ],
  "pos_mix": {
-  "noun": 6,
-  "adv": 1,
-  "pron": 1
+  "det": 1,
+  "noun": 12,
+  "adv": 2
  },
  "words": [
   {
-   "id": "fat",
-   "sq": "fat",
-   "en": "luck",
+   "id": "tyre",
+   "sq": "tyre",
+   "en": "their",
    "glosses": [
-    "luck",
-    "chance",
-    "fate",
-    "destiny",
-    "spouse"
+    "their"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "det"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "luck",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "their",
+     "tags": [],
      "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 3 31 3 17"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "luck"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chance",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "chance"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "fate",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fate"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "destiny",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "destiny"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spouse",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "spouse"
+      "their"
      ]
     }
    ],
-   "rank": 299,
-   "count": 3517,
-   "family": "fat",
+   "rank": 144,
+   "count": 8672,
+   "family": "tyre",
    "is_root": true,
-   "etymology": "Borrowed from Latin fātum. Jolk claims a derivation from Gothic fadi-.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -131,32 +78,98 @@
    "related": [],
    "forms": [
     {
-     "form": "fate",
-     "tag": "plural"
-    },
-    {
-     "form": "fati",
-     "tag": "definite"
+     "form": "tyne",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Good luck to you!",
+    "en": "But this is not in their best interest!",
     "score": [
      0,
-     3,
-     -3,
+     9,
+     -9,
      10
     ],
-    "sq": "Fat të mirë!"
+    "sq": "Por kjo nuk është në të mirë të tyre!"
    }
   },
   {
-   "id": "vjet",
-   "sq": "vjet",
-   "en": "last year",
+   "id": "shoku",
+   "sq": "shoku",
+   "en": "the male friend, singular (from shok)",
    "glosses": [
-    "last year"
+    "the male friend, singular (from shok)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the male friend, singular (from shok)",
+     "tags": [
+      "definite",
+      "form-of",
+      "masculine",
+      "nominative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 27 24 24"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 27 24 24"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "shok"
+    }
+   ],
+   "rank": 235,
+   "count": 5136,
+   "family": "shok",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Your friend.",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Ai është shoku juaj."
+   }
+  },
+  {
+   "id": "ende",
+   "sq": "ende",
+   "en": "still, yet, therefore",
+   "glosses": [
+    "still, yet, therefore"
    ],
    "pos": [
     "adv"
@@ -168,7 +181,7 @@
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "last year",
+     "gloss": "still, yet, therefore",
      "tags": [],
      "cats": [
       {
@@ -178,13 +191,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 19 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -192,87 +205,17 @@
      ],
      "examples": [],
      "links": [
-      "year"
+      "still",
+      "yet",
+      "therefore"
      ]
     }
    ],
-   "rank": 303,
-   "count": 3498,
-   "family": "vjet",
+   "rank": 236,
+   "count": 5126,
+   "family": "ende",
    "is_root": true,
-   "etymology": "From Proto-Albanian *wetās, from *wétōs, from Proto-Indo-European *wétos (“year”). More at vit.",
-   "etymology_class": "root",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "year"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's been 5 years.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Kanë kaluar 5 vjet."
-   }
-  },
-  {
-   "id": "ca",
-   "sq": "ca",
-   "en": "some",
-   "glosses": [
-    "some"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "some",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 46 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "some"
-     ]
-    }
-   ],
-   "rank": 304,
-   "count": 3484,
-   "family": "ca",
-   "is_root": true,
-   "etymology": "From the contracted form of disa, dsa.",
+   "etymology": "Historically identical with edhe. Compare Danish end (“but”), Icelandic enn (“still, yet”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -280,34 +223,25 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "cave",
-     "tag": "dative"
-    },
-    {
-     "form": "disa",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Maybe later.",
+    "corpus": "HPLT",
+    "en": "And he's not done yet.",
     "score": [
      0,
-     4,
-     -4,
-     5
+     6,
+     -6,
+     10
     ],
-    "sq": "Jo, kam ca pune."
+    "sq": "Dhe ai nuk është bërë ende."
    }
   },
   {
-   "id": "fatin",
-   "sq": "fatin",
-   "en": "the luck, singular (from fat)",
+   "id": "ndodhi",
+   "sq": "ndodhi",
+   "en": "event, occurrence",
    "glosses": [
-    "the luck, singular (from fat)"
+    "event, occurrence"
    ],
    "pos": [
     "noun"
@@ -319,11 +253,398 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the luck, singular (from fat)",
+     "gloss": "event, occurrence",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "event",
+      "occurrence"
+     ]
+    }
+   ],
+   "rank": 238,
+   "count": 5016,
+   "family": "ndodhi",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ndodhi",
+     "tag": "plural"
+    },
+    {
+     "form": "ndodhia",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "GlobalVoices",
+    "en": "How did this happen?",
+    "score": [
+     0,
+     3,
+     -3,
+     3
+    ],
+    "sq": "Si ndodhi kjo?"
+   }
+  },
+  {
+   "id": "vonë",
+   "sq": "vonë",
+   "en": "late",
+   "glosses": [
+    "late"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "late",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "late"
+     ]
+    }
+   ],
+   "rank": 240,
+   "count": 4944,
+   "family": "vonë",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *wānti, a participle in *-nti, or from *wānā, in either case reflecting Proto-Indo-European *h₁weh₂- (“to lack, be empty; to strive, to wish for, to love”). Compare Ancient Greek εὖνις (eûnis, “stolen; looted, lack, be short of”), Armenian ունայն (unayn, “empty, bare, lacking”), Latin vanus (“bare, lacking, empty, void, vacant”), Old Norse vanr (“lacking”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "What's the rush?",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Jetë vonë sot."
+   }
+  },
+  {
+   "id": "shok",
+   "sq": "shok",
+   "en": "male friend",
+   "glosses": [
+    "male friend",
+    "boyfriend",
+    "comrade"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "male friend",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 44 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 44 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "friend"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "boyfriend",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 46 46"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 44 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 44 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "boyfriend"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "comrade",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 46 46"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 44 44"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 44 44"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "comrade"
+     ]
+    }
+   ],
+   "rank": 866,
+   "count": 1108,
+   "family": "shok",
+   "is_root": true,
+   "etymology": "Interpreted as singular of shoq, borrowed through Vulgar Latin from Latin socius. Compare Romanian soț (“husband”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shokë",
+     "tag": "plural"
+    },
+    {
+     "form": "shoku",
+     "tag": "definite"
+    },
+    {
+     "form": "shoqe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He is a friend.",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Ai është shok."
+   }
+  },
+  {
+   "id": "shokët",
+   "sq": "shokët",
+   "en": "the male friend, plural (from shok)",
+   "glosses": [
+    "the male friend, plural (from shok)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the male friend, plural (from shok)",
+     "tags": [
+      "definite",
+      "form-of",
+      "masculine",
+      "nominative",
+      "plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "shok"
+    }
+   ],
+   "rank": 982,
+   "count": 962,
+   "family": "shok",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My friends are dead.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Shokët e mi janë të vdekur."
+   }
+  },
+  {
+   "id": "shokun",
+   "sq": "shokun",
+   "en": "the male friend, singular (from shok)",
+   "glosses": [
+    "the male friend, singular (from shok)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the male friend, singular (from shok)",
      "tags": [
       "accusative",
       "definite",
       "form-of",
+      "masculine",
       "singular"
      ],
      "cats": [
@@ -347,12 +668,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "fat"
+     "is_form_of": "shok"
     }
    ],
-   "rank": 1941,
-   "count": 445,
-   "family": "fat",
+   "rank": 1836,
+   "count": 471,
+   "family": "shok",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -365,15 +686,205 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Do not seek their fortune.",
+    "en": "Me and my friend.",
     "score": [
      1,
-     6,
-     -5,
+     5,
+     -4,
      10
     ],
-    "sq": "Mos e kërko fatin e tyre."
+    "sq": "Mua dhe atë shokun tim."
    }
+  },
+  {
+   "id": "shoqëri",
+   "sq": "shoqëri",
+   "en": "society",
+   "glosses": [
+    "society",
+    "friendship",
+    "group, circle of friends",
+    "association, organizatë",
+    "business partnership"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "society",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "shoqëria njerëzore",
+       "en": "human society",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "society"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "friendship",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "friendship"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "group, circle of friends",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 2 65 17 14"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 86 9 1"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "shoqëri e vërtetë",
+       "en": "true friends",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "group",
+      "circle",
+      "friends"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "association, organizatë",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ëri",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 25 57 5"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "association",
+      "organizatë"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "business partnership",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "business",
+      "partnership"
+     ]
+    }
+   ],
+   "rank": 2004,
+   "count": 432,
+   "family": "shok",
+   "is_root": false,
+   "etymology": "From shok + -ëri.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "shok",
+     "role": "base"
+    },
+    {
+     "word": "ëri",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "shoqëri me përgjegjësi të kufizuar"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "shoqëri",
+     "tag": "plural"
+    },
+    {
+     "form": "shoqëria",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ]
 }

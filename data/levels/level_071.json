@@ -1,38 +1,140 @@
 {
  "level": 71,
- "title": "minutë",
- "root": "minutë",
- "root_gloss": "minute (unit of time)",
+ "title": "madh, mi, çdo +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "minutë"
+  "madh",
+  "mi",
+  "thua",
+  "çdo"
  ],
  "pos_mix": {
+  "det": 1,
+  "adj": 2,
+  "pron": 1,
   "noun": 2
  },
  "words": [
   {
-   "id": "minutë",
-   "sq": "minutë",
-   "en": "minute (unit of time)",
+   "id": "çdo",
+   "sq": "çdo",
+   "en": "each, every",
    "glosses": [
-    "minute (unit of time)"
+    "each, every"
    ],
    "pos": [
-    "noun"
+    "det"
    ],
    "pos_labels": [
-    "noun"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "minute (unit of time)",
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "each, every",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Çdo gjë që ka bërë Perëndia tregon dashurinë e tij.",
+       "en": "Everything that God has done shows his love.",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "each",
+      "every"
+     ]
+    }
+   ],
+   "rank": 123,
+   "count": 10910,
+   "family": "çdo",
+   "is_root": true,
+   "etymology": "From ç' + do (third person singular of dua); literally \"whichever one wants\".",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "do",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "xhdo",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjdo",
+     "tag": "alternative"
+    },
+    {
+     "form": "zhdo",
+     "tag": "alternative"
+    },
+    {
+     "form": "shdo",
+     "tag": "alternative"
+    },
+    {
+     "form": "qdo",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "madhe",
+   "sq": "madhe",
+   "en": "big, singular (from madh)",
+   "glosses": [
+    "big, singular (from madh)"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "big, singular (from madh)",
      "tags": [
-      "feminine"
+      "feminine",
+      "form-of",
+      "singular"
      ],
      "cats": [
       {
@@ -55,47 +157,132 @@
       }
      ],
      "examples": [],
-     "links": [
-      "minute"
-     ]
+     "is_form_of": "madh"
     }
    ],
-   "rank": 617,
-   "count": 1666,
-   "family": "minutë",
-   "is_root": true,
-   "etymology": "Borrowed from Medieval Latin minūta.",
-   "etymology_class": "borrowed",
+   "rank": 222,
+   "count": 5708,
+   "family": "madh",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "minuta",
-     "tag": "plural"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Look, even the girl is saying that there is no need.",
+    "corpus": "HPLT",
+    "en": "Great work.",
     "score": [
      0,
      3,
      -3,
-     5
+     10
     ],
-    "sq": "-Vetëm një minutë."
+    "sq": "Punë e madhe."
    }
   },
   {
-   "id": "minuta",
-   "sq": "minuta",
-   "en": "minute, plural (from minutë)",
+   "id": "mi",
+   "sq": "mi",
+   "en": "my",
    "glosses": [
-    "minute, plural (from minutë)"
+    "my",
+    "mouse"
+   ],
+   "pos": [
+    "pron",
+    "noun"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "my",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "my"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mouse",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "mouse"
+     ]
+    }
+   ],
+   "rank": 229,
+   "count": 5422,
+   "family": "mi",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *me-.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "mouse"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "minj",
+     "tag": "plural"
+    },
+    {
+     "form": "miu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "My friends!",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Miqtë e mi!"
+   }
+  },
+  {
+   "id": "thua",
+   "sq": "thua",
+   "en": "nail (of the body), fingernail, toenail",
+   "glosses": [
+    "nail (of the body), fingernail, toenail"
    ],
    "pos": [
     "noun"
@@ -107,7 +294,92 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "minute, plural (from minutë)",
+     "gloss": "nail (of the body), fingernail, toenail",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "nail",
+      "fingernail"
+     ]
+    }
+   ],
+   "rank": 232,
+   "count": 5263,
+   "family": "thua",
+   "is_root": true,
+   "etymology": "Apocope of *thuan, from Proto-Albanian *(a)tsāna,from Proto-Indo-European *h₂eḱ- (“sharp”) (compare Lithuanian ašni̇̀s (“blade edge”), Ancient Greek ἄκανος (ákanos, “pine thistle”), English awn (“bristle of barley”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "sharp"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "thonj",
+     "tag": "plural"
+    },
+    {
+     "form": "thoi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Why do you say so?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Pse thua kështu?"
+   }
+  },
+  {
+   "id": "mëdha",
+   "sq": "mëdha",
+   "en": "big, plural (from madh)",
+   "glosses": [
+    "big, plural (from madh)"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "big, plural (from madh)",
      "tags": [
       "feminine",
       "form-of",
@@ -121,7 +393,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 20 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -134,12 +406,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "minutë"
+     "is_form_of": "madh"
     }
    ],
-   "rank": 295,
-   "count": 3550,
-   "family": "minutë",
+   "rank": 769,
+   "count": 1285,
+   "family": "madh",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -151,16 +423,19 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "So, this is two minutes.",
+    "corpus": "QED",
+    "en": "You are huge.",
     "score": [
      0,
      4,
      -4,
-     4
+     5
     ],
-    "sq": "Kjo është dy minuta."
+    "sq": "Ju janë të mëdha."
    }
   }
+ ],
+ "continues": [
+  "madh"
  ]
 }

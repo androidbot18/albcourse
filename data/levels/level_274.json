@@ -1,44 +1,47 @@
 {
  "level": 274,
- "title": "bosh, kërkim, kalë +3",
+ "title": "gjer, sidomos, bind +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "akull",
-  "ardhshëm",
-  "bosh",
-  "kalë",
-  "kërkim",
-  "vrimë"
+  "bind",
+  "dru",
+  "famshëm",
+  "gjer",
+  "gjurmë",
+  "sidomos"
  ],
  "pos_mix": {
-  "adj": 6,
-  "noun": 10,
-  "adv": 1
+  "noun": 14,
+  "adv": 1,
+  "adj": 1,
+  "verb": 3
  },
  "words": [
   {
-   "id": "bosh",
-   "sq": "bosh",
-   "en": "empty (devoid of content)",
+   "id": "gjer",
+   "sq": "gjer",
+   "en": "dormouse",
    "glosses": [
-    "empty (devoid of content)"
+    "dormouse"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "empty (devoid of content)",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dormouse",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -47,7 +50,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 4 entries",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,162 +64,68 @@
      ],
      "examples": [],
      "links": [
-      "empty"
+      "dormouse"
      ]
     }
    ],
-   "rank": 2037,
-   "count": 426,
-   "family": "bosh",
+   "rank": 2122,
+   "count": 405,
+   "family": "gjer",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish بوش (boş).",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Indo-European *geli-, *glī- (“mous”). Compare Ancient Greek γαλέη (galéē, “weasel, marten”), Latin glīs (“dormouse”). Alternatively from Latin glīrem.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "mous"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "This one looks empty.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Kjo duket bosh."
-   }
-  },
-  {
-   "id": "kërkim",
-   "sq": "kërkim",
-   "en": "search",
-   "glosses": [
-    "search",
-    "research"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "search",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "search"
-     ]
+     "form": "gjera",
+     "tag": "plural"
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "research",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "research"
-     ]
+     "form": "gjeri",
+     "tag": "definite"
+    },
+    {
+     "form": "ger",
+     "tag": "alternative"
     }
    ],
-   "rank": 2043,
-   "count": 424,
-   "family": "kërkim",
-   "is_root": true,
-   "etymology": "From kërkój + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do a search!",
+    "corpus": "GlobalVoices",
+    "en": "There is no damage done to the house so far.",
     "score": [
-     0,
-     3,
-     -3,
-     10
+     1,
+     6,
+     -5,
+     3
     ],
-    "sq": "Bëj një kërkim!"
+    "sq": "Gjer tani shtëpia nuk është dëmtuar."
    }
   },
   {
-   "id": "kali",
-   "sq": "kali",
-   "en": "the horse, singular (from kalë)",
+   "id": "sidomos",
+   "sq": "sidomos",
+   "en": "especially",
    "glosses": [
-    "the horse, singular (from kalë)"
+    "especially"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the horse, singular (from kalë)",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "especially",
      "tags": [],
      "cats": [
       {
@@ -226,7 +135,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 34 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -240,15 +149,14 @@
      ],
      "examples": [],
      "links": [
-      "kalë"
-     ],
-     "is_form_of": "kalë"
+      "especially"
+     ]
     }
    ],
-   "rank": 2046,
-   "count": 424,
-   "family": "kalë",
-   "is_root": false,
+   "rank": 2136,
+   "count": 400,
+   "family": "sidomos",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -260,99 +168,75 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The horse he can sleep in a bed?",
+    "en": "For women especially.",
     "score": [
      0,
-     8,
-     -8,
+     3,
+     -3,
      10
     ],
-    "sq": "Kali ai mund të fle në një shtrat?"
+    "sq": "Për gratë sidomos."
    }
   },
   {
-   "id": "akull",
-   "sq": "akull",
-   "en": "ice",
+   "id": "përbindësh",
+   "sq": "përbindësh",
+   "en": "monster",
    "glosses": [
-    "ice",
-    "very cold, ice-cold",
-    "cold, insensible",
-    "very",
-    "arrow"
+    "monster",
+    "large predatory animal",
+    "evil person"
    ],
    "pos": [
     "noun",
-    "adj",
-    "adj",
-    "adv",
+    "noun",
     "noun"
    ],
    "pos_labels": [
     "noun",
-    "adjective",
-    "adjective",
-    "adverb",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "ice",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "ice"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "very cold, ice-cold",
+     "gloss": "monster",
      "tags": [],
      "cats": [
       {
-       "name": "Calabrian Arbëresh Albanian",
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mythology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 17 34 0 17"
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
       }
      ],
      "examples": [],
      "links": [
-      "cold",
-      "ice-cold"
+      "mythology",
+      "monster"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "cold, insensible",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Calabrian Arbëresh Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 17 34 0 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cold",
-      "insensible"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "very",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "large predatory animal",
      "tags": [],
      "cats": [
       {
@@ -360,102 +244,138 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "15 7 69 0 8"
+       "_dis": "44 13 43"
       },
       {
-       "name": "Calabrian Arbëresh Albanian",
+       "name": "Albanian terms prefixed with për-",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 17 34 0 17"
+       "_dis": "42 42 16"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -ësh",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "19 0 65 0 16"
+       "_dis": "42 42 16"
       }
      ],
      "examples": [],
      "links": [
-      "very"
+      "predatory",
+      "animal"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "arrow",
+     "gloss": "evil person",
      "tags": [
-      "masculine"
+      "figuratively"
      ],
      "cats": [
       {
-       "name": "Calabrian Arbëresh Albanian",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 17 34 0 17"
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësh",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
       }
      ],
      "examples": [],
      "links": [
-      "arrow"
+      "evil"
      ]
     }
    ],
-   "rank": 2048,
-   "count": 423,
-   "family": "akull",
-   "is_root": true,
-   "etymology": "Uncertain. Possibly:\n# A derivation from Proto-Indo-European *keHl- whence also Proto-Celtic *kaletos (“hard”), Proto-Slavic *kaliti (“to temper, harden”), Latin callum (“hardened skin”).\n# Borrowed from Germanic, ultimately from Proto-Germanic *jekulaz (“icicle”).\n# Akin Old Armenian ոյծ (oyc, “cold, frost”), suffixed with -ull, though the two terms are phonologically incompatible.",
-   "etymology_class": "derived",
+   "rank": 2143,
+   "count": 399,
+   "family": "bind",
+   "is_root": false,
+   "etymology": "From për- + bind (“awe, dread”) + -ësh.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "thorn"
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "bind",
+     "role": "stem"
+    },
+    {
+     "word": "ësh",
+     "role": "suffix"
+    }
    ],
-   "components": [],
-   "derived": [],
+   "derived": [
+    "përbindshëm",
+    "adjective"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "akulle",
-     "tag": "feminine"
+     "form": "përbindësha",
+     "tag": "plural"
+    },
+    {
+     "form": "përbindëshi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "In his monsters.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "në përbindësh të tij."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "vrimë",
-   "sq": "vrimë",
-   "en": "hole",
+   "id": "famshëm",
+   "sq": "famshëm",
+   "en": "famous",
    "glosses": [
-    "hole",
-    "den, lair, burrow",
-    "hideout, nook, den"
+    "famous"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hole",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "famous",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian terms with collocations",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -464,206 +384,140 @@
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 45 42"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 33"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "vrimë çelësi",
-       "en": "keyhole",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      },
-      {
-       "sq": "vrima hunde",
-       "en": "nostrils",
-       "offsets": [
-        [
-         0,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "hole"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "den, lair, burrow",
-     "tags": [
-      "colloquial",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 54 35"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 45 42"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 33"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "den",
-      "lair",
-      "burrow"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hideout, nook, den",
-     "tags": [
-      "colloquial",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 45 42"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "34 34 33"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hideout",
-      "nook",
-      "den"
+      "famous"
      ]
     }
    ],
-   "rank": 2057,
-   "count": 420,
-   "family": "vrimë",
+   "rank": 2144,
+   "count": 399,
+   "family": "famshëm",
    "is_root": true,
-   "etymology": "Possibly akin to birë (“hole”), vërë (“hole”) and verrë (“hole”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "hole"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [
-    "vrima-vrima",
-    "vrimëz",
-    "vrimoj"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "vrima",
-     "tag": "plural"
-    },
-    {
-     "form": "brimë",
-     "tag": "alternative"
-    },
-    {
-     "form": "vrymë",
-     "tag": "alternative"
-    },
-    {
-     "form": "vrime",
-     "tag": "alternative"
+     "form": "famshëme",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "What made him famous?",
+    "score": [
+     0,
+     5,
+     -5,
+     8
+    ],
+    "sq": "Çfarë e bëri të famshëm?"
+   }
   },
   {
-   "id": "ardhshëm",
-   "sq": "ardhshëm",
-   "en": "future, next",
+   "id": "dru",
+   "sq": "dru",
+   "en": "tree",
    "glosses": [
-    "future, next",
-    "fit, in shape",
-    "sociable, charming"
+    "tree",
+    "tree trunk, log",
+    "firewood",
+    "timber, lumber",
+    "tree limb, branch",
+    "piece of wood"
    ],
    "pos": [
-    "adj",
-    "adj",
-    "adj"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "future, next",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tree",
      "tags": [
-      "future",
-      "next"
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "future",
-      "next"
+      "tree"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "fit, in shape",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tree trunk, log",
      "tags": [
-      "colloquial"
+      "masculine"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "fit",
-      "in shape"
+      "tree trunk",
+      "log"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "sociable, charming",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "firewood",
      "tags": [
-      "colloquial"
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "firewood"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "timber, lumber",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "timber",
+      "lumber"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tree limb, branch",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -671,71 +525,93 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "32 11 57"
-      },
-      {
-       "name": "Albanian terms suffixed with -shëm",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "24 11 65"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "19 0 81"
+       "_dis": "5 5 5 18 5 18 41 5"
       }
      ],
      "examples": [],
      "links": [
-      "sociable",
-      "charming"
+      "tree limb",
+      "branch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "piece of wood",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wood"
      ]
     }
    ],
-   "rank": 2058,
-   "count": 420,
-   "family": "ardhshëm",
+   "rank": 2148,
+   "count": 399,
+   "family": "dru",
    "is_root": true,
-   "etymology": "From ardh- (“to come”) + -shëm.",
-   "etymology_class": "affix",
+   "etymology": "Inherited from Proto-Albanian *druwa, from Proto-Indo-European *druh₂-ó-m, from *dóru. Compare Ancient Greek δρῦς (drûs) and others.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "ardhshme",
-    "ardhshmëri"
+    "dry",
+    "ndryj",
+    "drinjë",
+    "drënjë"
    ],
-   "related": [],
-   "forms": [],
+   "related": [
+    "drushtë",
+    "druvar",
+    "droshë",
+    "drosht"
+   ],
+   "forms": [
+    {
+     "form": "drunj",
+     "tag": "plural"
+    },
+    {
+     "form": "druja",
+     "tag": "definite"
+    }
+   ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Next, next.",
+    "corpus": "HPLT",
+    "en": "Some for wood.",
     "score": [
-     1,
+     0,
      3,
-     -2,
-     5
+     -3,
+     10
     ],
-    "sq": "Tjetra, e ardhshëm."
+    "sq": "Disa për dru."
    }
   },
   {
-   "id": "kalë",
-   "sq": "kalë",
-   "en": "horse (Equus caballus)",
+   "id": "gjurmë",
+   "sq": "gjurmë",
+   "en": "footprint, track, print, rut",
    "glosses": [
-    "horse (Equus caballus)",
-    "knight"
+    "footprint, track, print, rut",
+    "trail, path, course",
+    "archeological remains, vestige",
+    "foot (unit of measurement)"
    ],
    "pos": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -743,125 +619,241 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "horse (Equus caballus)",
+     "gloss": "footprint, track, print, rut",
      "tags": [
-      "masculine"
+      "feminine"
      ],
-     "cats": [
-      {
-       "name": "Equids",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Equids",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "horse",
-      "Equus caballus"
+      "footprint",
+      "track",
+      "print"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "knight",
+     "gloss": "trail, path, course",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "trail",
+      "path",
+      "course"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "archeological remains, vestige",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "archeological",
+      "remains",
+      "vestige"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "foot (unit of measurement)",
+     "tags": [
+      "feminine"
      ],
      "cats": [
-      {
-       "name": "Chess",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Chess",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "54 46"
+       "_dis": "16 2 32 50"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "52 48"
+       "_dis": "2 2 33 63"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 2 31 64"
       }
      ],
      "examples": [],
      "links": [
-      "chess",
-      "knight"
+      "foot"
      ]
     }
    ],
-   "rank": 2910,
-   "count": 280,
-   "family": "kalë",
+   "rank": 2155,
+   "count": 397,
+   "family": "gjurmë",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin, from Late Latin caballus (“horse”). Topalli suggests Gheg plural kual borrowed from Italian descendant cavallo, with phonetic development *këval > *kval > kual, whereas Tosk and standard kuaj was influenced by buaj, plural of buall (“bull”). Compare Romanian cal, Aromanian cal, French cheval, Lombard càal.",
-   "etymology_class": "borrowed",
+   "etymology": "From Proto-Albanian *surma, from Proto-Indo-European *sor-m-eh₂ (compare Ancient Greek ὁρμή (hormḗ, “onset, onrush”), Sanskrit सर्म (sárma, “flow, streaming”)), from *ser- (“to flow”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "horse"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [
-    "kalas",
-    "kalëroj",
-    "kalëshalë",
-    "kaliqafë",
-    "kalisem",
-    "kaloj",
-    "kalojë",
-    "kaloras"
-   ],
-   "related": [
-    "pelë",
-    "mëz",
-    "hamshor"
-   ],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "kuaj",
+     "form": "gjurmë",
      "tag": "plural"
     },
     {
-     "form": "kali",
+     "form": "gjurma",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I'm on a horse.",
+    "en": "Without a trace.",
     "score": [
      0,
-     5,
-     -5,
+     3,
+     -3,
      10
     ],
-    "sq": "Unë jam mbi një kalë."
+    "sq": "Pa lënë gjurmë."
+   }
+  },
+  {
+   "id": "bind",
+   "sq": "bind",
+   "en": "to convince, persuade",
+   "glosses": [
+    "to convince, persuade",
+    "to amaze",
+    "to perform magic, cast a spell, wonder, dazzle"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to convince, persuade",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 37 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "convince",
+      "persuade"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to amaze",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 37 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "amaze"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to perform magic, cast a spell, wonder, dazzle",
+     "tags": [
+      "archaic",
+      "dialectal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 37 33"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "magic",
+      "spell",
+      "wonder"
+     ]
+    }
+   ],
+   "rank": 4264,
+   "count": 181,
+   "family": "bind",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *bind-, from Proto-Indo-European *bʰeydʰ- (“to persuade, encourage; constrain”). Cognate to Ancient Greek πείθω (peíthō, “to persuade, convince”), Illyrian *Bindus (“Illyrian Neptune”) and Thracian Bithus (“theonym”). Doublet with be",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "be",
+    "përbindësh"
+   ],
+   "forms": [
+    {
+     "form": "binda",
+     "tag": "aorist"
+    },
+    {
+     "form": "bindur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But in the end, he obeyed and went.",
+    "score": [
+     0,
+     7,
+     -7,
+     10
+    ],
+    "sq": "Por në fund, u bind dhe shkoi."
    }
   }
  ]

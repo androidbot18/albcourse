@@ -1,45 +1,186 @@
 {
  "level": 283,
- "title": "betejë, jug, artë +3",
+ "title": "freskët, faqe, shfaq +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "artë",
-  "betejë",
-  "frikacak",
-  "jug",
-  "krim",
-  "qelb"
+  "faqe",
+  "freskët",
+  "patë",
+  "publik",
+  "shfaq",
+  "shtyp"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 2
+  "noun": 16,
+  "adj": 2,
+  "verb": 9
  },
  "words": [
   {
-   "id": "betejë",
-   "sq": "betejë",
-   "en": "battle",
+   "id": "shfaqje",
+   "sq": "shfaqje",
+   "en": "show, play",
    "glosses": [
-    "battle"
+    "show, play",
+    "appearance"
    ],
    "pos": [
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "battle",
+     "gloss": "show, play",
      "tags": [
       "feminine"
      ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Ti duhet të shikosh shfaqjen!",
+       "en": "You need to watch the play!",
+       "offsets": [
+        [
+         20,
+         28
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "show",
+      "play"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "appearance",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
+      },
+      {
+       "name": "Albanian terms suffixed with -je",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "appearance"
+     ]
+    }
+   ],
+   "rank": 1654,
+   "count": 531,
+   "family": "shfaq",
+   "is_root": false,
+   "etymology": "Gerund of shfaq; shfaq + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "shfaq",
+     "role": "base",
+     "en": "to show"
+    },
+    {
+     "word": "je",
+     "role": "suffix",
+     "affix": "je",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [
+    "jap shfaqje"
+   ],
+   "related": [
+    "faqe",
+    "shfaqem"
+   ],
+   "forms": [
+    {
+     "form": "shfaqje",
+     "tag": "plural"
+    },
+    {
+     "form": "shfaqja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null,
+   "breakdown": "transparent"
+  },
+  {
+   "id": "freskët",
+   "sq": "freskët",
+   "en": "fresh",
+   "glosses": [
+    "fresh"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "fresh",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -62,18 +203,18 @@
      ],
      "examples": [],
      "links": [
-      "battle"
+      "fresh"
      ]
     }
    ],
-   "rank": 2308,
-   "count": 366,
-   "family": "betejë",
+   "rank": 2372,
+   "count": 354,
+   "family": "freskët",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Late Latin battālia, variant of Latin battuālia, from Latin battuō. Compare Romanian bătaie, Aromanian bãtalje.",
+   "etymology": "From Vulgar Latin *friscum.",
    "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
+   "source_lang": "la",
+   "cognate": "from Latin friscum",
    "parents": [],
    "components": [],
    "derived": [],
@@ -81,38 +222,370 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Go into battle.",
+    "en": "cool place.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Shkoni në betejë."
+    "sq": "vend të freskët."
    }
   },
   {
-   "id": "jug",
-   "sq": "jug",
-   "en": "south",
+   "id": "faqe",
+   "sq": "faqe",
+   "en": "cheek",
    "glosses": [
-    "south"
+    "cheek",
+    "face, side",
+    "the front",
+    "page (of a book)",
+    "pillowcase or mattress protector",
+    "layer",
+    "sense of honour",
+    "appearance, looks",
+    "epoch",
+    "face",
+    "surface",
+    "year; lifetime; generation"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "south",
+     "gloss": "cheek",
      "tags": [
-      "masculine",
-      "uncountable"
+      "feminine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cheek"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "face, side",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Geometry",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Geometry",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "faqet e piramidës",
+       "en": "the faces of the pyramid",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "geometry",
+      "face",
+      "side"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the front",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "faqja e një ndërtese",
+       "en": "the front of a building",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "front"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "page (of a book)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "page"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "pillowcase or mattress protector",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 2 2 2 2 2 73 3 4 2 3"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 6 1 1 1 6 58 1 19 1 4"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 2 5 2 14 2 6 49 2 8 2 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "pillowcase",
+      "mattress protector"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "layer",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "layer"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sense of honour",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "honour"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "appearance, looks",
+     "tags": [
+      "feminine",
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "appearance",
+      "looks"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "epoch",
+     "tags": [
+      "feminine",
+      "figuratively",
+      "literary"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "epoch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "face",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "face"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "surface",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "surface"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "year; lifetime; generation",
+     "tags": [
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "faqe njeriu",
+       "en": "",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "year",
+      "lifetime",
+      "generation"
+     ]
+    }
+   ],
+   "rank": 2378,
+   "count": 353,
+   "family": "faqe",
+   "is_root": true,
+   "etymology": "Borrowed from Vulgar Latin facia (“face”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "face"
+   ],
+   "components": [],
+   "derived": [
+    "faqebardhë",
+    "faqebutë",
+    "faqeçjerrë",
+    "faqedjegur",
+    "faqeeshkë",
+    "faqefishkur",
+    "faqegjerë",
+    "faqehënë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "faqe",
+     "tag": "plural"
+    },
+    {
+     "form": "faqja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "publik",
+   "sq": "publik",
+   "en": "public",
+   "glosses": [
+    "public"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "public",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -135,16 +608,16 @@
      ],
      "examples": [],
      "links": [
-      "south"
+      "public"
      ]
     }
    ],
-   "rank": 2312,
-   "count": 365,
-   "family": "jug",
+   "rank": 2390,
+   "count": 351,
+   "family": "publik",
    "is_root": true,
-   "etymology": "Borrowed from Proto-Slavic *jùgъ (“south (wind)”) (cf. South Slavic Bulgarian and Serbo-Croatian jug (“south”)).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -153,89 +626,117 @@
    "related": [],
    "forms": [
     {
-     "form": "jugu",
-     "tag": "definite"
+     "form": "publike",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "north and south.",
+    "en": "It has a public meaning.",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "veri dhe jug."
+    "sq": "Ka një kuptim publik."
    }
   },
   {
-   "id": "artë",
-   "sq": "artë",
-   "en": "made of gold, of gold",
+   "id": "patë",
+   "sq": "patë",
+   "en": "goose",
    "glosses": [
-    "made of gold, of gold",
-    "golden"
+    "goose",
+    "plectrum"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "made of gold, of gold",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "goose",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "98 2"
-      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "46 54"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "50 50"
+      },
+      {
+       "name": "Birds",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Birds",
+       "langcode": "sq",
+       "_dis": "64 36"
       }
      ],
      "examples": [],
      "links": [
-      "gold"
+      "goose"
      ]
     },
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "golden",
-     "tags": [],
-     "cats": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "plectrum",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 86"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 54"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "golden"
+      "plectrum"
      ]
     }
    ],
-   "rank": 2315,
-   "count": 364,
-   "family": "artë",
+   "rank": 2393,
+   "count": 350,
+   "family": "patë",
    "is_root": true,
-   "etymology": "See ar.",
+   "etymology": "A cultural Wanderwort attested in Slavic and in Romance Languages (cf. Spanish pata, Serbo-Croatian pátak). Possibly related to Sanskrit पतग (pataga, “bird”). See also Old Armenian բադ (bad).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -245,324 +746,306 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "What Is the Golden Rule?",
+    "corpus": "TED2020",
+    "en": "You saw the big peak.",
     "score": [
      1,
      5,
      -4,
-     8
+     4
     ],
-    "sq": "Çfarë është Rregulla e Artë?"
+    "sq": "E patë majën e lartë."
    }
   },
   {
-   "id": "qelbësirë",
-   "sq": "qelbësirë",
-   "en": "something smell bad",
+   "id": "shtyp",
+   "sq": "shtyp",
+   "en": "to press",
    "glosses": [
-    "something smell bad",
-    "rotten thing",
-    "disgusting action"
+    "to press",
+    "to type",
+    "to print",
+    "to crunch",
+    "to crash",
+    "to suppress",
+    "to bully"
    ],
    "pos": [
-    "noun",
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "something smell bad",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 12 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 15 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 30 37"
-      }
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to press",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "smell",
-      "bad"
+      "press"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "rotten thing",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 12 45"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 15 45"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "33 30 37"
-      }
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to type",
+     "tags": [],
+     "cats": [],
      "examples": [],
      "links": [
-      "rotten",
-      "thing"
+      "type"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "disgusting action",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to print",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "print"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to crunch",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "42 12 45"
-      },
-      {
-       "name": "Albanian terms suffixed with -sirë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "38 14 48"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "41 15 45"
+       "_dis": "0 0 0 100 0 0 0"
       }
      ],
      "examples": [],
      "links": [
-      "disgusting",
-      "action"
+      "crunch"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to crash",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "crash"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to suppress",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "suppress"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bully",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bully"
      ]
     }
    ],
-   "rank": 2317,
-   "count": 364,
-   "family": "qelb",
-   "is_root": false,
-   "etymology": "From qelb + -sirë.",
+   "rank": 2394,
+   "count": 350,
+   "family": "shtyp",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *(s)tewp- (“to bump, hit”), a formation with the prefix sh- from typ. Cognate to Latin stupeō, Ancient Greek τύπτω (túptō, “to smite”), Sanskrit तोपति (tópati, “to hurt”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "përtyp",
+    "typth"
+   ],
+   "forms": [
+    {
+     "form": "shtypa",
+     "tag": "aorist"
+    },
+    {
+     "form": "shtypur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Next track Press 3 seconds.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Pjesa tjetër Shtyp 3 sekonda."
+   }
+  },
+  {
+   "id": "shfaq",
+   "sq": "shfaq",
+   "en": "to show",
+   "glosses": [
+    "to show",
+    "to appear"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to show",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "show"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to appear",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "appear"
+     ]
+    }
+   ],
+   "rank": 3563,
+   "count": 223,
+   "family": "shfaq",
+   "is_root": true,
+   "etymology": "Formed by the combination sh- + faqe.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "qelb",
-     "role": "base"
+     "word": "sh",
+     "role": "prefix"
     },
     {
-     "word": "sirë",
-     "role": "suffix"
+     "word": "faqe",
+     "role": "stem"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null,
-   "breakdown": "historical"
-  },
-  {
-   "id": "krim",
-   "sq": "krim",
-   "en": "crime",
-   "glosses": [
-    "crime"
+   "derived": [
+    "shfaqem",
+    "shfaqje"
    ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "crime",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "crime"
-     ]
-    }
-   ],
-   "rank": 2318,
-   "count": 363,
-   "family": "krim",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "krime",
-     "tag": "plural"
+     "form": "shfaqa",
+     "tag": "aorist"
     },
     {
-     "form": "krimi",
-     "tag": "definite"
+     "form": "shfaqur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Love is not a crime.",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Dashuria nuk është krim."
-   }
-  },
-  {
-   "id": "frikacak",
-   "sq": "frikacak",
-   "en": "coward",
-   "glosses": [
-    "coward"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coward",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "coward"
-     ]
-    }
-   ],
-   "rank": 2320,
-   "count": 363,
-   "family": "frikacak",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I was not a coward.",
+    "corpus": "GNOME",
+    "en": "Show two panes of bookmarks.",
     "score": [
      0,
      3,
      -3,
-     5
+     6
     ],
-    "sq": "Nuk jam frikacak."
-   }
+    "sq": "Shfaq dy nga."
+   },
+   "breakdown": "historical"
   }
  ]
 }

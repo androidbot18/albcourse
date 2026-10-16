@@ -18,7 +18,7 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 | | |
 |---|---|
 | Words | 4,133 |
-| Levels | 768: a 350-level main course, then 418 optional extended levels |
+| Levels | 765: a 348-level main course, then 417 optional extended levels |
 | Word families | 3,058 |
 | Families with more than one member | 519 |
 | Words containing ë / ç | 1,653 |
@@ -50,15 +50,17 @@ build refuses an entry that would shadow a real Wiktionary card.
 
 After the opening, levels are ordered by when a word family's root becomes
 common enough to teach, with grammar words held back and some pictureable
-nouns pulled forward. That part is an approximation, not a hand-built
+nouns pulled forward. The held-back grammar words (`të`, `që`, `nga`, `kjo`,
+`pa`, `deri`...) are spread about one per level from L31 to L144, rather
+than arriving as one block. That part is an approximation, not a hand-built
 curriculum. The Review tab follows level order, and new cards are capped at
 20 per day.
 
-The **main course** is levels 1-350: 1,665 words, everything ranked up to
+The **main course** is levels 1-348: 1,665 words, everything ranked up to
 5,000 in the frequency list plus the opening and the stems those words are
 built on. It covers 83% of the tokens in the frequency list, counting an
 inflected form of a taught word as known (`python3 tools/measure_coverage.py`). The other 2,468 words, rank above
-5,000, form an optional **extended track** (levels 351-768, marked
+5,000, form an optional **extended track** (levels 349-765, marked
 `extended`) that adds under 3 points more. The app introduces them only
 after the learner turns the track on from the level map. See
 RECOMMENDATIONS.md section 3.6.
@@ -72,10 +74,10 @@ A level is a **session of whole word families**, not a frequency slice:
   ride the root into an early session. They come back as their own level,
   "do (rarer words)", once the course reaches their frequency. Before this,
   `do` (rank 4) taught `doemos` (rank 30,516) in level 2 and pushed `unë`
-  ("I") out of the first ten levels; 22 families now resume this way.
+  ("I") out of the first ten levels; 20 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (624 of 768),
+  sessions; a level that mixes families is the normal case (630 of 765),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
@@ -170,7 +172,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        768 level descriptors, loaded first
+      index.json        765 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -211,7 +213,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (768 decks, 4,133 notes; the extended track's decks are named
+That writes dist/albanian-roots-families.apkg (765 decks, 4,133 notes; the extended track's decks are named
 "Albanian extended L..."). It is
 gitignored because it is a build artifact; regenerate it any time.
 

@@ -1,44 +1,47 @@
 {
  "level": 104,
- "title": "njoh, meje",
+ "title": "fëmijë, tillë, eshtë",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 4,
  "families": [
-  "meje",
-  "njoh"
+  "eshtë",
+  "fëmijë",
+  "tillë"
  ],
  "pos_mix": {
-  "verb": 2,
-  "pron": 1,
-  "adj": 1,
-  "noun": 1
+  "det": 1,
+  "noun": 3
  },
  "words": [
   {
-   "id": "njoh",
-   "sq": "njoh",
-   "en": "to know; recognize; be familiar with",
+   "id": "tillë",
+   "sq": "tillë",
+   "en": "such",
    "glosses": [
-    "to know; recognize; be familiar with"
+    "such"
    ],
    "pos": [
-    "verb"
+    "det"
    ],
    "pos_labels": [
-    "verb"
+    "determiner"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to know; recognize; be familiar with",
-     "tags": [
-      "transitive"
-     ],
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "such",
+     "tags": [],
      "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -50,184 +53,98 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "know",
-      "recognize",
-      "familiar"
+      "such"
      ]
     }
    ],
-   "rank": 416,
-   "count": 2515,
-   "family": "njoh",
+   "rank": 339,
+   "count": 3056,
+   "family": "tillë",
    "is_root": true,
-   "etymology": "Perhaps from Proto-Albanian *gnāska, from Proto-Indo-European *ǵn̥h₃sḱéti, from *ǵneh₃- (compare English know, Serbo-Croatian znati, Latin (g)nōscō). According to Oryol, the full-grade was drawn from the aorist.",
-   "etymology_class": "root",
+   "etymology": "According to Orel, from Proto-Albanian *tila, based on the pronominal stem *ti̯o, as in Old Norse þít (“there”). Çabej alternatively suggests an analogous formation to ti, tij.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "there"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "njoha",
-     "tag": "aorist"
-    },
-    {
-     "form": "njohur",
-     "tag": "participle"
-    },
-    {
-     "form": "njof",
-     "tag": "alternative"
+     "form": "tilla",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I do not know you.",
+    "en": "of these.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Nuk të njoh."
+    "sq": "Një e tillë."
    }
   },
   {
-   "id": "meje",
-   "sq": "meje",
-   "en": "me",
+   "id": "fëmijët",
+   "sq": "fëmijët",
+   "en": "the child, plural (from fëmijë)",
    "glosses": [
-    "me"
+    "the child, plural (from fëmijë)"
    ],
    "pos": [
-    "pron"
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "me",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "me"
-     ]
-    }
-   ],
-   "rank": 423,
-   "count": 2478,
-   "family": "meje",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *mē̆-, from Proto-Indo-European *me- (“me”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "me"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I look around me.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Unë shoh rreth meje."
-   }
-  },
-  {
-   "id": "njohur",
-   "sq": "njohur",
-   "en": "know, past form (from njoh, to know)",
-   "glosses": [
-    "know, past form (from njoh, to know)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "know, past form (from njoh, to know)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the child, plural (from fëmijë)",
      "tags": [
+      "accusative",
+      "definite",
       "form-of",
-      "participle"
+      "nominative",
+      "plural"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "njoh"
+     "is_form_of": "fëmijë"
     }
    ],
-   "rank": 569,
-   "count": 1799,
-   "family": "njoh",
+   "rank": 384,
+   "count": 2719,
+   "family": "fëmijë",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -239,150 +156,171 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Sound familiar?",
+    "corpus": "HPLT",
+    "en": "The children are fine.",
     "score": [
      0,
-     4,
-     -4,
-     5
+     3,
+     -3,
+     10
     ],
-    "sq": "Ju duket e njohur?"
+    "sq": "Fëmijët janë mirë."
    }
   },
   {
-   "id": "panjohur",
-   "sq": "panjohur",
-   "en": "unknown",
+   "id": "eshtë",
+   "sq": "eshtë",
+   "en": "fiber, muscle fiber",
    "glosses": [
-    "unknown",
-    "unknown quantity"
+    "fiber, muscle fiber"
    ],
    "pos": [
-    "adj",
     "noun"
    ],
    "pos_labels": [
-    "adjective",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "unknown",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fiber, muscle fiber",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
-       "name": "Albanian terms prefixed with pa-",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 52"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "unknown"
+      "fiber",
+      "muscle",
+      "fiber"
      ]
-    },
+    }
+   ],
+   "rank": 387,
+   "count": 2710,
+   "family": "eshtë",
+   "is_root": true,
+   "etymology": "A singularized plural of asht.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "eshta",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "It's an old move.",
+    "score": [
+     0,
+     3,
+     -3,
+     4
+    ],
+    "sq": "Eshtë e vjetër."
+   }
+  },
+  {
+   "id": "fëmija",
+   "sq": "fëmija",
+   "en": "the child, singular (from fëmijë)",
+   "glosses": [
+    "the child, singular (from fëmijë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "unknown quantity",
-     "tags": [],
+     "gloss": "the child, singular (from fëmijë)",
+     "tags": [
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
+     ],
      "cats": [
-      {
-       "name": "Mathematics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Mathematics",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "40 60"
+       "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with pa-",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [
+       "source": "w"
+      },
       {
-       "sq": "ekuacione, barazime me dy të panjohura (x dhe y)",
-       "en": "equations with two unknowns (x and y)",
-       "offsets": [
-        [
-         26,
-         38
-        ]
-       ]
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
-     "links": [
-      "mathematics"
-     ]
+     "examples": [],
+     "is_form_of": "fëmijë"
     }
    ],
-   "rank": 2368,
-   "count": 354,
-   "family": "njoh",
+   "rank": 1415,
+   "count": 629,
+   "family": "fëmijë",
    "is_root": false,
-   "etymology": "From pa- + njohur.",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "pa",
-     "role": "prefix",
-     "affix": "pa",
-     "meaning": "un-, without"
-    },
-    {
-     "word": "njohur",
-     "role": "stem",
-     "en": "know"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Every new day is unknown.",
+    "en": "Have confidence, My child.",
     "score": [
      0,
-     8,
-     -8,
+     4,
+     -4,
      10
     ],
-    "sq": "Çdo ditë e re është një e panjohur."
-   },
-   "breakdown": "transparent"
+    "sq": "Ki besim, fëmija im."
+   }
   }
+ ],
+ "continues": [
+  "fëmijë"
  ]
 }

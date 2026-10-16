@@ -1,108 +1,158 @@
 {
  "level": 101,
- "title": "andaj",
- "root": "andaj",
- "root_gloss": "therefore, thus",
+ "title": "vizë",
+ "root": "vizë",
+ "root_gloss": "line, stripe, track",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "andaj"
+  "vizë"
  ],
  "pos_mix": {
-  "adv": 1,
-  "conj": 1
+  "noun": 2,
+  "verb": 1
  },
  "words": [
   {
-   "id": "andaj",
-   "sq": "andaj",
-   "en": "therefore, thus",
+   "id": "vizë",
+   "sq": "vizë",
+   "en": "line, stripe, track",
    "glosses": [
-    "therefore, thus"
+    "line, stripe, track",
+    "dash"
    ],
    "pos": [
-    "adv"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "therefore, thus",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "line, stripe, track",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "82 18"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "55 45"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "47 53"
       }
      ],
      "examples": [],
      "links": [
-      "therefore",
-      "thus"
+      "line",
+      "stripe",
+      "track"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dash",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Typography",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Typography",
+       "langcode": "sq"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "55 45"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "47 53"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "typography",
+      "dash"
      ]
     }
    ],
-   "rank": 3986,
-   "count": 195,
-   "family": "andaj",
+   "rank": 13819,
+   "count": 43,
+   "family": "vizë",
    "is_root": true,
-   "etymology": "From andej.",
-   "etymology_class": null,
+   "etymology": "Probably from an older form *vidsa, from Proto-Indo-European *weyd- (“to know; see”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "vizatoj",
+    "vizatim",
+    "lëviz"
+   ],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "So here it is.",
+    "corpus": "MaCoCu",
+    "en": "What is a visa?",
     "score": [
-     1,
+     0,
      4,
-     -3,
-     4
+     -4,
+     8
     ],
-    "sq": "Andaj ja ku është."
+    "sq": "Çfarë është një vizë?"
    }
   },
   {
-   "id": "prandaj",
-   "sq": "prandaj",
-   "en": "therefore, thus",
+   "id": "lëviz",
+   "sq": "lëviz",
+   "en": "to move, set in motion, transfer",
    "glosses": [
-    "therefore, thus"
+    "to move, set in motion, transfer"
    ],
    "pos": [
-    "conj"
+    "verb"
    ],
    "pos_labels": [
-    "conjunction"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "therefore, thus",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to move, set in motion, transfer",
      "tags": [],
      "cats": [
       {
@@ -126,27 +176,28 @@
      ],
      "examples": [],
      "links": [
-      "therefore",
-      "thus"
+      "move",
+      "set in motion",
+      "transfer"
      ]
     }
    ],
-   "rank": 401,
-   "count": 2626,
-   "family": "andaj",
+   "rank": 372,
+   "count": 2813,
+   "family": "vizë",
    "is_root": false,
-   "etymology": "From për + andaj.",
+   "etymology": "Compound formation from lë + vizë, literally 'to leave a track'.",
    "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "për",
+     "word": "lë",
      "role": "prefix"
     },
     {
-     "word": "andaj",
+     "word": "vizë",
      "role": "stem"
     }
    ],
@@ -154,20 +205,24 @@
    "related": [],
    "forms": [
     {
-     "form": "andaj",
-     "tag": "alternative"
+     "form": "lëviza",
+     "tag": "aorist"
+    },
+    {
+     "form": "lëvizur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "So be very careful!",
+    "corpus": "TED2020",
+    "en": "Move. No. Move. No. Move. No.",
     "score": [
      0,
-     4,
-     -4,
-     10
+     5,
+     -5,
+     4
     ],
-    "sq": "Prandaj ki shumë kujdes!"
+    "sq": "Lëviz. Jo. Lëviz. Jo. Lëviz."
    },
    "breakdown": "historical"
   }

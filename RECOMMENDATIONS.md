@@ -268,6 +268,18 @@ Today:
   food (`bukë` L390).
 - `unë` (*I*) fails the existing test and sits at L11.
 
+**Spreading the deferred function words: done.** Every deferred root used
+to get a synthetic rank just past 900, so `të`, `që`, `nga`, `kjo`, `ky`,
+`pa`, `pas`, `deri`, `prej`… all arrived together at L165–179. They are now
+woven into the natural order instead (`DEFER_SPREAD_AFTER`,
+`DEFER_SPREAD_EVERY` in `tools/build_course.py`): the first after the
+scheduler's first two levels, then one every four families, most frequent
+first. They land from L31 (`të`) to L144, never more than two to a level.
+Top-200 words taught after L100 fell from 27 to 1: `pastaj` (rank 174),
+which Wiktionary derives from `pas` + `ndaj`, so it waits for `ndaj`
+(rank 631). The course is 765 levels, with a 348-level main course.
+Pinned by `tools/test_opening_policy.py`, with a negative control.
+
 Recommendation: a small hand-written `opening.yaml` that sets the first ~25
 levels by theme (greetings and yes/no; pronouns plus `jam`/`kam`; numbers 1–10;
 family; food and drink; time and days; question words; the 10 core verbs).
@@ -303,7 +315,7 @@ home and work, conjunctions, and the days of the week.
 - **The opening's glosses are reviewed.** `pi` now headlines "to drink" (it was the Gheg "from"), `kafe` "coffee" (it was "a plant of the genus Coffea"), and `qumësht` "milk". `pi`'s example is *Unë pi kafe me qumësht.* (it was *A pi drogë?*, "Do you take drugs?"). `ka` gained "he/she/it has", `farë` gained "kind, sort", and `lutem` now reads "please (ju lutem)".
 - **`tetë` is fixed.** The parser read `*(a)te + -të` as the preposition `te`, which filed *eight* in the family of *at*. It now has its own family.
 - **Days of the week.** Wiktionary files four of them under the article (`e mërkurë`, `e premte`, `e shtunë`, `e diel`), so the one-word deck had only `martë` and `enjte`. `pos_balance.ARTICLED_ENTRIES` reads those entries as senses of the bare word, and each day's reviewed gloss gives the article and the "on Monday" form: "Wednesday (e mërkurë; të mërkurën, on Wednesday)". `hënë` now headlines Monday, with "moon" second. The days close the opening (L22–23), after `e`.
-- **Results:** 4,092 words. With the days the course reached 801 levels, one over the 800-level ceiling; §3.6 then split it into a 348-level main course and an extended track (766 levels in all). Top-200 words after L100 fell from 38 to 27. The remaining ones are the L180–191 function-word block, which is the separate "spread deferred function words" item.
+- **Results:** 4,092 words. With the days the course reached 801 levels, one over the 800-level ceiling; §3.6 then split it into a 348-level main course and an extended track (766 levels in all). Top-200 words after L100 fell from 38 to 27. The remaining ones were the L165–179 function-word block, which the "spread deferred function words" item below then removed.
 - Pinned by `tools/test_opening_levels.py`.
 
 ### 3.3 Take inflected forms out of the vocabulary deck
@@ -384,7 +396,8 @@ the word no card and the frequency list has it; otherwise it fails.
   | main course now | 70.0% | **83.1%** | 252 |
   | whole course now | 70.9% | 86.0% | |
 
-  The deck is 4,133 words in 768 levels; the main course is 350 levels.
+  The deck is 4,133 words in 768 levels; the main course is 350 levels
+  (765 and 348 once the function words were spread, below).
   Most of the 252 forms still uncovered are not vocabulary: `s`, `t`, `oh`,
   `hej`, clitic clusters, and ë-less spellings (`mire`, `cfare`, `kete`).
   The rest are inflections Wiktionary does not list (`veten`, `djema`,
@@ -670,7 +683,10 @@ not all fall due on the same day.
       frequency band, for every opening family and for any family with 4+
       rare members. Still to do: the ~2,000-rank band for every derivative,
       and the family-tree view when a tail unlocks.
-- [ ] Spread deferred function words across levels instead of L192–210
+- [x] Spread deferred function words across levels instead of L192–210.
+      They are woven into the frequency order about one per level, L31–L144,
+      instead of all arriving at L165–179. Top-200 words after L100: 27 → 1
+      (`pastaj`, held by its real stem `ndaj`).
 - [ ] Collapse inflected-form cards into paradigm cards; minimal grammar spine
 - [ ] Fix homograph example mismatches; add bridging root senses (`do`, `mund`)
 - [ ] Mastery gating between levels

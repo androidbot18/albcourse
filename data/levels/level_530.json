@@ -1,44 +1,46 @@
 {
  "level": 530,
- "title": "stol, vaginë, gru +3",
+ "title": "sakat, gju, bixhoz +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "gru",
-  "izoloj",
-  "skandal",
-  "stol",
-  "trajtoj",
-  "vaginë"
+  "bixhoz",
+  "demokraci",
+  "gju",
+  "nuhat",
+  "sakat",
+  "shemb"
  ],
  "pos_mix": {
+  "adj": 1,
+  "intj": 1,
   "noun": 5,
   "verb": 3
  },
  "words": [
   {
-   "id": "stol",
-   "sq": "stol",
-   "en": "stool",
+   "id": "sakat",
+   "sq": "sakat",
+   "en": "crippled",
    "glosses": [
-    "stool"
+    "crippled"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "stool",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "crippled",
      "tags": [
-      "masculine"
+      "archaic"
      ],
      "cats": [
       {
@@ -48,7 +50,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 18 entries",
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,41 +64,261 @@
      ],
      "examples": [],
      "links": [
-      "stool"
+      "crippled"
      ]
     }
    ],
-   "rank": 13072,
-   "count": 46,
-   "family": "stol",
+   "rank": 13360,
+   "count": 45,
+   "family": "sakat",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish سقط (sakat, “unsound, defective; invalid, disabled, crippled”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "sakate",
+     "tag": "feminine"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I take a stool and sit next to him.",
+    "en": "He was lame in both his feet.",
     "score": [
-     0,
-     7,
-     -7,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Marr një stol dhe ulem pranë tij."
+    "sq": "Ishte sakat nga të dy këmbët."
    }
   },
   {
-   "id": "vaginë",
-   "sq": "vaginë",
-   "en": "vagina",
+   "id": "gju",
+   "sq": "gju",
+   "en": "shoo! go away!",
    "glosses": [
-    "vagina"
+    "shoo! go away!",
+    "knee (body part)",
+    "bend, elbow, curve",
+    "descent, lineage, generation"
+   ],
+   "pos": [
+    "intj",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "interjection",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "shoo! go away!",
+     "tags": [
+      "dialectal"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "shoo",
+      "go away"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "knee (body part)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Body parts",
+       "kind": "other",
+       "parents": [
+        "Anatomy"
+       ],
+       "source": "w+disamb",
+       "orig": "sq:Body parts",
+       "langcode": "sq",
+       "_dis": "2 79 16 2"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "ulem në gjunjë",
+       "en": "to kneel",
+       "offsets": [
+        [
+         8,
+         14
+        ]
+       ]
+      },
+      {
+       "sq": "M'u prenë gjunjët.",
+       "en": "I'm too tired. (or) I'm too scared.",
+       "offsets": [
+        [
+         10,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "knee"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bend, elbow, curve",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 59 16"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjuri i lumit",
+       "en": "the bend of the river",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bend",
+      "elbow",
+      "curve"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "descent, lineage, generation",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "të nji gjuni",
+       "en": "of one origin, homogenous",
+       "offsets": [
+        [
+         7,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "descent",
+      "lineage",
+      "generation"
+     ]
+    }
+   ],
+   "rank": 13363,
+   "count": 45,
+   "family": "gju",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Indo-European *ǵónu ~ *ǵnéws, relevelled in a preform something like *ǵnu-nó-s. The *ǵ is regularly depalatised before liquids. The shift *gn- → *gl-, aside from a possible parallel in gjuhë according to one hypothesis about its origin, is not seen elsewhere in Albanian, and has been explained as contamination with words such as llërë (“upper arm”) or bërryl (“elbow”). Compare also Proto-Celtic *glūnos, which parallels both the relevelling and the dissimilation, though it reflects a long vowel, unlike in Albanian.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "gjunjak",
+    "gjunjar",
+    "gjunjas",
+    "gjunjëprerë",
+    "gjunjëse",
+    "gjunjëzohem",
+    "përgjunjem"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjunjë",
+     "tag": "plural"
+    },
+    {
+     "form": "gjuri",
+     "tag": "definite"
+    },
+    {
+     "form": "gynj",
+     "tag": "alternative"
+    },
+    {
+     "form": "glunjë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "However it sometimes occurs in the knee or wrist.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Megjithatë ajo ndonjëherë ndodh në gju ose dore."
+   }
+  },
+  {
+   "id": "bixhoz",
+   "sq": "bixhoz",
+   "en": "gamble, gambling",
+   "glosses": [
+    "gamble, gambling"
    ],
    "pos": [
     "noun"
@@ -108,9 +330,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vagina",
+     "gloss": "gamble, gambling",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -134,16 +356,16 @@
      ],
      "examples": [],
      "links": [
-      "anatomy",
-      "vagina"
+      "gamble",
+      "gambling"
      ]
     }
    ],
-   "rank": 13076,
-   "count": 46,
-   "family": "vaginë",
+   "rank": 13365,
+   "count": 45,
+   "family": "bixhoz",
    "is_root": true,
-   "etymology": "Learned borrowing from Latin vagina.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -151,227 +373,149 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "vagina",
-     "tag": "plural"
-    },
-    {
-     "form": "vagjinë",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "and very detailed made vagina!",
+    "en": "They ask you about intoxicants and games of chance.",
     "score": [
      1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "dhe vaginë shumë të detajuar!"
-   }
-  },
-  {
-   "id": "gru",
-   "sq": "gru",
-   "en": "synonym of ngjalë deti (Conger conger)",
-   "glosses": [
-    "synonym of ngjalë deti (Conger conger)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "synonym of ngjalë deti (Conger conger)",
-     "tags": [
-      "Gheg",
-      "dialectal",
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "ngjalë deti"
-     ]
-    }
-   ],
-   "rank": 13100,
-   "count": 46,
-   "family": "gru",
-   "is_root": true,
-   "etymology": "Borrowed from Serbo-Croatian grȕj /гру̏ј. Doublet of dhrongo.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "gruja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Minions Gru took the car to give a ride.",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Miqtë Gru mori makinën për të dhënë një udhëtim."
-   }
-  },
-  {
-   "id": "trajtoj",
-   "sq": "trajtoj",
-   "en": "to treat",
-   "glosses": [
-    "to treat",
-    "to handle"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to treat",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "59 41"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "59 41"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "treat"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to handle",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "handle"
-     ]
-    }
-   ],
-   "rank": 13107,
-   "count": 46,
-   "family": "trajtoj",
-   "is_root": true,
-   "etymology": "Borrowed from Latin tractāre.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "ndërtoj",
-    "trajtë"
-   ],
-   "forms": [
-    {
-     "form": "trajtova",
-     "tag": "aorist"
-    },
-    {
-     "form": "trajtuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How can I treat at home?",
-    "score": [
-     0,
-     6,
+     7,
      -6,
      10
     ],
-    "sq": "Si mund të trajtoj në shtëpi?"
+    "sq": "Të pyesin ty për verë dhe bixhoz."
    }
   },
   {
-   "id": "skandal",
-   "sq": "skandal",
-   "en": "scandal",
+   "id": "nuhat",
+   "sq": "nuhat",
+   "en": "to smell, sniff, scent",
    "glosses": [
-    "scandal"
+    "to smell, sniff, scent",
+    "to sense"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "scandal",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to smell, sniff, scent",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
+       "source": "w+disamb",
+       "_dis": "78 22"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "60 40"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "61 39"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "smell",
+      "sniff",
+      "scent"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sense",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sense"
+     ]
+    }
+   ],
+   "rank": 13371,
+   "count": 45,
+   "family": "nuhat",
+   "is_root": true,
+   "etymology": "From a South Slavic language, compare Serbo-Croatian njuhati/njušiti/njuškati, Bulgarian нюшкам (njuškam).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "nuhata",
+     "tag": "aorist"
+    },
+    {
+     "form": "nuhatur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The doer does not see or hear or taste or smell.",
+    "score": [
+     2,
+     9,
+     -7,
+     10
+    ],
+    "sq": "Bërësi nuk sheh ose dëgjon, nuk shijon, ose nuhat."
+   }
+  },
+  {
+   "id": "shemb",
+   "sq": "shemb",
+   "en": "to demolish, abate, collapse",
+   "glosses": [
+    "to demolish, abate, collapse"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to demolish, abate, collapse",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -385,41 +529,52 @@
      ],
      "examples": [],
      "links": [
-      "scandal"
+      "demolish",
+      "abate",
+      "collapse"
      ]
     }
    ],
-   "rank": 13144,
-   "count": 46,
-   "family": "skandal",
+   "rank": 13404,
+   "count": 45,
+   "family": "shemb",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *ampa, from Proto-Indo-European *ap-. Cognate to Ancient Greek ἅπτω (háptō, “to seize, grasp”), Sanskrit आप्नोति (āpnòti, “to reach”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "shemba",
+     "tag": "aorist"
+    },
+    {
+     "form": "shembur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This is a scandal.",
+    "en": "Everything fell apart here!",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Ky është një skandal."
+    "sq": "Gjithçka u shemb këtu!"
    }
   },
   {
-   "id": "izolim",
-   "sq": "izolim",
-   "en": "isolation",
+   "id": "demokraci",
+   "sq": "demokraci",
+   "en": "democracy",
    "glosses": [
-    "isolation"
+    "democracy"
    ],
    "pos": [
     "noun"
@@ -431,9 +586,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "isolation",
+     "gloss": "democracy",
      "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
@@ -443,13 +598,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -im",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -457,123 +612,42 @@
      ],
      "examples": [],
      "links": [
-      "isolation"
+      "democracy"
      ]
     }
    ],
-   "rank": 13147,
-   "count": 46,
-   "family": "izoloj",
-   "is_root": false,
-   "etymology": "From izoloj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "izoloj",
-     "role": "base",
-     "en": "to isolate"
-    },
-    {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "protection and insulation.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "mbrojtje dhe izolim."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "izoloj",
-   "sq": "izoloj",
-   "en": "to isolate",
-   "glosses": [
-    "to isolate"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to isolate",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "isolate"
-     ]
-    }
-   ],
-   "rank": 37861,
-   "count": 10,
-   "family": "izoloj",
+   "rank": 13436,
+   "count": 45,
+   "family": "demokraci",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
+   "etymology": "From Ancient Greek δημοκρατία (dēmokratía).",
+   "etymology_class": "derived",
+   "source_lang": "el",
+   "cognate": "from Greek δημοκρατία",
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "izoluar",
-     "tag": "participle"
+     "form": "demokraci",
+     "tag": "plural"
+    },
+    {
+     "form": "demokracia",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Should I isolate her from us?",
+    "en": "into a democracy.",
     "score": [
-     1,
-     7,
-     -6,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "A duhet ta izoloj atë nga ne?"
+    "sq": "në një demokraci."
    }
   }
  ],

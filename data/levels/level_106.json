@@ -1,69 +1,239 @@
 {
  "level": 106,
- "title": "grua (continued)",
- "root": "grua",
- "root_gloss": "woman (mature female human)",
+ "title": "vete, derisa",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "grua"
+  "derisa",
+  "vete"
  ],
  "pos_mix": {
-  "noun": 2
+  "conj": 2,
+  "verb": 4,
+  "noun": 1
  },
  "words": [
   {
-   "id": "gruaja",
-   "sq": "gruaja",
-   "en": "the woman, singular (from grua)",
+   "id": "derisa",
+   "sq": "derisa",
+   "en": "until",
    "glosses": [
-    "the woman, singular (from grua)"
+    "until",
+    "while, since"
    ],
    "pos": [
+    "conj",
+    "conj"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "conjunction"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "until",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Prit derisa të vij.",
+       "en": "Wait until I come.",
+       "offsets": [
+        [
+         5,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "while, since",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 390,
+   "count": 2692,
+   "family": "derisa",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "vete",
+   "sq": "vete",
+   "en": "to go",
+   "glosses": [
+    "to go",
+    "ask him/her/it (second-person singular imperative of vet (“ask”) + e)",
+    "self, oneself"
+   ],
+   "pos": [
+    "verb",
+    "verb",
     "noun"
    ],
    "pos_labels": [
+    "verb",
+    "verb",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to go",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 6 12 31 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "go"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "ask him/her/it (second-person singular imperative of vet (“ask”) + e)",
+     "tags": [
+      "Gheg"
+     ],
+     "cats": [
+      {
+       "name": "Gheg Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 6 12 31 34"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "vet",
+      "e"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the woman, singular (from grua)",
+     "gloss": "self, oneself",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "self",
+      "oneself"
+     ]
+    }
+   ],
+   "rank": 396,
+   "count": 2663,
+   "family": "vete",
+   "is_root": true,
+   "etymology": "Originally from *vemte (*vem suffixed with te), from the original form in Proto-Albanian *wadmi, from athematic Proto-Indo-European *weh₂dʰ- (perhaps *weh₂dʰ-mi).\nAlso cognate to English wade (“to walk through water”), Old Armenian գամ (gam, “to come”), Latin vādō (“to go, walk”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "vetvete"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "vehte",
+     "tag": "alternative"
+    },
+    {
+     "form": "vet",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Myself there.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Vete unë atje."
+   }
+  },
+  {
+   "id": "vinte",
+   "sq": "vinte",
+   "en": "he/she/it (used to) went (from vete, to go)",
+   "glosses": [
+    "he/she/it (used to) went (from vete, to go)"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "he/she/it (used to) went (from vete, to go)",
      "tags": [
-      "definite",
       "form-of",
-      "nominative",
-      "singular"
+      "imperfect",
+      "singular",
+      "third-person"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "34 33 34"
       }
      ],
      "examples": [],
-     "is_form_of": "grua"
+     "is_form_of": "vete"
     }
    ],
-   "rank": 428,
-   "count": 2447,
-   "family": "grua",
+   "rank": 1133,
+   "count": 828,
+   "family": "vete",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -76,68 +246,70 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "The wife is happy.",
+    "en": "I was sorry.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Gruaja është e lumtur."
+    "sq": "Mua më vinte keq."
    }
   },
   {
-   "id": "gratë",
-   "sq": "gratë",
-   "en": "the woman, plural (from grua)",
+   "id": "vija",
+   "sq": "vija",
+   "en": "I (used to) went (from vete, to go)",
    "glosses": [
-    "the woman, plural (from grua)"
+    "I (used to) went (from vete, to go)"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the woman, plural (from grua)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "I (used to) went (from vete, to go)",
      "tags": [
-      "accusative",
-      "definite",
+      "first-person",
       "form-of",
-      "nominative",
-      "plural"
+      "imperfect",
+      "singular"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "34 33 34"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 11 11 28 5 28 5"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "11 11 11 31 3 31 3"
       }
      ],
      "examples": [],
-     "is_form_of": "grua"
+     "is_form_of": "vete"
     }
    ],
-   "rank": 1257,
-   "count": 718,
-   "family": "grua",
+   "rank": 1245,
+   "count": 727,
+   "family": "vete",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -150,18 +322,15 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "Where are the women?",
+    "en": "The line is the right line.",
     "score": [
-     0,
-     3,
+     1,
+     4,
      -3,
      8
     ],
-    "sq": "Ku janë gratë?"
+    "sq": "Vija është e duhura."
    }
   }
- ],
- "continues": [
-  "grua"
  ]
 }

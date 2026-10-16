@@ -1,30 +1,157 @@
 {
  "level": 625,
- "title": "maçok, fyej, katrahurë +3",
+ "title": "marr (more), plesht, automobil +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "afishe",
-  "fyej",
-  "katrahurë",
-  "macë",
-  "maçok",
-  "përtyp"
+  "automobil",
+  "bebë",
+  "busull",
+  "kusur",
+  "marr",
+  "plesht"
  ],
  "pos_mix": {
-  "noun": 7,
-  "verb": 1
+  "noun": 13,
+  "verb": 1,
+  "adj": 1
  },
  "words": [
   {
-   "id": "maçok",
-   "sq": "maçok",
-   "en": "male cat",
+   "id": "ndërmarrje",
+   "sq": "ndërmarrje",
+   "en": "venture",
    "glosses": [
-    "male cat"
+    "venture",
+    "project",
+    "enterprise"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "venture",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "70 15 15"
+      },
+      {
+       "name": "Albanian terms prefixed with ndër-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "70 15 15"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "70 15 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "venture"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "project",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "project"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "enterprise",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "enterprise"
+     ]
+    }
+   ],
+   "rank": 22838,
+   "count": 22,
+   "family": "marr",
+   "is_root": false,
+   "etymology": "Compound formation of ndër- + marr.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ndër",
+     "role": "prefix"
+    },
+    {
+     "word": "marr",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ndërmarrje",
+     "tag": "plural"
+    },
+    {
+     "form": "ndërmarrja",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "TED2020",
+    "en": "It's early days in this enterprise.",
+    "score": [
+     0,
+     7,
+     -7,
+     4
+    ],
+    "sq": "Janë ditët e para në këtë ndërmarrje."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "plesht",
+   "sq": "plesht",
+   "en": "flea",
+   "glosses": [
+    "flea"
    ],
    "pos": [
     "noun"
@@ -36,7 +163,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "male cat",
+     "gloss": "flea",
      "tags": [
       "masculine"
      ],
@@ -62,13 +189,167 @@
      ],
      "examples": [],
      "links": [
-      "cat"
+      "flea"
      ]
     }
    ],
-   "rank": 22494,
+   "rank": 22839,
    "count": 22,
-   "family": "maçok",
+   "family": "plesht",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *pleustā, from Proto-Indo-European *plews-, a form of Proto-Indo-European *plus-. Cognate with Latin pūlex, Sanskrit प्लुषि (plúṣi), Armenian լու (lu), all also meaning 'flea'.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pleshta",
+     "tag": "plural"
+    },
+    {
+     "form": "pleshti",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "A dead dog? A flea?",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Një qen të ngordhur, një plesht?"
+   }
+  },
+  {
+   "id": "automobil",
+   "sq": "automobil",
+   "en": "car",
+   "glosses": [
+    "car",
+    "automobile",
+    "vehicle"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "car",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 14 14 14 14 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 14 14 14 14 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "car"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "automobile",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 14 14 14 14 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 14 14 14 14 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "automobile"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vehicle",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 14 14 14 14 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 14 14 14 14 14 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "vehicle"
+     ]
+    }
+   ],
+   "rank": 22856,
+   "count": 22,
+   "family": "automobil",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -78,35 +359,26 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "maç",
-     "tag": "alternative"
-    },
-    {
-     "form": "maqorr",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "But some horny tomcat sure did.",
+    "en": "I left in a car of my own.",
     "score": [
-     3,
-     9,
-     -6,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Por disa maçok me brirë i sigurt e bëri."
+    "sq": "U nis me një automobil timin."
    }
   },
   {
-   "id": "fyej",
-   "sq": "fyej",
-   "en": "offend, insult",
+   "id": "busull",
+   "sq": "busull",
+   "en": "compass (for navigation)",
    "glosses": [
-    "offend, insult",
-    "hurt"
+    "compass (for navigation)",
+    "guide, leader"
    ],
    "pos": [
     "noun",
@@ -120,9 +392,42 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "offend, insult",
+     "gloss": "compass (for navigation)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "53 47"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "compass"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guide, leader",
      "tags": [
-      "transitive"
+      "figuratively"
      ],
      "cats": [
       {
@@ -130,49 +435,36 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "84 16"
+       "_dis": "52 48"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "79 21"
+       "_dis": "53 47"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "90 10"
+       "_dis": "48 52"
       }
      ],
      "examples": [],
      "links": [
-      "offend",
-      "insult"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hurt",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "hurt"
+      "guide",
+      "leader"
      ]
     }
    ],
-   "rank": 22533,
+   "rank": 22857,
    "count": 22,
-   "family": "fyej",
+   "family": "busull",
    "is_root": true,
-   "etymology": "From variant of thyej. Compare shaj.",
-   "etymology_class": null,
+   "etymology": "Borrowed from Italian bussola ~ Venetan bùssoła. Doublet of pusullë.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -181,32 +473,28 @@
    "related": [],
    "forms": [
     {
-     "form": "fyeva",
-     "tag": "aorist"
-    },
-    {
-     "form": "fyer",
-     "tag": "participle"
+     "form": "busulla",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "If so, do not quickly become offended.",
+    "en": "The compass is really good.",
     "score": [
-     1,
-     6,
-     -5,
+     0,
+     7,
+     -7,
      10
     ],
-    "sq": "Nëse po, mos u fyej shpejt."
+    "sq": "Busull është me të vërtetë e mirë."
    }
   },
   {
-   "id": "katrahurë",
-   "sq": "katrahurë",
-   "en": "chaos",
+   "id": "kusur",
+   "sq": "kusur",
+   "en": "change (money given back when more than the exact price of an item is given)",
    "glosses": [
-    "chaos"
+    "change (money given back when more than the exact price of an item is given)"
    ],
    "pos": [
     "noun"
@@ -218,7 +506,78 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chaos",
+     "gloss": "change (money given back when more than the exact price of an item is given)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "change"
+     ]
+    }
+   ],
+   "rank": 22901,
+   "count": 21,
+   "family": "kusur",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish كسور (küsûr), from Arabic كُسُور (kusūr).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kusure",
+     "tag": "plural"
+    },
+    {
+     "form": "kusuri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "bebë",
+   "sq": "bebë",
+   "en": "baby, infant, child",
+   "glosses": [
+    "baby, infant, child"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "baby, infant, child",
      "tags": [
       "feminine"
      ],
@@ -244,16 +603,18 @@
      ],
      "examples": [],
      "links": [
-      "chaos"
+      "baby",
+      "infant",
+      "child"
      ]
     }
    ],
-   "rank": 22554,
-   "count": 22,
-   "family": "katrahurë",
+   "rank": 22936,
+   "count": 21,
+   "family": "bebë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Indo-European *baba (“barbaric speech”). Compare English baby, Italian bebè (“id”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -262,36 +623,18 @@
    "related": [],
    "forms": [
     {
-     "form": "katrahurë",
+     "form": "beba",
      "tag": "plural"
-    },
-    {
-     "form": "katrahura",
-     "tag": "definite"
-    },
-    {
-     "form": "katraurë",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who is responsible today for this nonsense and abuse?",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Kush mban përgjegjësi sot për këtë katrahurë e abuzim?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "përtyp",
-   "sq": "përtyp",
-   "en": "to chew, masticate, gulp down",
+   "id": "ndërmarr",
+   "sq": "ndërmarr",
+   "en": "to undertake",
    "glosses": [
-    "to chew, masticate, gulp down"
+    "to undertake"
    ],
    "pos": [
     "verb"
@@ -303,247 +646,205 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to chew, masticate, gulp down",
+     "gloss": "to undertake",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with ndër-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "undertake"
+     ]
+    }
+   ],
+   "rank": 29217,
+   "count": 15,
+   "family": "marr",
+   "is_root": false,
+   "etymology": "From ndër- + marr.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ndër",
+     "role": "prefix"
+    },
+    {
+     "word": "marr",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ndërmorra",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndërmarrë",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "3- What actions should I take?",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "3- Çfarë veprimesh duhet të ndërmarr?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "marrës",
+   "sq": "marrës",
+   "en": "receiver, recipient",
+   "glosses": [
+    "receiver, recipient",
+    "father of the bridegroom",
+    "receiving"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "receiver, recipient",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian onomatopoeias",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "28 46 26"
       }
      ],
      "examples": [],
      "links": [
-      "chew",
-      "masticate",
-      "gulp"
+      "receiver",
+      "recipient"
      ]
-    }
-   ],
-   "rank": 22578,
-   "count": 22,
-   "family": "përtyp",
-   "is_root": true,
-   "etymology": "From Proto-Albanian * ̊tupi-, from Proto-Indo-European *(s)tewp- (“to push, beat”). Cognate to Ancient Greek τύππω (túppō, “to strike, beat”). A formation with the prefix për-. The root vowel has undergone umlaut. Alternatively from Proto-Indo-European *tewp- (“to get down, conceal oneself”). Compare Lithuanian tūpiù (“to get down, lay on one's knees”), Old Norse Þopta (“thwart”), Gothic 𐌸𐌹𐌿𐍆𐍃 (þiufs, “thief”). Or, simply onomatopoeic for chewing; cf. pështyj (“to spit”).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përtypa",
-     "tag": "aorist"
     },
-    {
-     "form": "përtypur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "not chew gum.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "nuk përtyp çamçakëz."
-   }
-  },
-  {
-   "id": "afishe",
-   "sq": "afishe",
-   "en": "poster (advertisement)",
-   "glosses": [
-    "poster (advertisement)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "poster (advertisement)",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "father of the bridegroom",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "father",
+      "bridegroom"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "receiving",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian terms suffixed with -ës",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "55 19 26"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "64 14 22"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "82 8 10"
       }
      ],
      "examples": [],
      "links": [
-      "poster"
+      "receiving"
      ]
     }
    ],
-   "rank": 22592,
-   "count": 22,
-   "family": "afishe",
-   "is_root": true,
-   "etymology": "Borrowed from French affiche.",
-   "etymology_class": "borrowed",
+   "rank": 41297,
+   "count": 9,
+   "family": "marr",
+   "is_root": false,
+   "etymology": "From marr + -ës.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "marr",
+     "role": "base"
+    },
+    {
+     "word": "ës",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who creates these stickers?",
-    "score": [
-     2,
-     5,
-     -3,
-     10
-    ],
-    "sq": "Kush i krijon këto afishe?"
-   }
-  },
-  {
-   "id": "macë",
-   "sq": "macë",
-   "en": "cat",
-   "glosses": [
-    "cat",
-    "belligerent, wild woman"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cat",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Zoology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "69 31"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "81 19"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "zoology",
-      "cat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "belligerent, wild woman",
-     "tags": [
-      "derogatory",
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "derogatory",
-      "belligerent",
-      "wild"
-     ]
-    }
-   ],
-   "rank": 22596,
-   "count": 22,
-   "family": "macë",
-   "is_root": true,
-   "etymology": "From Proto-Slavic *maca. See Albanian mace (“cat”) for more.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "mackë"
-   ],
-   "related": [
-    "mace",
-    "maç",
-    "maçok"
-   ],
    "forms": [
     {
-     "form": "maca",
-     "tag": "plural"
-    },
-    {
-     "form": "mace",
-     "tag": "alternative"
-    },
-    {
-     "form": "mac",
-     "tag": "alternative"
+     "form": "marrëse",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This receiver cannot be operated.",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Ky marrës nuk mund të përdoret."
+   },
+   "breakdown": "historical"
   }
  ],
  "extended": true

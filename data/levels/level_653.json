@@ -1,42 +1,45 @@
 {
  "level": 653,
- "title": "nëpunës, bosht, dorezë +3",
+ "title": "aprovoj, rras, peshoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "bosht",
-  "dorezë",
-  "kamerier",
-  "kolaps",
-  "nëpunës",
-  "pusht"
+  "analizoj",
+  "aprovoj",
+  "dridh",
+  "kreh",
+  "peshoj",
+  "rras"
  ],
  "pos_mix": {
-  "noun": 7
+  "verb": 12,
+  "noun": 3
  },
  "words": [
   {
-   "id": "nëpunës",
-   "sq": "nëpunës",
-   "en": "officer",
+   "id": "aprovoj",
+   "sq": "aprovoj",
+   "en": "to approve, to consent, to endorse",
    "glosses": [
-    "officer"
+    "to approve, to consent, to endorse"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "officer",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to approve, to consent, to endorse",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -59,13 +62,15 @@
      ],
      "examples": [],
      "links": [
-      "officer"
+      "approve",
+      "consent",
+      "endorse"
      ]
     }
    ],
-   "rank": 26216,
-   "count": 18,
-   "family": "nëpunës",
+   "rank": 26864,
+   "count": 17,
+   "family": "aprovoj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -75,379 +80,260 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Clerk, Who Goes There?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "nëpunës, Kush shkon atje?"
-   }
+   "forms": [
+    {
+     "form": "aprouar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "bosht",
-   "sq": "bosht",
-   "en": "spindle, axis, axle",
+   "id": "rras",
+   "sq": "rras",
+   "en": "to compress, to stuff",
    "glosses": [
-    "spindle, axis, axle"
+    "to compress, to stuff",
+    "to slam, thrust, ram",
+    "to fuck (up)"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "spindle, axis, axle",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to compress, to stuff",
      "tags": [
-      "masculine"
+      "transitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "66 17 17"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "39 31 31"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "65 18 18"
       }
      ],
      "examples": [],
      "links": [
-      "spindle",
-      "axis",
-      "axle"
+      "compress",
+      "stuff"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to slam, thrust, ram",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "slam",
+      "thrust",
+      "ram"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to fuck (up)",
+     "tags": [
+      "transitive",
+      "vulgar"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ia rrasa.",
+       "en": "I fucked her/him up.",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "fuck",
+      "up"
      ]
     }
    ],
-   "rank": 26237,
-   "count": 18,
-   "family": "bosht",
+   "rank": 26879,
+   "count": 17,
+   "family": "rras",
    "is_root": true,
-   "etymology": "From Proto-Albanian *bāsta, akin to Proto-Germanic *bōsta (cf. Old High German buost (“rope made of bast”)), *bastaz (“bast”)), Latin fascis.",
+   "etymology": "From Proto-Albanian *wragtja, related to rrah. Alternatively from Proto-Albanian *raT(ś)i-, from Proto-Indo-European *ureh1ǵ(h)- (“to strike, beat”). Cognate to Ancient Greek ῥάττω (rháttō, “to strike, beat”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "rrah",
+    "rrëzoj",
+    "rrasë",
+    "dërrasë",
+    "fus"
+   ],
    "forms": [
     {
-     "form": "boshte",
-     "tag": "plural"
+     "form": "rrasa",
+     "tag": "aorist"
     },
     {
-     "form": "boshti",
-     "tag": "definite"
+     "form": "rrasur",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Them grow up from a shaft.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Ato rriten nga një bosht."
-   }
+   "corpus_example": null
   },
   {
-   "id": "dorezë",
-   "sq": "dorezë",
-   "en": "glove",
+   "id": "peshoj",
+   "sq": "peshoj",
+   "en": "to weigh",
    "glosses": [
-    "glove",
-    "handle"
+    "to weigh",
+    "to scale"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "glove",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "92 8"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "91 9"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "glove"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "handle",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to weigh",
+     "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "handle"
+      "weigh"
      ]
-    }
-   ],
-   "rank": 26245,
-   "count": 18,
-   "family": "dorezë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "It has a handle to hold in your hand.",
-    "score": [
-     0,
-     8,
-     -8,
-     8
-    ],
-    "sq": "Ka një dorezë për tu mbajtur në dorë."
-   }
-  },
-  {
-   "id": "kamerier",
-   "sq": "kamerier",
-   "en": "waiter",
-   "glosses": [
-    "waiter"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "waiter",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "waiter"
-     ]
-    }
-   ],
-   "rank": 26338,
-   "count": 18,
-   "family": "kamerier",
-   "is_root": true,
-   "etymology": "Borrowed from Italian cameriere.",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kamerierë",
-     "tag": "plural"
     },
     {
-     "form": "kamerieri",
-     "tag": "definite"
-    },
-    {
-     "form": "kameriere",
-     "tag": "feminine"
-    },
-    {
-     "form": "kamarier",
-     "tag": "alternative"
-    },
-    {
-     "form": "kamarjer",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Play the game Angry waiter online.",
-    "score": [
-     3,
-     5,
-     -2,
-     10
-    ],
-    "sq": "Luajnë lojë Kamerier zemëruar online."
-   }
-  },
-  {
-   "id": "kolaps",
-   "sq": "kolaps",
-   "en": "collapse (sudden and often unannounced loss of postural tone)",
-   "glosses": [
-    "collapse (sudden and often unannounced loss of postural tone)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "collapse (sudden and often unannounced loss of postural tone)",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to scale",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "6 94"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 96"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 96"
       }
      ],
      "examples": [],
      "links": [
-      "pathology",
-      "collapse"
+      "scale"
      ]
     }
    ],
-   "rank": 26352,
-   "count": 18,
-   "family": "kolaps",
+   "rank": 26881,
+   "count": 17,
+   "family": "peshoj",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed through Vulgar Latin from Latin pensāre. Doublet of pincar (“to think”), which was borrowed through Sicilian.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [],
+   "related": [
+    "peshohem",
+    "peshë"
+   ],
+   "forms": [
+    {
+     "form": "peshova",
+     "tag": "aorist"
+    },
+    {
+     "form": "peshuar",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Why do you think it's a collapse?",
+    "corpus": "HPLT",
+    "en": "What should I weigh?",
     "score": [
-     1,
-     5,
+     0,
+     4,
      -4,
-     8
+     10
     ],
-    "sq": "Përse mendoni se është kolaps?"
+    "sq": "Sa duhet të peshoj?"
    }
   },
   {
-   "id": "pusht",
-   "sq": "pusht",
-   "en": "bastard, playboy, womanizer",
+   "id": "analizoj",
+   "sq": "analizoj",
+   "en": "to analyse",
    "glosses": [
-    "bastard, playboy, womanizer"
+    "to analyse"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bastard, playboy, womanizer",
-     "tags": [
-      "masculine",
-      "vulgar"
-     ],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to analyse",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -470,15 +356,13 @@
      ],
      "examples": [],
      "links": [
-      "bastard",
-      "playboy",
-      "womanizer"
+      "analyse"
      ]
     }
    ],
-   "rank": 26452,
+   "rank": 26907,
    "count": 17,
-   "family": "pusht",
+   "family": "analizoj",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -490,21 +374,384 @@
    "related": [],
    "forms": [
     {
-     "form": "pushti",
-     "tag": "definite"
+     "form": "analizova",
+     "tag": "aorist"
+    },
+    {
+     "form": "analizuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "This PushtEd is the power-regime we touch every day.",
+    "en": "I am feeling very luck to analysis this post.",
     "score": [
-     3,
-     9,
-     -6,
+     2,
+     7,
+     -5,
      10
     ],
-    "sq": "Ky PushtEd është regjimi-pusht që prekim çdo ditë."
+    "sq": "Ndjej shumë fat ta analizoj këtë postim."
    }
+  },
+  {
+   "id": "dridh",
+   "sq": "dridh",
+   "en": "to tremble, quake, rock",
+   "glosses": [
+    "to tremble, quake, rock",
+    "to move, dance",
+    "to shake, vibrate"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to tremble, quake, rock",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 29 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 32 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "tremble",
+      "quake",
+      "rock"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to move, dance",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 29 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 32 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "move",
+      "dance"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shake, vibrate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 25 43"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 29 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 32 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "shake",
+      "vibrate"
+     ]
+    }
+   ],
+   "rank": 26925,
+   "count": 17,
+   "family": "dridh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *dreδ-, from Proto-Indo-European *d(h)r- (“to tremble, quake, rock”). Cognate to Lithuanian drebù (“to tremble, quake”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "dredh",
+    "ndrydh",
+    "tredh"
+   ],
+   "forms": [
+    {
+     "form": "drodha",
+     "tag": "aorist"
+    },
+    {
+     "form": "dridhur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He was shaking his head.",
+    "score": [
+     3,
+     7,
+     -4,
+     10
+    ],
+    "sq": "Arbeni u dridh dhe e ngriti kokën."
+   }
+  },
+  {
+   "id": "kreh",
+   "sq": "kreh",
+   "en": "to comb",
+   "glosses": [
+    "to comb",
+    "to edit (text)"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to comb",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "comb"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to edit (text)",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 81"
+      },
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 100"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 60"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "edit"
+     ]
+    }
+   ],
+   "rank": 26965,
+   "count": 17,
+   "family": "kreh",
+   "is_root": true,
+   "etymology": "From variant greh, from Proto-Albanian *grebska, from Proto-Indo-European *gʰrebʰ- (compare German graben (“to dig”), Lithuanian grebti (“to rake”)).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "greth",
+    "grehull",
+    "krehër",
+    "krehës",
+    "krehje"
+   ],
+   "related": [
+    "kruaj"
+   ],
+   "forms": [
+    {
+     "form": "kreha",
+     "tag": "aorist"
+    },
+    {
+     "form": "krehur",
+     "tag": "participle"
+    },
+    {
+     "form": "greh",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Go away… and comb your hair the right way.",
+    "score": [
+     1,
+     8,
+     -7,
+     10
+    ],
+    "sq": "Shko… dhe kreh flokët në mënyrën e duhur."
+   }
+  },
+  {
+   "id": "krehër",
+   "sq": "krehër",
+   "en": "comb",
+   "glosses": [
+    "comb",
+    "rake, raker, clip",
+    "fitting of a weapon (which holds cartridges)"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "comb",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "comb"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rake, raker, clip",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "rake",
+      "raker",
+      "clip"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fitting of a weapon (which holds cartridges)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Military",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Military",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "military",
+      "fitting"
+     ]
+    }
+   ],
+   "rank": 48683,
+   "count": 7,
+   "family": "kreh",
+   "is_root": false,
+   "etymology": "From kreh (“to comb”) + -ër.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kreh",
+     "role": "base"
+    },
+    {
+     "word": "ër",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Easy to comb.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Lehtë për të krehër."
+   },
+   "breakdown": "historical"
   }
  ],
  "extended": true

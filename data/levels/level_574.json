@@ -1,29 +1,32 @@
 {
  "level": 574,
- "title": "psikolog, frekuencë, bazen +3",
+ "title": "llum, tradhtoj, qyqar +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "astronaut",
-  "bazen",
-  "frekuencë",
-  "kilometër",
-  "psikolog",
-  "ri"
+  "hendek",
+  "kec",
+  "llum",
+  "qyqar",
+  "tok",
+  "tradhtoj"
  ],
  "pos_mix": {
-  "noun": 7
+  "noun": 3,
+  "verb": 5,
+  "adj": 3,
+  "adv": 1
  },
  "words": [
   {
-   "id": "psikolog",
-   "sq": "psikolog",
-   "en": "psychologist",
+   "id": "llum",
+   "sq": "llum",
+   "en": "mud",
    "glosses": [
-    "psychologist"
+    "mud"
    ],
    "pos": [
     "noun"
@@ -35,7 +38,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "psychologist",
+     "gloss": "mud",
      "tags": [
       "masculine"
      ],
@@ -61,15 +64,15 @@
      ],
      "examples": [],
      "links": [
-      "psychologist"
+      "mud"
      ]
     }
    ],
-   "rank": 16598,
-   "count": 33,
-   "family": "psikolog",
+   "rank": 17065,
+   "count": 32,
+   "family": "llum",
    "is_root": true,
-   "etymology": "",
+   "etymology": "A formation of lym with expressive anlaut, which in its turn has caused the velarization of the following vowel.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -77,48 +80,39 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "psikologë",
-     "tag": "plural"
-    },
-    {
-     "form": "psikologu",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Find a psychologist.",
+    "en": "into the scum, into the black sludge.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Gjej një psikolog."
+    "sq": "në llum, në llagëmin e zi."
    }
   },
   {
-   "id": "frekuencë",
-   "sq": "frekuencë",
-   "en": "frequency",
+   "id": "tradhtoj",
+   "sq": "tradhtoj",
+   "en": "to betray",
    "glosses": [
-    "frequency"
+    "to betray"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "frequency",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to betray",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [
       {
@@ -140,19 +134,39 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Më ke tradhtuar, tani të lë unë!",
+       "en": "You betrayed me, I leave you now!",
+       "offsets": [
+        [
+         3,
+         15
+        ]
+       ]
+      },
+      {
+       "sq": "Gabim me ty qe rrija, se dija qe më tradhtove.",
+       "en": "It was a mistake that I stood with you, because I knew that you betrayed me.",
+       "offsets": [
+        [
+         36,
+         45
+        ]
+       ]
+      }
+     ],
      "links": [
-      "physics",
-      "frequency"
+      "betray"
      ]
     }
    ],
-   "rank": 16600,
-   "count": 33,
-   "family": "frekuencë",
+   "rank": 17072,
+   "count": 32,
+   "family": "tradhtoj",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Ultimately from Latin trādō. Compare Romanian trăda.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -161,28 +175,332 @@
    "related": [],
    "forms": [
     {
-     "form": "frekuenca",
-     "tag": "definite"
+     "form": "tradhtova",
+     "tag": "aorist"
+    },
+    {
+     "form": "tradhtuar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "There is a lot of high-frequency trading.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Ka shumë tregti me frekuencë të lartë."
-   }
+   "corpus_example": null
   },
   {
-   "id": "bazen",
-   "sq": "bazen",
-   "en": "swimming pool",
+   "id": "qyqar",
+   "sq": "qyqar",
+   "en": "poor, miserable, wretched, hapless",
    "glosses": [
-    "swimming pool"
+    "poor, miserable, wretched, hapless",
+    "alone, desolate, forsaken",
+    "incapable, helpless, weak"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "poor, miserable, wretched, hapless",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "poor",
+      "miserable",
+      "wretched"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "alone, desolate, forsaken",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "14 52 34"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 68 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 87 13"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "alone",
+      "desolate",
+      "forsaken"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "incapable, helpless, weak",
+     "tags": [
+      "also",
+      "noun"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -ar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 40 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "incapable",
+      "helpless",
+      "weak"
+     ]
+    }
+   ],
+   "rank": 17075,
+   "count": 32,
+   "family": "qyqar",
+   "is_root": true,
+   "etymology": "From qyq (“wretched, miserable”) + -ar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "qyq",
+    "qyqan",
+    "qyqatoj",
+    "qyqe",
+    "qyqohem"
+   ],
+   "forms": [
+    {
+     "form": "qyqare",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "tok",
+   "sq": "tok",
+   "en": "to cut or hit meat to mince it or make meatballs",
+   "glosses": [
+    "to cut or hit meat to mince it or make meatballs",
+    "to sharpen (scythe or sickle)",
+    "knock",
+    "to hit (or handshake) someone's hand to greet them, toast someone by clinking glasses",
+    "together"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "adv"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cut or hit meat to mince it or make meatballs",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 41 17 11 20"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cut",
+      "hit",
+      "meatball"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sharpen (scythe or sickle)",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "toku draprin",
+       "en": "tempering the sickle",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "sharpen",
+      "scythe",
+      "sickle"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "knock",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "knock"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to hit (or handshake) someone's hand to greet them, toast someone by clinking glasses",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "tokën duart",
+       "en": "they high fived",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "tokën gotat",
+       "en": "they toasted with glasses",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "hit",
+      "greet",
+      "toast"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "together",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "together"
+     ]
+    }
+   ],
+   "rank": 17082,
+   "count": 32,
+   "family": "tok",
+   "is_root": true,
+   "etymology": "An onomatopoeia, similar to Italian toccare (“to touch, to tap”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "toka"
+   ],
+   "related": [
+    "tokë",
+    "cek"
+   ],
+   "forms": [
+    {
+     "form": "toka",
+     "tag": "aorist"
+    },
+    {
+     "form": "tokur",
+     "tag": "participle"
+    },
+    {
+     "form": "toku",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "kec",
+   "sq": "kec",
+   "en": "goat kid less than a year old",
+   "glosses": [
+    "goat kid less than a year old"
    ],
    "pos": [
     "noun"
@@ -194,7 +512,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "swimming pool",
+     "gloss": "goat kid less than a year old",
      "tags": [
       "masculine"
      ],
@@ -206,7 +524,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 5 entries",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -220,50 +538,64 @@
      ],
      "examples": [],
      "links": [
-      "swimming pool"
+      "kid"
      ]
     }
    ],
-   "rank": 16694,
-   "count": 33,
-   "family": "bazen",
+   "rank": 17092,
+   "count": 32,
+   "family": "kec",
    "is_root": true,
-   "etymology": "From Serbo-Croatian bazen, from French bassin.",
+   "etymology": "Either from Ottoman Turkish كچی (keçi, “goat”), or diminutive with hypocoristic suffix -ç ~ -c of regular kedh (see there for further etymology).",
    "etymology_class": "borrowed",
-   "source_lang": "sr",
-   "cognate": "from Serbian bassin",
-   "parents": [],
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "goat"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "bazene",
+     "form": "kecër",
      "tag": "plural"
     },
     {
-     "form": "bazeni",
+     "form": "keca",
+     "tag": "plural"
+    },
+    {
+     "form": "keci",
      "tag": "definite"
+    },
+    {
+     "form": "keç",
+     "tag": "alternative"
+    },
+    {
+     "form": "kedh",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "We set up a foundation.",
+    "corpus": "QED",
+    "en": "Nice knowing you kid.",
     "score": [
-     1,
+     0,
      4,
-     -3,
-     4
+     -4,
+     5
     ],
-    "sq": "Ne kemi krijuar bazen."
+    "sq": "Bukur ditur ju kec."
    }
   },
   {
-   "id": "risi",
-   "sq": "risi",
-   "en": "innovation",
+   "id": "hendek",
+   "sq": "hendek",
+   "en": "ditch",
    "glosses": [
-    "innovation"
+    "ditch"
    ],
    "pos": [
     "noun"
@@ -275,98 +607,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "innovation",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -si",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 6 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
+     "gloss": "ditch",
+     "tags": [
+      "masculine"
      ],
-     "examples": [],
-     "links": [
-      "innovation"
-     ]
-    }
-   ],
-   "rank": 16711,
-   "count": 33,
-   "family": "ri",
-   "is_root": false,
-   "etymology": "From ri (“new”) + -si.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "new"
-   ],
-   "components": [
-    {
-     "word": "ri",
-     "role": "base",
-     "en": "new"
-    },
-    {
-     "word": "si",
-     "role": "suffix",
-     "affix": "si",
-     "meaning": "-ness, -ity"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "risi",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Anyway, onto newness!",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Gjithsesi, mbi risi!"
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "astronaut",
-   "sq": "astronaut",
-   "en": "astronaut, cosmonaut",
-   "glosses": [
-    "astronaut, cosmonaut"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "astronaut, cosmonaut",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -375,7 +619,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 11 entries",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -389,17 +633,16 @@
      ],
      "examples": [],
      "links": [
-      "astronaut",
-      "cosmonaut"
+      "ditch"
      ]
     }
    ],
-   "rank": 16723,
-   "count": 33,
-   "family": "astronaut",
+   "rank": 17099,
+   "count": 32,
+   "family": "hendek",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish خندق (hendek), from Arabic خَنْدَق (ḵandaq).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -408,186 +651,16 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I want to become an astronaut.",
+    "corpus": "HPLT",
+    "en": "They're in the ditch!",
     "score": [
      0,
      4,
      -4,
-     0
-    ],
-    "sq": "Dua të bëhem astronaut."
-   }
-  },
-  {
-   "id": "kilometër",
-   "sq": "kilometër",
-   "en": "kilometer, kilometre",
-   "glosses": [
-    "kilometer, kilometre"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kilometer, kilometre",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with kilo-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "kilometer",
-      "kilometre"
-     ]
-    }
-   ],
-   "rank": 16765,
-   "count": 33,
-   "family": "kilometër",
-   "is_root": true,
-   "etymology": "kilo- + metër",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "kilo",
-     "role": "prefix"
-    },
-    {
-     "word": "metër",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's not far, maybe a kilometer.",
-    "score": [
-     0,
-     7,
-     -7,
      10
     ],
-    "sq": "Ajo nuk është larg, ndoshta një kilometër."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "rini",
-   "sq": "rini",
-   "en": "youth",
-   "glosses": [
-    "youth"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "youth",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -ni",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "youth"
-     ]
-    }
-   ],
-   "rank": 20504,
-   "count": 25,
-   "family": "ri",
-   "is_root": false,
-   "etymology": "From ri (“young”) + -ni.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "young"
-   ],
-   "components": [
-    {
-     "word": "ri",
-     "role": "base"
-    },
-    {
-     "word": "ni",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "rinia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "What teachings were you exposed to as a youth?",
-    "score": [
-     1,
-     5,
-     -4,
-     8
-    ],
-    "sq": "Çfarë të mësuan në rini?"
-   },
-   "breakdown": "historical"
+    "sq": "Ata janë në hendek!"
+   }
   }
  ],
  "extended": true

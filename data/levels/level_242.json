@@ -1,25 +1,32 @@
 {
  "level": 242,
- "title": "jam (rarer words)",
- "root": "jam",
- "root_gloss": "to be",
+ "title": "ndërtoj, përdorim, ngushtë +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 7,
  "families": [
-  "jam"
+  "mëngjes",
+  "mërzitur",
+  "ndërtoj",
+  "ngushtë",
+  "përdorim",
+  "çast"
  ],
  "pos_mix": {
   "verb": 1,
-  "noun": 3
+  "noun": 5,
+  "adj": 3,
+  "intj": 1
  },
  "words": [
   {
-   "id": "qenke",
-   "sq": "qenke",
-   "en": "you (sg) are (from jam, to be)",
+   "id": "ndërtuar",
+   "sq": "ndërtuar",
+   "en": "build, past form (from ndërtoj, to build)",
    "glosses": [
-    "you (sg) are (from jam, to be)"
+    "build, past form (from ndërtoj, to build)"
    ],
    "pos": [
     "verb"
@@ -31,13 +38,11 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg) are (from jam, to be)",
+     "gloss": "build, past form (from ndërtoj, to build)",
      "tags": [
-      "admirative",
       "form-of",
-      "present",
-      "second-person",
-      "singular"
+      "participle",
+      "past"
      ],
      "cats": [
       {
@@ -60,12 +65,12 @@
       }
      ],
      "examples": [],
-     "is_form_of": "jam"
+     "is_form_of": "ndërtoj"
     }
    ],
-   "rank": 1510,
-   "count": 586,
-   "family": "jam",
+   "rank": 1551,
+   "count": 569,
+   "family": "ndërtoj",
    "is_root": false,
    "etymology": "",
    "etymology_class": null,
@@ -76,24 +81,31 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Built for business.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ndërtuar për biznes."
+   }
   },
   {
-   "id": "qenie",
-   "sq": "qenie",
-   "en": "being, existence",
+   "id": "përdorim",
+   "sq": "përdorim",
+   "en": "use",
    "glosses": [
-    "being, existence",
-    "being (a living creature)",
-    "the objective world or the totality of things and phenomena that exist independently of consciousness; matter"
+    "use",
+    "usage"
    ],
    "pos": [
-    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun",
     "noun"
    ],
@@ -101,95 +113,532 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "being, existence",
+     "gloss": "use",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "being",
-      "existence"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "being (a living creature)",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ne jemi të gjithë qenie njerëzore.",
-       "en": "We are all human beings.",
-       "offsets": [
-        [
-         18,
-         23
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "being"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the objective world or the totality of things and phenomena that exist independently of consciousness; matter",
-     "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
-      {
-       "name": "Philosophy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Philosophy",
-       "langcode": "sq"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "16 69 16"
+       "_dis": "42 58"
       },
       {
-       "name": "Albanian terms suffixed with -ie",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "23 54 23"
+       "_dis": "41 59"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
       }
      ],
      "examples": [],
      "links": [
-      "philosophy",
-      "matter"
+      "use"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "usage",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 58"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "21 79"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "usage"
      ]
     }
    ],
-   "rank": 4786,
-   "count": 159,
-   "family": "jam",
+   "rank": 1552,
+   "count": 569,
+   "family": "përdorim",
+   "is_root": true,
+   "etymology": "Gerund of përdor.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "përdorime",
+     "tag": "plural"
+    },
+    {
+     "form": "përdorimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We use words.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ne përdorim fjalë."
+   }
+  },
+  {
+   "id": "ngushtë",
+   "sq": "ngushtë",
+   "en": "narrow, tight",
+   "glosses": [
+    "narrow, tight"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "narrow, tight",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "narrow",
+      "tight"
+     ]
+    }
+   ],
+   "rank": 1553,
+   "count": 568,
+   "family": "ngushtë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin angustus. Compare Romanian îngust, Aromanian ngustu. Doublet of inherited angësht.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I was very tight.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Isha shumë ngushtë."
+   }
+  },
+  {
+   "id": "mërzitur",
+   "sq": "mërzitur",
+   "en": "sad",
+   "glosses": [
+    "sad",
+    "bored"
+   ],
+   "pos": [
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sad",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sad"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "bored",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "72 14 14"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bored"
+     ]
+    }
+   ],
+   "rank": 1571,
+   "count": 558,
+   "family": "mërzitur",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "They are very upset.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Janë shumë të mërzitur."
+   }
+  },
+  {
+   "id": "mirëmëngjes",
+   "sq": "mirëmëngjes",
+   "en": "good morning",
+   "glosses": [
+    "good morning"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good morning",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "good morning"
+     ]
+    }
+   ],
+   "rank": 1577,
+   "count": 554,
+   "family": "mëngjes",
    "is_root": false,
-   "etymology": "Gerund of jam; qenë + -ie (variant of -je).",
+   "etymology": "From mirë + mëngjes.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "prefix"
+    },
+    {
+     "word": "mëngjes",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Good morning.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Mirëmëngjes. Si jeni?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "çast",
+   "sq": "çast",
+   "en": "moment",
+   "glosses": [
+    "moment",
+    "opportunity"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "moment",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 58"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "moment"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "opportunity",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 58"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "41 59"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "opportunity"
+     ]
+    }
+   ],
+   "rank": 1578,
+   "count": 554,
+   "family": "çast",
+   "is_root": true,
+   "etymology": "Borrowed from a South Slavic language, compare Old Church Slavonic часъ (časŭ, “time, moment, hour”), Serbo-Croatian čas (“time, moment, hour”) and Bulgarian час (čas, “hour, period”). Ultimately from Proto-Slavic *časъ (“time”).\nThe auslaut -t derives from the old locative or prepositional accusative case.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "çastësi",
+    "çastshëm"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "çaste",
+     "tag": "plural"
+    },
+    {
+     "form": "çasti",
+     "tag": "definite"
+    },
+    {
+     "form": "ças",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He paused for a moment.",
+    "score": [
+     0,
+     6,
+     -6,
+     8
+    ],
+    "sq": "Ai u ndal për një çast."
+   }
+  },
+  {
+   "id": "ndërtesë",
+   "sq": "ndërtesë",
+   "en": "building, facility",
+   "glosses": [
+    "building, facility"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "building, facility",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -esë",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "building",
+      "facility"
+     ]
+    }
+   ],
+   "rank": 2244,
+   "count": 380,
+   "family": "ndërtoj",
+   "is_root": false,
+   "etymology": "From ndërtoj + -esë (feminine suffix).",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "qenë",
+     "word": "ndërtoj",
      "role": "base"
     },
     {
-     "word": "ie",
+     "word": "esë",
      "role": "suffix"
     }
    ],
@@ -197,21 +646,25 @@
    "related": [],
    "forms": [
     {
-     "form": "qenie",
+     "form": "ndërtesa",
      "tag": "plural"
-    },
-    {
-     "form": "qenia",
-     "tag": "definite"
-    },
-    {
-     "form": "qenje",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": null,
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Large building.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ndërtesë e madhe."
+   },
    "breakdown": "historical"
   }
  ],
- "resumes": true
+ "continues": [
+  "mëngjes"
+ ]
 }
