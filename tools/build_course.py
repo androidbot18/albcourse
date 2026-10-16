@@ -2,7 +2,7 @@
 """
 build_course.py - build the albcourse SRS dataset from real source data.
 
-Inputs (downloaded by tools/fetch_data.py):
+Inputs (downloaded by tools/fetch_sources.py):
   data/raw/kaikki_albanian.jsonl   Kaikki.org / wiktextract of English Wiktionary
   data/raw/sq_50k.txt              hermitdave FrequencyWords, OpenSubtitles2018
 
@@ -1675,7 +1675,7 @@ def main():
     freqp = os.path.join(RAW, "sq_50k.txt")
     for p in (kaikki, freqp):
         if not os.path.exists(p):
-            print("MISSING:", p, "- run tools/fetch_data.py first", file=sys.stderr)
+            print("MISSING:", p, "- run tools/fetch_sources.py first", file=sys.stderr)
             return 2
 
     print("loading frequency list...", flush=True)

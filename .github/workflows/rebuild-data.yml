@@ -1,0 +1,84 @@
+# Rebuild the course from the upstream sources and run every test.
+#
+# The Kaikki dump is not reachable from every dev environment (it returns 403
+# there), so the build and the three suites that need data/raw
+# (test_determinism, test_pos_balance, test_opening_policy) cannot run
+# locally. GitHub-hosted runners can fetch it.
+#
+# This never commits. It reports whether a clean rebuild reproduces the
+# committed data and uploads the rebuilt files, so the diff can be reviewed
+# before anything is changed.
+name: rebuild-data
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/rebuild-data.yml"
+      - "tools/**"
+      - "run_tests.sh"
+
+permissions:
+  contents: read
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: pip install -r tools/requirements.txt
+
+      - name: Cache raw sources
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: raw-sources-v1
+
+      - name: Fetch Kaikki and the frequency list
+        run: python3 tools/fetch_sources.py
+
+      - name: Rebuild the course
+        run: |
+          python3 tools/build_course.py
+          python3 tools/build_words_index.py
+
+      - name: Does a clean rebuild reproduce the committed data?
+        run: |
+          git status --short -- data | tee rebuild-status.txt
+          git diff --stat -- data | tail -20 | tee -a rebuild-status.txt
+          git diff --binary -- data > rebuild.patch || true
+
+      - name: Run every test
+        run: ./run_tests.sh 2>&1 | tee test-output.txt; exit "${PIPESTATUS[0]}"
+        shell: bash
+
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## Rebuild vs committed data"
+            echo '```'; cat rebuild-status.txt 2>/dev/null || echo "(build did not finish)"; echo '```'
+            echo "## Failed suites"
+            echo '```'; sed -n '/FAILED SUITES/,$p' test-output.txt 2>/dev/null || true; echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rebuild-output
+          retention-days: 14
+          path: |
+            test-output.txt
+            rebuild-status.txt
+            rebuild.patch
