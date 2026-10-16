@@ -1,25 +1,25 @@
 {
  "level": 55,
- "title": "shpejt",
- "root": "shpejt",
- "root_gloss": "quickly, fast",
+ "title": "poshtë",
+ "root": "poshtë",
+ "root_gloss": "down, downwards",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "shpejt"
+  "poshtë"
  ],
  "pos_mix": {
-  "adv": 1,
+  "adv": 2,
   "noun": 1
  },
  "words": [
   {
-   "id": "shpejt",
-   "sq": "shpejt",
-   "en": "quickly, fast",
+   "id": "poshtë",
+   "sq": "poshtë",
+   "en": "down, downwards",
    "glosses": [
-    "quickly, fast"
+    "down, downwards"
    ],
    "pos": [
     "adv"
@@ -31,7 +31,7 @@
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "quickly, fast",
+     "gloss": "down, downwards",
      "tags": [],
      "cats": [
       {
@@ -55,59 +55,69 @@
      ],
      "examples": [],
      "links": [
-      "quickly",
-      "fast"
+      "down",
+      "downwards"
      ]
     }
    ],
-   "rank": 199,
-   "count": 6414,
-   "family": "shpejt",
+   "rank": 200,
+   "count": 6390,
+   "family": "poshtë",
    "is_root": true,
-   "etymology": "Borrowed from Latin *expeditus",
-   "etymology_class": null,
+   "etymology": "A formation in -shtë > *-est, from posh, from Proto-Indo-European *pṓds. Compare Hittite [script needed] (pata), Ancient Greek πούς, ποδός (poús, podós), Old English fōt (“foot”). Orel suggests a borrowing from Latin post, poste (“behind, back”), but phonetic problems and a radical change in meaning makes it unlikely.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shpjertë",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Not so fast.",
+    "corpus": "HPLT",
+    "en": "It looks like below.",
     "score": [
      0,
-     3,
-     -3,
-     4
+     4,
+     -4,
+     10
     ],
-    "sq": "Jo kaq shpejt."
+    "sq": "Duket si më poshtë."
    }
   },
   {
-   "id": "shpejtësi",
-   "sq": "shpejtësi",
-   "en": "speed",
+   "id": "teposhtë",
+   "sq": "teposhtë",
+   "en": "down, downwards",
    "glosses": [
-    "speed"
+    "down, downwards",
+    "slope"
    ],
    "pos": [
+    "adv",
     "noun"
    ],
    "pos_labels": [
+    "adverb",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "down, downwards",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "down",
+      "downwards"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "speed",
+     "gloss": "slope",
      "tags": [
       "feminine"
      ],
@@ -116,73 +126,64 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "18 82"
       },
       {
-       "name": "Albanian terms suffixed with -ësi",
+       "name": "Albanian terms prefixed with te-",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "23 77"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "17 83"
       }
      ],
      "examples": [],
      "links": [
-      "speed"
+      "slope"
      ]
     }
    ],
-   "rank": 2491,
-   "count": 334,
-   "family": "shpejt",
+   "rank": 33481,
+   "count": 12,
+   "family": "poshtë",
    "is_root": false,
-   "etymology": "From shpejt + -ësi.",
+   "etymology": "Prefixed derivative of poshtë; te- + poshtë.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "shpejt",
-     "role": "base",
-     "en": "quickly"
+     "word": "te",
+     "role": "prefix"
     },
     {
-     "word": "ësi",
-     "role": "suffix",
-     "affix": "si",
-     "meaning": "-ness, -ity"
+     "word": "poshtë",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shpejtësi",
-     "tag": "plural"
-    },
-    {
-     "form": "shpejtësia",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "is encouraging speed?",
+    "corpus": "SETIMES",
+    "en": "The picture is no brighter down the road.",
     "score": [
-     1,
      3,
-     -2,
-     10
+     7,
+     -4,
+     7
     ],
-    "sq": "është inkurajuese shpejtësi?"
+    "sq": "Tabloja nuk është e ndritur teposhtë udhës."
    },
-   "breakdown": "transparent"
+   "breakdown": "historical"
   }
  ]
 }

@@ -1,39 +1,37 @@
 {
  "level": 73,
- "title": "minutë",
- "root": "minutë",
- "root_gloss": "minute (unit of time)",
+ "title": "nesër",
+ "root": "nesër",
+ "root_gloss": "tomorrow",
  "part": 1,
  "parts": 1,
  "word_count": 2,
  "families": [
-  "minutë"
+  "nesër"
  ],
  "pos_mix": {
-  "noun": 2
+  "adv": 2
  },
  "words": [
   {
-   "id": "minutë",
-   "sq": "minutë",
-   "en": "minute (unit of time)",
+   "id": "nesër",
+   "sq": "nesër",
+   "en": "tomorrow",
    "glosses": [
-    "minute (unit of time)"
+    "tomorrow"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "minute (unit of time)",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "tomorrow",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -56,63 +54,61 @@
      ],
      "examples": [],
      "links": [
-      "minute"
+      "tomorrow"
      ]
     }
    ],
-   "rank": 617,
-   "count": 1666,
-   "family": "minutë",
+   "rank": 297,
+   "count": 3523,
+   "family": "nesër",
    "is_root": true,
-   "etymology": "Borrowed from Medieval Latin minūta.",
-   "etymology_class": "borrowed",
+   "etymology": "From nes (“after”). First attested in the 15th/16th century in Pericope evangelica (from Matthew gospel). Other theories consider the word an adverbial derivative of Proto-Indo-European *nókʷts (“night”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "after"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "minuta",
-     "tag": "plural"
+     "form": "nestër",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "QED",
-    "en": "Look, even the girl is saying that there is no need.",
+    "corpus": "HPLT",
+    "en": "What happens tomorrow?",
     "score": [
      0,
      3,
      -3,
-     5
+     10
     ],
-    "sq": "-Vetëm një minutë."
+    "sq": "Çfarë ndodh nesër?"
    }
   },
   {
-   "id": "minuta",
-   "sq": "minuta",
-   "en": "minute, plural (from minutë)",
+   "id": "pasnesër",
+   "sq": "pasnesër",
+   "en": "day after tomorrow",
    "glosses": [
-    "minute, plural (from minutë)"
+    "day after tomorrow"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "minute, plural (from minutë)",
-     "tags": [
-      "feminine",
-      "form-of",
-      "plural"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "day after tomorrow",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -121,7 +117,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 20 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -134,33 +130,45 @@
       }
      ],
      "examples": [],
-     "is_form_of": "minutë"
+     "links": [
+      "day after tomorrow"
+     ]
     }
    ],
-   "rank": 295,
-   "count": 3550,
-   "family": "minutë",
+   "rank": 11873,
+   "count": 52,
+   "family": "nesër",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "pas + nesër.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "pas",
+     "role": "prefix"
+    },
+    {
+     "word": "nesër",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "So, this is two minutes.",
+    "corpus": "HPLT",
+    "en": "If not tomorrow, then the day after tomorrow.",
     "score": [
      0,
-     4,
-     -4,
-     4
+     5,
+     -5,
+     10
     ],
-    "sq": "Kjo është dy minuta."
-   }
+    "sq": "Nëse jo nesër, atëherë pasnesër."
+   },
+   "breakdown": "historical"
   }
  ]
 }

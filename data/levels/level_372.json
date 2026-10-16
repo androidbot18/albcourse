@@ -1,46 +1,172 @@
 {
  "level": 372,
- "title": "kush (rarer words)",
- "root": "kush",
- "root_gloss": "who (as an interrogative pronoun)",
+ "title": "garë, kinez, autobus",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "kush"
+  "autobus",
+  "garë",
+  "kinez"
  ],
  "pos_mix": {
-  "pron": 2
+  "noun": 5,
+  "adv": 1
  },
  "words": [
   {
-   "id": "çdokush",
-   "sq": "çdokush",
-   "en": "everyone, anyone, whoever",
+   "id": "garë",
+   "sq": "garë",
+   "en": "competition, contest",
    "glosses": [
-    "everyone, anyone, whoever"
+    "competition, contest",
+    "match, encounter",
+    "competition (commercial rivalry)"
    ],
    "pos": [
-    "pron"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "everyone, anyone, whoever",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "competition, contest",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "competition",
+      "contest"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "match, encounter",
+     "tags": [
+      "feminine",
+      "in-plural"
+     ],
      "cats": [
+      {
+       "name": "Sports",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Sports",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "10 66 23"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 56 18"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sports",
+      "match",
+      "encounter"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "competition (commercial rivalry)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Economics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Economics",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "economics",
+      "competition"
+     ]
+    }
+   ],
+   "rank": 2754,
+   "count": 299,
+   "family": "garë",
+   "is_root": true,
+   "etymology": "Borrowed from Italian gara (“competition, race”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gara",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It's a race against time.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Është një garë me kohën."
+   }
+  },
+  {
+   "id": "kinez",
+   "sq": "kinez",
+   "en": "Chinese",
+   "glosses": [
+    "Chinese"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Chinese",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -50,71 +176,63 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "everyone",
-      "anyone",
-      "whoever"
+      "Chinese"
      ]
     }
    ],
-   "rank": 2747,
-   "count": 300,
-   "family": "kush",
-   "is_root": false,
-   "etymology": "From çdo (“all, every”) + kush (“who”).",
-   "etymology_class": "compound",
+   "rank": 2769,
+   "count": 296,
+   "family": "kinez",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "who"
-   ],
-   "components": [
-    {
-     "word": "çdo",
-     "role": "prefix"
-    },
-    {
-     "word": "kush",
-     "role": "stem"
-    }
-   ],
+   "parents": [],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "We are everyone.",
+    "en": "We are all the same inside. Aren't we, monk?",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      5
     ],
-    "sq": "Ne jemi çdokush."
-   },
-   "breakdown": "historical"
+    "sq": "Nuk është edhe kinez."
+   }
   },
   {
-   "id": "gjithkush",
-   "sq": "gjithkush",
-   "en": "everyone",
+   "id": "autobus",
+   "sq": "autobus",
+   "en": "bus",
    "glosses": [
-    "everyone"
+    "bus"
    ],
    "pos": [
-    "pron"
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "everyone",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bus",
      "tags": [],
      "cats": [
       {
@@ -124,7 +242,77 @@
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Albanian internationalisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 12 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bus"
+     ]
+    }
+   ],
+   "rank": 2772,
+   "count": 296,
+   "family": "autobus",
+   "is_root": true,
+   "etymology": "Internationalism, compare Italian autobus.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "What is a bus?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Çfarë është një autobus?"
+   }
+  },
+  {
+   "id": "kinezisht",
+   "sq": "kinezisht",
+   "en": "in Chinese",
+   "glosses": [
+    "in Chinese"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in Chinese",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -isht",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -138,27 +326,30 @@
      ],
      "examples": [],
      "links": [
-      "everyone"
+      "Chinese"
      ]
     }
    ],
-   "rank": 3518,
-   "count": 225,
-   "family": "kush",
+   "rank": 24007,
+   "count": 20,
+   "family": "kinez",
    "is_root": false,
-   "etymology": "gjithë + kush",
-   "etymology_class": "compound",
+   "etymology": "From kinez + -isht.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "gjithë",
-     "role": "prefix"
+     "word": "kinez",
+     "role": "base",
+     "en": "Chinese"
     },
     {
-     "word": "kush",
-     "role": "stem"
+     "word": "isht",
+     "role": "suffix",
+     "affix": "isht",
+     "meaning": "-ly"
     }
    ],
    "derived": [],
@@ -166,17 +357,16 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Everybody knows.",
+    "en": "Can choose Chinese or English.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Gjithkush e di."
+    "sq": "Mund të zgjedhë kinezisht ose anglisht."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   }
- ],
- "resumes": true
+ ]
 }

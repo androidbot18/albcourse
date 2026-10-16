@@ -1,25 +1,26 @@
 {
  "level": 121,
- "title": "rëndësi",
- "root": "rëndësi",
- "root_gloss": "heaviness",
+ "title": "javë, njeh",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 4,
  "families": [
-  "rëndësi"
+  "javë",
+  "njeh"
  ],
  "pos_mix": {
-  "noun": 1,
-  "adj": 1
+  "noun": 4,
+  "verb": 1
  },
  "words": [
   {
-   "id": "rëndësi",
-   "sq": "rëndësi",
-   "en": "heaviness",
+   "id": "javë",
+   "sq": "javë",
+   "en": "week",
    "glosses": [
-    "heaviness"
+    "week"
    ],
    "pos": [
     "noun"
@@ -31,8 +32,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "heaviness",
-     "tags": [],
+     "gloss": "week",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -55,14 +58,176 @@
      ],
      "examples": [],
      "links": [
-      "heaviness"
+      "week"
      ]
     }
    ],
-   "rank": 483,
-   "count": 2174,
-   "family": "rëndësi",
+   "rank": 488,
+   "count": 2163,
+   "family": "javë",
    "is_root": true,
+   "etymology": "Sometimes thought of as a loan from Ancient Greek ἑβδομάς (hebdomás), via Latin hebdomas, although this remains debated due to the unexplained loss of the syllable containing -má-. More likely from Proto-Albanian *avā, from Proto-Indo-European *h₂eyu- (“vital force”). Close to Latin aevum, Sanskrit आयु (āyu), Ancient Greek αἰές (aiés, “always”). See also amshoj.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "javë",
+     "tag": "plural"
+    },
+    {
+     "form": "java",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Only two weeks.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Vetëm dy javë."
+   }
+  },
+  {
+   "id": "njeh",
+   "sq": "njeh",
+   "en": "to count, consider",
+   "glosses": [
+    "to count, consider",
+    "number"
+   ],
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to count, consider",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "count",
+      "consider"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "number",
+     "tags": [
+      "rare"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "number"
+     ]
+    }
+   ],
+   "rank": 493,
+   "count": 2143,
+   "family": "njeh",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *nemska, from Proto-Indo-European *nem- (“to divide, to take, to arrange, to count”). Cognate to Greek νέμω (némo, “to divide”), Gothic niman (“to take”), Latin numerus (“member, element, number”), nummus (“coin, money”). More and more replaced by the loanword numëroj.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "njehu",
+     "tag": "definite"
+    },
+    {
+     "form": "njef",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "He knows me.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ai më njeh."
+   }
+  },
+  {
+   "id": "jave",
+   "sq": "jave",
+   "en": "week, singular (from javë)",
+   "glosses": [
+    "week, singular (from javë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "week, singular (from javë)",
+     "tags": [
+      "ablative",
+      "dative",
+      "form-of",
+      "indefinite",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "javë"
+    }
+   ],
+   "rank": 1967,
+   "count": 440,
+   "family": "javë",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -74,44 +239,40 @@
    "forms": [],
    "corpus_example": {
     "corpus": "TED2020",
-    "en": "It's important.",
+    "en": "after one week.",
     "score": [
      0,
      3,
      -3,
      4
     ],
-    "sq": "Eshtë me rëndësi."
+    "sq": "pas një jave."
    }
   },
   {
-   "id": "rëndësishëm",
-   "sq": "rëndësishëm",
-   "en": "important",
+   "id": "fundjavë",
+   "sq": "fundjavë",
+   "en": "weekend",
    "glosses": [
-    "important"
+    "weekend"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "important",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "weekend",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -shëm",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -121,48 +282,52 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "important"
+      "weekend"
      ]
     }
    ],
-   "rank": 1635,
-   "count": 536,
-   "family": "rëndësi",
+   "rank": 2260,
+   "count": 376,
+   "family": "javë",
    "is_root": false,
-   "etymology": "From rëndësi + -shëm.",
+   "etymology": "From fund + javë.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "rëndësi",
-     "role": "base"
+     "word": "fund",
+     "role": "prefix"
     },
     {
-     "word": "shëm",
-     "role": "suffix",
-     "affix": "shem",
-     "meaning": "-ful, -able"
+     "word": "javë",
+     "role": "stem"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Why do you consider it so important?",
+    "corpus": "HPLT",
+    "en": "Wishing you a refreshing weekend!",
     "score": [
-     1,
-     6,
-     -5,
-     8
+     0,
+     3,
+     -3,
+     10
     ],
-    "sq": "Pse e konsideroni kaq të rëndësishëm?"
+    "sq": "Fundjavë të bukur!"
    },
    "breakdown": "historical"
   }

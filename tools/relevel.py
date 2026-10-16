@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Re-run level assignment on the shipped deck, without the raw sources.
 
-build_course.py needs the Kaikki dump (data/raw/), which is ~1 GB and is
-not reachable from every environment. Level assignment does not: everything
+build_course.py needs the unpacked sources in data/raw/ (see
+tools/fetch_sources.py). Level assignment does not: everything
 assign_levels() reads -- rank, family, senses, components -- is already in
 the shipped level files. So a change to the scheduler can be applied and
 tested from the shipped data alone:

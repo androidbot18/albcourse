@@ -1,49 +1,46 @@
 {
  "level": 304,
- "title": "do (rarer words)",
- "root": "do",
- "root_gloss": "some",
+ "title": "brengos, zbuloj, muzikë +1",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "do"
+  "avion",
+  "brengos",
+  "muzikë",
+  "zbuloj"
  ],
  "pos_mix": {
-  "conj": 1,
-  "adv": 5,
-  "adj": 1,
-  "noun": 1
+  "verb": 4,
+  "noun": 3
  },
  "words": [
   {
-   "id": "domethënë",
-   "sq": "domethënë",
-   "en": "that is to say, that is, which means",
+   "id": "brengos",
+   "sq": "brengos",
+   "en": "to afflict, vex, grieve, worry",
    "glosses": [
-    "that is to say, that is, which means"
+    "to afflict, vex, grieve, worry"
    ],
    "pos": [
-    "conj"
+    "verb"
    ],
    "pos_labels": [
-    "conjunction"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "that is to say, that is, which means",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to afflict, vex, grieve, worry",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian univerbations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -53,66 +50,79 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "that is to say",
-      "that is",
-      "mean"
+      "afflict",
+      "vex",
+      "grieve"
      ]
     }
    ],
-   "rank": 1628,
-   "count": 538,
-   "family": "do",
-   "is_root": false,
-   "etymology": "Univerbation of do + me + thënë. Literally \"it wants to say\", a crystallised expression in the Tosk dialect which uses the Gheg infinitive.",
+   "rank": 1637,
+   "count": 536,
+   "family": "brengos",
+   "is_root": true,
+   "etymology": "A formation from brengë, with -os verbative suffix.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "do",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "brengosa",
+     "tag": "aorist"
+    },
+    {
+     "form": "brengosur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Namely number one.",
+    "corpus": "MaCoCu",
+    "en": "This approach makes me curious but also worries me.",
     "score": [
      2,
-     3,
-     -1,
-     10
+     8,
+     -6,
+     8
     ],
-    "sq": "Domethënë numri një."
-   },
-   "breakdown": "historical"
+    "sq": "Aq sa kurreshtar, kjo qasje edhe më brengos."
+   }
   },
   {
-   "id": "ndopak",
-   "sq": "ndopak",
-   "en": "a little, a bit",
+   "id": "zbuluar",
+   "sq": "zbuluar",
+   "en": "discover, past form (from zbuloj, to discover)",
    "glosses": [
-    "a little, a bit"
+    "discover, past form (from zbuloj, to discover)"
    ],
    "pos": [
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "a little, a bit",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "discover, past form (from zbuloj, to discover)",
+     "tags": [
+      "form-of",
+      "participle",
+      "past"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -134,400 +144,40 @@
       }
      ],
      "examples": [],
-     "links": [
-      "a little",
-      "a bit"
-     ]
+     "is_form_of": "zbuloj"
     }
    ],
-   "rank": 8499,
-   "count": 79,
-   "family": "do",
+   "rank": 1640,
+   "count": 535,
+   "family": "zbuloj",
    "is_root": false,
-   "etymology": "From në (“whether, if”) + do (“want”) + pak (“little, a few”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "want"
-   ],
-   "components": [
-    {
-     "word": "në",
-     "role": "prefix"
-    },
-    {
-     "word": "do",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Has she calmed down a bit?",
-    "score": [
-     2,
-     3,
-     -1,
-     5
-    ],
-    "sq": "Eshte qetesuar ndopak?"
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "domosdoshëm",
-   "sq": "domosdoshëm",
-   "en": "indispensable, essential, required",
-   "glosses": [
-    "indispensable, essential, required"
-   ],
-   "pos": [
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "indispensable, essential, required",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -shëm",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "indispensable",
-      "essential",
-      "required"
-     ]
-    }
-   ],
-   "rank": 20233,
-   "count": 26,
-   "family": "do",
-   "is_root": false,
-   "etymology": "From domosdo + -shëm.",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "domosdo",
-     "role": "base",
-     "en": "by all means"
-    },
-    {
-     "word": "shëm",
-     "role": "suffix",
-     "affix": "shem",
-     "meaning": "-ful, -able"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Introspection is necessary.",
+    "en": "A Voice Discovered.",
     "score": [
+     0,
      3,
-     4,
-     -1,
+     -3,
      10
     ],
-    "sq": "Introspeksioni është i domosdoshëm."
-   },
-   "breakdown": "transparent"
+    "sq": "Një Zë zbuluar."
+   }
   },
   {
-   "id": "domosdoshmërisht",
-   "sq": "domosdoshmërisht",
-   "en": "indispensably, mandatorily",
+   "id": "muzikë",
+   "sq": "muzikë",
+   "en": "music",
    "glosses": [
-    "indispensably, mandatorily"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "indispensably, mandatorily",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -isht",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "indispensably",
-      "mandatorily"
-     ]
-    }
-   ],
-   "rank": 22083,
-   "count": 23,
-   "family": "do",
-   "is_root": false,
-   "etymology": "From domosdoshmëri (“indispensability”) + -isht.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "indispensability"
-   ],
-   "components": [
-    {
-     "word": "domosdoshmëri",
-     "role": "base",
-     "en": "indispensability"
-    },
-    {
-     "word": "isht",
-     "role": "suffix",
-     "affix": "isht",
-     "meaning": "-ly"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Not necessarily morality.",
-    "score": [
-     2,
-     3,
-     -1,
-     10
-    ],
-    "sq": "Jo domosdoshmërisht moral."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "medoemos",
-   "sq": "medoemos",
-   "en": "by all means, definitely, surely",
-   "glosses": [
-    "by all means, definitely, surely"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "by all means, definitely, surely",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "by",
-      "all",
-      "means"
-     ]
-    }
-   ],
-   "rank": 22302,
-   "count": 22,
-   "family": "do",
-   "is_root": false,
-   "etymology": "From me (“with”) + doemos (“by all means”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "with"
-   ],
-   "components": [
-    {
-     "word": "me",
-     "role": "prefix"
-    },
-    {
-     "word": "doemos",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I had to go.",
-    "score": [
-     3,
-     5,
-     -2,
-     10
-    ],
-    "sq": "Më duhej të shkoja medoemos."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "doemos",
-   "sq": "doemos",
-   "en": "by all means, definitely, surely",
-   "glosses": [
-    "by all means, definitely, surely",
-    "naturally, of course, sure thing"
-   ],
-   "pos": [
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "by all means, definitely, surely",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "by",
-      "all",
-      "means"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "naturally, of course, sure thing",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "naturally",
-      "of course",
-      "sure thing"
-     ]
-    }
-   ],
-   "rank": 30516,
-   "count": 14,
-   "family": "do",
-   "is_root": false,
-   "etymology": "From do (“want”) + e (“and”) + mos (“don't”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "want",
-    "and",
-    "don"
-   ],
-   "components": [
-    {
-     "word": "do",
-     "role": "prefix"
-    }
-   ],
-   "derived": [
-    "medoemos",
-    "çdoemos"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We must succeed.",
-    "score": [
-     2,
-     4,
-     -2,
-     10
-    ],
-    "sq": "Doemos të kemi sukses."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "domosdoshmëri",
-   "sq": "domosdoshmëri",
-   "en": "indispensability, essentiality, requirement",
-   "glosses": [
-    "indispensability, essentiality, requirement"
+    "music"
    ],
    "pos": [
     "noun"
@@ -539,8 +189,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "indispensability, essentiality, requirement",
-     "tags": [],
+     "gloss": "music",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -549,7 +201,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -ri",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -563,58 +215,342 @@
      ],
      "examples": [],
      "links": [
-      "indispensability",
-      "essentiality",
-      "requirement"
+      "music"
      ]
     }
    ],
-   "rank": 38595,
-   "count": 10,
-   "family": "do",
-   "is_root": false,
-   "etymology": "From domosdoshëm (“indispensable”) + -ri.",
+   "rank": 1642,
+   "count": 534,
+   "family": "muzikë",
+   "is_root": true,
+   "etymology": "From Ancient Greek μουσική (mousikḗ).",
+   "etymology_class": null,
+   "source_lang": "el",
+   "cognate": "from Greek μουσική",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "muzika",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We made music.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ne bëmë muzikë."
+   }
+  },
+  {
+   "id": "avion",
+   "sq": "avion",
+   "en": "aeroplane",
+   "glosses": [
+    "aeroplane"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "aeroplane",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with etymon",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages using etymon with no ID",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "aeroplane"
+     ]
+    }
+   ],
+   "rank": 1645,
+   "count": 533,
+   "family": "avion",
+   "is_root": true,
+   "etymology": "Borrowed from French avion.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "avionë",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I was so afraid to be in a plane.",
+    "score": [
+     0,
+     8,
+     -8,
+     10
+    ],
+    "sq": "Isha aq frikë të jetë në një avion."
+   }
+  },
+  {
+   "id": "zbuloj",
+   "sq": "zbuloj",
+   "en": "to discover",
+   "glosses": [
+    "to discover",
+    "to unveil, reveal, expose"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to discover",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "51 49"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discover"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to unveil, reveal, expose",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 74"
+      },
+      {
+       "name": "Albanian terms prefixed with z-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "45 55"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "unveil",
+      "reveal",
+      "expose"
+     ]
+    }
+   ],
+   "rank": 3283,
+   "count": 245,
+   "family": "zbuloj",
+   "is_root": true,
+   "etymology": "From z- + mbuloj, with assimilation of the labial.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "indispensable"
-   ],
+   "parents": [],
    "components": [
     {
-     "word": "domosdoshëm",
-     "role": "base"
+     "word": "z",
+     "role": "prefix"
     },
     {
-     "word": "ri",
-     "role": "suffix"
+     "word": "mbuloj",
+     "role": "stem"
+    }
+   ],
+   "derived": [
+    "zbulim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "zbulova",
+     "tag": "aorist"
+    },
+    {
+     "form": "zbuluar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I find that.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Unë zbuloj që."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "zbulim",
+   "sq": "zbulim",
+   "en": "discovery",
+   "glosses": [
+    "discovery"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "discovery",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -im",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "discovery"
+     ]
+    }
+   ],
+   "rank": 8695,
+   "count": 77,
+   "family": "zbuloj",
+   "is_root": false,
+   "etymology": "From zbuloj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "zbuloj",
+     "role": "base",
+     "en": "to discover"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "domosdoshmëri",
+     "form": "zbulime",
      "tag": "plural"
     },
     {
-     "form": "domosdoshmëria",
+     "form": "zbulimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Is it necessity?",
+    "en": "I have a discovery.",
     "score": [
-     2,
-     3,
-     -1,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "A është domosdoshmëri?"
+    "sq": "Unë kam një zbulim."
    },
-   "breakdown": "historical"
+   "breakdown": "transparent"
   }
- ],
- "resumes": true
+ ]
 }

@@ -1,29 +1,30 @@
 {
  "level": 515,
- "title": "koleg, shkurtë, send +3",
+ "title": "bekoj, elektrik, bërtas +2",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "banane",
-  "kafeja",
-  "koleg",
-  "ortak",
-  "send",
-  "shkurtë"
+  "aktiv",
+  "bekoj",
+  "bërtas",
+  "elektrik",
+  "jashtëm"
  ],
  "pos_mix": {
-  "noun": 6
+  "noun": 5,
+  "adj": 3,
+  "verb": 7
  },
  "words": [
   {
-   "id": "koleg",
-   "sq": "koleg",
-   "en": "colleague",
+   "id": "bekim",
+   "sq": "bekim",
+   "en": "blessing",
    "glosses": [
-    "colleague"
+    "blessing"
    ],
    "pos": [
     "noun"
@@ -35,7 +36,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "colleague",
+     "gloss": "blessing",
      "tags": [
       "masculine"
      ],
@@ -47,13 +48,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,305 +62,517 @@
      ],
      "examples": [],
      "links": [
-      "colleague"
+      "blessing"
      ]
     }
    ],
-   "rank": 8297,
-   "count": 81,
-   "family": "koleg",
+   "rank": 8400,
+   "count": 80,
+   "family": "bekoj",
+   "is_root": false,
+   "etymology": "From bekoj + -im, bekoj a borrowing from Latin benedīcō.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "bekoj",
+     "role": "base",
+     "en": "to bless"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "And a blessing.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Dhe një bekim."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "elektrik",
+   "sq": "elektrik",
+   "en": "flashlight",
+   "glosses": [
+    "flashlight",
+    "electrical energy, electricity",
+    "electric"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "adj"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "flashlight",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 48 44"
+      },
+      {
+       "name": "Albanian internationalisms",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 31 47"
+      },
+      {
+       "name": "Albanian nominalizations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "flashlight"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "electrical energy, electricity",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 48 44"
+      },
+      {
+       "name": "Albanian nominalizations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "electrical energy",
+      "electricity"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "electric",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "electric"
+     ]
+    }
+   ],
+   "rank": 8407,
+   "count": 80,
+   "family": "elektrik",
    "is_root": true,
-   "etymology": "",
+   "etymology": "Nominalization of the adjective below.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "elektrik dore"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "kolegë",
-     "tag": "plural"
-    },
-    {
-     "form": "kolegu",
-     "tag": "definite"
-    },
-    {
-     "form": "kolege",
+     "form": "elektrike",
      "tag": "feminine"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Gift for a colleague?",
+    "en": "It is an electric motor.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Dhuratë për një koleg?"
+    "sq": "Është një motor elektrik."
    }
   },
   {
-   "id": "shkurtë",
-   "sq": "shkurtë",
-   "en": "quail",
+   "id": "bërtas",
+   "sq": "bërtas",
+   "en": "to shout, yell",
    "glosses": [
-    "quail"
+    "to shout, yell",
+    "to scold",
+    "to make a big hullabaloo, commotion, uproar",
+    "to whimper, whine"
    ],
    "pos": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "quail",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shout, yell",
      "tags": [
-      "feminine"
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 23 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 28 20 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "shout",
+      "yell"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to scold",
+     "tags": [
+      "intransitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "23 40 18 19"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 26 23 25"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "26 28 20 26"
       }
      ],
      "examples": [],
      "links": [
-      "quail"
+      "scold"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make a big hullabaloo, commotion, uproar",
+     "tags": [
+      "derogatory",
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 23 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 28 20 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "hullabaloo",
+      "commotion"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to whimper, whine",
+     "tags": [
+      "derogatory",
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 26 23 25"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 28 20 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "whimper",
+      "whine"
      ]
     }
    ],
-   "rank": 8311,
-   "count": 81,
-   "family": "shkurtë",
+   "rank": 8412,
+   "count": 80,
+   "family": "bërtas",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Metathetic reduced form of dialectal britas (preserved in Gheg), extension in -as of brit- (stem for optative, admirative, participle, etc.); compare klith > këlthas, thirr > thërras, fol > flas, etc. From Proto-Albanian *breita, from Proto-Indo-European *bʰreyH- (“to cut, pierce”); cognate with Old Irish bríathar (“word”), Welsh brwydr (“fight, struggle”), and Russian брить (britʹ, “shave”). Related to brij.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "britmë",
+    "bërtitje"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "shkurta",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "She worked in education for a short period of time.",
-    "score": [
-     1,
-     9,
-     -8,
-     8
-    ],
-    "sq": "Për një periudhë të shkurtë ka punuar në arsim."
-   }
-  },
-  {
-   "id": "send",
-   "sq": "send",
-   "en": "thing, object",
-   "glosses": [
-    "thing, object"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thing, object",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 10 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "thing",
-      "object"
-     ]
-    }
-   ],
-   "rank": 8347,
-   "count": 81,
-   "family": "send",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tsjam tam, from Proto-Indo-European *kiom tom, a sequence of two pronouns in neuter of which the first is related to 'se'. Alternatively from Proto-Albanian *tśe enta, literally 'this being', the first element from *kwe- (“how, what”), or *k̂(e) (“this”), while the second one being a gerundive or a participle of a disused verb, close to Latin -ēns (participal ending), Medieval Latin ens (“being”) (hence Italian ente (“entity, body, being”)), and Ancient Greek ὤν (ṓn) (present participle).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "se"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "senë",
-     "tag": "alternative"
+     "form": "bërtitur",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "no send Thank you for leaving a voice.",
+    "en": "Let's yell for him!",
     "score": [
      0,
-     8,
-     -8,
+     5,
+     -5,
      10
     ],
-    "sq": "asnjë send Faleminderit për të lënë një zë."
+    "sq": "Le të bërtas për atë!"
    }
   },
   {
-   "id": "ortak",
-   "sq": "ortak",
-   "en": "partner, associate",
+   "id": "aktiv",
+   "sq": "aktiv",
+   "en": "active",
    "glosses": [
-    "partner, associate"
+    "active",
+    "assembly of representative delegates of interest groups",
+    "asset"
    ],
    "pos": [
+    "adj",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "adjective",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "active",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "active"
+     ]
+    },
+    {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "partner, associate",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "assembly of representative delegates of interest groups",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "1 69 29"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Pages with 8 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 11 2 24 0 1 1 3 1 0 2 22 22 2 5 0 2 0 3"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "0 16 1 22 0 1 1 2 1 0 1 21 21 2 7 0 1 0 2"
       }
      ],
      "examples": [],
      "links": [
-      "partner",
-      "associate"
+      "assembly",
+      "representative",
+      "delegates"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "asset",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Accounting",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Accounting",
+       "langcode": "sq"
+      },
+      {
+       "name": "Economics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Economics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Finance",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Finance",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "finance",
+      "economics",
+      "accounting"
      ]
     }
    ],
-   "rank": 8366,
-   "count": 81,
-   "family": "ortak",
+   "rank": 8422,
+   "count": 80,
+   "family": "aktiv",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish اورتاق (ortak, “partner, associate”).",
+   "etymology": "A modern borrowing, from English active.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "aktivisht",
+    "aktivitet",
+    "pasiv"
+   ],
    "forms": [
     {
-     "form": "ortakë",
-     "tag": "plural"
-    },
-    {
-     "form": "ortaku",
-     "tag": "definite"
+     "form": "aktive",
+     "tag": "feminine"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You enter into a partnership with an American corporation.",
+    "corpus": "GNOME",
+    "en": "There is no active document to move the cursor in!",
     "score": [
-     3,
-     6,
-     -3,
-     10
+     0,
+     4,
+     -4,
+     6
     ],
-    "sq": "Bëhesh ortak me një korporatë amerikane."
+    "sq": "është jo aktiv në!"
    }
   },
   {
-   "id": "banane",
-   "sq": "banane",
-   "en": "banana",
+   "id": "jashtëm",
+   "sq": "jashtëm",
+   "en": "external, exterior",
    "glosses": [
-    "banana"
+    "external, exterior"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "banana",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "external, exterior",
      "tags": [],
      "cats": [
       {
@@ -369,78 +582,6 @@
        "source": "w"
       },
       {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "banana"
-     ]
-    }
-   ],
-   "rank": 8379,
-   "count": 80,
-   "family": "banane",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What desserts can dogs eat?",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "A mund të hanë qentë banane?"
-   }
-  },
-  {
-   "id": "kafeja",
-   "sq": "kafeja",
-   "en": "coffee",
-   "glosses": [
-    "coffee"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "coffee",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
@@ -455,16 +596,17 @@
      ],
      "examples": [],
      "links": [
-      "coffee"
+      "external",
+      "exterior"
      ]
     }
    ],
-   "rank": 8380,
+   "rank": 8429,
    "count": 80,
-   "family": "kafeja",
+   "family": "jashtëm",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Indo-European *h₁eǵʰstm̥mos.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -474,14 +616,139 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Food and coffee are a separate story.",
+    "en": "For external use only.",
     "score": [
      0,
-     8,
-     -8,
+     5,
+     -5,
      10
     ],
-    "sq": "Ushqimi dhe kafeja janë një histori më vete."
+    "sq": "Vetëm për përdorim të jashtëm."
+   }
+  },
+  {
+   "id": "bekoj",
+   "sq": "bekoj",
+   "en": "to bless",
+   "glosses": [
+    "to bless",
+    "to wish well",
+    "to thank, express gratitude"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to bless",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bless"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wish well",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 87 6"
+      },
+      {
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 87 7"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 93 4"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "wish",
+      "well"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to thank, express gratitude",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "thank",
+      "express",
+      "gratitude"
+     ]
+    }
+   ],
+   "rank": 29139,
+   "count": 15,
+   "family": "bekoj",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin benedicō (“to bless, praise”). A more phonologically conserved variant is bënkoj, whereas the standard form was possibly affected by be (“oath”) considering the lack of reduction of the unstressed vowel.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "bekim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "bekova",
+     "tag": "aorist"
+    },
+    {
+     "form": "bekuar",
+     "tag": "participle"
+    },
+    {
+     "form": "bënkoj",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Bless you and thank you.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Ju bekoj dhe faleminderit."
    }
   }
  ]

@@ -1,13 +1,12 @@
-# Rebuild the course from the upstream sources and run every test.
+# Rebuild the course from the pinned source snapshots and run every test.
 #
-# The Kaikki dump is not reachable from every dev environment (it returns 403
-# there), so the build and the three suites that need data/raw
-# (test_determinism, test_pos_balance, test_opening_policy) cannot run
-# locally. GitHub-hosted runners can fetch it.
+# The sources are committed under data/sources/ and pinned by hash in
+# tools/fetch_sources.py, so this needs no network beyond checkout. A clean
+# rebuild must reproduce the committed data exactly: a PR that changes the
+# builder without committing the data it produces fails here.
 #
-# This never commits. It reports whether a clean rebuild reproduces the
-# committed data and uploads the rebuilt files, so the diff can be reviewed
-# before anything is changed.
+# This never commits. On a mismatch it uploads the patch that would bring
+# data/ in line, so the diff can be reviewed.
 name: rebuild-data
 
 on:
@@ -16,6 +15,7 @@ on:
     paths:
       - ".github/workflows/rebuild-data.yml"
       - "tools/**"
+      - "data/**"
       - "run_tests.sh"
 
 permissions:
@@ -24,7 +24,7 @@ permissions:
 jobs:
   rebuild:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -38,13 +38,7 @@ jobs:
 
       - run: pip install -r tools/requirements.txt
 
-      - name: Cache raw sources
-        uses: actions/cache@v4
-        with:
-          path: data/raw
-          key: raw-sources-v1
-
-      - name: Fetch Kaikki and the frequency list
+      - name: Unpack the pinned sources
         run: python3 tools/fetch_sources.py
 
       - name: Rebuild the course
@@ -53,69 +47,27 @@ jobs:
           python3 tools/build_words_index.py
 
       - name: Does a clean rebuild reproduce the committed data?
-        run: |
-          git status --short -- data | tee rebuild-status.txt
-          git diff --stat -- data | tail -20 | tee -a rebuild-status.txt
-          git diff --binary -- data > rebuild.patch || true
-
-      - name: How does the rebuild differ from the committed words?
         shell: bash
         run: |
-          git show HEAD:data/words.json > old_words.json
-          python3 - <<'PY' | tee rebuild-compare.txt
-          import json, collections
-          def load(p):
-              d = json.load(open(p, encoding="utf-8"))
-              return {w["sq"]: w for w in d["words"]}
-          old, new = load("old_words.json"), load("data/words.json")
-          print("DIGEST-CMP words old=%d new=%d" % (len(old), len(new)))
-          print("DIGEST-CMP only in old:", sorted(set(old) - set(new))[:40], len(set(old) - set(new)))
-          print("DIGEST-CMP only in new:", sorted(set(new) - set(old))[:40], len(set(new) - set(old)))
-          both = set(old) & set(new)
-          moved = [k for k in both if old[k]["level"] != new[k]["level"]]
-          print("DIGEST-CMP level moved:", len(moved), "of", len(both))
-          d = collections.Counter(abs(new[k]["level"] - old[k]["level"]) for k in moved)
-          print("DIGEST-CMP shift size (top):", d.most_common(8))
-          for f in ("en", "components", "breakdown", "rank"):
-              n = sum(1 for k in both if old[k].get(f) != new[k].get(f))
-              print("DIGEST-CMP field %s differs on %d cards" % (f, n))
-          print("DIGEST-CMP first 12 new:", [w["sq"] for w in sorted(new.values(), key=lambda w: (w["level"], w.get("rank", 0)))[:12]])
-          print("DIGEST-CMP first 12 old:", [w["sq"] for w in sorted(old.values(), key=lambda w: (w["level"], w.get("rank", 0)))[:12]])
-          PY
+          git diff --binary -- data > rebuild.patch
+          git status --short -- data | tee rebuild-status.txt
+          if [ -s rebuild-status.txt ]; then
+            git diff --stat -- data | tail -20
+            echo "::error::data/ is not what the builder produces; commit a rebuild (see the rebuild.patch artifact)"
+            exit 1
+          fi
 
       - name: Run every test
+        if: always()
         run: ./run_tests.sh 2>&1 | tee test-output.txt; exit "${PIPESTATUS[0]}"
         shell: bash
 
-      - name: Summary
-        if: always()
-        shell: bash
-        run: |
-          {
-            echo "## Rebuild vs committed data"
-            echo '```'; cat rebuild-status.txt 2>/dev/null || echo "(build did not finish)"; echo '```'
-            echo "## Failed suites"
-            echo '```'; sed -n '/FAILED SUITES/,$p' test-output.txt 2>/dev/null || true; echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Digest (short, for reading the log tail)
-        if: always()
-        shell: bash
-        run: |
-          echo "=== DIGEST: rebuild vs committed ==="
-          cat rebuild-status.txt | tail -5 || true; grep DIGEST-CMP rebuild-compare.txt || true
-          for t in test_pos_balance test_opening_policy; do
-            echo "=== DIGEST: $t ==="
-            python3 tools/$t.py 2>&1 | grep -v '^  ok' | head -30 || true
-          done
-
       - uses: actions/upload-artifact@v4
-        if: always()
+        if: failure()
         with:
           name: rebuild-output
           retention-days: 14
           path: |
             test-output.txt
             rebuild-status.txt
-            rebuild-compare.txt
             rebuild.patch

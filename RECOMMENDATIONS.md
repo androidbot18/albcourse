@@ -49,17 +49,15 @@ These are defects in the current app. Fix them before any redesign.
 | 1.7 | **Stale metadata.** README says 4,087 words / 767 levels; the data has 4,086 / 771. Level titles have wrong "+N" counts (L1 `babi, zemër, në, re +2` has 4 words; L6 lists 6 words "+4" and has 6). README also says "level 1 is genuinely the first thing you should learn", which is no longer true. | `data/index.json`, `README.md` | Erodes trust; the level map looks broken. |
 
 
-**Status (P0 pass):** 1.1 to 1.7 are fixed in code. The one suite left
-needs the raw Kaikki dump and is checked in CI (see 1.6).
+**Status (P0 pass):** 1.1 to 1.7 are fixed, and every suite passes.
 - 1.1 `startStudy()` now orders new cards by level, then rank.
 - 1.2 "Again" cards are re-queued at the end of the session.
 - 1.3 the 20-new-cards cap is per calendar day (`stats.newToday`, persisted).
 - 1.4 `due = startOfDay + interval*DAY` (a 1-day card is due tomorrow).
 - 1.5 direction is persisted and restarts the queue; reverse mode skips cards that fail `isReverseFriendly()` and has its own SRS items (`<id>~r`). Existing progress is unaffected.
-- 1.6 `run_tests.sh` no longer aborts on the first failure; it runs every suite and lists the failed ones. The two data failures had one cause: a family was always taught in consecutive levels, so `do` (rank 4) carried `doemos` (rank 30,516) and five other rare words into L2, and `jam`, `një` and `me` did the same. That used up opening slots and pushed `unë` to L11. The scheduler now applies "root first, tail later" (§3.1): a family's rank > 1,200 members come back later as "do (rarer words)", in their own frequency band. Results: `unë` is on L9, levels 1–10 hold no rare-tail words (there were 18), and the course has 790 levels (ceiling 800). `test_pos_balance` and `test_opening_policy` pass, and so do all the other suites, including the Anki export.
+- 1.6 `run_tests.sh` no longer aborts on the first failure; it runs every suite and lists the failed ones. The two data failures had one cause: a family was always taught in consecutive levels, so `do` (rank 4) carried `doemos` (rank 30,516) and five other rare words into L2, and `jam`, `një` and `me` did the same. That used up opening slots and pushed `unë` to L11. The scheduler now applies "root first, tail later" (§3.1): a family's rank > 1,200 members come back later as "do (rarer words)", in their own frequency band. Results: `unë` is on L9, levels 1–10 hold no rare-tail words (there were 18), and the course has 789 levels (ceiling 800). `test_pos_balance` and `test_opening_policy` pass, and so do all the other suites, including the Anki export.
   - New: `tools/relevel.py` re-runs level assignment on the shipped cards without the raw sources. The shipped data was re-levelled this way, and `relevel.py --check` (now in `run_tests.sh`) fails when `data/` is stale against the scheduler. `tools/test_tail_later.py` pins the rule with a negative control, and the validator accepts a family that `resumes` once.
-  - `test_determinism` rebuilds from `data/raw/`, so it runs in the `rebuild-data` GitHub Actions workflow. That workflow fetches the Kaikki dump, rebuilds, and runs every suite; it passed all 7 seeds.
-  - Still open: the CI rebuild and the committed data differ by a one-level shift (770 vs 771 levels before this change, with identical cards). The committed data should be replaced by a clean CI rebuild once there is a way to get it back into the repo.
+  - The sources are now pinned snapshots in `data/sources/` (Kaikki of 2026-10-15 and the frequency list, verified by SHA-256 in `tools/fetch_sources.py`), so the full build and `test_determinism` run anywhere with no network. Fetching Kaikki's weekly "latest" was why a rebuild drifted one level from the committed data. The committed data is now a clean rebuild from the snapshot, and the `rebuild-data` CI workflow fails if `data/` ever differs from one. All 7 determinism seeds give identical level files.
   - The hand-curated opening (§3.2) is still worth doing. This fixes the mechanical defect, not the choice of first words.
 - 1.7 level titles now name three roots and count only the hidden ones (`tools/build_course.py` and the shipped JSON patched to match); README figures and the "level 1" claim corrected.
 
@@ -478,9 +476,8 @@ not all fall due on the same day.
 - [x] Direction: persist it, use `isReverseFriendly`, separate SRS items (1.5)
 - [x] Green test suite (1.6). Every suite passes. "Root first, tail later"
       cleared the opening (`unë` is on L9, with no rare-tail words in L1–10).
-      `test_determinism` runs in the `rebuild-data` CI workflow, which has the
-      Kaikki dump. Follow-up: replace the committed data with a clean CI
-      rebuild.
+      Sources are pinned snapshots in `data/sources/`, the committed data is
+      a clean rebuild, and CI fails if the two ever disagree.
 - [x] Fix README counts and level-title "+N" (1.7)
 - [ ] Orthography gate on examples; fix the glosses in §4.1. Not started: `në`
       still ships as "if", `do` as "some", `botë` as "Earth", and `qenë` and

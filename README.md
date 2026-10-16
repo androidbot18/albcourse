@@ -18,7 +18,7 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 | | |
 |---|---|
 | Words | 4,086 |
-| Levels | 790 |
+| Levels | 789 |
 | Word families | 3009 |
 | Families with more than one member | 523 |
 | Words containing ë / ç | 1,643 |
@@ -47,13 +47,13 @@ A level is a **session of whole word families**, not a frequency slice:
   ("I") out of the first ten levels; 37 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (583 of 790),
+  sessions; a level that mixes families is the normal case (584 of 789),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
   enough to be worth teaching, not when one of its rare derivatives surfaces.
 * 13 families have more than 9 words. The biggest are `për` (23 words,
-  4 levels), `jam` (22, 3 levels), `kam` (14) and `dua` (13). A
+  4 levels), `jam` (22, 3 levels), `kam` (14), and `dua`, `shkoj`, `vras` and `a` (13 each). A
   continuation always gets a level to itself, so a part label is never
   misleading.
 
@@ -142,7 +142,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        790 level descriptors, loaded first
+      index.json        789 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -156,11 +156,18 @@ by default, or a local one so a change can be verified before it is pushed:
 
 ## Rebuilding the data
 
-The 65 MB of raw upstream downloads is not committed. Fetch it with:
+The two sources are committed as pinned snapshots in `data/sources/`
+(the Kaikki Albanian dump of 2026-10-15, zipped, and the frequency list),
+so a build needs no network and always gives the same deck:
 
-    python3 tools/fetch_sources.py
+    python3 tools/fetch_sources.py      # unpack and verify into data/raw/
     python3 tools/build_course.py
     python3 tools/build_words_index.py
+
+CI (`.github/workflows/rebuild-data.yml`) rebuilds from the snapshots and
+fails if the committed `data/` differs. To move to a newer Kaikki dump, run
+`python3 tools/fetch_sources.py --refresh`, update the hashes it prints,
+rebuild, review the data diff, and commit the snapshot and data together.
 
 build_course.py decides which sense of a word becomes its headline gloss, which
 is the part worth reading before changing anything there.
@@ -176,7 +183,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (790 decks, 4,086 notes). It is
+That writes dist/albanian-roots-families.apkg (789 decks, 4,086 notes). It is
 gitignored because it is a build artifact; regenerate it any time.
 
 Import it in Anki with File > Import, and pick the single .apkg file. Notes

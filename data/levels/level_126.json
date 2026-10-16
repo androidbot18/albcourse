@@ -1,36 +1,50 @@
 {
  "level": 126,
- "title": "qytet, thjeshtë, ah +1",
- "root": "",
- "root_gloss": "",
+ "title": "anë",
+ "root": "anë",
+ "root_gloss": "side (the bounding straight edge of an object)",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "ah",
-  "qytet",
-  "tashmë",
-  "thjeshtë"
+  "anë"
  ],
  "pos_mix": {
-  "noun": 7,
-  "adj": 1,
-  "adv": 1
+  "noun": 14,
+  "prep": 1
  },
  "words": [
   {
-   "id": "qytet",
-   "sq": "qytet",
-   "en": "city, particularly (politics, historical) as a former administrative level",
+   "id": "anë",
+   "sq": "anë",
+   "en": "side (the bounding straight edge of an object)",
    "glosses": [
-    "city, particularly (politics, historical) as a former administrative level",
-    "citizenry, the people of a city"
+    "side (the bounding straight edge of an object)",
+    "edge",
+    "verge, brink",
+    "region, portion",
+    "facet",
+    "vessel, cooker",
+    "blood vessel",
+    "bloodline"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
@@ -38,42 +52,63 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "city, particularly (politics, historical) as a former administrative level",
+     "gloss": "side (the bounding straight edge of an object)",
      "tags": [
-      "masculine"
+      "feminine"
      ],
-     "cats": [
-      {
-       "name": "Politics",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Politics",
-       "langcode": "sq"
-      },
-      {
-       "name": "Administrative divisions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Administrative divisions",
-       "langcode": "sq",
-       "_dis": "88 12"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "city",
-      "particularly",
-      "politics"
+      "side"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "citizenry, the people of a city",
+     "gloss": "edge",
      "tags": [
-      "masculine"
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "verge, brink",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "verge",
+      "brink"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "region, portion",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "region",
+      "portion"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "facet",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -81,99 +116,217 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "8 92"
+       "_dis": "11 2 3 8 47 3 10 18"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "4 96"
+       "_dis": "10 4 5 15 32 5 11 16"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "4 96"
+       "_dis": "5 2 3 7 47 3 6 27"
       }
      ],
      "examples": [],
      "links": [
-      "citizenry",
-      "people",
-      "city"
+      "facet"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vessel, cooker",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vessel",
+      "cooker"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "blood vessel",
+     "tags": [
+      "dialectal",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "blood vessel"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bloodline",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bloodline"
      ]
     }
    ],
-   "rank": 506,
-   "count": 2091,
-   "family": "qytet",
+   "rank": 1043,
+   "count": 902,
+   "family": "anë",
    "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *k'iwytéti, from older *kiwitáti, which was borrowed through Vulgar Latin from Latin cīvitātem, with loss of the -v-. Compare Romanian cetate.",
+   "etymology": "With loss of -d- from archaic and dialectal ândë, from Proto-Albanian *antā, from Proto-Indo-European *h₂ent- (compare English end).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "pot"
+   ],
    "components": [],
    "derived": [
-    "qytet i përjetshëm",
-    "qytetar",
-    "qytetas",
-    "qytetëri",
-    "qytetërim",
-    "i qytetëruar",
-    "qytetëroj, qytetërohem",
-    "qytetës"
+    "ani",
+    "anije"
    ],
    "related": [
-    "qyteti i një mijë dritareve",
-    "bashki",
-    "fshat",
-    "katund",
-    "komunë"
+    "an",
+    "enë"
    ],
    "forms": [
     {
-     "form": "qytete",
+     "form": "enë",
      "tag": "plural"
     },
     {
-     "form": "qyteti",
+     "form": "ana",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "A different city?",
+    "en": "What side are they at?",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Në cilën anë janë?"
+   }
+  },
+  {
+   "id": "ana",
+   "sq": "ana",
+   "en": "the side, singular (from anë)",
+   "glosses": [
+    "the side, singular (from anë)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "the side, singular (from anë)",
+     "tags": [
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 61 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "is_form_of": "anë"
+    }
+   ],
+   "rank": 523,
+   "count": 2016,
+   "family": "anë",
+   "is_root": false,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "It was Ana.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Një qytet tjetër?"
+    "sq": "Ishte ajo Ana."
    }
   },
   {
-   "id": "thjeshtë",
-   "sq": "thjeshtë",
-   "en": "simple",
+   "id": "pranë",
+   "sq": "pranë",
+   "en": "near, close, beside",
    "glosses": [
-    "simple"
+    "near, close, beside"
    ],
    "pos": [
-    "adj"
+    "prep"
    ],
    "pos_labels": [
-    "adjective"
+    "preposition"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "simple",
-     "tags": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "near, close, beside",
+     "tags": [
+      "with-ablative"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -182,63 +335,295 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
+     "examples": [],
+     "links": [
+      "near",
+      "close",
+      "beside"
+     ]
+    }
+   ],
+   "rank": 782,
+   "count": 1264,
+   "family": "anë",
+   "is_root": false,
+   "etymology": "From për + anë, with methatesis.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "anë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Don't come near me!",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Mos eja pranë meje!"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "anije",
+   "sq": "anije",
+   "en": "ship, large watercraft, vessel",
+   "glosses": [
+    "ship, large watercraft, vessel",
+    "spaceship, spacecraft",
+    "nave; aisle (of a church)"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ship, large watercraft, vessel",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -i",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 32 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 37 31"
+      }
+     ],
      "examples": [
       {
-       "sq": "Të jap një zgjidhje shumë të thjeshtë për problemin tënd.",
-       "en": "Let me give you a very simple solution to your problem.",
+       "sq": "Vuu paλazzὺt cy byri nana // Tech ania mbrymanet",
+       "en": "She put the bedsheets made by her grandmother on the ship in the evening",
        "offsets": [
         [
-         26,
-         37
+         34,
+         38
         ]
        ]
       }
      ],
      "links": [
-      "simple"
+      "ship",
+      "watercraft",
+      "vessel"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spaceship, spacecraft",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 83 10"
+      },
+      {
+       "name": "Albanian terms suffixed with -i",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "anije kozmike",
+       "en": "spaceship",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "anije ndërplanetare",
+       "en": "interplanetary spaceship",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "spaceship",
+      "spacecraft"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "nave; aisle (of a church)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Architecture",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Architecture",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian terms suffixed with -i",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 33 33"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "anija anësore",
+       "en": "aisle",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "anija qendrore",
+       "en": "nave",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "architecture",
+      "nave",
+      "aisle"
      ]
     }
    ],
-   "rank": 510,
-   "count": 2079,
-   "family": "thjeshtë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tseksta, compound of *ts- (“not”) and *eksta (“outside, beyond”) (modern jashtë (“out, away”)), i.e. 'within reach, close by'. More at jashtë. For sense development, compare French aise (“ease”), from Latin adjacens (“nearby”).",
-   "etymology_class": null,
+   "rank": 844,
+   "count": 1142,
+   "family": "anë",
+   "is_root": false,
+   "etymology": "From anë (“container”) + -i, subsequently relevelled to -je. For semantical parallels between “ship” and “container” compare English vessel, German Schiff, etc. Given how its earliest attestations are in Calabria, Topalli (2017) suggests that it is possible that the word was coined there and came to Albania via literary works. In Bashkimi (1908) it is labelled as “Rada”, see quote below. Sense 3 is a semantic loan from European languages, compare Latin nāvis (“ship; nave”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "not"
+    "container"
    ],
-   "components": [],
-   "derived": [],
+   "components": [
+    {
+     "word": "anë",
+     "role": "base"
+    },
+    {
+     "word": "i",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "anijatë",
+    "anijeri",
+    "anijesi",
+    "anijesor",
+    "anijetar",
+    "anizë",
+    "anijedrejtues",
+    "anijendërtues"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "fjeshtë",
-     "tag": "alternative"
+     "form": "anije",
+     "tag": "plural"
+    },
+    {
+     "form": "anija",
+     "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
-   "id": "ah",
-   "sq": "ah",
-   "en": "beech (Fagus sylvatica)",
+   "id": "anija",
+   "sq": "anija",
+   "en": "the ship, singular (from anije)",
    "glosses": [
-    "beech (Fagus sylvatica)"
+    "the ship, singular (from anije)"
    ],
    "pos": [
     "noun"
@@ -250,94 +635,13 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "beech (Fagus sylvatica)",
+     "gloss": "the ship, singular (from anije)",
      "tags": [
-      "masculine"
+      "definite",
+      "form-of",
+      "nominative",
+      "singular"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 38 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "botany",
-      "beech",
-      "Fagus sylvatica"
-     ]
-    }
-   ],
-   "rank": 517,
-   "count": 2036,
-   "family": "ah",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *aksu-, from Proto-Indo-European *h₂ó/ásku- (“workable wood”), which came to mean \"red beech\" in Balkan IE, from *Heh₃s- (“ash”) (compare Greek οξιά (oxiá, “beech”), Armenian հածի (haci), English ash).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "ash",
-    "beech"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ahe",
-     "tag": "plural"
-    },
-    {
-     "form": "ahu",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Ah, you found it!",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Ah, keni gjetur atë!"
-   }
-  },
-  {
-   "id": "tashmë",
-   "sq": "tashmë",
-   "en": "already",
-   "glosses": [
-    "already"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "already",
-     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -359,15 +663,13 @@
       }
      ],
      "examples": [],
-     "links": [
-      "already"
-     ]
+     "is_form_of": "anije"
     }
    ],
-   "rank": 522,
-   "count": 2017,
-   "family": "tashmë",
-   "is_root": true,
+   "rank": 1864,
+   "count": 464,
+   "family": "anë",
+   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -379,22 +681,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "MaCoCu",
-    "en": "It's already here.",
+    "en": "The ship's broken.",
     "score": [
-     0,
+     1,
      3,
-     -3,
+     -2,
      8
     ],
-    "sq": "Tashmë është këtu."
+    "sq": "Anija është prishur."
    }
   },
   {
-   "id": "qytetar",
-   "sq": "qytetar",
-   "en": "citizen",
+   "id": "anëtar",
+   "sq": "anëtar",
+   "en": "member",
    "glosses": [
-    "citizen"
+    "member"
    ],
    "pos": [
     "noun"
@@ -406,10 +708,8 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "citizen",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "member",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -432,24 +732,25 @@
      ],
      "examples": [],
      "links": [
-      "citizen"
+      "member"
      ]
     }
    ],
-   "rank": 5732,
-   "count": 128,
-   "family": "qytet",
+   "rank": 4656,
+   "count": 163,
+   "family": "anë",
    "is_root": false,
-   "etymology": "From qytet + -tar.",
+   "etymology": "Probably from a base anë (“side”); anë + -tar.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "side"
+   ],
    "components": [
     {
-     "word": "qytet",
-     "role": "base",
-     "en": "city"
+     "word": "anë",
+     "role": "base"
     },
     {
      "word": "tar",
@@ -462,260 +763,26 @@
    "related": [],
    "forms": [
     {
-     "form": "qytetarë",
+     "form": "anëtarë",
      "tag": "plural"
     },
     {
-     "form": "qytetari",
-     "tag": "definite"
-    },
-    {
-     "form": "qytetare",
-     "tag": "feminine"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You do not need to be a citizen.",
-    "score": [
-     0,
-     7,
-     -7,
-     10
-    ],
-    "sq": "Ju nuk duhet të jetë një qytetar."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "kryeqytet",
-   "sq": "kryeqytet",
-   "en": "capital city",
-   "glosses": [
-    "capital city"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "capital city",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with krye-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "capital city"
-     ]
-    }
-   ],
-   "rank": 20362,
-   "count": 25,
-   "family": "qytet",
-   "is_root": false,
-   "etymology": "From krye- (“main, head-”) + qytet (“city”).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "city"
-   ],
-   "components": [
-    {
-     "word": "krye",
-     "role": "prefix"
-    },
-    {
-     "word": "qytet",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kryeqytete",
-     "tag": "plural"
-    },
-    {
-     "form": "kryeqyteti",
+     "form": "anëtari",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I went to the capital.",
+    "en": "Not a member?",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Shkova në kryeqytet."
+    "sq": "Nuk jeni anëtar?"
    },
    "breakdown": "historical"
-  },
-  {
-   "id": "qytezë",
-   "sq": "qytezë",
-   "en": "small town",
-   "glosses": [
-    "small town",
-    "residential center within a castle"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "small town",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "98 2"
-      },
-      {
-       "name": "Albanian terms suffixed with -zë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "73 27"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "99 1"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "town"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "residential center within a castle",
-     "tags": [
-      "feminine",
-      "historical"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "center",
-      "castle"
-     ]
-    }
-   ],
-   "rank": 24568,
-   "count": 19,
-   "family": "qytet",
-   "is_root": false,
-   "etymology": "From qytet + -zë (diminutive suffix).",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "qytet",
-     "role": "base"
-    },
-    {
-     "word": "zë",
-     "role": "suffix"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qyteza",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "A town within the city!",
-    "score": [
-     1,
-     5,
-     -4,
-     8
-    ],
-    "sq": "Një qytezë brenda një qyteti!"
-   },
-   "breakdown": "historical"
-  }
- ],
- "patterns": [
-  {
-   "id": "tar",
-   "label": "-tar",
-   "meaning": "person / of",
-   "summary": "A person who deals with something, or an adjective 'of it': këngë (song) → këngëtar (singer), komb (nation) → kombëtar (national).",
-   "note": "Often -ëtar after a consonant. The feminine is -tare (këngëtare, shqiptare).",
-   "examples": [
-    {
-     "sq": "kujdestar",
-     "en": "supervisor",
-     "stem": "kujdes",
-     "stem_en": "regard"
-    },
-    {
-     "sq": "tregtar",
-     "en": "merchant",
-     "stem": "treg",
-     "stem_en": "market"
-    },
-    {
-     "sq": "qytetar",
-     "en": "citizen",
-     "stem": "qytet",
-     "stem_en": "city"
-    }
-   ]
   }
  ]
 }

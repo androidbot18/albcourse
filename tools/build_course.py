@@ -2,7 +2,7 @@
 """
 build_course.py - build the albcourse SRS dataset from real source data.
 
-Inputs (downloaded by tools/fetch_sources.py):
+Inputs (unpacked from data/sources/ by tools/fetch_sources.py):
   data/raw/kaikki_albanian.jsonl   Kaikki.org / wiktextract of English Wiktionary
   data/raw/sq_50k.txt              hermitdave FrequencyWords, OpenSubtitles2018
 
