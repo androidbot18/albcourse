@@ -10,6 +10,9 @@ missing is the *morphology* - the fact that so many words are one root wearing
 different clothes. This course teaches them together: the root, then everything
 built on it, then the descendants.
 
+**Next:** `CONVERSATION_PLAN.md` is the plan for making the course teach
+everyday conversational vocabulary quickly.
+
 **Scope: text only.** No audio, no pronunciation drills, no recordings. That
 is a deliberate decision, not an oversight - see `PLAN.md`.
 
