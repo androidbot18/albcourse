@@ -61,10 +61,14 @@ def real_pos_index():
     for lv in sorted(S.LEVEL_DIR.glob("level_*.json")):
         for w in json.loads(lv.read_text(encoding="utf-8"))["words"]:
             labs = [str(p).lower() for p in (w.get("pos") or [])]
-            slot = pos.setdefault(w["sq"].lower(), [])
-            for lab in labs:
-                if lab not in slot:
-                    slot.append(lab)
+            keys = [w["sq"].lower()] + [f["form"].lower()
+                                        for f in (w.get("forms") or [])
+                                        if isinstance(f, dict) and f.get("form")]
+            for key in keys:
+                slot = pos.setdefault(key, [])
+                for lab in labs:
+                    if lab not in slot:
+                        slot.append(lab)
     return pos
 
 

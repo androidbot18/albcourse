@@ -1,31 +1,32 @@
 {
  "level": 498,
- "title": "shtirem, skenar, gjerman (more) +3",
+ "title": "pështyj, gjerë (more), mustardë +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "faturë",
-  "gjerman",
-  "parim",
-  "recetë",
-  "shtirem",
-  "skenar"
+  "beton",
+  "gjerë",
+  "mustardë",
+  "nxehem",
+  "pështyj",
+  "shtatë"
  ],
  "pos_mix": {
-  "verb": 1,
-  "noun": 8,
-  "adv": 2
+  "verb": 2,
+  "adj": 1,
+  "noun": 2,
+  "num": 2
  },
  "words": [
   {
-   "id": "shtirem",
-   "sq": "shtirem",
-   "en": "to feign, simulate",
+   "id": "pështyj",
+   "sq": "pështyj",
+   "en": "to spit out, smoke out, give off",
    "glosses": [
-    "to feign, simulate"
+    "to spit out, smoke out, give off"
    ],
    "pos": [
     "verb"
@@ -37,7 +38,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to feign, simulate",
+     "gloss": "to spit out, smoke out, give off",
      "tags": [],
      "cats": [
       {
@@ -61,16 +62,17 @@
      ],
      "examples": [],
      "links": [
-      "feign",
-      "simulate"
+      "spit",
+      "smoke",
+      "out"
      ]
     }
    ],
-   "rank": 10870,
-   "count": 59,
-   "family": "shtirem",
+   "rank": 20533,
+   "count": 25,
+   "family": "pështyj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *śter-, from Proto-Indo-European *sterh₃- (“to spread, scatter, bring down”).",
+   "etymology": "From a base *shtyj (“to spit”), from Proto-Albanian *śtūi̯a/i- (“to spit”), from Proto-Indo-European *spi̯eu̯H- (“to spit”). The initial pë- is either from për- (< PA *pra-), or from Proto-Albanian *apu- (“away”). Variants such as fshtyj use instead the Proto-Albanian prefix *u̯i-, and mështyn uses Proto-Albanian *əmbi- (“up”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -80,43 +82,57 @@
    "related": [],
    "forms": [
     {
-     "form": "shtirë",
+     "form": "pështyva",
+     "tag": "aorist"
+    },
+    {
+     "form": "pështyrë",
      "tag": "participle"
+    },
+    {
+     "form": "fshtyj",
+     "tag": "alternative"
+    },
+    {
+     "form": "mështyj",
+     "tag": "alternative"
+    },
+    {
+     "form": "byshtyj",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Should I pretend not to understand why?",
+    "corpus": "HPLT",
+    "en": "Rinse and spit till your mouth is clear.",
     "score": [
-     1,
-     9,
-     -8,
-     8
+     4,
+     8,
+     -4,
+     10
     ],
-    "sq": "A duhet të shtirem se nuk e kuptoj arsyen?"
+    "sq": "Shpëlaji dhe pështyj derisa të jetë pastruar goja."
    }
   },
   {
-   "id": "skenar",
-   "sq": "skenar",
-   "en": "scenario",
+   "id": "zemërgjerë",
+   "sq": "zemërgjerë",
+   "en": "generous",
    "glosses": [
-    "scenario"
+    "generous"
    ],
    "pos": [
-    "noun"
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "scenario",
-     "tags": [
-      "masculine"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "generous",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -125,7 +141,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -139,13 +155,100 @@
      ],
      "examples": [],
      "links": [
-      "scenario"
+      "generous"
      ]
     }
    ],
-   "rank": 10875,
-   "count": 59,
-   "family": "skenar",
+   "rank": 20549,
+   "count": 25,
+   "family": "gjerë",
+   "is_root": false,
+   "etymology": "From zemër + gjerë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "zemër",
+     "role": "prefix"
+    },
+    {
+     "word": "gjerë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zemërgjerëe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "The party is generous.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Partia është zemërgjerë."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "mustardë",
+   "sq": "mustardë",
+   "en": "mustard",
+   "glosses": [
+    "mustard"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mustard",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mustard"
+     ]
+    }
+   ],
+   "rank": 20552,
+   "count": 25,
+   "family": "mustardë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -155,453 +258,122 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It was a scenario.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Ka qenë një skenar."
-   }
-  },
-  {
-   "id": "gjermanisht",
-   "sq": "gjermanisht",
-   "en": "in German",
-   "glosses": [
-    "in German",
-    "german(ly), in German manner"
-   ],
-   "pos": [
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "in German",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Albanian terms suffixed with -isht",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 34"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "German"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "german(ly), in German manner",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Albanian terms suffixed with -isht",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "54 46"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "german"
-     ]
-    }
-   ],
-   "rank": 10882,
-   "count": 58,
-   "family": "gjerman",
-   "is_root": false,
-   "etymology": "From gjerman + -isht.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "gjerman",
-     "role": "base",
-     "en": "German (male person)"
-    },
-    {
-     "word": "isht",
-     "role": "suffix",
-     "affix": "isht",
-     "meaning": "-ly"
-    }
-   ],
-   "derived": [
-    "gjermanishte"
-   ],
-   "related": [
-    "gjerman",
-    "gjermane",
-    "Gjermani"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Don't speak German?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Nuk flisni gjermanisht?"
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "faturë",
-   "sq": "faturë",
-   "en": "bill",
-   "glosses": [
-    "bill",
-    "receipt",
-    "invoice"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bill",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bill"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "receipt",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 44 46"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 44 47"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 47 48"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "receipt"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "invoice",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 44 46"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 44 47"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 47 48"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "invoice"
-     ]
-    }
-   ],
-   "rank": 10888,
-   "count": 58,
-   "family": "faturë",
-   "is_root": true,
-   "etymology": "From Italian fattura.",
-   "etymology_class": "borrowed",
-   "source_lang": "it",
-   "cognate": "from Italian fattura",
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
    "forms": [
     {
-     "form": "fatura",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do I get an invoice?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "A marr një faturë?"
-   }
-  },
-  {
-   "id": "parim",
-   "sq": "parim",
-   "en": "principle",
-   "glosses": [
-    "principle"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "principle",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "principle"
-     ]
-    }
-   ],
-   "rank": 10899,
-   "count": 58,
-   "family": "parim",
-   "is_root": true,
-   "etymology": "Calque of Latin princeps, using parë.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "parime",
-     "tag": "plural"
-    },
-    {
-     "form": "parimi",
+     "form": "mustarda",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Generally, no.",
+    "en": "White wine, bee honey, mustard.",
     "score": [
-     0,
-     3,
-     -3,
+     1,
+     6,
+     -5,
      10
     ],
-    "sq": "Në parim, jo."
+    "sq": "Verë e bardhë, bee mjaltë, mustardë."
    }
   },
   {
-   "id": "recetë",
-   "sq": "recetë",
-   "en": "prescription",
+   "id": "shtatëmbëdhjetë",
+   "sq": "shtatëmbëdhjetë",
+   "en": "seventeen",
    "glosses": [
-    "prescription",
-    "recipe"
+    "seventeen",
+    "seventy"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "num",
+    "num"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "numeral",
+    "numeral"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "prescription",
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "seventeen",
      "tags": [],
      "cats": [
       {
-       "name": "Medicine",
+       "name": "Albanian cardinal numbers",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Medicine",
-       "langcode": "sq"
-      },
-      {
-       "name": "Pharmacology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Pharmacology",
-       "langcode": "sq"
-      },
-      {
-       "name": "Pharmacy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Pharmacy",
-       "langcode": "sq"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "medicine",
-      "pharmacy",
-      "pharmacology"
+      "seventeen"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "recipe",
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "seventy",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Molise Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "recipe"
+      "seventy",
+      "Mouton de Gruyter"
      ]
     }
    ],
-   "rank": 10906,
-   "count": 58,
-   "family": "recetë",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 20557,
+   "count": 25,
+   "family": "shtatë",
+   "is_root": false,
+   "etymology": "From shtatë (“seven”) + -mbëdhjetë (“-teen”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "seven"
+   ],
+   "components": [
+    {
+     "word": "shtatë",
+     "role": "base"
+    },
+    {
+     "word": "mbëdhjetë",
+     "role": "suffix"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Very good recipe!",
+    "en": "He was no more than seventeen years old.",
     "score": [
      0,
-     4,
-     -4,
+     7,
+     -7,
      10
     ],
-    "sq": "Recetë shumë e mirë!"
-   }
+    "sq": "Nuk ishte më shumë se shtatëmbëdhjetë vjeç."
+   },
+   "breakdown": "historical"
   },
   {
-   "id": "shtirje",
-   "sq": "shtirje",
-   "en": "faking, simulation",
+   "id": "beton",
+   "sq": "beton",
+   "en": "concrete",
    "glosses": [
-    "faking, simulation"
+    "concrete"
    ],
    "pos": [
     "noun"
@@ -613,9 +385,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "faking, simulation",
+     "gloss": "concrete",
      "tags": [
-      "feminine"
+      "masculine",
+      "uncountable"
      ],
      "cats": [
       {
@@ -625,7 +398,76 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 19 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "concrete"
+     ]
+    }
+   ],
+   "rank": 20578,
+   "count": 25,
+   "family": "beton",
+   "is_root": true,
+   "etymology": "From French béton (“concrete”), from Latin bitūmen (“asphalt”).",
+   "etymology_class": "borrowed",
+   "source_lang": "fr",
+   "cognate": "from French béton",
+   "parents": [
+    "concrete",
+    "asphalt"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Only glued concrete.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Vetëm beton ngjitur."
+   }
+  },
+  {
+   "id": "nxehem",
+   "sq": "nxehem",
+   "en": "to be warmed up",
+   "glosses": [
+    "to be warmed up"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be warmed up",
+     "tags": [
+      "mediopassive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -635,52 +477,50 @@
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "faking",
-      "simulation"
+      "be",
+      "warmed"
      ]
     }
    ],
-   "rank": 37775,
-   "count": 10,
-   "family": "shtirem",
-   "is_root": false,
-   "etymology": "From shtirem + -je.",
-   "etymology_class": "affix",
+   "rank": 20601,
+   "count": 25,
+   "family": "nxehem",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "shtirem",
-     "role": "base",
-     "en": "to feign"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "nxehur",
+     "tag": "participle"
+    }
+   ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "This was no diplomatic pretence.",
+    "corpus": "QED",
+    "en": "How can I not get angry, Hayriye?",
     "score": [
      1,
      5,
      -4,
-     10
+     5
     ],
-    "sq": "Kjo nuk ishte shtirje diplomatike."
-   },
-   "breakdown": "transparent"
+    "sq": "Si mos te nxehem, Hajrie?"
+   }
   }
  ],
  "extended": true

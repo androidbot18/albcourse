@@ -1,262 +1,415 @@
 {
  "level": 83,
- "title": "flas (continued)",
- "root": "flas",
- "root_gloss": "to speak",
+ "title": "Yesterday, today, tomorrow 2/3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 9,
+ "word_count": 7,
  "families": [
-  "flas"
+  "Shihemi më vonë!",
+  "Shihemi së shpejti!",
+  "herë",
+  "kaluar",
+  "rrallë",
+  "shpesh",
+  "zakonisht"
  ],
  "pos_mix": {
-  "verb": 9
+  "phrase": 2,
+  "adv": 5,
+  "adj": 5
  },
  "words": [
   {
-   "id": "flet",
-   "sq": "flet",
-   "en": "you (sg) speak (from flas, to speak)",
+   "id": "Shihemi më vonë!",
+   "sq": "Shihemi më vonë!",
+   "en": "See you later!",
    "glosses": [
-    "you (sg) speak (from flas, to speak)"
+    "See you later!"
    ],
    "pos": [
-    "verb"
+    "phrase"
    ],
    "pos_labels": [
-    "verb"
+    "phrase"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular"
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "See you later!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60087,
+   "count": 0,
+   "family": "Shihemi më vonë!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Shihemi së shpejti!",
+   "sq": "Shihemi së shpejti!",
+   "en": "See you soon!",
+   "glosses": [
+    "See you soon!"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "See you soon!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60088,
+   "count": 0,
+   "family": "Shihemi së shpejti!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "shpesh",
+   "sq": "shpesh",
+   "en": "often",
+   "glosses": [
+    "often"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "often",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Dal shpesh me miqtë.",
+       "en": "I often go out with friends.",
+       "offsets": [
+        [
+         4,
+         10
+        ]
+       ]
+      }
      ],
+     "links": []
+    }
+   ],
+   "rank": 1089,
+   "count": 865,
+   "family": "shpesh",
+   "is_root": true,
+   "etymology": "From Latin spissus (“thick”) (cf. Italian spesso (“id.”)). Also compare Aromanian spes (“id.”).",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin spissus",
+   "parents": [
+    "thick"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpeshë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ndonjëherë",
+   "sq": "ndonjëherë",
+   "en": "sometimes",
+   "glosses": [
+    "sometimes"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "sometimes",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ndonjëherë punoj natën.",
+       "en": "Sometimes I work at night.",
+       "offsets": [
+        [
+         0,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 274,
+   "count": 4117,
+   "family": "herë",
+   "is_root": false,
+   "etymology": "From ndonjë (“any”) + herë (“time”), literally 'happening at any time'.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "any",
+    "time"
+   ],
+   "components": [
+    {
+     "word": "ndonjë",
+     "role": "prefix"
+    },
+    {
+     "word": "herë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "rrallë",
+   "sq": "rrallë",
+   "en": "rarely",
+   "glosses": [
+    "rarely",
+    "sparse",
+    "infrequent",
+    "rare",
+    "outstanding",
+    "seldom, rarely"
+   ],
+   "pos": [
+    "adv",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "rarely",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ha rrallë mish.",
+       "en": "I rarely eat meat.",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "sparse",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sparse"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "infrequent",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "infrequent"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "rare",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 307,
-   "count": 3461,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why is this talking?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Përse flet kjo?"
-   }
-  },
-  {
-   "id": "flasim",
-   "sq": "flasim",
-   "en": "we speak (from flas, to speak)",
-   "glosses": [
-    "we speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we speak (from flas, to speak)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "_dis": "36 5 50 5 4"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "41 0 59 0 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "19 0 81 0 0"
       }
      ],
      "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 334,
-   "count": 3106,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I don't know, we'll see.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Do flasim sot."
-   }
-  },
-  {
-   "id": "folur",
-   "sq": "folur",
-   "en": "speak, past form (from flas, to speak)",
-   "glosses": [
-    "speak, past form (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
+     "links": [
+      "rare"
+     ]
+    },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "speak, past form (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "outstanding",
+     "tags": [],
      "cats": [],
      "examples": [],
-     "is_form_of": "flas"
+     "links": [
+      "outstanding"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "seldom, rarely",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "seldom",
+      "rarely"
+     ]
     }
    ],
-   "rank": 476,
-   "count": 2215,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 2516,
+   "count": 330,
+   "family": "rrallë",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin rārus.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Because we didn't talk.",
-    "score": [
-     0,
-     5,
-     -5,
-     4
-    ],
-    "sq": "Sepse ne nuk kemi folur."
-   }
+   "forms": [
+    {
+     "form": "rrallëe",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
   },
   {
-   "id": "fol",
-   "sq": "fol",
-   "en": "you (sg)! (from flas, to speak)",
+   "id": "zakonisht",
+   "sq": "zakonisht",
+   "en": "usually",
    "glosses": [
-    "you (sg)! (from flas, to speak)"
+    "usually"
    ],
    "pos": [
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg)! (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "usually",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 19 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "Zakonisht pi kafe në mëngjes.",
+       "en": "I usually drink coffee in the morning.",
+       "offsets": [
+        [
+         0,
+         9
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "is_form_of": "flas"
+     "links": []
     }
    ],
-   "rank": 713,
-   "count": 1426,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 1132,
+   "count": 830,
+   "family": "zakonisht",
+   "is_root": true,
+   "etymology": "From zakonshëm + -isht.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -264,71 +417,47 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "But please don't talk to Cemre about it now.",
-    "score": [
-     0,
-     8,
-     -8,
-     5
-    ],
-    "sq": "Por te lutem, tani mos fol me te."
-   }
+   "corpus_example": null
   },
   {
-   "id": "flasësh",
-   "sq": "flasësh",
-   "en": "you (sg) speak (from flas, to speak)",
+   "id": "kaluar",
+   "sq": "kaluar",
+   "en": "last, past",
    "glosses": [
-    "you (sg) speak (from flas, to speak)"
+    "last, past"
    ],
    "pos": [
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "last, past",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "Javën e kaluar isha në Itali.",
+       "en": "Last week I was in Italy.",
+       "offsets": [
+        [
+         8,
+         14
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "is_form_of": "flas"
+     "links": []
     }
    ],
-   "rank": 959,
-   "count": 991,
-   "family": "flas",
-   "is_root": false,
+   "rank": 291,
+   "count": 3648,
+   "family": "kaluar",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -338,314 +467,12 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Whom should you talk to?",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Me kë të flasësh?"
-   }
-  },
-  {
-   "id": "flisni",
-   "sq": "flisni",
-   "en": "you (pl)! (from flas, to speak)",
-   "glosses": [
-    "you (pl)! (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "plural",
-      "second-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1161,
-   "count": 799,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It's good to talk.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Është mirë të flisni."
-   }
-  },
-  {
-   "id": "flasin",
-   "sq": "flasin",
-   "en": "they speak (from flas, to speak)",
-   "glosses": [
-    "they speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1267,
-   "count": 710,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "He didn't want to talk.",
-    "score": [
-     0,
-     5,
-     -5,
-     5
-    ],
-    "sq": "Ai nuk duan të flasin."
-   }
-  },
-  {
-   "id": "flasë",
-   "sq": "flasë",
-   "en": "he/she/it speak (from flas, to speak)",
-   "glosses": [
-    "he/she/it speak (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it speak (from flas, to speak)",
-     "tags": [
-      "form-of",
-      "present",
-      "singular",
-      "subjunctive",
-      "third-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1572,
-   "count": 556,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "He can't speak.",
-    "score": [
-     0,
-     5,
-     -5,
-     4
-    ],
-    "sq": "Ai nuk mund të flasë."
-   }
-  },
-  {
-   "id": "flisja",
-   "sq": "flisja",
-   "en": "I (used to) spoke (from flas, to speak)",
-   "glosses": [
-    "I (used to) spoke (from flas, to speak)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) spoke (from flas, to speak)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "imperfect",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "flas"
-    }
-   ],
-   "rank": 1848,
-   "count": 468,
-   "family": "flas",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He wanted to talk to you.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Doja të flisja me ju."
-   }
+   "forms_line": "i kaluar · e kaluar",
+   "corpus_example": null
   }
  ],
- "continues": [
-  "flas"
- ]
+ "opening": true,
+ "unit": 26,
+ "unit_title": "Yesterday, today, tomorrow",
+ "situation": "Time, days and plans"
 }

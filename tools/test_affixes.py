@@ -90,9 +90,9 @@ we = [w["sq"] for w in transparent
       if any(c.get("affix") == "im" for c in w["components"])
       and w["en"].lower().startswith("we ")]
 eq(we, [], "no 'we ...' verb form is a transparent -im noun")
-# The collision is real, which is why the note exists: flasim is in the deck.
-eq("flasim" in by_sq and not by_sq["flasim"].get("components"), True,
-   "flasim ('we speak') exists and carries no -im breakdown")
+# The collision is real, which is why the note exists. flasim itself is no
+# longer a card: it is a form of flas, shown on that word's card.
+eq("flasim" in by_sq, False, "flasim ('we speak') is not a card of its own")
 eq("flasim" in affixes.AFFIXES["im"]["note"], True,
    "the -im pattern note warns about the verb ending")
 

@@ -1,107 +1,417 @@
 {
  "level": 40,
- "title": "së, tek, vërtetë +1",
+ "title": "Money 1/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 8,
  "families": [
-  "nga",
-  "së",
-  "tek",
-  "vërtetë"
+  "Sa kushton?",
+  "euro",
+  "kushtoj",
+  "lek",
+  "lirë",
+  "para",
+  "shtrenjtë",
+  "çmoj"
  ],
  "pos_mix": {
-  "prep": 1,
-  "adv": 5,
-  "adj": 2
+  "noun": 8,
+  "prep": 4,
+  "verb": 2,
+  "phrase": 1,
+  "adj": 5
  },
  "words": [
   {
-   "id": "nga",
-   "sq": "nga",
-   "en": "at, from, to",
+   "id": "para",
+   "sq": "para",
+   "en": "money; before",
    "glosses": [
-    "at, from, to",
-    "whence, where from"
+    "money; before",
+    "ago",
+    "before",
+    "in front of",
+    "in front of, in the presence of",
+    "money"
    ],
    "pos": [
+    "noun",
     "prep",
-    "adv"
+    "prep",
+    "prep",
+    "prep",
+    "noun"
    ],
    "pos_labels": [
+    "noun",
     "preposition",
-    "adverb"
+    "preposition",
+    "preposition",
+    "preposition",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "at, from, to",
-     "tags": [
-      "with-nominative"
-     ],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "money; before",
+     "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "Jo, unë nuk jam nga Shqipëria.",
-       "en": "No, I am not from Albania.",
+       "sq": "Nuk kam para.",
+       "en": "I have no money.",
        "offsets": [
         [
-         16,
-         19
+         8,
+         12
         ]
        ]
       }
      ],
-     "links": [
-      "at",
-      "from",
-      "to"
-     ]
+     "links": []
     },
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "whence, where from",
-     "tags": [],
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "ago",
+     "tags": [
+      "with-ablative"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "57 43"
+       "_dis": "0 5 77 0 18"
       },
       {
        "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "58 42"
+       "_dis": "22 21 26 31"
       },
       {
-       "name": "Albanian prepositions governing the nominative",
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "89 11"
+       "_dis": "30 32 19 19"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "para dy shekujsh",
+       "en": "two centuries ago",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "ago"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "before",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 21 26 31"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 32 19 19"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "para afatit",
+       "en": "before the deadline",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "before"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "in front of",
+     "tags": [
+      "physical",
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 21 26 31"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 32 19 19"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "para një pasqyre",
+       "en": "in front of a mirror",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "in front of"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "in front of, in the presence of",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 21 26 31"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 32 19 19"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "para klasës",
+       "en": "in front of the class",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "in front of"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "money",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Money",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Money",
+       "langcode": "sq",
+       "_dis": "100 0 0 0 0"
       }
      ],
      "examples": [],
      "links": [
-      "whence",
-      "where from"
+      "money"
      ]
     }
    ],
-   "rank": 25,
-   "count": 65653,
-   "family": "nga",
+   "rank": 88,
+   "count": 15482,
+   "family": "para",
    "is_root": true,
-   "etymology": "From Proto-Albanian *en-ka and related to the preposition ka (“from, out, out of, to”). Cognate with Old Church Slavonic къ (kŭ, “to”).",
-   "etymology_class": "inherited",
+   "etymology": "Back formation from përpara, from Proto-Albanian *pər-parə-a, from Proto-Indo-European *pr̥H-e/o-s (“before, in front”)",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "përpara"
+   ],
+   "forms": [
+    {
+     "form": "para",
+     "tag": "plural"
+    },
+    {
+     "form": "paraja",
+     "tag": "definite"
+    }
+   ],
+   "forms_line": "paraja · pl. para",
+   "corpus_example": null
+  },
+  {
+   "id": "kushtoj",
+   "sq": "kushtoj",
+   "en": "to cost",
+   "glosses": [
+    "to cost",
+    "to dedicate"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cost",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Sa kushton kafja?",
+       "en": "How much is the coffee?",
+       "offsets": [
+        [
+         3,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to dedicate",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "33 67"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "39 61"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "43 57"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dedicate"
+     ]
+    }
+   ],
+   "rank": 8287,
+   "count": 82,
+   "family": "kushtoj",
+   "is_root": true,
+   "etymology": "Borrowed through Vulgar Latin from Latin constāre.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kushtuar",
+     "tag": "participle"
+    }
+   ],
+   "forms_line": "ai kushton · kushtoi (past) · kam kushtuar",
+   "corpus_example": null
+  },
+  {
+   "id": "Sa kushton?",
+   "sq": "Sa kushton?",
+   "en": "How much is it?",
+   "glosses": [
+    "How much is it?"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "How much is it?",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60049,
+   "count": 0,
+   "family": "Sa kushton?",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -109,73 +419,98 @@
    "derived": [],
    "related": [],
    "forms": [],
+   "phrase": true,
    "corpus_example": null
   },
   {
-   "id": "së",
-   "sq": "së",
-   "en": "not, don't",
+   "id": "lek",
+   "sq": "lek",
+   "en": "lek (Albanian money)",
    "glosses": [
-    "not, don't",
-    "Negates the meaning of the modified verb."
+    "lek (Albanian money)",
+    "lek (the currency unit of Albania)",
+    "money, cash"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "not, don't",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "not",
-      "don't"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "Negates the meaning of the modified verb.",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lek (Albanian money)",
      "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "A s'është ai...?",
-       "en": "Isn't he ...?",
+       "sq": "Kafja kushton njëqind lekë.",
+       "en": "The coffee costs a hundred lek.",
        "offsets": [
         [
-         2,
-         4
-        ]
-       ]
-      },
-      {
-       "sq": "Unë di. Unë s'di.",
-       "en": "I know. I don't know.",
-       "offsets": [
-        [
-         12,
-         14
+         22,
+         26
         ]
        ]
       }
      ],
      "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lek (the currency unit of Albania)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Currency",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Currency",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "71 29"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lek"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "money, cash",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "money",
+      "cash"
+     ]
     }
    ],
-   "rank": 103,
-   "count": 13822,
-   "family": "së",
+   "rank": 7831,
+   "count": 88,
+   "family": "lek",
    "is_root": true,
-   "etymology": "See alternative form s' (“not, don't”) for adverb së for etymology.",
+   "etymology": "From Lekë, after Leka i Madh (“Alexander the Great”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -185,98 +520,182 @@
    "related": [],
    "forms": [
     {
-     "form": "nuk",
-     "tag": "alternative"
+     "form": "lekë",
+     "tag": "plural"
     }
    ],
+   "forms_line": "leku · pl. lekë",
    "corpus_example": null
   },
   {
-   "id": "tek",
-   "sq": "tek",
-   "en": "there, where",
+   "id": "euro",
+   "sq": "euro",
+   "en": "euro",
    "glosses": [
-    "there, where"
+    "euro"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "there, where",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "euro",
      "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kam vetëm euro.",
+       "en": "I have only euros.",
+       "offsets": [
+        [
+         10,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 4628,
+   "count": 164,
+   "family": "euro",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "euroja · pl. euro",
+   "corpus_example": null
+  },
+  {
+   "id": "çmim",
+   "sq": "çmim",
+   "en": "price",
+   "glosses": [
+    "price",
+    "prize"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "price",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Çmimi është i mirë.",
+       "en": "The price is good.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "prize",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
-       "name": "Pages with 22 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "over",
-      "there",
-      "where"
+      "prize"
      ]
     }
    ],
-   "rank": 104,
-   "count": 13539,
-   "family": "tek",
-   "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *tai ̊, from *te ku (< *tóy- kʷu- (“there where”)), from Proto-Indo-European *to- (“it”). Also occurs as a preposition with the meaning ‘ad, apud, prope, versus’. See also te.",
-   "etymology_class": "inherited",
+   "rank": 2088,
+   "count": 413,
+   "family": "çmoj",
+   "is_root": false,
+   "etymology": "From çmoj + -im.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "it"
+   "parents": [],
+   "components": [
+    {
+     "word": "çmoj",
+     "role": "base",
+     "en": "to appreciate"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
    ],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "te",
-     "tag": "alternative"
+     "form": "çmime",
+     "tag": "plural"
+    },
+    {
+     "form": "çmimi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We come to you!",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Ne vijmë tek ju!"
-   }
+   "forms_line": "çmimi · pl. çmime",
+   "corpus_example": null,
+   "breakdown": "transparent"
   },
   {
-   "id": "vërtetë",
-   "sq": "vërtetë",
-   "en": "true, real",
+   "id": "shtrenjtë",
+   "sq": "shtrenjtë",
+   "en": "expensive",
    "glosses": [
-    "true, real",
-    "genuine, authentic"
+    "expensive",
+    "costly, expensive"
    ],
    "pos": [
     "adj",
@@ -290,158 +709,218 @@
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "true, real",
+     "gloss": "expensive",
      "tags": [],
      "cats": [],
+     "examples": [
+      {
+       "sq": "Është shumë e shtrenjtë.",
+       "en": "It is very expensive.",
+       "offsets": [
+        [
+         14,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "costly, expensive",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "true",
-      "real"
+      "costly",
+      "expensive"
+     ]
+    }
+   ],
+   "rank": 2649,
+   "count": 311,
+   "family": "shtrenjtë",
+   "is_root": true,
+   "etymology": "From Vulgar Latin *strinctus (compare Romanian strâmt, Italian strinto), from Latin strictus (“narrow, tight”).",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "cognate": "from Latin strinctus",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shtrejt",
+     "tag": "alternative"
+    },
+    {
+     "form": "sctreit",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "i shtrenjtë · e shtrenjtë",
+   "corpus_example": null
+  },
+  {
+   "id": "lirë",
+   "sq": "lirë",
+   "en": "cheap; free",
+   "glosses": [
+    "cheap; free",
+    "independent, unimpeded, unrestrained; free",
+    "cheap, inexpensive"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "cheap; free",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kafja këtu është e lirë.",
+       "en": "The coffee here is cheap.",
+       "offsets": [
+        [
+         19,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "independent, unimpeded, unrestrained; free",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "96 4"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "independent",
+      "unimpeded",
+      "unrestrained"
      ]
     },
     {
      "pos": "adj",
      "pos_label": "adjective",
-     "gloss": "genuine, authentic",
+     "gloss": "cheap, inexpensive",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 77"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "genuine",
-      "authentic"
+      "cheap",
+      "inexpensive"
      ]
     }
    ],
-   "rank": 107,
-   "count": 13193,
-   "family": "vërtetë",
+   "rank": 502,
+   "count": 2103,
+   "family": "lirë",
    "is_root": true,
-   "etymology": "From Latin vēritās, vēritātem.",
+   "etymology": "Disputed. Perhaps:\n* Ultimately from Proto-Indo-European *lewH-. Cognates would include Latin luō (“to expiate, pay”), Ancient Greek λύω (lúō, “to release, untie”), Sanskrit लून (lūna), and English loose.\n* Alternatively from Proto-Indo-European *h₁lewdʰ-o-.\n* More likely, an early borrowing from Latin līber. The fact that libër (“book”) hasn't undergone the same sound changes with intersyllabic loss is due to the fact that it is a much later borrowing, probably early medieval borrowing from Late Latin or even Old Italian.",
    "etymology_class": "derived",
-   "source_lang": "la",
-   "cognate": "from Latin vēritās",
-   "parents": [],
-   "components": [],
-   "derived": [
-    "vërtetësi"
-   ],
-   "related": [
-    "vërteta"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "It's true.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Është e vërtetë."
-   }
-  },
-  {
-   "id": "përsëri",
-   "sq": "përsëri",
-   "en": "again",
-   "glosses": [
-    "again"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "again",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "again"
-     ]
-    }
-   ],
-   "rank": 231,
-   "count": 5372,
-   "family": "së",
-   "is_root": false,
-   "etymology": "From për- + së + ri.",
-   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
+   "components": [],
+   "derived": [],
+   "related": [
+    "çliroj"
+   ],
+   "forms": [],
+   "forms_line": "i lirë · e lirë",
+   "corpus_example": null
+  }
+ ],
+ "opening": true,
+ "unit": 14,
+ "unit_title": "Money",
+ "situation": "Numbers and money",
+ "patterns": [
+  {
+   "id": "im",
+   "label": "-im",
+   "meaning": "the act of (noun)",
+   "summary": "Turns a verb into the noun for doing it: mendoj (to think) → mendim (thought).",
+   "note": "-im is also the 'we' ending on verbs: flasim = we speak, ishim = we were. A word in -im is only a noun if a verb in -oj/-ej sits behind it.",
+   "examples": [
     {
-     "word": "për",
-     "role": "prefix"
+     "sq": "gabim",
+     "en": "mistake",
+     "stem": "gaboj",
+     "stem_en": "to make a mistake"
     },
     {
-     "word": "së",
-     "role": "stem"
+     "sq": "pushim",
+     "en": "holiday",
+     "stem": "pushoj",
+     "stem_en": "to rest"
+    },
+    {
+     "sq": "çmim",
+     "en": "price",
+     "stem": "çmoj",
+     "stem_en": "to appreciate"
     }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Come back!",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Të vijnë përsëri!"
-   },
-   "breakdown": "historical"
+   ]
   }
  ]
 }

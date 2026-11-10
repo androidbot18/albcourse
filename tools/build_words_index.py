@@ -122,7 +122,7 @@ def main():
     words = []
     for path in files:
         level = json.loads(path.read_text(encoding="utf-8"))
-        for w in level["words"]:
+        for ord_, w in enumerate(level["words"]):
             pair = sense_pair(w)
             words.append(
                 {
@@ -131,9 +131,19 @@ def main():
                     "en": w["en"],
                     "rank": w.get("rank"),
                     "level": w.get("level") or level.get("level"),
+                    # Position inside the level. New cards are introduced
+                    # in this order, which for the Conversation Core is the
+                    # order the lesson was written in (a sentence may use
+                    # the word taught just before it).
+                    "ord": ord_,
                     # The optional extended track (RECOMMENDATIONS.md 3.6):
                     # the app introduces these only when the learner opts in.
                     **({"extended": True} if level.get("extended") else {}),
+                    # Conversation Core: the key forms shown with the answer
+                    # (ai shkon · shkova (past) · kam shkuar), and a marker
+                    # on phrase cards.
+                    **({"forms": w["forms_line"]} if w.get("forms_line") else {}),
+                    **({"phrase": True} if w.get("phrase") else {}),
                     "family": w.get("family"),
                     "is_root": bool(w.get("is_root")),
                     # A card never ships a repeated label like

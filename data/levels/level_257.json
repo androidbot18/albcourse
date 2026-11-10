@@ -1,32 +1,626 @@
 {
  "level": 257,
- "title": "kalojë, butë, formë +3",
+ "title": "flitet, lashtë, debil +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "butë",
-  "dollar",
-  "falas",
-  "formë",
-  "kalojë",
-  "kryej"
+  "andaj",
+  "debil",
+  "flitet",
+  "interes",
+  "lashtë",
+  "peshë"
  ],
  "pos_mix": {
-  "noun": 3,
+  "verb": 8,
+  "adv": 3,
   "adj": 4,
-  "verb": 4,
-  "adv": 2
+  "noun": 7
  },
  "words": [
   {
-   "id": "kalojë",
-   "sq": "kalojë",
-   "en": "passageway",
+   "id": "flitet",
+   "sq": "flitet",
+   "en": "is spoken",
    "glosses": [
-    "passageway"
+    "is spoken",
+    "tells; (it) is about (when associated with books, documents, etc)",
+    "was spoken",
+    "was uttered, voiced, said",
+    "are spoken",
+    "tell; (they) are about (when associated with books, documents, etc)",
+    "were spoken",
+    "were said, uttered, voiced"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "is spoken",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Gjuha shqipe flitet kryesisht në Republiken e Shqipërisë dhe në Kosovë.",
+       "en": "The Albanian language is spoken primarily in the Republic of Albania and in Kosovo.",
+       "offsets": [
+        [
+         13,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "is",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "tells; (it) is about (when associated with books, documents, etc)",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Përse flitet në libër?",
+       "en": "What is the book about?",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "tells",
+      "it"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "was spoken",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "U fol gjuha arbëreshë në atë kohë.",
+       "en": "The (Old) Albanian language was spoken at that time.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "was",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "was uttered, voiced, said",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 6 33 6 6 6 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 6 4 37 4 5 4 34"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 5 3 40 3 4 3 37"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U fol fjala e ndaluar.",
+       "en": "The forbidden word was voiced.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "it",
+      "was",
+      "uttered"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "are spoken",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Gjuhët romake fliten në Francë, Itali, Portugali, Spanjë, Rumani edhe në Moldovë.",
+       "en": "Romance languages are spoken in France, Italy, Portugal, Spain, Romania and Moldova.",
+       "offsets": [
+        [
+         14,
+         20
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "are",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "tell; (they) are about (when associated with books, documents, etc)",
+     "tags": [
+      "indicative",
+      "present"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Përse fliten këto libra?",
+       "en": "What are these books about?",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "tell",
+      "they"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "were spoken",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Para 4000 vjet u folën gjuhë të tjera.",
+       "en": "Other languages were spoken 4000 years ago.",
+       "offsets": [
+        [
+         15,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "were",
+      "spoken"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "were said, uttered, voiced",
+     "tags": [
+      "aorist",
+      "indicative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 6 6 33 6 6 6 30"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 6 4 37 4 5 4 34"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 5 3 40 3 4 3 37"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "U folën fjalë të këqija.",
+       "en": "Bad words were uttered.",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "they",
+      "were",
+      "said"
+     ]
+    }
+   ],
+   "rank": 3957,
+   "count": 197,
+   "family": "flitet",
+   "is_root": true,
+   "etymology": "3rd person (singular) mediopassive form of flet (“(it) speaks”).\nSee active voice form flas (“to speak”) for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "flas",
+    "folur",
+    "fjalë",
+    "fjala",
+    "fjalor"
+   ],
+   "forms": [
+    {
+     "form": "folur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "lashtë",
+   "sq": "lashtë",
+   "en": "early, anciently, long ago, once (time; era in the past)",
+   "glosses": [
+    "early, anciently, long ago, once (time; era in the past)",
+    "past, beyond, back then, at that time, in those days (further back of our time/era)",
+    "ancient, early, very distant (period, era, time)",
+    "ancient, old (history, languages, peoples, cities, proverbs, etc.)",
+    "antique, archaic, old (costume, tradition, etc.)",
+    "leftover, odd, remaining (food, crops, seeds)",
+    "overaged, old man; ancient person/figure, legend",
+    "plant/breed/species growing/developing faster and/or producing/maturing earlier than others",
+    "(early summer) harvest",
+    "ancient time"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adj",
+    "adj",
+    "adj",
+    "adj",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "early, anciently, long ago, once (time; era in the past)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "early",
+      "anciently",
+      "long"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "past, beyond, back then, at that time, in those days (further back of our time/era)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 8 3 2 8 40 7 20 4 3"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "2 3 2 2 3 59 3 21 4 2"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 2 1 1 8 54 3 19 3 2"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "past",
+      "beyond",
+      "back"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "ancient, early, very distant (period, era, time)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ancient",
+      "early",
+      "distant"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "ancient, old (history, languages, peoples, cities, proverbs, etc.)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "ancient",
+      "old"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "antique, archaic, old (costume, tradition, etc.)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "antique",
+      "archaic",
+      "old"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "leftover, odd, remaining (food, crops, seeds)",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "miell të lashtë",
+       "en": "leftover flour",
+       "offsets": [
+        [
+         9,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "leftover",
+      "odd",
+      "remaining"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "overaged, old man; ancient person/figure, legend",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "overaged",
+      "old man",
+      "ancient"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "plant/breed/species growing/developing faster and/or producing/maturing earlier than others",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Agriculture",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Agriculture",
+       "langcode": "sq"
+      },
+      {
+       "name": "Botany",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Botany",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "botany",
+      "agriculture"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "(early summer) harvest",
+     "tags": [
+      "in-plural"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "early",
+      "summer",
+      "harvest"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "ancient time",
+     "tags": [
+      "colloquial",
+      "singular"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Në lashtë...",
+       "en": "In ancient times...",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "singular",
+      "ancient",
+      "time"
+     ]
+    }
+   ],
+   "rank": 3963,
+   "count": 196,
+   "family": "lashtë",
+   "is_root": true,
+   "etymology": "From (lashë (le(f)t behind) + -të) Proto-Albanian *lauša. According to Jokl (& Slavia Praha) from Proto-Indo-European *h₁lewdʰ- (“to grow; people”). A similar developement can be seen in Proto-Germanic *aldaz (“old”) (release → let grow → grow old). Related to Gothic 𐌻𐌰𐌿𐍃 (laus, “loosen, set free, empty”), further related to Ancient Greek λύω (lúō, “to loose, release”).\nFeist, Frisk, Haarmann, Kluge, Liukkonen and Pokorny favour(ed) a relation to Lithuanian i̇̀lgas (“long”).\nAccording to Çabej a derivative of lag (“to wet, moisten”) and to Meyer a loan from Latin lassus (“faint, languid”)\nCf. Albanian lasht m (“ancient time”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "lashtak",
+    "lashtazi",
+    "lashtësi",
+    "lashtas",
+    "lashtuar",
+    "lashtoj",
+    "lashtohem",
+    "tëlashtore"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "it is ancient.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "ajo është e lashtë."
+   }
+  },
+  {
+   "id": "debil",
+   "sq": "debil",
+   "en": "moron, idiot",
+   "glosses": [
+    "moron, idiot"
    ],
    "pos": [
     "noun"
@@ -38,7 +632,70 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "passageway",
+     "gloss": "moron, idiot",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 12 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "moron",
+      "idiot"
+     ]
+    }
+   ],
+   "rank": 3964,
+   "count": 196,
+   "family": "debil",
+   "is_root": true,
+   "etymology": "Learned borrowing from Latin debilis (“weak, frail, feeble”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "peshë",
+   "sq": "peshë",
+   "en": "weight, blubber",
+   "glosses": [
+    "weight, blubber"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "weight, blubber",
      "tags": [
       "feminine"
      ],
@@ -64,212 +721,16 @@
      ],
      "examples": [],
      "links": [
-      "passageway"
+      "weight",
+      "blubber"
      ]
     }
    ],
-   "rank": 1803,
-   "count": 482,
-   "family": "kalojë",
+   "rank": 3971,
+   "count": 196,
+   "family": "peshë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Will pass.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Do të kalojë."
-   }
-  },
-  {
-   "id": "butë",
-   "sq": "butë",
-   "en": "soft, gentle, mild",
-   "glosses": [
-    "soft, gentle, mild",
-    "tender (to the touch), sensitive",
-    "meek, mellow, docile, calm",
-    "tame, domesticated"
-   ],
-   "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "soft, gentle, mild",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "soft",
-      "gentle",
-      "mild"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "tender (to the touch), sensitive",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "14 65 8 14"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 81 6 6"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 84 5 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tender",
-      "sensitive"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "meek, mellow, docile, calm",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "meek",
-      "mellow",
-      "docile"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "tame, domesticated",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "tame",
-      "domesticated"
-     ]
-    }
-   ],
-   "rank": 1807,
-   "count": 481,
-   "family": "butë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *bukta, from Proto-Indo-European *bʰewgʰ- (“to bend, bow”) (compare English bow, Irish bog (“soft”), Lithuanian bukùs).",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "soft"
-   ],
-   "components": [],
-   "derived": [
-    "zbut"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "The soft voice!",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Zë të butë!"
-   }
-  },
-  {
-   "id": "formë",
-   "sq": "formë",
-   "en": "form; figure; shape; model",
-   "glosses": [
-    "form; figure; shape; model"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "form; figure; shape; model",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "form",
-      "figure",
-      "shape"
-     ]
-    }
-   ],
-   "rank": 1813,
-   "count": 479,
-   "family": "formë",
-   "is_root": true,
-   "etymology": "First attested in 1555 by Buzuku. Borrowed from Latin forma (“form”). Alternative opinions opt for an Italian borrowing, though with less support.",
+   "etymology": "From earlier *penshë, borrowed through Vulgar Latin from Latin pensum. For the loss of /s, ʃ/ before /n/, cf. pesë < older *pensë.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -277,170 +738,30 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have a different form.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Kanë një formë të ndryshme."
-   }
-  },
-  {
-   "id": "kryer",
-   "sq": "kryer",
-   "en": "finish, past form (from kryej, to finish)",
-   "glosses": [
-    "finish, past form (from kryej, to finish)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "finish, past form (from kryej, to finish)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kryej"
+     "form": "pesha",
+     "tag": "plural"
     }
    ],
-   "rank": 1818,
-   "count": 477,
-   "family": "kryej",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It also takes very little time to conduct.",
-    "score": [
-     0,
-     9,
-     -9,
-     10
-    ],
-    "sq": "Ajo gjithashtu merr shumë pak kohë për të kryer."
-   }
-  },
-  {
-   "id": "falas",
-   "sq": "falas",
-   "en": "free",
-   "glosses": [
-    "free",
-    "gratis"
-   ],
-   "pos": [
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "free",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "free"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "gratis",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "gratis"
-     ]
-    }
-   ],
-   "rank": 1822,
-   "count": 476,
-   "family": "falas",
-   "is_root": true,
-   "etymology": "From fal.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And absolutely free!",
+    "en": "Slightly overweight.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Dhe absolutisht falas!"
+    "sq": "Pak mbi peshë."
    }
   },
   {
-   "id": "dollar",
-   "sq": "dollar",
-   "en": "dollar",
+   "id": "interes",
+   "sq": "interes",
+   "en": "interest",
    "glosses": [
-    "dollar"
+    "interest"
    ],
    "pos": [
     "noun"
@@ -452,27 +773,39 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "dollar",
-     "tags": [],
-     "cats": [],
-     "examples": [
+     "gloss": "interest",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
       {
-       "sq": "Kushton dhjetë dollarë.",
-       "en": "It costs ten dollars.",
-       "offsets": [
-        [
-         15,
-         22
-        ]
-       ]
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 9 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
-     "links": []
+     "examples": [],
+     "links": [
+      "interest"
+     ]
     }
    ],
-   "rank": 1825,
-   "count": 475,
-   "family": "dollar",
+   "rank": 3984,
+   "count": 195,
+   "family": "interes",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -484,140 +817,99 @@
    "related": [],
    "forms": [
     {
-     "form": "dollarë",
+     "form": "interesa",
      "tag": "plural"
     },
     {
-     "form": "dollari",
+     "form": "interesi",
      "tag": "definite"
-    },
-    {
-     "form": "dollarët",
-     "tag": "plural"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "Why the interest?",
+    "score": [
+     0,
+     4,
+     -4,
+     8
+    ],
+    "sq": "Pse gjithë ky interes?"
+   }
   },
   {
-   "id": "kryej",
-   "sq": "kryej",
-   "en": "to finish, carry out, do",
+   "id": "andaj",
+   "sq": "andaj",
+   "en": "therefore, thus",
    "glosses": [
-    "to finish, carry out, do",
-    "to deplete",
-    "to survive through a period of time"
+    "therefore, thus"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to finish, carry out, do",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "therefore, thus",
      "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "finish",
-      "carry out",
-      "do"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to deplete",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "deplete"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to survive through a period of time",
-     "tags": [
-      "transitive"
-     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 10 84"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 3 92"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 2 93"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "survive"
+      "therefore",
+      "thus"
      ]
     }
    ],
-   "rank": 4104,
-   "count": 189,
-   "family": "kryej",
+   "rank": 3986,
+   "count": 195,
+   "family": "andaj",
    "is_root": true,
-   "etymology": "From krye (“head”).",
+   "etymology": "From andej.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "head"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "krye",
-    "krejt"
-   ],
-   "forms": [
-    {
-     "form": "kreva",
-     "tag": "aorist"
-    },
-    {
-     "form": "kryer",
-     "tag": "participle"
-    }
-   ],
+   "related": [],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why should I not commit suicide?",
+    "corpus": "TED2020",
+    "en": "So here it is.",
     "score": [
-     0,
-     5,
-     -5,
-     10
+     1,
+     4,
+     -3,
+     4
     ],
-    "sq": "Pse të mos kryej vetëvrasje?"
+    "sq": "Andaj ja ku është."
    }
   }
+ ],
+ "continues": [
+  "andaj"
  ]
 }

@@ -1,89 +1,38 @@
-"""The hand-curated opening (RECOMMENDATIONS.md section 3.2).
+"""The opening of the course, and the rules a curated level list must keep.
 
-A frequency list from OpenSubtitles makes a poor syllabus for the first
-weeks: greetings came at L56-81, numbers at L189-210, `bukë` (bread) at L393,
-and the first levels were whatever the corpus said most often. So the first
-levels are set here by hand, by theme, and the scheduler takes over after
-them. This is part of the reviewed overrides layer, beside
-tools/gloss_overrides.py.
+The opening used to be 23 hand-written levels in this file. It is now the
+Conversation Core (CONVERSATION_PLAN.md): about 1,000 words and 150 phrases
+ordered by situation, written in tools/core/*.txt and read by
+tools/conversation_core.py. `LEVELS` below is that list, so every caller
+that asks "what is curated?" gets the core.
 
-Rules the scheduler enforces on this list (assign_levels() raises if one is
-broken, so a bad edit fails the build rather than shipping):
+plan() checks a curated list before the scheduler takes over:
 
   * every word is a card in the deck, and appears once;
-  * a level holds at most 9 words and 6 families, like any other level;
+  * a level holds at most `per_level` words.
+
+For a list ordered by family (the old opening, and the unit tests that pin
+these rules) it also checks:
+
+  * a level holds at most `max_families` families;
   * a family is curated on ONE level, so it is never scattered;
-  * a word's stem is taught on the same level or an earlier one
-    (`mirëdita` sits with `ditë`, `çfarë` with `farë`).
+  * a word's stem is taught on the same level or an earlier one.
 
-A family does not have to be curated whole. `jam` opens with its present
-tense here; the rest (ishte, qenë, isha...) comes back later at its own
-frequency, on a level that lists the family under `continues`. Its rare
-tail, if it has one, still comes back after that as "(rarer words)".
-
-Within a level the cards are shown in teaching order (tools/
-teaching_order.py), not in the order listed here.
+The core is ordered by situation, so it passes `by_situation=True` and the
+family rules do not apply to it: `punë`, `punoj` and `punëtor` are taught
+where the conversation needs them, units apart.
 """
+import conversation_core
 
-LEVELS = [
-    ("Hello, yes and no",
-     ["përshëndetje", "mirëdita", "ditë", "mirë", "po", "jo",
-      "faleminderit"]),
-    ("I, you, he, she",
-     ["unë", "ti", "ty", "ai", "ajo"]),
-    ("We, you, they; please, goodbye",
-     ["ne", "ju", "ata", "ato", "lutem", "mirupafshim"]),
-    ("To be",
-     ["jam", "je", "është", "jemi", "jeni", "janë"]),
-    ("To have",
-     ["kam", "ke", "ka", "kemi", "keni", "kanë"]),
-    ("Not, and, in, with, for",
-     ["nuk", "dhe", "në", "me", "për"]),
-    ("One to five",
-     ["një", "dy", "tre", "katër", "pesë"]),
-    ("Six to ten",
-     ["gjashtë", "shtatë", "tetë", "nëntë", "dhjetë"]),
-    ("Mum, dad, sister, brother",
-     ["nënë", "baba", "babai", "mami", "babi", "motër", "vëlla"]),
-    ("Boy, girl, man, woman",
-     ["djalë", "vajzë", "burrë", "grua", "fëmijë", "bir"]),
-    ("Bread and water",
-     ["bukë", "ujë", "mish", "peshk", "djathë", "qumësht"]),
-    ("Eat and drink",
-     ["ha", "pi", "pije", "kafe", "verë", "birrë"]),
-    ("Today, tomorrow, yesterday",
-     ["sot", "nesër", "dje", "tani", "mëngjes", "natë"]),
-    ("Hours, weeks, years",
-     ["kohë", "orë", "javë", "muaj", "vit", "mbrëmje"]),
-    ("Who, where, when, how, why; here",
-     ["kush", "ku", "kur", "si", "pse", "këtu"]),
-    ("What, which, how much",
-     ["farë", "çfarë", "cili", "cila", "sa"]),
-    ("Do, want, go, come, say, know",
-     ["bëj", "dua", "shkoj", "vij", "them", "di"]),
-    ("See, speak, take, give, understand, can",
-     ["shoh", "flas", "marr", "jap", "kuptoj", "mund"]),
-    ("Good and bad, big and small",
-     ["keq", "bukur", "madh", "vogël", "ri", "vjetër"]),
-    ("Home, work, friends",
-     ["shtëpi", "punë", "punoj", "mik", "emër"]),
-    # `e` ("and") comes last, beside the other conjunctions, so its example
-    # ("Punoj ditë e natë.") uses only words already taught.
-    ("And, but, or, also; a lot, a little",
-     ["e", "por", "ose", "edhe", "shumë", "pak"]),
-    # Days are said with their article (e hënë), so they follow `e`.
-    ("Monday to Thursday",
-     ["hënë", "martë", "mërkurë", "enjte"]),
-    ("Friday to Sunday",
-     ["premte", "shtunë", "diel"]),
-]
+LEVELS = conversation_core.levels()
 
 
 class OpeningError(ValueError):
     """The curated opening breaks one of the rules in the module docstring."""
 
 
-def plan(levels, words, fam_of, stems_of, per_level, max_families):
+def plan(levels, words, fam_of, stems_of, per_level, max_families,
+         by_situation=False):
     """Check `levels` against the deck and return it as [(title, [words])].
 
     `words` is the set of deck words, `fam_of` maps word -> family root and
@@ -111,13 +60,17 @@ def plan(levels, words, fam_of, stems_of, per_level, max_families):
             seen[w] = i
             f = fam_of[w]
             fams.add(f)
+            if by_situation:
+                continue
             if fam_level.setdefault(f, i) != i:
                 problems.append("family %r is curated on levels %d and %d"
                                 % (f, fam_level[f], i))
-        if len(fams) > max_families:
+        if len(fams) > max_families and not by_situation:
             problems.append("level %d has %d families (> %d)"
                             % (i, len(fams), max_families))
     for w, i in seen.items():
+        if by_situation:
+            break
         for s in stems_of(w):
             if s in words and seen.get(s, 10 ** 9) > i:
                 problems.append("%r (level %d) is built on %r, which is "

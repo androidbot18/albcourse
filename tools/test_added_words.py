@@ -74,19 +74,24 @@ aw.WORDS["pra"] = saved
 print("\n== shipped data ==")
 words_path = os.path.join(ROOT, "data", "words.json")
 W = {w["sq"]: w for w in json.load(open(words_path, encoding="utf-8"))["words"]}
-missing = sorted(set(aw.WORDS) - set(W))
+# An entry that is a form of another word (falni, of fal) is folded into
+# that word: one card per word (CONVERSATION_PLAN.md step 2). And where the
+# Conversation Core teaches an added word, its headline and example win.
+import conversation_core  # noqa: E402
+CORE = conversation_core.words_of(conversation_core.load())
+FORMS = {w for w, e in aw.WORDS.items() if e.get("form_of")}
+missing = sorted(set(aw.WORDS) - set(W) - FORMS)
 check("every added word is in the deck (missing: %s)" % missing, not missing)
 check("each ships its reviewed headline",
       all(W[w]["en"] == e["senses"][0] for w, e in aw.WORDS.items()
-          if w in W))
+          if w in W and w not in CORE))
 check("each ships its reviewed example",
       all((W[w].get("ex") or {}).get("sq") == e["ex"][0]
-          for w, e in aw.WORDS.items() if w in W))
+          for w, e in aw.WORDS.items() if w in W and w not in CORE))
 ext = sorted(w for w in aw.WORDS if w in W and W[w].get("extended"))
 check("all are in the main course (extended: %s)" % ext, not ext)
-check("falni is taught in the family of fal",
-      W.get("falni", {}).get("family") == "fal"
-      and W["falni"]["level"] >= W["fal"]["level"])
+check("falni is folded into fal, not a card of its own",
+      "falni" not in W and "fal" in W)
 check("mirupafshim is in the curated opening (L%s)"
       % W.get("mirupafshim", {}).get("level"),
       W.get("mirupafshim", {}).get("level", 99) <= 3)

@@ -7,6 +7,19 @@ months. `RECOMMENDATIONS.md` covers the course as a whole and `PLAN.md` is
 the build log; where they overlap with this file, this file sets the order
 of work.
 
+## Status
+
+Steps 1-3 are built: the core is levels 1-168 (52 units, 1,000 words, 157
+phrases, 52 dialogues, 11 grammar notes), form cards are folded into their
+words, and `tools/test_conversation_core.py` enforces the gates. Run
+`python3 tools/measure_conversation.py` for the current figures. Of the
+gates below, one is met only in part: 210 of the 214 checklist words are in
+the core (4 are deliberately skipped, named in the checklist file), and 50
+of them come after the first month. Step 4 is done only as far as the core's
+own glosses; the review CSV, the translation gate, the report link, and all
+of steps 5 and 6 are still to do. The figures under "What was measured"
+describe the course before this work.
+
 ## Summary
 
 The pipeline is careful and the first 23 hand-curated levels are good. After

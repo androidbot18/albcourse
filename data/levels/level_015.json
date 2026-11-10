@@ -1,45 +1,139 @@
 {
  "level": 15,
- "title": "Who, where, when, how, why; here",
+ "title": "I don't understand 3/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "ku",
-  "kur",
-  "kush",
-  "këtu",
-  "pse",
-  "si"
+  "Mund ta përsërisni?",
+  "Si shkruhet?",
+  "gjuhë",
+  "mësoj",
+  "pyes",
+  "pyetje",
+  "për",
+  "saktë"
  ],
  "pos_mix": {
-  "adv": 10,
-  "pron": 3
+  "noun": 5,
+  "verb": 9,
+  "adv": 1,
+  "adj": 3,
+  "phrase": 2
  },
  "words": [
   {
-   "id": "si",
-   "sq": "si",
-   "en": "how; in what way; in what state",
+   "id": "pyetje",
+   "sq": "pyetje",
+   "en": "question",
    "glosses": [
-    "how; in what way; in what state",
-    "like, as"
+    "question"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "how; in what way; in what state",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "question",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kam një pyetje.",
+       "en": "I have a question.",
+       "offsets": [
+        [
+         8,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 374,
+   "count": 2810,
+   "family": "pyetje",
+   "is_root": true,
+   "etymology": "Gerund of pyes (“to ask”) using aorist stem pyet-; pyet + -je.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "pyetje",
+     "tag": "plural"
+    },
+    {
+     "form": "pyetja",
+     "tag": "definite"
+    }
+   ],
+   "forms_line": "pyetja · pl. pyetje",
+   "corpus_example": null
+  },
+  {
+   "id": "pyes",
+   "sq": "pyes",
+   "en": "to ask",
+   "glosses": [
+    "to ask",
+    "to ask, make a question",
+    "to consult, see, advise with",
+    "to examine, test",
+    "to care"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to ask",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mund të pyes një gjë?",
+       "en": "Can I ask one thing?",
+       "offsets": [
+        [
+         8,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to ask, make a question",
      "tags": [],
      "cats": [
       {
@@ -47,502 +141,310 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
+       "_dis": "22 28 28 22"
       }
      ],
-     "examples": [
-      {
-       "sq": "Si janë shokët e tu?",
-       "en": "How are your friends?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "how"
+      "ask",
+      "question"
      ]
     },
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "like, as",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to consult, see, advise with",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 28 28 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "consult",
+      "see",
+      "advise"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to examine, test",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 28 28 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "examine",
+      "test"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to care",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian negative polarity items",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 28 28 22"
+      }
+     ],
      "examples": [
       {
-       "sq": "Si e dini, nuk kemi filluar ende.",
-       "en": "As you know, we've not yet begun.",
+       "sq": "Kush pyet për të!",
+       "en": "Who cares (about it)!",
        "offsets": [
         [
-         0,
-         2
+         5,
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "Nuk pyet për veten.",
+       "en": "He doesn't care about himself.",
+       "offsets": [
+        [
+         4,
+         8
         ]
        ]
       }
      ],
      "links": [
-      "like",
-      "as"
+      "care"
      ]
     }
    ],
-   "rank": 27,
-   "count": 64570,
-   "family": "si",
+   "rank": 592,
+   "count": 1723,
+   "family": "pyes",
    "is_root": true,
-   "etymology": "Varying reconstructions. Orel descends it from Proto-Albanian *tšei, Matzinger from Proto-Albanian *čī. Ultimately from instrumental Proto-Indo-European *kʷí-h₁. Compare Latin qui (“how, why”), Old English hwȳ, hwī (“why”). An interrogative and relative pronoun, especially in connection with a preposition.",
+   "etymology": "Through syncope from dialectal pyves, alteration of pëves, from Old Albanian pëvetën, from Proto-Albanian *apu-wait-ja, from Proto-Indo-European *weyt-; compare Serbo-Croatian véćati (“to deliberate, confer”), Lithuanian vaiténti (“to discuss”), and possibly Avestan 𐬬𐬀𐬉𐬚𐬀 f (vaēθa, “judgment, verdict”).\nAlternatively, from Proto-Albanian *pūta, related to Latin putō (“to reckon, to ponder”) and Proto-Slavic *pȳtàti.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "cila",
-    "cili",
-    "disi",
-    "sesi",
-    "sido",
-    "sidoqoftë",
-    "sivjet"
+    "pyetës",
+    "pyetësi",
+    "pyetësor",
+    "pyetje"
    ],
-   "related": [
-    "qysh"
+   "related": [],
+   "forms": [
+    {
+     "form": "pyeta",
+     "tag": "aorist"
+    },
+    {
+     "form": "pyetur",
+     "tag": "participle"
+    },
+    {
+     "form": "pyet",
+     "tag": "alternative"
+    },
+    {
+     "form": "pienj",
+     "tag": "alternative"
+    },
+    {
+     "form": "pyete",
+     "tag": "common form"
+    }
    ],
-   "forms": [],
+   "forms_line": "ai pyet · pyeta (past) · kam pyetur",
    "corpus_example": null
   },
   {
-   "id": "këtu",
-   "sq": "këtu",
-   "en": "here, on this side",
+   "id": "përgjigje",
+   "sq": "përgjigje",
+   "en": "answer",
    "glosses": [
-    "here, on this side"
+    "answer"
    ],
    "pos": [
-    "adv"
+    "noun"
    ],
    "pos_labels": [
-    "adverb"
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "answer",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Faleminderit për përgjigjen!",
+       "en": "Thank you for the answer!",
+       "offsets": [
+        [
+         17,
+         27
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 1190,
+   "count": 774,
+   "family": "për",
+   "is_root": false,
+   "etymology": "A compound formation with për-; për- + gjegje.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjegj",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "përgjigjja · pl. përgjigje",
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "saktë",
+   "sq": "saktë",
+   "en": "exactly, correct",
+   "glosses": [
+    "exactly, correct",
+    "flawless, perfect",
+    "exact, accurate",
+    "reliable, trustworthy"
+   ],
+   "pos": [
+    "adv",
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adjective",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "here, on this side",
+     "gloss": "exactly, correct",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po, saktë!",
+       "en": "Yes, exactly!",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "flawless, perfect",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with kë-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "here",
-      "on",
-      "this"
-     ]
-    }
-   ],
-   "rank": 38,
-   "count": 48617,
-   "family": "këtu",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ka tu, from Proto-Indo-European *kʷo- (“relative pronoun”) + a component *tu possibly related to Sanskrit तु (tú, “now, but”). By surface analysis, kë- + tu.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "He's not here.",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Ai nuk është këtu."
-   }
-  },
-  {
-   "id": "ku",
-   "sq": "ku",
-   "en": "where (asking about a place, where or towards which direction)",
-   "glosses": [
-    "where (asking about a place, where or towards which direction)",
-    "where ... at",
-    "whither, whereto",
-    "whence, where from",
-    "how (to/that)",
-    "where, whither; there, thither (used to connect repetitive verbs; indicating location, direction)"
-   ],
-   "pos": [
-    "adv",
-    "adv",
-    "adv",
-    "adv",
-    "adv",
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb",
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "where (asking about a place, where or towards which direction)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ku po shkon?",
-       "en": "Where are you going?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "where"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "where ... at",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ku je?",
-       "en": "Where (are) you at?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "where",
-      "at"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "whither, whereto",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "whither",
-      "whereto"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "whence, where from",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "whence",
-      "where",
-      "from"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "how (to/that)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Ku e din ai?",
-       "en": "How does he (want to) know that?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      },
-      {
-       "sq": "Ku më dit unë?",
-       "en": "How do I know that?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "how",
-      "to",
-      "that"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "where, whither; there, thither (used to connect repetitive verbs; indicating location, direction)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "where",
-      "whither",
-      "there"
-     ]
-    }
-   ],
-   "rank": 52,
-   "count": 31866,
-   "family": "ku",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ku, from Proto-Indo-European *kú (“where?”). Cognate to Proto-Baltic *kur (“where”), Lithuanian kur̃ (“where”) & kur (“where”), Latvian kur, Proto-Slavic *kъde (“where”), Old Church Slavonic къде (kŭde, “where”), Russian где (gde) and Sanskrit कुह (kúha, “where”), Sanskrit कू (kū́, “where”), Avestan 𐬐𐬎𐬛𐬁 (kudā), 𐬐𐬏 (kū).\nSee also Albanian kur (“when”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "kur",
-   "sq": "kur",
-   "en": "when",
-   "glosses": [
-    "when"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "when",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 20 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "when"
-     ]
-    }
-   ],
-   "rank": 53,
-   "count": 28832,
-   "family": "kur",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kur, from Proto-Indo-European *kʷur; cognate to Lithuanian kur̃ (“where”), Old Armenian ուր (ur, “id”), etc. See also Albanian ku (“where”).\nLess likely from Latin quā hōrā.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "where",
-    "id"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "When are the effects?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Kur janë efektet?"
-   }
-  },
-  {
-   "id": "pse",
-   "sq": "pse",
-   "en": "why",
-   "glosses": [
-    "why"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "why",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "42 45 14"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "34 35 31"
       }
      ],
      "examples": [],
      "links": [
-      "why"
+      "flawless",
+      "perfect"
      ]
-    }
-   ],
-   "rank": 65,
-   "count": 23409,
-   "family": "pse",
-   "is_root": true,
-   "etymology": "From përse (“why”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "why"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "përse",
-     "tag": "alternative"
     },
     {
-     "form": "ce",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why Am I here?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Pse jam unë këtu?"
-   }
-  },
-  {
-   "id": "kush",
-   "sq": "kush",
-   "en": "who (as an interrogative pronoun)",
-   "glosses": [
-    "who (as an interrogative pronoun)",
-    "nobody, noone (as an indefinite pronoun; used to distinguish someone from others)"
-   ],
-   "pos": [
-    "pron",
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun",
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "who (as an interrogative pronoun)",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "exact, accurate",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "42 45 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 35 31"
       }
      ],
      "examples": [],
      "links": [
-      "who"
+      "exact",
+      "accurate"
      ]
     },
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "nobody, noone (as an indefinite pronoun; used to distinguish someone from others)",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "reliable, trustworthy",
      "tags": [],
      "cats": [
       {
@@ -550,79 +452,538 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "34 66"
+       "_dis": "23 25 53"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "47 53"
+       "_dis": "42 45 14"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "34 35 31"
       }
      ],
      "examples": [],
      "links": [
-      "nobody",
-      "noone"
+      "reliable",
+      "trustworthy"
      ]
     }
    ],
-   "rank": 80,
-   "count": 17131,
-   "family": "kush",
+   "rank": 553,
+   "count": 1868,
+   "family": "saktë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *kʉśśə, from Pre-Proto-Albanian *kʉs-sa, from Proto-Indo-European *kʷos + *sos, meaning \"who (is) this\". (compare Tocharian B kᵤse (“who”)).",
+   "etymology": "From Ottoman Turkish [script needed] (sahi, “really, truly”) + -të.",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "cognate": "from Turkish sahi (\"really, truly\")",
+   "parents": [],
+   "components": [],
+   "derived": [
+    "pasaktë",
+    "saktas",
+    "saktësi",
+    "saktësoj"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "mësoj",
+   "sq": "mësoj",
+   "en": "to learn; to teach",
+   "glosses": [
+    "to learn; to teach",
+    "to teach, instruct, train",
+    "to learn, learn of, find out",
+    "to get used to, accustom"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to learn; to teach",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Unë mësoj shqip.",
+       "en": "I am learning Albanian.",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to teach, instruct, train",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 36 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 36"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Më mëso diçka.",
+       "en": "Teach me something.",
+       "offsets": [
+        [
+         3,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "teach"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to learn, learn of, find out",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 36 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 36"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Po mësoj shqip.",
+       "en": "I'm learning Albanian.",
+       "offsets": [
+        [
+         3,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "learn"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to get used to, accustom",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 32 40"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "26 36 37"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 36"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "accustom"
+     ]
+    }
+   ],
+   "rank": 1479,
+   "count": 600,
+   "family": "mësoj",
+   "is_root": true,
+   "etymology": "From Old Albanian mpson (Bogdani, Budi), ëmpson (Buzuku), from Proto-Albanian *imbitjɔnit, borrowed from Vulgar Latin *invitiō, *invitiāre, from *vitiō, from Latin vitium (“vice”). Compare Romanian învăța.\nOtherwise from pësoj, itself of Latin origin, developing in mpsoj, psoj, mbsoj, mbësoj and other dialectal forms.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "vice"
+   ],
+   "components": [],
+   "derived": [
+    "mësim",
+    "mësohem",
+    "mësonjës",
+    "mësonjëtore",
+    "mësues"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "mësova",
+     "tag": "aorist"
+    },
+    {
+     "form": "mësuar",
+     "tag": "participle"
+    },
+    {
+     "form": "mësonj",
+     "tag": "alternative"
+    },
+    {
+     "form": "mbësonj",
+     "tag": "alternative"
+    },
+    {
+     "form": "msoj",
+     "tag": "alternative"
+    },
+    {
+     "form": "psoj",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "ai mëson · mësova (past) · kam mësuar",
+   "corpus_example": null
+  },
+  {
+   "id": "gjuhë",
+   "sq": "gjuhë",
+   "en": "language; tongue",
+   "glosses": [
+    "language; tongue",
+    "tongue (organ)",
+    "language, tongue"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "language; tongue",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Anglishtja është gjuha ime.",
+       "en": "English is my language.",
+       "offsets": [
+        [
+         17,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "tongue (organ)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Body parts",
+       "kind": "other",
+       "parents": [
+        "Anatomy"
+       ],
+       "source": "w",
+       "orig": "sq:Body parts",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjuhë lope e zier",
+       "en": "boiled beef tongue",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Dogji gjuhën.",
+       "en": "Burned its tongue.",
+       "offsets": [
+        [
+         6,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "tongue"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "language, tongue",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "gjuha shqipe",
+       "en": "the Albanian language",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "language",
+      "tongue"
+     ]
+    }
+   ],
+   "rank": 2674,
+   "count": 308,
+   "family": "gjuhë",
+   "is_root": true,
+   "etymology": "Unclear. From Old Albanian gluhë, most likely from earlier *glu.a, with sporadic loss of intervocalic b (see pi, det, and dra) and insertion of a hiatus-filling h (see bahe, kohë, and pah), from Proto-Albanian *glubā (“tip”), from Proto-Indo-European *ǵlubʰeh₂- (“point”), albeit with no adduced cognates. Alternatively, from a Proto-Albanian *glusā, from Proto-Indo-European *gl̥H-so-s, a zero-grade variant of *golH-so-s, from *gelH- (“to call”); compare Proto-Balto-Slavic *galsás (“voice”).\nA loan from Ancient Greek γλῶσσα (glôssa) is improbable from a semantic and phonetic standpoint, as Ancient Greek loans involved terms of trade and agriculture, not body parts, and would have given **gluśa in Proto-Albanian.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "dikush",
-    "gjithkush",
-    "kushdo",
-    "kushdoqoftë",
-    "ndokush",
-    "çdokush",
-    "kurrkush"
+    "dygjuhësi",
+    "dygjuhësh",
+    "gjuhcë",
+    "gjuhësi",
+    "gjuhësisht",
+    "gjuhësor",
+    "gjuhëtar",
+    "gjuhëz"
    ],
-   "related": [
-    "im",
-    "ime",
-    "imi",
-    "imja",
-    "e"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "kë",
-     "tag": "accusative"
+     "form": "gjuhë",
+     "tag": "plural"
     },
     {
-     "form": "kënd",
-     "tag": "accusative"
+     "form": "gjuha",
+     "tag": "definite"
     },
     {
-     "form": "kujt",
-     "tag": "dative"
+     "form": "gju",
+     "tag": "alternative"
     },
     {
-     "form": "kuj",
-     "tag": "dative"
+     "form": "gëluhë",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjufë",
+     "tag": "alternative"
+    },
+    {
+     "form": "glufë",
+     "tag": "alternative"
+    },
+    {
+     "form": "gjuhën",
+     "tag": "common form"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Who was that?",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Kush ishte ajo?"
-   }
+   "forms_line": "gjuha · pl. gjuhë",
+   "corpus_example": null
+  },
+  {
+   "id": "Mund ta përsërisni?",
+   "sq": "Mund ta përsërisni?",
+   "en": "Can you repeat that?",
+   "glosses": [
+    "Can you repeat that?"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Can you repeat that?",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60030,
+   "count": 0,
+   "family": "Mund ta përsërisni?",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Si shkruhet?",
+   "sq": "Si shkruhet?",
+   "en": "How is it spelled?",
+   "glosses": [
+    "How is it spelled?"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "How is it spelled?",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60031,
+   "count": 0,
+   "family": "Si shkruhet?",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 5,
+ "unit_title": "I don't understand",
+ "situation": "Please, thanks and sorry",
+ "can_do": "say you don't understand and ask someone to slow down",
+ "dialogue": [
+  {
+   "sq": "Më falni, flisni anglisht?",
+   "en": "Excuse me, do you speak English?"
+  },
+  {
+   "sq": "Jo, më vjen keq. Ju flisni shqip?",
+   "en": "No, I am sorry. Do you speak Albanian?"
+  },
+  {
+   "sq": "Pak. Unë mësoj shqip.",
+   "en": "A little. I am learning Albanian."
+  },
+  {
+   "sq": "Shumë mirë! Kuptoni?",
+   "en": "Very good! Do you understand?"
+  },
+  {
+   "sq": "Po, pak. Më ngadalë, ju lutem.",
+   "en": "Yes, a little. More slowly, please."
+  },
+  {
+   "sq": "Sigurisht. S'ka problem.",
+   "en": "Of course. No problem."
+  }
+ ]
 }

@@ -273,6 +273,9 @@ The hand-written content a native speaker should check, in one place:
   listed form there was written without a native speaker.
 - `tools/gloss_overrides.py`: the reviewed headlines and examples,
   especially the wording of `do`.
+- `tools/core/*.txt`: the whole Conversation Core, 1,000 glosses and
+  example sentences, 157 phrases, 52 dialogues and 11 grammar notes. This is
+  now by far the largest item in the queue.
 - The four cards routed above (`vendore`, `qetë`, `zgjedhim`, `qen`).
 
 ## Explicitly NOT problems

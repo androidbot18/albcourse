@@ -1,48 +1,277 @@
 {
  "level": 225,
- "title": "zgjedh, gjuaj, leje +2",
+ "title": "rob, kujdes, vonuar +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 7,
+ "word_count": 6,
  "families": [
-  "gjuaj",
-  "kushdo",
-  "leje",
-  "shenjtë",
-  "zgjedh"
+  "kampion",
+  "kujdes",
+  "marrëzi",
+  "rob",
+  "shpatë",
+  "vonuar"
  ],
  "pos_mix": {
-  "verb": 5,
-  "noun": 4,
-  "adj": 2,
-  "pron": 1
+  "noun": 8,
+  "adj": 2
  },
  "words": [
   {
-   "id": "zgjedhur",
-   "sq": "zgjedhur",
-   "en": "choose, past form (from zgjedh, to choose)",
+   "id": "rob",
+   "sq": "rob",
+   "en": "slave",
    "glosses": [
-    "choose, past form (from zgjedh, to choose)"
+    "slave",
+    "serf",
+    "prisoner of war",
+    "person, family member",
+    "servant"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "choose, past form (from zgjedh, to choose)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "slave",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "historical",
+      "masculine"
      ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "slave"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "serf",
+     "tags": [
+      "historical",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "serf"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "prisoner of war",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "prisoner of war"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "person, family member",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "person",
+      "family",
+      "member"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "servant",
+     "tags": [
+      "derogatory",
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 7 11 44 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "servant"
+     ]
+    }
+   ],
+   "rank": 2600,
+   "count": 318,
+   "family": "rob",
+   "is_root": true,
+   "etymology": "From a South Slavic language; compare Serbo-Croatian rob, Macedonian роб (rob), Bulgarian роб (rob), ultimately derived from Proto-Slavic *orbъ (“servant, slave”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "robëri",
+    "robëreshë",
+    "robinjë",
+    "robëroj",
+    "robi"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "robër",
+     "tag": "plural"
+    },
+    {
+     "form": "robi",
+     "tag": "definite"
+    },
+    {
+     "form": "rob",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Daniel was taken captive here.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Danieli u kap rob këtu."
+   }
+  },
+  {
+   "id": "kujdesshëm",
+   "sq": "kujdesshëm",
+   "en": "careful, cautious",
+   "glosses": [
+    "careful, cautious"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "careful, cautious",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -shëm",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "careful",
+      "cautious"
+     ]
+    }
+   ],
+   "rank": 2602,
+   "count": 318,
+   "family": "kujdes",
+   "is_root": false,
+   "etymology": "From kujdes + -shëm.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kujdes",
+     "role": "base",
+     "en": "care"
+    },
+    {
+     "word": "shëm",
+     "role": "suffix",
+     "affix": "shem",
+     "meaning": "-ful, -able"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Be careful.",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Të jenë të kujdesshëm."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "vonuar",
+   "sq": "vonuar",
+   "en": "late; retarded, feeble-minded",
+   "glosses": [
+    "late; retarded, feeble-minded"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "late; retarded, feeble-minded",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -64,13 +293,92 @@
       }
      ],
      "examples": [],
-     "is_form_of": "zgjedh"
+     "links": [
+      "late",
+      "retarded",
+      "feeble-minded"
+     ]
     }
    ],
-   "rank": 1326,
-   "count": 675,
-   "family": "zgjedh",
-   "is_root": false,
+   "rank": 2610,
+   "count": 316,
+   "family": "vonuar",
+   "is_root": true,
+   "etymology": "From vonë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "m",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "We are very late.",
+    "score": [
+     0,
+     4,
+     -4,
+     10
+    ],
+    "sq": "Jemi shumë të vonuar."
+   }
+  },
+  {
+   "id": "kampion",
+   "sq": "kampion",
+   "en": "champion",
+   "glosses": [
+    "champion"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "champion",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "champion"
+     ]
+    }
+   ],
+   "rank": 2617,
+   "count": 315,
+   "family": "kampion",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -82,360 +390,114 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What did you choose?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Çfarë keni zgjedhur?"
-   }
-  },
-  {
-   "id": "gjuaj",
-   "sq": "gjuaj",
-   "en": "to hunt",
-   "glosses": [
-    "to hunt",
-    "to impel an aimed projectile: shoot, throw",
-    "to lie in wait for"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to hunt",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 23 28"
-      },
-      {
-       "name": "Hunting",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Hunting",
-       "langcode": "sq",
-       "_dis": "69 31 0"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hunt"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to impel an aimed projectile: shoot, throw",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "impel",
-      "projectile",
-      "shoot"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to lie in wait for",
-     "tags": [
-      "figuratively"
-     ],
-     "cats": [
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "32 40 28"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "25 55 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "lie in wait"
-     ]
-    }
-   ],
-   "rank": 1327,
-   "count": 673,
-   "family": "gjuaj",
-   "is_root": true,
-   "etymology": "Uncertain; perhaps from Proto-Albanian:\n* *jāgnja, from *jaga (whence gjah (“a hunt, chase”)) + *-nja, from Proto-Indo-European *h₁yoǵʰ-ó-s, from metathesized *h₁eyǵʰ- (“to desire, long for”) + *-ós;\n* *sāgnja, from *sāgna (whence gjah (“a hunt, chase”)) + *-ja, from Proto-Indo-European *seh₂g-no-s, from *seh₂g- (“to trace, follow”) + *-nós;\n* or *gānja, from Proto-Indo-European *gʷʰén-ye-ti, from *gʷʰen- (“to strike, slay”) + *-yeti.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "gjoj",
-    "gjuajtës",
-    "gjuajtje",
-    "gjuetar",
-    "gjueti"
-   ],
-   "related": [
-    "gjah"
-   ],
-   "forms": [
-    {
-     "form": "gjuajta",
-     "tag": "aorist"
-    },
-    {
-     "form": "gjuajtur",
-     "tag": "participle"
-    },
-    {
-     "form": "gjuej",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjuj",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjuoj",
-     "tag": "alternative"
-    },
-    {
-     "form": "gjuonj",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Play more, Shoot more.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Luaj më shumë, Gjuaj më shumë."
-   }
-  },
-  {
-   "id": "leje",
-   "sq": "leje",
-   "en": "permission, allowance, authorization",
-   "glosses": [
-    "permission, allowance, authorization",
-    "leave"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "permission, allowance, authorization",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "94 6"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "permission",
-      "allowance",
-      "authorization"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "leave",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "leave"
-     ]
-    }
-   ],
-   "rank": 1329,
-   "count": 673,
-   "family": "leje",
-   "is_root": true,
-   "etymology": "From lë, with -je feminizing suffix.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "lë",
-    "lejoj"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is not a permit.",
+    "en": "Be a champion!",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Kjo nuk është leje."
+    "sq": "Të jetë një kampion!"
    }
   },
   {
-   "id": "shenjtë",
-   "sq": "shenjtë",
-   "en": "holy, sacred",
+   "id": "shpatë",
+   "sq": "shpatë",
+   "en": "sword",
    "glosses": [
-    "holy, sacred",
-    "saint"
+    "sword"
    ],
    "pos": [
-    "adj",
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective",
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "holy, sacred",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sword",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "79 21"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "holy",
-      "sacred"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "saint",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "saint"
+      "sword"
      ]
     }
    ],
-   "rank": 1334,
-   "count": 671,
-   "family": "shenjtë",
+   "rank": 2632,
+   "count": 312,
+   "family": "shpatë",
    "is_root": true,
-   "etymology": "Borrowed through Vulgar Latin from Latin sānctus.",
+   "etymology": "Borrowed from Vulgar Latin, from Latin spatha. Cognate with Greek σπαθί (spathí), Italian spada, Romanian spadă, spată.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "rit i shenjtë",
-    "vend i shenjtë",
-    "shenjtëroj",
-    "shën"
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shpata",
+     "tag": "plural"
+    }
    ],
-   "related": [
-    "shëndërtat"
-   ],
-   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Holy night!",
+    "en": "What is this sword?",
     "score": [
      0,
-     3,
-     -3,
+     4,
+     -4,
      10
     ],
-    "sq": "Natë e shenjtë!"
+    "sq": "Çfarë është kjo shpatë?"
    }
   },
   {
-   "id": "kushdo",
-   "sq": "kushdo",
-   "en": "whoever",
+   "id": "marrëzi",
+   "sq": "marrëzi",
+   "en": "madness, craziness",
    "glosses": [
-    "whoever"
+    "madness, craziness"
    ],
    "pos": [
-    "pron"
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "whoever",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "madness, craziness",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -444,265 +506,52 @@
        "source": "w"
       },
       {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "whoever"
-     ]
-    }
-   ],
-   "rank": 1336,
-   "count": 669,
-   "family": "kushdo",
-   "is_root": true,
-   "etymology": "From kush (“who”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "who"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "këdo",
-     "tag": "accusative"
-    },
-    {
-     "form": "kujtdo",
-     "tag": "dative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Whoever you are.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Kushdo që jeni."
-   }
-  },
-  {
-   "id": "zgjedhje",
-   "sq": "zgjedhje",
-   "en": "choice, selection",
-   "glosses": [
-    "choice, selection",
-    "election"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "choice, selection",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 55"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "choice",
-      "selection"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "election",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "30 70"
-      },
-      {
-       "name": "Albanian terms suffixed with -je",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 54"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "election"
+      "madness",
+      "craziness"
      ]
     }
    ],
-   "rank": 1395,
-   "count": 635,
-   "family": "zgjedh",
-   "is_root": false,
-   "etymology": "From zgjedh (“to choose, select”) + -je feminine suffix.",
-   "etymology_class": "affix",
+   "rank": 2633,
+   "count": 312,
+   "family": "marrëzi",
+   "is_root": true,
+   "etymology": "From marrë, possibly related to mërzit.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "zgjedh",
-     "role": "base",
-     "en": "to choose"
-    },
-    {
-     "word": "je",
-     "role": "suffix",
-     "affix": "je",
-     "meaning": "the act of (noun)"
-    }
-   ],
-   "derived": [
-    "zgjedhjesor"
-   ],
+   "components": [],
+   "derived": [],
    "related": [],
    "forms": [],
    "corpus_example": {
     "corpus": "TED2020",
-    "en": "You've got a choice.",
+    "en": "Complete madness.",
     "score": [
      0,
      3,
      -3,
      4
     ],
-    "sq": "Ke një zgjedhje."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "zgjedh",
-   "sq": "zgjedh",
-   "en": "to choose",
-   "glosses": [
-    "to choose"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to choose",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "choose"
-     ]
-    }
-   ],
-   "rank": 1886,
-   "count": 459,
-   "family": "zgjedh",
-   "is_root": true,
-   "etymology": "From Old Albanian zgëledh, zgledh, from zga (“out”) + *ledh (in mbledh), from Proto-Indo-European *leǵ-. More at mbledh. Also see related zgledh.",
-   "etymology_class": "derived",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "out"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "zgjodha",
-     "tag": "aorist"
-    },
-    {
-     "form": "zgjedhur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why chooses us?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Pse na zgjedh?"
+    "sq": "Marrëzi e plotë."
    }
   }
+ ],
+ "continues": [
+  "kujdes"
  ]
 }

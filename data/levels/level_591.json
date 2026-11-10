@@ -1,139 +1,30 @@
 {
  "level": 591,
- "title": "votoj, emëroj, presh +3",
+ "title": "vektor, hallkë, fryt +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "cikël",
-  "emëroj",
-  "humb",
-  "presh",
-  "shkëndijë",
-  "votoj"
+  "anglishte",
+  "dorashkë",
+  "fryt",
+  "hallkë",
+  "shfrytëzoj",
+  "vektor"
  ],
  "pos_mix": {
-  "verb": 3,
-  "noun": 8
+  "verb": 1,
+  "noun": 7
  },
  "words": [
   {
-   "id": "votoj",
-   "sq": "votoj",
-   "en": "to vote",
+   "id": "shfrytëzoj",
+   "sq": "shfrytëzoj",
+   "en": "to exploit, harness, make use of",
    "glosses": [
-    "to vote",
-    "to be elected"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to vote",
-     "tags": [
-      "active",
-      "intransitive"
-     ],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Jo, nuk votoj për dënim me vdekje.",
-       "en": "No, I don't vote for death penalty.",
-       "offsets": [
-        [
-         8,
-         13
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "vote"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be elected",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "42 58"
-      },
-      {
-       "name": "Albanian terms suffixed with -oj",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "44 56"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Votohem nga populli.",
-       "en": "I am elected by the people.",
-       "offsets": [
-        [
-         0,
-         7
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "elected"
-     ]
-    }
-   ],
-   "rank": 18930,
-   "count": 28,
-   "family": "votoj",
-   "is_root": true,
-   "etymology": "votë (vote) + -oj (-I)",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "votuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "emëroj",
-   "sq": "emëroj",
-   "en": "to appoint, to name",
-   "glosses": [
-    "to appoint, to name"
+    "to exploit, harness, make use of"
    ],
    "pos": [
     "verb"
@@ -145,7 +36,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to appoint, to name",
+     "gloss": "to exploit, harness, make use of",
      "tags": [
       "transitive"
      ],
@@ -157,7 +48,106 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian terms prefixed with sh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -zoj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exploit",
+      "harness",
+      "make use of"
+     ]
+    }
+   ],
+   "rank": 9581,
+   "count": 69,
+   "family": "shfrytëzoj",
+   "is_root": true,
+   "etymology": "By surface analysis, sh- + fryt (“fruit”) + -ëzoj. Either a calque of or a borrowing from Italian sfruttare (“to exploit”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "fruit"
+   ],
+   "components": [
+    {
+     "word": "sh",
+     "role": "prefix"
+    },
+    {
+     "word": "fryt",
+     "role": "stem"
+    },
+    {
+     "word": "ëzoj",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shfrytëzova",
+     "tag": "aorist"
+    },
+    {
+     "form": "shfrytëzuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I said take the chance.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Thashë të shfrytëzoj rastin."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "vektor",
+   "sq": "vektor",
+   "en": "vector",
+   "glosses": [
+    "vector"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vector",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 10 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -171,14 +161,14 @@
      ],
      "examples": [],
      "links": [
-      "appoint",
-      "name"
+      "physics",
+      "vector"
      ]
     }
    ],
-   "rank": 18949,
-   "count": 28,
-   "family": "emëroj",
+   "rank": 35078,
+   "count": 11,
+   "family": "vektor",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -190,94 +180,80 @@
    "related": [],
    "forms": [
     {
-     "form": "emëruar",
-     "tag": "participle"
+     "form": "vektorë",
+     "tag": "plural"
+    },
+    {
+     "form": "vektori",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I name you as my assistant.",
+    "en": "For me, humor is a vector.",
     "score": [
-     3,
+     1,
      6,
-     -3,
+     -5,
      10
     ],
-    "sq": "Po të emëroj si asistentin tim."
+    "sq": "Për mua, humori është një vektor."
    }
   },
   {
-   "id": "presh",
-   "sq": "presh",
-   "en": "leek",
+   "id": "hallkë",
+   "sq": "hallkë",
+   "en": "chain ring",
    "glosses": [
-    "leek",
-    "chives"
+    "chain ring"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "leek",
+     "gloss": "chain ring",
      "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "leek"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "chives",
-     "tags": [
-      "masculine"
+      "feminine"
      ],
      "cats": [
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 19 38 38"
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 19 38 38"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 90"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "chives"
+      "chain",
+      "ring"
      ]
     }
    ],
-   "rank": 18982,
-   "count": 28,
-   "family": "presh",
+   "rank": 35102,
+   "count": 11,
+   "family": "hallkë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *prasa, from Proto-Indo-European *pr̥so-, possibly of non-Indo-European origin. Cognate with Ancient Greek πράσον (práson), Latin porrum, or perhaps borrowed from Ancient Greek. Variants porr and purri are probably from Latin.",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Ottoman Turkish حلقه (halka), from Arabic حَلْقَة (ḥalqa).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -286,46 +262,34 @@
    "related": [],
    "forms": [
     {
-     "form": "preshë",
+     "form": "hallka",
      "tag": "plural"
     },
     {
-     "form": "preshi",
-     "tag": "definite"
-    },
-    {
-     "form": "pras",
-     "tag": "alternative"
-    },
-    {
-     "form": "purri",
-     "tag": "alternative"
-    },
-    {
-     "form": "porr",
+     "form": "hallk",
      "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Want a quick pie with potatoes and leeks?",
+    "en": "doll, Hanger is back!",
     "score": [
-     2,
-     9,
-     -7,
+     0,
+     4,
+     -4,
      10
     ],
-    "sq": "Dëshironi një byrek të shpejtë me patate dhe presh?"
+    "sq": "kukull, Hallkë është kthyer!"
    }
   },
   {
-   "id": "shkëndijë",
-   "sq": "shkëndijë",
-   "en": "spark",
+   "id": "fryt",
+   "sq": "fryt",
+   "en": "fruit",
    "glosses": [
-    "spark",
-    "sparkle, twinkle",
-    "firefly"
+    "fruit",
+    "offspring",
+    "product"
    ],
    "pos": [
     "noun",
@@ -341,197 +305,103 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "spark",
+     "gloss": "fruit",
      "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "spark"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sparkle, twinkle",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "sparkle",
-      "twinkle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "firefly",
-     "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
-       "name": "Entomology",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Entomology",
-       "langcode": "sq"
+       "source": "w+disamb",
+       "_dis": "32 37 32"
       },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 35 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fruit"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "offspring",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "6 23 71"
+       "_dis": "7 86 7"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 26 67"
+       "_dis": "32 37 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 35 32"
       }
      ],
      "examples": [],
      "links": [
-      "entomology",
-      "firefly"
+      "offspring"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "product",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 37 32"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "32 35 32"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "product"
      ]
     }
    ],
-   "rank": 19035,
-   "count": 28,
-   "family": "shkëndijë",
+   "rank": 35158,
+   "count": 11,
+   "family": "fryt",
    "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin *scintilia, from Latin scintilla. Compare Romanian scânteie.",
+   "etymology": "Borrowed through Vulgar Latin from Latin fructus. Doublet of frutë, which was a later borrowing.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "syshkëndijë",
-    "shkëndijëz",
-    "shkëndijim",
-    "shkëndijon",
-    "shkëndit"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "shkëndija",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "So far, there's nothing that could indicate such thing.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Deri tani nuk kemi asnjë shkëndijë."
-   }
-  },
-  {
-   "id": "cikël",
-   "sq": "cikël",
-   "en": "cycle",
-   "glosses": [
-    "cycle",
-    "little spot, drop"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "cycle",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -lë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "cycle"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "little spot, drop",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Albanian terms suffixed with -lë",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "spot",
-      "drop"
-     ]
-    }
-   ],
-   "rank": 19086,
-   "count": 28,
-   "family": "cikël",
-   "is_root": true,
-   "etymology": "From Late Latin cyclus.",
-   "etymology_class": "borrowed",
-   "source_lang": "la",
-   "cognate": "from Latin cyclus",
    "parents": [],
    "components": [],
    "derived": [],
@@ -539,22 +409,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It is a cycle.",
+    "en": "Fruitless even worse.",
     "score": [
      0,
-     3,
-     -3,
+     5,
+     -5,
      10
     ],
-    "sq": "Është një cikël."
+    "sq": "Pa fryt edhe me keq."
    }
   },
   {
-   "id": "humnerë",
-   "sq": "humnerë",
-   "en": "precipice, chasm, abyss",
+   "id": "dorashkë",
+   "sq": "dorashkë",
+   "en": "glove",
    "glosses": [
-    "precipice, chasm, abyss"
+    "glove"
    ],
    "pos": [
     "noun"
@@ -566,7 +436,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "precipice, chasm, abyss",
+     "gloss": "glove",
      "tags": [
       "feminine"
      ],
@@ -592,55 +462,104 @@
      ],
      "examples": [],
      "links": [
-      "precipice",
-      "chasm",
-      "abyss"
+      "glove"
      ]
     }
    ],
-   "rank": 19087,
-   "count": 28,
-   "family": "humb",
-   "is_root": false,
-   "etymology": "A formation from humb (“to lose”) + *nerë, singularized plural of *narë, from Proto-Indo-European *nerH-. Cognate with Russian нора́ (norá, “hole”), Serbo-Croatian ponor (“abyss”), Lithuanian nãras (“diving duck; diver”).",
-   "etymology_class": "compound",
+   "rank": 35160,
+   "count": 11,
+   "family": "dorashkë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "humb",
-     "role": "prefix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "humnera",
+     "form": "dorashka",
      "tag": "plural"
-    },
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "anglishte",
+   "sq": "anglishte",
+   "en": "English (language)",
+   "glosses": [
+    "English (language)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
     {
-     "form": "humbnerë",
-     "tag": "alternative"
-    },
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "English (language)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "English"
+     ]
+    }
+   ],
+   "rank": 35212,
+   "count": 11,
+   "family": "anglishte",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
     {
-     "form": "humbënerë",
-     "tag": "alternative"
+     "form": "anglishtja",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I shit it out in the abyss.",
+    "corpus": "SETIMES",
+    "en": "She speaks English and French.",
     "score": [
      1,
      5,
      -4,
-     10
+     7
     ],
-    "sq": "I mut atë në humnerë."
-   },
-   "breakdown": "historical"
+    "sq": "Ajo flet anglishte e frëngjisht."
+   }
   }
  ],
  "extended": true

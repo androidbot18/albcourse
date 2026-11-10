@@ -1,24 +1,173 @@
 {
  "level": 297,
- "title": "së (rarer words)",
- "root": "së",
- "root_gloss": "not, don't",
+ "title": "rend, përjashtoj, tetëdhjetë",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 1,
+ "word_count": 4,
  "families": [
-  "së"
+  "përjashtoj",
+  "rend",
+  "tetëdhjetë"
  ],
  "pos_mix": {
-  "noun": 1
+  "verb": 2,
+  "noun": 5,
+  "num": 1
  },
  "words": [
   {
-   "id": "sëmundje",
-   "sq": "sëmundje",
-   "en": "disease; illness, sickness",
+   "id": "rend",
+   "sq": "rend",
+   "en": "to run (after), hurry (after)",
    "glosses": [
-    "disease; illness, sickness"
+    "to run (after), hurry (after)",
+    "row, order, line",
+    "turn",
+    "class, category",
+    "run, race"
+   ],
+   "pos": [
+    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to run (after), hurry (after)",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 8 20 8 57"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "run",
+      "hurry"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "row, order, line",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "row",
+      "order",
+      "line"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "turn",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "turn"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "class, category",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "class",
+      "category"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "run, race",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "run",
+      "race"
+     ]
+    }
+   ],
+   "rank": 5527,
+   "count": 133,
+   "family": "rend",
+   "is_root": true,
+   "etymology": "An early loanword from a South Slavic language, from Proto-Slavic *rędъ (“row, line”) with a preserved nasal. Compare Old Church Slavonic рѧдъ (rędŭ, “line, order”), Serbo-Croatian red (“row”), Bulgarian ред (red, “row”), and West Slavic descendant Polish rząd (“row”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "running"
+   ],
+   "components": [],
+   "derived": [
+    "rendit",
+    "renditje",
+    "rendoj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "renda",
+     "tag": "aorist"
+    },
+    {
+     "form": "rendur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Law and order!",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ligj dhe rend!"
+   }
+  },
+  {
+   "id": "përjashtim",
+   "sq": "përjashtim",
+   "en": "exception",
+   "glosses": [
+    "exception"
    ],
    "pos": [
     "noun"
@@ -30,8 +179,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "disease; illness, sickness",
-     "tags": [],
+     "gloss": "exception",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -40,13 +191,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms prefixed with së-",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -54,62 +205,195 @@
      ],
      "examples": [],
      "links": [
-      "disease",
-      "illness",
-      "sickness"
+      "exception"
      ]
     }
    ],
-   "rank": 2870,
-   "count": 285,
-   "family": "së",
+   "rank": 5534,
+   "count": 133,
+   "family": "përjashtoj",
    "is_root": false,
-   "etymology": "From së- + mund + -je (feminine suffix), literally meaning 'to be won, overcome, beaten'.",
+   "etymology": "From përjashtoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "së",
-     "role": "prefix"
+     "word": "përjashtoj",
+     "role": "base",
+     "en": "to exclude"
     },
     {
-     "word": "mund",
-     "role": "stem"
-    },
-    {
-     "word": "je",
+     "word": "im",
      "role": "suffix",
-     "affix": "je",
+     "affix": "im",
      "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "No one, without exception.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Askush, pa përjashtim."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "përjashtoj",
+   "sq": "përjashtoj",
+   "en": "to exclude",
+   "glosses": [
+    "to exclude"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to exclude",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -oj",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "exclude"
+     ]
+    }
+   ],
+   "rank": 22077,
+   "count": 23,
+   "family": "përjashtoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "sëmundje",
-     "tag": "plural"
-    },
-    {
-     "form": "sëmundja",
-     "tag": "definite"
+     "form": "përjashtuar",
+     "tag": "participle"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "What is this disease?",
+    "en": "The opposition does not have the luxury of excluding anyone.",
     "score": [
-     0,
-     4,
+     3,
+     7,
      -4,
      10
     ],
-    "sq": "Çfarë është kjo sëmundje?"
-   },
-   "breakdown": "historical"
+    "sq": "Opozita nuk ka luksin të përjashtoj askënd."
+   }
+  },
+  {
+   "id": "tetëdhjetë",
+   "sq": "tetëdhjetë",
+   "en": "eighty",
+   "glosses": [
+    "eighty"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "eighty",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "eighty"
+     ]
+    }
+   ],
+   "rank": 26467,
+   "count": 17,
+   "family": "tetëdhjetë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Eighty five?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Tetëdhjetë e pesë?"
+   }
   }
  ],
- "resumes": true
+ "extended": true
 }

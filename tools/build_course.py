@@ -37,6 +37,7 @@ import teaching_order
 import pack_shape
 import pos_balance
 import opening_levels
+import conversation_core
 import opening_policy
 import cognates
 import affixes
@@ -1244,8 +1245,11 @@ def assign_levels(cards, families, per_level=9, max_families=6,
     curated = []
     opened = set()
     if opening:
+        # The opening is the Conversation Core, ordered by situation, so
+        # the family rules do not bind it (CONVERSATION_PLAN.md, step 1).
         curated = opening_levels.plan(opening, set(rank_of), fam_of,
-                                      stems_of, per_level, max_families)
+                                      stems_of, per_level, max_families,
+                                      by_situation=True)
         opened = {w for _, ws in curated for w in ws}
         families = {r: [m for m in ms if m not in opened]
                     for r, ms in families.items()}
@@ -1796,6 +1800,10 @@ def word_object(w, c, root, corpus_examples):
         "derived": c["derived"][:8],
         "related": c["related"][:5],
         "forms": c["forms"],
+        # Conversation Core: the key forms a card shows (ai shkon · shkova),
+        # and a marker on phrase cards.
+        **({"forms_line": c["forms_line"]} if c.get("forms_line") else {}),
+        **({"phrase": True} if c.get("phrase") else {}),
         # Corpus fallback, shaped like a sense example so the
         # existing exampleForSense() logic reads it unchanged.
         "corpus_example": corpus_examples.get(w),
@@ -1822,6 +1830,7 @@ def write_levels(levels, by_word, corpus_examples):
     # gets levels out of order.
     lvl_width = max(2, len(str(len(levels))))
 
+    core_meta = conversation_core.level_meta()
     level_objs = []
     for i, (root, words, title, nfam, part, nparts, resumes, meta) in enumerate(levels, 1):
         objs = []
@@ -1832,7 +1841,8 @@ def write_levels(levels, by_word, corpus_examples):
         # Re-sorting by raw rank here silently undid that work: the `jam`
         # family came out byte-identical to the frequency order, which is
         # how the tier sort was found to be a no-op in practice.
-        objs.sort(key=lambda o: (o["_tier"], o["rank"]))
+        if not meta.get("opening"):
+            objs.sort(key=lambda o: (o["_tier"], o["rank"]))
         # _tier exists only to drive that sort. The level-file contract is
         # that no build-time field ships, so drop it before writing.
         for o in objs:
@@ -1864,6 +1874,10 @@ def write_levels(levels, by_word, corpus_examples):
         # this level brings back after the opening began them.
         if meta.get("opening"):
             lvl["opening"] = True
+            # The Conversation Core: unit, situation, grammar notes and,
+            # on a unit's last level, its can-do line and dialogue.
+            if i <= len(core_meta):
+                lvl.update(core_meta[i - 1])
         if meta.get("continues"):
             lvl["continues"] = meta["continues"]
         # The optional extended track after the main course (schedule_course).
@@ -1904,6 +1918,8 @@ def write_levels(levels, by_word, corpus_examples):
                     "title": l["title"], "root": l["root"],
                     "root_gloss": l["root_gloss"],
                     "part": l["part"], "parts": l["parts"],
+                    **({"unit": l["unit"], "unit_title": l["unit_title"],
+                        "situation": l["situation"]} if l.get("unit") else {}),
                     **({"extended": True} if l.get("extended") else {})}
                    for l in level_objs],
     }
@@ -1967,6 +1983,26 @@ def main():
                              ALPHABET_RE)
     print("  +%d hand-added core words, now %d cards" % (len(hand), len(cards)))
 
+    # The Conversation Core (CONVERSATION_PLAN.md): about 1,000 words and
+    # 150 phrases ordered by situation. Its content is checked first, so a
+    # sentence that uses an untaught word fails the build.
+    core = conversation_core.load()
+    kk = conversation_core.kaikki_forms(kaikki)
+    problems = conversation_core.check(core, kk)
+    if problems:
+        print("conversation core is invalid:\n  " + "\n  ".join(problems),
+              file=sys.stderr)
+        return 2
+    n_over, n_new, n_phr = conversation_core.apply(
+        cards, freq, lambda p: POS_LABEL.get(p, p), core, kk)
+    print("  conversation core: %d cards reworded, %d words and %d phrases added"
+          % (n_over, n_new, n_phr))
+    # One card per word, not per form (plan step 2).
+    dropped = conversation_core.drop_form_cards(cards, core, form_lemma_of)
+    print("  -%d inflected-form cards folded into their word, now %d cards"
+          % (len(dropped), len(cards)))
+    core_words = conversation_core.words_of(core)
+
     # Reference sentences from human-translated corpora. Absent file is fine:
     # the course then ships Wiktionary examples only, exactly as before.
     corpus_examples = {}
@@ -1974,7 +2010,7 @@ def main():
         with open(CORPUS_EXAMPLES_PATH, encoding="utf-8") as fh:
             corpus_examples = json.load(fh)
         for w in sorted(corpus_examples):
-            if gloss_overrides.corpus_overridden(w):
+            if gloss_overrides.corpus_overridden(w) or w in core_words:
                 del corpus_examples[w]
                 continue
             bad = ORTHO.problems(corpus_examples[w]["sq"], w)
@@ -2147,7 +2183,7 @@ def main():
     print("assigning levels...", flush=True)
     levels = schedule_course(cards, families,
                              components=by_word_components(cards),
-                             opening=opening_levels.LEVELS)
+                             opening=conversation_core.levels(core))
     n_main = sum(1 for l in levels if not l[7].get("extended"))
     print("  %d levels: %d main course (rank <= %d), %d extended"
           % (len(levels), n_main, MAIN_MAX_RANK, len(levels) - n_main))

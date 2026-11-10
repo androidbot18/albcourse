@@ -1,31 +1,278 @@
 {
  "level": 28,
- "title": "gjak, këmbë, duhet +3",
+ "title": "Yes, no, maybe 3/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "atë",
+  "Jo tani.",
+  "Ndoshta më vonë.",
+  "Pse jo?",
   "duhet",
-  "gjak",
-  "këmbë",
-  "mos",
-  "u"
+  "kur",
+  "pse",
+  "se"
  ],
  "pos_mix": {
-  "verb": 4,
-  "pron": 2,
-  "noun": 4,
-  "adv": 1
+  "adv": 2,
+  "phrase": 3,
+  "conj": 2,
+  "intj": 1,
+  "verb": 5
  },
  "words": [
   {
+   "id": "pse",
+   "sq": "pse",
+   "en": "why",
+   "glosses": [
+    "why"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "why",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pse je këtu?",
+       "en": "Why are you here?",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 65,
+   "count": 23409,
+   "family": "pse",
+   "is_root": true,
+   "etymology": "From përse (“why”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "why"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "përse",
+     "tag": "alternative"
+    },
+    {
+     "form": "ce",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "Pse jo?",
+   "sq": "Pse jo?",
+   "en": "Why not?",
+   "glosses": [
+    "Why not?"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Why not?",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60043,
+   "count": 0,
+   "family": "Pse jo?",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "kur",
+   "sq": "kur",
+   "en": "when",
+   "glosses": [
+    "when"
+   ],
+   "pos": [
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "when",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kur punon ti?",
+       "en": "When do you work?",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 53,
+   "count": 28832,
+   "family": "kur",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *kur, from Proto-Indo-European *kʷur; cognate to Lithuanian kur̃ (“where”), Old Armenian ուր (ur, “id”), etc. See also Albanian ku (“where”).\nLess likely from Latin quā hōrā.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "where",
+    "id"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "nëse",
+   "sq": "nëse",
+   "en": "if",
+   "glosses": [
+    "if",
+    "whether, if",
+    "whether, if"
+   ],
+   "pos": [
+    "conj",
+    "conj",
+    "intj"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "conjunction",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "if",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Nëse do, të ndihmoj.",
+       "en": "If you want, I will help you.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "whether, if",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "whether",
+      "if"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "whether, if",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "whether",
+      "if"
+     ]
+    }
+   ],
+   "rank": 51,
+   "count": 32758,
+   "family": "se",
+   "is_root": false,
+   "etymology": "From në + se.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "në",
+     "role": "prefix"
+    },
+    {
+     "word": "se",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
    "id": "duhet",
    "sq": "duhet",
-   "en": "it must",
+   "en": "must, to have to",
    "glosses": [
+    "must, to have to",
     "it must",
     "it has to",
     "it is needed, necessarily",
@@ -35,15 +282,37 @@
     "verb",
     "verb",
     "verb",
+    "verb",
     "verb"
    ],
    "pos_labels": [
     "verb",
     "verb",
     "verb",
+    "verb",
     "verb"
    ],
    "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "must, to have to",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Duhet të punoj sot.",
+       "en": "I have to work today.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
     {
      "pos": "verb",
      "pos_label": "verb",
@@ -131,261 +400,38 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You're going to need it.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Do të të duhet."
-   }
-  },
-  {
-   "id": "atë",
-   "sq": "atë",
-   "en": "it, that, him, her (accusative)",
-   "glosses": [
-    "it, that, him, her (accusative)",
-    "father"
-   ],
-   "pos": [
-    "pron",
-    "noun"
-   ],
-   "pos_labels": [
-    "pronoun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "it, that, him, her (accusative)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "22 78"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "it",
-      "that",
-      "him"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "father",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "73 27"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "82 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "father"
-     ]
-    }
-   ],
-   "rank": 41,
-   "count": 43784,
-   "family": "atë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *ata, from Proto-Indo-European *átta, whence also Hittite 𒀜𒋫𒀸 (attas), Ancient Greek ἄττα (átta), Latin atta, Proto-Slavic *otьcь, and similar Lallwörter.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "etër",
-     "tag": "plural"
-    },
-    {
-     "form": "ati",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I love him.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "E dashuroj atë."
-   }
-  },
-  {
-   "id": "u",
-   "sq": "u",
-   "en": "the reflexive pronoun",
-   "glosses": [
-    "the reflexive pronoun"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "the reflexive pronoun",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Latin links with redundant target parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "u mblodhën",
-       "en": "they gathered",
-       "offsets": [
-        [
-         0,
-         1
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "reflexive pronoun"
-     ]
-    }
-   ],
-   "rank": 43,
-   "count": 39965,
-   "family": "u",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *wa, from Proto-Indo-European *swom, from Proto-Indo-European *swé. Compare Latin sē.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
+   "forms_line": "ai duhet · u desh (past) · kam dashur",
    "corpus_example": null
   },
   {
-   "id": "mos",
-   "sq": "mos",
-   "en": "don't",
+   "id": "Jo tani.",
+   "sq": "Jo tani.",
+   "en": "Not now.",
    "glosses": [
-    "don't"
+    "Not now."
    ],
    "pos": [
-    "adv"
+    "phrase"
    ],
    "pos_labels": [
-    "adverb"
+    "phrase"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "don't",
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Not now.",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 29 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
-     "links": [
-      "don't"
-     ]
+     "links": []
     }
    ],
-   "rank": 44,
-   "count": 39637,
-   "family": "mos",
+   "rank": 60044,
+   "count": 0,
+   "family": "Jo tani.",
    "is_root": true,
-   "etymology": "Union of particles mo (“un-”) and së (“un-”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -394,227 +440,75 @@
    "derived": [],
    "related": [],
    "forms": [],
+   "phrase": true,
    "corpus_example": null
   },
   {
-   "id": "gjak",
-   "sq": "gjak",
-   "en": "blood",
+   "id": "Ndoshta më vonë.",
+   "sq": "Ndoshta më vonë.",
+   "en": "Maybe later.",
    "glosses": [
-    "blood"
+    "Maybe later."
    ],
    "pos": [
-    "noun"
+    "phrase"
    ],
    "pos_labels": [
-    "noun"
+    "phrase"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "blood",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Lithuanian links with redundant target parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Maybe later.",
+     "tags": [],
+     "cats": [],
      "examples": [],
-     "links": [
-      "blood"
-     ]
+     "links": []
     }
    ],
-   "rank": 702,
-   "count": 1438,
-   "family": "gjak",
+   "rank": 60045,
+   "count": 0,
+   "family": "Ndoshta më vonë.",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ǵákə, from earlier Proto-Albanian *źaka, from Proto-Indo-European *sokʷos (“sap, resin”). Compare Lithuanian sakai̇̃ (“resin”), Ancient Greek ὀπός (opós, “sap”), Proto-Slavic *sokъ (“juice”). For the sense development from \"sap, juice\" > \"blood\", note the unrelated Tagalog dugo (“blood”).",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "gjakra",
-     "tag": "plural"
-    },
-    {
-     "form": "gjaku",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "blood in this game.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "gjak në këtë lojë."
-   }
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  }
+ ],
+ "opening": true,
+ "unit": 9,
+ "unit_title": "Yes, no, maybe",
+ "situation": "Yes, no and the small words",
+ "can_do": "agree, disagree and say you are not sure",
+ "dialogue": [
+  {
+   "sq": "A flet Beni anglisht?",
+   "en": "Does Beni speak English?"
   },
   {
-   "id": "këmbë",
-   "sq": "këmbë",
-   "en": "leg",
-   "glosses": [
-    "leg",
-    "foot"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "leg",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "leg"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "foot",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Anatomy",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Anatomy",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "anatomy",
-      "foot"
-     ]
-    }
-   ],
-   "rank": 725,
-   "count": 1392,
-   "family": "këmbë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *kam(b)ā, from Proto-Indo-European *kh₂em-p (“to bend”). Close to Ancient Greek κάμπτω (kámptō, “curve, bend”), Sanskrit कम्पते (kampate, “trembles”), Latin campus (“field”), Lithuanian kam̃pas (“point, edge, angle”), Old High German hamf (“lame”). Related to Latin gamba. Orel (2000) discusses it as the reflex of a Romance camba but notes that the form is attested nowhere in Balkan Romance, while Huld argues the \"direction of borrowing is uncertain\". Camarda wondered if it was related to Ancient Greek καμπή (kampḗ, “bend”), while Rohlfs attributed it to a loan from that source.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "këmbalec",
-    "këmbëngul",
-    "këmbësor",
-    "këmbëshpejtë",
-    "këmbje",
-    "mëkëmb",
-    "nëpërkëmb",
-    "përkëmb"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "këmbë",
-     "tag": "plural"
-    },
-    {
-     "form": "këmba",
-     "tag": "definite"
-    },
-    {
-     "form": "këm",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "GlobalVoices",
-    "en": "We stand up!",
-    "score": [
-     1,
-     3,
-     -2,
-     3
-    ],
-    "sq": "Qëndrojmë në këmbë!"
-   }
+   "sq": "Nuk e di. Ndoshta pak.",
+   "en": "I don't know. Maybe a little."
+  },
+  {
+   "sq": "Pse nuk e pyet?",
+   "en": "Why don't you ask him?"
+  },
+  {
+   "sq": "Sepse nuk është këtu sot.",
+   "en": "Because he is not here today."
+  },
+  {
+   "sq": "Ashtu? Në rregull.",
+   "en": "Is that so? All right."
   }
  ]
 }

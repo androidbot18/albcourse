@@ -392,3 +392,20 @@ button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
   color: var(--muted, #6b7280);
   font-style: italic;
 }
+
+/* Conversation Core: the forms line on a card, and a unit's dialogue. */
+.forms { color: var(--ink-dim); font-size: 0.9rem; margin-top: 0.2rem; }
+.card .forms { margin: 0.35rem 0 0.2rem; }
+.dialogue {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--good);
+  border-radius: var(--radius);
+}
+.dialogue h2 { margin: 0 0 0.5rem; font-size: 1rem; color: var(--good); }
+.dialogue-line { margin: 0.45rem 0; }
+.dialogue-line.b { padding-left: 1.2rem; }
+.dialogue-line .sq { font-weight: 600; }
+.dialogue-line .en { color: var(--ink-dim); font-size: 0.9rem; }

@@ -109,7 +109,9 @@ EXPECTED_SHIPPED = {
 # does not match the RAW pattern (the semicolon means the gloss names its own
 # meaning), and it must keep the original: rewriting would drop the dative
 # reading and substitute the lemma's English ('we'). Pinned separately below.
-EXPECTED_KEPT_RAW = {"qetë": "quiet"}
+# qetë kept its raw gloss until the Conversation Core headlined it "quiet,
+# calm" by hand; nothing is left.
+EXPECTED_KEPT_RAW = {}
 
 
 def test_shipped_clean():
@@ -128,11 +130,22 @@ def test_shipped_clean():
           "only the known content words keep raw phrasing (%d left)" % len(raw_left),
           ", ".join(sorted(raw_left)[:8]))
 
+    # These were form cards. One card per word now (CONVERSATION_PLAN.md
+    # step 2), so each is folded into its word; a survivor must still read
+    # correctly.
+    folded = 0
     for sq, expect in sorted(EXPECTED_SHIPPED.items()):
-        got = str((by_sq.get(sq) or {}).get("en") or "")
+        if sq not in by_sq:
+            folded += 1
+            continue
+        got = str(by_sq[sq].get("en") or "")
         check(expect in got, "shipped %s reads %r" % (sq, expect), got)
+    check(folded >= 1, "the pinned form cards are folded into their words",
+          "%d of %d" % (folded, len(EXPECTED_SHIPPED)))
 
     # 'neve' must keep the meaning its own gloss stated, not the lemma's.
+    if "neve" not in by_sq:
+        return
     neve = str((by_sq.get("neve") or {}).get("en") or "")
     check("us" in neve, "shipped neve keeps its own gloss 'us'", neve)
     check("dative" in neve, "shipped neve keeps the dative reading", neve)

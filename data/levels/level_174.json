@@ -1,148 +1,442 @@
 {
  "level": 174,
- "title": "sekondë",
- "root": "sekondë",
- "root_gloss": "second (unit of time)",
+ "title": "të, marrë, hajde +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "sekondë"
+  "e",
+  "hajde",
+  "le",
+  "marrë",
+  "të",
+  "çka"
  ],
  "pos_mix": {
-  "noun": 2
+  "conj": 3,
+  "prep": 1,
+  "pron": 3,
+  "noun": 1,
+  "adj": 3,
+  "intj": 2,
+  "adv": 1,
+  "verb": 1
  },
  "words": [
   {
-   "id": "sekondë",
-   "sq": "sekondë",
-   "en": "second (unit of time)",
+   "id": "e",
+   "sq": "e",
+   "en": "and",
    "glosses": [
-    "second (unit of time)"
+    "and",
+    "also",
+    "the linking article: of (shtëpia e mikut, the friend's house)",
+    "it, him, her (before a verb: e di, I know it)"
    ],
    "pos": [
-    "noun"
+    "conj",
+    "conj",
+    "prep",
+    "pron"
    ],
    "pos_labels": [
-    "noun"
+    "conjunction",
+    "conjunction",
+    "preposition",
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "second (unit of time)",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Punoj ditë e natë.",
+       "en": "I work day and night.",
+       "offsets": [
+        [
+         11,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "and"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "also",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "also"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "the linking article: of (shtëpia e mikut, the friend's house)",
      "tags": [
-      "feminine"
+      "feminine",
+      "plural"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Besa e shqiptarit nuk shitet pazarit.",
+       "en": "The honor of an Albanian can not be sold or bought in a bazaar.",
+       "offsets": [
+        [
+         1,
+         2
+        ],
+        [
+         5,
+         6
+        ],
+        [
+         26,
+         27
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "of"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "it, him, her (before a verb: e di, I know it)",
+     "tags": [
+      "feminine",
+      "masculine",
+      "neuter"
      ],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "32 6 33 0 0 5 2 23"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "E di. / S'e di.",
+       "en": "I know it. / I don't know it.",
+       "offsets": [
+        [
+         0,
+         1
+        ],
+        [
+         10,
+         11
+        ]
+       ]
+      },
+      {
+       "sq": "E bleva.",
+       "en": "I bought it.",
+       "offsets": [
+        [
+         0,
+         1
+        ]
+       ]
+      }
+     ],
      "links": [
-      "second"
+      "ai",
+      "ajo"
      ]
     }
    ],
-   "rank": 1023,
-   "count": 918,
-   "family": "sekondë",
+   "rank": 2,
+   "count": 454952,
+   "family": "e",
    "is_root": true,
-   "etymology": "Borrowed from Latin secundus directly or from Italian secondo.",
-   "etymology_class": "borrowed",
+   "etymology": "* Conjunction e (“and, also”): according to Orel from Proto-Albanian *ō(d), from Proto-Indo-European *ēd ~ *ōd (ablative sg. stem of Proto-Indo-European *ē- ~ *ō-).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
+   "related": [
+    "edhe",
+    "dhe",
+    "ende",
+    "andej",
+    "anë"
+   ],
    "forms": [
     {
-     "form": "sekonda",
-     "tag": "plural"
+     "form": "edhe",
+     "tag": "alternative"
+    },
+    {
+     "form": "dhe",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "In a second!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Në një sekondë!"
-   }
+   "corpus_example": null
   },
   {
-   "id": "sekonda",
-   "sq": "sekonda",
-   "en": "second, plural (from sekondë)",
+   "id": "marrë",
+   "sq": "marrë",
+   "en": "giving, receiving",
    "glosses": [
-    "second, plural (from sekondë)"
+    "giving, receiving",
+    "crazy, mad, foolish",
+    "stubborn",
+    "rabid"
    ],
    "pos": [
-    "noun"
+    "noun",
+    "adj",
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "noun"
+    "noun",
+    "adjective",
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "second, plural (from sekondë)",
+     "gloss": "giving, receiving",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 30 15 27 5 5"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 34 10 31 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 38 4 32 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "giving",
+      "receiving"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "crazy, mad, foolish",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 30 15 27 5 5"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 34 10 31 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 38 4 32 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "crazy",
+      "mad",
+      "foolish"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "stubborn",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "17 30 15 27 5 5"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "25 34 10 31 0 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 38 4 32 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "stubborn"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "rabid",
      "tags": [
-      "feminine",
-      "form-of",
-      "plural"
+      "figuratively"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "17 30 15 27 5 5"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "rabid"
+     ]
+    }
+   ],
+   "rank": 141,
+   "count": 9300,
+   "family": "marrë",
+   "is_root": true,
+   "etymology": "See marr (“I take”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "marrëzi"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Get going.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Të marrë do."
+   }
+  },
+  {
+   "id": "hajde",
+   "sq": "hajde",
+   "en": "come on, c'mon",
+   "glosses": [
+    "come on, c'mon",
+    "let's ..."
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "come on, c'mon",
+     "tags": [],
+     "cats": [
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "85 15"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "27 6 22 14 8 22"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "38 4 14 9 5 31"
       }
      ],
      "examples": [],
-     "is_form_of": "sekondë"
+     "links": [
+      "come on",
+      "c'mon"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "let's ...",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "let's"
+     ]
     }
    ],
-   "rank": 876,
-   "count": 1100,
-   "family": "sekondë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 153,
+   "count": 8209,
+   "family": "hajde",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish هایده (hayde), هایدی (haydi).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -152,15 +446,252 @@
    "forms": [],
    "corpus_example": {
     "corpus": "QED",
-    "en": "We are just taking five seconds.",
+    "en": "Come with me.",
     "score": [
      0,
-     2,
-     -2,
+     3,
+     -3,
      5
     ],
-    "sq": "Vetëm 5 sekonda."
+    "sq": "Hajde me mua."
    }
+  },
+  {
+   "id": "çka",
+   "sq": "çka",
+   "en": "what",
+   "glosses": [
+    "what",
+    "so-so, somehow"
+   ],
+   "pos": [
+    "pron",
+    "adv"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "what",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 31 31 3"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "what"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "so-so, somehow",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 31 31 3"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "so-so",
+      "somehow"
+     ]
+    }
+   ],
+   "rank": 167,
+   "count": 7539,
+   "family": "çka",
+   "is_root": true,
+   "etymology": "From ç' + ka, where ka is the third-person singular present indicative of kam (“to have”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ka",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "What is this?",
+    "score": [
+     0,
+     3,
+     -3,
+     8
+    ],
+    "sq": "Çka është kjo?"
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "le",
+   "sq": "le",
+   "en": "to give birth, bear",
+   "glosses": [
+    "to give birth, bear"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to give birth, bear",
+     "tags": [
+      "dialectal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 9 27 8 8 41"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "u le",
+       "en": "to be born",
+       "offsets": []
+      },
+      {
+       "sq": "lehet",
+       "en": "is born",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "give birth",
+      "bear"
+     ]
+    }
+   ],
+   "rank": 173,
+   "count": 7417,
+   "family": "le",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *laida, an ostensibly o-grade thematic present from the root *leyd- (“to let go, release”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "të",
+   "sq": "të",
+   "en": "to, that (introduces a subjunctive clause, often translated as an infinitive)",
+   "glosses": [
+    "to, that (introduces a subjunctive clause, often translated as an infinitive)",
+    "you"
+   ],
+   "pos": [
+    "conj",
+    "pron"
+   ],
+   "pos_labels": [
+    "conjunction",
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "to, that (introduces a subjunctive clause, often translated as an infinitive)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "të duash ndokënd.",
+       "en": "to love someone.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "to",
+      "that"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "you",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "you"
+     ]
+    }
+   ],
+   "rank": 1,
+   "count": 671720,
+   "family": "të",
+   "is_root": true,
+   "etymology": "Proclitic form of the accusative-dative second person singular personal pronoun.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "te",
+     "tag": "alternative"
+    },
+    {
+     "form": "ti",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   }
+ ],
+ "continues": [
+  "çka"
  ]
 }

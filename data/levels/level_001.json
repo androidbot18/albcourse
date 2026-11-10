@@ -1,12 +1,13 @@
 {
  "level": 1,
- "title": "Hello, yes and no",
+ "title": "Say hello 1/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
+  "Si je?",
   "ditë",
   "faleminderit",
   "jo",
@@ -15,14 +16,195 @@
   "përshëndetje"
  ],
  "pos_mix": {
-  "particle": 3,
+  "intj": 5,
+  "particle": 4,
   "det": 1,
-  "adj": 1,
+  "adj": 2,
   "adv": 1,
-  "intj": 3,
-  "noun": 2
+  "phrase": 1
  },
  "words": [
+  {
+   "id": "përshëndetje",
+   "sq": "përshëndetje",
+   "en": "hello",
+   "glosses": [
+    "hello",
+    "hello, greetings, goodbye"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "hello",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Përshëndetje, Ana!",
+       "en": "Hello, Ana!",
+       "offsets": [
+        [
+         0,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "hello, greetings, goodbye",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian phrasebook",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hello",
+      "greetings",
+      "goodbye"
+     ]
+    }
+   ],
+   "rank": 277,
+   "count": 4059,
+   "family": "përshëndetje",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "mirëdita",
+   "sq": "mirëdita",
+   "en": "good day, hello",
+   "glosses": [
+    "good day, hello",
+    "good day"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good day, hello",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mirëdita, Beni!",
+       "en": "Good day, Beni!",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good day",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "good day"
+     ]
+    }
+   ],
+   "rank": 2159,
+   "count": 397,
+   "family": "ditë",
+   "is_root": false,
+   "etymology": "From mirë (“good”) + ditë (“day”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "good",
+    "day"
+   ],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "prefix"
+    },
+    {
+     "word": "ditë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
   {
    "id": "po",
    "sq": "po",
@@ -49,10 +231,19 @@
      "gloss": "yes",
      "tags": [],
      "cats": [],
-     "examples": [],
-     "links": [
-      "yes"
-     ]
+     "examples": [
+      {
+       "sq": "Po, Ana.",
+       "en": "Yes, Ana.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": []
     },
     {
      "pos": "particle",
@@ -121,17 +312,40 @@
   {
    "id": "jo",
    "sq": "jo",
-   "en": "no; not",
+   "en": "no",
    "glosses": [
+    "no",
     "no; not"
    ],
    "pos": [
+    "particle",
     "det"
    ],
    "pos_labels": [
+    "particle",
     "determiner"
    ],
    "sense_detail": [
+    {
+     "pos": "particle",
+     "pos_label": "particle",
+     "gloss": "no",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jo, Beni.",
+       "en": "No, Beni.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
     {
      "pos": "det",
      "pos_label": "determiner",
@@ -179,35 +393,107 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "No, I'm not.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Jo, nuk jam."
-   }
+   "corpus_example": null
+  },
+  {
+   "id": "faleminderit",
+   "sq": "faleminderit",
+   "en": "thank you",
+   "glosses": [
+    "thank you"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "thank you",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jo, faleminderit.",
+       "en": "No, thank you.",
+       "offsets": [
+        [
+         4,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 81,
+   "count": 16929,
+   "family": "faleminderit",
+   "is_root": true,
+   "etymology": "From older të falemi nderit, literally \"We salute your honor\", or \"We pray for your honor\".",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "faleminerës",
+     "tag": "alternative"
+    },
+    {
+     "form": "faliminerës",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
   },
   {
    "id": "mirë",
    "sq": "mirë",
-   "en": "good",
+   "en": "good, well, fine",
    "glosses": [
+    "good, well, fine",
     "good",
     "well"
    ],
    "pos": [
     "adj",
+    "adj",
     "adv"
    ],
    "pos_labels": [
     "adjective",
+    "adjective",
     "adverb"
    ],
    "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "good, well, fine",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mirë, faleminderit.",
+       "en": "Fine, thank you.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
     {
      "pos": "adj",
      "pos_label": "adjective",
@@ -279,270 +565,36 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The good part?",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Pjesa e mirë?"
-   }
+   "forms_line": "i mirë · e mirë",
+   "corpus_example": null
   },
   {
-   "id": "faleminderit",
-   "sq": "faleminderit",
-   "en": "thank you",
+   "id": "Si je?",
+   "sq": "Si je?",
+   "en": "How are you?",
    "glosses": [
-    "thank you"
+    "How are you?"
    ],
    "pos": [
-    "intj"
+    "phrase"
    ],
    "pos_labels": [
-    "interjection"
+    "phrase"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "thank you",
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "How are you?",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "cats": [],
      "examples": [],
-     "links": [
-      "thank you"
-     ]
+     "links": []
     }
    ],
-   "rank": 81,
-   "count": 16929,
-   "family": "faleminderit",
-   "is_root": true,
-   "etymology": "From older të falemi nderit, literally \"We salute your honor\", or \"We pray for your honor\".",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "faleminerës",
-     "tag": "alternative"
-    },
-    {
-     "form": "faliminerës",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "Thank you.",
-    "score": [
-     0,
-     2,
-     -2,
-     4
-    ],
-    "sq": "Ju faleminderit !"
-   }
-  },
-  {
-   "id": "ditë",
-   "sq": "ditë",
-   "en": "day",
-   "glosses": [
-    "day",
-    "daylight"
-   ],
-   "pos": [
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "day",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Time",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Time",
-       "langcode": "sq",
-       "_dis": "83 17"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "day"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "daylight",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 92"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 83"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "8 92"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "daylight"
-     ]
-    }
-   ],
-   "rank": 160,
-   "count": 7882,
-   "family": "ditë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *dī́tan, from Proto-Indo-European *dih₂-t- (“the shining”). See Sanskrit दीप् (dīp, “to blaze, glow”) for more.\nReinforcement by Latin diēs is possible.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "dita-ditës",
-    "ditak",
-    "ditameditë",
-    "ditar",
-    "ditas",
-    "ditasnjanës",
-    "diterrët",
-    "ditez"
-   ],
-   "related": [
-    "sot",
-    "daj",
-    "dje"
-   ],
-   "forms": [
-    {
-     "form": "ditë",
-     "tag": "plural"
-    },
-    {
-     "form": "dita",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Do it a couple of days.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Bëni atë disa ditë."
-   }
-  },
-  {
-   "id": "përshëndetje",
-   "sq": "përshëndetje",
-   "en": "hello, greetings, goodbye",
-   "glosses": [
-    "hello, greetings, goodbye"
-   ],
-   "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "hello, greetings, goodbye",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian phrasebook",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms prefixed with për-",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "hello",
-      "greetings",
-      "goodbye"
-     ]
-    }
-   ],
-   "rank": 277,
-   "count": 4059,
-   "family": "përshëndetje",
+   "rank": 60001,
+   "count": 0,
+   "family": "Si je?",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -553,101 +605,12 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Greetings and thank you!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Përshëndetje dhe faleminderit!"
-   }
-  },
-  {
-   "id": "mirëdita",
-   "sq": "mirëdita",
-   "en": "good day",
-   "glosses": [
-    "good day"
-   ],
-   "pos": [
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "good day",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "good day"
-     ]
-    }
-   ],
-   "rank": 2159,
-   "count": 397,
-   "family": "ditë",
-   "is_root": false,
-   "etymology": "From mirë (“good”) + ditë (“day”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "good",
-    "day"
-   ],
-   "components": [
-    {
-     "word": "mirë",
-     "role": "prefix"
-    },
-    {
-     "word": "ditë",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Good morning and thank you for coming here.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Mirëdita dhe faleminderit që keni ardhur."
-   },
-   "breakdown": "historical"
+   "phrase": true,
+   "corpus_example": null
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 1,
+ "unit_title": "Say hello",
+ "situation": "Hello and goodbye"
 }
