@@ -10,6 +10,12 @@ missing is the *morphology* - the fact that so many words are one root wearing
 different clothes. This course teaches them together: the root, then everything
 built on it, then the descendants.
 
+**The course now opens with the Conversation Core** (`CONVERSATION_PLAN.md`,
+steps 1-3): 1,000 dictionary words and 157 phrases in 52 units ordered by
+situation, before the roots-and-families course begins. Steps 4-6 of that
+plan (native-speaker review export, typed and gap-fill exercises) are still
+to do.
+
 **Scope: text only.** No audio, no pronunciation drills, no recordings. That
 is a deliberate decision, not an oversight - see `PLAN.md`.
 
@@ -17,30 +23,40 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 
 | | |
 |---|---|
-| Words | 4,133 |
-| Levels | 765: a 348-level main course, then 417 optional extended levels |
-| Word families | 3,058 |
-| Families with more than one member | 519 |
-| Words containing ë / ç | 1,653 |
-| Words with an example sentence | 3,759 (91.0%) |
+| Cards | 4,072 (3,915 words, 157 phrases) |
+| Levels | 658: the 168-level Conversation Core, 116 more main-course levels, then 374 optional extended levels |
+| Word families | 3,373 |
+| Families with more than one member | 408 |
+| Words containing ë / ç | 1,689 |
+| Cards with an example sentence | 3,569 (87.6%) |
 | Words with a cognate hook | 125 |
 
 (These figures were stale for several PRs -- the deck had already been
 rebuilt twice. They now come from `data/words.json`; check with
 `python3 tools/measure_learnability.py`.)
 
-The first 23 levels are **hand-curated by theme**: greetings and yes/no,
-pronouns, `jam` and `kam` in the present, the little words (`nuk`, `dhe`,
-`në`, `me`, `për`), numbers 1-10, family, food and drink, time, question
-words, the core verbs, everyday adjectives, home and work, the conjunctions
-(`e`, `por`, `ose`, `edhe`) and the days of the week. They live in
-`tools/opening_levels.py`, a small reviewed list the build checks (every
-word in the deck, a family on one level only, a stem never after its word).
-A family the opening only begins comes back later at its own frequency:
-`jam` opens with its present tense, and `ishte`, `qenë`, `isha`... return as
-"jam (continued)" on level 29. Glosses and examples for these first words
-were reviewed in `tools/gloss_overrides.py` (`pi` is "to drink", not the
-Gheg preposition "from"; `e` is back, see RECOMMENDATIONS.md section 3.2).
+Levels 1-168 are the **Conversation Core**: 52 units of about twenty items,
+ordered by situation (hello and goodbye, introductions, numbers and money,
+the café, shopping, directions, time, family, home, health, weather, the
+phone, opinions), not by word family or subtitle frequency. It is
+hand-written in `tools/core/*.txt` and read by `tools/conversation_core.py`,
+and the build refuses to run unless:
+
+* every word has an example of 8 words or fewer in which every other word
+  was already taught (a form counts once its word is known);
+* every unit ends with a dialogue made only of taught items;
+* every headline gloss is 30 characters or fewer;
+* no card is an inflected form of another card. A verb shows its key forms
+  on its own card (`shkoj` · `shkon`, `shkova`, `shkuar`), a noun its
+  definite and plural. Only `do` and `ka` remain as form cards in the deck.
+
+Eleven short grammar notes appear on the level that first needs them.
+`python3 tools/measure_conversation.py` prints where the 214-word everyday
+checklist (`tools/conversation_checklist.py`) is taught: 210 are in the
+core, 160 of them within the first month at 20 new items a day, and 4 are
+deliberately left out. The core takes 58 days at that pace. All of it was
+written without a native speaker and is waiting for one (`PLAN.md`,
+"Native-speaker review queue").
 
 The deck is built from Wiktionary, which has no entry at all for some core
 words: `pra` (*so*), `ndonjë` (*any*), `sikur`, `vërtet`, `sigurisht`,
@@ -48,20 +64,19 @@ words: `pra` (*so*), `ndonjë` (*any*), `sikur`, `vërtet`, `sigurisht`,
 `tools/added_words.py`, each with a reviewed gloss, example and forms. The
 build refuses an entry that would shadow a real Wiktionary card.
 
-After the opening, levels are ordered by when a word family's root becomes
+After the core, levels are ordered by when a word family's root becomes
 common enough to teach, with grammar words held back and some pictureable
-nouns pulled forward. The held-back grammar words (`të`, `që`, `nga`, `kjo`,
-`pa`, `deri`...) are spread about one per level from L31 to L144, rather
-than arriving as one block. That part is an approximation, not a hand-built
-curriculum. The Review tab follows level order, and new cards are capped at
-20 per day.
+nouns pulled forward. That part is an approximation, not a hand-built
+curriculum. The Review tab follows level order, then the order each level
+teaches its items in, and new cards are capped at 20 per day.
 
-The **main course** is levels 1-348: 1,665 words, everything ranked up to
-5,000 in the frequency list plus the opening and the stems those words are
-built on. It covers 83% of the tokens in the frequency list, counting an
-inflected form of a taught word as known (`python3 tools/measure_coverage.py`). The other 2,468 words, rank above
-5,000, form an optional **extended track** (levels 349-765, marked
-`extended`) that adds under 3 points more. The app introduces them only
+The **main course** is levels 1-284: 1,789 cards, the core plus everything
+ranked up to 5,000 in the frequency list and the stems those words are
+built on. It covers 83.9% of the tokens in the frequency list, counting an
+inflected form of a taught word as known, and 60.9% by exact form
+(`python3 tools/measure_coverage.py`). The other 2,283 words, rank above
+5,000, form an optional **extended track** (levels 285-658, marked
+`extended`) that adds about 2 points more. The app introduces them only
 after the learner turns the track on from the level map. See
 RECOMMENDATIONS.md section 3.6.
 
@@ -77,7 +92,7 @@ A level is a **session of whole word families**, not a frequency slice:
   ("I") out of the first ten levels; 20 families now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
   a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case (630 of 765),
+  sessions; a level that mixes families is the normal case after the core (461 of 490),
   because forcing one family per level was measured and produced 3,033
   sessions that were 83% single words.
 * Roots unlock in frequency order: a family starts when its own root is common
@@ -172,7 +187,7 @@ care about it.
       js/course.js      data loading and card helpers
       js/app.js         the views and event wiring
     data/               generated course data
-      index.json        765 level descriptors, loaded first
+      index.json        658 level descriptors, loaded first
       words.json        flat card index, what a review session plays from
       levels/*.json     per-level full detail, fetched on demand
       course.json       whole-course manifest
@@ -213,7 +228,7 @@ search and sort on.
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (765 decks, 4,133 notes; the extended track's decks are named
+That writes dist/albanian-roots-families.apkg (658 decks, 4,072 notes; the extended track's decks are named
 "Albanian extended L..."). It is
 gitignored because it is a build artifact; regenerate it any time.
 

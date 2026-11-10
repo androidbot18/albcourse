@@ -69,7 +69,7 @@ def main(argv):
 
     levels = bc.schedule_course(cards, families,
                                 components=bc.by_word_components(cards),
-                                opening=bc.opening_levels.LEVELS)
+                                opening=bc.conversation_core.levels())
     level_objs = bc.write_levels(levels, by_word, corpus_examples)
 
     report_path = os.path.join(bc.OUT, "report.json")

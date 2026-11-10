@@ -1,48 +1,65 @@
 {
  "level": 153,
- "title": "orë, natyrisht, don +2",
+ "title": "How much, how often 1/4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "don",
-  "natyrisht",
-  "ndal",
-  "orë",
-  "shpejti"
+  "aq",
+  "fare",
+  "krejt",
+  "pak",
+  "plotësisht",
+  "pothuajse"
  ],
  "pos_mix": {
-  "noun": 2,
-  "adv": 2,
-  "verb": 8
+  "adv": 18
  },
  "words": [
   {
-   "id": "ora",
-   "sq": "ora",
-   "en": "the hour, singular (from orë)",
+   "id": "kaq",
+   "sq": "kaq",
+   "en": "this much, so",
    "glosses": [
-    "the hour, singular (from orë)"
+    "this much, so",
+    "this much"
    ],
    "pos": [
-    "noun"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the hour, singular (from orë)",
-     "tags": [
-      "definite",
-      "feminine",
-      "form-of",
-      "singular"
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "this much, so",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pse je kaq i lodhur?",
+       "en": "Why are you so tired?",
+       "offsets": [
+        [
+         7,
+         10
+        ]
+       ]
+      }
      ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "this much",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -51,7 +68,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 47 entries",
+       "name": "Pages with 5 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -64,14 +81,530 @@
       }
      ],
      "examples": [],
-     "is_form_of": "orë"
+     "links": [
+      "this",
+      "much"
+     ]
     }
    ],
-   "rank": 681,
-   "count": 1491,
-   "family": "orë",
+   "rank": 148,
+   "count": 8558,
+   "family": "aq",
    "is_root": false,
-   "etymology": "",
+   "etymology": "From ka + aq.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "ka",
+     "role": "prefix"
+    },
+    {
+     "word": "aq",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "aq",
+   "sq": "aq",
+   "en": "that much, so",
+   "glosses": [
+    "that much, so",
+    "so much, so, to a certain degree",
+    "very"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "that much, so",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Nuk është aq e vështirë.",
+       "en": "It is not that difficult.",
+       "offsets": [
+        [
+         10,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "so much, so, to a certain degree",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "aq më i madh",
+       "en": "so much bigger",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "so much",
+      "so",
+      "degree"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "very",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "very"
+     ]
+    }
+   ],
+   "rank": 157,
+   "count": 7995,
+   "family": "aq",
+   "is_root": true,
+   "etymology": "Ultimately a formation from Proto-Indo-European *kʷ-. Akin to kaq for which compare Proto-Slavic *jakъ ~ *kakъ.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "aq sa",
+    "aqherë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "aqë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "fare",
+   "sq": "fare",
+   "en": "at all",
+   "glosses": [
+    "at all",
+    "totally, wholly, completely",
+    "barely, scarcely, not in the least",
+    "kind"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at all",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Nuk kam fare kohë.",
+       "en": "I have no time at all.",
+       "offsets": [
+        [
+         8,
+         12
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "totally, wholly, completely",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "totally",
+      "wholly",
+      "completely"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "barely, scarcely, not in the least",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 99 0 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "barely",
+      "scarcely",
+      "not in the least"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "kind",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ç'farë? ~ Ç'fare?",
+       "en": "What kind? (~ What? How?)",
+       "offsets": [
+        [
+         2,
+         6
+        ],
+        [
+         12,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "kind"
+     ]
+    }
+   ],
+   "rank": 267,
+   "count": 4386,
+   "family": "fare",
+   "is_root": true,
+   "etymology": "From farë (“seed, semen, kind”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "farë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "aspak",
+   "sq": "aspak",
+   "en": "not at all",
+   "glosses": [
+    "not at all",
+    "absolutely not, not at all"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "not at all",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Nuk jam aspak i lodhur.",
+       "en": "I am not tired at all.",
+       "offsets": [
+        [
+         8,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "absolutely not, not at all",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with as-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "absolutely",
+      "not"
+     ]
+    }
+   ],
+   "rank": 1056,
+   "count": 893,
+   "family": "pak",
+   "is_root": false,
+   "etymology": "From as- (“not, neither”) + pak (“a little”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "as",
+     "role": "prefix"
+    },
+    {
+     "word": "pak",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "krejt",
+   "sq": "krejt",
+   "en": "completely, quite",
+   "glosses": [
+    "completely, quite",
+    "everything, at all",
+    "altogether, entirely"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "completely, quite",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Makina është krejt e re.",
+       "en": "The car is completely new.",
+       "offsets": [
+        [
+         13,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "everything, at all",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "everything",
+      "at all"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "altogether, entirely",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "altogether",
+      "entirely"
+     ]
+    }
+   ],
+   "rank": 1107,
+   "count": 848,
+   "family": "krejt",
+   "is_root": true,
+   "etymology": "From kreit, the definite ablative of krye (“head”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "head"
+   ],
+   "components": [],
+   "derived": [
+    "krejtësisht"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kejt",
+     "tag": "alternative"
+    },
+    {
+     "form": "ket",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "plotësisht",
+   "sq": "plotësisht",
+   "en": "completely, fully",
+   "glosses": [
+    "completely, fully",
+    "fully, completely, entirely, totally, thoroughly, wholly"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "completely, fully",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jam plotësisht dakord.",
+       "en": "I completely agree.",
+       "offsets": [
+        [
+         4,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "fully, completely, entirely, totally, thoroughly, wholly",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "fully",
+      "completely",
+      "entirely"
+     ]
+    }
+   ],
+   "rank": 1174,
+   "count": 791,
+   "family": "plotësisht",
+   "is_root": true,
+   "etymology": "From plotësi + -sht.",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -80,42 +613,55 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What time?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Sa është ora?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "natyrisht",
-   "sq": "natyrisht",
-   "en": "naturally, of course",
+   "id": "pothuajse",
+   "sq": "pothuajse",
+   "en": "almost",
    "glosses": [
-    "naturally, of course"
+    "almost",
+    "almost, nearly"
    ],
    "pos": [
+    "adv",
     "adv"
    ],
    "pos_labels": [
+    "adverb",
     "adverb"
    ],
    "sense_detail": [
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "naturally, of course",
+     "gloss": "almost",
      "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "Natyrisht që e di.",
-       "en": "Of course I know.",
+       "sq": "Jam pothuajse gati.",
+       "en": "I am almost ready.",
+       "offsets": [
+        [
+         4,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "almost, nearly",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pothuajse mbarova.",
+       "en": "I'm almost done.",
        "offsets": [
         [
          0,
@@ -127,452 +673,10 @@
      "links": []
     }
    ],
-   "rank": 684,
-   "count": 1478,
-   "family": "natyrisht",
+   "rank": 853,
+   "count": 1126,
+   "family": "pothuajse",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "don",
-   "sq": "don",
-   "en": "you want, need",
-   "glosses": [
-    "you want, need",
-    "you like",
-    "you love",
-    "it wants, needs",
-    "it likes",
-    "it loves"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you want, need",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 14 14 18 19 18"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "A don me shkue?",
-       "en": "Do you want to go?",
-       "offsets": [
-        [
-         2,
-         5
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "you",
-      "want",
-      "need"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you like",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 14 14 18 19 18"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Rita e don Gjergjin.",
-       "en": "Rita likes/wants George.",
-       "offsets": [
-        [
-         7,
-         10
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "you",
-      "like"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you love",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 14 14 18 19 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "you",
-      "love"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it wants, needs",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 14 14 18 19 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "wants",
-      "needs"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it likes",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 14 14 18 19 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "likes"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "it loves",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "17 14 14 18 19 18"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "loves"
-     ]
-    }
-   ],
-   "rank": 687,
-   "count": 1474,
-   "family": "don",
-   "is_root": true,
-   "etymology": "Gheg variant of Standard Albanian do (“(it) wants, needs, loves, likes”) and do (“you want, need, love, like”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [
-    "dashur",
-    "do",
-    "dua",
-    "duhet"
-   ],
-   "forms": [
-    {
-     "form": "dashta",
-     "tag": "aorist"
-    },
-    {
-     "form": "dashtë",
-     "tag": "participle"
-    },
-    {
-     "form": "forms",
-     "tag": "Gheg"
-    },
-    {
-     "form": "dashur",
-     "tag": "participle"
-    },
-    {
-     "form": "do",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "shpejti",
-   "sq": "shpejti",
-   "en": "soon (së shpejti)",
-   "glosses": [
-    "soon (së shpejti)"
-   ],
-   "pos": [
-    "adv"
-   ],
-   "pos_labels": [
-    "adverb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "soon (së shpejti)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Shihemi së shpejti.",
-       "en": "See you soon.",
-       "offsets": [
-        [
-         11,
-         18
-        ]
-       ]
-      }
-     ],
-     "links": []
-    }
-   ],
-   "rank": 688,
-   "count": 1469,
-   "family": "shpejti",
-   "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "ndal",
-   "sq": "ndal",
-   "en": "to stop, hold up",
-   "glosses": [
-    "to stop, hold up",
-    "to keep something, someone"
-   ],
-   "pos": [
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to stop, hold up",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "68 32"
-      },
-      {
-       "name": "Albanian terms prefixed with n-",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "78 22"
-      },
-      {
-       "name": "Pages with 2 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "69 31"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Ndal!",
-       "en": "Stop! ~ Hold up!",
-       "offsets": [
-        [
-         0,
-         4
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "stop",
-      "hold up"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to keep something, someone",
-     "tags": [
-      "colloquial",
-      "transitive"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "keep"
-     ]
-    }
-   ],
-   "rank": 690,
-   "count": 1464,
-   "family": "ndal",
-   "is_root": true,
-   "etymology": "Antonym and prefixal form of dal (“to exit, go out”) (n- + dal), from Proto-Albanian *en-dala. See dal for more.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "ndalem",
-    "ndalesë",
-    "ndalesa",
-    "ndalë",
-    "ndala",
-    "ndalim",
-    "ndalimi",
-    "ndalje"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "ndala",
-     "tag": "aorist"
-    },
-    {
-     "form": "ndalur",
-     "tag": "participle"
-    },
-    {
-     "form": "nal",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "ore",
-   "sq": "ore",
-   "en": "hour, singular (from orë)",
-   "glosses": [
-    "hour, singular (from orë)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hour, singular (from orë)",
-     "tags": [
-      "ablative",
-      "dative",
-      "form-of",
-      "indefinite",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 30 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "orë"
-    }
-   ],
-   "rank": 768,
-   "count": 1286,
-   "family": "orë",
-   "is_root": false,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -585,7 +689,8 @@
    "corpus_example": null
   }
  ],
- "continues": [
-  "orë"
- ]
+ "opening": true,
+ "unit": 49,
+ "unit_title": "How much, how often",
+ "situation": "Everyday talk"
 }

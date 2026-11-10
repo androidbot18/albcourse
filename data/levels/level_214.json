@@ -1,24 +1,31 @@
 {
  "level": 214,
- "title": "shkoj (rarer words)",
- "root": "shkoj",
- "root_gloss": "to go, pass",
+ "title": "duk, zhduk, bindur +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 6,
  "families": [
-  "shkoj"
+  "bind",
+  "bindur",
+  "duk",
+  "gjer",
+  "shpresë",
+  "zhduk"
  ],
  "pos_mix": {
-  "verb": 4
+  "verb": 4,
+  "noun": 7,
+  "adj": 1
  },
  "words": [
   {
-   "id": "shkova",
-   "sq": "shkova",
-   "en": "I (once did) went (from shkoj, to go)",
+   "id": "zhduk",
+   "sq": "zhduk",
+   "en": "to disappear, to hide",
    "glosses": [
-    "I (once did) went (from shkoj, to go)"
+    "to disappear, to hide"
    ],
    "pos": [
     "verb"
@@ -30,14 +37,248 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "I (once did) went (from shkoj, to go)",
+     "gloss": "to disappear, to hide",
      "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "indicative",
-      "singular"
+      "transitive"
      ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with zh-",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "disappear",
+      "hide"
+     ]
+    }
+   ],
+   "rank": 2039,
+   "count": 426,
+   "family": "zhduk",
+   "is_root": true,
+   "etymology": "From zh- + duk.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "zh",
+     "role": "prefix",
+     "affix": "zh",
+     "meaning": "undo"
+    },
+    {
+     "word": "duk",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "zhduka",
+     "tag": "aorist"
+    },
+    {
+     "form": "zhdukur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "Tatoeba",
+    "en": "She disappeared.",
+    "score": [
+     0,
+     3,
+     -3,
+     0
+    ],
+    "sq": "Ajo u zhduk."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "duk",
+   "sq": "duk",
+   "en": "virtue",
+   "glosses": [
+    "virtue",
+    "attribute",
+    "it seemed",
+    "it looked like",
+    "it appeared"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "virtue",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "virtue"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "attribute",
+     "tags": [
+      "attributive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "attribute"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it seemed",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "it",
+      "seemed"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it looked like",
+     "tags": [
+      "active"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 1 21 56 21"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "it",
+      "looked",
+      "like"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "it appeared",
+     "tags": [
+      "active"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "it",
+      "appeared"
+     ]
+    }
+   ],
+   "rank": 2105,
+   "count": 408,
+   "family": "duk",
+   "is_root": true,
+   "etymology": "See medio-passive voice form duket (“it seems like, appears like”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "zhduk",
+    "dukje",
+    "dukuri"
+   ],
+   "related": [
+    "duket",
+    "dukem",
+    "nduk",
+    "ndihem",
+    "ndiej"
+   ],
+   "forms": [
+    {
+     "form": "duk",
+     "tag": "aorist"
+    },
+    {
+     "form": "dukur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "3 Another sign was seen in heaven.",
+    "score": [
+     0,
+     7,
+     -7,
+     8
+    ],
+    "sq": "«Një tjetër shenjë u duk në qiell."
+   }
+  },
+  {
+   "id": "bindur",
+   "sq": "bindur",
+   "en": "convinced",
+   "glosses": [
+    "convinced"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "convinced",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -59,13 +300,15 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "links": [
+      "convinced"
+     ]
     }
    ],
-   "rank": 1221,
-   "count": 746,
-   "family": "shkoj",
-   "is_root": false,
+   "rank": 2111,
+   "count": 407,
+   "family": "bindur",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -77,40 +320,123 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "I went there.",
+    "en": "It has convinced me.",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Unë shkova atje."
+    "sq": "Më ka bindur."
    }
   },
   {
-   "id": "shkonte",
-   "sq": "shkonte",
-   "en": "he/she/it (used to) went (from shkoj, to go)",
+   "id": "gjer",
+   "sq": "gjer",
+   "en": "dormouse",
    "glosses": [
-    "he/she/it (used to) went (from shkoj, to go)"
+    "dormouse"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it (used to) went (from shkoj, to go)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "dormouse",
      "tags": [
-      "form-of",
-      "imperfect",
-      "indicative",
-      "singular",
-      "third-person"
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 3 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "dormouse"
+     ]
+    }
+   ],
+   "rank": 2122,
+   "count": 405,
+   "family": "gjer",
+   "is_root": true,
+   "etymology": "From Proto-Indo-European *geli-, *glī- (“mous”). Compare Ancient Greek γαλέη (galéē, “weasel, marten”), Latin glīs (“dormouse”). Alternatively from Latin glīrem.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "mous"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "gjera",
+     "tag": "plural"
+    },
+    {
+     "form": "gjeri",
+     "tag": "definite"
+    },
+    {
+     "form": "ger",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "GlobalVoices",
+    "en": "There is no damage done to the house so far.",
+    "score": [
+     1,
+     6,
+     -5,
+     3
+    ],
+    "sq": "Gjer tani shtëpia nuk është dëmtuar."
+   }
+  },
+  {
+   "id": "shpresë",
+   "sq": "shpresë",
+   "en": "hope, expectation, waiting, expectancy",
+   "glosses": [
+    "hope, expectation, waiting, expectancy"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "hope, expectation, waiting, expectancy",
+     "tags": [
+      "feminine"
      ],
      "cats": [
       {
@@ -133,182 +459,224 @@
       }
      ],
      "examples": [],
-     "is_form_of": "shkoj"
+     "links": [
+      "hope",
+      "expectation",
+      "waiting"
+     ]
     }
    ],
-   "rank": 1480,
-   "count": 600,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
+   "rank": 2135,
+   "count": 401,
+   "family": "shpresë",
+   "is_root": true,
+   "etymology": "From Latin sperans, sperantia, from spero (“hope”). Compare Albanian shpërej \"to hope\" (doublet of shpresoj, itself from shpresë) from Latin sperāre.",
+   "etymology_class": "borrowed",
+   "source_lang": "la",
+   "cognate": "from Latin sperans",
+   "parents": [
+    "hope"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
+   "forms": [
+    {
+     "form": "shpresa",
+     "tag": "plural"
+    }
+   ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Where else to go?",
+    "en": "Probably only hope.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Ndoshta vetëm shpresë."
+   }
+  },
+  {
+   "id": "përbindësh",
+   "sq": "përbindësh",
+   "en": "monster",
+   "glosses": [
+    "monster",
+    "large predatory animal",
+    "evil person"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "monster",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Mythology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mythology",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mythology",
+      "monster"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "large predatory animal",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësh",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "predatory",
+      "animal"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "evil person",
+     "tags": [
+      "figuratively"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 13 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      },
+      {
+       "name": "Albanian terms suffixed with -ësh",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 42 16"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "evil"
+     ]
+    }
+   ],
+   "rank": 2143,
+   "count": 399,
+   "family": "bind",
+   "is_root": false,
+   "etymology": "From për- + bind (“awe, dread”) + -ësh.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "bind",
+     "role": "stem"
+    },
+    {
+     "word": "ësh",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "përbindshëm",
+    "adjective"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "përbindësha",
+     "tag": "plural"
+    },
+    {
+     "form": "përbindëshi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "In his monsters.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Ku të shkonte tjetër?"
-   }
-  },
-  {
-   "id": "shkoje",
-   "sq": "shkoje",
-   "en": "you (sg) (used to) went (from shkoj, to go)",
-   "glosses": [
-    "you (sg) (used to) went (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) (used to) went (from shkoj, to go)",
-     "tags": [
-      "form-of",
-      "imperfect",
-      "indicative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 1568,
-   "count": 559,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "She will.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Do te shkoje."
-   }
-  },
-  {
-   "id": "shkoja",
-   "sq": "shkoja",
-   "en": "I (used to) went (from shkoj, to go)",
-   "glosses": [
-    "I (used to) went (from shkoj, to go)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (used to) went (from shkoj, to go)",
-     "tags": [
-      "first-person",
-      "form-of",
-      "imperfect",
-      "indicative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "shkoj"
-    }
-   ],
-   "rank": 1604,
-   "count": 547,
-   "family": "shkoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Where should I go?!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Ku të shkoja?!"
-   }
+    "sq": "në përbindësh të tij."
+   },
+   "breakdown": "historical"
   }
  ],
- "resumes": true
+ "continues": [
+  "bind",
+  "shpresë"
+ ]
 }

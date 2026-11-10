@@ -1,30 +1,120 @@
 {
  "level": 237,
- "title": "dyshoj, shans, marrtë +2",
+ "title": "dale, vepër, han +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "dyshoj",
-  "marrtë",
-  "planet",
-  "provoj",
-  "shans"
+  "dale",
+  "faj",
+  "han",
+  "majmun",
+  "vepër",
+  "çmuar"
  ],
  "pos_mix": {
-  "noun": 3,
-  "adj": 4,
-  "verb": 3
+  "intj": 2,
+  "noun": 10,
+  "verb": 3,
+  "adj": 1
  },
  "words": [
   {
-   "id": "dyshim",
-   "sq": "dyshim",
-   "en": "suspicion, doubt",
+   "id": "dale",
+   "sq": "dale",
+   "en": "wait, stay, hold up",
    "glosses": [
-    "suspicion, doubt"
+    "wait, stay, hold up",
+    "don't hurry, relax, chill"
+   ],
+   "pos": [
+    "intj",
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection",
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "wait, stay, hold up",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "wait",
+      "stay",
+      "hold up"
+     ]
+    },
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "don't hurry, relax, chill",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "40 60"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "don't",
+      "hurry",
+      "relax"
+     ]
+    }
+   ],
+   "rank": 3012,
+   "count": 269,
+   "family": "dale",
+   "is_root": true,
+   "etymology": "Short form of ndal (“I halt, stop, rest, hold up”). See ndal and dal for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "dal",
+    "dalë",
+    "dala",
+    "dalët",
+    "dalëngadalë"
+   ],
+   "forms": [
+    {
+     "form": "daleni",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "When is he getting dispatched?",
+    "score": [
+     0,
+     4,
+     -4,
+     5
+    ],
+    "sq": "Kur do te dale?"
+   }
+  },
+  {
+   "id": "veprim",
+   "sq": "veprim",
+   "en": "action",
+   "glosses": [
+    "action"
    ],
    "pos": [
     "noun"
@@ -36,7 +126,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "suspicion, doubt",
+     "gloss": "action",
      "tags": [
       "masculine"
      ],
@@ -62,25 +152,24 @@
      ],
      "examples": [],
      "links": [
-      "suspicion",
-      "doubt"
+      "action"
      ]
     }
    ],
-   "rank": 1466,
-   "count": 605,
-   "family": "dyshoj",
+   "rank": 3022,
+   "count": 268,
+   "family": "vepër",
    "is_root": false,
-   "etymology": "From dyshoj (“to doubt”) + -im. For sense development, compare Latin dubitō, from duo + habeō.",
-   "etymology_class": "affix",
+   "etymology": "From veproj (“do something”) + -im noun ending.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "dyshoj",
+     "word": "veproj",
      "role": "base",
-     "en": "to doubt"
+     "en": "to do something"
     },
     {
      "word": "im",
@@ -93,46 +182,100 @@
    "related": [],
    "forms": [
     {
-     "form": "dyshime",
+     "form": "veprime",
      "tag": "plural"
     },
     {
-     "form": "dyshimi",
+     "form": "veprimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have a doubt.",
+    "corpus": "MaCoCu",
+    "en": "No military action.",
     "score": [
      0,
      3,
      -3,
-     10
+     8
     ],
-    "sq": "Kam një dyshim."
+    "sq": "Jo veprim ushtarak."
    },
    "breakdown": "transparent"
   },
   {
-   "id": "shans",
-   "sq": "shans",
-   "en": "chance",
+   "id": "han",
+   "sq": "han",
+   "en": "khan",
    "glosses": [
-    "chance"
+    "khan",
+    "fleabag hotel",
+    "messy place with no control of who comes and who leaves, regular flophouse",
+    "roadside shelter for travellers and their animals: roadside hostelry, caravanserai, inn"
    ],
    "pos": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chance",
+     "gloss": "khan",
      "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "khan"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fleabag hotel",
+     "tags": [
+      "derogatory",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "derogatory",
+      "fleabag",
+      "hotel"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "messy place with no control of who comes and who leaves, regular flophouse",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "messy",
+      "place",
+      "control"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "roadside shelter for travellers and their animals: roadside hostelry, caravanserai, inn",
+     "tags": [
+      "archaic",
       "masculine"
      ],
      "cats": [
@@ -140,33 +283,24 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 63 6 23"
       }
      ],
      "examples": [],
      "links": [
-      "chance"
+      "roadside",
+      "shelter",
+      "travellers"
      ]
     }
    ],
-   "rank": 1467,
-   "count": 603,
-   "family": "shans",
+   "rank": 3025,
+   "count": 268,
+   "family": "han",
    "is_root": true,
-   "etymology": "Borrowed from French chance.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -175,257 +309,308 @@
    "related": [],
    "forms": [
     {
-     "form": "shanse",
+     "form": "hane",
      "tag": "plural"
     },
     {
-     "form": "shansi",
+     "form": "hani",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "This is an opportunity.",
-    "score": [
-     0,
-     4,
-     -4,
-     4
-    ],
-    "sq": "Kjo është një shans."
-   }
-  },
-  {
-   "id": "marrtë",
-   "sq": "marrtë",
-   "en": "twilight, dim; weak (light)",
-   "glosses": [
-    "twilight, dim; weak (light)",
-    "blurred, dizzy (vision)",
-    "opaque, turbid, muddy (glass)",
-    "leprous"
-   ],
-   "pos": [
-    "adj",
-    "adj",
-    "adj",
-    "adj"
-   ],
-   "pos_labels": [
-    "adjective",
-    "adjective",
-    "adjective",
-    "adjective"
-   ],
-   "sense_detail": [
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "twilight, dim; weak (light)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 13 35 3 29"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 22 0 28"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "twilight",
-      "dim",
-      "weak"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "blurred, dizzy (vision)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 13 35 3 29"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 22 0 28"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "blurred",
-      "dizzy"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "opaque, turbid, muddy (glass)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "21 13 35 3 29"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 22 0 28"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "opaque",
-      "turbid",
-      "muddy"
-     ]
-    },
-    {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "leprous",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "leprous"
-     ]
-    }
-   ],
-   "rank": 1471,
-   "count": 602,
-   "family": "marrtë",
-   "is_root": true,
-   "etymology": "Cognate to Albanian marrë; both from Proto-Albanian *marsa (from Proto-Indo-European *mergʷ- (“to flicker; to darken; to be dark”); Proto-Indo-European *h₂mergʷ- (“dark”)).\nCognate to Proto-Slavic *morkъ (“darkness”), *morxъ (“dusk, fog”), Proto-Slavic *mergъ (“brown”), Proto-Germanic *merkuz (“dark”), Ancient Greek ἀμορβός (amorbós, “dark”), Lithuanian márgas (“colorful”).\nAlso related to Albanian murg (“dark”), murgët (also derived from Proto-Indo-European *mergʷ- (“to flicker; to darken; to be dark”)).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "dark"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [
-    "marrë",
-    "marrëzi"
-   ],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Damn it.",
+    "corpus": "HPLT",
+    "en": "Don't have Han yet for some reason?",
     "score": [
      1,
-     3,
-     -2,
-     5
+     8,
+     -7,
+     10
     ],
-    "sq": "E marrtë djalli!"
+    "sq": "Nuk e keni Han ende për ndonjë arsye?"
    }
   },
   {
-   "id": "provoj",
-   "sq": "provoj",
-   "en": "to try; to try out; to try on",
+   "id": "faj",
+   "sq": "faj",
+   "en": "to sate (with food or drink), gorge, stuff",
    "glosses": [
-    "to try; to try out; to try on",
-    "to prove (through testing); to test, to put to the test"
+    "to sate (with food or drink), gorge, stuff",
+    "to surfeit, cloy",
+    "to saturate",
+    "misdeed, wrong; crime",
+    "guilt, blame",
+    "fault, cause"
    ],
    "pos": [
     "verb",
-    "verb"
+    "verb",
+    "verb",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
     "verb",
-    "verb"
+    "verb",
+    "verb",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to try; to try out; to try on",
+     "gloss": "to sate (with food or drink), gorge, stuff",
      "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "gorge",
+      "stuff"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to surfeit, cloy",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "surfeit",
+      "cloy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to saturate",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "7 17 4 14 17 41"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "saturate"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "misdeed, wrong; crime",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "misdeed",
+      "wrong",
+      "crime"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "guilt, blame",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 19 6 18 19 20 6 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "guilt",
+      "blame"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "fault, cause",
+     "tags": [
+      "colloquial",
+      "masculine"
+     ],
      "cats": [],
      "examples": [
       {
-       "sq": "Po provoj të interesohem për problemet e tu, por sapo e kujtova që të urrej.",
-       "en": "I'm trying to take interest in your problems, but I just remembered that I hate you.",
+       "sq": "për fajin e tij",
+       "en": "because of him",
        "offsets": [
         [
-         3,
+         4,
          9
         ]
        ]
       }
      ],
      "links": [
-      "try",
-      "try out",
-      "try on"
+      "fault",
+      "cause"
      ]
-    },
+    }
+   ],
+   "rank": 3051,
+   "count": 266,
+   "family": "faj",
+   "is_root": true,
+   "etymology": "From dialectal (Cham) fal, from Vulgar Latin *fallia, deverbal of Latin fallere; compare French faille (“fault”), Italian faglia (“fault”), Aromanian fai f (“fault, sin”). Less likely from Gothic 𐍆𐌰𐌹𐌰𐌽 (faian, “to blame”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "fault"
+   ],
+   "components": [],
+   "derived": [
+    "fajësi",
+    "fajësoj",
+    "i fajshëm",
+    "fajshlyes",
+    "fajtoj",
+    "i pafaj",
+    "fengem"
+   ],
+   "related": [
+    "fëjej"
+   ],
+   "forms": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to prove (through testing); to test, to put to the test",
+     "form": "fajtur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "But they are not to blame.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Por ata nuk kanë faj."
+   }
+  },
+  {
+   "id": "çmuar",
+   "sq": "çmuar",
+   "en": "precious, valued, worthy",
+   "glosses": [
+    "precious, valued, worthy"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "precious, valued, worthy",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
+       "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 77"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "13 87"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "prove",
-      "test",
-      "put to the test"
+      "precious",
+      "valued",
+      "worthy"
      ]
     }
    ],
-   "rank": 1477,
-   "count": 600,
-   "family": "provoj",
+   "rank": 3058,
+   "count": 265,
+   "family": "çmuar",
    "is_root": true,
-   "etymology": "Borrowed from Italian provare. Compare Serbo-Croatian probati (“id.”).",
-   "etymology_class": "borrowed",
+   "etymology": "From the participle form of çmoj.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -434,22 +619,28 @@
    "related": [],
    "forms": [
     {
-     "form": "provova",
-     "tag": "aorist"
-    },
-    {
-     "form": "provuar",
-     "tag": "participle"
+     "form": "çmuare",
+     "tag": "feminine"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Supremely precious.",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Shumë e çmuar."
+   }
   },
   {
-   "id": "planet",
-   "sq": "planet",
-   "en": "planet",
+   "id": "majmun",
+   "sq": "majmun",
+   "en": "monkey (primate)",
    "glosses": [
-    "planet"
+    "monkey (primate)"
    ],
    "pos": [
     "noun"
@@ -461,7 +652,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "planet",
+     "gloss": "monkey (primate)",
      "tags": [
       "masculine"
      ],
@@ -473,7 +664,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 16 entries",
+       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -487,64 +678,55 @@
      ],
      "examples": [],
      "links": [
-      "planet"
+      "monkey"
      ]
     }
    ],
-   "rank": 1491,
-   "count": 594,
-   "family": "planet",
+   "rank": 3066,
+   "count": 265,
+   "family": "majmun",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Ottoman Turkish میمون (maymun), from Arabic مَيْمُون (maymūn).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "planete",
-     "tag": "plural"
-    },
-    {
-     "form": "planeti",
-     "tag": "definite"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "planet is in danger.",
+    "corpus": "QED",
+    "en": "You're a monkey.",
     "score": [
-     0,
-     4,
-     -4,
-     10
+     1,
+     3,
+     -2,
+     5
     ],
-    "sq": "planet është në rrezik."
+    "sq": "Dukesh si majmun."
    }
   },
   {
-   "id": "dyshoj",
-   "sq": "dyshoj",
-   "en": "to doubt, suspect",
+   "id": "vepër",
+   "sq": "vepër",
+   "en": "piece (artistic), deed, creation",
    "glosses": [
-    "to doubt, suspect"
+    "piece (artistic), deed, creation"
    ],
    "pos": [
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to doubt, suspect",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "piece (artistic), deed, creation",
      "tags": [
-      "intransitive"
+      "feminine"
      ],
      "cats": [
       {
@@ -568,39 +750,42 @@
      ],
      "examples": [],
      "links": [
-      "doubt",
-      "suspect"
+      "piece",
+      "deed",
+      "creation"
      ]
     }
    ],
-   "rank": 2670,
-   "count": 308,
-   "family": "dyshoj",
+   "rank": 4815,
+   "count": 158,
+   "family": "vepër",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Borrowed from Latin opera (“id”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "id"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "dyshuar",
-     "tag": "participle"
+     "form": "vepra",
+     "tag": "plural"
     }
    ],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I doubt that.",
+    "corpus": "MaCoCu",
+    "en": "The bad word is a bad deed.",
     "score": [
      0,
-     3,
-     -3,
-     10
+     7,
+     -7,
+     8
     ],
-    "sq": "Dyshoj në këtë."
+    "sq": "Fjala e keqe është vepër e keqe."
    }
   }
  ]

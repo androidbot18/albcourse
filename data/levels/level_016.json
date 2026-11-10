@@ -1,66 +1,280 @@
 {
  "level": 16,
- "title": "What, which, how much",
+ "title": "What is your name? 1/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 8,
  "families": [
-  "cila",
-  "cili",
-  "farë",
-  "sa",
-  "çfarë"
+  "Si quheni?",
+  "Si quhesh?",
+  "emër",
+  "juaj",
+  "quaj",
+  "si",
+  "yt"
  ],
  "pos_mix": {
-  "pron": 6,
-  "noun": 4
+  "noun": 5,
+  "phrase": 2,
+  "verb": 2,
+  "pron": 2,
+  "det": 2,
+  "adv": 3
  },
  "words": [
   {
-   "id": "çfarë",
-   "sq": "çfarë",
-   "en": "what",
+   "id": "emër",
+   "sq": "emër",
+   "en": "name",
    "glosses": [
-    "what"
+    "name",
+    "reputation, good name",
+    "noun"
    ],
    "pos": [
-    "pron"
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "pronoun"
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "what",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "name",
      "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Emri im është Ana.",
+       "en": "My name is Ana.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reputation, good name",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 50 41"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 55 42"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "reputation",
+      "good name"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "noun",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Grammar",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Grammar",
+       "langcode": "sq"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 20 76"
       },
       {
-       "name": "Albanian pronouns",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "9 50 41"
       }
      ],
+     "examples": [],
+     "links": [
+      "grammar",
+      "noun"
+     ]
+    }
+   ],
+   "rank": 657,
+   "count": 1553,
+   "family": "emër",
+   "is_root": true,
+   "etymology": "Rhotacism from emën, preserved in Gheg. From Proto-Albanian *é(n)minad, from Pre-Proto-Albanian *é(n)mina, earlier *ánmina < *ánmena, from Proto-Indo-European *h₁ń̥h₃menh₂ (“names”), collective of *h₁nómn̥ (“name”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "emëroj",
+    "emërore",
+    "emërtoj",
+    "emnak",
+    "mbiemër",
+    "njëemërak",
+    "njëemërsh"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "emra",
+     "tag": "plural"
+    },
+    {
+     "form": "emri",
+     "tag": "definite"
+    },
+    {
+     "form": "emrin",
+     "tag": "common form"
+    }
+   ],
+   "forms_line": "emri · pl. emra",
+   "corpus_example": null
+  },
+  {
+   "id": "Si quhesh?",
+   "sq": "Si quhesh?",
+   "en": "What is your name?",
+   "glosses": [
+    "What is your name?"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "What is your name?",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60032,
+   "count": 0,
+   "family": "Si quhesh?",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Si quheni?",
+   "sq": "Si quheni?",
+   "en": "What is your name? (polite)",
+   "glosses": [
+    "What is your name? (polite)"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "What is your name? (polite)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60033,
+   "count": 0,
+   "family": "Si quheni?",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "quhem",
+   "sq": "quhem",
+   "en": "to be called",
+   "glosses": [
+    "to be called",
+    "to be called (named); my name is"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be called",
+     "tags": [],
+     "cats": [],
      "examples": [
       {
-       "sq": "Çfarë doni të pini?",
-       "en": "What do you (plural/polite) want to drink?",
+       "sq": "Quhem Beni.",
+       "en": "My name is Beni.",
        "offsets": [
         [
          0,
@@ -69,23 +283,176 @@
        ]
       }
      ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be called (named); my name is",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -hem",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Unë quhem Lukë.",
+       "en": "My name is Luke.",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      },
+      {
+       "sq": "Besoj se quhet Afërdita.",
+       "en": "I think (that) her name is Aferdita.",
+       "offsets": [
+        [
+         9,
+         14
+        ]
+       ]
+      }
+     ],
      "links": [
-      "what"
+      "called",
+      "named",
+      "my name is"
      ]
     }
    ],
-   "rank": 24,
-   "count": 71341,
-   "family": "çfarë",
-   "is_root": true,
-   "etymology": "From ç' + farë.",
-   "etymology_class": "compound",
+   "rank": 1458,
+   "count": 607,
+   "family": "quaj",
+   "is_root": false,
+   "etymology": "See active Albanian quaj (quaj (call, name) + -hem (-ed to be)).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "farë",
+     "word": "quaj",
+     "role": "base"
+    },
+    {
+     "word": "hem",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "ai quhet · u quajta (past) · jam quajtur",
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "mbiemër",
+   "sq": "mbiemër",
+   "en": "surname",
+   "glosses": [
+    "surname",
+    "adjective"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "surname",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ky është mbiemri im.",
+       "en": "This is my surname.",
+       "offsets": [
+        [
+         9,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "adjective",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Grammar",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Grammar",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "24 76"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "grammar",
+      "adjective"
+     ]
+    }
+   ],
+   "rank": 17368,
+   "count": 32,
+   "family": "emër",
+   "is_root": false,
+   "etymology": "From mbi (“on, upon”) + emër (“name”).",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "name"
+   ],
+   "components": [
+    {
+     "word": "mbi",
+     "role": "prefix"
+    },
+    {
+     "word": "emër",
      "role": "stem"
     }
    ],
@@ -93,468 +460,320 @@
    "related": [],
    "forms": [
     {
-     "form": "çar",
-     "tag": "alternative"
+     "form": "mbiemra",
+     "tag": "plural"
     },
     {
-     "form": "çer",
-     "tag": "alternative"
+     "form": "mbiemri",
+     "tag": "definite"
     }
    ],
+   "forms_line": "mbiemri · pl. mbiemra",
    "corpus_example": null,
    "breakdown": "historical"
   },
   {
-   "id": "sa",
-   "sq": "sa",
-   "en": "how much",
+   "id": "yt",
+   "sq": "yt",
+   "en": "your (to a friend)",
    "glosses": [
-    "how much"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "how much",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 111 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "how much"
-     ]
-    }
-   ],
-   "rank": 61,
-   "count": 24467,
-   "family": "sa",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *si-a, a combination of two pronominal members, Proto-Indo-European *kʷih₂ and *h₂ew-/*h₂en-. Alternatively from Proto-Albanian *tšja or, as per Meyer, from Greek σαν (san, “when, whenever”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Which is what?",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Sa është kjo?"
-   }
-  },
-  {
-   "id": "cili",
-   "sq": "cili",
-   "en": "which, who (also whom, which one, to whom, to which - for non-nominative forms)",
-   "glosses": [
-    "which, who (also whom, which one, to whom, to which - for non-nominative forms)",
-    "which, who (also whom, to whom, to which - for non-nominative forms)"
+    "your (to a friend)",
+    "your (singular)"
    ],
    "pos": [
     "pron",
-    "pron"
+    "det"
    ],
    "pos_labels": [
     "pronoun",
-    "pronoun"
+    "determiner"
    ],
    "sense_detail": [
     {
      "pos": "pron",
      "pos_label": "pronoun",
-     "gloss": "which, who (also whom, which one, to whom, to which - for non-nominative forms)",
-     "tags": [
-      "interrogative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "58 42"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "which",
-      "who",
-      "whom"
-     ]
-    },
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "which, who (also whom, to whom, to which - for non-nominative forms)",
-     "tags": [
-      "relative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "which",
-      "who",
-      "whom"
-     ]
-    }
-   ],
-   "rank": 275,
-   "count": 4077,
-   "family": "cili",
-   "is_root": true,
-   "etymology": "Present in the early authors such as Buzuku and Bogdani with a starting s- (Të sillë doni ju e t u lëshonj...? - Whom do you want me to release to you?). It represents a nominative form of cilë, from cilnë via ln:l assimilation, itself a generalized accusative form of archaic cillë, sillë. The leading c- is a derivation of të s-. Ultimately from the particle and adverb si.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "silli",
-     "tag": "alternative"
-    },
-    {
-     "form": "cilli",
-     "tag": "alternative"
-    },
-    {
-     "form": "çili",
-     "tag": "alternative"
-    },
-    {
-     "form": "çeli",
-     "tag": "alternative"
-    },
-    {
-     "form": "sill",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Who was this man?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Cili ishte ky njeri?"
-   }
-  },
-  {
-   "id": "cila",
-   "sq": "cila",
-   "en": "which, who (also whom, which one, to whom, to which - for non-nominative forms)",
-   "glosses": [
-    "which, who (also whom, which one, to whom, to which - for non-nominative forms)",
-    "which, who (also whom, to whom, to which - for non-nominative forms)"
-   ],
-   "pos": [
-    "pron",
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun",
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "which, who (also whom, which one, to whom, to which - for non-nominative forms)",
-     "tags": [
-      "interrogative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "58 42"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "which",
-      "who",
-      "whom"
-     ]
-    },
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "which, who (also whom, to whom, to which - for non-nominative forms)",
-     "tags": [
-      "relative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "49 51"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "which",
-      "who",
-      "whom"
-     ]
-    }
-   ],
-   "rank": 393,
-   "count": 2668,
-   "family": "cila",
-   "is_root": true,
-   "etymology": "Feminine of cili, see there for more details.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "silla",
-     "tag": "alternative"
-    },
-    {
-     "form": "cilla",
-     "tag": "alternative"
-    },
-    {
-     "form": "çila",
-     "tag": "alternative"
-    },
-    {
-     "form": "çela",
-     "tag": "alternative"
-    },
-    {
-     "form": "çilja",
-     "tag": "alternative"
-    },
-    {
-     "form": "cilja",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Which could it be?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Cila mund të jetë?"
-   }
-  },
-  {
-   "id": "farë",
-   "sq": "farë",
-   "en": "seed",
-   "glosses": [
-    "seed",
-    "kind, sort (një farë, a sort of)",
-    "sperm, semen",
-    "descendants, lineage, progeny, offspring"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "seed",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "seed"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "kind, sort (një farë, a sort of)",
+     "gloss": "your (to a friend)",
      "tags": [],
      "cats": [],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Kush është miku yt?",
+       "en": "Who is your friend?",
+       "offsets": [
+        [
+         16,
+         18
+        ]
+       ]
+      }
+     ],
      "links": []
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sperm, semen",
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "your (singular)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
      "examples": [],
      "links": [
-      "sperm",
-      "semen"
+      "your"
      ]
+    }
+   ],
+   "rank": 169,
+   "count": 7505,
+   "family": "yt",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "jote",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "juaj",
+   "sq": "juaj",
+   "en": "your (polite or plural)",
+   "glosses": [
+    "your (polite or plural)",
+    "your (plural or polite)"
+   ],
+   "pos": [
+    "pron",
+    "det"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "determiner"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "your (polite or plural)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Emri juaj, ju lutem?",
+       "en": "Your name, please?",
+       "offsets": [
+        [
+         5,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": []
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "descendants, lineage, progeny, offspring",
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "your (plural or polite)",
      "tags": [
-      "feminine"
+      "masculine"
      ],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian links with redundant alt parameters",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "your"
+     ]
+    }
+   ],
+   "rank": 201,
+   "count": 6340,
+   "family": "juaj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "juaj",
+     "tag": "feminine"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "si",
+   "sq": "si",
+   "en": "how; like, as",
+   "glosses": [
+    "how; like, as",
+    "how; in what way; in what state",
+    "like, as"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "how; like, as",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Si quhet ajo?",
+       "en": "What is she called?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "how; in what way; in what state",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 5 91"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "11 11 79"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 4 92"
+       "_dis": "100 0"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Si janë shokët e tu?",
+       "en": "How are your friends?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
      "links": [
-      "descendants",
-      "lineage",
-      "progeny"
+      "how"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "like, as",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Si e dini, nuk kemi filluar ende.",
+       "en": "As you know, we've not yet begun.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "like",
+      "as"
      ]
     }
    ],
-   "rank": 665,
-   "count": 1535,
-   "family": "farë",
+   "rank": 27,
+   "count": 64570,
+   "family": "si",
    "is_root": true,
-   "etymology": "From Proto-Albanian *farā-, from *pʰarā-, from EPA *pharā-, (via metathesis) from Pre-Proto-Albanian *hparā-, from *sparā-, from Proto-Indo-European *sporéh₂ < *sper- (“to spread out”). Compare Ancient Greek σπόρος (spóros, “seed”).",
+   "etymology": "Varying reconstructions. Orel descends it from Proto-Albanian *tšei, Matzinger from Proto-Albanian *čī. Ultimately from instrumental Proto-Indo-European *kʷí-h₁. Compare Latin qui (“how, why”), Old English hwȳ, hwī (“why”). An interrogative and relative pronoun, especially in connection with a preposition.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "çfarë",
-    "fare",
-    "farës",
-    "faroj"
+    "cila",
+    "cili",
+    "disi",
+    "sesi",
+    "sido",
+    "sidoqoftë",
+    "sivjet"
    ],
-   "related": [],
-   "forms": [
-    {
-     "form": "fara",
-     "tag": "plural"
-    }
+   "related": [
+    "qysh"
    ],
+   "forms": [],
    "corpus_example": null
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 6,
+ "unit_title": "What is your name?",
+ "situation": "Introducing yourself"
 }

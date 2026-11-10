@@ -1,102 +1,67 @@
 {
  "level": 132,
- "title": "dal, midis, ej",
+ "title": "On the phone 2/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "dal",
-  "ej",
-  "midis"
+  "gabuar",
+  "lë",
+  "mesazh",
+  "përsëris",
+  "qartë",
+  "telefonatë",
+  "zë"
  ],
  "pos_mix": {
-  "verb": 5,
-  "intj": 2,
-  "prep": 2
+  "noun": 9,
+  "verb": 20,
+  "adj": 3
  },
  "words": [
   {
-   "id": "dal",
-   "sq": "dal",
-   "en": "to exit, go out",
+   "id": "mesazh",
+   "sq": "mesazh",
+   "en": "message",
    "glosses": [
-    "to exit, go out",
-    "to leave",
-    "to come; to do come"
+    "message"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to exit, go out",
-     "tags": [
-      "active"
-     ],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "message",
+     "tags": [],
      "cats": [],
-     "examples": [],
-     "links": [
-      "exit",
-      "go",
-      "out"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to leave",
-     "tags": [
-      "active"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "leave"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to come; to do come",
-     "tags": [
-      "impersonal",
-      "passive",
-      "third-person"
-     ],
-     "cats": [
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 5 80"
+       "sq": "Më dërgo një mesazh!",
+       "en": "Send me a message!",
+       "offsets": [
+        [
+         13,
+         19
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "links": [
-      "come",
-      "do",
-      "come"
-     ]
+     "links": []
     }
    ],
-   "rank": 560,
-   "count": 1845,
-   "family": "dal",
+   "rank": 953,
+   "count": 1001,
+   "family": "mesazh",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dala, from Proto-Indo-European *dʰelh₁- (“to spring forth, flourish”). Compare Ancient Greek θάλλω (thállō, “to grow, bloom, thrive”), Welsh deillio (“to emanate, derive”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from French message.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -105,196 +70,707 @@
    "related": [],
    "forms": [
     {
-     "form": "dalë",
-     "tag": "participle"
+     "form": "mesazhe",
+     "tag": "plural"
+    },
+    {
+     "form": "mesazhi",
+     "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Get out of here.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Dal nga këtu."
-   }
+   "forms_line": "mesazhi · pl. mesazhe",
+   "corpus_example": null
   },
   {
-   "id": "ej",
-   "sq": "ej",
-   "en": "a call for attention. hey!, oi!",
+   "id": "lë",
+   "sq": "lë",
+   "en": "to leave; to let",
    "glosses": [
-    "a call for attention. hey!, oi!",
-    "yes"
+    "to leave; to let",
+    "let",
+    "to leave, to leave behind",
+    "to let be",
+    "to decide, put; release",
+    "to set/put aside; to pass on/save (something) for later (or for someone else)",
+    "to lose (e.g. money, a game); to have something removed (from one's body)",
+    "to entrust, intrust; assign; give (someone a task, job, order, advice); to blame someone",
+    "to make or cause something; to mark (impression)",
+    "to allow, don't hinder; to give/create someone an opportunity; to vacate (a place or land)",
+    "to don't change/touch/disturb something/someone (leave in its previous state/condition)",
+    "to keep (it as it is)",
+    "to postpone, delay (learning, study, work, meeting, appointment, task, decision, etc.)",
+    "to leave someone; to separate from/break up with someone",
+    "to finish, quit (school, study, job, meeting, game; friendship, realtionship - or quit smoking, alcohol etc.)"
    ],
    "pos": [
-    "intj",
-    "intj"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "interjection",
-    "interjection"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "a call for attention. hey!, oi!",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave; to let",
      "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mund të lë një mesazh?",
+       "en": "Can I leave a message?",
+       "offsets": [
+        [
+         8,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "let",
+     "tags": [
+      "active",
+      "figuratively",
+      "jussive",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "let"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave, to leave behind",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave",
+      "leave behind"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to let be",
+     "tags": [
+      "active",
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
-      }
-     ],
-     "examples": [
+       "_dis": "5 32 7 3 5 18 3 3 2 7 3 7 3 2"
+      },
       {
-       "sq": "Ej ti, ku shkon?",
-       "en": "Hey you, where are you going?",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 45 2 2 5 19 3 3 2 3 3 3 3 2"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 47 2 2 4 19 2 3 2 3 3 3 2 2"
       }
      ],
+     "examples": [],
      "links": [
-      "hey",
-      "oi"
+      "let",
+      "be"
      ]
     },
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "yes",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to decide, put; release",
      "tags": [
-      "archaic"
+      "active",
+      "transitive"
      ],
      "cats": [],
      "examples": [],
      "links": [
-      "yes"
+      "decide",
+      "put",
+      "release"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to set/put aside; to pass on/save (something) for later (or for someone else)",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "set",
+      "put",
+      "aside"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to lose (e.g. money, a game); to have something removed (from one's body)",
+     "tags": [
+      "active",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "lose",
+      "have",
+      "removed"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to entrust, intrust; assign; give (someone a task, job, order, advice); to blame someone",
+     "tags": [
+      "active",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "entrust",
+      "intrust",
+      "assign"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to make or cause something; to mark (impression)",
+     "tags": [
+      "active",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "make",
+      "cause",
+      "mark"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to allow, don't hinder; to give/create someone an opportunity; to vacate (a place or land)",
+     "tags": [
+      "active",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "allow",
+      "don't",
+      "hinder"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to don't change/touch/disturb something/someone (leave in its previous state/condition)",
+     "tags": [
+      "active",
+      "figuratively",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "→ + short pronoun më (“me”):",
+       "en": "",
+       "offsets": []
+      },
+      {
+       "sq": "(it/they) take(s) over (one's physical or mental ability/strength/function)",
+       "en": "",
+       "offsets": []
+      }
+     ],
+     "links": [
+      "change",
+      "touch",
+      "disturb"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to keep (it as it is)",
+     "tags": [
+      "active",
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "keep"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to postpone, delay (learning, study, work, meeting, appointment, task, decision, etc.)",
+     "tags": [
+      "active",
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "postpone",
+      "delay"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to leave someone; to separate from/break up with someone",
+     "tags": [
+      "active",
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "leave",
+      "separate",
+      "break"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to finish, quit (school, study, job, meeting, game; friendship, realtionship - or quit smoking, alcohol etc.)",
+     "tags": [
+      "active",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "finish",
+      "quit"
      ]
     }
    ],
-   "rank": 561,
-   "count": 1839,
-   "family": "ej",
+   "rank": 400,
+   "count": 2639,
+   "family": "lë",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From *lan, from Proto-Albanian *ladna, from Proto-Indo-European *lh̥₁d-ne/o-, from *leh₁d- (“to be tired”); cf. (Germanic) Gothic 𐌻𐌴𐍄𐌰𐌽 (lētan, “to let”) (English let (“id”)) and (Baltic) Latvian laist (“to let”), ļaut (“id”), Lithuanian leisti (“id”).",
+   "etymology_class": "root",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [],
-   "forms": [],
+   "related": [
+    "felëshues",
+    "felëshuese",
+    "lashë",
+    "lasht",
+    "lashta"
+   ],
+   "forms": [
+    {
+     "form": "lashë",
+     "tag": "aorist"
+    },
+    {
+     "form": "lënë",
+     "tag": "participle"
+    },
+    {
+     "form": "loj",
+     "tag": "alternative"
+    },
+    {
+     "form": "lër",
+     "tag": "common form"
+    }
+   ],
+   "forms_line": "ai lë · lashë (past) · kam lënë",
    "corpus_example": null
   },
   {
-   "id": "dil",
-   "sq": "dil",
-   "en": "you (sg)! (from dal, to exit)",
+   "id": "zë",
+   "sq": "zë",
+   "en": "voice",
    "glosses": [
-    "you (sg)! (from dal, to exit)"
+    "voice",
+    "to take, occupy",
+    "to do, make",
+    "to grab, snatch, seize",
+    "to catch",
+    "soul, mind",
+    "willpower",
+    "characteristic sound of something",
+    "vote",
+    "item (of goods, on a list), entry (in a ledger or dictionary)",
+    "reputation"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "voice",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Nuk e dëgjoj zërin tënd.",
+       "en": "I can't hear your voice.",
+       "offsets": [
+        [
+         13,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "you (sg)! (from dal, to exit)",
+     "gloss": "to take, occupy",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "take",
+      "occupy"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to do, make",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "do",
+      "make"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to grab, snatch, seize",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "grab",
+      "snatch",
+      "seize"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to catch",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "catch"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "soul, mind",
      "tags": [
-      "form-of",
-      "imperative",
-      "second-person",
-      "singular"
+      "Arbëresh"
+     ],
+     "cats": [
+      {
+       "name": "Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "soul",
+      "mind"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "willpower",
+     "tags": [
+      "Arbëresh"
+     ],
+     "cats": [
+      {
+       "name": "Arbëresh Albanian",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "willpower"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "characteristic sound of something",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian undefined derivations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 24 9 9 18 0 0 12 0 10 9"
+      }
+     ],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vote",
+     "tags": [
+      "dated",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "vote"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "item (of goods, on a list), entry (in a ledger or dictionary)",
+     "tags": [
+      "masculine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "3 8 3 3 25 9 9 16 9 12 3"
       },
       {
-       "name": "Pages with 22 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "3 3 3 3 39 9 9 9 9 10 3"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "4 4 4 4 38 8 8 8 8 11 4"
       }
      ],
      "examples": [],
-     "is_form_of": "dal"
+     "links": [
+      "item",
+      "entry"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "reputation",
+     "tags": [
+      "figuratively",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "reputation"
+     ]
     }
    ],
-   "rank": 576,
-   "count": 1775,
-   "family": "dal",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 934,
+   "count": 1025,
+   "family": "zë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *j́u̯anʉh, from Proto-Indo-European *ǵʰwonos. Compare Messapic den (“voice”) Serbo-Croatian zvono (“bell”), Armenian ձայն (jayn, “voice”).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Get outside every day.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Dil jashtë çdo ditë."
-   }
+   "derived": [
+    "zënkë"
+   ],
+   "related": [
+    "i zënë",
+    "zihem",
+    "nxë",
+    "zeje"
+   ],
+   "forms": [
+    {
+     "form": "zura",
+     "tag": "aorist"
+    },
+    {
+     "form": "zënë",
+     "tag": "participle"
+    },
+    {
+     "form": "zërin",
+     "tag": "common form"
+    }
+   ],
+   "forms_line": "zëri · pl. zëra",
+   "corpus_example": null
   },
   {
-   "id": "dilni",
-   "sq": "dilni",
-   "en": "you (pl)! (from dal, to exit)",
+   "id": "qartë",
+   "sq": "qartë",
+   "en": "clear, clearly",
    "glosses": [
-    "you (pl)! (from dal, to exit)"
+    "clear, clearly",
+    "clear"
    ],
    "pos": [
-    "verb"
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl)! (from dal, to exit)",
-     "tags": [
-      "form-of",
-      "imperative",
-      "plural",
-      "second-person"
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "clear, clearly",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Nuk dëgjoj qartë.",
+       "en": "I can't hear clearly.",
+       "offsets": [
+        [
+         11,
+         16
+        ]
+       ]
+      }
      ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "clear",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -316,13 +792,66 @@
       }
      ],
      "examples": [],
-     "is_form_of": "dal"
+     "links": [
+      "clear"
+     ]
     }
    ],
-   "rank": 967,
-   "count": 980,
-   "family": "dal",
-   "is_root": false,
+   "rank": 600,
+   "count": 1701,
+   "family": "qartë",
+   "is_root": true,
+   "etymology": "Seemingly from Italian chiaro. However, due to the existence of dialectal klartë and kjartë, a loan from Latin clarus seems more probable.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "i qartë · e qartë",
+   "corpus_example": null
+  },
+  {
+   "id": "përsëris",
+   "sq": "përsëris",
+   "en": "to repeat",
+   "glosses": [
+    "to repeat"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to repeat",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mund ta përsëritni, ju lutem?",
+       "en": "Can you repeat it, please?",
+       "offsets": [
+        [
+         8,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 2110,
+   "count": 407,
+   "family": "përsëris",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -332,117 +861,114 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "How to log out?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Si të dilni jashtë?"
-   }
+   "forms_line": "ai përsërit · përsërita (past) · kam përsëritur",
+   "corpus_example": null
   },
   {
-   "id": "midis",
-   "sq": "midis",
-   "en": "between, among",
+   "id": "gabuar",
+   "sq": "gabuar",
+   "en": "wrong",
    "glosses": [
-    "between, among",
-    "in the middle of"
+    "wrong"
    ],
    "pos": [
-    "prep",
-    "prep"
+    "adj"
    ],
    "pos_labels": [
-    "preposition",
-    "preposition"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "between, among",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "wrong",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      },
-      {
-       "name": "Albanian prepositions governing the ablative",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "61 39"
+       "sq": "Keni numër të gabuar.",
+       "en": "You have the wrong number.",
+       "offsets": [
+        [
+         14,
+         20
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "links": [
-      "between",
-      "among"
-     ]
-    },
-    {
-     "pos": "prep",
-     "pos_label": "preposition",
-     "gloss": "in the middle of",
-     "tags": [
-      "with-ablative"
-     ],
-     "cats": [
-      {
-       "name": "Albanian prepositions",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "55 45"
-      }
-     ],
-     "examples": [],
      "links": []
     }
    ],
-   "rank": 1284,
-   "count": 699,
-   "family": "midis",
+   "rank": 574,
+   "count": 1779,
+   "family": "gabuar",
    "is_root": true,
-   "etymology": "Most likely a variant of mjedis. More at mjedis.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "mes"
-   ],
+   "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Between 6 and 7 million years ago.",
-    "score": [
-     1,
-     6,
-     -5,
-     5
-    ],
-    "sq": "Midis 6 dhe 7 milionë vjet më parë."
-   }
+   "forms_line": "i gabuar · e gabuar",
+   "corpus_example": null
+  },
+  {
+   "id": "telefonatë",
+   "sq": "telefonatë",
+   "en": "phone call",
+   "glosses": [
+    "phone call"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "phone call",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pres një telefonatë.",
+       "en": "I am waiting for a phone call.",
+       "offsets": [
+        [
+         9,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 1868,
+   "count": 462,
+   "family": "telefonatë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "telefonata · pl. telefonata",
+   "corpus_example": null
   }
- ]
+ ],
+ "opening": true,
+ "unit": 42,
+ "unit_title": "On the phone",
+ "situation": "Phone and messages"
 }

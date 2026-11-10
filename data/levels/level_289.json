@@ -1,41 +1,39 @@
 {
  "level": 289,
- "title": "bote, gënjej, rob +3",
+ "title": "buzë (more), parti, shpjegoj (more) +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "bankë",
-  "bote",
-  "gënjej",
-  "kampion",
-  "rob",
-  "vonuar"
+  "anës",
+  "buzë",
+  "merimangë",
+  "parti",
+  "shpjegoj",
+  "shyqyr"
  ],
  "pos_mix": {
-  "noun": 12,
-  "adj": 1,
-  "verb": 2
+  "noun": 10,
+  "verb": 3,
+  "intj": 1,
+  "prep": 3
  },
  "words": [
   {
-   "id": "bote",
-   "sq": "bote",
-   "en": "clay vessel; pitcher",
+   "id": "parti",
+   "sq": "parti",
+   "en": "party",
    "glosses": [
-    "clay vessel; pitcher",
-    "bump, impact, shock, encounter",
-    "bottle"
+    "party",
+    "political party"
    ],
    "pos": [
-    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun",
     "noun"
    ],
@@ -43,22 +41,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "clay vessel; pitcher",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "clay",
-      "vessel",
-      "pitcher"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bump, impact, shock, encounter",
+     "gloss": "party",
      "tags": [
       "feminine"
      ],
@@ -68,36 +51,53 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 46 7 39"
+       "_dis": "50 50"
       }
      ],
      "examples": [],
      "links": [
-      "bump",
-      "impact",
-      "shock"
+      "party"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "bottle",
+     "gloss": "political party",
      "tags": [
       "feminine"
      ],
-     "cats": [],
-     "examples": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Partitë kryesore e Kosovës përfshijnë...",
+       "en": "Kosovo's main political parties include...",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
      "links": [
-      "bottle"
+      "political party"
      ]
     }
    ],
-   "rank": 2594,
-   "count": 319,
-   "family": "bote",
+   "rank": 5158,
+   "count": 145,
+   "family": "parti",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Ultimately from Medieval Latin partīta (“part, party”), from Latin partīta, feminine of partītus, past participle of partīrī (“to divide”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -106,45 +106,37 @@
    "related": [],
    "forms": [
     {
-     "form": "bote",
+     "form": "parti",
      "tag": "plural"
     },
     {
-     "form": "botja",
+     "form": "partia",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "She too was of this world.",
-    "score": [
-     0,
-     6,
-     -6,
-     10
-    ],
-    "sq": "Edhe ajo ishte e kësaj bote."
-   }
+   "corpus_example": null
   },
   {
-   "id": "gënjeshtar",
-   "sq": "gënjeshtar",
-   "en": "liar",
+   "id": "shpjegim",
+   "sq": "shpjegim",
+   "en": "explanation",
    "glosses": [
-    "liar"
+    "explanation"
    ],
    "pos": [
-    "noun"
+    "verb"
    ],
    "pos_labels": [
-    "noun"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "liar",
-     "tags": [],
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "explanation",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -153,7 +145,7 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -tar",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -167,217 +159,78 @@
      ],
      "examples": [],
      "links": [
-      "liar"
+      "explanation"
      ]
     }
    ],
-   "rank": 2595,
-   "count": 319,
-   "family": "gënjej",
+   "rank": 5180,
+   "count": 145,
+   "family": "shpjegoj",
    "is_root": false,
-   "etymology": "From gënjej + -tar.",
+   "etymology": "From shpjegoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "gënjej",
+     "word": "shpjegoj",
      "role": "base",
-     "en": "to lie"
+     "en": "to explain"
     },
     {
-     "word": "tar",
+     "word": "im",
      "role": "suffix",
-     "affix": "tar",
-     "meaning": "person / of"
+     "affix": "im",
+     "meaning": "the act of (noun)"
     }
    ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "A liar and a thief.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Gënjeshtar dhe hajdut."
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "rob",
-   "sq": "rob",
-   "en": "slave",
-   "glosses": [
-    "slave",
-    "serf",
-    "prisoner of war",
-    "person, family member",
-    "servant"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "slave",
-     "tags": [
-      "historical",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "slave"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "serf",
-     "tags": [
-      "historical",
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "serf"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "prisoner of war",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "prisoner of war"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "person, family member",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "person",
-      "family",
-      "member"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "servant",
-     "tags": [
-      "derogatory",
-      "figuratively",
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 7 11 44 32"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "servant"
-     ]
-    }
-   ],
-   "rank": 2600,
-   "count": 318,
-   "family": "rob",
-   "is_root": true,
-   "etymology": "From a South Slavic language; compare Serbo-Croatian rob, Macedonian роб (rob), Bulgarian роб (rob), ultimately derived from Proto-Slavic *orbъ (“servant, slave”).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "robëri",
-    "robëreshë",
-    "robinjë",
-    "robëroj",
-    "robi"
-   ],
-   "related": [],
    "forms": [
     {
-     "form": "robër",
+     "form": "shpjegime",
      "tag": "plural"
     },
     {
-     "form": "robi",
+     "form": "shpjegimi",
      "tag": "definite"
-    },
-    {
-     "form": "rob",
-     "tag": "plural"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Daniel was taken captive here.",
+    "en": "No other explanation.",
     "score": [
-     1,
-     5,
-     -4,
+     0,
+     3,
+     -3,
      10
     ],
-    "sq": "Danieli u kap rob këtu."
-   }
+    "sq": "Asnjë shpjegim tjetër."
+   },
+   "breakdown": "transparent"
   },
   {
-   "id": "vonuar",
-   "sq": "vonuar",
-   "en": "late; retarded, feeble-minded",
+   "id": "merimangë",
+   "sq": "merimangë",
+   "en": "spider",
    "glosses": [
-    "late; retarded, feeble-minded"
+    "spider"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "late; retarded, feeble-minded",
-     "tags": [],
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "spider",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -400,197 +253,501 @@
      ],
      "examples": [],
      "links": [
-      "late",
-      "retarded",
-      "feeble-minded"
+      "spider"
      ]
     }
    ],
-   "rank": 2610,
-   "count": 316,
-   "family": "vonuar",
+   "rank": 5183,
+   "count": 144,
+   "family": "merimangë",
    "is_root": true,
-   "etymology": "From vonë.",
-   "etymology_class": null,
+   "etymology": "First attested as mrīmagë; borrowed from Greek μυρμήγκι (myrmígki, “ant”).\nAccording to Kristofordhi and Mihăescu, a borrowing from Doric Greek μύρμαξ (múrmax)",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "ant"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "merimanga",
+     "tag": "plural"
+    },
+    {
+     "form": "merimagë",
+     "tag": "alternative"
+    },
+    {
+     "form": "mirëmangë",
+     "tag": "alternative"
+    },
+    {
+     "form": "marimagë",
+     "tag": "alternative"
+    },
+    {
+     "form": "bajrimagë",
+     "tag": "alternative"
+    },
+    {
+     "form": "bërmajë",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Control spider man game is the keyboard.",
+    "score": [
+     2,
+     6,
+     -4,
+     10
+    ],
+    "sq": "Kontrolli lojë merimangë njeri është tastierë."
+   }
+  },
+  {
+   "id": "shyqyr",
+   "sq": "shyqyr",
+   "en": "thank God!",
+   "glosses": [
+    "thank God!",
+    "thankfulness, gratitude"
+   ],
+   "pos": [
+    "intj",
+    "noun"
+   ],
+   "pos_labels": [
+    "interjection",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "thank God!",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "100 0"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "thank God"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "thankfulness, gratitude",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "thankfulness",
+      "gratitude"
+     ]
+    }
+   ],
+   "rank": 5207,
+   "count": 144,
+   "family": "shyqyr",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish شكر (şükr, vulg. şükür, “thankfulness, gratitude”), itself derived from Arabic شُكْر (šukr).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "m",
-     "tag": "feminine"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "We are very late.",
+    "en": "I'm glad I did!",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Jemi shumë të vonuar."
+    "sq": "Shyqyr që bëra kështu!"
    }
   },
   {
-   "id": "bankë",
-   "sq": "bankë",
-   "en": "bank",
+   "id": "buzë",
+   "sq": "buzë",
+   "en": "nigh, to/at the side of",
    "glosses": [
-    "bank",
-    "desk"
+    "nigh, to/at the side of",
+    "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+    "lip",
+    "muzzle, snout",
+    "edge, rim, side",
+    "beginning (of an event/time)",
+    "cliff",
+    "rocky chasm, (rocky) cliffs; sharp rock(s), boulders"
    ],
    "pos": [
+    "prep",
+    "prep",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "preposition",
+    "preposition",
+    "noun",
+    "noun",
+    "noun",
+    "noun",
     "noun",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bank",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "nigh, to/at the side of",
      "tags": [
-      "feminine"
+      "with-ablative"
      ],
      "cats": [
       {
-       "name": "Albanian entries with etymon",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "15 19 3 12 4 6 22 19"
       },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      },
+      {
+       "name": "Albanian terms suffixed with -zë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 18 4 23 5 6 12 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "nigh",
+      "to",
+      "at"
+     ]
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "on, to (onto); by; upon, at (some point) (terminal or associated with a location)",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "8 29 2 12 2 23 5 20"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
       }
      ],
      "examples": [],
      "links": [
-      "bank"
+      "on",
+      "to",
+      "onto"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "desk",
-     "tags": [
-      "feminine"
-     ],
+     "gloss": "lip",
+     "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with etymon",
+       "name": "Anatomy",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Anatomy",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian prepositions",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "anatomy",
+      "lip"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "muzzle, snout",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Veterinary medicine",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Veterinary medicine",
+       "langcode": "sq"
+      },
+      {
+       "name": "Zoology",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Zoology",
+       "langcode": "sq"
       },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "50 50"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "50 50"
+       "_dis": "8 29 2 12 2 23 5 20"
       }
      ],
      "examples": [],
      "links": [
-      "desk"
+      "zoology",
+      "veterinary medicine",
+      "muzzle"
      ]
-    }
-   ],
-   "rank": 2613,
-   "count": 316,
-   "family": "bankë",
-   "is_root": true,
-   "etymology": "Borrowed from Italian banca, or more likely through Venetan. Possibly also through French banque or even English bank, though it was used since Buzuku (1555).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "Banka Botërore",
-    "bankë qendrore"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "banka",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "To choose a bank.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Për të zgjedhur një bankë."
-   }
-  },
-  {
-   "id": "kampion",
-   "sq": "kampion",
-   "en": "champion",
-   "glosses": [
-    "champion"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
+    },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "champion",
+     "gloss": "edge, rim, side",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "edge",
+      "rim",
+      "side"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "beginning (of an event/time)",
      "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 19 3 12 4 6 22 19"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 24 1 19 1 5 15 14"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "beginning"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "cliff",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "cliff"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rocky chasm, (rocky) cliffs; sharp rock(s), boulders",
+     "tags": [
+      "in-plural"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "8 29 2 12 2 23 5 20"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "7 25 2 8 3 37 5 13"
       },
       {
        "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "5 19 2 6 2 35 3 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "chasm",
+      "rock",
+      "boulders"
+     ]
+    }
+   ],
+   "rank": 5429,
+   "count": 137,
+   "family": "buzë",
+   "is_root": true,
+   "etymology": "From archaic and now chiefly dialectal (Arbëresh) budhë + -zë (collective suffix), from Proto-Albanian *budzā, from Proto-Indo-European *bʰudʰmḗn (“bottom”); compare Lithuanian budė̃ (“tree-fungus”), bùdė (“whetstone”), Sanskrit बुध्न (budhna), Ancient Greek πυθμήν (puthmḗn, “bottom”), Latin fundus (“bottom, piece of land, farm”). Possibly lent Romanian buză.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "bottom",
+    "whetstone"
+   ],
+   "components": [],
+   "derived": [
+    "buzaç",
+    "buzak",
+    "buzake",
+    "buzël",
+    "buzëqeshje",
+    "buzëz",
+    "buzinë",
+    "buzm"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Everything is on edge.",
+    "score": [
+     0,
+     5,
+     -5,
+     10
+    ],
+    "sq": "Çdo gjë është në buzë."
+   }
+  },
+  {
+   "id": "anës",
+   "sq": "anës",
+   "en": "along, beside, by",
+   "glosses": [
+    "along, beside, by"
+   ],
+   "pos": [
+    "prep"
+   ],
+   "pos_labels": [
+    "preposition"
+   ],
+   "sense_detail": [
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "along, beside, by",
+     "tags": [
+      "with-ablative"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian prepositions governing the ablative",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -598,13 +755,15 @@
      ],
      "examples": [],
      "links": [
-      "champion"
+      "along",
+      "beside",
+      "by"
      ]
     }
    ],
-   "rank": 2617,
-   "count": 315,
-   "family": "kampion",
+   "rank": 5794,
+   "count": 126,
+   "family": "anës",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -617,23 +776,23 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Be a champion!",
+    "en": "I walked by the canal.",
     "score": [
-     0,
+     2,
      4,
-     -4,
+     -2,
      10
     ],
-    "sq": "Të jetë një kampion!"
+    "sq": "Unë ecja anës kanalit."
    }
   },
   {
-   "id": "gënjej",
-   "sq": "gënjej",
-   "en": "to lie",
+   "id": "përbuz",
+   "sq": "përbuz",
+   "en": "to despise, disdain",
    "glosses": [
-    "to lie",
-    "to mislead"
+    "to despise, disdain",
+    "to overcome, not fear"
    ],
    "pos": [
     "verb",
@@ -647,84 +806,90 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to lie",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "lie"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to mislead",
-     "tags": [],
+     "gloss": "to despise, disdain",
+     "tags": [
+      "transitive"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "42 58"
+       "_dis": "57 43"
+      },
+      {
+       "name": "Albanian terms prefixed with për-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "56 44"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "43 57"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 80"
+       "_dis": "57 43"
       }
      ],
      "examples": [],
      "links": [
-      "mislead"
+      "despise",
+      "disdain"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to overcome, not fear",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "overcome",
+      "fear"
      ]
     }
    ],
-   "rank": 3123,
-   "count": 259,
-   "family": "gënjej",
-   "is_root": true,
-   "etymology": "Borrowed from Vulgar Latin ingannō, from Latin ganniō. Compare Romanian îngâna.",
-   "etymology_class": "borrowed",
+   "rank": 29542,
+   "count": 15,
+   "family": "buzë",
+   "is_root": false,
+   "etymology": "From për- + buzë (“lip”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "gënjeshtër",
-    "zhgënjej"
+   "parents": [
+    "lip"
    ],
+   "components": [
+    {
+     "word": "për",
+     "role": "prefix"
+    },
+    {
+     "word": "buzë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "gënjeva",
+     "form": "përbuza",
      "tag": "aorist"
     },
     {
-     "form": "gënjyer",
+     "form": "përbuzur",
      "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "If I lie, tell me?",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Nëse gënjej, më thuaj?"
-   }
+   "corpus_example": null,
+   "breakdown": "historical"
   }
- ]
+ ],
+ "extended": true
 }

@@ -101,7 +101,10 @@ if W:
     # for the curated opening (RECOMMENDATIONS.md section 3.2), and the four
     # days Wiktionary files under their article (pos_balance.ARTICLED_ENTRIES),
     # plus the 41 core words Wiktionary lacks (tools/added_words.py).
-    check("the deck has 4133 cards", len(W), 4133)
+    # The Conversation Core (CONVERSATION_PLAN.md) then folds the 362
+    # inflected-form cards into their words and adds 144 words and 157
+    # phrases: 4133 - 362 + 144 + 157.
+    check("the deck has 4072 cards", len(W), 4072)
 
     # The policy governs the SCHEDULER, which starts after the curated
     # opening (tools/opening_levels.py). That opening teaches `jo` and the
@@ -132,10 +135,14 @@ if W:
     # Conjugations stay. The copula is the clearest case: the gate once
     # deferred the whole `jam` family because it also held `meqenese`
     # ("because", a conjunction), which sent eshte -- rank 6 -- to level 186.
-    check("eshte teaches inside the opening",
-          byw["është"]["level"] <= 10, True)
-    check("the jam paradigm teaches inside the opening",
-          byw["jemi"]["level"] <= 10, True)
+    # One card per word (CONVERSATION_PLAN.md step 2): the paradigm is no
+    # longer six cards, it is the forms line on the card for `jam`.
+    check("jam teaches inside the opening",
+          byw["jam"]["level"] <= 10, True)
+    check("the jam paradigm is on the jam card",
+          all(f in (byw["jam"].get("forms") or "")
+              for f in ("është", "jemi", "janë")), True)
+    check("eshte is not a card of its own", "është" in byw, False)
 
     # No word is ever dropped to achieve any of this.
     check("te is still taught somewhere", byw["të"]["level"] > 10, True)
@@ -147,9 +154,14 @@ if W:
     # build and tempt someone to widen the gate -- which is how the
     # function-word work gets quietly undone. The ceiling is pinned instead,
     # so a regression shows up as a count above the known baseline.
-    strays = sorted(w["sq"] for w in opening if op.is_rare_tail(w))
-    check("rare-tail strays stay at or below the pre-existing count",
-          len(strays) <= 16, True)
+    # The early levels are now Conversation Core levels, where every word
+    # is hand-placed, so a rare one there (mirupafshim, rank 2,881) is a
+    # choice, not a stray. What is measured is anything else that got in.
+    core_words = {w for _, ws in opening_levels.LEVELS for w in ws}
+    strays = sorted(w["sq"] for w in opening
+                    if op.is_rare_tail(w) and w["sq"] not in core_words)
+    check("no rare word in the early levels that the core did not place",
+          strays, [])
 
     # Spread, not stacked (RECOMMENDATIONS.md section 3.2). Every deferred
     # root once arrived together at L165-179: 38 top-200 words in one wall.
@@ -176,9 +188,14 @@ if W:
     # The top-200 words are taught by L100. One exception is pinned by
     # name: pastaj (rank 174) is built on ndaj (rank 631), a real stem
     # edge ("pas + ndaj") that the prerequisite rule must honour.
-    late = sorted(w["sq"] for w in W if w["rank"] <= 200 and w["level"] > 100)
-    check("top-200 words after L100 are only %r (got %r)"
-          % (["pastaj"], late), late, ["pastaj"])
+    # The core (L1-%d) now carries the everyday top-200 words. The ones it
+    # leaves are grammar words its notes introduce (të, e, do, u, së) and
+    # object forms of words it teaches (atë, mua, na); they must follow
+    # straight after it, not drift down the course.
+    late = sorted(w["sq"] for w in W
+                  if w["rank"] <= 200 and w["level"] > n_cur + 10)
+    check("no top-200 word is taught more than 10 levels after the core "
+          "(got %r)" % (late,), late, [])
 
     # Level 1 is the headline defect: it opened with te (rank 1,
     # conjunction) and ne (rank 3, conjunction), two of five cards.

@@ -1,30 +1,31 @@
 {
  "level": 463,
- "title": "admiroj, mjegull, derdh +3",
+ "title": "ndesh (more), kofshë, mjekësi +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 7,
  "families": [
-  "admiroj",
-  "breshkë",
-  "derdh",
-  "fasule",
-  "gaboj",
-  "mjegull"
+  "abe",
+  "grimë",
+  "kofshë",
+  "mjekësi",
+  "ndesh",
+  "psikolog"
  ],
  "pos_mix": {
-  "verb": 6,
-  "noun": 8
+  "verb": 1,
+  "noun": 14,
+  "adv": 3
  },
  "words": [
   {
-   "id": "admiroj",
-   "sq": "admiroj",
-   "en": "to admire",
+   "id": "ndesh",
+   "sq": "ndesh",
+   "en": "to meet, run into",
    "glosses": [
-    "to admire"
+    "to meet, run into"
    ],
    "pos": [
     "verb"
@@ -36,7 +37,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to admire",
+     "gloss": "to meet, run into",
      "tags": [
       "transitive"
      ],
@@ -48,13 +49,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian undefined derivations",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,15 +63,16 @@
      ],
      "examples": [],
      "links": [
-      "admire"
+      "meet",
+      "run into"
      ]
     }
    ],
-   "rank": 8600,
-   "count": 78,
-   "family": "admiroj",
+   "rank": 16498,
+   "count": 34,
+   "family": "ndesh",
    "is_root": true,
-   "etymology": "Active form of mediopassive admirohem (“to be admired”). Learned borrowing from Latin admiror.",
+   "etymology": "From Proto-Albanian *en-das-ja, related to Greek δήω (dío, “to find”).",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -80,60 +82,44 @@
    "related": [],
    "forms": [
     {
-     "form": "admirova",
+     "form": "ndesha",
      "tag": "aorist"
     },
     {
-     "form": "admiruar",
+     "form": "ndeshur",
      "tag": "participle"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "His career I admire a lot.",
+    "corpus": "GNOME",
+    "en": "An error occurred.",
     "score": [
-     1,
-     6,
-     -5,
-     4
+     0,
+     4,
+     -4,
+     6
     ],
-    "sq": "E admiroj shumë karrierën e tij."
+    "sq": "U ndesh një gabim."
    }
   },
   {
-   "id": "mjegull",
-   "sq": "mjegull",
-   "en": "fog",
+   "id": "kofshë",
+   "sq": "kofshë",
+   "en": "thigh",
    "glosses": [
-    "fog",
-    "haze, mist"
+    "thigh"
    ],
    "pos": [
-    "noun",
     "noun"
    ],
    "pos_labels": [
-    "noun",
     "noun"
    ],
    "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "fog",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "fog"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "haze, mist",
+     "gloss": "thigh",
      "tags": [
       "feminine"
      ],
@@ -142,205 +128,150 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "7 93"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "20 80"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 90"
+       "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "I ka kofshët e rënda.",
+       "en": "His/her thighs are heavy.",
+       "offsets": [
+        [
+         5,
+         12
+        ]
+       ]
+      }
+     ],
      "links": [
-      "haze",
-      "mist"
+      "thigh"
      ]
     }
    ],
-   "rank": 8611,
-   "count": 78,
-   "family": "mjegull",
+   "rank": 16503,
+   "count": 34,
+   "family": "kofshë",
    "is_root": true,
-   "etymology": "Apocope of dialectal mjegullë, from Proto-Albanian *meg(u)lā, from Proto-Indo-European *h₃migʰ-leh₂ (“mist”) (compare Lithuanian miglà, Polish mgła, Greek ομίχλη (omíchli)).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from Vulgar Latin or Late Latin coxa (“thigh”), from Latin coxa (“hip”). Compare Romanian coapsă.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "mist"
+    "thigh",
+    "hip"
    ],
    "components": [],
    "derived": [],
-   "related": [
-    "përmjerr"
-   ],
+   "related": [],
    "forms": [
     {
-     "form": "mjegulla",
+     "form": "kofshë",
      "tag": "plural"
+    },
+    {
+     "form": "kofsha",
+     "tag": "definite"
+    },
+    {
+     "form": "koshë",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I stand in the mist.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Unë qëndroj në mjegull."
-   }
+   "corpus_example": null
   },
   {
-   "id": "derdh",
-   "sq": "derdh",
-   "en": "to pour out, spill",
+   "id": "mjekësi",
+   "sq": "mjekësi",
+   "en": "medicine",
    "glosses": [
-    "to pour out, spill",
-    "to cast (metals)",
-    "to deposit (money), pay in, contribute",
-    "to spend lavishly"
+    "medicine"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
+    "noun"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to pour out, spill",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "pour out",
-      "spill"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to cast (metals)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "cast"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to deposit (money), pay in, contribute",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "deposit"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to spend lavishly",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "medicine",
      "tags": [
-      "colloquial"
+      "feminine"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "23 10 8 59"
+       "source": "w"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 8 7 66"
+       "source": "w"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "15 7 6 72"
+       "source": "w"
       }
      ],
      "examples": [],
-     "links": []
+     "links": [
+      "medicine"
+     ]
     }
    ],
-   "rank": 8624,
-   "count": 78,
-   "family": "derdh",
+   "rank": 16521,
+   "count": 34,
+   "family": "mjekësi",
    "is_root": true,
-   "etymology": "From Proto-Albanian *derdza, from Proto-Indo-European *dʰorǵʰ-éye-ti, causative-iterative of the root *dʰerǵʰ- (“turn”) (compare Old Armenian դարձաւ (darjaw, “he turned (around)”)). For the semantic shift, compare French verser (“pour (out)”) from Latin versāre (“to turn, twist”).",
-   "etymology_class": "inherited",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "turn"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [
-    "derdhazë",
-    "derdhje",
-    "derdhtore"
-   ],
+   "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "derdha",
-     "tag": "aorist"
-    },
-    {
-     "form": "derdhur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Just come, play and cum!",
+    "en": "and official medicine.",
     "score": [
-     0,
-     4,
-     -4,
+     1,
+     3,
+     -2,
      10
     ],
-    "sq": "Eja, luaj dhe derdh!"
+    "sq": "dhe mjekësi zyrtare."
    }
   },
   {
-   "id": "breshkë",
-   "sq": "breshkë",
-   "en": "turtle, tortoise",
+   "id": "abe",
+   "sq": "abe",
+   "en": "shadow",
    "glosses": [
-    "turtle, tortoise",
-    "armored scale insect (Diaspididae), European fruit lecanium",
-    "swelling on an olive tree that may be broken off and planted as a sapling",
-    "hard nutshell"
+    "shadow",
+    "spectre, phantasm, ghost, horror",
+    "gracefulness",
+    "alphabet"
    ],
    "pos": [
     "noun",
@@ -358,92 +289,50 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "turtle, tortoise",
+     "gloss": "shadow",
      "tags": [
       "feminine"
      ],
-     "cats": [
-      {
-       "name": "Zoology",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Zoology",
-       "langcode": "sq"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "zoology",
-      "turtle",
-      "tortoise"
+      "shadow"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "armored scale insect (Diaspididae), European fruit lecanium",
+     "gloss": "spectre, phantasm, ghost, horror",
      "tags": [
-      "feminine"
+      "feminine",
+      "regional"
      ],
      "cats": [
       {
-       "name": "Entomology",
+       "name": "Regional Albanian",
        "kind": "other",
        "parents": [],
-       "source": "w",
-       "orig": "sq:Entomology",
-       "langcode": "sq"
+       "source": "w"
       },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "12 54 29 4"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 58 30 4"
+       "_dis": "5 84 5 5"
       }
      ],
      "examples": [],
      "links": [
-      "entomology",
-      "Diaspididae"
+      "regional",
+      "spectre",
+      "phantasm"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "swelling on an olive tree that may be broken off and planted as a sapling",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Botany",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Botany",
-       "langcode": "sq"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "botany",
-      "olive tree",
-      "sapling"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hard nutshell",
+     "gloss": "gracefulness",
      "tags": [
       "feminine",
       "regional"
@@ -459,124 +348,30 @@
      "examples": [],
      "links": [
       "regional",
-      "nutshell"
+      "gracefulness"
      ]
-    }
-   ],
-   "rank": 8629,
-   "count": 78,
-   "family": "breshkë",
-   "is_root": true,
-   "etymology": "Probably borrowed from a Vulgar Latin *brosca, or *broscus, broxae (“frog”) (compare Romanian broască, Old French bruesche, Milanese Lombard brosco), from Ionic Ancient Greek βρόθακος (bróthakos).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "frog"
-   ],
-   "components": [],
-   "derived": [
-    "breshkëz"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "breshka",
-     "tag": "plural"
     },
-    {
-     "form": "breçkë",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Turtle is in help again!",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Breshkë është në ndihmë përsëri!"
-   }
-  },
-  {
-   "id": "fasule",
-   "sq": "fasule",
-   "en": "common bean, haricot (Phaseolus vulgaris)",
-   "glosses": [
-    "common bean, haricot (Phaseolus vulgaris)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "common bean, haricot (Phaseolus vulgaris)",
+     "gloss": "alphabet",
      "tags": [
+      "colloquial",
       "feminine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms with collocations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "mish me fasule",
-       "en": "beans with meat",
-       "offsets": [
-        [
-         8,
-         14
-        ]
-       ]
-      },
-      {
-       "sq": "fasule të njoma",
-       "en": "kidney bean",
-       "offsets": [
-        [
-         0,
-         6
-        ]
-       ]
-      }
-     ],
+     "cats": [],
+     "examples": [],
      "links": [
-      "common bean",
-      "haricot",
-      "Phaseolus vulgaris"
+      "alphabet"
      ]
     }
    ],
-   "rank": 8639,
-   "count": 78,
-   "family": "fasule",
+   "rank": 16534,
+   "count": 34,
+   "family": "abe",
    "is_root": true,
-   "etymology": "Ultimately from Greek φασόλι (fasóli).",
-   "etymology_class": "derived",
+   "etymology": "Possibly related to avë.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -585,52 +380,106 @@
    "related": [],
    "forms": [
     {
-     "form": "fasule",
+     "form": "abe",
      "tag": "plural"
     },
     {
-     "form": "fasulja",
+     "form": "abeja",
      "tag": "definite"
     }
    ],
-   "corpus_example": null
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Abe is also known as a screenwriter.",
+    "score": [
+     2,
+     5,
+     -3,
+     10
+    ],
+    "sq": "Abe njihet edhe si skenarist."
+   }
   },
   {
-   "id": "gaboj",
-   "sq": "gaboj",
-   "en": "to err, to make a mistake",
+   "id": "grimë",
+   "sq": "grimë",
+   "en": "a bit, a little. preceded by një.",
    "glosses": [
-    "to err, to make a mistake"
+    "a bit, a little. preceded by një.",
+    "at all. in negative sentences.",
+    "crumb, speck",
+    "bit, particle",
+    "atom"
    ],
    "pos": [
-    "verb"
+    "adv",
+    "adv",
+    "noun",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "adverb",
+    "adverb",
+    "noun",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to err, to make a mistake",
-     "tags": [
-      "intransitive"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "a bit, a little. preceded by një.",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "58 35 7 0 0"
+      },
+      {
+       "name": "Albanian terms suffixed with -më",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "64 27 9 0 0"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
+       "source": "w+disamb",
+       "_dis": "57 32 11 0 0"
+      }
+     ],
+     "examples": [
       {
-       "name": "Pages with entries",
+       "sq": "Prit një grimë!",
+       "en": "Wait a moment!",
+       "offsets": [
+        [
+         9,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bit",
+      "little",
+      "një"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "at all. in negative sentences.",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -638,54 +487,102 @@
      ],
      "examples": [
       {
-       "sq": "Gabova",
-       "en": "I erred",
+       "sq": "asnjë grimë erë",
+       "en": "no wind at all",
        "offsets": [
         [
-         0,
-         6
+         6,
+         11
+        ]
+       ]
+      },
+      {
+       "sq": "asnjë grimë",
+       "en": "nothing at all",
+       "offsets": [
+        [
+         6,
+         11
         ]
        ]
       }
      ],
      "links": [
-      "err",
-      "mistake"
+      "at all"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "crumb, speck",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "crumb",
+      "speck"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bit, particle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "bit",
+      "particle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "atom",
+     "tags": [
+      "archaic",
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "atom"
      ]
     }
    ],
-   "rank": 8651,
-   "count": 78,
-   "family": "gaboj",
+   "rank": 16596,
+   "count": 33,
+   "family": "grimë",
    "is_root": true,
-   "etymology": "From gabë (“blunder”), Proto-Albanian *gaubā, from Proto-Indo-European *gʰeub(ʰ)- (“to bend, move”). Close to Lithuanian gaubiù, gaũbti (“cover, wrap up, curve”), Old Norse goppa (“jump up and down, swing”) and Russian губи́ть (gubítʹ, “to wreck”).\nAlternatively from Italian gabbare (“to deceive, trick”), itself from gabbo which is borrowed from Old French gab, and derived from Old Norse gabb.",
-   "etymology_class": "inherited",
+   "etymology": "From grij (“to grind, gnaw”) + -më.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "blunder"
-   ],
+   "parents": [],
    "components": [],
-   "derived": [],
+   "derived": [
+    "grimcë",
+    "grimëz"
+   ],
    "related": [],
    "forms": [
     {
-     "form": "gabova",
-     "tag": "aorist"
-    },
-    {
-     "form": "gabuar",
-     "tag": "participle"
+     "form": "grima",
+     "tag": "plural"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "admirues",
-   "sq": "admirues",
-   "en": "admirer, fan",
+   "id": "psikolog",
+   "sq": "psikolog",
+   "en": "psychologist",
    "glosses": [
-    "admirer, fan"
+    "psychologist"
    ],
    "pos": [
     "noun"
@@ -697,7 +594,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "admirer, fan",
+     "gloss": "psychologist",
      "tags": [
       "masculine"
      ],
@@ -709,13 +606,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -s (agent)",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -723,53 +620,254 @@
      ],
      "examples": [],
      "links": [
-      "admirer",
-      "fan"
+      "psychologist"
      ]
     }
    ],
-   "rank": 18882,
-   "count": 28,
-   "family": "admiroj",
-   "is_root": false,
-   "etymology": "From admiroj (“to admire”) + -s.",
-   "etymology_class": "affix",
+   "rank": 16598,
+   "count": 33,
+   "family": "psikolog",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [
-    {
-     "word": "admiroj",
-     "role": "base"
-    },
-    {
-     "word": "s",
-     "role": "suffix"
-    }
-   ],
+   "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "admirues",
+     "form": "psikologë",
      "tag": "plural"
     },
     {
-     "form": "admiruese",
-     "tag": "feminine"
+     "form": "psikologu",
+     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "She had many admirers.",
+    "en": "Find a psychologist.",
     "score": [
-     1,
-     4,
+     0,
+     3,
      -3,
      10
     ],
-    "sq": "Ajo kishte shumë admirues."
-   },
+    "sq": "Gjej një psikolog."
+   }
+  },
+  {
+   "id": "grimcë",
+   "sq": "grimcë",
+   "en": "a bit, a little. preceded by një.",
+   "glosses": [
+    "a bit, a little. preceded by një.",
+    "crumb",
+    "small piece, particle",
+    "particle",
+    "molecule; atom"
+   ],
+   "pos": [
+    "adv",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adverb",
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "a bit, a little. preceded by një.",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms suffixed with -cë",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "46 5 5 13 12 19"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 3 3 29 28 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "një grimcë pasigurie",
+       "en": "a bit of insecurity",
+       "offsets": [
+        [
+         4,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "bit",
+      "little",
+      "një"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "crumb",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "crumb"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "small piece, particle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "piece",
+      "particle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "particle",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Physics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Physics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 3 3 29 28 13"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "grimca alfa",
+       "en": "alpha particles",
+       "offsets": [
+        [
+         0,
+         6
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "physics",
+      "particle"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "molecule; atom",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Physics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Physics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 3 3 29 28 13"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "physics",
+      "molecule",
+      "atom"
+     ]
+    }
+   ],
+   "rank": 17300,
+   "count": 32,
+   "family": "grimë",
+   "is_root": false,
+   "etymology": "From grimë (“crumb”) + -cë.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "crumb"
+   ],
+   "components": [
+    {
+     "word": "grimë",
+     "role": "base"
+    },
+    {
+     "word": "cë",
+     "role": "suffix"
+    }
+   ],
+   "derived": [
+    "grimca-grimca",
+    "grimcoj"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "grimca",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null,
    "breakdown": "historical"
   }
  ],

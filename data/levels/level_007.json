@@ -1,36 +1,259 @@
 {
  "level": 7,
- "title": "One to five",
+ "title": "Please and thank you 1/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "dy",
-  "katër",
+  "Ju lutem.",
+  "Të lutem.",
+  "dua",
+  "kafe",
+  "lutem",
   "një",
-  "pesë",
-  "tre"
+  "ujë"
  ],
  "pos_mix": {
-  "num": 5
+  "phrase": 2,
+  "noun": 6,
+  "num": 2,
+  "verb": 8
  },
  "words": [
   {
+   "id": "Ju lutem.",
+   "sq": "Ju lutem.",
+   "en": "Please. (polite)",
+   "glosses": [
+    "Please. (polite)"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Please. (polite)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60011,
+   "count": 0,
+   "family": "Ju lutem.",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Të lutem.",
+   "sq": "Të lutem.",
+   "en": "Please. (to a friend)",
+   "glosses": [
+    "Please. (to a friend)"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Please. (to a friend)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60012,
+   "count": 0,
+   "family": "Të lutem.",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "kafe",
+   "sq": "kafe",
+   "en": "coffee",
+   "glosses": [
+    "coffee",
+    "a plant of the genus Coffea, coffee bean",
+    "brown",
+    "coffeeshop"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coffee",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kafe? Po, faleminderit.",
+       "en": "Coffee? Yes, thank you.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "a plant of the genus Coffea, coffee bean",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "Coffea",
+      "coffee bean"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "brown",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "coffeeshop",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "coffeeshop"
+     ]
+    }
+   ],
+   "rank": 893,
+   "count": 1070,
+   "family": "kafe",
+   "is_root": true,
+   "etymology": "From Ottoman Turkish قهوه (kahve, “coffee”), from Arabic قَهْوَة (qahwa, “coffee, a brew”). Another explanation claims it traces back to the name of the Kaffa region of Ethiopia, which is an Omotic word.",
+   "etymology_class": "borrowed",
+   "source_lang": "tr",
+   "cognate": "from Turkish kahve (\"coffee\")",
+   "parents": [
+    "coffee"
+   ],
+   "components": [],
+   "derived": [
+    "kafene",
+    "kafehane",
+    "kafexhi",
+    "kafenjtë",
+    "kafeinë"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "kafe",
+     "tag": "plural"
+    },
+    {
+     "form": "kafja",
+     "tag": "definite"
+    }
+   ],
+   "forms_line": "kafja · pl. kafe",
+   "corpus_example": null
+  },
+  {
    "id": "një",
    "sq": "një",
-   "en": "one",
+   "en": "a, one",
    "glosses": [
+    "a, one",
     "one"
    ],
    "pos": [
+    "num",
     "num"
    ],
    "pos_labels": [
+    "numeral",
     "numeral"
    ],
    "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "a, one",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Një kafe, ju lutem.",
+       "en": "A coffee, please.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
     {
      "pos": "num",
      "pos_label": "numeral",
@@ -63,288 +286,400 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "We are one.",
-    "score": [
-     1,
-     3,
-     -2,
-     4
-    ],
-    "sq": "Ne jemi një."
-   }
-  },
-  {
-   "id": "dy",
-   "sq": "dy",
-   "en": "two",
-   "glosses": [
-    "two"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "two",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "two"
-     ]
-    }
-   ],
-   "rank": 92,
-   "count": 15285,
-   "family": "dy",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *duwō masc, *duwai fem, from Proto-Indo-European *dwóh₁. Matzinger reconstructs *duu̯a.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "And I have two!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Dhe kam dy!"
-   }
-  },
-  {
-   "id": "tre",
-   "sq": "tre",
-   "en": "three",
-   "glosses": [
-    "three"
-   ],
-   "pos": [
-    "num"
-   ],
-   "pos_labels": [
-    "numeral"
-   ],
-   "sense_detail": [
-    {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "three",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 29 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "three"
-     ]
-    }
-   ],
-   "rank": 230,
-   "count": 5419,
-   "family": "tre",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *treje, from Proto-Indo-European *tréyes. Cognate to Latin trēs (“three”) and Sanskrit त्रि (tri, “three”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": null
   },
   {
-   "id": "pesë",
-   "sq": "pesë",
-   "en": "five",
+   "id": "lutem",
+   "sq": "lutem",
+   "en": "to ask, to beg",
    "glosses": [
-    "five"
+    "to ask, to beg",
+    "please (ju lutem); you're welcome",
+    "to long for something to happen (to someone, oneself); to wish (to someone)",
+    "to pray",
+    "to beg"
    ],
    "pos": [
-    "num"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "numeral"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "five",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to ask, to beg",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Të lutem, Ana!",
+       "en": "Please, Ana!",
+       "offsets": [
+        [
+         3,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "please (ju lutem); you're welcome",
      "tags": [],
      "cats": [
-      {
-       "name": "Albanian cardinal numbers",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "18 20 10 51"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian links with redundant target parameters",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "28 18 15 40"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Të lutem mos pi duhan.",
+       "en": "Please don't smoke.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "please",
+      "welcome"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to long for something to happen (to someone, oneself); to wish (to someone)",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "long",
+      "for",
+      "happen"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to pray",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Religion",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Religion",
+       "langcode": "sq"
       }
      ],
      "examples": [],
      "links": [
-      "five"
+      "religion",
+      "pray"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to beg",
+     "tags": [
+      "reflexive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "beg"
      ]
     }
    ],
-   "rank": 431,
-   "count": 2437,
-   "family": "pesë",
+   "rank": 84,
+   "count": 16024,
+   "family": "lutem",
    "is_root": true,
-   "etymology": "From Proto-Albanian *pẽnsi, from *péntsi, from Pre-Proto-Albanian *penče, from Proto-Indo-European *pénkʷe. Compare Proto-Slavic *pętь, Latin quīnque, Ancient Greek πέντε (pénte).\nAlternatively from Proto-Albanian *penče.",
+   "etymology": "Cognate to Arvanitic and Arbëresh Albanian liútem, Gheg Albanian lutna (“to pray”). See active form lut (“to request, plead”) for more.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "lut",
+    "lutës",
+    "lutësi",
+    "lutje",
+    "lutja"
+   ],
+   "forms": [
+    {
+     "form": "lutur",
+     "tag": "participle"
+    }
+   ],
+   "forms_line": "ai lutet · u luta (past) · jam lutur",
+   "corpus_example": null
+  },
+  {
+   "id": "ujë",
+   "sq": "ujë",
+   "en": "water",
+   "glosses": [
+    "water"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "water",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Një ujë, të lutem.",
+       "en": "A water, please.",
+       "offsets": [
+        [
+         4,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 531,
+   "count": 1949,
+   "family": "ujë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *udrjā, derived from Proto-Indo-European *wed- (“water”). Compare Latin unda, Sanskrit उदन् (udan, “water”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "water"
+   ],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "These five words.",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Ato pesë fjalë."
-   }
+   "forms": [
+    {
+     "form": "ujëra",
+     "tag": "plural"
+    },
+    {
+     "form": "uji",
+     "tag": "definite"
+    }
+   ],
+   "forms_line": "uji · pl. ujëra",
+   "corpus_example": null
   },
   {
-   "id": "katër",
-   "sq": "katër",
-   "en": "four",
+   "id": "dua",
+   "sq": "dua",
+   "en": "to want; to love",
    "glosses": [
-    "four"
+    "to want; to love",
+    "to want",
+    "to love",
+    "sheaf"
    ],
    "pos": [
-    "num"
+    "verb",
+    "verb",
+    "verb",
+    "noun"
    ],
    "pos_labels": [
-    "numeral"
+    "verb",
+    "verb",
+    "verb",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "num",
-     "pos_label": "numeral",
-     "gloss": "four",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to want; to love",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Dua një kafe.",
+       "en": "I want a coffee.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to want",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "want"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to love",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian cardinal numbers",
+       "name": "Love",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "orig": "sq:Love",
+       "langcode": "sq",
+       "_dis": "1 0 99"
       }
      ],
      "examples": [],
      "links": [
-      "four"
+      "love"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sheaf",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "77 17 6"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "sheaf"
      ]
     }
    ],
-   "rank": 486,
-   "count": 2168,
-   "family": "katër",
+   "rank": 55,
+   "count": 27974,
+   "family": "dua",
    "is_root": true,
-   "etymology": "From Proto-Albanian *kátur, from Proto-Indo-European *kʷtur- ~ *kʷétur- (compare Lithuanian keturi̇̀, Serbo-Croatian četiri, and possibly Latin quattuor), oblique of *kʷetwóres. Probably borrowed from Latin quattuor.",
-   "etymology_class": "borrowed",
+   "etymology": "From Old Albanian duo, from either:\n* Proto-Albanian *dāusnja, from Proto-Indo-European *ǵeus- (compare English choose, Greek γεύση (géfsi, “taste”), Italian gustare (“to taste”)); or\n* *duām, from Proto-Albanian *duēs-mi, from Proto-Indo-European *dews- (compare English tire, Ancient Greek δεύομαι (deúomai, “to lack”)).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "taste",
+    "band"
+   ],
    "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "They have four children.",
-    "score": [
-     0,
-     4,
-     -4,
-     8
-    ],
-    "sq": "Ata kanë katër fëmijë."
-   }
+   "derived": [
+    "dashës",
+    "dashje",
+    "dashuri",
+    "do"
+   ],
+   "related": [
+    "duhem"
+   ],
+   "forms": [
+    {
+     "form": "desha",
+     "tag": "aorist"
+    },
+    {
+     "form": "dashur",
+     "tag": "participle"
+    },
+    {
+     "form": "doja",
+     "tag": "common form"
+    },
+    {
+     "form": "doni",
+     "tag": "common form"
+    },
+    {
+     "form": "duan",
+     "tag": "common form"
+    },
+    {
+     "form": "donte",
+     "tag": "common form"
+    },
+    {
+     "form": "duam",
+     "tag": "common form"
+    },
+    {
+     "form": "doje",
+     "tag": "common form"
+    },
+    {
+     "form": "duash",
+     "tag": "common form"
+    },
+    {
+     "form": "donin",
+     "tag": "common form"
+    }
+   ],
+   "forms_line": "ai do · desha (past) · kam dashur",
+   "corpus_example": null
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 3,
+ "unit_title": "Please and thank you",
+ "situation": "Please, thanks and sorry"
 }

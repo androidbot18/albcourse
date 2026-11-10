@@ -1,172 +1,280 @@
 {
  "level": 164,
- "title": "erë",
- "root": "erë",
- "root_gloss": "wind",
+ "title": "Life in Albania 4/4",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 5,
  "families": [
-  "erë"
+  "Kalofsh mirë!",
+  "Me shëndet!",
+  "Mirë se erdhe!",
+  "Të lumtë!",
+  "fitoj"
  ],
  "pos_mix": {
-  "noun": 3
+  "verb": 6,
+  "phrase": 4
  },
  "words": [
   {
-   "id": "erë",
-   "sq": "erë",
-   "en": "wind",
+   "id": "fitoj",
+   "sq": "fitoj",
+   "en": "to win; to earn",
    "glosses": [
-    "wind",
-    "smell"
+    "to win; to earn",
+    "to profit, earn",
+    "to win",
+    "to gain",
+    "to win, get on one's side",
+    "to receive, take (something unpleasant)"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wind",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win; to earn",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Sa fiton në muaj?",
+       "en": "How much do you earn a month?",
+       "offsets": [
+        [
+         3,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to profit, earn",
      "tags": [
-      "feminine"
+      "transitive"
      ],
      "cats": [],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Fitoj pak nga dyqani.",
+       "en": "I earn a little from the store.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
      "links": [
-      "wind"
+      "profit",
+      "earn"
      ]
     },
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "smell",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win",
      "tags": [
-      "feminine"
+      "also",
+      "intransitive",
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "E fitova ndeshjen.",
+       "en": "I won the match.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "win"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to gain",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Fitoj besimin e shokëve.",
+       "en": "I gain the trust of friends.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      },
+      {
+       "sq": "Fitoj dashurinë e shokëve.",
+       "en": "I gain the love of friends.",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "gain"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to win, get on one's side",
+     "tags": [
+      "figuratively",
+      "transitive"
      ],
      "cats": [
+      {
+       "name": "Albanian back-formations",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "30 0 0 70 0"
+      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "15 85"
+       "_dis": "17 9 9 55 9"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "18 82"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
+       "_dis": "17 13 13 42 13"
       }
      ],
+     "examples": [
+      {
+       "sq": "E fitova zemrën e Lindës.",
+       "en": "I won Linda's heart.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "win",
+      "side"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to receive, take (something unpleasant)",
+     "tags": [
+      "colloquial",
+      "transitive"
+     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "smell"
+      "receive",
+      "take"
      ]
     }
    ],
-   "rank": 762,
-   "count": 1298,
-   "family": "erë",
+   "rank": 1528,
+   "count": 580,
+   "family": "fitoj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *ōd-r-, from Proto-Indo-European *h₃ed- (“to smell, stink”). Alternatively, from Latin āēr.",
-   "etymology_class": "derived",
+   "etymology": "Back-formation from përfitoj (“to profit”).",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "erëzë"
+    "fit",
+    "fitim",
+    "fitore",
+    "fituar",
+    "fitues"
    ],
    "related": [],
    "forms": [
     {
-     "form": "erëra",
-     "tag": "plural"
+     "form": "fitova",
+     "tag": "aorist"
     },
     {
-     "form": "era",
-     "tag": "definite"
+     "form": "fituar",
+     "tag": "participle"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Smells good.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Erë të mirë."
-   }
+   "forms_line": "ai fiton · fitova (past) · kam fituar",
+   "corpus_example": null
   },
   {
-   "id": "era",
-   "sq": "era",
-   "en": "the wind, singular (from erë)",
+   "id": "Mirë se erdhe!",
+   "sq": "Mirë se erdhe!",
+   "en": "Welcome! (to one person)",
    "glosses": [
-    "the wind, singular (from erë)"
+    "Welcome! (to one person)"
    ],
    "pos": [
-    "noun"
+    "phrase"
    ],
    "pos_labels": [
-    "noun"
+    "phrase"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the wind, singular (from erë)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 40 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Welcome! (to one person)",
+     "tags": [],
+     "cats": [],
      "examples": [],
-     "is_form_of": "erë"
+     "links": []
     }
    ],
-   "rank": 1366,
-   "count": 650,
-   "family": "erë",
-   "is_root": false,
+   "rank": 60151,
+   "count": 0,
+   "family": "Mirë se erdhe!",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -176,17 +284,155 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The wind is free.",
-    "score": [
-     0,
-     4,
-     -4,
-     10
-    ],
-    "sq": "Era është e lirë."
-   }
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Kalofsh mirë!",
+   "sq": "Kalofsh mirë!",
+   "en": "Have a good time!",
+   "glosses": [
+    "Have a good time!"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Have a good time!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60152,
+   "count": 0,
+   "family": "Kalofsh mirë!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Të lumtë!",
+   "sq": "Të lumtë!",
+   "en": "Well done!",
+   "glosses": [
+    "Well done!"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Well done!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60153,
+   "count": 0,
+   "family": "Të lumtë!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "Me shëndet!",
+   "sq": "Me shëndet!",
+   "en": "Bless you! Enjoy it!",
+   "glosses": [
+    "Bless you! Enjoy it!"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Bless you! Enjoy it!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60154,
+   "count": 0,
+   "family": "Me shëndet!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  }
+ ],
+ "opening": true,
+ "unit": 51,
+ "unit_title": "Life in Albania",
+ "situation": "Everyday talk",
+ "can_do": "talk about the country, its people and work",
+ "dialogue": [
+  {
+   "sq": "Mirë se erdhe në Shqipëri! Të pëlqen këtu?",
+   "en": "Welcome to Albania! Do you like it here?"
+  },
+  {
+   "sq": "Shumë! Më pëlqen kultura dhe historia.",
+   "en": "A lot! I like the culture and the history."
+  },
+  {
+   "sq": "Dhe njerëzit?",
+   "en": "And the people?"
+  },
+  {
+   "sq": "Janë shumë të mirë. Mikpritja shqiptare është e famshme.",
+   "en": "They are very good. Albanian hospitality is famous."
+  },
+  {
+   "sq": "Është një traditë e vjetër. Kalofsh mirë!",
+   "en": "It is an old tradition. Have a good time!"
   }
  ]
 }

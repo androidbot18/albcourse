@@ -1,37 +1,224 @@
 {
  "level": 613,
- "title": "supozoj (more), shëtit (more), terrorizëm +3",
+ "title": "aviacion, padit, incizoj +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "grurë",
-  "kolege",
-  "shalë",
-  "shëtit",
-  "supozoj",
-  "terrorizëm"
+  "aviacion",
+  "glasë",
+  "incizoj",
+  "kometë",
+  "padit",
+  "përparëse"
  ],
  "pos_mix": {
-  "noun": 10,
-  "verb": 4
+  "noun": 11,
+  "verb": 2
  },
  "words": [
   {
-   "id": "supozim",
-   "sq": "supozim",
-   "en": "guess",
+   "id": "aviacion",
+   "sq": "aviacion",
+   "en": "aviation (art or science of flying)",
    "glosses": [
-    "guess",
-    "assumption"
+    "aviation (art or science of flying)"
    ],
    "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "aviation (art or science of flying)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "aviation"
+     ]
+    }
+   ],
+   "rank": 39251,
+   "count": 10,
+   "family": "aviacion",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Mach is typically used in aviation and space exploration.",
+    "score": [
+     4,
+     9,
+     -5,
+     10
+    ],
+    "sq": "Mak zakonisht përdoret në aviacion dhe në eksplorimin hapësinor."
+   }
+  },
+  {
+   "id": "padit",
+   "sq": "padit",
+   "en": "to sue, file a lawsuit",
+   "glosses": [
+    "to sue, file a lawsuit",
+    "to accuse"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to sue, file a lawsuit",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Law",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Law",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "83 17"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "74 26"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "law",
+      "sue",
+      "lawsuit"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to accuse",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "accuse"
+     ]
+    }
+   ],
+   "rank": 39294,
+   "count": 10,
+   "family": "padit",
+   "is_root": true,
+   "etymology": "Borrowed from South Slavic, ultimately either from Proto-Slavic *pàdati (“fall”) whence Serbo-Croatian nà-padati /на̀-падати (“to attack”) or from Proto-Slavic *pǫditi (“to chase”) whence Macedonian пади (padi, “to chase out”).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "fall"
+   ],
+   "components": [],
+   "derived": [
+    "padi",
+    "paditës",
+    "paditje",
+    "paditur"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "padita",
+     "tag": "aorist"
+    },
+    {
+     "form": "paditur",
+     "tag": "participle"
+    },
+    {
+     "form": "padis",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "It sues a process that Democrats have accepted.",
+    "score": [
+     2,
+     8,
+     -6,
+     8
+    ],
+    "sq": "Padit një proces që demokratet e kanë pranuar."
+   }
+  },
+  {
+   "id": "incizim",
+   "sq": "incizim",
+   "en": "recording (e.g. a song, speech, etc.)",
+   "glosses": [
+    "recording (e.g. a song, speech, etc.)",
+    "mark, scar, incision",
+    "engraving"
+   ],
+   "pos": [
+    "noun",
     "noun",
     "noun"
    ],
    "pos_labels": [
+    "noun",
     "noun",
     "noun"
    ],
@@ -39,66 +226,83 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "guess",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "recording (e.g. a song, speech, etc.)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "recording"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "mark, scar, incision",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "57 43"
-      },
+       "_dis": "9 15 48 28"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mark",
+      "scar",
+      "incision"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "engraving",
+     "tags": [],
+     "cats": [
       {
        "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "80 20"
+       "_dis": "15 24 26 36"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "80 20"
+       "_dis": "15 24 26 36"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 14 15 61"
       }
      ],
      "examples": [],
      "links": [
-      "guess"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "assumption",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "assumption"
+      "engraving"
      ]
     }
    ],
-   "rank": 21343,
-   "count": 24,
-   "family": "supozoj",
+   "rank": 39368,
+   "count": 10,
+   "family": "incizoj",
    "is_root": false,
-   "etymology": "Gerund of supozoj: supozoj + -im.",
+   "etymology": "From incizoj + -im.",
    "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [
     {
-     "word": "supozoj",
+     "word": "incizoj",
      "role": "base",
-     "en": "to guess"
+     "en": "to record on a tape or disk"
     },
     {
      "word": "im",
@@ -111,244 +315,29 @@
    "related": [],
    "forms": [
     {
-     "form": "supozime",
+     "form": "incizime",
      "tag": "plural"
-    },
-    {
-     "form": "supozimi",
-     "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "There's no guesswork involved here.",
+    "en": "Without it, there is no recording.",
     "score": [
      0,
-     6,
-     -6,
+     5,
+     -5,
      10
     ],
-    "sq": "Nuk ka supozim të përfshirë këtu."
+    "sq": "Pa të, nuk ka incizim."
    },
    "breakdown": "transparent"
   },
   {
-   "id": "shëtit",
-   "sq": "shëtit",
-   "en": "to walk, stroll",
+   "id": "glasë",
+   "sq": "glasë",
+   "en": "bird poop",
    "glosses": [
-    "to walk, stroll",
-    "to take somebody for a walk",
-    "to travel",
-    "to move from one place or another"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to walk, stroll",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 21 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 26 22 23"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 23 29 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "walk",
-      "stroll"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to take somebody for a walk",
-     "tags": [
-      "intransitive",
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 21 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 26 22 23"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 23 29 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "walk"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to travel",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 21 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 26 22 23"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 23 29 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "travel"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to move from one place or another",
-     "tags": [
-      "intransitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "26 24 21 28"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "28 26 22 23"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "29 23 29 20"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "move"
-     ]
-    }
-   ],
-   "rank": 21351,
-   "count": 24,
-   "family": "shëtit",
-   "is_root": true,
-   "etymology": "From earlier shetat (Buzuku), from Serbo-Croatian šetati (\"to walk, to stroll\").",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [
-    "shëtitje",
-    "shëtitore"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "shëtita",
-     "tag": "aorist"
-    },
-    {
-     "form": "shëtitur",
-     "tag": "participle"
-    },
-    {
-     "form": "shëtis",
-     "tag": "alternative"
-    },
-    {
-     "form": "shetit",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Launch boats for free and stroll in the park across the street.",
-    "score": [
-     2,
-     9,
-     -7,
-     10
-    ],
-    "sq": "Lësho anije falas dhe shëtit në parkun matanë rrugës."
-   }
-  },
-  {
-   "id": "terrorizëm",
-   "sq": "terrorizëm",
-   "en": "terrorism",
-   "glosses": [
-    "terrorism"
+    "bird poop"
    ],
    "pos": [
     "noun"
@@ -360,342 +349,17 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "terrorism",
-     "tags": [
-      "masculine"
-     ],
+     "gloss": "bird poop",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -izëm",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
        "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "terrorism"
-     ]
-    }
-   ],
-   "rank": 21403,
-   "count": 24,
-   "family": "terrorizëm",
-   "is_root": true,
-   "etymology": "terror + -izëm.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "terrorizmi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "He was charged with committing acts of terrorism.",
-    "score": [
-     1,
-     4,
-     -3,
-     10
-    ],
-    "sq": "Është akuzuar për terrorizëm."
-   }
-  },
-  {
-   "id": "shalë",
-   "sq": "shalë",
-   "en": "inner part of the thigh",
-   "glosses": [
-    "inner part of the thigh",
-    "thigh, the part of a human's body from the knee and up, the inner part of the thigh",
-    "top level in an hierarchy",
-    "horse's saddle; as opposed to donkey's saddle, samar.",
-    "bicycle or motorcycle saddle"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "inner part of the thigh",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "inner",
-      "part",
-      "thigh"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "thigh, the part of a human's body from the knee and up, the inner part of the thigh",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "thigh",
-      "knee"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "top level in an hierarchy",
-     "tags": [
-      "feminine",
-      "figuratively"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "top",
-      "level",
-      "hierarchy"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "horse's saddle; as opposed to donkey's saddle, samar.",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 11 6 60 16"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 6 6 68 14"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 6 5 73 11"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "saddle",
-      "samar"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "bicycle or motorcycle saddle",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "bicycle",
-      "motorcycle"
-     ]
-    }
-   ],
-   "rank": 21426,
-   "count": 24,
-   "family": "shalë",
-   "is_root": true,
-   "etymology": "From the same source as çalë (“lame”) with the ç-sh alteration which is also visible in shalavriq, the doublet shalavit vs çalavit, and in other pairs such as çaj (“to cleave”) vs shaj (“insult”), etc. Comparable formation with Greek σκολιός (skoliós, “curved, crooked”) from σκέλος (skélos, “leg”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "lame",
-    "insult"
-   ],
-   "components": [],
-   "derived": [
-    "shalak",
-    "shalas",
-    "shalase",
-    "shalazi",
-    "shalëçibuk",
-    "shalëdreq",
-    "shalëgjatë",
-    "shalëhardhi"
-   ],
-   "related": [],
-   "forms": [
-    {
-     "form": "shala",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Adjustable gel saddle height and depth.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Adjustable shalë xhel lartësi dhe thellësi."
-   }
-  },
-  {
-   "id": "grurë",
-   "sq": "grurë",
-   "en": "wheat (Triticum)",
-   "glosses": [
-    "wheat (Triticum)"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "wheat (Triticum)",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Latvian links with redundant target parameters",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "wheat",
-      "Triticum"
-     ]
-    }
-   ],
-   "rank": 21434,
-   "count": 24,
-   "family": "grurë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *grunā, from Proto-Indo-European *ǵr̥h₂nóm. Cognate to Proto-Balto-Slavic *źírˀnan (Latvian žìrnis (“pea”), Old Church Slavonic зрьно (zrĭno)), Proto-Celtic *grānom (Old Irish grán, Breton greun), Proto-Germanic *kurną (Gothic 𐌺𐌰𐌿𐍂𐌽 (kaurn), English corn), Proto-Italic *grānom (Latin grānum), Persian خرمن (xarman, “grain”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "grura",
-     "tag": "plural"
-    },
-    {
-     "form": "gruri",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I also saw fields full of wheat.",
-    "score": [
-     1,
-     6,
-     -5,
-     10
-    ],
-    "sq": "Pashë dhe fushat me grurë plot."
-   }
-  },
-  {
-   "id": "kolege",
-   "sq": "kolege",
-   "en": "colleague",
-   "glosses": [
-    "colleague"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "colleague",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 2 entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -709,13 +373,13 @@
      ],
      "examples": [],
      "links": [
-      "colleague"
+      "poop"
      ]
     }
    ],
-   "rank": 21458,
-   "count": 24,
-   "family": "kolege",
+   "rank": 39387,
+   "count": 10,
+   "family": "glasë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -725,31 +389,291 @@
    "components": [],
    "derived": [],
    "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "kometë",
+   "sq": "kometë",
+   "en": "comet",
+   "glosses": [
+    "comet"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "comet",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "astronomy",
+      "comet"
+     ]
+    }
+   ],
+   "rank": 39399,
+   "count": 10,
+   "family": "kometë",
+   "is_root": true,
+   "etymology": "Learned borrowing from Latin comēta, from Ancient Greek κομήτης (komḗtēs, “long-haired”).",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "How likely are we to be hit by a comet?",
+    "score": [
+     1,
+     6,
+     -5,
+     10
+    ],
+    "sq": "Kur do të shohim një kometë?"
+   }
+  },
+  {
+   "id": "përparëse",
+   "sq": "përparëse",
+   "en": "apron",
+   "glosses": [
+    "apron",
+    "overall, coverall; scrubs; smock",
+    "each of the two halves of the front of a jacket, sweater, etc."
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "apron",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "apron"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "overall, coverall; scrubs; smock",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "37 55 8"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "15 77 8"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "12 81 7"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "overall",
+      "coverall",
+      "scrubs"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "each of the two halves of the front of a jacket, sweater, etc.",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "halves",
+      "front",
+      "jacket"
+     ]
+    }
+   ],
+   "rank": 39421,
+   "count": 10,
+   "family": "përparëse",
+   "is_root": true,
+   "etymology": "From përpara (“in front”).",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
    "forms": [
     {
-     "form": "kolege",
+     "form": "përparëse",
      "tag": "plural"
     },
     {
-     "form": "kolegja",
+     "form": "përparësja",
      "tag": "definite"
     },
     {
-     "form": "koleg",
-     "tag": "masculine"
+     "form": "përparëcë",
+     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Some colleagues will support you strongly.",
-    "score": [
-     2,
-     6,
-     -4,
-     10
-    ],
-    "sq": "Disa kolege do ju mbështesin fort."
-   }
+   "corpus_example": null
+  },
+  {
+   "id": "incizoj",
+   "sq": "incizoj",
+   "en": "to record on a tape or disk",
+   "glosses": [
+    "to record on a tape or disk",
+    "to engrave, carve, incise"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "to record on a tape or disk",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "record",
+      "tape",
+      "disk"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "to engrave, carve, incise",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "6 94"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "11 89"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "4 96"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "engrave",
+      "carve",
+      "incise"
+     ]
+    }
+   ],
+   "rank": 47003,
+   "count": 7,
+   "family": "incizoj",
+   "is_root": true,
+   "etymology": "Borrowed from French inciser.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "incizim"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "incizova",
+     "tag": "aorist"
+    },
+    {
+     "form": "incizuar",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": null
   }
  ],
  "extended": true

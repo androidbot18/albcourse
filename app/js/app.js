@@ -176,13 +176,26 @@ function viewLevel(root) {
   back.addEventListener('click', () => { state.view = 'map'; render(); });
   head.append(back);
   head.append(el('h1', null, data.title || 'Level ' + data.level));
-  const bits = [data.word_count + ' words',
-              data.families.length + ' famil' + (data.families.length === 1 ? 'y' : 'ies')];
+  const bits = data.unit
+    ? ['Unit ' + data.unit + ' \u00b7 ' + data.situation, data.word_count + ' items']
+    : [data.word_count + ' words',
+       data.families.length + ' famil' + (data.families.length === 1 ? 'y' : 'ies')];
   if (data.root && data.root_gloss) bits.push('root ' + data.root + ' \u2014 ' + data.root_gloss);
   if (data.parts > 1) bits.push('part ' + data.part + ' of ' + data.parts);
   head.append(el('p', 'sub', bits.join(' \u00b7 ')));
   root.append(head);
   for (const p of data.patterns || []) root.append(patternBox(p));
+  for (const n of data.notes || []) root.append(noteBox(n));
+
+  // A Conversation Core level is a lesson in a fixed order, not a set of
+  // word families: one list, then the unit's dialogue on its last level.
+  if (data.unit) {
+    const card = el('section', 'family');
+    for (const w of data.words) card.append(wordRow(w));
+    root.append(card);
+    if (data.dialogue && data.dialogue.length) root.append(dialogueBox(data));
+    return;
+  }
 
   for (const [family, words] of groupByFamily(data.words)) {
     const card = el('section', 'family');
@@ -265,6 +278,29 @@ function patternBox(p) {
   return box;
 }
 
+/* A short grammar note from the Conversation Core, shown at the top of the
+   level where the learner first needs it. */
+function noteBox(n) {
+  const box = el('section', 'pattern note');
+  box.append(el('h2', null, n.title));
+  box.append(el('p', null, n.text));
+  return box;
+}
+
+/* The dialogue that closes a unit: made only of words and phrases the unit
+   and the ones before it have taught. */
+function dialogueBox(data) {
+  const box = el('section', 'dialogue');
+  box.append(el('h2', null, 'You can now: ' + (data.can_do || 'read this')));
+  data.dialogue.forEach((d, i) => {
+    const line = el('div', 'dialogue-line ' + (i % 2 ? 'b' : 'a'));
+    line.append(el('div', 'sq', d.sq));
+    line.append(el('div', 'en', d.en));
+    box.append(line);
+  });
+  return box;
+}
+
 /* The source-language form, e.g. "from Latin soca".
    This is the historical equivalent of the component line: a kanji learner
    sees 日 in 明, an Albanian learner sees soca in shokë. Rendered on the
@@ -283,6 +319,7 @@ function wordRow(w) {
   top.append(el('span', 'pos', displayPosLabels(w, 2).join(', ')));
   row.append(top);
   row.append(el('div', 'en', w.en));
+  if (w.forms_line) row.append(el('div', 'forms', w.forms_line));
   const comps = componentsLine(w, { glosses: true });
   if (comps) row.append(comps);
   const cog = cognateLine(w);
@@ -367,6 +404,9 @@ function viewStudy(root) {
       if (cog) card.append(cog);
     }
     card.append(el('div', 'answer', forward ? w.en : w.sq));
+    // One card per word: the forms a learner meets (ai shkon, shkova) ride
+    // on the word's card instead of being cards of their own.
+    if (w.forms) card.append(el('div', 'forms', w.forms));
     if (w.ex && w.ex.sq && w.ex.en) {
       const ex = el('div', 'example');
       ex.append(el('div', 'ex-sq', w.ex.sq));
@@ -584,8 +624,11 @@ async function boot() {
     const [idx, all] = await Promise.all([loadIndex(), loadWords()]);
     state.index = idx;
     for (const w of all.words) state.words.set(w.id, w);
+    // Level by level, then the order the level file teaches them in. The
+    // Conversation Core relies on it: a card's example sentence may use the
+    // word taught just before it.
     state.teachingOrder = [...all.words].sort(
-      (a, b) => (a.level - b.level) || (a.rank - b.rank));
+      (a, b) => (a.level - b.level) || ((a.ord || 0) - (b.ord || 0)) || (a.rank - b.rank));
   } catch (err) {
     flash('Could not load the course. Serve this over http, not file://.');
   }

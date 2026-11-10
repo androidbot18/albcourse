@@ -1,43 +1,44 @@
 {
  "level": 494,
- "title": "pitër, këpus, tërmet +3",
+ "title": "shalqi, mburrem, dehem +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "kapelë",
-  "këpus",
-  "pitër",
-  "reputacion",
-  "theks",
-  "tërmet"
+  "dehem",
+  "mburrem",
+  "mot",
+  "shalqi",
+  "shikues",
+  "sorrë"
  ],
  "pos_mix": {
-  "adj": 1,
-  "verb": 1,
-  "noun": 6
+  "noun": 4,
+  "verb": 3,
+  "adv": 2,
+  "adj": 1
  },
  "words": [
   {
-   "id": "pitër",
-   "sq": "pitër",
-   "en": "frequent",
+   "id": "shalqi",
+   "sq": "shalqi",
+   "en": "watermelon",
    "glosses": [
-    "frequent"
+    "watermelon"
    ],
    "pos": [
-    "adj"
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "frequent",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "watermelon",
      "tags": [],
      "cats": [
       {
@@ -47,13 +48,13 @@
        "source": "w"
       },
       {
-       "name": "Albanian undefined derivations",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -61,48 +62,165 @@
      ],
      "examples": [],
      "links": [
-      "frequent"
+      "watermelon"
      ]
     }
    ],
-   "rank": 10615,
-   "count": 60,
-   "family": "pitër",
+   "rank": 20106,
+   "count": 26,
+   "family": "shalqi",
    "is_root": true,
-   "etymology": "From Proto-Albanian *pi(m)ita, related to Old Irish éim (“quick, fast”), Old Norse fimr (“id”).",
-   "etymology_class": null,
+   "etymology": "Unclear. Possibly borrowed from Arabic شَرْقِيّ (šarqiyy, “eastern”) through Turkish şarki, meaning \"plant or fruit brought from the east.\"",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
-   "parents": [
-    "id"
-   ],
+   "parents": [],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "pitëre",
-     "tag": "feminine"
+     "form": "shalqinj",
+     "tag": "plural"
+    },
+    {
+     "form": "shalqiri",
+     "tag": "definite"
+    },
+    {
+     "form": "sherqi",
+     "tag": "alternative"
+    },
+    {
+     "form": "shaqi",
+     "tag": "alternative"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Peter Murphy singing from a cage.",
+    "en": "Can a dog eat blueberries?",
     "score": [
-     3,
-     6,
-     -3,
+     1,
+     7,
+     -6,
      10
     ],
-    "sq": "Pitër Mërfi këndon nga prapa hekurave."
+    "sq": "A mundet një qen të ha shalqi?"
    }
   },
   {
-   "id": "këpus",
-   "sq": "këpus",
-   "en": "to tear off, to pluck",
+   "id": "mburrem",
+   "sq": "mburrem",
+   "en": "to be proud",
    "glosses": [
-    "to tear off, to pluck"
+    "to be proud",
+    "to brag"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be proud",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "proud"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to brag",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "48 52"
+      },
+      {
+       "name": "Albanian terms prefixed with mbë-",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 65"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "42 58"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "brag"
+     ]
+    }
+   ],
+   "rank": 20157,
+   "count": 26,
+   "family": "mburrem",
+   "is_root": true,
+   "etymology": "From mbë- + burrë (“man”).",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "man"
+   ],
+   "components": [
+    {
+     "word": "mbë",
+     "role": "prefix"
+    },
+    {
+     "word": "burrë",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Splurge on a focal point.",
+    "score": [
+     1,
+     5,
+     -4,
+     10
+    ],
+    "sq": "Mburrem më një pikë kontakti."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "dehem",
+   "sq": "dehem",
+   "en": "to get drunk",
+   "glosses": [
+    "to get drunk"
    ],
    "pos": [
     "verb"
@@ -114,100 +232,9 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "to tear off, to pluck",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian undefined derivations",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "tear",
-      "off",
-      "pluck"
-     ]
-    }
-   ],
-   "rank": 10620,
-   "count": 60,
-   "family": "këpus",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *karputja, a derivative verb from këputë (“sole”).",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "sole"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "këputa",
-     "tag": "aorist"
-    },
-    {
-     "form": "këputur",
-     "tag": "participle"
-    },
-    {
-     "form": "këput",
-     "tag": "alternative"
-    },
-    {
-     "form": "kërpuc",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I will snap a branch.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Do të këpus një degë."
-   }
-  },
-  {
-   "id": "tërmet",
-   "sq": "tërmet",
-   "en": "earthquake",
-   "glosses": [
-    "earthquake"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "earthquake",
+     "gloss": "to get drunk",
      "tags": [
-      "masculine"
+      "intransitive"
      ],
      "cats": [
       {
@@ -231,16 +258,16 @@
      ],
      "examples": [],
      "links": [
-      "earthquake"
+      "get drunk"
      ]
     }
    ],
-   "rank": 10651,
-   "count": 60,
-   "family": "tërmet",
+   "rank": 20160,
+   "count": 26,
+   "family": "dehem",
    "is_root": true,
-   "etymology": "From Old Albanian terëmet, borrowed from Latin terrae mōtus, an archaic borrowing considering the /oː/ → /e/ shift. Borrowed from Romance in its /o/ variants.",
-   "etymology_class": "borrowed",
+   "etymology": "See dej.",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -249,38 +276,22 @@
    "related": [],
    "forms": [
     {
-     "form": "tërmete",
-     "tag": "plural"
+     "form": "deha",
+     "tag": "aorist"
     },
     {
-     "form": "tërmeti",
-     "tag": "definite"
-    },
-    {
-     "form": "turmeq",
-     "tag": "alternative"
-    },
-    {
-     "form": "terëmot",
-     "tag": "alternative"
-    },
-    {
-     "form": "terremot",
-     "tag": "alternative"
-    },
-    {
-     "form": "terramot",
-     "tag": "alternative"
+     "form": "dehur",
+     "tag": "participle"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "reputacion",
-   "sq": "reputacion",
-   "en": "reputation",
+   "id": "sorrë",
+   "sq": "sorrë",
+   "en": "crow",
    "glosses": [
-    "reputation"
+    "crow"
    ],
    "pos": [
     "noun"
@@ -292,8 +303,10 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "reputation",
-     "tags": [],
+     "gloss": "crow",
+     "tags": [
+      "feminine"
+     ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -302,7 +315,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -316,13 +329,205 @@
      ],
      "examples": [],
      "links": [
-      "reputation"
+      "crow"
      ]
     }
    ],
-   "rank": 10672,
-   "count": 60,
-   "family": "reputacion",
+   "rank": 20167,
+   "count": 26,
+   "family": "sorrë",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *tšārnā, from pre-Albanian *kʷērsneh₂, from Proto-Indo-European *kr̥snós (“black”) (compare Lithuanian kir̃snas, Russian чёрный (čórnyj), Pashto [script needed] (kī́n, “left”)). Compare also Romanian cioară; Aromanian cioarã, tsoarã; Friulian çore; Tarantino ciola: Neapolitan and Sicilian ciaula.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "black",
+    "left"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "sorra",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "black crow fly away into the mountains again.",
+    "score": [
+     2,
+     8,
+     -6,
+     10
+    ],
+    "sq": "sorrë e zezë fluturojnë larg në male përsëri."
+   }
+  },
+  {
+   "id": "qëmoti",
+   "sq": "qëmoti",
+   "en": "ancient, old times, antiquity",
+   "glosses": [
+    "ancient, old times, antiquity",
+    "once upon a time, formerly, of yore, anciently"
+   ],
+   "pos": [
+    "adv",
+    "adv"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "ancient, old times, antiquity",
+     "tags": [
+      "definite",
+      "noun",
+      "singular",
+      "singular-only"
+     ],
+     "cats": [
+      {
+       "name": "Albanian singularia tantum",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "97 3"
+      },
+      {
+       "name": "Albanian terms suffixed with -i",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "91 9"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ancient",
+      "old times",
+      "antiquity"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "once upon a time, formerly, of yore, anciently",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "once upon a time",
+      "formerly",
+      "of yore"
+     ]
+    }
+   ],
+   "rank": 20188,
+   "count": 26,
+   "family": "mot",
+   "is_root": false,
+   "etymology": "From që (“when, where”) + mot (“era, times”) + -i.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "që",
+     "role": "prefix"
+    },
+    {
+     "word": "mot",
+     "role": "stem"
+    },
+    {
+     "word": "i",
+     "role": "suffix"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qemoti",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "MaCoCu",
+    "en": "He began feeling something he hadn't felt in a while.",
+    "score": [
+     5,
+     10,
+     -5,
+     8
+    ],
+    "sq": "Ai filloi të ndiente diçka që s'kishte ndier qëmoti."
+   },
+   "breakdown": "historical"
+  },
+  {
+   "id": "shikues",
+   "sq": "shikues",
+   "en": "viewer",
+   "glosses": [
+    "viewer"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "viewer",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "viewer"
+     ]
+    }
+   ],
+   "rank": 20212,
+   "count": 26,
+   "family": "shikues",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -334,159 +539,53 @@
    "related": [],
    "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Good reputation in the market.",
+    "corpus": "QED",
+    "en": "Great Looker!",
     "score": [
      0,
-     5,
-     -5,
-     10
+     3,
+     -3,
+     5
     ],
-    "sq": "Reputacion të mirë në treg."
+    "sq": "Shikues e madhe!"
    }
   },
   {
-   "id": "kapelë",
-   "sq": "kapelë",
-   "en": "hat",
+   "id": "parashikues",
+   "sq": "parashikues",
+   "en": "foretelling, visionary, seer",
    "glosses": [
-    "hat",
-    "hat-like object",
-    "chapel"
+    "foretelling, visionary, seer",
+    "foreteller, prophet, oracle, seer"
    ],
    "pos": [
-    "noun",
-    "noun",
+    "adj",
     "noun"
    ],
    "pos_labels": [
-    "noun",
-    "noun",
+    "adjective",
     "noun"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hat",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Headwear",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Headwear",
-       "langcode": "sq",
-       "_dis": "44 3 52"
-      }
-     ],
-     "examples": [
-      {
-       "sq": "Më pëlqen kapela jote.",
-       "en": "I like your hat.",
-       "offsets": [
-        [
-         10,
-         16
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "hat"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "hat-like object",
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "foretelling, visionary, seer",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "hat",
-      "-like"
+      "foretelling",
+      "visionary",
+      "seer"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "chapel",
+     "gloss": "foreteller, prophet, oracle, seer",
      "tags": [
-      "dated"
-     ],
-     "cats": [
-      {
-       "name": "Christianity",
-       "kind": "other",
-       "parents": [],
-       "source": "w",
-       "orig": "sq:Christianity",
-       "langcode": "sq"
-      },
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 9 81"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "10 10 79"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "Christianity",
-      "chapel"
-     ]
-    }
-   ],
-   "rank": 10689,
-   "count": 60,
-   "family": "kapelë",
-   "is_root": true,
-   "etymology": "Either from Latin cappellus (“hat”) or its derivative Italian cappello (via the feminine cappella).",
-   "etymology_class": "borrowed",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "hat",
-    "chapel"
-   ],
-   "components": [],
-   "derived": [
-    "kapelabërë",
-    "kapelapunues"
-   ],
-   "related": [],
-   "forms": [],
-   "corpus_example": null
-  },
-  {
-   "id": "theks",
-   "sq": "theks",
-   "en": "accent, sign, tone",
-   "glosses": [
-    "accent, sign, tone"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "accent, sign, tone",
-     "tags": [
+      "feminine",
       "masculine"
      ],
      "cats": [
@@ -494,62 +593,75 @@
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "15 85"
+      },
+      {
+       "name": "Pages using invalid parameters when calling Template:sq-adj",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "22 78"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "12 88"
       }
      ],
      "examples": [],
      "links": [
-      "accent",
-      "sign",
-      "tone"
+      "foreteller",
+      "prophet",
+      "oracle"
      ]
     }
    ],
-   "rank": 10704,
-   "count": 60,
-   "family": "theks",
-   "is_root": true,
-   "etymology": "Derivative of thek.",
-   "etymology_class": null,
+   "rank": 31675,
+   "count": 13,
+   "family": "shikues",
+   "is_root": false,
+   "etymology": "From para (“before, in front of”) + shikues (“watcher, viewer”).",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "para",
+     "role": "prefix"
+    },
+    {
+     "word": "shikues",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "theksa",
+     "form": "parashikuesi",
      "tag": "plural"
     },
     {
-     "form": "theksi",
+     "form": "parashikuesja",
      "tag": "definite"
     }
    ],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "it is an Australian accent.",
+    "en": "A kind of predictive programming so….",
     "score": [
      1,
      5,
      -4,
      10
     ],
-    "sq": "ajo është një theks Australian."
-   }
+    "sq": "Një lloj programimi parashikues kështu…."
+   },
+   "breakdown": "historical"
   }
  ],
  "extended": true

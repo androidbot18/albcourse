@@ -1,73 +1,105 @@
 {
  "level": 127,
- "title": "kuptoj, kem",
+ "title": "The weather 3/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 8,
  "families": [
-  "kem",
-  "kuptoj"
+  "Sa ditë e bukur!",
+  "ber",
+  "kthjellët",
+  "lagur",
+  "ndryshoj",
+  "parashikim",
+  "shkëlqej",
+  "thatë"
  ],
  "pos_mix": {
-  "verb": 2,
-  "noun": 2
+  "adj": 7,
+  "noun": 2,
+  "verb": 6,
+  "phrase": 1
  },
  "words": [
   {
-   "id": "kuptova",
-   "sq": "kuptova",
-   "en": "I (once did) understanded (from kuptoj, to understand)",
+   "id": "lagur",
+   "sq": "lagur",
+   "en": "wet",
    "glosses": [
-    "I (once did) understanded (from kuptoj, to understand)"
+    "wet",
+    "wet, moist, damp"
    ],
    "pos": [
-    "verb"
+    "adj",
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective",
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "I (once did) understanded (from kuptoj, to understand)",
-     "tags": [
-      "aorist",
-      "first-person",
-      "form-of",
-      "indicative",
-      "singular"
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "wet",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Rrobat janë të lagura.",
+       "en": "The clothes are wet.",
+       "offsets": [
+        [
+         15,
+         21
+        ]
+       ]
+      }
      ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "wet, moist, damp",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "77 23"
       },
       {
        "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "100 0"
       }
      ],
      "examples": [],
-     "is_form_of": "kuptoj"
+     "links": [
+      "wet",
+      "moist",
+      "damp"
+     ]
     }
    ],
-   "rank": 527,
-   "count": 1989,
-   "family": "kuptoj",
-   "is_root": false,
+   "rank": 3821,
+   "count": 205,
+   "family": "lagur",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -77,24 +109,200 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Did I understand you correctly?",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Ju kuptova mirë?"
-   }
+   "forms_line": "i lagur · e lagur",
+   "corpus_example": null
   },
   {
-   "id": "kem",
-   "sq": "kem",
-   "en": "incense",
+   "id": "thatë",
+   "sq": "thatë",
+   "en": "dry",
    "glosses": [
-    "incense"
+    "dry"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "dry",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Vera këtu është e thatë.",
+       "en": "Summer here is dry.",
+       "offsets": [
+        [
+         18,
+         23
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 1287,
+   "count": 698,
+   "family": "thatë",
+   "is_root": true,
+   "etymology": "A derivative of thaj.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "i thatë · e thatë",
+   "corpus_example": null
+  },
+  {
+   "id": "kthjellët",
+   "sq": "kthjellët",
+   "en": "clear (of the sky)",
+   "glosses": [
+    "clear (of the sky)",
+    "transparent, pure, clean (of waters or other liquids)",
+    "clear (of sky, weather, sound, voice, thought etc)",
+    "light (of hair, eyes, color etc)"
+   ],
+   "pos": [
+    "adj",
+    "adj",
+    "adj",
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective",
+    "adjective",
+    "adjective",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "clear (of the sky)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Qielli është i kthjellët.",
+       "en": "The sky is clear.",
+       "offsets": [
+        [
+         15,
+         24
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "transparent, pure, clean (of waters or other liquids)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "79 5 16"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "81 0 19"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "88 0 12"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "transparent",
+      "pure",
+      "clean"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "clear (of sky, weather, sound, voice, thought etc)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "clear"
+     ]
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "light (of hair, eyes, color etc)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Colors",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Colors",
+       "langcode": "sq",
+       "_dis": "17 0 83"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "light"
+     ]
+    }
+   ],
+   "rank": 9313,
+   "count": 71,
+   "family": "kthjellët",
+   "is_root": true,
+   "etymology": "Derivative of kthjell.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "kthjell"
+   ],
+   "forms": [
+    {
+     "form": "kthjellë",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "i kthjellët · e kthjellët",
+   "corpus_example": null
+  },
+  {
+   "id": "parashikim",
+   "sq": "parashikim",
+   "en": "forecast",
+   "glosses": [
+    "forecast"
    ],
    "pos": [
     "noun"
@@ -106,239 +314,455 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "incense",
+     "gloss": "forecast",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Parashikimi për nesër është i mirë.",
+       "en": "The forecast for tomorrow is good.",
+       "offsets": [
+        [
+         0,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 17672,
+   "count": 31,
+   "family": "parashikim",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "parashikimi · pl. parashikime",
+   "corpus_example": null
+  },
+  {
+   "id": "ndryshoj",
+   "sq": "ndryshoj",
+   "en": "to change",
+   "glosses": [
+    "to change",
+    "to change, to alter, to modify",
+    "to differ, to be different"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to change",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Moti ndryshon shpejt.",
+       "en": "The weather changes quickly.",
+       "offsets": [
+        [
+         5,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to change, to alter, to modify",
      "tags": [
-      "masculine"
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "35 36 29"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "31 34 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "change",
+      "alter",
+      "modify"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to differ, to be different",
+     "tags": [
+      "intransitive"
      ],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "23 61 16"
       },
       {
-       "name": "Pages with 17 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "35 36 29"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "31 34 35"
       }
      ],
      "examples": [],
      "links": [
-      "incense"
+      "differ",
+      "different"
      ]
     }
    ],
-   "rank": 529,
-   "count": 1958,
-   "family": "kem",
+   "rank": 2220,
+   "count": 384,
+   "family": "ndryshoj",
    "is_root": true,
-   "etymology": "From Proto-Albanian *kapna, from Proto-Indo-European *kʷh₂wep- (“smoke, seethe”) (compare Ancient Greek καπνός (kapnós, “smoke”), Polish kopeć (“soot”)).",
+   "etymology": "Derived from ndryshe, itself a derivation of ndërroj.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "ndryshohem",
+    "ndryshim",
+    "ndryshëm"
+   ],
+   "forms": [
+    {
+     "form": "ndryshova",
+     "tag": "aorist"
+    },
+    {
+     "form": "ndryshuar",
+     "tag": "participle"
+    }
+   ],
+   "forms_line": "ai ndryshon · ndryshova (past) · kam ndryshuar",
+   "corpus_example": null
+  },
+  {
+   "id": "shkëlqej",
+   "sq": "shkëlqej",
+   "en": "to shine",
+   "glosses": [
+    "to shine",
+    "to excel",
+    "to shine, glow"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shine",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Dielli shkëlqen.",
+       "en": "The sun is shining.",
+       "offsets": [
+        [
+         7,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to excel",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "excel"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to shine, glow",
+     "tags": [
+      "intransitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "52 48"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "shine",
+      "glow"
+     ]
+    }
+   ],
+   "rank": 31490,
+   "count": 13,
+   "family": "shkëlqej",
+   "is_root": true,
+   "etymology": "Probably a formation from qelq (“glass”) with mobile sh-, from Latin calix.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "glass"
+   ],
+   "components": [],
+   "derived": [
+    "shkëlqar"
+   ],
+   "related": [
+    "qelq",
+    "shkëlqyeshëm"
+   ],
+   "forms": [
+    {
+     "form": "shkëlqeva",
+     "tag": "aorist"
+    },
+    {
+     "form": "shkëlqyer",
+     "tag": "participle"
+    }
+   ],
+   "forms_line": "ai shkëlqen · shkëlqeva (past) · kam shkëlqyer",
+   "corpus_example": null
+  },
+  {
+   "id": "Sa ditë e bukur!",
+   "sq": "Sa ditë e bukur!",
+   "en": "What a beautiful day!",
+   "glosses": [
+    "What a beautiful day!"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "What a beautiful day!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60117,
+   "count": 0,
+   "family": "Sa ditë e bukur!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
+  },
+  {
+   "id": "ylber",
+   "sq": "ylber",
+   "en": "rainbow",
+   "glosses": [
+    "rainbow"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "rainbow",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Shiko, një ylber!",
+       "en": "Look, a rainbow!",
+       "offsets": [
+        [
+         11,
+         16
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 24296,
+   "count": 20,
+   "family": "ber",
+   "is_root": false,
+   "etymology": "Compound of Proto-Albanian *ulnā (“forearm”) and *bōra (“bow”), mirror image of bërryl (“elbow”). More at bërryl.\nAlternatively, from yll (“star”) + ber (“bow”).",
    "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [
-    "smoke",
-    "soot"
+    "forearm",
+    "bow",
+    "elbow"
    ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "qem",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "What do I need to keep in mind?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Çfarë duhet të kem parasysh?"
-   }
-  },
-  {
-   "id": "kuptim",
-   "sq": "kuptim",
-   "en": "understanding",
-   "glosses": [
-    "understanding"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "understanding",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian terms suffixed with -im",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "understanding"
-     ]
-    }
-   ],
-   "rank": 865,
-   "count": 1112,
-   "family": "kuptoj",
-   "is_root": false,
-   "etymology": "From kuptoj + -im.",
-   "etymology_class": "affix",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
    "components": [
     {
-     "word": "kuptoj",
-     "role": "base",
-     "en": "to understand"
+     "word": "yll",
+     "role": "prefix"
     },
     {
-     "word": "im",
-     "role": "suffix",
-     "affix": "im",
-     "meaning": "the act of (noun)"
+     "word": "ber",
+     "role": "stem"
     }
    ],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "kuptime",
-     "tag": "plural"
-    },
-    {
-     "form": "kuptimi",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Anyhow, dear old Bobbie nearly foamed at the mouth.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Pyetje pa kuptim?"
-   },
-   "breakdown": "transparent"
-  },
-  {
-   "id": "kuptove",
-   "sq": "kuptove",
-   "en": "you (sg) (once did) understanded (from kuptoj, to understand)",
-   "glosses": [
-    "you (sg) (once did) understanded (from kuptoj, to understand)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) (once did) understanded (from kuptoj, to understand)",
-     "tags": [
-      "aorist",
-      "form-of",
-      "indicative",
-      "second-person",
-      "singular"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "kuptoj"
-    }
-   ],
-   "rank": 930,
-   "count": 1027,
-   "family": "kuptoj",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "You got it right!",
-    "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "E kuptove mirë!"
-   }
+   "forms_line": "ylberi · pl. ylberë",
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ],
- "continues": [
-  "kuptoj"
+ "opening": true,
+ "unit": 40,
+ "unit_title": "The weather",
+ "situation": "Weather and nature",
+ "can_do": "talk about the weather",
+ "dialogue": [
+  {
+   "sq": "Si është moti sot?",
+   "en": "What is the weather like today?"
+  },
+  {
+   "sq": "Bie shi dhe bën ftohtë.",
+   "en": "It is raining and it is cold."
+  },
+  {
+   "sq": "Dhe nesër?",
+   "en": "And tomorrow?"
+  },
+  {
+   "sq": "Parashikimi është i mirë. Do të ketë diell.",
+   "en": "The forecast is good. It will be sunny."
+  },
+  {
+   "sq": "Atëherë nesër shkojmë në plazh!",
+   "en": "Then tomorrow we go to the beach!"
+  },
+  {
+   "sq": "Po, por merr edhe një xhaketë. Moti ndryshon shpejt.",
+   "en": "Yes, but take a jacket too. The weather changes quickly."
+  }
  ]
 }

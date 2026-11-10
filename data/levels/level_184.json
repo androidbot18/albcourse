@@ -1,101 +1,384 @@
 {
  "level": 184,
- "title": "vjedh",
- "root": "vjedh",
- "root_gloss": "to steal",
+ "title": "kë, bej, pare +3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 2,
+ "word_count": 6,
  "families": [
-  "vjedh"
+  "bej",
+  "dakort",
+  "ec",
+  "kë",
+  "pare",
+  "qind"
  ],
  "pos_mix": {
-  "verb": 2
+  "pron": 1,
+  "noun": 6,
+  "adj": 1,
+  "verb": 1,
+  "num": 1
  },
  "words": [
   {
-   "id": "vjedh",
-   "sq": "vjedh",
-   "en": "to steal",
+   "id": "kë",
+   "sq": "kë",
+   "en": "who, whom",
    "glosses": [
-    "to steal"
+    "who, whom"
    ],
    "pos": [
-    "verb"
+    "pron"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to steal",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "who, whom",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "49 51"
+      },
+      {
+       "name": "Albanian pronouns",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "28 72"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
      "examples": [],
      "links": [
-      "steal"
+      "who",
+      "whom"
      ]
     }
    ],
-   "rank": 2546,
-   "count": 327,
-   "family": "vjedh",
+   "rank": 581,
+   "count": 1770,
+   "family": "kë",
    "is_root": true,
-   "etymology": "From Proto-Albanian *wedza, from Proto-Indo-European *wéǵʰeti (“to bring, carry, transport”). Compare Gothic gawigan (“to steal”), Latin vehere (“to bear, to carry”), Lithuanian vèžti. For sense development, compare Proto-Indo-European *bʰṓr (“thief”), from the root *bʰer- (“to carry”), whence Latin fūr and Ancient Greek φώρ (phṓr).",
-   "etymology_class": "root",
+   "etymology": "From Proto-Albanian *kaN, from Proto-Indo-European *kʷo- (“who”). Cognate to Latin quom.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "who"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Who and when?",
+    "score": [
+     0,
+     3,
+     -3,
+     10
+    ],
+    "sq": "Kë dhe kur?"
+   }
+  },
+  {
+   "id": "bej",
+   "sq": "bej",
+   "en": "lord (in feudalism)",
+   "glosses": [
+    "lord (in feudalism)",
+    "bey, ruler of a province",
+    "A title of nobility. bey",
+    "Respectful title of address. sir, mister"
+   ],
+   "pos": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "lord (in feudalism)",
+     "tags": [
+      "historical",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Feudalism",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Feudalism",
+       "langcode": "sq"
+      },
+      {
+       "name": "People",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:People",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "lord"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "bey, ruler of a province",
+     "tags": [
+      "historical",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 40 27 31"
+      },
+      {
+       "name": "Rulers",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "orig": "sq:Rulers",
+       "langcode": "sq",
+       "_dis": "6 51 21 22"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bey",
+      "province"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "A title of nobility. bey",
+     "tags": [
+      "historical",
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Nobility",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Nobility",
+       "langcode": "sq"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "bey"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Respectful title of address. sir, mister",
+     "tags": [
+      "archaic",
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "sir",
+      "mister"
+     ]
+    }
+   ],
+   "rank": 583,
+   "count": 1765,
+   "family": "bej",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish بك (beg).",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "bejçe",
+    "bejlereshë",
+    "bejlurçinë",
+    "bejllëk"
+   ],
+   "related": [
+    "allajbe",
+    "begzade",
+    "bejlerbej",
+    "sanxhakbej",
+    "Skënderbej"
+   ],
+   "forms": [
+    {
+     "form": "bejlerë",
+     "tag": "plural"
+    },
+    {
+     "form": "beu",
+     "tag": "definite"
+    },
+    {
+     "form": "beg",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "QED",
+    "en": "Don't ask questions.",
+    "score": [
+     0,
+     3,
+     -3,
+     5
+    ],
+    "sq": "Mos bej pyetje."
+   }
+  },
+  {
+   "id": "pare",
+   "sq": "pare",
+   "en": "scale (of fish)",
+   "glosses": [
+    "scale (of fish)",
+    "money"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "scale (of fish)",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "scale"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "money",
+     "tags": [
+      "Gheg",
+      "colloquial",
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "50 50"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "Gheg",
+      "money"
+     ]
+    }
+   ],
+   "rank": 593,
+   "count": 1720,
+   "family": "pare",
+   "is_root": true,
+   "etymology": "Singularized plural of Proto-Albanian *par continuing Proto-Albanian *para. See Lithuanian periù~perti.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "vodha",
-     "tag": "aorist"
-    },
-    {
-     "form": "vjedhur",
-     "tag": "participle"
-    }
-   ],
+   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It steals data from you.",
+    "corpus": "QED",
+    "en": "I can't do without seeing you.",
     "score": [
-     1,
-     6,
-     -5,
-     10
+     0,
+     7,
+     -7,
+     5
     ],
-    "sq": "Ajo vjedh të dhëna nga ju."
+    "sq": "Nuk mund te rri pa te pare."
    }
   },
   {
-   "id": "vjedhur",
-   "sq": "vjedhur",
-   "en": "steal, past form (from vjedh, to steal)",
+   "id": "dakort",
+   "sq": "dakort",
+   "en": "in agreement",
    "glosses": [
-    "steal, past form (from vjedh, to steal)"
+    "in agreement"
    ],
    "pos": [
-    "verb"
+    "adj"
    ],
    "pos_labels": [
-    "verb"
+    "adjective"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "steal, past form (from vjedh, to steal)",
-     "tags": [
-      "form-of",
-      "participle",
-      "past"
-     ],
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "in agreement",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -116,14 +399,94 @@
        "source": "w"
       }
      ],
-     "examples": [],
-     "is_form_of": "vjedh"
+     "examples": [
+      {
+       "sq": "Jam dakort me ty.",
+       "en": "I agree with you.",
+       "offsets": [
+        [
+         4,
+         10
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "agreement"
+     ]
     }
    ],
-   "rank": 948,
-   "count": 1004,
-   "family": "vjedh",
-   "is_root": false,
+   "rank": 598,
+   "count": 1711,
+   "family": "dakort",
+   "is_root": true,
+   "etymology": "Borrowed from French d'accord.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "dakord",
+     "tag": "alternative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ec",
+   "sq": "ec",
+   "en": "walk",
+   "glosses": [
+    "walk"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "walk",
+     "tags": [
+      "impersonal"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 5 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "walk"
+     ]
+    }
+   ],
+   "rank": 615,
+   "count": 1666,
+   "family": "ec",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -135,15 +498,89 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Have you ever stolen?",
+    "en": "Hot tub. Walk to village.",
+    "score": [
+     1,
+     4,
+     -3,
+     10
+    ],
+    "sq": "Ec deri në fshat."
+   }
+  },
+  {
+   "id": "qind",
+   "sq": "qind",
+   "en": "hundred",
+   "glosses": [
+    "hundred"
+   ],
+   "pos": [
+    "num"
+   ],
+   "pos_labels": [
+    "numeral"
+   ],
+   "sense_detail": [
+    {
+     "pos": "num",
+     "pos_label": "numeral",
+     "gloss": "hundred",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian cardinal numbers",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "hundred"
+     ]
+    }
+   ],
+   "rank": 5783,
+   "count": 127,
+   "family": "qind",
+   "is_root": true,
+   "etymology": "From Latin centum, possibly borrowed through Vulgar Latin.",
+   "etymology_class": "derived",
+   "source_lang": "la",
+   "cognate": "from Latin centum",
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "0 percent risk!",
     "score": [
      0,
      3,
      -3,
      10
     ],
-    "sq": "Ke vjedhur ndonjëherë?"
+    "sq": "0 për qind rrezik!"
    }
   }
+ ],
+ "continues": [
+  "kë",
+  "qind"
  ]
 }

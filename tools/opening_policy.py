@@ -107,6 +107,11 @@ POS_FULL_TO_SHORT = {
     "interjection": "intj", "prep": "prep", "preposition": "prep",
     "conj": "conj", "conjunction": "conj", "det": "det",
     "determiner": "det",
+    # The Conversation Core headlines some cards as a particle (po, jo, a)
+    # or a phrase. Unknown here, they fell through to the card's flat POS
+    # list, which exists only on shipped cards, so a build and a re-level
+    # of its own output disagreed about `a`.
+    "particle": "particle", "phrase": "phrase",
 }
 
 

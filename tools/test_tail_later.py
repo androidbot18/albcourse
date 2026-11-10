@@ -92,15 +92,21 @@ else:
     import opening_levels as ol  # noqa: E402
     sched = [L for L in shipped if not L.get("opening")]
     opening = [w for L in sched[:op.EARLY_LEVELS_DEFAULT] for w in L["words"]]
-    strays = sorted(w["sq"] for w in opening if op.is_rare_tail(w))
-    check("no rare-tail word in the scheduler's first levels (got %s)"
+    # The scheduler now starts after the Conversation Core, which already
+    # teaches most words under rank 1,200, so its first levels reach a
+    # little further down the list. The defect this guards against is a
+    # truly rare word (doemos, rank 30,516) riding its root to the front.
+    strays = sorted(w["sq"] for w in opening if w["rank"] > 2000)
+    check("no rare word in the scheduler's first levels (got %s)"
           % strays, not strays)
     listed = {w for _, ws in ol.LEVELS for w in ws}
     extra = sorted(w["sq"] for L in shipped if L.get("opening")
                    for w in L["words"] if w["sq"] not in listed)
     check("curated levels hold only the curated words (got %s)" % extra,
           not extra)
-    for w, must in (("doemos", "do"), ("mjaftoj", "me"), ("qeshë", "jam")):
+    # mjaftoj and qeshë were pinned here too; the core teaches mjaftoj as
+    # a word, and qeshë is a form of jam, no longer a card.
+    for w, must in (("doemos", "do"),):
         check("%s waits for its own band, after %s" % (w, must),
               lvl_of[w] > op.EARLY_LEVELS_DEFAULT and lvl_of[w] > lvl_of[must])
     tails = [L for L in shipped if L.get("resumes")]

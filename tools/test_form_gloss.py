@@ -230,20 +230,19 @@ def main():
           "at most a couple of dozen form cards keep the raw gloss",
           "%d: %s" % (len(still_raw), ", ".join(still_raw[:8])))
 
-    # The words the user actually complained about, in shipped form.
-    by_sq = {w["sq"]: str(w.get("en", "")) for w in words}
-    for word, expected in [
-        ("është", "he/she/it is (from jam, to be)"),
-        ("janë", "they are (from jam, to be)"),
-        ("kemi", "we have (from kam, to have)"),
-    ]:
-        check(by_sq.get(word) == expected,
-              "shipped %s reads %r" % (word, expected), by_sq.get(word))
-    check(by_sq.get("njerëzit", "").startswith("the "),
-          "shipped njerëzit is definite", by_sq.get("njerëzit"))
-    check("anyone" not in by_sq.get("njerëzit", ""),
-          "shipped njerëzit does not use the indefinite lemma gloss",
-          by_sq.get("njerëzit"))
+    # The words the user actually complained about. They are no longer
+    # cards: one card per word (CONVERSATION_PLAN.md step 2), so a form is
+    # shown on its word's card. The converter above still runs in the
+    # build, on the form cards it folds away.
+    by_sq = {w["sq"]: w for w in words}
+    for word in ("është", "janë", "kemi", "njerëzit"):
+        check(word not in by_sq, "%s is not a card of its own" % word,
+              (by_sq.get(word) or {}).get("en"))
+    check("është" in (by_sq.get("jam") or {}).get("forms", ""),
+          "the jam card shows është", (by_sq.get("jam") or {}).get("forms"))
+    check((by_sq.get("njeri") or {}).get("en") == "person, man",
+          "njeri is headlined 'person, man', not 'anyone'",
+          (by_sq.get("njeri") or {}).get("en"))
 
     print()
     if failures:

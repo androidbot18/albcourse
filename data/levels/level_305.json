@@ -1,42 +1,253 @@
 {
  "level": 305,
- "title": "pazakontë, stuhi, diell +3",
+ "title": "këshill, çek, thashetheme +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "diell",
-  "flakë",
-  "pazakontë",
-  "rritje",
-  "sheqer",
-  "stuhi"
+  "afërsisht",
+  "këshill",
+  "paq",
+  "tatuazh",
+  "thashetheme",
+  "çek"
  ],
  "pos_mix": {
-  "adj": 1,
-  "noun": 6
+  "noun": 5,
+  "verb": 2,
+  "adv": 2
  },
  "words": [
   {
-   "id": "pazakontë",
-   "sq": "pazakontë",
-   "en": "unusual",
+   "id": "këshilltar",
+   "sq": "këshilltar",
+   "en": "advisor",
    "glosses": [
-    "unusual"
+    "advisor",
+    "councilor"
    ],
    "pos": [
-    "adj"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "adjective"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "adj",
-     "pos_label": "adjective",
-     "gloss": "unusual",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "advisor",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "advisor"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "councilor",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "10 90"
+      },
+      {
+       "name": "Albanian terms suffixed with -tar",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "44 56"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 97"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "councilor"
+     ]
+    }
+   ],
+   "rank": 5767,
+   "count": 127,
+   "family": "këshill",
+   "is_root": false,
+   "etymology": "From këshill + -tar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "këshill",
+     "role": "base",
+     "en": "council"
+    },
+    {
+     "word": "tar",
+     "role": "suffix",
+     "affix": "tar",
+     "meaning": "person / of"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "këshilltarë",
+     "tag": "plural"
+    },
+    {
+     "form": "këshilltari",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Media advisor.",
+    "score": [
+     1,
+     3,
+     -2,
+     10
+    ],
+    "sq": "Këshilltar për mediat."
+   },
+   "breakdown": "transparent"
+  },
+  {
+   "id": "çek",
+   "sq": "çek",
+   "en": "to touch, pat",
+   "glosses": [
+    "to touch, pat",
+    "to mention, to quote"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to touch, pat",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "touch",
+      "pat"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to mention, to quote",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "36 64"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "mention",
+      "quote"
+     ]
+    }
+   ],
+   "rank": 5776,
+   "count": 127,
+   "family": "çek",
+   "is_root": true,
+   "etymology": "An onomatopoeia, related to çok, cek, etc.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "çok",
+    "çukë"
+   ],
+   "forms": [
+    {
+     "form": "çeka",
+     "tag": "aorist"
+    },
+    {
+     "form": "çekur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "I got a check every month.",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "Kam marrë një çek çdo muaj."
+   }
+  },
+  {
+   "id": "thashetheme",
+   "sq": "thashetheme",
+   "en": "gossip, rumor, hearsay",
+   "glosses": [
+    "gossip, rumor, hearsay"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "gossip, rumor, hearsay",
      "tags": [],
      "cats": [
       {
@@ -46,13 +257,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Albanian pluralia tantum",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -60,16 +271,18 @@
      ],
      "examples": [],
      "links": [
-      "unusual"
+      "gossip",
+      "rumor",
+      "hearsay"
      ]
     }
    ],
-   "rank": 3168,
-   "count": 256,
-   "family": "pazakontë",
+   "rank": 5790,
+   "count": 127,
+   "family": "thashetheme",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From thashë + e + them.",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -79,103 +292,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "Nothing unusual?",
+    "en": "This is slander and gossip.",
     "score": [
-     0,
-     3,
-     -3,
-     10
-    ],
-    "sq": "Asgjë e pazakontë?"
-   }
-  },
-  {
-   "id": "stuhi",
-   "sq": "stuhi",
-   "en": "storm",
-   "glosses": [
-    "storm"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "storm",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "storm"
-     ]
-    }
-   ],
-   "rank": 3171,
-   "count": 255,
-   "family": "stuhi",
-   "is_root": true,
-   "etymology": "Related to Ancient Greek στοιχείο (stoikheío, “element, spirit”). Alternatively from some contraction of Proto-Indo-European *(s)tur- (“to rotate, swirl, twirl, move around”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "stuhi",
-     "tag": "plural"
-    },
-    {
-     "form": "stuhia",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "But it's just a Storm.",
-    "score": [
-     0,
+     1,
      5,
-     -5,
+     -4,
      10
     ],
-    "sq": "Por është vetëm një Stuhi."
+    "sq": "Kjo është shpifje dhe thashetheme."
    }
   },
   {
-   "id": "diell",
-   "sq": "diell",
-   "en": "sun",
+   "id": "tatuazh",
+   "sq": "tatuazh",
+   "en": "tattoo",
    "glosses": [
-    "sun"
+    "tattoo"
    ],
    "pos": [
     "noun"
@@ -187,7 +319,7 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sun",
+     "gloss": "tattoo",
      "tags": [
       "masculine"
      ],
@@ -211,18 +343,39 @@
        "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "Të pëlqejnë tatuazhet e mia të reja?",
+       "en": "Do you like my new tattoos?",
+       "offsets": [
+        [
+         12,
+         21
+        ]
+       ]
+      },
+      {
+       "sq": "Motra e tij ka shumë tatuazhe të mëdha dhe të bukura.",
+       "en": "His sister has many large and beautiful tattoos.",
+       "offsets": [
+        [
+         21,
+         29
+        ]
+       ]
+      }
+     ],
      "links": [
-      "sun"
+      "tattoo"
      ]
     }
    ],
-   "rank": 3172,
-   "count": 255,
-   "family": "diell",
+   "rank": 5792,
+   "count": 127,
+   "family": "tatuazh",
    "is_root": true,
-   "etymology": "Disputed. Possibilities include:\n* From Proto-Albanian *delwa, from Proto-Indo-European *ǵʰelh₃u̯o-, from the root *ǵʰelh₃- (“gleam, yellow”), a tabooistic substitute for the original *sóh₂wl̥. Cognate with Lithuanian žel̃vas, Latin helvus, Sanskrit हरि (hari).\n* From Proto-Indo-European *sh₂wélyos (“sun”), from the oblique stem of *sóh₂wl̥. For the development of the initial compare djersë (“sweat”) from *sweyd-, and dergjem (“waste away, be bedridden”), from mediopassive Proto-Indo-European *sworgʰéyeti, from *swergʰ- (“watch over, worry”).",
-   "etymology_class": "inherited",
+   "etymology": "Borrowed from French tatouage.",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -231,154 +384,97 @@
    "related": [],
    "forms": [
     {
-     "form": "diej",
+     "form": "tatuazhe",
      "tag": "plural"
     },
     {
-     "form": "dielli",
+     "form": "tatuazhi",
      "tag": "definite"
-    },
-    {
-     "form": "djel",
-     "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Outside, in full sun.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Jashtë, në diell të plotë."
-   }
+   "corpus_example": null
   },
   {
-   "id": "rritje",
-   "sq": "rritje",
-   "en": "growth",
+   "id": "paq",
+   "sq": "paq",
+   "en": "clean, quite, well",
    "glosses": [
-    "growth",
-    "increase"
+    "clean, quite, well"
    ],
    "pos": [
-    "noun",
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun",
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "growth",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "growth"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "increase",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "clean, quite, well",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "9 91"
+       "source": "w"
       },
       {
-       "name": "Albanian terms suffixed with -je",
+       "name": "Pages with 3 entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
+       "source": "w"
       },
       {
-       "name": "Pages with 1 entry",
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w+disamb",
-       "_dis": "18 82"
+       "source": "w"
       }
      ],
      "examples": [],
      "links": [
-      "increase"
+      "clean",
+      "quite",
+      "well"
      ]
     }
    ],
-   "rank": 3173,
-   "count": 255,
-   "family": "rritje",
+   "rank": 5845,
+   "count": 125,
+   "family": "paq",
    "is_root": true,
-   "etymology": "Gerund of rrit (variant of rris); rrit + -je.",
-   "etymology_class": "affix",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
-   "related": [
-    "rris",
-    "rritem"
-   ],
-   "forms": [
-    {
-     "form": "rritje",
-     "tag": "plural"
-    },
-    {
-     "form": "rritja",
-     "tag": "definite"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "They are a take-off.",
-    "score": [
-     0,
-     4,
-     -4,
-     5
-    ],
-    "sq": "Ata janë në rritje."
-   }
+   "related": [],
+   "forms": [],
+   "corpus_example": null
   },
   {
-   "id": "flakë",
-   "sq": "flakë",
-   "en": "flame",
+   "id": "afërsisht",
+   "sq": "afërsisht",
+   "en": "about, approximately",
    "glosses": [
-    "flame"
+    "about, approximately"
    ],
    "pos": [
-    "noun"
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "flame",
-     "tags": [
-      "feminine"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "about, approximately",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -401,16 +497,17 @@
      ],
      "examples": [],
      "links": [
-      "flame"
+      "about",
+      "approximately"
      ]
     }
    ],
-   "rank": 3175,
-   "count": 255,
-   "family": "flakë",
+   "rank": 5862,
+   "count": 125,
+   "family": "afërsisht",
    "is_root": true,
-   "etymology": "A formation similar to fletë and flugë. A loanword from Latin through Vulgar Latin may be plausible too, cf. facula; compare Romanian flacără, Italian fiaccola.",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -420,22 +517,22 @@
    "forms": [],
    "corpus_example": {
     "corpus": "HPLT",
-    "en": "It was more like flings.",
+    "en": "Approximately 1 hour.",
     "score": [
      0,
-     5,
-     -5,
+     2,
+     -2,
      10
     ],
-    "sq": "Ishte më shumë si flakë."
+    "sq": "Afërsisht 1 orë."
    }
   },
   {
-   "id": "sheqer",
-   "sq": "sheqer",
-   "en": "sugar",
+   "id": "këshill",
+   "sq": "këshill",
+   "en": "council",
    "glosses": [
-    "sugar"
+    "council"
    ],
    "pos": [
     "noun"
@@ -447,39 +544,68 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "sugar",
-     "tags": [],
+     "gloss": "council",
+     "tags": [
+      "masculine"
+     ],
      "cats": [
-      {
-       "name": "Albanian entries with etymology trees",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian entries with etymon",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
       }
      ],
-     "examples": [],
+     "examples": [
+      {
+       "sq": "këshilli i qarkut... këshill i kazasë... këshilli bashkiak...",
+       "en": "the county council... a kaza council... the municipal council...",
+       "offsets": [
+        [
+         0,
+         7
+        ],
+        [
+         0,
+         8
+        ],
+        [
+         21,
+         28
+        ],
+        [
+         41,
+         48
+        ],
+        [
+         41,
+         49
+        ]
+       ]
+      }
+     ],
      "links": [
-      "sugar"
+      "council"
      ]
     }
    ],
-   "rank": 3177,
-   "count": 255,
-   "family": "sheqer",
+   "rank": 11591,
+   "count": 54,
+   "family": "këshill",
    "is_root": true,
-   "etymology": "Etymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian škl\nPersian شکرbor.\nOttoman Turkish شكر (şeker)bor.\nAlbanian sheqer\nBorrowed from Ottoman Turkish شكر (şeker).",
+   "etymology": "Back-formation of *këshij (interpreted as a plural form), borrowed through Vulgar Latin from Latin consilium.",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -489,21 +615,16 @@
    "related": [],
    "forms": [
     {
-     "form": "sheqeri",
+     "form": "këshille",
+     "tag": "plural"
+    },
+    {
+     "form": "këshilli",
      "tag": "definite"
     }
    ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Spineless turtle.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Me pak sheqer."
-   }
+   "corpus_example": null
   }
- ]
+ ],
+ "extended": true
 }

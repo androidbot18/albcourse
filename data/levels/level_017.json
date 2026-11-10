@@ -1,106 +1,135 @@
 {
  "level": 17,
- "title": "Do, want, go, come, say, know",
+ "title": "What is your name? 2/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 8,
  "families": [
-  "bëj",
-  "di",
-  "dua",
-  "shkoj",
-  "them",
-  "vij"
+  "Kosovë",
+  "Nga je?",
+  "Shqipëri",
+  "amerikan",
+  "anglez",
+  "ku",
+  "nga",
+  "shqip"
  ],
  "pos_mix": {
-  "verb": 13,
-  "noun": 1
+  "prep": 2,
+  "adv": 8,
+  "phrase": 1,
+  "noun": 6,
+  "adj": 1
  },
  "words": [
   {
-   "id": "di",
-   "sq": "di",
-   "en": "to know",
+   "id": "nga",
+   "sq": "nga",
+   "en": "from",
    "glosses": [
-    "to know",
-    "to dawn (daylight)"
+    "from",
+    "at, from, to",
+    "whence, where from"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "prep",
+    "prep",
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "preposition",
+    "preposition",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to know",
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "from",
      "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "Nuk e di.",
-       "en": "I don't know.",
+       "sq": "Jam nga Londra.",
+       "en": "I am from London.",
        "offsets": [
         [
-         6,
-         8
+         4,
+         7
         ]
        ]
-      },
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "prep",
+     "pos_label": "preposition",
+     "gloss": "at, from, to",
+     "tags": [
+      "with-nominative"
+     ],
+     "cats": [],
+     "examples": [
       {
-       "sq": "Do të doja të dija më shumë rreth teje.",
-       "en": "I'd like to know more about you.",
+       "sq": "Jo, unë nuk jam nga Shqipëria.",
+       "en": "No, I am not from Albania.",
        "offsets": [
         [
-         11,
-         18
+         16,
+         19
         ]
        ]
       }
      ],
      "links": [
-      "know"
+      "at",
+      "from",
+      "to"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to dawn (daylight)",
-     "tags": [
-      "Tosk"
-     ],
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "whence, where from",
+     "tags": [],
      "cats": [
-      {
-       "name": "Tosk Albanian",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "30 70"
+       "_dis": "57 43"
+      },
+      {
+       "name": "Albanian prepositions",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "58 42"
+      },
+      {
+       "name": "Albanian prepositions governing the nominative",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "89 11"
       }
      ],
      "examples": [],
      "links": [
-      "dawn"
+      "whence",
+      "where from"
      ]
     }
    ],
-   "rank": 37,
-   "count": 48929,
-   "family": "di",
+   "rank": 25,
+   "count": 65653,
+   "family": "nga",
    "is_root": true,
-   "etymology": "From Proto-Albanian *dī̆ya (as well as in Pre-Proto-Albanian), from Proto-Indo-European *dʰ(e)yHe/o- (“to consider, think”) or Proto-Indo-European *diHyé/ó- (“to consider, think”).",
+   "etymology": "From Proto-Albanian *en-ka and related to the preposition ka (“from, out, out of, to”). Cognate with Old Church Slavonic къ (kŭ, “to”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -108,437 +137,38 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "diu",
-     "tag": "aorist"
-    },
-    {
-     "form": "dirë",
-     "tag": "participle"
-    },
-    {
-     "form": "dihet",
-     "tag": "alternative"
-    }
-   ],
+   "forms": [],
    "corpus_example": null
   },
   {
-   "id": "dua",
-   "sq": "dua",
-   "en": "to want",
+   "id": "Nga je?",
+   "sq": "Nga je?",
+   "en": "Where are you from?",
    "glosses": [
-    "to want",
-    "to love",
-    "sheaf"
+    "Where are you from?"
    ],
    "pos": [
-    "verb",
-    "verb",
-    "noun"
+    "phrase"
    ],
    "pos_labels": [
-    "verb",
-    "verb",
-    "noun"
+    "phrase"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to want",
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Where are you from?",
      "tags": [],
      "cats": [],
      "examples": [],
-     "links": [
-      "want"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to love",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Love",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "orig": "sq:Love",
-       "langcode": "sq",
-       "_dis": "1 0 99"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "love"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "sheaf",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "77 17 6"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "sheaf"
-     ]
+     "links": []
     }
    ],
-   "rank": 55,
-   "count": 27974,
-   "family": "dua",
+   "rank": 60034,
+   "count": 0,
+   "family": "Nga je?",
    "is_root": true,
-   "etymology": "From Old Albanian duo, from either:\n* Proto-Albanian *dāusnja, from Proto-Indo-European *ǵeus- (compare English choose, Greek γεύση (géfsi, “taste”), Italian gustare (“to taste”)); or\n* *duām, from Proto-Albanian *duēs-mi, from Proto-Indo-European *dews- (compare English tire, Ancient Greek δεύομαι (deúomai, “to lack”)).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "taste",
-    "band"
-   ],
-   "components": [],
-   "derived": [
-    "dashës",
-    "dashje",
-    "dashuri",
-    "do"
-   ],
-   "related": [
-    "duhem"
-   ],
-   "forms": [
-    {
-     "form": "desha",
-     "tag": "aorist"
-    },
-    {
-     "form": "dashur",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "This one I love.",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Këtë e dua."
-   }
-  },
-  {
-   "id": "bëj",
-   "sq": "bëj",
-   "en": "to do, make",
-   "glosses": [
-    "to do, make",
-    "to act as if (in use with si (“as if, like”) - appear meaning in mediopassive voice)",
-    "to create, form",
-    "to let out (a noise, sound)",
-    "to earn / cost / be (worth) (in use and associated with money and price)"
-   ],
-   "pos": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "pos_labels": [
-    "verb",
-    "verb",
-    "verb",
-    "verb",
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to do, make",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "do",
-      "make"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to act as if (in use with si (“as if, like”) - appear meaning in mediopassive voice)",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "act",
-      "si",
-      "appear"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to create, form",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "create",
-      "form"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to let out (a noise, sound)",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "6 8 6 72 8"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "5 5 5 79 6"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "4 5 4 82 5"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "let",
-      "out"
-     ]
-    },
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to earn / cost / be (worth) (in use and associated with money and price)",
-     "tags": [],
-     "cats": [],
-     "examples": [
-      {
-       "sq": "Sa lekë i bën?",
-       "en": "How much Lekë do you earn?",
-       "offsets": [
-        [
-         10,
-         13
-        ]
-       ]
-      },
-      {
-       "sq": "Sa lekë bën?",
-       "en": "How much Lekë (cost) is it?",
-       "offsets": [
-        [
-         8,
-         11
-        ]
-       ]
-      }
-     ],
-     "links": [
-      "earn",
-      "cost"
-     ]
-    }
-   ],
-   "rank": 77,
-   "count": 17522,
-   "family": "bëj",
-   "is_root": true,
-   "etymology": "From archaic and dialectal bënj (“to make appear; do, make”), from Proto-Albanian *banja, from Proto-Indo-European *bʰh₂-n-yé-ti, from *bʰeh₂- (“shine”) (compare Greek φαίνομαι (faínomai, “to seem, appear”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "shine"
-   ],
-   "components": [],
-   "derived": [
-    "banë",
-    "bëhem",
-    "zbej",
-    "bërës"
-   ],
-   "related": [
-    "bërë",
-    "bëhem"
-   ],
-   "forms": [
-    {
-     "form": "bëra",
-     "tag": "aorist"
-    },
-    {
-     "form": "bërë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": null
-  },
-  {
-   "id": "them",
-   "sq": "them",
-   "en": "to say",
-   "glosses": [
-    "to say"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to say",
-     "tags": [
-      "transitive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 7 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "say"
-     ]
-    }
-   ],
-   "rank": 101,
-   "count": 14124,
-   "family": "them",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *θēm-, from Proto-Indo-European *ḱens- (“to say, instruct, announce”). Cognate with Latin cēnseō (“to give an opinion, to judge, guess, reckon”). Potentially a doublet of rrëfej.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "thashë",
-     "tag": "aorist"
-    },
-    {
-     "form": "thënë",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "That's why I was explaining.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Dua te them."
-   }
-  },
-  {
-   "id": "shkoj",
-   "sq": "shkoj",
-   "en": "to go, pass",
-   "glosses": [
-    "to go, pass"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
-    {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to go, pass",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "go",
-      "pass"
-     ]
-    }
-   ],
-   "rank": 149,
-   "count": 8533,
-   "family": "shkoj",
-   "is_root": true,
-   "etymology": "Syncope of shtekoj (“to set out, take to the road”), Gheg variant of shtegoj, denominative verb from shteg (“path, trail”).",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -546,60 +176,341 @@
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
-    {
-     "form": "shkova",
-     "tag": "aorist"
-    },
-    {
-     "form": "shkuar",
-     "tag": "participle"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "I won't go there today.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Nuk do shkoj."
-   }
+   "forms": [],
+   "phrase": true,
+   "corpus_example": null
   },
   {
-   "id": "vij",
-   "sq": "vij",
-   "en": "to arrive",
+   "id": "ku",
+   "sq": "ku",
+   "en": "where",
    "glosses": [
-    "to arrive",
-    "to come"
+    "where",
+    "where (asking about a place, where or towards which direction)",
+    "where ... at",
+    "whither, whereto",
+    "whence, where from",
+    "how (to/that)",
+    "where, whither; there, thither (used to connect repetitive verbs; indicating location, direction)"
    ],
    "pos": [
-    "verb",
-    "verb"
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "verb",
-    "verb"
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to arrive",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "where",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ku është Beni?",
+       "en": "Where is Beni?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "where (asking about a place, where or towards which direction)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ku po shkon?",
+       "en": "Where are you going?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "where"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "where ... at",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ku je?",
+       "en": "Where (are) you at?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "where",
+      "at"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "whither, whereto",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "arrive"
+      "whither",
+      "whereto"
      ]
     },
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to come",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "whence, where from",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "whence",
+      "where",
+      "from"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "how (to/that)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ku e din ai?",
+       "en": "How does he (want to) know that?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      },
+      {
+       "sq": "Ku më dit unë?",
+       "en": "How do I know that?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "how",
+      "to",
+      "that"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "where, whither; there, thither (used to connect repetitive verbs; indicating location, direction)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "where",
+      "whither",
+      "there"
+     ]
+    }
+   ],
+   "rank": 52,
+   "count": 31866,
+   "family": "ku",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ku, from Proto-Indo-European *kú (“where?”). Cognate to Proto-Baltic *kur (“where”), Lithuanian kur̃ (“where”) & kur (“where”), Latvian kur, Proto-Slavic *kъde (“where”), Old Church Slavonic къде (kŭde, “where”), Russian где (gde) and Sanskrit कुह (kúha, “where”), Sanskrit कू (kū́, “where”), Avestan 𐬐𐬎𐬛𐬁 (kudā), 𐬐𐬏 (kū).\nSee also Albanian kur (“when”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "Shqipëri",
+   "sq": "Shqipëri",
+   "en": "Albania",
+   "glosses": [
+    "Albania"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Albania",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Unë jam në Shqipëri.",
+       "en": "I am in Albania.",
+       "offsets": [
+        [
+         11,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 24617,
+   "count": 19,
+   "family": "Shqipëri",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "Shqipëria",
+   "corpus_example": null
+  },
+  {
+   "id": "Kosovë",
+   "sq": "Kosovë",
+   "en": "Kosovo",
+   "glosses": [
+    "Kosovo"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Kosovo",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ai është nga Kosova.",
+       "en": "He is from Kosovo.",
+       "offsets": [
+        [
+         13,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 50003,
+   "count": 0,
+   "family": "Kosovë",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "Kosova",
+   "corpus_example": null
+  },
+  {
+   "id": "shqiptar",
+   "sq": "shqiptar",
+   "en": "Albanian (person)",
+   "glosses": [
+    "Albanian (person)",
+    "Albanian",
+    "An Albanian in general, or specifically, a male Albanian."
+   ],
+   "pos": [
+    "noun",
+    "adj",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "adjective",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "Albanian (person)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Miku im është shqiptar.",
+       "en": "My friend is Albanian.",
+       "offsets": [
+        [
+         14,
+         22
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "Albanian",
      "tags": [],
      "cats": [
       {
@@ -607,63 +518,190 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "5 95"
+       "_dis": "62 38"
       },
       {
-       "name": "Pages with 3 entries",
+       "name": "Albanian terms suffixed with -tar",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "7 93"
+       "_dis": "62 38"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "3 97"
+       "_dis": "55 45"
       }
      ],
      "examples": [],
      "links": [
-      "come"
+      "Albanian"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "An Albanian in general, or specifically, a male Albanian.",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "Albanian",
+      "male"
      ]
     }
    ],
-   "rank": 385,
-   "count": 2715,
-   "family": "vij",
+   "rank": 35827,
+   "count": 11,
+   "family": "shqip",
+   "is_root": false,
+   "etymology": "From shqip + -tar.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "shqip",
+     "role": "base",
+     "en": "Albanian (language)"
+    },
+    {
+     "word": "tar",
+     "role": "suffix",
+     "affix": "tar",
+     "meaning": "person / of"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shqiptarë",
+     "tag": "plural"
+    },
+    {
+     "form": "shqiptari",
+     "tag": "definite"
+    },
+    {
+     "form": "shqyptar",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "shqiptari · pl. shqiptarë",
+   "corpus_example": null,
+   "breakdown": "transparent"
+  },
+  {
+   "id": "anglez",
+   "sq": "anglez",
+   "en": "English (person)",
+   "glosses": [
+    "English (person)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "English (person)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Unë jam anglez.",
+       "en": "I am English.",
+       "offsets": [
+        [
+         8,
+         14
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 5639,
+   "count": 131,
+   "family": "anglez",
    "is_root": true,
-   "etymology": "A case of a loaned verb being suppleted by inherited forms.\nFrom Old Albanian vinj (“to come”), vjen (“he comes”), borrowed from Latin veniō. The past forms in erdh- are from Proto-Indo-European *h₁erǵʰ- and cognate with Ancient Greek ἔρχομαι (érkhomai).",
-   "etymology_class": "borrowed",
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [
+   "forms": [],
+   "forms_line": "anglezi · pl. anglezë",
+   "corpus_example": null
+  },
+  {
+   "id": "amerikan",
+   "sq": "amerikan",
+   "en": "American",
+   "glosses": [
+    "American"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
     {
-     "form": "erdha",
-     "tag": "aorist"
-    },
-    {
-     "form": "ardhur",
-     "tag": "participle"
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "American",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ajo është amerikane.",
+       "en": "She is American.",
+       "offsets": [
+        [
+         10,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": []
     }
    ],
-   "corpus_example": {
-    "corpus": "Tatoeba",
-    "en": "I will come.",
-    "score": [
-     0,
-     3,
-     -3,
-     0
-    ],
-    "sq": "Do të vij."
-   }
+   "rank": 1235,
+   "count": 734,
+   "family": "amerikan",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "forms_line": "amerikani · pl. amerikanë",
+   "corpus_example": null
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 6,
+ "unit_title": "What is your name?",
+ "situation": "Introducing yourself"
 }

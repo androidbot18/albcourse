@@ -1,118 +1,200 @@
 {
  "level": 4,
- "title": "To be",
- "root": "jam",
- "root_gloss": "to be",
+ "title": "Who is who 1/3",
+ "root": "",
+ "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "jam"
+  "Si jeni?",
+  "ai",
+  "ajo",
+  "ata",
+  "ju",
+  "këtu",
+  "ne"
  ],
  "pos_mix": {
-  "verb": 6
+  "pron": 10,
+  "phrase": 1,
+  "adv": 2
  },
  "words": [
   {
-   "id": "jam",
-   "sq": "jam",
-   "en": "to be",
+   "id": "ai",
+   "sq": "ai",
+   "en": "he",
    "glosses": [
-    "to be"
+    "he",
+    "that"
    ],
    "pos": [
-    "verb"
+    "pron",
+    "pron"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun",
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "to be",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "he",
      "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "Është e bukur.",
-       "en": "She is beautiful.",
+       "sq": "Ai është Beni.",
+       "en": "He is Beni.",
        "offsets": [
         [
          0,
-         5
-        ]
-       ]
-      },
-      {
-       "sq": "S'është për ty.",
-       "en": "It is not for you.",
-       "offsets": [
-        [
-         2,
-         7
+         2
         ]
        ]
       }
      ],
+     "links": []
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "that",
+     "tags": [],
+     "cats": [],
+     "examples": [],
      "links": [
-      "be"
+      "that"
      ]
     }
    ],
-   "rank": 36,
-   "count": 49311,
-   "family": "jam",
+   "rank": 35,
+   "count": 54793,
+   "family": "ai",
    "is_root": true,
-   "etymology": "Inherited from Proto-Albanian *esmi, from Proto-Indo-European *h₁ésmi (“to be, exist”). The forms in qe- may derive from Proto-Indo-European *kʷel- (“to turn, revolve”), whence also Ancient Greek πέλω (pélō, “to be”).",
+   "etymology": "Continuing a Common Albanian compound *aý ~ *aí, from Proto-Albanian *ahýh ~ *aíh, from a Pre-Proto-Albanian *au̯- (\"away, from\") + *hýh ~ íh, continuing Proto-Indo-European *h₂au̯ (“away, from”) and Proto-Indo-European *sos (“that”). The second component, from Common Albanian *ý ~ *í, is identical to the Albanian postponed definite article -i, as well as -u, which changed due to contact with final k, g, or a vowel (e.g. djali, burri, qeni, qyteti, also bariu, ariu, barku), and which is ultimately from Proto-Indo-European *h₁e (“this, he”).",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
+   "parents": [
+    "that"
+   ],
    "components": [],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "qeshë",
-     "tag": "aorist"
-    },
-    {
-     "form": "qenë",
-     "tag": "participle"
+     "form": "ay",
+     "tag": "alternative"
     }
    ],
    "corpus_example": null
   },
   {
-   "id": "është",
-   "sq": "është",
-   "en": "he/she/it is (from jam, to be)",
+   "id": "ajo",
+   "sq": "ajo",
+   "en": "she",
    "glosses": [
-    "he/she/it is (from jam, to be)"
+    "she"
    ],
    "pos": [
-    "verb"
+    "pron"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "he/she/it is (from jam, to be)",
-     "tags": [
-      "Arbëresh",
-      "Cham",
-      "Tosk",
-      "form-of",
-      "indicative",
-      "present",
-      "singular",
-      "standard",
-      "third-person"
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "she",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ajo është Ana.",
+       "en": "She is Ana.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
      ],
+     "links": []
+    }
+   ],
+   "rank": 45,
+   "count": 39554,
+   "family": "ajo",
+   "is_root": true,
+   "etymology": "Continuing a Common Albanian compound *ajó, from Proto-Albanian *au̯ + *hā́, continuing Proto-Indo-European *h₂au̯ (“away, from”) and Proto-Indo-European *sáh₂ (“that”). The second component, from Common Albanian *jó, is identical to the Albanian postponed definite article -a, which changed due to contact with final -ë in feminine words. (e.g. vajza, gruaja, makina, shtëpia). More at ai.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "that"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "atë",
+     "tag": "accusative"
+    },
+    {
+     "form": "asaj",
+     "tag": "dative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "ne",
+   "sq": "ne",
+   "en": "we",
+   "glosses": [
+    "we",
+    "we, us"
+   ],
+   "pos": [
+    "pron",
+    "pron"
+   ],
+   "pos_labels": [
+    "pronoun",
+    "pronoun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "we",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ne jemi mirë.",
+       "en": "We are fine.",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "we, us",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -121,27 +203,30 @@
        "source": "w"
       },
       {
-       "name": "Arbëresh Albanian",
+       "name": "Albanian personal pronouns",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Cham Albanian",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "jam"
+     "links": [
+      "we",
+      "us"
+     ]
     }
    ],
-   "rank": 6,
-   "count": 196218,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "From Proto-Albanian *ensti Proto-Indo-European *h₁ésti (“to be”), from *h₁es-.\nPossibly reinforced by Latin est.",
+   "rank": 29,
+   "count": 59954,
+   "family": "ne",
+   "is_root": true,
+   "etymology": "The nominative-accusative is from accusative Proto-Albanian *nōs, stressed form of clitic Proto-Indo-European *nos, which is continued by the clitic na. Neve and nesh are innovated, but Gheg retains dative nahe (Old Albanian nae) from a genitive *nosōm.",
    "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
@@ -151,47 +236,66 @@
    "related": [],
    "forms": [
     {
-     "form": "o",
+     "form": "ne",
+     "tag": "accusative"
+    },
+    {
+     "form": "neve",
+     "tag": "dative"
+    },
+    {
+     "form": "nesh",
+     "tag": "ablative"
+    },
+    {
+     "form": "në",
      "tag": "alternative"
     }
    ],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "It is wonderful.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Është e mrekullueshme."
-   }
+   "corpus_example": null
   },
   {
-   "id": "je",
-   "sq": "je",
-   "en": "you (sg) are (from jam, to be)",
+   "id": "ju",
+   "sq": "ju",
+   "en": "you (polite or plural)",
    "glosses": [
-    "you (sg) are (from jam, to be)"
+    "you (polite or plural)",
+    "you (plural or polite)"
    ],
    "pos": [
-    "verb"
+    "pron",
+    "pron"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun",
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) are (from jam, to be)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "present",
-      "second-person",
-      "singular"
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "you (polite or plural)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ju jeni Ana?",
+       "en": "Are you Ana?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
      ],
+     "links": []
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "you (plural or polite)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -200,26 +304,80 @@
        "source": "w"
       },
       {
-       "name": "Pages with 47 entries",
+       "name": "Albanian personal pronouns",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "jam"
+     "links": [
+      "you"
+     ]
     }
    ],
-   "rank": 39,
-   "count": 47501,
-   "family": "jam",
-   "is_root": false,
+   "rank": 26,
+   "count": 64790,
+   "family": "ju",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ju(s) identical with Lithuanian jūs id., Gothic jūs id., English you. Ultimately derived from Proto-Indo-European *yúHs.",
+   "etymology_class": "derived",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "ju",
+     "tag": "accusative"
+    },
+    {
+     "form": "juve",
+     "tag": "dative"
+    },
+    {
+     "form": "jush",
+     "tag": "ablative"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "Si jeni?",
+   "sq": "Si jeni?",
+   "en": "How are you? (polite)",
+   "glosses": [
+    "How are you? (polite)"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "How are you? (polite)",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60008,
+   "count": 0,
+   "family": "Si jeni?",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -229,46 +387,60 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "You sure?",
-    "score": [
-     1,
-     3,
-     -2,
-     5
-    ],
-    "sq": "Je e sigurt?"
-   }
+   "phrase": true,
+   "corpus_example": null
   },
   {
-   "id": "janë",
-   "sq": "janë",
-   "en": "they are (from jam, to be)",
+   "id": "këtu",
+   "sq": "këtu",
+   "en": "here",
    "glosses": [
-    "they are (from jam, to be)"
+    "here",
+    "here, on this side"
    ],
    "pos": [
-    "verb"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "verb"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "they are (from jam, to be)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "third-person"
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "here",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Unë jam këtu.",
+       "en": "I am here.",
+       "offsets": [
+        [
+         8,
+         12
+        ]
+       ]
+      }
      ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "here, on this side",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian terms prefixed with kë-",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -278,24 +450,22 @@
        "kind": "other",
        "parents": [],
        "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
       }
      ],
      "examples": [],
-     "is_form_of": "jam"
+     "links": [
+      "here",
+      "on",
+      "this"
+     ]
     }
    ],
-   "rank": 54,
-   "count": 28548,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 38,
+   "count": 48617,
+   "family": "këtu",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *ka tu, from Proto-Indo-European *kʷo- (“relative pronoun”) + a component *tu possibly related to Sanskrit तु (tú, “now, but”). By surface analysis, kë- + tu.",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -303,42 +473,70 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "They are not objective.",
-    "score": [
-     1,
-     3,
-     -2,
-     10
-    ],
-    "sq": "Nuk janë objektive."
-   }
+   "corpus_example": null
   },
   {
-   "id": "jemi",
-   "sq": "jemi",
-   "en": "we are (from jam, to be)",
+   "id": "ata",
+   "sq": "ata",
+   "en": "they (men or mixed)",
    "glosses": [
-    "we are (from jam, to be)"
+    "they (men or mixed)",
+    "they",
+    "it"
    ],
    "pos": [
-    "verb"
+    "pron",
+    "pron",
+    "pron"
    ],
    "pos_labels": [
-    "verb"
+    "pronoun",
+    "pronoun",
+    "pronoun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "we are (from jam, to be)",
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "they (men or mixed)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ata janë këtu.",
+       "en": "They are here.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "they",
      "tags": [
-      "first-person",
-      "form-of",
-      "indicative",
-      "plural",
-      "present"
+      "masculine",
+      "plural"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "they"
+     ]
+    },
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "it",
+     "tags": [
+      "archaic",
+      "neuter",
+      "singular"
      ],
      "cats": [
       {
@@ -346,129 +544,56 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 33"
+       "_dis": "0 100"
       },
       {
-       "name": "Pages with 2 entries",
+       "name": "Albanian personal pronouns",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 33"
+       "_dis": "34 66"
       },
       {
-       "name": "Pages with entries",
+       "name": "Albanian pronouns",
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "33 33 33"
+       "_dis": "43 57"
       }
      ],
      "examples": [],
-     "is_form_of": "jam"
+     "links": [
+      "it"
+     ]
     }
    ],
-   "rank": 74,
-   "count": 18283,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "rank": 58,
+   "count": 25903,
+   "family": "ata",
+   "is_root": true,
+   "etymology": "From the accusative Proto-Albanian *a-ta, compound of proclitic particle a and demonstrative ta, from Proto-Indo-European *tóms, masculine accusative plural of *só m (“that (one)”) (compare Latin istud, English that).\nOlder and dialectal varieties retain ablative asish, acish, from a + Proto-Albanian *tsj(a)isu, from *ḱjoisu, locative of Proto-Indo-European *ḱís (“this (one)”) (compare English he).",
+   "etymology_class": "inherited",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "To be present.",
-    "score": [
-     1,
-     4,
-     -3,
-     8
-    ],
-    "sq": "Të jemi të pranishëm."
-   }
-  },
-  {
-   "id": "jeni",
-   "sq": "jeni",
-   "en": "you (pl) are (from jam, to be)",
-   "glosses": [
-    "you (pl) are (from jam, to be)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
+   "forms": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (pl) are (from jam, to be)",
-     "tags": [
-      "form-of",
-      "indicative",
-      "plural",
-      "present",
-      "second-person"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "45 45 9"
-      },
-      {
-       "name": "Pages with 4 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "46 46 9"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "48 48 5"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "jam"
+     "form": "ata",
+     "tag": "accusative"
+    },
+    {
+     "form": "atij",
+     "tag": "dative"
     }
    ],
-   "rank": 98,
-   "count": 14491,
-   "family": "jam",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Are you in?",
-    "score": [
-     1,
-     3,
-     -2,
-     5
-    ],
-    "sq": "A jeni në?"
-   }
+   "corpus_example": null
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 2,
+ "unit_title": "Who is who",
+ "situation": "Hello and goodbye"
 }

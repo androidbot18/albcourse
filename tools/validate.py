@@ -66,7 +66,8 @@ def main():
     # so a future change to the packer cannot quietly re-scatter families.
     struct = []
     fam_parts = defaultdict(list)   # family -> [(part, parts, level)]
-    opening_levels = set()          # curated levels (tools/opening_levels.py)
+    opening_levels = set()          # curated levels (the Conversation Core)
+    core_fams = set()               # families the core began
     extended_seen = False
     last_part = {}   # family -> (last part seen, the level it was on)
     for i, fname in enumerate(files, 1):
@@ -80,7 +81,9 @@ def main():
         if nw > PER_LEVEL:
             struct.append("%s: %d words (>%d, level must be session-sized)"
                           % (fname, nw, PER_LEVEL))
-        if nfam > MAX_FAMILIES:
+        # A Conversation Core level is a lesson ordered by situation, so it
+        # holds unrelated words; the family cap is for the family track.
+        if nfam > MAX_FAMILIES and not lvl.get("unit"):
             struct.append("%s: %d families (>%d roots in one level)"
                           % (fname, nfam, MAX_FAMILIES))
         if not lvl.get("title"):
@@ -133,6 +136,12 @@ def main():
         # Each track schedules a family on its own, so its runs are checked
         # per track: the extended track may bring a family back once more.
         track = "extended" if lvl.get("extended") else "main"
+        # The Conversation Core is ordered by situation, so it scatters a
+        # family on purpose (punë, punoj and punëtor are three units apart).
+        # The run rules below are for the family track that follows it.
+        if lvl.get("unit"):
+            core_fams.update(w["family"] for w in lvl["words"])
+            continue
         for w in lvl["words"]:
             fam_parts.setdefault((w["family"], track), set()).add(
                 (lvl.get("part", 1), lvl.get("parts", 1), i,
@@ -149,6 +158,7 @@ def main():
     # level. Each run is checked on its own, and a family has at most two:
     # the head and the tail.
     for (f, track), seen in fam_parts.items():
+        began = f in core_fams
         if track == "extended":
             f = "%s (extended)" % f
         runs = [[]]
@@ -158,11 +168,11 @@ def main():
             runs[-1].append(x)
         # Head and tail; or, for a family the curated opening began, the
         # opening, the rest of the head, and the tail.
-        max_runs = 3 if runs[0] and runs[0][0][2] in opening_levels else 2
+        max_runs = 2
         if len(runs) > max_runs:
             struct.append("family %r resumes more than once: levels %s"
                           % (f, [r[0][2] for r in runs]))
-        if runs[0] and runs[0][0][3]:
+        if runs[0] and runs[0][0][3] and not began:
             struct.append("family %r resumes on level %d before it is taught"
                           % (f, runs[0][0][2]))
         for run in runs:
@@ -212,12 +222,18 @@ def main():
         keys = [teaching_order.level_key(
                     {"senses": [{"gloss": w["en"]}], "rank": w["rank"]},
                     is_root=(w["id"] == lvl["root"])) for w in lvl["words"]]
-        if keys != sorted(keys):
+        # Core levels keep the order they were written in.
+        if keys != sorted(keys) and not lvl.get("unit"):
             unsorted_levels.append(fname)
         for w in lvl["words"]:
             total += 1
             seen_ids[w["id"]] += 1
-            if not w.get("sq") or not SQ_LETTER.match(w["sq"]):
+            # A phrase card (Conversation Core) is several words, and only
+            # a core level may hold one.
+            if w.get("phrase"):
+                if not lvl.get("unit") or not w.get("sq", "").strip():
+                    bad_letters.append((fname, w.get("id")))
+            elif not w.get("sq") or not SQ_LETTER.match(w["sq"]):
                 bad_letters.append((fname, w.get("id")))
             if not w.get("glosses"):
                 empty_gloss.append((fname, w.get("id")))

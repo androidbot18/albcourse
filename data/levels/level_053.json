@@ -1,48 +1,71 @@
 {
  "level": 53,
- "title": "aq, hajde, tij",
+ "title": "At the restaurant 3/4",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 4,
+ "word_count": 7,
  "families": [
-  "aq",
-  "hajde",
-  "tij"
+  "bosh",
+  "plot",
+  "pres",
+  "provoj",
+  "rekomandoj",
+  "rezervoj",
+  "zënë"
  ],
  "pos_mix": {
-  "det": 1,
-  "adv": 3,
-  "intj": 2
+  "verb": 8,
+  "adj": 2,
+  "adv": 10
  },
  "words": [
   {
-   "id": "tij",
-   "sq": "tij",
-   "en": "his",
+   "id": "rezervoj",
+   "sq": "rezervoj",
+   "en": "to book, to reserve",
    "glosses": [
-    "his"
+    "to book, to reserve",
+    "to reserve, save for later"
    ],
    "pos": [
-    "det"
+    "verb",
+    "verb"
    ],
    "pos_labels": [
-    "determiner"
+    "verb",
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "det",
-     "pos_label": "determiner",
-     "gloss": "his",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to book, to reserve",
      "tags": [],
-     "cats": [
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian determiners",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
+       "sq": "Dua të rezervoj një tavolinë.",
+       "en": "I want to book a table.",
+       "offsets": [
+        [
+         7,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to reserve, save for later",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
@@ -50,7 +73,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 9 entries",
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -58,13 +87,74 @@
      ],
      "examples": [],
      "links": [
-      "his"
+      "reserve",
+      "save"
      ]
     }
    ],
-   "rank": 71,
-   "count": 18884,
-   "family": "tij",
+   "rank": 29785,
+   "count": 15,
+   "family": "rezervoj",
+   "is_root": true,
+   "etymology": "Borrowed from French réserver.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "rezervova",
+     "tag": "aorist"
+    },
+    {
+     "form": "rezervuar",
+     "tag": "participle"
+    }
+   ],
+   "forms_line": "ai rezervon · rezervova (past) · kam rezervuar",
+   "corpus_example": null
+  },
+  {
+   "id": "zënë",
+   "sq": "zënë",
+   "en": "busy; taken",
+   "glosses": [
+    "busy; taken"
+   ],
+   "pos": [
+    "adj"
+   ],
+   "pos_labels": [
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "busy; taken",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kjo tavolinë është e zënë.",
+       "en": "This table is taken.",
+       "offsets": [
+        [
+         21,
+         25
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 680,
+   "count": 1492,
+   "family": "zënë",
    "is_root": true,
    "etymology": "",
    "etymology_class": null,
@@ -75,167 +165,446 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "We are His servants.",
-    "score": [
-     1,
-     5,
-     -4,
-     10
-    ],
-    "sq": "Ne jemi shërbëtorët e Tij."
-   }
+   "forms_line": "i zënë · e zënë",
+   "corpus_example": null
   },
   {
-   "id": "kaq",
-   "sq": "kaq",
-   "en": "this much",
+   "id": "pres",
+   "sq": "pres",
+   "en": "to wait",
    "glosses": [
-    "this much"
+    "to wait",
+    "to cut, carve, slice, hew"
    ],
    "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to wait",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pres një mik.",
+       "en": "I am waiting for a friend.",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to cut, carve, slice, hew",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "65 35"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "cut",
+      "carve",
+      "slice"
+     ]
+    }
+   ],
+   "rank": 514,
+   "count": 2062,
+   "family": "pres",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *p(e)retja, from Proto-Indo-European *per- (“to strike, beat”) (compare Ancient Greek πρίω (príō, “to saw”), Lithuanian per̃ti (“to flog, beat with besom”), Avestan 𐬞𐬆𐬭𐬆𐬝 (pər^ət̰, “strife”)).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "strife"
+   ],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "preva",
+     "tag": "aorist"
+    },
+    {
+     "form": "prerë",
+     "tag": "participle"
+    },
+    {
+     "form": "prit",
+     "tag": "common form"
+    },
+    {
+     "form": "pritur",
+     "tag": "common form"
+    }
+   ],
+   "forms_line": "ai pret · prita (past) · kam pritur",
+   "corpus_example": null
+  },
+  {
+   "id": "plot",
+   "sq": "plot",
+   "en": "full",
+   "glosses": [
+    "full",
+    "fully, to full capacity, to the brim",
+    "full, cramped (of people, things, etc.)",
+    "a lot, much",
+    "with everything, lacking nothing. complete, full",
+    "with a full, complete view",
+    "full of. followed by an indefinite form",
+    "exactly, precisely",
+    "successfully"
+   ],
+   "pos": [
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv",
+    "adv",
     "adv"
    ],
    "pos_labels": [
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
+    "adverb",
     "adverb"
    ],
    "sense_detail": [
     {
      "pos": "adv",
      "pos_label": "adverb",
-     "gloss": "this much",
+     "gloss": "full",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Restoranti është plot.",
+       "en": "The restaurant is full.",
+       "offsets": [
+        [
+         17,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "fully, to full capacity, to the brim",
      "tags": [],
      "cats": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 5 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
+       "name": "Albanian terms with collocations",
        "kind": "other",
        "parents": [],
        "source": "w"
       }
      ],
-     "examples": [],
-     "links": [
-      "this",
-      "much"
-     ]
-    }
-   ],
-   "rank": 148,
-   "count": 8558,
-   "family": "aq",
-   "is_root": false,
-   "etymology": "From ka + aq.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [
-    {
-     "word": "ka",
-     "role": "prefix"
-    },
-    {
-     "word": "aq",
-     "role": "stem"
-    }
-   ],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "That's how much it takes.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Kaq kohë duhet."
-   },
-   "breakdown": "historical"
-  },
-  {
-   "id": "hajde",
-   "sq": "hajde",
-   "en": "come on, c'mon",
-   "glosses": [
-    "come on, c'mon",
-    "let's ..."
-   ],
-   "pos": [
-    "intj",
-    "intj"
-   ],
-   "pos_labels": [
-    "interjection",
-    "interjection"
-   ],
-   "sense_detail": [
-    {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "come on, c'mon",
-     "tags": [],
-     "cats": [
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "85 15"
+       "sq": "me gojën plot",
+       "en": "with one's mouth full",
+       "offsets": [
+        [
+         9,
+         13
+        ]
+       ]
       },
       {
-       "name": "Pages with 3 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "27 6 22 14 8 22"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "38 4 14 9 5 31"
+       "sq": "Dhoma ishte plot.",
+       "en": "The house was full.",
+       "offsets": [
+        [
+         12,
+         16
+        ]
+       ]
       }
      ],
-     "examples": [],
      "links": [
-      "come on",
-      "c'mon"
+      "fully",
+      "capacity",
+      "to the brim"
      ]
     },
     {
-     "pos": "intj",
-     "pos_label": "interjection",
-     "gloss": "let's ...",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "full, cramped (of people, things, etc.)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Kopshti ishte plot me lule.",
+       "en": "The garden was full of flowers.",
+       "offsets": [
+        [
+         14,
+         18
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "full",
+      "cramped"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "a lot, much",
      "tags": [],
      "cats": [],
      "examples": [],
      "links": [
-      "let's"
+      "a lot",
+      "much"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "with everything, lacking nothing. complete, full",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "everything",
+      "lack",
+      "complete"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "with a full, complete view",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Është hëna plot.",
+       "en": "It's a full moon.",
+       "offsets": [
+        [
+         11,
+         15
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "full",
+      "complete",
+      "view"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "full of. followed by an indefinite form",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "9 8 7 5 0 0 71 0"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "plot gëzim",
+       "en": "full of joy",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "full"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "exactly, precisely",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian terms with collocations",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "plot dy orë",
+       "en": "exactly two hours",
+       "offsets": [
+        [
+         0,
+         4
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "exactly",
+      "precisely"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "successfully",
+     "tags": [
+      "colloquial"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "successfully"
      ]
     }
    ],
-   "rank": 153,
-   "count": 8209,
-   "family": "hajde",
+   "rank": 905,
+   "count": 1052,
+   "family": "plot",
    "is_root": true,
-   "etymology": "Borrowed from Ottoman Turkish هایده (hayde), هایدی (haydi).",
+   "etymology": "Inherited from Proto-Indo-European *pleh₁tós (“full”), from the root *pleh₁- (“to fill”). Compare Sanskrit प्रात (prātá), Latin com-plētus.",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "full"
+   ],
+   "components": [],
+   "derived": [
+    "i plótë"
+   ],
+   "related": [],
+   "forms": [],
+   "corpus_example": null
+  },
+  {
+   "id": "bosh",
+   "sq": "bosh",
+   "en": "empty",
+   "glosses": [
+    "empty",
+    "empty (devoid of content)"
+   ],
+   "pos": [
+    "adv",
+    "adj"
+   ],
+   "pos_labels": [
+    "adverb",
+    "adjective"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "empty",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Gota ime është bosh.",
+       "en": "My glass is empty.",
+       "offsets": [
+        [
+         15,
+         19
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adj",
+     "pos_label": "adjective",
+     "gloss": "empty (devoid of content)",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "empty"
+     ]
+    }
+   ],
+   "rank": 2037,
+   "count": 426,
+   "family": "bosh",
+   "is_root": true,
+   "etymology": "Borrowed from Ottoman Turkish بوش (boş).",
    "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
@@ -244,39 +613,132 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Come with me.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Hajde me mua."
-   }
+   "corpus_example": null
   },
   {
-   "id": "aq",
-   "sq": "aq",
-   "en": "so much, so, to a certain degree",
+   "id": "rekomandoj",
+   "sq": "rekomandoj",
+   "en": "to recommend",
    "glosses": [
-    "so much, so, to a certain degree",
-    "very"
+    "to recommend"
    ],
    "pos": [
-    "adv",
-    "adv"
+    "verb"
    ],
    "pos_labels": [
-    "adverb",
-    "adverb"
+    "verb"
    ],
    "sense_detail": [
     {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "so much, so, to a certain degree",
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to recommend",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Çfarë rekomandoni?",
+       "en": "What do you recommend?",
+       "offsets": [
+        [
+         6,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 9541,
+   "count": 69,
+   "family": "rekomandoj",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "rekomanduar",
+     "tag": "participle"
+    }
+   ],
+   "forms_line": "ai rekomandon · rekomandova (past) · kam rekomanduar",
+   "corpus_example": null
+  },
+  {
+   "id": "provoj",
+   "sq": "provoj",
+   "en": "to try",
+   "glosses": [
+    "to try",
+    "to try; to try out; to try on",
+    "to prove (through testing); to test, to put to the test"
+   ],
+   "pos": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to try",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Dua të provoj byrekun.",
+       "en": "I want to try the byrek.",
+       "offsets": [
+        [
+         7,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to try; to try out; to try on",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Po provoj të interesohem për problemet e tu, por sapo e kujtova që të urrej.",
+       "en": "I'm trying to take interest in your problems, but I just remembered that I hate you.",
+       "offsets": [
+        [
+         3,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "try",
+      "try out",
+      "try on"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to prove (through testing); to test, to put to the test",
      "tags": [],
      "cats": [
       {
@@ -284,61 +746,59 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "100 0"
-      }
-     ],
-     "examples": [
+       "_dis": "18 82"
+      },
       {
-       "sq": "aq më i madh",
-       "en": "so much bigger",
-       "offsets": [
-        [
-         0,
-         2
-        ]
-       ]
+       "name": "Pages with 2 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "23 77"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "13 87"
       }
      ],
-     "links": [
-      "so much",
-      "so",
-      "degree"
-     ]
-    },
-    {
-     "pos": "adv",
-     "pos_label": "adverb",
-     "gloss": "very",
-     "tags": [],
-     "cats": [],
      "examples": [],
      "links": [
-      "very"
+      "prove",
+      "test",
+      "put to the test"
      ]
     }
    ],
-   "rank": 157,
-   "count": 7995,
-   "family": "aq",
+   "rank": 1477,
+   "count": 600,
+   "family": "provoj",
    "is_root": true,
-   "etymology": "Ultimately a formation from Proto-Indo-European *kʷ-. Akin to kaq for which compare Proto-Slavic *jakъ ~ *kakъ.",
-   "etymology_class": "derived",
+   "etymology": "Borrowed from Italian provare. Compare Serbo-Croatian probati (“id.”).",
+   "etymology_class": "borrowed",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
-   "derived": [
-    "aq sa",
-    "aqherë"
-   ],
+   "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "aqë",
-     "tag": "alternative"
+     "form": "provova",
+     "tag": "aorist"
+    },
+    {
+     "form": "provuar",
+     "tag": "participle"
     }
    ],
+   "forms_line": "ai provon · provova (past) · kam provuar",
    "corpus_example": null
   }
- ]
+ ],
+ "opening": true,
+ "unit": 17,
+ "unit_title": "At the restaurant",
+ "situation": "Café and restaurant"
 }

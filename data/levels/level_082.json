@@ -1,52 +1,56 @@
 {
  "level": 82,
- "title": "punë, sikur",
+ "title": "Yesterday, today, tomorrow 1/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 6,
+ "word_count": 7,
  "families": [
-  "punë",
-  "sikur"
+  "dje",
+  "javë",
+  "mbrëmje",
+  "mes",
+  "natë",
+  "nesër",
+  "pasdite"
  ],
  "pos_mix": {
-  "conj": 2,
-  "noun": 3,
-  "verb": 2
+  "adv": 4,
+  "noun": 8
  },
  "words": [
   {
-   "id": "sikur",
-   "sq": "sikur",
-   "en": "as if, as though",
+   "id": "dje",
+   "sq": "dje",
+   "en": "yesterday",
    "glosses": [
-    "as if, as though",
-    "if only"
+    "yesterday",
+    "yesterday, the day before"
    ],
    "pos": [
-    "conj",
-    "conj"
+    "adv",
+    "noun"
    ],
    "pos_labels": [
-    "conjunction",
-    "conjunction"
+    "adverb",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "as if, as though",
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "yesterday",
      "tags": [],
      "cats": [],
      "examples": [
       {
-       "sq": "Flet sikur di gjithçka.",
-       "en": "He talks as if he knows everything.",
+       "sq": "Dje isha në Durrës.",
+       "en": "Yesterday I was in Durrës.",
        "offsets": [
         [
-         5,
-         10
+         0,
+         3
         ]
        ]
       }
@@ -54,21 +58,45 @@
      "links": []
     },
     {
-     "pos": "conj",
-     "pos_label": "conjunction",
-     "gloss": "if only",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "yesterday, the day before",
      "tags": [],
-     "cats": [],
+     "cats": [
+      {
+       "name": "Pages with 4 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "1 15 38 1 0 46"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "0 23 35 0 0 41"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "3 97"
+      }
+     ],
      "examples": [],
-     "links": []
+     "links": [
+      "yesterday"
+     ]
     }
    ],
-   "rank": 158,
-   "count": 7994,
-   "family": "sikur",
+   "rank": 824,
+   "count": 1184,
+   "family": "dje",
    "is_root": true,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From Proto-Albanian *de, from Proto-Indo-European *dʰǵʰyés.",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -79,29 +107,47 @@
    "corpus_example": null
   },
   {
-   "id": "puna",
-   "sq": "puna",
-   "en": "the work, singular (from punë)",
+   "id": "pasnesër",
+   "sq": "pasnesër",
+   "en": "the day after tomorrow",
    "glosses": [
-    "the work, singular (from punë)"
+    "the day after tomorrow",
+    "day after tomorrow"
    ],
    "pos": [
-    "noun"
+    "adv",
+    "adv"
    ],
    "pos_labels": [
-    "noun"
+    "adverb",
+    "adverb"
    ],
    "sense_detail": [
     {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "the work, singular (from punë)",
-     "tags": [
-      "definite",
-      "form-of",
-      "nominative",
-      "singular"
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "the day after tomorrow",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pasnesër shkoj në Sarandë.",
+       "en": "The day after tomorrow I go to Sarandë.",
+       "offsets": [
+        [
+         0,
+         8
+        ]
+       ]
+      }
      ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "day after tomorrow",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
@@ -110,7 +156,7 @@
        "source": "w"
       },
       {
-       "name": "Pages with 22 entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -123,13 +169,204 @@
       }
      ],
      "examples": [],
-     "is_form_of": "punë"
+     "links": [
+      "day after tomorrow"
+     ]
     }
    ],
-   "rank": 306,
-   "count": 3461,
-   "family": "punë",
+   "rank": 11873,
+   "count": 52,
+   "family": "nesër",
    "is_root": false,
+   "etymology": "pas + nesër.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "pas",
+     "role": "prefix"
+    },
+    {
+     "word": "nesër",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
+  },
+  {
+   "id": "mbrëmje",
+   "sq": "mbrëmje",
+   "en": "evening",
+   "glosses": [
+    "evening",
+    "yesterday"
+   ],
+   "pos": [
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "evening",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Punoj çdo mbrëmje.",
+       "en": "I work every evening.",
+       "offsets": [
+        [
+         10,
+         17
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "yesterday",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "yesterday"
+     ]
+    }
+   ],
+   "rank": 1347,
+   "count": 661,
+   "family": "mbrëmje",
+   "is_root": true,
+   "etymology": "Variant of mbrëmë.",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [
+    "mëngjes"
+   ],
+   "forms": [
+    {
+     "form": "mbrëmje",
+     "tag": "plural"
+    },
+    {
+     "form": "mbrëmja",
+     "tag": "definite"
+    },
+    {
+     "form": "mbrëmë",
+     "tag": "alternative"
+    },
+    {
+     "form": "mbramë",
+     "tag": "alternative"
+    },
+    {
+     "form": "mramë",
+     "tag": "alternative"
+    },
+    {
+     "form": "pramë",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "mbrëmja · pl. mbrëmje",
+   "corpus_example": null
+  },
+  {
+   "id": "pasdite",
+   "sq": "pasdite",
+   "en": "afternoon",
+   "glosses": [
+    "afternoon",
+    "in the afternoon"
+   ],
+   "pos": [
+    "noun",
+    "adv"
+   ],
+   "pos_labels": [
+    "noun",
+    "adverb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "afternoon",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Pasdite jam në shtëpi.",
+       "en": "In the afternoon I am at home.",
+       "offsets": [
+        [
+         0,
+         7
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "in the afternoon",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "in",
+      "the",
+      "afternoon"
+     ]
+    }
+   ],
+   "rank": 2350,
+   "count": 356,
+   "family": "pasdite",
+   "is_root": true,
    "etymology": "",
    "etymology_class": null,
    "source_lang": null,
@@ -139,40 +376,52 @@
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "That's the job.",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Kjo është puna."
-   }
+   "forms_line": "pasditja · pl. pasdite",
+   "corpus_example": null
   },
   {
-   "id": "punuar",
-   "sq": "punuar",
-   "en": "work, past form (from punoj, to work)",
+   "id": "mesditë",
+   "sq": "mesditë",
+   "en": "midday, noon",
    "glosses": [
-    "work, past form (from punoj, to work)"
+    "midday, noon",
+    "midday"
    ],
    "pos": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "verb"
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "work, past form (from punoj, to work)",
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "midday, noon",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Hamë drekë në mesditë.",
+       "en": "We eat lunch at midday.",
+       "offsets": [
+        [
+         14,
+         21
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "midday",
      "tags": [
-      "form-of",
-      "participle",
-      "past"
+      "feminine"
      ],
      "cats": [
       {
@@ -195,40 +444,55 @@
       }
      ],
      "examples": [],
-     "is_form_of": "punoj"
+     "links": [
+      "midday"
+     ]
     }
    ],
-   "rank": 641,
-   "count": 1585,
-   "family": "punë",
+   "rank": 6608,
+   "count": 107,
+   "family": "mes",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Compound of mes (“middle”) + ditë (“day”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "middle",
+    "day"
+   ],
+   "components": [
+    {
+     "word": "mes",
+     "role": "prefix"
+    },
+    {
+     "word": "ditë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "I have never worked.",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Unë nuk kam punuar kurrë."
-   }
+   "forms": [
+    {
+     "form": "mesdita",
+     "tag": "plural"
+    },
+    {
+     "form": "mjezditë",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "mesdita · pl. mesdita",
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
-   "id": "pune",
-   "sq": "pune",
-   "en": "work, singular (from punë)",
+   "id": "mesnatë",
+   "sq": "mesnatë",
+   "en": "midnight",
    "glosses": [
-    "work, singular (from punë)"
+    "midnight"
    ],
    "pos": [
     "noun"
@@ -240,69 +504,72 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "work, singular (from punë)",
-     "tags": [
-      "ablative",
-      "dative",
-      "form-of",
-      "indefinite",
-      "singular"
-     ],
-     "cats": [
+     "gloss": "midnight",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 8 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "Treni arrin në mesnatë.",
+       "en": "The train arrives at midnight.",
+       "offsets": [
+        [
+         15,
+         22
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "is_form_of": "punë"
+     "links": []
     }
    ],
-   "rank": 705,
-   "count": 1436,
-   "family": "punë",
+   "rank": 5167,
+   "count": 145,
+   "family": "natë",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "Compound of mes (“middle”) + natë (“night”).",
+   "etymology_class": "compound",
    "source_lang": null,
    "cognate": null,
-   "parents": [],
-   "components": [],
+   "parents": [
+    "middle",
+    "night"
+   ],
+   "components": [
+    {
+     "word": "mes",
+     "role": "prefix"
+    },
+    {
+     "word": "natë",
+     "role": "stem"
+    }
+   ],
    "derived": [],
    "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "Nice work!",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Pune e bukur!"
-   }
+   "forms": [
+    {
+     "form": "mesnet",
+     "tag": "plural"
+    },
+    {
+     "form": "mesnata",
+     "tag": "definite"
+    },
+    {
+     "form": "mjeznatë",
+     "tag": "alternative"
+    }
+   ],
+   "forms_line": "mesnata · pl. mesnet",
+   "corpus_example": null,
+   "breakdown": "historical"
   },
   {
-   "id": "punët",
-   "sq": "punët",
-   "en": "the work, plural (from punë)",
+   "id": "fundjavë",
+   "sq": "fundjavë",
+   "en": "weekend",
    "glosses": [
-    "the work, plural (from punë)"
+    "weekend"
    ],
    "pos": [
     "noun"
@@ -314,139 +581,53 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "the work, plural (from punë)",
-     "tags": [
-      "accusative",
-      "definite",
-      "form-of",
-      "nominative",
-      "plural"
-     ],
-     "cats": [
+     "gloss": "weekend",
+     "tags": [],
+     "cats": [],
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "Çfarë bën këtë fundjavë?",
+       "en": "What are you doing this weekend?",
+       "offsets": [
+        [
+         15,
+         23
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "is_form_of": "punë"
+     "links": []
     }
    ],
-   "rank": 1368,
-   "count": 648,
-   "family": "punë",
+   "rank": 2260,
+   "count": 376,
+   "family": "javë",
    "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
+   "etymology": "From fund + javë.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "HPLT",
-    "en": "The jobs he would do?",
-    "score": [
-     0,
-     5,
-     -5,
-     10
-    ],
-    "sq": "Punët që do të bënte?"
-   }
-  },
-  {
-   "id": "punosh",
-   "sq": "punosh",
-   "en": "you (sg) work (from punoj, to work)",
-   "glosses": [
-    "you (sg) work (from punoj, to work)"
-   ],
-   "pos": [
-    "verb"
-   ],
-   "pos_labels": [
-    "verb"
-   ],
-   "sense_detail": [
+   "components": [
     {
-     "pos": "verb",
-     "pos_label": "verb",
-     "gloss": "you (sg) work (from punoj, to work)",
-     "tags": [
-      "form-of",
-      "present",
-      "second-person",
-      "singular",
-      "subjunctive"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "is_form_of": "punoj"
+     "word": "fund",
+     "role": "prefix"
+    },
+    {
+     "word": "javë",
+     "role": "stem"
     }
    ],
-   "rank": 1987,
-   "count": 435,
-   "family": "punë",
-   "is_root": false,
-   "etymology": "",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
    "derived": [],
    "related": [],
    "forms": [],
-   "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "You want to work?",
-    "score": [
-     0,
-     3,
-     -3,
-     8
-    ],
-    "sq": "Do të punosh?"
-   }
+   "forms_line": "fundjava · pl. fundjava",
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ],
- "continues": [
-  "punë"
- ]
+ "opening": true,
+ "unit": 26,
+ "unit_title": "Yesterday, today, tomorrow",
+ "situation": "Time, days and plans"
 }

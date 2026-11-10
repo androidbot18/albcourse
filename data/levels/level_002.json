@@ -1,22 +1,159 @@
 {
  "level": 2,
- "title": "I, you, he, she",
+ "title": "Say hello 2/3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
- "word_count": 5,
+ "word_count": 7,
  "families": [
-  "ai",
-  "ajo",
+  "Shumë mirë!",
+  "dhe",
+  "jam",
+  "mëngjes",
+  "shumë",
   "ti",
   "unë"
  ],
  "pos_mix": {
-  "pron": 6,
-  "noun": 1
+  "verb": 1,
+  "pron": 3,
+  "noun": 5,
+  "conj": 3,
+  "adv": 3,
+  "det": 1,
+  "phrase": 1,
+  "intj": 1
  },
  "words": [
+  {
+   "id": "jam",
+   "sq": "jam",
+   "en": "to be",
+   "glosses": [
+    "to be"
+   ],
+   "pos": [
+    "verb"
+   ],
+   "pos_labels": [
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to be",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jam mirë, faleminderit.",
+       "en": "I am fine, thank you.",
+       "offsets": [
+        [
+         0,
+         3
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 36,
+   "count": 49311,
+   "family": "jam",
+   "is_root": true,
+   "etymology": "Inherited from Proto-Albanian *esmi, from Proto-Indo-European *h₁ésmi (“to be, exist”). The forms in qe- may derive from Proto-Indo-European *kʷel- (“to turn, revolve”), whence also Ancient Greek πέλω (pélō, “to be”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "qeshë",
+     "tag": "aorist"
+    },
+    {
+     "form": "qenë",
+     "tag": "participle"
+    },
+    {
+     "form": "është",
+     "tag": "common form"
+    },
+    {
+     "form": "je",
+     "tag": "common form"
+    },
+    {
+     "form": "ishte",
+     "tag": "common form"
+    },
+    {
+     "form": "janë",
+     "tag": "common form"
+    },
+    {
+     "form": "jemi",
+     "tag": "common form"
+    },
+    {
+     "form": "jeni",
+     "tag": "common form"
+    },
+    {
+     "form": "isha",
+     "tag": "common form"
+    },
+    {
+     "form": "jesh",
+     "tag": "common form"
+    },
+    {
+     "form": "ishe",
+     "tag": "common form"
+    },
+    {
+     "form": "ishin",
+     "tag": "common form"
+    },
+    {
+     "form": "jem",
+     "tag": "common form"
+    },
+    {
+     "form": "jenë",
+     "tag": "common form"
+    },
+    {
+     "form": "ishim",
+     "tag": "common form"
+    },
+    {
+     "form": "qoftë",
+     "tag": "common form"
+    },
+    {
+     "form": "qenka",
+     "tag": "common form"
+    },
+    {
+     "form": "ishit",
+     "tag": "common form"
+    },
+    {
+     "form": "qenke",
+     "tag": "common form"
+    }
+   ],
+   "forms_line": "jam · je · është · jemi · jeni · janë",
+   "corpus_example": null
+  },
   {
    "id": "unë",
    "sq": "unë",
@@ -39,31 +176,11 @@
      "pos_label": "pronoun",
      "gloss": "I",
      "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "0 100"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb"
-      }
-     ],
+     "cats": [],
      "examples": [
       {
-       "sq": "Unë jam njeri i lirë.",
-       "en": "I am a free man.",
+       "sq": "Unë jam Ana.",
+       "en": "I am Ana.",
        "offsets": [
         [
          0,
@@ -72,9 +189,7 @@
        ]
       }
      ],
-     "links": [
-      "I"
-     ]
+     "links": []
     },
     {
      "pos": "noun",
@@ -120,17 +235,40 @@
   {
    "id": "ti",
    "sq": "ti",
-   "en": "you (singular)",
+   "en": "you (to one friend)",
    "glosses": [
+    "you (to one friend)",
     "you (singular)"
    ],
    "pos": [
+    "pron",
     "pron"
    ],
    "pos_labels": [
+    "pronoun",
     "pronoun"
    ],
    "sense_detail": [
+    {
+     "pos": "pron",
+     "pos_label": "pronoun",
+     "gloss": "you (to one friend)",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Ti je Beni?",
+       "en": "Are you Beni?",
+       "offsets": [
+        [
+         0,
+         2
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
     {
      "pos": "pron",
      "pos_label": "pronoun",
@@ -184,250 +322,422 @@
      "tag": "ablative"
     }
    ],
-   "corpus_example": {
-    "corpus": "TED2020",
-    "en": "What are you?",
-    "score": [
-     0,
-     3,
-     -3,
-     4
-    ],
-    "sq": "Çfarë je ti?"
-   }
+   "corpus_example": null
   },
   {
-   "id": "ai",
-   "sq": "ai",
-   "en": "he",
+   "id": "dhe",
+   "sq": "dhe",
+   "en": "and",
    "glosses": [
-    "he",
-    "that"
+    "and",
+    "and (used to connect two similar words, phrases, et cetera)",
+    "also",
+    "earth, land",
+    "soil"
    ],
    "pos": [
-    "pron",
-    "pron"
+    "conj",
+    "conj",
+    "conj",
+    "noun",
+    "noun"
    ],
    "pos_labels": [
-    "pronoun",
-    "pronoun"
+    "conjunction",
+    "conjunction",
+    "conjunction",
+    "noun",
+    "noun"
    ],
    "sense_detail": [
     {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "he",
-     "tags": [
-      "masculine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "100 0"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "66 34"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "57 43"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "he"
-     ]
-    },
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "that",
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and",
      "tags": [],
      "cats": [],
-     "examples": [],
-     "links": [
-      "that"
-     ]
-    }
-   ],
-   "rank": 35,
-   "count": 54793,
-   "family": "ai",
-   "is_root": true,
-   "etymology": "Continuing a Common Albanian compound *aý ~ *aí, from Proto-Albanian *ahýh ~ *aíh, from a Pre-Proto-Albanian *au̯- (\"away, from\") + *hýh ~ íh, continuing Proto-Indo-European *h₂au̯ (“away, from”) and Proto-Indo-European *sos (“that”). The second component, from Common Albanian *ý ~ *í, is identical to the Albanian postponed definite article -i, as well as -u, which changed due to contact with final k, g, or a vowel (e.g. djali, burri, qeni, qyteti, also bariu, ariu, barku), and which is ultimately from Proto-Indo-European *h₁e (“this, he”).",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "that"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "ay",
-     "tag": "alternative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "There he is.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Nuk është ai."
-   }
-  },
-  {
-   "id": "ajo",
-   "sq": "ajo",
-   "en": "she",
-   "glosses": [
-    "she"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "she",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
+     "examples": [
       {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian personal pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Albanian pronouns",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
+       "sq": "Unë jam mirë. Dhe ti?",
+       "en": "I am fine. And you?",
+       "offsets": [
+        [
+         14,
+         17
+        ]
+       ]
       }
      ],
-     "examples": [],
-     "links": [
-      "she"
-     ]
-    }
-   ],
-   "rank": 45,
-   "count": 39554,
-   "family": "ajo",
-   "is_root": true,
-   "etymology": "Continuing a Common Albanian compound *ajó, from Proto-Albanian *au̯ + *hā́, continuing Proto-Indo-European *h₂au̯ (“away, from”) and Proto-Indo-European *sáh₂ (“that”). The second component, from Common Albanian *jó, is identical to the Albanian postponed definite article -a, which changed due to contact with final -ë in feminine words. (e.g. vajza, gruaja, makina, shtëpia). More at ai.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "that"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "atë",
-     "tag": "accusative"
+     "links": []
     },
     {
-     "form": "asaj",
-     "tag": "dative"
-    }
-   ],
-   "corpus_example": {
-    "corpus": "QED",
-    "en": "This is it.",
-    "score": [
-     0,
-     3,
-     -3,
-     5
-    ],
-    "sq": "Kjo është ajo."
-   }
-  },
-  {
-   "id": "ty",
-   "sq": "ty",
-   "en": "you, singular (from ti)",
-   "glosses": [
-    "you, singular (from ti)"
-   ],
-   "pos": [
-    "pron"
-   ],
-   "pos_labels": [
-    "pronoun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "pron",
-     "pos_label": "pronoun",
-     "gloss": "you, singular (from ti)",
-     "tags": [
-      "accusative",
-      "form-of",
-      "personal"
-     ],
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "and (used to connect two similar words, phrases, et cetera)",
+     "tags": [],
      "cats": [
       {
        "name": "Albanian entries with incorrect language header",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "43 0 7 7 44"
       },
       {
-       "name": "Pages with 26 entries",
+       "name": "Pages with 4 entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 0 7 7 27 11 0 23"
       },
       {
        "name": "Pages with entries",
        "kind": "other",
        "parents": [],
-       "source": "w"
+       "source": "w+disamb",
+       "_dis": "25 0 7 7 27 11 0 23"
       }
      ],
      "examples": [],
-     "is_form_of": "ti"
+     "links": [
+      "and"
+     ]
+    },
+    {
+     "pos": "conj",
+     "pos_label": "conjunction",
+     "gloss": "also",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "also"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "earth, land",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "earth",
+      "land"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "soil",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "soil"
+     ]
     }
    ],
-   "rank": 64,
-   "count": 24006,
-   "family": "ti",
-   "is_root": false,
-   "etymology": "From Proto-Albanian *tuu̯an, from earlier *tuu̯ān, from earlier *tuu̯ām, from Proto-Indo-European *tuu̯ēm (*twé, accusative of *túh₂ (“you”)). Compare Latin te.",
+   "rank": 12,
+   "count": 154309,
+   "family": "dhe",
+   "is_root": true,
+   "etymology": "* Conjunction e (“and, also”): according to Orel from Proto-Albanian *ō(d), from Proto-Indo-European *ēd ~ *ōd (ablative sg. stem of Proto-Indo-European *ē- ~ *ō-).\nSee edhe.",
    "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [
+    "earth"
+   ],
+   "components": [],
+   "derived": [
+    "atdhe",
+    "dhebardhë",
+    "dhedhënie",
+    "dhenas",
+    "dhetar",
+    "gërdhele",
+    "gërdhet",
+    "kapërdhij"
+   ],
+   "related": [
+    "gërdhatë",
+    "dhatë"
+   ],
+   "forms": [
+    {
+     "form": "dhera",
+     "tag": "plural"
+    },
+    {
+     "form": "dheu",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "shumë",
+   "sq": "shumë",
+   "en": "very, a lot",
+   "glosses": [
+    "very, a lot",
+    "a lot (of), much; many",
+    "too",
+    "very, really; quite",
+    "sum",
+    "an amount"
+   ],
+   "pos": [
+    "adv",
+    "det",
+    "adv",
+    "adv",
+    "noun",
+    "noun"
+   ],
+   "pos_labels": [
+    "adverb",
+    "determiner",
+    "adverb",
+    "adverb",
+    "noun",
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "very, a lot",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Jam shumë mirë.",
+       "en": "I am very well.",
+       "offsets": [
+        [
+         4,
+         9
+        ]
+       ]
+      }
+     ],
+     "links": []
+    },
+    {
+     "pos": "det",
+     "pos_label": "determiner",
+     "gloss": "a lot (of), much; many",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Albanian determiners",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "19 16 35 15 15"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "a lot",
+      "much",
+      "many"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "too",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "too"
+     ]
+    },
+    {
+     "pos": "adv",
+     "pos_label": "adverb",
+     "gloss": "very, really; quite",
+     "tags": [],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 9 6 23 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 4 3 33 32"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Unë jam shumë i lumtur që ti je këtu me ne.",
+       "en": "I'm really happy that you're here with us.",
+       "offsets": [
+        [
+         8,
+         13
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "very",
+      "really",
+      "quite"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "sum",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Mathematics",
+       "kind": "other",
+       "parents": [],
+       "source": "w",
+       "orig": "sq:Mathematics",
+       "langcode": "sq"
+      },
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "18 5 13 43 20"
+      },
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 9 6 23 33"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "shuma e këndëve",
+       "en": "the sum of the angles",
+       "offsets": [
+        [
+         0,
+         5
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "mathematics",
+      "sum"
+     ]
+    },
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "an amount",
+     "tags": [
+      "feminine"
+     ],
+     "cats": [
+      {
+       "name": "Pages with 1 entry",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 9 6 23 33"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "29 4 3 33 32"
+      }
+     ],
+     "examples": [
+      {
+       "sq": "Sipas specialistëve shuma të tilla do të ishin pikasur nga sistemi.",
+       "en": "According to experts, such amounts would have been detected by the system.",
+       "offsets": [
+        [
+         20,
+         25
+        ]
+       ]
+      }
+     ],
+     "links": [
+      "amount"
+     ]
+    }
+   ],
+   "rank": 33,
+   "count": 55614,
+   "family": "shumë",
+   "is_root": true,
+   "etymology": "Borrowed from Latin summum.",
+   "etymology_class": "borrowed",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "shuma",
+     "tag": "plural"
+    }
+   ],
+   "corpus_example": null
+  },
+  {
+   "id": "Shumë mirë!",
+   "sq": "Shumë mirë!",
+   "en": "Very good!",
+   "glosses": [
+    "Very good!"
+   ],
+   "pos": [
+    "phrase"
+   ],
+   "pos_labels": [
+    "phrase"
+   ],
+   "sense_detail": [
+    {
+     "pos": "phrase",
+     "pos_label": "phrase",
+     "gloss": "Very good!",
+     "tags": [],
+     "cats": [],
+     "examples": [],
+     "links": []
+    }
+   ],
+   "rank": 60002,
+   "count": 0,
+   "family": "Shumë mirë!",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
    "source_lang": null,
    "cognate": null,
    "parents": [],
@@ -435,8 +745,72 @@
    "derived": [],
    "related": [],
    "forms": [],
+   "phrase": true,
    "corpus_example": null
+  },
+  {
+   "id": "mirëmëngjes",
+   "sq": "mirëmëngjes",
+   "en": "good morning",
+   "glosses": [
+    "good morning"
+   ],
+   "pos": [
+    "intj"
+   ],
+   "pos_labels": [
+    "interjection"
+   ],
+   "sense_detail": [
+    {
+     "pos": "intj",
+     "pos_label": "interjection",
+     "gloss": "good morning",
+     "tags": [],
+     "cats": [],
+     "examples": [
+      {
+       "sq": "Mirëmëngjes, Ana! Si je?",
+       "en": "Good morning, Ana! How are you?",
+       "offsets": [
+        [
+         0,
+         11
+        ]
+       ]
+      }
+     ],
+     "links": []
+    }
+   ],
+   "rank": 1577,
+   "count": 554,
+   "family": "mëngjes",
+   "is_root": false,
+   "etymology": "From mirë + mëngjes.",
+   "etymology_class": "compound",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "mirë",
+     "role": "prefix"
+    },
+    {
+     "word": "mëngjes",
+     "role": "stem"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [],
+   "corpus_example": null,
+   "breakdown": "historical"
   }
  ],
- "opening": true
+ "opening": true,
+ "unit": 1,
+ "unit_title": "Say hello",
+ "situation": "Hello and goodbye"
 }

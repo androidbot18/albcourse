@@ -29,11 +29,35 @@ with open(os.path.join(os.path.dirname(HERE), "data", "words.json"),
           encoding="utf-8") as fh:
     W = {w["sq"]: w for w in json.load(fh)["words"]}
 
+# The Conversation Core (tools/conversation_core.py) writes its own short
+# headline and example for the words it teaches, and those win. A reviewed
+# gloss from this layer then stays on the card as a further sense. A word
+# that was an inflected-form card (qenë, ishin) is no longer a card at all.
+import conversation_core  # noqa: E402
+CORE = conversation_core.words_of(conversation_core.load())
+ALL = {}
+for L in glob.glob(os.path.join(os.path.dirname(HERE), "data", "levels",
+                                "level_*.json")):
+    for c in json.load(open(L, encoding="utf-8"))["words"]:
+        ALL[c["sq"]] = [s["gloss"] for s in c["sense_detail"]]
+
+
+def headlined(w, gloss):
+    if w not in W:
+        check("%s is folded into its word, not a card" % w, w not in ALL)
+    elif w in CORE:
+        check("%s keeps %r as a sense under the core headline %r"
+              % (w, gloss, W[w]["en"]),
+              gloss in ALL[w] or gloss == W[w]["en"])
+    else:
+        check("%s headlines %r (got %r)" % (w, gloss, W[w]["en"]),
+              W[w]["en"] == gloss)
+
+
 for w, glosses in go.FRONT.items():
-    check("%s headlines %r (got %r)" % (w, glosses[0], W[w]["en"]),
-          W[w]["en"] == glosses[0])
+    headlined(w, glosses[0])
 for w, (_, gloss) in go.REPLACE.items():
-    check("%s headlines %r" % (w, gloss), W[w]["en"] == gloss)
+    headlined(w, gloss)
 
 by_sense = {}
 for w in set(go.RENAME) | set(go.ADD):
@@ -45,11 +69,16 @@ for w, ren in go.RENAME.items():
     for old, new in ren.items():
         check("%s: %r is %s" % (w, old[:30], "dropped" if new is None
                                 else "now %r" % new[:30]),
-              old not in by_sense[w] and (new is None or new in by_sense[w]))
+              # A core headline may happen to equal the old wording
+              # ("Tuesday"); the reviewed sense must still be on the card.
+              (old not in by_sense[w] or (w in CORE and W[w]["en"] == old))
+              and (new is None or new in by_sense[w]))
 for w, (at, _, gloss) in go.ADD.items():
     check("%s: sense %d is %r" % (w, at, gloss),
           by_sense[w][at:at + 1] == [gloss])
 for w, (_, sq, en) in go.EXAMPLES.items():
+    if w in CORE or w not in W:
+        continue
     check("%s shows the reviewed example %r" % (w, sq),
           (W[w].get("ex") or {}).get("sq") == sq)
 

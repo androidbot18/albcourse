@@ -122,10 +122,11 @@ if not shipped:
     print("  skip data/levels not built")
 else:
     n = len(ol.LEVELS)
+    # In order, not merely the same set: a core example may use the word
+    # taught just before it on the same level.
     check("the first %d levels are the curated ones, in order" % n,
-          [(L["title"], sorted(w["sq"] for w in L["words"]))
-           for L in shipped[:n]]
-          == [(t, sorted(ws)) for t, ws in ol.LEVELS])
+          [(L["title"], [w["sq"] for w in L["words"]]) for L in shipped[:n]]
+          == [(t, list(ws)) for t, ws in ol.LEVELS])
     check("they are marked `opening`, and no other level is",
           all(L.get("opening") for L in shipped[:n])
           and not any(L.get("opening") for L in shipped[n:]))
@@ -156,23 +157,41 @@ else:
     check("`continues` names only families the opening began (%s)"
           % stray[:5], not stray)
 
-    # What a learner meets in the first week, which the frequency order
-    # used to put at L56-L393 or leave out of the deck.
-    for w, by in (("përshëndetje", 1), ("po", 1), ("jo", 1), ("unë", 2),
-                  ("jam", 4), ("kam", 5), ("e", 21), ("një", 7),
-                  ("dhjetë", 8), ("nënë", 9), ("bukë", 11), ("ujë", 11),
-                  ("sot", 13), ("çfarë", 16), ("hënë", 22),
-                  ("mërkurë", 22), ("premte", 23), ("diel", 23)):
+    # What a learner meets first. The bounds are unit boundaries of the
+    # Conversation Core: greetings by L6, politeness by L22, the cafe by
+    # L58, the days of the week by L90, the family by L98.
+    for w, by in (("përshëndetje", 1), ("po", 1), ("jo", 1),
+                  ("faleminderit", 1), ("unë", 3), ("jam", 3), ("një", 9),
+                  ("kafe", 9), ("ujë", 9), ("kam", 12), ("çfarë", 22),
+                  ("sot", 31), ("dhjetë", 45), ("bukë", 58), ("hënë", 90),
+                  ("diel", 90), ("nënë", 98)):
         check("%s is taught by L%d (L%s)" % (w, by, lvl_of.get(w)),
               lvl_of.get(w, 10 ** 9) <= by)
-    # The opening takes only the present tense of jam; the past comes back.
-    check("jam's past tense comes back after the opening (ishte L%s)"
-          % lvl_of.get("ishte"), lvl_of.get("ishte", 0) > n)
 
+    # One card per word (CONVERSATION_PLAN.md step 2): a paradigm is a
+    # line on its word's card, not a run of cards.
     card_of = {w["sq"]: w for L in shipped for w in L["words"]}
+    for form in ("është", "jemi", "ishte", "kemi", "shkon"):
+        check("%s is not a card of its own" % form, form not in card_of)
+    check("the jam card shows its present tense",
+          card_of["jam"].get("forms_line")
+          == "jam · je · është · jemi · jeni · janë")
+    check("a verb card shows its key forms (shkoj: %r)"
+          % card_of["shkoj"].get("forms_line"),
+          card_of["shkoj"].get("forms_line")
+          == "ai shkon · shkova (past) · kam shkuar")
+    check("a noun card shows its definite and plural (djalë: %r)"
+          % card_of["djalë"].get("forms_line"),
+          card_of["djalë"].get("forms_line") == "djali · pl. djem")
+    check("an adjective card shows its linking article (mirë: %r)"
+          % card_of["mirë"].get("forms_line"),
+          card_of["mirë"].get("forms_line") == "i mirë · e mirë")
+    check("the folded forms are listed on the word (shkoj has shkon)",
+          "shkon" in {f["form"] for f in card_of["shkoj"]["forms"]})
+
     for w, gloss in (("pi", "to drink"), ("kafe", "coffee"),
-                     ("qumësht", "milk"), ("e", "and"),
-                     ("ka", "he/she/it has (from kam, to have)")):
+                     ("qumësht", "milk"), ("njeri", "person, man"),
+                     ("pas", "after; behind"), ("pres", "to wait")):
         check("%s headlines %r (got %r)" % (w, gloss, card_of[w]["en"]),
               card_of[w]["en"] == gloss)
     days = (("hënë", "Monday"), ("martë", "Tuesday"),
@@ -180,40 +199,18 @@ else:
             ("premte", "Friday"), ("shtunë", "Saturday"),
             ("diel", "Sunday"))
     for w, day in days:
-        check("%s is a card headlined %s, with its article (got %r)"
-              % (w, day, card_of.get(w, {}).get("en")),
-              (card_of.get(w, {}).get("en") or "").startswith(
-                  "%s (e %s; të " % (day, w)))
-    check("hënë keeps 'moon' as a later sense",
-          [s["gloss"] for s in card_of["hënë"]["sense_detail"]][1:2]
-          == ["moon"])
-    # "A pi drogë?" stays only under its own sense, "to take (drugs,
-    # medicine)", further down the card; it is no longer the card's example.
-    check("pi's example is the reviewed one, not 'A pi drogë?'",
+        check("%s is a card headlined %s, showing its article (got %r, %r)"
+              % (w, day, card_of.get(w, {}).get("en"),
+                 card_of.get(w, {}).get("forms_line")),
+              (card_of.get(w, {}).get("en") or "").startswith(day)
+              and (card_of.get(w, {}).get("forms_line") or "").startswith(
+                  "e %s" % w))
+    check("pi's example is the core's own, not 'A pi drogë?'",
           card_of["pi"]["sense_detail"][0]["examples"][0]["sq"]
-          == "Unë pi kafe me qumësht."
+          == "Unë pi vetëm ujë."
           and not card_of["pi"].get("corpus_example"))
-
-    # A reviewed example on an opening card is read in the first lessons,
-    # so every word in it must already be taught. `e`'s example used punoj
-    # and natë, both taught after it.
-    import added_words as aw
-    import gloss_overrides as go
-    reviewed = {w: sq for w, (_, sq, _) in go.EXAMPLES.items()}
-    reviewed.update((w, e["ex"][0]) for w, e in aw.WORDS.items())
-    for w, sq in sorted(reviewed.items()):
-        if w not in curated:
-            continue
-        late = [(t, lvl_of.get(t)) for t in re.findall(r"[^\W\d_]+", sq.lower())
-                if lvl_of.get(t, 10 ** 9) > lvl_of[w]]
-        check("%s's example uses only words taught by L%d (late: %s)"
-              % (w, lvl_of[w], late), not late)
-    e = card_of["e"]
-    check("e's reviewed example is on its 'and' sense",
-          e["sense_detail"][0]["examples"][:1]
-          and e["sense_detail"][0]["examples"][0]["sq"] == "Punoj ditë e natë.")
-    check("e's article-sense corpus sentence is gone",
-          not e.get("corpus_example"))
+    check("no core card falls back to a corpus sentence",
+          not [w for w in curated if card_of[w].get("corpus_example")])
     check("e- words are not in the family of e ('and')",
           card_of["esëll"]["family"] != "e")
 

@@ -1,30 +1,128 @@
 {
  "level": 269,
- "title": "uri, ngjan, errësirë +3",
+ "title": "tall, shkëmbej, brengosem +3",
  "root": "",
  "root_gloss": "",
  "part": 1,
  "parts": 1,
  "word_count": 6,
  "families": [
-  "be",
-  "errësirë",
-  "gra",
-  "ngjan",
-  "thikë",
-  "uri"
+  "brengosem",
+  "kujtoj",
+  "model",
+  "shkëmbej",
+  "tall",
+  "vampir"
  ],
  "pos_mix": {
-  "noun": 8,
-  "verb": 1
+  "verb": 3,
+  "noun": 5
  },
  "words": [
   {
-   "id": "uri",
-   "sq": "uri",
-   "en": "hunger",
+   "id": "tall",
+   "sq": "tall",
+   "en": "to ridicule, mock",
    "glosses": [
-    "hunger"
+    "to ridicule, mock",
+    "to deride, laugh at"
+   ],
+   "pos": [
+    "verb",
+    "verb"
+   ],
+   "pos_labels": [
+    "verb",
+    "verb"
+   ],
+   "sense_detail": [
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to ridicule, mock",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "ridicule",
+      "mock"
+     ]
+    },
+    {
+     "pos": "verb",
+     "pos_label": "verb",
+     "gloss": "to deride, laugh at",
+     "tags": [
+      "transitive"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w+disamb",
+       "_dis": "54 46"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "deride",
+      "laugh"
+     ]
+    }
+   ],
+   "rank": 4455,
+   "count": 172,
+   "family": "tall",
+   "is_root": true,
+   "etymology": "From Proto-Albanian *talna, related to Lithuanian ti̇̀lti (“to become silent”), Old Irish tuilid (“to sleep”), Proto-Slavic *toliti (“to persuade, to make quiet”).",
+   "etymology_class": "inherited",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [
+    "tallje"
+   ],
+   "related": [],
+   "forms": [
+    {
+     "form": "talla",
+     "tag": "aorist"
+    },
+    {
+     "form": "tallur",
+     "tag": "participle"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Don't make fun of me, I told him.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Mos u tall me mua, i thashë."
+   }
+  },
+  {
+   "id": "shkëmbim",
+   "sq": "shkëmbim",
+   "en": "exchange",
+   "glosses": [
+    "exchange"
    ],
    "pos": [
     "noun"
@@ -36,9 +134,9 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "hunger",
+     "gloss": "exchange",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -48,13 +146,13 @@
        "source": "w"
       },
       {
-       "name": "Pages with 20 entries",
+       "name": "Albanian terms suffixed with -im",
        "kind": "other",
        "parents": [],
        "source": "w"
       },
       {
-       "name": "Pages with entries",
+       "name": "Pages with 1 entry",
        "kind": "other",
        "parents": [],
        "source": "w"
@@ -62,46 +160,63 @@
      ],
      "examples": [],
      "links": [
-      "hunger"
+      "exchange"
      ]
     }
    ],
-   "rank": 2015,
-   "count": 430,
-   "family": "uri",
-   "is_root": true,
-   "etymology": "Derived from *ur. From Proto-Albanian *wana, a nominal derivative of Proto-Indo-European *wenh₁- (“to want, to desire”). Cognate to English wish, Latin venia (“indulgence, kindness”).",
-   "etymology_class": "inherited",
+   "rank": 4459,
+   "count": 172,
+   "family": "shkëmbej",
+   "is_root": false,
+   "etymology": "From shkëmbej + -im noun suffix.",
+   "etymology_class": "affix",
    "source_lang": null,
    "cognate": null,
    "parents": [],
-   "components": [],
+   "components": [
+    {
+     "word": "shkëmbej",
+     "role": "base",
+     "en": "to exchange"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
    "derived": [],
    "related": [],
    "forms": [
     {
-     "form": "uria",
+     "form": "shkëmbime",
+     "tag": "plural"
+    },
+    {
+     "form": "shkkëmbimi",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "MaCoCu",
-    "en": "Is it cold or hungry?",
+    "corpus": "HPLT",
+    "en": "Time for a showdown!",
     "score": [
      0,
-     5,
-     -5,
-     8
+     4,
+     -4,
+     10
     ],
-    "sq": "A ka ftohtë ose uri?"
-   }
+    "sq": "Koha për një shkëmbim!"
+   },
+   "breakdown": "transparent"
   },
   {
-   "id": "ngjan",
-   "sq": "ngjan",
-   "en": "it happens",
+   "id": "brengosem",
+   "sq": "brengosem",
+   "en": "to grieve",
    "glosses": [
-    "it happens"
+    "to grieve"
    ],
    "pos": [
     "verb"
@@ -113,7 +228,7 @@
     {
      "pos": "verb",
      "pos_label": "verb",
-     "gloss": "it happens",
+     "gloss": "to grieve",
      "tags": [],
      "cats": [
       {
@@ -135,38 +250,17 @@
        "source": "w"
       }
      ],
-     "examples": [
-      {
-       "sq": "S'di ç'ka ngjarë",
-       "en": "I don't know what happened",
-       "offsets": [
-        [
-         10,
-         16
-        ]
-       ]
-      },
-      {
-       "sq": "Gjëra që ngjajnë",
-       "en": "Things that happen",
-       "offsets": [
-        [
-         9,
-         16
-        ]
-       ]
-      }
-     ],
+     "examples": [],
      "links": [
-      "happens"
+      "grieve"
      ]
     }
    ],
-   "rank": 2016,
-   "count": 430,
-   "family": "ngjan",
+   "rank": 4461,
+   "count": 172,
+   "family": "brengosem",
    "is_root": true,
-   "etymology": "From ngjaj.",
+   "etymology": "",
    "etymology_class": null,
    "source_lang": null,
    "cognate": null,
@@ -176,101 +270,29 @@
    "related": [],
    "forms": [
     {
-     "form": "ngjarë",
+     "form": "brengosur",
      "tag": "participle"
     }
    ],
-   "corpus_example": null
-  },
-  {
-   "id": "errësirë",
-   "sq": "errësirë",
-   "en": "darkness",
-   "glosses": [
-    "darkness",
-    "darken",
-    "obscure"
-   ],
-   "pos": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "pos_labels": [
-    "noun",
-    "noun",
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "darkness",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "eclipse"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "darken",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "darken"
-     ]
-    },
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "obscure",
-     "tags": [],
-     "cats": [],
-     "examples": [],
-     "links": [
-      "obscure"
-     ]
-    }
-   ],
-   "rank": 2027,
-   "count": 428,
-   "family": "errësirë",
-   "is_root": true,
-   "etymology": "a /n/ > /r/ rhotacism of gheg errësinë, plural of errësi, from err (“dark”) + -si (“great”).",
-   "etymology_class": "compound",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [
-    "dark",
-    "great"
-   ],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
    "corpus_example": {
-    "corpus": "HPLT",
-    "en": "Why in the dark?",
+    "corpus": "QED",
+    "en": "Why should I worry?",
     "score": [
      0,
-     3,
-     -3,
-     10
+     5,
+     -5,
+     5
     ],
-    "sq": "-Pse në errësirë?"
+    "sq": "Përse duhet të brengosem unë?"
    }
   },
   {
-   "id": "be",
-   "sq": "be",
-   "en": "oath",
+   "id": "model",
+   "sq": "model",
+   "en": "pattern",
    "glosses": [
-    "oath",
-    "vow, swearing"
+    "pattern",
+    "example"
    ],
    "pos": [
     "noun",
@@ -284,30 +306,22 @@
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "oath",
+     "gloss": "pattern",
      "tags": [
-      "feminine"
+      "masculine"
      ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w+disamb",
-       "_dis": "51 49"
-      }
-     ],
+     "cats": [],
      "examples": [],
      "links": [
-      "oath"
+      "pattern"
      ]
     },
     {
      "pos": "noun",
      "pos_label": "noun",
-     "gloss": "vow, swearing",
+     "gloss": "example",
      "tags": [
-      "feminine"
+      "masculine"
      ],
      "cats": [
       {
@@ -315,203 +329,211 @@
        "kind": "other",
        "parents": [],
        "source": "w+disamb",
-       "_dis": "51 49"
+       "_dis": "14 86"
       }
      ],
      "examples": [],
      "links": [
-      "vow",
-      "swearing"
+      "example"
      ]
     }
    ],
-   "rank": 2029,
-   "count": 428,
-   "family": "be",
+   "rank": 4472,
+   "count": 171,
+   "family": "model",
    "is_root": true,
-   "etymology": "From Proto-Albanian *bẹ(ð)ə < *baidā-, from Proto-Indo-European *bʰoydʰ-eh₂ < *bʰeydʰ- (“to persuade”). Compare Old English bād (“pledge, expectation”), Proto-Slavic *bě̄dà, Ancient Greek πείθω (peíthō), Latin foedus.",
-   "etymology_class": "inherited",
+   "etymology": "Ultimately from Old Italian modello, from Vulgar Latin *modellus, diminutive form of modulus (“measure, standard”).",
+   "etymology_class": "derived",
    "source_lang": null,
    "cognate": null,
    "parents": [],
    "components": [],
    "derived": [
-    "përbej",
-    "besë",
-    "betoj",
-    "betohem",
-    "bind"
+    "modeloj",
+    "modelim"
    ],
    "related": [],
    "forms": [
     {
-     "form": "be",
+     "form": "modele",
      "tag": "plural"
     },
     {
-     "form": "beja",
+     "form": "modeli",
      "tag": "definite"
     }
    ],
    "corpus_example": {
-    "corpus": "TED2020",
-    "en": "And that turned out to be women.",
-    "score": [
-     0,
-     7,
-     -7,
-     4
-    ],
-    "sq": "Dhe ai u be të jetë grua."
-   }
-  },
-  {
-   "id": "gra",
-   "sq": "gra",
-   "en": "women",
-   "glosses": [
-    "women"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "women",
-     "tags": [],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 8 entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "women"
-     ]
-    }
-   ],
-   "rank": 2033,
-   "count": 426,
-   "family": "gra",
-   "is_root": true,
-   "etymology": "Plural of grua.",
-   "etymology_class": null,
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [],
-   "corpus_example": {
-    "corpus": "SETIMES",
-    "en": "Eight are women.",
-    "score": [
-     0,
-     3,
-     -3,
-     7
-    ],
-    "sq": "Tetë janë gra."
-   }
-  },
-  {
-   "id": "thikë",
-   "sq": "thikë",
-   "en": "knife, dagger",
-   "glosses": [
-    "knife, dagger"
-   ],
-   "pos": [
-    "noun"
-   ],
-   "pos_labels": [
-    "noun"
-   ],
-   "sense_detail": [
-    {
-     "pos": "noun",
-     "pos_label": "noun",
-     "gloss": "knife, dagger",
-     "tags": [
-      "feminine"
-     ],
-     "cats": [
-      {
-       "name": "Albanian entries with incorrect language header",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with 1 entry",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      },
-      {
-       "name": "Pages with entries",
-       "kind": "other",
-       "parents": [],
-       "source": "w"
-      }
-     ],
-     "examples": [],
-     "links": [
-      "knife",
-      "dagger"
-     ]
-    }
-   ],
-   "rank": 2035,
-   "count": 426,
-   "family": "thikë",
-   "is_root": true,
-   "etymology": "From Proto-Albanian *tˢ́ika, from Pre-Proto-Albanian *ćīkā ~ *ćeykā, from Proto-Indo-European *ḱeh₃- (“to sharpen”). A PPA form *ćīkā supports a Proto-Indo-European *k̑iH-keh2- form, while *ćeykā supports a Proto-Indo-European *k̑éi̯H-keh2- form. The absence of an a-umlaut favors against a short -i- in *ćikā, which was posited by Orel.\nAlternatively, Meyer considers a borrowing from Latin sīca (“a poniard, curved dagger”), while other scholars believe instead the opposite.",
-   "etymology_class": "inherited",
-   "source_lang": null,
-   "cognate": null,
-   "parents": [],
-   "components": [],
-   "derived": [],
-   "related": [],
-   "forms": [
-    {
-     "form": "thika",
-     "tag": "plural"
-    }
-   ],
-   "corpus_example": {
     "corpus": "HPLT",
-    "en": "It's like a knife.",
+    "en": "There's a pattern here.",
     "score": [
      0,
      4,
      -4,
      10
     ],
-    "sq": "Është si një thikë."
+    "sq": "Ka një model këtu."
    }
+  },
+  {
+   "id": "vampir",
+   "sq": "vampir",
+   "en": "vampire",
+   "glosses": [
+    "vampire"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "vampire",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [
+      {
+       "name": "Albanian entries with incorrect language header",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with 10 entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      },
+      {
+       "name": "Pages with entries",
+       "kind": "other",
+       "parents": [],
+       "source": "w"
+      }
+     ],
+     "examples": [],
+     "links": [
+      "vampire"
+     ]
+    }
+   ],
+   "rank": 4482,
+   "count": 171,
+   "family": "vampir",
+   "is_root": true,
+   "etymology": "",
+   "etymology_class": null,
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "vampirë",
+     "tag": "plural"
+    },
+    {
+     "form": "vampiri",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "This is the war between werewolf and vampire.",
+    "score": [
+     1,
+     7,
+     -6,
+     10
+    ],
+    "sq": "Kjo është lufta mes ujk dhe vampir."
+   }
+  },
+  {
+   "id": "kujtim",
+   "sq": "kujtim",
+   "en": "verbal noun of kujtoj (“to remember”)",
+   "glosses": [
+    "verbal noun of kujtoj (“to remember”)"
+   ],
+   "pos": [
+    "noun"
+   ],
+   "pos_labels": [
+    "noun"
+   ],
+   "sense_detail": [
+    {
+     "pos": "noun",
+     "pos_label": "noun",
+     "gloss": "verbal noun of kujtoj (“to remember”)",
+     "tags": [
+      "masculine"
+     ],
+     "cats": [],
+     "examples": [],
+     "links": [
+      "kujtoj",
+      "memory"
+     ]
+    }
+   ],
+   "rank": 4499,
+   "count": 170,
+   "family": "kujtoj",
+   "is_root": false,
+   "etymology": "From kujtoj + -im.",
+   "etymology_class": "affix",
+   "source_lang": null,
+   "cognate": null,
+   "parents": [],
+   "components": [
+    {
+     "word": "kujtoj",
+     "role": "base",
+     "en": "to remember"
+    },
+    {
+     "word": "im",
+     "role": "suffix",
+     "affix": "im",
+     "meaning": "the act of (noun)"
+    }
+   ],
+   "derived": [],
+   "related": [],
+   "forms": [
+    {
+     "form": "kujtime",
+     "tag": "plural"
+    },
+    {
+     "form": "kujtimi",
+     "tag": "definite"
+    }
+   ],
+   "corpus_example": {
+    "corpus": "HPLT",
+    "en": "Do you have a good memory?",
+    "score": [
+     0,
+     6,
+     -6,
+     10
+    ],
+    "sq": "A keni një kujtim të mirë?"
+   },
+   "breakdown": "transparent"
   }
+ ],
+ "continues": [
+  "kujtoj"
  ]
 }

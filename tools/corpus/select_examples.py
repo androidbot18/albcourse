@@ -396,6 +396,10 @@ def main():
                 # Needed by context_ok() to tell a joining 'e' from the
                 # article 'e' by the POS of the token that follows it.
                 "pos": [str(p).lower() for p in (w.get("pos") or [])],
+                # A word's common inflected forms (shkon, flet) no longer
+                # have cards of their own; they ride on the word's card.
+                "forms": [f["form"].lower() for f in (w.get("forms") or [])
+                          if isinstance(f, dict) and f.get("form")],
             })
 
     # Fail here, not at the coverage print. An empty deck once ran to the end
@@ -415,6 +419,9 @@ def main():
             pos_index.setdefault(w["sq"].lower(), [])
             if lab not in pos_index[w["sq"].lower()]:
                 pos_index[w["sq"].lower()].append(lab)
+            for form in w.get("forms") or []:
+                if lab not in pos_index.setdefault(form, []):
+                    pos_index[form].append(lab)
     have_example = {w["sq"] for w in deck_words if w.get("wiktionary_example")}
 
     # Index: token -> list of (corpus, en, sq). Only gated pairs are kept, and

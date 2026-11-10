@@ -67,6 +67,14 @@ echo "== hand-curated opening =="
 step python3 tools/test_opening_levels.py
 
 echo
+echo "== conversation core =="
+# CONVERSATION_PLAN.md steps 1-3: the first 168 levels are ordered by
+# situation and hand-written in tools/core/*.txt. Pins the readable-sentence
+# rule (no example or dialogue uses an untaught word), one card per word,
+# the checklist, and the shipped levels, each with a negative control.
+step python3 tools/test_conversation_core.py
+
+echo
 echo "== main course and extended track =="
 # Section 3.6: the main course is the words ranked up to 5,000 (plus the
 # opening and the stems they need); the rest is an optional extended track.
