@@ -2,10 +2,10 @@
 
 Run as:  python3 tools/test_prereq.py
 
-The course is ordered so a word's lexical stem comes first, the way a
-Wanikani kanji's component comes before the kanji that uses it. This suite
-locks that invariant in, so a later change to the level packer cannot
-silently reintroduce words that reference an untaught stem.
+The course is ordered so a word's lexical stem comes first: a stem is taught
+before the word built on it. This suite locks that invariant in, so a later
+change to the level packer cannot silently reintroduce words that reference an
+untaught stem.
 """
 import glob
 import json

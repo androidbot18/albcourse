@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """How much real Albanian text does the deck actually cover?
 
-The question behind the Joyo suggestion: can a course of common vocabulary
-reach the ~96% of modern text that Joyo kanji reach in Japanese? That needs
-real text, not a word list, so this scores the deck against the
-human-translated corpora we already draw examples from.
+The question: can a course of common vocabulary reach the ~96% of modern text
+that a frequency-ordered core is expected to? That needs real text, not a word
+list, so this scores the deck against the human-translated corpora we already
+draw examples from.
 
 Two numbers, and they are different things:
 
   * TYPE COVERAGE  - share of distinct word types the deck knows
   * TOKEN COVERAGE - share of all word occurrences the deck knows
 
-Joyo-style figures are usually quoted for TYPES. For a learner TOKENS are what
+Figures of this kind are usually quoted for TYPES. For a learner TOKENS are what
 matter: a word covering 2% of every sentence you read is worth far more than
 a rare word met once. Both are reported.
 

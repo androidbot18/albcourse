@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Export the course to an Anki deck (.apkg).
 
-The point of this course is that cards are grouped by ROOT and WORD FAMILY
-rather than by characters, so the export must preserve that structure instead
-of flattening everything into one list. Each level becomes its own Anki deck,
-named with the root it teaches, and every card carries its family, root and
-level in dedicated fields you can search, filter and sort on.
+The point of this course is that cards are grouped by BASE WORD and its
+DERIVATIONS rather than taught as isolated items, so the export must preserve
+that structure instead of flattening everything into one list. Each level
+becomes its own Anki deck, named with the base word it teaches, and every card
+carries its group, base word and level in dedicated fields you can search,
+filter and sort on.
 
 Run:  python3 tools/export_anki.py
-Out:  dist/albanian-roots-families.apkg
+Out:  dist/albanian-vocabulary.apkg
 """
 import json
 import os
@@ -26,17 +27,17 @@ DIST = os.path.join(ROOT, "dist")
 # deck instead of creating a second one.
 DECK_ID = 1758295000
 
-ROOT_CARD = {
-    "name": "ALB-RootFamily",
+BASE_CARD = {
+    "name": "ALB-BaseGroup",
     "qfmt": (
-        '<div class="root-head">Root <b>{{Root}}</b>'
-        ' &middot; family of {{FamilyCount}}</div>'
+        '<div class="root-head">Base <b>{{Base}}</b>'
+        ' &middot; group of {{FamilyCount}}</div>'
         '<div class="word">{{Albanian}}</div>'
         '{{FrontSide}}'
     ),
     "afmt": (
-        '<div class="root-head">Root <b>{{Root}}</b>'
-        ' &middot; family of {{FamilyCount}}</div>'
+        '<div class="root-head">Base <b>{{Base}}</b>'
+        ' &middot; group of {{FamilyCount}}</div>'
         '<hr id=answer>'
         '<div class="gloss">{{English}}</div>'
         '{{#Example}}<div class="ex">{{ExampleSq}}<br><i>{{ExampleEn}}</i></div>{{/Example}}'
@@ -84,12 +85,12 @@ def main():
     # would have merged level tags and made per-level search wrong.
     width = len(str(len(files)))
 
-    model = genanki.Model(DECK_ID, ROOT_CARD["name"],
+    model = genanki.Model(DECK_ID, BASE_CARD["name"],
                           fields=[
                               {"name": "Albanian"},
                               {"name": "English"},
                               {"name": "POS"},
-                              {"name": "Root"},
+                              {"name": "Base"},
                               {"name": "FamilyCount"},
                               {"name": "Level"},
                               {"name": "Rank"},
@@ -99,9 +100,9 @@ def main():
                               {"name": "OtherSenses"},
                               {"name": "Etymology"},
                           ],
-                          templates=[{"qfmt": ROOT_CARD["qfmt"],
-                                      "afmt": ROOT_CARD["afmt"]}],
-                          css=ROOT_CARD["css"])
+                          templates=[{"qfmt": BASE_CARD["qfmt"],
+                                      "afmt": BASE_CARD["afmt"]}],
+                          css=BASE_CARD["css"])
 
     decks = {}
     total = 0
@@ -113,13 +114,13 @@ def main():
         if not words:
             continue
 
-        root = next((w["id"] for w in words if w.get("is_root")), words[0]["id"])
-        # One deck per level, named for the root it teaches.
-        deck_name = "Albanian L%02d - root %s" % (n, root)
+        base = next((w["id"] for w in words if w.get("is_root")), words[0]["id"])
+        # One deck per level, named for the base word it teaches.
+        deck_name = "Albanian L%02d - %s" % (n, base)
         # The optional extended track after the main course gets its own
         # prefix, so a learner can leave those decks out.
         if lvl.get("extended"):
-            deck_name = "Albanian extended L%02d - root %s" % (n, root)
+            deck_name = "Albanian extended L%02d - %s" % (n, base)
         deck = genanki.Deck(DECK_ID + n, deck_name)
         decks[n] = deck
 
@@ -150,7 +151,7 @@ def main():
                     w["sq"],
                     head,
                     ", ".join(dict.fromkeys(w.get("pos_labels") or [])),
-                    root,
+                    base,
                     str(fam_counts.get(family, 1)),
                     str(n),
                     str(w.get("rank") or ""),
@@ -163,8 +164,9 @@ def main():
                 # Deterministic guid so a re-export updates the same note
                 # instead of duplicating it on every rebuild.
                 guid=f"albcourse::{w['id']}",
-                tags=["albanian", "level%0*d" % (width, n), "root_%s" % root,
-                      "fam_%s" % family]
+                tags=["albanian", "level%0*d" % (width, n),
+                      "base_%s" % re.sub(r"\s+", "-", base),
+                      "grp_%s" % re.sub(r"\s+", "-", family)]
                      + (["extended"] if lvl.get("extended") else []),
             )
             deck.add_note(note)
@@ -172,7 +174,7 @@ def main():
 
     pkg = genanki.Package(decks.values())
     os.makedirs(DIST, exist_ok=True)
-    out = os.path.join(DIST, "albanian-roots-families.apkg")
+    out = os.path.join(DIST, "albanian-vocabulary.apkg")
     pkg.write_to_file(out)
 
     size = os.path.getsize(out)

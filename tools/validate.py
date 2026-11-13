@@ -61,7 +61,7 @@ def main():
     check(len(files) == len(index),
           "index.json has %d entries, %d files on disk" % (len(index), len(files)))
 
-    # --- level structure: a level is a session of whole word families -----
+    # --- level structure: a level is a session of whole word groups -----
     # These guard the invariants assign_levels() is supposed to guarantee,
     # so a future change to the packer cannot quietly re-scatter families.
     struct = []

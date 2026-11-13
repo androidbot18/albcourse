@@ -67,7 +67,7 @@ CORPUS_EXAMPLES_PATH = os.path.join(OUT, "corpus_examples.json")
 CORE_POS = {"noun", "verb", "adj", "adv", "pron", "num", "intj", "prep", "conj", "det"}
 
 # Frequency ceiling for admitting a card for an inflected form. The deck is
-# built to be a Joyo-shaped course of common vocabulary, so a form is added
+# built to be a course of common vocabulary, so a form is added
 # only where a learner actually meets the inflected word rather than the
 # lemma. Measured with tools/measure_form_gap.py: rank <= 2000 admits 183
 # cards and covers every one of the 116 forms inside the top 500, while
@@ -999,7 +999,7 @@ def load_dict(path, freq):
     return out, stats
 
 
-# ---------------------------------------------------------- word families
+# ---------------------------------------------------------- word groups
 
 def friendly_form_glosses(cards):
     """Rewrite inflected-form glosses for a learner, in place.
@@ -1180,32 +1180,32 @@ def schedule_course(cards, families, components=None, opening=None,
 
 def assign_levels(cards, families, per_level=9, max_families=6,
                   components=None, opening=None, begun=()):
-    """Levels are sessions of whole word families, in prerequisite order.
+    """Levels are sessions of whole word groups, in prerequisite order.
 
     Three rules, in priority order:
 
       1. A stem is never taught after the word built on it. esëll is e- + sillë, so
          sille must unlock no later than esell, even though sille is the
-         rarer word. This is the kanji bargain applied to whole words: the
+         rarer word. This is the same bargain applied to whole words: the
          component comes first because it explains the card.
-      2. Within a level, a family is never split. A root and its derivations
-         unlock together, so studying a level teaches a word group rather
-         than an arbitrary frequency slice. The one exception is a family's
-         rare tail ("root first, tail later"): its rank > 1200 members come
-         back later as "root (rarer words)", once the course reaches them.
-      3. A level is a session, not a single item: families are packed until
+      2. Within a level, a group is never split. A base word and its
+         derivations unlock together, so studying a level teaches a word group
+         rather than an arbitrary frequency slice. The one exception is a
+         group's rare tail ("base first, tail later"): its rank > 1200 members
+         come back later as "base (rarer words)", once the course reaches them.
+      3. A level is a session, not a single item: groups are packed until
          per_level words are reached, at most max_families of them.
 
-    Families too large for one session spill into continuation levels that
-    repeat the root ("krye 2/3") so a split family stays one lesson rather
+    Groups too large for one session spill into continuation levels that
+    repeat the base word ("krye 2/3") so a split group stays one lesson rather
     than a pile of orphans.
 
-    Roots are ordered by prerequisite-respecting rank, not by raw frequency.
+    Groups are ordered by prerequisite-respecting rank, not by raw frequency.
     A rare stem that many words depend on outranks the common word that
     happens to sit above it in the corpus.
 
     `components` is {word: [{"word":..., "role":...}, ...]}. Only stems
-    (role "stem") create prerequisites; a prefix is already the family root,
+    (role "stem") create prerequisites; a prefix is already the group's base,
     so it is displayed but never re-ordered.
 
     `opening` is the hand-curated opening (tools/opening_levels.LEVELS): a
@@ -1522,7 +1522,7 @@ def assign_levels(cards, families, per_level=9, max_families=6,
         rest = sorted((r for r in deps if r not in placed),
                       key=lambda r: (score.get(r, 10 ** 9), r))
         ordered.extend(rest)
-        print("  %d families in a stem cycle (mutual borrowing, e.g. "
+        print("  %d groups in a stem cycle (mutual borrowing, e.g. "
               "dalengadale <-> ngadale); appended by frequency" % len(rest))
 
     # A family whose rare tail would fill the opening is taught in two passes:
@@ -1584,7 +1584,7 @@ def assign_levels(cards, families, per_level=9, max_families=6,
 
     if deferred_units:
         n_deferred = sum(len(m) for _, m, _, _ in deferred_units)
-        print("  %d rare family members across %d families held back "
+        print("  %d rare group members across %d groups held back "
               "from the opening" % (n_deferred, len(deferred_units)))
 
     # ---- root first, tail later ------------------------------------------
@@ -1847,10 +1847,9 @@ def write_levels(levels, by_word, corpus_examples):
         # that no build-time field ships, so drop it before writing.
         for o in objs:
             del o["_tier"]
-        # A single-family level is named after its root, the way a Wanikani
-        # level is named after the radical it unlocks; a split family keeps
-        # the root and gains a "2/3" marker. A multi-family level lists the
-        # roots it contains, capped at two plus a count.
+        # A single-group level is named after its base word; a split group keeps
+        # the base and gains a "2/3" marker. A multi-group level lists the
+        # base words it contains, capped at two plus a count.
         root_gloss = (by_word[root]["senses"][0]["gloss"]
                       if root and by_word[root]["senses"] else "")
         lvl = {
@@ -1896,7 +1895,7 @@ def write_levels(levels, by_word, corpus_examples):
             json.dump(lvl, fh, ensure_ascii=False, indent=1)
 
     course = {
-        "title": "Albanian Roots & Families",
+        "title": "Albanian Vocabulary Course",
         "language": "sq",
         "source": {
             "dictionary": "Kaikki.org (wiktextract of English Wiktionary)",
@@ -2023,10 +2022,10 @@ def main():
     else:
         print("no corpus_examples.json - Wiktionary examples only")
 
-    print("building word families...", flush=True)
+    print("building word groups...", flush=True)
     parent, families = build_families(cards)
     multi = {r: m for r, m in families.items() if len(m) > 1}
-    print("  %d families, %d with >1 member" % (len(families), len(multi)))
+    print("  %d groups, %d with >1 member" % (len(families), len(multi)))
 
     # Components are resolved AFTER families but BEFORE levels, because a
     # component must be a word the course actually teaches (hence the full
