@@ -15,7 +15,7 @@ import tempfile
 import zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-APKG = os.path.join(ROOT, "dist", "albanian-roots-families.apkg")
+APKG = os.path.join(ROOT, "dist", "albanian-vocabulary.apkg")
 
 # Expected shape of the export, read from the course data so these
 # assertions cannot drift from what the generator actually produced.
@@ -119,7 +119,7 @@ def main():
           % sorted(unknown))
     check("{{Albanian}}" in tpl["qfmt"], "question shows the Albanian word")
     check("{{English}}" in tpl["afmt"], "answer shows the English gloss")
-    check("{{Root}}" in tpl["qfmt"], "question shows the root")
+    check("{{Base}}" in tpl["qfmt"], "question shows the base word")
     check("{{FrontSide}}" in tpl["qfmt"], "question reuses the front template")
 
     con.close()

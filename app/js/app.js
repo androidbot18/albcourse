@@ -1,6 +1,6 @@
 /* app.js - the UI shell.
  *
- * Views: map (level list), level (family lesson), study (review queue),
+ * Views: map (level list), level (word group lesson), study (review queue),
  * stats (progress dashboard). Progress lives in localStorage only.
  */
 
@@ -99,11 +99,11 @@ function render() {
 
 function viewMap(root) {
   const head = el('div', 'view-head');
-  head.append(el('h1', null, 'Albanian Roots & Families'));
+  head.append(el('h1', null, 'Albanian Vocabulary Course'));
   const main = state.index.filter((l) => !l.extended);
   const extra = state.index.filter((l) => l.extended);
-  head.append(el('p', 'sub', main.length + ' levels, ordered by how common a root is.'));
-  head.append(el('p', 'sub', 'Learn the root, then the family of words built on it.'));
+  head.append(el('p', 'sub', main.length + ' levels, ordered by how common a word is.'));
+  head.append(el('p', 'sub', 'Learn the common words first, then the words built from them.'));
   root.append(head);
 
   const total = state.index.filter(inScope).reduce((a, l) => a + l.word_count, 0);
@@ -137,7 +137,7 @@ function levelGrid(levels) {
     const b = el('button', 'level-chip');
     b.type = 'button';
     b.append(el('span', 'lvl-num', String(l.level)));
-    // The root IS the level's identity, so it leads the chip; the word count
+    // The base word IS the level's identity, so it leads the chip; the word count
     // is secondary. "të, e, në +1" is meaningful, "3 fam" is not.
     b.append(el('span', 'lvl-root', l.title || String(l.level)));
     b.append(el('span', 'lvl-meta', l.word_count + 'w'));
@@ -166,7 +166,7 @@ async function openLevel(n) {
   }
 }
 
-/* ------------------------------------------------------- family lesson */
+/* ---------------------------------------------------- word group lesson */
 
 function viewLevel(root) {
   const data = state.studyLevel;
@@ -179,8 +179,8 @@ function viewLevel(root) {
   const bits = data.unit
     ? ['Unit ' + data.unit + ' \u00b7 ' + data.situation, data.word_count + ' items']
     : [data.word_count + ' words',
-       data.families.length + ' famil' + (data.families.length === 1 ? 'y' : 'ies')];
-  if (data.root && data.root_gloss) bits.push('root ' + data.root + ' \u2014 ' + data.root_gloss);
+       data.families.length + ' group' + (data.families.length === 1 ? '' : 's')];
+  if (data.root && data.root_gloss) bits.push('base ' + data.root + ' \u2014 ' + data.root_gloss);
   if (data.parts > 1) bits.push('part ' + data.part + ' of ' + data.parts);
   head.append(el('p', 'sub', bits.join(' \u00b7 ')));
   root.append(head);
@@ -188,7 +188,7 @@ function viewLevel(root) {
   for (const n of data.notes || []) root.append(noteBox(n));
 
   // A Conversation Core level is a lesson in a fixed order, not a set of
-  // word families: one list, then the unit's dialogue on its last level.
+  // word groups: one list, then the unit's dialogue on its last level.
   if (data.unit) {
     const card = el('section', 'family');
     for (const w of data.words) card.append(wordRow(w));
@@ -302,10 +302,10 @@ function dialogueBox(data) {
 }
 
 /* The source-language form, e.g. "from Latin soca".
-   This is the historical equivalent of the component line: a kanji learner
-   sees 日 in 明, an Albanian learner sees soca in shokë. Rendered on the
-   revealed side only -- it is a memory hook for the answer, not a clue
-   for the prompt. Returns null when the etymology named no form. */
+   A learner who already knows Latin, Greek or English gets a free association
+   from every borrowed word: soca in shokë. Rendered on the revealed side only
+   -- it is a memory hook for the answer, not a clue for the prompt. Returns
+   null when the etymology named no form. */
 function cognateLine(w) {
   const c = w && w.cognate;
   if (!c) return null;

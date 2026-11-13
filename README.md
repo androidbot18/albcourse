@@ -2,17 +2,17 @@
 
 -----------------THIS IS EXPLORATORY AND NOT FINAL OR A FINISHED PRODUCT----------------------------
 
-A spaced-repetition Albanian course built the way a kanji course is built: around
-**roots and word families** rather than around characters.
+A spaced-repetition Albanian course that teaches the words you actually need, in
+an order you can follow: the common ones first, then the words built from them.
 
 You already know how Albanian is pronounced and how it is written. What is
-missing is the *morphology* - the fact that so many words are one root wearing
-different clothes. This course teaches them together: the root, then everything
-built on it, then the descendants.
+missing is *vocabulary* - the fact that so much of the language is a small set
+of everyday words wearing different clothes. This course teaches them in
+frequency order, with each word's example sentence and etymology attached.
 
 **The course now opens with the Conversation Core** (`CONVERSATION_PLAN.md`,
 steps 1-3): 1,000 dictionary words and 157 phrases in 52 units ordered by
-situation, before the roots-and-families course begins. Steps 4-6 of that
+situation, before the rest of the course begins. Steps 4-6 of that
 plan (native-speaker review export, typed and gap-fill exercises) are still
 to do.
 
@@ -25,8 +25,8 @@ is a deliberate decision, not an oversight - see `PLAN.md`.
 |---|---|
 | Cards | 4,072 (3,915 words, 157 phrases) |
 | Levels | 658: the 168-level Conversation Core, 116 more main-course levels, then 374 optional extended levels |
-| Word families | 3,373 |
-| Families with more than one member | 408 |
+| Word groups | 3,373 |
+| Groups with more than one member | 408 |
 | Words containing ë / ç | 1,689 |
 | Cards with an example sentence | 3,569 (87.6%) |
 | Words with a cognate hook | 125 |
@@ -38,7 +38,7 @@ rebuilt twice. They now come from `data/words.json`; check with
 Levels 1-168 are the **Conversation Core**: 52 units of about twenty items,
 ordered by situation (hello and goodbye, introductions, numbers and money,
 the café, shopping, directions, time, family, home, health, weather, the
-phone, opinions), not by word family or subtitle frequency. It is
+phone, opinions), not by word group or subtitle frequency. It is
 hand-written in `tools/core/*.txt` and read by `tools/conversation_core.py`,
 and the build refuses to run unless:
 
@@ -64,7 +64,7 @@ words: `pra` (*so*), `ndonjë` (*any*), `sikur`, `vërtet`, `sigurisht`,
 `tools/added_words.py`, each with a reviewed gloss, example and forms. The
 build refuses an entry that would shadow a real Wiktionary card.
 
-After the core, levels are ordered by when a word family's root becomes
+After the core, levels are ordered by when a word group's base word becomes
 common enough to teach, with grammar words held back and some pictureable
 nouns pulled forward. That part is an approximation, not a hand-built
 curriculum. The Review tab follows level order, then the order each level
@@ -80,30 +80,29 @@ inflected form of a taught word as known, and 60.9% by exact form
 after the learner turns the track on from the level map. See
 RECOMMENDATIONS.md section 3.6.
 
-A level is a **session of whole word families**, not a frequency slice:
+A level is a **session of related words**, not a frequency slice:
 
-* A family is taught together: a root and its everyday derivations unlock
+* A group is taught together: a base word and its everyday derivations unlock
   in the same session, so a level teaches a word group rather than an
   arbitrary slice of the frequency list.
-* Root first, tail later: a family's rare members (rank above 1,200) do not
-  ride the root into an early session. They come back as their own level,
+* Base word first, tail later: a group's rare members (rank above 1,200) do not
+  ride the base word into an early session. They come back as their own level,
   "do (rarer words)", once the course reaches their frequency. Before this,
   `do` (rank 4) taught `doemos` (rank 30,516) in level 2 and pushed `unë`
-  ("I") out of the first ten levels; 20 families now resume this way.
+  ("I") out of the first ten levels; 20 groups now resume this way.
 * A level holds at most 9 words, which is the ~9-items-per-level rhythm of
-  a real course. A family with more members than fit gets its own
-  sessions; a level that mixes families is the normal case after the core (461 of 490),
-  because forcing one family per level was measured and produced 3,033
+  a real course. A group with more members than fit gets its own
+  sessions; a level that mixes groups is the normal case after the core (461 of 490),
+  because forcing one group per level was measured and produced 3,033
   sessions that were 83% single words.
-* Roots unlock in frequency order: a family starts when its own root is common
+* Groups unlock in frequency order: a group starts when its own base word is common
   enough to be worth teaching, not when one of its rare derivatives surfaces.
-* 13 families have more than 9 words. The biggest are `për` (23 words),
+* 13 groups have more than 9 words. The biggest are `për` (23 words),
   `jam` (22), `kam` (14), and `dua`, `shkoj`, `vras` and `a` (13 each). A
   continuation always gets a level to itself, so a part label is never
   misleading.
 
-Levels are titled after the root they teach, the way a Wanikani level is named
-after the radical it unlocks.
+Levels are titled after the base word they teach.
 
 ### Word parts and affix patterns
 
@@ -116,13 +115,13 @@ asks you to guess the word from its parts.
 
 Eight affixes are taught as patterns (`-im`, `-je`, `-(ë)si`, `-shëm`,
 `-tar`, `pa-`, `-isht`, `-ues`), each on the level where you meet its third
-clear example. Most of the vocabulary is opaque roots and loans, so this is a
+clear example. Most of the vocabulary is opaque base words and loans, so this is a
 layer on top of the deck, not its backbone. See `tools/affixes.py` and
 RECOMMENDATIONS.md section 2.
 
-### How a word joins a family
+### How a word joins a group
 
-Family membership requires **an explicit derivation in the etymology text**,
+Membership requires **an explicit derivation in the etymology text**,
 never a spelling resemblance or a Wiktionary link alone. A derivation is a
 sentence that puts a `+` between base and affix:
 
@@ -135,10 +134,10 @@ what separates a derivation from a mere mention.
 
 Every sentence is scanned, not just the first: `esëll` names its base only in
 the third — *“Interpretible as e- + sille”* — and a first-sentence rule split it
-from its root `e`. A **comparison** is not a derivation, though. `nuk` carries
+from its base `e`. A **comparison** is not a derivation, though. `nuk` carries
 the aside *“typologically compare Latin nōn (‘not’) … (< ne + ūnus ~ ūnum)”*,
 which describes Latin, not Albanian, so that sentence is skipped and `nuk`
-stays its own root. So is a `+` that sits entirely inside parentheses.
+stays on its own. So is a `+` that sits entirely inside parentheses.
 
 This is stricter than it sounds, and deliberately so. Wiktionary's structured
 fields cannot be trusted as a derivation graph:
@@ -146,7 +145,7 @@ fields cannot be trusted as a derivation graph:
 * `parents` is extracted from the etymology text, so it picks up **English**
   gloss words. `nuk` has parents `["one", "not"]`, where that `not` is the
   English word inside *compare Latin nōn ("not")*. The old build linked on it,
-  so the negator *not, don't* sat in the same family as the noun *swim,
+  so the negator *not, don't* sat in the same group as the noun *swim,
   swimming*.
 * `derived` is a **co-occurrence** list, not a derivation graph. `bri` ("rib")
   lists `bori`, an Ottoman loan meaning *bugle*; `zbres` ("descend") lists
@@ -221,14 +220,14 @@ is the part worth reading before changing anything there.
 
 The whole course also ships as an Anki deck. The structure is preserved
 rather than flattened, because the structure is the point: **one deck per
-level, named for the root that level teaches**, and every note carries its
-root, family, family size, level and frequency rank as separate fields you can
-search and sort on.
+level, named for the base word that level teaches**, and every note carries its
+base word, group, group size, level and frequency rank as separate fields you
+can search and sort on.
 
     pip3 install -r tools/requirements.txt
     python3 tools/export_anki.py
 
-That writes dist/albanian-roots-families.apkg (658 decks, 4,072 notes; the extended track's decks are named
+That writes dist/albanian-vocabulary.apkg (658 decks, 4,072 notes; the extended track's decks are named
 "Albanian extended L..."). It is
 gitignored because it is a build artifact; regenerate it any time.
 

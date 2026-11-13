@@ -1,9 +1,9 @@
-# Cognate layer: the learning hook a kanji radical would provide.
+# Cognate layer: the learning hook an etymology provides.
 #
 # A learner who already knows Latin, Greek or English gets a free association
 # from every borrowed word: lloj < Greek logi, kafe < Turkish kahve,
-# telefon < Greek tele + phone. That is the closest thing Albanian has to a
-# kanji radical, and it was sitting unused behind a bare class label.
+# telefon < Greek tele + phone. That is a real memory hook for a borrowed
+# word, and it was sitting unused behind a bare class label.
 #
 # Two corrections worth recording, both from the review that proposed this:
 #

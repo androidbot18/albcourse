@@ -25,8 +25,8 @@ step python3 tools/test_derivations.py
 
 echo
 echo "== prerequisite ordering =="
-# A word's lexical stem must unlock no later than the word itself, the way a
-# kanji's component precedes the kanji. Residual violations are allowed only
+# A word's lexical stem must unlock no later than the word itself. Residual
+# violations are allowed only
 # for mutual borrowings (dalengadale <-> ngadale) that no order can satisfy.
 step python3 tools/test_prereq.py
 
